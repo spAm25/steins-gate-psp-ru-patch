@@ -236,7 +236,7 @@ void BinFile::Process(const string & name)
     SplitSections();
     MapPointers();
     AdjustStrings();
-    PrintEndSequence();
+    //PrintEndSequence();
 
     filepath = string() + ATLAS_OUT_DIR + "/data-section1/" + binName + ".BIN";
     WriteSection1(filepath);
@@ -382,7 +382,31 @@ void BinFile::AdjustStrings()
 
 void BinFile::PrintEndSequence()
 {
-    const vector<uint8_t> lastString = pointerTable.back().adjustedString;
+    // Don't worry about this piece of code. It's useless now
+    vector<uint8_t> lastString;
+
+    size_t szPointers = pointerTable.size();
+
+    for (size_t i = 0; i < szPointers; i++)
+    {
+        vector<uint8_t>::iterator endpoint;
+        vector<uint8_t> str;
+
+        if (i + 1 < szPointers)
+        {
+            endpoint = section2.begin() + pointerTable[i + 1].stringAddress - splitAddress;
+        }
+        else
+        {
+            endpoint = section2.end();
+        }
+
+        lastString = vector<uint8_t>(
+            section2.begin() + pointerTable[i].stringAddress - splitAddress,
+            endpoint
+        );
+    }
+
     // TODO: TEMPORARY, REMOVE ONCE ALL <FILEEND> BYTE SEQUENCES ARE GATHERED
     cout << "END SEQUENCE: ";
     for(size_t i = 0; i < lastString.size(); i++)

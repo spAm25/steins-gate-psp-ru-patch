@@ -1,0 +1,39 @@
+#VAR(Table, TABLE)
+#ADDTBL("..\encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 32)
+#JMP($00000508)
+
+#WRITE(PTR, $000002E2)
+ＥＸＴＲＡの
+<LINE>
+%CFCFC8【ＣＬＥＡＲ ＬＩＳＴ】%CE
+<LINE>
+が使用可能になりました。
+<END2>
+
+#WRITE(PTR, $00000302)
+ＥＸＴＲＡの
+<LINE>
+%CFCFC8【ＣＧ ＬＩＢＲＡＲＹ】%CE
+<LINE>
+が使用可能になりました。
+<END2>
+
+#WRITE(PTR, $00000322)
+ＥＸＴＲＡの
+<LINE>
+%CFCFC8【ＳＯＵＮＤ ＬＩＢＲＡＲＹ】%CE
+<LINE>
+が使用可能になりました。
+<END2>
+
+#WRITE(PTR, $00000342)
+ＥＸＴＲＡの
+<LINE>
+%CFCFC8【ＭＯＶＩＥ ＬＩＢＲＡＲＹ】%CE
+<LINE>
+が使用可能になりました。
+<FILEENDB6>
+
