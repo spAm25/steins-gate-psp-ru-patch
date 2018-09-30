@@ -1,9 +1,57 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($00000508)
+
+#WRITE(PTR, $00000010)
+【因果律のメルト】エンド
+<END2>
+
+#WRITE(PTR, $00000012)
+【透明のスターダスト】エンド
+<END2>
+
+#WRITE(PTR, $00000014)
+【背徳と再生のリンク】エンド
+<END2>
+
+#WRITE(PTR, $00000016)
+【不可逆のリブート】エンド
+<END2>
+
+#WRITE(PTR, $00000018)
+【分離喪失のジャメヴュ】エンド
+<END2>
+
+#WRITE(PTR, $0000001A)
+【境界面上のシュタインズゲート】エンド
+<END2>
+
+#WRITE(PTR, $0000001C)
+%CF8FF8【因果律のメルト】エンド%CE
+<END2>
+
+#WRITE(PTR, $0000001E)
+%CF8FF8【透明のスターダスト】エンド%CE
+<END2>
+
+#WRITE(PTR, $00000020)
+%CF8FF8【背徳と再生のリンク】エンド%CE
+<END2>
+
+#WRITE(PTR, $00000022)
+%CF8FF8【不可逆のリブート】エンド%CE
+<END2>
+
+#WRITE(PTR, $00000024)
+%CF8FF8【分離喪失のジャメヴュ】エンド%CE
+<END2>
+
+#WRITE(PTR, $00000026)
+%CF8FF8【境界面上のシュタインズゲート】エンド%CE
+<END2>
 
 #WRITE(PTR, $000002E2)
 ＥＸＴＲＡの

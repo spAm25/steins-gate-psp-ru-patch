@@ -1,8 +1,8 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($00004A4E)
 
 #WRITE(PTR, $000004B8)

@@ -1,5 +1,5 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
 #CREATEPTR(PTR, "LINEAR", 0, 32)

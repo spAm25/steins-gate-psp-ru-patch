@@ -1,8 +1,8 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($00002D7C)
 
 #WRITE(PTR, $00000804)
@@ -245,7 +245,7 @@
 【鈴羽】「ど、どこ？」
 <END>
 
-#WRITE(PTR, $000012E0)
+#WRITE(PTR, $000012D3)
 まゆり以外の全員が、間抜けにもキョロキョロと周囲を見回してしまった。
 <END>
 

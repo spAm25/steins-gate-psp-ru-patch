@@ -23,7 +23,7 @@
  *
  * Now onto the specs. Like I said, there are no original scripts
  * for Cartographer that I could use for dumping. So naturally I
- * had to use my own coding skilld to reinvent the wheel.
+ * had to use my own coding skills to reinvent the wheel.
  *
  * Meet the Topographer.
  *
@@ -51,9 +51,9 @@
  * that sizes are adjusted to fit data in the best way possible.
  *
  * Onto the BIN files themselves. I think of them as of two big Sections.
- * Section 1 is the part that is usualle referred to as "Pointer Table",
+ * Section 1 is the part that is usually referred to as "Pointer Table",
  * so that's how I'm calling it. Section 2 is a string section. Each
- * string is null-terminated (end in 0x00).
+ * string is null-terminated (ends in 0x00).
  *
  * To programmatically split the BIN file into two Sections I define
  * a splitAddress. It is the address right after of the last sequence
@@ -63,8 +63,8 @@
  *
  * So how are strings mapped between both Sections? That's where the
  * available Atlas script from GitHub come in. They were enough to
- * decode a general pattern. We are interested in finding the corelation
- * of begging of string in Section 2 with how are they "called" in
+ * decode a general pattern. We are interested in finding the correlation
+ * of beginning of string in Section 2 with how are they "called" in
  * Section 1.
  *
  * Lets define some terminology so it makes sense:
@@ -82,7 +82,7 @@
  * a 0x00 of the previous string). Lets say the String Address is 0xABCD. Flip
  * the bytes around, basically changing endianness. It'll become 0xCDAB or a
  * sequence "0xCD 0xAB", that's the Lookup Sequence. Look for that sequence in
- * the BIN file. The address where that sequence is found is Pointer Address
+ * the Section 1. The address where that sequence is found is Pointer Address
  * used in Atlas scripts.
  *
  * So yeah, that's how the pointer tables are mapped in the Steins;Gate PSP.
@@ -103,14 +103,20 @@
  * El Psy Kongroo.
  */
 
-// Folder where the original BIN files are located
+// Where the original BIN files are located
 #define ORIGINAL_DATA_DIR "original-data"
 
-// Folder to which output the Atlas scripts
+// Where Atlas scripts will be generated to
 #define ATLAS_OUT_DIR "patch-atlas"
 
-// Table that raltes ShiftJIS and UTF8 together
+// Table that relates ShiftJIS and UTF8 together
 #define RULE_TABLE "encoding.tbl"
+
+// Where Atlas-compiled BINs will be stored
+#define PATCH_FINAL_DIR "patch-final"
+
+// Where Section 1 of every BIN file will be dumped
+#define SECTION1_DIR "data-section1"
 
 #include <string>
 #include <iostream>
@@ -118,11 +124,6 @@
 #include <vector>
 #include <algorithm>
 #include <experimental/filesystem>
-#include <termios.h>
-#include <sstream>
-#include <cctype>
-#include <locale>
-#include <unistd.h>
 #include <iomanip>
 
 using namespace std;
@@ -141,7 +142,7 @@ void trim(string & s);
 //   them. For example, in most cases the entire Section 2
 //   consists only of <FILEEND> sequence (like a bunch of zeroes)
 const vector<string> BIN_FILES = {
-    "CLRFLG", "DATA", "DBG00", "DBG02", "DBG03", "DICT", "DMENU", "DMENU2",
+    "CLRFLG", "DATA", "DBG00", "DBG02", "DBG03", "DICT", "DMENU", "DMENU2" ,
     "DMENU4", "DMENU5", "DMENU6", "MAIN00", "SG00_01", "SG01_01", "SG01_02", "SG01_03",
     "SG01_04", "SG01_05", "SG01_06", "SG01_07", "SG01_08", "SG01_09", "SG01_10", "SG01_11",
     "SG01_12", "SG01_13", "SG02_01", "SG02_02", "SG02_03", "SG02_05", "SG02_06", "SG02_07",
@@ -165,6 +166,13 @@ const vector<string> BIN_FILES = {
     "SG10_02", "SG10_03", "SG10_04", "SG10_05M", "SG10_06M", "SG10_07M", "SG10_08M", "SG10_09M",
     "SG10_10C", "SG10_11C", "SG10_12C", "SG11_01", "SG11_02", "SG11_03", "SG11_04", "SG11_05",
     "SG11_06", "SG11_07", "SG11_08"
+};
+
+// Sizes of pointers in number of bits
+enum PointerSize
+{
+    psz16b = 16,
+    psz32b = 32,
 };
 
 // Replaces original bytes with replacement bytes
@@ -211,7 +219,7 @@ struct BinFile
     vector<uint8_t> section2;
     vector<Pointer> pointerTable;
 
-    uint32_t pointerLookupOffset= 0;
+    PointerSize psz = psz16b;
 
     void Process(const string & name);
     void Load(const string & filepath);
@@ -238,7 +246,7 @@ void BinFile::Process(const string & name)
     AdjustStrings();
     //PrintEndSequence();
 
-    filepath = string() + ATLAS_OUT_DIR + "/data-section1/" + binName + ".BIN";
+    filepath = string() + ATLAS_OUT_DIR + "/" + SECTION1_DIR + "/" + binName + ".BIN";
     WriteSection1(filepath);
 
     filepath = string() + ATLAS_OUT_DIR + "/" + binName + ".txt";
@@ -312,31 +320,59 @@ void BinFile::MapPointers()
 
     for(size_t i = 0; i < section2.size(); i++)
     {
-        // Got to the end of string, do the lookup of the previously
-        //   recorded offset+  splitAddress
-        if (section2[i] == 0x00)
+        // Go to the end of string
+        if (section2[i] != 0x00)
         {
-            // Look for the address that contains current
-            //  splitAddress + offset in the reverse order
-            uint32_t stringAddress = splitAddress + offset;
-            uint32_t lookupSequence = FlipBytes(stringAddress);
-            uint32_t pointerAddress = LookupPointer(lookupSequence);
+           continue;
+        }
 
-            // If pointer address exists then save it as a valid
-            //   pointer
-            if (pointerAddress != 0) {
-                pointerTable.push_back({
-                    pointerAddress,
-                    lookupSequence,
-                    stringAddress,
-                });
-            }
+        /*
+        cout << "string found at 0x" << hex << uppercase<< (int)(offset + splitAddress) << dec
+             << "---" << (int)i << "|" << (int)offset<< endl;
+        */
 
-            offset = i + 1;
+        // Got to the end of string, do the lookup of the previously
+        //   recorded offset + splitAddress
+        uint32_t stringAddress = splitAddress + offset;
+
+        // Adjust the number of bits per pointer
+        if (psz == psz16b && stringAddress >= 0xFFFF)
+        {
+            psz = psz32b;
+        }
+
+        // Look for the address that contains current
+        //   splitAddress + offset in the reverse order
+        uint32_t lookupSequence = FlipBytes(stringAddress);
+        uint32_t pointerAddress = LookupPointer(lookupSequence);
+
+        // At this point no matter if address is found or not
+        //   I want this to be set to the beginning of the
+        //   next string
+        offset = i + 1;
+
+        // If Pointer Address exists
+        if (pointerAddress == 0)
+        {
+            continue;
+        }
+
+        // AND if the string it corresponds to is more than a byte ahead
+        //   of the previous stringAddress then save the Pointer Address
+        // Yes, this extremely overcomplicated, but it is the only way for me to deal
+        //   with occurances of several 0x00 bytes in a row. Just trust me that it
+        //   works
+        if (pointerTable.size() == 0 || pointerTable.back().stringAddress + 1 < stringAddress)
+        {
+            pointerTable.push_back({
+                pointerAddress,
+                lookupSequence,
+                stringAddress,
+            });
         }
     }
 
-    cout << "\tTotal of " << pointerTable.size() << " pointers" << endl;
+    cout << "\tTotal of " << dec << pointerTable.size() << " pointers" << endl;
     cout << "\tString Address range from 0x"
          << hex << uppercase << pointerTable.front().stringAddress
          << nouppercase << " to 0x" << uppercase
@@ -380,9 +416,10 @@ void BinFile::AdjustStrings()
     }
 }
 
+// Don't worry about this piece of code. It's useless now
 void BinFile::PrintEndSequence()
 {
-    // Don't worry about this piece of code. It's useless now
+
     vector<uint8_t> lastString;
 
     size_t szPointers = pointerTable.size();
@@ -434,10 +471,10 @@ void BinFile::WriteAtlas(const string & filepath)
 
     // Header of the Atlas file
     file << "#VAR(Table, TABLE)" << endl
-         << "#ADDTBL(\"..\\encoding.tbl\", Table)" << endl
+         << "#ADDTBL(\"encoding.tbl\", Table)" << endl
          << "#ACTIVETBL(Table)" << endl
          << "#VAR(PTR, CUSTOMPOINTER)" << endl
-         << "#CREATEPTR(PTR, \"LINEAR\", 0, 32)" << endl
+         << "#CREATEPTR(PTR, \"LINEAR\", 0, " << (int)psz << ")" << endl
          << "#JMP($" << hex << uppercase << setfill('0') << setw(8)
             << splitAddress << ")" << endl
          << endl;
@@ -463,26 +500,50 @@ uint32_t BinFile::LookupPointer(uint32_t lookupSequence)
     // Look for the Lookup Sequence in Section 1. This is done
     //   with the step of 2 (i+=2) to omptimize the lookup, since
     //   all Pointer Addresses are even
-    // Also using pointerLookupOffset to optimize the lookup.
-    //   All pointer addresses are found in the ascending order, so
-    //   it is safe to do so
-    for(size_t i = pointerLookupOffset; i < section1.size(); i+=2)
-    {
-        // Check if four bytes are the same as the pointer address
-        uint32_t pointerCheck =
-            (section1[i] << 24) |
-            (section1[i + 1] << 16) |
-            (section1[i + 2] << 8) |
-            (section1[i + 3] << 0);
+    uint8_t b1 = ((lookupSequence >> 0) & 0xFF);  // 1st byte from right
+    uint8_t b2 = ((lookupSequence >> 8) & 0xFF);  // ...
+    uint8_t b3 = ((lookupSequence >> 16) & 0xFF); // ...
+    uint8_t b4 = ((lookupSequence >> 24) & 0xFF); // 4th
 
-        // Found the pointer, return its address
-        if (pointerCheck == lookupSequence)
+    /*
+    cout << hex << uppercase
+    << (int)b4 << " " <<(int)b3
+    << " " <<(int)b2
+    << " " <<(int)b1 << endl;
+    */
+
+    // Lookup pointers starting from the last found pointer
+    size_t i = (pointerTable.size() > 0) ? (pointerTable.back().address) : 0;
+    for(; i < section1.size(); i++)
+    {
+        // Instantly skip if we are at the end of the Section 1
+        if ((psz == psz16b && i + 2 >= section1.size()) ||
+            (psz == psz32b && i + 4 >= section1.size()))
         {
-            // Apply optimizations that any further lookups will
-            //  be performed starting from this address
-            pointerLookupOffset = i;
-            return i;
+            continue;
         }
+
+        // Perform a byte-by-byte search to check that searchFor can be
+        //   found in searchIn
+
+        // b4 and b3 are always present
+        if (b4 != section1[i] || b3 != section1[i + 1])
+        {
+            continue;
+        }
+
+        // b2 and b1 are only checked when I have pointers with a size
+        //   of 23 bits
+        if (psz == psz32b)
+        {
+            if(b2 != section1[i + 2] && b1 != section1[i + 3])
+            {
+                continue;
+            }
+        }
+
+        // Found the correct pointer
+        return i;
     }
 
     return 0;
@@ -533,9 +594,10 @@ void RuleTable::Load()
             continue;
         }
 
-        // Ignore lines that don't have a rule
+        // Ignore lines that don't have a rule, OR where '=' is the
+        //   last character in the line
         size_t pos = line.find('=');
-        if (pos == string::npos)
+        if (pos == string::npos || pos == line.size())
         {
             continue;
         }
@@ -639,6 +701,50 @@ void RuleTable::Sanitize(const vector<uint8_t> & input, vector<uint8_t> & output
     InsertNewLine(output);
 }
 
+void GenerateScripts()
+{
+    ofstream file("atlas-compile.bat");
+
+    file << "rmdir /s /q " << PATCH_FINAL_DIR << endl;
+    file << "xcopy /s /e /y " << ATLAS_OUT_DIR << "\\" << SECTION1_DIR << "\\* "
+         << PATCH_FINAL_DIR << "\\" << endl;
+
+    for(size_t i = 0; i < BIN_FILES.size(); i++)
+    {
+        file << "Atlas.exe "
+             << PATCH_FINAL_DIR << "\\" << BIN_FILES[i] << ".BIN "
+             << ATLAS_OUT_DIR << "\\" << BIN_FILES[i] << ".txt"
+             << endl;
+    }
+
+    file << "pause" << endl;
+
+    file.close();
+
+    file.open("patch-final-check-hash.sh");
+    file << "#!/bin/bash" << endl
+         << "declare -a BIN_FILES=(";
+
+    for(size_t i = 0; i < BIN_FILES.size(); i++)
+    {
+        file << "\"" << BIN_FILES[i] << "\" ";
+    }
+
+    file << ")" << endl
+         << "for i in \"${BIN_FILES[@]}\"" << endl
+         << "do" << endl
+         << "    hashOrig=`md5sum original-data/$i.BIN | awk '{ print $1 }'`" << endl
+         << "    hashFinal=`md5sum patch-final/$i.BIN | awk '{ print $1 }'`" << endl
+         << "    if [ \"$hashOrig\" == \"$hashFinal\" ]; then" << endl
+         << "        echo \"Hash $hashOrig for $i is valid\"" << endl
+         << "    else" << endl
+         << "        echo \"Hashes $hashOrig and $hashFinal for $i aren't valid\"" << endl
+         << "    fi" << endl
+         << "done" << endl;
+
+    file.close();
+}
+
 int main()
 {
     ruleTable.Load();
@@ -646,6 +752,10 @@ int main()
     // Remove any previous Atlas scripts
     remove_all(ATLAS_OUT_DIR);
     create_directory(ATLAS_OUT_DIR);
+
+    // Also remove anything related to the "final-patch", just so
+    //   there are no conflicts
+    remove_all(PATCH_FINAL_DIR);
 
     // Create directory for storing BIN files that only have
     //   Section 1, so that Atlas then can use them to build
@@ -658,6 +768,9 @@ int main()
         BinFile bf;
         bf.Process(file);
     }
+
+    // Will generate bat file that will be able to compile all BIN files
+    GenerateScripts();
 
     return 0;
 }

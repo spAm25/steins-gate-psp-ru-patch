@@ -1,11 +1,11 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($00000C92)
 
-#WRITE(PTR, $000002AE)
+#WRITE(PTR, $000000E0)
 ラボに戻るなり、紅莉栖をベンチ前に連れ出した。
 <END>
 

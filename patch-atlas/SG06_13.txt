@@ -1,8 +1,8 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($00000B64)
 
 #WRITE(PTR, $0000025E)
@@ -211,5 +211,15 @@
 
 #WRITE(PTR, $000009A6)
 紅莉栖も帰ろうとしていたのを、こっそり引き留めた。
-<FILEEND82>
+<END>
+
+#WRITE(PTR, $00000ABB)
+4<DUMMY>
+<DUMMY>
+<DUMMY>
+<DUMMY>
+<DUMMY>
+<DUMMY>
+<DUMMY>
+<END2>
 

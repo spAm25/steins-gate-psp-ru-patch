@@ -1,8 +1,8 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($00002DDC)
 
 #WRITE(PTR, $00000254)
@@ -37,7 +37,7 @@
 【まゆり】「ねぇねぇ、明後日のコミマ、るかちゃんとオカリンで、コスプレカップルとして出てみようって思ったりしないかなー？」
 <END>
 
-#WRITE(PTR, $0000045A)
+#WRITE(PTR, $000003E1)
 【まゆり】「オカリンからもね、カレシとして、るかちゃんを説得してほしいなー」
 <END>
 

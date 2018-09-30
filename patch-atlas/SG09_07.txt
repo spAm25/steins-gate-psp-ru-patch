@@ -1,8 +1,8 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($00005434)
 
 #WRITE(PTR, $000001F4)
@@ -445,7 +445,7 @@
 ちゃんと２人分あった。
 <END>
 
-#WRITE(PTR, $00002774)
+#WRITE(PTR, $000026DB)
 【倫太郎】「もしかして差し入れか？」
 <END>
 

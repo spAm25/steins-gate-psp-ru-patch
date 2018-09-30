@@ -1,8 +1,8 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($00004358)
 
 #WRITE(PTR, $000007E4)
@@ -381,7 +381,7 @@
 そして話を逸らすことにも成功した。まゆりは食べ物の話ならばたいてい食いつくからな。誘導はたやすいのだ、フゥーハハハ！
 <END>
 
-#WRITE(PTR, $00002764)
+#WRITE(PTR, $00002751)
 【至】「もうすぐなんだよ……ＳＱＬのテーブル一覧さえ手に入れれば、パスワード特定余裕なんだよ……ぐへへ……僕をナメんな……」
 <END>
 

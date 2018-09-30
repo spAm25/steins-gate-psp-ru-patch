@@ -1,8 +1,8 @@
 #VAR(Table, TABLE)
-#ADDTBL("..\encoding.tbl", Table)
+#ADDTBL("encoding.tbl", Table)
 #ACTIVETBL(Table)
 #VAR(PTR, CUSTOMPOINTER)
-#CREATEPTR(PTR, "LINEAR", 0, 32)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
 #JMP($000008C0)
 
 #WRITE(PTR, $00000220)
@@ -113,7 +113,7 @@
 対抗意識を燃やしている……？
 <END>
 
-#WRITE(PTR, $0000049C)
+#WRITE(PTR, $00000423)
 俺はため息をつくと、窓際に歩み寄った。
 <END>
 
