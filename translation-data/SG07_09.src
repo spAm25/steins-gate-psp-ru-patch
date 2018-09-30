@@ -1,0 +1,1064 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG25A
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG25A
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM53ST
+#call macrosys2,WAIT_BGM57NL_HALF
+#mes RaiNet Kakeru's theme song plays throughout the hall、 signaling the start of the finals.%p
+#mes A certain kind of solemn atmosphere.%p
+#mes The tension of the crowd peaks as its voltage reaches a climax.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#mes2v JIK_0000,NO_CHARACTER,VID_ETC,＠Announcer＠「Thanks for waiting、 everyone!  Very soon、 we will start the finals and see once and for all、 who is the RaiNet Access Battlers Grand Champion!」%p
+#mes2v JIK_0001,NO_CHARACTER,VID_ETC,＠Announcer＠「These two teams are about to clash-!」%p
+#mes2v JIK_0002,NO_CHARACTER,VID_ETC,＠Announcer＠「First is our queen、 last tournament's defending champion! The 'Moe Maid in Cat'!」%p
+#mes2v JIK_0003,NO_CHARACTER,VID_ETC,＠Announcer＠「Fariiiiis! Nyaaaaannyaan!」%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25AB1
+//#assign $W(LR_TMP00),BG25AB1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BSA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5FACE),Face_FEI_A02
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#playSE 1,SGSE100L,true
+#mes Faris makes her entrance、 greeted by loud cheering.%p
+#mes She courteously smiles and waves her hands to the audience.%p
+#mes Her popularity is a perfect fit for a queen.%p
+#mes By the way、 she's not wearing the sunglasses I gave her.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+//#assign $W(LR_TMP00),BG25A
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SyncBNO
+#call macrosys2,CHECK_RM_CRS_ENABLE
+#label L_SG07_09_RM_MAY07_04_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_MAY
+#assign $W(LR_RM_CHANCE),44
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v JIK_0004,NO_CHARACTER,VID_ETC,＠Announcer＠「Facing her、 the dark horse appearing this year like a comet、 the dark peacock!」%p
+#label L_SG07_08_RM_CRS07_05_RECEIVE_STA
+#flagOffJump LF_RM_CRS_ENABLE,@f
+#call macrosys2,SetUp_RM_CRS07_05
+#assign $W(LR_RM_CHANCE),88
+#label @@
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v JIK_0005,NO_CHARACTER,VID_ETC,＠Announcer＠「The ones who won their first matches despite troubles like no-show opponents、 the 'Black Absolute Zero'!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v JIK_0006,NO_CHARACTER,VID_ETC,＠Announcer＠「The Viraaaaal! Attackeeeeers!」%p
+#messWindowCloseWait
+#playSE 1,SGSE099L,true
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25AB2
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SDO_DSA
+#assign $W(SW_CHA6POSX),CHR_RIGHT0
+#assign $W(SW_CHA6FACE),Face_SDO_A01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#assign $W(LR_LIP_SDO),(BUF6|BUF2)
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The Viral Attackers consist of 4℃ and some short guy with the same black fashion fetish.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I couldn't see them as anything other than trolls you'd find in Ikebukuro.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I sit within the excited audience、 bewildered at the atmosphere.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Sitting next to me、 Daru taps my shoulder.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1072,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Okarin、 cheer for Faris-tan too-!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3553,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「yeah...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Disregarding my anxiety、 Daru stands up、 stretches out his body、 and waves his hands.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v KNA_0000,NO_CHARACTER,VID_ETC,＠Spectator　Ａ＠「Faris-ta-n!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v KNB_0000,NO_CHARACTER,VID_ETC,＠Spectator　Ｂ＠「Fari-s! I love you-!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v KNC_0000,NO_CHARACTER,VID_ETC,＠Spectator　Ｃ＠「Moe moe-!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Several cameras flash around Faris.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25AB1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BSA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0257,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Everyone-、 I'm gonna give it my all today、 so cheer me on、 nya-n♪」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris' voice resounds around the hall through the mic.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes It looks like they gave the winning RaiNetters mics so that the entire audience could hear what they say. By the way、 the opponents、 the Viral Attackers also have mics.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BSB
+#assign $W(SW_CHA5FACE),Face_FEI_B02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0258,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Ehehehe. Service shot nyan♪」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris gives an impish smile as she poses like a gravure idol、 turning to the audience.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#call macrosys,Qua2BG1
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Whoooooooooooooooooooooooooah-!%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The entire hall shakes in commotion.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris' popularity is overwhelming.%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ALA
+#assign $W(SW_CHA7PRI),$W(SW_CHA6PRI)
+#assign $W(SW_CHA7POSX),CHR_RIGHT_L
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp72
+#call macrosys2,CHECK_RM_RECEIVE
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_DAR_01
+#mes2v DAR_1073,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It came-! It's here! Faris! It's me-! Marry me-!」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I've completely lost Daru.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I wonder if Faris will be alright.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Though、 based on that fanservice、 it looks like she's fine.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I call out to Daru once the cheering settles down.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3554,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 how come Faris is all alone yet there are two Viral Attackers?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1074,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wait、 Okarin、 you don't know that?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I'm not quite familiar with the rules to RaiNet Access Battlers. I had Daru teach me the rules before the finals started、 but that was just the basics.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1075,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The championship's originally a two man tag-team battle. But since nobody's worthy to be Faris-tan's duel partner、 she goes alone.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1076,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「There's an obvious advantage with two people、 but it's so cool she won the winter championships despite that、 isn't it? That's what's so mind-numbingly attractive about her-」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3555,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「These Viral Attackers、 what sort of team are they?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1077,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ummm. I don't know all the details、 but it seems they're a pretty aggressive team.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1078,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But more than that、 I hear suspicious rumors about them.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1079,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「They have a lot of followers. They don't mind using those followers to interfere with their opponents during duels.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1080,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「About half the teams they faced in the championships did not finish.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1081,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Not just that、 it's also said that they frequently appear in Akiba and Ikebukuro to hunt down otaku.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1082,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Anyway、 they're really hated among RaiNetters.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3556,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why haven't those guys been disqualified?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_1083,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 that's 'cause there's no evidence. Since RaiNetters are mostly kids and ota. When threatened by such black guys、 they get scared and say nothing.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The Viral Attackers、 huh....%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris said she lost because of their interference.%p
+#flagOnJump LF_RM_CRS_ENABLE,@f
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#jump @@f
+#label @@
+#call macrosys2,CHECK_RM_RECEIVE
+#label @@
+#mes But if she has the sunglasses and earplugs I gave her、 she should be able to win.%p
+#label L_SG07_09_RM_MAY07_04_RECEIVE_END
+#label L_SG07_09_RM_MAY07_04_REPLY_END
+#flagOnJump LF_RM_CRS_ENABLE,@f
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#RandomMail_End
+#jump @@f
+#label @@
+#call macrosys2,CHECK_RM_RECEIVE
+#label @@
+#mes And if she wins、 she said that she might remember the D-mail she sent.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I'll be in trouble if Faris doesn't win.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Because Mayuri's life depends on it.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Please-- Faris!%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25AB3
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BSA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5POSY),430
+#assign $W(SW_CHA5SIZEX),600
+#assign $W(SW_CHA5SIZEY),600
+#assign $W(SW_CHA5FACE),Face_FEI_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Heralded by thunderous cheers、 Faris rises to the stage.%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SDO_DSA
+#assign $W(SW_CHA6POSX),320
+#assign $W(SW_CHA6POSY),(CH_PY_DEF+70)
+#assign $W(SW_CHA6SIZEX),600
+#assign $W(SW_CHA6SIZEY),600
+#assign $W(SW_CHA6FACE),Face_SDO_A01
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Her opponent is 4℃ of course.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes He faces Faris on the other side of the Circuit Mat.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3557,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How do you fight as a two-man tag team?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1084,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In a word、 consultation. It's harder for the opponent to read pieces moved by two minds.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Meaning the partner is completely a support role、 huh.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_1085,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 don't worry. Since it's Faris-tan、 she can instantly beat the daylights outta these trolls.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v JIK_0007,NO_CHARACTER,VID_ETC,＠Announcer＠「Both parties、 are you ready?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The referee gathers Faris and the Viral twosome for the coin toss to decide the first turn.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v JIK_0008,NO_CHARACTER,VID_ETC,＠Announcer＠「And now、 for the RaiNet Access Battlers Grand Championship Finals──」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes 一For one moment、 the noisy assembly hall was wrapped in silence──%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Everyone held their breath in anticipation──%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v JIK_0009,NO_CHARACTER,VID_ETC,＠Announcer＠「Duel Access!」%p
+#playSE 1,SGSE100L,true
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The shout to commence the game.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Cheers shake the floor immediately following.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 1
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM17
+#messWindowCloseWait
+#setEVFlag 99
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes First up is Faris.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The huge monitor hanging from the ceiling displayed the Circuit Mat-- the thing that looks like a chessboard.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes All of the cards glittered and sparkled.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The monitor was oriented so that you could see what was written on the cards.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes But you couldn't decipher the contents of the cards from the image on the monitor.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes According to Daru's explanation、 the most important thing for RaiNet Access Battlers is psychological tactics、 like reading your opponent's hand.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes You have 4 Link Cards and 4 Virus Cards、 for a total of 8 cards in your hand.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The victory conditions are complex、 but in short、 you win if you get 4 Link Cards or if your opponent takes 4 Virus Cards.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes As soon as the game startsy、 you try to see through what sort of card your opponent uses.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Then you read the placement of their cards、 and shift the game to your advantage.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes So whether you attack or defend、 you need to be cautious about how you use each card in your hand.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Meaning the purpose of Duel Partners is to make it hard for the opponent to read your thoughts.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Each time a Link Card or a Virus Card gets opened、 and each time a card passes the area called the Server、 the assembly hall is nearly swept up in a tsunami.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Thinking about it this way、 I understand how amazing Faris must be to become champion despite fighting alone.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The audience watches、 holding their breath at attention.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I don't really know this game、 but if I had to say、 then it looks like the Viral guys are attacking.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3558,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What sort of strategy does Faris use...?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1086,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Faris-tan is a slow starter I guess. She spends the first half stressing the importance of reading her opponent's cards、 so she's pretty careful.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1087,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「And instead、 she suddenly reverses things at endgame.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_1088,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Looks like she's using that strategy now too、 huh?」%p
+#messWindowCloseWait
+#setEVFlag 99
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes But contrary to Daru's expectations、 Faris charges onto enemy grounds with the Line Boost card.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The Virals oppose、 undaunted.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes They mutually restrain each other with the Line Boost equipment card.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The first one to move was unexpectedly Faris.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She snatched the unprepared Virals' card using the Line Boost equipment card.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v DAR_1089,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Now、 what's it gonna be...」%p
+#label L_SG07_09_RM_CRS07_05_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes She won't know if the card she snatched was a Link Card or a Virus Card unless she opens it.%p
+#mes The card Faris snatched is──%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#playSE 1,SGSE096L,true
+#mes2v DAR_1090,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Uggeh-!」%p
+#mes2v OKA_3559,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What happened!?」%p
+#mes2v DAR_1091,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Of all things、 she took a Virus Card...」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_1092,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's unusual for Faris-tan to attack from the beginning. Maybe she changed her strategy for the finals to be cautious enough for the Virals.」%p
+#messWindowCloseWait
+#setEVFlag 100
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v SDO_0028,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Pff、 looks like our pussy champ is frightened of the heavy rock wings of me、 the black peacock. I can see your impatience.」%p
+#mes2v SDO_0029,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Your cowardly pussy shivering is clearly reflected on my fallen angel eyes.」%p
+#mes2v SDO_0030,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「You made it look like you changed your strategy、 but that was a fake. My elegant evil heart whispers so.」%p
+#mes2v SDO_0031,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「I've done my research on you、 Pussy. You don't attack at the beginning. You think cautiously.」%p
+#mes2v SDO_0032,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「You can't shock my mind when I already understand all that.」%p
+#mes2v SDO_0033,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Just now、 that isolated card you attacked with is no doubt a Virus Card. You're thinking it would be lucky if I took it. Right?」%p
+#mes2v FEI_0259,NO_LIPANM_FEI,VID_FEI,＠Faris＠「…………」%p
+#mes2v SDO_0034,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「This black nobleman felt a red alarm、 awakening wild instinct. So you suddenly changed strategies、 tempting our blackness、 huh?」%p
+#mes2v SDO_0035,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「But it's too late. Such tricks without a fragment of elegance won't stain our blackness.」%p
+#mes2v SDO_0036,$W(LR_LIP_SDO),VID_ETC,＠4℃＠「And that is because the Viral Attackers are Black Justice. The usurpers of RaiNet. The rebellion against this fickle &rsassembly hall&rt"Sanctuary"&re.」%p
+#label L_SG07_09_RM_CRS07_05_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#assign $W(LR_POST_SCREEN),(IDX_BG2|IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v OKA_3560,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「At any rate、 he really talks、 huh...」%p
+#mes And completely unintelligibly at that.%p
+#mes2v DAR_1093,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Virals shaddap...」%p
+#mes The luminance Faris had when giving the audience service shots had disappeared. No reaction at all to 4℃'s unabashed provocation.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_1094,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But putting that sort of pressure on your opponent is also pretty important in RaiNet.」%p
+#mes2v DAR_1095,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「How much does your opponent shake? You can use that to read the placement of their cards.」%p
+#mes2v OKA_3561,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...This is an unexpectedly bloodthirsty game、 isn't it?」%p
+#mes2v DAR_1096,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Actually、 RaiNet is more popular with adults than kids. Even the anime is designed for kids、 but the story's going down a pretty hard route.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_1097,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「And Kirari-chan is super erotic.」%p
+#mes Like I'd know、 you ＨＥＮＴＡＩ.%p
+#messWindowCloseWait
+#setEVFlag 100
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes Not more than three minutes has passed since the start of the duel、 and Faris is already grimacing.%p
+#mes And she's shaking her body left and right as if she doesn't like something.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v OKA_3562,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 a laser beam!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_1098,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Eh? What?」%p
+#mes2v OKA_3563,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Look near Faris' eye! A red beam is...!」%p
+#mes It was done in such short intervals that it would be hard for a bystander to notice.%p
+#mes But there certainly was a red beam aiming for Faris' eye.%p
+#mes2v DAR_1099,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...Seriously?」%p
+#mes Daru stares.%p
+#mes But he quickly tilts his head.%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ALA
+#assign $W(SW_CHA7PRI),$W(SW_CHA6PRI)
+#assign $W(SW_CHA7POSX),$W(SW_CHA6POSX)
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDisp72
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_DAR_02
+#mes2v DAR_1100,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「No good、 I can't tell. But if what Okarin saw is true、 then someone from the audience is interfering! I won't forgive those Virals!」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_3564,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why won't the referee stop them!?」%p
+#mes2v DAR_1101,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「They might be timing it so that the referee doesn't see...」%p
+#mes It's such a huge hall. I can't fully grasp how far apart the Viral underlings are spread、 or where they're aiming from.%p
+#mes I see、 this is why Faris asked me to get her sunglasses before I time leaped...!%p
+#mes Faris、 put on your sunglasses...!%p
+#mes I try calling to her in my heart、 but it's not like it'll reach her up on stage.%p
+#mes I grind my teeth and get up.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_1102,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hey、 Okarin、 where are you going!?」%p
+#mes2v OKA_3565,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll search for those Viral underlings. I'll put a stop to their interference...!」%p
+#mes2v DAR_1103,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Can you even find them with this many people!?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I ignore Daru and weave my way out of spectators engrossed in the duel.%p
+#mes The game keeps advancing moment by moment.%p
+#messWindowCloseWait
+#setEVFlag 100
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes Faris takes the card she used for her first attack、 and instead of turning it to the enemy line、 returns it to her own to fortify her defense.%p
+#mes The Virals start attacking her in waves.%p
+#mes They equip a card with "Line Boost"-- allowing it to move twice as normal、 move it twice、 and then unequip it. Then they equip Line Boost to another card and move that.%p
+#mes Using that method、 they aim to attack in waves with several cards.%p
+#mes To some extent、 it felt like a sacrifice.%p
+#mes And of course、 the cards the Virals attacked with were a mix of Link Cards and Virus Cards.%p
+#mes Faris also has to take her opponents' cards to endure the their wave attacks、 but if they're Virus Cards、 that puts her at more and more of a disadvantage.%p
+#mes It didn't seem like Faris could calm down against 4℃'s gratuitous unpleasant smiling. The laser attacks really must be getting to her.%p
+#mes And then、 in desperation、 she makes a move from her hand.%p
+#playSE 1,SGSE095L,true
+#mes Bewildered voices spread through the hall.%p
+#mes2v SDO_0037,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Heyheyhey」%p
+#mes2v SDO_0038,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「That fucking cat got scared of my elegant evil charisma aura and forgot about her cool heart、 huh.」%p
+#mes2v SDO_0039,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Who would've thought the champion would make such an amateur move?」%p
+#mes2v FEI_0260,NO_LIPANM_FEI,VID_FEI,＠Faris＠「…………」%p
+#mes Amateur move...?%p
+#mes I was wandering about the audience searching for the Viral underlings、 but got worried too、 so I look up at the monitor.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes The Virals' position was at the Server entrance.%p
+#mes One of Faris' pieces had invaded there.%p
+#mes But I guess the Viral side used a Viral Checker to see if that card was a Virus Card or not.%p
+#mes Both Link Cards and Virus Cards can go through the enemy's Server.%p
+#mes Properly speaking、 cards that get into the Server aren't required to be opened、 meaning your opponent can hide what got into the server.%p
+#mes But for some reason、 Faris broke into the server with a card revealed to be a Virus.%p
+#mes She can't trick her opponent like that.%p
+#mes And Faris had already taken a total of 3 Virus Cards.%p
+#mes If she gets one more Virus Card、 she'll lose、 so the Virus Card in question can't break through either.%p
+#mes Certainly a mysterious move....%p
+#mes Was the laser beam interference breaking her concentration after all?%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25AB2
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SDO_DSA
+#assign $W(SW_CHA6POSX),CHR_RIGHT0
+#assign $W(SW_CHA6FACE),Face_SDO_A01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v SDO_0040,$W(LR_LIP_SDO),VID_ETC,＠4℃＠「Let this elegant evil storyteller、 4℃、 make a jet black proclamation.」%p
+#mes2v SDO_0041,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Pussy、 in just a few minutes、 I will demote you to former champion.」%p
+#mes2v SDO_0042,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Ff、 hahahaha」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes And、 as if summoned by 4℃'s laugh、 one part of the audience also raises a vulgar laugh.%p
+#mes They're the Viral underlings.%p
+#mes I take an educated guess、 and hurry through the audience to where they are.%p
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#playSE 1,SGSE097L,true
+#mes Booing flies out of the audience.%p
+#mes They really do hate the Virals.%p
+#mes But Faris doesn't object to 4℃'s provocation.%p
+#mes She just bites her lip and closes her eyes.%p
+#mes She should've put on the sunglasses....%p
+#mes She's going to lose because of her cute-only policy.%p
+#mes Or possibly──%p
+#mes Maybe it's not possible to change the result that Faris loses.%p
+#mes Maybe it will converge to the same result due to Attractor Field Theory.%p
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#playSE 1,SGSE096L,true
+#mes The hall stirs again.%p
+#mes The Virals had snatched Faris' Link Card.%p
+#mes Now they have two of them.%p
+#mes I can feel it in my skin.%p
+#mes ──With each passing moment、 Faris becomes more likely to lose.%p
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#mes At that moment、 I finally find men wearing black clothing similar to 4℃ in the audience.%p
+#mes One is secretly holding something in his hand、 pointing it to the stage.%p
+#mes The laser beam was that guy's...!%p
+#mes I quickly grab his wrist.%p
+#mes2v VFC_0000,NO_CHARACTER,VID_ETC,＠Viral　Attacker　Ｃ＠「Wh-who are you!?」%p
+#mes2v OKA_3566,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's enough. I won't let you interfere with Faris...!」%p
+#mes2v VFC_0001,NO_CHARACTER,VID_ETC,＠Viral　Attacker　Ｃ＠「Why you...!」%p
+#mes2v OKA_3567,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't move...! If you move、 I'll shoot.」%p
+#mes2v VFC_0002,NO_CHARACTER,VID_ETC,＠Viral　Attacker　Ｃ＠「...!?」%p
+#mes I thrust something into the Viral underling's side. It's the usual Future Gadget No.1: Bit Particle Gun.%p
+#mes I remembered this bluff worked with Moeka in a previous world line、 so I brought it just in case.%p
+#mes The underling stopped moving at a loss for breath、 probably because he didn't expect to be held at gunpoint.%p
+#mes Using that opening、 I snatch the laser pointer out of his hand.%p
+#mes Right as I snatch it、 I disappear into the crowd.%p
+#mes The underling tried to shower me with insults、 but he was surrounded by people and gave up.%p
+#mes Alright、 I snatched the laser.%p
+#mes Now Faris can focus on the game!%p
+#playSE 1,SGSE096L,true
+#mes I hear something like a shriek among the spectators.%p
+#mes 4℃ had snatched another one of Faris' Link Cards.%p
+#mes That's the third one. The Virals have reached uno.%p
+#messWindowCloseWait
+#setEVFlag 100
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v SDO_0043,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Too weak、 pussy. You're so bad because you flirted with the system. You should leave that vomit inducing getup for a mirror.」%p
+#mes2v SDO_0044,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「All of your fans are just otaku neckbeards who wanna do you. Are you really happy to be supported by those sorts of people?」%p
+#mes Faris still doesn't respond.%p
+#mes She hasn't said a word since the match started.%p
+#mes There's no more interference、 so Faris should show us a reversal now──%p
+#mes With feelings like prayer、 I watch Faris' face.%p
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#mes And when I do、 Faris turns her face away again as if running from something.%p
+#mes2v OKA_3568,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What...!?」%p
+#mes Another laser beam...!?%p
+#mes Don't tell me more underlings have lasers!?%p
+#mes2v SDO_0045,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Champion、 there's no life in your eyes.」%p
+#mes2v SDO_0046,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「No matter what you say about reading your opponent's mind、 that's nothing but an elegant evil cowardly cheap trick、 isn't it?」%p
+#mes What? Is that so...?%p
+#mes2v SDO_0047,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Basically、 ya ain't human. You're an ugly angel. 'Cause you peek into the heart of any poor sap who talks to you.」%p
+#mes2v SDO_0048,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Be careful everyone、 don't get close! If you do、 this pussy will grab your every secret!」%p
+#mes2v SDO_0049,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「And then she'll blackmail you with those secrets. 'Hand over your money'? Or 'Throw your RaiNet match'? What's your demand!?」%p
+#playSE 1,SGSE095L,true
+#mes The spectators start to murmur.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes If Faris had that sort of ability、 then she really would be good at RaiNet.%p
+#mes For an instant、 my pretentious hipster bullshit trait starts billowing up、 but I force it down.%p
+#mes Faris has a special ability──%p
+#mes It's hard to believe、 but if she really did have it、%p
+#mes Then that would explain why she hated the laser beam attacks that much.%p
+#mes It would also explain why her moves this match weren't clear.%p
+#mes2v OKA_3569,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Faris...!」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#messWindowCloseWait
+#setEVFlag 100
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v FEI_0261,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「...ctory」%p
+#mes2v SDO_0050,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Ah? What did you say?」%p
+#mes2v FEI_0262,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「...Change Directory. Using it nya.」%p
+#playSE 1,SGSE095L,true
+#mes Change Directory is a special type of card called a Terminal Card.%p
+#mes Usable only once per game、 it lets you exchange the places of two of your own pieces. Of course、 you can also choose to pretend to exchange them.%p
+#mes And at the same time、 the Virus Card exposed through via Virus Checker becomes flipped once again.%p
+#mes I see...!%p
+#mes With this、 she can replace that Virus Card that was just about to enter her opponent's Server!%p
+#mes Just as expected、 Faris exchanged that virus card and the card that 4℃ had chased around with with his fortified card. Or she pretended to exchange them.%p
+#mes Now nobody knows which card is the Link Card and which is the Virus Card except for Faris.%p
+#mes A pretty interesting ploy.%p
+#mes But──%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25AB2
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SDO_DSA
+#assign $W(SW_CHA6POSX),CHR_RIGHT0
+#assign $W(SW_CHA6FACE),Face_SDO_A01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes The two Viral Attackers consult each other in a whisper. Once that's over、 4℃ returns to the Circuit Mat、 grinning.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#setEVFlag 100
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v SDO_0051,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「You trying to pull our heartstrings、 huh? What a boring move. Was that your huge reversal plan?」%p
+#mes2v SDO_0052,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「But I am the black peacock. Captor of every woman、 the RaiNetter Realm's elegant evil new generation.」%p
+#mes2v SDO_0053,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「My cool black brain can easily see through that.」%p
+#mes2v SDO_0054,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Rather、 that was your complete mistake、 Champion.」%p
+#mes After one turn、 4℃ will snatch Faris' piece that could break through his Server、 using his own adjoining piece、 without any hesitation.%p
+#playSE 1,SGSE096L,true
+#mes2v SDO_0055,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Hmf、 my total Virus Card count is still just 2. Even if I take one more Virus Card、 it won't clip these jet black wings of mine.」%p
+#mes2v SDO_0056,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「But if I take one more Link Card、 then it's the End of Grand Cross for you.」%p
+#mes2v SDO_0057,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「And then、 that card you're using to fortify your position──」%p
+#mes2v SDO_0058,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Will become the opening、 the card which I will attack using the Line Boost equipment.」%p
+#mes2v SDO_0059,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「I said it before、 but it's not possible that our scaredy-cat would let an isolated Link Card just wander.」%p
+#mes2v SDO_0060,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Basically、 Champion、 with my elegant evil skills of deduction、 you exchanged the location of your Link Card! Heh!」%p
+#mes2v SDO_0061,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「So、 without having to check、 these black peacock's sexual eyes can already see my elegant victory、 and the contents of your crazy card!」%p
+#mes2v SDO_0062,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「You exchanged one Virus and one Link.」%p
+#mes2v SDO_0063,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Meaning if we just take both、 victory belongs to us black noblemen.」%p
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#playSE 1,SGSE096L,true
+#mes Is that... true!?%p
+#mes If the card 4℃ takes now is a Link Card、 then he wins.%p
+#mes Even if it's a Virus Card、 he still has one more before it would decide the game.%p
+#mes It's going to end without Faris demonstrating any of her power....%p
+#mes2v SDO_0064,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Card Open!」%p
+#mes And the card displayed on the monitor was──%p
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 1
+#mes2v JIK_0010,$W(LR_LIP_SDO),VID_ETC,＠Announcer＠「A Virus Card-!」%p
+#messWindowCloseWait
+#playSE 0,SGSE098
+#call macrosys,SEwaitHalf
+#mes Is this what it feels like to do something for someone?%p
+#mes The Viral side's acquired cards are three Link Cards and three Virus Cards. They reached uno for both.%p
+#mes But just as 4℃ said、 that doesn't matter.%p
+#mes Faris only has two cards left.%p
+#mes And 4℃ already knows which is the Link Card and which is the Virus Card.%p
+#mes Faris' Link Card is surrounded by the Virals' cards.%p
+#mes There's nowhere to run.%p
+#mes Does this mean Faris will lose?%p
+#mes No way.%p
+#mes Is there no sound advice....%p
+#mes Gh、 can't think of any.%p
+#mes2v SDO_0065,NO_CHARACTER,VID_ETC,＠４℃＠「The End. The end of this world's RaiNet century is dyed black.」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25AB2
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SDO_DSA
+#assign $W(SW_CHA6POSX),CHR_RIGHT0
+#assign $W(SW_CHA6FACE),Face_SDO_A01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes 4℃ spreads both hands and slightly lifts his chin up、 posing as if in ecstasy.%p
+#mes His hair disheveled as he shook his head. It really stunk.%p
+#mes I clench my fists.%p
+#mes If it's come to this、 all I can do is time leap again and get Faris to wear the sunglasses──%p
+#mes2v SDO_0066,$W(LR_LIP_SDO),VID_ETC,＠4℃＠「The Black Revelations have been fulfilled. The pussy champ has fallen from grace to a former champ. We、 the Viral Attackers、 are raising the curtain to the highest、 grandest、 most sexy new generation and──」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#setEVFlag 99
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X04A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v FEI_0263,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「What are you misunderstanding、 nya?」%p
+#mes2v SDO_0067,NO_CHARACTER,VID_ETC,＠４℃＠「Ah...?」%p
+#mes2v FEI_0264,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「This match isn't over yet nya!」%p
+#mes Faris is back to her normal speech...!%p
+#mes Moreover、 she has a daring smile on her face.%p
+#mes That's not the face of a RaiNetter in front of certain defeat.%p
+#mes And then Faris.%p
+#mes Unplugs both of her ears.%p
+#mes Wait、 her ears were plugged...!?%p
+#mes Isn't that what I gave her this morning!?%p
+#mes If she plugged her ears、 why didn't she wear the sunglasses?%p
+#mes Don't tell me she dared not?%p
+#mes Just why? Was it to leave the opponent unprepared?%p
+#mes2v SDO_0068,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「Wh-what dreamy words are you saying? The match is already decided. You're just pawing at the ground.」%p
+#mes2v FEI_0265,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「That card you took from Faris. Did you double check it nya?」%p
+#mes2v SDO_0069,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「...No way.」%p
+#mes No way...!%p
+#mes Was the card he just took not a Link Card...!?%p
+#mes2v SDO_0070,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「N-no fucking way! That can't be! There's no way such bullshit can happen!」%p
+#mes2v SDO_0071,$W(LR_LIP_SDO),VID_ETC,＠4℃＠「There's no way you would do something so disadvantageous as to change a Virus Card with a Virus Card using Change Directory──」%p
+#mes2v FEI_0266,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Just turn over the card already and see nya♪」%p
+#mes 4℃ slowly flips the card he took from Faris.%p
+#mes Everyone in the audience held their breath as they watched to see what that card was.%p
+#mes And then、 displayed on the monitor──%p
+#mes2v JIK_0011,NO_CHARACTER,VID_ETC,＠Announcer＠「What! The card that we had thought was a Link Card!」%p
+#mes2v SDO_0072,$W(LR_LIP_SDO),VID_ETC,＠４℃＠「V-v-virus Card!!?」%p
+#playSE 1,SGSE101L,true
+#mes2v JIK_0012,NO_CHARACTER,VID_ETC,＠Announcer＠「IT'S! A! HUGE! TURNABOOOOOUT!!」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes Yeah...!%p
+#mes She... really turned things around...!%p
+#mes As if she had expected everything.%p
+#mes As if she had everything rolling in the palm of her hand.%p
+#mes Everyone lost themselves in excitement.%p
+#mes Huge、 huge waves resounded through the hall.%p
+#mes2v JIK_0013,NO_CHARACTER,VID_ETC,＠Announcer＠「WINNER、 Fariiiis、 Nyaaannyan! A splendid second successive victory! Congratulatioooons!」%p
+#mes Shouts of joy became boiling waves、 quaking the entire assembly hall.%p
+#mes I'm also intoxicated by the huge turnabout、 sharing the joy with Daru.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#assign $W(LR_LIP_SDO),0
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_DAR_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM3500
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_DAR_02
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM1500
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_FEI_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM1500
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

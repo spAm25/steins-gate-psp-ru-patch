@@ -1,0 +1,402 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG17A
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG17A
+#call macrosys,TUNE_CHACOL_BGNO
+#wait 16
+#assign $W(SW_SE2VOL),SV_FAR
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE095L,true
+#call macrosys,FadeInVERY2SLOW
+#setFlag SF_PhoneSD_Disp
+#mes The next day、 Mayuri and I go to Radio Center.%p
+#mes The memo we have lists a catalog of all the parts we should buy.%p
+#mes Kurisu designated everything.%p
+#mes Things necessary to upgrade the Microwave Ophone (Temp) from a device which can send mails across time to a time leap device. I'm paying the bill.%p
+#label L_SG05_06_RM_CRS05_01_RECEIVE_STA
+#call macrosys2,SetUp_RM_CRS05_01
+#assign $W(LR_RM_CHANCE),17
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Kurisu has already started work on the Microwave Ophone (Temp)'s improvements with Daru's help.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Data conversion of nerve impulses from the temporal lobe (hippocampus).%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes It looks like that will require the software developed by Kurisu and her joint researchers.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Kurisu can download that from a dedicated server.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes But that's not the only requirement.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes According to Kurisu、 we need to make the headgear for searching the brain's nerve impulses ourselves. So we're going shopping for those parts.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Incidentally、 while we shop、 Mayuri frequently disappears、 so I have to be extra attentive.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes As to where she disappears to、 she simply squats down in front of a shop she gets interested in and endlessly stares at parts.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She won't match my pace、 so I'd turn around and panic when I suddenly couldn't find her.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes And each time、 I'd get stuck with returning to the hall to search for her.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I almost feel like the father of a lost child.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Well、 Mayuri was always like this.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2476,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Stick with me、 I'm begging you. If you lose your path in this labyrinth、 you'll most likely be unable to leave by your own strength.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0658,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yup、 okidokey-. I'll be careful.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0659,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 Okarin. How are time leaping and time traveling different-?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I wonder if she's seriously heeding my warning.%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes Besides that、 Kurisu already explained the difference between them yesterday.%p
+#label L_SG05_06_RM_CRS05_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes2v OKA_2477,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Time traveling takes your entire body across time. Time leaping takes only your memories across time. You can think of it like that.」%p
+#mes But to the very end、 only memories、 without consciousness or personality、 are transferred.%p
+#mes Kurisu said that consciousness... is an unknown concept.%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#copyBG 1,5
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v MAY_0660,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hmmm、 I see.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v MAY_0661,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Well、 in that case、 are the abilities of D-mails and time leaps different-?」%p
+#mes2v OKA_2478,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「D-mails could only send 'directions' into the past. The past may change、 or it may not. Its success rate is unknown、 and depends on the recipient.」%p
+#mes2v OKA_2479,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And in the case the past does change、 everyone loses their memories of what happened before the change. Because the world line gets reconfigured.」%p
+#mes Everyone except for me and my Reading Steiner that is.%p
+#mes2v OKA_2480,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「With a time leap、 on the other hand、 you're able to pour all of your memories into your own brain one week ago、 for example... or at least、 you should be able to.」%p
+#mes The details depend on experimental results、 though.%p
+#label L_SG05_06_RM_CRS05_01_REPLEY_END
+#RandomMail_End
+#mes2v MAY_0662,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ummm、 for example、 could I send a costume I'm making one week into the past-? If Mayushii got another week before ComiMa、 it would be a huge victory、 or something like that.」%p
+#mes2v OKA_2481,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That might be possible with time travel、 but it's not with time leaping.」%p
+#mes2v OKA_2482,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you knew the answers to a test two days ago、 you can go back and retake the test. But you can't go back two days with a filled out answer sheet.」%p
+#mes2v MAY_0663,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Then、 will Mayushii's consciousness go inside the Mayushii one week ago?」%p
+#mes2v OKA_2483,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Exactly.」%p
+#mes While answering Mayuri's questions、 I stare at Kurisu's memo、 and go purchase the designated parts.%p
+#label L_SG05_06_RM_CRS05_02_RECEIVE_STA
+#call macrosys2,SetUp_RM_CRS05_02
+#assign $W(LR_RM_CHANCE),38
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0664,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You can't bring objects with you、 but you can bring your memories、 huh-. I see-」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0665,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But but、 in that case、 where does the Mayushii inside the Mayushii one week ago go?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2484,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Isn't she overwritten?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes We haven't tested it out、 so I'm not sure、 though.%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0666,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「She disappears-?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2485,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even if she does disappear、 your memories one week ago and your current memories are continuous. Even if your memories are overwritten、 nothing really happens to your memories before that week.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2486,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I guess you could say you're just adding your memories from one week in the future.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0667,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Then、 then、 if Mayushii's memories leap into the Mayushii one week ago、 what happens to Mayushii's current body?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Mayuri's thinking some very philosophical things、 huh.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes But these questions are all natural questions after all.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0668,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Even if Mayushii's memories go pewwwww one week into the past、 Okarin's right here、 right? From Okarin's perspective、 what happens to Mayushii when her consciousness leaps-?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2487,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You become an empty shell..... No、 wait、 that's not it. That shouldn't be it.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2488,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What Assistant's trying to do is save memories as data.... So basically、 it's nothing but a backup. It's not like all of your memories are being extracted from your brain as data.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes So none of the memories inside the brain are lost.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes You won't become an empty shell.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes And it's not like personality or consciousness are transferred.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2489,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 you shouldn't become an empty shell since your consciousness doesn't leap.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes ...No wait、 that's not the problem in the first place.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2490,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Anyway、 after you go back one week、 you'll re-experience that week、 so you'll end up here、 won't you?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Most likely、 nobody、 including me、 would recognize that fact.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0669,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Then、 will the Mayushii who experienced the week before time leaping be erased by the Mayushii who time leaped and repeated that week-?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes ...This is getting complicated.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2491,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's right. Erased. I guess you should say redone. You can completely retrace your steps、 or you could take completely different actions.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2492,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And you'll end up keeping your old memories of the first erased week.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0670,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So then、 so then」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Mayuri keeps asking me questions with all her might.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She's optimistically frantic trying to understand.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0671,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What if、 after going back a week、 Mayushii doesn't go to the lab today、 but instead goes out to play with her school friends in Ikebukuro?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0672,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Even though Mayushii's talking with Okarin now.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2493,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Since the past would change、 the present would change too、 right? The fact that you and I are talking like this should be negated.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0673,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hmmm. So、 Okarin wouldn't recognize it、 then-?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2494,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah. That's right.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0674,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Then that's kinda lonely、 huh.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2495,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「For me?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0675,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「No. For Mayushii.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I don't really understand.%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0676,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Maybe that's why Chris-chan said it's not good to change the past〜」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She agrees with herself and starts smiling.%p
+#label L_SG05_06_RM_CRS05_02_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#label L_SG05_06_RM_CRS05_02_REPLY_END
+#RandomMail_End
+#resetFlag SF_CHA5DISP
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0677,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 hey hey hey. Can you time leap into the future-?」%p
+#mes2v OKA_2496,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Maybe you can、 but there's no real point.」%p
+#mes That's the conclusion Kurisu and I came to yesterday.%p
+#mes Since you're sending your memories from now to overwrite the memories at your destination.%p
+#mes If you sent your memories one week into the future、 then that one week of future from now will be all be a blank....%p
+#mes2v OKA_2497,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The time leaping we're going to do is a demonstration of the true value of sending things to the past.」%p
+#mes2v OKA_2498,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And you're less likely to reach the future than you are the past.」%p
+#mes2v OKA_2499,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can remember things about the past、 but the future is unpredictable.」%p
+#mes2v OKA_2500,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「For example、 Mayuri、 do you think you'll keep the same phone number and cellphone for all eternity?」%p
+#resetFlag SF_CHA5DISP
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0678,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...I don't know-. Ehhehe-」%p
+#mes2v OKA_2501,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's basically what it is.」%p
+#resetFlag SF_CHA5DISP
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v OKA_2502,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Also、 just like how pagers became obsolete with the advent of cellphones、 the cellphone may one day be replaced by some other new personal electronic device that explodes in popularity.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes What's necessary for Kurisu's proposed cellphone time leap%p
+#mes is that you must address it to yourself using your own cellphone and phone number.%p
+#mes She considers that to be the best way to ensure any problems are localized.%p
+#mes The problem is the true form of the lifter's substitute.%p
+#mes Unless we figure it out、 we can't fire up the discharge phenomenon whenever we feel like it、 and the Microwave Ophone (Temp) can't be completed as the Time Leap Machine.%p
+#mes But on the other hand、 as long as we do find it、 there's no need to regulate the electron injection amount like SERN does.%p
+#mes I'm exhilarated.%p
+#mes The Microwave Ophone (Temp) is evolving ever further.%p
+#mes And this time、 we can truly outdo SERN.%p
+#mes Time travel will become a reality.%p
+#mes I want to experience it as soon as possible.%p
+#mes I can't help my heart's thirst for chaos.%p
+#mes I'm about to laugh out loud any moment now、 so I consciously tighten my expression.%p
+#mes It's already been more than a week since we sent the first D-mail. Though I did get a threat mail、 I'm not worried that fearsome black suits will come.%p
+#mes According to Daru、 SERN hasn't found out about our hacking either.%p
+#mes The next problem will probably be when we time leap.%p
+#mes We need to borrow the LHC to super compress the binary data of an entire human's memory.%p
+#mes If we do that、 then there's a high probability that SERN will find out about our existence.%p
+#mes How would we deal with that?%p
+#mes We need to think beforehand.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v MAY_0679,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see-. Then Mayushii can't leap to her elementary school days either、 huh-. 'Cause she didn't have a cellphone back then.」%p
+#mes Mayuri's still talking about that.%p
+#mes2v OKA_2503,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You want to go back to your elementary school days?」%p
+#mes2v OKA_2504,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hehehe、 I know that feeling. If you repeat elementary school with the knowledge you have now、 you'll most likely get the top grades in school、 and you'll easily handle your relationships too.」%p
+#mes2v MAY_0680,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yeah、 and also、 I thought maybe I could meet Granny again-」%p
+#mes2v OKA_2505,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I see. That was a shame、 huh.」%p
+#mes Mayuri's grandmother passed away when Mayuri was in elementary school.%p
+#mes2v MAY_0681,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mm-、 it was a shame、 but it's not like I wanted to meet her no matter what、 you know-?」%p
+#mes2v MAY_0682,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii still clearly remembers Granny's words、 her smile、 and her wrinkly hand that would stroke Mayushii's head.」%p
+#mes2v MAY_0683,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So I'm fine even if I don't go try to meet her-」%p
+#resetFlag SF_CHA5DISP
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0684,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「More importantly、 I'd want to meet that time's Okarin again too. Ehhehe-」%p
+#mes2v OKA_2506,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Hmph、 at that time、 I was already complete as a mad scientist、 a human distinctly separate from the rest of those brats.」%p
+#mes2v OKA_2507,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I fully understand your desire to meet the genius elementary student who exudes such an aura of fear and would one day become the mad scientist、 Hououin Kyouma.」%p
+#resetFlag SF_CHA5DISP
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0685,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I don't want to meet Hououin Whatshisface; I want to meet Okarin-」%p
+#label L_SG05_06_RM_CRS05_03_RECEIVE_STA
+#call macrosys2,Check_READ_RM_CRS05_02_A
+#call macrosys2,SetUp_RM_CRS05_03
+#assign $W(LR_RM_CHANCE),9
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I am Hououin Kyouma. In the past、 in the present、 and the future.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes No matter how many times I say it、 Mayuri doesn't understand.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes So I disregard Mayuri's punchline.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2508,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's just drop it. You haven't mentally grown up at all since that time、 so nothing would change if you went back to elementary school now anyway.」%p
+#resetFlag SF_CHA5DISP
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0686,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh-? That's not true. Mayushii's a real grown up now.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2509,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In how much you eat、 maybe.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes And in breast size.%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C03
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0687,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「That's not true. Mayushii's properly going up the stairs to adulthood.」%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes The stairs to adulthood、 huh.... I kind of want to hear the details、 but I don't ask since it doesn't seem like anything big.%p
+#label L_SG05_06_CRS06_03_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#label L_SG05_06_CRS06_03_REPLY_END
+#RandomMail_End
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v MAY_0688,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「More importantly-、 I think Okarin's the one who stopped growing after that time-」%p
+#mes2v OKA_2510,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's why I've said so before、 haven't I? That at that point in time、 I was already complete、 fuhahaha!」%p
+#call macrosys,CharaEraseAll
+#mes The parts shop's old man starts glaring at my loud laughter.%p
+#mes Crap、 this isn't the place to just stand and talk.%p
+#mes Let's quickly buy those parts and head back to the lab.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

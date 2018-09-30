@@ -1,0 +1,1062 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#playSE 0,SGSE058
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#setEVFlag 90
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_Z03A
+#setFlag SF_BG2DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM12
+#mes It was exactly the same.%p
+#mes Several black shadows break into the lab.%p
+#mes With movements all too quick.%p
+#mes With sharpness all too trained.%p
+#mes And with pointed guns.%p
+#mes About five men had broken in.%p
+#mes I recognize all of them.%p
+#mes Now I'm convinced.%p
+#mes I had time leaped.%p
+#mes Kurisu had pushed me to change this ridiculous present.%p
+#mes And yet I thought it was a dream、 and ruined my chance.%p
+#mes2v RNA_0006,NO_CHARACTER,VID_ETC,＠Attacker A＠「Don't move. Everyone、 hands in the air.」%p
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes Silence.%p
+#mes Standstill.%p
+#mes The intruders say no more.%p
+#mes I regret my actions these past few hours.%p
+#mes Why didn't I do anything?%p
+#mes What did I time leap for?%p
+#mes The sound of heels echoes.%p
+#mes A woman is coming up the stairs.%p
+#mes It's Kiryuu Moeka....%p
+#mes The woman who killed-- no、 who will kill Mayuri、 is coming.%p
+#messWindowCloseWait
+#setEVFlag 31
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K03B
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes2v MOE_0186,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes Everything's the same as my dream.%p
+#mes That was reality.%p
+#mes That was my future memory.%p
+#mes That was what awaited in the future.%p
+#mes2v MAY_0830,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Moeka-san? This is...?」%p
+#mes2v MOE_0187,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「We're taking the time machine.」%p
+#mes If I kill her first、 will that mean Mayuri won't die?%p
+#mes I considered the option、 but soon gave up.%p
+#mes The gunmen are more troublesome than Moeka.%p
+#mes One of them even has an AK-47.%p
+#mes The instant I resist、 he'll make beehives outta us.%p
+#mes If only Suzuha would come back a little quicker....%p
+#mes That's my wish.%p
+#mes2v MOE_0188,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Makise Kurisu、 Okabe Rintaro、 Hashida Itaru. The three of you will come with us.」%p
+#mes2v MOE_0189,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「No resistance permitted.」%p
+#mes2v MOE_0190,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Anyway、 come.」%p
+#mes2v OKA_2782,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v DAR_0876,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wh-where to?」%p
+#mes2v MOE_0191,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes No words.%p
+#mes2v CRS_1714,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'd like to at least know the reason and destination...」%p
+#mes2v MOE_0192,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Resistance is futile.」%p
+#mes2v MOE_0193,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「You have nowhere to run.」%p
+#mes2v MOE_0194,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「My comrades are already spread throughout Akihabara.」%p
+#mes2v MOE_0195,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I don't want to resort to violence.」%p
+#mes2v MOE_0196,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「The three of you、 come with us.」%p
+#mes2v CRS_1715,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why three?」%p
+#mes2v MOE_0197,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I have no intention of answering any questions.」%p
+#mes2v MOE_0198,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「All you people have to do is come with me.」%p
+#mes2v MAY_0831,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「H-hey、 Moeka-san、 you're a fellow lab mem... aren't you?」%p
+#messWindowCloseWait
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2SX_OFS,((SCR_SIZ_X/2)-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG2LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG2LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2SX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LX_OFS),0
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2LY_OFS),0
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#playSE 0,SGSE056
+#mes Moeka answers that question──%p
+#messWindowCloseWait
+#setEVFlag 32
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K03C
+#assign $W(SW_BG3SX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#setFlag SF_BG3DISP
+#assign $W(SW_BG3FADECT),0
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_NONE
+#swapBG 2,3
+#setFlag SF_BG2DISP
+#assign $W(SW_BG2PRI),PRI2_BG
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE060
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2SX_OFS,(0-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LX_OFS,(SCR_SIZ_X-$W(SW_BG2LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LY_OFS,(SCR_SIZ_Y-$W(SW_BG2LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_POS
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BG2LX),0
+#assign $W(SW_BG2LX_OFS),0
+#assign $W(SW_BG2LY),0
+#assign $W(SW_BG2LY_OFS),0
+#mes By pulling a gun out of her shirt and readying it.%p
+#mes The same──%p
+#mes2v MOE_0199,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「The reason we're having you come with u──」%p
+#mes2v MOE_0200,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Is to silence you.」%p
+#mes2v MOE_0201,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That won't change even if you refuse.」%p
+#mes2v MOE_0202,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「The three of you、 come with us.」%p
+#mes2v MOE_0203,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「If you refuse any more、 we'll make you want to come with us.」%p
+#mes Moeka slowly raises her gun hand.%p
+#mes Its muzzle points directly at──%p
+#messWindowCloseWait
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2SX_OFS,(280-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2SY_OFS,(240-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG2LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG2LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2SX),280
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BG2SY),240
+#assign $W(SW_BG2SY_OFS),0
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LX_OFS),0
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2LY_OFS),0
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#mes2v MAY_0832,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「...」%p
+#mes2v MOE_0204,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Shiina Mayuri is unnecessary.」%p
+#mes I try to stop it.%p
+#mes But my hoarse voice won't come out.%p
+#mes I just looked stupid、 spewing out air.%p
+#mes Seeking help、 I look at Kurisu.%p
+#mes Kurisu's looking at Mayuri.%p
+#mes She has a tearful face.%p
+#mes I look at Daru.%p
+#mes He's trembling.%p
+#mes He's trying to mutter something、 but his voice won't come out.%p
+#mes Someone、 stop this.%p
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01N1
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),0
+#assign $W(SW_BG1SY),0
+#assign $W(SW_BG1LX),SCR_SIZ_X
+#assign $W(SW_BG1LY),SCR_SIZ_Y
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_BMB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MOE_B03
+#call macrosys,CharaSet62
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),1
+#call macrosys,BG2_FadeOutTIM
+#mes Stop Moeka...!%p
+#messWindowCloseWait
+#resetFlag SF_BG7DISP
+#call macrosys,InitBG7
+#assign $W(SW_BG7PRI),PRI2_BG
+#assign $W(SW_BG7SX),0
+#assign $W(SW_BG7SY),0
+#assign $W(SW_BG7LX),SCR_SIZ_X
+#assign $W(SW_BG7LY),SCR_SIZ_Y
+#assign $W(SW_BG7DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_CHARA
+#assign $W(SW_EFF_CAPTURE_BUF),7
+#setFlag SF_BG7DISP
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG7SX_OFS,((SCR_SIZ_X/16)-$W(SW_BG7SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG7SY_OFS,(0-$W(SW_BG7SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG7LX_OFS,(1120-$W(SW_BG7LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG7LY_OFS,(630-$W(SW_BG7LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_BG7SX),(SCR_SIZ_X/16)
+#assign $W(SW_BG7SX_OFS),0
+#assign $W(SW_BG7SY),0
+#assign $W(SW_BG7SY_OFS),0
+#assign $W(SW_BG7LX),1120
+#assign $W(SW_BG7LX_OFS),0
+#assign $W(SW_BG7LY),630
+#assign $W(SW_BG7LY_OFS),0
+#assign $W(SW_BG7DISPMODE),BGDISPMODE_CLIP
+#mes2v MOE_0205,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...for SERN... for FB... for SERN... FB...」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_BMB
+#assign $W(SW_CHA6FACE),Face_MOE_B05
+#assign $W(LR_FADE_TIM),CHR_SLOW
+#call macrosys,CharaDisp62
+#mes Her lips close tightly.%p
+#resetFlag SF_BG7DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_CHI
+#assign $W(SW_BG2PRI),PRI_EFFECT
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK01
+#assign $W(SW_BG2MASKFADERANGE),8
+#assign $W(SW_BG2FADECT),120
+#setFlag SF_BG2DISP
+#assign $W(SW_CHA1FILTER),$W(SW_CHA2FILTER)
+#assign $W(SW_CHA2FILTER),$W(SW_CHA3FILTER)
+#call macrosys,InitBG7
+#call macrosys,CharaClr2
+#assign $W(SW_EFF_CAPTURE_PRI),0
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE061
+#mes With a dry sound.%p
+#mes Everything moves in slow motion.%p
+#mes The passage of time slows down.%p
+#messWindowCloseWait
+#assign $W(SW_MASK3PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK3ALPHA),0
+#assign $W(SW_MASK3COLOR),COL_BLACK
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK3ALPHA,BG_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK3ALPHA),256
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,CharaClrAll
+#resetFlag SF_BG1DISP
+#mes Moeka's gun.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP11,(BGFADECT_MASK_MAX-120),$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),120+$W(LR_TMP11)
+#commitAnimation
+#assign $W(SW_BG2FADECT),BGFADECT_MASK_MAX
+#mes She pulls the trigger.%p
+#messWindowCloseWait
+#setEVFlag 50
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M05A
+#assign $W(SW_BG3PRI),PRI2_BG
+#assign $W(SW_BG3SX),((SCR_SIZ_X/8)*7)
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),(SCR_SIZ_X/8)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/8)
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG3ALPHA,BG_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG3SX_OFS,(0-$W(SW_BG3SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG3SY_OFS,(0-$W(SW_BG3SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG3LX_OFS,(SCR_SIZ_X-$W(SW_BG3LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG3LY_OFS,(SCR_SIZ_Y-$W(SW_BG3LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_POS
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SX_OFS),0
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3SY_OFS),0
+#assign $W(SW_BG3LX),0
+#assign $W(SW_BG3LX_OFS),0
+#assign $W(SW_BG3LY),0
+#assign $W(SW_BG3LY_OFS),0
+#assign $W(SW_BG3FADECT),0
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_NONE
+#swapBG 2,3
+#setFlag SF_BG2DISP
+#assign $W(SW_BG2PRI),PRI2_BG
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK3PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK3ALPHA),0
+#assign $W(SW_MASK3COLOR),COL_BLACK
+#mes Bam. Blood flutters from Mayuri's forehead.%p
+#mes Warm liquid splashes onto my face.%p
+#mes I hurriedly catch Mayuri's delicate、 small body as it starts to collapse.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02N2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02N2
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Mayuri's body was like a marionette with its strings cut.%p
+#mes Her head and her limbs drooped、 powerless.%p
+#mes My nose is assaulted by the smell of gunpowder.%p
+#mes And then、 the smell of blood.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT0
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT2
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDispW5162
+#mes2v DAR_0877,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Whaaaaaaaaaaaa!」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes Daru screams while holding his head、 falling to his knees on the spot.%p
+#mes In my arms.%p
+#mes Mayuri breathes her dying breaths──%p
+#mes2v MAY_0833,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「O...kari...」%p
+#mes2v MAY_0834,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_1716,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No、 noooo...!」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,192,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),192
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM20
+#mes Died.%p
+#mes Mayuri died again.%p
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG02N2
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),350
+#assign $W(SW_BG3SY),330
+#assign $W(SW_BG3LX),640
+#assign $W(SW_BG3LY),360
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,EvOverWrite
+#call macrosys,CharaClrAll
+#mes Mayuri's face was stained red.%p
+#mes That stain soaks into my hands too.%p
+#mes Very warm.%p
+#mes Mayuri's body moves not a twitch.%p
+#mes2v MOE_0206,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I'll say it once more. The three of you、 come with us.」%p
+#mes2v MOE_0207,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「You have no more warnings.」%p
+#mes2v MOE_0208,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「If you resist、 we will kill you too.」%p
+#mes It reaches my ears.%p
+#mes I hear that voice.%p
+#mes But I don't hear those words.%p
+#mes The same.%p
+#mes I understand.%p
+#mes I let Mayuri die again.%p
+#mes Because I didn't try to believe.%p
+#mes I lay Mayuri down.%p
+#mes I'm sorry、 Mayuri.%p
+#mes I'm sorry....%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01N1
+#assign $W(SW_BG1ALPHA),0
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_BMB
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MOE_B05
+#call macrosys,CharaSet51
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2SY_OFS,(220-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2SY),220
+#assign $W(SW_BG2SY_OFS),0
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG1ALPHA_OFS,BG_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG2ALPHA_OFS,(BG_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_CHA1ALPHA_OFS,CH_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#CalcAccel SW_BG2SX_OFS,(600-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2SX),600
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BG1ALPHA),BG_ALP_MAX
+#assign $W(SW_BG1ALPHA_OFS),0
+#assign $W(SW_BG2ALPHA),0
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_CHA1ALPHA),CH_ALP_MAX
+#assign $W(SW_CHA1ALPHA_OFS),0
+#assign $W(LR_TMP00),FADE_VERYSLOW
+#call macrosys,TuneParam51
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes I stand up.%p
+#mes Even though this is the second time、 I'm overcome with hatred for Moeka.%p
+#mes I try to plop down and barrel roll to approach Moeka.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#CaptureSC 3
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02N2
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG02N2
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),520
+#assign $W(SW_BG2SY),150
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ALB
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_CRS_B05
+#call macrosys,CharaSet62
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYFAST
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v CRS_1717,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe...」%p
+#mes She grabs my arm from behind.%p
+#mes2v CRS_1718,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You can't...」%p
+#mes2v OKA_2783,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let me go!」%p
+#mes2v CRS_1719,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You can't、 you can't... they'll kill you...」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#CaptureSC 3
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,CharaClr2
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYFAST
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes Moeka's gun is now pointed to my brow.%p
+#mes Her finger is already on the trigger.%p
+#mes2v OKA_2784,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You gonna kill me too!?」%p
+#mes2v MOE_0209,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「If you resist.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v CRS_1720,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe、 please、 for now、 just obey... okay?」%p
+#mes2v CRS_1721,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「At this rate、 they'll kill you too...」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_2785,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gh...!」%p
+#mes I strongly grind my teeth and hold back my rage.%p
+#mes I see a small shadow soar.%p
+#mes It strikes Moeka's gun hand──%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_BMB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#playSE 0,SGSE070
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#playSE 0,SGSE069
+#mes2v MOE_0210,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...!?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#CaptureSC 4
+#assign $W(SW_BG4PRI),PRI2_BG
+#setFlag SF_BG4DISP
+#assign $W(SW_BG1POSX),(SCR_SIZ_X/2)
+#assign $W(SW_BG1POSY),540
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#mes Moeka drops her gun.%p
+#mes At her feet、 a small stone.%p
+#mes2v SUZ_0356,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Get down!」%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE057
+#mes2v RNB_0001,NO_CHARACTER,VID_ETC,＠Attacker B＠「Gweh!!」%p
+#messWindowCloseWait
+#setEVFlag 87
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_S11A
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#call macrosys,CharaClrAll
+#mes Appearing with the exact same timing as before I time leaped、 Suzuha knocks down the attacker standing close to the entrance.%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE066
+#mes And then her sharp movements seamlessly flow、 knocking down a second and third.%p
+#mes2v RNA_0007,NO_CHARACTER,VID_ETC,＠Attacker A＠「Why that...!?」%p
+#mes The remaining dark skinned crew cut guy tries to shoot his automatic rifle.%p
+#mes But before he can、 Suzuha snatches a stunned attackers gun and shoots him.%p
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE059L,true
+#mes2v RNA_0008,NO_CHARACTER,VID_ETC,＠Attacker A＠「Gwah!!」%p
+#mes Blood spurts out of the man's hand.%p
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE122
+#mes Without stopping、 Suzuha delivers a soaring soccer ball kick to the squatting crew cut guy's jaw.%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE015
+#mes2v MOE_0211,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That's enough.」%p
+#messWindowCloseWait
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutWhiteVeryFast
+#setEVFlag 40
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_K07A
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SX),600
+#assign $W(SW_BG2SY),170
+#assign $W(SW_BG2LX),(SCR_SIZ_X/8)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/8)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_OVERLAP1
+#assign $W(SW_BG2FADECT),0
+#setFlag SF_BG2DISP
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE060
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2FADECT,32,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2SX_OFS,(0-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2SY_OFS,(0-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LX_OFS,(SCR_SIZ_X-$W(SW_BG2LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LY_OFS,(SCR_SIZ_Y-$W(SW_BG2LY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,256,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_MASK1ALPHA),(256-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_MASK1ALPHA),0
+#assign $W(SW_BG2FADECT),32
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2SY_OFS),0
+#assign $W(SW_BG2LX),0
+#assign $W(SW_BG2LX_OFS),0
+#assign $W(SW_BG2LY),0
+#assign $W(SW_BG2LY_OFS),0
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_POS
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP11,32,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(32-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#assign $W(SW_BG2FADECT),0
+#mes2v SUZ_0357,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠「!!」%p
+#mes Moeka and Suzuha point their guns at each other.%p
+#mes A staredown.%p
+#mes Silence returns.%p
+#mes2v MOE_0212,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...who are you?」%p
+#mes2v SUZ_0358,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「42」%p
+#mes Suzuha murmurs a cryptic number.%p
+#mes She glances at me.%p
+#mes2v SUZ_0359,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「TV」%p
+#mes No、 I already know what she means.%p
+#mes2v SUZ_0360,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Turned on」%p
+#mes I jump into the development room.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BG1
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#mes2v MOE_0213,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Don't move!」%p
+#mes2v SUZ_0361,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「That's my line.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes I bring Kurisu along.%p
+#mes I put on the headgear without hesitation.%p
+#mes2v CRS_1722,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe、 I──」%p
+#mes2v OKA_2786,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm leaping...!」%p
+#mes2v CRS_1723,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But! What if it fails──」%p
+#mes2v OKA_2787,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Please set it up!」%p
+#mes I order Kurisu around and pick up Monad Snake from the side shelf.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Kurisu bites her lip and starts putting the settings into the X68000.%p
+#mes2v SUZ_0362,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Okabe Rintaro! One guy's moving!」%p
+#mes2v MOE_0214,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Kill them、 don't let them use it.」%p
+#mes Before the crew cut man enters the development room、 I push the switch.%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#CaptureSC 4
+#assign $W(SW_BG4PRI),PRI2_BG
+#setFlag SF_BG4DISP
+#assign $W(SW_BG1POSX),(SCR_SIZ_X/4)
+#assign $W(SW_BG1POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#playSE 0,SGSE055
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG059
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes My vision turns white.%p
+#mes I can't see anything.%p
+#mes I can't tell anything.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_1724,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe! Is this really okay!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_1725,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Are you okay with time leaping!? Are you!?」%p
+#mes2v OKA_2788,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do it、 Kurisu! Activate the machine!」%p
+#messWindowCloseWait
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaErase1
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 1,SGSE035L,true
+#mes After that、 beyond the smoke. Bluish-white light.%p
+#mes The discharge phenomenon is starting!%p
+#mes The bluish-white light grows more extreme.%p
+#mes My feet shake intensively.%p
+#mes The ring singularity opens.%p
+#messWindowCloseWait
+#assign $W(SW_BG1PRI),PRI_LOWER_CHARA
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#copyBG 1,3
+#assign $W(SW_BG3PRI),PRI_BG
+#assign $W(SW_BG3POSX),(SCR_SIZ_X/4)
+#assign $W(SW_BG3POSY),((SCR_SIZ_Y/4)*3)
+#assign $W(SW_BG3SIZE),2000
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG3DISP
+#assign $W(SW_BG1FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG1_FadeOutTIM
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#swapBG 1,3
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG1FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#assign $W(LR_FADE_TIM),-1
+#setFlag SF_Phone_AutoDisable
+#mes I push down the headgear with one hand and crouch.%p
+#resetFlag SF_Phone_Disable
+#assign $W(SW_PHONE_PRI),($W(SW_BG2PRI)-1)
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 30
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_PhID),PhID_Oven
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#call macrosys2,PHONE_ADRSUBMENU_CALL
+#wait 1
+#mwait 30
+#call macrosys2,START_PHONE_CALL
+#mes This is reality.%p
+#mes It wasn't a dream.%p
+#mes I engrave that fact into my mind.%p
+#mes Once more──%p
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#playSE 0,SGSE067
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#mes Tremendous shaking.%p
+#playSE 1,SGSE053L,true
+#mes2v OKA_2789,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Please、 let me leap once more!」%p
+#mes Right after my shout.%p
+#mes Once again、 the world blows away──%p
+#playSE 0,SGSE054
+#setFlag SF_Phone_Disable
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#call macrosys,FadeOutFast
+#resetFlag SF_Phone_Open
+#setFlag SF_Phone_Disable
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#wait 16
+#call macrosys,FadeInSLOW
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG06_04
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG06_04
+#resetFlag SF_SYSTEMCHIP_HIDE
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes My eardrums feel like they're blown away.%p
+#mes My sense of hearing goes numb.%p
+#mes2v OKA_2790,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「────!!？」%p
+#mes The blown off、 gushy world.%p
+#mes Was instantly reborn.%p
+#mes My body convulses against my will、 as if run through with electricity.%p
+#mes ──I come back to my senses.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes I'm in the lab development room.%p
+#mes I'm standing in front of the Time Leap Machine with my phone to my ear.%p
+#mes2v OKA_2791,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Gh」%p
+#mes My brain hurts again.%p
+#mes It's different from a headache.%p
+#mes Not only pain、 but various feelings overflow.%p
+#mes Miserable feelings、 tearful sadness、 excessive laughter──%p
+#mes Almost as if weren't myself.%p
+#mes But. Even so.%p
+#mes2v OKA_2792,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I leapt again.」%p
+#mes I fumble at that fact.%p
+#mes I quickly return to the lounge.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#CaptureSC 3
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+#call macrosys,TUNE_CHACOL_BG1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaSet51
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v CRS_1726,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Kyah、 you surprised me....」%p
+#mes I almost crashed into Kurisu.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_1727,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't startle me like that...」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#CaptureSC 3
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#call macrosys,CharaClrAll
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02ES2
+//#assign $W(LR_TMP00),BG02ES2
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),0
+#assign $W(SW_BG1SY),0
+#assign $W(SW_BG1LX),SCR_SIZ_X
+#assign $W(SW_BG1LY),SCR_SIZ_Y
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaSet62
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v OKA_2793,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru...! Is it the before 5 on the 13th!? 」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6FACE),Face_DAR_B04
+#call macrosys,CharaDisp62
+#mes2v DAR_0878,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Eh、 umm、 yeah、 it is、 so...?」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#CaptureSC 3
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#call macrosys,CharaClrAll
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaSet51
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes Alright. Time leap successful.%p
+#mes I pat Kurisu on the shoulders、 almost in an embrace.%p
+#mes2v OKA_2794,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're... a genius...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_1728,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wha、 what's this so suddenly? Feels bad man...」%p
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes I hurriedly take out my phone.%p
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_PhID),PhID_MAY
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#call macrosys2,PHONE_ADRSUBMENU_CALL
+#wait 1
+#mwait 30
+#flagOnJump LF_DEBUG,L_TTLCAL_END
+#end
+#label L_TTLCAL_END
+#call macrosys2,CANCEL_PHONE_CALL
+#call macrosys2,CLOSE_PHONE_WINDOW
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

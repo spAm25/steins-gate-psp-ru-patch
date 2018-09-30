@@ -1,0 +1,379 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0812
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG11E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG11E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#mes The next day. When evening comes、 I assemble each lab mem except for Kurisu to Radio Kaikan to check their progress.%p
+#mes Radio Kaikan's rooftop is boiling hot even in the evening.%p
+#mes When I provide the time machine repairman Daru with the refreshing gift of cola、 his sweaty face looks lightened up.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_DAR_B01
+#call macrosys,CharaDisp51
+#mes2v DAR_0978,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Oh-、 Okarin! You're giving me an ice cold zero calorie cola、 how thoughtful of you!」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Daru happily takes the cola and chugs it straight from the bottle.%p
+#mes Daru and Suzuha have a one-on-one discussion about the time machine's structure、 while Mayuri and I watch from a distance.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_ALB
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_MAY_B02
+#call macrosys,CharaDisp62
+#mes2v MAY_0963,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、hey、 Okarin. That satellite was a time machine. What a surprise、 huh-」%p
+#mes2v OKA_3249,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 sure was.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ALA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0964,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It stuck into the building、 but I'm glad that Suzu-san's safe-」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ALB
+#assign $W(SW_CHA6FACE),Face_MAY_B03
+#call macrosys,CharaDisp62
+#mes2v MAY_0965,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「She said it's really hard to drive-」%p
+#mes2v MAY_0966,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「If the gravitational whatchamacallit device gets the coordinates the slightest bit wrong、 the whole time machine becomes a Jellyman and it goes all ploop ploop.」%p
+#mes2v MAY_0967,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And since that time machine isn't made by SERN、 she said it's not all that stable.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ALA
+#assign $W(SW_CHA6FACE),Face_MAY_A03
+#call macrosys,CharaDisp62
+#mes2v MAY_0968,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I'm worried about when she goes to 1975-....」%p
+#mes2v MAY_0969,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「If it's a two seater、 then I could go with her.」%p
+#mes2v OKA_3250,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you going to do if you go with her?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ALA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0970,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Obviously- I'd hold Suzu-san's hand super tightly、 and tell her that it's okay since Mayushii's here、 cheering her on-」%p
+#mes2v OKA_3251,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ALB
+#assign $W(SW_CHA6FACE),Face_MAY_B02
+#call macrosys,CharaDisp62
+#mes2v MAY_0971,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、hey、 Okarin、 does that time machine have a name、 you think-?」%p
+#mes2v OKA_3252,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you're interested、 then just ask Titor directly.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ALA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0972,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 that's right-. Mayushii completely forgot. Ehhehe-」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA2ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA2POSX_OFS,(CHR_CENTER-$W(SW_CHA2POSX)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA2ALPHA),0
+#assign $W(SW_CHA2POSX),CHR_CENTER
+#assign $W(SW_CHA2ALPHA_OFS),0
+#assign $W(SW_CHA2POSX_OFS),0
+#call macrosys,TuneParam62
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_ALA
+#assign $W(SW_CHA6POSX),0
+#assign $W(SW_CHA6ALPHA),0
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA2ALPHA_OFS,CH_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA2POSX_OFS,(CHR_LEFT_L-$W(SW_CHA2POSX)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA2ALPHA),CH_ALP_MAX
+#assign $W(SW_CHA2POSX),CHR_LEFT_L
+#assign $W(SW_CHA2ALPHA_OFS),0
+#assign $W(SW_CHA2POSX_OFS),0
+#call macrosys,TuneParam62
+#mes Mayuri optimistically runs to Suzuha and comes back quickly.%p
+#mes2v MAY_0973,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yup. It has a name-」%p
+#mes2v MAY_0974,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「FG204 Something Something、 she said.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ALA
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaDisp62
+#mes2v MAY_0975,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Anyway、 don't you think that Daru-kun and Suzu-san really match-?」%p
+#mes I look at Daru and Suzuha again.%p
+#mes2v OKA_3253,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru's a Faris moe kind of guy.」%p
+#mes2v MAY_0976,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 I see-. Is that so?」%p
+#mes She tilts her head to the side.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ALC
+#assign $W(SW_CHA6FACE),Face_MAY_C02
+#call macrosys,CharaDisp62
+#mes2v MAY_0977,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Heyhey、 can Mayushii get a better look at the time machine?」%p
+#mes I nod、 and Mayuri rushes towards the time machine again.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I can clearly see the sunlight sloping as the sun sinks from the rooftops.%p
+#mes As the sunset fades into twilight、 Suzuha stands beside me as if to change places with Mayuri. The setting sun stretches our shadows.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#setEVFlag 80
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes2v SUZ_0646,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Hashida Itaru's amazing. With him working on the time machine at full speed、 he said he might be able to fix it tomorrow if things go well.」%p
+#mes2v OKA_3254,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v SUZ_0647,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Even though he looks unhealthy and lackluster.」%p
+#mes2v OKA_3255,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes A refreshing breeze blows by.%p
+#mes It was quite hot just a while ago、 but it finally seems like the temperature dropped.%p
+#mes2v SUZ_0648,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Umm... you know.」%p
+#mes2v SUZ_0649,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「If I don't say it now、 I won't ever have another opportunity、 so I'll say it now.」%p
+#mes2v OKA_3256,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v SUZ_0650,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Are you listening?」%p
+#mes After a little hesitation、 I nod faintly.%p
+#mes2v SUZ_0651,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'm actually really grateful for you all.」%p
+#mes2v SUZ_0652,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「When I fist came to this era、 I didn't know anybody.... It's completely different from my era where I did nothing but fight.」%p
+#mes2v SUZ_0653,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「This era is a lot more peaceful、 so peaceful it really frightened me.」%p
+#mes2v SUZ_0654,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「But now I have friends... no、 comrades、 that I can expose all of myself to.」%p
+#mes2v SUZ_0655,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I met people who lived before I was born、 and everyone's working so hard for my sake.」%p
+#mes2v SUZ_0656,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「That makes me feel very strange... but also very happy、 you know?」%p
+#mes2v SUZ_0657,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Those are my true feelings.」%p
+#setFlag SF_Phone_AutoDisable
+#mes A story I've already heard once. And just like that time、 Suzuha's has a very serious expression.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG20N1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG20N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5POSY),680
+#assign $W(SW_CHA5SIZEX),2000
+#assign $W(SW_CHA5SIZEY),2000
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#call macrosys,CharaSet51
+#call macrosys,SET_DOF_SHORT
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_BG
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK17
+#assign $W(SW_BG3MASKFADERANGE),64
+#assign $W(SW_BG3FADECT),210
+#setFlag SF_BG3DISP
+#call macrosys,FadeInVERYFAST
+#mes2v DAR_0979,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That time machine... it looks like it can only leap to the past.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#call macrosys,OPE_DOF_LONG
+#call macrosys,CharaEraseAll
+#setEVFlag 80
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_S05A
+#setFlag SF_BG2DISP
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM20
+#mes The truth I heard from Daru plays back in my head in an endless refrain.%p
+#mes2v SUZ_0658,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I was able to come to this era and spend time with all of you. It was really fun.」%p
+#mes2v SUZ_0659,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Or rather、 every single one of you was selfish、 had weird habits、 and was too dense... actually、 I thought 'what's with these guys?' at first.」%p
+#mes2v SUZ_0660,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「But before I knew it、 the times I spent with you all became fun.」%p
+#mes2v SUZ_0661,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「In 2036、 everyone's too peaceful. There aren't any fights. Did you know?」%p
+#mes2v OKA_3257,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I shake my head left and right.%p
+#mes2v SUZ_0662,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Anyway、 there aren't any fights. Any disputes、 from the micro to the macro level、 have all completely disappeared.」%p
+#mes2v SUZ_0663,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「But instead、 everyone has dead eyes like fish.」%p
+#mes2v SUZ_0664,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Nobody has any aspirations. They just shuffle their feet forward.」%p
+#mes2v SUZ_0665,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「People do smile、 but they don't get angry or sad.」%p
+#mes2v SUZ_0666,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Nobody has any individuality. Everyone's like a robot.」%p
+#mes2v SUZ_0667,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Just before、 you got really mad at me、 didn't you?」%p
+#mes2v SUZ_0668,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Back then、 it really surprised me. It was a big shock、 but at the same time... I was really happy.」%p
+#mes2v OKA_3258,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Suzuha looks to the time machine. Right next to it、 Daru and Mayuri are having an optimistic conversation about something or another.%p
+#mes2v SUZ_0669,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Everyone in your lab is so lively... so radiant.」%p
+#mes2v SUZ_0670,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Shiina Mayuri and Hashida Itaru... and Makise Kurisu. And you、 too.」%p
+#mes2v OKA_3259,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v SUZ_0671,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I wanted to be like you guys.」%p
+#mes2v SUZ_0672,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The reason I can work this hard is also because I met you guys.」%p
+#mes2v SUZ_0673,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Being a lab mem for even just a little while... was great.」%p
+#mes Another serious smile.%p
+#mes So serious she might cry at any moment.%p
+#mes So serious she might break at any moment.%p
+#mes That smile、 was so fragile──%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG11E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG11E1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_SUZ_A06
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v SUZ_0674,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Being with you guys for even just a little while... was great.」%p
+#mes Suzuha obviously knew from the beginning.%p
+#mes That if she traveled to 1975、 she could never return.%p
+#mes2v SUZ_0675,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Okabe Rintaro. I'm sure you'll change the future. You'll change it into a world、 free like the present.」%p
+#mes When I heard this story before、 I thought she was sentimental because she couldn't return to her original 2036、 but that's not the case.%p
+#mes Forget about her original 2036.%p
+#mes She can't even return here to 2010.%p
+#mes Unless she ages to 54.%p
+#mes The "present" us and the "present" Suzuha can never meet again──%p
+#mes That's the mission Suzuha chose herself.%p
+#mes The mission to change the future.%p
+#mes The mission to save Mayuri.%p
+#mes Unless Suzuha leaps to 1975、 Mayuri can't be saved.%p
+#mes But then、 what about Suzuha?%p
+#mes She threw away the era she lived in.%p
+#mes And now she's throwing away the era she spent with us.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes What does Suzuha think about that?%p
+#mes2v OKA_3260,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...memories」%p
+#mes2v SUZ_0676,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Hm?」%p
+#mes2v OKA_3261,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you regret making memories?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A05
+#call macrosys,CharaDisp51
+#mes2v SUZ_0677,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...What do you mean?」%p
+#mes2v OKA_3262,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Since you're going to 1975 anyway、 do you not regret getting along with us here in 2010?」%p
+#mes2v OKA_3263,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you didn't、 then you only would've had to throw away one 'trace of living'.」%p
+#mes2v OKA_3264,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Because in actuality、 it's like you're killing off your own existence、 twice──」%p
+#mes2v SUZ_0678,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Did Hashida Itaru tell you by chance?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMB
+#assign $W(SW_CHA5FACE),Face_SUZ_B03
+#call macrosys,CharaDisp51
+#mes Suzuha gets angry.%p
+#mes2v OKA_3265,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「He's worried about you.」%p
+#mes2v SUZ_0679,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Geez. I even made sure to say not to tell anybody.」%p
+#mes2v OKA_3266,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 what? What do you think about going to 1975?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMB
+#assign $W(SW_CHA5FACE),Face_SUZ_B03
+#call macrosys,CharaDisp51
+#mes2v SUZ_0680,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...I don't have any other choice.」%p
+#mes Suzuha's expression became suddenly cold.%p
+#mes2v SUZ_0681,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I need to go. That's the path I chose、 and my father's dying wish.」%p
+#mes2v OKA_3267,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What if Daru or I stop you?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMB
+#assign $W(SW_CHA5FACE),Face_SUZ_B02
+#call macrosys,CharaDisp51
+#mes2v SUZ_0682,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'll ignore you.」%p
+#mes2v SUZ_0683,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I said so on @channel、 too. That I need to be careful because even my thoughts could change the past and influence hundreds of millions of people.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A06
+#call macrosys,CharaDisp51
+#mes2v SUZ_0684,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「But... I don't want the future to turn out like that.」%p
+#mes2v SUZ_0685,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I want to give the people of my era a lifestyle like all of yours、 with freedom、 smiles、 and occasional fights、 arguments、 and sad times too.」%p
+#mes2v SUZ_0686,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「If I change the future、 then I'm sure neither Father、 nor Shiina Mayuri、 nor you will be killed by SERN.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMB
+#assign $W(SW_CHA5FACE),Face_SUZ_B04
+#call macrosys,CharaDisp51
+#mes2v SUZ_0687,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「It might just be for my ego、 but I'll go.」%p
+#mes2v OKA_3268,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You don't care what happens to yourself for that cause?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes2v SUZ_0688,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「What are you saying~? The 70's isn't a bad time、 right? There、 I'll find fun friends just like you guys、 and live free. Ahaha.」%p
+#mes Suzuha is bright、 to the very end.%p
+#mes But she surely came across considerable conflict and take heroic decisions just to get here.%p
+#mes With that in consideration、 I think it's impossible for words like mine to waver that will.%p
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

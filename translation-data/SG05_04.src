@@ -1,0 +1,416 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0810
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE032
+#mes After Mayuri and Daru go home、 Kurisu is the only one who stays behind.%p
+#mes She's sitting in the development room chair、 endlessly twirling a pen in her hand.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v OKA_2421,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just what are you doing?」%p
+#mes2v CRS_1404,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Thinking. About the Time Leap Machine.」%p
+#mes2v CRS_1405,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I understand how to make it、 but just what will happen if we actually use it?」%p
+#mes2v OKA_2422,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see.」%p
+#mes Is she worried about what happens after she finishes it even though she hasn't started yet?%p
+#mes She sure is confident. Is this the freedom of a genius?%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes What'll happen if we use it--%p
+#mes It really doesn't seem like we'll come up with an answer to that soon. That's how our discussion earlier was、 too.%p
+#mes On the other hand、 it seems like a problem of whether she agrees with her own conclusions.%p
+#mes That's why I avoid arguing with her.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_2423,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't worry so much. Prioritize completing it for now.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1406,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So pompous.」%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_1407,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#call macrosys,CharaEraseAll
+#mes Kurisu groans a little、 and languidly lays herself on the desk.%p
+#mes She's usually so gallant、 but when she's thinking、 she's pretty sloppy.%p
+#mes This might be Kurisu's natural state.%p
+#mes2v CRS_1408,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 Okabe──」%p
+#mes2v CRS_1409,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Can I、 consult you about something completely unrelated?」%p
+#mes2v OKA_2424,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't consult me about something unrelated、 but about something related、 please.」%p
+#mes2v CRS_1410,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You told me before、 didn't you? That I could always consult you.」%p
+#mes Before...?%p
+#mes Just what is she talking about?%p
+#mes2v CRS_1411,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm、 probably hated by my father、 huh...」%p
+#playBGM BGM11
+#mes She sighs such sad words.%p
+#mes I see、 it's about that.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes If she keeps worrying idly like this、 it'll hinder the development of the Time Leap Machine.%p
+#mes In that case、 I、 Hououin Kyouma、 must make her forget about this once and for all、 must I not?%p
+#mes The development of the Time Leap Machine is precisely a project pivoted on Kurisu.%p
+#mes It's completely different from her past advisor-like role.%p
+#mes I need her to get a grip!%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_2425,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fine then. Talk.」%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_1412,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hmhm... you really are pompous.」%p
+#mes2v OKA_2426,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Earlier、 were you on the phone with your father?」%p
+#mes About four days ago、 Kurisu was crying on the bench downstairs while on the phone.%p
+#mes The atmosphere was pretty serious.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_1413,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Well、 yeah.」%p
+#mes2v CRS_1414,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Since some time ago、 it seems like my father started to hate me...」%p
+#mes2v CRS_1415,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Before I went to the states、 he almost openly avoided me. Even though we're family.」%p
+#mes2v OKA_2427,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How did you act towards your father?」%p
+#mes2v CRS_1416,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Long ago、 I was daddy's little girl. He was pretty heroic、 you know?」%p
+#mes She talks with a self-deriding smile on her face.%p
+#mes2v CRS_1417,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「My father's a physicist、 but as a child、 I loved hearing difficult conversations. I didn't understand a word of it、 but I would always bother my father to talk to me.」%p
+#mes2v CRS_1418,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I wanted to somehow understand、 so I became engrossed in reading physics books since I was little.」%p
+#mes Th-that's a genius girl for you.%p
+#mes No、 maybe that yearning for her father's love was what gave birth to her genius.%p
+#mes2v CRS_1419,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Thanks to that、 only my math grades at school towered above the rest. I ignored all the other subjects.」%p
+#mes2v CRS_1420,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I read the theses my father wrote、 you know? They're not something an elementary student can possibly understand、 but I examined them with all my life、 desperately decoding them.」%p
+#mes2v CRS_1421,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I got to the level where I could argue about those theses with my father during late elementary school.」%p
+#mes2v CRS_1422,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I was really happy、 and enjoyed being able to talk to my father about physics.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1423,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And then I would always win those arguments.」%p
+#mes2v OKA_2428,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That would make him hate you. Definitely hate you.」%p
+#mes A tragedy fitting for a genius girl.%p
+#mes I mean、 a physicist losing to his elementary school daughter....%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_1424,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You really think so?」%p
+#mes2v OKA_2429,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I don't just think so. That's certainly the cause.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1425,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「He certainly was very proud....」%p
+#mes2v CRS_1426,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Anyway、 one day、 he suddenly stopped talking to me altogether....」%p
+#mes2v CRS_1427,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eventually、 it got serious with Mama too、 and he stopped coming home.」%p
+#mes2v CRS_1428,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I really loved my father、 so it was a big shock when I felt it was my fault things turned out that way. I even became truant for a period of time....」%p
+#mes2v CRS_1429,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And then Mama recommended I study abroad.」%p
+#mes I see、 so that's how it happened.%p
+#mes2v OKA_2430,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That means you're too superior.」%p
+#mes2v OKA_2431,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 what do you think about your father now?」%p
+#mes2v CRS_1430,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't know...」%p
+#call macrosys,CharaEraseAll
+#mes Kurisu turns down her face.%p
+#mes2v OKA_2432,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Your father's in Japan、 right? Have you met with him at all?」%p
+#mes2v CRS_1431,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No.... We haven't met after all.」%p
+#mes2v CRS_1432,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's what we were talking about on the phone earlier. I asked if we could meet、 but he yelled don't come....」%p
+#mes Her father's such a pansy.%p
+#mes So saying something like that would really make the strong Kurisu cry.%p
+#mes2v CRS_1433,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And、 even if we do meet、 I don't know what we could talk about....」%p
+#mes2v CRS_1434,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I try my hardest to start talking to him even though he hates me、 but he always ignores me....」%p
+#mes2v CRS_1435,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's so painful. Since I have those memories、 I start to think that he'll ignore me again、 and then I can't say anything.」%p
+#mes Trauma、 huh.%p
+#mes2v CRS_1436,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Sniff...」%p
+#mes2v OKA_2433,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Are you crying?」%p
+#mes2v CRS_1437,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「J-just a little、 okay?」%p
+#mes2v OKA_2434,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You still want to reconcile with your father. Correct?」%p
+#mes2v CRS_1438,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I wonder...」%p
+#mes2v OKA_2435,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you didn't、 then you wouldn't have consulted me about him、 you wouldn't have said you wanted to meet him、 and you wouldn't be crying、 would you?」%p
+#mes2v CRS_1439,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「True....」%p
+#mes2v OKA_2436,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just be honest with your feelings. 'I love Daddy' and stuff.」%p
+#mes2v CRS_1440,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I think that's impossible for someone like me、 though....」%p
+#mes2v OKA_2437,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you act cutesy with your father?」%p
+#stopBGM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes Kurisu's face gets red as she gets up.%p
+#mes2v CRS_1441,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wha- I-I don't act!」%p
+#mes2v OKA_2438,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 you do act. You can't reconcile like that.」%p
+#mes2v OKA_2439,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You need to strike him straight just the way you are. There's no other solution.」%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v OKA_2440,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's no point if you don't get your message across. It's meaningless to sugarcoat things.」%p
+#mes2v OKA_2441,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you still can't get him to understand、 then your reconciliation won't sprout. Then only time can tell.」%p
+#mes2v CRS_1442,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Time? How much?」%p
+#mes2v OKA_2442,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's not like I have a way of knowing that. I mean、 I'm only a year older than you.」%p
+#mes2v OKA_2443,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How many years ago did you go to America?」%p
+#mes2v CRS_1443,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Umm... seven years ago.」%p
+#mes2v OKA_2444,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If seven years have passed without any change、 then maybe it'll take twice that long.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1444,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's right... isn't it...」%p
+#call macrosys,CharaEraseAll
+#mes Kurisu sighs、 this time placing her elbow on the desk、 listlessly resting her chin in her hands.%p
+#mes Did my advice backfire by any chance? It looks like she's terribly depressed.%p
+#mes I fold my arms.%p
+#mes Hmm、 I don't want to see Kurisu like this.%p
+#mes2v OKA_2445,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 when will you go meet him?」%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_1445,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Hweh?」%p
+#setFlag SF_Phone_AutoDisable
+#playBGM BGM13
+#mes Kurisu let's out a silly voice and stares in wonder.%p
+#mes I take out my phone and call up this month's calendar.%p
+#resetFlag SF_Phone_Disable
+#mes2v OKA_2446,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It has to be during summer break、 and you have to tell me when you're going early ahead of time.」%p
+#mes2v CRS_1446,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wha-wha-wha-what are you talking about!?」%p
+#mes2v OKA_2447,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I have plans too. If you tell me suddenly、 the our schedules might not match.」%p
+#mes2v CRS_1447,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Nonono、 don't tell me you plan to come along!?」%p
+#mes2v OKA_2448,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Indeed. You are my assistant. My assistant's worries are my worries. I'll do anything I can so you can work in your best mental condition.」%p
+#mes2v CRS_1448,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes Kurisu looks dumbfounded.%p
+#mes What? Did I say something wrong?%p
+#mes2v CRS_1449,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What's with that? Jokes should also be in moder ──」%p
+#mes2v OKA_2449,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm completely serious.」%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_1450,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes2v OKA_2450,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll follow you anywhere as long as it's within Japan. Though it'll be difficult if it's abroad since I don't have a passport or that much money.」%p
+#mes2v CRS_1451,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe...」%p
+#mes2v OKA_2451,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you're alone with your father、 you won't know what to talk about、 right?」%p
+#mes2v CRS_1452,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Yeah...」%p
+#mes2v OKA_2452,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So if I come along、 there won't be a problem. I、 Hououin Kyouma、 will sense the mood and supply splendid subject matter.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1453,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...pfft」%p
+#mes2v OKA_2453,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why are you laughing!?」%p
+#mes2v CRS_1454,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Come on、 you of all people can't sense the mood at all.」%p
+#mes2v OKA_2454,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah...」%p
+#mes That、 that's true...! No、 rather、 that's my strong point. Mad scientists must be self-righteous.%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1455,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But thanks... I never thought that you'd go that far to say those things for me...」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1456,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I-it's not like I'm happy about that or anything!」%p
+#mes2v CRS_1457,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Honestly、 it troubles me that you can be a good guy at times!」%p
+#mes What troubles her?%p
+#mes Or rather、 why did she suddenly snap? Shouldn't she be apologizing to me instead?%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1458,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 Okabe. I really can... take you up on that offer、 right?」%p
+#mes2v OKA_2455,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Of course.」%p
+#mes2v CRS_1459,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Then、 once we're done with the Microwave Ophone's improvements──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaDisp51
+#mes2v CRS_1460,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Come with me.」%p
+#mes2v OKA_2456,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can count on me. So、 where's your father now?」%p
+#mes2v CRS_1461,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Aomori.」%p
+#mes2v OKA_2457,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Aomorii!?」%p
+#mes2v CRS_1462,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「My father lives there now.」%p
+#mes That's farther than expected.%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1463,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wh-what? You're not going to back out are you!? Because it's already been decided. I'm taking you whether you like it or not、 okay!?」%p
+#mes2v OKA_2458,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...a-as you wish.」%p
+#mes Well、 if promising to go to Aomori will make Kurisu work her hardest at the Time Leap Machine、 it's a small price to pay.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

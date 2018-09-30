@@ -1,0 +1,313 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05A2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playBGM BGM23
+#mes Mayuri and I parted at the station because she promised to go deliver a new costume to Fubuki-chan-♪.%p
+#mes Returning to the lab with our purchases in hand、 I see a surprising-- yet somehow expected-- scene.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A2
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BSC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaSet51
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE024
+#call macrosys,FadeInSLOW
+#mes2v CRS_1464,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah...」%p
+#mes Kurisu's at the lab's PC.%p
+#mes In a panic、 she closes an opened window.%p
+#label L_SG05_08_RM_MAY05_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_MAY
+#assign $W(LR_RM_CHANCE),35
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1465,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「H-hey. At least knock when you enter.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2535,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This isn't your private room. Also、 the enemy could attack at any time、 so what idiot would give away their presence with a knock?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1466,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What idiot would think that any sort of enemy could attack、 huh?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2536,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 Christina. What were you looking at as you skipping out on your duties?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I can somewhat guess. Or、 actually、 I saw it for a moment when I came in.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1467,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「R-research materials.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Looks like she plans on feigning ignorance to the end.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I place my bags in front of the computer.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1468,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 d-don't come here-」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I slip through Kurisu's blocking arms and restore the minimized window.%p
+#stopBGM
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG094
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE045
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2537,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1469,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1470,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Y-you got a problem with that?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2538,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...pbfft」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BLB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaSet51
+#playBGM BGM06
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1471,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey! What's with that 'Ah-、 this is awful、 yeah、 yeah、 rofl rofl' kind of laughter!?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2539,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Chill out、 Christina. I mean、 @channeler Chris!」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#copyBG 1,5
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1472,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't call me that...」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2540,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hehehe、 I've already noticed. Right、 I noticed long ago、 that you are a pure @channeler!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2541,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I know even if you try to hide it. You reek of the intense scent of an @channeler...!」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1473,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「How rude! Every day、 I make sure to apply perfume so that my scent isn't strong!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2542,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Dumbass. That's not what I meant. What I'm talking about is on the soul level.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1474,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Soul.... How's that at all specific? Define it for me.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2543,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What、 you gonna use it as reference so you don't get found out next time?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1475,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Sh-shut up.... Just tell me already.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2544,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fuck the specifics. Every so often、 you mutter @channel memes.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#copyBG 1,5
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1476,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...feels bad man.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2545,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That was an @channel meme too.」%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1477,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ugh....」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2546,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You really are stained to the soul level. And since we have another lab member who uses @channelspeak in real life、 he excited your soul.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1478,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Oh yeah、 it's Hashida's fault that I've been influenced.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2547,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But it's so cute how you tried to hide it、 @channeler Chris.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1479,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「DON'T CALL ME THAT.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She's really glaring at me.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She's making me believe that looks could kill.%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes Does this girl not have a sense of humor? I need to be careful next time.%p
+#label L_SG05_08_RM_MAY05_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes2v OKA_2548,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But I don't understand. You were raised in America、 so how are you so familiar with @channel?」%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_1480,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You can browse @chan even from America. Understand the rest?」%p
+#mes2v OKA_2549,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So that's it、 huh. In an English-only environment、 you yearned for Japanese. But of all things、 you chose @chan.」%p
+#mes I mean、 all of the pseudo-intellectuals appearing on the media seem to equate @channel to bathroom scribbles. %p
+#mes2v CRS_1481,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's a little awkward、 but it was the place with the most Japanese 'atmosphere' to it.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1482,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「More importantly、 I have a favor to ask.」%p
+#mes2v OKA_2550,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「A favor?」%p
+#mes Kurisu turns away and mumbles something.%p
+#mes But her voice was too small、 so I couldn't hear her quite well.%p
+#mes2v OKA_2551,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just clearly say what you want to say.」%p
+#mes When I urge her、 Kurisu's still sour face turns red.%p
+#mes2v CRS_1483,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't tell anyone else about this.」%p
+#mes2v OKA_2552,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're that desperate to leave them in the dark? Daru's in the same boat with you、 and since Mayuri's also an ota、 she has a deep understanding of @channel. I visit often too.」%p
+#mes2v OKA_2553,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's nothing to be embarrassed about! You should boldly write 'Browsing @channel' in the hobby field of your resume or profile!」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1484,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Like I'd write that、 dummy!」%p
+#setDic 210
+#setDic 6
+#mes2v OKA_2554,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What!? So you mean you'd rather "&cTIPSC;anchor&cMESC;" on &cTIPSC;VIP&cMESC;!？」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1485,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Gh、 I hate myself for understanding those words...!」%p
+#mes2v OKA_2555,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well、 whatever. I'll drop the topic so that you can concentrate on Time Leap Machine development. It's probably just a matter of time before the rest of the lab mems find the cat in the bag.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLA
+#assign $W(SW_CHA5FACE),Face_CRS_A09
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1486,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I don't need your concern. Everyone in university was older than I. I was the youngest in the laboratory、 yet I was the one who wrote the thesis.」%p
+#mes2v CRS_1487,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I excel at worldly wisdom. Don't take me lightly.」%p
+#setDic 124
+#mes2v OKA_2556,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「……&cTIPSC;What is love?&cMESC;」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1488,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Baby don't hurt me.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#assign $W(LR_POST_SCREEN),(IDX_BG5+IDX_CHA5)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1489,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Aw crap....」%p
+#call macrosys,CharaEraseAll
+#setDic 204
+#mes Kurisu's face gets redder and redder、 and then she genuflects on the spot in defeat. &cTIPSC;ｏｒｚ&cMESC;.%p
+#mes This girl's a pretty severe @channeler. Pure、 too.%p
+#mes At least、 I don't think she excels at worldly wisdom.%p
+#label L_SG05_08_RM_MAY05_01_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

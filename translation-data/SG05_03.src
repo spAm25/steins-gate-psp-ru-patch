@@ -1,0 +1,815 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0810
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02NS2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02NS2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playBGM BGM24
+#mes The current search for the IBN 5100 is more difficult than when I found it at Yanabayashi Shrine.%p
+#mes ...No、 instead、 maybe I should say that was a miracle?%p
+#mes I mean、 it's reached urban legend status、 and people like Moeka spend several months with zero clues.%p
+#mes So when I started searching for it、 it was as if I were guided to its discovery in just two or three days.%p
+#mes That itself was fate... no、 Steins;Gate's choice.%p
+#mes That's why I shouldn't regret its loss.%p
+#mes2v DAR_0778,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's the phantom PC for ya.」%p
+#mes Daru、 at his PC like always、 whispers calmly.%p
+#mes2v DAR_0779,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I learned this from @chan、 but several years ago、 a collector apparently paid some dozens of millions of yen before he got one.」%p
+#mes2v DAR_0780,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The IBN 5100's dangerous. Seriously dangerous.」%p
+#mes2v OKA_2364,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If it's got that high a premium on it、 then...」%p
+#mes Then people around the world really are aiming for that retro PC's hidden ability!%p
+#mes2v DAR_0781,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's really a mystery to people like me. It's actually seriously puzzling as to why it's priced so high.」%p
+#mes2v DAR_0782,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 it might be an expensive item in the first place. Since it looks like it cost about $2000 back in the day.」%p
+#mes $2000.... That is expensive.%p
+#mes2v DAR_0783,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Anyway、 I really don't feel like getting one. It certainly is a nice machine、 but that was strictly back in the day. I don't think it's worth getting your eyes bloodshot over.」%p
+#mes2v DAR_0784,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Someone's buying them up.」%p
+#mes People feel a psychological need to seek things that are that hard to obtain.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),1
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),1
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Now I'm in the same frame of mind.%p
+#mes In the depths of SERN、 completely isolated from the outside、 lies a database constructed of IBN 5100s. Just what information sleeps there?%p
+#mes Is it SERN's accumulated information that shall become the core to its time machine development?%p
+#mes Or is it information that proves the existence of the Council of 300 that lies underneath SERN?%p
+#mes At any rate、 I want to expose that area more and more each day.%p
+#mes My desire to bring chaos is not my only reason.%p
+#mes This is necessary to obtain the trump card to oppose the evil that is SERN.%p
+#mes There's also that threat mail.%p
+#mes Daru showed confidence that SERN didn't find out about his hacking、 but I can't just blindly trust that.%p
+#mes Anyway、 our opponent is the world's best thinkers、 the inventors of the world wide web.%p
+#mes And they're backed by the secret organization with the influence to silence nations.%p
+#mes Our opponent is way too strong.%p
+#mes And they'd have no trouble at all to crush our puny lab if they so wished.%p
+#mes That's the very reason I want a trump card to protect ourselves....%p
+#mes But currently、 we're stalling、 without obtaining an IBN 5100.%p
+#mes I'm getting restless.%p
+#stopBGM
+#mes2v DAR_0785,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Woah、 what's this?」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#playBGM BGM15
+#mes Daru stops typing and forcefully bends himself to the monitor with peeled eyes.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02N2
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v OKA_2365,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's wrong?」%p
+#mes2v DAR_0786,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「No、 wait、 this is impossible、 but...」%p
+#mes2v OKA_2366,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you talking about? Explain.」%p
+#mes2v DAR_0787,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 right now、 I examined various ways to get root access to SERN...」%p
+#mes2v DAR_0788,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But I never thought the information in SERN's database would fall so quickly.」%p
+#mes2v DAR_0789,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「This is amazing. For some reason、 the area around this building has a direct optic line to SERN. And it's not just one line、 but several.」%p
+#mes2v OKA_2367,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Direct? Is that different from normal?」%p
+#mes2v DAR_0790,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's literally direct. A fiber optic cable is seriously connecting us directly to SERN in France.」%p
+#mes2v OKA_2368,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is that different from normal?」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02N2
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v DAR_0791,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's completely different.」%p
+#mes As if to find an example、 Daru calls up a browser window and goes to the National Assembly of France's site.%p
+#setFlag SF_Phone_AutoDisable
+#mes Additionally、 he brings up the command prompt and drives in some sort of command.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG052
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#mes2v DAR_0792,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Have a look. This is the route this PC took to view the National Assembly of France's site.」%p
+#mes2v DAR_0793,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「This PC's IP address is in the zeroth position.And、 after that、 it passes through various points in Japan、 flies to France、 and then goes to the National Assembly's site by way of computers in France. 」%p
+#mes2v DAR_0794,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So、 it takes 16 steps in order to view the National Assembly's site.」%p
+#setDic 202
+#mes2v DAR_0795,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The average transfer rate is about 300&cTIPSC;ms&cMESC;. That's normal for overseas travel.」%p
+#mes2v DAR_0796,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「To put it simply、 it's like the 'route' to visit French sites from Japan is restricted. Everyone takes the same route.」%p
+#mes2v DAR_0797,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「And that's not just to France. Other countries are the same. Even for domestic Japan browsing、 it takes about 10 steps.」%p
+#mes2v DAR_0798,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So next、 let's try SERN.」%p
+#mes Daru calls up SERN's homepage on the browser.%p
+#mes Then he calls up the route on the command prompt like last time.%p
+#mes And then--%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG053
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes2v OKA_2369,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's only one step....」%p
+#mes Unlike the case of the National Assembly、 there's not a single intermediate server.%p
+#mes The PC we're using-- its registered name is "AKIHABARA_PC"-- literally connects directly to SERN's French server.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_Phone_Disable
+#mes2v DAR_0799,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「And the transfer rate is hundreds times better than usual. Crazy fast! You can't even get these numbers domestically. And we're even connecting to France.」%p
+#mes The number certainly is on a clearly different scale from the National Assembly's site、 even though they're both in France.%p
+#mes2v OKA_2370,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why is it direct? Is this even possible?」%p
+#mes2v DAR_0800,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It was like this before we cracked. I didn't mess with it.」%p
+#mes2v OKA_2371,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So this building has had this hotline to SERN from before...?」%p
+#mes2v OKA_2372,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This can't be a coincidence. This might just be Steins;Gate's choi--」%p
+#mes2v DAR_0801,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Normally、 it would be impossible. Why would Japan's data communication network connect a single independent cable from here all the way to SERN?」%p
+#mes Daru's so excited、 he interrupted my words.%p
+#mes2v DAR_0802,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's unthinkable that a Japanese or French telecommunication company would set it up. Which means--」%p
+#mes2v OKA_2373,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It was set up by SERN itself、 then?」%p
+#mes Daru gulps and nods. Cold sweat oozes from his brow.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes I feel cold thoughts as well.%p
+#mes All of our actions might be going directly to SERN.%p
+#mes No、 maybe--%p
+#mes Maybe SERN has already been expecting our actions for years.%p
+#mes How could SERN expect that? The answer is simple.%p
+#mes John Titor came from the year 2036.%p
+#mes SERN completed the time machine in 2034.%p
+#mes And then in just two years、 they construct a dystopia and rule the world.%p
+#mes In that case、 2034 SERN could consider our opposition in 2010 a threat and--%p
+#mes For example、 time travel to 2000 with their time machine and furnish our opposition with an optic cable--%p
+#mes That's entirely possible....%p
+#mes Can they already wage war across time through the existence of the time machine?%p
+#mes I don't think I can win....%p
+#mes Perhaps we really did make enemies with an unthinkable group.%p
+#mes No、 don't lose heart.%p
+#mes That's all just a negative expectation.%p
+#mes I should be able to think more positively.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v DAR_0803,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But you know、 thanks to this direct line、 we can now use the LHC from this computer.」%p
+#mes2v OKA_2374,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We really can!?」%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6POSX),CHR_LEFT_T
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDispW5162
+#mes2v MAY_0634,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wah-、 that's amazing、 Daru-kun-」%p
+#mes Mayuri stops watching her DVD and comes to the computer.%p
+#mes2v DAR_0804,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Since we have this high a transfer speed. We can remotely control it with almost zero time lag. I haven't actually tried it out、 though.」%p
+#mes That's right. Even if this is SERN's trap、 the trap is a double edged sword.%p
+#mes They should still be weak to our attack.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CMB
+#assign $W(SW_CHA6FACE),Face_MAY_B03
+#call macrosys,CharaDisp62
+#mes2v MAY_0635,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「By LHC、 you mean that over 20 kilometer long tunnel、 right? What exactly does that tunnel do again-?」%p
+#mes2v OKA_2375,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It accelerates and collides protons.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaDisp62
+#mes2v MAY_0636,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 yeah. It makes mini-black holes、 right-?」%p
+#mes2v DAR_0805,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Officially、 they announced that there is a possibility of mini-black hole formation as a byproduct of the proton collision process、 but that's actually not the case.」%p
+#mes2v OKA_2376,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「According to strictly confidential documents、 the equipment was made 'for the purpose of creating black holes' from the start.」%p
+#mes But I noticed I don't know exactly what sort of equipment that is.%p
+#mes I need to review this once--%p
+#mes2v CRS_1322,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe.」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02N1
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BSA
+#assign $W(SW_CHA7POSX),CHR_RIGHT_L
+#assign $W(SW_CHA7FACE),Face_CRS_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA7)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,Disp_NextScreen
+#playBGM BGM20
+#mes Kurisu unexpectedly appears after having locked herself in the development room.%p
+#mes She looks awfully serious.%p
+#mes2v OKA_2377,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's wrong?」%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BMA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_CRS_A03
+#call macrosys,CharaDisp73
+#mes2v CRS_1323,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I finally came up with a solution.」%p
+#mes Solution? To what?%p
+#mes2v CRS_1324,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm talking about the Microwave Ophone's mechanism.」%p
+#mes2v OKA_2378,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can explain it!?」%p
+#mes Kurisu nods while keeping her serious expression.%p
+#mes2v CRS_1325,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This is nothing but my hypothesis derived from the extent of my understanding、 though.」%p
+#mes2v CRS_1326,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's highly related to the LHC you're talking about.」%p
+#mes2v OKA_2379,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The LHC is the world's largest Microwave Ophone. I cite that example from you、 Christina.」%p
+#mes2v CRS_1327,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Correct. Exactly. My expectation was not mistaken.」%p
+#mes2v CRS_1328,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The Microwave Ophone is an unthinkable monster.」%p
+#mes Monster....%p
+#mes2v CRS_1329,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This isn't something that can be kept in this small room. I mean that in a negative way、 of course.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B05
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA7)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes Kurisu holds her arms like she's trembling.%p
+#mes2v OKA_2380,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Explain the specifics.」%p
+#mes2v CRS_1330,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Do you know how the microwave oven was originally invented by coincidence as a result of radar research?」%p
+#mes Daru and I nod. Mayuri shakes her head.%p
+#mes When we first discovered the abnormality of the Microwave Ophone (Temp)、 we looked into that.%p
+#mes2v CRS_1331,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The microwaves generated are electromagnetic waves at a frequency of 2.45GHz. The microwave used in the Microwave Ophone is commercial grade、 so its output is around 1500-2000W.」%p
+#mes2v CRS_1332,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Now、 for the important part.」%p
+#mes According to Kurisu、 the problem with the Microwave Ophone (Temp) is that this microwave's electromagnetic waves、 and the electromagnetic waves used in cellphone transmissions--%p
+#mes Are hardwired at a fairly high level-- enough that you could say they "fuse".%p
+#mes2v OKA_2381,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Certainly、 according to Daru's blueprint、 the microwave and the phone are made to send out shared electromagnetic waves by taking a lead and--」%p
+#setDic 155
+#mes2v OKA_2382,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hardwiring each of them to the &cTIPSC;magnetron&cMESC;'s cathode and anode.」%p
+#mes The microwave oven's super strong electromagnetic waves、 originally discovered by chance from military-grade radar research.%p
+#mes And the cellphone's electromagnetic waves、 now standard around the world and allowing phone calls to be made globally.%p
+#mes What happens when you fuse both of the waves?%p
+#mes2v CRS_1333,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Both of them use electromagnetic waves in unison. It's not like I can investigate how far、 or how strong of an influence that has、 though、 since I'm not a specialist. I can't begin to imagine--」%p
+#mes2v CRS_1334,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But hypothetically、 if we think of the cellphone as a stepping stone、 scattering the surrounding military-grade electromagnetic waves which can affect a vast range of hundreds of kilometers--」%p
+#mes2v CRS_1335,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Then not just Akihabara、 but all of Tokyo will become the same as the inside of a microwave oven.」%p
+#mes2v CRS_1336,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「With negligible body weight dependence、 the average time until death for the people inside is--」%p
+#mes2v CRS_1337,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Three minutes.」%p
+#mes2v MAY_0637,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh-?」%p
+#mes2v DAR_0806,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Seriously? Then isn't the Microwave Ophone a weapon of mass destruction!?」%p
+#mes I-is it really that unthinkable...?%p
+#mes2v CRS_1338,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'll teach you about what happens inside that Microwave Ophone.」%p
+#mes2v CRS_1339,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Inside the oven、 invisible to the naked eye、 electromagnetic waves increase the energy levels of hydrogen atoms. This is the normal function of a microwave oven.」%p
+#mes2v CRS_1340,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And there、 the cellphone's scattering electromagnetic waves are added--」%p
+#mes2v CRS_1341,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Causing every particle inside the oven to keep colliding、 increasing in mass as they begin to approach the speed of light in circular motion.」%p
+#mes2v CRS_1342,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's something like an 'accelerator' so to speak.」%p
+#mes2v OKA_2383,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Accelerator...!」%p
+#mes Literally the same as the LHC...!%p
+#mes2v OKA_2384,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 if the LHC was created to generate mini-black holes--」%p
+#mes2v OKA_2385,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then does the Microwave Ophone (Temp) also produce mini-black holes as well!?」%p
+#mes Kurisu--%p
+#mes Doesn't deny it.%p
+#mes2v CRS_1343,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's a miracle this thing operated so stably. 」%p
+#label L_SG05_03_RM_SUZ05_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_SUZ
+#assign $W(LR_RM_CHANCE),14
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1344,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But there's still one thing I don't understand--」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1345,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Even if mini-black holes are created、 they should evaporate instantaneously.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1346,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But it doesn't seem like that with the Microwave Ophone. That's clear from how it turns bananas and karaage into Jellymen.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1347,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Just like with the LHC、 the mini-black holes change into Kerr black holes.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2386,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「According to Titor's theory、 it's necessary to inject electrons to produce the mini-black hole to Kerr black hole effect.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1348,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Where do the injected electrons come from? I don't get that.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1349,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The LHC uses a lifter to inject electrons into the black holes、 controlling the gravitational field.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1350,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Something's substituting the lifter somewhere in the Microwave Ophone.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0807,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「S-somewhere?」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMA
+#assign $W(SW_CHA7FACE),Face_CRS_B05
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA7)
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_1351,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Like I said、 I don't know.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes So in the end、 is that where the problem leads?%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Kurisu's explanation does nothing but prove that our vague hypothesis that the Microwave Ophone (Temp) is same as the LHC isn't incorrect.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2387,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It looks like we need to review what the LHC is.」%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes This is our LHC moe guy、 Daru's time to shine.%p
+#label L_SG05_03_RM_SUZ05_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG054
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes2v DAR_0808,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「LHC stand for Large Hadron Collider. In Japanese、 I guess it's "Shoutotsugatakasokuki" (衝突型加速器)」%p
+#mes2v MAY_0638,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Had drawn?」%p
+#mes2v CRS_1352,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's the name of a particle.」%p
+#mes2v DAR_0809,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「And so、 its physical form is a large circular underground tunnel constructed underneath France and Switzerland.」%p
+#mes2v DAR_0810,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Its total length is 27 kilometers. Its depth is about 100 meters underground.」%p
+#mes2v DAR_0811,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Two rings pass inside the tunnel. Inside the rings is a super low temperature vacuum. So basically、 a reproduction of outer space environments. Seriously moe.」%p
+#mes2v DAR_0812,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Proton acceleration occurs in an adjacent facility、 where they're gradually accelerated by the linear accelerator、 proton synchrotron booster、 and SPS.」%p
+#mes2v DAR_0813,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Finally、 they're injected into the LHC、 where they undergo their final acceleration via superconducting magnets spread throughout.」%p
+#mes2v DAR_0814,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「At the end、 they reach up to 99.9999991% of the speed of light. The LHC's dangerous. Not the same level as the Microwave Ophone、 though.」%p
+#mes2v DAR_0815,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But the accelerated protons collide around 1~10 billion times per second.」%p
+#mes2v DAR_0816,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「And the purpose of the LHC project is to observe the high energies caused from the resulting reactions... or so they say. That was a huge lie、 though.」%p
+#mes That's about how much we reviewed.%p
+#label L_SG05_03_RM_SUZ05_01_REPLEY_END
+#RandomMail_End
+#stopBGM
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5POSX),CHR_LEFT_T
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_CRS_B05
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT_T
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaSetT516273
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_2388,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And that's where I'd like to hear from all of you lab mem ladies and gentlemen. Can our Microwave Ophone (Temp) forestall SERN's physical time travel or not?」%p
+#mes2v CRS_1353,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Two problems. The designation of the local field、 and the lifter.」%p
+#mes2v OKA_2389,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「For the local field designation、 it's just as you said. The D-mail precisely arrives at its specified destination.」%p
+#mes2v CRS_1354,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...It's dangerous to come to a conclusion without verification.」%p
+#mes I have no objection at all to that.%p
+#mes2v OKA_2390,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「As for the object that replaces the burden of the lifter、 we already know it 'exists' so we just need to find 'what' it is.」%p
+#mes2v CRS_1355,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't think we can find it. I've already searched the small interior of the Microwave Ophone for days without finding a hint.」%p
+#mes2v CRS_1356,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Even if we do find it、 it takes an enormous amount of time to adjust the volume of electron injection.」%p
+#mes2v DAR_0817,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「How enormous?」%p
+#mes2v CRS_1357,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「SERN spent 9 years and still can't solve it.」%p
+#mes So basically、 it will take amateurs like us even longer.%p
+#mes Just then、 a certain idea flashed into mind.%p
+#mes2v OKA_2391,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then let's try to think things conversely.」%p
+#mes2v OKA_2392,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「SERN tried out physical human time travel、 but adjusting the volume of electron injection didn't go smoothly. The singular points were not made naked.」%p
+#mes2v OKA_2393,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's the same thing with the Microwave Ophone (Temp). The amount of data that can be safely sent without turning into a Jellyman is just 36 bytes + α.」%p
+#mes2v OKA_2394,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's where we think conversely.」%p
+#mes2v OKA_2395,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If we convert a human's entirety to data、 how do you think we can compress that data into just 36 bytes + α?」%p
+#mes2v OKA_2396,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then we can send that person through the ring singularity just like a D-mail、 can't we!?」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),$W(SW_CHA1FACE)
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSC
+#assign $W(SW_CHA6FACE),Face_CRS_C04
+#assign $W(SW_CHA6ANIME_MOUTH),1
+#resetFlag SF_CHA7DISP
+#copyCHA 3,7
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6+IDX_CHA7)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v DAR_0818,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Convert a human's entirety to data? That's not even possible、 man.」%p
+#mes2v DAR_0819,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「And even if you could、 that data's capacity would be astronomical、 right? Then how could you compress that into 36 bytes? You an idiot? You wanna die?」%p
+#mes2v OKA_2397,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mm、 mmm、 I thought it was a good idea、 though....」%p
+#mes So、 the barrier to time travel is thick after all、 huh?%p
+#mes And then、 I notice Kurisu's expression had changed.%p
+#mes For some reason、 her eyes are wide.%p
+#mes Her mouth is half open.%p
+#assign $W(SW_CHA2ANIME_MOUTH),255
+#assign $W(SW_CHA6ANIME_MOUTH),255
+#mes2v CRS_1358,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I see.... In that case、 maybe--」%p
+#mes And then the next words Kurisu says:%p
+#mes2v CRS_1359,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Maybe we can do it.」%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#resetFlag SF_CHA7DISP
+#copyCHA 3,7
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDispW5173
+#playBGM BGM15
+#mes It...?%p
+#mes We can do what? Time travel?%p
+#mes Even though it was my idea、 I really can't believe Kurisu's words.%p
+#mes2v OKA_2398,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Are you serious?」%p
+#mes I ask again.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 5,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62
+#mes In response、 Kurisu grins a smile of triumph.%p
+#mes2v CRS_1360,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Super compression of data、 at least、 is simple.」%p
+#mes2v CRS_1361,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We can just use the black holes created by the LHC. Since black holes super compress everything they swallow.」%p
+#mes2v CRS_1362,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If all we compress is data、 then it's not like crushing a human to death.」%p
+#mes Ohh、 I see.%p
+#mes Wait、 I understand it now that you explain it、 but can we really pull off such a stunt?%p
+#mes And most importantly--%p
+#mes2v OKA_2399,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How do you plan to convert humans into data?」%p
+#mes2v CRS_1363,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You do know that my thesis got published in Science magazine、 right?」%p
+#mes2v OKA_2400,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why are you bragging all of a sudden?」%p
+#mes2v CRS_1364,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Did you read that thesis?」%p
+#mes I haven't looked at it.%p
+#mes2v DAR_0820,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ah、 if you want that issue of Science magazine、 I've got it scanned.」%p
+#setDic 120
+#mes Daru opens up his image folder、 scrolls through tons of porn、 none of which is &cTIPSC;3DPD&cMESC;、 and opens up the obvious Science scan data.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG055
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes And sure enough、 there's Makise Kurisu's name、 signed in English--%p
+#mes2v CRS_1365,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The title of the thesis is--」%p
+#mes2v CRS_1366,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Analysis of Nerve Impulses in Relation to Memories Accumulated in the Temporal Lobe'」%p
+#mes2v OKA_2401,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Temporal lobe? Nerve impulse?」%p
+#mes2v DAR_0821,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Huh、 Okarin、 you don't know?」%p
+#setDic 126
+#mes2v OKA_2402,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 wait. Don't mock me. This title、 umm、 it's more in the scope of &cTIPSC;neuroscience&cMESC; than physics...」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B02
+#call macrosys,CharaSet62
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#mes2v CRS_1367,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Neuroscience is my specialty、 so?」%p
+#mes I'm stunned.%p
+#mes She can talk physics in that amount of detail、 and she's so well versed in time travel hypotheses that I was under the impression she specialized in physics....%p
+#mes2v OKA_2403,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 enough about that. How is this related to time travel?」%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62
+#mes2v CRS_1368,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Converting the entirety of a human into data is impossible--」%p
+#mes2v CRS_1369,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But converting the entirety of a human's 'memories' may be possible.」%p
+#mes Converting memories... into data?%p
+#mes The specifics of Kurisu's thesis go as follows:%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes In the temporal lobe exists the parahippocampal gyrus、 where all of a human's memories accumulate.%p
+#mes But what exactly are memories?%p
+#mes Kurisu's thesis says that it's been analyzed from a neuroscientific perspective.%p
+#mes All of the brain's functions manifest as electrical signals running through its neurons as nerve impulses. That's why it can be said that even people's memories are engraved into the hippocampus by electrical signals.%p
+#mes Kurisu analyzed how electrical signals corresponded to their counterpart memories.%p
+#mes The mechanism through which humans recall memories can be likened to a word association game. Even if the image to be recalled is broad and abstract、 that seemingly becomes the key to finely detailing the image.%p
+#mes2v CRS_1370,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You start pulling the drawers of a dresser one by one、 and small boxes are packed inside each one. Inside each box is a plethora of smaller boxes. You can think of it like that.」%p
+#mes Retrieval signals、 which are necessary for memory recollection、 seem to exist in an unexpectedly large number of varieties. Among hundreds of millions of nerve impulse patterns、 thousands of signals are related to memory.%p
+#mes The analysis of all of those patterns was the result of Kurisu and her research team.%p
+#mes2v CRS_1371,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This single study may seem unrelated to Okabe's idea、 but there's one more thing.」%p
+#mes2v CRS_1372,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In the university I attended-- Victor Condoria University、 the Neurophysiology Laboratory developed the technology called Visual Rebuilding、 or VR for short、 several years ago.」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG098
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes2v CRS_1373,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「For a simple explanation、 it's a technology that allows conversion of video data into nerve impulse signals. 」%p
+#mes2v CRS_1374,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It can go the other way and convert nerve impulses into normal electrical signals、 too.」%p
+#mes2v CRS_1375,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And so、 by combining this VR technology、 and our research... do you see where I'm going?」%p
+#mes2v DAR_0822,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...no way.」%p
+#mes2v OKA_2404,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Conversion of human memories into data?」%p
+#mes2v CRS_1376,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Not just that. Memory transplantation、 backups、 and external storage... all of those things become possible.」%p
+#mes How sci-fi....%p
+#mes This is almost like storing a soul.%p
+#mes According to Kurisu、 some religious groups strongly opposed this、 just as expected.%p
+#mes But on the other hand、 it seems like something the medical community would praise as groundbreaking research.%p
+#mes In any case、 conversion of people's memories into data seems very manga-tic-- but this assistant was able to accomplish such unthinkable research.%p
+#mes Of course、 she didn't accomplish it by herself. She did have the cooperation of her enrolled university's laboratory、 but still.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5POSX),CHR_LEFT_T
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_CRS_A01
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT_T
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaSetT516273
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_2405,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So basically、 is this what you want to say? Using the same fundamentals of D-mails、 we can retrieve the memories of the test subject stored inside the brain as light signal data--」%p
+#mes2v OKA_2406,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Use the mini-black holes created by the LHC to super compress that data into 36 bytes + α size--」%p
+#mes2v OKA_2407,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Send that data through the Kerr black hole ring singularities formed by the Microwave Ophone (Temp)--」%p
+#mes2v OKA_2408,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And then drive just the subject's memories into his own brain in the past through cellphone usage--」%p
+#mes2v MAY_0639,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What does that mean-?」%p
+#mes2v CRS_1377,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Only their memories will leap through time.」%p
+#mes2v CRS_1378,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In order to differentiate it from physical time travel、 let's define it as a time leap for now.」%p
+#mes2v CRS_1379,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's not physical transfer of the flesh、 just sending memories into the past.」%p
+#mes2v CRS_1380,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's so erratic a method that nobody has honestly thought of it.」%p
+#mes I guess that's a blind spot.%p
+#mes It's too unrealistic、 but because of that、 none of the great thinkers of SERN would've looked towards it.%p
+#mes It's a feat combining physics、 neuroscience、 and neuroelectrophysiology.%p
+#mes To time leap、 to transfer memories via cellphone.%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),$W(SW_CHA1FACE)
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B02
+#resetFlag SF_CHA7DISP
+#copyCHA 3,7
+#assign $W(SW_CHA7FACE),$W(SW_CHA3FACE)
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6+IDX_CHA7)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1381,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The point is that only memories are being transferred.」%p
+#mes2v CRS_1382,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Personality and consciousness aren't included.」%p
+#mes2v OKA_2409,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What does that mean? Is something different about it compared to time leaping in scifi novels?」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),$W(SW_CHA1FACE)
+#resetFlag SF_CHA6DISP
+#copyCHA 2,6
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#resetFlag SF_CHA7DISP
+#copyCHA 3,7
+#assign $W(SW_CHA7FACE),$W(SW_CHA3FACE)
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6+IDX_CHA7)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,Disp_NextScreen
+#mes2v CRS_1383,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The time leaping in scifi and stuff sends everything including consciousness、 personality、 and memory.」%p
+#mes2v CRS_1384,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But it would probably be too much data to send the consciousness and personality as well、 and my laboratory only analyzed memories in the first place.」%p
+#mes2v CRS_1385,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Think of consciousness、 personality、 and memory as separate things.」%p
+#mes2v CRS_1386,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Memories are the same as video or image data on a computer.」%p
+#mes2v CRS_1387,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And the consciousness and personality are like the OS.」%p
+#resetFlag SF_CHA7DISP
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDisp73
+#mes2v DAR_0823,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But in terms of data size、 videos and images can be larger than the OS.」%p
+#mes2v CRS_1388,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's just an example.」%p
+#mes2v CRS_1389,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In the first place、 it's still not clear where personality and consciousness are located、 how they're constructed、 or how they're formed.」%p
+#mes2v CRS_1390,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's why we can't convert them into data、 or at least、 I can't.」%p
+#mes2v OKA_2410,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What sort of demerit can we expect with just memories?」%p
+#resetFlag SF_CHA6DISP
+#copyCHA 2,6
+#assign $W(SW_CHA6FACE),Face_CRS_B05
+#call macrosys,CharaDisp62
+#mes2v CRS_1391,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's not like personality is formed just by memories. That's why、 even if you send memories、 everything still depends on the recipient's consciousness and personality.」%p
+#setDic 201
+#mes2v DAR_0824,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In terms of "&cTIPSC;Mindorz&cMESC;"、 it's like copy-pasting data from a VISTA computer to a 95 computer、 huh?」%p
+#mes2v CRS_1392,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The data created with the latest OS might not work on an older OS. It may be incompatible.」%p
+#mes2v CRS_1393,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So、 for example、 if you sent your current memories to yourself in elementary school、 the gap between your memories and your body may cause a mental disability.」%p
+#mes2v OKA_2411,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Anyway、 is it correct to assume it's a prerequisite to only send memories to your own body in the past?」%p
+#mes Kurisu nods at my question.%p
+#mes2v CRS_1394,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Just like with D-mails、 we're leaping with a cellphone as an intermediate、 so--」%p
+#mes2v CRS_1395,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「To be exact、 I think you can only leap to your own body in the past、 and only at the times you had a cellphone.」%p
+#mes There was an exception with Lukako's case where we sent a D-mail to a pager、 but that doesn't apply to time leaping.%p
+#mes2v CRS_1396,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And the destination has to be the same person or... umm、 for example、 there's the concern that the electrical signal could be rejected without matching.」%p
+#resetFlag SF_CHA7DISP
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDisp73
+#setDic 23
+#mes2v DAR_0825,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It would be really bad if it entered someone else's body、 huh. But I'd happily enter a &cTIPSC;little missy&cMESC; though. Uhehe...」%p
+#mes Is this guy incapable of non-perverted thought?%p
+#resetFlag SF_CHA6DISP
+#copyCHA 2,6
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#mes2v CRS_1397,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't 'Uhehe' me、 you idiot!」%p
+#mes2v CRS_1398,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It would be good if it just repelled、 but I'm concerned it might even cause a serious personality disorder.」%p
+#mes2v CRS_1399,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't know the result. Since this is a first for mankind.」%p
+#mes That first for mankind phrase has a nice ring to it.%p
+#resetFlag SF_CHA6DISP
+#copyCHA 2,6
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62
+#mes2v CRS_1400,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What I do know is that you should definitely not go to before you were born、 and that there's no reason for two of you to exist simultaneously. So-」%p
+#mes2v CRS_1401,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You won't have to worry about time paradoxes. You can't kill your parents before you're born.」%p
+#mes2v OKA_2412,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So the cellphone replaces the black hole and white hole、 huh.」%p
+#mes It was a coincidence、 as well as an inevitability that the intermediate item would be the cellphone.%p
+#mes Since the cellphone is a personal terminal、 it's highly unlikely that anyone other than the owner would pick it up.%p
+#mes Goosebumps rise all over my body.%p
+#mes2v OKA_2413,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hehehe、 hehehehehe、 fuhahaha!」%p
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes I immediately whip out my phone and place it to my ear.%p
+#setDic 145
+#mes2v OKA_2414,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's me. All these points of data make a beautiful line. ...Yeah、 the plan is now entering its final stage. ...Naturally、 I mean Operation &cTIPSC;&rs"Norn of the Present"&rt"Verthandi"&re&cMESC;.」%p
+#mes2v OKA_2415,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmph、 Christina's been successfully tricked、 but... she has been accepted into the lab mems、 which to us、 is surely what Steins;Gate's choice had dictated.」%p
+#mes2v OKA_2416,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fret not. I'll prove that I can pull it off. Now we are invincible. El Psy Congroo.」%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BLB
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62only
+#mes I put away my phone and turn to Kurisu.%p
+#mes2v OKA_2417,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's just as I said. Oh, Christina、 now、 we commence Operation &rs"Norn of the Present"&rt"Verthandi"&re!」%p
+#resetFlag SF_CHA6DISP
+#copyCHA 2,6
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62only
+#mes2v CRS_1402,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No、 explain yourself a little.」%p
+#mes2v OKA_2418,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We'll adopt the entirety of your time leap plan. By the way、 I won't allow you to say you can't do the data conversion of intracranial information after all this.」%p
+#mes2v CRS_1403,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Well、 since we're in Akihabara、 I can get all the parts I need、 so I guess I can manage.」%p
+#mes2v OKA_2419,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's decided. I appoint you as commander of this operation. You may use Daru and me as you wish.」%p
+#mes2v OKA_2420,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's complete the first Time Leap Machine in the history of mankind...!」%p
+#resetFlag SF_CHA6DISP
+#copyCHA 2,6
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62only
+#mes Kurisu doesn't decline.%p
+#mes Rather、 her eyes were filled with the fire of the fight.%p
+#mes She really is a natural-born scientist. I'm convinced of that.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

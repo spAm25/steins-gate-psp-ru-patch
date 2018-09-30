@@ -1,0 +1,1118 @@
+﻿#label dstart
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#call macrosys2,Init_SG
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,SET_VID
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#setFlag SF_PhoneSD_Disp
+#assign $W(LR_DATE),0731
+#mes2v DAR_0236,NO_LIPANM_DAR,VID_DAR,＠Itaru＠「...」%p
+#mes 20 minutes have passed since Daru began hacking.%p
+#mes Daybreak. A refreshing summer morning.%p
+#mes I peek at Daru's condition while browsing @channel on my phone.%p
+#mes His typing speed has already become that of a piston.%p
+#mes His feet move up and down in an accompaniment with the rattatattat of his keyboard.%p
+#mes He hasn't slept in about 40 hours、 but Daru still won't separate from his computer.%p
+#setFlag SF_Phone_AutoDisable
+#mes I wanted to ask him if he'd like a break、 but hesitated. His entire body exuded an aura that said Don't talk to me.%p
+#mes I curl myself up a bit and look back down on my phone screen.%p
+#mes The discussions with John Titor don't quite fit together.%p
+#mes It looks like not even Titor himself knows about the Titor of ten years ago.%p
+#mes It's hard to imagine that everyone on @channel except me is conspiring.%p
+#mes But isn't that just baffling?%p
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes So with that said、 I do as Titor requested and start to mail him directly. He audaciously exposed his own address on @channel. I guess this means he's accepted their challenge!%p
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_PhID),PhID_John
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#call macrosys2,PHONE_ADRSUBMENU_MAIL
+#wait 1
+#mwait 30
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0201_0
+#assign $W(SW_PHONE_MAILCURMNO),CREATE_NEW_MAIL
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 30
+#mes In the mail、 I question the differences in his posts from 10 years ago and now.%p
+#mes He doesn't seem to be in contact with the Titor who posted 10 years ago.%p
+#mes I only vaguely remember it、 but it went primarily like this:%p
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes ・2015、 World War III breaks out、 many people die.%p
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes ・ In 2036、 the world is contaminated from nuclear warfare%p
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes ・ He time traveled from 2036 to 1975 to obtain an IBN 5100. Its purpose was to revive technology lost in World War III.%p
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes ・The IBN 5100 has a hidden function. The ability to debug IBN's special proprietary computer language before APL and BASIC.%p
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes ・But the only ones who know that fact are certain IBN engineers、 so this function does not appear in the manual.%p
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes ・In 1998、 Titor met his young self and his parents from his early life in America.%p
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes ・Titor aspired to be a time traveler as a soldier.&P
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes ・Titor is an American.%p
+#assign $W(LR_TARGET_MAILNO),($W(SW_PHONE_SENDMAILNO)+1)
+#call macrosys2,SendMailEdit_NEXT
+#mes Furthermore、 several future events that Titor posted about in 2000 came true.%p
+#mes The Peruvian coast earthquake in 2001、 the election of a new pope、 the outbreak of the Iraq War、 China's advances in space、 and so forth.%p
+#mes Though he talked about all of them vaguely、 they all came true.%p
+#mes On the other hand、 others failed to come true.%p
+#setDic 217
+#mes For example、 the &cTIPSC;Year 2000 Problem&cMESC;、 civil war in America、 the cancellation of the Beijing Olympics、 the inauguration of the America's first female president in 2009、 and so forth.%p
+#mes There are others、 but let's leave them aside for now.%p
+#mes Let's ask him why those predictions didn't come true.%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#assign $W(LR_TARGET_MAILNO),(FM_To_TIT0201-1)
+#call macrosys2,SendMailEdit_NEXT
+#wait 1
+#mwait 60
+#label @@
+#wait 1
+#mwait 1
+#sub $W(SW_PHONE_MAILDISPLINE2),1
+#If ($W(SW_PHONE_MAILDISPLINE2)>0),@b
+#playSE 2,SGSE175
+#assign $W(LR_TMP00),0
+#label @@
+#mwait 1
+#add $W(LR_TMP00),1
+#KeyOnJump2 PADCUST_OK,KEY_ONESHOT,@f
+#If ($W(LR_TMP00)<=120),@b
+#label @@
+#stopSE 0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0201
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#mes Alright、 now let's send it.%p
+#call macrosys2,COMPLETE_SENDMAIL
+#wait 1
+#mwait 60
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes If he doesn't answer honestly、 then the current Titor who descended onto @channel is an imposter.%p
+#mes This is your litmus test、 John Titor.%p
+#mes Heheheh、 now、 what color will you yield?%p
+#messWindowCloseWait
+#playSE 0,SGSE024
+#call macrosys,SEwaitHalf
+#mes2v MAY_0137,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Tutturu-♪ Good morning]」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM05
+#mes Mayuri comes in.%p
+#mes She's smiling now、 as if she had been cleared of her resentment over her food yesterday.%p
+#mes2v OKA_0609,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you doing here this early?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0138,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Well、 I heard you guys had stayed up two nights in a row、 so I brought you provisions-」%p
+#mes2v OKA_0610,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see. Thanks for your troubles.」%p
+#mes To be accurate、 I took a nap yesterday、 so it wasn't two nights in a row、 though.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_C01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes Mayuri starts fishing through her convenience store bag.%p
+#mes And then she takes out--%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#setDic 22
+#mes2v MAY_0139,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Tada-h. &cTIPSC;Canned oden&cMESC;!」%p
+#mes The canned oden is still warm when she gives it to me.%p
+#mes Right away、 I open the lid and eat the beef.%p
+#mes Since Mayuri and I have been together for a long time、 she knows what I like.%p
+#mes I like beef in my oden the best.%p
+#mes2v MAY_0140,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It's a present from Mayushii-. They're 270 yen each、 so savor it、 okay-」%p
+#mes2v OKA_0611,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lately、 I've been getting tired of eating bananas and karaage. Please include this in your provisions from now on.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0141,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But Mayushii doesn't have enough pocket money to be that extravagant all the time.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0142,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Also、 Mayushii loves bananas and karaage、 so she'll keep buying them.」%p
+#mes Mmgh.%p
+#mes The complaint You'll get fat if you only eat frozen foods came to mind、 but I dare not say it since it's not very effective against Mayuri.%p
+#mes She has the metabolism to not get fat no matter how much she eats.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0143,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And、 there's more. Here、 tada~h♪」%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG026
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2POSX),-80
+#assign $W(SW_BG2POSY),100
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes What she takes out next is a small box with a RaiNet illustration.%p
+#mes2v MAY_0144,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「RaiNet sausage. You know it comes with an Upa bottle cap as an added bonus-. I really wanted it、 so I bought it.」%p
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes She sticks out her tongue with an 'eheh'.%p
+#mes Let's try to make a prediction. In a few months、 this lab will be filled with Upa goods.%p
+#mes It all started with that cushion siting on the sofa、 but the number is sure to go through exponential growth.%p
+#label L_SG02_05_RM_SUZ02_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_SUZ
+#assign $W(LR_RM_CHANCE),19
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0145,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 how's Daru-kun~?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0612,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In the midst of a hard fight. He should at least rest a little. I mean、 I never said he ha to do it all at once.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0146,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Daru-kun's supah hakah spirit is burning up ablaze、 huh-」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0237,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Over there、 don't say hakah!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes An empty diet cola bottle comes flying with a whistle.%p
+#messWindowCloseWait
+#playSE 0,SGSE025
+#call macrosys,SEwait
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaSet51
+#call macrosys,QUA3ALL
+#call macrosys2,CHECK_RM_RECEIVE
+#mes It hits my head with a thunk.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0147,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「He sure is tense-...」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),(SCR_SIZ_X/4)
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Mayuri and I evacuate to a corner of the lounge and quietly eat the oden.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0148,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But- hacking is bad、 isn't it-? Mayushii doesn't want you to o bad things like that-」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0613,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Letting Daru's supah hakah... I mean、 hacker skill go to waste is like throwing pearls before swine.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes By the way、 it seems like SERN's system got hijacked by hackers in 2008 too. When we searched online、 we got news hits talking about it.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Basically、 that means that even the people who developed the world wide web have security holes.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes With Daru's level of skill、 he should have no trouble to penetrate such a security hole.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0614,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Besides、 this is to disclose the wrongdoings of SERN. This is the war against the huge darkness that rules the world from behind!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLC
+#assign $W(SW_CHA5FACE),Face_MAY_C03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0149,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Bad things are bad-」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Mm? Unlike usual、 Mayuri seriously believes what I said.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Well、 I know we're doing a bad thing.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes But while that may be true、 there's no way we can stop now.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I need to change the subject.%p
+#label L_SG02_05_RM_SUZ02_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes2v OKA_0615,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri、 want to trade my sweet potatos for your beef?」%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,MAY_CLA
+#assign $W(SW_CHA8POSX),$W(SW_CHA1POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8FACE),Face_MAY_A03
+#call macrosys,CharaDisp81
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_MAY_01
+#mes2v MAY_0150,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehh-? In that case、 I'd rather have your quail egg-」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_0616,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't be ridiculous. After beef、 I like quail eggs the best.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0151,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii likes quail eggs too.」%p
+#mes2v OKA_0617,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Settle for my chikuwa.」%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,MAY_CLB
+#assign $W(SW_CHA8POSX),$W(SW_CHA1POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8FACE),Face_MAY_B03
+#call macrosys,CharaDisp81
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLB
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_MAY_02
+#mes2v MAY_0152,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mm-、 okay-. Chikuwa's better than sweet potatoes-」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes With that said、 I skewer the chikuwa and put in Mayuri's can.%p
+#mes In return、 I take out her beef.%p
+#mes And now the subject change is complete. Mayuri really eats up conversations about food. It's so easy to lead her on. Fuhahaha!%p
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#mes2v DAR_0238,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Soon... If I can just get the SQL table、 I'll have more than enough passwords... gweheheh... don't underestimate me....」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG027
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM15
+#mes Daru starts mumbling.%p
+#mes Looks like things are slowly settling.%p
+#label L_SG02_05_RM_SUZ02_01_REPLY_END
+#RandomMail_End
+#mes Daru's really is a supah hakah.%p
+#mes It feels like this is the first time I've seen him serious.%p
+#mes Daru bends himself forward、 staring holes into the screen.%p
+#mes But all that's on the screen is the same string of numbers and letters....%p
+#mes2v DAR_0239,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ohoh、 gotitgotitgot it-、 good、 good、 yes、 prepare yourself. Everything is exposed before me. How does it feel to be naked? Hyahha-、 ha、 haha...」%p
+#mes His eyes are completely bloodshot.%p
+#mes And he's muttering some creepy monologue.%p
+#mes Maybe he's got some strange enthusiasm from lack of sleep.%p
+#mes Daru opens up a new window、 types in a 12 letter word(?)、 and slams down the enter key.%p
+#playSE 0,SGSE023
+#mes An error sound rings.%p
+#mes Then he quickly deletes the string and enters in a new one.%p
+#playSE 0,SGSE023
+#mes He keeps repeating that action and then--%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG028
+#assign $W(SW_BG3PRI),(PRI2_BG+1)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes2v DAR_0240,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...Ohh、 got it! Got it-----! Matching ID and password! Login complete、 fuck yeah! Die! Don't underestimate me! YESYESYES!」%p
+#mes H-how enthusiastic of him....%p
+#mes2v OKA_0618,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru、 did you get it!?」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG1SIZE),0
+#assign $W(SW_BG1POSX),0
+#assign $W(SW_BG1POSY),0
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_POS
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_RIGHT2
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaSet62
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes That smug bastard turns around at my voice、 with a shining、 refreshed face.%p
+#setDic 46
+#mes As if he had gone into &cTIPSC;le petite mort&cMESC;.%p
+#mes2v DAR_0241,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mission Complete.」%p
+#mes2v OKA_0619,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Really!?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0153,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wah-、 that's amazing-. Don't know what that is、 though.」%p
+#mes After 20 hours of agony、 it's finally over.%p
+#mes To show Daru my appreciation、 I hurl an unopened oden can at him.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62Only
+#mes2v DAR_0242,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「An oden can after a job well done is the best.」%p
+#mes2v OKA_0620,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Good job. You really are the world's best supah haka--」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0243,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hacker.」%p
+#mes2v OKA_0621,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「H-hacker. I'm glad you're not my enemy.」%p
+#mes2v OKA_0622,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 did you find evidence on the world destruction project?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0244,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「No、 nothing yet-. I only connected.」%p
+#mes2v DAR_0245,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 it's all downhill from here、 though.」%p
+#mes2v OKA_0623,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In that case、 I'm sorry if you're tired、 but please get check up on it at once. It's got to be in there. Shadows of conspiracy.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDisp62
+#mes2v DAR_0246,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Yeah、 yeah、 I'll do it. But before that、 let me eat the oden can.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A5
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A5
+#call macrosys,TUNE_CHACOL_BGNO
+#mwait 32
+#call macrosys,FadeInSLOW
+#mes After a short meal break、 Daru taps on his keyboard more nimbly than before.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0247,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The problem is the who this password belongs to、 and their position in SERN、 huh-」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0154,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What do you mean-?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0248,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I went into SERN's database and got a data table.From there、 I focused on people with simple passwords like 11111111 and ABCDEFGH to obtain an ID.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0249,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's best if the owner of that ID were a server manager、 but I don't think we'd be that lucky.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0155,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「In Japanese please-」%p
+#mes2v OKA_0624,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Same.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0250,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In short、 if the password belonged to a SERN server manager、 then we could lick the entirety of SERN's body and see whatever we wanted、 but if it's just an ordinary researcher's password、 then we could only see its boobs、 or something like that.」%p
+#mes2v MAY_0156,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Daru-kun、 that's naughty-」%p
+#mes2v OKA_0625,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't use erotic examples. Basically、 you mean the information we can see will be limited、 right?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0251,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Exactly.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0252,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 getting a server manager's password would only be a matter of time. Let's save that for later. I'm really sleepy now.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes It would be cruel to push Daru any further.%p
+#mes It's unfortunate、 but it can't be helped. Let's let him rest so he can be refreshed.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes2v DAR_0253,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ohh、 looks like the ID we got belongs to an accelerator division official.」%p
+#mes2v OKA_0626,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's not a server manager then...?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0254,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It would take a miracle to get one with our first try. How many staff members do you think SERN has?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSC
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_0157,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「How many?」%p
+#mes2v DAR_0255,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Over 6000.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSC
+#assign $W(SW_CHA5FACE),Face_MAY_C03
+#call macrosys,CharaDisp51
+#mes There's that many...?%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes2v DAR_0256,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 for now、 this accelerator division official、 uh his name is...」%p
+#mes2v DAR_0257,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mr. Jack. Let's peep into his mail log.」%p
+#mes As expected、 the mails come up in English.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0158,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Uwawah-. Mayushii's head is starting to hurt...」%p
+#mes Hmph. It's miserable to be flinching at the sight of English.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes2v OKA_0627,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru、 what's written there?」%p
+#mes2v DAR_0258,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Need to translate it...」%p
+#setDic 15
+#mes2v OKA_0628,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Angle up the &cTIPSC;Babel Fish&cMESC;!」%p
+#mes2v DAR_0259,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I'm not gonna do something tedious like that.」%p
+#mes Daru boots up translation software and auto-translates the open page.%p
+#mes Poor、 unnatural Japanese shows up.%p
+#mes The first line said A HAPPY NEW YEAR.%p
+#mes2v DAR_0260,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Greeting like of New Year it does the~. Go on vacation in Spain... envy」%p
+#mes That mail's contents were normal. Nothing out of the ordinary.%p
+#mes2v DAR_0261,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「If we keep scouring the log like this、 we can also identify the server manager.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0159,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 looking through someone else's mail without permission makes me feel really sorry....」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mwait 16
+#assign $W(SW_BG1PRI),PRI2_BG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#assign $W(SW_BG2PRI),PRI_BG
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),(SCR_SIZ_X/4)
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaSet51
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),PRI2_UPPER_CHARA
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeInTIM
+#assign $W(SW_BG8FADECT),0
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes Mayuri gets depressed and moves away from the computer out of guilt.%p
+#mes She silently sits on the sofa and sighs as she hugs the giant Upa cushion.%p
+#mes What we're doing certainly is socially unacceptable. I recognize that. But--%p
+#messWindowCloseWait
+#assign $W(SW_BG8PRI),PRI2_UPPER_CHARA
+#setFlag SF_BG1DISP
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeOutTIM
+#resetFlag SF_BG2DISP
+#mes2v OKA_0629,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Having stepped foot on the path of evil long ago、 I no longer know what guilt feels like、 fuhahaha!」%p
+#mes2v OKA_0630,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I shall take all responsibility. I have no intention to get either of you charged with guilt.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#add $W(SW_CHA2PRI),PRI2_BG
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0262,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Uhoh. I'd let Okarin do me in the butt.」%p
+#mes2v OKA_0631,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I decline.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v OKA_0632,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So with that said、 Daru、 don't hesitate to peek.」%p
+#messWindowCloseWait
+#assign $W(SW_BG8PRI),PRI2_UPPER_CHARA
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMC
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_MAY_C04
+#call macrosys,CharaSet51
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeInTIM
+#assign $W(SW_BG8FADECT),0
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClr2
+#mes2v MAY_0160,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 you're bad-. Mayushii's a sad panda.」%p
+#mes That's of no concern to me.%p
+#mes Don't be a hypocrite.%p
+#messWindowCloseWait
+#assign $W(SW_BG8PRI),PRI2_UPPER_CHARA
+#setFlag SF_BG1DISP
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeOutTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_EFF_CAPTURE_PRI),0
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#call macrosys,CharaClr1
+#call macrosys,SetOrder51627384
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG1PRI),PRI_BG
+#mes Upon further examination、 we discover several mails with the title Experiment report.%p
+#mes Which means “実験報告” in Japanese.%p
+#mes Looks like he sends this mail almost daily.%p
+#mes2v OKA_0633,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「LHC experiment reports、 huh. There could be a time machine hint in there. We should try opening it.」%p
+#mes2v DAR_0263,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It seems dangerous to look at it、 though...」%p
+#mes Daru says so while clicking that mail.%p
+#mes What came out is a cryptic series of symbols.%p
+#mes2v DAR_0264,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「This is encrypted.」%p
+#mes2v OKA_0634,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Tch、 so it really wasn't that simple...」%p
+#mes2v DAR_0265,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 it'll be a piece of cake to solve this level of encryption. 」%p
+#mes Nice、 supah hakah.%p
+#setFlag SF_Phone_AutoDisable
+#mes He's no doubt a genius.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#mwait 64
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#mes In about 10 minutes、 Daru's undone the security.%p
+#mes What takes more time is deciphering the confusingly translated Japanese.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG029
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes2v DAR_0266,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Umm、 liberally translated...」%p
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#setFlag SF_BG2DISP
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_DAR_01
+#mes2v DAR_0267,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hi、 Pole'」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaSet62
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),0
+#assign $W(SW_BG2LY),0
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_POS
+#mes2v OKA_0635,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That acting's unnecessary.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0268,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ya think so...?」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes2v DAR_0269,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Uploaded today's experimental data to the server. The LHC's condition is excellent. Though、 it is the 'LHC' to the end.'」%p
+#mes2v DAR_0270,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's almost fickle like a cat、 but it was surprisingly obedient this month. It would be great if it stayed in this condition forever.'」%p
+#mes2v DAR_0271,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「'But don't you think this work isn't rewarding? This kitten-- or should I say large cat HAHAHAHA-- has been in operation for 9 years.'」%p
+#mes2v DAR_0272,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「This research that repaints human history should only be seen by a small group of people.'」%p
+#mes2v DAR_0273,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In all actuality、 if it was officially announced、 it would become a scandal、 don't you think?'」%p
+#mes2v DAR_0274,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Those guys around the world would probably say this: 'Call Robert Zemeckiff to SERN right away. Then you could get him to make it in less than a year'.'」%p
+#mes2v OKA_0636,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...9 years?」%p
+#mes I rub my temples with my thumbs、 waiting for Daru to finish reading.%p
+#mes Calm down. Sort it out.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#mes2v OKA_0637,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you think there were any translation mistakes in that mail?」%p
+#mes Does Daru notice something unnatural too? He's not joking like usual.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0275,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「If you believe in the translation software、 there shouldn't be any mistakes、 right? The Japanese certainly is strange here and there、 though.」%p
+#mes2v OKA_0638,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But something's weird then.」%p
+#mes2v OKA_0639,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The LHC should've only been put into operation around spring last year. But if you read between the lines in this mail、 it's been in operation for 9 years.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0276,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's strange.」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK17
+#assign $W(SW_BG3MASKFADERANGE),64
+#setFlag SF_BG3DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG3FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes The mail's send date is this year、 2010、 so nine years ago is 2001.%p
+#mes Yesterday on @channel、 John Titor posted this:%p
+#mes If you want to supplement that explanation、 then you have no choice but to believe what they say.%p
+#mes They have already succeeded at the creation of micro-black holes.%p
+#mes I gulp.%p
+#mes If you read between the lines in this mail... there's the nuance that they're doing some sort of secret experiments%p
+#mes And Robert Zemeckiff is a super-famous Hollywood movie director.%p
+#mes He directed a trilogy of smash-hit time travel movies about 20 years ago.%p
+#mes I groan.%p
+#mes Don't tell me... my expectations were correct?%p
+#mes SERN's hiding a major secret from the world?%p
+#mes And it's even research on time machines、 or something related...?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_0640,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru. Examine it some more. Search for traces of time machine research.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A06
+#call macrosys,CharaDisp62
+#mes2v DAR_0277,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Seriously...?」%p
+#mes I don't know if Daru was directing that to my order、 or to SERN's secret.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Either way、 Daru takes my words to heart and begins tapping on the keyboard again.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes2v DAR_0278,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hmm、 there aren't any mails with the phrase 'time machine' in them...」%p
+#mes2v DAR_0279,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But the phrase 'Z Program' is used hundreds of times in the past few months.」%p
+#mes2v DAR_0280,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Don't you think it could be the experiments they're doing with the LHC right now?」%p
+#mes2v OKA_0641,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What is it specifically? Black hole formation experiments?」%p
+#mes2v DAR_0281,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hmmm、 let's look for a document... ah、 found one.」%p
+#mes Daru opens up a PDF file sent as an attachment.%p
+#mes2v DAR_0282,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hohoh-、 looks like this is top secret stuff from France、 England、 and Holland.」%p
+#mes2v OKA_0642,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...top secret national affairs?」%p
+#mes2v DAR_0283,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「SERN's not even a national organization、 so why?」%p
+#mes2v DAR_0284,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Anyway、 top secret national affairs? This bad、 isn't it?」%p
+#mes2v OKA_0643,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't care. Examine the details.」%p
+#mes2v DAR_0285,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「No、 no. If we get caught、 we won't just be sorry.」%p
+#mes2v OKA_0644,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Are you so incompetent at hacking that you'd get tracked?」%p
+#mes2v DAR_0286,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...I did it in a way that can't be tracked.」%p
+#mes2v OKA_0645,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then I fail to see a problem.」%p
+#mes2v DAR_0287,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 thanks.」%p
+#mes Daru makes a slightly awkward face as he feeds a file detailing the Z Program into the translation software.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG030
+#assign $W(SW_BG3PRI),PRI2_BG
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#resetFlag SF_BG1DISP
+#mes2v DAR_0288,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hmm、 'May 14 #137th Z Program Experiment Report'...」%p
+#mes2v DAR_0289,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「'Because the mission of mini-black hole formation has already been established、 the report is omitted. First--'」%p
+#mes2v OKA_0646,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Stop! Stop!」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#mes All of a sudden、 Titor's 'prediction' became reality...!%p
+#mes2v OKA_0647,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So SERN did use the LHC to successfully generate mini-black holes...!」%p
+#mes2v DAR_0290,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Officially、 they announced that they still haven't succeeded with the experiments、 so why...」%p
+#mes When Titor posted believe what they say、 that's what he was referring to.%p
+#mes2v DAR_0291,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In the first place、 the experiment's goal was to create new particle reactions、 not generate mini-black holes....」%p
+#mes Daru doesn't take his wide eyes off the monitor.%p
+#mes2v OKA_0648,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But in reality、 they're already generating mini-black holes.」%p
+#mes2v DAR_0292,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Seems like it.」%p
+#mes2v OKA_0649,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's written after that?」%p
+#mes2v DAR_0293,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Umm...」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes2v DAR_0294,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Experimental results: Error. Human is dead、 mismatch. For details、 consult the enclosed Jellyman's Report No.14.'」%p
+#mes2v DAR_0294_2,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Unless lifter adjustment、 as well as each local field conformity position can be fixed、 it is proposed that the experiments must be terminated.'」%p
+#mes2v OKA_0650,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wh-what does that mean?」%p
+#mes2v DAR_0295,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Human is dead means that somebody died、 right?」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#mes2v OKA_0651,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wha...」%p
+#mes Somebody died?%p
+#mes Seriously?%p
+#mes I groan.%p
+#mes Th-this isn't a joke anymore.%p
+#mes We've might've gotten involved in something outrageous.%p
+#mes Maybe we've fallen and we can't get up.%p
+#mes We've stirred up a hornet's nest.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK17
+#assign $W(SW_BG3MASKFADERANGE),64
+#setFlag SF_BG3DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG3FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Pfft、 who gives a damn?%p
+#mes I-I'm not afraid. After all、 I am the insane mad scientist、 Hououin Kyouma.%p
+#mes We can't stop after coming this far.%p
+#mes I can't control my curiosity. And watching an actual evil deed take place without doing anything about it just leaves a bad taste.%p
+#mes My throat has gone dry from the strain.%p
+#mes I swallow down my spit.%p
+#mes In an attempt to keep whatever composure I can、 I scold myself for trying to run away.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_0652,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What is this Jellyman's Report?」%p
+#mes Daru starts typing once I ask my question、 but he soon clicks his tongue.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDisp62
+#mes2v DAR_0296,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 I can't find it in Mr. Jack's mail. We need to get a hold of a higher up or a server manager's password.」%p
+#mes2v OKA_0653,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then we'll postpone that. Search for tings related to time machines.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#setFlag SF_Phone_AutoDisable
+#mes2v DAR_0297,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But nothing's going to turn up、 you know~?」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#mwait 64
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#mes After that、 Daru spends about 15 minutes fishing through the accelerator division official's mail、 but can't find anything about time machines after all.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0298,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Words like accelerator technical committee、 and LHC project official came out、 so I guess we should look for an ID from there. Maybe we can get more detailed information from them.」%p
+#mes2v OKA_0654,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can't examine it using Mr. Jack's ID?」%p
+#mes Daru nods.%p
+#mes2v OKA_0655,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well then、 let's stop for today...」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASB
+#assign $W(SW_CHA6FACE),Face_DAR_B01
+#call macrosys,CharaDisp62
+#mes2v DAR_0299,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「By the way、 what we saw just now was SERN's biggest server、 but there's actually another one、 a strange database.」%p
+#mes2v OKA_0656,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Strange、 in what way?」%p
+#mes2v DAR_0300,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...It was buggy.」%p
+#mes2v OKA_0657,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Buggy?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASB
+#assign $W(SW_CHA6FACE),Face_DAR_B03
+#call macrosys,CharaDisp62
+#mes2v DAR_0301,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 buggy、 or rather、 something that seemed like program code came up....」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASB
+#assign $W(SW_CHA6FACE),Face_DAR_B02
+#call macrosys,CharaDisp62
+#mes2v DAR_0302,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It was too ambiguous and confusing、 or rather、 utterly impossible to decode、 thank you very much、 or rather」%p
+#mes2v OKA_0658,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Could it be encrypted?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASB
+#assign $W(SW_CHA6FACE),Face_DAR_B06
+#call macrosys,CharaDisp62
+#mes2v DAR_0303,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's not a cipher I've ever seen. It couldn't come into existence as a program in the first place. It just bothers me as to why they would have a database like that that nobody could see.」%p
+#mes2v OKA_0659,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That does bother me.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASB
+#assign $W(SW_CHA6FACE),Face_DAR_B02
+#call macrosys,CharaDisp62
+#mes2v DAR_0304,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I'll try analyzing it for a bit.」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_MAY_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM2000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_MAY_02
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM4000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_DAR_01
+#assign $T(THD_WORK17),0
+#assign $T(THD_WORK18),BG_SLOW
+#label @@
+#add $T(THD_WORK17),1
+#CalcAccel SW_BG2SX_OFS,(20-$W(SW_BG2SX)),$T(THD_WORK17),$T(THD_WORK18)
+#CalcAccel SW_BG2SY_OFS,(180-$W(SW_BG2SY)),$T(THD_WORK17),$T(THD_WORK18)
+#CalcAccel SW_BG2LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG2LX)),$T(THD_WORK17),$T(THD_WORK18)
+#CalcAccel SW_BG2LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG2LY)),$T(THD_WORK17),$T(THD_WORK18)
+#wait 1
+#If ($T(THD_WORK17)<$T(THD_WORK18)),@b
+#assign $W(SW_BG2SX),20
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BG2SY),180
+#assign $W(SW_BG2SY_OFS),0
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LX_OFS),0
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2LY_OFS),0
+#resetFlag LF_THD_EXEC
+#end

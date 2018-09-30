@@ -106,8 +106,15 @@
 // Where the original BIN files are located
 #define ORIGINAL_DATA_DIR "original-data"
 
+// Where translation files of the English version of the
+//   game are located
+#define TRANSLATION_DATA_DIR "translation-data"
+
 // Where Atlas scripts will be generated to
 #define ATLAS_OUT_DIR "patch-atlas"
+
+// Where translation strings will be generated to
+#define TRANSLATION_STRINGS_DIR "translation-strings"
 
 // Table that relates ShiftJIS and UTF8 together
 #define RULE_TABLE "encoding.tbl"

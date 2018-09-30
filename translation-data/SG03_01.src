@@ -1,0 +1,1013 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,TIT003
+#setFlag SF_BG1DISP
+#wait 16
+#call macrosys,FadeInVery2Slow
+#AutoSave 1
+#call macrosys,SetRevTitle
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#assign $W(LR_DATE),0802
+#messWindowCloseWait
+#call macrosys,FadeOutVerySlow
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A5
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),480
+#assign $W(SW_BG1POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A5
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInVery2SLOW
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#playSE 1,SGSE032
+#mes The ticking of the clock has been reverberating in my ears.%p
+#mes It's past 2AM.%p
+#mes Since the window is closed、 I can't hear any outside noise.%p
+#mes Daru、 Kurisu、 and I keep staring at the gruesome image reflected on the monitor、 unable to speak.%p
+#mes We all realize something's wrong here.%p
+#mes This is terrible、 isn't it...?%p
+#mes We can't complain if robust westerners in black suits kicked down the lab door right this instant....%p
+#mes I make sure the door's looked.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0409,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「What... is this...」%p
+#mes Daru breaks the silence with a whisper overcome with surprise.%p
+#mes2v DAR_0410,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Jellyman... as in gelification...?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes Upon hearing the familiar word 'gelification'、 I instinctively look to the bunch of bananas placed next to the computer.%p
+#mes There's only one banana left on the bunch now.%p
+#mes We didn't have a single successful experiment today、 so we don't have any gelified bananas.%p
+#mes But I don't think this is a mere coincidence.%p
+#mes The gelified bananas produced by the Microwave Ophone (Temp)、 and the jellyman-ified corpses produced by SERN's experiments.%p
+#mes They seem identical in nature.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0595,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Human experiments...?」%p
+#mes Kurisu speaks calmly despite her grim expression.%p
+#mes But she doesn't try to divert her eyes from the gruesome image.%p
+#mes2v CRS_0596,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Moreover、 though it's not perfect、 this means they've created a time machine.」%p
+#mes2v OKA_1223,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Eh...?」%p
+#mes I've been out of it for a while due to the shock.%p
+#mes I'm terrified to have a genuine conspiracy before my eyes. So I don't quite understand the meaning of Kurisu's words.%p
+#mes2v CRS_0597,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This article is from a 1921 New York Times issue.」%p
+#mes2v OKA_1224,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「About 90 years... ago...?」%p
+#mes2v CRS_0598,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Look.」%p
+#mes Kurisu points to part of the black and white photograph、 her finger shaking slightly.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG036
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes The corpse of a man who turned into a jellyman. At the top of his shoulder、 perhaps printed on his clothes、 you can see writing. It's fused onto the gelified body、 but you can somehow manage to read it.%p
+#messWindowCloseWait
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2SX_OFS,((SCR_SIZ_X/2)-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2SY_OFS,(330-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG2LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG2LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2SX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BG2SY),330
+#assign $W(SW_BG2SY_OFS),0
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LX_OFS),0
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2LY_OFS),0
+#mes2v OKA_1225,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「SERN...」%p
+#mes That's what's written.%p
+#mes As if declaring it as proof.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaSetW5162
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v DAR_0411,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So basically... SERN used the LHC for time travel experiments、 and sent a human back to 1921...?」%p
+#mes2v CRS_0599,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Looks like they failed at keeping him alive、 though.」%p
+#mes2v OKA_1226,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is this all of the Jellyman's Report?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0412,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「No... there's still quite a bit. In total、 umm... there's 14 people or so.」%p
+#mes2v OKA_1227,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If the word Jellyman means a gelified human、 then... does that mean... there are that many human experimentation victims?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I swallow my saliva.%p
+#mes I'm awfully thirsty.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I take a cold Dr Pepper out of the fridge and moisten my mouth.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#mes2v OKA_1228,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Show me the others.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE045
+#mes Daru switches the monitor to another report.%p
+#mes Without being told to、 Kurisu begins translating out loud.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG037
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes2v CRS_0600,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Jellyman's Report 9"」%p
+#mes2v CRS_0601,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Subject: Dan Strayski、 Age: 26、 Origin: Canada"」%p
+#mes2v CRS_0602,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Z Program 4、 Experiment Date: 2004-10-30 T 14:10"」%p
+#mes2v CRS_0603,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Results: Error. Human is dead. Mismatch."」%p
+#mes2v CRS_0604,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The newspaper clipping... I think this is French. I can't read it.」%p
+#mes2v OKA_1229,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can read the date、 which is January 31、 2001.」%p
+#mes2v CRS_0605,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The location is... Pau、 France、 I guess.」%p
+#mes 2001、 so that's fairly recent.%p
+#mes It's a large difference from James McCarthy、 who jumped nearly 90 years to 1921.%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE092
+#setFlag SF_Phone_AutoDisable
+#mes Daru tries to translate it literally with a machine translation、 giving us the following content:%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE143
+#call macrosys,SetWindowModeFull
+#mes &lfCR4;January 31、 2001、&nCollapsed male corpse discovered in forest outside Pau、 France.&nCorpse left foot fused to tree trunk、&nmeaning its body become jelly.%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#mes Daru displays the next page.%p
+#messWindowCloseWait
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE045
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG038
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes2v CRS_0606,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Jellyman's Report 8"」%p
+#mes2v CRS_0607,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Subject: Linda Hill、 Age: 25、 Origin: England"」%p
+#mes2v CRS_0608,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Z Program 4、 Experiment Date: 2004-2-15 T 13:45"」%p
+#mes2v CRS_0609,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Results: Error. Human is dead. Mismatch."」%p
+#mes2v CRS_0610,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"October 2、 1972、 on the streets of Dharmapuri in Tamil Nadu、 India、 a jelified woman's corpse discovered."」%p
+#mes2v CRS_0611,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"The corpse has traces of being run over by a car after it had been left alone. The lower half is damaged."」%p
+#mes Daru goes to the next page.%p
+#messWindowCloseWait
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE045
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG039
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes2v CRS_0612,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Jellyman's Report 7"」%p
+#mes2v CRS_0613,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Subject: Michael Lang、 Age: 33、 Origin: Germany"」%p
+#mes2v CRS_0614,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Z Program 4、 Experiment Date: 2002-10-8 T 13:28"」%p
+#mes2v CRS_0615,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Results: Error. Human is dead. Mismatch."」%p
+#mes The article clipping is written in Japanese.%p
+#setFlag SF_Phone_AutoDisable
+#mes Looks like a pre-war newspaper.%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR4;"May 24、 1936、&nAt the base of Mt. Hiei in Kyoto、 the corpse of what is believed to be a gelified human was discovered.&nIt is in a damaged state、 possibly due to sliding down the slope."%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#mes The contents were such.%p
+#mes I didn't know this news was even in Japan.%p
+#mes Though、 it was pre-war、 so someone born in the Heisei Era like me would have no way of knowing it.%p
+#mes Next page.%p
+#messWindowCloseWait
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE045
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG040
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes On a beautiful coast、 a jellyfish-like body washed ashore. There's a picture of the inhabitants surrounding and staring at it.%p
+#mes2v CRS_0616,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Jellyman's Report 6"」%p
+#mes2v CRS_0617,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Subject: Mark Hughes、 Age: 30、 Origin: America"」%p
+#mes2v CRS_0618,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Z Program 4、 Experiment Date: 2002-8-23 T 12:52"」%p
+#mes2v CRS_0619,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Results: Error. Human is dead. Mismatch."」%p
+#mes2v CRS_0620,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"On July 1、 1985、 a strange body washed ashore on the coast of Streymoy、 Faroe Islands."」%p
+#mes2v CRS_0621,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"It appeared to be an adult male、 but the body was flabby like a jellyfish. It wasn't alive. The inhabitants of the island spread rumors that it was the corpse of a merman."」%p
+#mes2v CRS_0622,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"On what is believed to be its shoulder was an inscription reading 'SERN'、 but SERN denies any involvement"...」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A06
+#call macrosys,CharaSetW5162
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v DAR_0413,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Still want to look?」%p
+#mes2v OKA_1230,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's enough already.」%p
+#mes There are 14 of these people...?%p
+#mes2v CRS_0623,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The locations of discovery are spread throughout the world.... What can we deduce from this result?」%p
+#mes Kurisu ponders with an austere expression.%p
+#mes2v OKA_1231,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「They sent them to those places、 right?」%p
+#mes2v CRS_0624,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't think so. It's too haphazard.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0414,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The Kerr black hole does something with a singular point. Isn't that the cause?」%p
+#mes2v CRS_0625,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Due to infinite compression by supergravity、 it's not considered possible to pass through the singular point in a Kerr black hole."」%p
+#mes2v CRS_0626,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That was written.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0415,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「What's a Kerr black hole? Is it different from a regular black hole?」%p
+#mes2v CRS_0627,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's a theoretical black hole predicted to exist. Its trait is the singular point that revolves in its core. It hasn't been proven to exist、 and there's no way to prove it either、 though.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Kerr black hole.%p
+#mes I've heard that before somewhere.%p
+#mes2v OKA_1232,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see... John Titor!」%p
+#mes Titor's time machine used Kerr black holes.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_1233,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Titor said this. In 2034、 SERN successfully developed the time machine. And then Titor himself came in 2036.」%p
+#mes With that in consideration、 it's not unnatural for both Titor and SERN to use the exact same time travel theory.%p
+#mes2v CRS_0628,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes Kurisu silently shuts her eyes in thought.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0629,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Creating Kerr black holes、 that's just too unreasonable.... If you screw up、 the entire world could become engulfed.... Kerr black holes are just a hypothesis in the first place....」%p
+#setDic 162
+#mes2v OKA_1234,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If Titor's predictions are a reality、 then that means the LHC worst case scenario video on &cTIPSC;MewTube&cMESC; would be almost real.」%p
+#setDic 171
+#mes2v DAR_0416,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I don't know about Titor's predictions、 but I've seen the &cTIPSC;problem video&cMESC; before. It was on the news two or three years ago.」%p
+#mes2v CRS_0630,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The interior of a black hole doesn't have normal gravity. It's certainly possible that passing through there could allow time displacement、 but there's no way a living human could pass through.」%p
+#mes2v OKA_1235,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So we should think that Jellymanification happens for that very reason.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0631,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Forget jellymen、 decomposition occurs down to the particle level. That's what a black hole is.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0417,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Before discussion、 shouldn't we gather more time machine documents first?」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes Daru's already started researching.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I'm suddenly anxious.%p
+#mes Is it okay to keep hacking carefree like this?%p
+#mes Should I stop Daru?%p
+#mes I'm the one who asked him to do it、 but things have gone serious now.%p
+#mes But at the same time──%p
+#mes Irresistible curiosity billows up within me.%p
+#mes Time machines are becoming a reality.%p
+#mes Tempted to confirm that、 I can't stop Daru. %p
+#mes2v DAR_0418,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ah、 it's here. There's a file in the Z Program that explains time travel theory.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0632,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That was pretty easy to find. SERN's too weak.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0419,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「SERN's not weak、 I'm just amazing.」%p
+#mes2v OKA_1236,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru is my &rsdependable right arm&rt"My Favorite Right Arm"&re.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_0633,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I thought he was your supah hakah.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDisp62
+#mes2v DAR_0420,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「HaCKer.」%p
+#messWindowCloseWait
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE045
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG041
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes2v OKA_1237,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 Christina、 what's written there?」%p
+#mes Since this is in English too、 I have no choice but to rely on Assistant.%p
+#mes2v CRS_0634,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Uhhhmm... can you give me some time to read it?」%p
+#mes Kurisu's eyes dash left and right across the lines.%p
+#mes She doesn't show any particular dislike for my request.%p
+#mes Actually、 it looks like Kurisu really wants to know too.%p
+#mes2v CRS_0635,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No way... is this... really...?」%p
+#mes2v CRS_0636,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Just who... is Titor...?」%p
+#mes2v OKA_1238,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you muttering about? Tell me what's written there.」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v CRS_0637,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Ah、 okay.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0638,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I kinda、 can't help but feel we're being set up.」%p
+#mes2v OKA_1239,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you mean?」%p
+#mes2v CRS_0639,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's almost the same. ...The same as Titor's theory.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_0640,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Roughly explaining──」%p
+#mes2v CRS_0641,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The LHC collides protons head-on at 99.9999991% the speed of light.」%p
+#mes2v CRS_0642,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Through that、 they can compress a mass of １０⁻²⁴kg into an extremely narrow space of １０⁻¹⁹m」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0421,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In Japanese please. Three lines.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0643,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「A super small mass.」%p
+#mes2v CRS_0644,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Thrust inside a small space.」%p
+#mes2v CRS_0645,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「At full force.」%p
+#mes That explanation is too vague....%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes2v DAR_0422,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That explanation is too erotic、 durr!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0646,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Haah? What part of it is erotic──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_0647,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_0648,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...ah」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaDisp51
+#mes2v CRS_0649,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「H-Hashida、 you ＨＥＮＴＡＩ!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0423,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 Makise-shi、 don't you have a good imagination too?」%p
+#mes2v CRS_0650,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「D-don't lump me with your lot!」%p
+#mes Her denial is not convincing at all with that red face.%p
+#mes2v OKA_1240,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't listen to the dumbass、 Christina. Continue.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_0651,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...ugh.」%p
+#mes2v CRS_0652,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Uhh、 what were we talking about?」%p
+#assign $W(SW_BGMFADE),FADE_VERYFAST
+#stopBGM
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v DAR_0424,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「At full force.」%p
+#mes2v OKA_1241,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Proton compression.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0653,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If the compression is successful、 it can make a micro singular point──」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0425,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「A micro singular point? Not a mini-black hole?」%p
+#mes2v OKA_1242,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「They almost mean the same thing. After all、 a singular point is at a black hole's core.」%p
+#mes2v CRS_0654,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If there are two of these micro singular points、 it creates a black hole.」%p
+#mes A black hole with two centers...?%p
+#mes Like a cowlick with two hairs? No、 I don't think that's it....%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0426,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Personify it、 please.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0655,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okay、 okay、 are you fine with Mic-chan and Cro-chan?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0427,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「If they're sisters、 that's moe. Haah、 haah.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B06
+#call macrosys,CharaDisp51
+#mes2v CRS_0656,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Once you give Mic-chan and Cro-chan electrons、 they can move freely.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0428,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Electric shock torture? That some sort of eroge?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0657,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B02
+#call macrosys,CharaDisp51
+#mes2v CRS_0658,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Now that the two of them can operate、 they revolve at ultra high speed.」%p
+#mes2v CRS_0659,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And then、 theoretically、 Mic-chan and Cro-chan transform into Magical Girls 'Ring Singularity'.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#setDic 146
+#mes2v DAR_0429,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「A &cTIPSC;stock transformation scene&cMESC;、 huh? I understand.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes In any case、 the supah hakah and the assistant seem to be having fun.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0660,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This gives birth to the Kerr black hole effect.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0430,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In the first place、 what's a Kerr black hole? You said that it revolves.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_0661,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's what it does.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0431,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But don't black holes usually revolve? I mean、 there's a whirlpool around the hole、 right? 」%p
+#mes2v CRS_0662,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That part that looks like it's revolving is just the surrounding matter being sucked into the black hole.」%p
+#mes2v CRS_0663,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Normal black holes are just a center point where super mass causes gravitational collapse. Everything falls towards it.」%p
+#mes2v CRS_0664,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Since it's a point、 it doesn't revolve.」%p
+#mes2v CRS_0665,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「On the other hand、 Kerr black holes、 like I said before、 don't have a point at their center、 but a ring.」%p
+#mes2v CRS_0666,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Think of it like this: Once transformed into magical girls、 Mic-chan and Cro-chan's hearts revolve in a ring inside their bodies、 which is impossible for normal people.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A06
+#call macrosys,CharaDisp62
+#mes2v DAR_0432,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...I'll pass on the guro.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes2v OKA_1243,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Assistant、 you said this before right? That even if Kerr black holes exist、 they can't be proven. What do you mean by that?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#setDic 63
+#mes2v CRS_0667,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Black holes have something called an &cTIPSC;event horizon&cMESC;.」%p
+#mes2v CRS_0668,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Once you get inside it、 time and space switch places.」%p
+#mes2v OKA_1244,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Time and space switch places?」%p
+#mes2v CRS_0669,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Right now、 we can freely move through space、 but we can't move even one minute into the past. Those switch places.」%p
+#mes2v CRS_0670,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「On the other side of the event horizon、 spatial movement becomes impossible、 while temporal movement becomes possible.」%p
+#mes I can't imagine that at all....%p
+#mes2v CRS_0671,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Since spatial movement is impossible、 it's said you can never escape a black hole again.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_0672,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「For example、 if Okabe rushed into a black hole、 'time would stretch to infinity'.」%p
+#mes2v CRS_0673,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Since light cannot escape again、 human eyes cannot see the other side of the event horizon.」%p
+#mes2v CRS_0674,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Observation and proof are impossible.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_0675,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There is an exception、 however. When you use a Kerr black hole for time travel、 this exception is vital.」%p
+#mes2v OKA_1245,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Can you teach without the pretension?」%p
+#mes2v CRS_0676,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The Kerr black hole has a singular point-- since it's rotating inside、 it has angular momentum.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0433,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Like I said、 in Japanese please.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0677,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Didn't I already explain that it revolves at the core? Just think of that rotation as having momentum.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_0678,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you keep giving Mic-chan and Cro-chan electrons、 they can freely operate、 but──」%p
+#setDic 115
+#mes2v CRS_0679,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「A feature of Kerr black holes is that when its angular momentum exceeds its mass、 the event horizon disappears、 and the singular points become &cTIPSC;naked singularities&cMESC;.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0434,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「N-naked... you say...? You mean the magical girl costumes expose more、 right? Does this have an anime yet-?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51Only
+#mes Kurisu and I completely ignore Daru's nonsense.%p
+#mes2v OKA_1246,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Naked、 as in they go from unobservable to observable.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_0680,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「When the event horizon disappears、 there's no more reason for time and space to be changed. If you rush to the naked singularity、 you can avoid that change.」%p
+#mes2v CRS_0681,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And then the existence of the naked singularities cause the general theory of relativity and the principle of causality to fail.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0682,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The laws of the universe become disordered.」%p
+#mes2v OKA_1247,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「C-can such a thing exist?」%p
+#mes The negation of the theory of relativity and the principle of causality means serious paradoxes can occur. Didn't Kurisu say that earlier?%p
+#mes2v CRS_0683,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Up until now、 its been predicted to have a high probability of existing. There are inconsistencies、 but it's being proven.」%p
+#mes2v CRS_0684,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The principle of causality fails、 meaning it's possible to go back to the past by rushing into a naked singularity.」%p
+#mes I'm certain that John Titor said the same thing.%p
+#mes So Titor's time machine did use SERN's time machine engineering after all. That seems entirely probable.%p
+#mes However、 Titor's time machine was very compact、 enough to fit on a car.%p
+#mes Which means that in 24 years、 they successfully miniaturized the 27km diameter LHC.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0685,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What I don't understand is how they inject electrons into the singular point.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_0686,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Look. This is a picture of the LHC、 but there's strange equipment installed at the proton collision site.」%p
+#mes2v CRS_0687,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It looks like they call it a "Lifter"、 but... just what is it?」%p
+#mes2v OKA_1248,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru、 have you heard of it?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0435,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Lifter、 Lifter.... I think I caught a glance of it in the Z Program too. Wanna google it?」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes Daru opens up a browser window、 entering "Lifter" into a search engine.%p
+#mes2v DAR_0436,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ah、 look at those hits.」%p
+#mes About 422、000 results (0.25 seconds)%p
+#mes That's what it said on the monitor.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0688,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This many? Is nothing a secret anymore...?」%p
+#mes2v OKA_1249,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Could this be it? Ionocraft.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_0689,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ion、 or in other words、 a charged atom or molecule、 huh. The meaning matches.」%p
+#messWindowCloseWait
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE045
+#call macrosys,CharaEraseAll
+#mes We click on the page that says "Ionocraft(Lifter)".%p
+#mes We go to the link.%p
+#mes There's a video.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG042
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes Looks like some dim garage.%p
+#mes But it doesn't seem like anything secretive. It just seems like a garage in an average American home.%p
+#mes Some triangular model made of something like aluminum is placed center screen. It looks about 10cm high、 and about 30cm wide.%p
+#mes It's connected to some sort of voltage source by a thin wire.%p
+#mes It's a fairly cheap looking device.%p
+#mes That's all.%p
+#mes Nothing else.%p
+#mes After explaining something in some language I don't understand-- Russian、 maybe?-- the person filming the video slowly turns on the voltage source.%p
+#mes And then──%p
+#mes2v DAR_0437,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ah、 it's floating....」%p
+#mes The silvery triangular model soundlessly floats into the air.%p
+#mes Then it stays stationary.%p
+#mes2v OKA_1250,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is that... an anti-gravity device...?」%p
+#mes2v CRS_0690,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Of course not. That would be the breakthrough of the century.」%p
+#mes2v CRS_0691,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ionocraft... that's what it's called、 so I think it has something to do with an electrode and electrified air....」%p
+#mes Kurisu's usual firm、 confident tone is gone from her voice.%p
+#mes But when we look up information on the ionocraft、 we learn various things.%p
+#mes Various sites have detailed instructions on how to make Lifters、 but there are several theories on how they float、 so we don't know which one is true.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_1251,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「SERN had their eye on that Lifter. And they include it as a necessary device for time travel.」%p
+#mes2v OKA_1252,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If they can operate a micro singular point's mass and gravitational field、 then these things really are anti-gravity devices!」%p
+#mes2v CRS_0692,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Well、 if you apply such restrictive conditions、 then I guess it might not be wrong.」%p
+#mes What's that supposed to mean?%p
+#mes My curiosity's growing ever more.%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,CRS_BMB
+#assign $W(SW_CHA8POSX),$W(SW_CHA1POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8FACE),Face_CRS_B01
+#call macrosys,CharaDisp81
+#mes2v CRS_0693,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But it looks like SERN's having trouble adjusting this Lifter、 huh.」%p
+#mes2v CRS_0694,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「They can't fully adjust the micro singular point's gravity. So they can't make completely naked singularities.」%p
+#mes2v OKA_1253,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So we should consider that the reason why the subjects turned into jellymen.」%p
+#mes Kurisu nods at my words.%p
+#mes2v CRS_0695,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If they can't make naked singularities、 then basically、 at the same time the subject is tossed into the black hole、 they're crushed by tremendous mass.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_0696,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「As a result、all of their substance turns into a fractal structure... Let's look at that as hypothesis. In actuality、I don't know at all. It might take months just to examine it.」%p
+#resetFlag LF_THD_CTRL
+#mes Kurisu shrugs her shoulders as if giving up.%p
+#mes2v OKA_1254,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is the lifter still incomplete?」%p
+#mes If we believe in Titor's words、 then the time machine won't be complete for another 24 years.%p
+#mes2v OKA_1255,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Basically、 if we can complete the Microwave Ophone (Temp) first、 then we can outwit SERN...!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0697,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The scale is completely different. Besides、 not even SERN has completed it、 so what makes you think you can?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0698,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This isn't something that can be solved so easily.」%p
+#mes2v CRS_0699,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In the first place、 SERN hasn't solved the problems of time displacement adjustment、 nor destination setting after the fact.」%p
+#mes2v CRS_0700,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You should understand by how scattered the discovery times and locations of the jellymen are.」%p
+#mes2v CRS_0701,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「For example、 there might be jellymen under the earth or in the void of space. There could be jellymen aside from the ones they found. Actually、 I'm almost 100% sure of it.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0702,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you come out in space tens of thousands of kilometers away from earth、 there's no point in time travel. It's not practical at all.」%p
+#mes2v OKA_1256,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Titor said there's something like a variable gravity lock system. He can use that to capture the earth's gravity and ensure he arrives somewhere on earth.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0703,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Titor's explanation on that point is vague.」%p
+#mes2v CRS_0704,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「He said that such a machine existed、 but he didn't explain how it worked.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#label L_SG03_01_RM_FEI03_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_FEI
+#assign $W(LR_RM_CHANCE),19
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0438,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But if you're only moving through time、 won't you just arrive in the same location?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0705,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No、 you won't.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0439,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Why?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1257,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Because the earth is constantly moving.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0706,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Correct. Rotation and revolution.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0707,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Earth's rotational velocity is about 1、650 kilos.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0708,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Its orbital velocity is about 114、000 kilos.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0709,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Meaning one hour ago、 we were that far away from where we are now.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0440,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mhoh-、 thinking about it like that、 we're earth-shatteringly fast.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0710,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's not all.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0711,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The earth's solar system belongs to the Milky Way. The Milky Way is rotating like a coiling whirlpool.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0712,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There are various theories、 but the earth is moves about 50 million km a day.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes How can she roll all those numbers so smoothly out of her mouth?%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She may be a genius girl、 but she didn't have a single opportunity to look those numbers up.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0441,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「We've kinda gone to a ridiculous scale.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0713,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Incidentally、 the Milky Way is grouped together with several other galaxies in a cluster、 and these clusters are grouped into superclusters.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0714,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And these galaxy clusters and superclusters might be moving too. If that's the case、 we might be moving even further.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0715,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In any case、 if you jump even just one second、 location setting requires a huge calculation.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v CRS_0716,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Doing it by hand is impossible、 and it might take a super computer years to come up with a solution just to get you to the same location.」%p
+#label L_SG03_01_RM_FEI03_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes2v OKA_1258,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmph、 then there's no other way. Shouldn't we go seek out Titor and borrow his variable gravity system?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B06
+#call macrosys,CharaDisp51
+#mes2v CRS_0717,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's a great idea. Go for it.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0718,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I wonder how SERN is dealing with this problem....」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v OKA_1259,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v DAR_0442,NO_LIPANM_DAR,VID_DAR,＠Itaru＠「…………」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Without even considering my idea、 Kurisu goes back to searching SERN's documents.%p
+#setFlag SF_Phone_AutoDisable
+#mes Daru and I aren't good with English、 so we can't blame Kurisu for hogging the monitor to herself.%p
+#label L_SG03_01_RM_FEI03_01_REPLY_END
+#RandomMail_End
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM5000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

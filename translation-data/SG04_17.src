@@ -1,0 +1,1163 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0807
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#resetFlag SF_BG2DISP
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG2
+#call macrosys,InitBG3
+#loadBG 2,BG27A
+#assign $W(SW_BG2POSY),(1600-SCR_SIZ_Y)
+#setFlag SF_BG2DISP
+#assign $W(SW_SE2VOL),SV_FAR
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE007L,true
+#call macrosys,FadeInSLOW
+#mwait 32
+#assign $W(LR_TMP00),BG_VERY3SLOW
+#assign $W(LR_TMP01),BG_VERY3SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2POSY_OFS,(0-$W(SW_BG2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2POSY),0
+#assign $W(SW_BG2POSY_OFS),0
+#label L_SG04_17_RM_CRS04_04_RECEIVE_STA
+#call macrosys2,SetUp_RM_CRS04_04
+#assign $W(LR_RM_CHANCE),73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes We arrive at a high-rise apartment right next to UPX.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI_BG
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALB
+#assign $W(SW_CHA5POSX),(CHR_LEFT2-80)
+#assign $W(SW_CHA5POSY),1280
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),(CHR_RIGHT2+80)
+#assign $W(SW_CHA6POSY),1280
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaSetW5162
+#assign $W(LR_TMP00),BG_VERY2SLOW
+#assign $W(LR_TMP01),BG_VERY2SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2POSY_OFS,(((1600-SCR_SIZ_Y)/2)-$W(SW_BG2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA1POSY_OFS,(630-$W(SW_CHA1POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA2POSY_OFS,(630-$W(SW_CHA2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2POSY),((1600-SCR_SIZ_Y)/2)
+#assign $W(SW_BG2POSY_OFS),0
+#assign $W(SW_CHA1POSY),630
+#assign $W(SW_CHA1POSY_OFS),0
+#call macrosys,TuneParam51
+#assign $W(SW_CHA2POSY),630
+#assign $W(SW_CHA2POSY_OFS),0
+#call macrosys,TuneParam62
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0546,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Waahh.... awwwesome....」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0707,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wait... seriously?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2093,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's a... super high class apartment....?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Taken aback、 we stand stock still on the spot.%p
+#assign $W(LR_TMP00),BG_VERY2SLOW
+#assign $W(LR_TMP01),BG_VERY2SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2POSY_OFS,(0-$W(SW_BG2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA1POSY_OFS,(1280-$W(SW_CHA1POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA2POSY_OFS,(1280-$W(SW_CHA2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2POSY),0
+#assign $W(SW_BG2POSY_OFS),0
+#assign $W(SW_CHA1POSY),1280
+#assign $W(SW_CHA1POSY_OFS),0
+#call macrosys,TuneParam51
+#assign $W(SW_CHA2POSY),1280
+#assign $W(SW_CHA2POSY_OFS),0
+#call macrosys,TuneParam62
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Furthermore、 from Faris' call earlier、 it looks like she lives on the top floor....%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2094,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Did we get the wrong address...?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes No、 I'm incapable of such a basic mistake.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2095,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't tell me Faris is under the 'Organization's' control!?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaSetW5162
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2POSY_OFS,((1600-SCR_SIZ_Y)-$W(SW_BG2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA1POSY_OFS,(450-$W(SW_CHA1POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA2POSY_OFS,(450-$W(SW_CHA2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2POSY),(1600-SCR_SIZ_Y)
+#assign $W(SW_BG2POSY_OFS),0
+#assign $W(SW_CHA1POSY),450
+#assign $W(SW_CHA1POSY_OFS),0
+#call macrosys,TuneParam51
+#assign $W(SW_CHA2POSY),450
+#assign $W(SW_CHA2POSY_OFS),0
+#call macrosys,TuneParam62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I quickly survey my surroundings.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes There are no suspicious figures in visible range.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2096,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Does she have suspicious black suits under her command、 planning to lure us into their web and haul us away!?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0708,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Nice delusion. The truth is stranger than fiction.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,DAR_ALA
+#assign $W(SW_CHA8POSX),$W(SW_CHA2POSX)
+#assign $W(SW_CHA8POSY),$W(SW_CHA2POSY)
+#assign $W(SW_CHA8PRI),$W(SW_CHA6PRI)
+#assign $W(SW_CHA8FACE),Face_DAR_A02
+#call macrosys,CharaDisp82
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_DAR_01
+#mes2v DAR_0709,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Besides、 don't you think that if Faris-tan's true form were a rich ojou-sama、 that would be a super moe development?」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2097,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Nice delusion yourself.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0547,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Anyway、 let's go in-」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#assign $W(SW_BG2POSY),0
+#assign $W(SW_BG2POSY_OFS),0
+#resetFlag SF_BG2DISP
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG2
+#call macrosys,InitBG3
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#call macrosys2,CHECK_RM_RECEIVE
+#mes When we call up the room on the top floor via intercom、 an elderly man's voice answers. Surprisingly、 he quickly lets us in once I call myself Hououin Kyouma.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes It feels more and more like a trap、 but I can't turn back now.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG26A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG26A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The one who guides us into the room is the elderly man from the intercom.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes A silver haired gentleman in a tuxedo.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALB
+#assign $W(SW_CHA5POSX),CHR_LEFT2
+#assign $W(SW_CHA5FACE),Face_MAY_B01
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0548,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「A-a real live butler...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Just as Mayuri said、 he indeed looks like a stereotypical butler、 so much that you couldn't be anything but a butler.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v STJ_0000,NO_CHARACTER,VID_ETC,＠Butler＠「Milady. Hououin Kyouma-sama、 as well as his friends、 have arrived.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The butler calls into the room.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes In front of a large window、 Faris stands with a panoramic backdrop of Akiba.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),960
+#assign $W(SW_BG1POSY),320
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,FEI_DSC
+#assign $W(SW_CHA7POSX),CHR_RIGHT0
+#assign $W(SW_CHA7FACE),Face_FEI_C01
+#call macrosys,CharaSet73
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,FEI_CSC
+#assign $W(SW_CHA8POSX),CHR_RIGHT0
+#assign $W(SW_CHA8FACE),Face_FEI_C01
+#setFlag SF_CHA8DISP
+#call macrosys2,CHECK_RM_RECEIVE
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v FEI_0118,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Kuroki、 thank nyu.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I haven't seen her wearing anything other than her usual maid uniform、 so it's refreshing to see her in her plain clothes.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#call macrosys2,CHECK_RM_RECEIVE
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_FEI_02
+#mes But、 why does she equip her cat ears even in her personal time?%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I wanna ask. I can't help but question it.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes But I restrain myself.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes If I did ask、 Faris would just seriously answer Faris had cat ears ever since she was born nya.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DSC
+#assign $W(SW_CHA7FACE),Face_FEI_C02
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0119,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Nyanya? Mayushii and Daru-nyan came too nyan?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris' eyes twinkle when she sees Mayuri and Daru behind me.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0549,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Faris-chan、 good afternyannyan-♪」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0710,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mhmm、 Faris-tan in plain clothes... too cute...!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I silence the heavy breathing Daru by introducing my elbow to his ribs.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_2098,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri and Daru just followed me. If they're a bother、 I'll send them home.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DSA
+#assign $W(SW_CHA7FACE),Face_FEI_A02
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0120,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「I don't mind nya. Everyone's welcome nyan♪」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2099,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wait、 so you talk like that even in your own home?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DSB
+#assign $W(SW_CHA7FACE),Face_FEI_B01
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0121,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Whaddaya meown?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2100,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gonna play dumb、 huh? Akiha Rumiho.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DSB
+#assign $W(SW_CHA7FACE),Face_FEI_B02
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0122,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Faris is Faris nya.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes It's annoying、 so I'll just drop it.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2101,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But just what's with your home? How do you live in a super high-class apartment in Akiba's best district?」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I look around the room again.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The interior design and furnishings give a very refined impression.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes It doesn't reek of a celebrity atmosphere.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Rather、 it seems more like a model home.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes There's not a trace of daily living. Probably because that butler、 and possibly some real maids-- if there's a butler、 there has to be maids-- always clean up.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Speaking of the butler、 he vanished before I noticed it.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes He's a model butler if he can depart without a sound.%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,FEI_DMC
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_FEI_C01
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2102,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Faris... just who are you?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DMB
+#assign $W(SW_CHA7FACE),Face_FEI_B01
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0123,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Like I said、 Faris is Faris nyan.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris says so nonchalantly.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2103,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't play dumb. If you don't explain yourself、 I'm leaving!」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT2
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0711,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「H-how pretentious.... we came here to ask a favor of Faris-tan、 didn't we...?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DMC
+#assign $W(SW_CHA7FACE),Face_FEI_C04
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0124,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Hmmya.... Then、 I'll explain just a little more....」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DMC
+#assign $W(SW_CHA7FACE),Face_FEI_C03
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0125,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「This land was originally for my house nya.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2104,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Haah?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes What did she just say...?%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes This land was originally for my house...?%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT2
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0550,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see-. Since you're Akiha-san after all-」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Mayuri's words take me by surprise.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2105,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The surname Akiha.... You mean that's the name of Akihabara's generations of land barons-!?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DMC
+#assign $W(SW_CHA7FACE),Face_FEI_C01
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris nods with a slightly boastful face.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes So that also means she's living in such a high-class apartment since she's a super celebrity ojou-sama.%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DMA
+#assign $W(SW_CHA7FACE),Face_FEI_A01
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0126,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「By the way、 Faris also has considerable influence in Akihabara's town development project、 nyan.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris sways her slender waist、 making a motion like a cat washing its face.%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DMA
+#assign $W(SW_CHA7FACE),Face_FEI_A02
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0127,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「The one who actively introduced moe culture to each of Akiba's shops is none other than Faris、 nya.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0551,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wah-、 ama-zing.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DMA
+#assign $W(SW_CHA7FACE),Face_FEI_A01
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0128,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Faris went to those sorts of meetings ever since she was little nya.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#setFlag SF_Phone_AutoDisable
+#mes So basically、 the current chaotic changes in Akiba were all made to this catgirl's liking?%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A06
+#call macrosys,CharaDisp62
+#call macrosys,SetWindowModeFull
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes &lfCR6;&lcFaris doesn't afraid of anything...!%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#label L_SG04_17_RM_CRS04_04_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#resetFlag SF_CHA7DISP
+#loadCHA 7,FEI_DMC
+#assign $W(SW_CHA7FACE),Face_FEI_C03
+#call macrosys,CharaDisp73
+#mes2v FEI_0129,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「But、 but、 I want you to keep that all a secret nyan.」%p
+#mes Faris' expression suddenly gets dark.%p
+#mes2v OKA_2106,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why?」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_C01
+#call macrosys,CharaDisp51Only
+#mes2v FEI_0130,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「You wanna knyow?」%p
+#mes Faris approaches me.%p
+#mes With a sexy look on her face.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLB
+#assign $W(SW_CHA5FACE),Face_FEI_B01
+#call macrosys,CharaDisp51
+#mes2v FEI_0131,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「That's because--」%p
+#mes Faris gently strokes my cheek with her cool、 slender fingers.%p
+#mes After entrancing me、 Faris--%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLB
+#assign $W(SW_CHA5FACE),Face_FEI_B02
+#call macrosys,CharaDisp51
+#mes Smiles and laughs.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM06
+#mes2v FEI_0132,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Faris is Faris nya-♪」%p
+#mes Dammit、 this catgirl made a fool of me....!%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLA
+#assign $W(SW_CHA5FACE),Face_FEI_A01
+#call macrosys,CharaDisp51
+#mes2v FEI_0133,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Anyway、 Faris wants all her big Faris LOVE fans to keep treating her the same way they have nyan☆」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT2
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT2
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDispW6273
+#mes For some reason、 Daru makes a guts pose after seeing Faris' cutesy act.%p
+#mes2v DAR_0712,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I'll treat you! I'll treat you at full force!」%p
+#mes2v MAY_0552,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii's also a Faris-chan fan-. Faris-chan's maid spirit is really amazing. I adore you-」%p
+#mes Daru and Mayuri are in complete adoration、 but I disagree.%p
+#label L_SG04_17_RM_CRS04_04_REPLY_END
+#RandomMail_End
+#mes2v OKA_2107,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I don't care about this Faris LOVE crap!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C02
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASC
+#assign $W(SW_CHA6FACE),Face_MAY_C02
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A05
+#call macrosys,CharaDispT516273
+#mes I thrust my finger at Faris' nose.%p
+#mes2v OKA_2108,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't get so caught up in the moment、 Faris NyanNyan. If you refuse、 then this whole apartment will be stained in blood.」%p
+#mes2v OKA_2109,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You purposefully called me to your home to show off your celebrity status as if to bring leverage into our negotiations、 but it's futile.」%p
+#mes2v OKA_2110,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And the reason is because I am the insane mad scientist、 Hououin Kyouma!」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#call macrosys,CharaDisp73
+#mes2v DAR_0713,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Th-that's not a reason at all...」%p
+#mes Hmph、 that should settle it.%p
+#mes With this、 Faris should be all "heeeeee" and ask for my forgiveness while shaking in fear.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLB
+#assign $W(SW_CHA5FACE),Face_FEI_B02
+#call macrosys,CharaDisp51
+#mes --Or so I thought、 but instead、 she looks at me with gleaming eyes.%p
+#mes2v FEI_0134,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Hanya~n♪ Assertive people are so lovely nyan.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASC
+#assign $W(SW_CHA6FACE),Face_MAY_C03
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDispW6273
+#mes2v DAR_0714,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「What... was that...?」%p
+#mes That's what I want to say. What... -was- that...?%p
+#label L_SG04_17_RM_CRS04_05_RECEIVE_STA
+#call macrosys2,SetUp_RM_CRS04_05
+#assign $W(LR_RM_CHANCE),10
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I wanted to threaten her、 not enthrall her.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes So Faris is a masochist、 huh...!%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0135,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Honestly speaking、 Faris didn't want to talk so much about herself nya.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASC
+#assign $W(SW_CHA6FACE),Face_MAY_C02
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDispW6273
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0136,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Faris has met a lot of people before、 but whenever they learn she's the Akiha Heiress、 they all stop seeing Faris as Faris nya.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0137,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Faris and Akiha Rumiho want to be seen as separate nya.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2111,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's nothing to separate. You've already established yourself as Faris NyanNyan、 have you not?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0138,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Nya?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A05
+#call macrosys,CharaDispW6273
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0715,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I completely agree with you on that point、 Okarin! Whenever she speaks NyanNyanian and wears her cat ears、 that is Faris-tan!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2112,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're the over-conscious one、 Faris.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLA
+#assign $W(SW_CHA5FACE),Face_FEI_A03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0139,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Is that so nya....」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2113,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You are too self conscious. To me、 no matter where you go、 you are nothing but the 'unbeatable' cat ear maid!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLB
+#assign $W(SW_CHA5FACE),Face_FEI_B02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v FEI_0140,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Nyahaha. Thank nyu、 Kyouma.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDispW6273
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Did I say something to be grateful for?%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Well、 Faris probably admires my human tolerance. Fuhahaha!%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes Now then、 let's finish this idle gossip and get down to business.%p
+#label L_SG04_17_RM_CRS04_05_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C01
+#call macrosys,CharaDisp51Only
+#mes2v OKA_2114,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Now then、 Faris、 you said you had conditions in exchange for your search for the IBN 5100. What are they?」%p
+#mes2v OKA_2115,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Be careful about your conditions.」%p
+#mes2v OKA_2116,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If I release... my right hand just once、 everything will be destroyed、 and nothing will remain... just so you know.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLA
+#assign $W(SW_CHA5FACE),Face_FEI_A01
+#call macrosys,CharaDisp51
+#mes2v FEI_0141,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「It's okay nya.」%p
+#mes Faris points at the cat ears sticking out of her head.%p
+#mes2v FEI_0142,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Within these cat ears lies the power to completely negate all abilities、 'NyanNyan Clear'.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLA
+#assign $W(SW_CHA5FACE),Face_FEI_A02
+#call macrosys,CharaDisp51
+#mes2v FEI_0143,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「When Kyouma's power rampages、 Faris will surely stop it.」%p
+#mes2v OKA_2117,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I really shouldn't have talked about this hand to Faris、 huh....%p
+#mes Faris' true terror is her ability、 Dubbing10、 which allows her to overbearingly steal other people's stories and add them to her own backstory.%p
+#mes By the way、 I named Dubbing 10. The number 10 doesn't really mean anything.%p
+#label L_SG04_17_RM_CRS04_05_REPLY_END
+#RandomMail_End
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C01
+#call macrosys,CharaDisp51
+#mes2v FEI_0144,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Well then、 I guess I'll announce it、 nya.」%p
+#mes2v FEI_0145,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Faris' condition--」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C01
+#call macrosys,CharaDisp51
+#mes Faris lets out a chuckle.%p
+#mes But I notice.%p
+#mes Her eyes aren't laughing.%p
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#mes2v FEI_0146,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「I want to use the time machine nya.」%p
+#mes I see....%p
+#mes I had a feeling that was it.%p
+#mes2v FEI_0147,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「You two said so at MayQueen yesterday、 nya? That you developed a time machine.」%p
+#mes2v OKA_2118,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Indeed. We ran the first successful time machine experiments in human history.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT2
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#call macrosys,CharaDisp73
+#mes2v DAR_0716,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Like I said、 the first was SERN....」%p
+#messWindowCloseWait
+#call macrosys,CharaErase3
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes2v OKA_2119,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But don't misunderstand.」%p
+#mes2v OKA_2120,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We call it a time machine、 but it's not a personal all purpose time machine that a blue cat can put into your desk drawer.」%p
+#mes2v OKA_2121,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Our level of success was sending a 36 byte mail to someone's phone in the past.」%p
+#mes2v OKA_2122,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But this alone is worthy of a Nobel Prize in Physics、 a transcendental super invention that repaints human history.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLB
+#assign $W(SW_CHA5FACE),Face_FEI_B01
+#call macrosys,CharaDisp51
+#mes2v FEI_0148,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「It can send a mail to someone in the past? That's pawesome! Faris wants to use it by all means nya!」%p
+#mes Faris jumps up and down with a face full of glee.%p
+#mes2v OKA_2123,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The time machine is our lab's most important confidential matter. If you want to use it no matter what、 then you must become a lab mem、 though.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C03
+#call macrosys,CharaDisp51
+#mes2v FEI_0149,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Lab mem? What's that nya?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT2
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0553,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Well、 it means you get to be a part of our circle♪ Mayushii'd be super happy if Faris-chan became a lab mem-」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT_L
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDisp73
+#mes2v DAR_0717,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Same here!」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDisp73
+#mes2v DAR_0718,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It would be a Warm! Well! Come!」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A05
+#call macrosys,CharaDisp73
+#mes2v DAR_0719,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Please join by all means!」%p
+#mes2v FEI_0150,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「How do I become a lab mem nya?」%p
+#mes2v OKA_2124,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There is no contract. The only necessary thing is... yes、 the blood covenant.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C02
+#call macrosys,CharaDisp51
+#mes2v FEI_0151,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Blood... covenant...!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASB
+#assign $W(SW_CHA6FACE),Face_MAY_B01
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A06
+#call macrosys,CharaDispW6273
+#mes The window should be closed、 but a gust of wind blew. It was the air conditioner.%p
+#mes But outside the window、 I see rainclouds cover the sky.%p
+#mes I hear the rumbling of thunder inside my brain.%p
+#mes2v OKA_2125,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Thou、 Faris NyanNyan. If it is thy desire to abide by the code of law passed down in the High Ancient Word from times long forgotten、 and join the ranks of the lab mems--」%p
+#mes2v OKA_2126,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then lift up thy flesh、 lift up thy bone、 lift up thy blood in the heaven's grail and receive the covenant of baptism!」%p
+#mes2v OKA_2127,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Thy duty fulfilled、 the forgotten god shall grant thee thy lab mem number.」%p
+#mes2v DAR_0720,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I didn't understand a word of that....」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6FACE),Face_MAY_A04
+#call macrosys,CharaDisp62
+#mes2v MAY_0554,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Awawah. What to do? Mayushii doesn't have a blood coffin ant or a heavy's quail-. Does that mean Mayushii's not a lab mem...?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDisp73
+#mes2v DAR_0721,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mayu-shi、 I think you should be OK. This is just Okarin's usual habit.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0555,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see-. If it's his usual habit then that's that♪ But thank goodness-」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5FACE),Face_FEI_C03
+#call macrosys,CharaDisp51
+#mes2v FEI_0152,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Understood nya. I'll take the blood covenant nya....」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,FEI_DSC
+#assign $W(SW_CHA8POSX),CHR_LEFT
+#assign $W(SW_CHA8SIZEX),750
+#assign $W(SW_CHA8SIZEY),750
+#assign $W(SW_CHA8FACE),Face_FEI_C03
+#call macrosys,CharaDisp84
+#mes Faris puts on a serious face and grips a small knife placed on top of the desk--%p
+#mes And for some reason、 slashes it against her wrist.%p
+#mes2v OKA_2128,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「──！？」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASC
+#assign $W(SW_CHA6FACE),Face_MAY_C04
+#call macrosys,CharaDisp62
+#mes2v MAY_0556,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Noo!」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDisp73
+#mes2v DAR_0722,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Uh、 isn't it a paper knife?」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSA
+#assign $W(SW_CHA8FACE),Face_FEI_A02
+#call macrosys,CharaDisp84
+#mes2v FEI_0153,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Nyahaha♪ Daru-nyan's right nya~」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6FACE),Face_MAY_A03
+#call macrosys,CharaDisp62
+#mes Gh、 she surprised me...!%p
+#mes I clear my throat and pull myself together.%p
+#mes2v OKA_2129,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well then、 Faris、 I certify you as Lab Mem Number 007.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase4
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_DLB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_B01
+#call macrosys,CharaDisp51
+#mes2v FEI_0154,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Yes nya. Now can I use the time machine nya?」%p
+#mes2v OKA_2130,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah. That's correct. But it's useless to reveal our secret. Death to betrayers. That's the law of the lab. Remember it.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASC
+#assign $W(SW_CHA6FACE),Face_MAY_C02
+#call macrosys,CharaDisp62
+#mes2v MAY_0557,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I didn't know that-」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#call macrosys,CharaDisp73
+#mes2v DAR_0723,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's because Okarin just thought of it on the spot.」%p
+#mes2v FEI_0155,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Tha-nk nyu-、 Kyouma!」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA8
+#loadCHA 5,FEI_DLB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5SIZEX),1500
+#assign $W(SW_CHA5SIZEY),1500
+#assign $W(SW_CHA5FACE),Face_FEI_B02
+#call macrosys,CharaDisp51
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASC
+#assign $W(SW_CHA6FACE),Face_MAY_C03
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDispW6273
+#mes Faris hugs me by the neck.%p
+#mes A very sweet aroma tickles my nose.%p
+#mes And something very soft....%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A05
+#call macrosys,CharaDisp73
+#mes2v DAR_0724,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hey、 Okarin、 you jerk-! I made the Microwave Ophone too-!」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,FEI_DLC
+#assign $W(SW_CHA8POSX),CHR_CENTER
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8FACE),Face_FEI_C02
+#call macrosys,CharaDisp81
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5POSX),$W(SW_CHA8POSX)
+#assign $W(SW_CHA5FACE),Face_FEI_C01
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_FEI_01
+#mes2v FEI_0156,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Really nya? Then Daru-nyan too!」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_DSB
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_FEI_B02
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASB
+#assign $W(SW_CHA7FACE),Face_DAR_B04
+#call macrosys,CharaDispW5173
+#mes Faris flies over to Daru.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0558,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 Okarin. It's great you could please Faris-chan♪」%p
+#mes2v OKA_2131,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Heheheh.... Mayuri、 you really are innocent.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_0559,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hweh?」%p
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes I take out my phone and put it to my ear.%p
+#mes2v OKA_2132,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...It's me. ...Yeah、 I successfully deceived Faris. She's just a 17 year old girl after all.」%p
+#mes2v OKA_2133,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Though that catgirl thinks she's bargained with me to appease her lust for mankind's dream、 the forbidden fruit that is the time machine--」%p
+#mes2v OKA_2134,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「She doesn't realize that she's dancing on the palm of my、 Hououin Kyouma's hand.」%p
+#mes2v OKA_2135,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Hmph、 why did I accept the catgirl's conditions、 you ask? Isn't that obvious? Basically--」%p
+#mes Then I warp my lips into a grin.%p
+#mes Right now、 my shark teeth are probably glistening suspiciously.%p
+#mes ...Damn、 I wish I had shark teeth.%p
+#mes2v OKA_2136,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That catgirl is a test subject.」%p
+#mes2v OKA_2137,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...What? Heresy's such a cruel way to put it. But it's not completely wrong. Heheheh.」%p
+#mes2v MAY_0560,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「...?」%p
+#assign $W(SW_PHONE_PRI),PRI_UPPER_CHARA
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_ALL
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes So far、 we haven't gotten significant experimental data on D-mails.%p
+#mes Kurisu refuses to become a testee、 and Mayuri and Daru are too stupid to be useful.%p
+#mes We got experiments done with Moeka and Lukako、 but I want to get more data.%p
+#mes And now we have this offer.%p
+#mes Experimental data and an IBN 5100. I'm getting those from Faris. Two birds with one stone!%p
+#mes I've completely recovered from the shock of losing the IBN 5100.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#mes2v OKA_2138,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Yeah. Basically、 Faris intends to use us--」%p
+#mes2v OKA_2139,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But it's actually the opposite. She's like a moth flying into our flame. Fuhahaha!」%p
+#mes2v OKA_2140,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...So、 we're moving onto the next experiment as planned. Everything is Steins;Gate's choice. El Psy Congroo.」%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes After I put away my phone、 someone taps me on the shoulder.%p
+#mes Right after that、 they blow into my ear.%p
+#mes2v OKA_2141,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mmgh!?」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v FEI_0157,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Who were you calling just neow?」%p
+#mes After servicing Daru、 Faris was standing behind me before I noticed her.%p
+#mes Seems like she heard everything.%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_2142,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're such a slowpoke、 Faris NyanNyan.」%p
+#mes2v OKA_2143,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You already took the blood covenant. If you violate the contract、 you'll be visited by destruction.」%p
+#mes2v OKA_2144,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can no longer escape.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v FEI_0158,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「OK nya. So、 where is the time machine nya?」%p
+#mes She seems rushed....%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_2145,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The time machine-- accurately speaking、 the Microwave Ophone (Temp)、 is in our lab」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#mwait 64
+#call macrosys,FadeInSLOW
+#mes Let's try applying the Microwave Ophone's original purpose this time.%p
+#mes Basically、 remote control.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Kurisu's watching over the lab.%p
+#mes I guess we'll leave the Microwave Ophone (Temp)'s setup to that assistant of mine.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_DLC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_C01
+#call macrosys,CharaDisp51
+#mes When I ask Faris what mail address she's going to send to、 she answers with her father 10 years ago. I take a memo of that address.%p
+#mes The destination is 10 years ago、 April 3、 2000.%p
+#mes It has to be on at 8AM that day、 so we use a calculator on the net to factor in leap years、 resulting in 86168 hours.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_CSB
+#assign $W(SW_CHA6POSX),CHR_LEFT2
+#assign $W(SW_CHA6FACE),Face_MAY_B03
+#call macrosys,CharaDisp62
+#mes2v MAY_0561,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Umm、 so does that mean it has to keep going for 86、000 seconds-?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSA
+#assign $W(SW_CHA6FACE),Face_MAY_A03
+#call macrosys,CharaDisp62
+#mes2v MAY_0562,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Microwave Ophone-chan won't get tired-?」%p
+#mes2v OKA_2146,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 it's not like it actually has to go all those seconds.」%p
+#mes We've learned that from previous experiments.%p
+#mes2v OKA_2147,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you send it once the discharge phenomenon occurs、 it reaches the past.」%p
+#mes2v OKA_2148,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Therefore、 by the Butterfly Effect、 the remaining seconds should cancel.」%p
+#mes By the pattern so far、 the fact that a D-mail was sent becomes undone、 and the D-mail only remains with the recipient.%p
+#mes Now、 let's call Kurisu.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#flagOnJump LF_DEBUG,L_SG04_17_TTLCALL_END
+#end
+#label L_SG04_17_TTLCALL_END
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_DAR_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM5000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_FEI_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM5000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_FEI_02
+#flagOffJump LF_THD_CTRL,@f
+#wait 16
+#assign $W(SW_CHA3ALPHA),0
+#flagOffJump LF_THD_CTRL,@f
+#wait 16
+#assign $W(SW_CHA3ALPHA),256
+#flagOffJump LF_THD_CTRL,@f
+#wait 16
+#assign $W(SW_CHA3ALPHA),0
+#flagOffJump LF_THD_CTRL,@f
+#wait 16
+#assign $W(SW_CHA3ALPHA),256
+#label @@
+#assign $W(SW_CHA3ALPHA),256
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#resetFlag LF_THD_EXEC
+#end

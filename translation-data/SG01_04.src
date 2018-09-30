@@ -1,0 +1,696 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0728
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG24A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG24A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSlow
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#label L_SG01_04_RM_MAY01_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_MAY
+#assign $W(LR_RM_CHANCE),15
+#call macrosys2,CHECK_RM_RECEIVE
+#setDic 93
+#mes Daru and I stop thinking about the problems concerning the Microwave Ophone (Temp) and head towards &cTIPSC; Daibiru. &cMESC; %p
+#call macrosys2,CHECK_RM_RECEIVE
+#setDic 188
+#mes Later today we must participate in a seminar at &cTIPSC; ATF. &cMESC; %p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The ATF acts as an industrial-academic co-op link for the Tokyo Electric University that Daru and I go to.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes It holds the summer short courses.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes We won't get points if we don't write a report on this seminar so we are compelled to participate. %p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Speaking of which what was the subject of this symposium again?%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I looked into it once before the summer holidays began but I forgot it.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v ANA_0000,NO_CHARACTER,VID_ETC,＠Announcer＠「An unidentified large object has crashed into a building in front of the Akihabara station.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v ANA_0001,NO_CHARACTER,VID_ETC,＠Announcer＠「Currently the area is restricted by the police and it's forbidden to go in front of the building but if you look at the object from a distance it resembles a space satellite!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I throw a glance down from the overpass which connects UPX and Daibiru and it looks like there are more people than usual today.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes There are also some weird-looking teenagers among them and they definitely don't seem like people who would normally visit Akiba. %p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes They all seem to be going towards the Central Street which is still off limits.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0188,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru won't you go to the Radio Center for some sightseeing?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_DAR_B01
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0034,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Even if I go there I won't be able to see it. And anyway I'm constantly monitoring the net for any news about it. The number of threads on @chan has already exceeded 100 and that's awesome!」%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes Oh so that's why he was staring at his phone while walking.%p
+#label L_SG01_04_RM_MAY01_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_CHA4DISP
+#call macrosys,InitCHA4
+#loadCHA 4,IBGC010
+#assign $W(SW_CHA4PRI),PRI2_BG
+#assign $W(SW_CHA4POSY),360
+#assign $W(SW_CHA4SIZEY),1022
+#assign $W(SW_CHA4FILTER),CHACOL_DEF
+#assign $W(SW_CHA4POSE),IBGface_IBG010_1F
+#setFlag SF_CHA4DISP
+#call macrosys,FadeInSLOW
+#mes Upon entering Daibiru we take the elevator towards the ATF assembly hall at the 5th floor.%p
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA4POSY_OFS,(352-$W(SW_CHA4POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(SW_CHA4POSY),352
+#assign $W(SW_CHA4POSY_OFS),0
+#mes2v DAR_0035,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ahhh… it's so cool. I'm coming back to life. abababababa...」%p
+#mes There's air conditioning in Daibiru so this is like an oasis for us poor university students.%p
+#mes There's more than one reason for why were going to ATF to participate in this.%p
+#assign $W(SW_CHA4POSE),IBGface_IBG010_2F
+#mes2v OKA_0189,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We might acquire some answers to the problems concerning the Microwave Ophone (Temp).」%p
+#mes2v DAR_0036,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's annoying so can you stop using the '(Temp)' already?」%p
+#mes That will not shake my resolution. Even if no other lab members say it I will keep using it until I decide on a better name. %p
+#assign $W(SW_CHA4POSE),IBGface_IBG010_3F
+#mes2v OKA_0190,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Right now that doesn't matter.」%p
+#mes2v DAR_0037,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So did you come up with some ridiculous theory again?」%p
+#mes2v OKA_0191,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you mean ridiculous? I have already transcended all the things in this world's nature and am constantly thinking about the limitless possibilities... Don't you dare call that ridiculous.」%p
+#assign $W(SW_CHA4POSE),IBGface_IBG010_4F
+#mes2v DAR_0038,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「By 'transcended all the things in nature' you mean that you're talking about whatever you want huh? I wouldn't even call that theorizing.」%p
+#mes2v OKA_0192,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru I believe that the Microwave Ophone (Temp) might be the key that will open the Steins;Gate. What do you make of that?」%p
+#mes2v DAR_0039,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That Stein-whatever doesn't even have a proper meaning.」%p
+#label L_SG01_04_RM_MAY01_01_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#assign $W(SW_CHA4POSE),IBGface_IBG010_5F
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_CHA4POSY_OFS,(368-$W(SW_CHA4POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(SW_CHA4POSY),368
+#assign $W(SW_CHA4POSY_OFS),0
+#playSE 0,SGSE012
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes We hear a ringing sound which indicates that we have reached the 5th floor.%p
+#mes The sensation of being lifted upwards disappears.%p
+#mes The elevator doors slowly open.%p
+#setFlag SF_Phone_AutoDisable
+#mes At the same time that I get out of the elevator--%p
+#messWindowCloseWait
+#assign $W(SW_CHA4PRI),PRI2_BG
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG19A0
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG19A0
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,CharaEraseAll
+#call macrosys,SetOrder51627384
+#call macrosys,TUNE_CHACOL_BG1
+#playSE 0,SGSE014
+#call macrosys,Qua3BG1
+#call macrosys,SEwaitHalf
+#mes2v CRS_0018,$W(LR_LIP_CRS),VID_CRS,＠紅莉栖？＠「Kyah--」%p
+#mes I bump into a person.%p
+#mes I quickly grab the person's shoulder to support her.%p
+#mes2v CRS_0019,$W(LR_LIP_CRS),VID_CRS,＠紅莉栖？＠「Excuse me.」%p
+#messWindowCloseWait
+#setEVFlag 2
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C03A
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes2v OKA_0193,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah...!?」%p
+#mes I recognize---%p
+#mes This woman's face.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#copyBG 2,3
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#assign $W(SW_BG2SIZE),1500
+#assign $W(SW_BG2POSX),430
+#assign $W(SW_BG2POSY),330
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG2DISP
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v OKA_0194,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah... ah...!」%p
+#mes I enter a state of shock.%p
+#mes Chills run down my spine.%p
+#mes I can't even move my fingers.%p
+#mes My gaze is fixed on the face of the person in front of me.%p
+#mes Her innocence makes her seem like a girl rather than a woman.%p
+#mes I already looked at this graceful face about 3 hours ago.%p
+#messWindowCloseWait
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE013
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG2DISP
+#setEVFlag 1
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_C02A
+#assign $W(SW_BG3PRI),PRI_BG
+#setFlag SF_BG3DISP
+#call macrosys,FadeInNormal
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#setFlag SF_BG2DISP
+#call macrosys,FadeInNormal
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes Makise... Kurisu...!%p
+#mes2v CRS_0020,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Uhm... is there a problem?」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#copyBG 2,3
+#assign $W(SW_BG3SIZE),$W(SW_BG2SIZE)
+#assign $W(SW_BG3POSX),$W(SW_BG2POSX)
+#assign $W(SW_BG3POSY),$W(SW_BG2POSY)
+#assign $W(SW_BG3DISPMODE),$W(SW_BG2DISPMODE)
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#assign $W(SW_BG2SIZE),0
+#assign $W(SW_BG2POSX),0
+#assign $W(SW_BG2POSY),0
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_POS
+#setFlag SF_BG2DISP
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes Kurisu makes a puzzled face and tries to get away from me.%p
+#mes However I don't let go of her shoulder.%p
+#mes Instead I put more strength to my grip.%p
+#mes2v CRS_0021,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「O-ow...!」%p
+#mes2v OKA_0195,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Y-you...」%p
+#mes2v OKA_0196,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You should be dead! Why are you here!?」%p
+#mes2v OKA_0197,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And...」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#copyBG 2,3
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),720
+#assign $W(SW_BG2POSY),480
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG2DISP
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes Her clothes are the same she wore that time and they're completely clean.%p
+#mes No matter how much I stare at them it doesn't look like she's injured anywhere.%p
+#mes With that amount of bleeding she must've had a heavy wound.%p
+#mes2v OKA_0198,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Unharmed...!」%p
+#mes2v CRS_0022,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「W- it hurts...! Let go...!」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ASB
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#call macrosys,CharaSet62
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#playSE 0,SGSE014
+#call macrosys,QUA2ALL
+#call macrosys,SEwaitHalf
+#resetFlag SF_Phone_Disable
+#mes Kurisu pushes me away.%p
+#mes Then she glares at me with a vigilant look.%p
+#mes She doesn't seem like an injured person at all.%p
+#mes2v CRS_0023,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「... What?」%p
+#mes2v OKA_0199,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're alright? Your wounds are fine? No that's impossible! Makise Kurisu was stabbed and lying in a pool of blood she--」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_ALA
+#assign $W(SW_CHA5POSX),CHR_RIGHT2
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0040,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That story again?」%p
+#mes The one who cut me off was Daru.%p
+#mes And he just said something weird.%p
+#mes2v OKA_0200,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you mean by that?」%p
+#mes2v DAR_0041,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「You sent me a mail like that a week ago.」%p
+#mes2v OKA_0201,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「A mail? Me?」%p
+#mes2v OKA_0202,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't be absurd! I saw that Makise Kurisu was killed just about 3 hours ago!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#mes2v CRS_0024,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey. Please don't just kill me off okay? I'm perfectly alive.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ALA
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#call macrosys,CharaDisp51
+#mes2v DAR_0042,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Speaking of which that mail was very weird. The date said that it was sent 'after' 1 week. Which implies that it came from the future...」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_AMC
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_CRS_C04
+#call macrosys,CharaDisp62
+#mes2v CRS_0025,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Came from the future?」%p
+#mes2v OKA_0203,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Did you check out some weird website Daru? It's unusual for you to spout ridiculous theories.」%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,DAR_ALA
+#assign $W(SW_CHA8POSX),$W(SW_CHA1POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8FACE),Face_DAR_A03
+#call macrosys,CharaDisp81
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ALA
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_DAR_01
+#mes2v DAR_0043,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I'm not! The date definitely said that it came from after 1 week! Uhm that's uh 28th... Ah right! The 28th is today!」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes Daru hurriedly operates his phone and shows it to me after a few seconds.%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG011
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2POSY),100
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes Surely that's a mail from me to Daru.%p
+#mes Receipt date: July 21st 12:56%p
+#mes Sending date: July 28th 12:54%p
+#mes The mail is split in 3.%p
+#mes The 1st one says 'Makise Kuris'%p
+#mes The 2nd one says 'u was stabbe'%p
+#mes The 3rd one says 'd by a man. Th'%p
+#mes Why did I send such a short message in 3 parts?%p
+#mes It also looks like the 3rd one was cut off.%p
+#mes I have no memories of sending such short mails.%p
+#mes But I recognize the content.%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ALA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_CRS_A03
+#call macrosys,CharaDisp62
+#mes2v OKA_0204,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This is... The mail I sent 3 hours ago.」%p
+#mes However I sent a single mail not 3. And I entered more words than this.%p
+#mes Did Daru actually receive this 1 week ago? On the 21st?%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v CRS_0026,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Very interesting...」%p
+#mes Wait when did she get here? Kurisu is glaring at the screen of the cellphone with a serious look.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP11),($W(SW_CHA1FILTER)>>16)
+#assign $W(LR_TMP12),(($W(SW_CHA1FILTER)-($W(LR_TMP11)<<16))>>8)
+#assign $W(LR_TMP13),(($W(SW_CHA1FILTER)-($W(LR_TMP11)<<16))-($W(LR_TMP12)<<8))
+#assign $W(LR_TMP14),($W(LR_TMP11)/2)
+#assign $W(LR_TMP15),($W(LR_TMP12)/2)
+#assign $W(LR_TMP16),($W(LR_TMP13)/2)
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP17,$W(LR_TMP14),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP18,$W(LR_TMP15),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP19,$W(LR_TMP16),$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(LR_CHRCOL),(($W(LR_TMP17)<<16)+($W(LR_TMP18)<<8)+($W(LR_TMP19)))
+#assign $W(SW_CHA1FILTER),($W(SW_CHA2FILTER)-$W(LR_CHRCOL))
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(LR_CHRCOL),(($W(LR_TMP14)<<16)+($W(LR_TMP15)<<8)+($W(LR_TMP16)))
+#assign $W(SW_CHA1FILTER),($W(SW_CHA2FILTER)-$W(LR_CHRCOL))
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Oh right! The mail doesn't matter! Well maybe it does but not now!%p
+#mes Currently the more important question is 'why is she perfectly fine!?'.%p
+#mes Is this an illusion!? No a ghost!? Have I been cursed or something!?%p
+#setFlag SF_Phone_AutoDisable
+#mes As a mad scientist I refuse to believe such unscientific things!%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),PRI2_BG
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_CHARA
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#assign $W(SW_BG8SX),0
+#assign $W(SW_BG8SY),0
+#assign $W(SW_BG8LX),SCR_SIZ_X
+#assign $W(SW_BG8LY),SCR_SIZ_Y
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_CLIP
+#setFlag SF_BG8DISP
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG8SX_OFS,(240-$W(SW_BG8SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SY_OFS,(120-$W(SW_BG8SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG8LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG8LY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_CHA1ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#call macrosys,CharaClr1
+#assign $W(SW_CHA1FILTER),CHACOL_DAYLIGHT
+#assign $W(SW_BG8SX),240
+#assign $W(SW_BG8SX_OFS),0
+#assign $W(SW_BG8SY),120
+#assign $W(SW_BG8SY_OFS),0
+#assign $W(SW_BG8LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG8LX_OFS),0
+#assign $W(SW_BG8LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG8LY_OFS),0
+#mes I timidly extend my hand towards Kurisu's face...%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ALA
+#assign $W(SW_CHA6FACE),Face_CRS_A08
+#call macrosys,CharaSet62
+#call macrosys,QUA3CHA2
+#mes ... and touch her head.%p
+#mes I can actually feel the cuticles her silk-like hair.%p
+#mes2v OKA_0205,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Sh-she's here and I can touch her... To think that I just thought that she's a ghost... How silly of me.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ALB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes2v CRS_0027,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0044,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「O-Okarin... Ain't that a bit dangerous?」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG8SX_OFS,(160-$W(SW_BG8SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA2POSX_OFS,(450-$W(SW_CHA2POSX)),$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(SW_BG8SX),160
+#assign $W(SW_BG8SX_OFS),0
+#assign $W(SW_CHA2POSX),450
+#assign $W(SW_CHA2POSX_OFS),0
+#call macrosys,TuneParam62
+#mes I keep poking Kurisu's cheek with my finger.%p
+#mes Such wonderful softness and skin tension. It's completely different from a dead bod- wait I never actually touched one.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ALB
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#call macrosys,CharaDisp62
+#call macrosys,Set_VOspeaker_Default
+#mes2v CRS_0028,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「... Hey」%p
+#mes Anyway I already touched her shoulder when we bumped into each other and when she pushed me away.%p
+#mes My assumption that she has no body is nothing but proof that I'm in a state of confusion.%p
+#mes Then what was that gruesome scene I saw in the Radio Center? What exactly was that man's scream I heard?%p
+#mes Was that series of events an illusion just like the mass disappearance?%p
+#mes That's right wounds! If that was real then the Makise Kurisu right here must have injuries!%p
+#mes I must investigate.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_CHA2POSY_OFS,(0-$W(SW_CHA2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SY_OFS,(120-$W(SW_BG8SY)),$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(SW_CHA2POSY),0
+#assign $W(SW_CHA2POSY_OFS),0
+#call macrosys,TuneParam62
+#assign $W(SW_BG8SY),120
+#assign $W(SW_BG8SY_OFS),0
+#mes I grab the edge of her clothes and slowly try to to move them aside--%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ALB
+#assign $W(SW_CHA6FACE),Face_CRS_B08
+#call macrosys,CharaSet62
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_CHA2POSY_OFS,(CH_PY_DEF-$W(SW_CHA2POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SY_OFS,(120-$W(SW_BG8SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#mwait 1
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_CHA2POSY),CH_PY_DEF
+#assign $W(SW_CHA2POSY_OFS),0
+#call macrosys,TuneParam62
+#assign $W(SW_BG8SY),120
+#assign $W(SW_BG8SY_OFS),0
+#mes2v CRS_0029,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Do you want cops coming after you?」%p
+#mes2v OKA_0206,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... I just want to find out the truth.」%p
+#mes While Makise Kurisu is shaking with anger I return her a direct gaze and move her jacket aside--%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ALB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#mes2v CRS_0030,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What's that all about you PERVERT!? Are you stupid!? Do you want to die!?」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_CHA2POSX_OFS,(CHR_LEFT-$W(SW_CHA2POSX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SX_OFS,(0-$W(SW_BG8SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SY_OFS,(0-$W(SW_BG8SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LX_OFS,(SCR_SIZ_X-$W(SW_BG8LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LY_OFS,(SCR_SIZ_Y-$W(SW_BG8LY)),$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(SW_CHA2POSX),CHR_LEFT
+#assign $W(SW_CHA2POSX_OFS),0
+#call macrosys,TuneParam62
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_EFF_CAPTURE_PRI),0
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_Phone_Disable
+#mes She pushes my hand aside.%p
+#setDic 179
+#setDic 38
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0045,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's &cTIPSC;Louise-chan&cMESC;'s famous line!」%p
+#mes I ignore Daru's screaming and continue talking without flinching.%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0207,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm perfectly sure that I saw it!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ALC
+#assign $W(SW_CHA6FACE),Face_CRS_C02
+#call macrosys,CharaDisp62
+#mes2v CRS_0031,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wait! Did you just saw my underw...!?」%p
+#mes Kurisu's face reddens as she quickly tries to cover herself up.%p
+#mes2v OKA_0208,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You imbecile! That's not it!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ALB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#setFlag SF_Phone_AutoDisable
+#mes2v CRS_0032,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes Noon today after the ending of Doctor Nakabachi's presentation Makise Kurisu was killed by someone and lied in a pool of blood--%p
+#mes I give her a thorough explanation of that.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_AMC
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_CRS_C04
+#call macrosys,CharaSet62
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#resetFlag SF_Phone_Disable
+#mes2v CRS_0033,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh? Doctor... Nakabachi...?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_ALA
+#assign $W(SW_CHA5POSX),CHR_RIGHT2
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#call macrosys,CharaDisp51
+#mes2v DAR_0046,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「What are you talking about Okarin? Nakabachi's presentation was cancelled.」%p
+#mes2v OKA_0210,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... Cancelled?」%p
+#mes2v DAR_0047,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Yep. Because of the satellite crashing.」%p
+#mes Once again the things I've seen and what others tell me are completely different... %p
+#mes It's the same as the conversation I had with Mayuri after the mass disappearance.%p
+#mes I'm feeling uneasy...%p
+#mes Did I get myself involved in something outrageous?%p
+#mes Is this another conspiracy of the Organization?%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMC
+#assign $W(SW_CHA6FACE),Face_CRS_C05
+#call macrosys,CharaDisp62
+#mes2v CRS_0034,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey you...」%p
+#mes2v OKA_0211,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「M-my name is Hououin Kyouma!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ALA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0048,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But that's wrong completely...」%p
+#mes2v CRS_0035,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hououin-san would you kindly tell me about what you just said in more detail?」%p
+#mes Looks like she now understands that I'm not lying.%p
+#mes Even so I don't know why what I know and what others know doesn't match so I doubt that I can give her a good explanation--%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#mes A middle-aged man shows his face from the small conference room at the inner part of this floor.%p
+#mes2v KYJ_0000,NO_CHARACTER,VID_ETC,＠Professor＠「Makise-san it's about to begin.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMC
+#assign $W(SW_CHA6FACE),Face_CRS_C04
+#call macrosys,CharaDisp62
+#mes2v CRS_0036,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh? Uhm yes...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Kurisu throws me a glare takes a deep breath and heads towards the small conference room.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_ALA
+#assign $W(SW_CHA5POSX),CHR_RIGHT2
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#call macrosys,CharaDisp51
+#mes2v DAR_0049,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Okarin let's just go for now...」%p
+#mes2v OKA_0212,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Go? What do you mean?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ALA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0050,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「We came here to listen to a lecture genius.」%p
+#mes Oh right.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Daru goes to the same place where Kurisu just went.%p
+#mes So she came to listen to the same lecture as us?%p
+#mes ... That girl genius?%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_DAR_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM5000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

@@ -1,0 +1,498 @@
+﻿#label dstart
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG17A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG17A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#call macrosys2,Init_SG
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys,SET_VID
+#assign $W(LR_DATE),0801
+#setFlag SF_Phone_Disable
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_PhoneRing
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG18A1
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG18A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_Phone_Disable
+#setAchievement 30
+#mes Whew、 so rushed....%p
+#mes With this、 we can't attack the parts shops any more today.%p
+#mes I take a deep breath while looking around and find a strange silhouette.%p
+#mes A lone woman is squatting on the ground、 hugging her knees.%p
+#mes In her hand is a gaudy purple phone. She's staring at its screen without moving a muscle.%p
+#mes Since nobody else is around、 she's even more conspicuous.%p
+#mes And on further inspection、 it's a face I remember.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_ASA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_MOE_A01
+#assign $W(SW_CHA5FADECT),0
+#assign $W(SW_CHA5FADETYPE),CHAFADETYPE_ALPHA
+#setFlag SF_CHA5DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA5FADECT,CHAFADECT_ALPHA_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA5FADECT),0
+#assign $W(SW_CHA5FADETYPE),CHAFADETYPE_NONE
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes2v OKA_0889,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Shining Finger!」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#call macrosys,CharaClr1
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes I try calling、 but there's no reaction.%p
+#mes I just christened her Shining Finger on my own、 so I guess it's natural.%p
+#mes Umm、 her name... her name was... Moe... Moekko? No... umm....%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),960
+#assign $W(SW_BG2POSY),405
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v OKA_0890,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Masseuse!」%p
+#mes I end up moving in front of her、 but she still doesn't notice.%p
+#mes Or rather、 I called out right in front of her、 yet she doesn't lift up her face.%p
+#mes Her fingers are restlessly typing on her phone、 so she doesn't seem to be unconscious.%p
+#mes But she still looks dead. There's no life in her eyes.%p
+#mes I'm actually worried since she's not sweating at all despite the heat.%p
+#mes2v OKA_0891,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Can you not hear me?」%p
+#mes2v MOE_0047,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...Who?」%p
+#mes2v OKA_0892,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hououin Kyouma. The mad scientist.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5POSY),540
+#assign $W(SW_CHA5FACE),Face_MOE_A05
+#call macrosys,CharaDisp51
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5FACE),Face_MOE_A01
+#call macrosys,CharaDisp51
+#mes She looks at me for a moment.%p
+#mes But it was really only a moment.%p
+#mes2v MOE_0048,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...Who、 again?」%p
+#mes2v OKA_0893,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You、 can you not remember people's faces?」%p
+#mes I don't remember Masseus' name、 so I'm not one to talk、 though.%p
+#mes2v OKA_0894,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even though we agreed to help look for the IBN 5100、 this is how it is、 huh?」%p
+#mes Masseuse twitches upon hearing the word IBN 5100.%p
+#mes But she still doesn't raise her face.%p
+#mes2v MOE_0049,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Okabe-kun...」%p
+#mes2v OKA_0895,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I am Hououin.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5FACE),Face_MOE_A02
+#call macrosys,CharaDisp51
+#mes2v MOE_0050,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#mes Ignoring me? Will she not recognize me as Hououin Kyouma no matter what?%p
+#label L_SG02_11_PHONE_RECEIVE_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0215
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes2v MOE_0051,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Sent... mail.」%p
+#flagOnJump SF_PhoneTrigger,L_SG021_11_READ_From_MOE_0215
+#mes2v OKA_0896,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mail?」%p
+#flagOnJump SF_PhoneTrigger,L_SG021_11_READ_From_MOE_0215
+#mes I certainly did just receive a mail.%p
+#flagOnJump SF_PhoneTrigger,L_SG021_11_READ_From_MOE_0215
+#label L_SG02_11_PHONE_RECEIVE_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0215
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0215
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#label L_SG021_11_READ_From_MOE_0215
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0215
+#resetFlag SF_PhoneTrigger
+#mes2v OKA_0897,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes I'm almost enraged.%p
+#mes Was that really something you should say by mail?%p
+#mes Wouldn't it only take 5 seconds to say it verbally!?%p
+#mes She's courteous when mailing、 but the Masseuse in front of me is a lump of unsociability.%p
+#mes How she writes Funny meeting you here♪ without smiling at all makes me think she's actually a different person.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_0898,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It truly is funny、 huh. You looking through parts shops as well?」%p
+#mes2v MOE_0052,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#mes Even when I ask her a question、 Masseuse doesn't even respond--%p
+#label L_SG02_11_PHONE_RECEIVE_02
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0216
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes Another mail.%p
+#flagOnJump SF_PhoneTrigger,L_SG02_11_READ_From_MOE0216
+#label L_SG02_11_PHONE_RECEIVE_02_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0216
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0216
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#label L_SG02_11_READ_From_MOE0216
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0216
+#resetFlag SF_PhoneTrigger
+#call macrosys2,Wait_Finish_MailView
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_0899,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Can you not even speak?」%p
+#mes2v MOE_0053,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...bother.」%p
+#mes2v OKA_0900,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Isn't it more of a bother to type out mail!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5FACE),Face_MOE_A02
+#call macrosys,CharaDisp51
+#mes2v MOE_0054,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#mes Masseuse starts hanging her head more and more after I yelled. She buries her face into her knees.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_CHA1POSY_OFS,(240-$W(SW_CHA1POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG1POSY_OFS,(540-$W(SW_BG1POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA1POSY),240
+#assign $W(SW_CHA1POSY_OFS),0
+#assign $W(SW_BG1POSY),540
+#assign $W(SW_BG1POSY_OFS),0
+#mes Anyway、 don't wear such a short skirt. If you sit like that、 it's completely visible. Though、 she doesn't seem to mind.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),0
+#assign $W(SW_BG2POSX),0
+#assign $W(SW_BG2POSY),0
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_POS
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I sigh、 and silently leave the place.%p
+#mes I buy two Max Coffees from a nearby vending machine.%p
+#label L_SG02_11_PHONE_RECEIVE_03
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0217
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes She mails about every little thing....%p
+#flagOnJump SF_PhoneTrigger,L_SG02_11_READ_From_MOE0217
+#label L_SG02_11_PHONE_RECEIVE_03_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0217
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0217
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#label L_SG02_11_READ_From_MOE0217
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0217
+#resetFlag SF_PhoneTrigger
+#mes I'm more amazed than angry.%p
+#mes Besides、 since I haven't come across anything、 I need to get Moeka's IBN 5100 information、 so I don't plan to go home.%p
+#mes Come to think of it、 this woman's name was Moeka、 right? I remembered when I saw her mail.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Holding the two Max Coffees、 I return to Moeka.%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#copyBG 1,4
+#assign $W(SW_BG4PRI),PRI2_BG
+#setFlag SF_BG4DISP
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),960
+#assign $W(SW_BG1POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_MOE_A04
+#call macrosys,CharaSet51
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5FACE),Face_MOE_A02
+#call macrosys,CharaDisp51
+#mes2v MOE_0055,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Ah、Okabe-kun...」%p
+#mes Masseuse was standing.%p
+#mes She just glances at me and breathes a sigh of relief.%p
+#mes2v OKA_0901,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Want one?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MOE_A04
+#call macrosys,CharaDisp51
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_MOE_A02
+#call macrosys,CharaDisp51
+#mes I hand out a Max Coffee、 which Masseuse timidly accepts.%p
+#mes But she doesn't start on it.%p
+#mes I wait for the coffee to cool down、 open the tab、 and take a sip.%p
+#mes I want to savor this sweetness.%p
+#mes2v OKA_0902,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why don't you speak?」%p
+#mes2v MOE_0056,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Because mailing... is easier.」%p
+#mes Like hell it is.%p
+#mes Maybe she just has anthropophobia.%p
+#mes With that in consideration、 I'm taken aback by my own thoughtlessness.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes2v OKA_0903,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see、 so that's what it is...!」%p
+#mes So basically、 Masseuse is afraid.%p
+#mes Of my、 insane mad scientist Hououin Kyouma's、 evil aura!%p
+#mes There's no helping it in that case. I nod to her behavior.%p
+#mes Rather、 I feel sorry. She's pitiable.%p
+#mes Anybody would be overwhelmed before me.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v MOE_0057,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I'm... weird、 aren't I...」%p
+#mes2v OKA_0904,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 you're normal.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5FACE),Face_MOE_A04
+#call macrosys,CharaDisp51
+#mes2v MOE_0058,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Really...?」%p
+#mes For no matter how disciplined your mind is、 you will be subjugated with fear for me!%p
+#mes2v OKA_0905,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You have nothing to be ashamed about. In this world、 there exists something called absolute eternal truth. It's a wall、 unchangeable no matter how much you struggle.」%p
+#mes2v OKA_0906,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Therefore、 people give up、 give in、 and change course.」%p
+#mes2v OKA_0907,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But never forget this one thing. You hold within your heart、 your own Steins;Gate.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0059,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Steins;Gate...」%p
+#mes2v OKA_0908,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「All people inevitably hold one of that door. As long as you have it、 you can follow any path without losing your way.... That's right、 just like I do.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B01
+#call macrosys,CharaDisp51
+#mes2v MOE_0060,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#mes Moeka nods.%p
+#mes Looks like I got her to understand.%p
+#mes2v OKA_0909,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 this is the real question at hand. Do you have any information on the IBN 5100?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B03
+#call macrosys,CharaDisp51
+#mes Moeka answers by faintly shaking her head side to side.%p
+#mes2v OKA_0910,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just how long have you been searching?」%p
+#mes2v MOE_0061,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...About 2 months.」%p
+#mes2v OKA_0911,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How have you been searching?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5FACE),Face_MOE_A02
+#call macrosys,CharaDisp51
+#mes Of course、 Moeka starts moving her fingers at high speed.%p
+#label L_SG02_11_PHONE_RECEIVE_04
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0218
+#call macrosys2,RECEIVE_NEW_MAIL
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0218
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#mes 2 months with four people....%p
+#mes Even though hordes of otaku come to Akiba each day.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_0912,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Have you tried talking to PC shop employees? They're got the most detailed PC information in Akiba、 you know.」%p
+#mes2v MOE_0062,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes Moeka shakes her head side to side again.%p
+#mes I'm starting to feel she's no good at investigation.%p
+#mes Like she's just wasting her time.%p
+#mes That whatever write editorial company that ordered Masseuse to investigate must be incompetent.%p
+#mes She's trying to work part-time for an editorial company even though she's like this.%p
+#mes2v OKA_0913,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So which one's your goal? To obtain the IBN 5100、 or to investigate the urban legend?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B01
+#call macrosys,CharaDisp51
+#mes2v MOE_0063,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Both.」%p
+#mes2v OKA_0914,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see.」%p
+#mes In that case、 her search is limited to IBN 5100s in Akihabara.%p
+#mes To tell the truth、 I don't care about the urban legend、 but I just want to obtain the IBN 5100. My true goal comes after obtaining it.%p
+#mes So I don't need to fuss over just the IBN 5100s in Akihabara.%p
+#mes Meaning I have no problem ordering one from a foreign net auction. Though、 that would take time and money.%p
+#mes If I don't find one after 2 or 3 days of searching、 let's consider doing that.%p
+#mes2v OKA_0915,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where do you plan to search next?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0064,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That's...」%p
+#mes2v MOE_0065,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I'm...」%p
+#mes2v OKA_0916,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hm? I didn't quite hear you.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5FACE),Face_MOE_A02
+#call macrosys,CharaDisp51
+#mes Moeka types out a mail at high speed.%p
+#label L_SG02_11_PHONE_RECEIVE_05
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0219
+#call macrosys2,RECEIVE_NEW_MAIL
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0219
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#mes No good. She's useless after all.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_0917,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't worry. I have that sort of networking. If I use it、 finding a retro PC should be no trouble at all.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B05
+#call macrosys,CharaDisp51
+#mes2v MOE_0066,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#mes Moeka looks up for the first time today. That look was a look of respect.%p
+#mes2v OKA_0918,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Who do you think I am? I am Hououin Kyouma! What I wish for is the collapse of the ruling structures、 and chaos! Fuhahaha!」%p
+#mes2v MOE_0067,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That's... Okabe-kun's Steins;Gate...」%p
+#mes2v OKA_0919,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Not Okabe、 Hououin!」%p
+#assign $W(SW_PHONE_PRI),PRI_UPPER_CHARA
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

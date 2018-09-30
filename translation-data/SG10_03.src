@@ -1,0 +1,451 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag_MailRecive FM_To_MAY1001
+#setFlag_MailRecive FM_To_MAY1002
+#assign $W(LR_DATE),0815
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG38A
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#mes Not many people are left at ComiMa at this hour、 even though it's opening day.%p
+#mes Of course、 the corporate booths and the cosplay grounds are still thriving、 but there aren't as many people as there were lined up for admission.%p
+#mes I've been calling Mayuri and sending her texts since before、 but she hasn't responded.%p
+#mes I asked Daru over the phone too、 but he said he hasn't seen her today either.%p
+#mes Cosplay ends at 4PM.%p
+#mes I focused on searching the cosplay grounds during that time、 but I couldn't find her.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG048
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes Maybe she finished early and went home.%p
+#mes I try calling Mayuri's home phone with that thought in mind. But she apparently hasn't gone home yet.%p
+#mes Just where is she...?%p
+#setFlag SF_Phone_AutoDisable
+#mes ──It feels like she'll disappear if I take my eyes off of her.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteNORMAL
+#call macrosys,InitGraph
+#setEVFlag 53
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,EV_M06A
+#setFlag SF_BG1DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInNORMAL
+#mes Mayuri had some sort of helpless face since before she lost her grandmother.%p
+#mes ...That's how I felt.%p
+#mes Although that may not have been the case.%p
+#mes That might have just been what I thought.%p
+#mes Because we've been thoughtlessly together. Because she's been close for a long time──%p
+#mes Because I saw her when she was that weak──%p
+#mes I might have just been overprotective of her.%p
+#mes But I don't care how other people see us.%p
+#mes Anyway、 it's my nature to not leave Mayuri alone.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG033
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),(SCR_SIZ_X/8)
+#assign $W(SW_BG1SY),(SCR_SIZ_X/8)
+#assign $W(SW_BG1LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG1LY),(SCR_SIZ_Y/2)
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM31
+#mes I show up at that graveyard.%p
+#mes The final resting place of Mayuri's beloved Granny.%p
+#mes How long has it been since I've been here?%p
+#mes Ever since Mayuri became my hostage、 I've tagged along with her periodically、 so I'd come here about once a year.%p
+#mes But I haven't come here once since entering high school、 so it's been about three or four years.%p
+#mes When I get close to the grave、 a voice reaches my ears.%p
+#mes It's Mayuri's voice without a doubt.%p
+#mes It sounds like she's talking with someone、 but──%p
+#mes I approach without calling out to her、 and peek in on her condition from some distance away──%p
+#messWindowCloseWait
+#setEVFlag 55
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_M08A
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),96
+#assign $W(LR_TMP01),96
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG1ALPHA_OFS,(BG_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG2ALPHA_OFS,BG_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG1SY_OFS,(240-$W(SW_BG1SY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG1SY),240
+#assign $W(SW_BG1SY_OFS),0
+#assign $W(SW_BG1ALPHA),0
+#assign $W(SW_BG1ALPHA_OFS),0
+#assign $W(SW_BG2ALPHA),BG_ALP_MAX
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(LR_TMP00),FADE_VERYSLOW
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),0
+#assign $W(SW_BG1SY),0
+#assign $W(SW_BG1LX),SCR_SIZ_X
+#assign $W(SW_BG1LY),SCR_SIZ_Y
+#mes2v MAY_1268,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 Granny.」%p
+#mes Mayuri is talking to the grave.%p
+#mes I'm relieved to find her.%p
+#mes I'm glad she didn't disappear.%p
+#mes2v MAY_1269,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Lately、 I've been having some scary dreams-」%p
+#mes I thought she had finally mastered the ability to talk to ghosts、 but it looks more like she's just talking to herself.%p
+#mes2v MAY_1270,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And in those dreams、 Mayushii always gets hurt.」%p
+#mes2v MAY_1271,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I get shot with a pistol's bang、 or get involved in car accidents、 or get run over by a train.」%p
+#playSE 0,SGSE063
+#mes Eh...?%p
+#mes Could that mean....%p
+#mes2v MAY_1272,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「They seem so real、 it's really painful、 and really sad. I try to shout 'Someone save me' for dear life、 but I can't」%p
+#mes2v MAY_1273,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Why could I be having those dreams?」%p
+#mes Could that mean that she has memories of all her deaths... from previous world lines?%p
+#mes Her memories continue、 just like with my Reading Steiner?%p
+#mes2v MAY_1274,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And you know、 those dreams always end the same way.」%p
+#mes2v MAY_1275,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii's crying、 and Okarin comes to save me-」%p
+#mes2v MAY_1276,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii always says 'thank you、 thank you、' to Okarin、 but Okarin can't hear her voice.」%p
+#mes2v MAY_1277,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin embraces Mayushii、 and makes a very sad face. Like he's about to cry、 but absolutely doesn't cry、 you know? But I know he's trying his best to hold himself back.」%p
+#mes ...In retrospect.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5FACE),Face_FEI_A02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_AMA
+#assign $W(SW_CHA6PRI),PRI2_UPPER_ALL
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6ALPHA),0
+#assign $W(SW_CHA6FACE),Face_RUK_A01
+#call macrosys,CharaDispW5162
+#add $W(SW_CHA1PRI),PRI2_BG
+#add $W(SW_CHA5PRI),PRI2_BG
+#add $W(SW_CHA2PRI),PRI2_BG
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_CHA2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_CHA1ALPHA),128
+#assign $W(SW_CHA1ALPHA_OFS),0
+#assign $W(SW_CHA2ALPHA),128
+#assign $W(SW_CHA2ALPHA_OFS),0
+#mes Both Faris and Lukako remembered their memories before the past was changed.%p
+#mes I thought memories couldn't be shared between world lines.%p
+#mes I thought my Reading Steiner was special.%p
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_CHA1ALPHA),(128-$W(LR_TMP11))
+#assign $W(SW_CHA2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_CHA1ALPHA),0
+#assign $W(SW_CHA1ALPHA_OFS),0
+#assign $W(SW_CHA2ALPHA),0
+#assign $W(SW_CHA2ALPHA_OFS),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#call macrosys,CharaEraseAll
+#mes But maybe that isn't true.%p
+#mes Maybe everybody has the same power as me、 but to varying degrees.%p
+#mes It might even be to the point where it can't be called a power.%p
+#mes2v MAY_1278,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So Mayushii also gets sad、 and says 'Sorry、 sorry、' but her voice doesn't reach him after all.」%p
+#mes2v MAY_1279,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And then I always wake up.」%p
+#mes2v MAY_1280,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Why could I be having these dreams...?」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M05A
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#add $W(SW_BG3PRI),PRI2_BG
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#mes I've never been able to save Mayuri.%p
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,EV_M13A
+#assign $W(SW_BG4ALPHA),0
+#setFlag SF_BG4DISP
+#add $W(SW_BG4PRI),PRI2_BG
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3ALPHA),(128-$W(LR_TMP11))
+#CalcMove SW_BG4ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3ALPHA),0
+#assign $W(SW_BG3ALPHA_OFS),0
+#assign $W(SW_BG4ALPHA),128
+#assign $W(SW_BG4ALPHA_OFS),0
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes Right in front of my eyes、 Mayuri has time、 and time again、 lost her life.%p
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#mes I kept time leaping to try and prevent that、 but were Mayuri's memories tormenting her as dreams in other world lines?%p
+#mes Without calling out to Mayuri、 I stay hidden、 biting my lip tightly.%p
+#mes Now、 I've lost my way.%p
+#mes Should I save Mayuri? Should I save Kurisu?%p
+#mes There's no convenient option where I can save both.%p
+#mes One or the other.%p
+#mes If I choose Kurisu、 then Mayuri's dreams will become a reality....%p
+#mes I don't want to give Mayuri a painful time.%p
+#mes Until now、 I've only ever thought about saving Mayuri.%p
+#mes But even so、 it's not like I can just let Kurisu die....%p
+#mes I'm lost at another dead end without an answer.%p
+#mes Without noticing me、 Mayuri looks up to the sky、 just like the time before she became a hostage.%p
+#mes She keeps talking to her Granny in heaven.%p
+#mes2v MAY_1281,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 that's right、 you know、 lately our lab mem count has increased-」%p
+#mes2v MAY_1282,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「There's Chris-chan、 Moeka-san、 Luka-kun、 and Faris-chan. Also、 she's moved away、 but there's also Suzu-san.」%p
+#mes2v MAY_1283,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eight people. Amazing、 huh-」%p
+#mes All of them became lab mems in this world line、 but there's still one person who has yet to send a D-mail.%p
+#mes2v MAY_1284,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Even though at first、 it was just Okarin and Mayushii.」%p
+#mes2v MAY_1285,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「When the lab was just formed、 Okarin really wasn't that interesting、 though.」%p
+#mes2v MAY_1286,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But lately、 he looks like he's having lots of fun.」%p
+#mes Is that how she saw it....%p
+#mes But that's not necessarily wrong.%p
+#mes Just as I thought、 she really observes me well.%p
+#mes2v MAY_1287,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「When I see Okarin like that、 Mayushii also gets happy and smiley.」%p
+#mes2v MAY_1288,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Also、 it gets busy and exciting.」%p
+#mes2v MAY_1289,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Especially Chris-chan、 you see. She got her thesis published in a famous American book. She's really smart.」%p
+#mes2v MAY_1290,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii admires her.」%p
+#mes2v MAY_1291,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「She even made a time machine-. Ah、 she made it together with Okarin and Daru-kun too、 though.」%p
+#mes And then Mayuri becomes silent.%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG033
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,BG2_FadeOutTIM
+#mes Her eyes become distant.%p
+#mes She looks at the sky、 standing still.%p
+#mes What could she be thinking?%p
+#mes2v MAY_1292,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But you know、 sometimes I think-」%p
+#mes2v MAY_1293,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「In the beginning、 Mayushii was intruding.」%p
+#mes2v MAY_1294,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「When the lab was just the two of us.」%p
+#mes2v MAY_1295,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「When school ends and I come to the lab、 Okarin isn't there. And so、 I tidy up the room、 and decorate it with small cute things、 and finally Okarin comes back a bit late.」%p
+#mes2v MAY_1296,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii says 'welcome home-、' and Okarin proudly answers 'good work' without saying 'I'm back'.」%p
+#mes2v MAY_1297,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「After that、 every day、 for about two hours、 the two of us would spend our time idly、 and then go home together on the train.」%p
+#mes2v MAY_1298,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Those two hours、 we mostly don't talk、 but it's not an unpleasant silence.」%p
+#mes2v MAY_1299,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Just a feeling that we're next to each other.」%p
+#mes2v MAY_1300,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「We sit next to each other on the sofa. Okarin writes some things like the lab's strategy protocol、 and Mayushii reads manga、 or plays games.」%p
+#mes2v MAY_1301,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I remember every now and then、 we'd eat sweets together.」%p
+#mes2v MAY_1302,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Time would flow very slowly and gently.」%p
+#mes2v MAY_1303,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But I still thought that was okay too.」%p
+#mes2v MAY_1304,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii would feel like she's really become a hostage、 and would laugh 'ehhehe-' alone.」%p
+#mes2v MAY_1305,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「When Okarin would see Mayuri smiling、 he said this.」%p
+#mes Mayuri's words touch me.%p
+#setFlag SF_Phone_AutoDisable
+#mes I remember that time too.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutKaisou
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A2
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaSet51
+#call macrosys,SET_DOF_SHORT
+#call macrosys,FadeInVerySlow
+#mes About four months ago. Back when it was still spring.%p
+#mes Instead of the livelihood our lab now has、 it had a leisurely time isolated from the outside world.%p
+#mes2v OKA_4745,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Did something good happen?」%p
+#mes2v MAY_1306,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yup. Well、 something good didn't happen、 but it happened.」%p
+#mes2v OKA_4746,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see、 you saw an illusion、 huh. Perhaps that was an attack from one 'Organization' leader、 known as the Illusion Conductor.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_1307,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see-. Well、 gotta be careful then. But I'm sure that Illusion Kidhugger is a──」%p
+#mes2v OKA_4747,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Not Kidhugger. Conductor.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_1308,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I'm sure he's not a bad guy-」%p
+#messWindowCloseWait
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#call macrosys,SET_DOF_LONG
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG033
+#setFlag SF_BG2DISP
+#call macrosys,FadeInVERYSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes That was really an inconsequential conversation.%p
+#mes2v MAY_1309,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「That was really pleasant for Mayushii.」%p
+#mes2v MAY_1310,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So happy that I could cry.」%p
+#mes2v MAY_1311,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I wanted to stay like that forever.」%p
+#mes2v MAY_1312,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 but it's not like I hate the livelihood now、 okay-?」%p
+#mes Mayuri explains to her Granny in heaven.%p
+#setEVFlag 55
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M08A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Then Mayuri stops looking to the sky、 and hangs her head down instead.%p
+#mes2v MAY_1313,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Lately I've had a little less time to talk with Okarin.」%p
+#mes2v OKA_4748,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v MAY_1314,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 Mayushii might be getting a little lonely.」%p
+#mes The reason we've had less time to talk is because I've been keeping Mayuri's dreams from becoming reality.%p
+#mes Frantically evading that result.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M06A
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#mes Because I want Mayuri to always be smiling.%p
+#mes Because I don't want her to make the same sad face as when her Granny died.%p
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v MAY_1315,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But you know、 I don't want to be a burden for Okarin-」%p
+#mes Burden....%p
+#mes Mayuri used that word again.%p
+#mes Even I don't feel that way one bit.%p
+#mes2v MAY_1316,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayuri's always、 always nothing but a nuisance to Okarin.」%p
+#mes2v MAY_1317,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 Granny.」%p
+#mes Mayuri raises her head again.%p
+#mes2v MAY_1318,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...I can't stay like this forever、 huh.」%p
+#mes2v OKA_4749,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can.」%p
+#mes2v MAY_1319,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hmm-?」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG033
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes I call out to her when I've had enough、 and Mayuri looks back at me blankly.%p
+#mes And on that face where innocence still remains.%p
+#mes Slowly.%p
+#mes A smile spreads.%p
+#mes2v MAY_1320,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It's Okarin-♪」%p
+#mes2v MAY_1321,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wow、 how did you know I was here-?」%p
+#mes2v OKA_4750,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I always know where my hostage is.」%p
+#mes2v MAY_1322,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hostage...」%p
+#mes2v OKA_4751,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So you can't escape my grasp. Ever.」%p
+#mes2v MAY_1323,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see-」%p
+#mes2v MAY_1324,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But you shouldn't overdo it、 okay?」%p
+#mes2v MAY_1325,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 Mayushii's just a little worried.」%p
+#mes2v OKA_4752,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...This Hououin Kyouma is not weak enough for you to worry.」%p
+#mes2v OKA_4753,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri、 when the time comes to tell you、 I'll tell you everything.」%p
+#mes2v MAY_1326,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...Howha?」%p
+#mes2v OKA_4754,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So until then、 act like nothing's changed.」%p
+#mes2v MAY_1327,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...okay.」%p
+#mes Mayuri stand up and looks at the grave once more.%p
+#mes She gives a brand new white lily and a dango as an offering.%p
+#mes2v MAY_1328,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin. Let's go back?」%p
+#mes2v OKA_4755,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Before we go back、 we'll eat some dango、 right?」%p
+#mes Coming for worship and eating dango from from a nearby stand on the way back was a daily routine back then. %p
+#mes2v MAY_1329,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehhehe-. Of course~♪」%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

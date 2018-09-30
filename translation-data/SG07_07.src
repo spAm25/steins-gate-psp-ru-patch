@@ -1,0 +1,463 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG26E1
+//#assign $W(LR_TMP00),BG26E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),300
+#assign $W(SW_BG1SY),20
+#assign $W(SW_BG1LX),((SCR_SIZ_X/4)*3)
+#assign $W(SW_BG1LY),((SCR_SIZ_Y/4)*3)
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BSC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5POSY),390
+#assign $W(SW_CHA5SIZEX),700
+#assign $W(SW_CHA5SIZEY),700
+#assign $W(SW_CHA5FACE),Face_FEI_C04
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes When the butler guides me into the room、 Faris is on the sofa、 hugging her knees.%p
+#mes She doesn't raise her face even when I approach.%p
+#mes2v OKA_3485,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Faris、 we finally got together. I have something to ask you.」%p
+#mes2v FEI_0188,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Hmmya~...」%p
+#mes An exhausted expression.%p
+#mes A voice missing its core.%p
+#mes Not a particle of ambition or livelihood.%p
+#mes2v OKA_3486,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What happened? You look down...」%p
+#mes2v FEI_0189,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「...This can't be... happening to meow. Why did Faris have to lose nyan...」%p
+#mes2v FEI_0190,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「...if only those guys... didn't use underpawed tricks on meow.... They ganged up on Faris...」%p
+#mes2v FEI_0191,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「I even promised I would absolutely win.... Papa's probably disappointed in meow.... I'm too afraid to show my face nya...」%p
+#mes What is she saying?%p
+#mes No、 wait.%p
+#mes It came to me.%p
+#mes After Faris fought in the RaiNet AB GrandChamp finals.%p
+#mes That unusual Gaia's whisper guy had just said former champ.%p
+#mes Judging by that、 the reason Faris is so depressed is because she lost the match.%p
+#mes I feel bad for the depressed Faris、 but I don't have time to deal with this.%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG26E1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),460
+#assign $W(SW_BG2SY),170
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+//#assign $W(LR_TMP00),BG26E1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5POSY),360
+#assign $W(SW_CHA5FACE),Face_FEI_C04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,Disp_NextScreen
+#mes2v OKA_3487,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Faris、 please listen!」%p
+#mes Faris blinks repeatedly when I grab both her shoulders.%p
+#mes But those eyes were hazy、 depressed by some weight.%p
+#mes2v OKA_3488,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Earlier、 you used the time machine we invented to send a D-mail. Do you remember that?」%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5FACE),Face_FEI_C03
+#call macrosys,CharaDisp51
+#mes2v FEI_0192,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Hanya...?」%p
+#mes I tried to ask、 but it was useless.%p
+#mes Faris doesn't remember that fact after all.%p
+#mes It's not like she forgot.%p
+#mes From Faris' perspective、 that fact never happened.%p
+#mes Gh. Just how can I explain this?%p
+#mes2v OKA_3489,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Try thinking、 for example、 that originally、 here in Akiba、 there were tons of shops that sold moe anime and game goods.」%p
+#mes2v OKA_3490,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And let's say、 you used a time machine、 and changed that Akiba into the electric town it is today. How would you do it?」%p
+#mes I know it's a really cryptic question.%p
+#mes But all I had to ask.%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5FACE),Face_FEI_C04
+#call macrosys,CharaDisp51
+#mes2v FEI_0193,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「...time machine」%p
+#mes Faris murmurs with a blank expression.%p
+#mes2v FEI_0194,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Time machine...」%p
+#mes She repeats the same phrase.%p
+#mes The shine gradually returns to Faris' eyes.%p
+#mes And then、 as if she thought of something──%p
+#messWindowCloseWait
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_C04
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM10
+#mes2v FEI_0195,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Kyouma...」%p
+#messWindowCloseWait
+#setEVFlag 20
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_F03A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call macrosys,CharaClrAll
+#mes She flirtatiously leans on my chest.%p
+#mes2v OKA_3491,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Eh、 wait...!? What...!?」%p
+#mes She smells good.%p
+#mes Faris' cat ears tickle my nose.%p
+#mes I went stiff not knowing what to do about her sudden action.%p
+#mes Faris looked up at me.%p
+#mes She looked sad for some reason.%p
+#mes I was flustered seeing Faris' expression this close.%p
+#mes2v FEI_0196,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Is the time machine real nya?」%p
+#mes2v OKA_3492,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Yeah. For real.」%p
+#mes2v FEI_0197,NO_LIPANM_FEI,VID_FEI,＠Faris＠「…………」%p
+#mes Faris stares at me even more.%p
+#mes It felt as if she were peeking through my soul.%p
+#mes2v FEI_0198,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「I believe nyan.」%p
+#mes When I think she got convinced way too quickly、 she suddenly starts rubbing her temples and hiding her face.%p
+#messWindowCloseWait
+#setEVFlag 21
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_F03B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v FEI_0199,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Ugh... ugh... whew... ugh、 I seem to remember nya...」%p
+#mes2v OKA_3493,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Huh...?」%p
+#mes2v FEI_0200,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Faris feels like she's used that time machine nyan...」%p
+#mes2v OKA_3494,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wha...!? Really!?」%p
+#mes2v FEI_0201,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Umm、 Faris rode the time machine and went pewww and...」%p
+#mes2v OKA_3495,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What? But what you used was a D-mail that can be sent into the past、 though...」%p
+#mes2v FEI_0202,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Nyanya! Right nya、 I'm starting to remember more and more nya...」%p
+#mes Then Faris holds her head、 looking like she's about to cry.%p
+#mes2v FEI_0203,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「My head... hurts、 nya...」%p
+#mes2v OKA_3496,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What... does this mean...」%p
+#mes Does Faris also have the Reading Steiner ability?%p
+#mes I don't know. I need to verify it、 but how can I?%p
+#mes Umm、 calm down. Just calm down.%p
+#mes Should I get in touch with Kurisu?%p
+#mes Or...?%p
+#messWindowCloseWait
+#setEVFlag 20
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_F03A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v FEI_0204,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Kyouma... Faris... Faris...」%p
+#mes Faris sticks closer and closer to me.%p
+#mes I couldn't do anything but catch her warm、 soft、 slender body in my arms.%p
+#mes I need to get her to remember somehow.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_C04
+#call macrosys,CharaSet51
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v FEI_0205,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「My brains are turning to mush nya...」%p
+#mes2v OKA_3497,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hang in there!」%p
+#mes2v OKA_3498,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is there anything I can do...?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5FACE),Face_FEI_C03
+#call macrosys,CharaDisp51
+#mes2v FEI_0206,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「If I win...」%p
+#mes2v FEI_0207,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「If I win、 I might remember nya...」%p
+#mes2v OKA_3499,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What? Win、 at what...?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5FACE),Face_FEI_C04
+#call macrosys,CharaDisp51
+#mes2v FEI_0208,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「The Viral Attackers nyan. My opponents at todays match nya...」%p
+#mes2v FEI_0209,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「But I lost because of their underpawed sabotage nya...」%p
+#mes2v FEI_0210,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Because of that、 Faris' head is all mushy、 so she can't remember her memories nya...」%p
+#mes2v FEI_0211,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Please nyan、 Kyouma.... Faris thinks if she wins the match、 she'll remember everything nya...」%p
+#mes2v FEI_0212,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「So let me use the time machine...」%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes2v OKA_3500,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v OKA_3501,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「By the way、 you're not acting、 are you?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLA
+#assign $W(SW_CHA5FACE),Face_FEI_A03
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes2v FEI_0213,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Wha-what are you talking about nya...?」%p
+#mes Don't tell me she just wants to use the time machine so she can win her RaiNet match?%p
+#mes Considering how Faris usually acts、 that's actually pretty likely.%p
+#mes Since this girl's acting rivals that of minor demons.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5FACE),Face_FEI_C05
+#call macrosys,CharaDisp51
+#mes2v FEI_0214,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Ugh、 you're pawful...」%p
+#mes And Faris starts crying while clinging to my chest.%p
+#mes2v FEI_0215,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Even though Faris is trying her bestest to remember for Kyouma...」%p
+#mes2v FEI_0216,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「He called it acting、 and hurt me nyan...」%p
+#mes2v OKA_3502,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 no、 sorry...」%p
+#mes Large teardrops drip out from the corners of her eyes.%p
+#mes I completely shrink back at the sight of tears.%p
+#mes Mmmmm.... I don't think she'd lie and cry.%p
+#mes But there really isn't a basis to remembering if she wins the RaiNet tournament....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLA
+#assign $W(SW_CHA5FACE),Face_FEI_A04
+#call macrosys,CharaDisp51
+#mes2v FEI_0217,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Please nya...」%p
+#mes Faris whispers into my ear.%p
+#mes2v FEI_0218,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Let Faris win nya~n...」%p
+#mes Right after that、 I feel something warm and wet on my ear lobe.%p
+#mes Faris play-bit me、 sending electricity through my entire body.%p
+#mes2v OKA_3503,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...! Wh-wait! I get it、 I get it、 okay!」%p
+#mes Faris hurriedly lets go.%p
+#mes That was dangerous、 I seriously almost jizzed in my pants....%p
+#mes2v OKA_3504,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「O-Okay、 Faris. We'll do what you say.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLA
+#assign $W(SW_CHA5FACE),Face_FEI_A02
+#call macrosys,CharaDisp51
+#mes2v FEI_0219,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Really nyan!?」%p
+#mes2v OKA_3505,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah. Since I want you to remember no matter what.」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1SIZEX_OFS,(1500-$W(SW_CHA1SIZEX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_CHA1SIZEY_OFS,(1500-$W(SW_CHA1SIZEY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_CHA1ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA1SIZEX),1500
+#assign $W(SW_CHA1SIZEY),1500
+#assign $W(SW_CHA1ALPHA),0
+#assign $W(SW_CHA1SIZEX_OFS),0
+#assign $W(SW_CHA1SIZEY_OFS),0
+#assign $W(SW_CHA1ALPHA_OFS),0
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG3_FadeInTIM
+#call macrosys,CharaClr1
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG3_FadeOutTIM
+#mes Faris tries to leap into my chest out of happiness、 but I evade.%p
+#mes She face dives into the sofa.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_A03
+#call macrosys,CharaDisp51
+#mes2v FEI_0220,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Hnnya... why'd you dodge meow?」%p
+#mes2v OKA_3506,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No.... You're being way too familiar.」%p
+#mes I really am bad at dealing with Faris. I can't help but feel she's forcing me to follow her flow.%p
+#mes ...I really am being cheated、 arent' I?%p
+#mes I shake that doubt out by force.%p
+#mes I'll try anything if it could possibly yield results.%p
+#mes In that case、 I should naturally be able to answer.%p
+#mes I desperately convince myself that、 standing up tall.%p
+#mes2v OKA_3507,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So after this、 I'm going to leap to this morning and give you advice. Then you should be able to win. Is that okay?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5FACE),Face_FEI_C01
+#call macrosys,CharaDisp51
+#mes2v FEI_0221,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「We're not sending a mail nyan?」%p
+#mes2v OKA_3508,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Our lab has already developed a device that allows you to time leap、 sending your consciousness into the past.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5FACE),Face_FEI_C02
+#call macrosys,CharaDisp51
+#mes2v FEI_0222,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Pawesome! So basically you can start a New Game nya?」%p
+#mes2v OKA_3509,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Umm、 yeah、 that's it.」%p
+#mes Don't go along with her、 I desperately convince myself.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BMA
+#assign $W(SW_CHA5FACE),Face_FEI_A02
+#call macrosys,CharaDisp51
+#mes2v FEI_0223,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Then if Faris uses that and leaps to this morning、 it will be the cat's meow.」%p
+#mes2v OKA_3510,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5FACE),Face_FEI_C02
+#call macrosys,CharaDisp51
+#mes2v FEI_0224,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Nya!? Why not nyan?」%p
+#mes2v OKA_3511,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I don't want to let anyone besides me use the Time Leap Machine.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BMA
+#assign $W(SW_CHA5FACE),Face_FEI_A03
+#call macrosys,CharaDisp51
+#mes2v FEI_0225,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「...Kyouma、 that's meanya.」%p
+#mes2v OKA_3512,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...It's not something readily usable. It's dangerous.」%p
+#mes I haven't failed once so far、 but it might not be that way next time.%p
+#mes I remember Suzuha.%p
+#mes I remember how she lost her memories for 24 years when she time traveled.%p
+#mes That was a physical leap、 using a feasible time machine、 so its structure is different、 but something similar could happen with the Time Leap Machine.%p
+#mes That's to say nothing of how the Time Leap Machine was made under budget on a rushed schedule. It wouldn't be strange if it broke down.%p
+#mes A breakdown、 that is、 the corruption of the time leaper's memories.%p
+#mes And one more thing.%p
+#mes I shouldn't let anyone else control modifications to the past.%p
+#mes Nobody should warp the world any more than this.%p
+#mes My most important target is、 to the very end、 to return to the world line that has the IBN 5100. Because when I get the IBN 5100、 I can escape from this α World Line.%p
+#mes2v OKA_3513,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm responsible for the changes to the past.」%p
+#mes2v OKA_3514,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Believe in me、 Faris.」%p
+#setFlag SF_Phone_AutoDisable
+#mes2v FEI_0226,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「...Okay nya.」%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,FadeOutSLOW
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#wait 16
+#call macrosys,FadeInSLOW
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG07_07
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG07_07
+#resetFlag SF_SYSTEMCHIP_HIDE
+#call macrosys,FadeOut0
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes2v OKA_3515,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...gh」%p
+#mes I brace my wobbling feet.%p
+#mes My watch comes into my newly recovered vision.%p
+#mes 10:38AM. Time leap successful.%p
+#mes According to Faris、 it seems she lost the match because the opposing team and their comrades had made clever、 underhanded interferences during the competition.%p
+#setFlag SF_Phone_AutoDisable
+#mes Faris told me how she planned to counter that. The plan was──%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG26E1
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG26E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_C03
+#call macrosys,CharaSet51
+#call macrosys,SET_DOF_SHORT
+#call macrosys,FadeInFAST
+#mes2v FEI_0227,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Bring Faris sunglasses and earplugs before the match nyan!」%p
+#mes2v FEI_0228,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Then she can ignore the interference and win 100% nya.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SET_DOF_LONG
+#call macrosys,CharaEraseAll
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes I wonder if that's true....%p
+#mes No、 now's no time for hesitation.%p
+#mes I buy sunglasses and earplugs on the way to UPX.%p
+#mes Faris said she enters the assembly hall at 12.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end 

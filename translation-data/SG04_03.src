@@ -1,0 +1,493 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#assign $W(LR_DATE),0804
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI_LOWER_CHARA
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE021
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM08
+#mes We immediately started the D-mail experiment、 and even though it's before noon、 the Microwave Ophone (Temp)'s discharge phenomenon still broke out.%p
+#mes Things look favorable today.%p
+#mes By the way、 we haven't talked to Manager downstairs yet.%p
+#mes Maybe we should think of an excuse beforehand.%p
+#mes But this isn't the time to read the owner's expression.%p
+#mes Correct、 for this is the war against the Organization、 otherwise known as SERN、 and their conspiracy controlling the world from the shadows!%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#call macrosys,FadeOutSLOW
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaSet51
+#call macrosys,FadeInSlow
+#resetFlag SF_Phone_Disable
+#setDic 7
+#mes2v DAR_0594,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「&cTIPSC;Anzai-sensei&cMESC;、 I-I want to eat Faris-tan's home cooking....」%p
+#label L_SG04_03_RM_SUZ04_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_SUZ
+#assign $W(LR_RM_CHANCE),11
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_CSC
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_MAY_C03
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0384,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「If you give up、 it's game over you know-?」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#add $W(SW_CHA5PRI),PRI2_BG
+#add $W(SW_CHA1PRI),PRI2_BG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Even with Daru's second D-mail、 the past didn't change.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I feel like RaiNet matches are difficult to cheat your way out of in the first place.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Not to mention we're limited to 36 bytes.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Looks like we'll have to give up on Daru、 who's started to sulkily surf the net.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes But even if we were to use another lab mem as a test subject、 it doesn't look like Kurisu would bend her policy.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Meaning there's only one candidate left.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#call macrosys,SetOrder51627384
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM15
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1750,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri、 let's have you change the past next.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSC
+#assign $W(SW_CHA6FACE),Face_MAY_C02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0385,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh-? Mayushii? It's okay to change it?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSA
+#assign $W(SW_CHA6FACE),Face_MAY_A03
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0386,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But changing the past... what should I change about it-?」%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes Mayuri looks stumped as she slurps her cup ramen.%p
+#label L_SG04_03_RM_SUZ04_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSB
+#assign $W(SW_CHA6FACE),Face_MAY_B02
+#call macrosys,CharaDisp62
+#mes2v MAY_0387,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 then、 how about this-? I'll change the past and have Luka-kun wear Mayushii's costume.」%p
+#mes2v OKA_1751,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0388,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「By sending Luka-kun a mail-♪ Ehhehe-」%p
+#mes That's not changing the past、 but just a wish、 isn't it....%p
+#mes2v OKA_1752,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can't think of something more simple、 and easy to understand?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSB
+#assign $W(SW_CHA6FACE),Face_MAY_B03
+#call macrosys,CharaDisp62
+#mes2v MAY_0389,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hm~mm~?」%p
+#mes She slurps more ramen.%p
+#label L_SG04_03_RM_SUZ04_01_REPLY_END
+#RandomMail_End
+#mes2v OKA_1753,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Let's use that cup ramen.」%p
+#mes Looks like only I can come up with ideas.%p
+#mes2v OKA_1754,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We'll send a D-mail to Mayuri one hour back. I wanna eat cup oden or so.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BSC
+#assign $W(SW_CHA7POSX),CHR_LEFT0
+#assign $W(SW_CHA7FACE),Face_CRS_C06
+#call macrosys,CharaDisp73
+#mes2v CRS_1027,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't think that's simple enough to convince her to--」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0390,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 that might be really good-☆」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BSC
+#assign $W(SW_CHA7FACE),Face_CRS_C05
+#call macrosys,CharaDisp73
+#mes2v CRS_1028,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh...?」%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,MAY_CSA
+#assign $W(SW_CHA8POSX),$W(SW_CHA2POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA6PRI)
+#assign $W(SW_CHA8FACE),Face_MAY_A01
+#call macrosys,CharaDisp82
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSB
+#assign $W(SW_CHA6FACE),Face_MAY_B03
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_MAY_01
+#mes2v MAY_0391,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Today、 when I was in front of the vending machine、 I couldn't decide for about ten minutes-. Should I go with cup oden-、 or should I go with cup ramen-?」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_1755,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Basically、 if she was pushed a little、 Mayuri would inevitably want to eat cup oden、 right!? Alright、 let's go with that!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0392,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yup、 okay-. Well then、 before we change the past、 I gotta eat all this ramen first-」%p
+#mes Then Mayuri starts eating the ramen for dear life.%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,CRS_BSC
+#assign $W(SW_CHA8POSX),$W(SW_CHA3POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA7PRI)
+#assign $W(SW_CHA8FACE),Face_CRS_C06
+#call macrosys,CharaDisp83
+#mes2v CRS_1029,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What's wrong with not eating it?」%p
+#mes2v MAY_0393,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「That'll be a waste♪」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BSC
+#assign $W(SW_CHA7FACE),Face_CRS_C05
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_1030,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah、 I、 I see. That's right... ahaha.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes Mayuri answers while smiling. Kurisu's face goes stiff.%p
+#setDic 3
+#mes She really is a &cTIPSC;dumb girl&cMESC;. This isn't the first time.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),560
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#mes The D-mail preparations are set.%p
+#setFlag SF_Phone_AutoDisable
+#mes The contents of Mayuri's mail are simple enough.%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR5;&lc"Cup oden is:"&n"Piping hot &"&n"Delicious!!!"%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#mes Now we just pray that Mayuri will be inclined to choose cup oden.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG046
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes We wait for Mayuri to finish eating her cup ramen and activate the Microwave Ophone (Temp).%p
+#mes To send it one hour back、 we set the timer to 1#. In other words、 we set the microwave for only one second.%p
+#mes I wonder if the discharge phenomenon will occur in that small time.%p
+#mes This is another first challenge for this experiment.%p
+#mes2v OKA_1756,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Microwave Ophone (Temp)、 activate!」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_VERYFAST
+#stopBGM
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE011
+#call macrosys,SEwaitHalf
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#playSE 1,SGSE010
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#mes2v MAY_0394,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Aah、 the mail still hasn't sent-...」%p
+#mes There wasn't enough time to blink、 huh...%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),$W(SW_BG1SIZE)
+#assign $W(SW_BG2POSX),$W(SW_BG1POSX)
+#assign $W(SW_BG2POSY),$W(SW_BG1POSY)
+#assign $W(SW_BG2DISPMODE),$W(SW_BG1DISPMODE)
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),0
+#assign $W(SW_BG1POSX),0
+#assign $W(SW_BG1POSY),0
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_POS
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaSetW5162
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM15
+#mes2v CRS_1031,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So the discharge phenomenon won't occur with just one second、 huh. It might just be data、 but that's still good to know.」%p
+#mes2v DAR_0595,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「What if you try warming it up beforehand?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_1032,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Warming it up?」%p
+#mes2v DAR_0596,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Basically、 the discharge phenomenon won't occur with one second、 right? Then just operate the microwave beforehand for about 30 seconds without sending a mail.」%p
+#mes2v DAR_0597,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wait a while after that、 and try it again with the timer set at one second. If you do that、 won't the discharge phenomenon occur even with just one second?」%p
+#mes2v CRS_1033,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Any Basis?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0598,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Zilch.」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),560
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v OKA_1757,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Uhh、 Mayuri、 got anything else!?」%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,MAY_CMA
+#assign $W(SW_CHA8POSX),$W(SW_CHA1POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8FACE),Face_MAY_A03
+#call macrosys,CharaDisp81
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_MAY_02
+#mes2v MAY_0395,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh、 well、 then、 how about changing the garnish in the onigiri I bought last night-...」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_1758,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You remember what garnish you had in the onigiri you ate last night?」%p
+#mes2v MAY_0396,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okaka.」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_CSA
+#assign $W(SW_CHA6POSX),CHR_LEFT0
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_1034,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「A-an immediate response!?」%p
+#mes Seems she remembers it clearly.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CSA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,SyncBNO
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_MAY_03
+#mes2v MAY_0397,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So then、 change the okaka to、 um、 let's go with mentaiko-♪」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes ...Maybe I should search for another test subject.%p
+#mes In the end、 the four lab mems sit silently、 obviously making me think we can't complete a single experiment.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM4000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp73
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_MAY_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM8000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#assign $T(THD_WORK01),TIM4000
+#call macrosys,Thd_WaitTIM
+#assign $W(SW_CHA6FACE),Face_MAY_B02
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_MAY_02
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM4000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_MAY_03
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM4000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end

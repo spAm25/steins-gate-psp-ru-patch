@@ -1,0 +1,743 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0728
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I made the wrong assumptions.%p
+#mes The girl genius didn't come here to listen to the lecture.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#setEVFlag 3
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,EV_C04A
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSlow
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes2v CRS_0037,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Uhmm… thank you for coming to listen to a young person such as myself.」%p
+#mes2v OKA_0213,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So she's the one doing the lecture...」%p
+#mes Japan's 17 year old genius who had her article published in SCIENCE.%p
+#mes If what Daru said is correct a few days ago she turned 18.%p
+#mes The first I've ever known about her was from an article in a weekly Japan's gossip magazine that Daru showed me.%p
+#mes That time he told me this:%p
+#mes “She recently came to Japan and she's gonna be a special guest in ATF.”%p
+#mes I remember that just now.%p
+#mes So he was talking about today huh?%p
+#mes2v CRS_0038,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I am kind of nervous since this is my first time doing this so I would greatly appreciate it if you overlook my blunders.」%p
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE016L,true
+#mes The group attending this lecture has a lot of variety.%p
+#mes There are a lot of students like me and Daru as well as university professors.%p
+#mes Kurisu gives me a sharp look.%p
+#mes She's definitely keeping an eye on me.%p
+#mes When I glare back at her she quickly averts her eyes.%p
+#mes Hmph I don't care if she's a girl genius or whatever but she's hard for me to stomach.%p
+#mes I thought the same when she called out to me in the Radio Center.%p
+#mes She's actually an audacious person and is only feigning friendliness right now.%p
+#mes Even if her being killed was nothing but an illusion I think I know that much about her personality.%p
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#mes2v CRS_0039,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This time I've been told to talk about the subject of time machines. It's not really my area of expertise but I will give it my best.」%p
+#mes2v OKA_0214,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hoh... Time machines huh...?」%p
+#mes2v CRS_0040,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If I were to begin with the conclusion I would say that time machines are a completely absurd concept.」%p
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#mes2v OKA_0215,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Objection!」%p
+#messWindowCloseWait
+#setEVFlag 6
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04D
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BgOverWrite
+#mes2v CRS_0041,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Fueh...!?」%p
+#mes Kurisu and all the people who came to listen to this lecture are taken aback by my words. %p
+#mes A natural reaction I suppose.%p
+#mes I however have no intention on silently listening to the words of some girl genius.%p
+#mes2v OKA_0216,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's too early to say that time machines are impossible to make.」%p
+#mes2v DAR_0051,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Okarin you're overdoing it...!」%p
+#mes Daru who is sitting at my side is giving me a humble salutation pose.%p
+#mes The staff of ATF are approaching probably to take me out of the room.%p
+#mes Perhaps I got too carried away.%p
+#messWindowCloseWait
+#setEVFlag 3
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v CRS_0042,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Uhmm well I guess that this is fine too... A discussion is livelier than a lecture.」%p
+#mes Because she said that there was no need for me to be taken out.%p
+#mes I think I just heard some bad words but I think it's better to ignore them.%p
+#mes2v CRS_0043,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But before that allow me to speak my thoughts on this.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG012
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v CRS_0044,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Until now a lot of scientists have proposed many time travel theories but at the very base there are only 11 of them.」%p
+#mes Hmm... Ehm what were they again?%p
+#mes From the back of my head I can name the cosmic string theory...%p
+#messWindowCloseWait
+#resetFlag SF_CHA4DISP
+#call macrosys,InitCHA4
+#loadCHA 4,IBGC013
+#assign $W(SW_CHA4PRI),(PRI2_BG+2)
+#assign $W(SW_CHA4FILTER),CHACOL_DEF
+#assign $W(SW_CHA4POSE),IBGpose_IBG013_Title
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#copyCHA 4,8
+#assign $W(SW_CHA8PRI),($W(SW_CHA4PRI)+1)
+#assign $W(SW_CHA8FILTER),CHACOL_DEF
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),(PRI2_BG+1)
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#label @@
+#mwait 1
+#add $W(SW_MASK2ALPHA),4
+#If ($W(SW_MASK2ALPHA)<128),@b
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_CHA4FADETYPE),CHAFADETYPE_MASK
+#assign $W(SW_CHA4MASKNO),MASK02
+#assign $W(SW_CHA4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERY2SLOW
+#call macrosys,CHA4_FadeInTIM
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_0045,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Neutron star theory. Black hole theory. Speed of light theory.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_02
+#mes2v CRS_0046,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Tachyon theory. Wormhole theory. Exotic matter theory.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_03
+#mes2v CRS_0047,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Cosmic string theory. Quantum gravity theory. Cesium laser beam theory.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_04
+#mes2v CRS_0048,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Elementary particle ring laser theory. Dirac antiparticle theory.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#messWindowCloseWait
+#assign $W(LR_TMP00),FADE_VERYSLOW
+#assign $W(LR_TMP01),FADE_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,-128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_CHA4ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA4DISP
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA4
+#call macrosys,InitCHA8
+#call macrosys,SetOrder51627384
+#call macrosys,TUNE_CHACOL_BG1
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_0217,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes I see as expected of a girl genius.%p
+#mes Makise Kurisu I acknowledge you as a worthy opponent.%p
+#mes2v CRS_0049,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「However each of these theories are nothing more but hypotheses.」%p
+#mes2v CRS_0050,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Some of them are even denying the possibility of others.」%p
+#mes2v OKA_0218,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then what if a 12th theory was proposed?」%p
+#messWindowCloseWait
+#setEVFlag 5
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04C
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v CRS_0051,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hm? Ah ehh right. That's uhm...」%p
+#messWindowCloseWait
+#setEVFlag 6
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04D
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v CRS_0052,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Then it would be denied by the 13th theory!」%p
+#mes Damn you brat...!%p
+#mes Bending my supposition and actually using my own words against me...%p
+#mes Not bad not bad at all.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG19A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I can feel the stares piercing me.%p
+#mes The prideful professors are giving me sullen looks.%p
+#mes This is bad I think I got too carried away.%p
+#mes I might not get points if this keeps up so I think I'll have some restraint now...%p
+#messWindowCloseWait
+#setEVFlag 3
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#setDic 85
+#mes2v CRS_0053,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By the way time travel to the future is available to us right now according to&cTIPSC; the theory of relativity&cMESC; that is.」%p
+#mes2v CRS_0054,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「For example if a person was to go to the Haneda airport and boarded a plane heading towards Okinawa he upon arriving the destination would be about 1 hundred millionth part of a second in front of me in the future.」%p
+#mes What does that mean?%p
+#mes2v CRS_0055,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The theory of relativity states that the time of an object slows down as the speed of said object approaches the speed of light.」%p
+#mes2v CRS_0056,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「To give another example if one was to run at the speed close to the speed of light the time that affects that person would only be half of the time that affects us.」%p
+#messWindowCloseWait
+#setEVFlag 4
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v CRS_0057,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If he was to run for 24 hours the amount of time that would affect the surroundings would be 48 hours and that is something that we can call 'leaping 1 day into the future' Hououin Kyouma-san.」%p
+#mes2v OKA_0219,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes Calling me by name...%p
+#mes Even though I just decided to restrain myself it looks like Makise Kurisu wants to pick a fight with me.%p
+#mes ... I do wish that she wouldn't speak that name in front of so many people though.%p
+#mes I don't want unrelated people to find it out.%p
+#mes2v KYJ_0001,NO_CHARACTER,VID_ETC,＠Professor＠「But that's just sophism isn't it?」%p
+#messWindowCloseWait
+#setEVFlag 3
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes Someone who isn't me - a professor at that calmly made an objection.%p
+#mes Truly the example of time travel that Makise Kurisu just made is not something that can be called time travel.%p
+#mes Still for an old professor to make refutations against an 18 year old girl...%p
+#mes Perhaps he decided to join in on the discussion...%p
+#mes ... or maybe he's only trying to harass the girl genius.%p
+#mes2v CRS_0058,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It is.」%p
+#mes She nonchalantly accepts the objection.%p
+#mes Considering the fact that she has such an audience for the first time in her 18 years of life it's surprising how calm she is.%p
+#mes Normally after having a much older professor object to her such a person would completely lose herself. %p
+#mes However the way Kurisu reacts to the situation makes it seem like she's saying 'I can handle this guy!'.%p
+#mes2v KYJ_0002,NO_CHARACTER,VID_ETC,＠Professor＠「So is it possible to go back in time?」%p
+#mes2v CRS_0059,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You can go even into the past right now. Peek at the sky at night with a telescope. You can see light from tens of thousands of years ago can't you?」%p
+#mes2v STU_0000,NO_CHARACTER,VID_ETC,＠Student＠「That's sophism as well!」%p
+#mes The person who said that with his weird voice is a student taking the lecture.%p
+#mes2v CRS_0060,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Well what I've said until now has been an introduction.」%p
+#mes Is it only me or did her expression became stiff just now?%p
+#mes2v CRS_0061,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Practically for example let's think about the first thing necessary to make a time machine that could physically move everyone to the past or future.」%p
+#mes2v CRS_0062,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Let's consider the cosmic string theory and the wormhole theory.」%p
+#mes2v CRS_0063,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「A cosmic string is a cord-shaped 'crevice' which has an extremely large mass.」%p
+#mes A string-like crevice...?%p
+#mes Must be like one of those cracks from where 'THEY' come?%p
+#mes But does something like that really exist?%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG044
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA4DISP
+#call macrosys,InitCHA4
+#loadCHA 4,IBGC014
+#assign $W(SW_CHA4FILTER),CHACOL_DEF
+#assign $W(SW_CHA4FACE),IBGface_IBG014_A
+#assign $W(SW_CHA4FADETYPE),CHAFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,CHA4_FadeInTIM
+#setDic 89
+#mes2v CRS_0064,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The width of the crevice is about the same as that of an&cTIPSC; elementary particle&cMESC; while the length is about that of a small galaxy」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#copyBG 2,3
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#copyCHA 4,8
+#assign $W(SW_CHA8FILTER),CHACOL_DEF
+#assign $W(SW_CHA8FACE),IBGface_IBG014_B
+#stop
+#assign $W(LR_POST_SCREEN),(IDX_BG3+IDX_CHA8)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(SW_BG5MASKNO),MASK13
+#assign $W(SW_BG5MASKFADERANGE),16
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,Disp_NextScreen
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#assign $W(SW_CHA8FACE),IBGface_IBG014_C
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_05
+#mes2v CRS_0065,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Since it has extremely large mass it has the ability to distort space-time. If you were to attempt a full rotation within that distortion in the cosmic string you might rotate less than 360°」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#assign $W(SW_CHA8FACE),IBGface_IBG014_D
+#assign $W(LR_POST_SCREEN),(IDX_BG3+IDX_CHA8)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#assign $W(SW_CHA8FACE),IBGface_IBG014_E
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_06
+#mes2v CRS_0066,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In other words you are able to do something resembling a warp... This is called space-time angle deficit.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v CRS_0067,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Due to the loss of angle if an object was to pass through the area with angle deficit the time passing for that object would become 0.」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG1DISP
+//#call macrosys,InitBG1
+#assign $W(LR_POST_SCREEN),IDX_BG1
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,Disp_NextScreen
+#assign $W(LR_FADE_TIM),0
+#call macrosys,BgDisp
+#mes2v CRS_0068,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By applying this and assuming that a cosmic string moves at a speed close to the speed of light--」%p
+#mes2v CRS_0069,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「According to the theory of relativity the time of the cosmic string becomes slower than the time of the surroundings. Passing through the distorted angle deficit area would make the time passage which was originally 0 become negative.」%p
+#mes2v CRS_0070,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Thus after the passage the direction in which time goes is the 'past'.」%p
+#mes2v CRS_0071,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So with the use of 2 cosmic strings a space deficit jump can occur. If an object was to travel within that space deficit towards one location and then back to the original spot it would return at the same time at which it entered.」%p
+#mes2v CRS_0072,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And that is a rough explanation of what cosmic string theory-based time travel is.」%p
+#setDic 102
+#mes2v CRS_0073,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Also to prevent misunderstandings I must mention that the cosmic string theory and the &cTIPSC; superstring theory&cMESC; are different things」%p
+#mes2v CRS_0074,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Anyway there are 3 things that one must prepare for cosmic string theory-based time travel towards the past.」%p
+#mes2v CRS_0075,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「1: Cosmic strings 2 of them. Oh by the way they are hypothesized to only exist in the space where the universe was first formed so they might be a little hard to find.」%p
+#mes2v CRS_0076,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「2: Even if you successfully find them you would need energy that would make them move at a speed close to the speed of light.」%p
+#messWindowCloseWait
+#setEVFlag 4
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#setDic 216
+#mes2v CRS_0077,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Well I wonder what amount of energy would be sufficient to move a crevice the length of a galaxy at the speed of light... At the very least I'm pretty certain that it would be more than&cTIPSC; 1.21 jigowatts&cMESC;」%p
+#mes A part of the lecture attendees burst out laughing at that.%p
+#mes2v CRS_0078,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「3: A space-ship that would be able to travel towards the location of the cosmic string and back. It's an absolute necessity for those who want to time travel.」%p
+#mes2v CRS_0079,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「... What do you think Hououin-san? Would you like to attempt cosmic string based time travel?」%p
+#mes There's no way I can do that.%p
+#mes And why the hell is she addressing me?%p
+#mes I'm not the one laughed at her or anything...%p
+#mes2v CRS_0080,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hm? Looks like Hououin-san is not willing to try out the cosmic string theory.」%p
+#mes2v CRS_0081,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Then let's consider the aforementioned wormhole theory. I think that it is more realistic than the cosmic string theory.」%p
+#mes2v CRS_0082,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So... Hououin-san... Do you know what a wormhole is?」%p
+#mes No don't ask me dammit! I'm trying to lay low here...%p
+#mes It's something like a... loophole or a shortcut in space... right?%p
+#mes2v OKA_0220,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Though I guess that I must answer this one.」%p
+#label _zzz
+#messWindowCloseWait
+#setEVFlag 3
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v CRS_0083,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Yes that's right.」%p
+#mes Phew I got it right.%p
+#mes What a relief...%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG044
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA4DISP
+#call macrosys,InitCHA4
+#loadCHA 4,IBGC015
+#assign $W(SW_CHA4FILTER),CHACOL_DEF
+#assign $W(SW_CHA4FACE),IBGface_IBG015_A
+#assign $W(SW_CHA4FADETYPE),CHAFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,CHA4_FadeInTIM
+#mes2v CRS_0084,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There are 2 holes which are connected via a tunnel. The time that it takes to pass through that tunnel is 0 regardless of how far away the holes are.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#copyBG 2,3
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#copyCHA 4,8
+#assign $W(SW_CHA8FILTER),CHACOL_DEF
+#assign $W(SW_CHA8FACE),IBGface_IBG015_C
+#assign $W(LR_POST_SCREEN),(IDX_BG3+IDX_CHA8)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v CRS_0085,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「However here's a disappointing notification. Super gravity is active within that tunnel so an object would be completely crushed upon entering it.」%p
+#mes2v CRS_0086,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's why we need something that would negate the effects of gravity.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#assign $W(SW_CHA8FACE),IBGface_IBG014_E
+#assign $W(LR_POST_SCREEN),(IDX_BG3+IDX_CHA8)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v CRS_0087,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That something is called 'exotic matter'. It's basically material which has negative weight and opposes the effects of gravity.」%p
+#mes Negative weight huh? I can't picture that at all...%p
+#mes Something that rises when you leave it on the ground perhaps?%p
+#mes ... Nope.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG1DISP
+//#call macrosys,InitBG1
+#assign $W(LR_POST_SCREEN),IDX_BG1
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,Disp_NextScreen
+#mes Then Kurisu clenches her fist and shows it to us.%p
+#mes2v CRS_0088,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This crushed state that I'm showing you is the state of an object in the tunnel of a wormhole.」%p
+#mes2v CRS_0089,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「For the object to be able to go through the tunnel there has to be something which would repel the crushing force. Otherwise things would not be pretty.」%p
+#mes After saying that Kurisu opens her hand.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#copyBG 1,3
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#copyCHA 4,8
+#assign $W(SW_CHA8FILTER),CHACOL_DEF
+#assign $W(SW_CHA8FACE),IBGface_IBG015_F
+#assign $W(LR_POST_SCREEN),(IDX_BG3+IDX_CHA8)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v CRS_0090,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「With the use of exotic matter the wormhole would be stabilized and allow the possibility of teleportation. However there's another step required if you want to use them for time travel.」%p
+#setDic 199
+#mes2v CRS_0091,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Imagine that the entrance to the wormhole is in Akihabara while the exit is in&cTIPSC; LA&cMESC;」%p
+#mes2v CRS_0092,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Now imagine that the hole in LA goes to and back from the end of the universe at the speed close to the speed of light.」%p
+#mes H-how...?%p
+#mes2v CRS_0093,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「According to the theory of relativity time slows down for objects moving at the speed of light. So we can assume that the hole which returned to LA would be in the past.」%p
+#mes2v CRS_0094,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And with those conditions Hououin-san can enter the wormhole and arrive at the LA from several years ago.」%p
+#setDic 13
+#mes2v CRS_0095,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「However we still cannot call this anything beyond pseudo time travel or the&cTIPSC; Urashima effect&cMESC;」%p
+#mes2v CRS_0096,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The important step afterwards is to return into the wormhole from LA's side. By doing so the time that passed would be 0--」%p
+#mes2v CRS_0097,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「... And Hououin-san would appear at the Akihabara of the same time period at which he entered the wormhole from LA's side. With this the time travel is complete.」%p
+#mes2v CRS_0098,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The things necessary for wormhole theory are more easier to obtain than the ones for cosmic string theory.」%p
+#mes2v CRS_0099,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「1: The wormhole itself. They might be somewhere in the universe but no one has ever seen one.」%p
+#mes2v CRS_0100,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「2: The energy required to move a wormhole to and from the end of the universe at a speed close to the speed of light.」%p
+#mes2v CRS_0101,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「3: Exotic matter which by the way is not actually confirmed to exist.」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG3DISP
+//#call macrosys,InitBG3
+#assign $W(LR_POST_SCREEN),IDX_BG3
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,Disp_NextScreen
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes ... So the realization of either of these requires ridiculous amounts of work and effort.%p
+#mes Or it's more like the very idea of time machines seems unrealistic.%p
+#mes2v CRS_0102,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So do you now know what I meant when I said 'absurd'?」%p
+#mes2v CRS_0103,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Every one of the time travel theories are nothing but thought experiments which will never actually advance beyond the area of theories and be put into practice.」%p
+#mes2v STU_0001,NO_CHARACTER,VID_ETC,＠Student＠「Isn't there anything simpler? Like something that you could just pull out of a drawer and put to use immediately...」%p
+#mes2v CRS_0104,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There isn't.」%p
+#mes A strong declaration.%p
+#mes2v CRS_0105,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That is the limit we have with present-day physics. Though I don't know how it will be after 10 years.」%p
+#mes2v CRS_0106,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And anyway even if a method which allows easy travel to the past appeared it would not be guaranteed that it's completely safe.」%p
+#setDic 10
+#mes2v CRS_0107,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That is due to the problems concerning &cTIPSC; the principle of causality&cMESC;」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG012
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes2v OKA_0221,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Time paradox... Law of conservation of mass?」%p
+#mes The entire universe has a set amount of mass which cannot be changed.%p
+#mes If someone traveled from the future back to point A in the past the mass of the time machine and the people on it would be an extra.%p
+#mes That is a contradiction.%p
+#mes I have memories of reading a ridiculous book in the past which said that if this kind of contradiction were to happen the universe would be in danger.%p
+#mes Though it didn't write what kind of danger.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v CRS_0108,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you think that the law of conservation of mass applies to macro-systems like the universe or micro-systems like atoms or elementary particles you're mistaken.」%p
+#mes What!? Really...?%p
+#messWindowCloseWait
+#setEVFlag 4
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04B
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v CRS_0109,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Fufu...」%p
+#mes Ah! She just saw my reaction and put on a triumphant smile!%p
+#mes Guh、this is mortifying...%p
+#messWindowCloseWait
+#setEVFlag 3
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C04A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v CRS_0110,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That law only applies only to chemical reactions and it's not being considered in modern physics at all.」%p
+#mes2v CRS_0111,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Something' can be created out of 'nothing'.」%p
+#mes Heeh.%p
+#mes That's quite amazing ain't it?%p
+#mes2v KYJ_0003,NO_CHARACTER,VID_ETC,＠Professor＠「Then what is the problem?」%p
+#mes2v CRS_0112,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Time paradoxes specifically the 'Grandfather's Paradox'.」%p
+#mes The one where you go back in time and kill your parent before you were born which causes a contradiction huh...%p
+#mes2v CRS_0113,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「As long as this paradox does not have a proper solution time travel is definitely not a possibility.」%p
+#mes2v STU_0002,NO_CHARACTER,VID_ETC,＠Student＠「So what if you just don't kill the parents?」%p
+#mes2v CRS_0114,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The solution is not as simple as that. It's very dangerous to think of this with an SF movie mindset. There are many problems besides your disappearance.」%p
+#mes Really? I doubt that it's that serious though.%p
+#mes2v CRS_0115,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The appearance of a contradiction would mean the collapse of the principle of causality the crumble of the theory of relativity and even the breakdown of all the laws of physics.」%p
+#mes2v CRS_0116,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「A paradox is nothing but another thought experiment. It is something that neither can nor does happen in reality.」%p
+#mes2v CRS_0117,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That means that even if something has a only a 0.000001% chance of happening it will never diverge from the original outcome. Sounds logical doesn't it?」%p
+#mes2v CRS_0118,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There might be loopholes like the multiverse interpretation and the principle of self non-contradiction but personally I find them too fantasy-like so I would like to disregard them.」%p
+#mes2v OKA_0222,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes Kuh...%p
+#mes I'm grinding my teeth in anger.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG19A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I avert my eyes from Makise Kurisu who has a composed facial expression.%p
+#mes Looks like I have nothing left but to admit that she is a genius.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_1st
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#assign $T(THD_WORK01),16
+#call macrosys,Thd_WaitTIM
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_2nd
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#assign $T(THD_WORK01),16
+#call macrosys,Thd_WaitTIM
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_3rd
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_CRS_02
+#call macrosys,Thd_WaitVoiceStart
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_4th
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#assign $T(THD_WORK01),16
+#call macrosys,Thd_WaitTIM
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_5th
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#assign $T(THD_WORK01),16
+#call macrosys,Thd_WaitTIM
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_6th
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_CRS_03
+#call macrosys,Thd_WaitVoiceStart
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_7th
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#assign $T(THD_WORK01),16
+#call macrosys,Thd_WaitTIM
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_8th
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#assign $T(THD_WORK01),16
+#call macrosys,Thd_WaitTIM
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_9th
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_CRS_04
+#call macrosys,Thd_WaitVoiceStart
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_10th
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#assign $T(THD_WORK01),16
+#call macrosys,Thd_WaitTIM
+#assign $W(SW_CHA8POSE),IBGpose_IBG013_11th
+#call THIS,THD_DISP_IBG013_NEXTSTEP
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_CRS_05
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM8000
+#call macrosys,Thd_WaitTIM
+#assign $W(LR_POST_SCREEN),(IDX_BG3+IDX_CHA8)
+#call macrosys,SET_POST_SCREEN
+#assign $W(SW_BG5FADECT),BGFADECT_ALPHA_MAX
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_TMP00),FADE_SLOW
+#assign $W(LR_TMP01),FADE_SLOW
+#beginAnimation
+#assign $T(THD_WORK19),(((BGFADECT_ALPHA_MAX*$W(LR_TMP00))<<4)/$W(LR_TMP01))
+#assign $W(SW_BG5FADECT),(BGFADECT_ALPHA_MAX-(($T(THD_WORK19)>>4)+(($T(THD_WORK19)>>3)&1)))
+#commitAnimation
+#label _Thd_IM_CRS_05_Finish
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#call macrosys,POSTWORK_SCREEN
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_CRS_06
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM4000
+#call macrosys,Thd_WaitTIM
+#assign $W(LR_POST_SCREEN),(IDX_BG3+IDX_CHA8)
+#call macrosys,SET_POST_SCREEN
+#assign $W(SW_BG5FADECT),BGFADECT_ALPHA_MAX
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_TMP00),FADE_VERYSLOW
+#assign $W(LR_TMP01),FADE_VERYSLOW
+#beginAnimation
+#assign $T(THD_WORK19),(((BGFADECT_ALPHA_MAX*$W(LR_TMP00))<<4)/$W(LR_TMP01))
+#assign $W(SW_BG5FADECT),(BGFADECT_ALPHA_MAX-(($T(THD_WORK19)>>4)+(($T(THD_WORK19)>>3)&1)))
+#commitAnimation
+#label _Thd_IM_CRS_06_Finish
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#call macrosys,POSTWORK_SCREEN
+#resetFlag LF_THD_EXEC
+#end
+#label THD_DISP_IBG013_NEXTSTEP
+#resetFlag SF_CHA8DISP
+#assign $W(SW_CHA8FADETYPE),CHAFADETYPE_MASK
+#assign $W(SW_CHA8MASKNO),MASK02
+#assign $W(SW_CHA8MASKFADERANGE),16
+#If ($W(SW_CHA8POSE)>=IBGpose_IBG013_7th),@f
+#assign $T(THD_WORK17),0
+#assign $T(THD_WORK18),(144-$T(THD_WORK17))
+#jump @@f
+#label @@
+#assign $T(THD_WORK17),128
+#assign $T(THD_WORK18),(CHAFADECT_MASK_BASE+$W(SW_CHA8MASKFADERANGE))
+#label @@
+#assign $W(SW_CHA8FADECT),$T(THD_WORK17)
+#setFlag SF_CHA8DISP
+#assign $W(LR_TMP00),FADE_SLOW
+#assign $W(LR_TMP01),FADE_SLOW
+#beginAnimation
+#assign $W(SW_CHA8FADECT),$T(THD_WORK18)
+#commitAnimation
+#label _THD_DISP_IBG013_NEXTSTEP_FINISH
+#assign $W(SW_CHA8FADETYPE),CHAFADETYPE_NONE
+#assign $W(SW_CHA8FADECT),0
+#assign $W(SW_CHA4POSE),$W(SW_CHA8POSE)
+#resetFlag SF_CHA8DISP
+#end
+even
+#label TB_IBG013_POSE
+ddIBGpose_IBG013_Title
+ddIBGpose_IBG013_1st
+ddIBGpose_IBG013_2nd
+ddIBGpose_IBG013_3rd
+ddIBGpose_IBG013_4th
+ddIBGpose_IBG013_5th
+ddIBGpose_IBG013_6th
+ddIBGpose_IBG013_7th
+ddIBGpose_IBG013_8th
+ddIBGpose_IBG013_9th
+ddIBGpose_IBG013_10th
+ddIBGpose_IBG013_11th
+dd-1

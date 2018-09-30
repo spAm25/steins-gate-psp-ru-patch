@@ -1,0 +1,124 @@
+﻿#label dstart
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#PhoneInit
+#assign $W(SW_PHONE_ADRCURCNO),PhID_MAY
+#call macrosys2,Init_SG
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,SET_VID
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM08
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#call macrosys,SetPhoneWindow
+#mes2v MAY_0835,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「Tutturu-、 Mayushii here.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_2795,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri! Where are──」%p
+#call macrosys,SetPhoneWindow
+#mes2v MAY_0836,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「But I can't answer the phone right now.」%p
+#call macrosys,ResetPhoneWindow
+#mes ...An answering machine?%p
+#call macrosys,SetPhoneWindow
+#mes2v MAY_0837,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「Please leave your message after the beep-♪」%p
+#call macrosys,ResetPhoneWindow
+#playSE 2,SGSE071
+#call macrosys,SEwaitHalf
+#mes2v OKA_2796,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri! Contact me at once! Okay? At once!」%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes I yell just that and hang up.%p
+#mes I look at my watch again.%p
+#mes Past 5.%p
+#mes Our gracious Time Leap Machine.%p
+#mes Thinking what would've happened without it makes me shiver.%p
+#mes Just about three hours until Moeka kills Mayuri.%p
+#mes It's okay.%p
+#mes We have plenty of time to escape.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01E1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BgOverWrite
+#mes For now、 let's meet up with Mayuri and leave Akiba.%p
+#mes We can go to Ikebukuro.%p
+#mes No、 wait、 what if they track her to her home?%p
+#mes Maybe we should take the Tsukuba Express and escape to Ibaraki.%p
+#mes Or maybe take the Shinkansen from Tokyo Station?%p
+#mes Anyway、 we're fine as long as Moeka doesn't find her today.%p
+#mes So first、 I need to find Mayuri.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDispW5162
+#mes2v CRS_1729,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe? Your eyes are bloodshot. What's wrong?」%p
+#mes Kurisu and Daru are looking at me with suspicious eyes.%p
+#mes2v OKA_2797,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Both of you. Leave right now.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_1730,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...What do you mean?」%p
+#mes I check my wallet.%p
+#mes I only have about 9000 yen.%p
+#mes I still have savings in the bank.%p
+#mes If I withdraw everything、 it's not enough for airfare....%p
+#mes2v CRS_1731,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What、 more pretentious hipster bullshit?」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#call macrosys,CharaClrAll
+#mes Kurisu shrugs her shoulders in amazement. I don't have time to answer her.%p
+#mes I slip beside her and try rushing out the lab.%p
+#mes2v CRS_1732,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe! Where are you going? Hey!」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+

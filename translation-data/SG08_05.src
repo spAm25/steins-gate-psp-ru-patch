@@ -1,0 +1,361 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05A1
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#mwait 32
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG39AS1
+//#assign $W(LR_TMP00),BG39AS1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes I get back to the lab and take Kurisu out to the bench.%p
+#mes I explain what happened just now.%p
+#mes After looking annoyed while listening、 Kurisu mutters one phrase when I finish.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_2133,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You set off a flag.」%p
+#mes2v OKA_3885,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you saying?」%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_ALB
+#assign $W(SW_CHA7PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_CRS_A06
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp71
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_2134,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You don't get it? No matter how you look at it、 you set off a flag. No、 maybe I should say、 you've already set it off.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_3886,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「By flag、 you mean a death flag?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_2135,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why would you die? A romance flag、 genius.」%p
+#mes2v OKA_3887,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wha...!」%p
+#mes A... romance flag...?%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2136,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Urushibara-san's interested in you.」%p
+#mes Kurisu thrusts her finger at me.%p
+#mes2v CRS_2137,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「When her beloved Hououin Kyouma told her 'You were a guy、' it tore her pure maidenly heart to tiny little bits.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_2138,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The strategy to speak frankly was a huge failure.」%p
+#mes She sure is calm、 when she thinks this doesn't concern her.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2139,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It'll be trouble if it turns to romance. There's no equation for that. You can't calculate people's feelings. There are too many unknowns.」%p
+#mes For some reason、 I'm shuddering and shaking my head.%p
+#mes Has this girl never fallen in love?%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_2140,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You can't attack head-on. The hurdles to persuade her just got higher.」%p
+#mes2v CRS_2141,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You should think of another way now. Like talking directly to her mother.」%p
+#mes2v CRS_2142,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The Urushibara family should have already recognized you as the man who made her cry、 so their guard might be strong、 though.」%p
+#mes Lukako likes me.%p
+#mes I wanted to escape from that reality.%p
+#mes Being in her favor certainly doesn't feel bad、 but....%p
+#mes2v OKA_3888,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「By the way、 since when do you think Lukako set off that romance flag?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_2143,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Like I know.」%p
+#mes2v OKA_3889,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I mean、 think about it. Just one week ago、 he was a man、 you know? If he liked me at that point、 then...」%p
+#setDic 2
+#mes &cTIPSC;Uho！&cMESC;%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_2144,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's just by your subjective logic、 isn't it、 Okabe?」%p
+#mes2v CRS_2145,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By Urushibara-san's and my subjectivity、 she was a girl from the beginning. So there's nothing strange in the slightest.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2146,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Think in terms of the current world line.」%p
+#mes Ah、 I see. No、 that's exactly how it is、 but....%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v CRS_2147,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「More importantly、 what I'm uneasy about is...」%p
+#mes2v CRS_2148,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Will changing Urushibara-san's gender back to male really make the IBN 5100 come back?」%p
+#mes2v OKA_3890,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There was a change from the previous world line.」%p
+#mes2v OKA_3891,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「According to Lukako's father、 the IBN 5100 was at Yanabayashi Shrine just a little bit ago.」%p
+#mes2v OKA_3892,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Suzuha entrusted it to Faris' dad. After he died、 Faris dedicated it at Yanabayashi Shrine...」%p
+#mes2v OKA_3893,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That sequence is the same as in the world line where I obtain the IBN 5100.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_2149,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So、 you're gradually stepping towards the original world line、 then.」%p
+#mes2v CRS_2150,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I thought about it、 but it doesn't feel like world lines change that easily.」%p
+#mes2v OKA_3894,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why do you think so?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_2151,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I mean、 the world population is 6 billion、 isn't it?」%p
+#mes2v CRS_2152,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's just weird that changing the gender of just one of them from man to woman would cause such a huge change in the world line.」%p
+#mes2v OKA_3895,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This is what Suzuha told me、 but before and after a time leap、 Divergence will only change up to 0.000001%、 if at all.」%p
+#mes2v OKA_3896,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But when I canceled Faris' D-mail、 there was a 0.05% change.」%p
+#mes2v CRS_2153,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Even 0.05% is pretty big.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_2154,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What did Amane-san say about that?」%p
+#mes2v OKA_3897,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The year 2010 is a significant junction in attractor fields、 and the key is me having the IBN 5100.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2155,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I wonder if Divergence quantification is based on the distance between Okabe and the IBN 5100...」%p
+#mes2v CRS_2156,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So basically、 all of the D-mails influenced the IBN 5100's location through the Butterfly Effect...?」%p
+#mes2v OKA_3898,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There are some D-mails that didn't activate my 'Reading Steiner'.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_02
+#mes2v CRS_2157,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hmmm. So、 conversely、 if you just cancel the D-mails that activated 'Reading Steiner'、 the IBN 5100 might come back to you.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes Which means the remaining D-mails belong to Lukako and──%p
+#mes2v OKA_3900,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Kiryuu... Moeka」%p
+#mes I don't want to see that woman again if I can help it、 but....%p
+#mes No、 for now、 I should focus on Lukako.%p
+#mes2v OKA_3901,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 what should I do about Lukako?」%p
+#flagOnJump_MailView RM_BRANCH_CRS_ENABLE_2,L_SG08_05_JUNCTION_110
+#jump L_SG08_05_JUNCTION_111
+#label L_SG08_05_JUNCTION_110
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2158,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You set off a romance flag、 so」%p
+#mes2v CRS_2159,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「hmm....」%p
+#mes Kurisu ponders、 and then eventually──%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes2v CRS_2160,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B07
+#call macrosys,CharaDisp51
+#mes She blushes for some reason、 and turns away.%p
+#mes2v CRS_2161,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 by the way、 Okabe... is there anyone、 you like?」%p
+#mes2v OKA_3902,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v CRS_2162,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wh、 why aren't you answering?」%p
+#mes2v OKA_3903,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 not really.」%p
+#mes For a second、 Mayuri's face floated through my mind.%p
+#mes But it's more like I feel an obligation to protect her、 rather than love for her.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_2163,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I see.... So there isn't anyone...」%p
+#mes2v OKA_3904,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why do you ask?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaDisp51
+#mes2v CRS_2164,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah、 no、 just wondering! There's no hidden meaning、 okay!?」%p
+#mes2v OKA_3905,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why are you mad? Your face is red、 isn't it?」%p
+#mes2v CRS_2165,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Is not!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_2166,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Y-yeah、 so go out with Urushibara-san.」%p
+#mes2v OKA_3906,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Seriously?」%p
+#mes2v CRS_2167,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「W-well、 there's nobody you like、 right? Then you should just live up to her feelings、 you dummyhead.」%p
+#mes Why does she have to call me a dummyhead....%p
+#mes2v OKA_3907,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri dies in two days. I don't have time to play lovers.」%p
+#jump L_SG08_05_JUNCTION_112
+#label L_SG08_05_JUNCTION_111
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_2168,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why not go out with her?」%p
+#mes2v OKA_3908,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Seriously?」%p
+#mes2v CRS_2169,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If there's nobody you like、 then there's really no reason to hold back、 right?」%p
+#mes2v CRS_2170,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You can do that and unravel her heart. Then you can comfortably tell her、 right?」%p
+#mes2v OKA_3909,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri dies in two days. I don't have time to unravel shit.」%p
+#jump L_SG08_05_JUNCTION_112
+#label L_SG08_05_JUNCTION_112
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes Kurisu squints her eyes、 making a serious face.%p
+#mes2v CRS_2171,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I want you to think of this as a last resort、 but...」%p
+#mes2v CRS_2172,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you think you can do it、 you can abuse Urushibara-san's character、 and threaten the number out of her by force.」%p
+#mes2v OKA_3910,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_2173,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In any case、 after the world line changes、 she should forget. If you think about it that way、 it's valid as a last resort.」%p
+#mes2v CRS_2174,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But only when compared to Mayuri's death、 though.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_2175,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I just said something terrible.」%p
+#mes2v OKA_3911,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No. I need to plan ahead for any necessary measures.」%p
+#mes2v OKA_3912,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But I don't want do that if I can help it.」%p
+#mes This isn't simple.%p
+#mes If you look solely through my subjectivity、 when the world line changes、 everything until that point might be undone.%p
+#mes But what will happen through Lukako's subjectivity?%p
+#mes Even if I change the world line and go there.%p
+#mes What if this world line continues、 left behind?%p
+#mes The Lukako of this world line will have taken my abuse、 and have to live with a wounded mind and body.%p
+#mes That possibility exists. According to Suzuha、 that's not the case、 but it's not like that's absolutely true.%p
+#mes And since I can't confirm or deny that possibility、 I don't want to use Kurisu's last resort.%p
+#mes Besides、 I have the Time Leap Machine.%p
+#mes And as long as I have it、 I can repeat the last few days before Mayuri's death for all eternity.%p
+#mes Of course、 there's still the danger of a time leap failure、 though....%p
+#mes In any case、 to solve the problem with Lukako、 I should have an honest talk with the girl in question.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM3500
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_CRS_02
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM700
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

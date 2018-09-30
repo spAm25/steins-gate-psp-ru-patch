@@ -1,0 +1,565 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0815
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15E1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_ALB
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_RUK_B03
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM13
+#mes We come back to Yanabayashi Shrine empty-handed、 dyed scarlet by the setting sun.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Lukako's hand lets go of mine after we had held them all the way back.%p
+#mes And then she turns to me.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0443,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「This really is farewell、 huh...」%p
+#mes2v OKA_4108,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah.」%p
+#mes2v RUK_0444,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I'm really happy... that I could train with Kyouma-san.」%p
+#mes She looks shy again.%p
+#mes But her cheeks are dyed pink.%p
+#mes I could tell she was desperately holding her tears back.%p
+#mes The meaning of those tears are different than the ones before I time leaped.%p
+#mes That's what I'd like to think.%p
+#mes2v OKA_4109,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I... didn't really do anything lover-like for you、 did I?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A05
+#call macrosys,CharaDisp51
+#mes2v RUK_0445,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「That doesn't matter to me.」%p
+#mes2v OKA_4110,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ahh. I see.」%p
+#mes Because Lukako smiles.%p
+#mes I'm sincerely relieved.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes2v RUK_0446,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Please save Mayuri-chan.」%p
+#mes2v RUK_0447,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Because Mayuri is... a really important friend to me.」%p
+#mes2v OKA_4111,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A05
+#call macrosys,CharaDisp51
+#mes2v RUK_0448,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ahaha、 um、 please、 go already. If you don't... I might cry...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0449,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So、 please...」%p
+#mes2v RUK_0450,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Thank you、 for everything until today...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0451,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ah、 in times like these、 I use the usual password、 right...」%p
+#mes2v RUK_0452,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Umm、 El Psy Congaly...」%p
+#mes2v OKA_4112,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's Congroo.」%p
+#mes I wryly smile unintentionally.%p
+#mes Lukako also forces a laugh.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A05
+#call macrosys,CharaDisp51
+#mes2v RUK_0453,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「El Psy Congroo、 then.」%p
+#mes She bows deeply.%p
+#mes She doesn't raise her head.%p
+#mes A sign for me to please go already.%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG4MASKNO),MASK18
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERYSLOW
+#call macrosys,BG4_FadeInTIM
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,CharaEraseAll
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG4MASKNO),MASK18
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERYSLOW
+#call macrosys,BG4_FadeOutTIM
+#mes I turn back to the torii at the entrance to the shrine.%p
+#mes My feet are heavy.%p
+#mes They won't advance.%p
+#mes I stop in front of the stairs.%p
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes Then I take out my phone.%p
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_PhID),PhID_CRS
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#call macrosys2,PHONE_ADRSUBMENU_CALL
+#wait 1
+#mwait 60
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#mwait 90
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2253,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Hello、 Okabe? Mayuri called me. She was mad. You stood up her promise to go to ComiMa、 or something.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4113,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina... please enter the number I'm about to say into the Microwave Ophone (Temp).」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2254,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「What? Explain yourself.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4114,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Please、 just do it.... I'm sending the D-mail now.」%p
+#mes I hear a sigh on the other end of the phone.%p
+#mes2v OKA_4115,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The number is...」%p
+#mes I tell her Lukako's mother's pager number、 and one more thing.%p
+#mes "*2*2292983183129298318312929"%p
+#mes MeatMeatVegVegMeatMeatVegVeg....%p
+#mes If she sees this、 Lukako's mother would probably think it's a prank.%p
+#mes And then、 she'd think the D-mail we sent earlier is also a prank.%p
+#mes And if that still doesn't change the world line、 we can just try saying something else.%p
+#mes The pagers in 1992 didn't have a number display function、 so the sender's phone number isn't shown. So Lukako's mother won't know who sent it.%p
+#mes I already told Kurisu the timer setting.%p
+#mes Everything's set now.%p
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#mes Once I get confirmation that the 42in Braun tube TV is on、 I hang up.%p
+#mes Now I just need to call the Microwave Ophone (Temp).%p
+#mes Then the world line will change──%p
+#messWindowCloseWait
+#assign $W(SW_PHONE_PRI),PRI_UPPER_CHARA
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_CMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6ALPHA),0
+#assign $W(SW_CHA6FACE),Face_RUK_A01
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_AMA
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7ALPHA),0
+#assign $W(SW_CHA7FACE),Face_MAY_A01
+#call macrosys,CharaSetW6273
+#add $W(SW_CHA2PRI),PRI2_BG
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_CHA2ALPHA),128
+#assign $W(SW_CHA2ALPHA_OFS),0
+#call macrosys,TuneParam62
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM20
+#mes Lukako will turn back into a guy.%p
+#call macrosys,CharaErase2
+#mes His memories will disappear.%p
+#add $W(SW_CHA3PRI),PRI2_BG
+#add $W(SW_CHA7PRI),PRI2_BG
+#assign $W(LR_TMP00),32
+#assign $W(LR_TMP01),32
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA3ALPHA),128
+#assign $W(SW_CHA3ALPHA_OFS),0
+#call macrosys,TuneParam73
+#mes Mayuri won't die today.%p
+#messWindowCloseWait
+#call macrosys,CharaErase3
+#mes But.%p
+#mes I'm hesitating to open my address book.%p
+#mes I think about Lukako、 who's probably still watching me from behind.%p
+#mes I wonder what sort of face she's makking.%p
+#mes I want to check、 but I don't think she'd let me turn back.%p
+#mes Lukako finally smiled for me today、 but reservations still linger inside me.%p
+#mes This time、 I'm about to sacrifice Lukako's memories.%p
+#mes The memories of the 17 years she lived as a girl in this world line.%p
+#mes The memories of her parents、 who rejoiced the fact she was born a girl.%p
+#mes I'm about to undo all of that.%p
+#mes If I don't、 I would deny the 17 years Lukako lived as a guy.%p
+#mes I would deny the memories of her parents、 who rejoiced the fact he was born a guy.%p
+#mes But still──%p
+#mes Is it okay to turn Lukako back into a guy?%p
+#mes Confused at what I should do、 I can't advance forward.%p
+#mes The two memories I've sacrificed so far──%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6ALPHA),128
+#assign $W(SW_CHA6FACE),Face_SUZ_A06
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,FEI_BMC
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7ALPHA),128
+#assign $W(SW_CHA7FACE),Face_FEI_C05
+#call macrosys,CharaDispW6273
+#mes Suzuha and Faris' crying faces cross my mind.%p
+#mes I──%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_CHA2ALPHA),(128-$W(LR_TMP11))
+#assign $W(SW_CHA3ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_CHA2ALPHA),0
+#assign $W(SW_CHA2ALPHA_OFS),0
+#assign $W(SW_CHA3ALPHA),0
+#assign $W(SW_CHA3ALPHA_OFS),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#call macrosys,CharaClrAll
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,InitSE0
+#call macrosys,Set_SE0Speaker_RearCenter
+#playSE 0,SGSE056
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#mes Feel a soft impact on my back.%p
+#mes Lukako is embracing me from behind.%p
+#messWindowCloseWait
+#setEVFlag 71
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R07A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM10
+#call macrosys2,SEAL_PHONE_WINDOW
+#mes2v RUK_0454,NO_LIPANM_RUK,VID_RUK,＠Luka＠「...」%p
+#mes I hear faint sobbing.%p
+#mes What expression is she making now? I know、 even without looking.%p
+#mes2v RUK_0455,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I... really don't... want to change back...」%p
+#mes I feel the pain of thin needles stabbing my chest.%p
+#mes2v RUK_0456,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Because... because...」%p
+#mes2v RUK_0457,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If I change back into a guy... I'd have to seal my feelings for Okabe-san...」%p
+#mes2v RUK_0458,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I don't think I should love Okabe-san if I'm a guy...」%p
+#mes I'm not against homosexual love.%p
+#mes But unfortunately、 I am heterosexual.%p
+#mes I wouldn't be able to answer guy Lukako's feelings.%p
+#mes2v RUK_0459,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「And... my memories of today、 will vanish too、 won't they...?」%p
+#mes2v RUK_0460,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「That we held hands and walked together...」%p
+#mes2v RUK_0461,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「That we trained together after such a long time...」%p
+#mes2v RUK_0462,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「That I touched Okabe's body like I am now...」%p
+#mes2v RUK_0463,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I don't want to... I don't want to forget...」%p
+#mes2v RUK_0464,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Because I love you... I love you、 Okabe-san...」%p
+#mes2v RUK_0465,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I do want to save Mayuri-chan too、 and I understand that there's no other way、 but...」%p
+#mes2v RUK_0466,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「It's still... painful...」%p
+#mes2v RUK_0467,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「At the very least、 I want... to keep my memories of today...」%p
+#mes2v RUK_0468,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If I knew it would end up this painful...」%p
+#mes2v RUK_0469,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Then I never would have wished to become a girl...」%p
+#mes2v OKA_4116,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako...」%p
+#mes2v RUK_0470,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Sniff...」%p
+#mes2v RUK_0471,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I'm sorry. I know you don't think that matters... sniff...」%p
+#mes2v OKA_4117,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even if you turn back into a guy... Lukako will still be Lukako to me. That won't change.」%p
+#mes2v RUK_0472,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Yes.... You saying that、 makes me happy...」%p
+#mes2v RUK_0473,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-san.... Please、 send that mail...」%p
+#mes2v OKA_4118,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v RUK_0474,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Please. Send it、 quickly...」%p
+#mes2v RUK_0475,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If I get to feel your warmth any longer... I...」%p
+#mes2v RUK_0476,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I might say even worse things...」%p
+#mes2v RUK_0477,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I can't... hold back my feelings anymore、 so...」%p
+#mes2v OKA_4119,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But...」%p
+#mes Is this okay?%p
+#mes Is this really okay?%p
+#mes2v RUK_0478,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-san... please...」%p
+#mes I'm about to sacrifice someone again.%p
+#mes Is it okay for me to decide this on my own?%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes The fingers holding my phone are shaking──%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_B03
+#call macrosys,CharaDisp51
+#mes And、 those fingers、 are wraped up in Lukako's warm hand.%p
+#label L_SG08_12_PHONE_CALL_01
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_Phone_Disable
+#resetFlag SF_PhoneSendMailExec
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#PhoneCallActive PhID_Oven,PhID_NONE,PhID_NONE,PhID_NONE
+#mes2v RUK_0479,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Will you remember... me?」%p
+#flagOnJump SF_PhoneCallExec,L_SG08_12_PHONE_CALL_01_EXEC
+#mes2v OKA_4120,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「……Yeah.」%p
+#flagOnJump SF_PhoneCallExec,L_SG08_12_PHONE_CALL_01_EXEC
+#mes Now if I just call the Microwave Ophone (Temp)、 I can send a message to Luka's mother's pager before she's born.%p
+#flagOnJump SF_PhoneCallExec,L_SG08_12_PHONE_CALL_01_EXEC
+#mes2v RUK_0480,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Will you remember... the time I was a girl?」%p
+#flagOnJump SF_PhoneCallExec,L_SG08_12_PHONE_CALL_01_EXEC
+#mes2v OKA_4121,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「……Yeah.」%p
+#flagOnJump SF_PhoneCallExec,L_SG08_12_PHONE_CALL_01_EXEC
+#mes If I make the call──%p
+#flagOnJump SF_PhoneCallExec,L_SG08_12_PHONE_CALL_01_EXEC
+#mes2v RUK_0481,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Will you remember... these short four days when we were lovers?」%p
+#flagOnJump SF_PhoneCallExec,L_SG08_12_PHONE_CALL_01_EXEC
+#mes2v OKA_4122,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「……Yeah.」%p
+#flagOnJump SF_PhoneCallExec,L_SG08_12_PHONE_CALL_01_EXEC
+#label L_SG08_12_PHONE_CALL_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneSendMail
+#resetFlag SF_PhoneSendMailExec
+#resetFlag SF_PhoneCall
+#resetFlag SF_PhoneCallExec
+#jump L_SG08_12_JUNCTION_021
+#label L_SG08_12_PHONE_CALL_01_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneSendMail
+#resetFlag SF_PhoneSendMailExec
+#resetFlag SF_PhoneCallExec
+#mes Lukako places her finger.%p
+#mes On top of mine.%p
+#mes On top of the Send button──%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0482,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Thank you... Okabe-san.」%p
+#mes2v RUK_0483,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Farewell. To the one... I loved──」%p
+#label L_SG08_12_JUNCTION_020
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_BG
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#mwait 60
+#resetFlag SF_PhoneSD_Disp
+#wait 16
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#assign $W(LR_TMP00),MOVIE_IMV027
+#assign $W(LR_TMP01),IDX_BG2
+#call macrosys2,WD_DRIFT
+#call macrosys2,DELETE_MAIL_SG08_12
+#call macrosys2,Prepare_FM_From_TIT0303
+#setFlag_MailRecive FM_From_TIT0303_G
+#setFlag_MailView FM_From_TIT0303_G
+#resetFlag_MailRecive FM_From_DAR0102_A
+#setFlag_MailRecive FM_From_DAR0102
+#setFlag_MailView FM_From_DAR0102
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#call macrosys,FadeIn0
+#assign $W(LR_NXTFIL),"SG09_01"
+#end
+#label L_SG08_12_JUNCTION_021
+#mes2v OKA_4123,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 I can't do it──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0484,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe... san...? Why....?」%p
+#mes2v OKA_4124,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I can't do it anymore....  I can't sacrifice anybody else's memories... 」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6ALPHA),0
+#assign $W(SW_CHA6FACE),Face_SUZ_A03
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,FEI_BMA
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7ALPHA),0
+#assign $W(SW_CHA7FACE),Face_FEI_A03
+#call macrosys,CharaSetW6273
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_CHA3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_CHA2ALPHA),128
+#assign $W(SW_CHA2ALPHA_OFS),0
+#assign $W(SW_CHA3ALPHA),128
+#assign $W(SW_CHA3ALPHA_OFS),0
+#mes So far、 I've trampled over both Suzuha's and Faris' memories.%p
+#mes I pretended to not notice their suffering、 all the while telling myself It's all for sake of saving Mayuri.%p
+#mes I alone will remember their memories.%p
+#mes That was my justification、 but it was just a convenient excuse.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_CHA2ALPHA),(128-$W(LR_TMP11))
+#assign $W(SW_CHA3ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_CHA2ALPHA),0
+#assign $W(SW_CHA2ALPHA_OFS),0
+#assign $W(SW_CHA3ALPHA),0
+#assign $W(SW_CHA3ALPHA_OFS),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#call macrosys,CharaClrW23
+#mes2v OKA_4125,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I don't have... any right to do that.」%p
+#mes I genuflect on the spot、 brokenhearted.%p
+#mes Nothing can save Mayuri but sending D-mails.%p
+#mes Currently、 there are no alternative methods.%p
+#mes But──%p
+#mes Even so、 I don't have the right to erase Lukako's entire life as a girl....%p
+#mes I can't do such an arrogant thing.%p
+#mes More than anything、 I didn't want to lose the Lukako standing here before me.%p
+#mes2v RUK_0485,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-san...」%p
+#mes ...Mayuri can't... be saved.%p
+#mes Mayuri's death is... fate.%p
+#mes No matter how many world lines I cross、 the resulting world will converge、 according to the Attractor Field theory.%p
+#mes Mayuri will die、 no matter what...%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeIn0
+#mes I'm already tired.%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes Mayuri.%p
+#mes I wasn't enough of an egoistic human being to sacrifice everything for your survival's sake....%p
+#assign $W(LR_NXTFIL),"SG08_13R"
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

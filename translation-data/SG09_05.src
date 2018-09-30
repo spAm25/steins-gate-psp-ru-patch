@@ -1,0 +1,1072 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG33N2
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#mes I carefully grip the doorknob.%p
+#mes I time it between sounds──%p
+#playSE 0,SGSE024
+#mes And forcefully open it.%p
+#messWindowCloseWait
+#playSE 0,SGSE124
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#mes Right after that、 a coffee table flies out.%p
+#mes It crashes into the passageway fence making a fierce noise.%p
+#mes2v MOE_0311,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Okabeeeee...」%p
+#mes I got goosebumps.%p
+#mes From that abnormal screech that seemed to arise from the bottom of the earth.%p
+#mes Standing near the entrance is Moeka.%p
+#mes She had thrown the table at the door.%p
+#mes I flinch.%p
+#mes My knees tremble.%p
+#mes But I still prepare myself.%p
+#mes I enter the room、 closing the door behind me.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG34N2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#playSE 0,SGSE118
+#call macrosys,SEwaitHalf
+#mes I couldn't fully close it、 probably because it's warped.%p
+#mes I give up locking it.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MOE_B05
+#call macrosys,CharaDisp51
+#mes2v MOE_0312,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Give it back...」%p
+#mes Moeka glares at me while her body shakes.%p
+#mes First I need to restrain this woman again.%p
+#mes This woman、 who can mercilessly destroy her own door if it's to retrieve her phone.%p
+#mes This woman、 who can mercilessly murder when ordered to.%p
+#mes It's too dangerous to let her be.%p
+#mes I can win if it's a matter of strength、 so I can restrain her.%p
+#mes I can't waste time. If my mind's made up、 let's not waste another second...!%p
+#mes I force away fear from my heart and kick off the ground.%p
+#mes An overbearing charge、 with no thought of stopping.%p
+#mes Our bodies collide.%p
+#messWindowCloseWait
+#playSE 0,SGSE014
+#call macrosys,Qua2CHA1
+#call macrosys,SEwaitHalf
+#mes Moeka tries to twist away、 but I grab her clothes and pull her back.%p
+#mes I use momentum and forcibly push her down.%p
+#messWindowCloseWait
+#playSE 0,SGSE015
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B03
+#call macrosys,CharaDisp51
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#mes2v MOE_0313,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Augh...!」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes It looks like Moeka got hit squarely on the back of her head.%p
+#mes Her resistance is weakening.%p
+#mes It shouldn't be a big deal for a Rounder to keep defensive、 though...!%p
+#mes Now I'll press her down in a mount position!%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MOE_B05
+#call macrosys,CharaDisp51
+#mes2v MOE_0314,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Give it baaack...!」%p
+#mes Moeka flails around both arms and legs.%p
+#mes Too naive.%p
+#mes How stubborn.%p
+#messWindowCloseWait
+#playSE 0,SGSE057
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#mes She struck my jaw.%p
+#mes But Moeka's arm is slender、 so it didn't hurt too bad.%p
+#mes It's okay、 my brain isn't swaying.%p
+#label L_SG09_05_RM_CRS09_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_CRS
+#assign $W(LR_RM_CHANCE),123
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes But it's troublesome for her to struggle.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I need to restrict her hands.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes First her left.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I grab her wrist、 pinning it to the floor.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0315,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#messWindowCloseWait
+#playSE 0,SGSE057
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes A fist flies to my eyes.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Taking the impact、 the vision in my left eye is stained white.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes She looks daunted for an instant.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Her hand wanders off、 grasping at air.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Or so I thought、 but this time she pulls my hair.%p
+#call macrosys,FlashWhite6
+#call macrosys,Qua2All
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I feel several strands fall out.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4359,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「──っ」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I grab Moeka's face.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I flatten it with the palm of my hand.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0316,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Haah、 khaah、 haah...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes It looks like she's going to bite my fingers、 so I hurriedly withdraw.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I grab the hand grabbing my hair.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I thrust my nails into that wrist with all my might.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B03
+#call macrosys,CharaDisp51
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0317,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Ah... agg... ggeh...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes But she still won't let go of my hair.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Furthermore、 she keeps persistently kicking my back.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes She tries to free her left hand.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I can't stand much more of this pain.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4360,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why you!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Instinctively、 I put all my strength into headbutting Moeka's forehead.%p
+#messWindowCloseWait
+#playSE 0,SGSE122
+#call macrosys,QuaCHA1
+#call macrosys,SEwaitHalf
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0318,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「──!!？」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes The unpleasant sound of bone clashing bone reverberates deep within my ears.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes My own body shivers.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Seeing an opening when Moeka's entire body relaxes、 I finally succeed at pinning down both her hands.%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes During the struggle、 her glasses flew off somewhere.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes The clear tear marks around the corners of her eyes give off an even more demented impression.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Her forehead is swollen red from the impact.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4361,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Haah、 khah、 haah...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0319,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Uh... khuh... huuh... gh... uh...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4362,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It hurts、 doesn't it...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0320,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes She spat.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes A lukewarm feeling spread onto my face.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Irritating.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I want to wipe it off、 but my hands are full.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Tears stream from Moeka's glaring eyes beneath me、 maybe because of that headbutt.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4363,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're、 haha、 really making、 hooh、 eye contact today...」%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Moeka averts her eyes as I say so.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes She's looking at my pocket.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes She has a good eye if she's able to notice the purple color faintly peeking from it.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4364,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I won't give it back...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes To provoke her、 I give show her a self-deriding smile.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4365,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I have no intention to 'return' your phone to you. I won't give you that right...」%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0321,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Give it back...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4366,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Come and take it by force.」%p
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SY),20
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Moeka puts strength back into her hands、 and I similarly put strength into restraining them.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes The result: our forces balance out、 and Moeka can't move her arms.%p
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),400
+#assign $W(SW_BG3SY),280
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes It's the same even when she tries twisting her body.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I firmly grasp Moeka's hips in-between my thighs.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes She occasionally knees my back、 but I can bear the pain.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes It's not enough to make me give up this position.%p
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),SCR_SIZ_X
+#assign $W(SW_BG3LY),SCR_SIZ_Y
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4367,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just how long can we stay like this...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4368,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Who's going to tire out first?」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Moeka、 without a doubt.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I'm not that strong since I don't do sports or anything.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes But Moeka's on bottom. I'm on top. This position is clearly more exhausting for the one on bottom.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0322,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Why...did you take it...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0323,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Give it back...give ittt!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4369,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Scream...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes No matter how much saliva or abusive words she spits out、 I have no intention of leaving this position.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4370,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You might be dependent on your phone、 FB might have abandoned you. Hell if I know.」%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Moeka violently shakes her head in denial.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Those movements are just a waste of effort.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Without moving、 I just keep looking down at Moeka.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4371,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's not directly your fault in this world line、 and every time you've done Mayuri in has already been 'undone.'」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4372,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But that's not what I get from my perspective...! I remember everything that's been 'undone'...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4373,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's why my hatred for you won't go away...! The fact that you killed Mayuri is engraved in my heart...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4374,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So I won't let you run away today. You and I will be face to face...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Until now、 I've always run away from facing Moeka.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes But I can't do that in this world line.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes The contents of the changed D-mail.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes To check what they are.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4375,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't you seem eager to talk?」%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Moeka still struggles violently.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0324,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Give it... give it baack...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0325,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Why... won't you!? I'll kill you...! I'll murder... you...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0326,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Let go... now...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0327,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I want to... gouge your eyes out... and... trample them...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4376,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So you can talk even without your phone. Eh?」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0328,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Damn you...you piece...of shit...! I'll rip you apart and vivisect you with a kitchen knife...!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4377,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Vivisection is the 18th mad scientist skill.」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0329,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Die...! Just die...! I'm gonna get raped! Help me!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes This hysteric woman's out of control....%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Maybe I should headbutt her again.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#playSE 0,SGSE022
+#call macrosys,SEwaitHalf
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I hear a knock on the door.%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM08
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Moeka and I look to the door in surprise.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v CJO_0000,NO_CHARACTER,VID_ETC,＠Nishida＠「Hey... this is Nishida from next door、 is、 is everything okay?」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v CJO_0001,NO_CHARACTER,VID_ETC,＠Nishida＠「Do I need to call the police? If not、 then could you at least simmer down?」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v CJO_0002,NO_CHARACTER,VID_ETC,＠Nishida＠「These apartment walls echo you know.」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Guh、 I didn't think about that.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes There'll be trouble if she calls the police──%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0330,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「He's killing me!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Moeka suddenly screams.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0331,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Noo! Stop itt! Don't kill me-!」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes You bitch...!%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes What now!? I need to silence Moeka somehow or else.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes But I can't use either hand.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Well in that case──%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0332,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Call the pol--nnuh!?」%p
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),450
+#assign $W(SW_BG3SY),260
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_VERYFAST
+#call macrosys,EvOverWrite
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes I suddenly press my lips onto Moeka's to block her mouth.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0333,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Mmm....gh...nn...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes While kissing、 we glare at each other at point blank.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes We silently share a loveless kiss.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v CJO_0003,NO_CHARACTER,VID_ETC,＠Nishida＠「Damn kids these days...」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes From outside the door、 I finally hear the footsteps of the neighbor returning to her room.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes What a relief──%p
+#messWindowCloseWait
+#playSE 0,SGSE123
+#call macrosys,FlashRed
+#call macrosys,SEwaitHalf
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4378,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Pwah──」%p
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),SCR_SIZ_X
+#assign $W(SW_BG3LY),SCR_SIZ_Y
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_VERYFAST
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Intense pain runs through my lips、 and I push myself away from Moeka's face.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Red drops drip from my mouth.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes And fall to Moeka's neck.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes She bit me....%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes When I feel around my lip with my tongue、 the taste of blood spreads out from the laceration.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Moeka glares at me with teary eyes、 breathing wildly.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v OKA_4379,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Don't pretend to be... such an innocent woman. I mean... you're older than I am.」%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes2v MOE_0334,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Haah... haah... kh...」%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes She pulls her mouth shut in regret.%p
+#call THIS,CHECK_RM_RECEIVE_FAKE
+#mes Her pink lips wet with our saliva is actually pretty captivating.%p
+#call THIS,LAST_CHECK_RM_RECEIVE_FAKE
+#mes Moeka turns her chin away、 looking up at the bright full moon outside the window through the opened curtains.%p
+#label L_SG09_05_RM_CRS09_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG34N2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG34N2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playSE 1,SGSE032
+#mes Just how much time has passed?%p
+#mes It already feels like it's been dozens of hours.%p
+#mes But it's still night outside、 so probably not more than one or two hours have passed.%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes I haven't heard Moeka's abusive voice ever since I kissed her.%p
+#mes Now she's giving a blank expression without resisting、 looking away as if to escape my eyes.%p
+#mes What's she looking at? I try to follow her line of sight、 but the only thing there is her half-drunk glass of mineral water.%p
+#mes She's probably not really looking at anything.%p
+#mes Did she give up resisting?%p
+#mes I shouldn't be careless though.%p
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),450
+#assign $W(SW_BG3SY),260
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,EvOverWrite
+#mes I don't know if it's from strain、 but my entire body's going numb mounting her.%p
+#mes And my entire body's been sweating for a while now.%p
+#mes This room has no air conditioning whatsoever、 and the fatigue is starting to torment me.%p
+#mes At first、 I thought I had an overwhelming advantage in this position.%p
+#mes But after keeping this stance for a long time、 I noticed.%p
+#mes Maybe it's not advantageous. The one to run out of endurance first might be me.%p
+#mes I've been constantly bracing myself、 having to pay attention to Moeka's every move.%p
+#mes I had to push her to the floor strongly enough that she couldn't escape my restraint.%p
+#mes On the other hand、 Moeka can choose to resist whenever she wants. She can even rest and relax if she wants.%p
+#mes She only needs to exert her strength when she wants to escape.%p
+#mes I've had to watch out for that、 so I've exhausted myself all this time.%p
+#mes Will this last all night....?%p
+#mes I'm getting anxious. If she gets away、 then she's obviously going to counter attack.%p
+#mes And she should be hiding a gun somewhere.%p
+#mes I thought about calling Kurisu for help、 but I can't use either hand、 and I don't even know what time it is.%p
+#mes Guh. I meant to corner her、 but it's like she cornered me.%p
+#mes ──No good、 I'm getting pessimistic.%p
+#mes That's what I persuaded myself.%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),SCR_SIZ_X
+#assign $W(SW_BG3LY),SCR_SIZ_Y
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Moeka has the weak point of cellphone dependence.%p
+#mes If she's separated from her phone for an extended period of time.%p
+#mes Then Kiryuu Moeka will be mentally driven into a corner、 and submit.%p
+#mes Will I use up my strength first? Will Moeka use up her strength first?%p
+#mes It's that sort of contest.%p
+#mes2v MOE_0335,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...Oka...Okabe...kun」%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes Moeka、 who had until now just been muttering in a small voice、 suddenly called out my name.%p
+#mes2v MOE_0336,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「What can I do... for you... to give it back...?」%p
+#mes Even though she had previously done nothing but curse and resist.%p
+#mes Calling out from the other side、 huh.%p
+#mes Kiryuu Moeka is cornered. I was convinced.%p
+#mes2v OKA_4380,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Do you remember sending a D-mail?」%p
+#mes2v MOE_0337,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「D...what?」%p
+#mes2v OKA_4381,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「D-mail. A mail that can be sent into the past.」%p
+#mes2v OKA_4382,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You sent that. To your own phone.」%p
+#mes2v OKA_4383,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I thought it was about a phone model exchange、 but that was a lie. You tricked me and changed the contents.」%p
+#mes Her mail typing skill is so fast I call her a masseuse、 after all.%p
+#mes It should be no trouble for her to type out a meager 36 byte message while Daru and I are preoccupied with the Microwave Ophone (Temp).%p
+#mes2v OKA_4384,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And as a result、 the world line changed.」%p
+#mes2v OKA_4385,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't you remember?」%p
+#mes Ordinarily、 once the past is changed、 everything until that point is undone.%p
+#mes But according to the precedent set by Faris and Lukako、 Moeka should undoubtedly remember that mail.%p
+#mes2v MOE_0338,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...I don't... know it」%p
+#mes2v OKA_4386,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's not that you don't know. You just don't remember.」%p
+#mes2v OKA_4387,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Remember. You need to remember or else.」%p
+#mes Of course、 I wasn't talking seriously.%p
+#mes At the most、 this was just to put pressure on her.%p
+#mes I didn't really prepare anything to make her remember.%p
+#messWindowCloseWait
+#setEVFlag 37
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05C
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0339,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「……...」%p
+#mes Moeka turns her face away again、 biting her lip.%p
+#mes Tears start streaming out of her eyes. I look closely the entire time.%p
+#setEVFlag 37
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05C
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),400
+#assign $W(SW_BG3SY),280
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,EvOverWrite
+#mes Maybe it's because of when I pushed her down and we started struggling.%p
+#mes I just now notice that white skin peeks out of the chest area of Moeka's clothes.%p
+#mes The charming lines of her collarbone、 her plump breasts、 her sexy underwear.%p
+#mes Those breasts move up and down as Moeka painfully breathes in and out.%p
+#mes On the base of her neck is the bloodstain I drooled out earlier.%p
+#mes It's completely dry、 like a scab.%p
+#mes By all rights、 it wouldn't be strange to mistake her for a cool、 beautiful woman.%p
+#mes But now Moeka has a large shadow under her eyes、 her skin is rough、 and her face is pale.%p
+#mes She's more sick than cool.%p
+#mes Her entire body reeks of death.%p
+#mes So dangerous it's hard to approach.%p
+#mes She's in the same category as a mental patient or a yandere.%p
+#mes I regret not noticing that essence of hers sooner.%p
+#messWindowCloseWait
+#setEVFlag 37
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05C
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0340,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I really don't know...」%p
+#mes2v MOE_0341,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I would remember it if I could...」%p
+#mes2v MOE_0342,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I don't... know.... Not one single bit...」%p
+#mes Moeka's glance isn't fixed.%p
+#mes She moves her sights from me、 to the ceiling behind me、 to the night sky outside the window.%p
+#mes But her slowly murmuring voice shows she's thinking fairly hard.%p
+#mes Just a little more. Just a little more and she'll run out of energy.%p
+#mes2v OKA_4388,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then let me change my question.」%p
+#mes2v OKA_4389,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Two weeks ago、 you should have received a strange mail.」%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0343,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「……？」%p
+#mes2v OKA_4390,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The sender was your own phone. But that mail's sending date was several days into the future.」%p
+#mes2v MOE_0344,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………！」%p
+#mes Moeka opened her eyes wide.%p
+#mes I grin.%p
+#mes2v OKA_4391,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you remember that? That was the D-mail you sent.」%p
+#mes2v OKA_4392,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Tell me the contents.」%p
+#mes2v MOE_0345,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「If I tell you...?」%p
+#mes2v OKA_4393,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll return your phone.」%p
+#mes2v MOE_0346,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...damn...it...」%p
+#mes She suddenly cursed at me.%p
+#mes2v MOE_0347,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...I won't...tell you.」%p
+#mes2v OKA_4394,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why not!?」%p
+#mes2v MOE_0348,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...It concerns... the Rounders...」%p
+#mes Contents that concern the Rounders.%p
+#mes Just what could it be?%p
+#mes I think back on words Moeka explained herself.%p
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG032
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#mes Main tasks: Investigate and collect IBN 5100s%p
+#mes She said something like that.%p
+#mes Which means──%p
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v OKA_4395,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The IBN 5100.」%p
+#mes2v MOE_0349,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「!!」%p
+#mes I try tricking her directly、 and get a good response.%p
+#mes2v OKA_4396,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's related to that、 isn't it?」%p
+#mes2v MOE_0350,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「How much... do you know...? About the mail...」%p
+#mes2v OKA_4397,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm the one asking questions here. Just answer.」%p
+#mes2v MOE_0351,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...I won't.. say.」%p
+#mes2v MOE_0352,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That's betraying... FB...」%p
+#mes2v OKA_4398,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So you choose FB over your phone、 huh. How loyal of you.」%p
+#mes But Mayuri's fate depends on this. I can't give up.%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Moeka still hasn't calmed down.%p
+#mes She's been closing and opening the fingers of her restrained hand for a while now.%p
+#mes She wasn't trying to escape my restraint、 but simply just twisting her body.%p
+#mes Licking her lips. Shaking her head to brush the hair out of her face.%p
+#mes She's almost dependent on her phone. It's like she's suffering from withdrawal.%p
+#mes She doesn't have any energy left.%p
+#mes Soon she won't be able to resist.%p
+#mes If I can't get her to talk、 then I'll just wait until she does.%p
+#mes2v OKA_4399,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is it really that painful to not have your phone? Why are you that dependent on it?」%p
+#mes2v MOE_0353,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I can't... talk... up front...」%p
+#mes2v OKA_4400,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're doing it right now、 aren't you?」%p
+#mes And when she attacked the lab、 she blended with muscular men、 and threatened us.%p
+#mes But Moeka strongly shakes her head.%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0354,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「If I can't... do mails... then I'll be...」%p
+#mes2v MOE_0355,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Cut off from the world...」%p
+#mes2v OKA_4401,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「From the world? You trying to be a hermit lady? You mean you're scared you'll be abandoned by the Rounders、 don't you?」%p
+#mes2v MOE_0356,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...No. Not by the Rounders... but by FB...」%p
+#mes That's the same thing、 isn't it?%p
+#mes2v OKA_4402,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So don't say 'the world.' When you're the one who mercilessly killed an sinless girl... When you're the one who erased Mayuri from the world...!」%p
+#mes2v MOE_0357,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...I didn't kill her.」%p
+#mes2v OKA_4403,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Right. Not in this world line. But in another world line、 as a Rounder、 you came to steal our time machine. And then you killed her. You killed Mayuri...!」%p
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG11E1
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#mes In another world line.%p
+#mes When I called Moeka out to Radio Kaikan、 she told me.%p
+#mes That Mayuri was unnecessary.%p
+#mes That's why it didn't matter if they killed her.%p
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v MOE_0358,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...if FB told me to... I killed her... I think. Definitely.」%p
+#mes2v OKA_4404,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just who is FB? Just where is that bastard?」%p
+#mes That time、 it ended without me hearing it.%p
+#mes But this time、 the Rounders shouldn't appear.%p
+#mes In this world line、 it feels like Moeka's position is clearly different.%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0359,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I won't... tell you...」%p
+#mes2v OKA_4405,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then let me tell you something good.」%p
+#mes2v OKA_4406,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Okay? Right now、 I've got you detained、 but if you're hoping to be saved、 just forget about it.」%p
+#mes2v OKA_4407,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Because nobody's coming to save you. You're going to fall into despair、 and kill yourself in four days.」%p
+#mes I strike the finishing blow to the frowning Moeka.%p
+#mes2v OKA_4408,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I came here、 five days from now. Using the time machine SERN wants. That's why I know.」%p
+#mes2v OKA_4409,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In this room、 all alone、 you kill yourself.」%p
+#mes2v OKA_4410,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Your beloved FB doesn't save you. Nor the Rounders、 nor SERN、 nor the Committee of 300.」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0360,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes2v OKA_4411,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No matter how many mails you send、 your boss won't reply、 right? And how could that be?」%p
+#mes2v OKA_4412,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You've already been abandoned.」%p
+#messWindowCloseWait
+#setEVFlag 37
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05C
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0361,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM24
+#mes Moeka's expression warps.%p
+#mes Once again、 tears come streaming、 flooding down.%p
+#mes Guilt throbs in my chest.%p
+#mes Surely just now、 I've wounded the girl here before me.%p
+#mes It's not the same level as killing Mayuri、 my reason whispers.%p
+#mes You have no reason to sympathize with this murderer、 my feelings furiously claim.%p
+#mes But even still、 it doesn't feel good to hurt anybody、 no matter who they are.%p
+#mes What do you mean、 insane mad scientist?%p
+#mes I'm hesitating to hurt someone I should hate. I'm nothing but a hypocrite.%p
+#mes2v OKA_4413,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You don't need to cover for FB. So tell me everything.」%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes I turn a blind eye to the throbbing in my heart、 and force myself to talk.%p
+#mes But Moeka shakes her head even harder.%p
+#mes2v MOE_0362,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...FB didn't betray me... I'm not abandoned!」%p
+#mes2v OKA_4414,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then why do you think you kill yourself in four days?」%p
+#mes2v MOE_0363,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「You kill me.... And forge a suicide...」%p
+#mes2v OKA_4415,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I wouldn't blunder like that. If it were me、 I'd time leap after killing you. I can 'undo' your death.」%p
+#mes2v MOE_0364,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I...」%p
+#mes2v OKA_4416,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just who was the one in this room with a dead looking face when FB wouldn't answer them?」%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0365,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「But...」%p
+#mes2v OKA_4417,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How many days has it been now? How often does FB usually contact you、 and when did that stop?」%p
+#mes I repeat my question.%p
+#mes More like a demand than a question.%p
+#mes2v MOE_0366,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Usually...every day...」%p
+#mes2v MOE_0367,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「But it's already been... 10 days...」%p
+#mes2v OKA_4418,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「10 days without contact. Correct?」%p
+#mes Moeka looks up at me as if clinging.%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0368,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I... haven't... been betrayed...」%p
+#mes2v OKA_4419,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You have been betrayed.」%p
+#mes2v MOE_0369,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I believe in FB...」%p
+#mes2v OKA_4420,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You were thrown away.」%p
+#mes I say it clearly.%p
+#mes2v OKA_4421,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「They just used you. Now you're used goods.」%p
+#mes2v MOE_0370,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「FB isn't... that sort... of person...」%p
+#mes2v OKA_4422,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then what sort of person was he?」%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0371,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「She was... gentle to me... like a mother...」%p
+#mes2v MOE_0372,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I finally... found a place... of comfort...!」%p
+#mes She!? Mother!?%p
+#mes So FB is a woman?%p
+#mes But I imagined the head of an evil organization to be an elderly old man.%p
+#mes Guess I was completely wrong.%p
+#mes2v MOE_0373,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I'd talk to her about my worries... she'd always reply right away...」%p
+#mes2v MOE_0374,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Like a friend、 but with the gentleness... of an embrace...」%p
+#mes2v OKA_4423,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Have you met her?」%p
+#mes Moeka strongly shakes her head.%p
+#mes2v OKA_4424,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You haven't met? Even though she's like a mother、 like a friend、 your place of comfort?」%p
+#mes If they had met、 then I thought I could've gotten her to lead me to her.%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0375,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「It's a rule... for the Rounders to hide their identities from each other...」%p
+#mes2v OKA_4425,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even though you've contacted each other、 you've never met. Well、 certainly、 that would be against the rules. But you like FB、 and wanted to meet her. Am I wrong?」%p
+#mes2v MOE_0376,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That's wrong、 wrong...!」%p
+#mes2v MOE_0377,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「If we met... I'd get disillusioned... so I never... wanted to meet.」%p
+#mes2v OKA_4426,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Has she ever said she wanted to meet you?」%p
+#mes2v MOE_0378,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「She never said that... not once...」%p
+#mes2v OKA_4427,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So no phone calls either?」%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Moeka turns away her face. Then she faintly nods.%p
+#mes2v OKA_4428,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You don't think she's avoiding you?」%p
+#mes2v MOE_0379,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「……...」%p
+#mes2v OKA_4429,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is it really just because of the rules that such a kind、 gentle boss lady hasn't met you?」%p
+#mes2v OKA_4430,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Also、 why won't she contacted you? Try to think of the reason.」%p
+#mes2v OKA_4431,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's the same as deposit fraud. You've been tricked.」%p
+#messWindowCloseWait
+#setEVFlag 35
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0380,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Don't you badmouth FB...! She's not... like that...!」%p
+#mes2v OKA_4432,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Before she stopped contacting you、 what were the contents of her last mail?」%p
+#mes2v MOE_0381,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...To leave the IBN 5100 at the designated location.」%p
+#mes ...The IBN 5100. Moeka、 you dummy、 you unconsciously let your tongue slip!%p
+#mes To leave it means that two weeks ago、 Moeka had already obtained the IBN 5100.%p
+#mes Moeka was originally a Rounder、 so her duty was to investigate and collect IBN 5100s.%p
+#mes And then、 around the time Moeka sent her D-mail、 I might've carelessly told her that I found my IBN 5100 at Yanabayashi Shrine after her incessant nagging.%p
+#mes The Yanabayashi Shrine storehouse's lock was broken.%p
+#mes The IBN 5100 that should have been dedicated there disappeared.%p
+#mes Thinking from there、 then the true contents of Moeka's D-mail are──%p
+#mes "The IBN 5100's whereabouts".%p
+#mes When I finally crack the code、 it's no big deal.%p
+#mes It's not puzzling at all、 but pretty damn straightforward.%p
+#mes So in the end、 Moeka artfully used me too.%p
+#mes I was almost filled with dry laughter.%p
+#mes But I desperately hold it back.%p
+#mes2v OKA_4433,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And where was that?」%p
+#messWindowCloseWait
+#setEVFlag 36
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0382,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「The coin locker... in front of Daibiru...」%p
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG21E1
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#mes The coin locker in front of Daibiru... wait、 don't tell me!%p
+#mes The same place Lukako hid the IBN 5100 in the previous world line?%p
+#mes Is this also due to convergence...?%p
+#mes If I go there、 can I get the IBN 5100?%p
+#mes No、 I don't expect it to still be there.%p
+#mes Just like what happened back with Lukako.%p
+#mes The visible force of cause and effect's convergence pulls the IBN 5100 away from me.%p
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes In order to get it back、 I need to cancel Moeka's D-mail.%p
+#mes I know the contents. I've already reached my goal.%p
+#messWindowCloseWait
+#setEVFlag 37
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K05C
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0383,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Uhh... uuhh...」%p
+#mes Moeka's crying in a subdued voice.%p
+#mes I take a deep breath and move out from over Moeka.%p
+#mes I stretch out my stressed body and lean my back against the wall.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#end
+#label LAST_CHECK_RM_RECEIVE_FAKE
+#If ($W(LR_RM_CHANCE)<=-1),@f
+#assign $W(LR_RM_CHANCE),0
+#label @@
+#label CHECK_RM_RECEIVE_FAKE
+#If ($W(SW_RNDMAIL_CRS)==NO_TARGET),_CHECK_RM_RECEIVE_FAKE_END
+#If ($W(LR_RM_CHANCE)==0),_CHECK_RM_RECEIVE_FAKE_HIT
+#assign $T(THD_WORK17),$R($W(LR_RM_CHANCE))
+#If ($T(THD_WORK17)!=0),_CHECK_RM_RECEIVE_FAKE_NULL
+#label _CHECK_RM_RECEIVE_FAKE_HIT
+#If ($W(LR_RM_CHANCE)<=-1),_CHECK_RM_RECEIVE_FAKE_END
+#assign $W(LR_RM_CHANCE),-1
+#setFlag SF_PhoneSD_Recived
+#AutoSave 3
+#jump _CHECK_RM_RECEIVE_FAKE_END
+#label _CHECK_RM_RECEIVE_FAKE_NULL
+#sub $W(LR_RM_CHANCE),1
+#label _CHECK_RM_RECEIVE_FAKE_END
+#end

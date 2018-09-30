@@ -1,0 +1,395 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG18A2
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM12
+#mes Suzuha's already too far to see.%p
+#mes But she certainly went towards Chuo Dori.%p
+#label L_SG06_15_PHONE_CALL_01
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#PhoneCallActive PhID_SUZ,PhID_NONE,PhID_NONE,PhID_NONE
+#mes I wonder if her phone's on.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_15_JUNCTION_030
+#mes Maybe I should just try to call her.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_15_JUNCTION_030
+#mes That reminds me、 something similar happened before.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_15_JUNCTION_030
+#mes When she couldn't meet her father、 she disappeared somewhere leaving behind a farewell mail.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_15_JUNCTION_030
+#mes I chased、 but couldn't find her. So I sent a D-mail to obstruct her disappearance.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_15_JUNCTION_030
+#mes I'm certain I lost sight of her near the station back then.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_15_JUNCTION_030
+#mes Did she disappear there?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_15_JUNCTION_030
+#mes Where did Suzuha go when she couldn't meet her father?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_15_JUNCTION_030
+#label L_SG06_15_PHONE_CALL_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#jump L_SG06_15_JUNCTION_032
+#label L_SG06_15_JUNCTION_030
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#assign $W(LR_TMP00),180
+#call macrosys,KeyWait_TIM
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#call macrosys,SetPhoneWindow
+#mes2v SUZ_0378,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠&cPhC;「…………」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3018,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Suzuha! I want to ask you something!」%p
+#call macrosys,SetPhoneWindow
+#mes2v SUZ_0379,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠&cPhC;「……I'm sorry、 it's probably my fault.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3019,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...What?」%p
+#call macrosys,SetPhoneWindow
+#mes2v SUZ_0380,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠&cPhC;「It's because I depended on you guys...」%p
+#mes2v SUZ_0381,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠&cPhC;「So I'm going、 this time for sure.」%p
+#mes2v SUZ_0382,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠&cPhC;「Bye.」%p
+#call macrosys,ResetPhoneWindow
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#mes2v OKA_3020,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey! Suzuha! Hey!」%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Once again.%p
+#mes Once again、 Suzuha's going 'somewhere.'%p
+#mes Last time I chased her like this、 I lost sight of her near the station.%p
+#jump L_SG06_15_JUNCTION_032
+#label L_SG06_15_JUNCTION_032
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG16A4
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#mes I try going to Chuo Dori、 but can't find Suzuha after all.%p
+#mes I think the Rounders might be loitering closely already、 so I can't make any careless actions.%p
+#mes Slipping into the sea of people、 I keep randomly searching to see if that MTB is parked somewhere.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG13A2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I focus on checking the Electric Town exit.%p
+#mes But I can't find the MTB.%p
+#mes Since I lost sight of her here before、 I thought she might be close by、 but....%p
+#mes Should time leap and ask her directly instead of slowly searching?%p
+#mes Anyway、 let's go back to the lab.%p
+#mes I start to leave with that thought in mind when──%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes I notice the surrounding pedestrians start to stir.%p
+#mes Everyone's looking up to the sky.%p
+#mes No、 not to the sky.%p
+#mes To Radio Kaikan's satelite.%p
+#mes Why now?%p
+#mes It's been left there for two weeks、 so it's already become a familiar part of the Akiba scenery.%p
+#mes And yet all of the surrounding faces are wide eyed with gaping mouthes.%p
+#mes I look up right away.%p
+#mes2v OKA_3021,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wha...!」%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#assign $W(SW_MOVIEPRI),PRI_LOWER_CHARA
+//#LoadMovie MOVIE_IMV047
+#PlayMovieMemoryExLoopNoAudio imv047,2,false
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK03
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERYSLOW
+#call macrosys,BG3_FadeOutTIM
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#mes The satellite's revolving lights are ──%p
+#mes Revolving、 and lit.%p
+#mes Is someone moving it?%p
+#mes Wait、 can it even move?%p
+#mes If it can move、 then by whom?%p
+#mes2v OKA_3022,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Amane Suzuha...? Or maybe、 Kiryuu Moeka!?」%p
+#mes In all my time leaps so far、 that satellite hasn't moved.%p
+#mes Suzuha overheard my conversation with Kurisu and rushed out.%p
+#mes That's an unprecedented development.%p
+#mes And then the satellite which abruptly began to move.%p
+#mes Before、 I lost sight of her at the station-- Or in other words、 at Radio Kaikan.%p
+#mes Suzuha's there...!?%p
+#mes Everyone's standing still、 looking up at the satellite.%p
+#mes Now's my chance to sneak in without getting noticed.%p
+#mes Radio Kaikan's shutters are half open、 just like before when I called Moeka.%p
+#mes I prepare for the worst and crawl into the crevice.%p
+#mes Suzuha's MTB is tossed down inside.%p
+#mes2v OKA_3023,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So it was her...!」%p
+#mes Just what is she trying to do!?%p
+#mes Just what is that satellite!?%p
+#mes Is it related to John Titor!?%p
+#mes Is that thing a satellite? Nobody's admitted it.%p
+#mes I looked online before、 but no discarded satellites broke into the atmosphere that day.%p
+#mes When a satellite is discarded、 it normally enters the atmosphere at a steep angle and burns out.%p
+#mes It's impossible for it to fall in such perfect condition.%p
+#mes Then what is it?%p
+#mes Suddenly、 a shock runs through my body.%p
+#mes Don't tell me、 that's a time machine...!?%p
+#mes I'll know if I go.%p
+#mes I need to get there before Suzuha does something!%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG06A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG06A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes I rush up the stairs since the elevator and escalator aren't operating.%p
+#mes I get to the eighth floor almost in a state of hypoxia.%p
+#mes The satellite、 lodged into Radio Kaikan's wall.%p
+#mes Now a wire's stretched around it so it doesn't fall. The police probably did it.%p
+#mes A flap on the main body is gaping open.%p
+#mes Is that... a hatch?%p
+#mes I find a silhouette moving inside.%p
+#mes2v OKA_3024,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Suzuha!!」%p
+#mes When I shout、 the silhouette stops moving.%p
+#mes I rush over to the satellite.%p
+#messWindowCloseWait
+#setEVFlag 79
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S04A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v SUZ_0383,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Okabe... Rintaro...」%p
+#mes Suzuha looks back with a tearful face.%p
+#mes The satellite's interior is relatively simple.%p
+#mes There are surprisingly few switches.%p
+#mes It's completely different from the pictures of satellites I saw when I was young.%p
+#mes Instead、 there's a black box the size of a desktop PC with a gauge indicating numbers. The top line reads 2010.08.13 in red letters. The bottom line reads 1975.08.13.%p
+#mes Suzuha tries reaching out to that black box──%p
+#playSE 0,SGSE087
+#call macrosys,FlashWhite6
+#mes2v SUZ_0384,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Augh!!」%p
+#mes Sparks fly from the box and she withdraws her hand.%p
+#mes When I take a good look、 her fingertips are swollen red.%p
+#mes2v OKA_3025,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you doing!?」%p
+#mes2v SUZ_0385,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...it won't move.」%p
+#mes2v OKA_3026,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you know how to move it?」%p
+#mes Inside the satellite、 Suzuha droops her shoulders and hangs her head、 heartbroken.%p
+#mes2v SUZ_0386,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「It won't move...」%p
+#mes Sparks from the black box. Obviously a short.%p
+#mes The smell of something burning hurts my eyes.%p
+#mes2v OKA_3027,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Answer me、 Amane Suzuha.」%p
+#mes I gulp and timidly ask a question.%p
+#mes2v OKA_3028,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This is... a time machine、 isn't it?」%p
+#mes2v OKA_3029,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Are you a time traveler?」%p
+#mes Still hanging her head──%p
+#mes Suzuha faintly nods.%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#setEVFlag 79
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S04A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),290
+#assign $W(SW_BG3SY),111
+#assign $W(SW_BG3LX),800
+#assign $W(SW_BG3LY),450
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_VERYFAST
+#call macrosys,EvOverWrite
+#mes2v SUZ_0387,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I am──」%p
+#mes2v SUZ_0388,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「John Titor.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG18A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG18A2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes Since the commotion's increasing、 we exit the building on the side facing away from the station.%p
+#mes I press Suzuha after we've calmed down.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_SUZ_B02
+#call macrosys,CharaDisp51
+#mes2v OKA_3030,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you mean you're John Titor?」%p
+#mes2v SUZ_0389,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...exactly what it means.」%p
+#mes2v SUZ_0390,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The John Titor who posted on @channel was me.」%p
+#mes2v OKA_3031,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I thought he was a guy.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes Suzuha smiles in self derision.%p
+#mes2v SUZ_0391,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I actually tricked you? There was a meaning to my camouflage、 huh.」%p
+#mes2v OKA_3032,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What were you hiding from?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMB
+#assign $W(SW_CHA5FACE),Face_SUZ_B04
+#call macrosys,CharaDisp51
+#mes2v SUZ_0392,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...SERN.」%p
+#mes2v OKA_3033,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What you posted as John Titor、 was that...」%p
+#mes2v SUZ_0393,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Right. With some exceptions、 it was mostly true.」%p
+#mes It's those exceptions that bother me.%p
+#mes2v OKA_3034,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 when you said you came from 2036.... You rode this satellite... I mean、 time machine.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A06
+#call macrosys,CharaDisp51
+#mes2v SUZ_0394,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Actually、 I tried to conceal its true form.... But of all things、 the machine broke down....」%p
+#mes2v SUZ_0395,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「It was entirely my 'faux pas'...」%p
+#mes Faux pas... a mistake...?%p
+#mes2v OKA_3035,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But I thought Titor's time machine was loaded on a Chevy.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes2v SUZ_0396,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Chevy? The car? Where'd you get that information?」%p
+#mes2v OKA_3036,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The Titor in 2000 said so himself.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A03
+#call macrosys,CharaDisp51
+#mes2v SUZ_0397,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「2000...?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMB
+#assign $W(SW_CHA5FACE),Face_SUZ_B04
+#call macrosys,CharaDisp51
+#mes2v SUZ_0398,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「That might be me from a different world line.」%p
+#mes2v SUZ_0399,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「At least、 I haven't gone to 2000. I came here straight from 2036.」%p
+#mes So it was someone else....%p
+#mes In this world line I'm currently at、 Titor didn't appear in 2000.%p
+#mes Whatever. Let's leave that aside for now.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),360
+#assign $W(SW_BG2SY),180
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_ALB
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_SUZ_B04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v OKA_3037,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you know?」%p
+#mes I press Suzuha further. I push her to the wall so that she can't escape.%p
+#mes2v OKA_3038,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You overheard what Kurisu and I said earlier、 right? Why did you rush to the time machine? What are you trying to do?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_ALA
+#assign $W(SW_CHA5FACE),Face_SUZ_A06
+#call macrosys,CharaDisp51
+#mes2v SUZ_0400,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I thought it was my fault.」%p
+#mes2v OKA_3039,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What?」%p
+#mes2v SUZ_0401,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Because I've been so lax、 SERN got to do as they pleased.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_ALB
+#assign $W(SW_CHA5FACE),Face_SUZ_B04
+#call macrosys,CharaDisp51
+#mes2v SUZ_0402,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Hey、 is it true!?」%p
+#mes Instead、 Suzuha clings to me.%p
+#mes2v SUZ_0403,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Is it true that Shiina Mayuri will be killed by SERN in a few hours...!?」%p
+#mes2v OKA_3040,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's true. I time leaped from five hours later.」%p
+#mes2v SUZ_0404,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Time leap...」%p
+#mes2v SUZ_0405,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「You guys completed your time machine...」%p
+#mes2v OKA_3041,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「More importantly、 answer me. What do you mean it's your fault!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_ALB
+#assign $W(SW_CHA5FACE),Face_SUZ_B03
+#call macrosys,CharaDisp51
+#mes2v SUZ_0406,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠「…………」%p
+#mes Suzuha faintly bites her lips as she casts her eyes down ──%p
+#mes2v SUZ_0407,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'll tell you everything.... About me.」%p
+#mes2v SUZ_0408,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I think I need to talk. To you、 and to Makise Kurisu.」%p
+#mes To... Kurisu...?%p
+#mes Why did she mention Kurisu?%p
+#mes I'll guess I'll find out if I let Suzuha talk.%p
+#mes Then let's go back to the lab for now.%p
+#mes When I notice Suzuha's pitifully burned right hand、 I hand over a handkerchief.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_ALA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes2v SUZ_0409,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Thank you.」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

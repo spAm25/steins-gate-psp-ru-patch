@@ -1,0 +1,580 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0807
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG16A3
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG16A3
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_SE2VOL),SV_FAR
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE007L,true
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes Faris' dad seems like a nice man.%p
+#mes He doesn't have the atmosphere of a pompous rich man.%p
+#mes The sun is setting、 but there are still many people in front of Akiba Station.%p
+#mes Foreigners stand out more than usual. Akiba Town is known throughout the world、 so much so that people come from abroad just to buy consumer electronics and moe goods.%p
+#mes But it's so hot outside.%p
+#mes Just walking is enough to open up every sweat gland.%p
+#mes The air conditioning at Faris' house was indeed comfortable.%p
+#mes I want some in the lab too、 but unfortunately、 we don't have that kind of money.%p
+#label L_SG04_20_RM_RUK04_02_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_RUK
+#assign $W(LR_RM_CHANCE),21
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Anyway、 how about we go eat somewhere?%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Thinking that、 I look back at Daru and Mayuri behind m--%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),1500
+#assign $W(SW_BG1POSX),(SCR_SIZ_X/2)
+#assign $W(SW_BG1POSY),405
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaSet62
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Mayuri's not there.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2170,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mm...? Where'd Mayuri go?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0741,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hm? Huh? Now that you mention it、 she disappeared.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Did Stardust Shakehand activate again?%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I check my surroundings.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes And then I see Mayuri from behind、 casually walking toward the station.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She's already about 50 meters away.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I chase after her.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),(SCR_SIZ_X/4)
+#assign $W(SW_BG2POSY),450
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2171,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri、 where are you going!?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0577,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 Okarin-. You know、 Mayushii's going home after this、 but she's thinking about going to drop by Nakano.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_2172,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you're going home、 then why didn't you say so?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0578,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehhehe-. Sorry. But you know、 whenever I think I gotta go to Nakano、 that's all I can think about.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0742,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mayu-shi's ability to erase her presence is abnormal.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#messWindowCloseWait
+#add $W(SW_CHA5PRI),PRI2_BG
+#add $W(SW_CHA1PRI),PRI2_BG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Mayuri does this a lot.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She staggers off somewhere without saying anything.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes And just like Daru said、 we really can't sense her presence at those times.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes That's why she always surprises me with the illusion that she disappears.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Stardust Shakehand and Sneaking Fadeout. Truly troublesome abilities.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#call macrosys,SetOrder51627384
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v OKA_2173,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What business do you have in Nakano、 anyway?」%p
+#label L_SG04_20_RM_RUK04_02_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#label L_SG04_20_RM_RUK04_02_REPLY_END
+#RandomMail_End
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0579,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Well、 a "Sorrow Sword" doujinshi came out yesterday-」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0743,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Porn?」%p
+#mes2v MAY_0580,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「No. But the artist is 'Kouka Yui-san'. Mayushii's thinks it's time to get serious-」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#setDic 35
+#mes2v DAR_0744,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Heh、 Kouka Yui、 huh-. The character designer for last year's &cTIPSC;Gunbum&cMESC;、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0581,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yup. That's right-」%p
+#mes2v DAR_0745,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Buy me one too.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0582,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okidokey-♪」%p
+#mes2v OKA_2174,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 hey、 what are you guys saying? If you want doujinshi、 why not go to Toranoana right there?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDispW5162
+#mes Daru and Mayuri stare blankly at my words.%p
+#mes2v MAY_0583,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「There、 where-?」%p
+#mes2v OKA_2175,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 by there、 I mean there. Right over-」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I point my finger--%p
+#mes Not at Toranoana.%p
+#mes2v OKA_2176,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wh...at...?」%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes I rub my eyes and blink several times.%p
+#mes I stare at it again.%p
+#mes I thought maybe I got the wrong place.%p
+#mes But I couldn't find it no matter how much I searched.%p
+#mes On the contrary--%p
+#mes Toranoana's neighbor、 animate、 disappeared too.%p
+#mes In their place are electronics stores.%p
+#mes Furthermore、 those electronics stores are unfamiliar、 Daiichi Kaden and T-2ONE Minami.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes No、 wait....%p
+#mes I remember hearing from Mister Braun that Akiba used to have a whole bunch more electronics shops.%p
+#mes Several shops have already closed. I think Daiichi Kaden and T-2ONE Minami were among them....%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_2177,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Toranoana and animate- where did they go!?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT2
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDispW5162
+#mes2v DAR_0746,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Are you telling a joke by any chance?」%p
+#mes2v OKA_2178,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Huh?」%p
+#mes2v MAY_0584,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「There aren't any Toranoanas or animates in Akiba、 you know-? That's why Mayushii's going to Nakano to buy doujinshi.」%p
+#mes2v OKA_2179,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...What do you mean there aren't any!? They were just there yesterday、 right!?」%p
+#mes What about today?%p
+#mes When we went to Faris' house、 I didn't clearly see them、 though....%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0747,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「There aren't any. It's not like there would be any moe shops in Akiba anyway. The moe holy land is Nakano、 durr.」%p
+#mes2v OKA_2180,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Isn't Akiba more famous worldwide as the moe holy land?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A06
+#call macrosys,CharaDisp62
+#mes2v DAR_0748,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Has the heat finally gotten to you、 Okarin? Akiba is the electric town. If you made a moe shop、 then the maniacs would start a rebellion.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes The conversation doesn't connect.%p
+#mes This feel... this feeling...!%p
+#mes I'm frustrated.%p
+#mes The past changed.%p
+#mes I notice from the corner of my brain.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes But I still can't help but ask.%p
+#mes2v OKA_2181,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「"Mandarake?"」%p
+#mes2v MAY_0585,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「None-」%p
+#mes2v OKA_2182,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Akibaoo~!?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0749,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's normal.」%p
+#mes2v OKA_2183,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I mean Akibaoo~koku、 where they sell doujinshi!」%p
+#mes2v DAR_0750,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The hell's that?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0586,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「They sell doujinshi at Akibaoo~?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0751,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「No way. That's impossible by any means.」%p
+#mes2v OKA_2184,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gamers!? Ramutara!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes They shake their heads.%p
+#mes2v OKA_2185,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「MelonBooks!? Asobit City!?」%p
+#mes They give back confused looks.%p
+#mes So basically--%p
+#mes I take a deep gulp.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I finally understand.%p
+#mes It's too unreal、 but I understand.%p
+#mes2v OKA_2186,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This town's chaos... is dissipating....」%p
+#mes Only the otaku pandering shops、 selling anime and eroge、 have completely disappeared from Akiba Town--%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG033
+#setFlag SF_BG2DISP
+#wait 64
+#assign $W(SW_SE2VOL),SV_FAR
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE007L,true
+#call macrosys,FadeInSLOW
+#mes For the final desperate struggle、 I run to the usual spot.%p
+#mes "MayQueen+Nyan²".%p
+#mes The maid cafe where Mayuri and Faris work、 and Daru and I frequent.%p
+#mes But upon arriving in front of that store、 I could do nothing but stand stock still and surrender to the finishing blow.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG36E2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG36E2
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#mes2v OKA_2187,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gone--」%p
+#mes It's lost.%p
+#mes Not just the moe shops、 but even the maid cafe disappeared.%p
+#mes Not just MayQueen、 but the other multitudes of maid cafes and cosplay service stores have probably disappeared too.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v OKA_2188,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri. You work at MayQueen、 don't you?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0587,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「MayQueen? What's that-? The potato?」%p
+#mes2v OKA_2189,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「"MayQueen+Nyan²"！」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes I try asking Daru too、 but to no reaction.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#call macrosys,CharaDisp51
+#mes2v MAY_0588,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii's part time job is at Lemoine、 you know?」%p
+#mes2v OKA_2190,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lemoine? Is that a maid cafe?」%p
+#mes2v MAY_0589,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「No. A normal coffee shop.」%p
+#mes2v OKA_2191,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Is there even a single maid cafe in Akiba?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A06
+#call macrosys,CharaDisp62
+#mes2v DAR_0752,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「None. The people who come to Akiba are prejudiced against that sort of moe business. Nobody would go.」%p
+#mes2v OKA_2192,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes It's already definite.%p
+#mes This is most likely an influence of Faris' D-mail.%p
+#mes The Butterfly Effect Kurisu talked about.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Faris said she had participated in Akiba's city development conferences ever since she was little. And that、 adopting her opinion、 they increased the moe shops.%p
+#mes And by sending a D-mail to 2000 directly、 or indirectly negating that、 the world line was reconstructed to one with an Akiba without those stores.%p
+#mes I guess that's it.%p
+#mes To think that a single mail could rewrite ten years of a town's history.%p
+#mes Is it okay to repaint the town's appearance to our convenience-- no、 Faris' convenience?%p
+#mes I almost felt guilty about it、 but since I'm the only one who remembers the original Akiba、 nobody can blame me.%p
+#mes I can't do anything about the changes after all.%p
+#setFlag SF_Phone_AutoDisable
+#mes But still、 just what did Faris send...?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

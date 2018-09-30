@@ -1,0 +1,542 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label L_START
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG35A
+//#assign $W(LR_TMP00),BG35A
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),80
+#assign $W(SW_BG1SY),180
+#assign $W(SW_BG1LX),640
+#assign $W(SW_BG1LY),360
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT_T
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#jump L_CERO
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG033
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#mes Just like before、 the Braun Tube Workshop is closing a little bit early. Suzuha and Manager are about to come out、 and Mayuri comes back.%p
+#mes We pass through Kanda Shrine's backstreet to Ochanomizu Station.%p
+#mes In order to get to the Sobu Line before operations suspend、 we run without considering the danger of running into assassins.%p
+#mes But in front of Ochanomizu Station wait men that look like assassins.%p
+#mes So we hurriedly change plans to take the Chiyoda Subway Line at Shin-Ochanomizu Station.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG35A
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG35A
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes We arrive at the station surprisingly late.%p
+#mes I usually don't use this station、 so I lost my way.%p
+#mes Nervous、 I stare at Shin-Ochanomizu Station's platform clock.%p
+#mes The Yamate、 Keihin-Tohoku、 and Sobu Lines have already suspended operations.%p
+#mes The influence reaches even the Chiyoda Line.%p
+#mes It seems they've learned from previous terrorist bomb threats、 and suspended operations of even directly unrelated lines for safety purposes.%p
+#mes Don't tell me the subways are getting suspended too...!%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG35A
+//#assign $W(LR_TMP00),BG35A
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),100
+#assign $W(SW_BG2SY),180
+#assign $W(SW_BG2LX),640
+#assign $W(SW_BG2LY),360
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT_T
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#mes Mayuri doesn't complain about my abrupt behavior.%p
+#mes I've time leaped several times、 but she always follows me without complaining.%p
+#mes Does she really trust me that much?%p
+#mes Maybe she can tell my urgency.%p
+#mes That's why I want to save her.%p
+#mes We've been together for more than a decade.%p
+#mes She's like a two years younger little sister to me.%p
+#mes I'll time leap any number of times if it can save Mayuri.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0869,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「……？」%p
+#mes When I stare at her、 Mayuri tilts her head with a troubled face.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#call macrosys,CharaDisp51
+#mes2v MAY_0870,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 Okarin. Mayushii has a lot of questions to ask、 but she'll wait for now.」%p
+#mes2v MAY_0871,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But in return、 once it's over、 I want you to tell me everything、 okay?」%p
+#mes2v OKA_2873,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 I promise.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes Mayuri smiles happily at that answer.%p
+#mes That's right. While we wait for the train、 I need to get as much info from Mayuri as I can.%p
+#mes Hindsight is 2020.%p
+#mes2v OKA_2874,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where'd you go after meeting with Lukako?」%p
+#label L_CERO
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0872,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Fubuki-chan sent Mayushii an email that a problem happened with her costume. A thread came loose-」%p
+#mes2v MAY_0873,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I went to fix it.」%p
+#mes2v OKA_2875,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where does this Fubuki-chan live?」%p
+#mes2v MAY_0874,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Where does she live? We just met up at the Starbecks at UPX.」%p
+#mes So that's what it was.%p
+#mes And then an announcement of resumed operation floods through.%p
+#mes About 20 minutes have passed since we arrived at the station.%p
+#mes It's okay. I didn't expect to be stuck here 20 minutes、 though.%p
+#mes At this time、 Moeka should be in Akihabara、 heading to the lab.%p
+#mes So it's okay.%p
+#mes While waiting for the train、 I examine the route map on the station's noticeboard.%p
+#mes A direct private rail to Yoyogi-Uehara is in operation、 so we might waste a little time、 but it'll take us straight to Odawara.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#assign $W(SW_BGMVOL),SV_FAR
+#playSE 1,SGSE079
+#call macrosys,SEwaitHalf
+#assign $W(SW_SEVOL),SV_FAR
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 0,SGSE076
+#mes Then it's announced that the Yoyogi-Uehara train has arrived.%p
+#mes I see the train's light through the dark tunnel.%p
+#mes It comes closer with a roar.%p
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_SE2VOL),SV_FAR
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE077L,true
+#mes Mayuri's standing in front、 on the white line、 waiting for the train.%p
+#mes I'm standing next to her、 holding her hand.%p
+#mes But I let go when I realize we don't need to run once we're in the train.%p
+#assign $W(SW_SE2VOL),SV_MIDDLE
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#mes The roar comes closer.%p
+#assign $W(SW_SE2VOL),90
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#mes2v MAY_0875,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Today's party」%p
+#mes Mayuri turns and talks to me.%p
+#mes I couldn't quite hear her over the train's sound.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0876,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It's canceled、 but someday we need to──」%p
+#setFlag SF_Phone_AutoDisable
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAR_0041,$W(LR_LIP_MAR),VID_MAR,＠綯？＠「Mayuri-oneechan♪」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEVOL),SV_DEFAULT
+#assign $W(SW_SEFADE),FADE_VERYFAST
+#playSE 0,SGSE080
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B01
+#call macrosys,CharaDisp51
+#call macrosys,Qua2CHA1
+#assign $W(LR_TMP00),32
+#assign $W(LR_TMP01),32
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA1POSX_OFS,(0-$W(SW_CHA1POSX)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA1ALPHA),0
+#assign $W(SW_CHA1ALPHA_OFS),0
+#assign $W(SW_CHA1POSX),0
+#assign $W(SW_CHA1POSX_OFS),0
+#call macrosys,TuneParam51
+#call macrosys,CharaClr1
+#mes Suddenly、 Mayuri disappears from view.%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_2876,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「──eh?」%p
+#messWindowCloseWait
+#setEVFlag 60
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_M13A
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),400
+#assign $W(SW_BG2SY),240
+#assign $W(SW_BG2LX),480
+#assign $W(SW_BG2LY),270
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG1ALPHA_OFS,(BG_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG2ALPHA_OFS,BG_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG1SX_OFS,(30-$W(SW_BG1SX)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG1SX),30
+#assign $W(SW_BG1SX_OFS),0
+#assign $W(SW_BG1ALPHA),0
+#assign $W(SW_BG1ALPHA_OFS),0
+#assign $W(SW_BG2ALPHA),BG_ALP_MAX
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),0
+#assign $W(SW_BG1SY),0
+#assign $W(SW_BG1LX),SCR_SIZ_X
+#assign $W(SW_BG1LY),SCR_SIZ_Y
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2SX_OFS,(0-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2SY_OFS,(0-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LX_OFS,(SCR_SIZ_X-$W(SW_BG2LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LY_OFS,(SCR_SIZ_Y-$W(SW_BG2LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BG2SY_OFS),0
+#assign $W(SW_BG2LX_OFS),0
+#assign $W(SW_BG2LY_OFS),0
+#resetFlag SF_BG1DISP
+#mes Mayuri's body flies onto the railway tracks as if pushed──%p
+#mes Immediately afterward、 the train slides in with tremendous speed.%p
+#messWindowCloseWait
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#assign $W(SW_MASKALPHA),0
+#assign $W(SW_MASKCOLOR),COL_WHITE
+#assign $W(SW_MASKPRI),PRI_UPPER_CHARA
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#assign $W(SW_SEFADE),FADE_VERYFAST
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,(BG_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASKALPHA_OFS,(256-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2SX_OFS,((SCR_SIZ_X/4)-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2SY_OFS,((SCR_SIZ_Y/4)-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG2LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG2LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASKALPHA),256
+#assign $W(SW_MASKALPHA_OFS),0
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_CHI
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK01
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(SW_BG3FADECT),170
+#setFlag SF_BG3DISP
+#assign $W(SW_CHA1FILTER),$W(SW_CHA2FILTER)
+#assign $W(SW_CHA2FILTER),$W(SW_CHA3FILTER)
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#playSE 0,SGSE081
+#call macrosys,SEwaitHalf
+#mes I think I hear a strange sound from under the train as it enters the platform.%p
+#mes A sound bringing physiological discomfort.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP11,(BGFADECT_MASK_MAX-220),$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3FADECT),220+$W(LR_TMP11)
+#commitAnimation
+#assign $W(SW_BG3FADECT),BGFADECT_MASK_MAX
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#assign $W(SW_MASKALPHA),0
+#assign $W(SW_MASKCOLOR),COL_WHITE
+#assign $W(SW_MASKPRI),PRI_UPPER_CHARA
+#playSE 1,SGSE078
+#mes The train clearly slammed on the brakes.%p
+#messWindowCloseWait
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG35A
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM24
+#mes The people on the platform scream.%p
+#mes Right next to me、 in Mayuri's place──%p
+#mes Stands a familiar girl.%p
+#mes Around elementary student height. Innocent features.%p
+#mes Carrying a lovely black rabbit pouch.%p
+#mes Tennouji Nae……%p
+#setEVFlag 91
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_Z04A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),30
+#assign $W(SW_BG3SY),218
+#assign $W(SW_BG3LX),640
+#assign $W(SW_BG3LY),360
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,EvOverWrite
+#call macrosys,CharaClrAll
+#mes She looks up at me.%p
+#setEVFlag 91
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_Z04A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),560
+#assign $W(SW_BG3SY),228
+#assign $W(SW_BG3LX),640
+#assign $W(SW_BG3LY),360
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,EvOverWrite
+#mes She opens her eyes wide.%p
+#setEVFlag 91
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_Z04A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),320
+#assign $W(SW_BG3SY),350
+#assign $W(SW_BG3LX),640
+#assign $W(SW_BG3LY),360
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Her lips tremble with fear.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),256
+#assign $W(LR_TMP01),256
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2SY_OFS,(270-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2SY),270
+#assign $W(SW_BG2SY_OFS),0
+#setEVFlag 91
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_Z04A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),SCR_SIZ_X
+#assign $W(SW_BG3LY),SCR_SIZ_Y
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MAR_0042,$W(LR_LIP_MAR),VID_MAR,＠Nae＠「I...?」%p
+#mes2v MAR_0043,$W(LR_LIP_MAR),VID_MAR,＠Nae＠「Found... Mayuri...onee...chan...」%p
+#mes2v MAR_0044,$W(LR_LIP_MAR),VID_MAR,＠Nae＠「I wanted...to surprise...her...」%p
+#mes2v MAR_0045,$W(LR_LIP_MAR),VID_MAR,＠Nae＠「It wasn't on purpo... it... wasn...」%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG35A
+#setFlag SF_BG1DISP
+#playSE 0,SGSE181
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK18
+#assign $W(SW_BG2MASKFADERANGE),16
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG2_FadeOutTIM
+#mes At a loss for words、 she turns her back on me and starts running away.%p
+#mes She disappears into the exit stairway.%p
+#mes The platform is in chaos. The premise broadcasts inform of the accident.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG35A
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),30
+#assign $W(SW_BG2SY),260
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I don't chase Nae.%p
+#mes I timidly peek down through the gap between the train and platform.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_CHI
+#assign $W(SW_BG2PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK01
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERY2SLOW
+#call macrosys,BG2_FadeInTIM
+#mes One side. Red.%p
+#messWindowCloseWait
+#call macrosys,FadeOutVERYSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+#call macrosys,FadeInVERYSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes My mind goes blank.%p
+#mes I can't think straight.%p
+#mes I don't remember know how I got back to the lab.%p
+#setFlag SF_Phone_AutoDisable
+#mes Moeka's group should've come here long ago、 but the Time Leap Machine is still here. Well、 I'd be in trouble if they took it.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 0,SGSE035L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#mes I don't quite remember my own phone number、 so I had a little difficulty inputting the machine's settings.%p
+#mes Now、 take me away──%p
+#messWindowCloseWait
+#playSE 1,SGSE053L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#playSE 1,SGSE054
+#call macrosys,SEwaitHalf
+#call macrosys,FadeOutSLOW
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#wait 16
+#call macrosys,FadeInSLOW
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG06_09
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG06_09
+#resetFlag SF_SYSTEMCHIP_HIDE
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

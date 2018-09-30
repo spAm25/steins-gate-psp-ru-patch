@@ -1,0 +1,436 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0814
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG13A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG13A2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#label L_SG07_03_RM_CRS07_02_RECEIVE_STA
+#call macrosys2,SetUp_RM_CRS07_02
+#assign $W(LR_RM_CHANCE),12
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_1058,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okari-n♪」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Coming out of the ticket gate、 Mayuri leisurely walks up to me.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_1059,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Tutturu-♪ I didn't think you'd actually come all the way to the station to pick me up-. Mayushii's surprised.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3413,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It would be bad if my 'hostage' got away.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_1060,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yeah、 it would be bad. So、 Mayushii's really happy. Ehhehe-♪」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I don't quite understand、 but....%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Mayuri gives a carefree smile、 walking ahead of me、 almost skipping.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C01
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_1061,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 what's that bag you're holding?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3414,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Mister Braun gave it to me. It's an Upart that can measure the numerical values of world lines.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_1062,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hmm、 seems amazing、 huh-. But、 what are 'numerical values of world lines'-?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I smile wryly.%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v OKA_3415,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri、 you really are a dummy、 huh.」%p
+#label L_SG07_03_RM_CRS07_02_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes Why did I do this?%p
+#mes After I left Manager's house、 I called Mayuri to ask when she's coming to Akiba、 and then came to the station to pick her up.%p
+#mes Anxiety still smoulders at the bottom of my heart──%p
+#mes Yesterday-- the night of Friday the 13th. We somehow managed to survive.%p
+#label L_SG07_03_RM_CRS07_02_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes While that may be true、 that doesn't mean our safety is guaranteed.%p
+#mes For example-- the possibility that Moeka will attack now、 daytime on the 14th、 isn't zero.%p
+#mes I might just be over-protective. But still.%p
+#mes If I let my guard down、 the scene of Mayuri's death still flashes back into my mind.%p
+#mes I don't ever want to see that scene again.%p
+#label L_SG07_03_RM_CRS07_03_RECEIVE_STA
+#call macrosys2,SetUp_RM_CRS07_03
+#assign $W(LR_RM_CHANCE),6
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3416,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri、 I'm just talking hypothetically、 but do you think it would be better if you didn't come to Akiba until ComiMa ends?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I made such a proposal、 but she didn't answer.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Wanting to know what's wrong、 I look to the side.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3417,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wait、 where is she!?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I look around in a rush and see her wandering off to a newly opened shaved ice store.%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes Tch. That careless girl....%p
+#label L_SG07_03_RM_CRS07_03_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#label L_SG07_03_RMC_RS07_03_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM06
+#mes2v CRS_2036,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe's a devoted type、 huh.」%p
+#mes Kurisu、 completely settled into the lab、 starts talking with a sour look on her face and an iced coffee in her hand.%p
+#mes2v OKA_3418,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How so?」%p
+#mes I was on @channel、 gathering information on the IBN 5100、 but I let go of the mouse.%p
+#mes I couldn't find the IBN 5100. I went to Yanabayashi Shrine this morning、 but contrary to my expectations、 the retro PC wasn't there.%p
+#mes The thing that Suzuha had promised she would entrust to us.%p
+#mes Her present from 1975.%p
+#mes Without it、 we can't hack into SERN's database、 meaning we can't achieve Divergence over 1%.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A02
+#call macrosys,CharaDisp51
+#mes2v CRS_2037,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You're starting to treat Mayuri like a princess.」%p
+#mes2v CRS_2038,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Today you went to the station to greet her、 you poison tasted her lunch、 and you even walked here hand in hand.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_1063,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 Okarin loves Mayushii、 doesn't he? Ehhehe-」%p
+#mes So she talked....%p
+#mes Mayuri said so carefree、 stuffing her cheeks with takoyaki.%p
+#mes I'm pretty sure she's not smiling happily because of my love、 but because of the takoyaki's deliciousness. Anyway、 she's talking like it doesn't involve her.%p
+#mes I mean、 don't tell Kurisu...%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_2039,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So、 honestly、 what is it?」%p
+#mes2v OKA_3419,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's what?」%p
+#mes2v CRS_2040,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I've been wondering. Are you two going out?」%p
+#mes2v OKA_3420,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Does it look like it?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_2041,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh、 uh、 that's、 umm...」%p
+#mes Just what sort of delusion did this girl have?%p
+#mes2v MAY_1064,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 Okarin and Mayushii have been friends since we were little-♪」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6FACE),Face_MAY_A05
+#call macrosys,CharaDisp62
+#mes2v MAY_1065,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Uu ou、 Mwawoohii's weeally hwawy nawo.」%p
+#mes2v OKA_3421,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't talk while eating. It's improper.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C03
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_2042,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So、 you're not going out? W-well、 I don't think anyone would go out with someone like Okabe、 so that's obvious.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_3422,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Pff、 Christina. I'm disappointed in you!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_2043,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Haah? What's that all of a sudden?」%p
+#mes2v OKA_3423,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I noticed. I have noticed. Your true nature.」%p
+#mes2v OKA_3424,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're nothing but a mainstream woman who really gets into love talks...!」%p
+#mes2v OKA_3425,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're at the age where you like love talks and reading love stories、 aren't you!? Absurd! Neither I、 Hououin Kyouma、 nor our lab、 wish for someone whose head is filled with such a flower garden!」%p
+#mes It feels nostalgic、 but strange for me to be spewing such pretentious hipster bullshit after so long.%p
+#mes It feels a little awkward to say lines like these.%p
+#mes Guh、 can I no longer return to those pure days...?%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_2044,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Just what are you trying to say、 you pretentious、 (self-proclaimed) mad scientist?」%p
+#mes It's been so long since I've had a useless conversation with Kurisu like this.%p
+#mes I suddenly feel lonely.%p
+#mes When I was driven into a corner、 unable to save Mayuri、 I sought help from this genius girl.%p
+#mes And then she encouraged me、 supported me、 all the while using a sever manner of speech.%p
+#mes That fact completely disappeared the same way Suzuha's memories did.%p
+#mes ──Thank you for encouraging me back then.%p
+#mes I express secret gratitude in my heart.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#playSE 0,SGSE092
+#call macrosys,SEwaitHalf
+#mes2v OKA_3426,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I finish typing on the X68000's keyboard and sigh.%p
+#mes I stare at the Divergence Meter placed on the side shelf.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG069
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes Its number: 0.409431%.%p
+#setFlag SF_Phone_AutoDisable
+#mes What that meant.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_SUZ_B04
+#call macrosys,CharaSet51
+#call macrosys,SET_DOF_SHORT
+#call macrosys,FadeInVERYFAST
+#mes2v SUZ_0878,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The world's structure is like a 'twisted thread'.」%p
+#mes2v SUZ_0879,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Many possible world lines are in superposition、 branching out infinitely.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01A1
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_ALA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaSet51
+#call macrosys,FadeInFAST
+#mes2v SUZ_0880,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「When the meter surpasses 1%、 you will have reached the β World Line.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_ALB
+#assign $W(SW_CHA5FACE),Face_SUZ_B04
+#call macrosys,CharaSet51
+#call macrosys,FadeInFAST
+#mes2v SUZ_0881,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Outside the range of Attractor Field α-- If you reach the β World Line... the converging 'result' will also change.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01A1
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_ALA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaSet51
+#call macrosys,FadeInFAST
+#mes2v SUZ_0882,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「That's right. As long as you break through 1%... you can save Shiina Mayuri.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SET_DOF_LONG
+#call macrosys,CharaEraseAll
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes Then、 conversely──%p
+#mes Since I haven't broken 1%、 does that mean Mayuri isn't saved?%p
+#mes Is the world converging to the same "result"-- that is、 Mayuri's death?%p
+#mes That can't be.%p
+#mes That shouldn't be.%p
+#mes I mean、 nothing happened yesterday.%p
+#mes Mayuri's alive、 here、 safe and sound.%p
+#mes So nothing will happen. Nothing should happen.%p
+#mes I believed that、 but the dark doubt deep within my heart is slowly swelling today.%p
+#mes My brain can't seem to think about anything else now.%p
+#mes No matter how much I stare at it、 the meter's number won't move a smidgen.%p
+#mes So far、 the only times Reading Steiner has activated are the times we sent past-changing D-mails.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4D1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes What is it like... in the case of time leaping?%p
+#mes The vertigo I feel when I time leap might be an adverse effect of my "Reading Steiner" ability.%p
+#mes Or possibly、 it might be caused by my nerves pulsating when my brain is forced to remember future memories.%p
+#mes I can't explain everything.%p
+#mes In any case、 I'm perfectly prepared for the worst case scenario.%p
+#mes I've already set the Time Leap machine's timer to send my memories to my phone three hours into the past.%p
+#mes And with Daru's help、 I bought a remote for the 42in Braun tube TV downstairs from a junk shop.%p
+#mes When we were experimenting with the Microwave Ophone earlier、 it made a hole in the floor、 but that's actually useful. Instead of filling the hole、 I made it bigger.%p
+#mes The 42in Braun tube TV was right underneath the hole.%p
+#mes So if I point the remote to the hole and press the power button、 it turns on.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes So if things suddenly go bad、 I can time leap immediately.%p
+#mes And I also have Future Gadget No.4: Monad Snake on hand.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2045,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe.」%p
+#mes Kurisu enters the development room.%p
+#mes2v CRS_2046,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Didn't you say we weren't going to do Time Leap Machine experiments?」%p
+#mes2v OKA_3427,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This is just in case.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2047,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In case what?」%p
+#mes2v OKA_3428,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I don't want to answer that.%p
+#mes I keep praying that my fears will end unfounded.%p
+#mes ──It's okay. Everything should be okay.%p
+#mes They didn't attack yesterday、 so nothing should happen today.%p
+#mes At the very least、 we're past the crisis of Mayuri's life.%p
+#mes But I still can't help but pray.%p
+#mes Please let everything be safe. Please don't let anything happen.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes My prayers were──%p
+#setFlag SF_Phone_AutoDisable
+#mes Unanswered.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM3000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

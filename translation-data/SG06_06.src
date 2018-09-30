@@ -1,0 +1,475 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI_UPPER_ALL
+#setFlag SF_BG4DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15E1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_RUK_B01
+#call macrosys,CharaSet51
+#call macrosys,FadeIn0
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#playSE 0,SGSE152
+#mes I run at full speed to Yanabayashi Shrine.%p
+#mes And of course、 I'm out of breath.%p
+#mes Though the sun is setting、 the temperature still hasn't dropped below 30.%p
+#mes Sweat quickly covers my entire body.%p
+#mes I'm not good at exercise in the first place....%p
+#mes I finally stagger to the torii.%p
+#mes Now I regret not borrowing Suzuha's bicycle.%p
+#mes No、 I'm doing this to save Mayuri.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 0
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG4MASKNO),MASK18
+#assign $W(SW_BG4MASKFADERANGE),128
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG4_FadeOutTIM
+#mes When I rush into the grounds、 Lukako's standing alone with her bamboo broom.%p
+#mes2v OKA_2798,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0210,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Ah、 Okabe-san.」%p
+#mes She bows her head.%p
+#mes2v RUK_0211,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「What's wrong?」%p
+#mes2v OKA_2799,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「M-Mayuri! Where's Mayuri!?」%p
+#mes2v RUK_0212,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Mayuri-chan、 well、 she already went back.」%p
+#mes2v OKA_2800,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Back...!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0213,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Yes...」%p
+#mes2v RUK_0214,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um... later、 could you tell Mayuri-chan that I'm sorry?」%p
+#mes2v RUK_0215,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No matter what、 I can't cosplay after all、 so I decline...」%p
+#mes2v RUK_0216,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I don't want to make Mayuri-chan sad、 but it's embarrassing to be in front of others after all...」%p
+#mes I finally catch my breath.%p
+#mes I don't have time to listen to Lukako's apologies.%p
+#mes2v OKA_2801,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri went back、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0217,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh? Ah、 yes...」%p
+#mes Back to the lab?%p
+#mes No、 there's no way.%p
+#mes Mayuri should be coming to the lab at around 6:30.%p
+#mes It's still 5:30.%p
+#mes No matter how slowly you walk、 it shouldn't take more than 20 minutes to get to the lab.%p
+#mes So、 just where did Mayuri go in this span of time?%p
+#mes Gh、 I'm already racing against time...!%p
+#mes2v OKA_2802,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is she really going back? She didn't say she was dropping by somewhere?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0218,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No... I didn't ask...」%p
+#mes2v RUK_0219,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um、 Okabe-san、 just what's going on...?」%p
+#mes2v OKA_2803,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If Mayuri comes back here、 tell her to call me right away!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0220,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 o-okay.」%p
+#mes We might pass each other on the way back to the lab.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes Nobody's left in the lab but Daru.%p
+#mes Did Kurisu go shopping by herself?%p
+#mes I call out to Daru who's at the computer ordering pizza.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_DAR_B01
+#call macrosys,CharaDisp51
+#mes2v OKA_2804,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where's Mayuri!? Did she come back!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5FACE),Face_DAR_B04
+#call macrosys,CharaDisp51
+#mes2v DAR_0879,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Eh? No.」%p
+#mes2v OKA_2805,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gh、 where is she...」%p
+#mes I take a bottle of Dr Pepper out of the fridge and chug it down.%p
+#mes The cold、 fresh stimulation appeases my thirst.%p
+#mes Freed from the choking heat、 I'm a little more at ease.%p
+#mes But my haste doesn't disappear.%p
+#mes Obviously.%p
+#mes Every minute- every second- is precious.%p
+#mes Each moment I waste is a moment closer to Mayuri's death.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#call macrosys,CharaDisp51
+#mes2v DAR_0880,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Okarin、 why have you been so tense lately?」%p
+#mes2v OKA_2806,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't you know here Mayuri is!?」%p
+#mes2v DAR_0881,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Isn't she at Luka-shi's?」%p
+#mes2v OKA_2807,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「She wasn't. I got there after she left.」%p
+#mes Now I start to pace the room in irritation.%p
+#mes2v DAR_0882,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Then、 is she at some other cosplayer's?」%p
+#mes2v OKA_2808,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Give me that cosplayer's contact info.」%p
+#mes2v DAR_0883,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Nah、 I don't know it.」%p
+#mes Bollocks.%p
+#mes Mayuri was always close to me.%p
+#mes Actually、 it was rare for us to go somewhere and play together.%p
+#mes We're childhood friends. But the lab、 MayQueen、 and Yanabayashi Shrine.%p
+#mes Besides those three places、 I don't know where else Mayuri would go in Akiba.%p
+#mes Wait、 MayQueen doesn't exist in this world line....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#call macrosys,CharaDisp51
+#mes2v DAR_0884,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ah、 now that you mention it.」%p
+#mes2v OKA_2809,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you know something!?」%p
+#mes2v DAR_0885,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I think she said something like her phone was off.」%p
+#mes Yet another bad element piles on.%p
+#mes On top of being unable to catch up with her、 she might not even notice my phone calls.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#call macrosys,CharaDisp51
+#mes2v DAR_0886,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hey、 just what's going on?」%p
+#mes2v OKA_2810,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Daru、 why are you still here? I thought I told you to leave the lab immediately.」%p
+#mes I sit on the sofa.%p
+#mes Lactic acid builds up in my legs、 making them awfully heavy.%p
+#mes2v DAR_0887,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I won't understand if you don't even give me a reason.」%p
+#mes2v DAR_0888,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Just what exactly is going on? Or something.」%p
+#mes2v OKA_2811,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...They're going to kill Mayuri.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5FACE),Face_DAR_B04
+#call macrosys,CharaDisp51
+#mes2v DAR_0889,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Haah?」%p
+#mes2v OKA_2812,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「SERN's getting serious. In two hours、 those guys will attack. That's why you should escape.」%p
+#mes2v DAR_0890,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Eh、 seriously?」%p
+#mes2v OKA_2813,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Can you contact Kurisu? Pass the message to her.」%p
+#mes2v DAR_0891,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In two hours? Why do you know this、 Okarin?」%p
+#mes Daru's taken aback. He looks towards the development room. The Time Leap Machine sits there.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5FACE),Face_DAR_B05
+#call macrosys,CharaDisp51
+#mes2v DAR_0892,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「No way... you used it?」%p
+#mes I slowly nod.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG39E1
+#setFlag SF_BG2DISP
+#call macrosys,FadeInSLOW
+#mes I force Daru out of the lab and send him home.%p
+#mes I also had Daru tell Kurisu to go back to her hotel、 but she complained to me to tell her the details、 so I had to bend over backwards to persuade her.%p
+#mes Now I just need to wait for Mayuri to get back.%p
+#mes It would be bad if I searched for her and we missed each other、 so in the end、 all I could do is wait in front of the building.%p
+#mes It's okay、 I keep trying to convince myself.%p
+#mes Mayuri comes back at 6:30.%p
+#mes And that leaves about an hour before Moeka's attack.%p
+#mes With an hour、 we could ride the Shinkansen from Tokyo Station to Shizuoka.%p
+#mes Should we go as far as we can?%p
+#mes Or should we hide ourselves in a business hotel in Yokohama?%p
+#mes We can leave thinking about tomorrow for tomorrow.%p
+#mes We don't need to obsess over the Time Leap Machine.%p
+#mes Moeka can just have it.%p
+#mes In any case、 today's priority is to prevent Mayuri's death.%p
+#mes Without wiping the sweat from my brow、 I keep standing in the summer sunset.%p
+#mes ──Mayuri、 hurry back.%p
+#messWindowCloseWait
+#call macrosys,InitSE0
+#call macrosys,Set_SE0Speaker_RearCenter
+#playSE 0,SGSE017
+#call macrosys,SEwaitHalf
+#call macrosys,Set_VOspeaker_Rear
+#mes2v SUZ_0363,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Huh-?」%p
+#mes Startled、 I turn to look towards the voice.%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05E2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05E2
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,TEN_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_TEN_A01
+#call macrosys,CharaSetW5162
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Suzuha and Manager had come out of the Braun Tube Workshop.%p
+#mes It looks like they're closing up shop when I see them lock the door.%p
+#mes That's right、 I forgot about Suzuha.%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v SUZ_0364,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Okabe Rintaro、 what are you doing there-?」%p
+#mes2v OKA_2814,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Nothing...」%p
+#mes That reminds me.%p
+#mes During the attack、 she was unusually agile....%p
+#mes She insta-killed five trained men with guns. Unarmed.%p
+#mes That's stranger than strange.%p
+#mes At least、 that's not something a normal 18 year old girl can do.%p
+#mes In the first place、 why did she leave the lab right before the attack as if she had known everything....?%p
+#mes Amane Suzuha. She doesn't know much about her father....%p
+#mes Just what is she?%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A02
+#call macrosys,CharaDisp51
+#mes2v SUZ_0365,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Ah、 I know. It looks like you're going to party today、 so you're preparing、 right?」%p
+#mes2v OKA_2815,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Who'd you hear that from?」%p
+#mes2v SUZ_0366,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Shiina Mayuri. She came a while ago and said 'be sure and come、 okay-'.」%p
+#mes2v SUZ_0367,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「So with that said、 I'll be intruding too──」%p
+#mes2v OKA_2816,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can't!」%p
+#mes I yell.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A06
+#call macrosys,CharaDisp51
+#mes2v SUZ_0368,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠「…………」%p
+#mes2v SUZ_0369,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Do you mean、 I'm a bother?」%p
+#mes2v OKA_2817,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...no.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes2v SUZ_0370,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Well、 even though I am a lab mem、 I'm still an outsider after all、 huh.」%p
+#mes2v OKA_2818,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's not it!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,TEN_AMA
+#assign $W(SW_CHA6FACE),Face_TEN_A03
+#call macrosys,CharaDisp62
+#mes2v TEN_0086,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「The hell's wrong、 Okabe?」%p
+#mes2v TEN_0087,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Let my worker join your friends too. You owe her、 don't you? Thanks to this girl's belly、 I let ya'll off the hook for shaking the building once、 ya know.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A03
+#call macrosys,CharaDisp51
+#mes2v SUZ_0371,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Belly... heeey」%p
+#mes By the way、 Suzuha recovered the coat Manager confiscated、 so she's properly dressed.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,TEN_AMA
+#assign $W(SW_CHA6FACE),Face_TEN_A01
+#call macrosys,CharaDisp62
+#mes2v TEN_0088,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「This worker's got a fine belly. It's tight and well trained.」%p
+#mes2v SUZ_0372,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Dirty old man、 I'm right here、 you know.」%p
+#mes2v OKA_2819,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Today's party is canceled. So I'm sorry、 Working Warrior、 but please go home today.」%p
+#mes2v SUZ_0373,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Canceled?」%p
+#mes2v OKA_2820,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah. Sorry.」%p
+#mes I try plastering on a smile、 but I don't think it went smoothly.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,TEN_AMA
+#assign $W(SW_CHA6FACE),Face_TEN_A02
+#call macrosys,CharaDisp62
+#mes2v TEN_0089,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Okabe. I don't know what's going on、 but don't be so reckless.」%p
+#mes2v OKA_2821,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Eh?」%p
+#mes I'm bewildered at how Manager suddenly smiled and gave advice.%p
+#mes I thought he was just a simple dirty old man who loved Braun tubes.%p
+#mes Maybe he's got some fairly sharp points about him.%p
+#mes Or maybe he's just simply telling me to stop shaking the building with experiments.%p
+#mes2v OKA_2822,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I got in a fight with Mayuri. I'm a little annoyed. That's all.」%p
+#mes I try lying with all my might.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes2v SUZ_0374,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Ah、 then isn't this bad?」%p
+#mes Bad?%p
+#mes2v SUZ_0375,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I mean、 look、 she's right there.」%p
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes Suzuha points across the street.%p
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG18E2
+//#assign $W(LR_TMP00),BG18E2
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),280
+#assign $W(SW_BG1SY),240
+#assign $W(SW_BG1LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG1LY),(SCR_SIZ_Y/2)
+#setFlag SF_BG1DISP
+#call macrosys,CharaClrW12
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_ASA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_MAY_A02
+#call macrosys,CharaSet73
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#mes Taken aback、 I shift my focus there and see Mayuri walking with a big bag.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM08
+#mes When she notices us、 she waves her hand with an innocent smile.%p
+#mes Mayuri...!%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v SUZ_0376,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Huwha? Weren't you fighting? She's really smiling though──」%p
+#mes I start running.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK19
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#call macrosys,CharaEraseAll
+#mes I check the time with my phone.%p
+#mes 0.272916666666667%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v SUZ_0377,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Hey! What's wrong!?」%p
+#mes I wasted precious time with Suzuha and Manager.%p
+#mes I've secured Mayuri now、 so next、 I have to get as far from Akiba as I can...!%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG18E2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG18E2
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaSet51
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),16
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG3_FadeOutTIM
+#mes2v MAY_0838,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 where are you going so suddenly-?」%p
+#mes I take Mayuri's hand as she optimistically tilts her head.%p
+#mes2v OKA_2823,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Run! Let's go to the station!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0839,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wawawa...」%p
+#call macrosys,InitSE0
+#playSE 0,SGSE072
+#mes2v MAY_0840,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「W-w-wait~、 my bags...」%p
+#mes2v OKA_2824,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Forget them! Just run for now!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0841,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh-? Why-?」%p
+#mes2v OKA_2825,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just keep running!」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Recalling the instant of Mayuri's death、 I strongly bite my lip.%p
+#mes I won't let them kill you.%p
+#mes I absolutely won't let them kill you.%p
+#mes Mayuri gives no further resistance.%p
+#mes She obediently follows.%p
+#mes Or、 actually、 Mayuri's faster on her feet than I am.%p
+#mes She quickly matches my pace.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALB
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0842,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 where are we going-?」%p
+#mes2v OKA_2826,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Haah、 haah、 right、 haah、 for now、 around Tsukuba、 or Yokohama...」%p
+#mes My breath is faint.%p
+#mes Mayuri's breath is not disordered at all.%p
+#mes She's got a laid back personality、 yet her motor nerves are this good. Mayuri、 you're so unbalanced...!%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+

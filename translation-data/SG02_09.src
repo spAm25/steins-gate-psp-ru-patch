@@ -1,0 +1,81 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#assign $W(LR_DATE),0801
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG17A
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG17A1
+#call macrosys,TUNE_CHACOL_BGNO
+#wait 16
+#call macrosys,FadeInVery2SLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#mes The next day. I decide to go around the parts shops.%p
+#mes Yesterday、 after parting with Kurisu、 I walked around looking at the shops throughout Akiba until dark、 but to no result.%p
+#mes I expected obtaining the IBN 5100 would be fairly difficult. It already feels tedious.%p
+#mes2v OKA_0791,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Uuummm....」%p
+#mes Radio Center's narrow passage. Lined up on the left and right are small parts shops.%p
+#mes Here are the old vestiges of the bygone Electric Town、 Akiba's conscience、 so to speak.%p
+#mes Light otaku who like anime or large appliances don't readily set foot here.%p
+#mes It's like a holy ground were only true maniacs can enter.%p
+#mes By the way、 I'm not too well-acquainted with parts either....%p
+#mes Furthermore、 the parts shops only sell parts、 so it's not like there would be a large retro PC laying around here. I didn't consider that.%p
+#mes And yet I've still been rummaging through the lined up parts in excitement.%p
+#mes If the shops' geezers yell Hey、 kid! You're ten years too early for this! and I'd have no choice but to run.%p
+#mes At present、 the geezers don't seem like they'll yell at me. It's more like they're ignoring me. I feel broad-mindedness from them for allowing me to look without permission. Or maybe they're just annoyed at me.%p
+#mes Hiding that excitement、 I examine each store with dignity、 but I can't find hide nor hair of the IBN 5100.%p
+#label L_SG02_09_PHONE_RING_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_PhID),PhID_MAY
+#call macrosys2,START_PHONE_RING
+#AutoSave 2
+#mes The shop geezer glares at me at the sound of my phone.%p
+#flagOnJump SF_PhoneRecive,L_SG02_09_PHONE_RECEIVE_EXEC
+#setFlag SF_Phone_AutoDisable
+#mes I force a smile and rush outside.%p
+#flagOnJump SF_PhoneRecive,L_SG02_09_PHONE_RECEIVE_EXEC
+#label L_SG02_09_PHONE_RING_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneRecive
+#resetFlag SF_Phone_AutoDisable
+#setFlag SF_Phone_Disable
+#assign $W(LR_NXTFIL),"SG02_11"
+#jump L_SG02_09_SET_NXTFIL_END
+#label L_SG02_09_PHONE_RECEIVE_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneRecive
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#assign $W(LR_NXTFIL),"SG02_10"
+#jump L_SG02_09_SET_NXTFIL_END
+#label L_SG02_09_SET_NXTFIL_END
+#flagOnJump LF_DEBUG,L_SG02_09_TTLCALL_END
+#end
+#label L_SG02_09_TTLCALL_END
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

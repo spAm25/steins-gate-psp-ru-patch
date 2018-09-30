@@ -1,0 +1,475 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,TIT001
+#setFlag SF_BG1DISP
+#wait 16
+#call macrosys,FadeInVery2Slow
+#AutoSave 1
+#call macrosys,SetRevTitle
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#assign $W(LR_DATE),0728
+#call macrosys,FadeOutVerySlow
+#call macrosys,InitGraph
+#setEVFlag 89
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_Z02A
+#setFlag SF_BG2DISP
+#call macrosys,FadeInSlow
+#setFlag SF_PhoneSD_Disp
+#mes2v OKA_0102,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey you there. Can you see us?」%p
+#mes2v OKA_0103,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Why don’t you answer? I’m asking you. Yes you - the one in the other side of the monitor.」%p
+#mes2v OKA_0104,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmph that’s a stupid face you’re making. You’re so boring.」%p
+#mes2v OKA_0105,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「To you it looks like we’re inside a television monitor. Kukuku however that is incorrect.」%p
+#mes2v OKA_0106,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The one inside the monitor is you. The world that you think is reality is nothing but fiction. Of course that includes yourself.」%p
+#mes2v OKA_0107,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「True reality is located on this side.」%p
+#mes2v OKA_0108,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You don’t understand what I’m talking about? That’s not surprising.」%p
+#mes2v OKA_0109,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah whatever. I shall tell you about us in an easy-to-understand way.」%p
+#mes2v OKA_0110,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「First our current location. This is the Future Gadget Laboratory located in Akihabara Tokyo. We usually just call it ‘The Lab’. We aspire to reconstruct the ruling structure of the world.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0037,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Really...? You shouldn’t do anything bad Okarin.」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0111,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Shut up for a moment Mayuri.」%p
+#mes2v OKA_0112,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「After leaving the station go down the Central Street until you reach the Suehirochou Station crossing where you take the Kuramaebashi avenue to the left. By entering the alley before the next traffic light you will find an old-fashioned apartment building」%p
+#mes2v OKA_0113,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「On the first floor of the building we have a certain maniac’s shop called the ‘CRT Workshop’.」%p
+#mes2v OKA_0114,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even though it’s the age of LCD that shop still sells and handles CRT TVs. No matter how much of an electronics town Akihabara is the demand for those is next to none so the shop is deserted.」%p
+#mes2v OKA_0115,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「However Tennouji the manager of the 'CRT Workshop' is also the owner of this building.」%p
+#mes2v OKA_0116,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The urban development is progressing at a quick pace so the price of land in Akihabara has skyrocketed. That's why so many small hobby shops were built here.」%p
+#mes2v OKA_0117,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fortunately the manager has an eye for people. After taking a liking to my charisma he lent me the entire second floor of the building for almost nothing. Fuahahaha!」%p
+#mes2v OKA_0118,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「However the Future Gadget Laboratory has a serious lack of capable staff but we are always open to applications from excellent researchers. Currently our researchers are--」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0038,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin Okarin! You’re supposed to say ‘Lab Members’! Not researchers.」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0119,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... Lab Members. Including me we make up a grand total of 3.」%p
+#mes2v OKA_0120,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Laboratory Member No. 001 the lab’s founder and crazy mad scientist: myself Hououin Kyouma.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0039,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin sounds a lot cuter though.」%p
+#setDic 50
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0121,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And then we have Laboratory Member No. 002 the &cTIPSC; cosplay&cMESC; hobbyist and the only girl: Shiina Mayuri.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0040,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Tuturu! ♪ I’m Mayushii. My hobby is not wearing but making the costumes.」%p
+#setDic 75
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0122,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Finally we have Laboratory Member No. 003 the &cTIPSC;Supa~ Hacka&cMESC;、Hashida Itaru.」%p
+#setDic 69
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0000,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It’s Super Hacker not Supa~ Hacka. &cTIPSC; Duh.&cMESC;」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0123,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Our main activity here at the Future Gadget Laboratory is the act of ‘invention’ itself.」%p
+#mes2v OKA_0124,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The details can be found on the lab’s homepage.」%p
+#mes2v OKA_0125,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Of course our top priority are future gadgets which could be used to fight the dark supremacy but many other inventions were created as byproducts of this research. Hell there are currently more of them than the actual inventions that we wanted.」%p
+#mes2v OKA_0126,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We have already completed 8 future gadgets but that is only the beginning. In my head I have ideas for a total of 108 of them.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0001,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It’s like a certain tennis manga eh? I get it.」%p
+#setDic 222
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0127,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's the number of humanity's worldly desires you&cTIPSC; @channel&cMESC; er.」%p
+#mes2v OKA_0128,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Also I told you not to interrupt me while I’m speaking.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0002,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Anyway why are you talking to yourself Okarin?」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0129,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I’m not talking to myself! Can’t you see? I’m talking to the guy on the other side of the monitor.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0041,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Oh he just grinned.」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0130,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you laughing about you bastard!? You’re the one inside the monitor!」%p
+#setDic 51
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0003,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Maybe you should just tell him to &cTIPSC; 'Don't Look This Way'&cMESC;」%p
+#mes2v MAY_0042,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Will he really understand that?」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0131,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「He doesn’t even seem to understand that we’re talking to him. His lack of self-awareness is quite sad.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0043,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Maybe to that person we appear to be just a game?」%p
+#mes2v DAR_0004,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I don’t think that the whole concept of ‘real’ or ‘game’ exists to them.」%p
+#setDic 218
+#mes2v MAY_0044,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But Daru-kun aren't your beloved &cTIPSC; 2D girls&cMESC; the same?」%p
+#mes2v DAR_0005,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That’s different. They are my waifus.」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0132,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Nobody cares about your wives.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0006,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Didn’t Mayushii bring up an interesting idea though? Suppose that hypothetically speaking we were the ones inside a game - do you think that it’s possible for us to realize that?」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0133,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No.」%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0007,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「An immediate reply huh...?」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0134,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That type of discussion is completely unproductive. What we should be focusing on is thinking about how we will crush the world’s ruling structure.」%p
+#setDic 101
+#setDic 20
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0008,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「&cTIPSC; Pretentious&cMESC; &cTIPSC; lunatic. &cMESC;」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#playBGM BGM05
+#resetFlag SF_Phone_Disable
+#mes After what Daru said I look upwards away from the monitor.%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,IBG007
+#assign $W(SW_BG4PRI),PRI2_BG
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeInTIM
+#assign $W(SW_BG4FADECT),0
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#setDic 5
+#mes The monitor displayed the disturbing yet cute character 'Alpaca-man' whose design was based off of an &cTIPSC; alpaca.&cMESC; %p
+#mes This is an interactive game called ‘Alpaca-man 2’ where you could speak to it via a microphone and it would answer back.%p
+#mes The game exploded in popularity upon release 10 years ago. Personally I find it only disgusting instead of ‘disturbing yet cute’.%p
+#mes I bought it yesterday at a second-hand goods store for 500 yen headset included.%p
+#messWindowCloseWait
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#setFlag SF_BG1DISP
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG03A2
+#assign $W(SW_BG3PRI),6
+#setFlag SF_BG3DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA2PRI),9
+#assign $W(SW_CHA6PRI),10
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#assign $W(SW_CHA2FILTER),CHACOL_BG03A2
+#assign $W(SW_CHA6FILTER),CHACOL_BG03A2
+#call macrosys,CharaSet62
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),11
+#assign $W(SW_EFF_CAPTURE_PRI),5
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8FADECT),0
+#setFlag SF_BG8DISP
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#mes I look back at Daru and squint my eyes to intimidate him.%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0135,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Shut up Super Haker. I’m not pretentious.」%p
+#mes I raise up my forelocks and collect the right words.%p
+#mes2v OKA_0136,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I’m Hououin... Kyouma!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0009,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「What is that an anime character?」%p
+#mes2v OKA_0137,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Good grief. Daru your communication skills are broken beyond repair.」%p
+#setDic 25
+#mes2v DAR_0010,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I always liven up the place when I go to anime&cTIPSC; offline &cMESC; meetings bro.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),8
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),7
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),7
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes This fat eccentric bespectacled guy is my brother-in-arms and right-hand man - Hashida Itaru A.K.A Daru.%p
+#mes He’s one of those otaku youths who sit on the PC all day.%p
+#mes He has 2D wives on who he cheats with 3D maids. There are some problems with his preferences but to him all is well so long as it’s moe.%p
+#mes Daru is a very skilled and an extremely reliable man who turns my brilliant ideas into reality despite always saying that his forte is software and not hardware.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#mwait 1
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0045,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ow...! I pricked my finger...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSC
+#assign $W(SW_CHA1PRI),3
+#assign $W(SW_CHA5PRI),4
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_C04
+#assign $W(SW_CHA1FILTER),CHACOL_BG02A1
+#assign $W(SW_CHA5FILTER),CHACOL_BG02A1
+#call macrosys,CharaSet51
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeInTIM
+#resetFlag SF_BG3DISP
+#resetFlag SF_CHA2DISP
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),1
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),1
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#mwait 1
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes On the other side we have Shiina Mayuri - a 16 year old high school girl who is currently licking her finger with her eyes full of tears.%p
+#mes This one's also an otaku but not nearly as bad as Daru.%p
+#mes This nonchalant childhood friend of mine is in charge of making (female only) anime character cosplay for the Future Gadget Lab. Just like every other day she is doing that right now.%p
+#mes I don't really know much about the characters or if the costumes are even good.%p
+#mes Why does the Future Gadget Lab needs (female only) anime character cosplay you ask?%p
+#mes Let's just say that it absolutely doesn't.%p
+#mes That basically means that Mayuri is a completely useless existence to the lab.%p
+#mes However I have absolutely no intention of kicking her out.%p
+#mes After all the first one who knocked on the door of my just-established Future Gadget Lab was no other than her.%p
+#setFlag SF_Phone_AutoDisable
+#mes Even now I clearly remember the spring day when she first came to the lab. This is what Mayuri said to me.%p
+#messWindowCloseWait
+#call macrosys,FadeOutKaisou
+#assign $W(SW_MASK2ALPHA),0
+#resetFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#resetFlag SF_BG8DISP
+#resetFlag SF_CHA1DISP
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#loadBG 5,BG01A1
+#assign $W(SW_BG5PRI),PRI_BG
+#setFlag SF_BG5DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,SET_DOF_SHORT
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_ALA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_MAY_A02
+#call macrosys,CharaSet73
+#call macrosys,FadeInNormal
+#call macrosys,Set_VOspeaker_Default
+#mes2v MAY_0046,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii is Okarin’s hostage so I will be here no matter what.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutKaisou
+#call macrosys,CharaClr3
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_CHA1FILTER),CHACOL_BG02A1
+#assign $W(SW_CHA5FILTER),CHACOL_BG02A1
+#assign $W(SW_CHA2FILTER),CHACOL_BG03A2
+#assign $W(SW_CHA6FILTER),CHACOL_BG03A2
+#setFlag SF_BG1DISP
+#setFlag SF_BG2DISP
+#setFlag SF_BG8DISP
+#setFlag SF_CHA1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_MASK2ALPHA),128
+#call macrosys,FadeInNormal
+#resetFlag SF_Phone_Disable
+#mes Yes what she meant by that is truly uncertain.%p
+#mes But for me it was an offer of salvation.%p
+#mes She was the first person to join me in my grand plan. Her presence saved me from the solitude of being chased by the Organization.%p
+#mes I will be forever grateful for that.%p
+#mes I don’t care that Mayuri is useless. I’m fine with her just being here.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#mwait 1
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#call macrosys,Set_VOspeaker_Rear
+#mes2v DAR_0011,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So Okarin. Did Alpaca-man respond?」%p
+#messWindowCloseWait
+#setFlag SF_BG3DISP
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaSet62
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeOutTIM
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0138,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No not at all.」%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,IBG007
+#assign $W(SW_BG4PRI),PRI2_BG
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeInTIM
+#assign $W(SW_BG4FADECT),0
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG3DISP
+#resetFlag SF_CHA2DISP
+#resetFlag SF_BG8DISP
+#mes I don't know if it's a bug or something else but the human-faced Alpaca inside the monitor shows no reaction even though I'm speaking to him with utmost effort. What an ungrateful bastard.%p
+#mes Screw this I give up.%p
+#mes This is boring.%p
+#mes Never again will I play this pointless game.%p
+#messWindowCloseWait
+#assign $W(SW_BG4PRI),PRI2_BG
+#assign $W(SW_BG8FADECT),BGFADECT_MASK_MAX
+#resetFlag SF_CHA1DISP
+#setFlag SF_BG1DISP
+#setFlag SF_BG8DISP
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#mes2v OKA_0139,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Damn unsociable alpaca...」%p
+#mes While cursing I lightly hit the top of the TV.%p
+#mes Suddenly...%p
+#playSE 1,SGSE009L,true
+#mes2v OKA_0140,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hm?」%p
+#mes The TV made a noise as if it had shorted and then the screen suddenly went pitch black.%p
+#mes Changing the channel turning the power onoff or hitting it several times didn’t change anything.%p
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#mes A complete silence.%p
+#mes Looks like... It broke.%p
+#mes This shabby TV was given to us for free by the CRT Workshop downstairs.%p
+#mes Maybe it’s life span is over.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA1PRI),3
+#assign $W(SW_CHA5PRI),4
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#assign $W(SW_CHA1FILTER),CHACOL_BG02A1
+#assign $W(SW_CHA5FILTER),CHACOL_BG02A1
+#call macrosys,CharaDisp51
+#mes2v MAY_0047,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Alpaca-san must be mad.」%p
+#mes2v OKA_0141,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ugh. I will have to go ask if it can be fixed.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I turn the TV off and go next to the sofa.%p
+#setFlag SF_Phone_AutoDisable
+#mes The humidity of the Japanese summer is really annoying. While fanning myself I look up at the ceiling where a stain stood out.%p
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI2_BG
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG4MASKNO),MASK15
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeInTIM
+#assign $W(SW_BG4FADECT),0
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_NONE
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I try closing my eyes.%p
+#setFlag SF_Phone_AutoDisable
+#mes What naturally came to mind was the supernatural sight from an hour ago--%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

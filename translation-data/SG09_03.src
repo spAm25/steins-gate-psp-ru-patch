@@ -1,0 +1,530 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0816
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05A1
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),220
+#assign $W(SW_BG1SY),25
+#assign $W(SW_BG1LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG1LY),(SCR_SIZ_Y/2)
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#mes Returning to the lab、 I casually look up to the second floor window and lose my breath.%p
+#messWindowCloseWait
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 0,SGSE115
+#call macrosys,SEwaitHalf
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM08
+#mes2v OKA_4285,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The discharge phenomenon...!?」%p
+#mes Someone's activating the Time Leap Machine!?%p
+#mes Just who!?%p
+#mes Mayuri and Daru should be at ComiMa.%p
+#mes It would be strange for even Kurisu to be here since I asked her to escort Mayuri yesterday.%p
+#mes She wouldn't even use the Time Leap Machine in the first place.%p
+#mes My declaration of No experiments should've been effective even in this world line.%p
+#mes That、 and Kurisu's policy is to not change the past.%p
+#mes So who!?%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG05A1
+#endMovie
+#assign $W(SW_BG1PRI),PRI_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BgOverWrite
+#assign $W(SW_SEFADE),1
+#playSE 1,SGSE049L,true
+#call macrosys,Qua2All
+#mes The building is shaking.%p
+#mes That vibration reverberates to the streets.%p
+#mes The Time Leap Machine shouldn't be used to tamper with the law of cause and effect any more than this.%p
+#mes Someone、 I don't know who、 is using it!%p
+#mes I don't know if that someone knows how to use it、 though.%p
+#mes Anyway、 I need to stop it、 or we'll be in big trouble...!%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),0
+#assign $W(SW_BG1SY),0
+#assign $W(SW_BG1LX),SCR_SIZ_X
+#assign $W(SW_BG1LY),SCR_SIZ_Y
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#assign $W(LR_TMP10),120
+#assign $W(LR_TMP11),225
+#assign $W(LR_TMP12),(SCR_SIZ_X/2)
+#assign $W(LR_TMP13),(SCR_SIZ_Y/2)
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG1SX_OFS,($W(LR_TMP10)-$W(SW_BG1SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG1SY_OFS,($W(LR_TMP11)-$W(SW_BG1SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG1LX_OFS,($W(LR_TMP12)-$W(SW_BG1LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG1LY_OFS,($W(LR_TMP13)-$W(SW_BG1LY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG1ALPHA_OFS,(BG_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG2ALPHA_OFS,BG_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG1SX),120
+#assign $W(SW_BG1SY),225
+#assign $W(SW_BG1LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG1LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG1SX_OFS),0
+#assign $W(SW_BG1SY_OFS),0
+#assign $W(SW_BG1LX_OFS),0
+#assign $W(SW_BG1LY_OFS),0
+#assign $W(SW_BG1ALPHA),0
+#assign $W(SW_BG1ALPHA_OFS),0
+#assign $W(SW_BG2ALPHA),BG_ALP_MAX
+#assign $W(SW_BG2ALPHA_OFS),0
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK18
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG2_FadeOutTIM
+#mes I rush into the lab.%p
+#mes2v OKA_4286,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes The discharge phenomenon and the vibration have already calmed down.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes I gently peek into the development room.%p
+#mes Nobody's there.%p
+#mes The lab door was unlocked.%p
+#mes Meaning anyone could sneak in.%p
+#mes I click my tongue at my own carelessness.%p
+#mes The Time Leap Machine is still faintly warm.%p
+#mes I knew someone used it.%p
+#mes So、 did they time leap?%p
+#mes Just who....%p
+#mes I don't know.%p
+#mes Someone other than me used the Time Leap Machine.%p
+#mes This is the first time that's happened.%p
+#mes Just to make sure、 I check the settings on the connected X68000.%p
+#mes But it was useless.%p
+#mes Just like with D-mails、 the setting history has been erased.%p
+#mes ...It worries me.%p
+#mes But I can't do anything but ignore that worry.%p
+#mes What's more important now is what happened to Moeka.%p
+#mes I set up the Time Leap Machine.%p
+#mes The maximum leap time is 48 hours. To leap more than that、 you need to leap 48 hours and then leap again.%p
+#mes The 42in CRT downstairs is on.%p
+#mes Since the discharge phenomenon occurred、 that should be plain as day.%p
+#mes I put on the headgear.%p
+#mes Preparations complete.%p
+#messWindowCloseWait
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 0,SGSE035L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#label L_SG09_03_PHONE_CALL_01
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#PhoneCallActive PhID_Oven,PhID_NONE,PhID_NONE,PhID_NONE
+#mes ...Is it okay to just time leap like this?%p
+#flagOnJump SF_PhoneCallExec,L_SG09_03_JUNCTION_011
+#mes Nah、 it's obviously okay.%p
+#flagOnJump SF_PhoneCallExec,L_SG09_03_JUNCTION_011
+#mes Just a little more. Just a little more and I can save Mayuri for real.%p
+#flagOnJump SF_PhoneCallExec,L_SG09_03_JUNCTION_011
+#mes There's no need to hesitate now.%p
+#flagOnJump SF_PhoneCallExec,L_SG09_03_JUNCTION_011
+#mes Even if I don't time leap now、 all that waits for me is another memory of seeing Mayuri die.%p
+#flagOnJump SF_PhoneCallExec,L_SG09_03_JUNCTION_011
+#mes So in the end、 all I can do is time leap、 tattered.%p
+#flagOnJump SF_PhoneCallExec,L_SG09_03_JUNCTION_011
+#setFlag SF_Phone_AutoDisable
+#mes What I'm doing is the same.%p
+#flagOnJump SF_PhoneCallExec,L_SG09_03_JUNCTION_011
+#label L_SG09_03_PHONE_CALL_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCall
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_Phone_AutoDisable
+#setFlag SF_Phone_Disable
+#jump L_SG09_03_JUNCTION_010
+#label L_SG09_03_JUNCTION_010
+#messWindowCloseWait
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#mes ...I close my phone.%p
+#mes No need to rush. I tell myself to calm down.%p
+#mes I don't care how tattered I get.%p
+#mes I should use my weapon of time leaping to its maximum merit.%p
+#mes I should check the deadline of Mayuri's death in this world line.%p
+#mes Guessing by past circumstances、 Mayuri's death should happen around 7 to 8 tonight.%p
+#mes But things are a little different this time.%p
+#mes Namely、 the fact that Moeka committed suicide.%p
+#mes How much influence does that have?%p
+#mes There's the possibility that Mayuri wont' die.%p
+#mes We might have already succeeded at avoiding that death.%p
+#mes In that case、 I shouldn't waste my effort time leaping.%p
+#mes I have no obligations to save Moeka.%p
+#mes Let's wait. Until Kurisu contacts me.%p
+#mes It's 12:30 now.%p
+#mes There's still 7 hours left until the expected time.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01N1
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#playSE 1,SGSE032
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes I keep hearing nothing but the advancing of the clock's second hand.%p
+#mes That sound is already echoing inside my head、 and won't stop even if I plug my ears.%p
+#mes About an hour ago、 I chased after the IBN 5100's whereabouts、 but just as I thought、 I couldn't find it.%p
+#mes I also tried to think how Moeka's mail to cancel the phone model exchange would influence the whereabouts of the IBN 5100、 but just couldn't think of anything.%p
+#mes Does that mean exchanging phone models somehow lets Moeka know the IBN 5100 is in Yanabayashi Shrine?%p
+#mes That's confusing.%p
+#mes Even the Butterfly Effect has its limits.%p
+#mes But real life is different from novels.%p
+#mes There are many times where unreasonable things happen and when the cause is revealed、 it makes you say Oh、 so that's what it was.%p
+#mes So I couldn't rule it out entirely.%p
+#mes2v OKA_4287,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In the end、 I don't know anything、 huh...」%p
+#mes Murmuring in self-derision、 I twist my lips.%p
+#mes It's already "that time"-- 7:46 PM.%p
+#mes If Mayuri dies today、 then I should hear from Kurisu soon.%p
+#mes I hope to hear good news.%p
+#mes To hear Mayuri's voice-- proof in itself that "Mayuri didn't die"-- would be the best news I could ask for.%p
+#label L_SG09_03_PHONE_RING_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_PhID),PhID_CRS
+#call macrosys2,START_PHONE_RING
+#AutoSave 2
+#mes2v OKA_4288,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「──！」%p
+#flagOnJump SF_PhoneRecive,L_SG09_03_JUNCTION_100
+#setFlag SF_Phone_AutoDisable
+#mes An artificial melody resounds through the quiet lab.%p
+#flagOnJump SF_PhoneRecive,L_SG09_03_JUNCTION_100
+#label L_SG09_03_PHONE_RING_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneRecive
+#resetFlag SF_Phone_AutoDisable
+#setFlag SF_Phone_Disable
+#jump L_SG09_03_JUNCTION_101
+#label L_SG09_03_JUNCTION_100
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneRecive
+#resetFlag SF_PhoneRing
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,RECEIVE_PHONE_CALL_NORMAL
+#mes2v OKA_4289,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hello!?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2319,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「...okabe、 she...died... aah、 what... is this...」%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM24
+#call macrosys,ResetPhoneWindow
+#mes On the other side of the phone、 Kurisu is sobbing、 terribly confused.%p
+#mes So、 I know、 even without asking.%p
+#mes Mayuri died before Kurisu's eyes....%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2320,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「She... died... in front of my eyes... Hey、 Mayuri died...! Mayuri died...! This is... this is just...」%p
+#mes2v CRS_2321,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Suddenly、 she suddenly collapsed... why!? Why so suddenly... she's not breathing... she won't answer at all... please、 Mayuri!」%p
+#mes2v CRS_2322,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Okabe、 what、 what should I... what should I do... help... Mayuri died...」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4290,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I'm sorry. I pushed the hard job onto you.」%p
+#playSE 0,SGSE161
+#call macrosys,SEwaitHalf
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#mes I say only that、 and hang up the phone.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Maybe because I didn't see Mayuri's death firsthand.%p
+#mes Or maybe because my heart's been paralyzed.%p
+#mes I don't really feel sad this time.%p
+#mes I loathe myself for that──%p
+#messWindowCloseWait
+#playSE 0,SGSE114
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#mes I beat my fist on the table.%p
+#jump L_SG09_03_JUNCTION_102
+#label L_SG09_03_JUNCTION_101
+#mes I'm getting a phone call.%p
+#mes That could mean only one thing.%p
+#mes Mayuri died after all.%p
+#mes No matter what I say、 I don't doubt that fact.%p
+#mes Wishful thinking doesn't mean anything.%p
+#mes So I don't need to confirm it.%p
+#mes Mayuri dies in even in this world line after all.%p
+#mes I pushed the harsh job onto Kurisu.%p
+#mes While apologizing in my heart、 I bite my lip.%p
+#call macrosys2,IGNORE_PHONE_RING
+#setAchievement 30
+#resetFlag SF_Phone_Disable
+#jump L_SG09_03_JUNCTION_102
+#label L_SG09_03_JUNCTION_102
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes The deadline is 7-8PM on the 16th after all.%p
+#setFlag SF_Phone_AutoDisable
+#mes Mayuri will die unless I change the world line.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 0,SGSE035L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#resetFlag SF_Phone_Disable
+#mes I put on the headgear and immediately activate the Time Leap Machine.%p
+#label L_SG09_03_PHONE_CALL_02
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_PhoneSendMailExec
+#resetFlag SF_PhoneCallExec
+#PhoneCallActive PhID_Oven,PhID_NONE,PhID_NONE,PhID_NONE
+#mes I need to get Moeka's phone、 no matter what it takes...!%p
+#flagOnJump SF_PhoneCallExec,L_SG09_03_PHONE_CALL_02_EXEC
+#label L_SG09_03_PHONE_CALL_02_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCall
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_PhID),PhID_Oven
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#label L_SG09_03_PHONE_CALL_02_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCall
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#messWindowCloseWait
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#mwait 60
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#wait 1
+#mwait 60
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#playSE 1,SGSE053L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#playSE 1,SGSE054
+#call macrosys,SEwaitHalf
+#assign $W(SW_PHONE_PRI),PRI2_LOWER_CHARA
+#call macrosys,FadeOutFast
+#call macrosys2,SEAL_PHONE_WINDOW
+#call macrosys2,Init_Phone
+#call macrosys,InitGraph
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#wait 16
+#call macrosys,SE2waitHalf
+#call macrosys,FadeInSLOW
+#assign $W(LR_TMP00),TimeLeap_SG09_03_A
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG09_03_01
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01N1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes I go back all the way to the 11th with several time leaps.%p
+#mes It's past 8PM when I look at the clock.%p
+#mes2v OKA_4291,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm heading out.」%p
+#mes I leave the room without waiting for the lab mems to respond.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#assign $W(LR_NXTFIL),"SG09_04"
+#end
+#label L_SG09_03_JUNCTION_011
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCall
+#resetFlag SF_PhoneCallExec
+#messWindowCloseWait
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#mwait 90
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#wait 1
+#mwait 60
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#playSE 1,SGSE053L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#playSE 1,SGSE054
+#call macrosys,SEwaitHalf
+#assign $W(SW_PHONE_PRI),PRI2_LOWER_CHARA
+#call macrosys,FadeOutFast
+#call macrosys2,SEAL_PHONE_WINDOW
+#call macrosys2,Init_Phone
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#wait 16
+#call macrosys,SE2waitHalf
+#call macrosys,FadeInSLOW
+#assign $W(LR_TMP00),TimeLeap_SG09_03_B
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG09_03_02
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01N1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes In the room without anybody in it.%p
+#mes Suddenly the usual faces appear.%p
+#mes Mayuri sits on the sofa、 making costumes while sleepily rubbing her eyes.%p
+#mes Daru is at his PC、 muttering something or another.%p
+#mes Kurisu... is in the development room、 playing around with the Microwave Ophone (Temp).%p
+#mes Where could Moeka be at this time today?%p
+#mes Should I try going to that beat up apartment?%p
+#mes I don't really want to see her face to face.%p
+#mes If I meet with her、 my blood would boil with rage and I might start a fight even though she's a girl.%p
+#mes It's because of that girl that Mayuri has died so many times.%p
+#mes Mayuri、 who is now in front of me、 sewing for dear life.%p
+#mes The vivid red of the blood that flowed from Mayuri's body.%p
+#mes The light disappearing from her eyes.%p
+#mes It chokes me just remembering those things.%p
+#mes ...No. I can't run away.%p
+#mes In order to save Mayuri、 I must meet Moeka、 no matter what.%p
+#assign $W(LR_NXTFIL),"SG09_04"
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

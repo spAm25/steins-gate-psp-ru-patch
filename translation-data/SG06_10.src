@@ -1,0 +1,442 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes Leaping really is instantaneous.%p
+#mes Titor said something like a 10 year jump takes an hour.%p
+#mes A 10 year jump──%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes Right now、 I have no use for that.%p
+#mes Furthermore、 Kurisu said that time leaping that long an interval could cause mental disorders due to the gap in personality and memory.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ASA
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0877,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Juicy Karaage Number One♪」%p
+#mes Mayuri's singing her own song、 not eating Juicy Karaage Number One、 but some Karaage-kun she bought at the convenience store.%p
+#mes Since she can't warm it up in the microwave、 which is now a dedicated part of the Time Leap Machine.%p
+#mes ...I was right to come back five hours.%p
+#mes Mayuri's still in the lab.%p
+#mes But just what exactly was that earlier?%p
+#mes I bite my lip at the bitter thoughts.%p
+#messWindowCloseWait
+#setEVFlag 60
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_M13A
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes Mayuri died again.%p
+#mes At Shin-Ochanomizu Station、 a place completely unrelated to the lab or to the explosion.%p
+#mes Tennouji Nae pushed her.%p
+#mes She was run over by the train and torn to shreds.%p
+#setEVFlag 91
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_Z04A
+#assign $W(SW_BG3PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#add $W(SW_BG3PRI),PRI2_BG
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2ALPHA),(128-$W(LR_TMP11))
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),0
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Don't tell me that kid is a SERN conspirator?%p
+#mes No、 those were a the actions of a normal little girl.%p
+#mes Nae has a habit of happily jumping to Mayuri whenever she sees her.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_BG3ALPHA),0
+#assign $W(SW_BG3ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes But just what was with that timing?%p
+#mes I don't know──%p
+#mes I sense malice.%p
+#mes Whose malice?%p
+#mes If I have to say... then maybe it's a prank of fate.%p
+#mes But still、 I've returned again、 so I need to start acting immediately.%p
+#mes I'll definitely save Mayuri. Since I can time leap、 that's I can and must save her.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG048
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE082L,true
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#mes This time we take a taxi from Chuo Dori.%p
+#mes This isn't the time to be thrifty.%p
+#mes Mayuri doesn't complain this time either.%p
+#mes I considered going back to her family in Ikebukuro、 but Moeka's group might be lurking around their house. What are they doing now? I don't have a grasp on that pattern.%p
+#mes So I decided to go to Shinagawa.%p
+#mes But──%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 1
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG061
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BgOverWrite
+#mes The roads are abnormally crowded.%p
+#mes The driver said it's never been this crowded before.%p
+#mes I thought that the road might even be closed.%p
+#mes We escaped from Akiba、 but we can't reach Shinagawa.%p
+#mes I thought of going getting off halfway and taking a train、 but I decide not to once I remember what happened at Shin-Ochanomizu Station.%p
+#mes Nothing but bad feelings about this.%p
+#mes Thinking that this congestion could've been caused by Moeka's group、 I keep looking around the car's circumference. So much that Mayuri warned me that my eyes look scary-.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG088
+#setFlag SF_BG2DISP
+#call macrosys,FadeInSLOW
+#mes Three hours pass.%p
+#mes The cars still don't move.%p
+#mes According to the conversation between our driver and another driver I overheard、 it seems like there's a large scale inspection ahead.%p
+#mes Furthermore、 it doesn't seem like it's led by police、 and some fight going on there、 and such.%p
+#mes Even more unluckily、 this road has already been closed off、 and all remaining cars are being detoured.%p
+#mes Incidentally、 including our taxi、 there's only 100 cars、 but the inspection has been at a standstill for three hours──%p
+#mes Stuff like that.%p
+#mes I can't believe this. I don't think it's a coincidence.%p
+#mes Once again、 I feel the malice of a prank of fate.%p
+#mes Can I not save Mayuri this time either?%p
+#mes At this rate、 we should've gotten off the taxi instead of waiting for it to move.%p
+#mes No、 it's still not too late.%p
+#mes I should pay the driver and get off at once──%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#playSE 0,SGSE083
+#call macrosys,SEwaitHalf
+#mes Just as that thought passes my mind、 a silhouette bangs on the window from outside.%p
+#mes Even though it's congested and the taxi is stopped in the middle of the road.%p
+#mes No、 he's not just banging it、 he opens the door and barges into the back seat with Mayuri and me.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM12
+#mes2v MAY_0878,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh....」%p
+#mes In the man's hand、 a blade.%p
+#mes He's an assassin!%p
+#mes2v OKA_2877,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Run、 Mayuri──」%p
+#mes Before I can finish、 the man gags Mayuri's mouth with his large hand.%p
+#mes Trying to escape somehow、 I try opening the door.%p
+#mes But it won't open. The taxi is locked so that it can't be opened from the rear seat.%p
+#messWindowCloseWait
+#playSE 0,SGSE155
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_CHI
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG4_FadeInTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_CHI
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK01
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(SW_BG3FADECT),160
+#setFlag SF_BG3DISP
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#call macrosys,SEwaitHalf
+#mes2v MAY_0879,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「....ugh」%p
+#mes Mayuri opens her eyes wide.%p
+#mes Her body twitches.%p
+#mes2v OKA_2878,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What──」%p
+#mes In the narrow car. An unthinkable scene.%p
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes I hurriedly avert my gaze.%p
+#mes The man's knife pierced deep into Mayuri's chest.%p
+#mes A red spot stains her clothes.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP11,(BGFADECT_MASK_MAX-192),$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3FADECT),192+$W(LR_TMP11)
+#commitAnimation
+#assign $W(SW_BG3FADECT),BGFADECT_MASK_MAX
+#assign $W(SW_MASKALPHA),0
+#assign $W(SW_MASKCOLOR),COL_WHITE
+#assign $W(SW_MASKPRI),PRI_UPPER_CHARA
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM24
+#mes2v OKA_2879,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 ah....」%p
+#mes2v RND_0000,NO_CHARACTER,VID_ETC,＠Man　Who　Stabbed　Mayuri＠「Don't speak、 Okabe Rintaro.」%p
+#playSE 0,SGSE075
+#mes Another man gets into the passenger seat.%p
+#mes He points a gun at the driver and says something in a small voice.%p
+#mes Strength drains from Mayuri's body.%p
+#mes Her eyes slowly close.%p
+#mes Lines of tears stream from the corners of her eyes.%p
+#mes All of that、 before my eyes.%p
+#mes At a distance where I can feel her last breath.%p
+#mes She was killed again──%p
+#mes Why.%p
+#mes Why!?%p
+#mes Why can't I save her!?%p
+#mes Why won't you let me save her!?%p
+#mes Who's the one who wants to kill Mayuri?%p
+#mes Moeka? SERN?%p
+#mes Or──%p
+#mes Does the world itself wish for Mayuri's death?%p
+#mes I won't accept that...!%p
+#mes I clench my teeth hard.%p
+#mes I headbutt the man who stabbed her to death in the nose.%p
+#mes2v RND_0001,NO_CHARACTER,VID_ETC,＠Man　Who　Stabbed　Mayuri＠「Guh...!」%p
+#mes2v OKA_2880,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Open the door!」%p
+#setFlag SF_Phone_AutoDisable
+#mes I shout to the driver.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I crawl out of the taxi and escape、 weaving through the cars.%p
+#mes After running back to the lab for several hours、 luckily the Time Leap Machine is still there.%p
+#mes I'll leap through time again──%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#call macrosys,FadeInNORMAL
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG06_10_A
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG06_10_01
+#resetFlag SF_SYSTEMCHIP_HIDE
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM20
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes ──Maybe it's impossible to run away with Mayuri.%p
+#mes After going back six hours、 I grab my head and bite my lip.%p
+#mes I feel like I've hit a dead end.%p
+#mes I can't save Mayuri.%p
+#mes How should I save her?%p
+#mes ──Running away might be impossible.%p
+#mes2v OKA_2881,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Like hell it's impossible! I'll definitely save her!」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0880,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Whatcha talking about-?」%p
+#setFlag SF_Phone_AutoDisable
+#mes Mayuri just stares blankly.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI_EFFECT
+#setFlag SF_BG4DISP
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK15
+#assign $W(SW_BG3MASKFADERANGE),64
+#assign $W(SW_BG3FADECT),160
+#setFlag SF_BG3DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG22N
+#assign $W(SW_BG1PRI),PRI_LOWER_CHARA
+#setFlag SF_BG1DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA1PRI),PRI2_BG
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#mes I take Mayuri and dash to the police station.%p
+#mes I ask them to protect her and tell several policemen the circumstances.%p
+#mes I desperately explain that Mayuri's going to be killed in a few hours、 but they turned us away with the explanation that the police can't act without hard evidence that a stalker will cause damages.%p
+#mes Six hours pass since we left the police station、 and in the end、 we're left with no choices but to keep running.%p
+#mes It would be great if everything was just a series of unfortunate events.%p
+#mes Because then we could have second tries at charging Shin-Ochanomizu Station or Shinagawa.%p
+#mes But I don't have the courage to walk about the streets of Akiba now.%p
+#mes At the end of the day、 the number of paths we can take are reduced.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#mes Now I'm afraid to ride subways and taxis.%p
+#mes If we ride those、 or rather、 try to ride them、 Mayuri will die──%p
+#mes That image sticks to my mind.%p
+#mes What am I doing?%p
+#mes In these past dozens of hours、 I've seen Mayuri die several times.%p
+#mes I don't want to see Mayuri's pitiful figure any more.%p
+#messWindowCloseWait
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#mes We take refuge in Yodobashi Camera.%p
+#mes I thought we could keep hiding there.%p
+#mes But after seven hours、 the explosion happens in front of the station.%p
+#mes Yodobashi goes into chaos.%p
+#mes Several policemen appear to start evacuation.%p
+#mes Anyone who doesn't comply is mistaken for a terrorist and shot.%p
+#mes Impossible.%p
+#mes This isn't America.%p
+#mes It's not normal for Japan's police to shoot guns without any warning shots.%p
+#mes Mayuri died.%p
+#mes Quickly.%p
+#mes She got hit by a policeman's bullet.%p
+#mes It doesn't matter if they were real policemen or disguised SERN assassins.%p
+#mes I was convinced.%p
+#mes The world itself is killing Mayuri.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,FadeOutSLOW
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,InitGraph
+#call macrosys,FadeInSLOW
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG06_10_B
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG06_10_02
+#resetFlag SF_SYSTEMCHIP_HIDE
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

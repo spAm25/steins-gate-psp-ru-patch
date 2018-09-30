@@ -1,0 +1,1088 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label L_START
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#setFlag SF_BG2DISP
+#call macrosys,FadeIn0
+#jump L_CERO
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0815
+#flagOnJump_MailView RM_BRANCH_CRS_ENABLE_2,L_SG10_01_TITLE_CRS
+#jump L_SG10_01_TITLE_MAY
+#label L_SG10_01_TITLE_CRS
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,TIT010
+#setFlag SF_BG1DISP
+#call macrosys,FadeInVery2Slow
+#AutoSave 1
+#call macrosys,SetRevTitle
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#jump L_SG10_01_TITLE_CHECK
+#label L_SG10_01_TITLE_MAY
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,TIT011
+#setFlag SF_BG1DISP
+#call macrosys,FadeInVery2Slow
+#AutoSave 1
+#call macrosys,SetRevTitle
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#jump L_SG10_01_TITLE_CHECK
+#label L_SG10_01_TITLE_CHECK
+#call macrosys,FadeOutVERYSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInVERYSLOW
+#mes To believe I wasn't wrong.&p
+#mes As long as I had the conviction to achieve that belief、 everything would be resolved.%p
+#mes The only absolute answer.%p
+#mes That entire equation collapsed on itself.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaDispW5162
+#mes And instead、 what was presented was──%p
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaErase1
+#mes Abandon Kurisu?%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51Only
+#mes Abandon Mayuri?%p
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaEraseAll
+#mes That sort of extreme choice.%p
+#messWindowCloseWait
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG11A3
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG11A3
+#call macrosys,TUNE_CHACOL_BGNO
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#mes Radio Kaikan is still off limits.%p
+#mes They still haven't repaired the hole in the eighth floor wall that the satellite-- that Suzuha's time machine had destroyed.%p
+#mes I can look down on Akiba's streets from the rooftop.%p
+#mes From up here、 the streets look tight.%p
+#playSE 0,SGSE141
+#mes Now、 above the guardrail in front of me、 a yellow train runs through the Sobu Line.%p
+#mes I wanted to be alone、 so I came here.%p
+#mes The day before yesterday、 I canceled our plan to crack with the IBN 5100 right after hatching it.%p
+#mes Kurisu and Daru pressured me to tell them why、 but I just couldn't explain.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM20
+#mes It's already been two days since.%p
+#mes I couldn't make a decision when faced with such an extreme choice.%p
+#mes2v OKA_4657,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Just what should I do?%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C02A
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes Kurisu's mysterious death that day.%p
+#mes On that day、 where I'm standing right now、 when Doctor Nakabachi presented his would-be time machine.%p
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes July 28.%p
+#mes Two weeks ago.%p
+#mes Let's say、 that as planned、 we delete the first D-mail I sent-- the one conveying Kurisu's death-- from SERN's database.%p
+#mes Then I return to the β World Line、 where it all began. What would happen then?%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#add $W(SW_CHA1PRI),PRI2_BG
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(LR_TMP00),24
+#assign $W(LR_TMP01),24
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA1ALPHA),128
+#assign $W(SW_CHA1ALPHA_OFS),0
+#call macrosys,TuneParam51
+#mes My predictions would say that our comrade、 Lab Member 004、 Makise Kurisu──%p
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaEraseAll
+#mes Would disappear.%p
+#mes It's a contradiction for someone who died two weeks ago to be alive in August 15.%p
+#mes A time paradox.%p
+#mes Kurisu must not exist in August 15.%p
+#mes The world has already eliminated her existence.%p
+#mes I have been given two choices.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG011
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes The first choice is to hack SERN with the IBN 5100 and delete the data of the first D-mail I sent.%p
+#mes If we do that to return to the β World Line、 Kurisu would disappear、 but Mayuri wouldn't die. In the future、 the world will be free without SERN creating a dystopia.%p
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG01A1
+#assign $W(SW_BG3PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#add $W(SW_BG3PRI),PRI2_BG
+#assign $W(LR_TMP00),32
+#assign $W(LR_TMP01),32
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2ALPHA),(128-$W(LR_TMP11))
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),0
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes The second choice is to keep living here in the α World Line without hacking SERN.%p
+#mes Mayuri will most likely die. So will Moeka and FB.%p
+#mes Kurisu may be forced by SERN to pursue time machine research、 but at the very least、 she won't die.%p
+#mes And then SERN will rule space-time、 and complete their dystopia in the future.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_BG3ALPHA),0
+#assign $W(SW_BG3ALPHA_OFS),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v OKA_4658,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Chose one、 huh...?」%p
+#mes I laugh in self derision.%p
+#mes I could do nothing but laugh.%p
+#mes Such an absurd decision.%p
+#mes This is──%p
+#mes2v OKA_4659,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This isn't something... I can choose...」%p
+#mes I don't really care about the future、 be it free or ruled by SERN's dystopia.%p
+#mes Though I really should care、 since Suzuha entrusted her wish to me、 I should think this through properly.%p
+#mes But no matter how much I try to think 20 years into the future、 I just can't feel a sense of impending doom.%p
+#mes What's important to me now is Mayuri and Kurisu. Whose life to steal.%p
+#messWindowCloseWait
+#call macrosys,FadeOutVERYSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaSetW5162
+#call macrosys,FadeInVERYSLOW
+#mes If I were given this choice back in July 28.%p
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaErase1
+#mes I would probably have chosen to abandon Kurisu and save Mayuri without any hesitation.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes But those conditions don't really mean anything.%p
+#mes It isn't July 28. It's August 15.%p
+#messWindowCloseWait
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),PRI2_BG
+#assign $W(SW_BG8SX),0
+#assign $W(SW_BG8SY),0
+#assign $W(SW_BG8LX),SCR_SIZ_X
+#assign $W(SW_BG8LY),SCR_SIZ_Y
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_CHARA
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#setFlag SF_BG8DISP
+#assign $W(LR_TMP00),BG_VERY2SLOW
+#assign $W(LR_TMP01),BG_VERY2SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG8SX_OFS,(610-$W(SW_BG8SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SY_OFS,(40-$W(SW_BG8SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG8LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG8LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG8SX),610
+#assign $W(SW_BG8SX_OFS),0
+#assign $W(SW_BG8SY),40
+#assign $W(SW_BG8SY_OFS),0
+#assign $W(SW_BG8LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG8LX_OFS),0
+#assign $W(SW_BG8LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG8LY_OFS),0
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_CLIP
+#mes I spent these past two weeks with Kurisu as a lab mem、 and now she's melded perfectly into our lab.%p
+#mes All these times I've time leaped、 I've been saved countless times by Kurisu's existence.%p
+#mes She was always calm、 always precise、 always giving interesting hypotheses、 always pushing my back.%p
+#mes The Time Leap Machine wouldn't have even been completed if it weren't for Kurisu. So just the fact that I've reached this point is all thanks to that genius girl.%p
+#mes Then how the hell could I just abandon her?%p
+#messWindowCloseWait
+#assign $W(SW_BG8PRI),PRI2_BG
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeOutTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#mes But on the other hand、 letting Mayuri die is also out of the question.%p
+#messWindowCloseWait
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),PRI2_BG
+#assign $W(SW_BG8SX),0
+#assign $W(SW_BG8SY),0
+#assign $W(SW_BG8LX),SCR_SIZ_X
+#assign $W(SW_BG8LY),SCR_SIZ_Y
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_CHARA
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#setFlag SF_BG8DISP
+#assign $W(LR_TMP00),BG_VERY2SLOW
+#assign $W(LR_TMP01),BG_VERY2SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG8SX_OFS,(140-$W(SW_BG8SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SY_OFS,(40-$W(SW_BG8SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG8LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG8LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG8SX),140
+#assign $W(SW_BG8SX_OFS),0
+#assign $W(SW_BG8SY),40
+#assign $W(SW_BG8SY_OFS),0
+#assign $W(SW_BG8LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG8LX_OFS),0
+#assign $W(SW_BG8LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG8LY_OFS),0
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_CLIP
+#mes I've kept fighting until now for the sake of saving Mayuri.%p
+#mes I came prepared to throw away my life if it's for her sake.%p
+#mes I want to save Mayuri more than anyone else.%p
+#mes I want her to live.%p
+#mes So I absolutely cannot just sit back and watch her die.%p
+#mes I won't let Mayuri die.%p
+#messWindowCloseWait
+#assign $W(SW_BG8PRI),PRI2_BG
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeOutTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#mes2v OKA_4660,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So in the end、 I didn't chose either... there's no way I could chose either...」%p
+#mes In other words、 this choice is which do I kill.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes2v OKA_4661,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is this how... it ends...」%p
+#messWindowCloseWait
+#playSE 0,SGSE139
+#call macrosys,FadeOutWhiteFAST
+#call macrosys,InitGraph
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG11A3
+#setFlag SF_BG1DISP
+#call macrosys,FadeInFAST
+#call macrosys,SEwaitHalf
+#mes I drive my fist into the wire fence.%p
+#mes2v OKA_4662,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Suzuha、 Faris、 Lukako、 Moeka.... I've come all the way here by sacrificing your memories、 and this is how it ends...!?」%p
+#mes Is there no other option?%p
+#mes A loophole、 where neither dies.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG11A1
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes ...Can't I use Suzuha's time machine?%p
+#mes After returning to the β World Line、 time travel to July 28 with Suzuha's time machine.%p
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes No、 that's impossible.%p
+#mes In the first place、 Suzuha leapt to 2010 to change the future of SERN's rule. That cause and effect only happens in the α World Line.%p
+#mes Once I escape from the α World Line、 Suzuha's desired future will be realized、 eliminating her reason to leap to 2010.%p
+#mes If Suzuha's time machine only exists in the β World Line、 I can't use it.%p
+#mes ...In that case、 what if I send a D-mail to Kurisu that day、 warning her?%p
+#mes Warning....%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG06A4
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(LR_TMP00),32
+#assign $W(LR_TMP01),32
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes Something like、 Don't come to Doctor Nakabachi's presentation、 for example.%p
+#mes No、 that won't work either.%p
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes There's the Attractor Field Theory.%p
+#mes Cause and effect will converge.%p
+#mes No matter what I do in the β World Line、 Kurisu will die.%p
+#mes No matter how I try to avoid it、 it'll be like how I couldn't save Mayuri.%p
+#mes Now、 here in the α World Line、 the world wishes for Mayuri's death.%p
+#mes In the β World Line which I'm struggling to get to、 the world wishes for Kurisu's death.%p
+#mes2v OKA_4663,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's no good...」%p
+#mes I slowly sink to the floor with my back to the wire fence.%p
+#mes2v OKA_4664,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I can't... save her...」%p
+#mes I'm powerless against the result the world wishes for....%p
+#mes What should I....%p
+#mes Just what should I do....%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#mes2v OKA_4665,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Maybe──%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6ALPHA),0
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaSetW5162
+#add $W(SW_CHA2PRI),PRI2_BG
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_CHA2ALPHA),128
+#assign $W(SW_CHA2ALPHA_OFS),0
+#mes Maybe Mayuri doesn't die in the current world line.%p
+#mes Moeka's mail got canceled. I haven't seen the Divergence Meter in detail.%p
+#mes So the possibility isn't zero is it?%p
+#mes Or perhaps、 following the flow of things、 the deadline of Mayuri's death is the night of the 17th.%p
+#mes If Mayuri doesn't die that night between 7 and 8──%p
+#mes Then there will be no need for me to make this extreme decision.%p
+#mes From all my experiences so far、 I understand it's unlikely.%p
+#mes But even so、 I can't help but cling onto that hope.%p
+#add $W(SW_CHA1PRI),PRI2_BG
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA1ALPHA),128
+#assign $W(SW_CHA1ALPHA_OFS),0
+#mes Mayuri and Kurisu.%p
+#mes If I can save both of them、%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I don't care if the future is ruled by SERN.%p
+#mes I can even easily betray the memories Suzuha entrusted to me.%p
+#mes So please.%p
+#mes Don't wish for Mayuri's death any more...!%p
+#mes Those wishes of mine、 those prayers of mine... to whom should I send them to?%p
+#mes To God?%p
+#mes To the World?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#mes Surely in that case、 the tiny prayers of a man like me won't reach──%p
+#setFlag SF_Phone_AutoDisable
+#mes I embrace the conviction known as hope within my heart.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG048
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#mes This year's summer ComiMa is open three days、 from the 15th to the 17th.%p
+#mes That last day.%p
+#mes I go with Mayuri to the event grounds from morning till the end.%p
+#mes Though all I did was carry Mayuri's bags.%p
+#mes It's not really my thing、 and the crowd was dreadful、 so I just spaced out in the corner. Occasionally、 Mayuri and I would go back for food and drink、 but otherwise、 I spent the day alone.%p
+#mes In some sense、 it was escapism. I made my mind a blank、 distracting myself from the ominous premonition.%p
+#mes But even so、 I felt the grim reaper's countdown clock ticked down、 and couldn't calm myself.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG14N
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG14N
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(LR_DATE),0817
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mwait 32
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_1223,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Haa、 we're finally home-♪」%p
+#mes It was already dark when we went home by non-stop shuttle bus.%p
+#mes In Mayuri's hand is her costume carrying case.%p
+#mes In my hands are illustrated paper bags. Inside is a large amount of doujinshi.%p
+#mes By the way、 it's not what I bought、 but what Mayuri bought.%p
+#mes ...Maybe this was the reason she didn't participate in cosplay.%p
+#mes After all、 buying stuff there is hectic.%p
+#mes We just stand there for a while after getting off the bus.%p
+#mes2v OKA_4666,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you going to do from here? Heading straight home?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1224,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「No. Actually、 I was thinking of going to the lab.」%p
+#mes2v OKA_4667,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Need something?」%p
+#mes2v MAY_1225,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Not really、 but it's been a while since I've gotten to relax with Okarin- so」%p
+#mes2v MAY_1226,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I'm a little hungry、 so on the way、 I'll buy some Juicy Karaage Number One.」%p
+#mes ComiMa、 the unusual festival、 has ended.%p
+#mes I want to experience the everyday after these long three days──%p
+#mes That's what I might have thought.%p
+#mes I hold back a groan and shrug.%p
+#mes2v OKA_4668,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well、 let's go home.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG20N1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG20N1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALB
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_1227,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Heyhey、 Okarin. Why did you come with Mayushii today-?」%p
+#mes2v MAY_1228,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Before now、 you haven't come to ComiMa with me、 right? Okarin isn't interested in moe、 huh.」%p
+#mes2v OKA_4669,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm interested in mecha anime.」%p
+#mes But not so much that I'd line up early in the morning each year for ComiMa like Daru or Mayuri though.%p
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALB
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#call macrosys,CharaDisp51
+#mes2v MAY_1229,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 why did you come with me today-?」%p
+#mes2v OKA_4670,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It was...」%p
+#mes To confirm Mayuri's death.%p
+#mes Those words float through my head、 but I desperately shake them out.%p
+#mes Why am I so set on Mayuri dying?%p
+#mes What I should be wishing for instead is that Mayuri doesn't die.%p
+#mes2v MAY_1230,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It was-?」%p
+#mes2v OKA_4671,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...On a whim」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_1231,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see...」%p
+#mes2v OKA_4672,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v MAY_1232,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「…………」%p
+#mes We're suddenly visited by silence.%p
+#mes Mayuri's face、 which is usually smiling、 now looks unusually downhearted.%p
+#mes Did she not like my answer?%p
+#mes But it's not like I could just give her the real answer.%p
+#mes I mean、 there's no way I can just say%p
+#mes You will die in a few minutes、 can I....%p
+#mes2v OKA_4673,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako...」%p
+#mes I start making excuses in a panic.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM13
+#mes2v OKA_4674,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I thought that I'd see Lukako all embarrassed cosplaying and laugh at him. But unfortunately、 he didn't come.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1233,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 yeah.... Even though Luka-kun would absolutely get really popular-」%p
+#mes2v MAY_1234,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「His images would get uploaded to all sorts of blogs、 he'd appear in newspapers and on news sites、 and he'd even get introduced overseas-」%p
+#mes2v MAY_1235,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And then Luka-kun would be a world wide superstar. And then Mayushii would see him and think 'Oh、 he's gone so far-'」%p
+#mes2v OKA_4675,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's scary 'cause it's true...」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG18N1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG18N1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALC
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_1236,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...Hey、 Okarin.」%p
+#mes Suddenly、 Mayuri turns to me、 walking backwards and peeking at my face.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1237,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Thank you for today.」%p
+#mes2v OKA_4676,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's this all of a sudden...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_1238,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehhehe-. Well、 I said so before、 but this is the first time Okarin came with me to ComiMa.」%p
+#mes2v MAY_1239,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It made Mayushii really happy♪」%p
+#mes A smile finally returns to Mayuri's face.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1240,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 but you know、 if Okarin cosplays next time、 it would make me even happier-」%p
+#mes2v OKA_4677,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Ahh、 I'll think about it.」%p
+#mes Yeah. Don't think negative thoughts.%p
+#mes Think about a fun、 bright future.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_1241,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh? It's okay-? Really-?」%p
+#mes2v OKA_4678,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you participate in cosplay yourself、 that is.」%p
+#mes2v OKA_4679,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And not just that、 but Lukako too... and invite Christina too. Persuade them to cosplay.」%p
+#mes2v OKA_4680,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you can get that far、 the I、 the star performer、 the insane mad scientist、 Hououin Kyouma、 will have no choice but to descend upon ComiMa.」%p
+#mes The next ComiMa is in winter.%p
+#mes And then we'd go there、 as if nothing had happened.%p
+#mes We'd all get together with smiling faces. Let's think of that future.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_1242,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Oh-kay. Looks like a steep road ahead-.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1243,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But you know、 if I try imagining it、 it seems really fun-」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_1244,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And I think Chris-chan has some interest in cosplay too. There is hope-♪」%p
+#mes2v MAY_1245,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii's gonna do her best.」%p
+#label L_CERO
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG05N2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG05N2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,CharaClrAll
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes We've arrived in front of the lab.%p
+#mes I looked up to the second floor window、 but there's no light.%p
+#mes Nobody's here today、 unlike usual.%p
+#mes I have a bad feeling about this.%p
+#mes Is Moeka planning an ambush under the cover of night?%p
+#mes Although I've forgiven Moeka、 Manager、 and the Rounders in previous world lines.%p
+#mes Those times have already been undone.%p
+#mes In this world line、 the truth that they're aiming for the Time Leap Machine is left unchanged.%p
+#mes2v OKA_4681,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri、 wait here for a bit.」%p
+#mes Motioning for her to sit and wait on the bench in front、 I peek around my surroundings.%p
+#mes I know this precaution is useless.%p
+#mes But still、 I wanted to do what I could in order to bet on the slight chance Mayuri doesn't die in this world line.%p
+#mes It doesn't seem like a good idea to just rush into the lab from the front.%p
+#mes I thought I'd first search the circumference of the building for any suspicious figures lurking in the shadows.%p
+#mes I part from Mayuri and proceed towards Kuramae Bridge.%p
+#mes All the while making sure Mayuri doesn't leave my sight.%p
+#mes I survey my surroundings、 looking for any sign of danger──%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#playSE 0,SGSE136
+#call macrosys,SEwaitHalf
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#mes2v OKA_4682,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「……？」%p
+#playSE 0,SGSE137
+#mes Suddenly、 the white station wagon parked at the alley engages its engine、 and abruptly takes off.%p
+#mes2v OKA_4683,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Eh...」%p
+#mes I can clearly see the driver's seat.%p
+#mes I try to identify the man's face、 but nobody immediately comes to mind.%p
+#mes At the very least、 it's not Manager or Moeka.%p
+#mes But I do remember seeing that white station wagon.%p
+#mes In previous world lines、 whenever Moeka would try to run us over、 it was in this white station wagon.%p
+#mes When Manager retrieved the IBN 5100、 he was in that same car.%p
+#mes It's heading my way at full speed.%p
+#mes I check the place I'm standing at.%p
+#setFlag SF_Phone_AutoDisable
+#mes Center of the street. At this rate、 I'll be run over to death──%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_WHITE
+#assign $W(LR_TMP00),24
+#assign $W(LR_TMP01),24
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(256-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),256
+#assign $W(LR_TMP00),36
+#assign $W(LR_TMP01),36
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(192-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),192
+#mes The station wagon's headlights switch to high beam.%p
+#mes My vision becomes completely enveloped in its light.%p
+#mes At the same time、 my mind turns pure white.%p
+#mes My feet freeze at the sudden change of events.%p
+#mes This ambush is still an ambush、 but instead of inside the lab、 it's outside.%p
+#mes And the opponent is a car.%p
+#mes What to do?%p
+#mes What should I do?%p
+#mes It's okay. I shouldn't die. The world hasn't recognized my death.%p
+#mes No、 wait、 what day was it today?%p
+#mes Isn't this the first time I've come all the way to the 17th?%p
+#mes Meaning、 whether or not I die hasn't been decided yet...?%p
+#mes Will I die in Mayuri's place?%p
+#mes In that case、 maybe I can go in peace.%p
+#mes No! I don't want to die!%p
+#mes Those two contradictory thoughts run through my mind.%p
+#mes My body would not react at all contrary to my will.%p
+#mes Will I be the one to die──？%p
+#mes2v MAY_1246,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin!」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5POSX),0
+#assign $W(SW_CHA5FACE),Face_MAY_A05
+#assign $W(SW_CHA5FADECT),0
+#assign $W(SW_CHA5FADETYPE),CHAFADETYPE_ALPHA
+#setFlag SF_CHA5DISP
+#assign $W(SW_CHA1FADECT),CHAFADECT_ALPHA_MAX
+#assign $W(SW_CHA1FADETYPE),CHAFADETYPE_ALPHA
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA5FADECT,CHAFADECT_ALPHA_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA5POSX_OFS,(CHR_LEFT0-$W(SW_CHA5POSX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA_OFS,(256-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_CHA1FADECT),(CHAFADECT_ALPHA_MAX-$W(SW_CHA5FADECT))
+#assign $W(SW_CHA1POSX_OFS),$W(SW_CHA5POSX_OFS)
+#commitAnimation
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FADECT),0
+#assign $W(SW_CHA5FADETYPE),CHAFADETYPE_NONE
+#assign $W(SW_CHA5POSX_OFS),0
+#resetFlag SF_CHA1DISP
+#assign $W(SW_CHA1POSX),CHR_LEFT0
+#assign $W(SW_CHA1FADECT),0
+#assign $W(SW_CHA1FADETYPE),CHAFADETYPE_NONE
+#assign $W(SW_CHA1POSX_OFS),0
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),256
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#assign $W(SW_BGMFADE),FADE_VERYFAST
+#stopBGM
+#playSE 0,SGSE015
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#mes2v OKA_4684,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「!?」%p
+#mes My back is pushed forcibly──%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteVERYFAST
+#call macrosys,InitGraph
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_WHITE
+#playSE 0,SGSE074
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#playSE 0,SGSE140
+#call macrosys,SEwaitHalf
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05N2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05N2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes I open my eyes.%p
+#mes I crawl to the edge of the road.%p
+#mes My body is in pain.%p
+#mes But I'm just scratched a bit at most.%p
+#mes I was saved──？%p
+#mes I raise my head.%p
+#mes What I see is...%p
+#mes The station wagon's red taillights as it turns at the intersection ahead.%p
+#mes And then、 a little bit away from me-- in the center of the road-- Mayuri's collapsed figure.%p
+#mes2v OKA_4685,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri!」%p
+#mes I rush over to her.%p
+#mes Mayuri is──%p
+#mes Bleeding、 from her head.%p
+#mes Did she protect me...?%p
+#mes That's、 that's just....%p
+#messWindowCloseWait
+#setEVFlag 54
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M07A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),620
+#assign $W(SW_BG3SY),340
+#assign $W(SW_BG3LX),640
+#assign $W(SW_BG3LY),360
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM24
+#mes I lift her body up in my arms.%p
+#mes Mayuri's eyelids twitch and then slowly open.%p
+#setEVFlag 54
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M07A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v MAY_1247,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「O...kari...」%p
+#mes2v OKA_4686,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri... I'm sorry... because of me...」%p
+#mes Her thin hand wanders as if seeking something.%p
+#mes It's raised towards the starry sky.%p
+#mes Her eyes look like they'll shut at any moment.%p
+#setEVFlag 54
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M07A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),60
+#assign $W(SW_BG3SY),180
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes But even so、 they look straight into mine.%p
+#mes For some reason、 she's smiling.%p
+#mes2v MAY_1248,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Finally、 Mayu...shii... was...」%p
+#mes2v MAY_1249,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「useful... for... Okarin...」%p
+#mes2v OKA_4687,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What... are you...」%p
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,THREAD_HANDS
+#mes Her hand raised to the starry sky grasps at the air.%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes Stardust Shakehand.%p
+#mes Yet in the end、 that hand will never hold anything.%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05N2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05N2
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes It loses strength immediately.%p
+#mes I grab the wrist that threatens to fall to the earth.%p
+#mes Mayuri no longer breathes.%p
+#mes ...How many times have I seen Mayuri die now?%p
+#mes This time is just... too much....%p
+#mes This is all my fault、 isn't it....%p
+#mes I embrace Mayuri's tattered body、 which no longer responds、 nor moves at all.%p
+#mes I hold back my tears from overflowing.%p
+#mes2v OKA_4688,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 Mayuri...」%p
+#mes2v OKA_4689,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「From here、 you can't really see the stars too much、 can you...」%p
+#mes2v OKA_4690,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This is... too much...」%p
+#mes Why did she have to die here?%p
+#mes What was the meaning of this death?%p
+#mes The death the world wished for.%p
+#mes Fate that always converges to the same result.%p
+#mes I knew it would turn out like this.%p
+#mes I couldn't avoid Mayuri's death.%p
+#mes I knew it from previous experience.%p
+#mes But to think I could save her from death....%p
+#mes How could she die while smiling....%p
+#mes2v OKA_4691,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you mean "you were finally useful"....? Huh、 Mayuri...」%p
+#mes Mayuri has no future in this world line.%p
+#mes I can't run away after all.%p
+#mes Reach the β World Line by hacking SERN and killing Kurisu?%p
+#mes Do nothing and accept Mayuri's death?%p
+#mes I need to make a decision.%p
+#setFlag SF_Phone_AutoDisable
+#mes Not anyone else、 but the one who has been messing around with the world line as he pleases. Me.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#wait 16
+#call macrosys,FadeInSLOW
+#assign $W(LR_TMP00),TimeLeap_SG10_01
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG10_01
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#endMovie
+#label THREAD_HANDS
+#assign $W(LR_TMP00),256
+#assign $W(LR_TMP01),256
+#assign $T(THD_WORK19),(320-$W(SW_BG2SX))
+#beginAnimation
+//#add $T(THD_WORK17),1
+#CalcMove SW_BG2SX_OFS,$T(THD_WORK19),$W(LR_TMP00),$W(LR_TMP01)
+//#wait 1
+#flagOffJump LF_THD_CTRL,@f
+#commitAnimation
+#label @@
+#add $W(SW_BG2SX),$T(THD_WORK19)
+#assign $W(SW_BG2SX_OFS),0
+#resetFlag LF_THD_EXEC
+#end

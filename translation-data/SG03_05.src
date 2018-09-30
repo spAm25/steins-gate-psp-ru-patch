@@ -1,0 +1,903 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#assign $W(LR_DATE),0802
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#wait 16
+#call macrosys,FadeInSlow
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes2v OKA_1351,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina! Stop the experiments at once!」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),480
+#assign $W(SW_BG1POSY),450
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6POSX),CHR_RIGHT2
+#assign $W(SW_CHA6FACE),Face_DAR_B01
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BMA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_CRS_A06
+#call macrosys,CharaSetT516273
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes When I rush into the lab、 the three of them are having a carefree lunchtime.%p
+#mes Mayuri has juicy karaage number one.%p
+#mes Daru has a convenience store boxed lunch.%p
+#mes Kurisu's eating cup noodles with a fork.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0283,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Sorry、 Okarin. Just now、 Mayushii tried to warm up some karaage.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0284,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And out of habit、 I put it through reverse rotation、 and then it discharged-」%p
+#mes2v OKA_1352,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I-I see.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMA
+#assign $W(SW_CHA7FACE),Face_CRS_A01
+#call macrosys,CharaDisp73
+#mes2v CRS_0789,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You should've gotten mail. Did you look at it?」%p
+#mes She says it so nonchalantly、 but there's no way I could've looked at it.%p
+#mes My phone's hooked up to the Microwave Ophone (Temp)!%p
+#mes Man、 she's such a sarcastic woman.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A5
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#resetFlag SF_CHA3DISP
+#mes I grind my teeth and disconnect my phone from the Microwave Ophone (Temp).%p
+#setFlag SF_PhoneSD_Disp
+#setFlag_MailRecive FM_From_CRS0333
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_MENUCUR),0
+#assign $W(SW_PHONE_MAILMENUCUR),0
+#assign $W(SW_PHONE_MODE),PhoneMode_MailMenu
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVEBOX
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_MAILNO),FM_From_CRS0333
+#call macrosys2,SELECT_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#mes One more please?%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#setFlag SF_CHA2DISP
+#setFlag SF_CHA3DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_Phone_Disable
+#mes2v OKA_1353,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't screw around! Mister Braun blames me、 you know!」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMA
+#assign $W(SW_CHA7FACE),Face_CRS_A02
+#call macrosys,CharaDisp73
+#mes2v CRS_0790,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But I even advised you five days ago.」%p
+#mes The timestamp certainly was five days ago、 but...!%p
+#label L_SG03_05_RM_RUK03_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_RUK
+#assign $W(LR_RM_CHANCE),19
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A06
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0470,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Was Manager mad?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1354,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah.... I felt waves of murderous intent.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Daru turns pale、 but the two girls don't seem to care.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Those two know not the wrath of Manager. How innocent.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1355,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Anyway、 today、 all further experiments are canceled.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMA
+#assign $W(SW_CHA7FACE),Face_CRS_A05
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0791,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Well、 we did get sufficient experimental data.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Then Kurisu yawns、 hiding her mouth with her hand.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0792,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm dead tired、 and my hair's dried out. I want to take a shower and go to sleep.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A5
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG03A5
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I sigh and take a boxed lunch out of the convenience store bag.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes It got cold、 so I toss it into the Microwave Ophone (Temp) and set the timer normally.%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE011
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0285,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「If you want a shower、 there's one here-. It doesn't have a bathtub、 so I guess I should call it a shower room? Okarin always uses it、 right-?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0793,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Seems kinda filthy...」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),480
+#assign $W(SW_BG1POSY),450
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_CRS_B07
+#call macrosys,CharaDispW5173
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1356,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I won't lie and call it clean. This entire building is in shambles.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaDisp73
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0794,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In the first place、 I refuse to use the same shower room as Okabe.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1357,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I know how you feel. Nobody's telling you to use it、 you know. After all、 since we  stayed up all night、 you、 Daru、 and I、 are all pretty smelly. Heheheh.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Anyway、 it's the heat. And we kept the window closed the whole night. Just sitting is enough to make you sweat.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0795,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's why I'm going home once I finish eating.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Kurisu slurps her cup noodles indignantly. I bought them for her at her request. She was raised in America、 yet she likes cup noodles. How strange.%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v OKA_1358,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Celebrity bath time at a high class hotel、 eh. I want to come along.」%p
+#label L_SG03_05_RM_RUK03_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B08
+#call macrosys,CharaDisp73
+#mes2v CRS_0796,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I refuse.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0286,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii wants to come too-」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMA
+#assign $W(SW_CHA7FACE),Face_CRS_A06
+#call macrosys,CharaDisp73
+#mes2v CRS_0797,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Mayuri-san's welcome to come.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0287,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Really? Thank you-♪」%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE010
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A5
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mwait 16
+#messWindowCloseWait
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),480
+#assign $W(SW_BG1POSY),450
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes I take my warmed convenience store boxed lunch out of the microwave、 take out a fresh bottle of Dr Pepper out of the fridge、 and join in on lunch.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0288,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 hey、 Okarin、 I've been wondering、 but why do you drink soda while you eat rice? Do they go well together-?」%p
+#mes2v OKA_1359,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I don't really see a problem.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT2
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0471,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Me neither.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BMA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_CRS_A01
+#call macrosys,CharaDisp73
+#mes2v CRS_0798,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's true. I don't give it a second thought.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0289,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehh-」%p
+#mes2v OKA_1360,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri's the weird one. It's normal to drink carbonated drinks while eating.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0472,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's normal、 durr.」%p
+#mes2v CRS_0799,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No objection.」%p
+#mes2v MAY_0290,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「No way-. You guys are the weird ones-」%p
+#setDic 117
+#setDic 131
+#mes Well、 I'm a pure &cTIPSC;Dr Pepperian&cMESC;、 Daru's loves cola like a typical &cTIPSC;pizza ota&cMESC;、 and Kurisu lived in America、 home of carbonated drinks.%p
+#mes I admit our opinion is biased.%p
+#mes But that doesn't matter right now.%p
+#label L_SG03_05_RM_RUK03_01_REPLY_END
+#RandomMail_End
+#assign $W(SW_BGMFADE),FADE_VERYFAST
+#stopBGM
+#mes2v OKA_1361,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Now、 let's discuss Operation &rsNorn of the Past&rt"Urd"&re's experimental results.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v DAR_0473,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Operation Urd?」%p
+#mes2v OKA_1362,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That reminds me、 yesterday、 because of a certain assistant、 I was unable to announce the operation name、 wasn't I? The serial D-mail experiments we performed from last night to today. Operation Urd consists of those──」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaDisp73
+#mes2v CRS_0800,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The experiments had results」%p
+#mes Assistant interrupts my words again.%p
+#mes2v CRS_0801,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「At the very least、 we know we can do something with D-mail.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#call macrosys,CharaClrAll
+#assign $W(SW_BG1SIZE),0
+#assign $W(SW_BG1POSX),0
+#assign $W(SW_BG1POSY),0
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_POS
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Placing the empty noodle cup on the table、 Kurisu pulls the whiteboard out of the development room.%p
+#mes Then she writes some sort of list.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG043
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes The three of us watch Kurisu silently write on the whiteboard while we eat.%p
+#mes2v CRS_0802,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And、 well、 it's like this. Any suggestions or objections?」%p
+#mes Nothing especially. She's summarized the vital parts. Nobody raises their hands.%p
+#mes Mayuri's staring blankly with her mouth half open. Looks like she doesn't understand.%p
+#mes2v OKA_1363,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The upper limit of what can be sent in a D-mail is 36 letters in English、 or 18 characters in Japanese、 which is inconvenient. It's something I'd like to improve.」%p
+#mes The dozens of experimental mails we sent were received in three parts of 6 full width/12 half width letters each. And any text after the 18th-- for half width、 the 36th-- would disappear.%p
+#mes2v DAR_0474,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But isn't it great we discovered we can control when it goes to?」%p
+#mes Though we can only set it in one hour increments、 we can control how far back D-mails go using the Microwave Ophone (Temp)'s timer.%p
+#mes2v CRS_0803,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There's no point to settle for just discovery. We need to find out the principle. What I've written here is nothing but verified phenomena.」%p
+#mes2v OKA_1364,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Investigating the principle、 huh. Certainly、 unless we figure that out、 we can't make a true time machine.」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),480
+#assign $W(SW_BG1POSY),450
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT2
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaSetT516273
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_1365,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We can only send 12x3 letters. What's the cause?」%p
+#mes Daru and Kurisu are remain silent.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0291,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 hey.」%p
+#mes Suddenly、 Mayuri、 who had until now been staring at the ceiling in confusion、 started raising her hand for some reason.%p
+#mes2v MAY_0292,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 karaage and bananas become 'gelage' and 'gelbanas'、 but salt doesn't turn into 'gelsalt'、 did it?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0475,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Like I said、 don't shorten it...」%p
+#mes According to what Mayuri had confirmed、 the karaage that returned to the freezer had indeed become gelatinous. %p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0293,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And so、 for D-mails、 you can send 36 letters、 but everything past that disappears、 right-?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5FACE),Face_MAY_B01
+#call macrosys,CharaDisp51
+#mes2v MAY_0294,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 I think maybe you can't send big things、 or a lot of things-」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_0295,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 maybe、 maybe the Curb black hole──」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B07
+#call macrosys,CharaDisp73
+#mes2v CRS_0804,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Uhh、 it's Kerr black hole.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0296,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「The Curb black hole─」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMC
+#assign $W(SW_CHA7FACE),Face_CRS_C05
+#call macrosys,CharaDisp73
+#mes2v CRS_0805,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Like I said、 Kerr black hole.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0297,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...the black hole's hole is too tight-」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0476,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mayu-shi... say that one more time. Starting from 'hole'.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0298,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hole is too tight-」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDisp62
+#mes2v DAR_0477,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「This is outrageous!」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B08
+#call macrosys,CharaDisp73
+#mes2v OKA_1366,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't make her say that、 Retardaru!」%p
+#mes Damn sexual harasser.%p
+#mes Since Mayuri has a field of flowers for a brain、 she doesn't even realize she's being sexually harassed、 leaving a horrible end result.%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaDisp73
+#mes2v CRS_0806,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The hole is tight... huh. That might not be entirely wrong.」%p
+#mes2v CRS_0807,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Perhaps it has the same problem as SERN's time machine. Since they can't fully control the lifter、 they can't make the singular points perfectly naked、 therefore limiting the sending capacity.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0478,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Setting aside Karaage and Bananas、 6 full width or 12 full width characters' worth of data is 12 bytes、 right?」%p
+#mes Thinking about data unit conversion is a really Daru thing to do.%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMC
+#assign $W(SW_CHA7FACE),Face_CRS_C04
+#call macrosys,CharaDisp73
+#mes2v CRS_0808,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Bytes? Not kilobytes?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0479,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ohhhh? So Makise-shi's the weak-at-mechanics type?」%p
+#mes2v OKA_1367,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Pff、 is that so、 Assistant?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaDisp73
+#mes2v CRS_0809,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Sh-shut up. Lately、 you don't see things measured in bytes、 so I was just making sure....」%p
+#mes By the way、 1 kilobyte is 1024 bytes. 1 byte is 8 bits.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0480,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 e-mail isn't just comprised of text、 though. There's more to it、 like the sender's and the receiver's mail addresses、 the header、 and various othe rthings.」%p
+#mes2v DAR_0481,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「As an estimate、 we can send three batches of 12 bytes of data、 then? Ah、 by the way、 I don't know if using a subject or not changes anything.」%p
+#mes2v OKA_1368,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But I'm pretty certain that converting karaage or bananas into data doesn't come out to a 12 byte size.」%p
+#mes There's still the question of whether you can even do that in the first place.%p
+#mes2v OKA_1369,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Since each grain of salt is tiny、 it's possible they could be converted to less than 12 bytes.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMC
+#assign $W(SW_CHA7FACE),Face_CRS_C06
+#call macrosys,CharaDisp73
+#mes2v CRS_0810,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So does that mean a large mass would get crushed by super gravity?」%p
+#mes2v OKA_1370,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It might not be mass. Data doesn't have mass.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaDisp73
+#mes2v CRS_0811,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In any case、 since the singular points aren't made naked、 the object is forced to pass through the event horizon.」%p
+#mes2v CRS_0812,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Inside that event horizon、 space and time switch places、 causing the subject who arrived at the ring singularity to reach ultra high speed...」%p
+#mes2v CRS_0813,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The data crushed and destroyed by super gravity is shot out of the black hole....」%p
+#mes2v OKA_1371,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「As a jellyman.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMC
+#assign $W(SW_CHA7FACE),Face_CRS_C06
+#call macrosys,CharaDisp73
+#mes2v CRS_0814,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But I don't think having small mass would allow an object to go through. Both have to get out of super gravity、 right?」%p
+#mes2v OKA_1372,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If the hole is too tight、 then just increase electron injection.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B04
+#call macrosys,CharaDisp73
+#mes2v CRS_0815,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't think it's that simple. I mean、 SERN should've tested that method. Yet it's been 9 years since they started experiments and they haven't gotten any results.」%p
+#mes2v CRS_0816,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's not something as simple as increasing the amount of electrons.」%p
+#mes2v OKA_1373,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I-I see....」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B05
+#call macrosys,CharaDisp73
+#mes2v CRS_0817,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In the first place、 SERN does have a Lifter、 but we don't know what substitutes that Lifter in the Microwave Ophone. Then there's the problem of adjustment.」%p
+#mes Certainly....%p
+#mes2v OKA_1374,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We don't know what replaces the Lifter、 but──」%p
+#mes2v OKA_1375,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「At least we know for certain that by its effect、 we've created a path to send up to 36 bytes + α data through the ring singularity.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0299,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I don't get it-」%p
+#mes Mayuri、 finished with her karaage、 looks for help with a perplexed face.%p
+#mes2v OKA_1376,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You can think of a ring singularity、 the entrance to the event horizon、 as the gate to the Demon Lord's castle.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMC
+#assign $W(SW_CHA7FACE),Face_CRS_C04
+#call macrosys,CharaDisp73
+#setFlag SF_Phone_AutoDisable
+#mes2v CRS_0818,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「D-demon Lord...?」%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR6;An army of hundreds of soldiers attack the heavily fortified Demon Lord's castle gate.%e
+"#mes &lfCR4;The soldiers can use the magic called Lifter to force the castle gate open.
+But they can only open it for a moment before it quickly closes. During that moment、 only 12 soldiers can cut through.
+%e"
+#mes &lfCR5;The soldiers can only use Lifter magic three times.&nThose 36 soldiers who entered the gate those 3 times triumphantly return as the heroes who slew the Demon Lord.%e
+#mes &lfCR4;But the soldiers who could not cut through the gate are seized as prisoners by the Demon Lord's subordinates. They're taken to the castle's prison cells and turned into slimes.&nThe heroes save them after defeating the Demon Lord、 but they unfortunately go home as slimes.%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_0300,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So the soldiers who went home as slimes are jellymen、 right-?」%p
+#setFlag SF_Phone_AutoDisable
+#mes2v OKA_1377,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But there's an exception.」%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR6;The hundreds of soldiers can use a forbidden special move、 unison、 to transform into a Super Soldier with the strength and size of a hundred ordinary soldiers.%e
+#mes &lfCR6;The Super Soldier has the power to defeat the Demon Lord alone、 but since his body is to big、 even if he opens the castle gate with Lifter、 he can't pass through.%e
+#mes &lfCR5;And so、 deprived of his magic's effectiveness、 the weakened Super Soldieris seized by the Demon Lord's underlings、 turned into a slime、 and goes home as a giant slime without defeating the Demon Lord.%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0482,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wait. What's with that absurd setting?」%p
+#mes2v OKA_1378,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's to illustrate that the object can't be too big.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0301,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see-. That's really easy to understand-」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMC
+#assign $W(SW_CHA7FACE),Face_CRS_C05
+#call macrosys,CharaDisp73
+#mes2v CRS_0819,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Really...?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0483,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Leaving Okarin's metaphor alone、 does this explain the jellyman effect?」%p
+#mes2v OKA_1379,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmph. Everything's thanks to Mayuri's hint.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMC
+#assign $W(SW_CHA5FACE),Face_MAY_C03
+#call macrosys,CharaDisp51
+#mes2v MAY_0302,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Was Mayushii helpful?」%p
+#mes2v OKA_1380,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah. Great insight、 Mayuri.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0303,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehhehe-. That's good-」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaDispW5173
+#mes2v CRS_0820,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But it's still a hypothesis. It hasn't been proven.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0484,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「How would you prove it? Human experiments like SERN?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B02
+#call macrosys,CharaDisp73
+#mes2v CRS_0821,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If Okabe and Hashida-san volunteer as test subjects、 I'd happily experiment on you.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0485,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Human experimentation sounds kinda dirty. If you know what I mean.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDisp62
+#mes2v DAR_0486,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But I refuse. I'd rather be the giver than the receiver.」%p
+#mes2v OKA_1381,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Same here. No、 not in the way he's implying.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B08
+#call macrosys,CharaDisp73
+#mes2v CRS_0822,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Idiots.」%p
+#mes Kurisu gives us a cold stare、 shrugging her shoulders in amazement.%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaDisp73
+#mes2v CRS_0823,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I've said it before、 but the problem is where the Lifter's substitute in that Microwave Ophone is.」%p
+#mes2v OKA_1382,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That and one other thing. How come the discharge phenomenon and jellymanification only happen at certain times?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#setDic 193
+#mes2v DAR_0487,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「There are things we don't understand、 but since we completed the art of D-mailing、 isn't that our &cTIPSC;&rsＦＡ&rtFinal Answer&re&cMESC;？」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0304,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Sending mail into the past is amazing、 isn't it-?」%p
+#mes2v DAR_0488,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's not like we can send people to the past firsthand、 so it doesn't feel like a time machine、 though.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B08
+#call macrosys,CharaDisp73
+#mes2v CRS_0824,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「A research facility like SERN has been trying that、 but they keep failing. If you go by Titor's predictions、 won't it be another 24 years before they complete it?」%p
+#mes I nod when Kurisu sarcastically brings up the subject.%p
+#mes2v OKA_1383,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Physical time travel certainly is impossible for us at the moment. We lack the funds and the facilities available to SERN.」%p
+#mes2v OKA_1384,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And yet we still brought time travel to realization. We sent data into the past.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BMB
+#assign $W(SW_CHA7FACE),Face_CRS_B03
+#call macrosys,CharaDisp73
+#mes2v CRS_0825,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We should further inspect the Microwave Ophone. We need to understand what's going on.」%p
+#mes2v DAR_0489,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I want to use D-mail for more various fun things.」%p
+#mes2v OKA_1385,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I understand that feeling、 but we can't today. If we shake the building again、 Mister Braun is sure give out his ultimatum.」%p
+#mes He'll raise the rent or kick us out of the lab.%p
+#mes2v OKA_1386,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We can do a detailed examination after tomorrow. But I will declare this.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),0
+#assign $W(SW_BG1POSX),0
+#assign $W(SW_BG1POSY),0
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_POS
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5POSY),450
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6POSY),450
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BSC
+#assign $W(SW_CHA7POSX),CHR_LEFT0
+#assign $W(SW_CHA7POSY),450
+#assign $W(SW_CHA7FACE),Face_CRS_C04
+#call macrosys,CharaSetT516273
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes I step onto the couch and look around at each lab mem.%p
+#mes2v MAY_0305,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You have to take off your shoes、 it's dirty-」%p
+#mes2v OKA_1387,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Today、 uhh、 what day is today?」%p
+#mes2v DAR_0490,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「August 2.」%p
+#mes2v OKA_1388,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Today、 August 2、 2010 is a date which will live in infamy、 forever in the memory of mankind!」%p
+#mes2v OKA_1389,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「For on this day today、 our Future Gadget Laboratory、 has developed──」%p
+#mes2v OKA_1390,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The first successful time machine in the history of mankind!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_0491,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But it's not the first you know? SERN beat us.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BSB
+#assign $W(SW_CHA7FACE),Face_CRS_B05
+#call macrosys,CharaDisp73
+#mes2v CRS_0826,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And you can't even say developed. You just coincidentally made it.」%p
+#setDic 144
+#setDic 214
+#setDic 92
+#mes2v OKA_1391,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmph、 looks like Assistant doesn't know the meaning of the word 'serendipity'、 huh. &cTIPSC;Penicillin&cMESC;、 &cTIPSC;X-rays&cMESC;、 and &cTIPSC;dynamite&cMESC;、among many others、 are inventions born from coincidence!」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BSC
+#assign $W(SW_CHA7FACE),Face_CRS_C05
+#call macrosys,CharaDisp73
+#mes2v CRS_0827,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's true、 but...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0306,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But-、 Chris-chan said before that time machines don't exist、 right-? She just admit it now、 didn't she-♪」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_BSC
+#assign $W(SW_CHA7FACE),Face_CRS_C06
+#call macrosys,CharaDisp73
+#mes2v CRS_0828,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...It's just that I have to admit it at present. If we investigate the principle、 it might turn out to be something that only seems like a time machine.」%p
+#mes2v OKA_1392,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Tch、 does nobody have any respect for my grand declaration!?」%p
+#mes2v OKA_1393,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If I claim the development of the first-- no、 maybe second、 whatever-- time machine in human history all for myself、 don't complain to me afterwards!」%p
+#mes2v OKA_1394,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Today's 66th Round Table Conference ends here. Dismissed!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0492,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wait、 that was a Round Table Conference? I didn't know. And it's even the 66th.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_CRS_A05
+#call macrosys,CharaDisp62
+#mes2v CRS_0829,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It doesn't matter if it's a Round Table or whatever.」%p
+#mes Kurisu gets up from the chair and stretches.%p
+#mes2v CRS_0830,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm gonna go home、 take a shower、 and sleep.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51Only
+#mes2v MAY_0307,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii has to go to work soon too.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I'm incredibly tired too.%p
+#mes Let's just sleep today.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Or so I say、 but I'm so excited we could use D-mail better than expected、 so maybe I can't fall asleep.%p
+#mes Curiosity grows inside my heart.%p
+#mes Though、 I still have anxiety in my heart that we've stepped into the world's unthinkable darkness──%p
+#mes Sending mail into the past%p
+#mes We've obtained that dream-like power.%p
+#setFlag SF_Phone_AutoDisable
+#mes Now、 when I start thinking of how to use it、 my imagination spreads out infinitely、 driving away all anxiety.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

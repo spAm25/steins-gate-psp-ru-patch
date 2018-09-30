@@ -1,0 +1,294 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05A2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes I try rubbing my head.%p
+#mes It throbs.%p
+#mes Damn Mister Braun. Has he no shame in hitting me seriously?%p
+#mes Maybe I should report him for assault.%p
+#mes Furthermore、 I'm compelled to perform a strategic withdrawal.%p
+#mes No、 this is still part of the strategy.%p
+#mes A 10、000 yen rent increase is tough、 but in exchange、 I've obtained important information in a form I'd never expect.%p
+#mes2v OKA_2618,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's awwright in the end! Fuuhahaha!」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG05A1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),220
+#assign $W(SW_BG2SY),25
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG39AS1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,CharaClrAll
+#mes2v MAY_0721,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okariin、 the building just shook、 but were things okay down there-?」%p
+#mes Mayuri and Kurisu appear from the second story window.%p
+#mes2v CRS_1516,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You really do revive like a undying phoenix.」%p
+#mes2v OKA_2619,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hehehe、 Christina. Allow me to make a prediction. In three minutes、 you will recognize my greatness and embrace feelings of respect!」%p
+#mes2v CRS_1517,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't think so.」%p
+#mes I run up the stairs.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v CRS_1518,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...How could such an obvious thing go unnoticed until now?」%p
+#mes There's a possibility that the 42 in Braun tube TV downstairs is the lifter's replacement──%p
+#mes After I told that to Kurisu、 that was her first response.%p
+#mes2v OKA_2620,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why are you blaming me?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_1519,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I'm not blaming you. I'm just disappointed at the stupidity that nobody noticed、 including me.」%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_T
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0828,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「We missed the forest for the trees.」%p
+#mes2v OKA_2621,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In summary──」%p
+#mes2v OKA_2622,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just now、 when the Microwave Ophone (Temp) on the second floor shook the building、 the 42in Braun tube TV was on.」%p
+#mes2v OKA_2623,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But when the TV was turned off、 the shaking stopped at the same time.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_1520,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The discharge phenomenon was forcefully interrupted.」%p
+#mes2v CRS_1521,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Just to make sure、 I put a banana in、 but it didn't turn into a Jellyman.」%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_CSA
+#assign $W(SW_CHA7POSX),CHR_LEFT_T
+#assign $W(SW_CHA7FACE),Face_MAY_A02
+#call macrosys,CharaDisp73
+#mes2v MAY_0722,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I think that's a good thing-. It's not good to waste food-」%p
+#mes Nobody answers Mayuri's missing-the-point statement.%p
+#mes When we look up the structure of a Braun tube on the net、 we find out something interesting.%p
+#setDic 110
+#mes Braun tubes use an inner component called an "electron gun" to superheat electrons、 or emit them through a high &cTIPSC;electric field&cMESC;、 accelerate them、 and converge them into a beam.%p
+#mes Those electrons scan onto the display's phosphor layer to emit light. That's how they're structured.%p
+#mes Thus、 it seems appropriate as the replacement for the lifter.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_1522,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We've found an answer、 huh.」%p
+#mes2v CRS_1523,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The electrons emitted by the 42in Braun tube TV interfere with the singular points produced by the Microwave Ophone.」%p
+#mes2v CRS_1524,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The discharge phenomenon is an effect of that.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASB
+#assign $W(SW_CHA6FACE),Face_DAR_B04
+#call macrosys,CharaDisp62
+#mes2v DAR_0829,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The reason we couldn't use the Microwave Ophone at night was because that's when the Braun Tube Workshop's closed、 then?」%p
+#mes The Braun Tube Workshop doesn't have especially strict business hours、 but it's usually open from around 11AM to 7PM.%p
+#mes The Microwave Ophone (Temp) time rule I came up with-- we can use it about noon to six-- matches up perfectly.%p
+#mes Whenever we abruptly couldn't use it during those times can simply be explained with the fact that the 42in Braun tube TV just wasn't on.%p
+#mes2v OKA_2624,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But I don't think a Braun tube emits electrons that strong.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_1525,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's not like the strength of the electrons is all that matters. If it were that simple、 SERN would've solved this problem long ago.」%p
+#mes I see. So it can't be too much or too little either、 huh.%p
+#mes The strict value was unknown until now、 and just by chance、 it happened to match the 42in Braun tube's electron emission "ratio"──%p
+#mes It's reasonable to think of it like that.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_1526,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「They coincidentally match perfectly. The conditions here were miraculously perfect to create a time machine.」%p
+#mes2v OKA_2625,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 that's not it、 Christina!」%p
+#mes2v OKA_2626,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Everything is Steins;Gate's choice!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B02
+#call macrosys,CharaDisp51
+#mes Kurisu gives an unusual wry smile at my words.%p
+#mes2v CRS_1527,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It doesn't really matter what it is、 though.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,MAY_CSB
+#assign $W(SW_CHA7FACE),Face_MAY_B03
+#call macrosys,CharaDisp73
+#mes2v MAY_0723,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Umm-?」%p
+#mes Mayuri halts her costume making and tilts her head.%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,MAY_CSC
+#assign $W(SW_CHA7FACE),Face_MAY_C02
+#call macrosys,CharaDisp73
+#mes2v MAY_0724,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 basically、 what do we have to do to complete Super Microwave Ophone-chan-?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_1528,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Since we've found the cause、 we have nothing left to fear.」%p
+#mes2v CRS_1529,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We've come to the solution that time leaping is possible whenever that large Braun tube TV is on... I think.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASB
+#assign $W(SW_CHA6FACE),Face_DAR_B01
+#call macrosys,CharaDisp62
+#mes2v DAR_0830,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Since that final adjustment got interrupted、 don't we need to do another experiment?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_1530,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's right. Okabe.」%p
+#mes2v OKA_2627,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What?」%p
+#mes2v CRS_1531,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Go downstairs again and turn on that Braun tube TV.」%p
+#mes2v OKA_2628,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fuhaha、 oh、 Christina. That's a really funny joke. I respond to that with──」%p
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#mes2v OKA_2629,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mission: Unpossible!」%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes Like hell I can!%p
+#mes The top of my head's still throbbing!%p
+#mes I can't even play the Mission: Unpossible theme in my head.%p
+#mes That's an endless death flag!%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_1532,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Whatever、 just go already.」%p
+#mes Kurisu orders me with a sour look.%p
+#mes It's like I'm the assistant.%p
+#mes2v CRS_1533,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If anyone can do it、 it's you. You made an amazing discovery just now、 right?」%p
+#mes2v OKA_2630,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Assistant、 have you... recognized my greatness as a mad scientist?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaSet51
+#mes2v CRS_1534,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Nope.」%p
+#mes2v OKA_2631,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah...」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASB
+#assign $W(SW_CHA6FACE),Face_DAR_B03
+#call macrosys,CharaDisp62
+#mes2v DAR_0831,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Gack、 denied....」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_1535,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah、 crap、 if I'm flattering him so he'd do his best、 I should've said 'Yes'.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_1536,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So with that said、 Yes.」%p
+#mes2v OKA_2632,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're late!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_1537,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Now that we've found the device substituting the lifter、 the Time Leap Machine is 99% complete.」%p
+#mes Kurisu suddenly tightens her expression.%p
+#mes But those eyes were gleaming ablaze.%p
+#mes She's a true seeker、 through and through.%p
+#mes She seems excited that the completion of the first Time Leap Machine in human history is at hand.%p
+#mes Looking closely、 her face is slightly flushed.%p
+#mes2v CRS_1538,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Isn't it this lab's dream? The time machine.」%p
+#mes Our dream... huh.%p
+#mes I wasn't particularly aware of it、 though.%p
+#mes I'm definitely interested too.%p
+#mes My fingers are shaking.%p
+#mes Not from fear of Manager、 but from excitement.%p
+#mes2v OKA_2633,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「My dream is to manipulate space-time at will、 and destroy the current ruling structures. And then、 for new chaos to──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_1539,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe.」%p
+#mes Kurisu interrupts my words.%p
+#mes2v CRS_1540,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't want to hear Hououin's opinion、 but Okabe's.」%p
+#mes2v OKA_2634,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v CRS_1541,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes She stares motionlessly at me.%p
+#mes I take her gaze head on.%p
+#mes I spontaneously smile.%p
+#mes2v OKA_2635,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Bring it on. Just leave everything to me.」%p
+#mes I inform her so and head to the entranceway.%p
+#mes I should ready myself for two more fists and another 10、000 yen rent increase.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#resetFlag SF_CHA7DISP
+#loadCHA 7,MAY_CSA
+#assign $W(SW_CHA7FACE),Face_MAY_A04
+#call macrosys,CharaDispT516273
+#mes Kurisu and Daru send me off with applause for some reason.%p
+#mes Mayuri's the only one who looks worried、 but I pat her delicate shoulders to relieve her.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

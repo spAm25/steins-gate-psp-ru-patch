@@ -1,0 +1,65 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0801
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG033
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#mes Kanda Myojin is largest in scale、 so 9 out of 10 people would choose to dedicate something there.%p
+#mes With that prediction in mind、 I headed there first、 but the shrine officials said they never heard anything about it.%p
+#mes Reluctantly、 I head to Yanabayashi Shrine.%p
+#label L_SG02_13_PHONE_RING_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_PhID),PhID_CRS_0
+#call macrosys2,START_PHONE_RING
+#AutoSave 2
+#mes It's probably not there either....%p
+#flagOnJump SF_PhoneRecive,L_SG02_13_PHONE_RING_01_RECEIVE
+#mes Meaning I have no choice but to search all the Tokyo area shrines one by one.%p
+#flagOnJump SF_PhoneRecive,L_SG02_13_PHONE_RING_01_RECEIVE
+#mes That seems overwhelming、 so I try not to think about it for now.%p
+#flagOnJump SF_PhoneRecive,L_SG02_13_PHONE_RING_01_RECEIVE
+#label L_SG02_13_PHONE_RING_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#call macrosys2,IGNORE_PHONE_RING
+#setAchievement 30
+#assign $W(LR_NXTFIL),"SG02_16"
+#jump L_SG02_13_SET_NXTFIL_END
+#label L_SG02_13_PHONE_RING_01_RECEIVE
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneRecive
+#assign $W(LR_NXTFIL),"SG02_14"
+#jump L_SG02_13_SET_NXTFIL_END
+#label L_SG02_13_SET_NXTFIL_END
+#flagOnJump LF_DEBUG,L_SG02_09_TTLCALL_END
+#end
+#label L_SG02_09_TTLCALL_END
+#resetFlag SF_Phone_Open
+#assign $W(SW_PHONE_PRI),PRI_UPPER_CHARA
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

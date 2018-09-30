@@ -1,0 +1,280 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes I recline on the sofa with phone in hand.%p
+#mes A high-school baseball game is broadcasted on TV.%p
+#mes I understood just by seeing the high schools' names. Kumamoto and Aichi.%p
+#mes A prickling pain runs through my brain.%p
+#mes The buzzing in my ears won't calm down either.%p
+#mes It's hard to endure this unpleasant feeling right after time leaping.%p
+#mes Looking at the clock、 it's about 1:45.%p
+#mes What was going on at this time?%p
+#mes In about 15 minutes、 Kurisu will finish with the Time Leap Machine. She's just starting the final touches、 so I don't have anything in particular to do.%p
+#mes The pain in my brain pulls away. This time、 the top of my head starts throbbing.%p
+#mes Why?%p
+#mes Ah、 that's right. Right before this、 I got in a fight downstairs at the Braun Tube Workshop and Manager introduced his fist to my noggin.%p
+#playSE 0,SGSE085
+#mes Mayuri's at her sewing machine making her costume.%p
+#mes Daru's at his computer、 single-mindedly gathering moe images.%p
+#mes Kurisu's in the development room adjusting the Time Leap Machine.%p
+#mes I end up waiting for 15 minutes in the same position.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,SEwaitHalf
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#call macrosys,CharaDisp51
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 0
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#mes And then the sound of the sewing machine suddenly stops.%p
+#mes2v MAY_0883,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 Okarin. Come here a bit-」%p
+#mes She holds the costume and tells me so.%p
+#mes2v MAY_0884,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Can you hold this for me-? Spread it out like 'fwapp!'」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0896,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mayu-shi、 say that fwapp again.」%p
+#mes Daru overheard from his computer.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0885,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Fwapp!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6FACE),Face_DAR_B01
+#call macrosys,CharaDisp62
+#call macrosys2,DAR_HANADI_2
+#mes2v DAR_0897,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I got a fwapp!」%p
+#mes2v CRS_1833,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Stop it already、 you ＨＥＮＴＡＩ.」%p
+#mes Following Mayuri's directions、 I spread the costume out by the sleeves.%p
+#mes2v MAY_0886,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mm...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0887,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yup、 thanks-」%p
+#mes Her face looks a little tired、 perhaps since she stayed up all night.%p
+#mes But Mayuri's face was all smiles.%p
+#mes2v MAY_0888,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Finished-♪」%p
+#mes Umm、 I was supposed to say something now、 but I don't remember what....%p
+#mes I can't remember.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0889,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I finished before Chris-chan-. It was a competition-.」%p
+#mes2v CRS_1834,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You win、 Mayuri. Well done.」%p
+#mes2v CRS_1835,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But I'm finished here too.」%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMA
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_CRS_A04
+#setFlag SF_CHA6DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#mes Kurisu finishes connecting the two cords she's holding.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMA
+#assign $W(SW_CHA6FACE),Face_CRS_A06
+#call macrosys,CharaDisp62
+#mes2v CRS_1836,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Complete」%p
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes Alright、 now.%p
+#mes2v OKA_2974,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We won't experiment.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMC
+#assign $W(SW_CHA6FACE),Face_CRS_C04
+#call macrosys,CharaDisp62
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes2v CRS_1837,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh!!?」%p
+#mes Crap、 was that too soon...?%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#call macrosys,CharaDisp62
+#mes2v CRS_1838,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 don't just suddenly refuse like that.... Why do you think I worked so hard to make this?」%p
+#mes2v OKA_2975,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Time leaping raises heaps of problems. I want to inspect them all carefully.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMC
+#assign $W(SW_CHA6FACE),Face_CRS_C06
+#call macrosys,CharaDisp62
+#mes2v CRS_1839,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hu-huh.... That's quite an honest opinion for you.」%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMB
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#setFlag SF_CHA5DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#setFlag SF_CHA6DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA2DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#mes2v MAY_0890,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What sort of problems-? Isn't it complete-?」%p
+#mes2v OKA_2976,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll explain in detail some other day. Everyone's tired now、 so let's disband.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6FACE),Face_DAR_B04
+#call macrosys,CharaDisp62
+#mes2v DAR_0898,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「We're not going to go all out and celebrate its completion?」%p
+#mes2v OKA_2977,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's also for another day.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes With that out of the way、 I drive Mayuri and Daru out of the lab.%p
+#mes Mayuri borrows my phone charger since we use the same brand.%p
+#mes Kurisu tries to go home too、 but I secretly keep her back.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

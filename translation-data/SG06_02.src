@@ -1,0 +1,646 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_MASK2ALPHA),192
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_EFFECT_WAVE_PRI),PRI_LOWER_CHARA
+EffectWaveInit
+EffectWaveSetFRAME_LEFT,48,0x0000,0x0100,0x0100
+EffectWaveSetFRAME_RIGHT,48,0x8000,0x0100,0x0080
+EffectWaveSetFRAME_TOP,48,0x1000,0x0100,0x0100
+EffectWaveSetFRAME_BOTTOM,48,0x9000,0x0100,0x0080
+#setFlag SF_EFFECT_WAVE
+#call macrosys,FadeInSLOW
+#mes Where am I──？%p
+#mes Who am I──？%p
+#mes Memory. Consciousness. Vision. All cloudy.%p
+#mes Torrents of sound like ultrasonic waves roar from a speaker in the center of my brain.%p
+#mes2v OKA_2752,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 uuuwwwaaaahh──」%p
+#mes My head hurts. Or should I say... behind my eyes?%p
+#mes As if hundreds of long needles keep stabbing through my brain.%p
+#mes Wait、 can brains even feel pain?%p
+#call macrosys,SetWindowModeFull
+#mes2v CRS_1681,$W(LR_LIP_CRS),VID_CRS,&lfCR6;&lc「……be！」%e
+#call macrosys,SetWindowModeNormal
+#messWindowCloseWait
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(128-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),128
+#mwait 64
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(192-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),192
+#mes2v OKA_2753,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Aagh、 waahhhh!!」%p
+#mes It's not just pain.%p
+#mes Pain、 shivering、 itchiness.%p
+#mes Like my whole body is on fire.%p
+#call macrosys,SetWindowModeFull
+#mes2v CRS_1682,$W(LR_LIP_CRS),VID_CRS,&lfCR6;&lc「……kabe……！」%e
+#call macrosys,SetWindowModeNormal
+#messWindowCloseWait
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(128-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),128
+#mwait 64
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(192-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),192
+#mes I want to take off my skull and tear out my brains.%p
+#mes I want to scrape out my soft brains with my fingers and suck on the goop.%p
+#call macrosys,SetWindowModeFull
+#mes2v CRS_1683,$W(LR_LIP_CRS),VID_CRS,&lfCR6;&lc「……O……be……！」%e
+#call macrosys,SetWindowModeNormal
+#mes My head's going crazy、 driven by various impulses──%p
+#mes Who am I──？%p
+#call macrosys,SetWindowModeFull
+#mes2v CRS_1684,$W(LR_LIP_CRS),VID_CRS,&lfCR6;&lc「Hey、 Okabe! What's wrong!?」%e
+#call macrosys,SetWindowModeNormal
+#mes2v OKA_2754,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「────！？」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteSLOW
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_EFFECT_WAVE
+#call macrosys,FadeInVERYSLOW
+#mes The blown off、 gushy world.%p
+#mes Was instantly reborn.%p
+#mes My body convulses against my will、 as if run through with electricity.%p
+#mes ──I come back to my senses.%p
+#mes2v OKA_2755,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I'm in the lab development room.%p
+#mes I'm standing in front of the Microwave Ophone (Temp) with my phone to my ear.%p
+#mes No、 it's not the Microwave Ophone (Temp). Since headgear is attached to it、 it's the Time Leap Machine.%p
+#mes It's hard to breathe.%p
+#mes I'm almost suffocating.%p
+#mes Give me oxygen.%p
+#mes Then I notice sounds like groaning coming out of my own throat.%p
+#mes2v OKA_2756,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ahhh──」%p
+#mes2v OKA_2757,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I stop my voice and start breathing in deeply.%p
+#mes2v OKA_2758,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...ckhaah、 haahh、 haahh、 hah...」%p
+#mes The insides of my throat feel like they're burning.%p
+#mes Almost going into a coughing fit、 I desperately bring air into my lungs.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#mes I notice I'm drenched in sweat.%p
+#mes The drops hanging off my forehead is annoying.%p
+#mes I want to wipe it away.%p
+#mes I try wiping it with the back of my right hand.%p
+#mes ...My right hand moves and wipes the seat of my forehead.%p
+#mes My body's senses are strange.%p
+#mes Right now、 my body feels one beat off from my will.%p
+#mes As if it's not my own body.%p
+#mes As if my nerves aren't communicating properly with my extremities.%p
+#mes I try blinking slowly.%p
+#mes It might just be my imagination.%p
+#mes Am I just tired?%p
+#mes Since I've been working long nights.%p
+#mes I timidly try to move my hand again.%p
+#mes It doesn't feel out of place this time.%p
+#mes This is my body.%p
+#mes2v CRS_1685,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe? You listening?」%p
+#mes A familiar voice.%p
+#mes I slowly turn around.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+#call macrosys,TUNE_CHACOL_BG1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#mes There's Kurisu.%p
+#mes She gives me perplexed eyes.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_1686,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What happened? You suddenly yelled.」%p
+#mes What's she talking about?%p
+#mes2v CRS_1687,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You feeling bad?」%p
+#mes2v OKA_2759,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I try answering、 but my voice didn't work too well.%p
+#mes Even more bewildered、 I clear my throat several times.%p
+#mes2v OKA_2760,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...No、 no problems here.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_1688,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I see. Then go out and prepare already. You're going shopping、 aren't you?」%p
+#mes2v OKA_2761,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...shopping?」%p
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes Shopping? For what...?%p
+#mes I try groping around my memories──%p
+#mes Like a chain reaction、 several scenes、 several words、 several smells──%p
+#mes Flash back into my mind.%p
+#messWindowCloseWait
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG24E1
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG24E1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_CRS_A01
+#call macrosys,CharaSet62
+#call macrosys,SET_DOF_SHORT
+#call macrosys,FadeInNormal
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#call macrosys2,Thread_NoiseFlash
+#mes2v CRS_1689,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Humans are temporal beings."」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#resetFlag SF_BG5DISP
+#resetFlag SF_BG6DISP
+#call macrosys,InitBG5
+#call macrosys,InitBG6
+#call macrosys,FadeOutKaisou
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01N1
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_CLA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaSet62
+#call macrosys,SET_DOF_SHORT
+#call macrosys,FadeInNormal
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#call macrosys2,Thread_NoiseFlash
+#mes2v MAY_0797,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「He's okay now.」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#resetFlag SF_BG5DISP
+#resetFlag SF_BG6DISP
+#call macrosys,InitBG5
+#call macrosys,InitBG6
+#call macrosys,FadeOutKaisou
+#call macrosys,OPE_DOF_LONG
+#call macrosys,CharaEraseAll
+#setEVFlag 32
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K03C
+#setFlag SF_BG3DISP
+#call macrosys,FadeInNormal
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#call macrosys2,Thread_NoiseFlash
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#resetFlag SF_BG5DISP
+#resetFlag SF_BG6DISP
+#call macrosys,InitBG5
+#call macrosys,InitBG6
+#call macrosys,FadeOutKaisou
+#playSE 0,SGSE061
+#setEVFlag 50
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M05A
+#setFlag SF_BG3DISP
+#call macrosys,FadeInNormal
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#call macrosys2,Thread_NoiseFlash
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#resetFlag SF_BG5DISP
+#resetFlag SF_BG6DISP
+#call macrosys,InitBG5
+#call macrosys,InitBG6
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG059
+#assign $W(SW_BG3ALPHA),128
+#setFlag SF_BG3DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_CRS_A08
+#call macrosys,CharaSet62
+#call macrosys,SET_DOF_SHORT
+#call macrosys,FadeInNormal
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#call macrosys2,Thread_NoiseFlash
+#mes2v CRS_1690,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Are you okay with time leaping!? Are you!?」%p
+#messWindowCloseWait
+#messWindowCloseWait
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#resetFlag SF_BG5DISP
+#resetFlag SF_BG6DISP
+#call macrosys,InitBG5
+#call macrosys,InitBG6
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#call macrosys,OPE_DOF_LONG
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+#call macrosys,TUNE_CHACOL_BG1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaSet51
+#call macrosys,FadeInNormal
+#mes2v OKA_2762,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 ah...」%p
+#mes I remember──%p
+#mes I time leaped──%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ALA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6POSY),480
+#assign $W(SW_CHA6SIZEX),2000
+#assign $W(SW_CHA6SIZEY),2000
+#assign $W(SW_CHA6FACE),Face_CRS_A01
+#call macrosys,CharaSet62
+#call macrosys,SET_DOF_SHORT
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_BG
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK17
+#assign $W(SW_BG3MASKFADERANGE),64
+#assign $W(SW_BG3FADECT),210
+#setFlag SF_BG3DISP
+#call macrosys,FadeInVERYFAST
+#mes2v CRS_1691,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You'll remember your memories from the future.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#call macrosys,OPE_DOF_LONG
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+#call macrosys,TUNE_CHACOL_BG1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaSet51
+#call macrosys,FadeInFAST
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes remember%p
+#mes That's right! What am I lazing around for!?%p
+#mes I──%p
+#mes2v OKA_2763,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where is this...?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_1692,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Haah?」%p
+#mes I grab Kurisu's shoulder and draw near.%p
+#messWindowCloseWait
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaDisp51
+#mes2v OKA_2764,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What time is it now!? What month? What Day? What time!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_1693,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 ouch...! Calm down...!」%p
+#mes2v OKA_2765,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How can I be calm!? Shopping? You told me to go shopping?」%p
+#mes The shopping from when?%p
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02E1
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),300
+#assign $W(SW_BG2SY),80
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#mes Besides Kurisu、 Daru is in the lounge.%p
+#mes He's sitting at his computer、 staring here in wonder.%p
+#mes2v OKA_2766,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru! What day is today!? What time is it!?」%p
+#mes2v DAR_0867,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Uh、 ummm、 well、 it's the 13th... a little past 5.」%p
+#mes The 13th、 past 5....%p
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#resetFlag LF_PHONE_LOOP_DONE
+#label L_SG06_02_PHONE_CALL_01
+#call macrosys2,SelfStop_SkipMode
+#PhoneCallActive PhID_MAY,PhID_NONE,PhID_NONE,PhID_NONE
+#mes2v OKA_2767,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...was it a success...?」%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes During all that chaos、 did I successfully time leap?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes Did my memories really jump through time?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes So、 has my consciousness infected my past memories?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes Or maybe was all of that chaos a dream?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes I mean、 that didn't seem real at all.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes It seemed like something out of a Hollywood movie.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes But the sight of Mayuri、 bloody and collapsed、 is burned into my mind.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes And the smell of blood.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes And the memory of a gunshot.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes And the sensation of headgear.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes And the pain of getting shot in the arm.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes And Kurisu's screams. And Suzuha's vivid agility.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes I clearly remember the chain of events.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes I try touching my arm and my right ear.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes No wounds. Nor pain.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes Was that all a dream?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes I don't know.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes I've never time leaped before.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes Or should I say、 I can't help but hope it was a dream.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes Such a future... is too much....%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes I'm about to cry when I recall Mayuri's last moments.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes I strongly hold it back.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#setFlag SF_Phone_AutoDisable
+#mes2v OKA_2768,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Where's Mayuri?」%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#mes I look about the lab.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes Kurisu and Daru are here.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes But I can't find Mayuri.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes2v OKA_2769,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where is Mayuri!?」%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes2v DAR_0868,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Where? Didn't she just say she was going to Luka-shi's place? Okarin、 didn't you hear?」%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes That's right、 Mayuri finished making Lukako's costume and told us she went off to persuade her. After that、 the development council-- basically、 Mayuri won't come back to the lab until the party starts.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes What do I do?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes What do I believe?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes That it was a dream?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes Or that I time leaped?%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes If it were a dream、 then I don't have to worry about anything.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#mes If I time leaped、 then I need to start acting immediately.%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#setFlag SF_Phone_AutoDisable
+#mes I──%p
+#flagOnJump SF_PhoneCallExec,L_SG06_02_SET_NXTFIL_SG06_05
+#label L_SG06_02_PHONE_CALL_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#resetFlag SF_Phone_AutoDisable
+#If ($W(SW_BG1DISPMODE)==BGDISPMODE_POS),L_SG06_02_PHONE_CALL_01_END_SKIP_BGOVERWRITE
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#label L_SG06_02_PHONE_CALL_01_END_SKIP_BGOVERWRITE
+#label L_SG06_02_SET_NXTFIL_SG06_03
+#assign $W(LR_NXTFIL),"SG06_03"
+#jump L_SG06_02_SET_NXTFIL_END
+#label L_SG06_02_SET_NXTFIL_SG06_05
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#assign $W(LR_NXTFIL),"SG06_05"
+#jump L_SG06_02_SET_NXTFIL_END
+#label L_SG06_02_SET_NXTFIL_END
+#flagOnJump LF_DEBUG,L_SG06_02_TTLCALL_END
+#end
+#label L_SG06_02_TTLCALL_END
+#messWindowCloseWait
+#resetFlag SF_Phone_Disable
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

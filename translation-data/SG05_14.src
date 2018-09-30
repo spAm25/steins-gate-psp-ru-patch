@@ -1,0 +1,938 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE085
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#mes At a good stopping point、 I recline on the sofa、 absentmindedly watching a high school baseball game.%p
+#mes The teams from Kumamoto and Aichi are playing a heroic high hitting game.%p
+#mes And then the sewing machine sounds reverberating in the lounge suddenly stop.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#call macrosys,CharaDisp51
+#mes2v MAY_0725,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 Okarin. Come here a bit-」%p
+#mes She holds the costume and tells me so.%p
+#mes Not understanding what's up、 I stop supporting Kurisu and walk up to Mayuri when──%p
+#mes2v MAY_0726,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Can you hold this for me-? Spread it out like 'fwapp!'」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0832,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Mayu-shi、 say that fwapp again.」%p
+#mes Daru overheard from his computer.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0727,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Fwapp!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6FACE),Face_DAR_B01
+#call macrosys,CharaDisp62
+#call macrosys2,DAR_HANADI_2
+#mes2v DAR_0833,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I got a fwapp!」%p
+#mes2v CRS_1542,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Stop it already、 you ＨＥＮＴＡＩ.」%p
+#mes Following Mayuri's directions、 I spread the costume out by the sleeves.%p
+#mes2v MAY_0728,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mm...」%p
+#mes She inspects it from a distance.%p
+#mes Mayuri unexpectedly has the temperament of an artist.%p
+#mes That's why cosplayers value Mayuri's costumes so high.%p
+#mes But the costume I'm holding now is custom-made for Lukako.%p
+#mes I thought Lukako was against it、 but I guess Mayuri finished her persuasion.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0729,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yup、 thanks-」%p
+#mes Her face looks a little tired、 perhaps since she stayed up all night.%p
+#mes But Mayuri's face was all smiles.%p
+#mes2v MAY_0730,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Finished-♪」%p
+#mes2v OKA_2648,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's complete?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0731,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yup. I finished before Chris-chan-. It was a competition-.」%p
+#mes2v CRS_1543,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You win、 Mayuri. Well done.」%p
+#mes Damn assistant....%p
+#mes She's like an entirely different person with Daru and me.%p
+#mes What's with that look of an elder sister upon her younger sister?%p
+#mes2v CRS_1544,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But I'm finished here too.」%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMA
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_CRS_A04
+#setFlag SF_CHA6DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#mes Kurisu finishes connecting the two cords she's holding.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMA
+#assign $W(SW_CHA6FACE),Face_CRS_A06
+#call macrosys,CharaDisp62
+#mes2v CRS_1545,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Complete」%p
+#mes The instant Kurisu says that、 we all──%p
+#messWindowCloseWait
+#call macrosys,SetOrder62517384
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASB
+#assign $W(SW_CHA7POSX),CHR_RIGHT_L
+#assign $W(SW_CHA7FACE),Face_DAR_B03
+#call macrosys,CharaDispW5173
+#mes Don't cheer.%p
+#mes2v MAY_0732,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It's a tie、 huh-」%p
+#mes2v DAR_0834,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ah-、 I'm tired.... I want Faris-tan to heal me....」%p
+#mes We're not pumped up at all.%p
+#mes Like I said、 I don't feel joyous either.%p
+#mes It's not because we're tired.%p
+#mes A time machine.%p
+#mes Though it only sends consciousness、 it is a device that can transcend space-time....%p
+#mes We've fervently worked these past few days just to complete it、 but...%p
+#mes Once we actually completed it、 that heat rapidly froze.%p
+#mes ──I never thought we'd actually complete it.%p
+#mes Such thoughts cross my mind.%p
+#mes ──What are we doing? What are we doing with this?%p
+#mes Finally、 I peep at Kurisu and Daru's expressions.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#call macrosys,CharaDisp62
+#mes Kurisu's also making an awkward face.%p
+#mes2v CRS_1546,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We... may have made something outrageous...」%p
+#mes I look at the improved Microwave Ophone (Temp) again.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG057
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes The biggest improvement is the headgear attached to the X68000.%p
+#mes It looks like some B-grade cyberpunk gimmick. The pin jacks at the nape of the neck and the back of the head are unnecessary. The tip burying itself into the the skull is unnecessary.%p
+#mes It's actually a simple device where you just need to put on the headgear.%p
+#mes It looks cheap、 but I can turn a blind eye to that much.%p
+#mes2v OKA_2649,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「For now、 shouldn't we decide on a formal name?」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_2650,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「&rs"Heavenly Express"&rtBullet Train to Heaven&re」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDisp73
+#mes2v DAR_0835,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Microwave Ophone 3rd Edition ver1.00」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0733,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Silly Hat Microwave Ophone-chan」%p
+#mes Mmgh、 split in opinions.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B05
+#call macrosys,CharaDisp62
+#mes2v CRS_1547,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You guys really are thoughtless、 huh.」%p
+#mes2v OKA_2651,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina、 not going to vote?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B07
+#call macrosys,CharaDisp62
+#mes2v CRS_1548,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Time Leap Machine.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#call macrosys,CharaDisp73
+#mes2v DAR_0836,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's terrible.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#mes2v CRS_1549,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wh-what's your problem? Simple is best、 right? I mean、 Okabe's been calling it that for the past two days.」%p
+#mes2v OKA_2652,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Seems Assistant has zero naming sense.」%p
+#mes2v CRS_1550,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't want to hear that pretentious hipster bullshit from you.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDisp73
+#mes2v DAR_0837,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ohhh...? No way、 Makise-shi knows what pretentious hipster bullshit is.... Well played.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B07
+#call macrosys,CharaDisp62
+#mes2v CRS_1551,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Th-that was an accident. Don't get me wrong、 okay?」%p
+#mes A barefaced lie.%p
+#mes She should just confess and say I'm a person who really likes @channel.%p
+#mes Kurisu greets my grin with a glacial glare.%p
+#mes2v OKA_2653,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri. As the final tiebreaker、 please choose one of them.」%p
+#mes Mayuri holds the right to decide the final name.%p
+#mes That's the lab's silent agreement.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0734,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hmmm」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0735,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I think Time Leap Machine is good.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0736,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Silly Hat Microwave Ophone-chan's a super close second、 though.」%p
+#mes2v DAR_0838,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's because you thought of it、 Mayu-shi...」%p
+#mes2v CRS_1552,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Like I said. Simple is best. Mayuri gets it.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0737,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehhehe-」%p
+#mes I was about to object、 but it's an unwritten law not to complain once Mayuri's made a decision.%p
+#mes2v OKA_2654,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gh、 so Time Leap Machine it is.」%p
+#mes2v OKA_2655,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Assistant! Please give a lecture on the Time Leap Machine's structure so that all members may understand.」%p
+#mes I heard a rough outline、 but I want her to go over the details again.%p
+#mes Kurisu nods and stands in front of the whiteboard.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG058A
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#call macrosys,CharaClrAll
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v CRS_1553,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In short、 this is a device which converts memories into data and sends them through a ring singularity into the past.」%p
+#mes2v CRS_1554,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The Microwave Ophone coincidentally has the same function as the time machine Titor talked about.」%p
+#mes2v CRS_1555,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It can produce ring singularities and send 36 bytes + α of data into the past.」%p
+#mes2v CRS_1556,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Destination setting-- basically、 setting where it goes in the past-- is clearly restricted to cell phones.」%p
+#mes2v CRS_1557,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Unlike with D-mails、 this time the data takes the form of a phone call、 so the destination isn't set by mail address、 but by phone number.」%p
+#mes2v CRS_1558,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The produced ring singularity is made naked and its gravity stabilized by a device-- a lifter、 or in this case、 the 42in Braun tube TV downstairs.」%p
+#mes What she's explained so far is the Microwave Ophone (Temp)'s function.%p
+#mes Now comes the explanation for Kurisu's improvements.%p
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058B
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2FADECT),258
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-214)
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1559,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The Microwave Ophone now has headgear attached.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058C
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2FADECT),228
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-178)
+#setDic 28
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1560,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「With this、 we can scan the nerve impulse pattern of memories accumulated in the temporal lobe-- more accurately、 the &cTIPSC;ＣＡ３&cMESC; of the hippocampus.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058D
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2FADECT),182
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-66)
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1561,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Then、 using VR engineering、 we can encode the nerve impulse signal data into electrical signal data.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v DAR_0839,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The file size is about 3.24 terabytes.」%p
+#mes Tera.... I don't know if that's a large number or a small number to describe the entirety of memories.%p
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058E
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2FADECT),66
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-22)
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1562,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By the way、 a 'decoding' program for this data needs to be set up beforehand.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v CRS_1563,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Anybody well versed in programming can do this. I had Hashida make the program.」%p
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058F
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK03
+#assign $W(SW_BG2FADECT),172
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-94)
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1564,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We send this electrical signal data through the net to SERN's LHC in France.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes For some reason、 this building has a mysterious direct line to SERN.%p
+#mes We can transfer any huge amount of data at considerably high speed、 however──%p
+#mes2v OKA_2656,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How long does it take to send 3.24 terabytes of data?」%p
+#mes2v DAR_0840,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「We have not one、 but 64 direct lines in parallel. So if we send it in 64 parts──」%p
+#mes2v DAR_0841,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I think it'll transfer in about 45 seconds.」%p
+#mes That's unexpectedly fast....%p
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058G
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK03
+#assign $W(SW_BG2FADECT),98
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-52)
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1565,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If we remotely use the LHC to create a mini-black hole、 we can utilize the surrounding super gravity for infinite compression to compress the data into 36 bytes.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes Hmmm、 3 teras is about 3 trillion bytes. Compressing that into 36 bytes....%p
+#mes That's like a contortionist trick.%p
+#mes2v OKA_2657,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Does compression take time?」%p
+#mes2v DAR_0842,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's instantaneous from here. We're using black hole power after all. It happens in about 23 milliseconds.」%p
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058H
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2FADECT),198
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-118)
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1566,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By the way、 super compression of binary data is only valid around the mini-black hole. Once it separates from there、 the data begins to decompress on its own.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v CRS_1567,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Decompression time is the same as compression time、 at 23 milliseconds.」%p
+#mes2v DAR_0843,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「During that time、 it must return from the LHC to the Microwave Ophone through this X68000 or else.」%p
+#mes2v DAR_0844,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 it's only 36 bytes + α、 so it should easily make it in time.」%p
+#mes2v OKA_2658,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina、 continue.」%p
+#mes2v CRS_1568,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「When the Time Leap Machine activates、 the Kerr black hole effect breaks out、 producing ring singularities at the same time. When the discharge phenomenon breaks out、 the data the LHC compressed into 36 bytes + α returns──」%p
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058I
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2FADECT),114
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-66)
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1569,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It goes through the ring singularity.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v CRS_1570,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This part is the same as the Microwave Ophone.」%p
+#mes2v CRS_1571,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The data goes back to the time inputted through the timer、 and then connects to the phone.」%p
+#mes2v CRS_1572,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「When it goes through the ring singularity and reaches the phone in the past、 the data should automatically decompress in 23 milliseconds.」%p
+#mes2v CRS_1573,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「At the same time it decompresses、 the 'decoding' program runs、 returning the electrical signal back into nerve impulse signals.」%p
+#mes2v CRS_1574,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「When they arrive at the receiving cellphone、 the nerve impulse signals are faintly discharged from the sending mouthpiece at around 0.02 amperes.」%p
+#mes2v CRS_1575,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Then the receiving cellphone touches the recipient's ear and emits the signals near their temple.」%p
+#mes2v OKA_2659,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Assuming the recipient answers their phone.」%p
+#mes2v CRS_1576,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If they don't answer、 the memory transfer ends in failure. Well、 in this case、 there's no real demerit. Only the copy data vanishes.」%p
+#mes2v OKA_2660,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why a phone call instead of a mail?」%p
+#mes2v CRS_1577,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Because during a call、 the recipient brings their phone near their temple、 making it easier to send data to the recipient's temporal lobe.」%p
+#mes2v CRS_1578,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The area around the temple is placed near the frontal lobe and temporal lobe of the cerebrum、 but like I said at first、 the temporal lobe surrounds the hippocampus、 where memories are stored.」%p
+#swapBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG058J
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKFADERANGE),2
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2FADECT),64
+#assign $W(LR_TMP02),$W(SW_BG2FADECT)
+#assign $W(LR_TMP00),($W(LR_TMP02)-0)
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_BG2_FadeOutTIM
+#mes2v CRS_1579,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So then、 the 'lump of all the recipient's memories、' the nerve impulse signals、 is emitted from the cellphone. With that、 the memory overwrite is complete.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v CRS_1580,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「At the same time、 the phone's stimulation of the frontal lobe causes it to also create nerve impulse signals. This is important.」%p
+#mes2v CRS_1581,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The frontal lobe sends 'top down memory recollection signals' to the temporal lobe. These signals are sent when you recall memories.」%p
+#mes2v CRS_1582,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By emitting nerve impulse signals that stimulate the frontal lobe、 these 'top down memory recollection signals' are intentionally sent out.」%p
+#mes2v CRS_1583,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By these actions、 the recipient is forced to 'remember' all of the memories sent by the sender.」%p
+#mes2v CRS_1584,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「They'll remember memories from the future.」%p
+#mes2v CRS_1585,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And the necessary time is less than a second.」%p
+#mes2v CRS_1586,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「As a result、 the recipient now holds all the same memories as the sender and the time leap is complete.」%p
+#mes2v CRS_1587,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「For example、 if the sender and recipient have a time difference of one week、 the recipient will 'remember' the memories they experienced one week in the future.」%p
+#mes2v CRS_1588,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We need to be aware that consciousness and personality aren't transferred. Both of those depend on the recipient.」%p
+#mes2v DAR_0845,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Explain it with boobs.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaSetW5173
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v CRS_1589,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「B-boo...!?」%p
+#mes In place of Kurisu、 silently blushing、 I try to explain instead.%p
+#mes Obviously not with boobs、 though.%p
+#mes2v OKA_2661,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's say we send Daru's current memories to Daru in elementary school.」%p
+#mes2v OKA_2662,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Now、 Daru's a pervert who can see 2D、 3D、 and inanimate objects as moe、 but in elementary、 he should still be a free-spirited innocent lad.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_AMB
+#assign $W(SW_CHA7FACE),Face_DAR_B02
+#call macrosys,CharaDisp73
+#mes2v DAR_0846,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In elementary、 I was a diligent little bastard、 but what of it?」%p
+#mes2v OKA_2663,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Basically、 the memories would be from the now-19 year old pervert Daru、 but the consciousness and personality would be from that innocent little bastard.」%p
+#mes2v OKA_2664,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You won't become a great detective 'with the looks of a child and the brains of an adult'.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_AMB
+#assign $W(SW_CHA7FACE),Face_DAR_B03
+#call macrosys,CharaDisp73
+#mes2v DAR_0847,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「What? That's boring.」%p
+#mes It's slightly different from the time leaping of consciousness itself in scifi novels. But that's as much as we can do right now.%p
+#mes2v CRS_1590,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Mmmhmm.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_1591,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Umm、 since cellphones end up playing roles like black holes and white holes、 you're restricted to sending memories to 'the times you had a cellphone'.」%p
+#mes2v CRS_1592,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We need to make sure that the sender and recipient are the same person.」%p
+#mes2v CRS_1593,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「For example、 if the person who picks up isn't your past self、 but your parent、 or a friend、 then the nerve impulse signals will emit onto that parent or friend instead.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_1594,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And then、 the recipient's memories will overwrite those of that parent or friend. If that all goes wrong、 it could cause a personality disorder.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Kurisu ends her explanation and takes a short breath.%p
+#mes And with that、 the lab falls into silence.%p
+#mes Kursiu、 Daru、 and I all peek at each other's faces.%p
+#mes Mayuri-- seems burned out by the difficult conversation.%p
+#mes2v OKA_2665,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So.」%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDispW5173
+#mes I clear my throat and tighten my facial expression.%p
+#mes I gulp down hard.%p
+#mes2v OKA_2666,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are we going to do?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDisp73
+#mes2v DAR_0848,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Do about what?」%p
+#mes2v OKA_2667,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How are we going to deal with the time machine?」%p
+#mes2v CRS_1595,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes My usually strong and bold assistant says nothing.%p
+#mes She said we made something outrageous、 so I guess Kurisu's somewhat feeling what I'm feeling.%p
+#mes Noticing my glance、 Kurisu finally begins to speak reluctantly.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_1596,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It certainly isn't something that should be left in our hands. The safest thing to do is transfer it to a research institution and have them treat it as a national project、 right?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes She says it without seeming to agree with it.%p
+#mes She most likely wants to try experimenting in her heart of hearts.%p
+#mes But she doesn't say so.%p
+#mes History's first time machine、 which makes trespassing onto god's territory possible.%p
+#mes Most likely every national、 and international organization would want that.%p
+#mes And the money they'd pay out for that would surely reach hundreds of millions.%p
+#mes This device holds possibilities that tremendous and fierce.%p
+#messWindowCloseWait
+#call macrosys,SetOrder51627384
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BSA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_CRS_A01
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASB
+#assign $W(SW_CHA7POSX),CHR_RIGHT_L
+#assign $W(SW_CHA7FACE),Face_DAR_B03
+#call macrosys,CharaDispT516273
+#mes2v DAR_0849,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It just doesn't feel real、 huh.」%p
+#mes2v MAY_0738,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii doesn't get it either-」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASB
+#assign $W(SW_CHA7FACE),Face_DAR_B04
+#call macrosys,CharaDisp73
+#mes2v DAR_0850,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 that's 'cause Mayu-shi didn't help at all、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0739,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 that's true、 huh. Ehhehe-」%p
+#mes2v CRS_1597,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe、 what's your opinion? And by that、 I don't mean Hououin's opinion、 but Okabe's、 okay?」%p
+#mes My opinion's the same as Kurisu's.%p
+#mes On the other hand──%p
+#mes2v OKA_2668,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I do feel like I want to experiment.」%p
+#mes For now、 I mutter my true intentions.%p
+#mes I notice Kurisu's loss of breath.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes2v OKA_2669,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But there are too many problems to practice time leaping.」%p
+#mes This is unknown territory for us-- no、 for humanity.%p
+#mes2v OKA_2670,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Who will time leap?」%p
+#mes I look at the faces of the three lab mems.%p
+#messWindowCloseWait
+#call macrosys,SetOrder51627384
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSB
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASB
+#assign $W(SW_CHA7POSX),CHR_RIGHT_L
+#assign $W(SW_CHA7FACE),Face_DAR_B03
+#call macrosys,CharaDispT516273
+#mes Daru quickly looks away.%p
+#mes Mayuri's burned out.%p
+#mes Kurisu... stares at me.%p
+#mes2v CRS_1598,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...It's hard to choose whom.」%p
+#mes2v DAR_0851,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I'll pass.」%p
+#mes2v MAY_0740,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「……？」%p
+#mes2v OKA_2671,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Not a single person here wants to assertively take the honor to be history's first.%p
+#mes Everyone-- except for Mayuri-- is probably thinking about the worst case scenario.%p
+#setFlag SF_Phone_AutoDisable
+#mes ──What if the time leap were to fail?%p
+#messWindowCloseWait
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE013
+#call macrosys,FadeOutWhiteFast
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#resetFlag SF_CHA3DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG035
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_WHITE
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#call macrosys,FadeIn0
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK06
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG3_FadeOutTIM
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG3PRI),PRI_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK06
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,FadeOutWhite0
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#setFlag SF_CHA2DISP
+#setFlag SF_CHA3DISP
+#call macrosys,FadeInSlow
+#resetFlag SF_Phone_Disable
+#mes2v CRS_1599,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The possibility of becoming a Jellyman like with SERN's time machine is zero.」%p
+#mes2v CRS_1600,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This machine sends data、 not the real thing.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B05
+#call macrosys,CharaDisp62
+#mes2v CRS_1601,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't make any preconceptions about time leaping.」%p
+#setDic 32
+#mes2v CRS_1602,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You might say it's like a &cTIPSC;cut & paste&cMESC; of consciousness itself、 though.」%p
+#setDic 53
+#mes2v CRS_1603,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No、 wait、 it's a &cTIPSC;copy & paste&cMESC; to the very end. And it's just memories.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62
+#mes2v CRS_1604,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The original doesn't get erased.」%p
+#mes That's a very easy to understand example.%p
+#mes But that's not the problem.%p
+#mes Time flows in one line from past、 to present、 to future. That's how time normally is to humans. Several problems pop up based on that idea.%p
+#mes2v OKA_2672,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's a possibility that a mistake happens to the data sent to the past and it changes to a fractal structure.」%p
+#mes2v OKA_2673,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's say I time leap one hour back──」%p
+#mes2v OKA_2674,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The hollow fractal memory data could drive itself into my brain an hour back.」%p
+#mes2v OKA_2675,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That could be the same as a sort of memory loss、 couldn't it?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B05
+#call macrosys,CharaDisp62
+#mes2v CRS_1605,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...It could.」%p
+#mes2v OKA_2676,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And in that case、 we'll arrive at the 'present' one hour later. At that time、 the 'me who went back an hour and lost his memories' and the 'current me' conflict in my brain.」%p
+#mes2v OKA_2677,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Which data survives?」%p
+#mes2v CRS_1606,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「……With theory in consideration、 the moment the copy transfers one hour back、 the 'present' will change、 so──」%p
+#mes The conflicting current me disappears then.%p
+#mes2v OKA_2678,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So basically、 it isn't copy & paste then?」%p
+#mes2v CRS_1607,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't know. Because until now、 it's been unprecedented to transcend time.」%p
+#mes2v OKA_2679,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「With D-mails、 the world is reconstructed according to what happens 'after the change'.」%p
+#mes I'm the only one who recognizes that、 though.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSA
+#assign $W(SW_CHA6FACE),Face_CRS_A05
+#call macrosys,CharaDisp62
+#mes2v CRS_1608,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't know what happens when you time leap.」%p
+#mes2v CRS_1609,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If it's the many-worlds interpretation like Titor said、 then the instant you time leap、 the 'possible' world line you forked off to and the original 'possible' world line exist simultaneously.」%p
+#mes2v CRS_1610,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「At the same time、 that means that the possible world line where 'the present Okabe doesn't disappear' also naturally exists、 most likely corresponding to the 'present、' I think.」%p
+#mes2v MAY_0741,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「???」%p
+#mes But that's only if the many-worlds interpretation holds in the first place.%p
+#mes2v OKA_2680,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I thought you didn't believe in what Titor had to say.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSA
+#assign $W(SW_CHA6FACE),Face_CRS_A03
+#call macrosys,CharaDisp62
+#mes2v CRS_1611,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm talking hypothetically. Titor doesn't matter right now.」%p
+#setDic 54
+#setDic 129
+#mes2v CRS_1612,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If it's the &cTIPSC;Copenhagen interpretation&cMESC;、 then every possible state propagates through space as a &cTIPSC;wave function&cMESC;. And the instant an observer observes、 every state converges.」%p
+#mes But arbitrary observation is impossible.%p
+#mes2v OKA_2681,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Who that observer is is the problem.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDisp73
+#mes2v DAR_0852,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Isn't it a third party? Like me、 or Mayu-shi.」%p
+#mes2v MAY_0742,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「……？」%p
+#mes2v OKA_2682,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Not necessarily. The observer might be me、 or it might be someone else、 or it might be god.」%p
+#mes In the first place、 the Copenhagen interpretation and the many-worlds interpretation are nothing but micro scale theories.%p
+#mes I can't say for certain whether or not they can be applied to humans、 or the world.%p
+#mes What about my personal experiences with the demon eye、 Reading Steiner?%p
+#mes If this demon eye is the sort of ability I think it is、 then the world structure of changing world lines is correct.%p
+#mes2v OKA_2683,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In the end、 we arrive at the problem of 'where is self?'」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62
+#mes2v CRS_1613,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This Time Leap Machine only sends 'memories' and nothing more. No doubt about that.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDisp73
+#mes2v DAR_0853,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Won't the 'present' be reconstructed at the moment of transfer?」%p
+#mes2v DAR_0854,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Won't we run into the same phenomenon as Okarin's 'Reading Steiner'?」%p
+#mes2v OKA_2684,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's how it is in the case of D-mails. Since it's clear that sending mails into the past is an act of 'intervention'.」%p
+#mes2v OKA_2685,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But time leaping is an act of sending your memories to the past、 so it's not clear if you can 'intervene' or not.」%p
+#mes2v OKA_2686,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We can't know whether or not I can 'intervene' in cause and effect after remembering my future memories until we try.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASB
+#assign $W(SW_CHA7FACE),Face_DAR_B03
+#call macrosys,CharaDisp73
+#mes2v DAR_0855,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I'm getting confused.」%p
+#mes2v DAR_0856,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Isn't this in the realm of religion? We're talking about where the soul is.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#call macrosys,CharaDisp62
+#mes2v CRS_1614,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Wait. You guys are misunderstanding something.」%p
+#mes2v CRS_1615,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「In terms of personality and consciousness、 there's no change between Okabe one week ago and Okabe now.」%p
+#mes2v CRS_1616,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Whether or not they have memories of last week. That's the only difference.」%p
+#mes2v OKA_2687,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is that it? Really?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B05
+#call macrosys,CharaDisp62
+#mes2v CRS_1617,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Don't quote me on that、 though. After all、 nobody's tried this before.」%p
+#mes The discussion's going nowhere.%p
+#mes Personality and consciousness can't be strictly defined、 so it's hard to imagine it.%p
+#mes2v MAY_0743,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So in the end、 which is it-?」%p
+#mes2v CRS_1618,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's why we don't know. No matter how much we pointlessly discuss、 in the end、 it's all a 'prediction'.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62
+#mes2v CRS_1619,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This experiment might be bogged down by preconceptions throughout history.」%p
+#mes In the end、 we won't know until we try. Everything ends up at those words.%p
+#mes And the experimental subject must be prepared to risk breaking their consciousness.%p
+#mes Kurisu、 Daru、 and I say no more.%p
+#mes We can't solve this problem.%p
+#mes This is our limit at the end.%p
+#mes But isn't it enough that we've come this far?%p
+#mes That itself is worthy of a Nobel Prize、 and can't we get filthy rich just by selling the technology for hundreds of millions?%p
+#mes And if we announce the Time Leap Machine to the world、 we can obstruct SERN's monopoly on the technology.%p
+#mes I try to forcefully persuade myself.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSC
+#assign $W(SW_CHA5FACE),Face_MAY_C03
+#call macrosys,CharaDisp51
+#mes2v MAY_0744,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 hey.」%p
+#mes Mayuri、 who was until then burned out with her mouth half open、 finally came back to life.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0745,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 hard things are hard for Mayushii to understand-」%p
+#mes2v MAY_0746,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「For example、 can Mayushii make her banana time leap-?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B02
+#call macrosys,CharaDisp62
+#mes2v CRS_1620,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Oh、 Mayuri...」%p
+#mes2v CRS_1621,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Bananas don't have brains like people do.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0747,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 I see-. Then it won't work、 huh-」%p
+#mes Mayuri's no different from normal.%p
+#mes I feel our tense atmosphere loosen up.%p
+#mes2v OKA_2688,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Let's not experiment.」%p
+#mes2v OKA_2689,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's entrust the Time Leap Machine to a suitable research institution. Then let's announce it to the world.」%p
+#mes Thanks to that、 I could begin to say that.%p
+#mes Kurisu and Daru didn't oppose.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_BG2_FadeOutTIM
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK17),0
+#assign $T(THD_WORK18),BG_VERYSLOW
+#label @@
+#add $T(THD_WORK17),1
+#CalcMove LR_TMP11,$W(LR_TMP00),$T(THD_WORK17),$T(THD_WORK18)
+#assign $W(SW_BG2FADECT),($W(LR_TMP02)-$W(LR_TMP11))
+#wait 1
+#flagOffJump LF_THD_CTRL,@f
+#If ($T(THD_WORK17)<$T(THD_WORK18)),@b
+#label @@
+#assign $W(SW_BG2FADECT),0
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag LF_THD_EXEC
+#end

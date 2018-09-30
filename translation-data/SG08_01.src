@@ -1,0 +1,378 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,TIT008
+#setFlag SF_BG1DISP
+#call macrosys,FadeInVery2Slow
+#AutoSave 1
+#call macrosys,SetRevTitle
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#call macrosys,FadeOutVERYSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(LR_DATE),0814
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_EFFECT_WAVE_PRI),PRI_LOWER_CHARA
+EffectWaveInit
+EffectWaveSetFRAME_LEFT,48,0x0000,0x0100,0x0100
+EffectWaveSetFRAME_RIGHT,48,0x8000,0x0100,0x0080
+EffectWaveSetFRAME_TOP,48,0x1000,0x0100,0x0100
+EffectWaveSetFRAME_BOTTOM,48,0x9000,0x0100,0x0080
+#setFlag SF_EFFECT_WAVE
+#call macrosys,FadeInSLOW
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#playSE 1,SGSE054
+#call macrosys,FadeOutWhiteSLOW
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_EFFECT_WAVE
+#call macrosys,FadeInVERYSLOW
+#call macrosys,SEwaitHalf
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes My semicircular canals shake round and round like dice thrown down from a cup.%p
+#mes The inverting floor returns to normal before I realize it.%p
+#mes I had teleported to the lab development room.%p
+#mes Standing right next to me is Faris.%p
+#mes My demon eye、 Reading Steiner clearly recognized the changing of the world line.%p
+#mes Additionally、 the pain the Viral Attackers had inflicted on my body goes away. When I take a look、 all injuries on my body have disappeared.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_C02
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM10
+#mes Faris is standing in the center of the room、 looking around restlessly.%p
+#mes All traces of tears had completely disappeared from her face.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BMB
+#assign $W(SW_CHA5FACE),Face_FEI_B01
+#call macrosys,CharaDisp51
+#mes2v FEI_0549,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Kyouma~. Do you know where Faris' phone is nya?」%p
+#mes The Faris who、 until just a while ago、 was facing me with a painful smile、 is no longer here.%p
+#mes Instead、 the one there was the usual simplistic、 charming Faris with an impish smile.%p
+#mes I look at the phone I'm gripping.%p
+#mes It's not my phone、 but one with several cute、 girly cat doll phone straps attached.%p
+#mes2v OKA_3815,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Your phone's here.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BMC
+#assign $W(SW_CHA5FACE),Face_FEI_C02
+#call macrosys,CharaDisp51
+#mes2v FEI_0550,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Nya?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_FEI_C01
+#call macrosys,CharaDisp51
+#mes Faris walks up to me with a teasing smile on her face.%p
+#mes She pokes at my fingers with her index finger、 twirling it around.%p
+#mes2v FEI_0551,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Kyouma... did you see that thing that's in here nya?」%p
+#mes2v OKA_3816,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Faris gently takes the phone from my hand.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5FACE),Face_FEI_C04
+#call macrosys,CharaDisp51
+#mes2v FEI_0552,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「If you did see it、 then please forget about it nya. That thing needs to stay sealed inside、 nya. If not、 those guys will awakenyan...」%p
+#mes2v OKA_3817,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5FACE),Face_FEI_C03
+#call macrosys,CharaDisp51
+#mes2v FEI_0553,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Hey、 Kyouma!? This is where you put in a comeback nya! The usual Kyouma would say 'Whaddya mean that thing!?' and turn all red in denyial!」%p
+#mes2v OKA_3818,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...sorry.」%p
+#mes Before sending the D-mail、 Faris said she didn't want to forget.%p
+#mes And I lied that she would surely remember.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLC
+#assign $W(SW_CHA5FACE),Face_FEI_C02
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_FEI_01
+#mes2v FEI_0554,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Today's Kyouma really is fishy、 nya. Usually he'd show no restraint and act all pompous and--nya!?」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes I embrace Faris.%p
+#mes Strongly、 strongly──%p
+#mes2v OKA_3819,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm sorry.」%p
+#mes Faris remembers nothing.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG25A
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes Nothing about her victory at the RaiNet tournament.%p
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG18E2
+#assign $W(SW_BG3PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#add $W(SW_BG3PRI),PRI2_BG
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2ALPHA),(128-$W(LR_TMP11))
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),0
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Nothing about the Viral Attackers and their cronies chasing us around Akiba.%p
+#setEVFlag 23
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_F05A
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3ALPHA),(128-$W(LR_TMP11))
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_BG3ALPHA),0
+#assign $W(SW_BG3ALPHA_OFS),0
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes Nothing about her father who had gallantly ridden in on his limousine to save his daughter.%p
+#setEVFlag 24
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_F06A
+#assign $W(SW_BG3PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#add $W(SW_BG3PRI),PRI2_BG
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2ALPHA),(128-$W(LR_TMP11))
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),0
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Nothing about how we had talked alone in her bedroom.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG3ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_BG3ALPHA),0
+#assign $W(SW_BG3ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes Nothing. She remembers nothing.%p
+#mes Everything that happened in that world line was undone by that last D-mail.%p
+#mes What happens to that world line、 I don't know.%p
+#mes Possibly、 just like Suzuha had said before、 it might simultaneously exist even now through superposition.%p
+#mes Or possibly、 the instant the D-mail was sent、 everything vanished at the flick of a switch.%p
+#mes You'd have to be a god to correctly observe each and every world line、 so thinking about it is pointless.%p
+#mes But one thing's clear:%p
+#mes I can never return to that world line again.%p
+#mes Faris can no longer talk to her father.%p
+#mes So──%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,FEI_BLA
+#assign $W(SW_CHA5FACE),Face_FEI_A03
+#call macrosys,CharaDisp51
+#mes2v FEI_0555,$W(LR_LIP_FEI),VID_FEI,＠Faris＠「Kyouma...? How、 how bold nya.... Mayushii's in the next room、 she'll find out...? Nyahaha...」%p
+#mes2v OKA_3820,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm sorry.……」%p
+#mes I could do nothing but apologize.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG048
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#call macrosys2,CHECK_RM_CRS_ENABLE
+#label L_SG08_01_RM_MAY08_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_MAY
+#assign $W(LR_RM_CHANCE),4
+#call macrosys2,CHECK_RM_RECEIVE
+#mes In this world line、 Mayuri invited Faris to come play at the lab. That's how the cause and effect changed.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Seems like she came to see a costume Mayuri made.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Faris had to work after this、 so she left the lab right afterwards.%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes After seeing Faris off、 I head towards Yanabayashi Shrine.%p
+#label L_SG08_01_RM_MAY08_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG16A1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG16A1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes On the way、 I stop at Chuo Dori and take a look around.%p
+#label PL_SG08_01_RM_CRS08_01_RECEIVE_STA
+#call macrosys2,SetUp_RM_CRS08_01
+#assign $W(LR_RM_CHANCE),10
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3821,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Everything came back...」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The moe shops exist now.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes animate、 Toranoana、 Mandarake、 Gamers、 Lammtarra、 Melon Books、 Asobit City....%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Each one of them revived in Akiba.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes There's a gigantic anime hanging screen on Sofmap.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Maids walk around the street handing out leaflets.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Cosplaying girls are advertising in the storefronts of game shops.%p
+#label L_SG08_01_RM_MAY08_01_REPLY_END
+#flagOnJump LF_RM_CRS_ENABLE,@f
+#RandomMail_End
+#label @@
+#call macrosys2,CHECK_RM_RECEIVE
+#mes But I didn't feel any relief in my heart for the comeback of the familiar scenery.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The only thing grinding in my heart was confirmation of the fact that Faris' father was forever lost.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes But now's not the time to stop.%p
+#label L_SG08_01_RM_CRS08_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes I shake my head and hurry to the shrine.%p
+#label L_SG08_01_RM_CRS08_01_REPLY_END
+#RandomMail_End
+#call macrosys2,Adjust_RM_CRS08_01_REPLY_END
+#mes By the way、 the satellite disappeared from Radio Kaikan's rooftop.%p
+#mes Naturally、 since it's past Suzuha's departure. My heart throbs again just thinking about it.%p
+#label L_SG08_01_RM_MAY08_02_RECEIVE_STA
+#If ($W(SW_RNDMAIL_MAY)!=RM_From_MAY08_02_A),@f
+#assign $W(LR_RM_ID),RMID_MAY
+#jump @@f
+#label @@
+#assign $W(LR_RM_ID),NO_TARGET
+#label @@
+#assign $W(LR_RM_CHANCE),1
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes With this、 the wounds within my heart have likely multiplied.%p
+#label L_SG08_01_RM_MAY08_02_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#label L_SG08_01_RM_MAY08_02_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_FEI_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM6000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

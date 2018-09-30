@@ -1,0 +1,416 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,SET_VID
+#label L_SG09_06_RM_CRS09_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_CRS
+#assign $W(LR_RM_CHANCE),0
+#call macrosys2,CHECK_RM_HAD_RECEIVED
+#label L_SG09_06_RM_CRS09_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG34N2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG34N2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes I take Moeka's phone out of my pocket.%p
+#mes2v OKA_4434,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm gonna use your phone.」%p
+#mes2v MOE_0384,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes Moeka slowly gets up. She wipes her tears and fixes her hair and clothes.%p
+#mes Since her wavy hair covers her face from the side、 I can't peek at her expression.%p
+#mes No reaction to my words.%p
+#setFlag SF_Phone_AutoDisable
+#mes Even though I freed her、 she doesn't attack me to retrieve her phone.%p
+#label L_SG09_06_RM_CRS09_01_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG096
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),30
+#assign $W(SW_BG2SY),310
+#assign $W(SW_BG2LX),640
+#assign $W(SW_BG2LY),360
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#call macrosys,CharaClrAll
+#resetFlag SF_BG1DISP
+#mes I open up the received mail history on Moeka's phone.%p
+#mes I'm looking for the aforementioned D-mail among the sea of mails left in the history.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG097
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,EvOverWrite
+#mes I finally find it after three minutes.%p
+#mes Three mails sent from Moeka's own phone、 each only 12 characters long.%p
+#mes The mails' send date: August 4、 2PM.%p
+#mes Received date: July 31、 10AM.%p
+#mes RetroPC's at Yanagibayasi Retrieve it.%p
+#mes So Moeka quickly replaced the contents of the D-mail after all.%p
+#mes All I have to do now is cancel that D-mail.%p
+#messWindowCloseWait
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_ADRCURCNO),PhID_CRS
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#mwait 90
+#stopSE 1
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2383,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Okabe!?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4435,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You at the lab?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2384,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Haah...don't worry me like that... idiot...」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4436,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Oh、 so you were worried.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2385,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「...I mean、 no matter how you look at it、 you set off a death flag. I'm surprised you're safe!」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4437,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where are you now?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2386,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「I'm on standby at the lab.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4438,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gonna send another D-mail. I'll leave the setup to you.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2387,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Timer setting?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4439,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Set it to around 11 o'clock on the 31st.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2388,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Ohhkay、 11 o'clock on the 31st、 so...」%p
+#call macrosys,ResetPhoneWindow
+#resetFlag SF_Phone_Open
+#setFlag SF_Phone_Disable
+
+#assign $W(SW_PHONE_TYPE),PHONE_TYPE_MOE
+#phone_load
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0907_0
+#assign $W(SW_PHONE_MAILCURMNO),CREATE_NEW_MAIL
+#assign $W(SW_PHONE_MODE),PhoneMode_SendMailEdit
+#setFlag SF_Phone_Open
+
+#assign $W(LR_TARGET_MAILNO),FM_To_MOE0907_1
+#call macrosys2,SendMailEdit_NEXT
+#mes Leaving the calculation to Kurisu、 I write up the mail to say Don't go to  shrine! Trap ! No goods!%p
+#assign $W(LR_TARGET_MAILNO),FM_To_MOE0907
+#call macrosys2,SendMailEdit_NEXT
+#mes I enter the address of the Microwave Ophone (Temp).%p
+#resetFlag SF_Phone_Open
+#setFlag SF_Phone_Disable
+
+#assign $W(SW_PHONE_TYPE),PHONE_TYPE_OKA
+#phone_load
+#call THIS,OPEN_PHONE_WINDOW_EngageNormal
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2389,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「OK、 all set.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4440,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Alright、 activate it.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2390,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Activated.」%p
+#call macrosys,ResetPhoneWindow
+#resetFlag SF_Phone_Open
+#setFlag SF_Phone_Disable
+
+#assign $W(SW_PHONE_TYPE),PHONE_TYPE_MOE
+#phone_load
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0907
+#assign $W(SW_PHONE_MAILCURMNO),CREATE_NEW_MAIL
+#assign $W(SW_PHONE_MODE),PhoneMode_SendMailEdit
+#resetFlag SF_Phone_Disable
+#setFlag SF_Phone_Open
+
+#wait 1
+#mwait 60
+#call macrosys2,PHONE_MAIL_SENDING
+#mes I press the send button.%p
+#assign $W(SW_PHONE_MODE),PhoneMode_CompleteSendMail
+#mes The mail is being sent.%p
+#resetFlag SF_Phone_Open
+#setFlag SF_Phone_Disable
+
+#mes2v OKA_4441,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Reading Steiner should activate this time for sure.%p
+#mes I hold my breath waiting to be hit with vertigo.%p
+#assign $W(SW_PHONE_TYPE),PHONE_TYPE_OKA
+#phone_load
+#resetFlag SF_Phone_Disable
+#call THIS,OPEN_PHONE_WINDOW_EngageNormal
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2391,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「...How'd it go?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4442,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...No good. Why won't it change!?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2392,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Another mistake?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4443,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 there's no way...! I checked the contents of Moeka's D-mail. I sent a mail to cancel it.」%p
+#mes I grind my teeth.%p
+#mes Why didn't this work either?%p
+#mes Just what's wrong?%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2393,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「What was the first D-mail about?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4444,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「About how the IBN 5100 was at Yanabayashi Shrine. This mail was supposed to cancel that by calling it a trap、 but...」%p
+#mes2v OKA_4445,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll try again、 but with different wording──」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2394,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Wait. We verified the difficulties of D-mailing with the Lotto6 experiment、 right?」%p
+#call macrosys,ResetPhoneWindow
+#assign $W(SW_PHONE_PRI),PRI_UPPER_CHARA
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG045
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2POSX),50
+#assign $W(SW_BG2POSX),70
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG2_FadeInTIM
+#mes The Lotto6 experiment....%p
+#mes That was when we sent the winning numbers、 but the past me who received them gave them to Lukako、 and in the end、 didn't by them himself.%p
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2395,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「The person who reads the D-mail chooses whether or not to act according to it.」%p
+#mes2v CRS_2396,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Kiryuu learned the IBN 5100 was at the shrine. Though the cancellation mail came right afterward、 I guess she ignored it and went anyway.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4446,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Maybe she didn't believe the cancellation mail、 or maybe she was so diligent she decided to check it out even though it was canceled.」%p
+#mes I peek at what Moeka's doing.%p
+#mes She's still hanging her head in tears.%p
+#mes My voice isn't reaching her、 is it?%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2397,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Annoying、 huh. Even when she's told it's risky to go check out the shrine、 she doesn't listen.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4447,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We have no choice but to use more compelling words. Enough to prohibit going to the shrine.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2398,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「How?」%p
+#call macrosys,ResetPhoneWindow
+#mes Yeah、 that's the problem.%p
+#mes Is it possible to coerce her with just 36 bytes?%p
+#mes Or should we think of ways other than mailing Moeka?%p
+#mes2v OKA_4448,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Like、 what if I send a D-mail to myself on July 30、 and get the IBN 5100 first?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2399,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Were you even interested in the IBN 5100 on that day?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4449,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Just when did I start seriously searching for the IBN 5100?%p
+#mes I can't really remember....%p
+#mes So、 another way to force Moeka to listen──%p
+#mes Right then、 an electric shock runs through my self-proclaimed gray brain cells.%p
+#mes Two letters run through my mind.%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG096
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG2_FadeInTIM
+#mes2v OKA_4450,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...FB.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2400,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Eh? What?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4451,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Moeka's superior. Her object of dependence. If FB mailed her、 she should believe unconditionally...」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2401,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Do you have that FB person's cell phone?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_4452,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No. They haven't even met. We don't know where she is.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2402,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Out of the question.」%p
+#call macrosys,ResetPhoneWindow
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_4453,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Give me a little time.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2403,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Making me wait again? Well、 I always stop by the lab、 so whatever.」%p
+#mes2v CRS_2404,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Don't overdo it、 okay...」%p
+#call macrosys,ResetPhoneWindow
+#stopVoice
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes So after all that work、 it only ends halfway、 huh.%p
+#mes The will of the world really does like to screw with me.%p
+#mes FB's identity.%p
+#mes FB's location.%p
+#mes Unless I find those、 I can't break out of this world line....%p
+#mes I call out to Moeka、 and when she finally raices her head、 I drop her phone onto her lap.%p
+#mes Moeka takes it with a bewildered face.%p
+#mes2v OKA_4454,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Looks like we're searching for FB now.」%p
+#mes2v MOE_0385,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes Though gripping her phone、 Moeka doesn't look at the screen.%p
+#mes I take a deep breath.%p
+#mes I need to get as much information on FB out of her as I can.%p
+#mes2v OKA_4455,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How exactly did you become a Rounder?」%p
+#mes Honestly speaking、 I couldn't care less.%p
+#mes I've been forced to talk about society with the detestable woman who killed Mayuri countless times.%p
+#mes2v MOE_0386,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes Moeka hugs her phone to her chest、 picks up her glasses that had fallen into the corner of the room、 and finally puts them back on.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MOE_B03
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes2v MOE_0387,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...Four years ago. I tried to... die.」%p
+#mes Her voice was a murmur、 a powerless whisper.%p
+#mes Moeka answered my question not by mail、 but directly by mouth.%p
+#mes2v MOE_0388,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I didn't have... a single hope. I hated anything、 and everything.」%p
+#mes2v OKA_4456,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The cause?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0389,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...nothing especially...」%p
+#mes Her expression was devoid of all life.%p
+#mes Very blank、 very deranged、 like always.%p
+#mes But the eyes behind her glasses were deep red.%p
+#mes That's what happens when you cry that much.%p
+#mes The only remaining vestige of emotion was in those eyes.%p
+#mes2v MOE_0390,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「But small things... many small things、 piled up.」%p
+#mes2v MOE_0391,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I was like this... from the start.」%p
+#mes2v OKA_4457,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Your family?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B03
+#call macrosys,CharaDisp51
+#mes Moeka shakes her head a little.%p
+#mes So、 she has none、 then.%p
+#mes I didn't even think to ask if she was born that way、 or if it happened along the way.%p
+#mes2v MOE_0392,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Locked up in my room... I overdosed on sleeping pills.」%p
+#mes2v MOE_0393,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「But I failed to die...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0394,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...that's when I got a mail.」%p
+#mes2v MOE_0395,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Rounder Recruiting.' It wasn't individually addressed... but sent by a mass transmission.」%p
+#mes ...Almost like spam.%p
+#mes Do the Rounders really recruit that recklessly?%p
+#mes2v MOE_0396,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I became inconsequential.... That's why... I replied before I noticed.」%p
+#mes2v MOE_0397,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「And then、 I got... contacted. By FB.」%p
+#mes2v MOE_0398,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Ever since then... I followed... FB's orders.」%p
+#mes2v OKA_4458,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Were you always here in Akiba?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B03
+#call macrosys,CharaDisp51
+#mes Moeka faintly shakes her head.%p
+#mes2v MOE_0399,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Until three months ago... I was in Nagoya. Before that... Yokohama. Before that...」%p
+#mes The Rounder's chief duty was to search for IBN 5100's、 so that means she's been moving around gathering information buried all around Japan about the Retro PC、 huh.%p
+#mes2v OKA_4459,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How many IBN 5100s have you found so far?」%p
+#mes Moeka faintly shakes her head left and right.%p
+#mes2v MOE_0400,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Not even one...」%p
+#mes Zero results、 huh. So the Rounders are inefficient at their work.%p
+#mes I silently sigh once more.%p
+#mes2v OKA_4460,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...What do you plan to do after this? Are you going to fall into despair、 and kill yourself just as planned?」%p
+#mes2v MOE_0401,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes2v OKA_4461,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't you want to rebel?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0402,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Rebel?」%p
+#mes It should be impossible to rebel. Those are my innermost thoughts as I ask myself.%p
+#mes Moeka's death has already been recognized by the world.%p
+#mes Meaning it'll be the same as with Mayuri: She will die even if she tries to avoid it.%p
+#mes But even so、 I ask.%p
+#mes2v OKA_4462,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「FB used you、 and abandoned you. Deal with it. So after all that、 what do you think about FB?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5FACE),Face_MOE_B03
+#call macrosys,CharaDisp51
+#mes2v MOE_0403,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes Moeka looks down.%p
+#mes2v MOE_0404,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Even... if I was used.」%p
+#mes2v MOE_0405,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「There's no place I belong... other than there.」%p
+#mes2v MOE_0406,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That was the first time、 in my entire life、 that I... was needed...」%p
+#mes2v MOE_0407,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「FB gave a place... where I belong.」%p
+#mes2v MOE_0408,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「If it's to protect that place... If it's to protect FB、 the one who gave me a reason to be、 then...」%p
+#mes2v MOE_0409,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I'd do... anything...」%p
+#mes2v OKA_4463,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You are a helpless fool.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I stand up as I say so.%p
+#mes2v OKA_4464,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then keep your dependence and die. Your death has been 'decided.'」%p
+#mes2v OKA_4465,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But I won't let the world have its way. That's why I'm leading a one-man rebellion.」%p
+#mes That's right. I will definitely save Mayuri.%p
+#mes Just a little bit more. I won't give up until then...!%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label OPEN_PHONE_WINDOW_EngageNormal
+#assign $W(SW_PHONE_MODE),PhoneMode_EngageNormal
+#setFlag SF_Phone_Open
+#end
+
+
+

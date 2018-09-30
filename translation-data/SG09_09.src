@@ -1,0 +1,818 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0815
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG048
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes Moeka and I planned to break into Manager's house.%p
+#mes I had Kurisu stand guard outside.%p
+#mes Or so I say、 but we don't illegally trespass or anything、 just honestly use the doorbell.%p
+#mes And Manager appears immediately、 bringing us into the living room.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG37A1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG37A1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes I go look at the Divergence Meter.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG076
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes Its numbers display 0.523307%.%p
+#mes Still a long way before we get over 1%. That makes me feel a little impatient.%p
+#mes2v TEN_0159,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「You came at a great time.」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,TEN_ASA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_TEN_A01
+#call macrosys,CharaDisp51
+#mes Tennouji isn't angry that we came so early、 but is welcoming us with a smile instead.%p
+#mes He even starts preparing us instant coffee.%p
+#mes2v OKA_4519,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're up pretty early、 huh、 Mister Braun.」%p
+#mes2v TEN_0160,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「I guess. I need to match Nae's school hours、 so waking up early is essential.」%p
+#mes2v TEN_0161,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「It's summer break now、 but it's already become a habit.」%p
+#mes2v OKA_4520,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is your daughter still asleep?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,TEN_ASA
+#assign $W(SW_CHA5FACE),Face_TEN_A02
+#call macrosys,CharaDisp51
+#mes2v TEN_0162,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Shut up. What are you planning、 asking about Nae like that? If you attack her in her sleep、 I'll seriously kill you.」%p
+#mes2v OKA_4521,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I won't.」%p
+#mes I'm more interested in this guy's wife.%p
+#mes We spent time inside the house like this、 but we haven't seen her.%p
+#mes Is she still sleeping like Nae?%p
+#mes Or maybe she's hiding down in the cellar.%p
+#mes I'd like to search this house at full force、 but of course that's impossible.%p
+#mes But what concerns me is how Manager talked just now──%p
+#mes It sounded like he was a single father.%p
+#mes The person most likely to be FB is Manager's wife.%p
+#mes But I might be making a grave assumption.%p
+#mes Manager might just be a mere courier after all、 and not know anything about FB.%p
+#mes There's the possibility that FB might not even be here in Akiba in the first place.%p
+#mes I'm stumped.%p
+#mes I need to make sure、 but how should I say it?%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaDisp62
+#mes Moeka's been hanging her head for a while.%p
+#mes I can't count on this woman.%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes Whether or not Manager's wife is FB、 I don't think tricks will work against him.%p
+#mes So I challenge him directly.%p
+#mes2v OKA_4522,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「A few hours ago、 six men assembled in front of this house、 took a certain something and flew to France. Obviously、 you know、 don't you?」%p
+#mes Instead of his usual cursing、 Manager smiles gently.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,TEN_ASA
+#assign $W(SW_CHA5FACE),Face_TEN_A01
+#call macrosys,CharaDisp51
+#mes2v TEN_0163,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「And that is?」%p
+#mes2v OKA_4523,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...the IBN 5100. You should know about it.」%p
+#mes2v TEN_0164,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「The phantom retro PC、 right?」%p
+#mes It's so anticlimactic that he admits it so easily.%p
+#mes Manager seems like a different person today.%p
+#mes2v OKA_4524,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just what are you? A courier perhaps、 or maybe──」%p
+#mes2v OKA_4525,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「A Rounder?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,TEN_ASA
+#assign $W(SW_CHA5FACE),Face_TEN_A03
+#call macrosys,CharaDisp51
+#mes2v TEN_0165,NO_LIPANM_TEN,VID_TEN,＠Tennouji＠「…………」%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6POSX),CHR_LEFT2
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaDisp62
+#mes Manager said no more、 but instead shifted focus to Moeka.%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_CHA5DISP
+#loadCHA 5,TEN_ASA
+#assign $W(SW_CHA5FACE),Face_TEN_A02
+#call macrosys,CharaDisp51
+#mes2v TEN_0166,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Did you betray us? M4?」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG37A1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),20
+#assign $W(SW_BG2SY),160
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+//#assign $W(LR_TMP00),BG37A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_ALB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,Disp_NextScreen
+#mes2v MOE_0437,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「……！？」%p
+#mes Moeka's whole body twitched.%p
+#mes That was something only FB should know about、 Moeka's codename.%p
+#mes2v MOE_0438,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Don't tell me... F...B...?」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG37A1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+//#assign $W(LR_TMP00),BG37A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,TEN_ASA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_TEN_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,Disp_NextScreen
+#mes Manager smiled wryly──%p
+#mes2v TEN_0167,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Do you know who Ferdinand Braun is?」%p
+#mes Being asked such an unintelligible question、 Moeka and I look at each other.%p
+#mes2v TEN_0168,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Hey、 hey、 he's the Physics Nobel Prize laureate who invented the Braun Tube、 you know.」%p
+#mes I knew this guy liked Braun Tubes since I first met him.%p
+#mes But what does that question have to do with...?%p
+#mes2v TEN_0169,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Ferdinand Braun. Initials?」%p
+#mes2v OKA_4526,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Ah!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6FACE),Face_MOE_B05
+#call macrosys,CharaDisp62
+#mes2v MOE_0439,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「FB...!」%p
+#messWindowCloseWait
+#playSE 0,SGSE060
+#setEVFlag 106
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X07B
+#assign $W(SW_BG2PRI),PRI_UPPER_ALL
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG2_FadeInTIM
+#call macrosys,CharaClrAll
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM12
+#mes2v TEN_0170,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「That's how it is.」%p
+#mes Tennouji slowly takes out a handgun.%p
+#mes He did it so spontaneously、 that at first、 I didn't recognize it was a handgun.%p
+#mes A black luster conveying its coldness、 a heavy form.%p
+#mes The muzzle is pointing straight at Moeka.%p
+#mes2v OKA_4527,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Uh...」%p
+#mes Suddenly pulling a gun out like that、 you can't be...!%p
+#mes Moeka and I are unarmed. I should've planned ahead for something like this...!%p
+#mes I mean、 I didn't expect that Manager could be FB.%p
+#mes I always thought FB was this man's wife.%p
+#mes2v OKA_4528,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let me ask one thing...」%p
+#mes2v OKA_4529,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Your wife...」%p
+#mes2v TEN_0171,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「She died when Nae was born. That all?」%p
+#mes I curse in my mind.%p
+#mes That's obvious since I've never seen her.%p
+#mes She wasn't around from the start.%p
+#mes I should've known that FB... was a guy.%p
+#mes2v MOE_0440,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「No... that can't be...」%p
+#mes2v TEN_0172,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「What's next after dependence on me? Escapism?」%p
+#mes Shaking the gun、 Manager-- No、 Tennouji Yuugo、 sneers.%p
+#mes An overwhelming disadvantage. An absolute frontal attack.%p
+#mes At this rate、 it'll end with both Moeka and me dead.%p
+#mes ...No、 it won't end.%p
+#mes At least、 I won't die.%p
+#mes The world doesn't want me dead today.%p
+#mes It's guaranteed I won't die.%p
+#mes If you take Attractor Field Theory into consideration.%p
+#mes I、 who have already been to the 16th once and time leaped from there、 can't possibly die now、 early morning on the 15th.%p
+#mes Paradoxically speaking、 I certainly live until the 16th.%p
+#mes But──%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),20
+#assign $W(SW_BG1SY),160
+#assign $W(SW_BG1LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG1LY),(SCR_SIZ_Y/2)
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_ALB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MOE_B03
+#call macrosys,CharaSet62
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),(PRI_LOWER_CHARA+2)
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_MASK2ALPHA),128
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),(PRI_LOWER_CHARA+1)
+#assign $W(SW_BG3FADECT),128
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK17
+#assign $W(SW_BG3MASKFADERANGE),64
+#setFlag SF_BG3DISP
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes It's not like that for Moeka.%p
+#mes Today、 she will die.%p
+#mes Whether her means of death is suicide or murder doesn't really matter.%p
+#mes Moeka might die here.%p
+#mes I──%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),FADE_VERYSLOW
+#assign $W(LR_TMP01),FADE_VERYSLOW
+#assign $W(LR_TMP10),((BGFADECT_MASK_BASE+$W(SW_BG3MASKFADERANGE))-$W(SW_BG3FADECT))
+#assign $W(LR_TMP11),$W(SW_BG3FADECT)
+#beginAnimation
+#CalcMove SW_BG3FADECT,$W(LR_TMP10),$W(LR_TMP00),$W(LR_TMP01)
+#add $W(SW_BG3FADECT),$W(LR_TMP11)
+//#mwait 1
+#commitAnimation
+#assign $W(SW_BG3FADECT),0
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_NONE
+#call macrosys,SET_DOF_LONG
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_FADE_TIM),CHR_VERYSLOW
+#call macrosys,CharaErase2
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#mes Stop thinking about that.\p
+#mes Now's not the time to think about that.\p
+#mes What's important is to obtain FB's cellphone、 and send a D-mail with it.\p
+#mes That is my only goal.\p
+#messWindowCloseWait
+#setEVFlag 106
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG2PRI),PRI_UPPER_ALL
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG2_FadeInTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#call macrosys,SetOrder51627384
+#mes In any case、 even though a gun's being pointed、 there's no need to freeze in fear.%p
+#mes Now that I've gotten this far、 all I can do is an all-out attack.%p
+#mes2v OKA_4530,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So you were a member of the Rounders. You were SERN's dog.」%p
+#mes2v TEN_0173,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「A dog、 huh. Ya ain't wrong about that.」%p
+#mes Today、 Tennouji is different from usual.%p
+#mes A flexible attitude. Even if I provoke him、 he doesn't get angry.%p
+#mes On the contrary、 he's holding that gun without a shred of tension in his voice.%p
+#mes Is this the true face of the man called Tennouji?%p
+#mes Was the Manager winding tubes at the Braun Tube Workshop all an act?%p
+#mes2v OKA_4531,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you shoot、 the gunshot will wake your daughter.」%p
+#mes2v TEN_0174,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「So what?」%p
+#mes2v OKA_4532,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you want your daughter to see you do such a dirty act?」%p
+#mes2v TEN_0175,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「My daughter isn't an intolerable girl who judges by appearances.」%p
+#mes I grind my teeth.%p
+#mes2v OKA_4533,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Of all things、 you're a Rounder...」%p
+#mes2v OKA_4534,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hashida Suzu didn't look after you just so you could be that...!」%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes2v TEN_0176,NO_LIPANM_TEN,VID_TEN,＠Tennouji＠「…………」%p
+#mes Tennouji's smile stiffened for a second.%p
+#mes But he soon slaps his knee and starts laughing.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM31
+#mes2v TEN_0177,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「What's that、 you knew about Suzu-san? You shoulda told me sooner.」%p
+#mes In this world line、 Manager and I haven't talked about Hashida Suzu.%p
+#mes2v TEN_0178,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「But you're talking like you know a lot aren't ya? Suzu-san died 10 years ago. Back then、 you were just about 8、 Okabe.」%p
+#mes2v TEN_0179,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「But you knew Suzu-san?」%p
+#mes2v OKA_4535,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I know.」%p
+#mes I glare at Tennouji.%p
+#mes I'm about to explode from frustration.%p
+#setFlag SF_Phone_AutoDisable
+#mes2v OKA_4536,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In my subjective time、 it was just a few weeks since she was here in this era.」%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG20N1
+#assign $W(SW_BG3PRI),PRI_BG
+#setFlag SF_BG3DISP
+//#assign $W(LR_TMP00),BG20N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,SUZ_ALB
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_SUZ_B04
+#call macrosys,CharaSet73
+#call macrosys,SET_DOF_SHORT
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInVERYFAST
+#mes2v SUZ_0883,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Changing the future is up to you guys. I'll be sure to bring the package here in Akihabara. Then I'll entrust it to you.」%p
+#mes2v SUZ_0884,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Please. I want to change the future.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#call macrosys,SET_DOF_LONG
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,CharaClrAll
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#setEVFlag 106
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#setFlag SF_BG2DISP
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes Inside my head. I can still clearly remember Suzuha's words.%p
+#mes Though they feel so long ago.%p
+#mes In actual time、 they happened just a few days ago.%p
+#mes2v OKA_4537,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「She was always close to you..!」%p
+#mes2v OKA_4538,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hashida Suzu... no、 Amane Suzuha、 came to this era to fight SERN、 as a time traveler...!」%p
+#mes2v TEN_0180,NO_LIPANM_TEN,VID_TEN,＠Tennouji＠「…………」%p
+#mes2v TEN_0181,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「What...are...」%p
+#mes2v OKA_4539,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You didn't notice、 did you、 FB? Your benefactor came from the year 2036. She was a member of our lab. Daru's daughter.」%p
+#mes2v OKA_4540,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Suzuha hated SERN. And yet you、 who are indebted to that same Suzuha、 are nothing but SERN's dog?」%p
+#mes2v OKA_4541,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're making Suzuha turn in her grave...!」%p
+#messWindowCloseWait
+#playSE 0,SGSE060
+#setEVFlag 106
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_X07B
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),300
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),880
+#assign $W(SW_BG3LY),495
+#setFlag SF_BG3DISP
+#assign $W(LR_TMP00),32
+#assign $W(LR_TMP01),32
+#assign $W(LR_TMP10),(0-$W(SW_BG3SX))
+#beginAnimation
+#CalcAccel SW_BG3SX_OFS,$W(LR_TMP10),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#add $W(SW_BG3SX),$W(LR_TMP10)
+#assign $W(SW_BG3SX_OFS),0
+#mwait FADE_VERYSLOW
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes2v TEN_0182,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Stop spewing bullshit.」%p
+#mes Tennouji points the gun at me.%p
+#mes I almost flinched、 but I endured.%p
+#mes2v OKA_4542,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Why did you become like this?」%p
+#mes2v TEN_0183,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Shaddup. Stuff happened.」%p
+#mes Stuff... huh.%p
+#mes2v MOE_0441,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Are you really... FB...?」%p
+#mes Moeka looks at the scene bewildered.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI_UPPER_ALL
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG37A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,TEN_ASA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_TEN_A03
+#call macrosys,CharaSet51
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6POSX),CHR_LEFT2
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaSet62
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Tennouji sighs and puts the gun down.%p
+#mes2v TEN_0184,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Yeah、 I am.」%p
+#mes2v MOE_0442,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「The mails...」%p
+#mes2v TEN_0185,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「I wrote them all. Why use womanly words? Camouflage. To hide my identity.」%p
+#mes2v TEN_0186,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Aren't there tons of Guys In Real Life online?」%p
+#mes2v TEN_0187,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Seriously、 though. It was dreadful、 M4. You send too much mail.」%p
+#mes2v TEN_0188,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「I responded to each of your boring-ass consultations、 so show some gratitude.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6FACE),Face_MOE_B03
+#call macrosys,CharaDisp62
+#mes2v MOE_0443,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「No...way...」%p
+#mes2v MOE_0444,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「FB... was like... a mother... to me...」%p
+#mes2v MOE_0445,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I'd do anything... for FB...」%p
+#mes2v TEN_0189,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「That was the point. It's so easy to manipulate mental cases like you who form dependencies so quickly.」%p
+#mes2v OKA_4543,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...just stop.」%p
+#messWindowCloseWait
+#setEVFlag 106
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BgOverWrite
+#mes I approach Tennouji、 but freeze once he points the gun at me again.%p
+#mes2v MOE_0446,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Why...didn't you... contact me..?」%p
+#mes2v TEN_0190,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Contact? Ahh、 once you got the IBN 5100、 you were no use to us anymore.」%p
+#mes2v MOE_0447,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...no use...」%p
+#mes That was obvious.%p
+#mes I even said so to Moeka.%p
+#mes That Moeka was an abandoned piece.%p
+#mes And to prove it、 Tennouji keeps talking.%p
+#mes Rounders are disposable.%p
+#mes2v TEN_0192,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Recruiting members by direct mail is bad in terms of confidentiality、 but that's just how the Rounders roll.」%p
+#mes2v TEN_0193,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「And any member who finds an IBN 5100 has done their duty and is silenced. Any member、 without exception.」%p
+#mes What...? What is he saying?%p
+#mes2v TEN_0194,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Doing so、 SERN and the 'committee' can cheaply keep their secrets and use misfits like us.」%p
+#mes2v MOE_0448,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「FB...」%p
+#mes2v TEN_0195,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「They see all members of the Rounders as pieces. How sad、 huh.」%p
+#mes Tennouji、 thinking something or another、 takes the gun he has pointed to me──%p
+#messWindowCloseWait
+#setEVFlag 105
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_X07A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v TEN_0196,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Doing your duty sets you up for 'disposal.' So we're more like livestock than dogs.」%p
+#mes And、 while smiling、 pushes it to his own temple──%p
+#mes2v MOE_0449,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...Eh?」%p
+#mes2v TEN_0197,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「If you defy them、 you expose your family to danger. I can't let them touch my precious daughter、 can I?」%p
+#mes2v OKA_4544,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 stop this──」%p
+#mes2v TEN_0198,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「I feel bad for Suzu-san──」%p
+#mes2v TEN_0199,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Really、 I do wonder why things turned out like this.」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutWhiteSLOW
+#playSE 0,SGSE061
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG37A1
+//#assign $W(LR_TMP00),BG37A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),630
+#assign $W(SW_BG1SY),350
+#assign $W(SW_BG1LX),640
+#assign $W(SW_BG1LY),360
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,TEN_ASA
+#assign $W(SW_CHA5SIZEX),2000
+#assign $W(SW_CHA5SIZEY),2000
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5POSY),0
+#assign $W(SW_CHA5FACE),Face_TEN_A01
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#mes Without time to stop him──%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),128
+#assign $W(LR_TMP01),128
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_CHA1POSY_OFS,(100-$W(SW_CHA1POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA1POSY),100
+#assign $W(SW_CHA1POSY_OFS),0
+#call macrosys,TuneParam51
+#mwait 32
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA1POSY_OFS,(300-$W(SW_CHA1POSY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA1ALPHA),0
+#assign $W(SW_CHA1POSY),300
+#assign $W(SW_CHA1ALPHA_OFS),0
+#assign $W(SW_CHA1POSY_OFS),0
+#call macrosys,TuneParam51
+#call macrosys,CharaErase1
+#playSE 0,SGSE014
+#call macrosys,SEwaitHalf
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG37A1
+//#assign $W(LR_TMP00),BG37A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6POSX),CHR_LEFT2
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#setFlag SF_CHA6DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#mes2v MOE_0450,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Ah...ah...」%p
+#mes2v OKA_4545,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wh...y...」%p
+#mes Blood. Brains.%p
+#mes Scatter to the wall.%p
+#mes Tennouji's burly body... lies down without moving a twitch.%p
+#mes A blood red stain gradually spreads over the tatami mat.%p
+#mes Dead.%p
+#mes Tennouji is dead.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6FACE),Face_MOE_B03
+#call macrosys,CharaDisp62
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM24
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_MOE_01
+#mes2v MOE_0451,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「No... why... uugh ughwooehh...」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#playSE 0,SGSE129
+#mes2v OKA_4546,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Everything ended unintelligibly.%p
+#mes Without us doing anything、 Tennouji had done his duty and disposed of himself.%p
+#mes Today、 has the will of the world recognized Tennouji's death?%p
+#mes2v OKA_4547,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're... an idiot...」%p
+#messWindowCloseWait
+#playSE 0,SGSE122
+#call macrosys,Qua2All
+#call macrosys,SEwaitHalf
+#mes I strongly bite my lip.%p
+#mes I pound my fists on the floor.%p
+#mes2v OKA_4548,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How could you leave your daughter and just die on your own...!」%p
+#mes He said it was to protect his daughter、 but just what should that daughter do from now on?%p
+#mes2v OKA_4549,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Moreover、 why... did you smile when you died...!」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,TEN_ALA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7ALPHA),0
+#assign $W(SW_CHA7FACE),Face_TEN_A01
+#call macrosys,CharaSet73
+#add $W(SW_CHA3PRI),PRI2_BG
+#add $W(SW_CHA7PRI),PRI2_BG
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),24
+#assign $W(LR_TMP01),24
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_CHA3ALPHA),128
+#assign $W(SW_CHA3ALPHA_OFS),0
+#call macrosys,TuneParam73
+#mes All Rounder members are disposable? Sacrificial pieces?%p
+#mes Not just Moeka、 but even FB is a mere sacrificial piece?%p
+#mes That's how SERN works?%p
+#mes This is just messed up...!%p
+#mes It's too disconnected from reality.%p
+#mes Is Nae... still sleeping in the next room?%p
+#mes Not knowing her father died?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_CHA3ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_CHA3ALPHA),0
+#assign $W(SW_CHA3ALPHA_OFS),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#mes How can I explain this to his daughter....%p
+#mes Should I run?%p
+#mes Again、 strictly、 my purpose is to obtain FB's phone.%p
+#mes And then if I change the world line by sending a D-mail、 the present will be reconstructed.%p
+#mes So there's no need to shoulder the unpleasant responsibilities.%p
+#mes Run away. To run away is to be called a coward.%p
+#mes Everything's going to be undone.%p
+#mes Yet I.%p
+#mes I timidly open the sliding door to the next room.%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG4MASKNO),MASK02
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERYSLOW
+#call macrosys,BG4_FadeInTIM
+#mes Just as I thought、 it's a child's room. There's a red backpack hanging next to the desk、 and a futon is laid out.%p
+#mes But Nae isn't there.%p
+#mes The window is open、 and the lace curtains are waving as if to invite the fresh morning breeze inside.%p
+#mes2v OKA_4550,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...she's gone?」%p
+#mes Where did... she go?%p
+#mes Where did that kid... go....%p
+#mes Don't tell me she was kidnapped by SERN?%p
+#mes Or was she gone before we came here?%p
+#mes I don't know....%p
+#mes This is all so unexpected、 I don't know what to think.%p
+#messWindowCloseWait
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG4MASKNO),MASK02
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,BG4_FadeOutTIM
+#mes2v OKA_4551,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's look for... his phone...」%p
+#mes Manager's phone.%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG37A1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),580
+#assign $W(SW_BG2SY),340
+#assign $W(SW_BG2LX),640
+#assign $W(SW_BG2LY),360
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG37A1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes I'm relieved Nae isn't here.%p
+#mes I don't have to tell her about her father's death.%p
+#mes Manager's phone was in his pants pocket.%p
+#mes In any case、 I was thinking about stealing it during the entire lookout.%p
+#mes If he resisted、 I'd have the conviction to steal it even if I had to kill him、 just like Kurisu said before.%p
+#mes But I never thought──%p
+#mes That he'd die before I killed him...%p
+#mes And now、 like a hyena scavenging fresh flesh、 I'm stealing the possessions of the recently deceased. I make myself want to puke.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I couldn't find Nae after all.%p
+#mes After getting Manager's phone、 I carry the paralyzed Moeka on my shoulders、 leaving the Tennouji residence as if running away.%p
+#mes We regroup with Kurisu、 who was waiting worried outside、 and hail a taxi.%p
+#mes If we had left the rental car parked close to that house、 there's a possibility we'd become prime suspects.%p
+#mes We should've properly reported it to the police、 but we avoided getting asked the annoying details.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_MOE_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM2700
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaEraseAll
+#resetFlag LF_THD_EXEC
+#end

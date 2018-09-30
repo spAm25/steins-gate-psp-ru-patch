@@ -1,0 +1,517 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag_MailRecive FM_To_DAR1001
+#setFlag_MailRecive FM_From_CRS1001
+#assign $W(SW_PHONE_RECVMAILNO),FM_From_CRS1001
+#setFlag SF_PhoneMailReciveNew
+#assign $W(LR_DATE),0816
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02N1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02N1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM20
+#mes When I returned to the lab about 2 hours late、 Kurisu has already left.%p
+#mes And in her place was a single mail.%p
+#mes While sitting down on the sofa、 drying my hair with a towel、 I look towards the PC in the corner of the room.%p
+#mes The IBN 5100 was already there connected to it、 ready for whenever Daru was ready to start hacking.%p
+#mes I already contacted Daru by mail.%p
+#mes Hacking starts tomorrow at noon.%p
+#mes When I said so to Daru、 I drove myself into a corner、 so that I couldn't turn back no matter how much I hesitated.%p
+#mes I chose Mayuri.%p
+#mes I will let Kurisu die.%p
+#mes Showering didn't calm down the tightening of my heart.%p
+#mes Honestly speaking、 I couldn't deny the feeling I was washing away Kurisu's words.%p
+#mes The fact that she's okay with this leaves a bad aftertaste.%p
+#mes Is she really... okay with this?%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,InitSE0
+#call macrosys,Set_SE0Speaker_RearCenter
+#playSE 0,SGSE024
+#call macrosys,SEwaitHalf
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_1330,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...is someone here-?」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01N1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),360
+#assign $W(SW_BG2SY),180
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT_L
+#assign $W(SW_CHA5FACE),Face_MAY_C01
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes Mayuri opens the lab door and peeks her face in.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C04
+#call macrosys,CharaDisp51
+#mes When she sees me、 she looks like she's about to burst into tears.%p
+#mes But soon、 she smiles.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01N1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM31
+#call macrosys,Set_VOspeaker_Default
+#mes2v MAY_1331,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It's Okarin?」%p
+#mes2v OKA_4819,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's up?」%p
+#mes2v MAY_1332,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Oh、 nothing. I just decided to come here. Ehhehe-♪」%p
+#mes I swallow my breath.%p
+#mes Maybe I should explain the situation to Mayuri.%p
+#mes But if I tell her、 Mayuri will be sure to feel indebted.%p
+#mes Mayuri doesn't really need to know in the first place.%p
+#setFlag SF_Phone_AutoDisable
+#mes Things will be okay as long as we hack SERN and I reach the β World Line.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#call macrosys,CharaEraseAll
+#setEVFlag 55
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_M08A
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInFAST
+#mes2v MAY_1333,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 lately、 I've gotten fewer chances to speak with you、 Okarin.」%p
+#mes2v MAY_1334,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But I don't want to be a burden to Okarin either-」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02N1
+//#assign $W(LR_TMP00),BG02N1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),40
+#assign $W(SW_BG1SY),230
+#assign $W(SW_BG1LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG1LY),(SCR_SIZ_Y/2)
+#setFlag SF_BG1DISP
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes Shouldn't it be okay even if I end this without saying anything?%p
+#mes Shouldn't it be okay even if I don't tell Mayuri I'm sacrificing Kurisu for her sake?%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALC
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_1335,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Did you take a shower-?」%p
+#mes Mayuri wraps around behind the sofa、 grabs the bathtowel on my head、 and starts wiping my hair dry.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_1336,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 you smell good like shampoo-」%p
+#mes Saying so、 she buried her nose into my hair and started sniffing.%p
+#mes2v OKA_4820,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 stop that.」%p
+#mes I tilt my head to escape.%p
+#mes Mayuri goes back work wiping my hair dry.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_1337,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Today... I didn't go to ComiMa...」%p
+#mes2v OKA_4821,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hm? Why...?」%p
+#mes2v MAY_1338,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I was thinking about Okarin.」%p
+#mes2v MAY_1339,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Whenever I remember Okarin's painful looking face、 I can't enjoy ComiMa. 」%p
+#mes2v MAY_1340,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 I went all the way to Ariake、 but came back without participating-」%p
+#mes2v OKA_4822,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see.... Sorry. For worrying you.」%p
+#mes2v MAY_1341,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「…………」%p
+#mes I wonder if I should speak.%p
+#setFlag SF_Phone_AutoDisable
+#mes Or rather、 if I shouldn't let Mayuri know anything.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#setEVFlag 55
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_M08A
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInFAST
+#mes2v MAY_1342,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 lately、 I've gotten fewer chances to speak with you、 Okarin.」%p
+#mes2v MAY_1343,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 Mayushii might be getting a little lonely.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes2v OKA_4823,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri.  If I said I was keeping a secret from you、 what would you think?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1344,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...You mean something surprising、 like 'Actually、 Okarin and Chris-chan are going out'?」%p
+#mes2v OKA_4824,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why would it be that...」%p
+#mes2v MAY_1345,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But Okarin and Chris-chan are getting along really well、 you know? I think you two are meant for each other-」%p
+#mes2v OKA_4825,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I'm not talking about anything like that.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_1346,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 okay...」%p
+#mes2v MAY_1347,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I don't want you to tell me everything if you don't want to.」%p
+#mes2v MAY_1348,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Since I'm a hostage、 it's natural for me to not have a choice or to not be told anything.」%p
+#mes2v OKA_4826,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm not talking about anything like that...!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_1349,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「…………」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Mayuri's hand is separated from my head.%p
+#mes Wanting to know where it went、 I look over my shoulder.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02N1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+//#assign $W(LR_TMP00),BG02N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes I took the hand of Mayuri standing there、 using a little force.%p
+#mes2v MAY_1350,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...Mayushii doesn't want to be a burden for Okarin.」%p
+#mes Again.%p
+#mes2v MAY_1351,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So I'll wait until Okarin's ready to tell me.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1352,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I said the same thing yesterday、 didn't I?」%p
+#mes2v OKA_4827,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I might not tell you your entire life、 you know?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_1353,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It would really bug me、 but I guess it couldn't be helped then...」%p
+#mes2v OKA_4828,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even if what I'm hiding is related to you?」%p
+#mes2v MAY_1354,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「To Mayushii...?」%p
+#mes2v OKA_4829,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm haven't told you because it could hurt you.」%p
+#mes2v MAY_1355,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...Could that be why Okarin's been making that painful face?」%p
+#mes2v OKA_4830,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1356,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「If that's the case、 I want you to tell me.」%p
+#mes2v MAY_1357,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I don't want to see Okarin in pain.」%p
+#mes2v OKA_4831,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even if it means you might get hurt?」%p
+#mes And then、 Mayuri gave me...%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#assign $W(LR_FADE_TIM),CHR_VERYSLOW
+#call macrosys,CharaDisp51
+#mes A gentle smile.%p
+#mes2v MAY_1358,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Yep.」%p
+#mes She nods without hesitation.%p
+#mes I was taken aback by that smile that showed no sign of malice.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1359,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I said so yesterday too.  Mayushii doesn't want to be a burden for Okarin.」%p
+#mes2v MAY_1360,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「When Mayushii was sad because of what happened to Grandma、 Okarin took Mayushi hostage、 right-?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_1361,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So Mayushii always thought she could lend her strength to Okarin whenever he was sad、 you know?」%p
+#mes2v MAY_1362,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii might not be of any use、 though.」%p
+#setFlag SF_Phone_AutoDisable
+#mes Any use...%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#setEVFlag 54
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_M07A
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInVERYSLOW
+#mes That moment.%p
+#mes I remembered.%p
+#mes Mayuri's death tomorrow.%p
+#mes The future I've been through once before.%p
+#mes Mayuri's last words when she died protecting me──%p
+#mes2v MAY_1363,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Finally、 Mayu... ...shii was...」%p
+#mes2v MAY_1364,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「usefull... to... Okarin...」%p
+#messWindowCloseWait
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#call macrosys,FadeInVERYSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes So this... is what she meant....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_1365,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So、 I don't want you to make a painful face again.」%p
+#mes2v OKA_4832,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...understood.」%p
+#mes If she's going to say that much.  If she's going to think about me that much.%p
+#mes I'll tell her everything.%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02NS2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG02NS2
+#call macrosys,TUNE_CHACOL_BGNO
+#mes I let go of Mayuri's hand、 and pat the sofa with a pomf.%p
+#mes2v OKA_4833,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Sit down here.」%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes Mayuri does just as she's told、 and sits next to me.%p
+#mes2v MAY_1366,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Umm、 can I have some snacks?」%p
+#mes2v OKA_4834,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You just can't read the atmosphere、 can you?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_1367,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「That's true...」%p
+#mes Mayuri puts both hands on her lap、 straightening herself up.%p
+#mes2v MAY_1368,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Then、 go ahead-」%p
+#mes2v OKA_4835,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...What I'm about to say is all true.  It's related to the dreams you saw.」%p
+#mes2v OKA_4836,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And、 after this、 I plan to sacrifice a comrade、 for your sake.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_1369,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh... Okarin...?」%p
+#mes When I see anxiety cloud Mayuri's face、 I hold her chin with my fingers.%p
+#mes A switch inside of me was already flipped.%p
+#setFlag SF_Phone_AutoDisable
+#mes2v OKA_4837,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hehehe、 hehhehhe、 better give your sincere repentance.  For the dreadful deeds of this insane mad scientist、 Hououin Kyouma、 are numerous!  Fuuhahaha!」%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes What's evil is all the inhuman deeds done by this mad scientist.%p
+#mes That's how I began to speak.%p
+#mes Starting with how Moeka and the Rounders first attacked the lab and how Mayuri was killed there.%p
+#mes I spoke about Suzuha、 Faris、 Lukako、 and also about Moeka、 FB、 and Nae.%p
+#mes And then finally... I spoke about Kurisu.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#assign $W(LR_DATE),0817
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02NS2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02NS2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes2v OKA_4838,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In short、 by sacrificing Makise Kurisu、 I will begin a journey to a new world!」%p
+#mes The explanation was long and went off on many tangents.%p
+#mes Furthermore、 Mayuri wasn't use to this sort of conversation、 so she kept eagerly asking question after question.%p
+#mes Thanks to that、 the conversation became quite long、 and it got this late before I knew it.%p
+#mes2v OKA_4839,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And that is my、 Hououin Kyouma's magnificently devised plan、 codename "&rsWorld Chaotification!&rt"Made in Heaven"&re" Fuuhahaha!」%p
+#mes Haah、 finally、 the explanation's over....%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_C04
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM10
+#mes2v MAY_1370,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「…………」%p
+#mes Mayuri looked like she was about to cry.%p
+#mes She was looking down、 firmly clenching the hands placed on her lap.%p
+#mes2v OKA_4840,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Why the long face?」%p
+#mes2v MAY_1371,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「...」%p
+#mes Mayuri waggles her head back and forth while biting her lip.%p
+#mes2v MAY_1372,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Both Okarin and Chris-chan、 have been suffering、 haven't you...」%p
+#mes2v MAY_1373,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And yet Mayushii's been making costumes without a care...」%p
+#mes2v MAY_1374,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Like a fool...!」%p
+#mes2v MAY_1375,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii didn't know any of this...!」%p
+#mes2v OKA_4841,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You、 you don't need to feel responsible.  Because everything's going just as I planned.」%p
+#mes2v OKA_4842,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Are you disillusioned、 Mayuri? Sorry、 but I'm a man who's perfectly fine with sacrificing his comrades. Consequently、 even if you say you don't want to go to the β world line、 I don't intend to comply. 」%p
+#mes2v OKA_4843,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You'll be my hostage、 and stay with me until the very end、 you know.  Kukuku!」%p
+#mes2v OKA_4844,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「May chaos come to the world! This too is &rsthe Door of the Fate Stone&rt"Steins; Gate"&re's choice!」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes But before that performance of mine could ripen、 Mayuri softly stands up、 and starts to leave the lab with unsteady feet.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01N1
+#assign $W(SW_BG2ALPHA),0
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A05
+#call macrosys,CharaSet51
+#assign $W(LR_TMP00),96
+#assign $W(LR_TMP01),96
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG1ALPHA_OFS,(BG_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG2ALPHA_OFS,BG_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_CHA1ALPHA_OFS,CH_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG1SX_OFS,(300-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG1SX),300
+#assign $W(SW_BG1SX_OFS),0
+#assign $W(SW_BG1ALPHA),0
+#assign $W(SW_BG1ALPHA_OFS),0
+#assign $W(SW_BG2ALPHA),BG_ALP_MAX
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_CHA1ALPHA),CH_ALP_MAX
+#assign $W(SW_CHA1ALPHA_OFS),0
+#assign $W(LR_TMP00),FADE_VERYSLOW
+#call macrosys,TuneParam51
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG1SX),0
+#assign $W(SW_BG1SY),0
+#assign $W(SW_BG1LX),SCR_SIZ_X
+#assign $W(SW_BG1LY),SCR_SIZ_Y
+#mes Confused、 I grab her wrist and detain her.%p
+#mes2v OKA_4845,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「H-hey、 where are you going!?」%p
+#mes2v MAY_1376,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I need... to see Chris-chan...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_ALC
+#assign $W(SW_CHA5FACE),Face_MAY_C04
+#call macrosys,CharaDisp51
+#mes2v MAY_1377,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Please、 Okarin.  I want to see Chris-chan...」%p
+#mes2v OKA_4846,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I just couldn't refuse Mayuri's request as she clinged onto me.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

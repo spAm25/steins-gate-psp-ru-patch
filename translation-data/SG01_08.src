@@ -1,0 +1,363 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#label L_SG01_08_RM_RUK01_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_RUK
+#assign $W(LR_RM_CHANCE),0
+#call macrosys2,CHECK_RM_HAD_RECEIVED
+#label L_SG01_08_RM_RUK01_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#assign $W(LR_DATE),0729
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG22A
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG22A
+#call macrosys,TUNE_CHACOL_BGNO
+#wait 16
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE007L,true
+#call macrosys,FadeInVERY2Slow
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#mes2v OKA_0277,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... Damn、 it's hot.」%p
+#mes When I returned to Akiba after going to the university in the morning、 I was engulfed by an unbearable heat.%p
+#mes So for now、 I decided to stay at a certain bakery in Yodobashi and appease my thirst with an iced coffee.%p
+#mes I'll take this opportunity to check out @channel on my cellphone.%p
+#mes This is a regular activity for me.%p
+#mes I frequent the occult and future technology boards、 and occasionally visit the physics board.%p
+#mes There are some others that I go to、 but not periodically.%p
+#label L_SG01_08_RM_RUK01_01_REPLY_END
+#RandomMail_End
+#mes I checked if @channel has any threads about either the mass disappearance phenomenon or the Makise Kurisu stabbing incident、 but didn't find any.%p
+#mes So、 what I saw was actually a delusion...%p
+#mes Some of the threads in the occult section have a person who calls himself 'John Titor' posting in them.%p
+#mes John Titor? After such a long time?%p
+#mes I actually know quite a lot about this guy.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes He's a self-proclaimed time traveler who first appeared on American forums about 10 years ago.%p
+#setDic 197
+#setDic 67
+#mes Titor posted that he came from the year 2036 to get an old PC called '&cTIPSC;IBN&cMESC; 5100'、 while answering the questions of the forum &cTIPSC; dwellers&cMESC;.%p
+#mes He partially 'predicted' certain future events、 as well.%p
+#setDic 43
+#mes Examples of which are the outbreak of the Iraq war and the spread of the &cTIPSC;Creutzfeld-Jakob disease&cMESC;.%p
+#mes He tried to prove that he's a from the future by explaining the theory behind his time machine and taking pictures of it's instruction manual.%p
+#mes However、 he disappeared after about 4 months without revealing his true identity to the public.%p
+#mes At one point、 his predictions that turned out to be true became a hot subject in Japan.%p
+#mes Yes、 there were things that he got right.%p
+#mes However、 due to the many false predictions and contradictions in his posts、 the majority of people are skeptical about him being a time traveler. %p
+#mes And so、 you're telling me that、 after 10 years、 John Titor appeared in Japan's @channel?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#setDic 103
+#mes How stupid... What an obvious &cTIPSC;troll&cMESC;.%p
+#setFlag SF_Phone_AutoDisable
+#mes In the first place、 John Titor is an American、 so why the hell is he posting on @channel in perfect Japanese?%p
+#mes Well、 I guess I'll check out what he says...%p
+#label L_SG01_08_PHONE_ATCH_01
+#assign $W(SW_PHONE_PRI),PRI_UPPER_ALL
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#assign $W(LR_TMP00),TB_ATCH_SG01_08A
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys2,PHONE_ATCH_FadeInTIM
+#resetFlag SF_Phone_Open
+#resetFlag SF_BG1DISP
+#setDic 207
+#setDic 198
+#call macrosys2,PHONE_ATCH_KEY_WAIT
+#label L_SG01_08_PHONE_ATCH_02
+#call macrosys,FadeOutSlow
+#assign $W(SW_PHONE_ATCH_MODE),TB_ATCH_SG01_08B
+#assign $W(SW_PHONE_ATCH_LINE),0
+#call macrosys,FadeInSlow
+#setDic 105
+#call macrosys2,PHONE_ATCH_KEY_WAIT
+#label L_SG01_08_PHONE_ATCH_03
+#call macrosys,FadeOutSlow
+#assign $W(SW_PHONE_ATCH_MODE),TB_ATCH_SG01_08C
+#assign $W(SW_PHONE_ATCH_LINE),0
+#call macrosys,FadeInSlow
+#setDic 31
+#call macrosys2,PHONE_ATCH_KEY_WAIT
+#label L_SG01_08_PHONE_ATCH_04
+#call macrosys,FadeOutSlow
+#assign $W(SW_PHONE_ATCH_MODE),TB_ATCH_SG01_08D
+#assign $W(SW_PHONE_ATCH_LINE),0
+#call macrosys,FadeInSlow
+#setDic 211
+#call macrosys2,PHONE_ATCH_KEY_WAIT
+#label L_SG01_08_PHONE_ATCH_05
+#call macrosys,FadeOutSlow
+#assign $W(SW_PHONE_ATCH_MODE),TB_ATCH_SG01_08E
+#assign $W(SW_PHONE_ATCH_LINE),0
+#call macrosys,FadeInSlow
+#setDic 12
+#call macrosys2,PHONE_ATCH_KEY_WAIT
+#label L_SG01_08_PHONE_ATCH_06
+#call macrosys,FadeOutSlow
+#assign $W(SW_PHONE_ATCH_MODE),TB_ATCH_SG01_08F
+#assign $W(SW_PHONE_ATCH_LINE),0
+#call macrosys,FadeInSlow
+#call macrosys2,PHONE_ATCH_KEY_WAIT
+#label L_SG01_08_PHONE_ATCH_07
+#call macrosys,FadeOutSlow
+#assign $W(SW_PHONE_ATCH_MODE),TB_ATCH_SG01_08G
+#assign $W(SW_PHONE_ATCH_LINE),0
+#call macrosys,FadeInSlow
+#call macrosys2,PHONE_ATCH_KEY_WAIT
+#setFlag SF_BG1DISP
+#resetFlag SF_Phone_Disable
+#setFlag SF_Phone_Open
+#wait 16
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys2,PHONE_ATCH_FadeOutTIM
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#setFlag SF_PhoneSD_Disp
+#mes Looks like he's a making a website.%p
+#mes Wait、 I'm quite sure that he already had one.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes What this Titor is writing closely resembles the posts that the original Titor made 10 years ago.%p
+#mes Some of the books based on him are translated into Japanese and are being sold here.%p
+#mes I got my hands on one of them by accident、 and got somewhat interested.%p
+#mes That's why I know that what he's posting here on @channel is pretty much the same as what the one from 10 years ago posted.%p
+#mes I wonder where I put that book...%p
+#mes I read it when I was in middle school、 so it's probably in some shelf back at my parent's home.%p
+#mes Regardless of that、 this new John Titor is nothing but an impostor.%p
+#mes No、 the way he's pretty much copying and pasting everything makes him something below that.%p
+#mes There are a lot of enthusiasts on @channel.%p
+#mes It's true that John Titor is not that popular here in Japan、 but I'm quite sure that these people won't fall for such a troll.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes However、 the reactions of the posters are quite the opposite.%p
+#mes It feels as if no one is aware of the first time that John Titor appeared.%p
+#mes No one is even talking about his appearance from 10 years ago.%p
+#mes I tried to post about it、 but was completely ignored.%p
+#mes Damn it...! What the hell...!?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes I need to do some investigation on this.%p
+#mes There's an American website about John Titor...%p
+#mes And tons of personal blogs where people talk about him.%p
+#setFlag SF_Phone_AutoDisable
+#mes I try looking up 'John Titor' on a search engine.%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR6;&lcSearch Results: 12 hits%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#mes Only 12?%p
+#mes Moreover、 all 12 of the results are the posts that the current Titor is posting in @chan.%p
+#mes I can't find a single trace of the Titor from 10 years ago.%p
+#mes It's too weird. This definitely can't be real...%p
+#mes A few years ago I made a search about him、 and there were thousands of hits.%p
+#setFlag SF_Phone_AutoDisable
+#mes Does this site use a filter or something?%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#call macrosys,FadeIn0
+#mes I test this out with another search engine、 but the results were the same.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#mes This is truly getting to me...%p
+#mes I feel as if I'm the only one who wandered into some other world.%p
+#mes Is this a conspiracy of the Organization?%p
+#mes This situation is making me feel somewhat eerie.%p
+#mes Ever since yesterday、 lots of confusing events have been happening.%p
+#label L_SG01_08_PHONE_CALL_01
+#call macrosys2,SelfStop_SkipMode
+#PhoneCallActive PhID_DAR,PhID_NONE,PhID_NONE,PhID_NONE
+#mes I'll try calling Daru.%p
+#flagOnJump SF_PhoneCallExec,L_SG01_08_PHONE_CALL_01_EXEC
+#mes He will definitely know about Titor.%p
+#flagOnJump SF_PhoneCallExec,L_SG01_08_PHONE_CALL_01_EXEC
+#mes That is something I'm certain about.%p
+#flagOnJump SF_PhoneCallExec,L_SG01_08_PHONE_CALL_01_EXEC
+#mes I actually talked with him about John Titor some time ago.%p
+#flagOnJump SF_PhoneCallExec,L_SG01_08_PHONE_CALL_01_EXEC
+#mes Though、 I forgot the details of the conversation.%p
+#flagOnJump SF_PhoneCallExec,L_SG01_08_PHONE_CALL_01_EXEC
+#setFlag SF_Phone_AutoDisable
+#mes However、 I'm completely sure that the conversation happened.%p
+#flagOnJump SF_PhoneCallExec,L_SG01_08_PHONE_CALL_01_EXEC
+#label L_SG01_08_PHONE_CALL_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#resetFlag SF_Phone_AutoDisable
+#setFlag SF_Phone_Disable
+#jump L_SG01_08_JUNCTION_022
+#label L_SG01_08_PHONE_CALL_01_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#mwait 60
+#label L_SG01_08_JUNCTION_021
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0052,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Yeah?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0278,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's me、 what's your situation?」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0053,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「... Okarin、 can't you at least stop that stuff when talking on the phone?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0279,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm asking you about what you know concerning John Titor.」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0054,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「I'm not really getting you、 bro.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0280,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「At any rate、 where are you now? Are you coming to the lab?」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0055,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Right now I'm at 'MayQueen+Nyan²'.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0281,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Again...?」%p
+#setDic 165
+#mes 'MayQueen+Nyan²' is &cTIPSC;Maid Cafe&cMESC; in Akiba.%p
+#mes Daru、 who likes 3D maids、 is a regular over there.%p
+#mes2v OKA_0282,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I need to have a confidential conversation with you.」%p
+#mes Though、 I don't think that the confidentiality will be necessary...%p
+#mes2v OKA_0283,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't leave until I come there.」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0056,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Huh? You're coming? Sweet!」%p
+#call macrosys,ResetPhoneWindow
+#playSE 2,SGSE161
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#wait 1
+#mwait 60
+#call macrosys2,SEAL_PHONE_WINDOW
+#jump L_SG01_08_GORYU_00
+#label L_SG01_08_JUNCTION_022
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes Taking out my phone from the bag is such a pain、 so I decided not to call Daru.%p
+#mes However、 on my way back to the lab、 I sent him an email and got his location from the response.%p
+#setFlag_MailRecive FM_To_DAR0102
+#setFlag_MailRecive FM_From_DAR0102
+#setFlag_MailView FM_From_DAR0102
+#setFlag_MailView FM_From_DAR0102_A
+#resetFlag SF_Phone_Disable
+#setDic 165
+#mes By 'MayQueen'、 he's referring to 'MayQueen+Nyan²'、 a &cTIPSC; Maid Café&cMESC;.%p
+#mes Daru、 who likes 3D maids、 is a regular over there.%p
+#jump L_SG01_08_GORYU_00
+#label L_SG01_08_GORYU_00
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

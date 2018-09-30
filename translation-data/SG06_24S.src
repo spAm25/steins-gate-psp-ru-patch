@@ -1,0 +1,1100 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0811
+#setFlag SF_Phone_Disable
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01N1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_MASK2ALPHA),192
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes2v OKA_3305,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...ah.」%p
+#mes The world waves.%p
+#mes My legs shake.%p
+#mes I look down with my fingertips to my brow、 waiting for my senses to return to normal.%p
+#mes I'm struck by each possible emotion、 one by one、 against my will.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes I absent-mindedly look at Kurisu standing before me.%p
+#mes At first、 I couldn't hear her over the buzzing in my ears、 but her voice eventually reaches me.%p
+#mes2v CRS_2013,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「──see? You're all shaky. It's still only the second day、 so what are you doing with all this exhaustion?」%p
+#mes Kurisu thrusts her finger at me、 acting all preachy.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_2014,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm sure you'll find the pin.  There's still plenty of time、 so you don't have to rush.」%p
+#mes2v CRS_2015,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「More importantly、 you'll worry both Mayuri and me if you collapse、 you know?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2016,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Take care of your body a little.」%p
+#mes2v OKA_3306,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes It seems I've successfully time leaped.%p
+#mes2v OKA_3307,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah... I know.」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#call macrosys,FadeIn0
+#mes I turn and nod to Kurisu、 then collapse onto the sofa.%p
+#mes ──In the end、 I couldn't chose to sacrifice either.%p
+#mes In some sense、 this is running away.%p
+#mes But there was no other way.%p
+#mes To prevent Suzuha's dying taste of despair.%p
+#mes Without Mayuri's death.%p
+#mes This was the only choice.%p
+#mes Mayuri will be killed in two days.%p
+#mes If the last peaceful days left for me、 Mayuri、 and Suzuha、 are these two days、%p
+#mes Then all I can do is repeat these two days.%p
+#mes All we can do is keep repeating.  Over and over again.%p
+#mes Within the confines of these two days、 I will keep living──%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(LR_DATE),0812
+#setEVFlag 85
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,EV_S09A
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#mes The wind caresses my cheek.%p
+#mes I push down on the pedal and begin to ascend the Harumi Bridge with the sea breeze blowing.%p
+#mes The spokes rhythmically revolve、 reflecting rays of strong sunlight.%p
+#mes Sweat oozes out of my every pore、 but it's not unpleasant.%p
+#mes It's actually quite healthy.  It somehow reminds me of running around the school grounds back in my elementary days.%p
+#mes2v MAY_1029,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Feels good、 man 」%p
+#mes2v DAR_1013,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hwooh、 hee、 Why do I have to tag along for this?」%p
+#mes2v CRS_2017,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Same... here... haah、 hwooh... I mean、 the wind's too strong...」%p
+#mes2v MAY_1030,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Daru-kun's kinda chubby、 so I think he needs to exercise more-」%p
+#mes2v DAR_1014,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Fat neckbeard master race...」%p
+#messWindowCloseWait
+#setEVFlag 85
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S09A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),130
+#assign $W(SW_BG3SY),10
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Leading the way is Suzuha.%p
+#mes She's riding her favorite MTB、 nimbly turning the pedals.%p
+#messWindowCloseWait
+#setEVFlag 85
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S09A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),SCR_SIZ_X
+#assign $W(SW_BG3LY),SCR_SIZ_Y
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v SUZ_0777,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The scenery sure is nice」%p
+#mes From here on Harumi Bridge、 you can see Tokyo Bay clearly、 and also far away is the Rainbow Bridge.%p
+#mes What you see in the surrounding reclaimed land is not willy-nilly residential areas、 but the extremes of either huge skyscrapers or vacant land.%p
+#mes Leisurely traveling here from Akihabara shouldn't take more than 2 hours.%p
+#mes I actually knew how surprisingly close it was when I returned home to Akiba by nonstop bus after ComiMa、 but I never thought I'd come here by bike.%p
+#mes Everyone except Suzuha is using rent-a-cycles.%p
+#mes I proposed this cycling activity as a change of pace from the search for the unfindable pin.%p
+#mes Of course、 I already know who the pin belongs to、 and who Suzuha's father is.%p
+#mes But I dare not tell anyone.%p
+#mes If at all possible、 I want to spend these two days in peace and delay Suzuha's time travel.%p
+#mes That became my current goal.%p
+#mes2v SUZ_0778,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I actually thought it was going to be a waste of time until we left.  But people are creatures who need to spend time like this every now and then.」%p
+#mes2v CRS_2018,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Making the Time Leap Machine was... more fun... for me...」%p
+#mes2v DAR_1015,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hi、 hikikomori are the strongest... Today、 today is proof...」%p
+#mes2v MAY_1031,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You two are all worn out-. Ehhehe-」%p
+#mes2v SUZ_0779,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「How sloppy-.  You won't survive like that、 you know?」%p
+#mes In contrast to the composed Suzuha and Mayuri、 Kurisu and Daru are exhausted.%p
+#mes Incidentally、 I know the distance between Akiba and Ariake、 so I preserved my physical strength well.%p
+#mes2v DAR_1016,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「W、where's some water!?  Still no vending machine!? I could kill for a glass of water!」%p
+#mes2v OKA_3308,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Sorry to say、 but there's no convenience store until we cross another bridge after this one.  Be patient until then.」%p
+#mes2v DAR_1017,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「You、 you serious...? I can't、 it's impossible...」%p
+#mes2v MAY_1032,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 you sure know your stuff-.  Have you been here before?」%p
+#mes2v OKA_3309,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Yeah.  Many times.」%p
+#mes Yes、 I've been here many times.  Many times、 I've gone this way.%p
+#mes ──How long has it been since this closed loop began turning?%p
+#mes I don't quite know how many total days it's been.%p
+#mes So I think in terms of 2-day cycles.%p
+#mes Now is already the forth cycle.%p
+#mes On August 13th、 Mayuri is killed in the Rounders' raid.%p
+#mes This truth is locked up in my heart alone.%p
+#mes Indeed、 we were living typical college student days.%p
+#mes This cycling activity is also part of it.%p
+#mes Suzuha and Mayuri look like they enjoy cycling、 and it's fun、 so I have us do it each cycle. %p
+#mes Our destination is Tokyo Big Sight in Ariake.%p
+#mes Several days from now、 it will be home to ComiMa、 the world's largest doujinshi marketplace event.%p
+#mes2v OKA_3310,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Big Sight is right ahead if we keep going straight.  We should be there in about 10 minutes.」%p
+#mes2v DAR_1018,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Break before that...」%p
+#mes At last、 Daru seems to have used up the last of his strength.  While still on his bike、 he rests his upper half on the guardrail that divides the roadway and the footpath.%p
+#mes There、 I turn and park next to Daru's bike.%p
+#mes2v OKA_3311,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That dangerous、 you know.  Get up.」%p
+#mes2v DAR_1019,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Let me rest a bit~」%p
+#mes2v OKA_3312,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Didn't I just tell you it's dangerous!?」%p
+#mes I sigh and pull Daru by the arm.%p
+#mes2v DAR_1020,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Okay、 okay、 I get it──」%p
+#mes Right after Daru gets up、%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#playSE 0,SGSE090
+#call macrosys,SEwaitHalf
+#mes A large truck speeds through the roadway.%p
+#mes The wind pressure left by the truck is almost enough to blow me and Daru away.%p
+#mes The bridge faintly sways from the shock.%p
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#mes2v DAR_1021,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Th、 that was close!」%p
+#mes He probably wouldn't have made contact even if he had leaned out、 but that still doesn't change how dangerous it was.%p
+#mes2v DAR_1022,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I'm saved thanks to Okarin...」%p
+#mes2v MAY_1033,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 it kind of seems like Okarin saw the future-」%p
+#mes2v CRS_2019,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You used a D-mail、 didn't you?」%p
+#mes Mayuri's innocent smile.%p
+#mes Kurisu's cynical grin.%p
+#mes Both of them were probably joking.%p
+#mes But、 they're not really mistaken.%p
+#mes The only thing wrong was that I time leaped instead of using a D-mail.%p
+#mes2v SUZ_0780,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠「...」%p
+#mes Suzuha's eyes met mine.%p
+#mes She seemed to be having so much fun just before、 but now she's facing me with a bewildered expression.%p
+#mes I──%p
+#mes Avert my eyes.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 1
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG38A0
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG38A0
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_DAR_A05
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#mes2v DAR_1023,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「O Holy Land、 I have returned!」%p
+#mes Daru's vigor gradually returns as he faces Big Sight with arms wide open.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ASC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDispW5162
+#mes2v MAY_1034,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「This is the first time I've come when nobody's around-」%p
+#mes2v CRS_2020,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So it was this wide.  Yet it gets crammed with people during ComiMa... unbelievable.」%p
+#mes We personally experience Big Sight in its full majesty when there are few people around.%p
+#mes Even though you wouldn't think it's big when you see it during ComiMa.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaDisp62
+#mes2v MAY_1035,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 hey、 Mayushii's hungry-」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDisp73
+#mes2v DAR_1024,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Isn't there a family restaurant nearby?  Let's rest there a bit.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ASC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2021,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We have to go the same distance on the way back、 huh.  Just thinking about it's depressing...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes The three of them go searching for a family restaurant.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes Suzuha is still looking up at Big Sight.%p
+#mes2v OKA_3313,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's wrong、 Suzuha?」%p
+#mes I dare ask.%p
+#mes I already know Suzuha's answer.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A02
+#call macrosys,CharaDisp51
+#mes ──I'm excited to see Big Sight in real life.%p
+#mes2v SUZ_0781,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'm excited to see Big Sight in real life.」%p
+#mes Suzuha's eyes are shining.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes2v SUZ_0782,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「You know、 Big Sight's gone in 2036.」%p
+#mes2v SUZ_0783,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「As part of a large-scale reclamation project、 they roll out a bigger event hall.  The dome reaches that whole area.」%p
+#mes While saying so、 Suzuha points above Tokyo Bay.%p
+#mes2v SUZ_0784,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「But Hashida Itaru just now said that it's being treated as a holy land.」%p
+#mes2v SUZ_0785,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Isn't there an amazing event called ComiMa?  My mother said she participated in that event and met my father there.」%p
+#mes2v OKA_3314,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see、 so your mother may have been a fujoshi.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A02
+#call macrosys,CharaDisp51
+#mes2v SUZ_0786,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「That's why I've always wanted to see this.  Thank you、 Okabe Rintaro.」%p
+#mes2v SUZ_0787,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I feel like I've gotten just a little bit closer to my father.」%p
+#mes You "feel like" it but ──%p
+#mes A sharp ache stabs through my heart.%p
+#mes I know who Suzuha's father is.%p
+#mes It's the dude right over there.%p
+#mes But I don't tell her.%p
+#mes Until the afternoon of the 13th.%p
+#mes It shall remain a secret until after the time leap machine is complete.%p
+#mes Just to prolong these 2 days of peace.%p
+#mes2v MAY_1036,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okariin!  Suzu-saan! Hurry、 hurry up!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes2v SUZ_0788,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Hey、 they're calling us.  Let's go、 I'm hungry too.」%p
+#mes Suzuha pulls my hand and I start running.%p
+#mes I plaster a bitter smile on my face.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes Today was fun.%p
+#mes Tomorrow will also be fun.%p
+#mes That's right.%p
+#mes Because these fun days will last us all eternity...%p
+#messWindowCloseWait
+#setEVFlag 85
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,EV_S09A
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#mes The wind caresses my cheek.%p
+#mes I push down on the pedal and begin to ascend the Harumi Bridge with the sea breeze blowing.%p
+#mes The spokes rhythmically revolve、 reflecting rays of strong sunlight.%p
+#mes Sweat oozes out of my every pore、 but it's not unpleasant.%p
+#mes It's actually quite healthy.  It somehow reminds me of running around the school grounds back in my elementary days.%p
+#mes2v MAY_1037,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Feels good、 man 」%p
+#mes2v DAR_1025,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hwooh、 hee、 Why do I have to tag along for this?」%p
+#mes2v CRS_2022,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Same... here... haah、 hwooh... I mean、 the wind's too strong...」%p
+#mes2v MAY_1038,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Daru-kun's kinda chubby、 so I think he needs to exercise more-」%p
+#mes2v DAR_1026,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Fat neckbeard master race...」%p
+#messWindowCloseWait
+#setEVFlag 85
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S09A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),130
+#assign $W(SW_BG3SY),10
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Leading the way is Suzuha.%p
+#mes She's riding her favorite MTB、 nimbly turning the pedals.%p
+#messWindowCloseWait
+#setEVFlag 85
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S09A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),SCR_SIZ_X
+#assign $W(SW_BG3LY),SCR_SIZ_Y
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v SUZ_0789,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The scenery sure is nice」%p
+#mes From here on Harumi Bridge、 you can see Tokyo Bay clearly、 and also far away is the Rainbow Bridge.%p
+#mes Everyone except Suzuha is using rent-a-cycles.%p
+#mes I proposed this cycling activity as a change of pace from the search for the unfindable pin.%p
+#mes2v SUZ_0790,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I actually thought it was going to be a waste of time until we left.  But people are creatures who need to spend time like this every now and then.」%p
+#mes2v CRS_2023,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Making the Time Leap Machine was... more fun... for me...」%p
+#mes2v DAR_1027,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hi、 hikikomori are the strongest... Today、 today is proof...」%p
+#mes2v MAY_1039,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You two are all worn out-. Ehhehe-」%p
+#mes2v SUZ_0791,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「How sloppy-.  You won't survive like that、 you know?」%p
+#mes In contrast to the composed Suzuha and Mayuri、 Kurisu and Daru are exhausted.%p
+#mes Incidentally、 I know the distance between Akiba and Ariake、 so I preserved my physical strength well.%p
+#mes2v DAR_1028,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「W、where's some water!?  Still no vending machine!? I could kill for a glass of water!」%p
+#mes2v OKA_3315,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Sorry to say、 but there's no convenience store until we cross another bridge after this one.  Be patient until then.」%p
+#mes I replied mechanically.%p
+#mes2v DAR_1029,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「You、 you serious...? I can't、 it's impossible...」%p
+#mes2v MAY_1040,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 you sure know your stuff-.  Have you been here before?」%p
+#mes2v OKA_3316,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Yeah.  Many times.」%p
+#mes Yes、 I've been here many times.  Many times、 I've gone this way.%p
+#mes What cycle am I on today?%p
+#mes I feel like I'm past 10.%p
+#mes I'm endlessly repeating the same loop、 as usual.%p
+#mes Moeka's attack?  Mayuri's death?%p
+#mes Those things won't happen for all eternity.%p
+#mes Today、 we're once again off on an adventure on rent-a-cycle MTBs.%p
+#mes2v OKA_3317,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Big Sight is right ahead if we keep going straight.  We should be there in about 10 minutes.」%p
+#mes2v DAR_1030,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Break before that...」%p
+#mes At last、 Daru seems to have used up the last of his strength.  While still on his bike、 he rests his upper half on the guardrail that divides the roadway and the footpath.%p
+#mes There、 I turn and park next to Daru's bike.%p
+#mes2v OKA_3318,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's dangero──」%p
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes I swallowed my words.%p
+#mes Thoughts too dark to be my own suddenly slipped into my mind.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes What would happen if I didn't pull Daru's arm?%p
+#mes Would the expected happen?%p
+#mes Would this sloppy body of Daru's get caught in the truck's body and get sent flying like a rag doll?  Would his head or arm get blown off and his crimson blood gush everywhere?%p
+#mes Would Suzuha、 Mayuri、 and Kurisu scream after witnessing such an event?%p
+#mes That might be interesting too.%p
+#mes In any case、 as long as I time leap、 I don't care if Daru dies or not.%p
+#mes If I go back to the start of the loop、 Daru won't even have a scratch.%p
+#mes It doesn't matter to me how much blood he gushes、 or how far his entrails come out.%p
+#mes Moreover、 everyone needs a little spice in their life.%p
+#mes An encounter with a splatter scene is necessary to arouse one's own survival instinct by invoking fear.%p
+#mes If I keep soaking in these lukewarm days、 I'd lose my motivation to seek peace.%p
+#mes As far as these 2 days are concerned、 I am god.%p
+#mes So I have the freedom to chose who lives and who dies──%p
+#playSE 0,SGSE089
+#mes2v DAR_1031,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Woah!」%p
+#mes An ear-piercing car horn.%p
+#mes Daru hurriedly lifts himself from the guardrail.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#playSE 0,SGSE090
+#call macrosys,SEwaitHalf
+#mes Right after that、 a large truck passes by at a staggering speed.%p
+#mes Daru clumsily falls off his bike and lands on his rear.%p
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#mes2v DAR_1032,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Th、 that was close!」%p
+#mes2v CRS_2024,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 are you okay?」%p
+#mes2v SUZ_0792,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Are you hurt?」%p
+#mes Kurisu and Suzuha stop their bicycles and help Daru get up.%p
+#mes2v MAY_1041,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wawah-、 that truck's awful-」%p
+#mes Said truck already crossed the intersection after the bridge and had become a tiny speck.%p
+#mes2v DAR_1033,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hah、 what a shock.  'the hell's with that truck!?  Don't screw with me、 I should have checked the number!  Then I could be like 'Reported!'」%p
+#mes2v CRS_2025,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Nothing actually happened、 so there really isn't any point in reporting it、 you know?」%p
+#mes2v OKA_3319,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes Everyone says this and that while helping Daru up.%p
+#mes As for me、 I'm staring at my own hands.%p
+#mes I'm glad it ended as a funny story、 but...%p
+#mes Just now、 I had thought unspeakable thoughts.%p
+#mes I chose this two day loop so that nobody would get hurt.%p
+#mes So that I could prevent Suzuha's time travel without Mayuri's death.%p
+#mes Just now、 contradicting the very purpose of this refuge loop、 I was ready to let Daru die.%p
+#mes And I didn't even give it a second thought.%p
+#mes2v SUZ_0793,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Okabe Rintaro?」%p
+#mes2v OKA_3320,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「!?」%p
+#mes When she called my name、 I reflexively cowered.%p
+#mes Suzuha's eyes questioned me.%p
+#mes There's no way she could have noticed my dark emotions back there.%p
+#mes I knew that、 but still couldn't shake the feeling she could see right through me.%p
+#mes2v SUZ_0794,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「… you look pale?」%p
+#mes2v DAR_1034,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wait、 Okarin、 you're more shook up than I am.  Something wrong?」%p
+#mes2v OKA_3321,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Uh、 ahh...」%p
+#mes2v OKA_3322,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well、 if our supah hakah died、 it would be disastrous for our lab!」%p
+#mes I used a purposefully extravagant tone to cover up my guilty thoughts、 and started pedaling.%p
+#mes2v OKA_3323,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Break time's over! Let's go!」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I am the Observer of this world.%p
+#mes Nobody can escape my subjectivity.%p
+#mes This world exists as long as I wish.%p
+#mes So does Mayuri.  And Daru.  And Kurisu.%p
+#mes And Suzuha as well.%p
+#mes A space where everybody can sing in harmony.%p
+#mes A place where nobody stands between life and death.%p
+#mes A 48 hour eternity.%p
+#mes I am the Creator of this Paradise.%p
+#mes There's no mistake about that.%p
+#mes Tomorrow will be another good day for everyone.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 1
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG38A0
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG38A0
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_DAR_A05
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#mes2v DAR_1035,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「O Holy Land、 I have returned!」%p
+#mes Daru's vigor gradually returns as he faces Big Sight with arms wide open.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ASC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDispW5162
+#mes2v MAY_1042,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「This is the first time I've come when nobody's around-」%p
+#mes2v CRS_2026,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So it was this wide.  Yet it gets crammed with people during ComiMa... unbelievable.」%p
+#mes We personally experience Big Sight in its full majesty when there are few people around.%p
+#mes Even though you wouldn't think it's big when you see it during ComiMa.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_ASA
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaDisp62
+#mes2v MAY_1043,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 hey、 Mayushii's hungry-」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDisp73
+#mes2v DAR_1036,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Isn't there a family restaurant nearby?  Let's rest there a bit.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ASC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2027,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We have to go the same distance on the way back、 huh.  Just thinking about it's depressing...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes The three of them go searching for a family restaurant.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes Suzuha is still looking up at Big Sight.%p
+#mes I quietly observe that figure.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#messWindowCloseWait
+#add $W(SW_CHA2PRI),PRI2_BG
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#mes Tight legs.%p
+#mes Slender body.%p
+#mes Her clothes accentuate all her fine curves.%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6PRI),PRI2_UPPER_ALL
+#assign $W(SW_CHA6SIZEX),3000
+#assign $W(SW_CHA6SIZEY),3000
+#assign $W(SW_CHA6POSX),CHR_LEFT0
+#assign $W(SW_CHA6POSY),-270
+#assign $W(SW_CHA6ALPHA),0
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaDisp62
+#assign $W(LR_TMP00),36
+#assign $W(LR_TMP01),36
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA2ALPHA),128
+#assign $W(SW_CHA2ALPHA_OFS),0
+#call macrosys,TuneParam62
+#mes She's got some surprisingly nice breasts.%p
+#mes I feel my soul turning wicked.%p
+#mes Like terribly viscous lava.%p
+#mes Its whispers drip like poison.%p
+#mes Hypothetically ──%p
+#mes If I bring this future girl into confinement and have my way with her、 what would happen?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_CHA2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_CHA2ALPHA),0
+#assign $W(SW_CHA2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#mes Taking her away itself is simple enough.%p
+#mes I just have to say I know who your father is.  Let's talk alone、 and Suzuha would happily come along with me.%p
+#mes Also、 no such Amane Suzuha exists in current day Japan.%p
+#mes She doesn't have Japanese citizenship、 or even a birth certificate.%p
+#mes Obviously、 since she won't be born for another seven years.%p
+#mes So、 even if she runs to the police、 nobody would believe her.%p
+#mes She said that in the future she's part of the resistance、 so she might unexpectedly resist、 or she might be strong.%p
+#mes But she's still a woman.  Men are physically stronger.%p
+#mes It might be a hard fight、 but I can hold her down by force.%p
+#mes Another me-- or possibly、 Hououin Kyouma-- is whispering inside my head.%p
+#mes ──You want a woman、 don't you?  You were born a man、 so it's natural.%p
+#mes Daru's daughter?  A time traveler on a mission to change the future?%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR5;&lcWho cares?%p
+#mes &lfCR1;&lcSuzuha's a fine woman.  That's it.%e
+#mes &lfCR5;&lcIt's not like you're a saint.%p
+#mes &lfCR1;&lcYou say so yourself. That you're an &s(1154);insane mad scientist&s(1000);.%p
+#mes &lfCR1;&lcIf you're going to call yourself that、 let me see you snap a litle.%e
+#mes &lfCR5;&lcDon't you have a &s(1154);nearly omnipotent item&s(1000);？%p
+#mes &lfCR1;&lcYou can &s(1308);&c5;rape&s(1000);&c00; her、 and then undo it with the Time Leap Machine.%e
+#mes &lfCR2;&lcWhile we're at it、 why not taste the same girl's &n&s(1308);&c5;virginity&s(1000);&c00;&n over and over again?%p
+#mes &lfCR1;&lcWouldn't that be great? All those eroge buying&n"VIRGIN ONLY" shitposters would be jelly.%e
+#mes &lfCR3;&sp(32);Not only can you &s(1308);&c5;rape&s(1000);&c00; women、%p
+#mes &lfCR2;&sp(112);with the Time Leap Machine、 you can even do &s(1770);OTHER&s(1000); things.%e
+#call macrosys,SetWindowModeNormal
+#mes Murder. Theft. Abduction. Fraud. Arson──%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR4;&lcThose things?%p
+#mes &lfCR1;&lcAre those things really the evil you have in your heart、 Okabe Rintaro?%p
+#mes &lfCR1;&lcHmm.  That just shows how shallow humans like I really are.%e
+#mes &lfCR5;&lcConsider the following、 Okabe Rintaro.%p
+#mes &lfCR1;&lcThough you may have started it of your own volition、isn't this endless two day loop torture?%e
+#mes &lfCR6;&lcAren't you slowly growing tired of it?%e
+#mes &lfCR6;&lcIn the confines of these two days、 you don't need any boring、worthless things like etiquette、 ethics、 or laws.%e
+#mes &lfCR5;&lcI am a Hunter.%p
+#mes &lfCR1;&lc&s(1308);&c5;Taboos&s(1000);&c00; can eat shit and die. Just hunt for your own self-indulgence.%e
+#call macrosys,SetWindowModeNormal
+#mes I'm allowed to do that.%p
+#mes That's right.  I am the Observer.  I am god.%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR1;&sp(32);Do her.&s(1000);%p
+#mes &lfCR2;&sp(560);&lc&s(1308);&c5;in&s(1000);&c00;%p
+#mes &lfCR2;&sp(180);&lc&s(1770);&c5;Rape her.&s(1000);&c00;%e
+#call macrosys,SetWindowModeNormal
+#mes Nobody can criticize me in this closed loop.%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR1;&sp(50);Cast away your morals.&s(1000);&c00;%p
+#mes &lfCR2;&sp(560);&lc&s(1154);Revert to &s(1000);primitive ways.%p
+#mes &lfCR2;&sp(140);&lc&s(1770);&c5;Follow your &s(1000);&c00;instincts.%e
+#call macrosys,SetWindowModeNormal
+#mes2v OKA_3324,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Guh...」%p
+#mes I close both ears.%p
+#mes I avert my eyes from Suzuha as if our lives depended on it.%p
+#mes Zawa zawa. Zawa zawa.%p
+#mes My ears are buzzing.%p
+#mes I avert my eyes from Suzuha as if our lives depended on it──%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#commitAnimation
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A03
+#call macrosys,CharaDisp51
+#mes2v SUZ_0795,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Okabe Rintaro?」%p
+#mes Before I knew it、 Suzuha grabbed me by the shoulders and is peering into my face.%p
+#mes The warm feeling of her hand increases the buzzing in my ears.%p
+#mes2v SUZ_0796,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Are you sick after all?  Want to rest?」%p
+#mes I can't look Suzuha straight in the eyes with these dark feelings clogging my mind.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#call macrosys,CharaEraseAll
+#mes I shake off Suzuha's hand and run to Big Sight's entrance.%p
+#mes2v SUZ_0797,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Okabe Rintaro!  Where are you going!?」%p
+#mes I wanted to get away from Suzuha now.  If I didn't、 I might give into the urge.%p
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#mes I stare at my own hands.%p
+#mes Firmly close.  Open.  Close.  Open.%p
+#mes I keep repeating.%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),1
+#call macrosys,BG3_FadeOutTIM
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes They still move.%p
+#mes Just as I expect them to.%p
+#mes Just as I order them to.%p
+#mes But.%p
+#mes Those dark impulses.%p
+#mes The devil's whispers.%p
+#mes How can I explain those?%p
+#mes What the hell was that?%p
+#mes What happened to me?%p
+#mes My body begins to tremble.%p
+#mes My teeth are shivering.%p
+#mes It's cold.%p
+#mes Even though it's hot enough to burn my skin、 I feel cold.%p
+#mes I'm afraid of myself.%p
+#mes Am I... Am I still okay?%p
+#mes I am Hououin Kyouma、 Okabe Rintaro.%p
+#mes The insane mad scientist who loves science and chaos.%p
+#mes How's that?  I can say it、 can't I?%p
+#mes Can I still say it?%p
+#mes2v OKA_3325,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...'still?'」%p
+#mes What's that supposed to mean?%p
+#mes Does it mean I can't even assess my own self-control?%p
+#mes Am I going to break?%p
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,EV_S09A
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4ALPHA),0
+#setFlag SF_BG4DISP
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG4ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG4ALPHA),128
+#assign $W(SW_BG4ALPHA_OFS),0
+#mes Like a Moebius Strip、 these same two days are going round and round and round and round and round and round and round and round.%p
+#mes But today、 those same two days failed.%p
+#mes Because my feelings twisted.%p
+#mes On Harumi Bridge、 not only did I hesitate to save Daru、 but I also yielded to my dark emotions.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG4ALPHA),(128-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_BG4ALPHA),0
+#assign $W(SW_BG4ALPHA_OFS),0
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#mes Those emotions.%p
+#mes Dark impulses.%p
+#mes Dripping emotions.%p
+#mes I listened to the poisonous、 disgusting whispers.%p
+#mes I was really being drawn in.%p
+#mes I myself can't deny it.%p
+#mes But it's still just a sprout.%p
+#mes If those emotions attack me again like a tsunami、%p
+#mes Will I be able to stay myself?%p
+#mes Will I be able to control myself?%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ASA
+#assign $W(SW_CHA5PRI),PRI2_UPPER_ALL
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ASA
+#assign $W(SW_CHA6PRI),PRI2_UPPER_ALL
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6ALPHA),0
+#assign $W(SW_CHA6FACE),Face_CRS_A01
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7PRI),PRI2_UPPER_ALL
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7ALPHA),0
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDispT516273
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA1ALPHA),128
+#assign $W(SW_CHA1ALPHA_OFS),0
+#mes Mayuri.%p
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA2ALPHA),128
+#assign $W(SW_CHA2ALPHA_OFS),0
+#mes Kurisu.%p
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA3ALPHA),128
+#assign $W(SW_CHA3ALPHA_OFS),0
+#mes Daru.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5ALPHA),128
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes And... Suzuha.%p
+#mes Will I be able to keep myself from hurting them for any reason?%p
+#mes Will I be able to keep anyone from getting hurt in this loop I escaped to in order to protect both Mayuri and Suzuha?%p
+#mes Do I really have that sort of strength?%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I don't know.%p
+#mes I don't know might be better than no.%p
+#mes At present、 I can't say anything more than that.%p
+#mes But this infinite loop is the world I wanted.%p
+#mes I can only protect this world.  Only I can protect this world.%p
+#mes I pray that that impulse was only a delusion.%p
+#mes That it won't surface a second time.%p
+#mes That somehow tomorrow will be peaceful.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,EV_S09A
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes The wind caresses my cheek.%p
+#mes I push down on the pedal and begin to ascend the Harumi Bridge with the sea breeze blowing.%p
+#mes The spokes rhythmically revolve、 reflecting rays of strong sunlight.%p
+#mes Sweat oozes out of my every pore、 but it's not unpleasant.%p
+#mes It's actually quite healthy.  It somehow reminds me of running around the school grounds back in my elementary days.%p
+#mes2v MAY_1044,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Feels good、 man 」%p
+#mes2v DAR_1037,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hwooh、 hee、 Why do I have to tag along for this?」%p
+#mes2v CRS_2028,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Same... here... haah、 hwooh... I mean、 the wind's too strong...」%p
+#mes2v MAY_1045,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Daru-kun's kinda chubby、 so I think he needs to exercise more-」%p
+#mes2v DAR_1038,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Fat neckbeard master race...」%p
+#messWindowCloseWait
+#setEVFlag 85
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S09A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),130
+#assign $W(SW_BG3SY),10
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Leading the way is Suzuha.%p
+#mes She's riding her favorite MTB、 nimbly turning the pedals.%p
+#messWindowCloseWait
+#setEVFlag 85
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_S09A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),0
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),SCR_SIZ_X
+#assign $W(SW_BG3LY),SCR_SIZ_Y
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v SUZ_0798,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The scenery sure is nice」%p
+#mes From here on Harumi Bridge、 you can see Tokyo Bay clearly、 and also far away is the Rainbow Bridge.%p
+#mes Everyone except Suzuha is using rent-a-cycles.%p
+#mes I proposed this cycling activity as a change of pace from the search for the unfindable pin.%p
+#mes2v SUZ_0799,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I actually thought it was going to be a waste of time until we left.  But people are creatures who need to spend time like this every now and then.」%p
+#mes2v CRS_2029,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Making the Time Leap Machine was... more fun... for me...」%p
+#mes2v DAR_1039,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hi、 hikikomori are the strongest... Today、 today is proof...」%p
+#mes2v MAY_1046,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You two are all worn out-. Ehhehe-」%p
+#mes2v SUZ_0800,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「How sloppy-.  You won't survive like that、 you know?」%p
+#mes In contrast to the composed Suzuha and Mayuri、 Kurisu and Daru are exhausted.%p
+#mes Incidentally、 I know the distance between Akiba and Ariake、 so I preserved my physical strength well.%p
+#mes2v DAR_1040,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「W、where's some water!?  Still no vending machine!? I could kill for a glass of water!」%p
+#mes2v OKA_3326,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Then do it.」%p
+#mes2v DAR_1041,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Eh?」%p
+#mes Everyone was startled by my line.%p
+#mes2v OKA_3327,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Try it.  Kill.」%p
+#mes2v DAR_1042,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wait、 seriously replying to a troll thread?」%p
+#mes2v OKA_3328,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 seriously.  Why don't you do it?  If you want to do it、 then do it.」%p
+#mes2v CRS_2030,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 Okabe.  What are you saying so suddenly?」%p
+#mes2v MAY_1047,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 you shouldn't say things like that、 okay?」%p
+#mes2v SUZ_0801,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠「...」%p
+#mes2v DAR_1043,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Annnyway、 why so mad、 Okarin?」%p
+#mes2v OKA_3329,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Nothing.」%p
+#mes2v OKA_3330,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's a convenience store across two bridges.  No complaining until then.」%p
+#mes2v DAR_1044,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Geh、 really? That's unexpectedly far.」%p
+#mes2v SUZ_0802,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠「...」%p
+#mes ──Several hundred days since then.  No、 maybe thousands.  How many cycles has it been?%p
+#mes I've kept repeating this closed loop so many times that it's hard to keep track.%p
+#mes I've even forgotten the reason I'm doing this.%p
+#mes I'm only spending each day as if I'm only signing it.%p
+#mes Everyone says the same things. Everyone responds the same ways.  My physiological responses have blurred a bit、 but aside from that、 every day is the same.%p
+#mes Same、 same、 same、 same、 same、 same、 same、 same.%p
+#mes To be exact、 sometimes subtle deviations occur.%p
+#mes But it's still within deviation.  The points still form a line.%p
+#mes Everything that happens is insignificant.%p
+#mes Everything that happens is meaningless.  Pointless.%p
+#mes I am the only one still living in this loop.%p
+#mes Everyone else is only being kept alive.%p
+#mes I'm just keeping them alive.%p
+#mes And we're just spinning our wheels in this dead world.%p
+#mes My soul also died before I knew it.%p
+#mes Yeah、 I am already dead.%p
+#mes I can't keep living like this.%p
+#mes Mayuri's life and death?%p
+#mes Moeka's attack?%p
+#mes Suzuha's time travel?%p
+#mes My first self might have cared about all that.%p
+#mes Since when?%p
+#mes When did I stop caring?%p
+#mes When did I start looping like clockwork for all eternity?%p
+#mes What happened to me worrying about things like Mayuri's life and death or Moeka's attack?%p
+#mes After these two days、 everything will be as before.  Everything will be reset.  I will reset it myself.%p
+#mes Then I guess it's pointless to worry.%p
+#mes Ridiculous.%p
+#mes I've repeated this loop how many times before?%p
+#mes Without seeing anything、 without hearing anything、 my senses have gone dull.%p
+#mes It's like I'm absentmindedly separated from everything by a membrane.%p
+#mes And I've already gotten use to it.%p
+#mes And thus、 I don't find it inconvenient.%p
+#mes I simply adapted.%p
+#mes I simply optimized.%p
+#mes To this far too narrow world.%p
+#mes To this far too nice world.%p
+#mes Why is getting use to it so bad?%p
+#mes Shouldn't it be best to get used to it?%p
+#mes2v DAR_1045,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Haah.... I quit cycling-」%p
+#mes Daru used up the last of his strength. While still on his bike、 he rests his upper half on the guardrail that divides the roadway and the footpath.%p
+#mes I stop my bicycle and look on with abated eyes.%p
+#playSE 0,SGSE089
+#mes2v DAR_1046,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Woah!」%p
+#mes An ear-piercing car horn.%p
+#mes Daru hurriedly lifts himself from the guardrail.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeInTIM
+#playSE 0,SGSE090
+#call macrosys,SEwaitHalf
+#mes Right after that、 a large truck passes by at a staggering speed.%p
+#mes Daru clumsily falls off his bike and lands on his rear.%p
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,BG3_FadeOutTIM
+#mes2v DAR_1047,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Th、 that was close!」%p
+#mes2v CRS_2031,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 are you okay?」%p
+#mes2v SUZ_0803,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Are you hurt?」%p
+#mes Kurisu and Suzuha stop their bicycles and help Daru get up.%p
+#mes2v MAY_1048,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wawah-、 that truck's awful-」%p
+#mes Said truck already crossed the intersection after the bridge and had become a tiny speck.%p
+#mes2v DAR_1048,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hah、 what a shock.  'the hell's with that truck!?  Don't screw with me、 I should have checked the number!  Then I could be like 'Reported!'」%p
+#mes2v OKA_3331,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then report him.」%p
+#mes The truck's number smoothly rolls off my tongue.%p
+#mes It's a number I'm sick of seeing.  It's imprinted into my mind.%p
+#mes2v OKA_3332,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There、 I told you.  Go report him.」%p
+#mes I hold out my phone to Daru.%p
+#mes2v DAR_1049,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...Okarin、 do you hate me?」%p
+#mes2v OKA_3333,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You said you wanted to report him、 so I'm giving you the opportunity to report him.」%p
+#mes I blandly spin these words.%p
+#mes It doesn't matter.  Nothing matters.%p
+#mes2v CRS_2032,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Sure、 Hashida's attitude needs adjustment、 but yours isn't good either、 Okabe.」%p
+#mes2v OKA_3334,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No preaching、 you class rep character.」%p
+#mes2v CRS_2033,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wh、 what?」%p
+#mes2v MAY_1049,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You shouldn't be fighting-.  Daru-kun's alright、 so we should all live happily ever after、 okay?」%p
+#mes Ignoring Mayuri's intercession、 I keep holding out my phone to Daru.%p
+#mes2v OKA_3335,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're not going to report him?」%p
+#mes2v DAR_1050,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「W、 well、 I guess I'll let him off the hook this time.」%p
+#mes I take a deep breath while putting away my phone.%p
+#mes2v SUZ_0804,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠「...」%p
+#mes Suzuha's stern eyes face towards me.%p
+#mes She looks like she's about to say something.%p
+#mes But I take that glance straight on.  I no longer feel a thing.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

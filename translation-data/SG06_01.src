@@ -1,0 +1,272 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,TIT006
+#setFlag SF_BG1DISP
+#call macrosys,FadeInVery2Slow
+#AutoSave 1
+#call macrosys,SetRevTitle
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#call macrosys,FadeOutVERYSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#wait 16
+#call macrosys,FadeIn0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE068L,true
+#mwait 64
+#mes2v OKA_2744,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri...」%p
+#mes2v OKA_2745,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Mayuri?」%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#setEVFlag 53
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_M06A
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),360
+#assign $W(SW_BG2SY),350
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#setFlag SF_BG2DISP
+#call macrosys,FadeInVERYSLOW
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,THREAD_UNDER
+#mes No matter how much I call out her name.%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,THREAD_CENTER
+#mes Mayuri won't answer.%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#messWindowCloseWait
+#setEVFlag 53
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M06A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes The cemetery.%p
+#mes Mayuri stands still in front of a grave、 gazing at the sky.%p
+#setEVFlag 53
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M06A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),100
+#assign $W(SW_BG3SY),80
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,EvOverWrite
+#mes Buried in that grave is Mayuri's grandmother.%p
+#mes Mayuri was Granny's little girl since long ago.%p
+#mes She was always with her Granny since her parents were always busy with work.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes That Granny died when Mayuri was 11 years old.%p
+#mes I visited them often when I was little、 so that death was very sad.%p
+#mes At the wake.%p
+#mes Though I had thought she'd be crying、 Mayuri cried not a single tear.%p
+#mes She was vacantly gazing at her Granny's memorial portrait.%p
+#mes More than half a year later──%p
+#mes I already advanced to middle school、 so Mayuri and I no longer commuted together.%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 3,EV_M06A
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,EvOverWrite
+#mes But I'd still go to the cemetary on the way back、 and Mayuri would always be standing there.%p
+#mes Mayuri would come to that grave every day、 rain or shine.%p
+#mes And then she'd stand still、 wordlessly gazing at the sky.%p
+#mes As if she could see her Granny in heaven.%p
+#setEVFlag 53
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M06A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),360
+#assign $W(SW_BG3SY),310
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,EvOverWrite
+#mes In her hands、 an old pocket watch.%p
+#mes A retro item unbefitting for Mayuri、 who looked younger than her peers.%p
+#mes That was her Granny's memento. Mayuri would always hold it when coming to this grave.%p
+#mes2v OKA_2746,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri?」%p
+#mes No matter how much I call out her name.%p
+#mes Mayuri won't answer.%p
+#mes Back then I thought Mayuri had something like aphasia.%p
+#mes She didn't talk to me. She didn't talk to her parents either. She kept moping.%p
+#mes I would always walk out to that grave and feel something like urgency.%p
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,THREAD_CENTER
+#mes In the center of the lifeless cemetery、 Mayuri would keep endlessly gazing at the sky.%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes Whenever I saw her like that、 I thought she might take off and fly to heaven──%p
+#mes Mayuri was so bravely、 and so earnestly looking up at the sky that I seriously thought that.%p
+#mes And so that her Granny wouldn't take Mayuri away with her、 I too would come to the cemetery.%p
+#setEVFlag 53
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M06A
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),510
+#assign $W(SW_BG3SY),120
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_NORMAL
+#call macrosys,EvOverWrite
+#mes And I'd stand next to the skygazing Mayuri、 calling her name.%p
+#mes2v OKA_2747,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri...？」%p
+#mes But、 no matter how many times I'd call her、 Mayuri wouldn't answer at all. She wouldn't stop looking at the sky.%p
+#mes The only sounds resounding in the lonely cemetery were my cries of Mayuri.%p
+#mes It was raining that day too.%p
+#mes Mayuri had a light blue umbrella.%p
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG078
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes In contrast to the umbrella's color、 the sky was glazed gray、 covered in clouds.%p
+#messWindowCloseWait
+#mwait 32
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,IBG077
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes And after waiting a while、 the rain stopped.%p
+#mes Rays of light poured through the gaps in the rain clouds.%p
+#mes Rembrandt lighting.%p
+#mes Alternatively、 the phenomenon also known as the Angel Ladder.%p
+#mes Solemn、 rays of wondrous light that would make anyone feel the presence of God、 regardless of belief.%p
+#mes And a strong wind blew.%p
+#mes Mayuri's light blue umbrella fanned out、 fluttered、 and spun upwards.%p
+#mes2v MAY_0793,NO_LIPANM_MAY,VID_MAY,＠Mayuri＠「…………」%p
+#mes Mayuri、 who had made no motion until then、 solely looking up at the sky、%p
+#mes Without looking at the umbrella、%p
+#mes Turned to the light falling from the sky、%p
+#mes And slowly、%p
+#mes Very slowly、%p
+#mes Reached out her hand.%p
+#mes As if to grab onto the invisible ladder.%p
+#mes As if to be pulled up by her Granny.%p
+#mes Finally、 she tiptoed.%p
+#mes Looking from the side、 I...%p
+#mes Saw her floating away──%p
+#mes That's how I felt.%p
+#mes Impulsively、 I grabbed Mayuri's outstretched hand、 and embraced her.%p
+#mes In retrospect、 those were pitiful pretentious hipster bullshit thoughts、 but at that time、 I felt like Mayuri was really going to vanish.%p
+#messWindowCloseWait
+#call macrosys,FadeOutFAST
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#assign $W(SW_SEFADE),FADE_FAST
+#playSE 0,SGSE056
+#mes2v OKA_2748,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I won't let you go anywhere...」%p
+#mes2v OKA_2749,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I won't let you be taken away...」%p
+#mes I realized how embarrassing the words running out of my own mouth were、%p
+#mes2v OKA_2750,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「M-Mayuri is my hostage. My sacrificial live test subject!」%p
+#mes So to hide my embarrasment、 I kept continuing the script.%p
+#mes Right before her Granny died.%p
+#mes Mayuri and I were obsessed with a tokusatsu show on TV.%p
+#mes I was proud of how well I impersonated the lines of that show's enemy boss、 a mad scientist. %p
+#mes Once I started saying them、 I just couldn't stop.%p
+#mes All I could do to hide the embarrassment was to cover it up with even more embarrassing words.%p
+#mes2v OKA_2751,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I-I won't let you run anywhere、 okay? Hahah、 fuhahaha!」%p
+#mes And when I did.%p
+#mes Mayuri's body shook on my arm.%p
+#mes2v MAY_0794,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see.... sniff」%p
+#mes She whispered.%p
+#mes For the first time in half a year、 I heard Mayuri's voice.%p
+#mes That voice was wet with tears.%p
+#mes2v MAY_0795,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii's a hostage、 isn't she...」%p
+#mes2v MAY_0796,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Then it can't be helped、 huh. Ehehe...」%p
+#mes She smiled happily.%p
+#mes While dripping tears.%p
+#setFlag SF_Phone_AutoDisable
+#mes Mayuri buried her face in my chest──%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label THREAD_UNDER
+#assign $W(LR_TMP00),256
+#assign $W(LR_TMP01),256
+#beginAnimation
+#CalcMove SW_BG2SY_OFS,(270-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#label @@
+#assign $W(SW_BG2SY),270
+#assign $W(SW_BG2SY_OFS),0
+#resetFlag LF_THD_EXEC
+#end
+#label THREAD_CENTER
+#assign $W(LR_TMP00),256
+#assign $W(LR_TMP01),256
+#beginAnimation
+#CalcMove SW_BG2SY_OFS,(170-$W(SW_BG2SY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2SY),170
+#assign $W(SW_BG2SY_OFS),0
+#resetFlag LF_THD_EXEC
+#end

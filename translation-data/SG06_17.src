@@ -1,0 +1,691 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#mes When I come to、 I'm standing still with my phone hand.%p
+#mes While waiting for the ringing in my ears to calm down、 I promptly check the date and time on my phone screen.%p
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes August 11、 2:21PM.%p
+#mes Alright. Now I have two more days.%p
+#mes As a matter of fact、 I've gone back 52 hours.%p
+#mes I first jumped to the 13th at 14 o'clock、 when the machine was completed. From there、 I leaped the limit of 48 hours to the 11th at 14 o'clock.%p
+#mes It was my first time doing consecutive time leaps、 but it seems to have gone well.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I immediately head to where Suzuha is.%p
+#mes Thanks to time leaping、 Suzuha's hand wasn't burned in the first place. What a relief.%p
+#mes When I explain the situation、 Suzuha rushes to Radio Kaikan to confirm what I said. She believes me when she notices the time machine is broken.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaSetW5173
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#mes We repeat the same conversation we had before I time leaped.%p
+#mes In the end、 all we can do is ascertain whether Suzuha's time machine can be repaired or not.%p
+#mes2v DAR_0922,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Then、 we should go look at it right now.」%p
+#mes Daru's unusually eager.%p
+#mes Maybe he's interested in Suzuha's story about the world's structure and the act of history revision.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0914,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 wait wait-」%p
+#mes And Mayuri flaps her hands and calls us to stop as we're about to leave the lab.%p
+#mes2v MAY_0915,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、 hey. Guys、 you're forgetting one more thing-」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDisp73
+#mes2v DAR_0923,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「One more thing? What's that?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_0916,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Where's Suzu-san's father now-?」%p
+#mes Ah、 that's right.%p
+#mes But I thought Suzuha was lying about that.%p
+#mes Yet Suzuha unexpectedly hangs her head painfully.%p
+#messWindowCloseWait
+#call macrosys,CharaErase3
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,SUZ_AMB
+#assign $W(SW_CHA8POSX),CHR_RIGHT
+#assign $W(SW_CHA8FACE),Face_SUZ_B03
+#call macrosys,CharaDisp84
+#mes2v SUZ_0513,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Father doesn't really matter、 does it?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0917,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It does so matter-. I mean、 won't it take time to fix the time machine-? In that case、 Mayushii thinks we should search for Suzu-san's father in the meantime.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0918,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Whaddya think?」%p
+#mes2v OKA_3097,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 but...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMC
+#assign $W(SW_CHA5FACE),Face_MAY_C03
+#call macrosys,CharaDisp51
+#mes I hesitate when Mayuri's cheeks start swelling.%p
+#mes2v MAY_0919,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ahh-、 Okarin、 that's no good-. You know、 promises are meant to be kept.」%p
+#mes Promise...?%p
+#mes2v MAY_0920,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Just before、 we promised、 right-? That we'd all look for Suzu-san's father.」%p
+#mes That's right....%p
+#mes When she couldn't meet him、 we promised that and detained Suzuha.%p
+#mes2v OKA_3098,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 that's right...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0921,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 Suzu-san did come here on a mission and stuff、 but I think it's also because she really wanted to meet her father.」%p
+#mes2v MAY_0922,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「In that case、 Mayushii wants to help them meet.」%p
+#mes If Mayuri says that much、 then there's no way I can refuse.%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8FACE),Face_SUZ_A01
+#call macrosys,CharaDisp84
+#mes2v SUZ_0514,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Shiina Mayuri、 you're really a good girl...」%p
+#mes Suzuha sniffles a little.%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8FACE),Face_SUZ_A06
+#call macrosys,CharaDisp84
+#mes2v SUZ_0515,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...exactly.」%p
+#mes2v SUZ_0516,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I thought that if I came to this town、 I could meet him...」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8FACE),Face_SUZ_A01
+#call macrosys,CharaDisp84
+#mes2v SUZ_0517,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I know that Father was in Akihabara in 2010.」%p
+#mes2v OKA_3099,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wai- he's really here!?」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMB
+#assign $W(SW_CHA8FACE),Face_SUZ_B04
+#call macrosys,CharaDisp84
+#mes2v SUZ_0518,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「He is. How rude. At this age、 he's probably still young and cool.」%p
+#mes2v OKA_3099_2,$W(LR_LIP_DAR),VID_DAR,＠Rintaro＠「His name... was Barrel Titor、 right?」%p
+#mes2v SUZ_0519,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Yeah、 that's right.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_0923,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Waah、 a foreigner-?」%p
+#mes2v SUZ_0520,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「No. He's probably Japanese. Barrel Titor is his codename from the Resistance time. So now、 in 2010、 I don't think he calls himself that yet.」%p
+#mes I see. So that's why Suzuha called herself John Titor.%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8FACE),Face_SUZ_A06
+#call macrosys,CharaDisp84
+#mes2v SUZ_0521,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Father's real name... I don't know it.」%p
+#mes2v SUZ_0522,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Even though I'm his real daughter.」%p
+#mes Suzuha looks like she's about to cry for an instant、 but she quickly covers it with a bitter smile.%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8FACE),Face_SUZ_A01
+#call macrosys,CharaDisp84
+#mes2v SUZ_0523,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「He never told me it、 and before he could、 he died.」%p
+#mes That part about the age Suzuha lived in makes me think she's even more heroic.%p
+#mes2v OKA_3100,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 what about the name Amane?」%p
+#mes2v SUZ_0524,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「My mother's maiden name.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_CRS_A04
+#call macrosys,CharaDisp62
+#mes2v CRS_1942,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So、 no clues?」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMB
+#assign $W(SW_CHA8FACE),Face_SUZ_B04
+#call macrosys,CharaDisp84
+#mes2v SUZ_0525,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Clues... ah、 that reminds me.」%p
+#mes Suzuha claps her hands together and starts feeling around her body. Finally、 what she takes out of her pocket is──%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG064
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_CHA4POSX_OFS,(CHR_RIGHT_T-$W(SW_CHA4POSX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA2POSX_OFS,(CHR_LEFT_T-$W(SW_CHA2POSX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG2FADECT,BGFADECT_ALPHA_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA4POSX),CHR_RIGHT_T
+#assign $W(SW_CHA4POSX_OFS),0
+#assign $W(SW_CHA2POSX),CHR_LEFT_T
+#assign $W(SW_CHA2POSX_OFS),0
+#call macrosys,TuneParam62
+#call macrosys,TuneParam84
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes2v MAY_0924,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「A pin badge?」%p
+#mes What Suzuha has always been fiddling around with.%p
+#mes Its form is nothing special.%p
+#mes A common pin badge.%p
+#mes2v MAY_0925,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Something's written on it-?」%p
+#mes It reads OSHM＊＊＊A 7010.%p
+#mes2v SUZ_0526,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「This is Father's memento.」%p
+#mes2v CRS_1943,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Memento...」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_3101,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru、 google it!」%p
+#mes Daru looks it up on a search engine、 only to be brought to unclear foreign sites.%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7POSX),CHR_LEFT
+#assign $W(SW_CHA7FACE),Face_DAR_A06
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8FACE),Face_SUZ_A01
+#call macrosys,CharaDispW7384
+#mes2v SUZ_0527,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Father was seemingly around Akihabara、 so I think we can leave out the foreign sites.」%p
+#mes2v DAR_0925,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So in Japanese please、 I guess.」%p
+#mes We narrow down the search to Japanese sites.%p
+#mes But even the top 10 results were unrelated sites.%p
+#mes2v DAR_0926,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I don't get it at all.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase3
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0926,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But、 but-、 this will surely be a hint-」%p
+#mes With Suzuha's permission、 I take a picture of it for the time being.%p
+#mes2v MAY_0927,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「With that said-、 all in favor of searching for Suzu-san's father-?」%p
+#mes I was about to say We don't have that much free time、 but the time machine's lack of function means we can't do anything. So maybe we can just let Mayuri do what she pleases.%p
+#mes Because now that I know about attractor fields、 I know that even if I take Mayuri to the ends of the earth、 we can't avoid her death.%p
+#mes2v OKA_3102,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I don't oppose it.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0928,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Thank you Okarin-♪ Ehhehe-」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Daru raises his hand too.%p
+#mes Followed by Kurisu.%p
+#mes So、 with unanimous approval、 we'll search for Suzuha's father.%p
+#messWindowCloseWait
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8POSX),CHR_CENTER
+#assign $W(SW_CHA8FACE),Face_SUZ_A02
+#call macrosys,CharaDisp84
+#mes2v SUZ_0528,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Everyone... thank you.」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8FACE),Face_SUZ_A01
+#call macrosys,CharaDisp84
+#mes2v SUZ_0529,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「But、 to the very end、 I would prefer to go to 1975. Because that was my father's dying wish.」%p
+#mes2v SUZ_0530,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「So、 if it looks like we can repair the time machine、 what do you think if we give up the search for Father?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,SUZ_AMA
+#assign $W(SW_CHA8POSX),CHR_RIGHT
+#assign $W(SW_CHA8FACE),Face_SUZ_A01
+#call macrosys,CharaDispW5184
+#mes2v MAY_0929,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Is that okay-?」%p
+#mes2v SUZ_0531,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I think if we can't find him after searching that much、 it just means we weren't fated to meet.」%p
+#mes It helps me out for Suzuha to say that.%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7POSX),CHR_LEFT
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDisp73
+#mes2v DAR_0927,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So、 how are we going to search?」%p
+#mes2v OKA_3103,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The pin badge is our only hint. Our only starting point. They say every man knows his own business best、 so let's try going to maniac shops.」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,SUZ_AMB
+#assign $W(SW_CHA8FACE),Face_SUZ_B04
+#call macrosys,CharaDisp84
+#mes2v SUZ_0532,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Maniac shops?」%p
+#mes2v OKA_3104,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Akiba has plenty of underground maniac specialty shops、 right?」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG06A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG06A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#mes It's hard to sneak into Radio Kaikan in the daytime.%p
+#mes The boom settled、 but there's still quite a few pedestrians in front of the building.%p
+#mes We spend about 30 minutes just sneaking in.%p
+#mes I have Kurisu keep working on the Time Leap Machine.%p
+#mes She needs to have it complete by the 13th at 14 o'clock. If it's late、 that'll have a huge effect on time leaping to save Mayuri.%p
+#mes Mayuri disappeared into Akiba by herself to search for Suzuha's father.%p
+#mes2v OKA_3105,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How is it?」%p
+#mes I call out to Daru、 who's checking out the flooded satellite-- I mean、 time machine、 as Suzuha and I stand guard.%p
+#mes The hatch only opens when someone whose fingerprints have already been registered-- in this case、 Suzuha-- touches the hatch area.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_B06
+#call macrosys,CharaDisp62
+#mes Fed up、 Daru crawls out of the machine while sweating profusely.%p
+#mes We hurriedly pull out that huge body.%p
+#mes The satellite-- time machine、 is completely visible from below.%p
+#mes If someone were to see us、 they might report us to the police.%p
+#mes The festival's mostly ended、 but many people still come to see this satellite. We need to be as careful as we can to not get noticed.%p
+#mes2v DAR_0928,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...It's so freaking hot in there.」%p
+#mes2v DAR_0929,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's not on the level of a steam bath.... Underneath this blazing sun、 the machine's seriously turned into a food dehydrator...」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v DAR_0930,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「By the way、 this machine won't lose its balance and fall、 right...?」%p
+#mes The satellite-like time machine stands still as if scraping off the wall.%p
+#mes But the police fixated the pointed end with something like rope、 so Daru probably has nothing to worry about.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A03
+#call macrosys,CharaDisp51
+#mes2v SUZ_0533,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Can it be fixed?」%p
+#mes2v DAR_0931,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Nah、 I still don't know for sure. But I noticed something just by touching it for a while.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0932,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「This thing kind of seems like the Microwave Ophone.」%p
+#mes2v OKA_3106,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then maybe it can be fixed、 right!?」%p
+#mes2v DAR_0933,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Nah、 that's why I said I wasn't sure. I need to check a little more.」%p
+#mes2v OKA_3107,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru. Supah hakah. I can say that everything depends on your skill.」%p
+#mes2v OKA_3108,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're the supah hakah who saved the world. In 2036、 you will be respected as the 'Mother of the Time Machine' instead of Makise Kurisu.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDisp62
+#mes2v DAR_0934,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It's not hakah、 it's hacker! How many times do I have to tell you!?」%p
+#mes2v OKA_3109,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Anyway、 get it done somehow or another in two days、 Daru.」%p
+#mes I place my hand on Daru's shoulder and frantically plead with my eyes.%p
+#mes2v OKA_3110,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're the only one I can count on.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6FACE),Face_DAR_B02
+#call macrosys,CharaDisp62
+#mes2v DAR_0935,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I'm not confident. Anyway、 why two days?」%p
+#mes2v OKA_3111,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's...」%p
+#mes Because Mayuri will die. But I don't say that.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,SUZ_AMA
+#assign $W(SW_CHA5FACE),Face_SUZ_A01
+#call macrosys,CharaDisp51
+#mes2v SUZ_0534,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「After two days、 the weather conditions will be perfect for creating the ring singularity.」%p
+#mes2v SUZ_0535,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「If we miss that、 we won't have another chance for a year.」%p
+#mes Nice excuse、 Suzuha!%p
+#mes2v OKA_3112,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Y-yeah、 that's it!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6FACE),Face_DAR_B06
+#call macrosys,CharaDisp62
+#mes2v DAR_0936,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Fix it in two days? That's just nuts...」%p
+#mes2v OKA_3113,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But if you do、 you'll get the right to go on a date with Faris for a day.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMB
+#assign $W(SW_CHA6FACE),Face_DAR_B04
+#call macrosys,CharaDisp62
+#mes2v DAR_0937,NO_LIPANM_DAR,VID_DAR,＠Itaru＠「...!?」%p
+#mes2v OKA_3114,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Can you fix it?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A05
+#call macrosys,CharaDisp62
+#mes2v DAR_0938,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Yes、 I can!」%p
+#mes Well then... the problem is whether or not Faris will hear that request out....%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG14N
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes OSHM＊＊＊A 7010%p
+#mes We're searching for something with that same cryptic logo as the pin badge.%p
+#mes I didn't think it would be this difficult. Honestly、 we were too naive.%p
+#mes Akiba has plenty of underground shops、 but they're all for electronic goods and PC parts、 so there aren't that many accessory shops.%p
+#mes We went around all of them、 but couldn't get a single clue.%p
+#mes We tried showing it to the salespeople、 but they all just tilted their heads to the side.%p
+#mes We walked all the way to the station、 to questionable shops in Kanda、 Ueno、 and Asakusa、 but still no results.%p
+#mes Suzuha and I walk back home with a heavy gait.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01N1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaSetW5162
+#call macrosys,FadeInSLOW
+#mes2v CRS_1944,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Welcome back.」%p
+#mes Kurisu、 secluded alone in the development room、 greets us.%p
+#mes2v CRS_1945,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Your faces say no results、 huh.」%p
+#mes2v OKA_3115,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where's Daru?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_1946,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「He didn't come back. It's already dark、 so didn't he go straight home?」%p
+#mes Since it's nighttime、 the closed Radio Kaikan's too dark to work.%p
+#mes He can't use a flashlight either because that would be too conspicuous. %p
+#mes Mayuri's not around. Is she making any progress on the search for Suzuha's father?%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A03
+#call macrosys,CharaDisp62
+#mes2v SUZ_0536,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I kind of feel bad. This isn't the time to be doing this...」%p
+#mes2v OKA_3116,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This isn't for you. Everything is to save Mayuri.」%p
+#mes2v SUZ_0537,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...yeah.」%p
+#mes I start up Daru's computer and try searching the net for pin badge collector communities.%p
+#mes I'll investigate tomorrow based on the information I find.%p
+#setFlag SF_Phone_AutoDisable
+#mes There's a pin badge community in Frepara、 where everyone shows off their collection、 so I posted asking for information.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERYSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI_UPPER_ALL
+#setFlag SF_BG4DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMB
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_SUZ_B03
+#call macrosys,CharaSetW5162
+#assign $W(LR_DATE),0812
+#call macrosys,FadeInSLOW
+#playSE 1,SGSE167
+#mwait 64
+#mes I'm sleeping on the couch when a loud alarm rings in my ears.%p
+#mes2v OKA_3117,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「──SERN's attack!?」%p
+#messWindowCloseWait
+#playSE 0,SGSE056
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG4MASKNO),MASK03
+#assign $W(SW_BG4MASKFADERANGE),128
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG4_FadeOutTIM
+#mes I jump up and see Kurisu and Suzuha.%p
+#mes Kurisu's holding a phone. The sound's coming from there.%p
+#mes2v CRS_1947,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Good morning.」%p
+#mes Her sour face said the morning was not good at all.%p
+#mes I wish she'd put herself in my shoes and see what it's like to be woken up with such a sour attitude.%p
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 1
+#mes I check the time with my own phone.%p
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes It's before 7AM.%p
+#mes2v OKA_3118,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...so you came to wake me up? Thanks.」%p
+#mes2v CRS_1948,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's not like I made a morning call for you.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaDisp62
+#mes2v SUZ_0538,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Okabe Rintaro、 there's something I want you to see. So I had her wake you up.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG065
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes A strange meter is placed on top of the lounge table.%p
+#mes2v OKA_3119,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...What's this?」%p
+#mes2v SUZ_0539,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「A Divergence Meter. It can display the numerical value of the world line we're currently on.」%p
+#mes The meter displays 0.337187%.%p
+#mes2v SUZ_0540,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The numerical value of my original world line in 2036 is set at 0%、 so at the end、 it's just a relative number、 though.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaSetW5162
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_3120,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You made this?」%p
+#mes2v SUZ_0541,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「No. I brought it from 2036.」%p
+#mes2v OKA_3121,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmm、 these are Nixie tubes、 huh? Nice sense. Enough that I'd certify it as Future Gadget No. 9.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_1949,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What exactly is the mechanism behind this thing? I didn't think it possible to quantify world lines.」%p
+#mes Suzuha shrugs her shoulders.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A03
+#call macrosys,CharaDisp62
+#mes2v SUZ_0542,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I dunno either.」%p
+#mes2v OKA_3122,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You don't know!?」%p
+#mes2v SUZ_0543,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Do you know who made this?」%p
+#mes Why's she asking me if I have no way to know?%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaDisp62
+#mes2v SUZ_0544,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「You did、 Okabe Rintaro.」%p
+#mes2v OKA_3123,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Huh?」%p
+#mes2v SUZ_0545,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「You made it. Ummm、 I'm sure it was... about 11 years from now. You apparently put your special ability to practical use.」%p
+#mes2v OKA_3124,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is that so...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_1950,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If we have this meter、 then people other than Okabe can check world line divergence. Is that it?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A03
+#call macrosys,CharaDisp62
+#mes2v SUZ_0546,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「No、 that's not it.」%p
+#mes2v SUZ_0547,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Most likely、 even if the displayed number were to change、 only Okabe Rintaro would notice.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_1951,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Haah? Then there's no point. Make something useful for once、 Okabe.」%p
+#mes I ignore Kurisu's complaints and look at the meter again.%p
+#mes This、 is something I made.%p
+#mes Fifteen years have passed since I completed it.%p
+#mes Eleven years will pass before I complete it.%p
+#mes Feels kind of weird.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaDisp62
+#mes2v SUZ_0548,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The only one who understand the mechanism is the maker himself. So if you want to know、 you'll probably have to wait 11 years. If you do that、 then he should figure it out himself.」%p
+#mes2v OKA_3125,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Have you met me in the future?」%p
+#mes She did say I was an infamous terrorist.%p
+#mes For some reason、 Suzuha's expression momentarily darkens.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A03
+#call macrosys,CharaDisp62
+#mes2v SUZ_0549,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...not once.」%p
+#mes2v OKA_3126,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see...」%p
+#mes2v OKA_3127,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 what's the point in showing me this meter here and now?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaDisp62
+#mes2v SUZ_0550,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Once the meter's value crosses 1%、 you'll have reached the β World Line.」%p
+#mes2v OKA_3128,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「1%...」%p
+#mes2v SUZ_0551,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Right. If you break 1%... you'll save Shiina Mayuri.」%p
+#mes The glowing red numbers don't move at all now.%p
+#mes It just needs to be raised a mere 0.6%、 so it seems simple enough.%p
+#mes But on the other hand、 there are six digits after the decimal point. And when I consider that the meter doesn't have a tens place、 I expect that raising the number is going to be difficult.%p
+#mes2v SUZ_0552,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'll give this to you. There's no point in me keeping it anyway. Use it well.」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

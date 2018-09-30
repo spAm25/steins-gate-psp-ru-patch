@@ -1,0 +1,649 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0803
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#label L_SG03_14_RM_MAY04_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_MAY
+#assign $W(LR_RM_CHANCE),5
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1669,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BSA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_A02
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0959,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You look like a maiden in love、 waiting for a mail from the one she loves.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She sure likes to attack everything.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1670,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you really want to meddle that much?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BSA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v CRS_0960,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Just getting revenge. You always treat me harshly、 so allow at least that much.」%p
+#label L_SG03_14_RM_MAY04_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes2v OKA_1671,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Despite appearances、 I actually respect you.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BSA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_0961,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You don't even say my name right. That's rich....」%p
+#mes2v OKA_1672,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm sorry about that.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BSC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes Kurisu raises her face in shock、 staring at me.%p
+#mes2v CRS_0962,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hmmm、 that's unexpected.... You actually apologized.」%p
+#mes2v OKA_1673,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I do apologize. But there's no helping it.」%p
+#mes2v OKA_1674,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「For my mind is fixated on recognizing you as 'Assistant Christina' and I can't correct it、 fuhahaha!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BSB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#setDic 27
+#mes2v CRS_0963,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I want to drill electrodes into your skull and shock the daylights out of your &cTIPSC;hippocampus&cMESC;.」%p
+#label L_SG03_14_RM_MAY04_01_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#label L_SG03_14_PHONE_RECEIVE_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0301
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes And、 after that worthless exchange、 John Titor's mail arrives.%p
+#flagOnJump SF_PhoneTrigger,L_SG03_14_READ_FM_From_TIT0301
+#label L_SG03_14_PHONE_RECEIVE_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_TIT0301
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,DISP_RECEIVEBOX
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes I hurry and open up the mail screen.%p
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0301
+#call macrosys2,SELECT_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_MailView
+#label L_SG03_14_READ_FM_From_TIT0301
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_TIT0301
+#resetFlag SF_PhoneTrigger
+#setFlag_MailReply $W(SW_PHONE_MAILCURMNO)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0302_0
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0302_0
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_To_TIT0302
+#call macrosys2,SendMailEdit_NEXT
+#wait 1
+#mwait 60
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#call macrosys2,CLOSE_PHONE_WINDOW
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BSA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_0964,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Who are you exchanging mails with?」%p
+#mes2v OKA_1675,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「John Titor.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BSC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0965,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh... no way.」%p
+#mes2v OKA_1676,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That guy opened himself up to the most ill spirited bastards alive. He publicized his mail address. This is the second time we've had a mail exchange.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BSB
+#assign $W(SW_CHA5FACE),Face_CRS_B02
+#call macrosys,CharaDisp51
+#mes2v CRS_0966,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No wonder you referenced Titor's posts. You believe him、 don't you?」%p
+#mes2v OKA_1677,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's not it. But there are several points in his story that I agree with.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BSB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0967,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Really? I think it's just fiction.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0302
+#call macrosys2,RECEIVE_NEW_MAIL
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0302
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#setFlag_MailReply $W(SW_PHONE_MAILCURMNO)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0303_0
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0303_0
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_To_TIT0303
+#call macrosys2,SendMailEdit_NEXT
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#wait 1
+#assign $W(LR_TMP00),90
+#call macrosys,KeyWait_TIM
+#assign $W(SW_PHONE_MODE),PhoneMode_ReceivingMail
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_MODE),PhoneMode_CompleteReceiveMail
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0303
+#call macrosys2,RECEIVE_NEW_MAIL
+#wait 1
+#mwait 60
+#PhoneInit
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0303
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#setFlag_MailView FM_From_TIT0303_A
+#setFlag_MailView FM_From_TIT0303_B
+#setFlag_MailView FM_From_TIT0303_C
+#setFlag_MailView FM_From_TIT0303_D
+#setFlag_MailView FM_From_TIT0303_E
+#setFlag_MailView FM_From_TIT0303_F
+#setFlag_MailView FM_From_TIT0303_G
+#setFlag_MailView FM_From_TIT0303_H
+#setFlag_MailReply $W(SW_PHONE_MAILCURMNO)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0304_0
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0304_0
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_To_TIT0304
+#call macrosys2,SendMailEdit_NEXT
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#wait 1
+#assign $W(LR_TMP00),90
+#call macrosys,KeyWait_TIM
+#assign $W(SW_PHONE_MODE),PhoneMode_ReceivingMail
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_MODE),PhoneMode_CompleteReceiveMail
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0304
+#call macrosys2,RECEIVE_NEW_MAIL
+#wait 1
+#mwait 60
+#PhoneInit
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0304
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#assign $W(SW_PHONE_MODE),PhoneMode_ReceivingMail
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_MODE),PhoneMode_CompleteReceiveMail
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0305
+#call macrosys2,RECEIVE_NEW_MAIL
+#PhoneInit
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0305
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#PhoneInit
+#call macrosys2,RETURN_RECEIVEBOX
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0304
+#call macrosys2,SELECT_RECEIVED_MAIL_NEXT
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#setFlag_MailReply $W(SW_PHONE_MAILCURMNO)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0305_0
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 30
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0305_0
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_MAILNO),FM_To_TIT0305
+#call macrosys2,SendMailEdit_NEXT
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#PhoneInit
+#wait 1
+#assign $W(LR_TMP00),90
+#call macrosys,KeyWait_TIM
+#assign $W(SW_PHONE_MODE),PhoneMode_ReceivingMail
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_MODE),PhoneMode_CompleteReceiveMail
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0306
+#call macrosys2,RECEIVE_NEW_MAIL
+#PhoneInit
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0306
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_MailView
+#mes2v OKA_1678,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes The tone of Titor's mail suddenly changed.%p
+#mes I have a special ability?%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#label L_SG03_14_RM_MAY03_02_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_MAY
+#assign $W(LR_RM_CHANCE),22
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I grow a superiority complex in my heart of hearts.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Then I'm confused. Could this be a trap?%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes In the first place、 I can't confirm if this is the real John Titor. And I don't even know if the 2001 John Titor I remember was a real time traveler or not.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Well、 if Titor's world line theory holds、 then that could explain the many supernatural events I've experienced firsthand.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Now I suddenly think Titor's a suspicious existence.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Once that thought crossed my mind just once、 his words started to smell like lies.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes That stuff about the IBN 5100 might have been a lie too. That mysterious program code could have been a simple bug.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Now with him telling me I have a power、 I can't see this as anything but a newfound fraud.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes And besides、 it's not like Titor would say something like that--%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1679,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fuhahahahaha!」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BSC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaSet51
+#call macrosys,Qua3CHA1
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Kurisu twitches at my laughing voice.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0968,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「D-don't just suddenly laugh like that. Gross.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1680,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Heheheh、 I just -have- to laugh at this! Isn't it just rich!? What was that? I have an ability?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1681,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You don't have to tell me what I've known from long ago、 John Titor!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Then I snap my eyes open wide.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I raise my phone high to the heavens.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1682,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The true power... of the demon eye、 'Reading Steiner'!」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0969,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I don't see what you did there、 but I'll tell you this、 Okabe. Show some restraint.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),420
+#assign $W(SW_BG1POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1683,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Eh?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0970,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh...?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1684,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaDisp51
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v CRS_0971,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#label L_SG03_14_RM_MAY03_02_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#label L_SG03_14_RM_MAY03_02_REPLY_END
+#RandomMail_End
+#mes Kurisu blatantly hides her face with her book.%p
+#mes She pretends to read、 but I can tell from here that her ears are red.%p
+#mes Is she an @channeler after all...?%p
+#mes No、 that doesn't matter now.%p
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes More importantly、 I need to reply to Titor.%p
+#assign $W(SW_PHONE_MENUCUR),0
+#assign $W(SW_PHONE_MAILMENUCUR),0
+#assign $W(SW_PHONE_MODE),PhoneMode_MailMenu
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVEBOX
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0306
+#call macrosys2,SELECT_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#setFlag_MailReply $W(SW_PHONE_MAILCURMNO)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0306_0
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_TIT0306_0
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_To_TIT0306
+#call macrosys2,SendMailEdit_NEXT
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#wait 1
+#assign $W(LR_TMP00),90
+#call macrosys,KeyWait_TIM
+#assign $W(SW_PHONE_MODE),PhoneMode_ReceivingMail
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_MODE),PhoneMode_CompleteReceiveMail
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0307
+#call macrosys2,RECEIVE_NEW_MAIL
+#PhoneInit
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0307
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#mes2v OKA_1685,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes This really does feel bad.%p
+#mes Is this some new cult?%p
+#mes Or、 am I really getting conned here?%p
+#mes He's also saying something contradictory again.%p
+#mes The Titor who appeared in 2000 said he time traveled to revive technology lost in World War III、 which started in 2015.%p
+#mes Yet now、 this guy's saying he came to change the future of SERN's dystopia.%p
+#mes This guy might be an imposter.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Fed up、 I quit replying、 and just as I was about to put away my phone--%p
+#label L_SG03_14_PHONE_RECEIVE_02
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0308
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes2v OKA_1686,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Tch.」%p
+#flagOnJump SF_PhoneTrigger,L_SG03_14_READ_FM_From_TIT0308
+#mes Another mail came.%p
+#flagOnJump SF_PhoneTrigger,L_SG03_14_READ_FM_From_TIT0308
+#label L_SG03_14_PHONE_RECEIVE_02_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_TIT0308
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes While feeling Kurisu's cold glare、 I reluctantly open up my phone.%p
+#assign $W(LR_TARGET_MAILNO),FM_From_TIT0308
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#mes And the contents written inside-%p
+#label L_SG03_14_READ_FM_From_TIT0308
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_TIT0308
+#resetFlag SF_PhoneTrigger
+#mes Raise the hairs on the back of my neck.%p
+#mes Was that a physiological reaction to fear?%p
+#mes Or some other emotion?%p
+#mes Now I no longer know.%p
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#assign $W(SW_PHONE_PRI),PRI_LOWER_CHARA
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),PRI2_EFFECT
+#assign $W(SW_BG8SX),0
+#assign $W(SW_BG8SY),0
+#assign $W(SW_BG8LX),SCR_SIZ_X
+#assign $W(SW_BG8LY),SCR_SIZ_Y
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_EFFECT
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#setFlag SF_BG8DISP
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(SW_BG3FADECT),0
+#setFlag SF_BG3DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG047
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG3FADECT,BGFADECT_ALPHA_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SX_OFS,(889-$W(SW_BG8SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SY_OFS,(200-$W(SW_BG8SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LX_OFS,(105-$W(SW_BG8LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LY_OFS,(67-$W(SW_BG8LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_EFF_CAPTURE_PRI),0
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#call macrosys2,SEAL_PHONE_WINDOW
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#assign $W(SW_FEATHERING_PRI),PRI2_LOWER_CHARA
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mwait 32
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK15
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG3_FadeOutTIM
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP11,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mwait 128
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK15
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_VERYFAST
+#call macrosys,BG3_FadeInTIM
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK15
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_VERYFAST
+#call macrosys,BG3_FadeOutTIM
+#mwait 32
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

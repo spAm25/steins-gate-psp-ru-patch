@@ -1,0 +1,435 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#call macrosys,InitSound
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG13A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG13A2
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playBGM BGM05
+#mes We finish our shopping and come out in front of the station.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v OKA_2511,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Oh yeah、 Mayuri. Have you not been working at a part time job lately?」%p
+#mes2v MAY_0689,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Job? You mean at 'Lemoine'-?」%p
+#mes That's right. In the current Akiba devoid of moe shops、 "MayQueen+Nyan²" doesn't exist any more.%p
+#mes2v MAY_0690,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Well、 it's right before ComiMa、 so I'm taking days off-」%p
+#mes2v MAY_0691,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I gotta do give cosplay making my all-」%p
+#mes2v OKA_2512,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Exactly how many costumes are you making this year?」%p
+#resetFlag SF_CHA5DISP
+#copyCHA 1,5
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0692,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Three. Umm、 for Kaede-chan and Fubuki-chan. And then one for Luka-chan.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_EFFECT
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#resetFlag SF_CHA4DISP
+#call macrosys,InitCHA4
+#loadCHA 4,RUK_AMA
+#assign $W(SW_CHA4POSX),(CHR_LEFT_T-64)
+#assign $W(SW_CHA4FILTER),CHACOL_DEF
+#add $W(SW_CHA4PRI),PRI2_BG
+#assign $W(SW_CHA4ALPHA),0
+#assign $W(SW_CHA4FACE),Face_RUK_A01
+#setFlag SF_CHA4DISP
+#assign $W(LR_TMP00),FADE_SLOW
+#assign $W(LR_TMP01),FADE_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA4ALPHA_OFS,CH_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_CHA4POSX_OFS,64,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA4ALPHA),CH_ALP_MAX
+#assign $W(SW_CHA4POSX),CHR_LEFT_T
+#assign $W(SW_CHA4ALPHA_OFS),0
+#assign $W(SW_CHA4POSX_OFS),0
+#mes Lukako probably still doesn't want to wear it.%p
+#mes Well、 of course not.%p
+#mes After all、 even though he looks like that、 he's still a genuine guy.%p
+#mes No、 wait. That was before we sent the D-mail. Now she's a genuine girl、 I guess. How complicated....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_0693,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah...、 it's Moeka-san.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase4
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_2513,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What?」%p
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_ASA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_MOE_A02
+#call macrosys,CharaDisp62
+#mes I look where Mayuri's pointing to、 and see her squatting at the staircase to the station's smoking area、 staring at her cellphone.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),(PRI_BG+1)
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),(PRI_BG+3)
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),(PRI_BG+2)
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes And she looks awfully serious.%p
+#mes There are shadows all around her eyes、 and her hair is frayed.%p
+#mes She seems more worn out than the last time I've seen her.%p
+#mes I hesitate to call out to her、 feeling an unusual atmosphere.%p
+#mes She's ignored me before.%p
+#mes It's quite difficult to deal with that Shining Finger.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes But as a fellow lab mem、 I can't just ignore her.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_MOE_A02
+#call macrosys,CharaDispW5162
+#mes2v OKA_2514,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You、 the masseuse! You seem pretty depressed、 don't you!?」%p
+#mes2v MAY_0694,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Tutturu-、 Moeka-san. What are you doing here-?」%p
+#mes2v MOE_0141,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes Moeka doesn't look up.%p
+#mes She mutters something、 but I can't quite catch it.%p
+#mes2v OKA_2515,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 are you listening? If you have any worries at all、 this insane mad scientist、 Hououin Kyouma、 will splendidly settle them for you.」%p
+#mes2v OKA_2516,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That is、 if you're prepared to see Akiba become a sea of blood... hehehe」%p
+#stopBGM
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaDisp62
+#mes Moeka overreacts to my words with a twitch.%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_ALB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaDisp62only
+#playBGM BGM07
+#mes She lifts her head and stares at me with open eyes. Or so I thought. She gets up with a staggering force、 drawing closer to me.%p
+#mes This is the first time I've seen Moeka express so much emotion.%p
+#mes2v MOE_0142,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#mes2v OKA_2517,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What is it? What's wrong?」%p
+#mes2v MOE_0143,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes So she can't speak directly after all....%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_ALA
+#assign $W(SW_CHA6FACE),Face_MOE_A02
+#call macrosys,CharaDisp62
+#mes Moeka hangs her head and starts typing on her phone.%p
+#setFlag SF_Phone_AutoDisable
+#mes Looks like she's writing another mail.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_ALB
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaDisp62
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0501
+#call macrosys2,RECEIVE_NEW_MAIL
+#wait 1
+#mwait 60
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0501
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_2518,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you mean、 what happened?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_ALA
+#assign $W(SW_CHA6FACE),Face_MOE_A02
+#call macrosys,CharaDisp62
+#setFlag SF_Phone_AutoDisable
+#mes2v MOE_0144,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_ALB
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaDisp62
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0502
+#call macrosys2,RECEIVE_NEW_MAIL
+#wait 1
+#mwait 60
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0502
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_2519,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's not fully understood yet. We're in the middle of improving it.」%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_ASA
+#assign $W(SW_CHA7POSX),CHR_LEFT_L
+#assign $W(SW_CHA7FACE),Face_MAY_A01
+#call macrosys,CharaDisp73
+#setFlag SF_Phone_AutoDisable
+#mes2v MAY_0695,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It's amazing-. You know、 they say this time、 we might be able to time leap.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_ALA
+#assign $W(SW_CHA6FACE),Face_MOE_A02
+#call macrosys,CharaDisp62
+#wait 1
+#mwait 90
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_ALB
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaDisp62
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0503
+#call macrosys2,RECEIVE_NEW_MAIL
+#wait 1
+#mwait 60
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0503
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_2520,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't report it. If you do、 we'll have to excommunicate you as a lab mem.」%p
+#mes Moeka violently shakes her head.%p
+#mes Seems she won't report it.%p
+#mes2v OKA_2521,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Through hacking SERN、 we discovered another possibility for the Microwave Ophone (Temp).」%p
+#mes2v OKA_2522,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's a new time travel system made possible by borrowing part of SERN's equipment.」%p
+#mes2v OKA_2523,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This will repaint the history of mankind、 advancing it one more step up the ladder. That is、 the conquest of the barrier of time. Thus、 people won't be washed away by the future、 but be able to choose their own.」%p
+#mes2v OKA_2524,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Our Future Gadget Laboratory will soon accomplish that which is unprecedented throughout all of the history of mankind...!」%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_ASA
+#assign $W(SW_CHA7POSX),CHR_LEFT_L
+#assign $W(SW_CHA7FACE),Face_MAY_A04
+#call macrosys,CharaDisp73
+#mes2v MAY_0696,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin Okarin、 that explanation was so roundabout、 that you lost Mayushii.」%p
+#mes2v OKA_2525,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes To be unable to understand my message is to have not a shred of emotion.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_ALA
+#assign $W(SW_CHA6FACE),Face_MOE_A02
+#call macrosys,CharaDisp62only
+#mes Moeka bites her lip and irritatedly types out a mail.%p
+#mes She grabs my upper arm and sinks in her fingernails、 rather painfully.%p
+#mes2v OKA_2526,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「W-will you let go of me、 please....」%p
+#setFlag SF_Phone_AutoDisable
+#mes But Moeka wouldn't listen.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MOE_ALB
+#assign $W(SW_CHA6FACE),Face_MOE_B02
+#call macrosys,CharaDisp62
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0504
+#call macrosys2,RECEIVE_NEW_MAIL
+#wait 1
+#mwait 60
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0504
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_2527,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Time leaping、 in other words、 sending your memories across time.」%p
+#mes2v OKA_2528,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We found a way to make that possible. Before long、 we'll actually time leap、 and become conquerors of time.」%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_ASA
+#assign $W(SW_CHA7POSX),CHR_LEFT_L
+#assign $W(SW_CHA7FACE),Face_MAY_A02
+#call macrosys,CharaDisp73
+#mes2v MAY_0697,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Well、 Okarin came up with the idea、 Chris-chan said it was possible-、 Daru-kun's helping、 and Mayushii and Okarin are out shopping-♪」%p
+#mes2v MOE_0145,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#call macrosys,CharaErase2
+#mes Moeka absentmindedly lets go of me.%p
+#mes She squats down on the spot、 just as we had found her-- no、 wait、 she looks even more powerless.%p
+#resetFlag SF_CHA7DISP
+#copyCHA 3,7
+#assign $W(SW_CHA7FACE),Face_MAY_A03
+#call macrosys,CharaDisp73
+#mes2v MAY_0698,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Moeka-san? Are you okay? Do you feel bad-?」%p
+#setFlag SF_Phone_AutoDisable
+#mes2v MOE_0146,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0505
+#call macrosys2,RECEIVE_NEW_MAIL
+#wait 1
+#mwait 60
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0505
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#call macrosys2,Wait_Finish_MailView
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_2529,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I won't say any more than that. There are still several problems left to solve. If we can settle those easily、 I guess it'll be complete in a week.」%p
+#mes2v OKA_2530,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But if we can't settle them、 then it won't ever be complete.」%p
+#mes2v OKA_2531,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Everything is Steins;Gate's choice. I believe that we will surely find the path to settle them.」%p
+#mes2v OKA_2532,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And once the door is opened、 what will visit is the chaos I desired. Curtains shall fall on the 'Organization' that rules the world from the shadows at the hands of  &rsthe Final Crusade&rt"Ragnarok"&re……！」%p
+#mes2v MAY_0699,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 who are you fighting-?」%p
+#mes2v OKA_2533,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「They never appear on center stage、 but they manipulate the governments.」%p
+#mes2v MAY_0700,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Heeh、 amazing~. But you shouldn't do anything dangerous、 okay-?」%p
+#mes Why is Mayuri the one looking out for me?%p
+#mes2v MOE_0147,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「hm...hm...」%p
+#resetFlag SF_CHA7DISP
+#assign $W(SW_CHA7FACE),Face_MAY_A04
+#call macrosys,CharaDisp73
+#mes Oh...?%p
+#mes While sitting、 Moeka's lips curl up into a smile.%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_AMB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MOE_B03
+#call macrosys,CharaDisp62
+#mes2v MOE_0148,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Hmhmhm...」%p
+#call macrosys,CharaErase2
+#mes Unlike last time、 she gets up sluggishly and staggers off as if she had forgotten about our existence.%p
+#mes Mayuri and I could do nothing but see her off once we felt her ghastly atmosphere.%p
+#mes2v MAY_0701,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What do you think is wrong with Moeka-san-?」%p
+#mes I thought she was a weird girl since I first met her、 but....%p
+#mes Maybe she's a mental patient.%p
+#mes Hehehe、 but I'm the most ill of us all.%p
+#mes After all、 what I wish for is world chaos.%p
+#mes2v OKA_2534,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fuhaha、 Fuhahahaha、 Foooohahaahahaahahahaha!」%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_ALC
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MAY_C04
+#call macrosys,CharaDisp62Only
+#mes2v MAY_0702,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Whaaah? Even Okarin's getting weird-」%p
+#mes2v MAY_0703,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii's worried....」%p
+#stopBGM
+#mes I stop my loud laughter once I see her about to cry.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

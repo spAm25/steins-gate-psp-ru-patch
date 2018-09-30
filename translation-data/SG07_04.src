@@ -1,0 +1,374 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_Phone_Disable
+#playSE 0,SGSE058
+#assign $W(LR_DATE),0814
+#messWindowCloseWait
+#setEVFlag 90
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_Z03A
+#setFlag SF_BG2DISP
+#call macrosys,FadeInSLOW
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM12
+#mes The door's kicked open.%p
+#mes Several black shadows push into the lab.%p
+#mes Familiar men-- the Rounders-- point their guns at us. I freeze.%p
+#mes My anxiety becomes conviction、 knocked into despair.%p
+#mes Almost like watching a video.%p
+#mes Everything is the same as that time.%p
+#mes But there is one difference.%p
+#mes Today isn't Friday the 13th、 but exactly 24 hours after.%p
+#mes Meaning、 no matter how long we wait、 Suzuha won't come to save us.%p
+#mes2v RNA_0012,NO_CHARACTER,VID_ETC,＠Attacker　A＠「Don't move. Everyone、 hands in the air.」%p
+#mes The dark skinned crew cut man's words were exactly the same.%p
+#mes Eventually、 the unpleasant sound of heels resounds from the stairway.%p
+#mes The same...!%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#setEVFlag 31
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_K03B
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG3SX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3SY),0
+#assign $W(SW_BG3LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG3LY),(SCR_SIZ_Y/2)
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,EvOverWrite
+#mes2v MOE_0278,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes2v MAY_1066,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Moeka-san? This is...?」%p
+#mes2v MOE_0279,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「We're taking the time machine.」%p
+#mes Suppressing the fear that I might get killed、 I grab Mayuri's arm.%p
+#mes2v RNA_0013,NO_CHARACTER,VID_ETC,＠Attacker　A＠「Don't move!」%p
+#mes The crew cut man says something he hasn't before.%p
+#mes2v MOE_0280,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Makise Kurisu、 Okabe Rintaro、 Hashida Itaru. The three of you will come with us.」%p
+#mes2v MOE_0281,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「No resistance permitted.」%p
+#mes2v MOE_0282,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Anyway、 come.」%p
+#mes2v MOE_0283,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「You have nowhere to run.」%p
+#mes2v MOE_0284,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「My comrades are already spread throughout Akihabara.」%p
+#mes ──What do I do?%p
+#mes I should use my concealed Monad Snake、 right?%p
+#mes Use it、 and then time leap...?%p
+#mes But Mayuri hasn't been killed yet.%p
+#mes There's a possibility she might not be killed in this world line──%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes2v RNA_0014,NO_CHARACTER,VID_ETC,＠Attacker　A＠「You there.」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2SX_OFS,(440-$W(SW_BG2SX)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),440
+#assign $W(SW_BG2SX_OFS),0
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM08
+#mes The crew cut man points his gun at me.%p
+#mes My heartbeat jumps up. I gush a cold sweat for an instant.%p
+#mes2v RNA_0015,NO_CHARACTER,VID_ETC,＠Attacker　A＠「I thought I told you to raise both hands.」%p
+#mes I only raised my left.%p
+#mes2v RNA_0016,NO_CHARACTER,VID_ETC,＠Attacker　A＠「What are you hiding...!」%p
+#mes I have to use it...!%p
+#mes Don't count on wishful thinking.%p
+#mes2v OKA_3429,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「!!」%p
+#mes I prepare myself and switch on Monad Snake.%p
+#messWindowCloseWait
+#playSE 0,SGSE055
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG059
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#mes My vision turns white.%p
+#mes I can't see anything.%p
+#mes I can't tell anything.%p
+#mes The Rounders shouldn't be able to focus their aim in this condition.%p
+#mes I have to time leap while it lasts...!%p
+#mes Pulling Mayuri's hand、 I fumble over to the development room.%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MOE_0285,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Shoot.」%p
+#playSE 1,SGSE059L,true
+#mes I hear the sound of a randomly fired gun behind me──%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#mes2v MAY_1067,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「augh──！」%p
+#mes Suddenly、 Mayuri's arm got heavy.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK03
+#assign $W(SW_BG3MASKFADERANGE),128
+#assign $W(SW_BG3FADECT),(BGFADECT_MASK_BASE+$W(SW_BG2MASKFADERANGE))
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG3_FadeInTIM
+#call macrosys,CharaClrAll
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE062
+#mes I trip forward.%p
+#mes I fall on my face.%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_3430,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayu──」%p
+#mes Our hands get separated.%p
+#mes I grope around to look for Mayuri.%p
+#mes I soon touch her slender hand.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM24
+#mes2v MAY_1068,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「O...kari...」%p
+#mes Mayuri's feeble whisper reaches my ears.%p
+#mes Did she get hit...!?%p
+#mes The Rounder's random shot coincidentally hit Mayuri、 in this poor visibility!?%p
+#mes2v MAY_1069,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It... hurts...」%p
+#mes Mayuri's voice quickly shrinks.%p
+#mes Strength leaves her grasp.%p
+#mes2v OKA_3431,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayuri! Hey、 hang in there!」%p
+#mes No matter how much I yell、 Mayuri won't answer.%p
+#mes The faint sound of breathing. Awfully shallow.%p
+#mes ──Sorry.%p
+#mes Once again、 I couldn't save you.%p
+#mes Even though I thought I had.%p
+#mes Nothing changed.%p
+#mes I grind my teeth.%p
+#messWindowCloseWait
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK03
+#assign $W(SW_BG3MASKFADERANGE),128
+#assign $W(SW_BG3FADECT),(BGFADECT_MASK_BASE+$W(SW_BG2MASKFADERANGE))
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG3_FadeOutTIM
+#playSE 1,SGSE059L,true
+#mes2v CRS_2048,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Stop it、 stop it!」%p
+#mes2v DAR_1056,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Heeee、 don't shoot me、 bro!」%p
+#mes I hear Kurisu and Daru's screams.%p
+#mes Guns are being fired at random.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 1
+#call macrosys,FadeOutWhiteFAST
+#call macrosys,InitGraph
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_CHI
+#setFlag SF_BG3DISP
+#playSE 0,SGSE093
+#assign $W(SW_MASK2ALPHA),64
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_CHI
+#call macrosys,FadeInFAST
+#mes2v OKA_3432,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Guh...!」%p
+#mes A tremendous pain runs through the top of my head.%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02N1
+#setFlag SF_BG1DISP
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes When I press it down with my hand、 I feel something slippery.%p
+#mes A large amount of blood is flowing out.%p
+#mes2v OKA_3433,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 aahhh...」%p
+#mes It hurts. Hurtshurtshurts...!%p
+#mes It feels like my head is being whittled down with a saw.%p
+#mes My ears start ringing.%p
+#mes My body's lurching over. I can't stand up straight.%p
+#mes Time leap... quick....%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_CHI
+#assign $W(SW_BG3PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,BG3_FadeInTIM
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_CHI
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BG1
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG3MASKNO),MASK18
+#assign $W(SW_BG3MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,BG3_FadeOutTIM
+#mes I grip Mayuri's limp hand one last time、 crawl to the development room、 barely find the headgear、 and put it on.%p
+#mes I point the remote to the hole and press the switch.%p
+#mes The TV downstairs turns on、 and I hear the performers laughing from within.%p
+#mes2v RNA_0017,NO_CHARACTER,VID_ETC,＠Attacker　A＠「Target A and Target C secured.」%p
+#mes2v CRS_2049,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe! Run away! Run away!」%p
+#mes Shit...!%p
+#mes I clench my fists in frustration.%p
+#mes The Time Leap Machine is already activated.%p
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 1,SGSE035L,true
+#mes The discharge phenomenon is already starting──%p
+#mes My feet shake intensely.%p
+#playSE 0,SGSE067
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#mes Once again、 I──%p
+#mes Travel to the past──%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#playSE 0,SGSE053L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#call macrosys,FadeOutSLOW
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#wait 16
+#call macrosys,FadeInSLOW
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG07_04
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG07_04
+#resetFlag SF_SYSTEMCHIP_HIDE
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes2v OKA_3434,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「──」%p
+#mes The world collapses. Then quickly rebounds back to normal.%p
+#mes I endure the numbness in my brain stem and eyes.%p
+#mes The pain in my parietal region disappeared as if it were a lie.%p
+#mes I wipe the sweat off of my brow and look around.%p
+#mes I couldn't see any more of Monad Snake's vapor.%p
+#mes The air was very clear.%p
+#mes Kurisu's reading a western book like usual.%p
+#mes Mayuri's playing a handheld game while eating a banana.%p
+#mes Daru's not there. Now that I think about it、 he did say he was going out somewhere from noon to dusk today.%p
+#mes2v OKA_3435,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mayu──」%p
+#mes I quickly swallow my words.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1070,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What's wrong-? Okarin、 you wanna banana too?」%p
+#mes When I wave my hand no、 Mayuri tilts her head and then looks back at her game.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02AS1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I sink into the sofa and close my eyes.%p
+#mes I feel like screaming in regret、 but desperately hold back.%p
+#mes ...Even when I sacrificed our memories with Suzuha to change the world line、 nothing changed.%p
+#mes Let's think.%p
+#mes The Divergence Meter shows about 0.4%.%p
+#mes Let's think about how to get that above 1%.%p
+#mes No、 if I just worry about this by myself、 things will turn out the same way.%p
+#mes I'll consult Kurisu like last time.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v OKA_3436,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Kurisu、 come with me a sec.」%p
+#mes I lead her out of the lab.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

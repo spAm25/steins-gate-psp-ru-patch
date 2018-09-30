@@ -1,0 +1,1271 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0814
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE034L,true
+#call macrosys,FadeInSLOW
+#setFlag SF_PhoneSD_Disp
+#mes I hear the tweeting of small birds outside the window.%p
+#mes It's nice that it's cool early in the morning、 even though it's the middle of summer.%p
+#mes Though the crickets are already chirping.%p
+#mes The sunlight isn't too strong yet.%p
+#mes Since I kept thinking about Lukako、 I couldn't get a wink of sleep....%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),360
+#assign $W(SW_BG2SY),180
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT2
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5FACE),Face_MAY_B04
+#call macrosys,CharaSet51
+#playSE 0,SGSE024
+#call macrosys,SEwaitHalf
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,THREAD_MUSU
+#mes2v MAY_1087,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin-? Ah、 there he is-」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes Mayuri enters the door with a sour look on her lips.%p
+#mes She didn't say her tutturu- catchprhase today. She looks unusually pouty.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_B04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v OKA_3913,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're early. It's still 8. Something going on today?」%p
+#mes2v MAY_1088,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I came to scold you、 Okarin-」%p
+#mes She says so、 but there's no real strength to it.%p
+#mes She's been bad at getting angry since the old days.%p
+#mes2v MAY_1089,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 Mayushii's disappointed in you、 Okarin.」%p
+#mes Mayuri points at me with puffed cheeks.%p
+#mes2v OKA_3914,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C03
+#call macrosys,CharaDisp51
+#mes2v MAY_1090,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Don't play dumb. Okarin、 you made Luka-chan cry、 didn't you-?」%p
+#mes2v OKA_3915,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「H-how did you...」%p
+#mes2v MAY_1091,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Luka-chan consulted me. She said you said she was a guy.」%p
+#mes2v OKA_3916,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mmm...」%p
+#mes I see. Luka and Mayuri are good friends.%p
+#mes If Lukako cries、 then there's nowhere she can go except to Mayuri.%p
+#mes I should've thought about that...!%p
+#mes2v MAY_1092,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 why did you say such a mean thing?」%p
+#mes2v OKA_3917,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「M-Mayuri、 it doesn't involve you. It's a serious、 confidential matter involving the 'Organization'──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B04
+#call macrosys,CharaDisp51
+#mes2v MAY_1093,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「It does so involve me. Luka-chan is Mayushii's friend、 you know.」%p
+#mes2v MAY_1094,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「If you won't talk、 then Mayushii and Okarin are breaking off、 okay? 'Cause I'll quit being a lab mem.」%p
+#mes This is the first time Mayuri's been so angry.%p
+#mes To be honest、 I was bewildered.%p
+#mes2v MAY_1095,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hey、hey、 why did you say such a mean thing-?」%p
+#mes It was necessary to save you──%p
+#mes I didn't say it.%p
+#mes I don't want Mayuri to know my motives.%p
+#mes I don't want to give this optimistic girl the verdict You will die in a few days.%p
+#mes So、 did I fail yesterday when I told Lukako that Mayuri would get killed...?%p
+#mes I was temporarily lost for words.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_1096,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...you're worried about something、 aren't you?」%p
+#mes2v OKA_3918,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Even though she doesn't seem to be thinking anything、 she's still sharp....%p
+#mes2v MAY_1097,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I can tell-. I mean、 Mayushii sees Okarin every day、 after all...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1098,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And yesterday、 you were talking with Chris-chan for a loong time、 weren't you?」%p
+#mes2v OKA_3919,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「………」%p
+#mes2v MAY_1099,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「If you're worried about something、 you can ask Mayushii too、 okay-?」%p
+#mes2v OKA_3920,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_1100,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I want you to talk to Mayushii too.... Okay? So、 will you go apologize to Luka-chan? Will you go make up? Mayushii will come too、 if you want...」%p
+#mes2v OKA_3921,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hehehe...hehehehehe、 fuhahahaha!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5FACE),Face_MAY_B01
+#call macrosys,CharaDisp51
+#mes2v MAY_1101,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「O-Okarin?」%p
+#mes2v OKA_3922,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Come now、 Mayuri. Me、 worry? Go away and boil your head.」%p
+#mes2v OKA_3923,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I am the insane mad scientist、 Hououin Kyouma、 you know? I have nothing to worry about!」%p
+#mes2v OKA_3924,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「All I do have... is the craving、 the ambition for chaos! Fuhahahaha!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_1102,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin...」%p
+#mes It's not something Mayuri should know、 by any means.%p
+#mes Even if Mayuri hates me for it.%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#assign $W(LR_TARGET_MAILNO),FM_From_RUK0801
+#call macrosys2,RECEIVE_NEW_MAIL
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_RUK0801
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes Something important? What?%p
+#mes I told her everything yesterday.%p
+#mes Including Mayuri's death.%p
+#mes Maybe she calmly thought about it all night、 and decided to believe in what I had to say.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes2v OKA_3925,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Alright...」%p
+#mes I get up from the sofa.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_1103,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Where are you going-? Mayushii's not done talking...」%p
+#mes2v OKA_3926,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm going to Lukako's place now.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_1104,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Really? You're going to apologize? Then let Mayushii──」%p
+#mes2v OKA_3927,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 you'll cause all sorts of problems if you come.」%p
+#mes I put my hand on Mayuri's shoulder、 warning her.%p
+#mes2v OKA_3928,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So please、 watch over the lab.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes Mayuri looks somehow lonely as she drops her shoulders.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15A1
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#mes When I run into the shrine grounds、 Lukako was standing there alone、 not in her usual miko garb、 but in plainclothes.%p
+#mes She still hasn't noticed me.%p
+#mes Lukako stood still、 in the still shrine grounds、 the only movement being the silhouettes of the trees swaying in the summer sun. A scene straight from a fairy tale.%p
+#mes I stop and watch in fascination.%p
+#mes And then、 Lukako turns around.%p
+#messWindowCloseWait
+#setEVFlag 69
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R05C
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call macrosys,CharaClrAll
+#mes Our eyes meet.%p
+#mes2v OKA_3929,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Mmhmm.」%p
+#mes I unnaturally clear my throat and walk towards him-- no、 towards her.%p
+#mes Lukako bows her head.%p
+#mes2v RUK_0262,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So you came...」%p
+#mes2v RUK_0263,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Thank you.」%p
+#mes We look at each other in the still grounds.%p
+#mes Ah crap. It got awkward somehow.%p
+#mes I can't stand this silence. So I start up the conversation.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM13
+#mes2v OKA_3930,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What did you talk to Mayuri about?」%p
+#messWindowCloseWait
+#setEVFlag 67
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v RUK_0264,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...So-sorry. But I couldn't talk about this to anyone but Mayuri-chan.」%p
+#mes2v OKA_3931,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I mean、 how much did you tell her?」%p
+#mes2v RUK_0265,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I kept、 most of it a secret. Including the stuff about Mayuri-chan's death...」%p
+#mes Hearing that's a relief.%p
+#mes2v OKA_3932,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you still think I'm joking?」%p
+#mes Lukako shakes her head side to side.%p
+#mes Meaning、 she believes me?%p
+#mes2v OKA_3933,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Umm、 what could you mean by something impurrtant to talk about、 nya?」%p
+#mes I tried to use a gentle tone of voice、 but ended up talking like Faris instead.%p
+#mes I really can't deal with Lukako now that she's a girl after all.%p
+#messWindowCloseWait
+#setEVFlag 69
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R05C
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v RUK_0266,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Um」%p
+#mes Lukako takes a deep breath as if to prepare herself.%p
+#mes Her face is randomly turning red.%p
+#mes She opens her mouth to speak、 but stops. Over and over again.%p
+#mes Lukako's abnormally tense.%p
+#mes That tension infects me、 and my heart starts pounding like an alarm bell.%p
+#mes2v RUK_0267,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I、 I...」%p
+#mes2v OKA_3934,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Y-yes?」%p
+#mes2v RUK_0268,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...want to ask...」%p
+#mes2v OKA_3935,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mmm...」%p
+#mes2v RUK_0269,NO_LIPANM_RUK,VID_RUK,＠Luka＠「…………」%p
+#mes2v RUK_0270,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-san... what you said yesterday...」%p
+#mes2v OKA_3936,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah.」%p
+#mes2v RUK_0271,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I... believe it...」%p
+#mes2v OKA_3937,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I、 I see!」%p
+#mes So basically、 that means she'll go back to being a guy.%p
+#mes Even though I had hurt her feelings.%p
+#mes For her to believe me in spite of that、 makes me honestly happy.%p
+#messWindowCloseWait
+#setEVFlag 68
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes But something's strange about Lukako. Her tension shows no sign of loosing.%p
+#mes Rather、 it's leveled up to a half-crying state.%p
+#mes2v RUK_0272,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...so、 well...」%p
+#mes2v RUK_0273,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「In exchange... for becoming a guy again...」%p
+#mes Exchange? She wants something in return?%p
+#mes I never expected Lukako to make such a proposal.%p
+#mes2v RUK_0274,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Today... and tomorrow...」%p
+#mes2v RUK_0275,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「It's okay... if it's only for before Mayuri-chan gets in danger、 so...」%p
+#mes What? What's she talking about?%p
+#mes My throat goes dry.%p
+#mes I'm so tense I don't understand why.%p
+#mes2v RUK_0276,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...so...」%p
+#mes2v RUK_0277,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Please be my...」%p
+#mes2v OKA_3938,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Hm? I couldn't quite hear you. One more time please.」%p
+#mes Lukako's voice was more delicate than ever.%p
+#mes So much that I couldn't hear it from here.%p
+#mes2v RUK_0278,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Please be my l...er」%p
+#mes No good、 I still can't hear.%p
+#mes2v OKA_3939,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Please say it clearly. 'Cause I'll do anything I can.」%p
+#mes2v RUK_0279,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Lo...er...」%p
+#mes2v OKA_3940,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What?」%p
+#messWindowCloseWait
+#setEVFlag 67
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes2v RUK_0280,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「P-please be my l-lover...!」%p
+#mes ... ... ....%p
+#mes What、 was that?%p
+#mes L o v e r.%p
+#mes The word takes severe detours through my brain.%p
+#mes It doesn't register immediately.%p
+#mes Or rather、 my brain isn't working.%p
+#mes Lukako melted it completely.%p
+#mes She's fidgeting、 hanging her head as if she couldn't lift it.%p
+#mes Waves form in my heart.%p
+#mes The ripples won't settle easily.%p
+#mes Just now-- what did Lukako say?%p
+#mes What did she say to me?%p
+#mes L o v e r.%p
+#mes Lo ver.%p
+#mes Lover.%p
+#mes Lovers、 for just today and tomorrow?%p
+#mes Wha-wha-wha-what--!?%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM10
+#mes2v OKA_3941,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wh、 why...?」%p
+#mes Without thinking、 I asked the worst question possible.%p
+#messWindowCloseWait
+#setEVFlag 68
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R05B
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes Lukako shrinks more and more──%p
+#mes2v RUK_0281,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「cause...」%p
+#mes2v RUK_0282,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Because... I love you.」%p
+#mes ...Those words were as small as the buzzing of a mosquito、 but had all the courage she could muster.%p
+#mes Unconsciously、 my chest felt like it tightened.%p
+#mes2v RUK_0283,NO_LIPANM_RUK,VID_RUK,＠Luka＠「…………」%p
+#mes2v OKA_3942,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Silence.%p
+#mes2v RUK_0284,NO_LIPANM_RUK,VID_RUK,＠Luka＠「…………」%p
+#mes2v OKA_3943,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes More silence.%p
+#mes W-wait just a second.%p
+#mes If you say this so suddenly...%p
+#mes No、 it wasn't sudden.%p
+#mes At the very least、 I noticed Lukako's feelings when Kurisu told me about that flag.%p
+#mes Even so、 I didn't think it would come to this....%p
+#mes My mind goes blank.%p
+#mes I can't think straight.%p
+#mes2v RUK_0285,NO_LIPANM_RUK,VID_RUK,＠Luka＠「…………」%p
+#mes Lukako hangs her head、 waiting for my answer.%p
+#mes Seeing her brave、 innocent figure、 I feel Lukako's loveliness──%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CLA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Nonono!%p
+#mes Bad!%p
+#mes It’s Bad!%p
+#mes Feeling her loveliness is NO GOOD!%p
+#mes2v OKA_3944,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「L-let me think about it! Give me two、 no、 five minutes!」%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG4MASKNO),MASK18
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG4_FadeInTIM
+#call macrosys,CharaClrAll
+#mes I turn around as I scream that and break off at full speed.%p
+#mes I'm so ashamed、 I can't look back.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes After more than five minutes、 almost ten、 I get back to the lab. Mayuri's eating anman.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1105,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 Okarin. How'd it go-?」%p
+#mes2v MAY_1106,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Did you make sure to apologize to Luka-chan?」%p
+#mes2v OKA_3945,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Uh、 yeah. So put the Juicy Karaage Number One in the microwave and nuke it so that the D-mail's basically ABC and...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMC
+#assign $W(SW_CHA5FACE),Face_MAY_C01
+#call macrosys,CharaDisp51
+#mes2v MAY_1107,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Huwha?」%p
+#setDic 130
+#setDic 182
+#mes2v OKA_3946,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The microwave oven works as the “knights” who inherited the ideals of the &cTIPSC;Rosicruician Order&cMESC; by producing &cTIPSC;alchemy&cMESC;. The sound of the chime is the brainwashing device but the chime itself actually doesn’t have any meaning at all……」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes2v MAY_1108,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Waaah、 Okarin's broken-...」%p
+#mes While muttering incoherently、 I set up the Time Leap Machine.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5FACE),Face_MAY_B02
+#call macrosys,CharaDisp51
+#mes2v MAY_1109,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What are you doing-?」%p
+#mes2v OKA_3947,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ju-just a temporary strategic withdrawal.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMB
+#assign $W(SW_CHA5FACE),Face_MAY_B03
+#call macrosys,CharaDisp51
+#mes2v MAY_1110,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Strategic...?」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,CharaClrAll
+#mes When do I jump to?%p
+#mes Just as far as I can. Yeah、 that's it.%p
+#mes Yeah、 far.%p
+#setFlag SF_Phone_AutoDisable
+#mes I jump to the time leap limit of August 11th.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_PhoneSD_Disp
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 0,SGSE035L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#playSE 1,SGSE053L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#playSE 1,SGSE054
+#call macrosys,SEwaitHalf
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#wait 16
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,FadeInSLOW
+#assign $W(LR_TMP00),TimeLeap_SG08_06
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG08_06
+#assign $W(LR_DATE),0811
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes With two rounds、 I jump 68 hours back.%p
+#mes When I'm done、 Kurisu is standing before me.%p
+#mes She's tampering with the wiring on the Microwave Ophone (Temp).%p
+#mes2v CRS_2176,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You distract、 so don't look this way. How many times do I have to tell you?」%p
+#mes She says so without looking at me.%p
+#mes I see、 she's still working on the Time Leap Machine improvements.%p
+#mes I know it's bad to interrupt that、 but there's nobody else I can rely on.%p
+#mes2v OKA_3948,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Genius neuroscientist、 I need to talk to you.」%p
+#mes2v CRS_2177,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Make it brief.」%p
+#mes2v OKA_3949,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I want you to come with me to Yanabayashi Shrine.」%p
+#mes2v CRS_2178,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Tell me why. If it's a date or something、 then I refuse.」%p
+#mes2v OKA_3950,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「L-like I'd do something weak like go on a date. Much less with you、 Assistant. Please joke in moderation.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2179,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes She's glaring like she's gonna kill me.%p
+#mes Let's leave the jokes for now....%p
+#mes2v OKA_3951,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 basically、 tell me the differences between the male brain and the female brain.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_2180,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't get you.」%p
+#mes I briefly explain what happened with Lukako.%p
+#mes And the current situation.%p
+#mes How many times have I explained this to Kurisu now....%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_CRS_A01
+#call macrosys,CharaSetW5162
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM14
+#mes2v RUK_0286,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ah、 Okabe-san... and、 Makise-san. Did you come to worship today?」%p
+#mes Lukako、 seeing me and Kurisu、 loses her focus as she says so.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMC
+#assign $W(SW_CHA6FACE),Face_CRS_C01
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_2181,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh、 mmhmm. Actually、 we have something to talk to you about、 Urushibara-san.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes This is the strategy I thought up. Its name: Operation Christina.%p
+#mes Lukako judges at me with biased eyes.%p
+#mes She's already experienced an emotional reaction when I told her You are a guy.%p
+#mes And so、 since she's not too familiar with Kurisu、 and since they're both the same sex、 it should be easier Kurisu to force-- I mean、 persuade her to tell us her the whole truth.%p
+#mes So I wait behind Kurisu and watch silently.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes2v RUK_0287,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「What could it be?」%p
+#mes Lukako is shy. He was distant with me too back when we first met.%p
+#mes I can see she's made a small wall between Kurisu and herself now too.%p
+#mes On the other hand、 Kurisu's very calm. She truly is reliable.%p
+#mes Kurisu puts on a gentle smile and begins explaining to Lukako.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMB
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#call macrosys,CharaDisp62
+#mes2v CRS_2182,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Male and female brains work completely differently. Did you know?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0288,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「What...?」%p
+#mes Hey、 hey....%p
+#mes2v CRS_2183,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Males use their right brains more. Females use their left brains more.」%p
+#mes2v RUK_0289,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 eh...?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMB
+#assign $W(SW_CHA6FACE),Face_CRS_B02
+#call macrosys,CharaDisp62
+#mes2v CRS_2184,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By the way、 the right brain handles image processing、 spacial processing、 and comprehensive judgment. The left brain handles language and calculation.」%p
+#mes2v CRS_2185,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The right and left brains are connected by the corpus callosum、 but it's more developed in females.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMB
+#assign $W(SW_CHA6FACE),Face_CRS_B06
+#call macrosys,CharaDisp62
+#mes2v CRS_2186,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Lots of people say it、 don't they? That females can do more than two things at once. That can be explained by the development of the corpus callosum.」%p
+#mes2v RUK_0290,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「uh... what...?」%p
+#mes Just what is she talking about....%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMA
+#assign $W(SW_CHA6FACE),Face_CRS_A01
+#call macrosys,CharaDisp62
+#mes2v CRS_2187,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Well、 which one's which is almost like scientific myth、 though. Its credibility really isn't that high.」%p
+#mes2v CRS_2188,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But how about we try it out just a little?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0291,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Try、 what out?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMA
+#assign $W(SW_CHA6FACE),Face_CRS_A02
+#call macrosys,CharaDisp62
+#mes2v CRS_2189,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I want to try mapping out your brain patterns to see if they match a female's or a male's patterns.」%p
+#mes2v RUK_0292,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「What is mapping...?」%p
+#mes Lukako is clearly frightened.%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_AMA
+#assign $W(SW_CHA7PRI),$W(SW_CHA6PRI)
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7FACE),Face_CRS_A01
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMA
+#assign $W(SW_CHA6FACE),Face_CRS_A06
+#call macrosys,CharaDisp72
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_02
+#mes2v CRS_2190,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Brainwave mapping. We just take a sample of your brainwaves. Anyway、 you'll understand if you try it. Okay? Okay? It won't hurt a bit.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v RUK_0293,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「N-no thanks...」%p
+#mes2v CRS_2191,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It'll be okay、 I promise. I guarantee it、 so come on、 come on...」%p
+#mes2v OKA_3952,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What kind of perverted old man are you!?」%p
+#mes I lightly chop Kurisu on the head.%p
+#messWindowCloseWait
+#playSE 0,SGSE051
+#call macrosys,Qua2CHA2
+#call macrosys,SEwaitHalf
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMA
+#assign $W(SW_CHA6FACE),Face_CRS_A07
+#call macrosys,CharaDisp62
+#mes2v CRS_2192,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Fwahn! ...Wh、 what?」%p
+#mes2v OKA_3953,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't you what me! What did we come here for!? What are you going to do if you scare Lukako!?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_AMB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#mes2v CRS_2193,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm just treating her like a valuable test sub──」%p
+#mes2v OKA_3954,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Go home、 you experiment-loving-girl!」%p
+#mes2v CRS_2194,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Yeah、 okay. So that's the thanks I get for going out of my way to help you. I'll just go home like you said. You're on your own now.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes While mumbling complaints、 Kurisu leaves the shrine with squared shoulders.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0294,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-san、 um、 what was Makise-san talking about...?」%p
+#mes2v OKA_3955,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well、 basically、 uhh...」%p
+#mes D-do I have to explain everything again in the end...?%p
+#setFlag SF_Phone_AutoDisable
+#mes2v OKA_3956,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You、 you're actually a guy.」%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes The result was the same、 without even having to think about it.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE034L,true
+#assign $W(LR_DATE),0812
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes I hear the tweeting of small birds outside the window.%p
+#mes It's morning now.%p
+#mes It's nice that it's cool early in the morning、 even though it's the middle of summer.%p
+#mes Though the crickets are already chirping.%p
+#mes The sunlight isn't too strong yet.%p
+#mes This morning sky、 and this changing of the calendar. I've already seen them before....%p
+#mes At least、 my mental state is exactly the same.%p
+#mes Outside the door、 the sound of someone vigorously ascending the stairs resounds.%p
+#mes I thought it was Moeka and got up in a hurry、 but then I suddenly realized.%p
+#mes The one who appears so hurriedly in this situation isn't Moeka──%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),360
+#assign $W(SW_BG2SY),180
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT2
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5FACE),Face_MAY_B04
+#call macrosys,CharaSet51
+#playSE 0,SGSE024
+#call macrosys,SEwaitHalf
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,THREAD_MUSU
+#mes2v MAY_1087,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin-? Ah、 there he is-」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes Mayuri enters with a sour look on her lips.%p
+#mes By all rights、 Mayuri should have stayed in the lab today、 but last night she got a call from someone and left in a hurry.%p
+#mes ...She probably went to go meet Lukako.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_B04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v MAY_1112,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 Mayushii's disappointed in you、 Okarin.」%p
+#mes Mayuri points at me with puffed cheeks.%p
+#mes So that was it after all... I sigh in frustration.%p
+#mes Before I time leaped、 I heard Mayuri say these words on the 14th.%p
+#mes Today is the 12th. In any case、 since I explained the situation to Lukako yesterday、 it looks like Mayuri's protest came early too.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMC
+#assign $W(SW_CHA5FACE),Face_MAY_C03
+#call macrosys,CharaDisp51
+#mes2v MAY_1113,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 you made Luka-chan cry、 didn't you-?」%p
+#mes2v MAY_1114,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Luka-chan consulted me. She said you said she was a guy.」%p
+#mes2v MAY_1115,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 why did you say such a mean thing?」%p
+#mes2v OKA_3957,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I'm going to meet her now、 so don't worry.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_1116,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh? Really-? Thank goodness. If Okarin said he wasn't going to apologize、 the Mayushii was going to break her relationship with Okarin-」%p
+#mes The mail should come soon.%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#assign $W(LR_TARGET_MAILNO),FM_From_RUK0802
+#call macrosys2,RECEIVE_NEW_MAIL
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_RUK0802
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 60
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes It did come after all....%p
+#mes If I go to Yanabayashi Shrine now、 what's waiting for me there is that confession scene.%p
+#messWindowCloseWait
+#call macrosys2,SEAL_PHONE_WINDOW
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#setEVFlag 67
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_R05A
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInFAST
+#mes2v RUK_0295,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「P-please be my l-lover...!」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes But this time、 I thought ahead.%p
+#mes2v OKA_3958,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina! Christina!」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A2
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#call macrosys,CharaClrAll
+#mes When I start yelling at the development room in a loud voice、 I start to hear the sounds of someone moving inside.%p
+#mes2v MAY_1117,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Chris-chan's sleeping、 you know-? She worked all night、 so you shouldn't wake her-」%p
+#mes I know、 but I have to do this.%p
+#mes2v OKA_3959,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina! Please wake up!」%p
+#mes2v CRS_2195,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Oh、 shut up.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#playSE 0,SGSE110
+#call macrosys,SEwaitHalf
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT2
+#assign $W(SW_CHA5ALPHA),0
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaSet51
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,THREAD_MUSU
+#mes Kurisu comes out of the development room with sleepy eyes.%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v MAY_1118,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Chris-chan、 tutturu-♪」%p
+#mes2v CRS_2196,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes Last night、 she fell asleep at the desk after working so long、 so the sleeves of her clothes left a mark on her cheek.%p
+#mes Her hair is frayed and her eyes are red.%p
+#mes She rubs her eyes.%p
+#mes2v CRS_2197,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What is it?」%p
+#mes2v OKA_3960,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm gonna go to Yanabayashi Shrine. Come with me.」%p
+#mes2v OKA_3961,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's "Operation Christina II".」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#setEVFlag 68
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_R05B
+#setFlag SF_BG2DISP
+#call macrosys,FadeInSLOW
+#mes2v RUK_0296,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Until... the 15th...」%p
+#mes2v RUK_0297,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「It's okay... if it's only for before Mayuri-chan gets in danger、 so...」%p
+#mes2v RUK_0298,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...so...」%p
+#mes2v RUK_0299,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Please be my...」%p
+#mes2v OKA_3962,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v RUK_0300,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Please be my l...er」%p
+#mes2v OKA_3963,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v RUK_0301,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Lo...er...」%p
+#mes2v OKA_3964,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#messWindowCloseWait
+#setEVFlag 67
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R05A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v RUK_0302,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「P-please be my l-lover...!」%p
+#mes2v OKA_3965,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes It's the same after all、 huh....%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM13
+#mes And since it's until the 15th、 that means it's now 4 days including today.%p
+#mes Before I time leaped、 she said for just today and tomorrow、 but now the time's doubled.%p
+#mes She came out with something delicate and bold.%p
+#mes But that's that. Better safe than sorry.%p
+#mes Now's the time to set "Operation Christina II" into motion.%p
+#mes Things got complicated when I had that experiment-loving-girl add to the conversation.%p
+#mes I forcibly persuaded Kurisu to help against her will、 but this time I had her watch things from up above on the highway.%p
+#mes2v OKA_3966,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「S-sorry. P-please wait a bit.」%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15A1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_PhID),PhID_CRS
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#call macrosys2,PHONE_ADRSUBMENU_CALL
+#wait 1
+#mwait 30
+#call macrosys2,START_PHONE_CALL
+#mes I turn my back to Lukako and call Kurisu.%p
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#setDic 177
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2198,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Sup、&c5;normalfag&c40;?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3967,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You don't understand people's feelings either. Who's a normalfag?」%p
+#mes2v OKA_3968,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Did you listen to what Lukako said just now?」%p
+#call macrosys,SetPhoneWindow
+#setDic 9
+#mes2v CRS_2199,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「&c5;tl;dl&c40;」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3969,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You didn't listen!?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2200,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「There's no way I can hear from this far away.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3970,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Confession. Until the 15th. Then turn back into a guy.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2201,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「I get it.」%p
+#mes2v CRS_2202,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Hmm、 so、 why did you consult me for every little thing? You should just grant Urushibara-san's wish.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3971,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Bu-but it's Lukako!」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2203,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「What's wrong with her? I mean、 look how cute she is.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3972,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But he's a──」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2204,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Her originally being a guy might just be your deluision.」%p
+#mes2v CRS_2205,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「The way I see it、 she's always been a 'she'.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3973,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Guh...」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_2206,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Just give up. Bye.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_3974,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 wai──」%p
+#playSE 0,SGSE161
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#mes She hung up.%p
+#mes2v OKA_3975,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mm、 mmmm... why did I even bring her along...」%p
+#mes Such a useless assistant!%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes I stuff my phone into my pocket and head towards Lukako.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM10
+#mes2v RUK_0303,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um... were you on the phone... with Makise-san?」%p
+#mes2v OKA_3976,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hm? Ah、 yeah...」%p
+#mes2v RUK_0304,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Is that so...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0305,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-san、 it kinda seemed... like it was a really fun conversation、 huh.」%p
+#mes2v OKA_3977,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「H-how...」%p
+#mes Is this pressure? Is she applying psychological pressure!?%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0306,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So、 well...」%p
+#mes Lukako fidgets restlessly.%p
+#mes2v RUK_0307,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Your... answer...」%p
+#messWindowCloseWait
+#add $W(SW_CHA2PRI),PRI2_BG
+#add $W(SW_CHA6PRI),PRI2_BG
+#add $W(SW_CHA3PRI),PRI2_BG
+#add $W(SW_CHA7PRI),PRI2_BG
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#mes Please be my lover%p
+#mes A limited time trial relationship of only four days.%p
+#mes Will those four days feel long、 or short?%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_CMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6ALPHA),128
+#assign $W(SW_CHA6FACE),Face_RUK_A01
+#call macrosys,CharaDisp62
+#mes Lukako certainly does have cute facial features.%p
+#mes She has the image of very slender hands and a slender waist.%p
+#mes Her skin is transparent white like alabaster.%p
+#mes Honestly speaking、 I've been fascinated several times by Lukako's demeanor even back when he was a guy.%p
+#mes The current Lukako is biologically a girl、 so even if we go out and do this and that、 there really shouldn't be a problem.%p
+#mes But──%p
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,RUK_AMB
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7ALPHA),128
+#assign $W(SW_CHA7FACE),Face_RUK_B05
+#call macrosys,CharaDisp73
+#mes At the same time、 I'm on a mission to change Lukako back into a guy.%p
+#mes If I don't、 I can't save Mayuri.%p
+#mes Basically、 if I go out with the girl Lukako、 and fall in love with her.%p
+#mes In the end、 will I be able to see the guy Lukako as a guy?%p
+#mes If I can't and then lose self control、 what waits for me is──%p
+#messWindowCloseWait
+#call macrosys,CharaEraseW23
+#mes Uho!%p
+#mes There's no problem going out with the current Lukako.%p
+#mes Of course、 my heart's not sorted out、 but cute is justice、 so who really cares?%p
+#mes The source of my hesitation is thinking what comes after that.%p
+#mes The problem isn't Lukako、 but my own heart.%p
+#mes And what I should be doing now isn't romance、 but saving Mayuri.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_CLA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6ALPHA),128
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#call macrosys,CharaDisp62
+#mes But Lukako's cooperation is essential to save Mayuri.%p
+#mes If I refuse here and make Lukako cry、 nothing will change.%p
+#mes I need to ignore the problems in my heart for the sake of my goal.%p
+#mes Let's accept.%p
+#mes Let's accept Lukako's deal.%p
+#mes But before that、 there's one thing I need to convince myself deep down.%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes ...I must not fall in love with Lukako.%p
+#mes Even if my way of thinking tramples over her feelings.%p
+#mes I must still not fall in love.%p
+#mes If I fall in love、 I might end up walking down forbidden roads.%p
+#mes Lukako is a guy. A guy. A guy a guy a guy.%p
+#mes GuyGuyGuyGuyGuyGuyGuyGuyGuyGuyGuyGuyGuyGuyGuy....%p
+#mes And don't you forget it.%p
+#mes As long as you never forget──%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP10,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP10))
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#mes2v OKA_3978,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...why not?」%p
+#mes2v RUK_0308,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh...?」%p
+#mes2v OKA_3979,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll go out with you. But just until the 15th.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0309,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ah...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A04
+#call macrosys,CharaDisp51
+#mes Soon、 tears start spilling out of Lukako's eyes.%p
+#mes2v OKA_3980,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wh、 why are you crying!?」%p
+#mes2v RUK_0310,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ugh... sniff... I'm、 h-happy...」%p
+#mes2v RUK_0311,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I was sure、 that you'd say no...」%p
+#mes2v RUK_0312,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Thank goodness.... thank goodness.... sniff...」%p
+#mes Her face flushes red、 wet with tears、 yet she's really happy. Though she's a bit shy and embarrassed、 seeing Lukako's bravery makes me──%p
+#playSE 0,SGSE063
+#mes2v OKA_3981,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes Crap...! I hnnged again...!%p
+#mes I mustn't fall in love、 but I'm about to!%p
+#mes Why does every single one of her actions tickle my male instincts!?%p
+#mes She must be doing it on purpose!  There's no mistaking it! There's just no other way!%p
+#mes Lukako's cuteness is a terror of the universe.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0313,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Um、 Okabe-san」%p
+#mes2v OKA_3982,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wh-what!?」%p
+#mes Lukako timidly mutters while wiping her tears.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0314,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Well... tomorrow... a da...」%p
+#mes Da?%p
+#mes What does she mean by da?%p
+#mes2v RUK_0315,NO_LIPANM_RUK,VID_RUK,＠Luka＠「…………」%p
+#mes2v RUK_0316,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Please... take me... on a date.」%p
+#mes2v OKA_3983,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What...did you say...?」%p
+#mes A date...?%p
+#mes Certainly、 when two lovers go out somewhere together、 that's called a date.%p
+#mes It would really be a dick move if I refused to go on a date right after we started going out、 wouldn't it....%p
+#mes2v OKA_3984,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I don't mind going、 but where?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0317,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh...」%p
+#mes Doesn't look like she's decided.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMB
+#assign $W(SW_CHA5FACE),Face_RUK_B01
+#call macrosys,CharaDisp51
+#mes2v RUK_0318,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I want to go where you want to go、 Okabe-san...」%p
+#mes2v RUK_0319,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Umm、 basically、 I want to know the places you like、 Okabe-san...」%p
+#mes So basically、 she wants me to decide for her?%p
+#mes It's really unfair to have such a cute face that people will forgive anything you say.%p
+#mes I scratch my head in thought.%p
+#mes2v OKA_3985,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...then、 I'll think of some plans until tomorrow.」%p
+#mes Anyway、 I want to get away from this irritatingly sentimental alone time with her、 so that's what I answered.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM1500
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_CRS_02
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),(TIM7000+TIM300)
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end
+#label THREAD_MUSU
+#assign $T(THD_WORK17),48
+#assign $T(THD_WORK18),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $T(THD_WORK17),1
+#CalcMove SW_CHA1ALPHA_OFS,CH_ALP_MAX,$T(THD_WORK17),$T(THD_WORK18)
+#CalcAccel SW_CHA1POSX_OFS,(CHR_RIGHT0-$W(SW_CHA1POSX)),$T(THD_WORK17),$T(THD_WORK18)
+#commitAnimation
+#assign $W(SW_CHA1ALPHA),CH_ALP_MAX
+#assign $W(SW_CHA1ALPHA_OFS),0
+#assign $W(SW_CHA1POSX),CHR_RIGHT0
+#assign $W(SW_CHA1POSX_OFS),0
+#resetFlag LF_THD_EXEC
+#end

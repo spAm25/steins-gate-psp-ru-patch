@@ -1,0 +1,382 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG18A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG18A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes So、 the next day.%p
+#mes I'm strolling Akiba with Lukako.%p
+#mes2v RUK_0320,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So... where shall we go next?」%p
+#mes Event 1、 walk off the family restaurant food、 complete. I took care of the bill、 and we came out into the heat again.%p
+#mes I had the entire date planned out in my head.%p
+#mes What we should do next is──%p
+#mes2v OKA_4013,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How 'bout-- How about we stroll through town?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A05
+#call macrosys,CharaDisp51
+#mes2v RUK_0321,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 ah、 okay.」%p
+#mes Akiba was crowded. Naturally、 since it's Friday on Obon holiday.%p
+#mes I try to choose streets that are as empty as possible、 so naturally we end up just using back alleys.%p
+#mes I guess we'll meet our quota if we walk a round trip to Ueno.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I walk quickly.%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v RUK_0322,NO_LIPANM_RUK,VID_RUK,＠Luka＠「…………」%p
+#mes But the conversation doesn't continue at all.%p
+#mes I tried to follow the guide's advice and be a good listener、 but Lukako's silent like this by nature. She doesn't really start talking on her own.%p
+#mes So、 even at the family restaurant、 the words we exchanged were mostly just things like It's crowded today、 It's delicious、 and It was delicious.%p
+#mes And I think the choice to just wander around might have been a mistake.%p
+#mes Especially since we ended up in a residential area with no interesting scenery whatsoever.%p
+#mes2v RUK_0323,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um... Okabe-san.」%p
+#mes Lukako called walking a little behind me.%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_4014,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What is it?」%p
+#mes I stop and turn around.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CLA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes Lukako catches up、 and we start walking together again.%p
+#mes2v RUK_0323_2,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...do you remember?」%p
+#mes2v RUK_0324,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「About the first time you and I met.」%p
+#mes2v OKA_4016,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「──yeah」%p
+#setFlag SF_Phone_AutoDisable
+#mes Or so I say、 but what I remember is meeting the guy Lukako、 not the girl one....%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG18A1
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG18A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInVERYSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes That was on Golden Week in May.%p
+#mes While walking around Akiba collecting materials for the new Future Gadget、 I saw Lukako in his miko garb、 surrounded by some cameramen.%p
+#mes2v RUK_0325,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「P-please stop... I can't...」%p
+#messWindowCloseWait
+#setEVFlag 70
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R06A
+#assign $W(SW_BG3PRI),PRI2_BG
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeInTIM
+#mes2v LOA_0000,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「P-please、 let me take just one photo.」%p
+#mes2v LOB_0000,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「That cosplay is really moe. I've never seen a miko cosplayer before.」%p
+#mes2v RUK_0326,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Th-this... isn't cosplay...」%p
+#mes2v LOA_0001,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「If you could make a cute pose、 I'd be su-super happy.」%p
+#setDic 160
+#mes2v LOB_0001,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「Ah、 then do that、 you know、 that thing that Megumi-tan does in "&cTIPSC;Miko Miko Overdrive&cMESC;"」%p
+#mes2v LOA_0002,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「That's it-! That'd be the best! You know Megumi-tan、 right? Can you do it for us?」%p
+#mes2v RUK_0327,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I、 I don't know、 sorry...」%p
+#mes2v LOB_0002,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「What's wrong? If you come to Akiba in cosplay、 that means you want people to take your picture、 right? So nothing should be wrong、 right?」%p
+#mes2v LOA_0003,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「That's right. Or are you denying us because we're disgusting?」%p
+#mes2v RUK_0328,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No、 that's not it、 this、 isn't cosplay...」%p
+#mes To be honest、 the miko garb fascinated me.%p
+#mes Because a miko is a sacred existence、 the occupation chosen to serve god.%p
+#mes I've heard recently that college students are doing it for money、 but I don't accept that imitation.%p
+#mes And、 demanding to photograph the sacred miko is an act defiling god. I cried out、 unwilling to let that pass.%p
+#mes2v OKA_4017,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You cameramen over there!」%p
+#mes2v LOA_0004,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「Eh?」%p
+#mes2v LOB_0003,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「Wh-who are you...」%p
+#mes2v OKA_4018,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Pff、 who am I、 you ask? The name's Hououin Kyouma. The owner of the gray braincells of god incarnate、 the insane mad scientist visiting chaos upon the world. Fuhahaha! 」%p
+#mes2v LOA_0005,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「Wh-what is this guy?」%p
+#mes2v LOB_0004,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「A madman.」%p
+#mes2v OKA_4019,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Stop right there. That miko doesn't like it、 does she?」%p
+#mes2v LOA_0006,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「Hey、 you some sorta pretentious hipster?」%p
+#setDic 82
+#mes2v LOB_0005,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「You trying to be cool and save a girl for &cTIPSC;smex&cMESC; in return? Your ulterior motive's obvious. You're just a troll.」%p
+#mes2v OKA_4020,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 you are the trolls. The two of you are stalking this frail girl、 and you're even trying to get her to take perverted pictures. Have you thrown away your otaku pride?」%p
+#mes2v RUK_0329,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No、 um、 I'm...」%p
+#mes2v OKA_4021,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「A cameraman who scares a sacred miko is no cameraman at all! He's nothing but a pervert! You guys are unqualified to tread the holy grounds of Akiba! 」%p
+#mes2v LOA_0007,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「Wh-what!? Everyone's aiming for low-angle shots of cute 3D girls、 right?」%p
+#mes2v LOB_0006,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「You're talking so highly for a mere amateur. When you cosplay in Akiba、 you can't complain even if you get photographed indiscriminately、 you know? Seriously.」%p
+#mes2v RUK_0330,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「N-no... I... I'm...」%p
+#mes2v RUK_0331,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「A guy...!」%p
+#mes Our mouthes dropped to the floor at those abrupt words.%p
+#mes2v RUK_0332,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So... there's no point... in photographing me...」%p
+#mes Lukako murmured sadly.%p
+#mes2v LOA_0008,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「Eh、 srsly?」%p
+#mes2v LOB_0007,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「That's a lie、 such a cute kid can't possibly be a guy──」%p
+#mes2v RUK_0333,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I am... a guy. I even have... an Adam's apple.」%p
+#mes Lukako lifted his chin a bit、 exposing his pale neck.%p
+#mes That gesture was really sexy、 but...%p
+#mes There certainly was a protrusion on his neck.%p
+#mes2v LOA_0009,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「Then、 you've got one down there、 too?」%p
+#mes2v RUK_0334,NO_LIPANM_RUK,VID_RUK,＠Luka＠「…………」%p
+#mes Lukako nodded without as if he had no other choice.%p
+#mes He was already crying at that point.%p
+#mes So were the cameramen.%p
+#mes2v LOB_0008,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「Wh-what the hell? That's so misleading!」%p
+#mes2v LOA_0010,NO_CHARACTER,VID_ETC,＠Low-Angler　Ａ＠「You're wearing miko garb even though you're a guy、 you're a madman...」%p
+#mes2v LOB_0009,NO_CHARACTER,VID_ETC,＠Low-Angler　Ｂ＠「I'm glad I didn't take a picture-. I feel tricked.」%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG18A1
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+#call macrosys,TUNE_CHACOL_BG2
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_BMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaSet51
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes They left while mumbling complaints.%p
+#mes Those bastards really don't understand a thing about otaku culture──%p
+#mes And then I was amazed.%p
+#mes If I were Daru、 I probably would've said something like this.%p
+#mes There's no way such a cute kid can be a girl!%p
+#mes "Heh、 so you're a trap. They really do exist".%p
+#mes Those guys needed to take a lesson from Daru.%p
+#mes2v RUK_0335,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um、 thank you、 very much...」%p
+#mes2v OKA_4022,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hm? Ah、 it was nothing.」%p
+#mes2v RUK_0336,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「But you're disappointed to save a guy like me、 aren't you...」%p
+#mes2v RUK_0337,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I'm sorry I didn't live up to your expectations...」%p
+#mes2v OKA_4023,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...What's your name?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BMB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0338,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh? Urushibara... Luka.」%p
+#mes2v OKA_4024,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why are you apologizing?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0339,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I mean... I have a face like this、 even though I'm a guy...」%p
+#mes2v OKA_4025,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That doesn't matter.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BMB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0340,NO_LIPANM_RUK,VID_RUK,＠Luka＠「……！？」%p
+#mes2v OKA_4026,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It doesn't matter if you're a guy or a girl. But I don't like that inferiority complex of yours.」%p
+#mes2v RUK_0341,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh? Eh...?」%p
+#mes2v OKA_4027,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Come with me! I'll give you something good! As long as you have that item、 you can gain courage. You should also realize the existence of true power sleeping inside you.」%p
+#mes2v RUK_0342,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh? Ehhh?」%p
+#mes2v OKA_4028,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's wrong? Don't you... desire power?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BMB
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes2v RUK_0343,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No、 umm... p-power?」%p
+#mes2v OKA_4029,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's right... I will bestow power unto you. So、 seek it. Desire it. The power. Seek your own personal power so that you won't lose to cameramen...!」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,CharaClrAll
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CLA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaSet51
+#call macrosys,FadeInVERYSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes2v RUK_0344,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「And then after that、 we went to the 'Armory Head Branch' and you bought me &rsSummer Rain&rt"Samidare"&re... I didn't expect that.」%p
+#mes2v OKA_4030,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 no...」%p
+#mes Well、 I didn't expect him to come with me.%p
+#mes But I acknowledged that Lukako had hopes.%p
+#mes That's why I gave him the 980 yen (tax included) demon sword.%p
+#mes And afterwards、 Lukako and I went through intense training、 developing the &rsClearheart Demonslayer&rt"Seishin Zanma"&re style.%p
+#mes Mmm. When I remember it now、 my speech and conduct were really pathetic....%p
+#mes So much I want to hide my face.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CLA
+#assign $W(SW_CHA5FACE),Face_RUK_A05
+#call macrosys,CharaDisp51
+#mes2v RUK_0345,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「It really surprised me、 but... but back then、 when you said 'That doesn't matter'... it really made me happy.」%p
+#mes2v RUK_0346,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「It's strange、 huh. Those words really moved me...」%p
+#mes Then Lukako's cheeks turn rosy in shyness.%p
+#mes Her shyness is outstandingly dangerous、 as usual.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CLA
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0347,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「But、 ever since you said those words...」%p
+#mes2v RUK_0348,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I've liked you...」%p
+#mes2v OKA_4031,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#messWindowCloseWait
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#mes Wait a sec.%p
+#mes Wait just a minute.%p
+#mes Wait just an eternity.%p
+#mes Eh、 srsly?%p
+#mes Did she seriously say that just now?%p
+#mes Then、 doesn't that mean Lukako was a guy back then?%p
+#mes Meaning I made the guy Lukako fall in love with me?%p
+#mes The thought evaporates all at once.%p
+#mes Uho!%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM13
+#mes Seeing her off all the way to the shrine、 I'm worn out. Physically. Mentally.%p
+#mes In the end、 we spent four hours walking. We went all the way to Ueno Park and back、 so that was tiring.%p
+#mes But I was more mentally tired.%p
+#mes In the end、 we didn't talk much.%p
+#mes We just walked.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0349,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Today... was really fun.」%p
+#mes2v OKA_4032,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 really...?」%p
+#mes She just probably said that out of consideration.%p
+#mes Lukako tried hard to say it、 but I understood clearly.%p
+#mes When I thought about when Lukako fell in love with me、 my thoughts kept spinning into a loop、 so I couldn't play conversation catch with her.%p
+#mes The manual was also quite useless.%p
+#mes In this world line、 Lukako was a girl from the beginning、 so Lukako's and my "memories of when we first met" might be inconsistent".%p
+#mes Even thinking that、 I still can't wipe away how out of place Lukako's words feel.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0350,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So、 well... um...」%p
+#mes Lukako fidgets with a small voice.%p
+#mes2v OKA_4033,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wh... What is it?」%p
+#mes2v RUK_0351,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Well... tomorrow、 too...」%p
+#mes2v OKA_4034,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah...eh?」%p
+#mes Basically、 she wants to go on a date tomorrow too?%p
+#mes I、 I guess so. I mean、 we're lovers、 and we're going out、 and going out means favoring each other、 and it's summer break right now、 so it's natural to go on a date every day....%p
+#mes2v RUK_0352,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Tomorrow too、 I want to be... with Okabe-san.」%p
+#mes2v OKA_4035,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Th-thanks...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0353,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Can I...」%p
+#mes2v OKA_4036,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's not that you can't. Yes. Of course.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A05
+#call macrosys,CharaDisp51
+#mes2v RUK_0354,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Thank goodness...」%p
+#mes Lukako's soaked in emotion by herself again.%p
+#mes Seeing her like this makes incomprehensible feelings well up in me too....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0355,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Well、 see you tomorrow...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes A huge weight is suddenly put on my shoulders.%p
+#mes A date tomorrow too....%p
+#mes Tomorrow too....%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

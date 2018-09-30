@@ -1,0 +1,290 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0804
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG22A
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG22A
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_SE2VOL),SV_MIDDLE
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE007L,true
+#call macrosys,FadeInSLOW
+#mes I go to station to take my mind off my worries.%p
+#setDic 41
+#setDic 77
+#mes After having lunch at &cTIPSC;King Burger&cMESC;、I end up drinking coffee at the &cTIPSC;Starbecks&cMESC; on the first floor of Yodobashi.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#mes I left behind Mayuri and the others.%p
+#mes I wanted to think alone for a while.%p
+#mes When I sent the D-mail to myself in the past with the LOTO SIX numbers、 I felt a strong tremor、 and then the world as I knew it faintly "changed."%p
+#mes The fact that I had sent a D-mail had been undone.%p
+#mes I can confirm that with the fact that it had disappeared from my send history.%p
+#mes But even though it wasn't in the send history、 it was still in the arrival history.%p
+#mes The sent mail itself had reached the past.%p
+#mes What does this mean?%p
+#mes Isn't that a time paradox?%p
+#mes Is that the reason why everyone else went through "memory modification"?%p
+#mes Why were their memories modified in the first place....%p
+#mes If you say it's the butterfly effect、 then that's the end of it.%p
+#mes Changing the past changed the world-- using Titor's words、 when divergence changes、 aren't people's memories reconstructed to match that "changed world line"?%p
+#setFlag SF_Phone_AutoDisable
+#mes Then how come only my memories of the past world line continue even after the past changed?%p
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0401
+#call macrosys2,RECEIVE_NEW_MAIL
+#mes My intracerebral meeting is interrupted by an incoming mail.%p
+#label L_SG04_04_JUNCTION_010
+#mes ...Tch、 don't get in my way.%p
+#mes I think since it's a mail、 I can just leave the response to later、 so I concentrate on drinking coffee.%p
+#mes But--%p
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0402
+#call macrosys2,RECEIVE_NEW_MAIL
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MOE_A01
+#assign $W(SW_CHA5FADECT),0
+#assign $W(SW_CHA5FADETYPE),CHAFADETYPE_ALPHA
+#setFlag SF_CHA5DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA5FADECT,CHAFADECT_ALPHA_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_CHA5FADECT),CHAFADECT_ALPHA_MAX
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes This frequency....%p
+#mes No doubt about it. It's got to be another serial mail strike from Kiryuu Moeka、 otherwise known as Shining Finger-- by me、 anyway.%p
+#mes She's really annoying when it comes to mail、 huh....%p
+#mes Even though she doesn't talk at all. Her character's way too fickle.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,CharaClr1
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,DISP_RECEIVEBOX
+#wait 1
+#mwait 30
+#mes I sigh as I reluctantly check the mail.%p
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0401
+#call macrosys2,SELECT_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_MailView
+#call macrosys2,RETURN_RECEIVEBOX
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0402
+#call macrosys2,SELECT_RECEIVED_MAIL_NEXT
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#jump L_SG04_04_JUNCTION_012
+#label L_SG04_04_JUNCTION_011
+#jump L_SG04_04_JUNCTION_012
+#label L_SG04_04_JUNCTION_012
+#mes2v OKA_1759,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What...?」%p
+#mes She wants to send a D-mail?%p
+#mes That reminds me、 yesterday、 I assigned Moeka Lab Mem Number 005.%p
+#mes So she's a lab mem too. She's more than qualified to participate in the experiment.%p
+#mes Moeka seems serious、 so she might meet my demands.%p
+#mes Most importantly、 all the other lab mems are completely useless when it comes to D-mails.%p
+#mes I still haven't been able to verify whether or not I can remember other people changing the past.%p
+#mes2v OKA_1760,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wait、 but...」%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes I'm worried.%p
+#mes Moeka works for an editorial company. In other words、 she's related to the media.%p
+#mes What if she sends a D-mail and leaks this breakthrough of the century?%p
+#mes We'll be flooded by interviewers and gone will be the days of the media not noticing me.%p
+#mes Conversely speaking、 it'll give out our location to the "Organization".%p
+#mes Ignoring the danger to my body、 it's not bad to have a means of making our grand announcement.%p
+#mes But in that case、 I'd rather choose a national newspaper or TV interviewer to cover the event rather than some shady、 unknown editorial company. That way、 it'll spread faster throughout Japan、 nay、 the world.%p
+#mes Whichever way I choose、 I don't feel like it's a good plan to use Moeka.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0403
+#call macrosys2,RECEIVE_NEW_MAIL
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0403
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#mes That's right、 Moeka is a lab mem.%p
+#mes Yesterday、 we told her everything about the Microwave Ophone (Temp) and D-mails.%p
+#mes Moreover、 we made her our comrade.
+%p
+#mes We had to do so to prevent a leak.%p
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#mes Feeling there's no meaning in denying Moeka her request、 I put my phone to my ear.%p
+#mes2v OKA_1761,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's me. ...yeah、 I hesitated just a little. ...What? You can tell by my voice? Hmph、 I'm no match for you.」%p
+#mes2v OKA_1762,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 about whether or not I should bring Shining Finger into the Microwave Ophone (Temp) experiments.」%p
+#mes2v OKA_1763,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「"...Wha、 ridiculous、 you want me to offer her as a sacrifice? Certainly、 I am prepared to make sacrifices if it's for the cause of visiting chaos on the world、 but...」%p
+#mes2v OKA_1764,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「"...No、 no problem. Rather、 I was pathetic to have hesitated. Maybe I'm not cut out to be a mad scientist.」%p
+#mes2v OKA_1765,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「"...Yeah、 this offer can be called a revelation for me. It could be Steins;Gate's choice. El Psy Congroo.」%p
+#mes With that said、 I reply to Moeka's mail.%p
+#PhoneInit
+#assign $W(SW_PHONE_MAILMENUCUR),0
+#assign $W(SW_PHONE_MODE),PhoneMode_MailMenu
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVEBOX
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0403
+#call macrosys2,SELECT_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#call macrosys2,DISP_RECEIVED_MAIL
+#wait 1
+#mwait 30
+#setFlag_MailReply $W(SW_PHONE_MAILCURMNO)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0401
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0401
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes After sending my mail、 I hurry back to the lab.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

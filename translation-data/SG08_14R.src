@@ -1,0 +1,757 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0819
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_MASK2ALPHA),256
+#assign $W(SW_MASK2PRI),PRI_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeIn0
+#mes I leaned against the wall、 hugging both knees、 tasting a long、 long void.%p
+#mes How much time has passed since Mayuri died?%p
+#mes I didn't go to the vigil、 nor the funeral.%p
+#mes There's no way I could go.%p
+#mes Because it's almost like I killed her.%p
+#mes I don't want to see anything.%p
+#mes I don't want to meet anyone.%p
+#mes Even breathing is bothersome.%p
+#mes But、 I have no choice but to face both this emptiness and this heartrending guilt、 and accept what I have done.%p
+#mes That's my current obligation.%p
+#mes What I must do.%p
+#messWindowCloseWait
+#playSE 0,SGSE110
+#call macrosys,SEwaitHalf
+#mes And then、 I hear the sound of someone pulling the curtain.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ASA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaSet51
+#assign $W(LR_TMP00),96
+#assign $W(LR_TMP01),96
+#assign $W(LR_TMP11),0
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(192-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),192
+#mes Light shines in from the lounge next door.%p
+#mes With her back to that light stands a woman.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),96
+#assign $W(LR_TMP01),96
+#assign $W(LR_TMP11),0
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(256-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),256
+#mes I could tell from the silhouette that it's Kurisu、 but I immediately cover my face and block out the noise.%p
+#mes2v CRS_2255,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe.  It's already been three days、 so will you at least eat something?」%p
+#mes2v OKA_4172,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v CRS_2256,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You knew、 didn't you?」%p
+#mes2v CRS_2257,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That、 on that day、 Mayuri would die.」%p
+#mes2v OKA_4173,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v CRS_2258,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why don't you time leap?」%p
+#mes2v CRS_2259,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You wouldn't hesitate to use the Time Leap Machine to save Mayuri.  That's what I hypothesized.」%p
+#mes2v CRS_2260,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Anyway、 what happened to your plan to change Urushibara-san's gender to male and take back the IBN 5100?」%p
+#mes2v CRS_2261,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You were so focused on carrying out that plan to save Mayuri.  Then、 why──?」%p
+#mes2v OKA_4174,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v CRS_2262,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wait、 by any chance、 did you already get back the IBN 5100、 and this is after you changed world lines?」%p
+#mes2v CRS_2263,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And what's left here is Okabe Rintaro's remains.  Left behind.  And now this is the parallel world that continues from the future where Mayuri wasn't saved──」%p
+#mes2v OKA_4175,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I didn't get back the IBN 5100.」%p
+#mes It might be because I haven't spoken in three days、 but my voice was hoarse.%p
+#mes2v CRS_2264,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What do you mean?」%p
+#mes2v OKA_4176,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I couldn't change Lukako back into a guy.」%p
+#mes2v OKA_4177,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's why I accepted this fate...」%p
+#mes No、 again、 I chose words that make my actions seem ambiguous.%p
+#mes2v OKA_4178,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I... let Mayuri die...」%p
+#mes2v CRS_2265,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes Kurisu catches her breath.%p
+#mes Why did I confess?%p
+#mes It's not something I should confess so easily.%p
+#mes Almost like calling myself a murderer.%p
+#mes It should've been Lukako's and my secret.%p
+#mes And yet、 I──%p
+#mes Do I want to be criticized、 to put myself at ease?%p
+#mes At this rate、 it seems like it's a lot more preferable to be criticized by someone than to keep living with the pain of keeping it bottled up.%p
+#mes And、 if that someone is Kurisu、 I'm sure she would tell me exactly what's on her mind.%p
+#mes Like、 'You're the worst.%p
+#mes But──%p
+#mes2v CRS_2266,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...will you eat?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaSet51
+#assign $W(LR_TMP00),96
+#assign $W(LR_TMP01),96
+#assign $W(LR_TMP11),0
+#beginAnimation
+#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA_OFS,(0-$W(SW_MASK2ALPHA)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),0
+#mes Kurisu didn't criticize me.%p
+#mes2v CRS_2267,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you're okay with cup noodles、 I can prepare that.  Or do you want to go buy something?」%p
+#mes2v OKA_4179,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Blame me.  Scold me for killing Mayuri...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2268,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I do want to scold you、 but let's stop.  It doesn't look like I need to say anything.」%p
+#mes2v CRS_2269,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Returning to the past and bending the laws of causality might be an impertinent act、 after all.」%p
+#mes2v CRS_2270,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「More importantly...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_2271,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There's no way that I could scold you.」%p
+#mes2v CRS_2272,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You've been fighting all alone this whole time as the only existence outside the confines of cause and effect.」%p
+#mes2v CRS_2273,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So no one else can understand your pain but you──」%p
+#mes2v CRS_2274,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No one else but you can understand the meaning of your choice.」%p
+#mes2v CRS_2275,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There's no way I can blame you when I haven't time leaped even once.」%p
+#mes2v OKA_4180,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「…How can you be so understanding?」%p
+#mes I strongly grasp my knees.%p
+#mes2v CRS_2276,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There's no way I could understand.  When you decided to save Mayuri by time leaping、 you must've made a resolve that nobody else could understand.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2277,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So accept what you've done.」%p
+#mes2v CRS_2278,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you do that、 then you'll never forget the meaning of what you've done.」%p
+#mes So、 in other words、 Kurisu's telling me to Suffer by yourself.%p
+#mes What a sadistic woman....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_2279,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2280,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You should take responsibility for the other girl you saved with your choice.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_2281,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Mayuri is dead.  It's disappointing- no、 disappointing isn't sad enough a word、 but anyway、 Mayuri is no more.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v CRS_2282,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You couldn't oppose the world's convergence、 the world's will.」%p
+#mes2v CRS_2283,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But、 that girl is still alive.  Thanks to you、 she's still alive、 as a girl.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2284,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And I think she's suffering all alone、 just like you.」%p
+#mes2v CRS_2285,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The only one who can understand her suffering is you、 Okabe、 her 'accomplice、' right?」%p
+#mes2v OKA_4181,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Accomplice...」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes The woman named Makise Kurisu.%p
+#mes Is truly harsh....%p
+#mes Lukako's image floats through my mind.%p
+#mes She used to be a guy.%p
+#mes But now she's a woman.  And from now on、 she'll live as a woman.%p
+#mes The one who chose that future for Lukako is、 without a doubt、 me.%p
+#mes When I imagine her frail smile、 I feel like a spring has sprung in the frozen soil of my dry heart.%p
+#mes I can't bear to lose Lukako after sacrificing Mayuri....%p
+#mes In that case、 what I can do is──%p
+#mes2v OKA_4182,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Thank you、 Kurisu.」%p
+#mes2v OKA_4183,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm glad I talked with you.」%p
+#assign $W(LR_DATE),0820
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM31
+#mes I walk onto the shrine's grounds and almost feel the heat on my skin slowly lower.%p
+#mes The large tree next to the main building.  Its branches coated with luscious leaves sway in the gentle breeze.%p
+#mes These silently still grounds seem slightly cooler than the crowded buildings in front of the station.%p
+#mes We might also be near the Kanda River.%p
+#mes It's devoid of people、 as usual.%p
+#mes I casually advance towards the offertory box、 absentmindedly gazing at the shrine.%p
+#mes I wonder if Lukako's home.%p
+#mes Her family should be here too.  How to call for her.%p
+#mes As I think this、 the wind suddenly lets up、 and the sound of trees rustling stops for a bit.%p
+#mes And in it's place、 I hear sobbing deep within.%p
+#mes Sounds like it's behind the main building.%p
+#mes I gain some confidence、 and slowly head towards the voice.%p
+#messWindowCloseWait
+#setEVFlag 72
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R08A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#mes2v RUK_0486,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Uh... sniff...」%p
+#mes Subduing her voice.%p
+#mes Hugging her knees.%p
+#mes Holding &rsSummer Rain&rt"Samidare"&re.%p
+#mes Lukako was there、 crying.%p
+#mes2v OKA_4184,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako...」%p
+#mes2v RUK_0487,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Okabe、 san.」%p
+#mes Lukako turns her wet eyes towards me when she notices me、 but immediately afterwards、 buries her face in her knees.%p
+#mes And then her shoulders start shaking.%p
+#mes2v RUK_0488,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Yesterday... I went to Mayuri-chan's funeral...」%p
+#mes2v RUK_0489,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Everyone cried.  I didn't know Mayuri-chan was loved by so many people...」%p
+#mes2v RUK_0490,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Of course、 I loved Mayuri-chan too...」%p
+#mes2v RUK_0491,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I'm not really good with strangers、 but Mayuri-chan would still brightly talk to me...」%p
+#mes2v RUK_0492,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「She was the friend I loved the most...」%p
+#mes I lost the words I was about to say.%p
+#mes All I could do was sit silently next to Lukako.%p
+#mes2v RUK_0493,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「But still、 why、 Okabe-san...」%p
+#mes2v RUK_0494,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Why... are we... still alive?」%p
+#mes2v OKA_4185,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v RUK_0495,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Even though Mayuri-chan died...」%p
+#mes2v RUK_0496,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Now、 while I'm still a girl...」%p
+#mes Since she somehow got back her memories from when she was a guy.%p
+#mes Now、 Lukako is beginning to have gender identity issues.%p
+#mes I don't know that feeling.%p
+#mes Just as Kurisu said、 Lukako is also isolated outside the confines of cause and effect.%p
+#mes2v RUK_0497,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「It just doesn't feel right... for me to keep living like this...」%p
+#mes2v OKA_4186,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's not true.」%p
+#mes Even though I try to cheer her up with those careless words、 Lukako keeps shaking her head in denial.%p
+#mes2v RUK_0498,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-san、 is there any way at all to save Mayuri-chan...?」%p
+#mes2v OKA_4187,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...It's useless.」%p
+#mes2v RUK_0499,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No way...!」%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A04
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Lukako stands up while crying and pleads with me.%p
+#mes2v RUK_0500,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Let's keep thinking.... I'll do anything if it'll save Mayuri-chan...!」%p
+#mes2v RUK_0501,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I heard from Mayuri-chan before.... that Okabe-san made a device that goes back in time.」%p
+#mes Is she talking about the Time Leap Machine...%p
+#mes2v RUK_0502,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If we use that──」%p
+#mes2v OKA_4188,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's useless.」%p
+#mes2v RUK_0503,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If we go back in time、 I'm sure we'll find a way...」%p
+#mes2v OKA_4189,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There is... no way.」%p
+#mes I declare so while clenching my fist and hanging my head.%p
+#mes2v OKA_4190,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It may be cruel、 but all we can do is accept Mayuri's death、 and keep on living.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0504,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「You can't give up...!  Why are you giving up?  Aren't you sad at all that Mayuri-chan died?」%p
+#mes2v OKA_4191,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...In any case、 there is no way.」%p
+#mes2v RUK_0505,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No、 I don't want Mayuri-chan to die...!」%p
+#mes2v OKA_4192,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes Lukako's whole body winces when I grab her shoulder and raise my voice.%p
+#mes2v OKA_4193,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Did you... really think I gave up that easily?」%p
+#mes2v RUK_0506,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe...san...」%p
+#mes2v OKA_4194,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「She was my very important childhood friend....  There's no way I could have given up on her...」%p
+#mes2v OKA_4195,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I thought.  I thought so much I could die、 I struggled、 and I struggled、 and tried any means I thought could help...!  How many times do you think I've gone back in time...」%p
+#mes2v OKA_4196,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But it was all useless.... The world just wants her dead.  No matter how I try to avoid it、 the world snatches Mayuri away just to laugh at me...」%p
+#mes2v OKA_4197,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「To save Mayuri、 I've sacrificed other people's memories.  I did so to save Mayuri、 no matter whom I hurt.」%p
+#mes2v OKA_4198,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But that's my limit...」%p
+#mes2v OKA_4199,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's already useless...」%p
+#mes There is a way.  There are still ways to save Mayuri.%p
+#mes But I chose none of them.%p
+#mes Theoretically、 it's not impossible.%p
+#mes But、 it's impossible、 for me.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0507,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...I'm sorry.」%p
+#mes2v RUK_0508,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I didn't think even stop to think... about Okabe-san's feelings.」%p
+#mes2v OKA_4200,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v RUK_0509,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「But、 there's no way、 that it's useless....  Isn't there still one more way left....?」%p
+#mes2v RUK_0510,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If you turn me back into a guy──」%p
+#mes2v OKA_4201,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's no good.」%p
+#mes If we do that、 then this choice will have no meaning.%p
+#mes I chose Lukako instead of Mayuri.  That's how it is、 if you think about it.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A04
+#call macrosys,CharaDisp51
+#mes2v RUK_0511,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Please、 Okabe-san.  I don't want to be a girl so badly that I'd sacrifice Mayuri-chan...!」%p
+#mes2v RUK_0512,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Please、 let me save Mayuri-chan...!」%p
+#mes2v OKA_4202,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I won't turn you back into a guy.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALB
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes2v RUK_0513,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Why...」%p
+#mes2v RUK_0514,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Why won't you...!?」%p
+#mes2v OKA_4203,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's what I chose.  I can't keep on hurting people to feed my ego.」%p
+#mes2v OKA_4204,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Besides、 even if we go back to the original world line、 it's not certain we can avoid Mayuri's death.」%p
+#mes2v OKA_4205,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I... won't sacrifice anyone's memories... I won't sacrifice your memories... for just a small chance like that.」%p
+#mes2v OKA_4206,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So that's enough.」%p
+#mes2v RUK_0515,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-san...」%p
+#mes2v RUK_0516,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「But、 this is unforgivable.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0517,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I don't... an existence like me、 doesn't deserve to live...」%p
+#mes2v RUK_0518,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「How can I keep living like this... knowing that me being a girl contributed to Mayuri's death...?」%p
+#mes2v RUK_0519,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「That's too heavy a burden... for me to bear...」%p
+#mes2v RUK_0520,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So、 why...」%p
+#mes2v RUK_0521,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Why didn't you send the mail to my mom's pager 18 years ago...?」%p
+#mes2v RUK_0522,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Why didn't you chose Mayuri-chan... but me...?」%p
+#mes2v OKA_4207,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You have nothing to feel indebted about.  Everything is my choice.」%p
+#mes2v OKA_4208,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The one who killed Mayuri is me.  So、 all the guilt hangs on me.」%p
+#mes I hold the god-rivaling power known as the Time Leap Machine.%p
+#mes I chose Mayuri's Death out of the infinite futures.%p
+#mes And so、 I must naturally carry the responsibility equal to the gods.%p
+#mes2v OKA_4209,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And、 I thought I wanted you to be happy.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A04
+#call macrosys,CharaDisp51
+#mes2v RUK_0523,NO_LIPANM_RUK,VID_RUK,＠Luka＠「…………」%p
+#mes2v RUK_0524,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Happy?  How can I possibly be happy...」%p
+#mes2v RUK_0525,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「When Mayuri died because of me...」%p
+#mes2v OKA_4210,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It wasn't because of you.  Please don't say that again.  You might be sad now、 but...」%p
+#mes2v OKA_4211,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I want you to keep going forward、 and live enough for Mayuri too.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0526,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No way... I don't want that!」%p
+#mes Lukako clings to my chest.%p
+#mes She focuses on me without wiping her tears.%p
+#mes2v RUK_0527,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「In that case... In that case、 I want to help bear Okabe's burden together...」%p
+#mes2v OKA_4212,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Bear... together?  What nonsense.」%p
+#mes2v OKA_4213,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I am a human outside of the confines of cause and effect、 the human that chose to let Mayuri die──」%p
+#mes2v RUK_0528,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Then me too... I'll go outside the confines of cause and effect...」%p
+#mes2v RUK_0529,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I regained the memories of my time as a guy、 so doesn't that mean I'm already outside...?」%p
+#mes2v RUK_0530,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I also know that I'm living as a woman in exchange for Mayuri's fate、 too...」%p
+#mes2v RUK_0531,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「We're accomplices...」%p
+#mes Kurisu said the same thing.%p
+#mes Luka and I are accomplices.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A04
+#call macrosys,CharaDisp51
+#mes2v RUK_0532,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「This sadness.  And this indebtedness.」%p
+#mes2v RUK_0533,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I want the two of us to embrace them、 so we don't forget...」%p
+#mes The two of us are existences isolated outside the confines of cause and effect、 where nobody else can understand us.%p
+#mes That's why──%p
+#mes2v OKA_4214,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 I understand...」%p
+#mes I strongly embrace Lukako.%p
+#mes2v OKA_4215,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's bear our burden、 together...」%p
+#mes2v OKA_4216,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's live... without forgetting this memory、 together...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0534,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Can I stay by you、 forever?」%p
+#mes2v RUK_0535,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Because... I love you、 Okabe-san...」%p
+#mes2v RUK_0536,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I might be betraying Mayuri-chan、 but... I want to be together forever...」%p
+#mes2v OKA_4217,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Of course.」%p
+#mes We both bear the same burden of indebtedness.%p
+#mes From now on、 we press our shoulders together、 accepting Mayuri's death、 yet still living.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15E1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#mes After that、 we passed the time sitting down together until the sky turned the color of dusk.%p
+#mes We didn't really do anything、 and we didn't really talk about anything.%p
+#mes Lukako rests her head on my shoulder.%p
+#mes I embraced her shoulder、 and feel her breathing near me.%p
+#mes We just kept silently gazing at the sky.%p
+#mes And in our hearts、 we prayed for Mayuri's happiness in the afterlife.%p
+#mes I'm sorry、 Mayuri.%p
+#mes I'm sorry....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALB
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes2v RUK_0537,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Hey、 Okabe-san...」%p
+#mes Lukako raises her head and breaks the silence.%p
+#mes I could feel some sort of resolution emanating from her expression.%p
+#mes2v RUK_0538,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「There's still one thing that I should have done for Mayuri-chan that I left undone...」%p
+#mes2v RUK_0539,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Because of that、 I made a sad memory for Mayuri-chan...」%p
+#mes2v OKA_4218,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Something left undone?」%p
+#mes2v RUK_0540,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Cosplay.」%p
+#mes Oh、 that....%p
+#mes These last few weeks、 Mayuri was constantly asking Lukako to wear the costumes she made for her.%p
+#mes But、 Lukako would always reject her、 because it's too embarrassing.%p
+#setFlag SF_Phone_AutoDisable
+#mes I remember Mayuri on the day she died.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG38N0
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG38N0
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_AMA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaSet62
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInFAST
+#mes2v MAY_1206,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I think it would really fit Luka-chan if she cosplayed Kirari-chan-」%p
+#mes2v MAY_1207,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Luka-chan is so cute、 she makes Mayushii's heart throb、 you know.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_AMB
+#assign $W(SW_CHA6FACE),Face_MAY_B02
+#call macrosys,CharaSet62
+#call macrosys,FadeInFAST
+#mes2v MAY_1208,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Luka-chan's usually a very obedient girl、 right-?  She rarely gives her own opinion.」%p
+#mes2v MAY_1209,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「When you cosplay、 your 'usual' self becomes 'another' self.」%p
+#mes2v MAY_1210,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「That's why I think that if Luka-chan cosplays once、 even if it's embarrassing at first、 she'll definitely find a new Luka-chan.」%p
+#mes2v MAY_1211,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And when that happens、 she'll become more assertive than before、 and maybe even dominate Okarin in the butt-.  Ehhehe-」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,CharaClr2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+//#assign $W(LR_TMP00),BG15A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes Even on that day、 Mayuri would only talk about Lukako.%p
+#mes I stood her up on my promise to bring Lukako to ComiMa、 and made her lonely、 even though she got over it.%p
+#mes Mayuri wanted to get Lukako to cosplay from the bottom of her heart.%p
+#mes2v RUK_0541,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Could that machine that goes back in time... go back to that day?」%p
+#mes2v OKA_4219,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Go back?' You mean、 you will...!?」%p
+#mes Lukako nods firmly.%p
+#mes2v OKA_4220,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Are you serious?」%p
+#mes Nobody has used the Time Leap Machine except me.%p
+#mes At present、 it's never failed、 but if something does happen、 it might not be reversible.%p
+#mes In SERN's time machine experiments、 the test subjects turned into jellymen.  Something like that may happen、 and there's a significant possibility that her memories might break in the process.%p
+#mes2v OKA_4221,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's too dangerous.  So far、 only I have used it...」%p
+#mes2v RUK_0542,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Please...!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0543,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「At the very least、 I want Mayuri-chan to leave with a smile...」%p
+#mes2v RUK_0544,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Because I wasn't able to do anything for her...」%p
+#mes2v OKA_4222,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But if we go there、 you're won't be able to handle all the otaku.」%p
+#mes2v RUK_0545,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I am a bit scared after all.... But... I never said that...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALB
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes2v RUK_0546,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Besides that、 I want to really be the same as Okabe-san.」%p
+#mes2v RUK_0547,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If I use that device... I'll have completely gone outside the confines of cause and effect、 won't I?」%p
+#mes2v RUK_0548,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「And then I can bear the same feelings as Okabe-san....」%p
+#mes2v RUK_0549,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So please...」%p
+#mes That innocent emotion warms my heart.%p
+#mes Lukako is thinking about me and Mayuri from the bottom of her heart.%p
+#setFlag SF_Phone_AutoDisable
+#mes In the end、 I couldn't say no to those feelings.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes When we got back to the lab、 neither Daru nor Kurisu were there.%p
+#mes Even though just a few days ago、 Mayuri、 Kurisu、 Daru、 and I、 along with the others were spending our time noisily here.%p
+#mes With Mayuri gone、 it seems like only dreams of those days are left behind.%p
+#mes Now、 only loneliness floats through the lab.%p
+#mes But without expressing those feelings、 I entered the experiment room with Lukako.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#mes Luckily、 the CRT downstairs was turned on、 so we could immediately begin time leaping.%p
+#mes2v OKA_4223,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What time will you jump to?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes2v RUK_0550,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...The morning of that day.」%p
+#mes2v RUK_0551,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If I jump to the day before、 I don't think I would be mentally stable enough to accept it as reality.」%p
+#mes2v RUK_0552,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So please...」%p
+#mes Meaning she's chosen the very day to cosplay with a smile.%p
+#mes But to jump to that day would take at least three jumps.%p
+#mes I don't know if we can successfully get her to the 15th....%p
+#mes I'm worried、 but Lukako's will doesn't waver.%p
+#mes2v OKA_4224,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Get in touch with me after you've leaped safely.  Then I'm sure I'd take you to where Mayuri is.」%p
+#mes2v RUK_0553,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okay...」%p
+#mes I cover Lukako's head with the headgear attached to the Time Leap Machine.%p
+#mes Her body is obviously shaking.%p
+#mes That's understandable、 I guess.%p
+#mes Even I'm starting to get so tense my heart seems like it'll explode.%p
+#mes The is the first experiment where someone besides me will use the Time Leap Machine.%p
+#mes I can't stop thinking about what would happen if we fail.%p
+#mes2v OKA_4225,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't worry.  Your brain will hurt a bit、 but it'll settle down in a while.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0554,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「O、Okay...」%p
+#mes2v OKA_4226,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even if you get to the other side、 don't get distracted.  Calm down and try to understand your surroundings.」%p
+#mes2v OKA_4227,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It'll be okay.  I'm with you.」%p
+#mes I gently caress her cheek、 and Lukako gives a small sigh of relief.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes2v RUK_0555,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「...Then、 let's go.」%p
+#mes I nod、 and、 hiding the shakiness in my fingertips from Lukako、 set the microwave timer.%p
+#mes2v RUK_0556,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I'll be sure to return...」%p
+#mes2v OKA_4228,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah.  I'll be waiting.」%p
+#mes I smile to Lukako.%p
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 1,SGSE035L,true
+#mes Right after、 the entire room gets wrapped up in the electrical discharge phenomenon.%p
+#mes When I see Lukako's body as if it's shining、 I open my eyes wide.%p
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 1
+#playSE 1,SGSE053L,true
+#mes The building violently shakes.%p
+#mes The smell of ozone fills my nose.%p
+#mes The already strong electrical discharge becomes even stronger、 strong enough that I can't even open my eyes.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0557,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Okabe-sa──」%p
+#mes Lukako's voice calling my name is suddenly cut short──%p
+#assign $W(SW_SEFADE),FADE_FAST
+#stopSE 1
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,FadeOut0
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys2,DELETE_MAIL_SG08_14R
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE054
+#call macrosys,SEwaitHalf
+#mes My entire body goes through shock and chills、 just like it always does right after time leaping.%p
+#mes2v OKA_4229,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...This is」%p
+#mes It's not like I time leaped myself.%p
+#mes Nevertheless、 I teleported from the lab to Yanabayashi shrine.%p
+#mes Did the world line change...?%p
+#mes No、 Reading Steiner didn't activate、 so there's no way the world line changed.%p
+#mes Then、 why──？%p
+#mes Was it because Lukako made small changes after jumping to the past...?%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_B01
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM10
+#mes I look to the side、 and Lukako is there.%p
+#mes When she notices my gaze、 she gets up and smiles.%p
+#mes2v RUK_0558,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Want to see the pictures?」%p
+#mes2v OKA_4230,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Pictures?」%p
+#mes What's this about pictures?%p
+#mes2v RUK_0559,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「It worked.  I did it.」%p
+#mes2v RUK_0560,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Do you not remember?  Okabe-san、 you suddenly changed....」%p
+#mes2v OKA_4231,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Right after you leaped into the past、 I found myself standing here.」%p
+#mes2v OKA_4232,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Did you go to ComiMa?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes Once again、 Lukako starts crying wordlessly.%p
+#mes Then、 she nods slowly.%p
+#mes She takes out a few pictures and hand them out to me.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_ALA
+#assign $W(SW_CHA5FACE),Face_RUK_A04
+#call macrosys,CharaDisp51
+#mes2v RUK_0561,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Mayuri-chan... was so... happy...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I look at the first picture handed to me.%p
+#mes I gasp in surprise when I see what's in it.%p
+#mes2v OKA_4233,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You and I、 we got carried away...」%p
+#mes Before I noticed、 tears blur my vision.%p
+#messWindowCloseWait
+#setEVFlag 73
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,EV_R09A
+#assign $W(SW_BG1FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG1_FadeInTIM
+#assign $W(SW_BG1FADECT),0
+#assign $W(SW_BG1FADETYPE),BGFADETYPE_NONE
+#mes In that picture──%p
+#mes Was Mayuri.%p
+#mes Lukako、 Mayuri、 and I were smiling.%p
+#messWindowCloseWait
+#mwait FADE_VERYSLOW
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,InitSound
+#call macrosys2,MOVIE_END_RUK
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#setFlag SF_Phone_Disable
+#call macrosys,InitGraph
+#setEVFlag 74
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_R10A
+#assign $W(SW_BG3PRI),PRI_BG
+#setFlag SF_BG3DISP
+#call macrosys,FadeInVery2Slow
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#call macrosys,FadeOutVery2Slow
+#call macrosys,InitGraph
+#setAchievement 17
+#call macrosys,InitSound
+#call macrosys2,Init_SG
+#call macrosys,FadeIn0
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM2000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

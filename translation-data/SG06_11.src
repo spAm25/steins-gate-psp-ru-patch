@@ -1,0 +1,655 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes After going back to daytime、 I don't act immediately、 but silently sit on the couch in thought.%p
+#mes I've tried to evade Mayuri's death over and over、 yet it always ends in the worst possible way.%p
+#mes And the fate of Mayuri's death is gradually twisting.%p
+#mes Fate. Basically、 cause and effect.%p
+#mes What is the cause of Mayuri's death?%p
+#messWindowCloseWait
+#setEVFlag 32
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_K03C
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes In order to collect the time machine we made、 SERN sent assassins including Moeka.%p
+#mes That is the answer I came up with.%p
+#assign $W(LR_TMP00),32
+#assign $W(LR_TMP01),32
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_BG2ALPHA),0
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes But when I kept time leaping to try to evade Mayuri's death、%p
+#mes That cause became significantly twisted.%p
+#setEVFlag 60
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_M13A
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#add $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(LR_TMP00),32
+#assign $W(LR_TMP01),32
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_MASK2ALPHA,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_MASK2ALPHA),FILT_ALP
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes At Shin-Ochanomizu Station、 Tennouji Nae pushed her off the platform.%p
+#mes That clearly wasn't related to SERN. It was an accident.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP11,FILT_ALP,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_MASK2ALPHA),(FILT_ALP-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_BG2ALPHA),0
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes The person who kills Mayuri changes.%p
+#mes At first it was Moeka、 but eventually、 other people besides Moeka ended up killing her.%p
+#mes Just what does that mean?%p
+#mes No matter how much I think、 I can't come up with an answer.%p
+#mes I wanted someone to tell me、 but it's not like anyone can.%p
+#mes Because I'm the only person in the history of mankind to overcome the barrier of time.%p
+#mes ...No、 there's one more. John Titor.%p
+#mes But I don't have a way to contact him.%p
+#mes He won't reply even if I send him mail、 and he disappeared from @channel.%p
+#setFlag SF_Phone_AutoDisable
+#mes I'm not even fully convinced he's a real time traveler in the first place.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG048
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I give up running away this time.%p
+#mes Instead、 I take a different approach.%p
+#mes If running away's no good、 then let's do things here.%p
+#mes I send Moeka a mail saying There's something important about the time machine we need to talk about、 so I want us to meet alone.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG11E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG11E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#setFlag_MailRecive FM_To_MOE0601
+#resetFlag SF_Phone_Disable
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#mes I designate the place as the Radio Kaikan rooftop.%p
+#mes The blockaded Radio Kaikan.%p
+#mes Where the satellite is still lodged.%p
+#mes But it's already been two weeks since it crashed.%p
+#mes The police aren't securing it any more.%p
+#mes It's crowded、 but I easily sneaked in.%p
+#mes Though、 the shutters were partly open、 and I put on a face that said I'm an official as I came in.%p
+#mes I came here before for Doctor Nakabachi's presentation.%p
+#mes Wait、 in this world line、 Nakabachi's presentation was canceled.%p
+#mes Obviously、 nobody's here except me.%p
+#mes Since my opponent's a merciless murder machine、 this is a dangerous bet.%p
+#mes Moeka might have a gun.%p
+#mes But I have no intention to go easy on her.%p
+#mes The meeting time is at 5:30. There's still more than 20 minutes left.%p
+#mes I came here early to perform an ambush.%p
+#mes I've been hiding here for 30 minutes already、 quietly in bated breath.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#playSE 0,SGSE084
+#call macrosys,SEwaitHalf
+#mes I hear the door open.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MOE_B03
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM21
+#mes Moeka appears alone.%p
+#mes She looks around restlessly.%p
+#mes She still hasn't noticed me.%p
+#mes I take my gun out of my shirt.%p
+#mes It's not real.%p
+#mes It's Future Gadget No.1: Bit Particle Gun.%p
+#mes It's called a Gun、 but it just looks like a toy ray gun.%p
+#mes We hacked a TV remote into it.%p
+#mes Of course、 its lethality is zero.%p
+#mes This is obviously a bluff、 but this is all I could prepare on short notice.%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG4MASKNO),MASK18
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG4_FadeInTIM
+#call macrosys,CharaEraseAll
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG4MASKNO),MASK18
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG4_FadeOutTIM
+#mes I rush to Moeka's back.%p
+#mes I thrust Bit Particle Gun into her back.%p
+#mes2v OKA_2882,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't move.」%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0222,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes2v OKA_2883,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Raise your arms.」%p
+#mes Just like a Hollywood movie.%p
+#mes But the tension was unusual.%p
+#mes This isn't a movie. She's not an actress.%p
+#mes This is reality. She's a murderer.%p
+#mes After Moeka silently raises her hands、 I grope her clothes.%p
+#mes Sure enough、 she was hiding a gun.%p
+#mes I take it away and exchange it with Bit Particle Gun.%p
+#mes2v OKA_2884,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How unfortunate. That first gun was a toy.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B01
+#call macrosys,CharaDisp51
+#mes2v MOE_0223,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes2v OKA_2885,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I want to hear your story. I know you're SERN's assassin.」%p
+#mes2v MOE_0224,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...how?」%p
+#mes2v OKA_2886,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You want to know? You fucking want to know...!?」%p
+#mes I boil over with frustration and rage.%p
+#mes Because of her....%p
+#mes Because of her、 Mayuri...!%p
+#mes2v OKA_2887,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I came from the future in the time machine...!」%p
+#mes2v MOE_0225,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes2v OKA_2888,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You think I'm kidding? But I've already repeated this same time four or five times over.」%p
+#mes I don't remember how many times any more.%p
+#mes It feels like I've looped dozens of hours.%p
+#mes I haven't slept at all that entire time.%p
+#mes Strangely、 I'm not sleepy at all.%p
+#mes2v OKA_2889,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's why I know what you guys are going to do.」%p
+#mes2v OKA_2890,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Past 7、 the trains stop. Because of a bomb threat.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0226,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「...」%p
+#mes Moeka loses her breath.%p
+#mes So it was their doing after all.%p
+#mes2v OKA_2891,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I also know that today、 you and your friends will attack the lab.」%p
+#mes2v OKA_2892,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And also that you kill Mayuri there...!」%p
+#mes2v MOE_0227,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I...」%p
+#mes2v OKA_2893,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Understand? I'm a Time Leaper.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B01
+#call macrosys,CharaDisp51
+#mes Moeka nods faintly.%p
+#mes I can easily kill her here and now. But I don't.%p
+#mes First I need to get her to talk.%p
+#mes2v OKA_2894,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you guys to SERN?」%p
+#mes2v MOE_0228,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...'Rounders'」%p
+#mes Moeka answers with surprising obedience.%p
+#mes She easily steals other peoples lives、 but values her own.%p
+#mes2v OKA_2895,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Rounders? Just what kind of organization is that? How is it related to SERN?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B05
+#call macrosys,CharaDisp51
+#mes2v MOE_0229,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...by mail.」%p
+#mes2v OKA_2896,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No. Explain verbally.」%p
+#mes2v MOE_0230,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...The Rounders」%p
+#mes2v MOE_0231,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Are a separate organization from SERN.」%p
+#mes2v MOE_0232,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「We don't come out publicly.」%p
+#mes2v MOE_0233,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That's how we operate.」%p
+#mes2v OKA_2897,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「A secret mercenary force?」%p
+#mes2v MOE_0234,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...No.」%p
+#mes2v MOE_0235,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「IBN 5100.」%p
+#mes2v MOE_0236,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「In order to gather information on them and retrieve them、」%p
+#mes2v MOE_0237,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「We spread across the globe.」%p
+#mes2v MOE_0238,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「We collect them.」%p
+#mes IBN 5100.……%p
+#mes Now that she mentions it、 she has always been obsessed with that retro PC.%p
+#mes Furthermore、 SERN's database uses those IBN 5100s.%p
+#mes That computer has a premium attached to it.%p
+#mes It's difficult to obtain.%p
+#mes Is it because these guys have a worldwide monopoly on them?%p
+#mes2v OKA_2898,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's the scale of the Rounders?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0239,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes2v OKA_2899,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Answer me!」%p
+#mes2v MOE_0240,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I don't know...」%p
+#mes2v MOE_0241,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Because I'm peripheral.」%p
+#mes So she's only a peripheral member、 then....%p
+#mes2v OKA_2900,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So you were the one who stole my IBN 5100 after all?」%p
+#mes Moeka doesn't answer.%p
+#mes2v OKA_2901,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why information on the IBN 5100? Anti-hacking measures?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B01
+#call macrosys,CharaDisp51
+#mes2v MOE_0242,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Preservation of confidentiality.」%p
+#mes2v MOE_0243,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「It's the highest priority...」%p
+#mes2v MOE_0244,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「For SERN.」%p
+#mes2v OKA_2902,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just what are they hiding?」%p
+#mes2v OKA_2903,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Even by hacking with a normal PC、 we could see that they killed hundreds of human test subjects in their time travel experiments.」%p
+#mes2v OKA_2904,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You mean their IBN 5100 database has even more classified information!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0245,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I don't know...」%p
+#mes2v OKA_2905,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Because you're peripheral?」%p
+#mes I said so sarcastically、 but Moeka nodded.%p
+#mes Damn. Useless bitch.%p
+#mes2v OKA_2906,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why did you attack the lab? No、 for you、 it's 'Why will you attack the lab'?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B05
+#call macrosys,CharaDisp51
+#mes2v MOE_0246,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...you should know.」%p
+#mes2v OKA_2907,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Because we hacked into SERN?」%p
+#mes2v MOE_0247,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Three reasons.」%p
+#mes2v MOE_0248,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「First. Because you knew. All of you.」%p
+#mes2v MOE_0249,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Something you shouldn't know.」%p
+#mes So they did find out about the hacking....%p
+#mes2v MOE_0250,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「And the time machine.」%p
+#mes2v MOE_0251,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That you guys made.」%p
+#mes They want to steal that、 huh.%p
+#mes It seems SERN wants a monopoly on time machine technology to the very end.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B01
+#call macrosys,CharaDisp51
+#mes2v MOE_0252,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「The decisive reason:」%p
+#mes2v MOE_0253,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「You guys tried to announce that time machine to the world.」%p
+#mes Why does she know that much....%p
+#mes We decided that right after the Time Leap Machine was completed.%p
+#mes Basically、 three hours ago.%p
+#mes2v MOE_0254,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That's why、 all members、 to be restrained...」%p
+#mes2v OKA_2908,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Restrained? You killed Mayuri!」%p
+#mes2v MOE_0255,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「She is unnecessary.」%p
+#mes I flip out at that word.%p
+#mes I nearly pulled the trigger.%p
+#mes2v MOE_0256,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「The ones who made the time machine are you、 Makise、 and Hashida.」%p
+#mes2v MOE_0257,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「It doesn't matter if we kill her.」%p
+#mes2v MOE_0258,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「That's what I was told.」%p
+#mes2v OKA_2909,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you plan to do after restraining us?」%p
+#mes2v MOE_0259,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Confine you in SERN's facilities、 and force you to research time machines...」%p
+#mes2v OKA_2910,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So you're going that and crush all of SERN's time machine research competition?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B05
+#call macrosys,CharaDisp51
+#mes2v MOE_0260,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...I was just ordered to retrieve.」%p
+#mes2v OKA_2911,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It was a mistake to consider you a friend for even a second.」%p
+#mes2v MOE_0261,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...For SERN. Everything.」%p
+#mes2v MOE_0262,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...FB's orders. Everything.」%p
+#mes2v MOE_0263,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...I'll do anything. If FB tells me to.」%p
+#mes FB....%p
+#mes Is that her superior's name?%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B01
+#call macrosys,CharaDisp51
+#mes2v MOE_0264,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Okabe-kun.」%p
+#mes2v MOE_0265,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...Are you?」%p
+#mes2v MOE_0266,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...John Titor.」%p
+#mes2v OKA_2912,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...What?」%p
+#mes John Titor?%p
+#mes2v MOE_0267,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I can't think of anyone. But you...」%p
+#mes Me?%p
+#mes2v OKA_2913,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How absurd.」%p
+#mes I press the gun into Moeka's back more strongly.%p
+#mes2v OKA_2914,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「More importantly、 if you don't feel like dying、 call your off your friends and that FB guy. Cancel the lab attack.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes Moeka shakes her head left and right.%p
+#mes2v MOE_0268,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I don't have the authority.」%p
+#mes2v OKA_2915,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Like I give a shit. Just do something、 authority or not. Or else...」%p
+#mes2v OKA_2916,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll kill you.」%p
+#mes I can't kill her.%p
+#mes I'm not a murderer.%p
+#mes Honestly、 my hands are trembling just like Moeka's did when she attacked the lab.%p
+#mes2v OKA_2917,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why... did you kill...」%p
+#mes Even though her hands were trembling back then.%p
+#mes Even though murder is a dreadful thing.%p
+#mes Right now、 when I said "I'll kill you»、 the trembling got even stronger.%p
+#mes2v OKA_2918,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You didn't want to do that either、 did you? So why...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B01
+#call macrosys,CharaDisp51
+#mes2v MOE_0269,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「I」%p
+#mes2v MOE_0270,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...just obey」%p
+#mes2v MOE_0271,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「FB.」%p
+#mes2v OKA_2919,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then just bring that FB bastard here.」%p
+#mes Moeka shakes her head again.%p
+#mes2v OKA_2920,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just tell me his circumstances or else──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B02
+#call macrosys,CharaDisp51
+#mes2v MOE_0272,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「...that's impossible.」%p
+#setFlag SF_Phone_AutoDisable
+#mes2v MOE_0273,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Meeting with FB──」%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_PhoneSD_Disp
+#mes Something hard is pushed onto my back.%p
+#mes I get the chills.%p
+#mes I didn't notice any signs at all.%p
+#mes Someone is behind me....%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#call macrosys,Set_VOspeaker_Rear
+#mes2v RNA_0009,NO_CHARACTER,VID_ETC,＠Attacker　A＠「Throw the gun away.」%p
+#mes A man's voice.%p
+#mes Moeka's comrade...?%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_2921,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's dirty、 Kiryuu Moeka...!」%p
+#mes Regrettably、 I was still about to pull the trigger.%p
+#mes2v OKA_2922,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Didn't we promise to meet alone...!?」%p
+#mes2v MOE_0274,NO_LIPANM_MOE,VID_MOE,＠Moeka＠「…………」%p
+#mes Moeka doesn't answer.%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v RNA_0010,NO_CHARACTER,VID_ETC,＠Attacker　A＠「Just throw the gun away.」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_2923,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll give you the time machine. Just don't kill anyone.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MOE_ALB
+#assign $W(SW_CHA5FACE),Face_MOE_B05
+#call macrosys,CharaDisp51
+#mes2v MOE_0275,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「Even then──」%p
+#mes Even though I'm still thrusting a gun at her、 Moeka ignores it and looks back at me.%p
+#mes Expressionless.%p
+#mes Cold eyes.%p
+#mes2v MOE_0276,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「You'll be confined...」%p
+#mes2v MOE_0277,$W(LR_LIP_MOE),VID_MOE,＠Moeka＠「And never let loose.」%p
+#mes Moeka takes the gun from my hand.%p
+#mes She takes it back while I'm unable to resist.%p
+#mes2v OKA_2924,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Please...」%p
+#mes2v OKA_2925,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I apologize for hacking... so please don't kill anyone...」%p
+#messWindowCloseWait
+#playSE 0,SGSE062
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,Qua2All
+#call macrosys,FadeOutWhiteFast
+#call macrosys,CharaClrAll
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInSLOW
+#mes I suddenly take a strong impact to the back of the head and collapse on the spot.%p
+#mes My consciousness fades.%p
+#mes2v RNA_0011,NO_CHARACTER,VID_ETC,＠Attacker　A＠「Target B secured. Retrieval please.」%p
+#mes I knew it was useless.%p
+#mes Even if Moeka's group doesn't kill her.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes Mayuri will be killed by the world.%p
+#mes That's surely what the world has decided.%p
+#mes That's Steins;Gate's choice.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes ...What do you mean、 Steins;Gate? You retarded?%p
+#mes There's no such thing.%p
+#mes There's no meaning to those words.%p
+#mes It's just my catch phrase.%p
+#mes But──%p
+#mes Fate certainly exists.%p
+#mes The will of the world. Natural providence. In other words、 an absolute force that humans cannot oppose.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG089
+#setFlag SF_BG1DISP
+#call macrosys,FadeInVERY2SLOW
+#mes I wake up in a station wagon.%p
+#mes I'm lying down in the rear seat.%p
+#mes The windows are all coated with a black film、 so with a single glance、 I can't tell where we are or what's inside.%p
+#mes I feel a throbbing pain in the back of my head.%p
+#mes My hands are tied behind me.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes What time is it now?%p
+#mes How long have I been unconscious?%p
+#mes Aside from me、 there's another man inside the car.%p
+#mes I recognize him from a previous time leap. He's the one that stabbed Mayuri to death when we tried to escape by taxi.%p
+#mes So he was one of Moeka's comrades after all.%p
+#mes The man seems to have noticed I've woken up、 but he doesn't call out to me.%p
+#mes He just wordlessly shows me his gun.%p
+#mes As long as I have this、 you can't run away.%p
+#mes It's like he said that.%p
+#mes The car's clock says it's past 7.%p
+#mes I look out the window again.%p
+#mes It seems the car's parked on Kuramae-hashi Dori.%p
+#mes Meaning we're close to the lab.%p
+#mes Has Moeka already attacked?%p
+#mes I told all lab mems including Mayuri to escape beforehand.%p
+#mes She probably won't be killed by Moeka's group.%p
+#mes While that might be true、 I don't know if I saved Mayuri or not.%p
+#mes At this rate、 Moeka's going to take the Time Leap Machine away.%p
+#mes What'll happen then?%p
+#mes I'm fine as long as Mayuri is saved.%p
+#mes But the will of the world will probably kill her.%p
+#mes Since I have the Time Leap Machine、 I can still do trial and error.%p
+#mes I plan to keep time leaping until Mayuri is saved.%p
+#mes But if they take away the machine、 then the future will be decided.%p
+#mes The future without Mayuri.%p
+#mes As long as I can time leap、 I can undo everything.%p
+#mes Even if I get shot here and now、 there's no problem as long as it's not an instant kill.%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes2v OKA_2926,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Aaaaahhhhhh────！」%p
+#messWindowCloseWait
+#playSE 0,SGSE057
+#call macrosys,FadeOut0
+#call macrosys,SEwaitHalf
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05N2
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM12
+#mes It's a hard fight since my bound hands restricts me to headbutts and kicks.%p
+#mes I got hit by a bullet. The bleeding in my neck and chest won't stop、 but neither will the adrenaline. I don't feel that much pain.%p
+#mes Since I can move、 I guess it's not a fatal wound.%p
+#mes I go to the lab with my hands still tied.%p
+#mes I'm afraid I might not be able to input the Time Leap Machine's settings in this condition.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01N1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes Mayuri、 Kurisu、 and Daru are in the lab.%p
+#mes And so are Moeka、 and her fellow men.%p
+#mes When I open the door and rush in、 everyone looks at me in surprise.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSC
+#assign $W(SW_CHA5POSX),CHR_LEFT_T
+#assign $W(SW_CHA5FACE),Face_MAY_C04
+#call macrosys,CharaDisp51
+#mes2v MAY_0881,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin!」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CLC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5POSY),270
+#assign $W(SW_CHA5SIZEX),1250
+#assign $W(SW_CHA5SIZEY),1250
+#assign $W(SW_CHA5FACE),Face_MAY_C04
+#call macrosys,CharaDisp51
+#mes Mayuri sees my tattered body、 rushing over to me while shedding tears.%p
+#mes Stop──%p
+#mes I try to stop that careless action.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MOE_BSB
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_MOE_B05
+#assign $W(LR_FADE_TIM),CHR_SLOW
+#call macrosys,CharaDisp62
+#mes Moeka points her gun at Mayuri in the corner of my vision.%p
+#mes I force my way through the trajectory.%p
+#mes I cover Mayuri.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,BG_BLACK
+#assign $W(SW_BG3PRI),PRI_UPPER_ALL
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG3MASKNO),MASK03
+#assign $W(SW_BG3MASKFADERANGE),128
+#assign $W(SW_BG3FADECT),(BGFADECT_MASK_BASE+$W(SW_BG2MASKFADERANGE))
+#assign $W(LR_FADE_TIM),FADE_FAST
+#call macrosys,BG3_FadeInTIM
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes But a man pulls me down from behind──%p
+#playSE 0,SGSE061
+#mes2v MAY_0882,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「agh──！」%p
+#playSE 0,SGSE015
+#mes Mayuri's small body collapses before my eyes.%p
+#mes Her widened eyes look to me.%p
+#mes Her eyes、 wet with tears.%p
+#mes Have already lost their light.%p
+#mes This result again....%p
+#mes Again──%p
+#mes Again──！%p
+#messWindowCloseWait
+#mes What happened after is the same.%p
+#setFlag SF_Phone_AutoDisable
+#mes Suzuha defeats all the "Attackers" men that appeared and Kurisu helps me time leap──%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#call macrosys,FadeInSLOW
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG06_11
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG06_11
+#resetFlag SF_SYSTEMCHIP_HIDE
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

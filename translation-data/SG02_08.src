@@ -1,0 +1,1099 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0731
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG13A1
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#mes I said I'd search for the IBN 5100、 but I have zero clues.%p
+#mes I tried looking for information in an internet cafe for about an hour、 but to no result.%p
+#mes I indulge in thoughts while drinking mango juice with tapioca that I bought from a juice stand inside Yodobashi.%p
+#mes It's Saturday、 so the front of the station's starting to get crowded.%p
+#mes Some maids hand out leaflets to the people coming out of the station.%p
+#mes Is there anybody well-acquainted with retro PCs other than Daru?%p
+#mes That reminds me、 that Shining Finger was devoted to the IBN 5100、 wasn't she?%p
+#label L_SG02_08_PHONE_SEND_01
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_PhoneSendMailExec
+#PhoneSendActive PhID_MOE,PhID_NONE,PhID_NONE,PhID_NONE
+#mes I'm reluctant to contact that mail demon、 though....%p
+#flagOnJump SF_PhoneSendMailExec,L_SG02_08_PHONE_SEND_01_EXEC
+#setFlag SF_Phone_AutoDisable
+#mes Though I realize reluctance has no relevance when the outcome of the crusade is at stake.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG02_08_PHONE_SEND_01_EXEC
+#label L_SG02_08_PHONE_SEND_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneSendMail
+#resetFlag SF_PhoneSendMailExec
+#resetFlag SF_Phone_AutoDisable
+#setFlag SF_Phone_Disable
+#jump L_SG02_08_JUNCTION_011
+#label L_SG02_08_JUNCTION_010
+#label L_SG02_08_PHONE_SEND_01_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneSendMail
+#resetFlag SF_PhoneSendMailExec
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0201_0
+#assign $W(SW_PHONE_MAILCURMNO),CREATE_NEW_MAIL
+#call macrosys2,START_SendMailEdit
+#mes I don't know Masseuse's phone number、 so I decide to mail her for the time being.%p
+#assign $W(LR_TARGET_MAILNO),FM_To_MOE0201
+#call macrosys2,SendMailEdit_NEXT
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#resetFlag SF_Phone_Open
+#setFlag_MailRecive$W(SW_PHONE_SENDMAILNO)
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#mes I finish drinking the mango juice with tapioca、 and aimlessly head towards Chuo Dori.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG16A1
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG16A1
+#mwait 32
+#call macrosys,TUNE_CHACOL_BGNO
+#label L_SG02_08_PHONE_RECEIVE_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0209
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes And then a mail comes.%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_READ_FM_From_MOE0209
+#label L_SG02_08_PHONE_RECEIVE_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0209
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,DISP_RECEIVEBOX
+#wait 1
+#mwait 30
+#mes The sender is Shining Finger.%p
+#mes Such a quick response.%p
+#mes But I asked her to call、 so why did she reply with a mail?%p
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0209
+#call macrosys2,SELECT_RECEIVED_MAIL
+#call macrosys2,DISP_RECEIVED_MAIL
+#label L_SG02_08_READ_FM_From_MOE0209
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0209
+#resetFlag SF_PhoneTrigger
+#assign $W(LR_G00),FM_From_MOE0209
+#jump L_SG02_08_JUNCTION_012
+#label L_SG02_08_JUNCTION_011
+#resetFlag SF_Phone_Disable
+#mes In the end、 I finish drinking the mango juice without making contact.%p
+#mes I aimlessly head towards Chuo Dori.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG16A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG16A1
+#call macrosys,TUNE_CHACOL_BGNO
+#mwait 32
+#call macrosys,FadeInSLOW
+#label L_SG02_08_PHONE_RECEIVE_02
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0210
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes Then、 almost as if on cue、 a mail comes.%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_READ_FM_From_MOE0210
+#mes Could it be... the mail demon?%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_READ_FM_From_MOE0210
+#label L_SG02_08_PHONE_RECEIVE_02_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0210
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0210
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#label L_SG02_08_READ_FM_From_MOE0210
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0210
+#resetFlag SF_PhoneTrigger
+#mes Tch、 it's like she can read my mind.%p
+#resetFlag SF_Phone_Open
+#setFlag SF_Phone_Disable
+#mes I instinctively survey my surroundings while walking.%p
+#mes I try looking for that gloomy face、 but can't find her.%p
+#label L_SG02_08_PHONE_REPLY_01
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_Phone_Disable
+#setFlag_MailReply FM_From_MOE0210
+#setFlag_MailTrigger FM_From_MOE0210
+#resetFlag SF_PhoneTrigger
+#setFlag SF_Phone_HintDisp
+#mes Oh well. Should I reply?%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_PHONE_REPLY_EXEC
+#label L_SG02_08_PHONE_REPLY_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0210
+#resetFlag SF_PhoneTrigger
+#PhoneInit
+#assign $W(SW_PHONE_MAILMENUCUR),0
+#assign $W(SW_PHONE_MAILCURMNO),FM_From_MOE0210
+#PhoneSetMailViewInfo
+#assign $W(SW_PHONE_MAILDISPLINE),0
+#assign $W(SW_PHONE_MODE),PhoneMode_ReceivedMail
+#setFlag SF_Phone_Open
+#wait 1
+#mwait 30
+#setAchievement 25
+#setFlag_MailReply $W(SW_PHONE_MAILCURMNO)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0201
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 30
+#mes I don't know Masseuse's phone number、 so I decide to mail her for the time being.%p
+#label L_SG02_08_PHONE_REPLY_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0210
+#resetFlag SF_PhoneTrigger
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0201
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 30
+#mes I ask her to call、 and include my phone number、 as I send.%p
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Now I just have to wait for her response.%p
+#label L_SG02_08_PHONE_RECEIVE_03
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0211
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes And、 a reply soon comes.%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_READ_FM_From_MOE0211
+#label L_SG02_08_PHONE_RECEIVE_03_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0211
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,DISP_RECEIVEBOX
+#mes Such a quick response.%p
+#mes But I asked her to call、 so why did she reply with a mail?%p
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#label L_SG02_08_READ_FM_From_MOE0211
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0211
+#resetFlag SF_PhoneTrigger
+#assign $W(LR_G00),FM_From_MOE0211
+#jump L_SG02_08_JUNCTION_012
+#label L_SG02_08_JUNCTION_012
+#mes By mail?%p
+#mes It's such complicated talk、 so why do I have to use such a tedious method?%p
+#mes I need to find out her phone number.%p
+#setFlag_MailReply $W(LR_G00)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0202
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 30
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0202
+#assign $W(SW_PHONE_MAILCURMNO),$W(LR_G00)
+#call macrosys2,START_SendMailEdit
+#mes Tell me your phone number. And also any information you've got on the IBN 5100.%p
+#call macrosys2,PHONE_MAIL_SENDING
+#mes Now I'll send this.%p
+#assign $W(SW_PHONE_MODE),PhoneMode_CompleteSendMail
+#wait 1
+#mwait 60
+#setFlag_MailRecive$W(SW_PHONE_SENDMAILNO)
+#resetFlag_MailReply $W(LR_G00)
+#setFlag_MailReplySend$W(LR_G00)
+#setAchievement 26
+#call macrosys2,CLOSE_PHONE_WINDOW
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG08A2
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG08A2
+#call macrosys,TUNE_CHACOL_BGNO
+#mes When I look up after finishing the mail、 there's a huge crowd of people.%p
+#mes Like always、 a lot of people are in front of Radio Kaikan、 huh....%p
+#mes The mass media hasn't died down since the crash day either.%p
+#setFlag SF_Phone_AutoDisable
+#mes Radio Kaikan is still closed today.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG10A2U
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes Of course、 the satellite's still there too.%p
+#label L_SG02_08_PHONE_RECEIVE_04
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0212
+#call macrosys2,RECEIVE_NEW_MAIL
+#mes The reply comes after not even 30 seconds.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ASC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaSet51
+#assign $W(SW_PHONE_PRI),PRI_UPPER_CHARA
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#mes Right as I'm about to look down at my mail、 I catch sight of a familiar face.%p
+#mes2v CRS_0231,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah.」%p
+#call macrosys2,SEAL_PHONE_WINDOW
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes2v OKA_0717,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Assistant? What are you doing here?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0232,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey. When did I become your assistant?」%p
+#mes She looks like she'll snap at me、 so to dampen her spirit、 I go back to checking my mail.%p
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0212
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#mes That bitch...!%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes I told her to tell me her phone number and she just ignored me!%p
+#mes And she doesn't even have any information! There are limits to uselessness!%p
+#mes2v CRS_0233,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Why are you glaring at me?」%p
+#resetFlag SF_Phone_Open
+#setFlag SF_Phone_Disable
+#mes2v OKA_0718,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't mind it. You're not the cause of my frustration.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0234,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「An outburst of anger? Don't glare.」%p
+#mes2v OKA_0719,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You've glared at me several times too、 haven't you?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0235,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's because your ＨＥＮＴＡＩ--」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0236,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah、 no、 I'm not saying anything.」%p
+#label L_SG02_08_PHONE_RECEIVE_05
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0213
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#resetFlag SF_Phone_Disable
+#mes Tch、 that again....%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_READ_FM_From_MOE0213
+#label L_SG02_08_PHONE_RECEIVE_05_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0213
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0213
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#label L_SG02_08_READ_FM_From_MOE0213
+#resetFlag_MailTrigger FM_From_MOE0213
+#resetFlag SF_PhoneTrigger
+#call macrosys2,Finish_SelfStop_SkipMode
+#mes I wanted to snap my phone in half and throw it at the ground.%p
+#mes What do you mean Tell me♪!? You making fun of me with that ♪? %p
+#mes More importantly、 why does she send me two short consecutive mails like that?%p
+#mes I mean、 she might as well just send them as one.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_0237,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Are the mails you're getting that unpleasant?」%p
+#mes2v OKA_0720,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「They're more unconventional than unpleasant.」%p
+#mes I'm not satisfied calling it by one word.%p
+#setFlag_MailReply FM_From_MOE0213
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0203
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 30
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0203
+#assign $W(SW_PHONE_MAILCURMNO),FM_From_MOE0213
+#call macrosys2,START_SendMailEdit
+#mes Stop sending me bits and pieces of mail. I'm begging you、 so please send them together!%p
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#mes After sending that mail、 I'm a little satisfied.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes I turn to Kurisu again.%p
+#mes2v OKA_0721,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 Christina、 what are you doing here?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0238,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'd like you to at least call me something consistently.」%p
+#mes2v CRS_0239,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...But it doesn't really matter what I'm here for、 does it?」%p
+#mes2v OKA_0722,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What? Why are you pouting?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0240,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm not pouting. But、 I don't want to get involved with you any more than what's necessary.」%p
+#mes2v OKA_0723,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What nonsense. You're already a lab mem、 you know. You need to work for the benefit of the lab、 or we'll be in trouble.」%p
+#mes Though、 she is only a provisional member.%p
+#mes No、 it's because she's a provisional member that we need her to invest as much of her knowledge in the lab.%p
+#mes2v CRS_0241,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I hate myself for losing to curiosity back then.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Kurisu sighs while looking up to the satellite above.%p
+#mes Not just us、 but several other people are standing still here、 looking up.%p
+#mes It's become a new tourist spot in Akiba.%p
+#mes2v OKA_0724,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Did you come to see the satellite?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_0242,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I guess.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0243,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't you think it's unbelievable? Normally、 satellites are calculated to burn up in the atmosphere during orbit when they fall. How can it be in that good condition?」%p
+#mes And that's even despite the huge hole it opened up in the building....%p
+#mes I wonder if satellites are really that strong.%p
+#mes If I had to say、 I'd say they seem more brittle than strong.%p
+#mes2v OKA_0725,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where's this satellite from in the first place?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_0244,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「We still don't know. There are rumors it's something from the former Soviet Union、 but Russia denies it. Thanks to that、 it looks like they can't remove it.」%p
+#mes Three days have passed and it's still unknown. How interesting.%p
+#mes I smell a conspiracy.%p
+#mes2v OKA_0726,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see、 so this is the work of the 'Organization' too...! To erase me、 who was at Radio Kaikan at that time!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0245,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Organization'? What's that?」%p
+#mes2v OKA_0727,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The 'Organization' is the 'Organization'. Its formal name is something else、 but all those who know of its existence call it the 'Organization' out of fear.」%p
+#mes2v OKA_0728,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Manipulating the world from the shadows、 they are a secret organization transcending national borders、 with politics、 economics、 religion、 and everything else in their grasp.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0246,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Thanks for the conspiracy theory. Now cat hiss at--」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaDisp51
+#mes2v CRS_0247,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes For some reason、 Kurisu hangs her head as she blushes.%p
+#mes2v OKA_0729,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's wrong?」%p
+#mes2v CRS_0248,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「N-nothing's wrong. Really、 nothing、 okay? No more questioning.」%p
+#mes Strange woman.%p
+#mes2v CRS_0249,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「M-more importantly、 how was the Microwave Ophone!?」%p
+#mes2v OKA_0730,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why are you that interested? By the way、 it's not the Microwave Ophone、 it's the Microwave Ophone (Temp)--」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0250,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Just answer me. How was it?」%p
+#mes2v OKA_0731,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...No progress. We tried repeating the experiment、 but at present、 we haven't reproduced that discharge phenomenon、 nor returned a mail to the past.」%p
+#mes2v CRS_0251,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I see....」%p
+#label L_SG02_08_PHONE_RECEIVE_06
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0214
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes Another mail.%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_JUNCTION_020
+#mes Damn Masseuse、 I told her not to send so many brief mails、 but she doesn't understand yet?%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_JUNCTION_020
+#setFlag SF_Phone_AutoDisable
+#mes I can't handle this mail demon.%p
+#flagOnJump SF_PhoneTrigger,L_SG02_08_JUNCTION_020
+#label L_SG02_08_PHONE_RECEIVE_06_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0214
+#resetFlag SF_PhoneTrigger
+#resetFlag SF_Phone_AutoDisable
+#setFlag SF_Phone_Disable
+#jump L_SG02_08_JUNCTION_021
+#label L_SG02_08_JUNCTION_020
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0214
+#resetFlag SF_PhoneTrigger
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#PhoneSetMailViewInfo
+#If ($W(SW_PHONE_MAILDISPLINE)==($W(SW_PHONE_MAILMAXLINE)-NUM_MailViewLine)),L_SG02_08_READ_FM_From_MOE0214_CURDOWN_END
+#label L_SG02_08_READ_FM_From_MOE0214_CURDOWN_LOOP
+#add $W(SW_PHONE_MAILDISPLINE),1
+#If ($W(SW_PHONE_MAILDISPLINE)==($W(SW_PHONE_MAILMAXLINE)-NUM_MailViewLine)),L_SG02_08_READ_FM_From_MOE0214_CURDOWN_END
+#wait 1
+#assign $W(LR_TMP00),0
+#label @@
+#mwait 1
+#add $W(LR_TMP00),1
+#KeyOnJump2 PADCUST_OK,KEY_REPEAT,L_SG02_08_READ_FM_From_MOE0214_CURDOWN_LOOP
+#If ($W(LR_TMP00)<=30),@b
+#jump L_SG02_08_READ_FM_From_MOE0214_CURDOWN_LOOP
+#label L_SG02_08_READ_FM_From_MOE0214_CURDOWN_END
+#mes Looks like she's rethinking things.%p
+#mes Hopefully I don't have to worry about any more mail attacks.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C03
+#call macrosys,CharaDisp51
+#mes2v CRS_0252,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hallo-? Could you put away your phone when you're talking with someone?」%p
+#resetFlag SF_Phone_Open
+#setFlag SF_Phone_Disable
+#mes2v OKA_0732,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't say that. I'm reforming the mail demon、 so you should acknowledge my efforts.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_0253,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why are you so pompous...?」%p
+#mes2v OKA_0733,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'd like to ask you the same thing、 Christina.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0254,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#resetFlag SF_Phone_Disable
+#PhoneInit
+#assign $W(SW_PHONE_MAILMENUCUR),0
+#assign $W(SW_PHONE_MAILCURMNO),FM_From_MOE0214
+#PhoneSetMailViewInfo
+#assign $W(SW_PHONE_MAILDISPLINE),($W(SW_PHONE_MAILMAXLINE)-NUM_MailViewLine)
+#assign $W(SW_PHONE_MODE),PhoneMode_ReceivedMail
+#setAchievement 25
+#setFlag SF_Phone_Open
+#mes With that said、 let's reply to Masseuse.%p
+#setFlag_MailReply $W(SW_PHONE_MAILCURMNO)
+#assign $W(SW_PHONE_MAILSUBMENUCUR),0
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0204
+#assign $W(SW_PHONE_MODE),PhoneMode_MailSubMenu
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0204
+#call macrosys2,START_SendMailEdit
+#mes As long as you understand. I'm also looking for an IBN 5100. Let's exchange information from now on. You don't need to reply to this mail.%p
+#call macrosys2,PHONE_MAIL_SENDING
+#mes I type that out and send it.%p
+#call macrosys2,COMPLETE_SENDMAIL
+#resetFlag SF_Phone_Open
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#setFlag SF_Phone_Disable
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B02
+#call macrosys,CharaDisp51
+#mes2v CRS_0255,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Are you done with your mail exchange? Hououin-san?」%p
+#mes2v OKA_0734,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hoh、 so you remember my true name、 huh. Indeed、 my name is Hououin Kyouma.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0256,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I said it sarcastically.」%p
+#mes2v OKA_0735,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How was that sarcastic? You said my name correctly. There's nothing wrong. That's a good attitude as an assistant.」%p
+#mes2v CRS_0257,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe-san、 you're crazy、 you know?」%p
+#mes2v OKA_0736,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I am not Okabe!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0258,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm tired of talking to you....」%p
+#jump L_SG02_08_JUNCTION_022
+#label L_SG02_08_JUNCTION_021
+#mes Let's check the mail later.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B02
+#call macrosys,CharaDisp51
+#mes2v CRS_0259,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You're pompous、 but it looks like you know your manners at least.」%p
+#mes2v OKA_0737,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you mean?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_0260,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I hate people who play with their phones while talking to others.」%p
+#mes2v OKA_0738,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see、 so that's why you forcibly took my phone when we first met.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0261,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「When we first met? I didn't do that.」%p
+#mes2v OKA_0739,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah you did. When I was making my periodic report、 you grabbed my--」%p
+#mes Phone out of my hand. Before I finish talking、 I shut my mouth.%p
+#mes The events at Radio Kaikan.%p
+#mes My story of what happened back then doesn't mesh with Daru's and Mayuri's、 and now Kurisu's stories.%p
+#mes So was that a dream or an illusion after all...?%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_0262,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What? What do you mean by periodic report?」%p
+#mes2v OKA_0740,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No. It's nothing.」%p
+#jump L_SG02_08_JUNCTION_022
+#label L_SG02_08_JUNCTION_022
+#mes2v OKA_0741,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 about the Microwave Ophone (Temp).」%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v OKA_0742,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「After the experiment、 you screamed something like 'Time machines are a lie!'. Did you recall a past trauma?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0263,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 you. Don't just give me traumas like that.」%p
+#mes2v OKA_0743,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see. That was back when you were 5 years old. Christina was in an Arkansas plain when lightning--」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0264,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I wasn't hit by lightning! And I was still living in Japan when I was five. Anyway、 why Arkansas?」%p
+#mes2v OKA_0744,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「When I was trying to imagine tranquil scenery、 the first state name to come to mind was Arkansas、 and the next one was Oregon.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0265,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Not Utah? Relatively speaking、 isn't Utah more suitable?」%p
+#mes2v OKA_0745,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then answer me、 Christina! Why did you say 'lie' back then!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0266,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...It's not like I said it with any particular conviction. My logic was simply that I didn't want to believe. There's enough fringe science in novels and movies.」%p
+#mes2v OKA_0746,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fringe science? What nonsense.」%p
+#mes2v OKA_0747,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You should've seen it clearly too. The phenomenon of the mail flying into the past! The instant the banana teleported!」%p
+#mes2v CRS_0267,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I saw、 but something must be wrong. Or possibly、 we're just making convenient explanations.」%p
+#mes2v CRS_0268,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Didn't I say so at ATF? Time machines are just a pipe dream with today's technology.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0269,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And that's to say nothing of a playtime club like you guys、 who made junk just by connecting a phone to a microwave and expect time travel to occur.」%p
+#mes2v OKA_0748,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But it actually occurred. How can you deny what you saw with your own eyes? Are you saying theories are more correct than reality? Then just live out your whole life using sophistry and word play.」%p
+#mes2v CRS_0270,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What do you mean by word play?」%p
+#mes2v OKA_0749,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Quantum theory and the likes seem like nothing but word play to me.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0271,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Wait、 are you trying to deny modern physics? Who do you think you are?」%p
+#mes2v OKA_0750,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Phenomena are straightforward. What happens is everything; what doesn't happen、 what isn't observed is nothing but a hypothesis.」%p
+#mes2v CRS_0272,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「When hypotheses pile up、 and theories are verified、 they become real.」%p
+#mes2v CRS_0273,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's how modern physics comes to understand the truth of the universe.」%p
+#mes2v OKA_0751,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But there are also cases where hypotheses are mistaken. Even Einstein was wrong about some things.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0274,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So just because they could be mistaken、 you're going to do nothing? Then just live out your whole life playing king locked up in that dirty building of yours.」%p
+#mes2v CRS_0275,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You'll never reach the truth that way. Failure teaches success.」%p
+#mes2v OKA_0752,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see. Nice rebuttal.」%p
+#mes2v CRS_0276,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...You're never getting off your high horse、 huh.」%p
+#mes2v OKA_0753,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「By the way、 Christina、 I've always felt this. That physicists are contradictory.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_0277,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Contradictory?」%p
+#mes2v OKA_0754,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There certainly are phenomena that everyone knows occur in reality、 yet physicists haven't begun work on elucidating. What do you think about that?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0278,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't know unless you can cite examples.」%p
+#mes2v OKA_0755,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ghosts、 for instance.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0279,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The occult...」%p
+#mes2v OKA_0756,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're going to give up thinking because it's the occult? That contradicts what you just said.」%p
+#mes2v OKA_0757,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You'll never reach the truth that way.'」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0280,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes2v OKA_0758,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「People who have seen ghosts certainly exist. Photographic evidence also exists.」%p
+#mes2v OKA_0759,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「However、 why doesn't anyone continue turning over new hypotheses?」%p
+#mes2v CRS_0281,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...It's a different field of study.」%p
+#mes2v OKA_0760,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The study of unelucidated phenomena be damned.」%p
+#mes2v CRS_0282,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...True、 but」%p
+#mes2v OKA_0761,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「With that said、 we should accurately inspect the phenomenon of sending mail into the past. Assistant、 lend me your power.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0283,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No.」%p
+#mes Kurisu answers clearly.%p
+#mes She glares as she usually does.%p
+#mes So this genius girl really does hate me、 huh.%p
+#mes2v CRS_0284,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I won't have a hand in fringe science. I won't make the same mistake my father did.」%p
+#mes2v OKA_0762,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Father...?」%p
+#mes2v CRS_0285,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Your line of thought is okay to express verbally、 but it doesn't hold in the academic society.」%p
+#mes2v CRS_0286,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The day you decide to research time travel theory is the day you're out a job.」%p
+#mes2v OKA_0763,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How can you say it that certainly?」%p
+#mes2v CRS_0287,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's how my father was.」%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes Kurisu grinds her teeth.%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes2v CRS_0288,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「My physicist father loved time machines. He was fascinated by Wells' 'The Time Machine' and seriously studied them.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0289,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But since he was too obsessed、 he was nearly banished from the academic society.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0290,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Since I saw that happen to my father、 I don't want to get involved with time travel research...!」%p
+#mes Her sheer force puts me to shame this time.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Umm、 did I get her seriously mad?%p
+#mes I feel like I stepped on an unexpected land mine.%p
+#mes What do I do? If I get her any angrier、 she could sting me.%p
+#mes Let's calm her down a little.%p
+#mes Let's do that.%p
+#mes Umm、 how should I talk to her...?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#mwait 1
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0291,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I'm sorry. I got emotional.」%p
+#mes She apologizes first.%p
+#mes Christina's calm nature saves me.%p
+#mes2v OKA_0764,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fuhahaha! Don't worry about it! I wanted to test your nature、 so I purposefully made you angry!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0292,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0293,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Anyway、 the Microwave Ophone isn't a time machine.」%p
+#mes2v CRS_0294,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Mail transmission is a man made system、 so it should be a phenomenon explainable in the scope of that system.」%p
+#mes2v OKA_0765,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I understand how you think、 Assistant. You hate time machines that much. Your reaction was like an allergy.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0295,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes2v OKA_0766,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm sorry to trouble you by forcing you to become a lab mem. You don't have to come again.」%p
+#mes2v CRS_0296,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Even if you don't tell me、 I won't come.」%p
+#mes2v OKA_0767,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But、 I will tell you this. Christina.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0297,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't say Christina.」%p
+#mes2v OKA_0768,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lab Mem Number 004 will be a retired number. That number... is yours forever.」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG13A1
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG13A1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes Ending the speech、 I turn my back to Kurisu. I don't look back.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK15
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#resetFlag SF_BG1DISP
+#mes I close my eyes and walk slowly.%p
+#mes I'm not looking ahead、 so I'm worried I might bump into someone.%p
+#mes Wait、 am I even walking straight in the first place?%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v CRS_0298,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What are you trying to show off for?」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK15
+#assign $W(LR_FADE_TIM),BG_VERYFAST
+#call macrosys,BG2_FadeOutTIM
+#call macrosys,Qua3BG1
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#resetFlag SF_Phone_Disable
+#mes My shoulder is suddenly pulled from behind.%p
+#mes I brace my legs so I don't fall backwards.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG08A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG08A2
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK18
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_0769,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you doing!? You just ruined my production-- a farewell scene walking into the sunset、 and you still call yourself my assistant!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_0299,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Like I said、 I'm not your assistant! And besides、 I still have something to talk to you about!」%p
+#mes Dammit、 her obstinacy has returned...!%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0300,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I didn't hear this、 but before、 you said I was stabbed、 right? I demand an explanation for that.」%p
+#mes That's right、 that's another Phenomenon hasn't been elucidated even though it occurred in real life.%p
+#mes2v OKA_0770,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That was an illusion I saw.」%p
+#mes I'll just leave it at that for now.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_0301,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why did you dream about me?」%p
+#mes2v OKA_0771,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I don't know. And it wasn't a dream、 but an illusion.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_0302,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You said something about Doctor Nakabachi、 but what was it?」%p
+#mes2v OKA_0772,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「On that day、 Doctor Nakabachi held a time machine presentation at Radio Kaikan.」%p
+#mes2v CRS_0303,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The presentation was canceled. Because of the satellite crash.」%p
+#mes2v OKA_0773,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's how things seem to have turned out、 huh. But it safely opened in the illusion I saw. Mayuri and I went to see it when you called out to me.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0304,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't flirt. Much less call out to idiots like you.」%p
+#mes2v OKA_0774,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Like I said、 it was an illusion、 right? No、 maybe... it's this world that's the illusion.」%p
+#mes2v OKA_0775,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If that's the case、 that solves the riddle of the Microwave Ophone (Temp). If it's an illusion、 then it could possibly disregard the laws of physics.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0305,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Escapism? How unexpectedly chicken、 huh.」%p
+#mes2v OKA_0776,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I proposed a hypothesis. That's the strong point of physicists.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0306,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So、 who stabbed me? Don't tell me、 you did?」%p
+#mes Back then、 I recall the sight of Kurisu collapsed in a puddle of blood and start shivering.%p
+#mes Was that really an illusion? Even so、 it was too real.%p
+#mes I can clearly remember the smell of blood.%p
+#mes2v OKA_0777,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「When I rushed over、 you were already collapsed and bloody. I couldn't find the culprit.」%p
+#mes2v CRS_0307,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't get it. Why do I have to die in your illusion....? Do you hate me?」%p
+#mes2v OKA_0778,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Not one bit. At that point in time、 we had only spoken once. We were just passing strangers.」%p
+#mes Well、 that one time we talked was during the events of the illusion、 so strictly speaking、 at that point in time、 the only information I had on the person named Makise Kurisu was that she had been published.%p
+#mes2v OKA_0779,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Anyway、 we basically had no points of contact. That's why、 after seeing your corpse、 I ran away without calling 119.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0308,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「How cruel.」%p
+#mes2v OKA_0780,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you want? You want me to go back to the past and handle your corpse courteously? I'd need to use the Microwave Ophone (Temp) for that、 though.」%p
+#mes Though we'd still need to clear the problem of returning to the illusion.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0309,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...That's enough. Don't see any more illusions. It doesn't feel good to think you're being killed in other people's dreams.」%p
+#mes2v OKA_0781,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I can't make any guarantees. To do that would require 24 hour perfect surveillance inside my brain.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0310,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You really have a comeback for everything、 don't you.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Kurisu shakes her head side to side in amazement as she walks toward the station.%p
+#mes Looks like she wants to end the conversation.%p
+#mes In revenge for last time、 I grab Kurisu's delicate shoulder from behind.%p
+#messWindowCloseWait
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,CRS_ALC
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8POSX),CHR_CENTER
+#assign $W(SW_CHA8FACE),Face_CRS_C05
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5POSX),$W(SW_CHA8POSX)
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#assign $W(LR_FADE_TIM),CHR_VERYFAST
+#call macrosys,CharaDisp81
+#call macrosys,Qua3CHA1
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_0311,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Kyah、 wh-what--!?」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_0782,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm not done talking.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_0312,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You're trying to pick a fight.」%p
+#mes2v OKA_0783,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's revenge for ruining my farewell scene、 Christina! You shall regret your thoughtless actions!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0313,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okay、 okay、 understood. So、 what?」%p
+#mes2v OKA_0784,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「About the IBN 5100.」%p
+#mes2v CRS_0314,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't know what you mean if you just say about. What about it?」%p
+#mes2v OKA_0785,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...No、 if you don't know、 that's okay. Fare thee well. We'll probably never meet again.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG13A1
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG13A1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes This time for sure、 I turn my back to Kurisu--%p
+#messWindowCloseWait
+#call macrosys,Qua3BG1
+#call macrosys,Set_VOspeaker_Rear
+#mes2v CRS_0315,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't just stop talking there. That feels bad、 you know?」%p
+#mes She grabs my upper arm.%p
+#mes Damn woman. Not once、 but twice...!%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG08A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG08A2
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK18
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,Set_VOspeaker_Default
+#mes2v CRS_0316,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What is the IBN five... whatever?」%p
+#mes2v OKA_0786,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「IBN 5100. A retro PC from 1975. I'm searching for it now.」%p
+#mes2v CRS_0317,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hmmmm. What do you plan to use it for?」%p
+#mes Looks like she's interested.%p
+#mes She was the same when she came to the lab too、 but it seems like this woman is just brimming with curiosity.%p
+#mes2v OKA_0787,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Interested?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0318,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes Kurisu quickly averts her eyes.%p
+#mes But she doesn't let go of my arm.%p
+#mes2v OKA_0788,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're interested、 aren't you?」%p
+#mes2v CRS_0319,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Just a little.」%p
+#mes2v OKA_0789,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then allow me to tell you. The IBN 5100 and SERN have a secret connection.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0320,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「SERN as in... that SERN?」%p
+#mes2v OKA_0790,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Indeed. And through our lab's elevated examination efforts、 we have found traces of SERN researching time travel.」%p
+#mes Now、 be surprised.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0321,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Ridiculous. Never heard of that.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Kurisu gives me a cold glance、 this time for sure letting go and walking away alone.%p
+#mes Fuck-damn-shit-cunnnnt!%p
+#mes Just you watch.%p
+#setFlag SF_Phone_AutoDisable
+#mes I'll definitely disclose SERN's conspiracy!%p
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM1000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

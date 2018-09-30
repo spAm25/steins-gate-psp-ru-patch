@@ -1,0 +1,722 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#assign $W(LR_DATE),0806
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01A1
+#call macrosys,TUNE_CHACOL_BGNO
+#wait 16
+#call macrosys,FadeInVERY2SLOW
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#mes About 22 hours after I proposed my godlike alternative plan.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v RUK_0164,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「H-hello....」%p
+#mes Luka shyly visits the lab the same way he did yesterday.%p
+#mes When our eyes meet、 he gives me a bashful smile.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A05
+#call macrosys,CharaDisp51
+#mes2v RUK_0165,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Mother had a pager.」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6POSX),CHR_LEFT0
+#assign $W(SW_CHA6FACE),Face_CRS_B01
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7POSX),CHR_RIGHT
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6+IDX_CHA7)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v MAY_0476,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wah-. That's great-、 Luka-kun-」%p
+#mes2v CRS_1136,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Now we can move along.」%p
+#mes2v DAR_0644,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Luka-shi's girl version... will definitely be moe.」%p
+#mes Mayuri、 Kurisu、 and Daru are already on standby.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Sending a D-mail to a pager.%p
+#mes Yesterday、 we argued whether or not that's possible、 and eventually settled that it'll probably be okay.%p
+#mes We're still just sending data.%p
+#mes The rest depends on the pager radio wave stations 18 years ago、 but it should be fine as long as our data gets through safely.%p
+#mes We already googled how to send data to a pager.%p
+#mes Using a contemporary pager、 you would first enter the other person's pager number、 then、 if in the Kanto region、 enter *2*2.%p
+#mes And then after that、 you would enter in numbers which would be displayed on the other person's tiny LCD. It seems like that's how it works.%p
+#mes Contemporary pagers in 1992 could still only send numbers. And since number display functions were also not yet implemented、 the other person would automatically be unable to see your number.%p
+#mes A few years after that、 pagers started to implement katakana and then kanji displays、 making them not too dissimilar to current cellphone mail.%p
+#mes Therefore、 the D-mail Lukako's about to send-- it's technically not a mail、 though-- has to be sent in numerical form.%p
+#mes Of course、 I have a conversion table for that at hand.%p
+#mes You can even find information from 18 years ago if you just google it.%p
+#mes I was quite irritated that information on pagers was fairly scarce、 but that's my little secret.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),1500
+#assign $W(SW_BG1POSX),480
+#assign $W(SW_BG1POSY),360
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_CMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#call macrosys,CharaSetW5162
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v CRS_1137,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Urushibara-san、 you yourself need to think about what text to send to your mother in the past.」%p
+#label L_SG04_09_RM_FEI04_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_FEI
+#assign $W(LR_RM_CHANCE),29
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0166,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh...? I do...?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1905,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you want to grant your own wish、 then you should clear your own path to it. We are merely your outriders.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0167,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Understood....」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes We explain to Lukako the function of the Microwave Ophone (Temp).%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The numbers we're sending are half-width、 so we can send 36 of them.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The pager's number → letter conversion uses two numbers to correspond to one hiragana character.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Furthermore、 since you first need to input *2*2、 that means you can only send 16 hiragana characters.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Lukako understands everything and takes out a notebook、 writing drafts of the pager message.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I showed Lukako the site I found.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes CONCERNING PAGER NUMBER AND LETTER CONVERSION is sloppily written across the browser in Gothic typeface.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0168,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Umm....」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Pager typing is commonly known as two touch typing or pager input.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Cellphone operation differs somewhat、 where you choose the consonant and then input the vowel.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The consonants are A Ka Sa Ta Na Ha Ma Ya Ra Wa.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The vowels are ａ、ｉ、ｕ、ｅ、ｏ.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Basically、 to input Ke、%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes You'd press 2 to input the consonant Ka、%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Next、 you'd press 4 for the vowel e.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CLC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0645,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「This is pretty annoying. I think if you typed '831831831'... then that would be okay.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0477,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Why 831-?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0646,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「831 for "Ya  Sa  I"、 durr. VEGGIES VEGGIES VEGGIES-- we just have to drill this into Luka-shi's mother's brain」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1906,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「She'd just end up treating that message like a prank.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0478,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Then、 then、 how about '29292929'?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1907,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'll hear you out、 but what does that mean?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0479,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「MEAT MEAT MEAT MEAT-」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_1908,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why do you want her to like meat!?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v MAY_0480,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「That's not it-. If you keep repeating 'MEAT Meeaaat-' then instead、 I think she'd start to hate meat and want to eat vegetables、 don't you think-?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,DAR_ALA
+#assign $W(SW_CHA8POSX),$W(SW_CHA2POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA6PRI)
+#assign $W(SW_CHA8FACE),Face_DAR_A04
+#call macrosys,CharaDisp82
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_ALA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_DAR_01
+#mes2v DAR_0647,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Yeah... no.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#call macrosys,SetOrder51627384
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2SIZE),1500
+#assign $W(SW_BG2POSX),480
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_CMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes Lukako completes his composition while we speak our nonsense.%p
+#label L_SG04_09_RM_FEI04_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes2v RUK_0169,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「How about something like this...?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_CMA
+#assign $W(SW_CHA6FACE),Face_RUK_A05
+#call macrosys,CharaDisp62
+#mes2v RUK_0170,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「"MOM EAT VEGGIES OKAY"」%p
+#messWindowCloseWait
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,DAR_ASA
+#assign $W(SW_CHA8POSX),CHR_RIGHT2
+#assign $W(SW_CHA8FACE),Face_DAR_A03
+#call macrosys,CharaDisp84
+#mes2v DAR_0648,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Isn't that a little too direct?」%p
+#mes2v OKA_1909,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Isn't that first 'MOM' unnecessary? It'll just leave more room for doubt.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_CMA
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#call macrosys,CharaDisp62
+#mes2v RUK_0171,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Then.... "EAT VEGGIES TO GIVE BIRTH TO A HEALTHY GIRL"」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_1138,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's too much of a stretch.... And it's over the character limit.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_CMA
+#assign $W(SW_CHA6FACE),Face_RUK_A05
+#call macrosys,CharaDisp62
+#mes2v RUK_0172,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「"EAT VEGGIES FOR HEALTHY KID..."」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,DAR_ASA
+#assign $W(SW_CHA8FACE),Face_DAR_A02
+#call macrosys,CharaDisp84
+#mes2v DAR_0649,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wait a sec. According to this conversion chart、 it looks like you gotta use two more numbers for dakuten.」%p
+#mes2v DAR_0650,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So that sentence is four half width characters over.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_CMA
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaDisp62
+#mes2v OKA_1910,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then a little modification. How about "EAT VEG 4 HEALTHY KID"?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_1139,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Isn't that too informal? You're talking to Urushibara-san's mother、 right? Would she understand the 'VEG 4' part?」%p
+#mes2v OKA_1911,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You have any bright ideas?」%p
+#label L_SG04_09_RM_FEI04_01_REPLY_END
+#RandomMail_End
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes Kurisu shrugs her shoulders and says no more.%p
+#mes Looks like it's settled.%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_CSA
+#assign $W(SW_CHA7POSX),CHR_LEFT2
+#assign $W(SW_CHA7FACE),Face_MAY_A02
+#call macrosys,CharaDisp73
+#mes2v MAY_0481,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Then let's hurry and type it out-」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),480
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#setFlag SF_Phone_AutoDisable
+#mes When sending to a pager、 the number encoded message is handled like a telephone number、 so we enter the input into the X68000 setting screan.%p
+#call macrosys,SetWindowModeFull
+#mes &lfCR6;&lc"*2*281311223134524040322512502137493"%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#mes The random and lengthy string of numbers is complete.%p
+#mes2v OKA_1912,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Alright、 preparations are A-OK.」%p
+#mes Now we just activate the Microwave Ophone (Temp) and have Lukako call.%p
+#mes The microwave timer is set to "154152#". With this、 it'll reach around January 1、 1993. Measurement error is around 1~3 days、 I guess. Leap year calculation's a pain、 so I ignored it.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0173,NO_LIPANM_RUK,VID_RUK,＠Luka＠「...」%p
+#mes Lukako's slender finger starts to tremble on top of the enter button.%p
+#mes2v OKA_1913,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ready? It's starting.」%p
+#mes We're entering the time frame for the Microwave Ophone (Temp) to start the discharge phenomenon.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mwait 16
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#setFlag SF_Phone_AutoDisable
+#mes After Lukako looks at me once with a teary face、 he faintly nods.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#assign $W(SW_SEVOL),SV_MIDDLE
+#playSE 0,SGSE011
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudio false
+#assign $W(SW_ALPHAMOVIE_PRI),PRI_LOWER_CHARA
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#playSE 1,SGSE021
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes The discharge phenomenon soon occurs.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMB
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#call macrosys,CharaDisp51
+#mes Lukako flinches and takes a step back、 but soon stiffens his expression as he pushes the enter button--%p
+#resetFlag SF_PhoneSD_Disp
+#messWindowCloseWait
+#stopSE 0
+#stopSE 1
+#wait 16
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#assign $W(SW_BG2POSX),480
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2PRI),PRI_BG
+#call macrosys,FadeOutWhiteFast
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#assign $W(LR_TMP00),MOVIE_IMV008
+#assign $W(LR_TMP01),IDX_BG2
+#call macrosys2,WD_DRIFT
+#call macrosys2,DELETE_MAIL_SG04_09
+#call macrosys2,Prepare_FM_From_TIT0303
+#setFlag_MailRecive FM_From_TIT0303_B
+#setFlag_MailView FM_From_TIT0303_B
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes I feel vertigo.%p
+#mes I soon stop standing straight and place my hand on the table to support myself.%p
+#mes After staying still for awhile、 the vertigo slowly fades.%p
+#mes As if on cue、 color gradually restores to the monochrome world.%p
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#mes2v OKA_1914,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Nn...」%p
+#mes Again. The demon eye、 Reading Steiner activated.%p
+#mes Did the world change?%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes I look around the room.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_CMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_RUK_B01
+#call macrosys,CharaDisp51
+#mes Unlike with Moeka、 Lukako's here as he should be.%p
+#mes Lukako bashfully blushes once he notices my gaze.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_CMB
+#assign $W(SW_CHA5FACE),Face_RUK_B03
+#call macrosys,CharaDisp51
+#mes2v RUK_0174,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um、 Okabe-san、 could you... please not look at me so much...?」%p
+#mes2v OKA_1915,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes I fold my arms and tilt my head.%p
+#mes Lukako's appearance didn't change a bit.%p
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),PRI2_BG
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_CHARA
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_CHAMODEFADE
+#assign $W(SW_BG8FADECT),BGFADECT_ALPHA_MAX
+#assign $W(SW_BG8POSX),820
+#assign $W(SW_BG8POSY),540
+#assign $W(SW_BG8SX),960
+#assign $W(SW_BG8SY),730
+#assign $W(SW_BG8LX),SCR_SIZ_X
+#assign $W(SW_BG8LY),SCR_SIZ_Y
+#assign $W(SW_BG8SIZE),1000
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_ZOOM
+#stop
+#setFlag SF_BG8DISP
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#assign $W(LR_G00),3
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_RUK_01
+#mes Mainly、 his chest、And his breasts、And his bosom.%p
+#assign $W(LR_G00),0
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes Since he's originally a guy、 it's natural that his chest is free of bulges.%p
+#mes But、 if he turned into a girl、 then that's a different story.%p
+#mes That washboard isn't tiny breast level. It's anti-breast level.%p
+#messWindowCloseWait
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_CHAMODEFADE
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeOutTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_EFF_CAPTURE_PRI),0
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#mes2v OKA_1916,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Was it... a failure...?」%p
+#mes So the Eat lots of vegetables to give birth to a girl thing Kurisu talked about was nothing but fringe science.%p
+#mes It was a mistake to believe in such a theory as a researcher、 Assistant.%p
+#mes2v MAY_0482,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What was a failure-?」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_CSC
+#assign $W(SW_CHA6POSX),CHR_LEFT0
+#assign $W(SW_CHA6FACE),Face_MAY_C02
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,CRS_BSC
+#assign $W(SW_CHA7POSX),CHR_LEFT_L
+#assign $W(SW_CHA7FACE),Face_CRS_C04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6+IDX_CHA7)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes Everyone、 including Lukako、 looks at me bewildered.%p
+#mes2v OKA_1917,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What you say? Is every last one of you growing senile? Just now、 we used the Microwave Ophone (Temp) to--」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes I grip my mouth as soon as I start talking.%p
+#mes They completely forgot what we did.%p
+#mes Hasn't that been proven by all the previous experiments?%p
+#mes Reading Steiner's activation means the world has changed.%p
+#mes And the only one whose memories continue before and after the change is me.%p
+#mes Therefore、 nobody here recognizes what we did just now except for me.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_1918,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Sorry. No、 it's nothing.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#mwait 64
+#call macrosys,FadeInSLOW
+#mes Afterwards、 Mayuri and Lukako happily go out shopping for lunch at a neighborhood convenience store.%p
+#mes2v OKA_1919,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina. I want to ask you something.... Lukako is...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#call macrosys,CharaDispW5162
+#mes2v CRS_1140,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What ＨＥＮＴＡＩ act are you thinking about this time? I can't be too careful around your ＨＥＮＴＡＩ duo.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A05
+#call macrosys,CharaDisp51
+#mes2v DAR_0651,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「We're not a ＨＥＮＴＡＩ duo. We are a ＨＥＮＴＡＩ gentleman duo!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSB
+#assign $W(SW_CHA6FACE),Face_CRS_B08
+#call macrosys,CharaDisp62
+#mes2v CRS_1141,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Whatever. Seriously、 whatever.」%p
+#mes2v OKA_1920,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mmm...」%p
+#mes N-now I can't ask her. It's really annoying how they don't remember.%p
+#mes Just what sort of misunderstandings would asking Did Lukako turn into a woman? bring?%p
+#mes It's scary just imagining it.%p
+#mes I should wait until I can meet with Lukako alone、 and check then.%p
+#mes But considering how his appearance didn't change at all、 it's very likely that the sex change failed.%p
+#mes In that case、 just what did Lukako's D-mail just change?%p
+#mes Same thing with Moeka. The result was different from expected.%p
+#mes This problem might be out of my control....%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_DAR_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM2000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_RUK_01
+#flagOffJump LF_THD_CTRL,Thd_IM_RUK_01_END
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+#CalcAccel SW_BG8SIZE_OFS,(1260-$W(SW_BG8SIZE)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#flagOffJump LF_THD_CTRL,Thd_IM_RUK_01_END
+#assign $W(SW_BG8SIZE),1260
+#assign $W(SW_BG8SIZE_OFS),0
+#flagOffJump LF_THD_CTRL,Thd_IM_RUK_01_END
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+#CalcAccel SW_BG8SIZE_OFS,(1587-$W(SW_BG8SIZE)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#flagOffJump LF_THD_CTRL,Thd_IM_RUK_01_END
+#assign $W(SW_BG8SIZE),1587
+#assign $W(SW_BG8SIZE_OFS),0
+#flagOffJump LF_THD_CTRL,Thd_IM_RUK_01_END
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+#CalcAccel SW_BG8SIZE_OFS,(2000-$W(SW_BG8SIZE)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#label Thd_IM_RUK_01_END
+#assign $W(SW_BG8SIZE),2000
+#assign $W(SW_BG8SIZE_OFS),0
+#resetFlag LF_THD_EXEC
+#end

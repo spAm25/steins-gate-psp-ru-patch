@@ -1,0 +1,1772 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_Phone
+#call macrosys2,SET_VID
+#assign $W(LR_DATE),0813
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG033
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM07
+#mes We don't have time to indulge in sentimentality.%p
+#mes In just about an hour and a half、 Moeka's group is going to attack the lab.%p
+#mes Before then、 we need to retrieve the IBN 5100 that Suzuha leapt back to 1975 to obtain.%p
+#mes The circumference of Radio Kaikan is in chaos because of the time machine's light emanating disappearance、 so it was easy to slip out.%p
+#mes Suzuha said let's meet in 35 years.%p
+#mes Most likely、 the 54 year old Suzuha saw the current ruckus and realized her younger self had traveled to 1975. In that case、 she'll come to the lab with the IBN 5100.%p
+#mes That's how things will go.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01E1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG01E1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes We couldn't find a middle aged lady anywhere near the lab.%p
+#mes It seems Suzuha hasn't come yet.%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02E1
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#mes2v CRS_2003,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Haah、 whoo... whoo... ahh、 so tough...」%p
+#mes Kurisu's breath is short.%p
+#mes In contrast、 Mayuri's calmly eating a banana.%p
+#mes The red numbers happen to fall into my line of sight.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG065
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes The displayed value is 0.337187%.%p
+#mes ...Divergence hasn't changed.%p
+#mes That's expected since I didn't feel Reading Steiner at all.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Let's think again.%p
+#mes It seemed like Divergence would've changed the instant Suzuha obtained an IBN 5100 in 1975.%p
+#mes Or maybe the timing of the value change is different than what I thought.%p
+#mes Maybe it's the instant Suzuha hands me the IBN 5100?%p
+#mes Maybe it's the instant we hack SERN again and delete the mail data with our new IBN 5100?%p
+#mes At any rate、 all we can do is wait for the now 54 year old Suzuha to bring us the IBN 5100.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v DAR_1006,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「By now、 Suzuha's turned 54、 right?」%p
+#mes Daru、 who had been hyperventilating a while ago、 whispered such as his breathing calmed down.%p
+#mes2v DAR_1007,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「My daughter is more than 30 years older than me、 I don't know if I want to see that or not. Feels weird man.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_2004,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「On the contrary、 it wouldn't be weird if she married and had grandchildren. Since she's 54.」%p
+#mes2v DAR_1008,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「S-so basically、 I could have great-grandchildren at this age? I don't know how I should feel...」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_1021,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I think you should pretend to be a great-grandpa-.」%p
+#mes2v DAR_1009,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Please、 don't call me a great-grandpa...」%p
+#mes While they have such idle chatter──%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#playSE 0,SGSE022
+#mes The sound of knocking resounds from the door.%p
+#mes 54 year old Suzuha came to visit!%p
+#mes I look at everyone's faces、 half in expectation、 half in anxiety、 and open the door.%p
+#mes Standing there is──%p
+#messWindowCloseWait
+#playSE 0,SGSE024
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01E1
+//#assign $W(LR_TMP00),BG01E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,TEN_AMA
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_TEN_A01
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes2v TEN_0090,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Oh、 Okabe.」%p
+#mes A muscular middle age guy、 completely different from an old woman.%p
+#mes Disappointed mood drifts about everyone.%p
+#mes2v OKA_3281,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Oh、 it's you...」%p
+#mes2v TEN_0091,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Hey、 have you seen my part timer?」%p
+#mes Manager peeks around inside the room.%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02E1
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#setFlag SF_CHA5DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_AMA
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#setFlag SF_CHA6DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#mes2v MAY_1022,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「If you're looking for Suzu-san、 she went 35 years──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_2005,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Shaddup、 Mayuri!」%p
+#mes Kurisu blocks Mayuri's mouth.%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01E1
+//#assign $W(LR_TMP00),BG01E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,TEN_AMA
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_TEN_A03
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncBNO
+#mes2v TEN_0092,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「You know anything? Where'd that girl go?」%p
+#mes2v TEN_0093,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「She's been taking these past few days off、 and I don't know when she's going to work next. She won't even answer her phone.」%p
+#mes Honestly speaking、 we don't have time to talk to Manager.%p
+#mes2v OKA_3282,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「She said she went back to her old home. I guess she's not coming back here.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,TEN_AMA
+#assign $W(SW_CHA5FACE),Face_TEN_A02
+#call macrosys,CharaDisp51
+#mes2v TEN_0094,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Whaat? Is that so?」%p
+#mes2v TEN_0095,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「That brat... She didn't say a word to me、 her employer...」%p
+#mes The future changed──%p
+#mes That's what I think.%p
+#mes At this day and time、 Manager has yet to come visit our lab.%p
+#mes It might be related to Suzuha's trip to 1975. I think it's a good sign.%p
+#mes Now、 as long as the attractor field doesn't amend history──%p
+#mes Manager gives up looking around the room and turns to me.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,TEN_AMA
+#assign $W(SW_CHA5FACE),Face_TEN_A01
+#call macrosys,CharaDisp51
+#mes2v TEN_0096,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Well、 whatever. The reason I'm visiting、 Okabe、 is because I have business with you.」%p
+#mes2v OKA_3283,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...with me?」%p
+#mes Manager puts on a serious face as he hands me an envelope.%p
+#mes It's addressed to Okabe Rintaro so、 me.%p
+#mes But there's no stamp、 nor postmark.%p
+#mes The name "橋田鈴" is written on the back.%p
+#mes2v OKA_3284,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's this?」%p
+#mes2v TEN_0097,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「A letter from the person who I was indebted to. She asked me to give this to you today.」%p
+#mes2v OKA_3285,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Eh...? Who's... it from?」%p
+#mes2v TEN_0098,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「I'd like to ask you that. How are you related to &rs"Suzu"&rt鈴&re-san?」%p
+#mes Suzu-san.%p
+#mes I'm taken aback when Manager pronounces that name.%p
+#mes "橋田鈴"%p
+#mes If I look closely、 isn't that surname the same as Daru's Hashida?%p
+#mes2v OKA_3286,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where is this woman now?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,TEN_AMA
+#assign $W(SW_CHA5FACE),Face_TEN_A03
+#call macrosys,CharaDisp51
+#mes2v TEN_0099,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Wha? No、 she passed away ten years ago.」%p
+#mes2v OKA_3287,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Passed away...!?」%p
+#mes She passed away...!?%p
+#mes I lose all hope.%p
+#mes2v OKA_3288,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...How old was she?」%p
+#mes2v TEN_0100,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Not more than 50.」%p
+#mes The age matches perfectly.%p
+#mes2v OKA_3289,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Thank you so much for passing this over、 Mister Braun!」%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02E1
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#setFlag SF_CHA5DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_AMA
+#add $W(SW_CHA6PRI),PRI2_BG
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#setFlag SF_CHA6DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#mes2v MAY_1023,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Eh? Eh? Could this be、 from Suzu-san?」%p
+#mes2v DAR_1010,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Seriously? Why did Manager have it?」%p
+#mes Manager looks at our suspicious reaction faces.%p
+#mes Since it's impossible for him to understand、 he thanks us and leaves.%p
+#mes I impatiently break the seal and examine the envelopes contents.%p
+#mes Inside is a letter written in not quite legible writing.%p
+#mes The handwriting is unstable、 as if her hand were shaking.%p
+#mes Everyone stares holes into the letter's contents.%p
+#label L_SG06_23_IBG067
+#setFlag SF_Phone_Disable
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG067B1
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#assign $W(LR_TMP00),"IBG067B2"
+#call THIS,DISP_NEXT_PAPER
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM31
+#messWindowOpenWait
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_1st
+#mes2v SUZ_0719,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「To Okabe Rintaro」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_2nd
+#mes2v SUZ_0720,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「it's been a long time. It's Amane Suzuha. Hashida Titor's girl.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_3rd
+#mes2v SUZ_0721,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「For you、 it might just have been a few hours ago.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_4th
+#mes2v SUZ_0722,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Right now、 it's AD 2000、 June 13th.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_5th
+#mes2v SUZ_0723,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Meaning it's about 10 years before you'll read this.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_6th
+#mes2v SUZ_0724,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'll just write the conclusion.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_7th
+#mes2v SUZ_0725,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Failedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailed」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_10th
+#mes2v SUZ_0726,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I failedfailedfailedfailedfailedfailedfailedfailedfailedfailed I failedfailed」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_12th
+#mes2v SUZ_0727,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Right now、 it's AD 2000、 June 14th.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_13th
+#mes2v SUZ_0728,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「It's about 9 years and 10 months before you'll read this.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_14th
+#mes2v SUZ_0729,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I failed.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_15th
+#mes2v SUZ_0730,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I remembered I was me just a year ago.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_16th
+#mes2v SUZ_0731,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The day the Great King of Terror came from the sky.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_17th
+#mes2v SUZ_0732,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Stupidstupid what's the Great King of Terror he should have come down from the sky.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_18th
+#mes2v SUZ_0733,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「For these 24 years、 I had lost my memories.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067B_19th
+#mes2v SUZ_0734,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「All I could remember was my name.」%p
+
+
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#loadBG 5,IBG067C1
+#assign $W(SW_BG5PRI),PRI2_UPPER_CHARA
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeInTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#swapBG 2,5
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),"IBG067C2"
+#call THIS,DISP_NEXT_PAPER
+#messWindowOpenWait
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_1st
+#mes2v SUZ_0735,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I remembered just a year ago.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_2nd
+#mes2v SUZ_0736,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The day the Great King of Terror was said to come down but didn't.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_3rd
+#mes2v SUZ_0737,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The Great King of Terror's nowhere to be found、 but I want to die.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_4th
+#mes2v SUZ_0738,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「The imperfectly repaired time machine malfunctioned and when I leapt to 1975、 I couldn't remember anything.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_5th
+#mes2v SUZ_0738_2,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「When I remembered it、 my mind went blank and I didn't know what to do and I got institutionalized.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_6th
+#mes2v SUZ_0739,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Now I'm living alone、 but that's as the brand new person、 Hashida Suzu、 living an ordinary life. Last year I remembered my mission as Amane Suzuha that I had completely forgotten.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_7th
+#mes2v SUZ_0740,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「FailedFailedFailedFailedFailedFailedFailedFailedFailedI fail.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_8th
+#mes2v SUZ_0740_2,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「For some reason、 the time travel went badly Father's repair was incomplete but it's not Father's fault、 it's my fault.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_9th
+#mes2v SUZ_0741,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I should've leapt directly to 1975 I shouldn't have stopped over at 2010 I shouldn't have been so selfish now the future won't change.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_10th
+#mes2v SUZ_0742,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I couldn't get an IBN 5100.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_11th
+#mes2v SUZ_0743,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'm sorry.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_12th
+#mes2v SUZ_0744,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'm so sorry.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067C_13th
+#mes2v SUZ_0745,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Why did I live this long?」%p
+
+
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#loadBG 5,IBG067D1
+#assign $W(SW_BG5PRI),PRI2_UPPER_CHARA
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeInTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#swapBG 2,5
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),"IBG067D2"
+#call THIS,DISP_NEXT_PAPER
+#messWindowOpenWait
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_1st
+#mes2v SUZ_0746,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I forgot my mission、 and just lived carefree.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_2nd
+#mes2v SUZ_0747,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「This life was meaningless.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_3rd
+#mes2v SUZ_0748,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Meaningless. Meaningless. Meaningless.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_4th
+#mes2v SUZ_0749,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「It's bad that I remembered.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_5th
+#mes2v SUZ_0750,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「It's good that I remembered.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_6th
+#mes2v SUZ_0751,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「It's good that I could apologize to you.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_7th
+#mes2v SUZ_0752,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「ForgivemeForgivemeForgivemeForgivemeForgivemeForgiveme」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_8th
+#mes2v SUZ_0753,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「My plan failed.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_9th
+#mes2v SUZ_0754,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I kept thinking about the cause for this entire year.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_10th
+#mes2v SUZ_0755,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Then I figured it out.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_11th
+#mes2v SUZ_0756,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「If I didn't hesitate just one day to leap to 1975、 this wouldn't have happened.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_12th
+#mes2v SUZ_0757,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Okabe Rintaro.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_13th
+#mes2v SUZ_0758,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「After that time machine offline meet、 I tried to leap to 1975 but you detained me.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_14th
+#mes2v SUZ_0759,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I was really happy about that、 but detaining me there was where it all failed.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_15th
+#mes2v SUZ_0760,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I should have leaped on that day. I shouldn't have missed that day.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067D_16th
+#mes2v SUZ_0761,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Since you detained me、 the time machine broke from the rain that night.」%p
+
+
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#loadBG 5,IBG067E1
+#assign $W(SW_BG5PRI),PRI2_UPPER_CHARA
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeInTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#swapBG 2,5
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),"IBG067E2"
+#call THIS,DISP_NEXT_PAPER
+#messWindowOpenWait
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_1st
+#mes2v SUZ_0762,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「If I could turn back time、 I wouldn't have let myself get detained that day.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_2nd
+#mes2v SUZ_0763,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Because then I could've gotten you guys the IBN 5100.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_3rd
+#mes2v SUZ_0764,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I could fulfill my mission.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_4th
+#mes2v SUZ_0765,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I want to fulfill my mission.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_5th
+#mes2v SUZ_0766,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Because I promised Father.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_6th
+#mes2v SUZ_0767,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Because it was Father's will.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_7th
+#mes2v SUZ_0768,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Because I want to change the future.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_8th
+#mes2v SUZ_0769,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'm sorry.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_9th
+#mes2v SUZ_0770,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'm sorry.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_10th
+#mes2v SUZ_0771,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'm sorry.」%p
+
+
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_IBG067E_11th
+#mes2v SUZ_0772,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「This life was meaningless.」%p
+
+
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#CaptureSC 5
+#assign $W(SW_BG5PRI),PRI2_UPPER_ALL
+#setFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#resetFlag SF_BG2DISP
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG2
+#call macrosys,InitBG4
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#assign $W(SW_BG3PRI),PRI2_BG
+#setFlag SF_BG3DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#mes Putting more strength into my grip、 I inadvertently start crumpling the letter.%p
+#mes What's with this letter filled with despair....%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM24
+#mes She said she failed? She said she lost her memories?%p
+#mes She said the time machine wasn't properly fixed?%p
+#mes She said she couldn't get the IBN 5100?%p
+#mes She said her life was meaningless...?%p
+#mes This... this is....%p
+#mes All of the other members were speechless.%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7POSX),CHR_LEFT
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#call macrosys,CharaDisp73
+#mes Especially Daru、 whose face had turned pale、 as if his previous excitement was a lie.%p
+#mes2v OKA_3290,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru、 didn't you... fix the time machine...?」%p
+#mes2v DAR_1011,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It-It should've been fixed.... It should've、 but... I mean、 that was my first time repairing a time machine... I might've overlooked something...」%p
+#mes2v OKA_3291,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Overlooked!? Because of that、 your daughter lost her memories for 24 years、 you know!?」%p
+#mes2v DAR_1012,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It-it's not like I meant to overlook it...!」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2006,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's right. Calm down、 you two. Hashida did everything he could. You're misplacing your anger.」%p
+#mes2v OKA_3292,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How can you be so calm?」%p
+#mes2v CRS_2007,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's how I am. Sorry about that. Just calm down.」%p
+#mes2v OKA_3293,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gh....」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I understand. I understand that Daru did nothing wrong.%p
+#mes But、 this end is just too much...!%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG067E1
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),80
+#assign $W(LR_TMP01),80
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes Just what was Suzuha feeling when she wrote this letter?%p
+#mes With wavering writing、 wretchedness.%p
+#mes With a smile、 longing.%p
+#mes But that was beyond her power.%p
+#mes 10 years ago、 Suzuha breathed her last breath.%p
+#mes ...Why did she pass away?%p
+#mes Don't tell me....%p
+#mes Unpleasant thoughts cross my head.%p
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes That's right、 Manager might know the circumstances.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01E1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#call macrosys,CharaClrAll
+#mes I rush to the window and peek at the street below.%p
+#mes With perfect timing、 Manager was closing up shop、 just about to lock the workshop door.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes2v OKA_3294,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mister Braun!」%p
+#mes I rush downstairs as I call him.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,TEN_AMA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_TEN_A01
+#call macrosys,CharaDisp62
+#mes2v TEN_0101,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Oh、 Okabe. That Radio Kaikan satellite disappeared. Everyone's in an uproar.」%p
+#mes So it's already spread to the news、 huh?%p
+#mes2v OKA_3295,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「More importantly... please、 tell me...」%p
+#mes2v TEN_0102,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Hm? What?」%p
+#mes2v OKA_3296,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hashida Suzu-san... how did she die?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,TEN_AMA
+#assign $W(SW_CHA6FACE),Face_TEN_A02
+#call macrosys,CharaDisp62
+#mes2v TEN_0103,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「...Why do you want to know?」%p
+#mes Manager glares with sharp eyes.%p
+#mes I take that glare straight on.%p
+#mes2v OKA_3297,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I... knew nothing about her death、 until now.」%p
+#mes2v OKA_3298,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I need、 to know about her last moments. That's what I feel. I must. I need to engrave her last moments... into my heart...」%p
+#mes2v TEN_0104,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「...It doesn't look like you're just curious.」%p
+#mes2v TEN_0105,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「But、 let me ask you one more time. How are you related to Suzu-san?」%p
+#mes2v OKA_3299,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...An old、 acquaintance.」%p
+#mes That's all I could answer.%p
+#mes2v OKA_3300,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「She's a very old acquaintance、 but I still clearly remember the fleeting time I spend with her...」%p
+#mes2v OKA_3301,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So tell me... please...」%p
+#mes2v TEN_0106,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「I don't really want to say it though.... Listen closely to what I'm about to say. Okay?」%p
+#mes I timidly nod.%p
+#mes And the truth he tells me──%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,TEN_AMA
+#assign $W(SW_CHA6FACE),Face_TEN_A03
+#call macrosys,CharaDisp62
+#mes2v TEN_0107,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Suicide.」%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK03
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_ALL
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes I jerk.%p
+#mes I crumble to my knees.%p
+#mes Suicide.%p
+#mes That word weighs heavily on my heart、 almost breaking it.%p
+#mes2v TEN_0108,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「At home、 she hung herself. I was the first discoverer.」%p
+#mes This life was meaningless.%p
+#mes The last words of despair written in that letter.%p
+#mes What that meant was a too cruel end without any salvation.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,TEN_AMA
+#assign $W(SW_CHA6FACE),Face_TEN_A02
+#call macrosys,CharaDisp62
+#mes2v TEN_0109,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「About a year before that、 she was quite mentally unstable. Until then、 she was a bright、 gentle woman、 though.」%p
+#mes2v TEN_0110,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「I lodged at her house...」%p
+#mes2v TEN_0111,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Suzu-san had no relatives、 and not many people came to her funeral. She was lonely...」%p
+#mes2v TEN_0112,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「Suzu-san handed me that letter a week before she died. She told me to give it to a young man named Okabe Rintaro today in 2010.」%p
+#mes2v TEN_0113,$W(LR_LIP_TEN),VID_TEN,＠Tennouji＠「I thought Suzu-san might have had precognition. Once you moved in upstairs.」%p
+#mes That's enough.%p
+#mes Just stop already.%p
+#mes I try to stand up.%p
+#mes I stumble without any strength in my legs.%p
+#mes And then a small body supports my shoulder.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_ALA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_MAY_A05
+#call macrosys,CharaDisp51
+#mes2v MAY_1024,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 are you okay-?」%p
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#mes It was Mayuri.%p
+#mes She's overdoing herself even though she has no strength.%p
+#mes I wonder if Mayuri heard the story too.%p
+#mes Her eys are moist.%p
+#mes But、 even though her lips are wavering、 she carries herself firmly.%p
+#mes Mayuri and I lightly bow to Manager and return to the lab.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes When we get back、 Daru's in front of his computer at his wits' end.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes Kurisu is standing while watching the news on TV.%p
+#mes The excited reporter is in front of Radio Kaikan.%p
+#mes The disappearance of the satellite became huge news.%p
+#mes Nobody says anything.%p
+#mes Only the sounds of the TV resound.%p
+#mes I look on top of the table again.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG065
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes The Divergence Meter Suzuha left from the future. No matter how many times I look at it、 its number stays at 0.337187%.%p
+#mes What went wrong?%p
+#mes I can't go back 10 years with the Time Leap Machine.%p
+#mes That's why it's regrettably impossible to do anything about Suzuha's death.%p
+#mes I shouldn't have let her go to 1975 after all.%p
+#mes Then this tragedy wouldn't have happened.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes But──%p
+#mes I compare the alternative again.%p
+#mes If Suzuha doesn't leap to 1975、 Mayuri can't be saved.%p
+#mes If I time leap 2 days back again、 could Daru fix it properly this time?%p
+#mes Is it possible to have it perfectly repaired?%p
+#mes Daru certainly is a supah hakah and an excellent man.%p
+#mes And that time machine was built by Daru himself 26 years in the future.%p
+#mes But at the same time.%p
+#mes It's something that he can't make without those 26 years of accumulated knowledge-- including information from SERN's completed time machine.%p
+#mes Maybe it's unreasonable to expect the current 19 year old Daru to perfectly repair it in just two days.%p
+#mes In that case、 can I have Daru use the Time Leap Machine and endlessly repeat those two days until he perfectly repairs it?%p
+#mes No. In the end、 nothing will physically change those two days.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I fall down onto the sofa and bury my face into my hands.%p
+#mes Mayuri sits next to me、 gently rubbing my back.%p
+#mes I was thankful for her feelings.%p
+#mes This was written in Suzuha's letter:%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG067E1
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),36
+#assign $W(LR_TMP01),36
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes “If I could turn back time、 I wouldn't have let myself get detained that day.”%p
+#mes ...the D-mail I sent.%p
+#mes Is that the cause?%p
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes I sent that D-mail to myself、 and as a result、 we followed Suzuha.%p
+#mes When she couldn't meet her father、 she tried to leap to 1975 that day、 but we followed her and canceled that、 so she stayed in 2010 for four more days.%p
+#mes But during that time、 the time machine was broken by a thunderstorm.%p
+#mes If I didn't pursue Suzuha.%p
+#mes If I didn't send that D-mail.%p
+#mes Suzuha would have safely gone to 1975 in her unbroken time machine.%p
+#mes So basically、 if I "cancel" that D-mail──%p
+#mes But、 is that okay?%p
+#mes If we don't detain Suzuha、 isn't that the same as undoing the four days we spent together?%p
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG18A2
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4ALPHA),0
+#setFlag SF_BG4DISP
+#assign $W(LR_TMP00),36
+#assign $W(LR_TMP01),36
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG4ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG4ALPHA),128
+#assign $W(SW_BG4ALPHA_OFS),0
+#mes That Suzuha and I wandered around searching for the pin badge.%p
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#loadBG 5,EV_S05A
+#assign $W(SW_BG5PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG5ALPHA),0
+#setFlag SF_BG5DISP
+#assign $W(LR_TMP00),36
+#assign $W(LR_TMP01),36
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG4ALPHA),(128-$W(LR_TMP11))
+#CalcMove SW_BG5ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG4ALPHA),0
+#assign $W(SW_BG4ALPHA_OFS),0
+#assign $W(SW_BG5ALPHA),128
+#assign $W(SW_BG5ALPHA_OFS),0
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#mes That Suzuha said she was thankful for being a lab mem.%p
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,EV_S06A
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4ALPHA),0
+#setFlag SF_BG4DISP
+#assign $W(LR_TMP00),36
+#assign $W(LR_TMP01),36
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG5ALPHA),(128-$W(LR_TMP11))
+#CalcMove SW_BG4ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG4ALPHA),128
+#assign $W(SW_BG4ALPHA_OFS),0
+#assign $W(SW_BG5ALPHA),0
+#assign $W(SW_BG5ALPHA_OFS),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#mes That Suzuha reunited with her father、 Daru.%p
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG4_FadeOutTIM
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#mes Canceling the D-mail means erasing all of those facts.%p
+#mes I──%p
+#mes What should I do?%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG01N1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG01N1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#playSE 0,SGSE052
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM09
+#mes An urgent newsflash resounds from the TV.%p
+#mes I raise my face in surprise.%p
+#mes The subtitles read Terrorist Bomb Threat Suspends Yamate、 Sobu、 Keihin-Tohoku Lines.%p
+#mes So I don't have any time to think....%p
+#mes If I don't hurry、 Moeka's going to attack here.%p
+#mes I don't have any time to hesitate.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#mes I rush out of the lab、 kick down the closed Braun Tube Workshop's door、 and turn on the 42in Braun tube TV.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes I return to the lab and face the Time Leap Machine.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2008,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe、 what are you doing!?」%p
+#mes Kurisu anxiously watches over my actions.%p
+#mes2v OKA_3302,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I need to do something. We can't just leave things as they are...!」%p
+#mes2v CRS_2009,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_AMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_MAY_A05
+#call macrosys,CharaDisp62
+#mes2v MAY_1025,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 you can't overdo yourself...」%p
+#mes Don't stop me.%p
+#mes Please don't stop me.%p
+#mes I have two options.%p
+#mes The D-mail I sent to myself to pursue Suzuha. I can send another mail to myself to cancel it.%p
+#mes Or I could time leap and prevent Suzuha from time traveling.%p
+#mes No、 no need to hesitate.%p
+#mes I can't hesitate.%p
+#mes Hesitation is unforgivable.%p
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes There's only one option I can take.%p
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_OKA0601_0
+#assign $W(SW_PHONE_MAILCURMNO),CREATE_NEW_MAIL
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_To_OKA0601_1
+#call macrosys2,SendMailEdit_NEXT
+#mes Cancel pursu%p
+#assign $W(LR_TARGET_MAILNO),FM_To_OKA0601_2
+#call macrosys2,SendMailEdit_NEXT
+#mes it. Last mai%p
+#assign $W(LR_TARGET_MAILNO),FM_To_OKA0601
+#call macrosys2,SendMailEdit_NEXT
+#mes l=SERNs trap%p
+#mes I type that into the mail input screen.%p
+#mes With this、 the me back then should cancel the pursuit.%p
+#assign $W(SW_PHONE_MAILSENDCUR),1
+#assign $W(SW_PHONE_MODE),PhoneMode_DialogSendMailEdit
+#wait 1
+#mwait 60
+#call macrosys2,CLOSE_PHONE_WINDOW_WAIT
+#setFlag SF_Phone_Disable
+#mes2v OKA_3303,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Kurisu. You have a special skill of remembering dates accurately、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_2010,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh? Ehh、 I guess.」%p
+#mes2v OKA_3304,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「When did we hold Suzuha's encouragement meeting?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_2011,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Four days ago. August 9th.」%p
+#mes2v MAY_1026,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 are you sending a D-mail-? But if you do that、 everything's going to disappear、 right?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes That I walked around Tokyo with Suzuha looking for the pin badge.%p
+#mes And the memories Suzuha told us about.%p
+#mes And the father and daughter reunion derived from Mayuri's detective work.%p
+#mes All of that will disappear.%p
+#mes I know. I know that all very well.%p
+#mes But this is the only thing I can do.%p
+#mes I set the microwave timer to 120 hours ago.%p
+#mes With this、 I can send the mail to just a few hours after I got the first mail to pursue Suzuha.%p
+#label L_SG06_23_PHONE_SEND_01
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_Phone_Disable
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#call macrosys2,Thread_Watch_SG06_23_PHONE_OPEN
+#mes Then I just need to send the mail.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes My goal is to save Mayuri.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes I don't care what I have to sacrifice、 if it's all for the cause.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes I've time leaped here countless times; all for the cause.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Our memories with Suzuha will disappear.  Our relationship with her will be torn apart.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Send the D-mail...!%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Just press the Send button...!%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Then you'll undo Suzuha's 25 years of isolation.  You'll save Mayuri too.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes This is the right thing.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes This is.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes The right thing.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes ...or is it?%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Is erasing Suzuha's memories really the right thing?%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Or is it just running away from reality?%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Shouldn't I examine other options、 like calling up the Microwave Ophone (Temp) and time leaping again?%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Which one is best?%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Which one is right?%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes Not good、 I'm starting to hesitiate.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes This is no time for hesitation!%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes I can't find an answer.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes But I need to reach a conclusion.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#mes I──%p
+#flagOnJump SF_PhoneSendMailExec,L_SG06_23_JUNCTION_051
+#label L_SG06_23_PHONE_SEND_01_END
+#setFlag SF_Phone_Disable
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag LF_THD_CTRL
+#jump L_SG06_23_JUNCTION_052
+#label L_SG06_23_JUNCTION_051
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag LF_THD_CTRL
+#resetFlag SF_Phone_MesCancel
+#playSE 0,SGSE011
+#mes I started up the microwave.%p
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudiofalse
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 0,SGSE021
+#mes The electrical discharge phenomenom starts immediately.%p
+#mes I place my thumb.%p
+#mes On the Send button──%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_AMC
+#assign $W(SW_CHA6POSX),CHR_LEFT0
+#assign $W(SW_CHA6FACE),Face_MAY_C04
+#call macrosys,CharaDisp62
+#mes2v MAY_1027,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Is this okay!?」%p
+#mes2v MAY_1028,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Our memories with Suzu-san... will all disappear、 you know-? Is that really okay-?」%p
+#mes Mayuri appeals to me while in tears.%p
+#mes In my mind、 I recall many of my memories with Suzuha.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#assign $W(SW_PHONE_PRI),0
+#call macrosys,FadeOutWhiteFAST
+#assign $W(SW_PHONE_PRI),PRI_BG
+#endMovie
+#assign $W(SW_BG1PRI),PRI_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#resetFlag SF_BG1DISP
+#call macrosys,CharaEraseAll
+#setEVFlag 80
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_S05A
+#setFlag SF_BG2DISP
+#call macrosys,FadeInVERYFAST
+#mes2v SUZ_0773,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Being with you guys for even just a little while... was great.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG06A1
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG06A1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_SUZ_A06
+#call macrosys,CharaSet62
+#call macrosys,SET_DOF_SHORT
+#call macrosys,FadeInFAST
+#mes2v SUZ_0774,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「I'll be sure to accomplish what you tried to do、 father...」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaSet62
+#call macrosys,FadeInFAST
+#mes2v SUZ_0775,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Well then、 let's meet in 35 years. Ah、 for you guys、 maybe a few hours、 huh. Ahaha.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMB
+#assign $W(SW_CHA6FACE),Face_SUZ_B04
+#call macrosys,CharaSet62
+#call macrosys,FadeInFAST
+#mes2v SUZ_0776,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Please. I want to change the future.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SET_DOF_LONG
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_PHONE_PRI),PRI2_LOWER_CHARA
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudiofalse
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#call macrosys,FadeInFAST
+#setFlag SF_PhoneSD_Disp
+#mes I'm erasing everything.%p
+#mes I won't ask for forgiveness.%p
+#mes This is、 after all、 for the sake of saving Mayuri.%p
+#mes But、 I am taking over Suzuha's will.%p
+#mes For the sake of the dream you entrusted me.  Your wish to change the future.%p
+#mes That's why I'm erasing our memories with you──%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_BG
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#assign $W(SW_PHONE_MODE),PhoneMode_CompleteSendMail
+#resetFlag SF_PhoneSD_Disp
+#wait 16
+#call macrosys,FadeOutWhiteFast
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#assign $W(LR_TMP00),MOVIE_IMV018
+#assign $W(LR_TMP01),IDX_BG2
+#call macrosys2,WD_DRIFT
+#call macrosys2,DELETE_MAIL_SG06_23_01
+#call macrosys2,Prepare_FM_From_TIT0303
+#setFlag_MailRecive FM_From_TIT0303_E
+#setFlag_MailView FM_From_TIT0303_E
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#call macrosys,FadeIn0
+#assign $W(LR_NXTFIL),"SG07_01"
+#end
+#label L_SG06_23_JUNCTION_052
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes I can't....%p
+#mes I can't send.%p
+#mes I can't send this D-mail....%p
+#mes Instead、 I impulsively don the headgear.%p
+#mes I set the Microwave Ophone (Temp)'s timer to the time leap limit of 48 hours.%p
+#mes I just configure the Time Leap Machine to transfer to my cellphone.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#LoadMovie MOVIE_IMV004
+#PlayMovieMemoryLoopNoAudiofalse
+#assign $W(SW_ALPHAMOVIE_PRI),PRI2_BG
+#assign $W(SW_ALPHAMOVIE_ALPHA),256
+#playSE 0,SGSE035L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2012,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Do you have a plan?」%p
+#mes Kurisu asks、 but I ignored her.%p
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_PhID),PhID_Oven
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#call macrosys2,PHONE_ADRSUBMENU_CALL
+#wait 1
+#mwait 30
+#call macrosys2,START_PHONE_CALL
+#mes I bite down on my lip while pressing the Call button──%p
+#messWindowCloseWait
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#assign $W(SW_PHONE_PRI),PRI2_LOWER_CHARA
+#playSE 1,SGSE053L,true
+#assign $W(LR_TMP00),256
+#call macrosys,KeyWait_TIM
+#assign $W(SW_SEFADE),1
+#stopSE 0
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#playSE 1,SGSE054
+#call macrosys,SEwaitHalf
+#call macrosys,FadeOutSLOW
+#call macrosys2,SEAL_PHONE_WINDOW
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#setFlag SF_Phone_Disable
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#wait 16
+#call macrosys,FadeInSLOW
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG06_23
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG06_23_02
+#resetFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_NXTFIL),"SG06_24S"
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label DISP_NEXT_PAPER
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#copyBG 2,3
+#assign $W(SW_BG3PRI),(PRI_BG+2)
+#assign $W(SW_BG3DISPMODE),BGDISPMODE_ZOOM
+#assign $W(SW_BG3POSX),PAPER_PX_INIT
+#assign $W(SW_BG3POSY),PAPER_PY_INIT
+#assign $W(SW_BG3SIZE),PAPER_ZOOM_SIZE
+#setFlag SF_BG3DISP
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),($W(SW_BG3PRI)-1)
+#setFlag SF_BG4DISP
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#loadBG 5,$W(LR_TMP00)
+#assign $W(SW_BG5PRI),PRI2_LOWER_CHARA
+#assign $W(SW_BG5ALPHA),0
+#setFlag SF_BG5DISP
+#assign $W(SW_BG8PRI),(PRI2_LOWER_CHARA+1)
+#assign $W(SW_BG8ALPHA),0
+#assign $W(SW_BG8FADECT),232
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKNO),MASK12
+#assign $W(SW_BG8MASKFADERANGE),56
+#setFlag SF_BG8DISP
+#assign $W(LR_TMP00),FADE_SLOW
+#assign $W(LR_TMP01),FADE_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG8ALPHA_OFS,BG_ALP_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG5ALPHA_OFS),$W(SW_BG8ALPHA_OFS)
+#commitAnimation
+#assign $W(SW_BG8ALPHA),BG_ALP_MAX
+#assign $W(SW_BG8ALPHA_OFS),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#swapBG 2,5
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#end

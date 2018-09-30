@@ -1,0 +1,778 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0816
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG08A
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#setFlag SF_PhoneSD_Disp
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM20
+#mes There aren't many people in Akiba today either.%p
+#mes I guess it's because everyone made the Volkerwanderung to Ariake for ComiMa.%p
+#mes But when night falls、 the returning ComiMa patrons will come marching in full force、 and there will be more people than ususal.%p
+#mes Leaving Daru aside、 I guess Mayuri went to ComiMa.%p
+#mes I would rather her not go. I want things to be as they usually are.%p
+#messWindowCloseWait
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_M08A
+#assign $W(SW_BG3PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG3ALPHA),0
+#setFlag SF_BG3DISP
+#assign $W(LR_TMP00),64
+#assign $W(LR_TMP01),64
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG3ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG3ALPHA),128
+#assign $W(SW_BG3ALPHA_OFS),0
+#mes Those feelings I heard from Mayuri before her grandmother's grave yesterday.%p
+#mes I guess she's been thinking about a lot of things in her own way.%p
+#messWindowCloseWait
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG3_FadeOutTIM
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#mes Parting from Mayuri after I sent her all the way home、 I kept looking for an answer to whether or not there was a Third Choice.%p
+#mes All of the thoughts in my head floated and vanished. My brain's a mess.%p
+#mes I thought too much、 lost my grip on what's right and what's wrong、 but there's no right or wrong choice in the first place.%p
+#mes In the end、 the last nagging question left was still Who do I let die?%p
+#mes And no matter how much I danced around it、 the answer was the same.%p
+#mes I can't chose.%p
+#mes I wanted someone else to answer for me.%p
+#mes But it's obvious that even if I entrusted it to someone else、 I would just reject whichever choice they made.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG45A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG45A4
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes I come to Radio Kaikan's rooftop again.%p
+#mes If I stay in the lab now、 it'll choke me up. When I think I'll bump into Mayuri or Kurisu、 I can't calm down.%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG077
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BgOverWrite
+#mes I look up to the sky、 and it's covered with clouds.%p
+#mes An evening shower could happen any minute now.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG45A4
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG45A4
+#call macrosys,TUNE_CHACOL_BGNO
+#mes2v OKA_4756,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「……！」%p
+#mes I thought the rooftop was empty、 but there's a previous visitor.%p
+#mes Kurisu is in the center of the wide rooftop、 sprawled out as if in the middle of a snow angel.%p
+#playSE 0,SGSE063
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C02A
+#assign $W(SW_BG2PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),20
+#assign $W(LR_TMP01),20
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYFAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes For a moment、 the sight of Kurisu collapsed in a puddle of blood floats through my mind.%p
+#mes No way、 is she dead!?%p
+#mes I rush over to her、 thinking that、 and Kurisu abruptly gets up.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes2v CRS_2567,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...oh、 Okabe.」%p
+#mes2v OKA_4757,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're alive...?」%p
+#mes After murmuring that、 I think Oh、 crap and quickly shut my trap.%p
+#mes In any case、 it doesn't look like she heard me. Kurisu doesn't particularly react; she just adjusts her disheveled hair with her hands.%p
+#mes I breathe a silent sigh of relief.%p
+#mes2v CRS_2568,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Oh right、 I forgot about the possibility I'd meet you if I came here.」%p
+#mes2v OKA_4758,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What were you doing?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_2569,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...thinking.」%p
+#mes2v OKA_4759,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Oh...」%p
+#mes About her own death...?%p
+#mes2v CRS_2570,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes2v OKA_4760,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Unable to find my next line、 I say no more.%p
+#mes Kurisu seems the same way、 looking at a capsule toy with her usual sour look.%p
+#mes An awkward air drifts between us.%p
+#mes If you think about it、 I myself am holding Kurisu's fate.%p
+#mes My decision decides if Kurisu lives or dies.%p
+#mes Yesterday's ridiculous fantasy theory was her way of forcibly constructing an I don't die theory.%p
+#mes Even if that theory were true、 she still might think about death in these circumstances after all.%p
+#mes Getting uncomfortable staying there、 I force a smile.%p
+#mes2v OKA_4761,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It looks like I'm in your way、 so I'll just go.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2571,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Ah、 okay.」%p
+#mes Another anticlimax. Usually she'd just give a sarcastic remark like Well、 this is the first considerate mad scientist I've ever seen.%p
+#mes And then、 something cold gently plops onto my nose.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG077
+#assign $W(SW_SEFADE),FADE_VERY2SLOW
+#playSE 1,SGSE068L,true
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BgOverWrite
+#call macrosys,CharaClrAll
+#mes When I look up、 raindrops keep falling on my head.%p
+#mes It's finally raining. It's an evening shower、 so it'll get intense soon.%p
+#mes Kurisu doesn't move from there.%p
+#mes Instead、 she folds her arms and hangs her head as if she doesn't notice the rain falling at all.%p
+#mes2v OKA_4762,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 it's raining.」%p
+#mes2v CRS_2572,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh? Ah、 mmm、 yeah.」%p
+#mes Kurisu's acting strange.%p
+#mes Like she's there in body but not in spirit.%p
+#mes So what she's "thinking" about is──%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG078
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_SEFADE),1
+#playSE 0,SGSE142
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BgOverWrite
+#mes2v OKA_4763,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wait、 wahh!?」%p
+#mes After just a short while、 the rain turns into a downpour.%p
+#mes No time to seek shelter.%p
+#mes2v CRS_2573,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What the hell is thiiiiisss!」%p
+#mes Kurisu's screaming voice seems to disappear in the roaring of the pouring rain.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_SLOW
+#stopSE 0
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG07A2
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG07A2
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaSet51
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM13
+#mes2v CRS_2574,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah、 what a shock.」%p
+#mes2v OKA_4764,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't underestimate evening showers.」%p
+#mes We take shelter inside and catch our breath.%p
+#mes It's been a week since the satellite-- Suzuha's time machine disappeared、 but Radio Kaikan is still closed. So the lights inside are off、 making it fairly dark.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2575,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Warn me sooner. Now even my underwear's wet.」%p
+#mes2v OKA_4765,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Same here. You got saved by the darkness、 huh、 Assistant?」%p
+#mes2v CRS_2576,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What do you mean?」%p
+#mes2v OKA_4766,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If Radio Kaikan were open、 your current unladylike figure would be exposed to countless people.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_2577,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes Even in the dim light、 I can tell Kurisu hurriedly hides her breasts with both hands.%p
+#mes2v CRS_2578,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ugh、 I forgot... you were a ＨＥＮＴＡＩ too...」%p
+#mes2v OKA_4767,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're the one who reported your underwear's wet status.」%p
+#mes2v CRS_2579,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「J-just stop talking. I won't forgive you if you're imagining what color my underwear is.」%p
+#mes2v OKA_4768,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm not imagining it.」%p
+#mes How overly self-conscious.%p
+#mes But the color of her underwear、 huh?%p
+#mes Hmmm... is it white after all?%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_2580,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ksh」%p
+#mes2v OKA_4769,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Are you cold?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B07
+#call macrosys,CharaDisp51
+#mes2v CRS_2581,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「"Then take your clothes off to dry"、 huh? D-don't screw with me. I won't fall for your ＨＥＮＴＡＩ mind tricks──」%p
+#mes2v OKA_4770,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Nobody said that! Calm down a little!」%p
+#mes2v CRS_2582,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Mmm....」%p
+#mes2v OKA_4771,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well、 even if you did take your clothes off、 you don't have to worry. In this darkness、 it's not like anyone can look at your thin nude figure──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_2583,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you say any more、 I'll cook your cerebral neocortex in ponzu and serve it in a high class restaurant.」%p
+#mes2v OKA_4772,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「S-sorry.」%p
+#mes Please spare me that horror....%p
+#mes But if we cut the wise-cracks、 all we can think of is serious business.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2584,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If it's an evening shower、 it'll end soon. Just wait it out I guess.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#mes In the darkness、 Kurisu motions to sit on the stairs.%p
+#mes I sit next to her.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG07A4
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+//#assign $W(LR_TMP00),BG07A4
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v CRS_2585,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 wait、 why are you next to me──」%p
+#mes2v OKA_4773,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_2586,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「W-why...?」%p
+#mes2v OKA_4774,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're the one who said so、 Christina.」%p
+#mes2v CRS_2587,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't come so close...」%p
+#mes2v CRS_2588,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That distance is the limit. I won't tell you to move further away、 though... if you get any closer、 I'll push you away、 okay...」%p
+#mes She gradually cools down. She starts shaking.%p
+#mes Maybe it's best to strip down to underwear.%p
+#mes But if I do that、 then Kurisu would just call me a ＨＥＮＴＡＩ again.%p
+#mes Self restraint、 huh....%p
+#mes My eyes gradually adjust to the darkness.%p
+#messWindowCloseWait
+#setEVFlag 10
+#resetFlag SF_BG3DISP
+#call macrosys,InitBG3
+#loadBG 3,EV_C08A
+#assign $W(SW_BG3FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,EvOverWrite
+#call macrosys,CharaClrAll
+#mes They can start to grasp Kurisu's figure.%p
+#mes She curls up her cold body.%p
+#mes2v CRS_2589,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...don't look this way.」%p
+#mes2v OKA_4775,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No way!? How can you tell where I'm looking in this darkness!?」%p
+#mes Does she have infravision!?%p
+#mes2v CRS_2590,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So you -were- looking then.」%p
+#mes Gah、 &rsReflexive Response&rt"Size Hang"&re、 huh.%p
+#mes She used a high level technique....%p
+#messWindowCloseWait
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG07A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG07A4
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_VERYSLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes I look away from Kurisu and take off my coat.%p
+#mes Then I notice it's torn at the shoulder.%p
+#mes2v OKA_4776,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Mm.... Maybe it got caught on something when we came inside from the roof...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2591,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What? What're you talking about?」%p
+#mes2v OKA_4777,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Nah、 there's a tear on the shoulder of my coat.」%p
+#mes2v CRS_2592,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I didn't know Okabe was a clumsy girl.」%p
+#mes2v OKA_4778,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I have the attributes of a mad scientist、 not the attributes of a clumsy girl.」%p
+#mes It feels like it's been a long time since I've talked to Kurisu as Hououin Kyouma.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2593,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okay、 okay.」%p
+#mes And then I barely see Kurisu reaching her hand this way.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_2594,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Come on、 let me see it.」%p
+#mes2v OKA_4779,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What...?」%p
+#setDic 87
+#mes2v CRS_2595,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I happen to be carrying a &cTIPSC;sewing set&cMESC; so I'll stitch it up for you.」%p
+#mes2v OKA_4780,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「A sewing set? You?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2596,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Something wrong?」%p
+#mes I obediently hand over my coat、 tilting my head.%p
+#mes2v OKA_4781,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're an experiment-loving girl、 yet you have that sort of family-oriented thing?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2597,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I could be an experiment-loving girl and a family-oriented girl at the same time、 can't I?」%p
+#mes2v OKA_4782,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're a family-oriented girl?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2598,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Relatively、 maybe. Well、 actually、 I don't know the 'Family-oriented Girl Index' among Japanese high school girls、 though.」%p
+#mes the hell is that index.... I've never heard of it.%p
+#mes Kurisu skillfully threads the needle in the darkness.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_2599,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's hard to thread it since it's wet.」%p
+#mes2v OKA_4783,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Did you really just happen to carry it?」%p
+#mes2v CRS_2600,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Shut it. Is it really that wrong for me to carry a sewing set?」%p
+#mes2v OKA_4784,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's not wrong、 it just seems like you did it on purpose.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_2601,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So basically you're trying to say I anticipated your clothes would tear、 so I prepared beforehand. I get it.」%p
+#mes2v CRS_2602,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No way in hell.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_2603,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't get me wrong、 but it's not like I'm sewing your clothes because I like you or anything、 okay?」%p
+#mes2v OKA_4785,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Oh look、 a tsundere line.」%p
+#mes2v CRS_2604,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't mock me. You coincidentally happened to tear your clothes、 and I coincidentally happened to have a sewing set. So I'm sewing it for you. That's all.」%p
+#mes2v OKA_4786,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Coincidence、 huh...」%p
+#mes2v OKA_4787,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No way... you didn't time leap or anything、 did you?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A02
+#call macrosys,CharaDisp51
+#mes2v CRS_2605,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So basically you're trying to say I noticed your clothes tore、 so I time leaped、 preparing the sewing set beforehand. I get it.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_2606,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No way in hell. No way in hell. It's so important I said it twice. Comprendes?」%p
+#mes2v OKA_4788,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Certainly. If you time leaped on purpose、 you wouldn't have brought a sewing set、 but a towel.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_2607,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What's that、 sarcasm? All you do is complain.」%p
+#mes After moving her hands a bit、 Kurisu cuts the string with her teeth、 and hands my coat back.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2608,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Here.」%p
+#mes2v OKA_4789,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Thanks.」%p
+#mes2v CRS_2609,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah、 yeah.... Well、 it was dark、 so I couldn't really tell、 but...」%p
+#mes2v CRS_2610,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If it turns out bad、 it's not my fault. It's because it's dark、 probably.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A02
+#call macrosys,CharaDisp51
+#mes2v CRS_2611,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By the way、 look forward to finding out the thread's color.」%p
+#mes2v OKA_4790,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The color's random...?」%p
+#mes2v CRS_2612,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Black、 or red、 or pink. Probability's about a third each.」%p
+#mes2v OKA_4791,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's hope it's not pink at least.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_2613,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ksh」%p
+#mes2v OKA_4792,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Cold?」%p
+#mes2v CRS_2614,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I guess.」%p
+#mes2v OKA_4793,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Want to put on my coat?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2615,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But it's wet、 isn't it?」%p
+#mes2v OKA_4794,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well、 yeah、 but」%p
+#mes2v OKA_4795,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes2v CRS_2616,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes Silence again.%p
+#mes Even though we talked wondrously when cracking jokes.%p
+#mes After just one second of silence、 we couldn't find another subject.%p
+#mes What happened yesterday makes it hard to talk after all.%p
+#mes Taking that into consideration、 I try thinking of something to safe to talk about. I couldn't think of anything、 so in the end、 I stayed quiet. That's how things were.%p
+#mes2v CRS_2617,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...come to a conclusion?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM20
+#mes Kurisu whispers、 holding her knees closer to her chest since she's cold.%p
+#mes Her voice wasn't very large、 but in the silence of this empty room、 I could clearly hear her.%p
+#mes2v OKA_4796,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes Conclusion.%p
+#mes I understood what that meant even without having to ask.%p
+#mes That's why I couldn't answer.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_2618,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Haah.... You still worried?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2619,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You like Mayuri、 don't you?」%p
+#mes2v OKA_4797,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What...?」%p
+#mes Why's she saying that all of a sudden?%p
+#mes Kurisu is turned to the darkness without looking at me.%p
+#mes2v CRS_2620,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I might just be seeing things、 but in my mind I have strange memories like deja vu.」%p
+#mes2v CRS_2621,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And in those memories、 you're desperately trying to save Mayuri、 getting hurt all alone、 yet never turning away. 」%p
+#mes2v OKA_4798,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes The same as Mayuri.%p
+#mes2v CRS_2622,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And then that Okabe would turn to me for advice、 and seeing him earnestly working his hardest would make me want to lend him strength too──」%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,CRS_ALC
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8POSX),CHR_LEFT
+#assign $W(SW_CHA8FACE),Face_CRS_C04
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_2623,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Err、 it's not like I want to save you or anything okay!? I just want to save Mayuri、 that's all.」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_4799,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_2624,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Anyway、 I wonder why I still have those memory-like illusions.」%p
+#mes So Kurisu also still has memories of previous undone world lines....%p
+#mes2v CRS_2625,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I tried doing a self-analysis. Maybe those were dreams I thought were reality、 or merely hopes、 but I couldn't come to any other conclusion.」%p
+#mes2v CRS_2626,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But only this I know for sure.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2627,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You should save Mayuri.」%p
+#mes2v OKA_4800,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...you're not scared?」%p
+#mes To save Mayuri、 I must undo this current world line....%p
+#mes Which basically means killing Kurisu──%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2628,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes2v CRS_2629,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It kinda feels like we're lost in the ruins.」%p
+#mes Kurisu says that while shrugging her shoulders and looking around.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2633,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's like power is out all around the world.」%p
+#mes2v CRS_2634,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And like we're the only ones left behind.」%p
+#mes2v OKA_4802,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_2635,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I just thought of something.」%p
+#mes2v CRS_2636,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you go to the β World Line. If everybody moves there with you at once.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B09
+#call macrosys,CharaDisp51
+#mes2v CRS_2637,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And I'm the only one who doesn't. I'm the only one who stays.」%p
+#mes2v CRS_2638,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Then、 will the entire world turn out like this place?」%p
+#mes2v CRS_2639,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But after all、 that's just another hypothesis.」%p
+#mes2v OKA_4803,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I」%p
+#mes I couldn't help but say it.%p
+#mes2v OKA_4804,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Will save you. Not just Mayuri、 but you too──」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_2640,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't talk about things you can't do.」%p
+#mes Kurisu flat out interrupts my words.%p
+#mes In the darkness. Kurisu covers her face by hugging her knees.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#mes2v CRS_2641,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You asked me earlier if I wasn't afraid、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2642,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...of course I'm afraid.」%p
+#mes2v CRS_2643,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I might disappear. I might be the only one left behind.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_2644,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Or possibly、 you might be the only one to leave this world line.」%p
+#mes2v CRS_2645,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Maybe the world will continue with nobody recognizing your disappearance、 and I'll go back to America as if nothing ever happened.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_2646,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Maybe. Maybe. Maybe....!」%p
+#mes2v CRS_2647,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Just thinking about all those possibilities makes me feel hopeless.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_2648,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But──」%p
+#mes Then Kurisu lifts her face and glares at me.%p
+#mes2v CRS_2649,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Are you saying it's okay to let Mayuri die just because of that!?」%p
+#mes2v OKA_4805,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Kurisu...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2650,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Aahh、 whatever、 it's kinda cold.」%p
+#mes Kurisu grabs her own arms.%p
+#mes When I look closely、 her shoulders are shaking.%p
+#mes2v CRS_2651,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's cause of these wet clothes. Geez.」%p
+#mes2v CRS_2652,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No. That's absolutely illogical. That's not even an acceptable hypothesis. It's all groundless delusions. I just want to cut off the brain's ability to shoot out those good-for-nothing delusions.」%p
+#mes She keeps saying those words as if irritated.%p
+#mes Kurisu was always calm.%p
+#mes Whenever I saw her、 I thought she was amazing.%p
+#mes So I thought she was calm this time as well.%p
+#mes But I was wrong.%p
+#mes She appeared to be calm、 but that wasn't the case at all.%p
+#mes Now Kurisu's desperately trying to shut out the fear of denying her own existence. She's fighting that fear all by herself.%p
+#mes There's no way she can't be afraid.%p
+#mes No matter what you say、 she's still an 18 year old girl after all.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG07A2
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),0
+#assign $W(SW_BG2LX),SCR_SIZ_X
+#assign $W(SW_BG2LY),SCR_SIZ_Y
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG07A2
+#call macrosys,TUNE_CHACOL_BGNO
+#mes And then Kurisu abruptly gets up.%p
+#mes I notice I no longer hear the sound of rumbling rain on the roof outside.%p
+#mes The evening shower seems to be over.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_2653,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Listen、 Okabe.」%p
+#mes2v CRS_2654,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's impossible to save us both. Correct?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_2655,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No matter how you struggle、 the probability is still 12.」%p
+#mes2v OKA_4806,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2656,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No buts. I won't change my conclusion.」%p
+#mes2v CRS_2657,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Save Mayuri.」%p
+#mes Heartbreaking.%p
+#mes But decisive.%p
+#mes A voice with resolve.%p
+#mes I drop down on the spot.%p
+#mes I clench my fists.%p
+#mes2v OKA_4807,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Are you telling me to give up so easily? You telling me to just abandon you!?」%p
+#mes2v OKA_4808,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's no way I can do that!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_2658,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It doesn't matter if you can or not. You must. There is no other way.」%p
+#mes2v OKA_4809,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No! You're my important comrade! I won't abandon you!」%p
+#mes2v CRS_2659,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe!」%p
+#messWindowCloseWait
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#assign $W(LR_FADE_TIM),CHR_FAST
+#call macrosys,CharaDisp51
+#mes Kurisu approaches.%p
+#mes She gets on her knees before me、 grabbing me by the collar.%p
+#mes I groan since it's hard to breathe.%p
+#mes Before my eyes is Kurisu's face.%p
+#mes That face is sternly staring at me. %p
+#mes She was always like that.%p
+#mes Always glaring at me like this....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2660,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Is there another solution? There isn't、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2661,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't want to live so badly that I'd sacrifice Mayuri for it!」%p
+#mes2v CRS_2662,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you don't save Mayuri、 then I'll hate you forever!」%p
+#mes2v OKA_4810,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Guh...」%p
+#mes Frustration. Irrationality. Intolerability.%p
+#mes The pitifulness of Kurisu saying this much about a decision that involves her own death.%p
+#mes Tormented by those feelings、 I want to cry.%p
+#mes I bite my lip to hold back the tears.%p
+#mes Can I really not do anything else?%p
+#mes I can't bear it.%p
+#mes I turn to the body that's grabbing my collar.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2663,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh...?」%p
+#mes And strongly embrace it.%p
+#mes A wet body.%p
+#mes But a certainly warm body.%p
+#mes2v OKA_4811,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But、 you're right here...!」%p
+#mes2v OKA_4812,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This... this is too much...!」%p
+#mes2v CRS_2664,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe...」%p
+#mes From Kurisu's outstretched back、%p
+#mes From Kurisu's collar-grabbing hands、%p
+#mes All strength is drained.%p
+#mes And she entrusts that body to me.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C01
+#call macrosys,CharaDisp51
+#mes2v CRS_2665,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「……thank you. For worrying that much about me.」%p
+#mes2v CRS_2666,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But that's more than enough. I'm okay、 so just think about Mayuri from now on.」%p
+#mes Kurisu is resolved to fight fear.%p
+#mes So I have no more room for hesitation either.%p
+#mes What I need to decide here and now.%p
+#mes My decision.%p
+#mes The future of the world.%p
+#mes Which comrade to let die.%p
+#mes I embrace Kurisu and whisper into her ears──%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM200
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp81
+#assign $T(THD_WORK01),TIM3000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end

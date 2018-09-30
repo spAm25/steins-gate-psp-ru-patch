@@ -1,0 +1,896 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label dstart
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG03A4
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG03A4
+#call macrosys,TUNE_CHACOL_BGNO
+#wait 16
+#call macrosys,FadeInVERY2SLOW
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#assign $W(LR_DATE),0804
+#mes I feel the scenery warp.%p
+#mes The floor shakes.%p
+#mes No、 is the ground shaking?%p
+#mes Am I shaking?%p
+#mes The images in my line of vision double and triple as they disperse--%p
+#mes They lose their color again--%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE041
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM25
+#mes2v OKA_1789,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「--!!?」%p
+#mes I'm hit by an unseen impact、 and my feet stagger.%p
+#mes I stand still、 preparing for another impact as I try to recall this sensation.%p
+#mes I've felt this sensation before.%p
+#mes Tremors as if the world itself is shaking、 more intense than when we sent the D-mails yesterday.%p
+#mes That's it、 this sensation--%p
+#mes Is the same as the mass disappearance phenomenon.%p
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#mes The impacts stop.%p
+#mes I loosen the tension in my body and observe my surroundings.%p
+#mes Did the past change?%p
+#mes No need to ask. I'm sure of it.%p
+#mes The past changed.%p
+#mes That bizarre sensation is proof of it.%p
+#mes I look around the room.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),780
+#assign $W(SW_BG1POSY),540
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes The Microwave Ophone (Temp)、 which should have about 90 seconds left on its timer、 is not in operation.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),$W(SW_BG1SIZE)
+#assign $W(SW_BG2POSX),$W(SW_BG1POSX)
+#assign $W(SW_BG2POSY),$W(SW_BG1POSY)
+#assign $W(SW_BG2DISPMODE),$W(SW_BG1DISPMODE)
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),0
+#assign $W(SW_BG1POSX),0
+#assign $W(SW_BG1POSY),0
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_POS
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Daru's here. Mayuri's here. Kurisu's here.%p
+#mes ...Where's Moeka?%p
+#mes2v OKA_1790,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where's the masseuse? Where'd she go?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BSC
+#assign $W(SW_CHA6POSX),CHR_RIGHT0
+#assign $W(SW_CHA6FACE),Face_CRS_C06
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_LEFT
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#call macrosys,CharaDispW6273
+#mes When I ask、 Daru and Kurisu、 who were discussing something in front of the X68000、 look at me dubiously.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,192,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),192
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Ah....%p
+#mes Again.%p
+#mes This uncomfortable atmosphere.%p
+#mes Same as yesterday.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#CalcAccel LR_TMP13,192,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(192-$W(LR_TMP13))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v CRS_1047,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Misuse?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDisp73
+#mes2v DAR_0608,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Okarin. Japanese please.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes I leave the development room、 look around the lounge、 behind the sofa、 in the dressing room、 the bathroom、 and the shower room. I look down the window to the street below.%p
+#mes But Moeka's nowhere to be found.%p
+#mes She disappeared.... She vanished....%p
+#setFlag SF_Phone_AutoDisable
+#mes This can't be....%p
+#messWindowCloseWait
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG1DISP
+#setEVFlag 88
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_Z01A
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#setFlag SF_BG2DISP
+#call macrosys,FadeInNormal
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#setFlag SF_BG1DISP
+#call macrosys,FadeInNormal
+#resetFlag SF_Phone_Disable
+#mes I desperately convinced myself that that phenomenon was a dream、 or a phantom.%p
+#mes The same thing happened again....%p
+#mes Does this mean Moeka disappeared because I made her experiment?%p
+#mes Why did she disappear!?%p
+#mes What does it mean to disappear!?%p
+#mes Did I undo her entire existence!?%p
+#mes Or did she get blown off into the valley between dimensions!?%p
+#mes I start shivering for fear of my own mistakes.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),2000
+#assign $W(SW_BG1POSX),400
+#assign $W(SW_BG1POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_ZOOM
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Confused、 Mayuri draws closer while eating a banana.%p
+#mes I grab her shoulders and shake her.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v OKA_1791,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where's Kiryuu Moeka? She was here just now、 wasn't she!?」%p
+#mes2v MAY_0407,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Nn~~ah~~?」%p
+#mes2v MAY_0408,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Wh~o~o~?」%p
+#mes2v OKA_1792,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Kiryuu Moeka!」%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BSC
+#assign $W(SW_CHA6POSX),CHR_RIGHT0
+#assign $W(SW_CHA6FACE),Face_CRS_C06
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_LEFT
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6+IDX_CHA7)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes Daru and Kurisu also ask with their glances.%p
+#mes2v DAR_0609,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Who's that?」%p
+#mes2v CRS_1048,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Never heard of her.」%p
+#mes2v OKA_1793,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...No way.」%p
+#mes So I erased Moeka's existence after all....%p
+#mes Wait、 did I really?%p
+#mes I don't want to accept it.%p
+#mes I won't accept the fact that I killed her!%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSC
+#assign $W(SW_CHA6FACE),Face_CRS_C05
+#call macrosys,CharaDisp62
+#mes2v CRS_1049,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe、 again?」%p
+#mes2v OKA_1794,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you mean、 'again'?」%p
+#mes2v CRS_1050,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Something like this happened yesterday. You remembered something we didn't. Uh、 what was it again....」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BSC
+#assign $W(SW_CHA6FACE),Face_CRS_C04
+#call macrosys,CharaDisp62
+#mes2v CRS_1051,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Oh yeah、 'Reading Steiner'.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_ALL
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes I certainly did give that name to this phenomenon-- or、 ability.%p
+#mes When the past changes the world line、 people's memories are reconstructed to match that world line. I just thought of that possibility.%p
+#mes And if that's true、 then how come only my memories continue even in the world line after the past changed?%p
+#mes The answer to that may be the demon eye、 Reading Steiner.%p
+#mes Looks like Kurisu remembers the name I gave in yesterday's explanation.%p
+#mes To tell the truth、 I only think of that ability as a suitable explanation.%p
+#mes But now that Moeka has disappeared、 I now want to believe that the demon eye is real.%p
+#mes Their memories. Only their memories of Moeka have disappeared!%p
+#mes Only I remember because of Reading Steiner.%p
+#mes That's definitely it!%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes Anyway、 I need to contact Moeka. I want to make sure I didn't erase her very existence.%p
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_PhID),PhID_MOE
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#mes But I don't know her phone number.%p
+#call macrosys2,PHONE_ADRSUBMENU_MAIL
+#mes Now、 in this world line and at this time、 I've only contacted her by mail.%p
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MOE0403
+#assign $W(SW_PHONE_MAILCURMNO),CREATE_NEW_MAIL
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#mes I send her a message saying If you see this mail、 please reply immediately.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Now all I can do is wait for her reply.%p
+#mes Please、 reply....%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0409,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 are you okay? Your face is ghastly pale-」%p
+#mes2v OKA_1795,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 yeah、 I've okay....」%p
+#mes My mental state is not okay、 but I'm desperately feigning calmness since I don't want to recognize that Moeka's existence disappeared.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A4
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6POSX),CHR_LEFT0
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA6)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v OKA_1796,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Assistant、 how much do you remember about the current experiment?」%p
+#mes2v CRS_1052,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't even remember experimenting.」%p
+#mes2v CRS_1053,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You sent a D-mail just now、 didn't you?」%p
+#mes2v OKA_1797,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Yeah.」%p
+#mes2v OKA_1798,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But things are different from yesterday. I didn't send the D-mail. Kiryuu Moeka did.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_ALL
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes And the perpetrator disappeared from the room like smoke.%p
+#mes She shouldn't have had time to walk out.%p
+#mes Which reminds me、 yesterday、 with the LOTO SIX experiment、 Daru teleported from the development room to the lounge....%p
+#mes So I shouldn't think that she disappeared、 but rather、 she instantly moved somewhere.%p
+#mes I hope that's it....%p
+#mes I couldn't calm down while waiting for Moeka's response、 so I check my phone's history for the mails Moeka and I exchanged.%p
+#mes That's strange.%p
+#mes The mails from that mail demon remain up until the one I received on July 31 at 12:43.%p
+#mes But the mails I received from Moeka after that time.%p
+#mes The dozens of mails I should've received from that woman are nowhere to be found.%p
+#mes Even the existence of those mails disappered.%p
+#mes The D-mail to cancel the phone model exchange. Its arrival date was July 31.%p
+#mes A time paradox occurred、 and at the same time Moeka received the D-mail、 her existence disappeared--%p
+#mes I shiver once I notice that that line of thought has no contradictions.%p
+#mes No way.%p
+#mes That can't be.%p
+#mes I mean、 her D-mail was something as harmless as don't change phone models you know?%p
+#mes So then、 what's the cause?%p
+#mes What's the cause for all traces of Moeka these four days after August 1 to disappear...?%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_1799,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina. Let's say a D-mail caused a time paradox. What would happen?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMC
+#assign $W(SW_CHA6FACE),Face_CRS_C05
+#call macrosys,CharaDisp62
+#mes2v CRS_1054,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I don't know. Not a single person has yet experienced a time paradox after all.」%p
+#mes2v OKA_1800,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But before、 didn't you say something like the world would disappear?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#call macrosys,CharaDisp62
+#mes2v CRS_1055,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I only said that that was only a theory.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_BMB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#mes2v CRS_1056,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Perhaps nothing happens、 and like a certain movie、 history gets amended to accommodate the paradox.」%p
+#setDic 62
+#mes2v CRS_1057,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「According to Dr. Hawking's &cTIPSC;chronology protection conjecture&cMESC;、 it's impossible to do things that can possibly cause time paradoxes in the first place.」%p
+#mes So is everything just a hypothesis....%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG02A1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CLC
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG8MASKNO),MASK02
+#assign $W(SW_BG8MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v MAY_0410,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 Mayushii doesn't get it-」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0411,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Since Mayushii and Okarin and everyone can talk like this、 I think that paradox hasn't happened-」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0412,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Mayushii doesn't know that Moeka-san person、 but I'm sure she's okay too♪」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT2
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDisp73
+#mes2v DAR_0610,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「That's Mayushii for you. A cute dumb girl.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0413,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehh-? Mayushii's not a dumb girl.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_LOWER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_LOWER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Right now、 I hate how Mayuri and Daru can have such a carefree conversation.%p
+#mes They don't realize the gravity of the situation.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Even though a person's existence may have disappeared from the world...!%p
+#mes In fact、 if Moeka really did vanish、 then at the same time、 that means that our creation、 the Microwave Ophone (Temp) is also responsible for that mass disappearance phenomenon.%p
+#mes I blew out the existences of that many humans--%p
+#mes I didn't want to think such frightening things、 so I desperately shake my head.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#label L_SG04_06_PHONE_RECEIVE_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0410
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes2v OKA_1801,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「……！」%p
+#flagOnJump SF_PhoneTrigger,L_SG04_06_READ_FM_From_MOE0410
+#mes A mail! From Moeka!?%p
+#flagOnJump SF_PhoneTrigger,L_SG04_06_READ_FM_From_MOE0410
+#setFlag SF_Phone_AutoDisable
+#mes I check the mail with hope.%p
+#flagOnJump SF_PhoneTrigger,L_SG04_06_READ_FM_From_MOE0410
+#label L_SG04_06_PHONE_RECEIVE_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0410
+#resetFlag SF_PhoneTrigger
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MOE0410
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#label L_SG04_06_READ_FM_From_MOE0410
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MOE0410
+#resetFlag SF_PhoneTrigger
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#messWindowCloseWait
+#assign $W(SW_PHONE_PRI),PRI2_UPPER_CHARA
+#assign $W(SW_FEATHERING_PRI),PRI2_UPPER_ALL
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes2v OKA_1802,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Ha、 haha.」%p
+#mes My body goes limp from the relief....%p
+#mes Her reply came. It came.%p
+#mes Moeka still exists in this world.%p
+#mes She didn't disappear.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Knowing that made my impatience、 my tension、 and my fears all wash away.%p
+#mes I'm moved to tears. Not because I was worried for Moeka、 but because I had avoided the fearful situation of being responsible for erasing someone's existence.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove LR_TMP11,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP11))
+#commitAnimation
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_1058,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Explain what happened、 Okabe.」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#call macrosys,FadeIn0
+#mes Urged by Kurisu、 I explain everything that just happened.%p
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaSetW5162
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v CRS_1059,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hmmm.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_1060,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I don't think it's unnatural for Kiryuu Whatsherface-san to have disappeared from this place if you consider the law of cause and effect.」%p
+#mes2v OKA_1803,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What do you mean?」%p
+#mes2v CRS_1061,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't know the details、 but when the past changed、 Kiryuu-san's actions these past four days since July 31 changed ever so slightly this time.」%p
+#mes2v CRS_1062,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「As a result、 circumstances were reconfigured so that Moeka-san didn't come to the lab...」%p
+#mes So that's why it looked like she teleported?%p
+#mes It looks like the phenomenon with gel-banas、 but it's not、 I guess.%p
+#mes Moeka didn't become a Jellyman after all.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0611,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Is that even possible?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_1063,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I didn't say that. If the fact that the D-mail was sent is erased、 then it becomes a paradox of who sent that D-mail....」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_1064,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「And there's one other thing that happened to Okabe that I don't understand.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A01
+#call macrosys,CharaDisp62
+#mes2v OKA_1804,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What?」%p
+#mes2v CRS_1065,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Reading Steiner.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_1066,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「By the way、 you should quit with that coinage since it's embarrassing.」%p
+#mes2v OKA_1805,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmph、 I didn't ask for your opinion.」%p
+#mes I'm finally able to joke again with her again.%p
+#mes Well、 maybe Kurisu wasn't joking.%p
+#mes But it's none of her business.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_1067,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「With your explanation、 you weren't the one to receive the D-mail either. Yet how come only you remember what happened before the world line changed?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_1068,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「But、 isn't this just your delusion?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A02
+#call macrosys,CharaDisp62
+#mes2v DAR_0612,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「A brain waifu. I understand.」%p
+#mes2v OKA_1806,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No you don't. Don't lump me into your ＨＥＮＴＡＩ gentleman club.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,DAR_AMA
+#assign $W(SW_CHA6FACE),Face_DAR_A03
+#call macrosys,CharaDisp62
+#mes2v CRS_1069,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This Kiryuu-san didn't exist in the first place. Or possibly、 Kiryuu Whatsherface-san does exist、 but the fact that she sent a D-mail was a delusion--」%p
+#mes2v OKA_1807,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Gwaaaah!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_1070,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...eh?」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2POSY),540
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes I hold down my left eye and crouch on the spot.%p
+#mes2v OKA_1808,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ugh、 ggh... my left eye、 this demon eye、 Reading Steiner、 aches...!」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CLA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5POSY),240
+#assign $W(SW_CHA5FACE),Face_MAY_A03
+#call macrosys,CharaDisp51
+#mes2v MAY_0414,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「O-Okarin、 are you okay...?」%p
+#mes Mayuri peeks anxiously at my face. But I lightly push her aside.%p
+#mes2v OKA_1809,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 Mayuri、 d-don't come close.... Right now、 I might end up... hurting you...!」%p
+#mes2v MAY_0415,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But Okarin、 you look like you're in pain...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_AMA
+#assign $W(SW_CHA7POSX),CHR_RIGHT_L
+#assign $W(SW_CHA7POSY),240
+#assign $W(SW_CHA7FACE),Face_DAR_A03
+#call macrosys,CharaDisp73
+#mes2v DAR_0613,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...He's trolling、 right?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_BMC
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6POSY),240
+#assign $W(SW_CHA6FACE),Face_CRS_C05
+#call macrosys,CharaDisp62
+#mes2v CRS_1071,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Y-yeah...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes2v OKA_1810,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I-I'm okay.... This aching is normal.... it'll end soon...!」%p
+#mes2v OKA_1811,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Tch、 as long as I have this demon eye... the 'Organization' will keep aiming for me...! It's the power to predict every world and age... but at the same time、 it's a double-edged sword...!」%p
+#mes2v OKA_1812,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I... because of this all-world and all-age seeing demon eye... have gone outside the law of cause and effect as a human....」%p
+#mes2v OKA_1813,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But、 even still、 I swear... to protect at least this lab... so、 oh demon eye、 please calm down...」%p
+#mes I grind my teeth while on all fours.%p
+#mes And then I take a deep breath、 gradually removing my hand from my left eye.%p
+#mes Mayuri rubs my back.%p
+#call macrosys,Set_VOspeaker_Rear
+#mes2v MAY_0416,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin? Does it hurt?」%p
+#call macrosys,Set_VOspeaker_Default
+#mes2v OKA_1814,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No.... I'm okay now.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),$W(SW_BG1SIZE)
+#assign $W(SW_BG2POSX),$W(SW_BG1POSX)
+#assign $W(SW_BG2POSY),$W(SW_BG1POSY)
+#assign $W(SW_BG2DISPMODE),$W(SW_BG1DISPMODE)
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SIZE),0
+#assign $W(SW_BG1POSX),0
+#assign $W(SW_BG1POSY),0
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_POS
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes I stand up. Then I send Kurisu a sharp glance.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_BLC
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_1072,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「W-what? That was just an act、 right?」%p
+#mes2v OKA_1815,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina. You are wrong.」%p
+#mes I quietly complain.%p
+#mes2v OKA_1816,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's already been proven with our experiments up until now...」%p
+#mes2v OKA_1817,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That I...」%p
+#mes2v OKA_1818,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That my Reading Steiner is genuine!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_1073,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Yeah、 yeah、 pretentious hipster bullshit、 whatever.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,DAR_ASA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_DAR_A04
+#call macrosys,CharaDisp62
+#mes2v DAR_0614,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Eh?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,MAY_CSC
+#assign $W(SW_CHA7POSX),CHR_LEFT_L
+#assign $W(SW_CHA7FACE),Face_MAY_C02
+#call macrosys,CharaDisp73
+#mes2v MAY_0417,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hm?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLB
+#assign $W(SW_CHA5FACE),Face_CRS_B07
+#call macrosys,CharaDisp51
+#mes2v CRS_1074,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah...」%p
+#mes2v OKA_1819,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_BLA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_1075,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wh-why are you all staring at me? No looking!」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Now I wanted to avoid Kurisu's deep questioning.%p
+#setFlag SF_Phone_AutoDisable
+#mes I was like that when Titor called me the Messiah too、 though.%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#call macrosys,SetWindowModeFull
+#mes &lfCR6;&lcIs my power really genuine...?%e
+#mes &lfCR6;&lcThen in that case、 is it something outrageous...?%e
+#call macrosys,SetWindowModeNormal
+#resetFlag SF_Phone_Disable
+#mes An unknown、 dormant power.%p
+#mes I'm taken aback by its existence.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

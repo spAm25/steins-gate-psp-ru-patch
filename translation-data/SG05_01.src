@@ -1,0 +1,249 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#resetFlag SF_PhoneSD_Disp
+#setFlag SF_Phone_Disable
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,TIT005
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#wait 16
+#call macrosys,FadeInVery2Slow
+#AutoSave 1
+#call macrosys,SetRevTitle
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#call macrosys,FadeOutVery2Slow
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG050
+#setFlag SF_BG2DISP
+#call macrosys,FadeInVERY2SLOW
+#mes --I open my eyes to a solemn scarlet sky.%p
+#mes I'm on my back、 face up、 towards it.%p
+#mes I do not know this vast、 yet sinister sky.%p
+#mes I have never seen this before in my life.%p
+#mes Where is this?%p
+#mes I try getting up.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG051
+#setFlag SF_BG1DISP
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE013
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#mes There's nothing here.%p
+#mes From horizon to horizon、 rocks and sand dominate as far as the eye can see in this desolate land.%p
+#mes No plants. No water. A dark sky.%p
+#mes No sun. No moon. No stars. Nothing.%p
+#mes No warmth. Nor cold.%p
+#mes No breezes blowing through. No bugs walking atop the sand.%p
+#mes It's just like a scene from hell.%p
+#mes A stationary world.%p
+#mes I don't think this is a scene from earth.%p
+#mes I'd believe you if you told me I was on Mars.%p
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#playSE 1,SGSE063
+#mes Why am I here?%p
+#mes I see、 this is a dream.%p
+#mes So I stop thinking so deeply about it and lie down again on the sand.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE041
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes I guess I'll wake from the dream soon.%p
+#mes I should just wait idly until then.%p
+#mes That's what I thought.%p
+#mes --But this dream doesn't seem like it'll end any time soon.%p
+#mes It's a very lucid dream.%p
+#mes I can't sleep because of the severe ringing in my ears.%p
+#mes --The world's silence is noise to my ears.%p
+#mes I have none of my belongings. Not my watch. Not my phone.%p
+#mes My sensation of time goes numb because nothing moves.%p
+#mes Just how much time has passed since I've been laying here?%p
+#mes It might just be one second.%p
+#mes Or maybe I've already been here for three days.%p
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#playSE 1,SGSE063
+#mes I don't know.%p
+#mes Now I'm fully aware.%p
+#mes That the concept called time is nothing but a human construct after all.%p
+#mes It's a concept unknown to space.%p
+#mes Humans placed themselves inside their own cage of time just for a peace of mind.%p
+#mes They just wanted to delude themselves that they're not insignificant.%p
+#mes I'm awfully thirsty.%p
+#mes It's painful just to breathe.%p
+#mes This void is too painful for humans.%p
+#mes Humans lack the strength to live in a world without time.%p
+#mes Tears overflow.%p
+#mes What is the significance of those dripping drops? I no longer know.%p
+#mes I want to die.%p
+#mes Let's die.%p
+#mes But what does die mean?%p
+#mes To stop time?%p
+#mes In that case、 it's been stopped long ago.%p
+#mes In this world where everything is dead、 how can I die?%p
+#mes I don't know.%p
+#mes Inside of me、 every single concept collapses.%p
+#mes I can no longer do anything.%p
+#mes I'm starting to lose sense of myself.%p
+#mes The existence of myself is disappearing.%p
+#mes Is nobody--%p
+#mes Around--?%p
+#mes Suddenly、 a shadow slips into sight.%p
+#mes I'm surprised.%p
+#mes I try to move my eyes.%p
+#mes But I don't know how to move them.%p
+#call macrosys,SetWindowModeFull
+#mes2v MAY_0615,$W(LR_LIP_MAY),VID_MAY,&lfCR7;&lcOkarin、 found you♪%e
+#call macrosys,SetWindowModeNormal
+#mes A voice.%p
+#mes A pleasant sound resonates through the buzzing in my ears.%p
+#mes Because of that voice、 I regain my existence as Okabe Rintaro.%p
+#mes I try to move my eyes.%p
+#mes They move this time.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#call macrosys,InitCHA1
+#loadCHA 1,MAY_CLE
+#assign $W(SW_CHA1POSX),CHR_CENTER
+#assign $W(SW_CHA1FILTER),CHACOL_IBG051
+#assign $W(SW_CHA1ALPHA),108
+#assign $W(SW_CHA1FACE),Face_INIT
+#setFlag SF_CHA1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes On top of a nearby rock.%p
+#mes There sits a girl.%p
+#mes She is familiar.%p
+#mes My brain activates.%p
+#mes My stopped brain、 which had lost its breath in this still world、 begins to move.%p
+#assign $W(SW_SEVOL),SV_FAR
+#playSE 0,SGSE063
+#mes --Mayuri?%p
+#mes My brain is still half asleep、 so I couldn't use my voice well.%p
+#mes It's Mayuri. Shiina Mayuri. My childhood friend.%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CLD
+#assign $W(SW_CHA5ALPHA),108
+#assign $W(SW_CHA5FACE),Face_INIT
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,Disp_NextScreen
+#mes Mayuri's smiling at me while sitting on a rock and swaying her legs.%p
+#assign $W(SW_SE2VOL),SV_FAR
+#playSE 1,SGSE002
+#mes2v MAY_0616,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「You know、 this is the earth、 70 million years ago.」%p
+#mes2v MAY_0617,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin got caught up in a conspiracy and was sent here by time machine-」%p
+#assign $W(SW_SEVOL),SV_MIDDLE
+#playSE 0,SGSE063
+#mes --This、 is a dream、 right?%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLF
+#assign $W(SW_CHA5ALPHA),108
+#assign $W(SW_CHA5FACE),Face_INIT
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v MAY_0618,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Actually、 Mayushii chased Okarin、 and came searching through all the Okarins of so many、 maaaany、 maaaaaany world lines.」%p
+#mes2v MAY_0619,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「The Okarin here is just one of many Okarins、 and also the original.」%p
+#mes2v MAY_0620,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「The Mayushii here too is just one of many Mayushiis、 and also the original.」%p
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF5
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CLD
+#assign $W(SW_CHA5ALPHA),108
+#assign $W(SW_CHA5FACE),Face_INIT
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5)
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),FADE_SLOW
+#call macrosys,Disp_NextScreen
+#mes2v MAY_0621,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「And also、 I think Okarin and Mayushii are going to die here.」%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE063
+#mes --This、 is a dream、 right Mayuri?%p
+#mes2v MAY_0622,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「But--」%p
+#mes2v MAY_0623,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I think that Okarin and Mayushii's wills will continue into Akihabara 70 million years from now.」%p
+#mes2v MAY_0624,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「So everything's A-OK♪」%p
+#mes2v OKA_2346,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This、 is a dream!」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#PlayMovie imv003,true
+#setFlag SF_BG2DISP
+#resetFlag SF_BG1DISP
+#PlayMovieWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#call macrosys,FadeIn0
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

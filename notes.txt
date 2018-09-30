@@ -1,0 +1,53 @@
+ x = function(y) { return (Math.floor(y / 2048) + 1) * 2048; }
+
+Chapter names:
+
+00 Prologue
+01 Time Travel Paranoia
+02 Interpreter Rendezvous
+03 Butterfly Effect's Divergence
+04 Chaos Theory Homeostasis
+05 Dogma in Event Horizon
+06 Metaphysics Necrosis
+07 Made in Complex
+08 Fractal Androgynous
+09 Endless Apoptosis
+10 Paradox Meltdown
+11 Open The Steins; Gate
+
+11 Steins;Gate Boundary
+10 Stardust Sky
+
+Only interested in lines that start with "#mes" and not ("messWindowCloseWait")
+
+Work with entire lines:
+#mes is what Rintaro thinks
+#mes2v is when someone is speaking
+
+#mes I turn the TV off and go next to the sofa.%p
+Message begins right after "#mes " and ends at "%p"
+
+#mes2v OKA_0102,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey you there. Can you see us?」%p
+Name begins at: ",＠" ends at: "＠「"
+Message begins at: "＠「" ends at:"」%p"
+
+
+DATA.txt has phone messages in it
+
+
+DICT file structure is related to Game-Database.plist We can get translations for all the terms there.
+&cTIPSC; == <DICT>
+&cMESC; == </DICT>
+
+
+
+Theory on how to display English character names in the appropriate "name box" on top of the main dialogue box:
+-The game probably has some kind of the mapping file that if it detects a specific occurance 【<name in glyphs>】 that it will put it in the special box
+- Do more research on this and if needed it can just be replaced with English string for the name
+
+
+【】
+
+【Mayuri】 【まゆり】
+【Okabe】 【倫太郎】
+【Itaru】 【至】

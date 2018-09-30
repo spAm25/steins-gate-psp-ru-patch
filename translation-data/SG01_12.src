@@ -1,0 +1,657 @@
+﻿#label dstart
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSlow
+#call macrosys2,Init_SG
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,SET_VID
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0729
+#mes Woah、 I can't waste too much time on @channel.%p
+#mes We need to work on the problems that we put on hold.%p
+#mes Specifically、 the Microwave Ophone (Temp).%p
+#mes I want to find out the secret behind it's mysterious function.%p
+#mes Recently、 I asked Daru to connect the Microwave Ophone (Temp) to the PC.%p
+#mes He finished setting it up yesterday、 and now he's doing the wiring in the development room.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG03A2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(SW_BG2MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG03A2
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#setDic 215
+#mes2v OKA_0378,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 Daru. Why the &cTIPSC;X68000&cMESC;?」%p
+#mes It's a machine that's older than 20 years and has extremely low specs...%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#call macrosys,CharaDisp51
+#mes2v DAR_0104,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Obviously because it's romance、 hurr.」%p
+#setDic 21
+#mes2v OKA_0379,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 it's the same reason as for certain Japanese protagonists being &cTIPSC;odd-eyed&cMESC;?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0105,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Not getting you、 bro.」%p
+#mes2v OKA_0380,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Romance.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#call macrosys,CharaDisp51
+#mes2v DAR_0106,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Well、 if it's romance、 then I guess it can't be helped.」%p
+#mes2v DAR_0107,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「In any case、 there weren't any other PCs I could use.」%p
+#mes2v OKA_0381,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What about your newest one?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A05
+#call macrosys,CharaDisp51
+#mes2v DAR_0108,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Don't screw around. If I connected my PC to something this ridiculous、 it might stop functioning properly.」%p
+#mes What a selfish guy...%p
+#mes Also、 we're the ones who made Microwave Ophone (Temp)、 so I'd like it if he didn't call it 'ridiculous'.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#call macrosys,CharaDisp51
+#mes2v DAR_0109,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So、 did you do research on the gellification?」%p
+#mes2v OKA_0382,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 I went to the university this morning.」%p
+#mes Yes、 I went to the university in the middle of the summer holidays to find out why and under what conditions the banana became gelatinous.%p
+#mes2v OKA_0383,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「By looking through a microscope、 I found out that it was shredded at the molecular level.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#call macrosys,CharaDisp51
+#mes2v DAR_0110,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Shredded?」%p
+#setDic 86
+#mes2v OKA_0384,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It didn't look like the result of a &cTIPSC;phase transition&cMESC;. It became something that wasn't an actual banana...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#call macrosys,CharaDisp51
+#mes2v DAR_0111,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It... can't be corrosion、 right? It's not possible for corrosion to occur in only 2 minutes.」%p
+#setDic 138
+#mes2v OKA_0385,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... I just remembered &cTIPSC;fractal structures&cMESC;.」%p
+#setDic 168
+#mes2v DAR_0112,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「&cTIPSC;Menger's sponge&cMESC; 、 right?」%p
+#mes2v OKA_0386,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yes. It looked like infinite fractal-shaped holes opened up in the banana at the nano level.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0113,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Isn't that dangerous? What is happening here?」%p
+#mes2v OKA_0387,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... I have one hypothesis.」%p
+#mes As if to put on an air of importance、 I become silent.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#call macrosys,CharaDisp51
+#mes Daru gulps down his saliva.%p
+#mes2v OKA_0388,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The hypothesis is that it's the effect of the microwave oven's electromagnetic waves.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#call macrosys,CharaDisp51
+#mes2v DAR_0114,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Eh、 what do you mea--」%p
+#mes2v OKA_0389,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If my guess is correct、 the Microwave Ophone (Temp) has the potential to become a powerful weapon of mass destruction. If we were to use it for military purposes、 we can rewrite the history of war. Kukuku.」%p
+#mes I distort my lips to look evil.%p
+#mes Then、 after taking out my cellphone、 I put it against my ear.%p
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes2v OKA_0390,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... It's me. The plan has reached the second stage... Yes、 they will know about it in due time. The &rsJudgement Day&rt Grand Punishment&re is close.」%p
+#mes2v OKA_0391,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Everything is the will of Steins;Gate、 mankind cannot oppose it. El Psy Congroo」%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_ASA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0115,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Quit talking with your fairies. I'm done with the connecting.」%p
+#mes I want to explain to him that I'm not speaking to fairies、 but I can't do it.%p
+#mes If I were to reveal their identity、 I would be treated as a traitor.%p
+#mes Then I would become the enemy of other troublesome opponents、 while still fighting the Organization.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),640
+#assign $W(SW_BG2POSY),360
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#label L_SG01_12_RM_FEI01_02_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_FEI
+#assign $W(LR_RM_CHANCE),18
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Now that the Microwave Ophone (Temp) is covered in wires、 it really does look ridiculous.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#setDic 152
+#mes Even though we only connected it to the PC、 the result looks like the work of something evil.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#setDic 90
+#mes The reason we did this connection is to allow us to control the business purpose &cTIPSC;terminal modes&cMESC; and to observe the oven's operation status.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_A01
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0116,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So、 what shall we do?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#setFlag SF_Phone_AutoDisable
+#mes2v OKA_0392,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Prepare the bananas.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutKaisou
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG28A1
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+//#assign $W(LR_TMP00),BG28A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,SET_DOF_SHORT
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_BLA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaSet62
+#call macrosys,FadeInNormal
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Before I left 'MayQueen+Nyan²'、 Mayuri asked me to buy bananas.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes The money that I used to buy them belongs to her.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_BLA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes What a tractable girl. I don't know whether to call her a nonchalant idiot or just softhearted.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She can't even predict that if she lets me buy the bananas、 I will only use them up for experiments.%p
+#messWindowCloseWait
+#call macrosys,FadeOutKaisou
+#call macrosys,CharaClr2
+#call macrosys,SET_DOF_LONG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#call macrosys,FadeInNormal
+#resetFlag SF_Phone_Disable
+#call macrosys2,CHECK_RM_RECEIVE
+#mes And so、 I put the bunch of bananas into the Microwave Ophone (Temp).%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0117,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「If you use it all、 Mayushi will be sad、 y'know? You bought the bananas with her money、 right?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0393,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The money that she gave were research funds.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0118,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Anyway、 you don't have to use the whole thing、 bro. Just 1 is enough.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Daru plucks a single banana from the bunch and places it inside the Microwave Ophone (Temp).%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0394,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We can't reconstruct the world's ruling structure if we are stingy with money.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_B03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v DAR_0119,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「You're the only one who wants to reconstruct it or whatever.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes He lost all enthusiasm upon coming back to the lab.%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes What an inconsistent guy.%p
+#label L_SG01_12_RM_FEI01_02_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#label L_SG01_12_RM_FEI01_02_REPLY_END
+#RandomMail_End
+#label L_SG01_12_PHONE_CALL_01
+#PhoneCallActive PhID_Oven,PhID_NONE,PhID_NONE,PhID_NONE
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5FACE),Face_DAR_B01
+#call macrosys,CharaDisp51
+#mes2v DAR_0120,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Come on、 start the timer with your cellphone.」%p
+#flagOnJump SF_PhoneCallExec,L_SG01_12_PHONE_CALL_01_EXEC
+#resetFlag LF_PHONE_LOOP_DONE
+#label L_SG01_12_PHONE_CALL_01_LOOP
+#call macrosys2,SelfStop_SkipMode
+#mes Now、 where did I put it...%p
+#flagOnJump SF_PhoneCallExec,L_SG01_12_PHONE_CALL_01_EXEC
+#mes Phone、 phone...%p
+#flagOnJump SF_PhoneCallExec,L_SG01_12_PHONE_CALL_01_EXEC
+#setFlag LF_PHONE_LOOP_DONE
+#jump L_SG01_12_PHONE_CALL_01_LOOP
+#label L_SG01_12_PHONE_CALL_01_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#mwait 60
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#mes Calling complete.%p
+#mes An instant connection.%p
+#call macrosys,SetPhoneWindow
+#mes2v MAY_0113,NO_CHARACTER,VID_MAY,＠Mayuri２＠&cPhC;「R-E-N-G. This is the Microwave Ophone (Temp).」%p
+#call macrosys,ResetPhoneWindow
+#mes The Mayushii Guidance begins.%p
+#call macrosys,SetPhoneWindow
+#mes2v MAY_0114,NO_CHARACTER,VID_MAY,＠Mayuri２＠&cPhC;「From here、 you can control the timer.」%p
+#mes2v MAY_0115,NO_CHARACTER,VID_MAY,＠Mayuri２＠&cPhC;「After entering #、 please input the heating time in seconds.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0395,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「We're gonna have to add a skip function to the Mayushii Guidance. Waiting like this is irritating.」%p
+#call macrosys,SetPhoneWindow
+#mes2v MAY_0116,NO_CHARACTER,VID_MAY,＠Mayuri２＠&cPhC;「For example、 1 minute would be '#60'.」%p
+#mes2v MAY_0117,NO_CHARACTER,VID_MAY,＠Mayuri２＠&cPhC;「2 minutes would be '#120'.」%p
+#call macrosys,ResetPhoneWindow
+#mes The guidance is finally over. %p
+#mes I shall input '120#'. %p
+#label L_SG01_12_SELECT_01
+#setFlag SF_SAVEDISABLE
+#assign $W(SW_PHONE_10KEYCUR),0
+#assign $W(SW_PHONE_10KEYNUM),0
+#resetFlag SF_Phone_End
+#assign $W(SW_PHONE_SUBWIN_ALPHA),0
+#assign $W(SW_PHONE_MODE),PhoneMode_DialingOperatable
+#label @@
+#mwait 1
+#add $W(SW_PHONE_SUBWIN_ALPHA),16
+#If ($W(SW_PHONE_SUBWIN_ALPHA)<256),@b
+#assign $W(SW_PHONE_SUBWIN_ALPHA),256
+#label @@
+#wait 1
+#PhoneNumInput
+#flagOffJump SF_Phone_End,@b
+#label @@
+#mwait 1
+#sub $W(SW_PHONE_SUBWIN_ALPHA),16
+#If ($W(SW_PHONE_SUBWIN_ALPHA)>0),@b
+#assign $W(SW_PHONE_SUBWIN_ALPHA),0
+#resetFlag SF_SAVEDISABLE
+#If ($W(SW_PHONE_10KEYCODE)==0),L_SG01_12_JUNCTION_050
+#If ($W(SW_PHONE_10KEYCODE)==1),L_SG01_12_JUNCTION_052
+#If ($W(SW_PHONE_10KEYCODE)==2),L_SG01_12_JUNCTION_051
+#label L_SG01_12_JUNCTION_050
+#call macrosys2,COUNT_CALL_WRONG_NUMBER
+#playSE 1,SGSE011
+#mes Once I enter the symbols、 the Microwave Ophone (Temp) begins working、 emitting a low buzzing sound. %p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_B03
+#call macrosys,CharaDisp51
+#mes2v DAR_0121,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「You've done it wrong、 bro.」%p
+#mes Crap、 this is normal heating. %p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE010
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I return the timer to 0、 and restart from the beginning. %p
+#mes I have to disregard the guidance and input '120#'. %p
+#jump L_SG01_12_SELECT_01
+#label L_SG01_12_JUNCTION_051
+#call macrosys2,COUNT_CALL_WRONG_NUMBER
+#mes Crap、 I made a mistake. %p
+#mes Let's try again. %p
+#mes Ignore the guidance and input '120#'. %p
+#jump L_SG01_12_SELECT_01
+#label L_SG01_12_JUNCTION_052
+#mes Inputting complete. %p
+#resetFlag SF_Phone_Open
+#playSE 1,SGSE011
+#mes The turntable inside the Microwave Ophone starts rotating in the opposite direction. %p
+#mes2v OKA_0396,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「2 minutes sure is a long time...」%p
+#mes We don't even know if it really must be 2 minutes、 but this was the setting the first time that Mayuri discovered the freezing(?) function、 so we use it in our experiments. %p
+#mes Of course、 we tried 60 and 180 seconds、 as well. %p
+#mes If we set it shorter than 120、 the freezing either stops halfway or nothing happens at all、 while setting it longer makes the changes even larger. %p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#call macrosys,CharaDisp51
+#mes2v DAR_0122,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But、 if it happens because of the electromagnetic waves、 shouldn't it affect our cells、 too?」%p
+#mes After being silent for a while、 Daru asks that question. %p
+#mes2v OKA_0397,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Well、 did you ever try heating yourself in the Microwave Ophone?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0123,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「There's no way I could fit there.」%p
+#mes2v DAR_0124,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Anyway、 what's the sauce on this being the effect of the electromagnetic waves.」%p
+#mes2v OKA_0398,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If I were to put it to words... The intuition of a mad scientist.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#call macrosys,CharaDisp51
+#mes2v DAR_0125,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Oh、 so there's no basis for that.」%p
+#mes2v OKA_0399,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Edison once said that 'If there's no 1% inspiration、 the 99% perspiration is wasted. That's why、 inventor、 be inspired!'」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0126,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wasn't it 'Genius is 1% inspiration、 99% perspiration'?」%p
+#mes2v OKA_0400,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No. In the recent years、 it has become widely known that that quote is wrong. Fwahahaha!」%p
+#mes2v DAR_0127,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「So you're telling me that Edison said 'be inspired!'?」%p
+#mes2v OKA_0401,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yes、 'be inspired!'.」%p
+#mes I don't know if that was exactly what he said、 but I'm sure it was something along those lines. %p
+#mes I only found this out recently on a wiki. %p
+#mes2v OKA_0402,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Therefore I、 a genius mad scientist、 am always--」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE010
+#mes The Microwave Ophone (temp) lets out a sound. %p
+#mes2v OKA_0403,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Now that I think about it、 by doing this、 the banana will only become gelatinous again and we won't discover anything new.」%p
+#mes I now feel like I wasted 120 seconds. %p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Daru opens up the door of the Microwave Ophone (temp) and looks inside. %p
+#mes Wha-、 what is he disturbed about? %p
+#mes2v DAR_0128,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Oh... Woahhh!?」%p
+#mes He's rubbing his eyes、 blinking like crazy and is tilting his head in puzzlement. %p
+#mes2v OKA_0404,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you doing?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_B06
+#call macrosys,CharaDisp51
+#mes2v DAR_0129,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「No、 ehmm... huh?」%p
+#mes2v DAR_0130,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「... It's gone.」%p
+#mes2v OKA_0405,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What's gone?」%p
+#mes2v DAR_0131,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「The banana.」%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes What the hell is he saying? %p
+#mes Not understanding the situation、 I push Daru aside and look inside the Microwave Ophone (Temp). %p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG019
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes2v OKA_0406,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... Gone.」%p
+#mes ... It's not here. %p
+#mes The inside is completely empty. %p
+#mes The banana that we put inside just about 120 seconds ago disappeared without a trace. %p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_0407,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#call macrosys2,OPEN_PHONE_WINDOW
+#mes I take out my phone after a short sigh... %p
+#mes And start speaking to the silence. %p
+#mes2v OKA_0408,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「... It's me. The situation became troublesome. Apparently、 we have woken up something outrageous.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_B06
+#call macrosys,CharaDisp51
+#mes2v DAR_0132,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「W-what do you mean by 'something outrageous'!?」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Daru is panicking besides me、 but I ignore him. %p
+#mes My heart is beating fast due to the astonishment、 but I try to look calm. %p
+#mes2v OKA_0409,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Put the emergency order number 666、 '&rsThe Grim Seal&rt Cooling-Off &re' into operation right now.」%p
+#mes2v OKA_0410,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What!? Government approval!? Are you stupid? There's no time for that! If this keeps up、 the country is gonna blow up!」%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes After yelling、 I put away my phone.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_B06
+#call macrosys,CharaDisp51
+#mes2v DAR_0133,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「... T、 talking to yourself、 derp.」%p
+#mes2v OKA_0411,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Shut up you Faris' stalker. So、 where did you hid the banana?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5FACE),Face_DAR_B04
+#call macrosys,CharaDisp51
+#mes2v DAR_0134,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Who're you calling a stalker!?」%p
+#mes2v OKA_0412,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Take out the BA NA NA、 right now. Are you planning on becoming a street magician or something?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A05
+#call macrosys,CharaDisp51
+#mes2v DAR_0135,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「YOU'RE the one who hid it、 right?」%p
+#mes2v OKA_0413,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes2v DAR_0136,NO_LIPANM_DAR,VID_DAR,＠Itaru＠「...」%p
+#mes An uncomfortable silence.%p
+#mes I just realized that my throat is all dried up.%p
+#mes2v OKA_0414,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why did it disappear!?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#call macrosys,CharaDisp51
+#mes2v DAR_0137,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I dunno!」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG019
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrAll
+#mes2v OKA_0415,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Where did you go、 banaana! BANAANAAA!」%p
+#mes I take out the turntable of the microwave oven and look all over it、 but I can't find a single trace of the banana.%p
+#mes2v OKA_0416,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I、 I got it... So this wasn't an electromagnetic wave weapon、 but a microwave oven which allows teleportation...!」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_B04
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v DAR_0138,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「W、 whaaat-」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0139,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「... But that's nonsense.」%p
+#mes2v OKA_0417,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's no other way the banana could've disappeared from the closed space of the microwave oven!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#call macrosys,CharaDisp51
+#mes2v DAR_0140,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Ehmm、 for now、 we should calm down.」%p
+#mes2v OKA_0418,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Y、 yeah. That's right...」%p
+#mes We both take deep breaths.%p
+#mes Right、 I will eat a banana to calm down.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes I extend my hand towards the banana bunch while thinking that.%p
+#mes --And I start doubting my eyes.%p
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG020
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2POSY),100
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes2v OKA_0419,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wh... at...!?」%p
+#mes This is truly unnatural.%p
+#mes The banana bunch that Mayuri asked me to buy.%p
+#mes About 3 minutes ago、 Daru picked a banana from it and put it in the Microwave Ophone (Temp).%p
+#mes ... Or so it should've been.%p
+#mes But now、 there's not even a trace of a banana ever being picked.%p
+#mes And instead of it、 there's a gelified banana、 perfectly connected to the rest of the bunch.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#call macrosys,CharaDisp51
+#mes2v DAR_0141,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wh、 what the hell!? What's happening here?」%p
+#mes Looks like Daru noticed、 as well.%p
+#mes In a state of confusion、 I tried to touch it、 but restrained myself.%p
+#mes2v OKA_0420,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Daru、 how many bananas are there in the lab right now?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A06
+#call macrosys,CharaDisp51
+#mes2v DAR_0142,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「P、 probably only these...」%p
+#mes2v OKA_0421,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Is the place where the gelbana is right now the same place where you took the banana from?」%p
+#mes2v DAR_0143,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「I、 I dunno... I didn't confirm that much...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#call macrosys,CharaDisp51
+#mes2v DAR_0144,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「This gelbana is perfectly connected...」%p
+#mes Yes、 perfectly connected.%p
+#mes I don't see any damage or anything else.%p
+#mes Besides being gelified、 it looks very natural. It doesn't look like a trick at all.%p
+#mes By which I mean that it doesn't seem like someone took a banana、 gelified it、 and then put the banana back.%p
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_NORMAL
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_0422,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「H、 hey、 Daru... Could this...」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes The words that I previously said out of nowhere.%p
+#mes Now、 I have trouble even whispering them again.%p
+#mes However、 I must say it.%p
+#mes No matter how unbelievable this is、 I saw it with my own eyes...!%p
+#mes My head is full of question marks、 and I don't even know how this happened、 but if I were to explain it with only what I saw、 then this is---%p
+#mes From the closed space of the Microwave Ophone (temp) to the bunch of bananas--%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes2v OKA_0423,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Be an actual... Teleportation...!?」%p
+#flagOnJump LF_DEBUG,L_SG01_12_TTLCALL_END
+#end
+#label L_SG01_12_TTLCALL_END
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

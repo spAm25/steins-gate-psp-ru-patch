@@ -1,0 +1,332 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,TIT009
+#setFlag SF_BG1DISP
+#call macrosys,FadeInVery2Slow
+#AutoSave 1
+#call macrosys,SetRevTitle
+#assign $W(LR_TMP00),128
+#call macrosys,KeyWait_TIM
+#call macrosys,FadeOutVERYSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeInVERYSLOW
+#mes ──The feeling of another warm hand.%p
+#mes Slips through my fingers with a strong sense of vertigo.%p
+#assign $W(LR_DATE),0815
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteVERYSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInVERYSLOW
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 0,SGSE113
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes The shrine grounds are here、 unchanged.%p
+#mes But I no longer feel her clinging to my body.%p
+#mes That feeling slowly slipped away.%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG4MASKNO),MASK18
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERYSLOW
+#call macrosys,BG4_FadeInTIM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaSet51
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG4MASKNO),MASK18
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERYSLOW
+#call macrosys,BG4_FadeOutTIM
+#mwait 64
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM10
+#mes2v RUK_0562,NO_LIPANM_RUK,VID_RUK,＠Luka＠「……？」%p
+#mes Lukako is standing a little bit away from me、 looking at me.%p
+#mes As if seeing me off.%p
+#mes No tears are on that face.%p
+#mes A bewildered smile.%p
+#mes My chest falls into an illusion about to burst.%p
+#mes Hold it back──%p
+#mes2v OKA_4234,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hey、 Lukako.」%p
+#mes2v RUK_0563,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Yes?」%p
+#mes2v OKA_4235,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're──」%p
+#mes I hesitate for a moment.%p
+#mes But I make up my mind.%p
+#mes2v OKA_4236,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「A guy、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0564,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Yes、 I am、 but...」%p
+#mes She was no longer there.%p
+#mes But instead、 he was.%p
+#mes Cute facial features like a girl.%p
+#mes Looks good in miko clothes.%p
+#mes But he's a guy.%p
+#mes I tightly bite my lip.%p
+#mes Lukako went back to being a guy.%p
+#mes2v OKA_4237,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Do you... like me?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0565,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 what's this all of a...」%p
+#mes2v OKA_4238,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Do you like me?」%p
+#mes2v RUK_0566,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ummm、 well...」%p
+#mes2v RUK_0567,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I respect you...」%p
+#mes Just what part of me is respectable? I'm not that sort of proper man.%p
+#mes But that's not what matters now.%p
+#mes Lukako's answer seemed clear、 but wasn't.%p
+#setFlag SF_Phone_AutoDisable
+#mes He didn't say he liked me or he hated me.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG1DISP
+#resetFlag SF_CHA1DISP
+#setEVFlag 71
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_R07A
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#call macrosys,FadeInFAST
+#mes2v RUK_0568,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「If I become a guy again... then I'll have to suppress my feelings for Okabe-san...」%p
+#messWindowCloseWait
+#call macrosys,FadeOutWhiteFAST
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI2_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#setFlag SF_BG1DISP
+#setFlag SF_CHA1DISP
+#call macrosys,FadeInFAST
+#resetFlag SF_Phone_Disable
+#setFlag SF_PhoneSD_Disp
+#mes Even now、 when he became a guy again、 Lukako might still like me.%p
+#mes But he can't speak honestly about those feelings. No matter how much time flows.%p
+#mes And because Lukako has prepared himself for that、 I can't trespass into his heart any more than this.%p
+#mes I might be running away.%p
+#mes Maybe I should trespass instead.%p
+#mes But I'm not that strong a man.%p
+#mes If I did trespass、 then I might just end up hurting Lukako.%p
+#mes That's why I couldn't.%p
+#mes2v OKA_4239,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Thanks. From now and forevermore、 I want you to be my disciple.... Is that okay?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A05
+#call macrosys,CharaDisp51
+#mes2v RUK_0569,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 ah、 yes、 of course.」%p
+#messWindowCloseWait
+#resetFlag SF_BG4DISP
+#call macrosys,InitBG4
+#loadBG 4,BG_BLACK
+#assign $W(SW_BG4PRI),PRI_UPPER_ALL
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG4MASKNO),MASK03
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERYSLOW
+#call macrosys,BG4_FadeInTIM
+#mes I cast down my eyes、 unable to look straight into Lukako's shy face.%p
+#mes The world line changed.%p
+#mes Lukako became a guy again.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG032
+#assign $W(SW_BG2PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG2ALPHA),0
+#setFlag SF_BG2DISP
+#assign $W(LR_TMP00),48
+#assign $W(LR_TMP01),48
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2ALPHA_OFS,128,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2ALPHA),128
+#assign $W(SW_BG2ALPHA_OFS),0
+#mes In that case、 the IBN 5100 should have returned to this shrine.%p
+#mes In the world line where Lukako was a girl、 she was cleaning the storehouse and broke the IBN 5100.%p
+#mes But now、 since Lukako became a guy again、 he shouldn't have cleaned the storehouse、 and he shouldn't have broken the IBN 5100.%p
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Looking at the clock、 it's 6:46 PM.%p
+#mes Speaking from past experience、 it's very likely that we avoided Mayuri's death for today since the world line changed. But just to prepare for the worst case、 I should get back to the lab within the hour.%p
+#messWindowCloseWait
+#assign $W(SW_BG4FADETYPE),BGFADETYPE_MASK
+#assign $W(SW_BG4MASKNO),MASK03
+#assign $W(SW_BG4MASKFADERANGE),32
+#assign $W(LR_FADE_TIM),FADE_VERYSLOW
+#call macrosys,BG4_FadeOutTIM
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes2v OKA_4240,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako、 last year、 do you remember breaking an old computer in the shrine storehouse?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0570,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「An old computer...? I don't think we had that、 though.」%p
+#mes2v RUK_0571,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I don't really understand computers... I haven't played with them much.」%p
+#mes When Lukako was a girl、 she trembled when I asked her the same question.%p
+#mes And then she smiled as if to hide the worry and pain of not wanting to say I broke the computer.%p
+#mes But now he's not trembling.%p
+#mes Lukako honestly doesn't know.%p
+#mes2v OKA_4241,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Go get your father for me.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#mwait 64
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,URP_AMA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_URP_A01
+#call macrosys,CharaSet62
+#assign $W(LR_LIP_URP),(BUF2|BUF6)
+#call macrosys,FadeInSLOW
+#mes I asked Lukako to fetch his father for me like always、 so I could ask him whether or not the IBN 5100 was dedicated to the storehouse.%p
+#mes2v URP_0043,$W(LR_LIP_URP),VID_ETC,＠Father　Urushibara＠「An old computer.... Hmm、 certainly、 I do remember that.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,URP_AMA
+#assign $W(SW_CHA6FACE),Face_URP_A02
+#call macrosys,CharaSet62
+#mes2v URP_0044,$W(LR_LIP_URP),VID_ETC,＠Father　Urushibara＠「I'll go check. Please wait a bit.」%p
+#call macrosys,CharaErase2
+#mes He says so、 heading into the treasury in back、 just like in the previous world line.%p
+#mes But in the previous world line、 since Lukako secretly moved it、 the IBN 5100 was no longer in the storehouse.%p
+#mes How will it turn out this time....%p
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,URP_AMA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_URP_A01
+#call macrosys,CharaDisp62
+#mes Luka's Dad returns after about 10 minutes. His face was serious.%p
+#mes I knew what to expect at that point.%p
+#mes Even in this world line、 I knew it──%p
+#mes2v URP_0045,$W(LR_LIP_URP),VID_ETC,＠Father　Urushibara＠「I couldn't find it. It's gone.」%p
+#mes I quickly peek at Lukako's face.%p
+#messWindowCloseWait
+#call macrosys,SetOrder6251
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_ASB
+#assign $W(SW_CHA5POSX),CHR_LEFT_T
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes Blank. He doesn't seem to know anything.%p
+#mes Lukako is innocent. I'm sure of it.%p
+#call macrosys,CharaErase1
+#mes2v URP_0046,$W(LR_LIP_URP),VID_ETC,＠Father　Urushibara＠「The storehouse lock was broken. Someone might have taken it away.」%p
+#mes2v OKA_4242,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Taken it away...?」%p
+#mes It didn't disappear、 but was taken away?%p
+#mes So basically、 a thief broke in!?%p
+#mes2v URP_0047,$W(LR_LIP_URP),VID_ETC,＠Father　Urushibara＠「There's evidence of a heavy object being dragged. That wasn't there at the end of the year cleaning、 and the lock wasn't broken when I checked last month.」%p
+#mes2v URP_0048,$W(LR_LIP_URP),VID_ETC,＠Father　Urushibara＠「I didn't think a thief would break in...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_RUK_B02
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,URP_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_URP_A01
+#call macrosys,CharaDispW5162
+#mes2v RUK_0572,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「So、 we need to report it to the police...」%p
+#mes I sigh a little while listening in on the Urushibara's discussion.%p
+#mes2v OKA_4243,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「There's no point if it's not in the storehouse...」%p
+#mes It still won't come back.%p
+#mes There's only one、 or maybe two D-mails left that I should cancel. Which one?%p
+#mes If I just cancel that one、 I can get back the IBN 5100. That's how I feel.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_AMA
+#assign $W(SW_CHA5FACE),Face_RUK_A01
+#call macrosys,CharaDisp51
+#mes2v RUK_0573,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um、 Okabe-san. I don't really understand、 but... please stay careful.」%p
+#mes2v RUK_0574,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Uh、 I mean、 you don't have to if your heart isn't in the right place.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,URP_AMA
+#assign $W(SW_CHA6FACE),Face_URP_A02
+#call macrosys,CharaDisp62
+#mes I made a bitter smile.%p
+#mes Seeing Lukako frantically cheer me on is so adorable.%p
+#mes But he's a guy.%p
+#mes2v OKA_4244,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're using that phrase wrong、 you know.」%p
+#mes I point that out and leave the shrine.%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(LR_LIP_URP),0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

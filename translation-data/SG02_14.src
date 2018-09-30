@@ -1,0 +1,1443 @@
+﻿#label dstart
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,IBG033
+#setFlag SF_BG1DISP
+#call macrosys,FadeInSLOW
+#call macrosys2,Init_SG
+#PhoneInit
+#assign $W(SW_PHONE_RINGNO),PhID_CRS_0
+#setFlag SF_PhoneRing
+#setFlag SF_Phone_Open
+#wait 1
+#mwait 30
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys,SET_VID
+#assign $W(LR_DATE),0801
+#call macrosys2,RECEIVE_PHONE_CALL_NORMAL
+#mes2v OKA_0934,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Who is it?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0322,NO_LIPANM_CRS,VID_CRS,＠紅莉栖？＠&cPhC;「...」%p
+#call macrosys,ResetPhoneWindow
+#mes What? All I can hear is noise. Wrong number?%p
+#mes No, perhaps--%p
+#mes2v OKA_0935,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's the 'Organization'、 right? Is this a warning? You telling me to stop getting involved with SERN?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0323,$W(LR_LIP_CRS),VID_CRS,＠紅莉栖？＠&cPhC;「Haah?」%p
+#call macrosys,ResetPhoneWindow
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM22
+#mes Hm? It's a woman's voice.%p
+#mes Furthermore、 she's responding to my words with a dumb voice.%p
+#mes2v OKA_0936,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're not from the 'Organization'?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0324,$W(LR_LIP_CRS),VID_CRS,＠紅莉栖？＠&cPhC;「...No. It's Makise.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0937,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Makise...」%p
+#mes Who...?%p
+#mes I think I remember this voice from somewhere....%p
+#mes2v OKA_0938,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Sorry、 but I don't remember. Tell me where we met. Paris? London--」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0325,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Akihabara. And we just met yesterday.」%p
+#call macrosys,ResetPhoneWindow
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),(PRI_PHONE+1)
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),(PRI_PHONE+1)
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),(PRI_PHONE+1)
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes Yesterday?%p
+#mes Makise...Makise...%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5PRI),(PRI_PHONE+3)
+#assign $W(SW_CHA1PRI),(PRI_PHONE+2)
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FILTER),CHACOL_EVENING
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v OKA_0939,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Oh、 Assistant!」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_CHA1ALPHA_OFS,(CH_ALP_MAX*-1),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#call macrosys,CharaClr1
+#call macrosys,SetOrder51627384
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0326,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Not your assistant! Makise Kurisu!」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0940,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you don't say Christina、 then I have no way of knowing it's you.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0327,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「I'm not Christina either. How many times do I have to tell you?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0941,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're yapping your trap off like always.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0328,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Whose fault is that? Whose?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0942,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just wait、 why do you know my phone number...?」%p
+#mes This is unnatural.... Kurisu hasn't cleared any doubts that she might be a spy--%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0329,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「I got Hashida-san to tell me.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0943,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Oh、 that's boring. So、 what is it、 Assistant?」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0330,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「I said I'm not your assistant、 but...」%p
+#mes2v CRS_0331,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Haah、 it's stupid to object. Where are you now?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0944,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I'm about to head out to Yanabayashi Shrine.」%p
+#call macrosys,SetPhoneWindow
+#mes2v CRS_0332,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠&cPhC;「Ah、 okay. Bye then.」%p
+#call macrosys,ResetPhoneWindow
+#playSE 2,SGSE161
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#assign $W(SW_SE2VOL),SV_DEFAULT
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE162L,true
+#mes2v OKA_0945,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes2v OKA_0946,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Eh? Haah!? What was that!? She hate me!? Does she hate me!?」%p
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes How dare a mere assistant look down on me...!%p
+#mes I need to be careful next time I meet her.%p
+#mes She got her thesis published in 'Science' after all.%p
+#assign $W(SW_PHONE_PRI),PRI_UPPER_CHARA
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG15E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG15E1
+#call macrosys,TUNE_CHACOL_BGNO
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT0
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaSet51
+#wait 16
+#mwait 48
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM14
+#mes2v CRS_0333,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes2v OKA_0947,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...You got your thesis published in 'Science'、 so what?」%p
+#mes2v CRS_0334,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What's this all of a sudden?」%p
+#mes Assistant's standing in front of Yanabayashi Shrine for some reason.%p
+#mes She glares at me with a sour look.%p
+#mes2v OKA_0948,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What was with that phone call?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0335,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I just wanted to ask your whereabouts. And since you said you were coming here、 I came.」%p
+#mes2v OKA_0949,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Nobody called you、 though.」%p
+#mes2v CRS_0336,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't remember being called、 either.」%p
+#mes2v OKA_0950,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0337,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes Why is she always pouting?%p
+#label L_SG02_14_RM_SUZ02_03_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_SUZ
+#assign $W(LR_RM_CHANCE),37
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0951,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Why did you come to meet me?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0338,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's not like I came because I wanted to meet you. Don't get me wrong.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes She just keeps those abusive words coming.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0339,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...What you said yesterday as we split up got on my mind.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0952,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What part?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0340,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「The IBN 5100. And SERN.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0953,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 you weren't an 'Organization' spy、 but a SERN spy!? You came to kill me、 didn't you!? That's what I thought! Since you have the face of a killer!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0341,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What about my face? How rude!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A05
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0342,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Can you calm down a bit? You're always screwing around. You really don't look like you're older than I am.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0954,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Calm down、 huh.... Hmph、 you don't understand. My body is constantly exposed to danger、 and I've lived my entire life running and running.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A09
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0343,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ehh、 I don't get any of that idle talk at all.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0955,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You come to pick a fight?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0344,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm just interested in how the IBN 5100 and SERN are related.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0956,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't you mean you're more interested in SERN's time machine research? Be honest.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0345,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Sh-shut up. I'm not interested in time machines at all.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0346,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「More importantly、 did you find an IBN 5100?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0957,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I came here to check that.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Kurisu looks up to Yanabayashi Shrine's smal torii.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0347,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「At the shrine?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0958,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Correct.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Then、 with perfect timing、 a beautiful girl-- er、 beautiful boy-- dressed in miko garb appears from the nearby shrine office、 holding a bamboo brom.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_BSA
+#assign $W(SW_CHA6POSX),CHR_LEFT0
+#assign $W(SW_CHA6FACE),Face_RUK_A05
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0031,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ah、 Oka...Kyouma-san、 hello.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_RUK_A05
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0959,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...Lukako、 why don't you have it?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMB
+#assign $W(SW_CHA6FACE),Face_RUK_B04
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0032,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 umm、 are you talking about 'Demon Sword Samidare'?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0960,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I thought I told you to carry it at all times!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0033,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I'm sorry、 but、 it gets in the way when I'm cleaning、 so...」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0961,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What are you going to do when you get attacked while you're cleaning? Nobody's going to come to your rescue、 you know.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0034,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Th-that's true.... I'll be more careful from now on.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0348,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey. What are you two talking about?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Finally noticing Kurisu's presence、 Lukako looks at me with a puzzled look.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMB
+#assign $W(SW_CHA6FACE),Face_RUK_B04
+#call macrosys,CharaDisp62
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0035,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 um... who might this be...?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0962,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Assistant.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0349,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No! Wait、 what's with that vague introduction!?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_0963,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I only told the truth、 Christina.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v RUK_0036,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「She's n-n-not Japanese...?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_0350,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I am Japanese.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v OKA_0964,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「More importantly、 Lukako. I need to talk to your father--」%p
+#label L_SG02_14_RM_SUZ02_03_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51Only
+#mes2v CRS_0351,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wait! Introduce me! Properly!」%p
+#mes2v OKA_0965,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You want to be introduced? Properly?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0352,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's unnatural to not be introduced in this situation.」%p
+#mes2v OKA_0966,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I didn't come here to introduce you to Lukako!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0353,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「An introduction wouldn't take more than 10 seconds、 yet you keep refusing?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_BSA
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaDisp62
+#mes2v RUK_0037,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um... fighting is...」%p
+#mes Lukako's flustered. Looks like he's misunderstanding our fight.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaDispW5162
+#mes2v OKA_0967,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「She's Makise Kurisu. ...My assistant.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0354,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Yes、 whatever. Assistant、 whatever... haah.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A05
+#call macrosys,CharaDisp62
+#mes2v RUK_0038,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Nice to meet you、 Makise-san. I-I'm Urushibara Luka.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_0355,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Nice meeting you. How old are you?」%p
+#mes2v RUK_0039,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「17 this year.」%p
+#mes2v CRS_0356,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「A year below me、 huh.」%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,RUK_BMB
+#assign $W(SW_CHA8POSX),$W(SW_CHA2POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA6PRI)
+#assign $W(SW_CHA8FACE),Face_RUK_B04
+#call macrosys,CharaDisp82
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMB
+#assign $W(SW_CHA6FACE),Face_RUK_B01
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_RUK_01
+#mes2v RUK_0040,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 is that so? Makise-san、 you're so adult-like、 you don't seem just a year older...」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_0968,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「In other words、 you look old.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#messWindowCloseWait
+#add $W(SW_CHA5PRI),PRI2_BG
+#add $W(SW_CHA1PRI),PRI2_BG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes2v CRS_0357,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes She glares at me.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_SLOW
+#assign $W(LR_TMP01),BG_SLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#call macrosys,SetOrder51627384
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaDisp62
+#mes2v RUK_0041,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No、 that's not it、 um、 I mean you're very beautiful...!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A06
+#call macrosys,CharaDisp51
+#mes2v CRS_0358,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Thanks. I think you're very cute.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#call macrosys,CharaDisp62
+#mes But he's a guy. I probably shouldn't tell Assistant that、 though.%p
+#mes If she were to learn the truth、 she might go back to America from the shock.%p
+#mes2v OKA_0969,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Are we done with the dumb diplomacy?」%p
+#label L_SG02_14_RM_SUZ02_03_REPLY_END
+#RandomMail_End
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0359,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm sick of your complaining.」%p
+#mes2v OKA_0970,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then、 Lukako、 I want to talk with your father. Can you call him for me?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMB
+#assign $W(SW_CHA6FACE),Face_RUK_B01
+#call macrosys,CharaDisp62
+#mes2v RUK_0042,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Yes、 I can、 but、 you need to talk to my father about...?」%p
+#mes2v OKA_0971,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Serious business、 critical for the future of mankind.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMB
+#assign $W(SW_CHA6FACE),Face_RUK_B04
+#call macrosys,CharaDisp62
+#mes2v RUK_0043,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「The future...!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0360,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Of mankind?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMB
+#assign $W(SW_CHA6FACE),Face_RUK_B02
+#call macrosys,CharaDisp62
+#mes2v RUK_0044,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I-I'll call him right away.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes Lukako rushes into the shrine office.%p
+#mes That kid believes just about everything I say.%p
+#mes Unlike the rebellious Assistant、 he's actually really easy to talk to.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaSet51
+#call macrosys,QUA3CHA1
+#mes2v CRS_0361,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Kshh.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B07
+#call macrosys,CharaDisp51
+#mes2v CRS_0362,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Oh no、 did I catch a cold...?」%p
+#mes Kurisu's too busy sniffling for a while to scold me.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Lukako's father soon apears.%p
+#mes As for Lukako、 he's pretty flustered、 so he nearly drags him out to the grounds.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_BSA
+#assign $W(SW_CHA5POSX),CHR_LEFT0
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0045,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Father、 quickly、 quickly...!」%p
+#call macrosys,SetOrder735162
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,URP_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT0
+#assign $W(SW_CHA7FACE),Face_URP_A02
+#call macrosys,CharaDisp73
+#assign $W(LR_LIP_URP),(BUF3|BUF7)
+#mes2v URP_0000,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Wait just a bit. If you rush me so much、 I'm going to fall...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BSA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0046,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「But、 the future of mankind depends on it...」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,URP_ASA
+#assign $W(SW_CHA7FACE),Face_URP_A01
+#call macrosys,CharaDisp73
+#mes2v URP_0001,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Oh、 oh is that so. That sure is serious.」%p
+#messWindowCloseWait
+#add $W(SW_CHA3PRI),PRI2_BG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+//#mwait 1
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes2v URP_0001,NO_CHARACTER,VID_ETC,＠Luka's father＠「Oh、 oh is that so. That sure is serious.」%p
+#mes I've met this father several times before.%p
+#mes He's a gentle、 respectable adult. With the exception of how he raised Lukako wrong.%p
+#mes This father dotes upon his son.%p
+#mes It seems like Lukako wears miko garb when helping with shrine duties because of his father's request. Maybe he's a pervert. No、 I don't mean to mock the Shinto priesthood at all.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_NORMAL
+#assign $W(LR_TMP01),BG_NORMAL
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+//#mwait 1
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#sub $W(SW_CHA3PRI),PRI2_BG
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_URP_A02
+#call macrosys,CharaDisp73
+#mes2v URP_0002,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Ah、 Hououin-kun. It's been a while. Thank you for always taking care of Luka.」%p
+#mes2v OKA_0972,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 the honor is mine.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ASB
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_CRS_B05
+#call macrosys,CharaDisp62
+#mes2v CRS_0363,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...His name isn't Hououin、 it's Okabe.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7FACE),Face_URP_A01
+#call macrosys,CharaDisp73
+#mes2v URP_0003,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Eh、 is that so?」%p
+#mes2v OKA_0973,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Assistant! You're making things complicated、 so don't talk!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#mes2v CRS_0364,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Didn't I just say the truth?」%p
+#mes Tch、 just what did she come here for?%p
+#call macrosys,CharaEraseW12
+#mes2v URP_0004,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Luka told me that he was Hououin-kun、 so I completely believed it、 but、 hmm、 maybe Luka was just playing a trick on me. Hahaha.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_BSA
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0047,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ah、 Father、 th-that's not it、 Okabe-san is his real name、 and the Hououin name is、 umm...」%p
+#mes2v OKA_0974,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I am Hououin.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ASB
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_CRS_B04
+#call macrosys,CharaDisp62
+#mes2v CRS_0365,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe Rintaro was the name your parents gave to you、 right? Are you denying that?」%p
+#mes2v OKA_0975,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just be quiet、 the Zombie!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BSA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDispW5162
+#mes2v CRS_0366,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Who's the Zombie!?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7FACE),Face_URP_A02
+#call macrosys,CharaDisp73
+#mes2v URP_0005,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Hahaha、 it's great that you all get along.」%p
+#mes Luka's dad looks at Kurisu.%p
+#mes2v URP_0006,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Are you one of Luka's friends too? Please get along with Luka from now on too.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASC
+#assign $W(SW_CHA6FACE),Face_CRS_C05
+#call macrosys,CharaDisp62
+#mes2v CRS_0367,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh、 I'm...」%p
+#mes2v URP_0007,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Because this child is very delicate、 as you can see.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BSA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0048,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「F-father、 stop it....」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASC
+#assign $W(SW_CHA6FACE),Face_CRS_C06
+#call macrosys,CharaDisp62Only
+#mes2v CRS_0368,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#mes Kurisu's making a teary face for some reason.%p
+#mes What's wrong? Is it that much of a bother to be called Lukako's friend when she's not?%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASC
+#assign $W(SW_CHA6FACE),Face_CRS_C05
+#call macrosys,CharaDisp62
+#mes2v CRS_0369,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「...」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Noticing my glance、 Kurisu quickly turns away.%p
+#messWindowCloseWait
+#call macrosys,SetOrder735162
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_URP_A02
+#call macrosys,CharaDisp73
+#mes2v URP_0008,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「So、 Hououin-kun. Did you need me for something?」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes That's right. This isn't the time for carefree chatter.%p
+#mes This is a decisive event for the crusade!%p
+#mes The future of mankind is、 well、 whatever.%p
+#mes For I am a mad scientist、 not a hero of any sort.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#mes I explain to Luka's dad about how I absolutely need the precious PC、 the IBN 5100、 no matter what.%p
+#mes On top of that、 I ask him if that retro PC is dedicated here in Yanabayashi Shrine.%p
+#mes Of course、 I don't disclose the classified information that we plan to hack SERN or that this is all related to time machine research.%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7FACE),Face_URP_A01
+#call macrosys,CharaDisp73
+#mes2v URP_0009,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「I don't know if 'dedicated' is the right word to use、」%p
+#mes2v URP_0010,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「But there certainly is an old computer entrusted to this shrine about 9 years ago.」%p
+#assign $W(SW_BGMFADE),FADE_FAST
+#stopBGM
+#mes2v OKA_0976,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Eh...」%p
+#mes I become speechless.%p
+#mes No way、 really...?%p
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#mes2v OKA_0977,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's it! That's no doubt it!」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7FACE),Face_URP_A02
+#call macrosys,CharaDisp73
+#mes2v URP_0011,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Please wait for a while. I'll go get it now.」%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#call macrosys,CharaClrAll
+#mwait 64
+#call macrosys,FadeInSLOW
+#mes Luka's dad comes back in about 10 minutes.%p
+#mes His face is bright red as he carries a large cardboard box.%p
+#mes His gait is fairly unsteady. I wonder if he'll be okay.%p
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE072
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_URP_A01
+#call macrosys,CharaDisp73
+#mes2v URP_0012,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Whew、 it was hard to look for it. I think this is probably it.」%p
+#mes Luka's dad places the box on the ground、 taking a deep breath as he rubs his back.%p
+#mes Is it that heavy?%p
+#mes I thank him and take a look inside.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG032
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2POSY),100
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#mes2v OKA_0978,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This is an IBN 5100...!」%p
+#mes Contained inside is a simple computer with an integrated monitor.%p
+#mes I say monitor、 but it's only about as big as a car GPS screen.%p
+#mes I compare it with the IBN 5100 image I got from Masseuse.%p
+#mes It looks very similar.%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),32
+#assign $W(LR_TMP01),32
+#assign $W(LR_TMP10),-120
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG2POSX_OFS,$W(LR_TMP10),$W(LR_TMP00),$W(LR_TMP01)
+//#mwait 1
+#commitAnimation
+#add $W(SW_BG2POSX),$W(LR_TMP10)
+#assign $W(SW_BG2POSX_OFS),0
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_BMB
+#assign $W(SW_CHA5POSX),CHR_LEFT_L
+#assign $W(SW_CHA5FACE),Face_RUK_B04
+#call macrosys,CharaDisp51
+#mes2v RUK_0049,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ah、 please look here.」%p
+#setDic 106
+#mes Lukako points to the logo placed between the &cTIPSC;tape drive&cMESC; and the monitor.%p
+#mes It clearly says "IBN 5100 Portable_Computer".%p
+#mes2v OKA_0979,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fuhaha、 fuuhahahaha! Finally、 I have elucidated Akiba's urban legend!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BMB
+#assign $W(SW_CHA5FACE),Face_RUK_B01
+#call macrosys,CharaDisp51
+#mes This very computer is the phantom PC of Akiba!%p
+#mes It's in favorable condition. There's only a thin layer of dust on it.%p
+#mes However、 it looks like we need to plug it in to test if it works or not.%p
+#mes Now、 the problem is whether Luka's dad will lend it to me or not.%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7POSX),CHR_CENTER
+#assign $W(SW_CHA7FACE),Face_URP_A02
+#call macrosys,CharaDisp73
+#mes2v OKA_0980,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Urushibara-shi. I'd like to ask bluntly、」%p
+#mes2v OKA_0981,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「But could I borrow this computer?」%p
+#mes2v URP_0013,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「You may.」%p
+#mes2v OKA_0982,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That easily!?」%p
+#mes Is it okay for a priest to lend dedicated objects to other people?%p
+#mes I've never heard anything like that. That's why I was expecting he'd refuse.%p
+#mes2v URP_0014,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「When this was entrusted to us、 the owner said this:」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7FACE),Face_URP_A01
+#call macrosys,CharaDisp73
+#mes2v URP_0015,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「If a young person appears saying they need the computer no matter what、 you may at that time gladly lend it to them.」%p
+#mes2v URP_0016,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「I didn't think one would actually appear like this. Actually、 I forgot about it until those rumors started popping up.」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,URP_AMA
+#assign $W(SW_CHA7FACE),Face_URP_A02
+#call macrosys,CharaDisp73
+#mes2v URP_0017,$W(LR_LIP_URP),VID_ETC,＠Luka's father＠「Therefore、 let's lend it to Hououin-kun. However、 once you're done、 please be sure to return it、 okay?」%p
+#mes2v OKA_0983,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yes、 thank you very much!」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG_BLACK
+#assign $W(SW_BG2PRI),PRI_UPPER_CHARA
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK17
+#assign $W(SW_BG2MASKFADERANGE),64
+#setFlag SF_BG2DISP
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_MASK2PRI),PRI_UPPER_CHARA
+#assign $W(SW_MASK2COLOR),COL_BLACK
+#assign $W(SW_FEATHERING_PRI),PRI_UPPER_CHARA
+#assign $W(SW_FEATHERING),0
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG2FADECT,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_MASK2ALPHA,128,$W(LR_TMP00),$W(LR_TMP01)
+#CalcMove SW_FEATHERING,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG2FADECT),128
+#assign $W(SW_MASK2ALPHA),128
+#assign $W(SW_FEATHERING),DEPTH_BOKEH
+#mes While bowing deeply、 I snicker in my heart.%p
+#mes Heheheh、 I can't stop laughing. Things are going so swimmingly. It's almost like things are being prepared for me.%p
+#mes With this、 SERN's hidden secrets are fully exposed.%p
+#mes We can expose their wicked research、 and possibly、 even gather hints on the creation of a time machine.%p
+#mes And then I can complete the first time machine in human history before them.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel LR_TMP11,128,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_BG2FADECT),(128-$W(LR_TMP11))
+#assign $W(SW_MASK2ALPHA),(128-$W(LR_TMP11))
+#CalcMove LR_TMP12,DEPTH_BOKEH,$W(LR_TMP00),$W(LR_TMP01)
+#assign $W(SW_FEATHERING),(DEPTH_BOKEH-$W(LR_TMP12))
+#commitAnimation
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_MASK2ALPHA),0
+#assign $W(SW_FEATHERING),0
+#assign $W(SW_FEATHERING_PRI),PRI_LOWER_CHARA
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG033
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#call macrosys,CharaClrW13
+#assign $W(LR_LIP_URP),0
+#mes With that said、 now I have to bring the IBN 5100 back to the lab.%p
+#mes But unfortunately、 I don't have a car to transport it. In fact、 I don't even have a license.%p
+#mes Assistant is the same.%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaSet51
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM26
+#mes2v OKA_0984,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't you usually get your license at age 16 in America? Yet you don't have one?」%p
+#mes2v CRS_0370,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What、 there a problem? Over there、 I've been doing nothing but research.」%p
+#mes2v OKA_0985,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're wasting your youth away.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0371,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I don't think that when I look at you. Actually、 I think I'm spending mine more usefully.」%p
+#mes Damn Assistant. Touche.%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaDisp62
+#mes2v RUK_0050,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Uh、 umm、 it's not good to fight....」%p
+#mes Lukako's flustered again.%p
+#mes2v OKA_0986,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako、 you were a lifesaver today. Thank your father again for me.」%p
+#mes Luka's dad had already returned to the shrine office.%p
+#mes Lukako nods at my words.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_0372,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Your father sure is a lovely man.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#call macrosys,CharaDisp62
+#mes2v RUK_0051,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh...」%p
+#mes Lukako and I freeze at Assistant's nonchalant words.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaDisp62
+#mes2v RUK_0052,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「M-my father is m-married... a-ad-adultery... isn't good...!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0373,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Huh...?」%p
+#mes2v OKA_0987,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see、 Assistant. So you like old men、 huh.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0374,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 wait! Don't misunderstand、 you two. That's not what I meant!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A04
+#call macrosys,CharaDisp62
+#mes2v RUK_0053,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I-I won't give up my father....」%p
+#mes2v CRS_0375,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「P-please don't cry....」%p
+#mes2v CRS_0376,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What I meant was that you and your father get along、 so I was jealous. That's all I meant.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaDisp62
+#mes2v RUK_0054,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Eh、 ah、 was that so.... Im sorry for the weird misunderstanding...! I did something so rude...!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaDisp51
+#mes2v CRS_0377,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So don't cry. We resolved the misunderstand、 so it's all okay.」%p
+#mes2v OKA_0988,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...but in the depths of your heart are feelings for Luka's dad.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A09
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A04
+#call macrosys,CharaDispW5162
+#mes2v CRS_0378,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There aren't any.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#mes Christna turns away.%p
+#mes I stop myself since angering her any further could lead to violence.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_BLA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A04
+#call macrosys,CharaDisp51
+#mes2v OKA_0989,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako、 don't forget your practice swinging with 'Samidare'.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BLA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0055,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Y-yes sir. I'll do my best.... Umm、 El Psy Congaly...」%p
+#mes2v OKA_0990,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's Congroo! Don't forget it.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BLA
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v RUK_0056,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I-I'm sorry....」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ASB
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#mes2v CRS_0379,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 it's terrible to bully girls、 don't you think?」%p
+#mes No、 I don't think that.%p
+#messWindowCloseWait
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),PRI2_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_CHARA
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#assign $W(SW_BG8SX),470
+#assign $W(SW_BG8SY),140
+#assign $W(SW_BG8LX),(SCR_SIZ_X/4)
+#assign $W(SW_BG8LY),(SCR_SIZ_Y/4)
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG8FADECT),0
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#setFlag SF_BG8DISP
+#assign $W(LR_TMP00),BG_FAST
+#assign $W(LR_TMP01),BG_FAST
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcMove SW_BG8FADECT,BGFADECT_ALPHA_MAX,$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SX_OFS,(320-$W(SW_BG8SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8SY_OFS,(80-$W(SW_BG8SY)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LX_OFS,((SCR_SIZ_X/2)-$W(SW_BG8LX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG8LY_OFS,((SCR_SIZ_Y/2)-$W(SW_BG8LY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG8SX),320
+#assign $W(SW_BG8SX_OFS),0
+#assign $W(SW_BG8SY),80
+#assign $W(SW_BG8SY_OFS),0
+#assign $W(SW_BG8LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG8LX_OFS),0
+#assign $W(SW_BG8LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG8LY_OFS),0
+#setFlag SF_Phone_AutoDisable
+#mes Because Lukako is a guy.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG8_FadeOutTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_EFF_CAPTURE_PRI),0
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#call macrosys,CharaClrAll
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes Ignoring Christina's retort、 I lift up the box with the IBN 5100.%p
+#mes2v OKA_0991,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmm、 ...gah、 it's heavy!」%p
+#resetFlag SF_Phone_Disable
+#mes It'll take everything I've got to carry this weight all the way.%p
+#mes I put it down for now.%p
+#mes Now I know why Luka's dad's face was bright red when he carried this thing.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_BMB
+#assign $W(SW_CHA6POSX),CHR_LEFT
+#assign $W(SW_CHA6FACE),Face_RUK_B04
+#call macrosys,CharaDispW5162
+#mes2v RUK_0057,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Is it that heavy...?」%p
+#mes2v CRS_0380,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「How weak. Even though it's only as big as a CRT monitor.」%p
+#mes2v OKA_0992,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then why don't you try carrying it? You'll understand that I wasn't wrong.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#mes Kurisu sighs、 holds both ends of the cardboard box、 and puts in all her strength--%p
+#mes2v CRS_0381,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wheugh...!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BMA
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#call macrosys,CharaDisp62
+#mes After giving it her all without lifting it a centimeter、 Kurisu gives up.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaDisp51
+#mes2v CRS_0382,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...I-it's really heavy.」%p
+#mes With a sour look on her face、 she blushes slightly in embarrassment.%p
+#mes Assistant seems to have a strong competitive spirit.%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,CRS_AMB
+#assign $W(SW_CHA8POSX),$W(SW_CHA1POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8FACE),Face_CRS_B03
+#call macrosys,CharaDisp81
+#mes2v CRS_0383,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This thing's gotta weigh like 30 kilos、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_01
+#mes2v CRS_0384,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Maybe we should've borrowed a push cart. Urushibara-san、 is there one in the shrine?」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v RUK_0058,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Umm、 there is one、 but actually、 it's broken... I'm sorry.」%p
+#mes2v CRS_0385,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I see. Is there some other place we could borrow--」%p
+#mes2v OKA_0993,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 we don't need a push cart.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase1
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51Only
+#mes2v CRS_0386,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Then how are you going to bring it back? It takes about 10 minutes to walk back to your run-down lab from here.」%p
+#mes2v OKA_0994,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It may be too heavy for one person、 but it's a different story for two. You and I just need to carry it together. That's the reason you're my assistant、 right?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B03
+#call macrosys,CharaDisp51
+#mes2v CRS_0387,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Is that the reason...?」%p
+#mes2v CRS_0388,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Well、 if both of us carry it、 we might be able to manage.」%p
+#messWindowCloseWait
+#add $W(SW_CHA5PRI),PRI2_BG
+#add $W(SW_CHA1PRI),PRI2_BG
+#assign $W(SW_BG1PRI),PRI2_BG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ALB
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_CRS_B08
+#call macrosys,CharaSet62
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_BG8PRI),PRI2_UPPER_ALL
+#assign $W(SW_BG8SX),340
+#assign $W(SW_BG8SY),80
+#assign $W(SW_BG8LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG8LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG8DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),8
+#setFlag SF_BG8DISP
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG8_FadeInTIM
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_NONE
+#assign $W(SW_BG8FADECT),0
+#mes2v CRS_0389,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Nope.avi」%p
+#mes2v OKA_0995,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...eh?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaSet51
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_FAST
+#call macrosys,BG8_FadeOutTIM
+#resetFlag SF_BG8DISP
+#call macrosys,InitBG8
+#assign $W(SW_EFF_CAPTURE_PRI),0
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#call macrosys,CharaClr2
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG1PRI),PRI_BG
+#call macrosys,SetOrder51627384
+#mes2v CRS_0390,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I-I said no. 」%p
+#mes2v OKA_0996,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Didn't you say nope.avi?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A08
+#call macrosys,CharaDisp51
+#mes2v CRS_0391,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Sh-shut up. Yes. I said no.」%p
+#mes ...Could she possibly be an @channeler?%p
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA8
+#loadCHA 8,CRS_ALB
+#assign $W(SW_CHA8POSX),$W(SW_CHA1POSX)
+#assign $W(SW_CHA8PRI),$W(SW_CHA5PRI)
+#assign $W(SW_CHA8FACE),Face_CRS_B03
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B02
+#call macrosys,CharaDisp81
+#SetSavePoint
+#setFlag SF_MESSAVEPOINT_SSP
+#setFlag LF_THD_CTRL
+#setFlag LF_THD_EXEC
+#CreateThread THDGRP_MACRO,SCRBUF_MACRO2,Thd_IM_CRS_02
+#mes2v CRS_0392,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「From the start、 you made me a lab mem to 'borrow my knowledge'. So I'll guide you to the next answer in this case. 'I won't do physical labor'」%p
+#resetFlag LF_THD_CTRL
+#flagOnWait LF_THD_EXEC
+#mes2v OKA_0997,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see. Then there's no helping it. For now、 I'll do my best to carry it、 but...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,RUK_BSA
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_RUK_A03
+#call macrosys,CharaDisp62
+#mes I glimpse at Lukako.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,RUK_BSA
+#assign $W(SW_CHA6FACE),Face_RUK_A02
+#call macrosys,CharaSet62
+#call macrosys,QUA3CHA2
+#mes Lukako twitches as he notices my glance、 timidly raising his hands with a tearful face.%p
+#mes2v RUK_0059,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Um、 th-then、 I will...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0393,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh? Urushibara-san will? You okay?」%p
+#mes2v RUK_0060,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Yes、 I-I'll do my best.」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_BLA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v OKA_0998,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 Lukako. I shouldn't make you help me. I can manage by myself.」%p
+#mes2v RUK_0061,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「No... no way. Please don't hold back. I want to be helpful for Okabe-san.」%p
+#mes2v OKA_0999,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 I'll do it myself.」%p
+#mes2v RUK_0062,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「I-I'll help you.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,CRS_ASC
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_CRS_C06
+#call macrosys,CharaDisp62
+#mes2v CRS_0394,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Th-then、 umm... me too....」%p
+#call macrosys,CharaErase1
+#mes2v OKA_1000,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Please、 by all means.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASC
+#assign $W(SW_CHA6FACE),Face_CRS_C05
+#call macrosys,CharaDisp62
+#call macrosys,QUA3CHA2
+#mes2v CRS_0395,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh? Wha!?」%p
+#mes2v OKA_1001,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Fuhahaha! Didn't you know、 Christina? That was what you call a Japanese Gag!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASC
+#assign $W(SW_CHA6FACE),Face_CRS_C02
+#call macrosys,CharaDisp62
+#mes2v CRS_0396,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,RUK_BLA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_RUK_A02
+#call macrosys,CharaDisp51
+#mes2v OKA_1002,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Lukako、 thanks for the backup! With that said、 Assistant and I will carry this computer、 so you don't have to help. Thanks for the concern.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,RUK_BLA
+#assign $W(SW_CHA5FACE),Face_RUK_A03
+#call macrosys,CharaDisp51
+#mes2v RUK_0063,$W(LR_LIP_RUK),VID_RUK,＠Luka＠「Ah、 okay... if that's how it is、 then...」%p
+#mes2v OKA_1003,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Now、 Assistant! Since you volunteered yourself、 I won't let you refuse. Hold it. Hold it now!」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,CRS_ASB
+#assign $W(SW_CHA6FACE),Face_CRS_B03
+#call macrosys,CharaDisp62
+#setFlag SF_Phone_AutoDisable
+#mes2v CRS_0397,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...Okay、 okay.」%p
+#messWindowCloseWait
+#setEVFlag 7
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,EV_C05A
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BGOverWrite
+#mes Kurisu and I lift up the cardboard box.%p
+#mes Two people collaborating considerably reduces the weight.%p
+#mes2v CRS_0398,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why do we have to be face to face?」%p
+#mes We're positioned so that we're looking at each other.%p
+#mes But there's no other way to hold it、 so there's no helping it.%p
+#mes2v OKA_1004,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's just go.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG033
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeInTIM
+#assign $W(SW_BG2FADECT),0
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_NONE
+#resetFlag SF_BG1DISP
+#mes I start to walk out of the shrine at once.%p
+#mes2v CRS_0399,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 wait、 wait! Wait!」%p
+#messWindowCloseWait
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG1DISP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v OKA_1005,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You're a noisy one.」%p
+#mes2v CRS_0400,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Don't walk forwards. That means I have to walk backwards、 right? Move sideways.」%p
+#mes2v OKA_1006,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Just move quickly、 Assistant.」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,IBG033
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BGOverWrite
+#mes2v CRS_0401,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hey、 listen、 please、 just listen! Walking backwards is just too much!」%p
+#mes2v OKA_1007,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you're an assistant、 you should be able to do it.」%p
+#setFlag SF_Phone_AutoDisable
+#mes2v CRS_0402,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Thanks for the esteem. But it's too much! I'm asking you to go sideways! No、 I'm telling you to go sideways! Sideways! I'm going to fall!」%p
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
+#label Thd_IM_CRS_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM3000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_CRS_02
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM5000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp51
+#resetFlag LF_THD_EXEC
+#end
+#label Thd_IM_RUK_01
+#call macrosys,Thd_WaitVoiceStart
+#assign $T(THD_WORK01),TIM5000
+#call macrosys,Thd_WaitTIM
+#call macrosys,Thd_CharaDisp62
+#resetFlag LF_THD_EXEC
+#end

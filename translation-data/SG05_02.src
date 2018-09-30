@@ -1,0 +1,324 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag_MailRecive FM_To_TIT0501
+#assign $W(LR_DATE),0810
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInFAST
+#setFlag SF_PhoneSD_Disp
+#playSE 1,SGSE032
+#mes2v OKA_2347,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「──」%p
+#mes I jerk awake on top of the sofa.%p
+#mes My entire body is wet with sweat.%p
+#resetFlag SF_Phone_Disable
+#mes2v OKA_2348,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...A dream.」%p
+#assign $W(SW_SEFADE),FADE_VERY2SLOW
+#stopSE 1
+#playBGM BGM03
+#mes Apparently、 I fell asleep during the day.%p
+#mes What a bad dream.%p
+#mes I guess I'm feeling like this because of that threat mail.%p
+#mes But even if it were a dream、 I won't accept being saved by Mayuri.%p
+#mes Because I'm the one who should save Mayuri.%p
+#mes It's more suitable that way.%p
+#mes It's not like Mayuri can make such troublesome conversation in the first place.%p
+#mes I try searching for Mayuri.%p
+#mes Of course、 she's in this room.%p
+#messWindowCloseWait
+#stopSE 1
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01E1
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+//#assign $W(LR_TMP00),BG01E1
+#call macrosys,TUNE_CHACOL_BGNO
+#mes She's sitting down flat in front of the TV.%p
+#mes The TV's showing a DVD video of RaiNet Kakeru.%p
+#mes Upa is riding on the shoulder of the protagonist、 Kakeru、 making an ambiguous cry for some reason or another.%p
+#mes2v MAY_0625,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Haah-、 Mayushii wants to make friends with Upa too-」%p
+#mes2v OKA_2349,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#setFlag SF_Phone_AutoDisable
+#mes This airheaded optimistic girl is my object of protection after all; that dream was wrong. I'm convinced.%p
+#messWindowCloseWait
+#call macrosys,FadeOutSLOW
+#stopBGM
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02E1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#resetFlag SF_Phone_Disable
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,DISP_RECEIVEBOX
+#mes I chug down a Dr Pepper and check my phone mail.%p
+#mes But nothing especially new came.%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Several hours ago、 I sent Titor a private mail just to make sure.%p
+#mes Of course、 the subject was Suzuha. But he hasn't replied yet.%p
+#label L_SG05_02_PHONE_RING_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_PhID),PhID_FEI
+#call macrosys2,START_PHONE_RING
+#AutoSave 2
+#mes Daru and the others obviously didn't recognize the fact that I sent myself a D-mail to the past.%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#mes Instead、 I refresh my memory of our party for Suzuha last night and pleasantly look back at the party I never attended.%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#mes ...wait、 is that my phone ringing?%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#mes Ugh....%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#mes One look at the displayed name makes me want to groan.%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#mes It's Faris.%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#mes I've said it many times、 but I'm just not good with that catgirl.%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#mes She always bewilders me with her words.%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#setFlag SF_Phone_AutoDisable
+#mes My instincts tell me not to answer the phone.%p
+#flagOnJump SF_PhoneRecive,L_SG05_02_JUNCTION_010
+#label L_SG05_02_PHONE_RING_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneRecive
+#resetFlag SF_Phone_AutoDisable
+#setFlag SF_Phone_Disable
+#jump L_SG05_02_JUNCTION_011
+#label L_SG05_02_JUNCTION_010
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#assign $W(SW_BG1PRI),PRI2_BG
+#add $W(SW_CHA1PRI),PRI2_BG
+#add $W(SW_CHA2PRI),PRI2_BG
+#add $W(SW_CHA3PRI),PRI2_BG
+#add $W(SW_CHA5PRI),PRI2_BG
+#add $W(SW_CHA6PRI),PRI2_BG
+#add $W(SW_CHA7PRI),PRI2_BG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG26E1
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA4DISP
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA4
+#call macrosys,InitCHA8
+#assign $W(SW_CHA4FILTER),CHACOL_BG28A1
+#assign $W(SW_CHA8FILTER),CHACOL_BG28A1
+#loadCHA 8,FEI_DSA
+#assign $W(SW_CHA8POSX),CH_PX_TV
+#assign $W(SW_CHA8POSY),CH_PY_TV
+#assign $W(SW_CHA8FACE),Face_FEI_A01
+#call macrosys,CharaSet84
+#assign $W(SW_EFF_PHONE_CAP_PRI),PRI_UPPER_ALL
+#call macrosys2,RECEIVE_PHONE_CALL_VISUAL
+#mes2v OKA_2350,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's Hououin Kyouma.」%p
+#call macrosys,SetPhoneWindow
+#mes2v FEI_0179,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「Nyao~n♪ It's Faris、 nyan.」%p
+#call macrosys,ResetPhoneWindow
+#playBGM BGM05
+#mes2v OKA_2351,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Oh、 it's you、 Akiha Rumiho.」%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSB
+#assign $W(SW_CHA8FACE),Face_FEI_B02
+#call macrosys,CharaDisp84
+#mes2v FEI_0180,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「Nya? Who are you talking about nya?」%p
+#call macrosys,ResetPhoneWindow
+#mes Hm? But Faris' real name should be Akiha Rumiho.%p
+#mes Gh、 don't tell me、 is this an effect of changing the past...?%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSA
+#assign $W(SW_CHA8FACE),Face_FEI_A01
+#call macrosys,CharaDisp84
+#mes2v FEI_0181,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「Faris is Faris nya. I don't have any names other than that nya.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_2352,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 yeah、 sure. Your true name is Faris. My apologies.」%p
+#mes My surprise subsided. That's the sort of girl Faris is.%p
+#mes2v OKA_2353,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「And?」%p
+#mes Getting a call from Faris might mean there's some progress in her getting that IBN 5100 for us.%p
+#mes But──%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSA
+#assign $W(SW_CHA8FACE),Face_FEI_A03
+#call macrosys,CharaDisp84
+#mes2v FEI_0182,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「Kyouma's acting too conspicuously nya. The encircling net has already been spread nya.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_2354,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Haah...?」%p
+#mes More of Faris' signature bullshit?%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSC
+#assign $W(SW_CHA8FACE),Face_FEI_C03
+#call macrosys,CharaDisp84
+#mes2v FEI_0183,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「The Four Heavenly Kings have begun to move nya. It's too late to escape nyan.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_2355,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hehehe、 I see. But don't believe that the Four Heavenly Kings can stop me. Akiba will turn to a sea of blood....」%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSC
+#assign $W(SW_CHA8FACE),Face_FEI_C04
+#call macrosys,CharaDisp84
+#mes2v FEI_0184,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「After the Four Heavenly Kings is the Under Big Four nya. After that、 the Eight Heads、 and the Black Angel Troupe also wait nya.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_2356,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Th-there's that many!? They've inflated their group too much...」%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSC
+#assign $W(SW_CHA8FACE),Face_FEI_C03
+#call macrosys,CharaDisp84
+#mes2v FEI_0185,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「It means they're just that serious nya.... Kyouma、 I'm sorry、 but this is checkmate nyan.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_2357,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 it's not over yet. As long... as I have -that-、 I can turn the tides...!」%p
+#mes2v OKA_2358,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Have you yet to find information on the IBN 5100!?」%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSA
+#assign $W(SW_CHA8FACE),Face_FEI_A03
+#call macrosys,CharaDisp84
+#mes2v FEI_0186,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「Nya~. Apawlogies. I gathered up information around the world、 but still couldn't find it nya....」%p
+#call macrosys,ResetPhoneWindow
+#mes What、 so she doesn't have any progress...?%p
+#mes2v OKA_2359,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Please hurry. I don't have any time left....」%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,FEI_DSC
+#assign $W(SW_CHA8FACE),Face_FEI_C04
+#call macrosys,CharaDisp84
+#mes2v FEI_0187,$W(LR_LIP_FEI),VID_FEI,＠Faris＠&cPhC;「I knyow! When Faris finds it、 she'll tell you nya. Kyouma、 until then... don't die nyan.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_2360,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 like hell I can die.... El Psy Co--」%p
+#stopBGM
+#playSE 2,SGSE161
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#assign $W(SW_SE2VOL),SV_MIDDLE
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#playSE 1,SGSE162L,true
+#mes2v OKA_2361,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes She hung up before I could finish.%p
+#mes Dammit. That's why I hate talking to Faris.%p
+#assign $W(SW_SEFADE),1
+#stopSE 1
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Well、 let's just leave that aside.%p
+#jump L_SG05_02_JUNCTION_012
+#label L_SG05_02_JUNCTION_011
+#mes Anyway、 even though I think I should answer it、 my hand acts contrary to reason and refuses to move.%p
+#call macrosys2,IGNORE_PHONE_RING
+#setAchievement 30
+#mes My phone quiets down.%p
+#mes I wipe the sweat off my brow in relief.%p
+#assign $W(SW_SEVOL),SV_MIDDLE
+#playSE 0,SGSE166
+#mes And、 now Mayuri's phone rings.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG01E1
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_MASKINV
+#assign $W(SW_BG2MASKNO),MASK02
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#assign $W(SW_SEVOL),SV_DEFAULT
+#playSE 0,SGSE158
+#mes2v MAY_0626,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Tutturu-、 Mayushii here.」%p
+#mes2v MAY_0627,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ah、 Faris-chan. Good mornyan♪」%p
+#playBGM BGM05
+#mes I twitch when I hear that name.%p
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,MAY_CSC
+#assign $W(SW_CHA5FACE),Face_MAY_C02
+#call macrosys,CharaDisp51
+#mes I make eye contact with Mayuri.%p
+#mes2v MAY_0628,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Kyoumah? Ahh-、 you mean Okarin-? Yup、 he's here、 wanna talk to him-?」%p
+#mes I make an X with my hands and shake my head left and right.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A04
+#call macrosys,CharaDisp51
+#mes2v MAY_0629,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Hmmhuh? Well-、 it looks like he won't answer.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#mes2v MAY_0630,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「...yup. ...mmhmm.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CSA
+#assign $W(SW_CHA5FACE),Face_MAY_A02
+#call macrosys,CharaDisp51
+#mes2v MAY_0631,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Understood-. I'll tell him-. Byebye♪」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,MAY_CMA
+#assign $W(SW_CHA5FACE),Face_MAY_A01
+#call macrosys,CharaDisp51
+#resetFlag SF_Phone_Disable
+#mes After Mayuri hangs up、 I gallantly walk up to her.%p
+#mes2v OKA_2362,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hm、 thanks for taking the message、 O Mayuri. What did Faris want?」%p
+#mes2v MAY_0632,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Well、 she said that the Four Heavenly Kings have assembled in Akiba、 so be careful.」%p
+#mes What are the Four Heavenly Kings?%p
+#mes No、 there's no need to worry about it.%p
+#mes It's just one of Faris' usual practical jokes.%p
+#mes2v OKA_2363,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't tell me that's all?」%p
+#mes2v MAY_0633,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Nope. She also said she still hasn't found the IBN 5100. She said if she does find it、 she'll contact you nyan.」%p
+#mes I see....%p
+#jump L_SG05_02_JUNCTION_012
+#label L_SG05_02_JUNCTION_012
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

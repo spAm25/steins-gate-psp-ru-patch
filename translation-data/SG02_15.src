@@ -1,0 +1,440 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_Phone_Disable
+#assign $W(LR_DATE),0801
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05N3
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05N3
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM05
+#mes When we get to the front of the lab、 the day's already dark.%p
+#mes Normally it takes less than 15 minutes、 but since Kurisu kept complaining to take breaks、 it ended up taking more than twice that time.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaDisp51
+#mes2v CRS_0403,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Haah、 we finally made it... I'm tired-...」%p
+#mes2v OKA_1008,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If you didn't complain so much about everything、 we would've gotten here sooner.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0404,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Right back at you. You said 'let's take a break' five times along the way.」%p
+#mes2v OKA_1009,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#mes2v OKA_1010,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That's because I wasn't feeling well....」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0405,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Is something wrong?」%p
+#mes2v OKA_1011,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah... occasionally、 my right arm aches.... And when it does、 dark destructive impulses overcome my heart--」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_0406,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Shaddup、 be quiet、 or I'll extract your right arm's peripheral nerves out by the roots.」%p
+#mes Heeeeee. What a bizarre train of thought!%p
+#setDic 122
+"#mes xtracting peripheral nerves would be like last year's &cTIPSC;New Gene Incidents&cMESC;、 wouldn't it!?
+%p"
+#mes With that said、 I shut up.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes The final barrier to bringing the IBN 5100 into the lab awaits.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SX),0
+#assign $W(SW_BG2SY),240
+#assign $W(SW_BG2LX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2LY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_CLIP
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes We have to ascend this rickety building's narrow staircase.%p
+#mes2v CRS_0407,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Shouldn't you call people to help?」%p
+#mes2v OKA_1012,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Th-that's true....」%p
+#messWindowCloseWait
+#assign $W(LR_TMP00),BG_VERYSLOW
+#assign $W(LR_TMP01),BG_VERYSLOW
+#beginAnimation
+//#add $W(LR_TMP00),1
+#CalcAccel SW_BG1SX_OFS,(240-$W(SW_BG1SX)),$W(LR_TMP00),$W(LR_TMP01)
+#CalcAccel SW_BG1SY_OFS,(0-$W(SW_BG1SY)),$W(LR_TMP00),$W(LR_TMP01)
+#commitAnimation
+#assign $W(SW_BG1SX),240
+#assign $W(SW_BG1SX_OFS),0
+#assign $W(SW_BG1SY),0
+#assign $W(SW_BG1SY_OFS),0
+#mes Looking up from outside、 the lab's lights are turned on.%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SX),$W(SW_BG1SX)
+#assign $W(SW_BG2SY),$W(SW_BG1SY)
+#assign $W(SW_BG2LX),$W(SW_BG1LX)
+#assign $W(SW_BG2LY),$W(SW_BG1LY)
+#assign $W(SW_BG2DISPMODE),$W(SW_BG1DISPMODE)
+#setFlag SF_BG2DISP
+#assign $W(SW_BG1SX),0
+#assign $W(SW_BG1SY),0
+#assign $W(SW_BG1LX),0
+#assign $W(SW_BG1LY),0
+#assign $W(SW_BG1DISPMODE),BGDISPMODE_POS
+#setFlag SF_BG1DISP
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_ASA
+#assign $W(SW_CHA6POSX),CHR_CENTER
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaSet62
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG2_FadeOutTIM
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#mes2v SUZ_0110,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Huh?」%p
+#mes Working Warrior appears from the Braun Tube Workshop with perfect timing.%p
+#mes2v SUZ_0111,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「If it isn't Okabe Rintaro. What are you carrying?」%p
+#mes2v OKA_1013,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Hmph、 you want to know? Then I'll tell you!」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B07
+#call macrosys,CharaDisp51
+#mes2v CRS_0408,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Wait、 if you're just going to stand and talk、 shouldn't we put the box down first?」%p
+#mes2v OKA_1014,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Ah、 ahh、 no、 we don't really need to stand and talk.」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT_L
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaSet62
+#mes2v SUZ_0112,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「So、 what is that?」%p
+#mes2v OKA_1015,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If I said it was the IBN 5100... what would you do?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A02
+#call macrosys,CharaDisp62
+#mes2v SUZ_0113,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「No way!? Amazing! So you got one! Way to go、 Okabe Rintaro!」%p
+#mes I wish she'd stop calling me by my full name.%p
+#mes If you're going to do that、 then at least use Hououin Kyouma.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A01
+#call macrosys,CharaDisp62
+#mes2v SUZ_0114,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Where? Where was it?」%p
+#mes2v CRS_0409,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ugh、 it's heavy...」%p
+#mes Kurisu starts giving in.%p
+#mes Well、 I'm about at my limit too.%p
+#mes2v OKA_1016,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Let's put it down for now!」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#resetFlag SF_Phone_Disable
+#mes Kurisu and I place it on the ground gently、 so as to not damage the contents.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_B07
+#call macrosys,CharaDisp51
+#mes2v CRS_0410,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Haah...」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_SUZ_A02
+#call macrosys,CharaDisp62
+#mes2v SUZ_0115,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「So、 where was it?」%p
+#mes2v OKA_1017,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yanabayashi Shrine.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMA
+#assign $W(SW_CHA6FACE),Face_SUZ_A03
+#call macrosys,CharaDisp62
+#mes2v SUZ_0116,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Yanbayashishrine? By shrine、 you mean like a Shinto god's shrine?」%p
+#mes2v OKA_1018,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah.」%p
+#mes2v SUZ_0117,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Why was it over there...」%p
+#mes Then、 suddenly、 Suzuha looks towards Kurisu.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_AMB
+#assign $W(SW_CHA6FACE),Face_SUZ_B04
+#call macrosys,CharaDisp62
+#assign $W(SW_BGMFADE),FADE_VERYFAST
+#stopBGM
+#mes2v SUZ_0118,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Ah...!」%p
+#mes She gasps、 and then approaches close enough to Kurisu she could feel her breath.%p
+#messWindowCloseWait
+#assign $W(LR_DUPE_BGBUF),IDX_BGBUF8
+#call macrosys,DUPE_SCREEN
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2SIZE),2000
+#assign $W(SW_BG2POSX),(SCR_SIZ_X/2)
+#assign $W(SW_BG2POSY),(SCR_SIZ_Y/2)
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_ZOOM
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,SUZ_ALB
+#assign $W(SW_CHA6POSX),CHR_RIGHT
+#assign $W(SW_CHA6FACE),Face_SUZ_B04
+#assign $W(LR_POST_SCREEN),(IDX_BG2+IDX_CHA5+IDX_CHA6)
+#assign $W(SW_BG8FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,Disp_NextScreen
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM23
+#mes2v CRS_0411,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「W-what is it?」%p
+#mes2v SUZ_0119,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「Makise Kurisu?」%p
+#mes2v CRS_0412,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Yes、 but...」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,SUZ_ALB
+#assign $W(SW_CHA6FACE),Face_SUZ_B02
+#call macrosys,CharaDisp62
+#mes2v SUZ_0120,NO_LIPANM_SUZ,VID_SUZ,＠Suzuha＠「...」%p
+#mes For some reason、 she stares at Kurisu with a frightful force.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes Kurisu squints as if to oppose it.%p
+#mes Wh-what's with this tension....%p
+#mes I really can't force myself into this.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_0413,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What is it? Did I do something to you?」%p
+#messWindowCloseWait
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#copyBG 1,2
+#assign $W(SW_BG2PRI),PRI2_BG
+#assign $W(SW_BG2SIZE),0
+#assign $W(SW_BG2POSX),0
+#assign $W(SW_BG2POSY),0
+#assign $W(SW_BG2DISPMODE),BGDISPMODE_POS
+#assign $W(SW_BG2FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BgOverWrite
+#mes2v SUZ_0121,$W(LR_LIP_SUZ),VID_SUZ,＠Suzuha＠「...Hmph.」%p
+#mes Suzuha turns away、 and without looking back to us、 draws back into the Braun Tube Workshop.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5POSX),CHR_LEFT
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_0414,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Who was that just now?」%p
+#mes Kurisu turns her remaining anger at me.%p
+#mes2v OKA_1019,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The part-timer at the first floor's Braun Tube Workshop....」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C05
+#call macrosys,CharaDisp51
+#mes2v CRS_0415,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why was she glaring at me?」%p
+#mes2v OKA_1020,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I-I dunno. Did you do something to make her angry?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0416,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's the first time I ever met her. How rude of her.」%p
+#mes I thought about reminding Kurisu that she suddenly glared at me at our first meeting、 but that was an illusion、 so I didn't.%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG02N1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG02N1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM05
+#mes I get Daru and Mayuri out of the lab to help us、 and the four of us carry the IBN 5100.%p
+#mes2v OKA_1021,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Good work、 everyone. With this、 we can fight.」%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#assign $W(SW_CHA5FACE),Face_CRS_B05
+#call macrosys,CharaDisp51
+#mes2v CRS_0417,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Who are you fighting?」%p
+#mes2v OKA_1022,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「SERN、 and the ruling structures that control the world.」%p
+#mes2v CRS_0418,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You really seem happy.」%p
+#mes2v OKA_1023,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Happy? I never asked for this. Who do you think I am? I'm an insane mad scientist、 you know?」%p
+#mes2v OKA_1024,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What I want to obtain is chaos. The time machine for that purpose. Fuuhahaha!」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#setDic 223
+#mes2v CRS_0419,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I'm sorry、 say that again. You really are a junkie、 hypersecreting &cTIPSC;β endorphins&cMESC;、 aren't you?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA6DISP
+#call macrosys,InitCHA6
+#loadCHA 6,MAY_CMC
+#assign $W(SW_CHA6POSX),CHR_LEFT_L
+#assign $W(SW_CHA6FACE),Face_MAY_C03
+#call macrosys,CharaDisp62
+#mes2v MAY_0230,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Okarin、 Okarin、 I always say it's bad to do bad things、 don't I-?」%p
+#messWindowCloseWait
+#resetFlag SF_CHA7DISP
+#call macrosys,InitCHA7
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7POSX),CHR_RIGHT2
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDisp73
+#mes2v DAR_0354,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「But、 wow. You seriously found one. You can calmly do what none of us can. Fucking miracles--」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_0420,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「How do they work?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A04
+#call macrosys,CharaDisp73
+#mes2v DAR_0355,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「...Eh?」%p
+#mes2v OKA_1025,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Eh?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMC
+#assign $W(SW_CHA5FACE),Face_CRS_C04
+#call macrosys,CharaDisp51
+#mes2v CRS_0421,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh...?」%p
+#mes For a moment、 the four of us are silent.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0231,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「He was able to find it because of Mayushii's help-」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,CRS_AMC
+#assign $W(SW_CHA7FACE),Face_CRS_C06
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A01
+#call macrosys,CharaDispW5173
+#mes Not reading the atmosphere、 Mayuri puffs her chest out in pride.%p
+#mes I don't overlook Kurisu's gasp of surprise.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6FACE),Face_MAY_A01
+#call macrosys,CharaDisp62
+#mes2v MAY_0232,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Without Mayushii's info-、 Okarin would still be lost and confused on the streets of Akiba.」%p
+#mes2v OKA_1026,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah、 it's just as Mayuri said. She did well this time.」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0233,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Ehhehe-. With that said-、 Mayushii has to go home soon-」%p
+#mes2v MAY_0234,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「What about you、 Chris-chan-? Wanna come with me?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_AMA
+#assign $W(SW_CHA5FACE),Face_CRS_A06
+#call macrosys,CharaDisp51
+#mes2v CRS_0422,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Thanks、 But I'm staying her a while longer.」%p
+#mes Looks like Kurisu's interested in the IBN 5100 and SERN after all.%p
+#mes Which reminds me、 I haven't told her the details yet.%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6FACE),Face_MAY_A03
+#call macrosys,CharaDisp62
+#mes2v MAY_0235,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「I see-. But you should go home soon so you won't be late、 you know-?」%p
+#resetFlag SF_CHA6DISP
+#loadCHA 6,MAY_CMA
+#assign $W(SW_CHA6FACE),Face_MAY_A02
+#call macrosys,CharaDisp62
+#mes2v MAY_0236,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠「Well then、 see you tomorrow-. Tutturu-♪ 」%p
+#messWindowCloseWait
+#call macrosys,CharaErase2
+#mes Mayuri waves her hand as she leaves.%p
+#mes2v OKA_1027,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Now then、 Daru. When do you think we can use the IBN 5100 to hack SERN?」%p
+#resetFlag SF_CHA7DISP
+#loadCHA 7,DAR_ASA
+#assign $W(SW_CHA7FACE),Face_DAR_A02
+#call macrosys,CharaDisp73
+#mes2v DAR_0356,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Hmm-、 well-」%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#mes Daru talks while plugging the IBN 5100's power adapter into the wall.%p
+#mes The power supply makes a noisy sound when it's turned on.%p
+#messWindowCloseWait
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5POSX),CHR_RIGHT
+#assign $W(SW_CHA5FACE),Face_DAR_A04
+#call macrosys,CharaDisp51
+#mes2v DAR_0357,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「Wow-、 it turned on properly.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A03
+#call macrosys,CharaDisp51
+#mes2v DAR_0358,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「First、 I need to learn how to use this thing、 right? In the first place、 it looks like hooking it up is going to be a pain.」%p
+#mes2v DAR_0359,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「It might take some time. It's impossible to do it at the same time as I search for the server's root ID.」%p
+#mes2v OKA_1028,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Doesn't matter. Prioritize the ID search.」%p
+#mes2v OKA_1029,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「If possible、 I'd like you to get the IBN 5100 ready to use this month、 though.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,DAR_AMA
+#assign $W(SW_CHA5FACE),Face_DAR_A02
+#call macrosys,CharaDisp51
+#mes2v DAR_0360,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠「There's still 30 days left this month. It really won't take until next month.」%p
+#setFlag SF_Phone_AutoDisable
+#mes That's actually reassuring. As expected of the supah hakah.%p
+#messWindowCloseWait
+#call macrosys,CharaEraseAll
+#flagOnJump LF_DEBUG,L_SG02_15_TTLCALL_END
+#end
+#label L_SG02_15_TTLCALL_END
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

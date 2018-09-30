@@ -1,0 +1,424 @@
+﻿#include"scrdef.h"
+#include"scrinc.h"
+#include"scrSys.h"
+#include"scrGraph.h"
+#include"scrUser1.h"
+#include"system.h"
+#include"script.h"
+#include"mask.h"
+#include"bg.h"
+#include"evcg.h"
+#include"bgcolor.h"
+#include"se.h"
+#include"chara.h"
+#include"charaSub.h"
+#include"chacol.h"
+#include"anime.h"
+#include"bgm.h"
+#include"voice.h"
+#include"mflag.h"
+#include"reserve.h"
+#include"mail.h"
+#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#assign $W(LR_DATE),0814
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#mes I sit on the bench in front of the building、 confirming the absence of Suzuha's bicycle.%p
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG39AS1
+//#assign $W(LR_TMP00),BG39AS1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM11
+#label L_SG07_05_RM_MAY07_01_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_MAY
+#assign $W(LR_RM_CHANCE),16
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_2050,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What is it? You don't normally call my name normally.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Kurisu says so and frowns.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_2051,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Japanese is weird.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3437,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...please help me.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2052,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...This is a shock.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_2053,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I never thought I'd hear those words from you. Do you have a fever?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3438,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Don't poke fun. I'm seriously consulting you.」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_2054,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You time leaped、 didn't you?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes I nod.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3439,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「How much do you know?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_2055,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「How much about what?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v OKA_3440,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「That Suzuha was John Titor?」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C06
+#call macrosys,CharaDisp51
+#mes2v CRS_2056,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Eh...」%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes Kurisu stares blankly.%p
+#call macrosys2,CHECK_RM_RECEIVE
+#mes2v CRS_2057,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I never thought of that.」%p
+#call macrosys2,LAST_CHECK_RM_RECEIVE
+#mes2v OKA_3441,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#label L_SG07_05_RM_MAY07_01_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#mes When we stopped Suzuha from going to the time machine IRL meet on August 9、 she decided to time travel on August 13.%p
+#mes That event was most likely changed by my cancellation D-mail.%p
+#mes Just what happened in this world line those four days?%p
+#mes I don't know.%p
+#mes2v OKA_3442,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Have you finished the Time Leap Machine?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_2058,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「What are you talking about? I finished it yesterday after working all night.」%p
+#mes2v CRS_2059,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Okabe、 when did you leap from?」%p
+#mes2v OKA_3443,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「8PM tonight.」%p
+#mes In any case、 it looks like I'll have to explain everything I've experienced again.%p
+#label L_SG07_05_RM_MAY07_01_REPLY_END
+#RandomMail_End
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG05E1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG05E1
+#call macrosys,TUNE_CHACOL_BGNO
+#label L_SG07_05_RM_MAY07_02_RECEIVE_STA
+#assign $W(LR_RM_ID),RMID_MAY
+#assign $W(LR_RM_CHANCE),0
+#call macrosys2,CHECK_RM_HAD_RECEIVED
+#label L_SG07_05_RM_MAY07_02_RECEIVE_END
+#call macrosys2,FINISH_CHECK_RM_RECEIVE
+#label L_SG07_05_RM_MAY07_02_REPLEY_END
+#RandomMail_End
+#call macrosys,FadeInSLOW
+#mwait 64
+#messWindowCloseWait
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#assign $W(SW_BG5PRI),(PRI_PHONE-1)
+#assign $W(SW_EFF_CAPTURE_PRI),PRI_UPPER_ALL
+#assign $W(SW_EFF_CAPTURE_BUF),5
+#setFlag SF_BG5DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG39ES1
+//#assign $W(LR_TMP00),BG39ES1
+#call macrosys,TUNE_CHACOL_BGNO
+#assign $W(SW_BG2PRI),PRI2_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA5DISP
+#call macrosys,InitCHA5
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5POSX),CHR_CENTER
+#add $W(SW_CHA5PRI),PRI2_BG
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#setFlag SF_CHA5DISP
+#assign $W(SW_BG5FADETYPE),BGFADETYPE_ALPHA
+#assign $W(LR_FADE_TIM),BG_SLOW
+#call macrosys,BG5_FadeOutTIM
+#resetFlag SF_BG5DISP
+#assign $W(SW_EFF_CAPTURE_BUF),0
+#resetFlag SF_BG5DISP
+#call macrosys,InitBG5
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#resetFlag SF_CHA1DISP
+#resetFlag SF_CHA2DISP
+#swapBG 1,2
+#assign $W(SW_BG1PRI),PRI_BG
+#setFlag SF_BG1DISP
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#call macrosys,SetOrder51627384
+#call macrosys,SyncParam51
+#call macrosys,SyncParam62
+#call macrosys,SyncBNO
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM19
+#mes2v CRS_2060,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Hmmm...」%p
+#mes I talked about what I experienced、 like Mayuri's death、 about Suzuha、 about Moeka、 and a summary of what Suzuha told me about the world's structure.%p
+#mes Kurisu didn't particularly doubt anything.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B08
+#call macrosys,CharaDisp51
+#mes2v CRS_2061,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So in other words、 if you get back the IBN 5100... you win.」%p
+#mes That's the conclusion.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_2062,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「This is just a guess、 but──」%p
+#mes2v CRS_2063,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You should think about what Amane-san said the other way around.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2064,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I think the critical point is when you get the IBN 5100 and erase the data from SERN.」%p
+#mes2v CRS_2065,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「It's most likely at that instant you'll achieve Divergence over 1%.」%p
+#mes2v OKA_3444,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The problem is where the IBN 5100 is now.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2066,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You got the IBN 5100 once before. That is、 if your memory isn't a delusion.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2067,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you can return to that world line、 it'll inevitably come back、 won't it?」%p
+#mes2v OKA_3445,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see、 so that's it……」%p
+#mes2v OKA_3446,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The IBN 5100 was inside the lab and then suddenly disappeared.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2068,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You made quite the ruckus about that earlier. Back then、 I thought that Okabe had finally lost his distinction between delusions and reality. I silently muttered 'oh god'.」%p
+#mes2v OKA_3447,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You Americanophile. What do you mean 'oh god'? You trying to say Kurisu-chan is Christian?」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes When I say that、 Kurisu looks at me with disdain.%p
+#mes2v CRS_2069,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Oh、 why、 you..」%p
+#mes2v OKA_3448,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...I regret saying it too.」%p
+#mes This isn't the time for such worthless chatter.%p
+#mes2v OKA_3449,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 Christina.... You want to say this、 right?」%p
+#mes2v OKA_3450,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「The distortions we made to the world、 namely、 all D-mails so far that changed the world line、 need to be negated──」%p
+#mes2v OKA_3451,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Then we can return to the world line where I found the IBN 5100 at Yanabayashi Shrine.」%p
+#mes From what I've experienced so far、 I'm confident that the IBN 5100's disappearance from the lab wasn't due to theft.%p
+#mes At any rate、 I've been lodging in the lab. Whenever I wasn't at the lab、 another lab mem was. Someone was in the lab every hour of the day.%p
+#mes It's physically impossible for someone to take away a retro PC that heavy without anyone noticing.%p
+#mes So it's proper to think that a D-mail caused us to deviate from the world line where I found the IBN 5100 at Yanabayashi Shrine.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2070,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That's still a hypothesis. I only came to that conclusion based on your explanation.」%p
+#mes2v CRS_2071,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「If you're mistaking your facts、 deceiving me、 or shooting off delusions、 then this hypothesis is a failure.」%p
+#mes This assistant of mine has no confidence in me at all.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2072,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You can't just blindly follow this hypothesis either.」%p
+#mes2v CRS_2073,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You have some insurances、 but if you're careless and get into 'checkmate'──」%p
+#mes2v CRS_2074,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You won't get a second chance to save Mayuri.」%p
+#mes2v OKA_3452,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#mes I know.%p
+#mes If I could、 I'd like to ask for Suzuha's opinion too、 but....%p
+#mes But in this world line、 she traveled to 1975 on the night of August 9th. There's no way I can meet her now.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B01
+#call macrosys,CharaDisp51
+#mes2v CRS_2075,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Why did the IBN 5100 disappear? Which remaining D-mail is the source of its disappearance?」%p
+#mes2v CRS_2076,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Figure that out、 and you're on your way to the solution.」%p
+#mes2v OKA_3453,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What I don't understand is how we delayed the timing of Mayuri's death exactly 24 hours.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B04
+#call macrosys,CharaDisp51
+#mes2v CRS_2077,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That is interesting、 huh. Maybe it's related to the change in Divergence.」%p
+#mes2v CRS_2078,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「There's the possibility of the Butterfly Effect. In that case、 any trivial source could produce a significantly deviant result.」%p
+#mes2v OKA_3454,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「…………」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2079,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Anyway、 it's important to act with discretion. You shouldn't do anything careless. 」%p
+#mes2v CRS_2080,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「For example、 the most important danger is your own death.」%p
+#mes2v CRS_2081,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You're probably the only one who can keep memories after crossing world lines. If you die、 then consider Mayuri dead.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A01
+#call macrosys,CharaDisp51
+#mes2v CRS_2082,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「...You must absolutely not die.」%p
+#mes2v OKA_3455,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「...By any chance、 are you worried for me?」%p
+#setDic 98
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B07
+#call macrosys,CharaDisp51
+#mes2v CRS_2083,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「H、 haah!? What's with that? &cTIPSC;Whose benefit&cMESC;？」%p
+#mes2v CRS_2084,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「No way in hell. Don't misunderstand me.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A07
+#call macrosys,CharaDisp51
+#mes2v CRS_2085,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「When I mentioned your death、 I meant since you're a valuable subject is all. Yeah. That's all.」%p
+#mes2v CRS_2086,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「That brain of yours、 having accumulated memories spanning world lines and several time leaps is a precious sample that can rewrite the history of neuroscience...」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_2087,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I want to map out your brain and find out just what's going on in there.」%p
+#mes2v CRS_2088,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「So these successive experiments that keep coming really help me out. Because the Time Leap Machine is、 so to speak、 the fruit of my research──」%p
+#mes2v OKA_3456,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Calm down.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_2089,NO_LIPANM_CRS,VID_CRS,＠Kurisu＠「…………」%p
+#mes Kurisu turns away with a sour look.%p
+#mes This assistant of mine is so difficult.%p
+#mes Anyhow、 to return to the world line where I get the IBN 5100 at Yanabayashi Shrine、 I need to cancel all the D-mails we sent so far-- that's the hypothesis.%p
+#mes Theoretically speaking、 there are no contradictions.%p
+#mes I don't have anything else besides Kurisu's explanation.%p
+#mes When I look at my watch、 it's 6:42.%p
+#mes Moeka's attack is in one hour.%p
+#mes I decide to time leap once more.%p
+#mes To daytime on the 13th. Right after the Time Leap Machine is complete.%p
+#mes2v OKA_3457,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Christina. I'll try out your plan.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_2090,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Oh、 okay.」%p
+#mes I take Kurisu's hand.%p
+#mes And firmly grasp it.%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALB
+#assign $W(SW_CHA5FACE),Face_CRS_B07
+#call macrosys,CharaDisp51
+#mes2v CRS_2091,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Ah...」%p
+#mes2v OKA_3458,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You've helped me out so many times. Sorry about that.」%p
+#mes2v CRS_2092,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「D-don't apologize、 dummy. That throws me off....」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALC
+#assign $W(SW_CHA5FACE),Face_CRS_C02
+#call macrosys,CharaDisp51
+#mes2v CRS_2093,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I-in the first place、 I don't remember helping you out before at all. That just makes me the one angry at you. I don't get it...」%p
+#mes Why's she the one getting mad? I just don't get it....%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A03
+#call macrosys,CharaDisp51
+#mes2v CRS_2094,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「I would remember if I could...」%p
+#setDic 134
+#mes2v CRS_2095,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「Because then I could look at how pitiful you look and go &cTIPSC;ha ha!&cMESC;」%p
+#mes2v OKA_3459,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「You really have an awful personality.」%p
+#resetFlag SF_CHA5DISP
+#loadCHA 5,CRS_ALA
+#assign $W(SW_CHA5FACE),Face_CRS_A04
+#call macrosys,CharaDisp51
+#mes2v CRS_2096,$W(LR_LIP_CRS),VID_CRS,＠Kurisu＠「You're one to talk.」%p
+#messWindowCloseWait
+#assign $W(SW_BGMFADE),FADE_SLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG_BLACK
+#setFlag SF_BG1DISP
+#call macrosys,FadeIn0
+#setFlag SF_Phone_AutoDisable
+#mes Thus、 I time leap 28 hours back.%p
+#messWindowCloseWait
+#resetFlag SF_PhoneSD_Disp
+#call macrosys,FadeOutFast
+#endMovie
+#assign $W(SW_ALPHAMOVIE_ALPHA),0
+#call macrosys,InitGraph
+#wait 16
+#call macrosys,FadeInSLOW
+#setFlag SF_SYSTEMCHIP_HIDE
+#assign $W(LR_TMP00),TimeLeap_SG07_05
+#assign $W(LR_TMP01),IDX_BG1
+#call macrosys2,TimeLeap_Movie
+#call macrosys2,DELETE_MAIL_SG07_05
+#resetFlag SF_SYSTEMCHIP_HIDE
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutVERY2SLOW
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end

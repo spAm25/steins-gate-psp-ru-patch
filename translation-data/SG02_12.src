@@ -1,0 +1,335 @@
+﻿#label start
+#call macrosys,SET_SCNTTL
+#call macrosys2,Init_SG
+#setFlag SF_PhoneSD_Disp
+#resetFlag SF_Phone_Disable
+#assign $W(LR_DATE),0801
+#messWindowCloseWait
+#call macrosys,FadeOut0
+#call macrosys,InitGraph
+#resetFlag SF_BG1DISP
+#call macrosys,InitBG1
+#loadBG 1,BG16A1
+#setFlag SF_BG1DISP
+//#assign $W(LR_TMP00),BG16A1
+#call macrosys,TUNE_CHACOL_BGNO
+#call macrosys,FadeInSLOW
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM18
+#mes After parting with Masseuse、 I go to a PC shop with an intimate clerk to gather various information.%p
+#mes But naturally、 that clerk didn't seem to know the IBN 5100's location either.%p
+#mes Apparently、 about 10 years ago、 many underground shops also had trouble finding the retro PC.%p
+#mes And with the recently booming moe business、 those sorts of shops have dwindled.%p
+#mes So I can't say that Moeka's unreliable....%p
+#mes Because I'm puzzled too、 and this is only my second day searching.%p
+#mes Instead of fussing over Akiba、 hunting for one on a worldwide auction page seems more appealing、 though that would take money and time.%p
+#mes That reminds me、 before I met with Masseuse、 Mayuri made an unusual phone call.%p
+#mes It's rare for the listlessly drifting Mayuri to contact me herself. Rather、 I'm usually the one to contact her.%p
+#mes I wonder what Mayuri was calling about.%p
+#label L_SG02_12_PHONE_CALL_01
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#PhoneCallActive PhID_MAY,PhID_DAR,PhID_RUK,PhID_Oven
+#mes Should I try calling back?%p
+#flagOnJump SF_PhoneCallExec,L_SG02_12_PHONE_CALL_01_EXEC
+#mes But where is Mayuri now?%p
+#flagOnJump SF_PhoneCallExec,L_SG02_12_PHONE_CALL_01_EXEC
+#mes She's not at work、 is she?%p
+#flagOnJump SF_PhoneCallExec,L_SG02_12_PHONE_CALL_01_EXEC
+#mes If she is、 then it's possible I can't contact her....%p
+#flagOnJump SF_PhoneCallExec,L_SG02_12_PHONE_CALL_01_EXEC
+#label L_SG02_12_PHONE_CALL_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCall
+#resetFlag SF_PhoneCallExec
+#jump L_SG02_12_JUNCTION_043
+#label L_SG02_12_PHONE_CALL_01_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCall
+#resetFlag SF_PhoneCallExec
+#call macrosys2,PHONE_CALL_EXEC
+#wait 1
+#mwait 120
+#If ($W(SW_PHONE_ADRCURCNO)==PhID_MAY),L_SG02_12_JUNCTION_040
+#If ($W(SW_PHONE_ADRCURCNO)==PhID_DAR),L_SG02_12_JUNCTION_042
+#jump L_SG02_12_JUNCTION_041
+#label L_SG02_12_JUNCTION_040
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#assign $W(SW_BG1PRI),PRI2_BG
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#loadBG 2,BG28A1
+#assign $W(SW_BG2PRI),PRI_BG
+#setFlag SF_BG2DISP
+#resetFlag SF_CHA4DISP
+#resetFlag SF_CHA8DISP
+#call macrosys,InitCHA4
+#call macrosys,InitCHA8
+#assign $W(SW_CHA4FILTER),CHACOL_BG28A1
+#assign $W(SW_CHA8FILTER),CHACOL_BG28A1
+#loadCHA 8,MAY_BSA
+#assign $W(SW_CHA8POSX),CH_PX_TV
+#assign $W(SW_CHA8POSY),CH_PY_TV
+#assign $W(SW_CHA8FACE),Face_MAY_A02
+#call macrosys,CharaSet84
+#assign $W(SW_EFF_PHONE_CAP_PRI),PRI_UPPER_ALL
+#call macrosys2,CONNECT_PHONE_CALL_VISUAL
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM13
+#call macrosys,SetPhoneWindow
+#mes2v MAY_0224,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「Tutturu-. Mayushii here.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0920,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's me. How's the situation?」%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,MAY_BSC
+#assign $W(SW_CHA8FACE),Face_MAY_C02
+#call macrosys,CharaDisp84
+#mes2v MAY_0225,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「Ah-、 it's Okarin.」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,MAY_BSC
+#assign $W(SW_CHA8FACE),Face_MAY_C03
+#call macrosys,CharaDisp84
+#mes2v MAY_0226,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「I just called you-」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0921,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Yeah. Did something happen?」%p
+#call macrosys,SetPhoneWindow
+#resetFlag SF_CHA8DISP
+#loadCHA 8,MAY_BSA
+#assign $W(SW_CHA8FACE),Face_MAY_A01
+#call macrosys,CharaDisp84
+#mes2v MAY_0227,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「Well、 try calling Daru-kun-」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0922,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Haah? What for?」%p
+#call macrosys,SetPhoneWindow
+#mes2v MAY_0228,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「Daru-kun went to MayQueen today-. So、 I want you to call him. You'll understand then.」%p
+#resetFlag SF_CHA8DISP
+#loadCHA 8,MAY_BSA
+#assign $W(SW_CHA8FACE),Face_MAY_A02
+#call macrosys,CharaDisp84
+#mes2v MAY_0229,$W(LR_LIP_MAY),VID_MAY,＠Mayuri＠&cPhC;「Well then-、 bye-」%p
+#call macrosys,ResetPhoneWindow
+#playSE 2,SGSE161
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#assign $W(SW_EFF_PHONE_CAP_PRI),PRI_BG
+#call macrosys,CharaClr4
+#resetFlag SF_BG2DISP
+#call macrosys,InitBG2
+#assign $W(SW_BG1PRI),PRI_BG
+#call macrosys,SetOrder51627384
+#call macrosys,TUNE_CHACOL_BG1
+#mes2v OKA_0923,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Wait! Hey、 Mayuri! Hey!」%p
+#mes2v OKA_0924,NO_LIPANM_OKA,VID_OKA,＠Rintaro＠「...」%p
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes She hung up.%p
+#mes Doesn't look like she wants to explain in detail.%p
+#mes Even if I called back、 Mayuri would probably just say the same thing.%p
+#label L_SG02_12_PHONE_CALL_02
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#PhoneCallActive PhID_DAR,PhID_NONE,PhID_NONE,PhID_NONE
+#mes Let's do as Mayuri said.%p
+#flagOnJump SF_PhoneCallExec,L_SG02_12_PHONE_CALL_02_EXEC
+#label L_SG02_12_PHONE_CALL_02_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#call macrosys2,SELECT_AddressBook
+#mwait 1
+#mwait 30
+#assign $W(LR_TARGET_PhID),PhID_DAR
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#call macrosys2,PHONE_ADRSUBMENU_CALL
+#wait 1
+#mwait 30
+#jump L_SG02_12_PHONE_CALL_02_EXEC_RING
+#label L_SG02_12_PHONE_CALL_02_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#label L_SG02_12_PHONE_CALL_02_EXEC_RING
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCallExec
+#resetFlag SF_PhoneCall
+#call macrosys2,START_PHONE_CALL
+#wait 1
+#mwait 60
+#jump L_SG02_12_JUNCTION_042
+#label L_SG02_12_JUNCTION_041
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneCall
+#resetFlag SF_PhoneCallExec
+#mes Crap、 I messed up.%p
+#call macrosys2,CANCEL_PHONE_CALL
+#mes I called someone else.%p
+#resetFlag SF_PhoneSendMailExec
+#PhoneInit
+#jump L_SG02_12_JUNCTION_043_B
+#label L_SG02_12_JUNCTION_042
+#assign $W(SW_BGMFADE),1
+#stopBGM
+#call macrosys2,CONNECT_PHONE_CALL_NORMAL
+#assign $W(SW_BGMVOL),SV_DEFAULT
+#playBGM BGM05
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0343,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Yes、 yes-」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0925,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「It's me. Report the situation.」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0344,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Oh、 it's gotta be Okarin. Did you hear from Mayu-shi?」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0926,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「No、 I didn't hear anything.」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0345,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Well、 I'm at MayQueen right now.」%p
+#mes2v DAR_0346,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Mayu-shi did some investigation. Looks like Faris-tan knows about the IBN 5100.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0927,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「What...!? Faris!?」%p
+#mes Don't tell me that catgirl and the IBN 5100 are connected.%p
+#mes That's unimaginable.%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0347,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「I understand your doubt、 but apparently there are a lot of retro PCs at her house.」%p
+#call macrosys,ResetPhoneWindow
+#mes That's some unexpected good news.%p
+#mes The tables have been turned、 and now I'm close to my goal.%p
+#mes2v OKA_0928,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「This too is Steins;Gate's choice!」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0348,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「I don't get it.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0929,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「So、 is Faris there?」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0349,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Of course. Today's the Faris Cup after all.」%p
+#call macrosys,ResetPhoneWindow
+#mes Faris Cup?%p
+#mes What's that? I think I remember hearing about it、 but I never really paid it any attention.%p
+#call macrosys,SetPhoneWindow
+#stop
+#mes2v DAR_0350,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「When I showed Faris-tan an image of the IBN 5100、 she said she dedicated a similar PC to a shrine 10 years ago. Dunno if it's the same one、 though.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0930,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「To... a shrine?」%p
+#mes That's an unexpected combination.%p
+#mes PC and Shrine. Consumer electronics and ancient Shinto precincts.%p
+#mes They don't even seem tangentially related.%p
+#mes2v OKA_0931,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Which shrine?」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0351,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Ah、 I didn't ask. I'm really sorry.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0932,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「Whatever. It's not a bad hint.」%p
+#mes The shrines in this area are Kanda Myojin and Yanabayashi Shrine.%p
+#mes I don't know if Faris resided in Akiba when she was little、 but what I can do now is visit those two shrines.%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0352,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Well、 I'm hanging up soon. The Faris Cup is about to begin.」%p
+#call macrosys,ResetPhoneWindow
+#mes2v OKA_0933,$W(LR_LIP_OKA),VID_OKA,＠Rintaro＠「I see. Daru、 I'm sure you can do it. Be sure to win.」%p
+#call macrosys,SetPhoneWindow
+#mes2v DAR_0353,$W(LR_LIP_DAR),VID_DAR,＠Itaru＠&cPhC;「Leave it to me.」%p
+#call macrosys,ResetPhoneWindow
+#assign $W(SW_PHONE_MODE),PhoneMode_Default
+#wait 1
+#mwait 60
+#call macrosys2,CLOSE_PHONE_WINDOW
+#mes Anyway、 what do you do at the Faris Cup?%p
+#mes No、 more importantly、 the shrine.%p
+#jump L_SG02_12_GORYU_00
+#label L_SG02_12_JUNCTION_043
+#label L_SG02_12_PHONE_SEND_01
+#call macrosys2,SelfStop_SkipMode
+#resetFlag SF_PhoneSendMailExec
+#PhoneSendActive PhID_MAY,PhID_NONE,PhID_NONE,PhID_NONE
+#label L_SG02_12_JUNCTION_043_B
+#setFlag SF_Phone_AutoDisable
+#mes Let's get in touch not by phone、 but by mail.%p
+#flagOnJump SF_PhoneSendMailExec,L_SG02_12_PHONE_SEND_01_EXEC
+#label L_SG02_12_PHONE_SEND_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneSendMail
+#resetFlag SF_PhoneSendMailExec
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#flagOnJump SF_Phone_Open,@f
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#label @@
+#call macrosys2,SELECT_AddressBook
+#wait 1
+#mwait 30
+#assign $W(LR_TARGET_PhID),PhID_MAY
+#call macrosys2,SELECT_PhID
+#wait 1
+#mwait 30
+#call macrosys2,PHONE_ADRSUBMENU_MAIL
+#wait 1
+#mwait 30
+#label L_SG02_12_PHONE_SEND_01_EXEC
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag SF_PhoneSendMail
+#resetFlag SF_PhoneSendMailExec
+#resetFlag SF_Phone_AutoDisable
+#resetFlag SF_Phone_Disable
+#assign $W(SW_PHONE_SENDMAILNO),FM_To_MAY0201
+#assign $W(SW_PHONE_MAILCURMNO),CREATE_NEW_MAIL
+#call macrosys2,START_SendMailEdit
+#wait 1
+#mwait 30
+#call macrosys2,Wait_Finish_SendMailEdit
+#call macrosys2,PHONE_MAIL_SENDING
+#wait 1
+#mwait 60
+#call macrosys2,COMPLETE_SENDMAIL
+#call macrosys2,CLOSE_PHONE_WINDOW
+#wait 1
+#mwait 60
+#label L_SG02_12_PHONE_RECEIVE_01
+#call macrosys2,SelfStop_SkipMode
+#assign $W(LR_TARGET_MAILNO),FM_From_MAY0201
+#call macrosys2,RECEIVE_NEW_MAIL_TRIGGER
+#mes I send a mail and get a reply in a matter of minutes.%p
+#flagOnJump SF_PhoneTrigger,L_SG02_12_READ_FM_From_MAY0201
+#label L_SG02_12_PHONE_RECEIVE_01_END
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MAY0201
+#resetFlag SF_PhoneTrigger
+#call macrosys2,OPEN_PHONE_WINDOW
+#wait 1
+#mwait 60
+#assign $W(LR_TARGET_MAILNO),FM_From_MAY0201
+#call macrosys2,DISP_RECEIVED_MAIL_DIRECT
+#wait 1
+#mwait 30
+#label L_SG02_12_READ_FM_From_MAY0201
+#call macrosys2,Finish_SelfStop_SkipMode
+#resetFlag_MailTrigger FM_From_MAY0201
+#resetFlag SF_PhoneTrigger
+#mes I guess that's enough.%p
+#mes Anyway、 try contacting Daru、 she says?%p
+#mes Just what could that mean?%p
+#mes I don't understand Mayuri's intention at all、 but for now、 I'll try calling Daru.%p
+#jump L_SG02_12_PHONE_CALL_02_END
+#label L_SG02_12_GORYU_00
+#assign $W(SW_PHONE_PRI),PRI_UPPER_CHARA
+#messWindowCloseWait
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_VERYSLOW
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_VERYSLOW
+#stopBGM
+#call macrosys,FadeOutSLOW
+#assign $W(SW_PHONE_PRI),PRI_PHONE
+#call macrosys,InitGraph
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 0
+#assign $W(SW_SEFADE),FADE_NORMAL
+#stopSE 1
+#assign $W(SW_BGMFADE),FADE_NORMAL
+#stopBGM
+#call macrosys,InitSound
+#call macrosys,FadeIn0
+#call macrosys2,Init_SG
+#end
