@@ -1,4 +1,6 @@
-patch-data
 topographer.run
-Atlas.exe
-patch-final
+notes.txt
+topographer.txt
+atlas-scripts-original
+topographer/build
+topographer/objects

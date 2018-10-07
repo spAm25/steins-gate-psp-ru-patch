@@ -1,0 +1,743 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000139C)
+
+#WRITE(PTR, $000001EC)
+──Mmm, it's all useless.
+<END>
+
+#WRITE(PTR, $000001FC)
+脳内シミュレーションの結果は惨敗だった。
+<END>
+
+#WRITE(PTR, $0000020C)
+様々なパターンでルカ子に真実を告げる場面を想定してみた結果、ルカ子が泣き出す確率は１２０％である。
+<END>
+
+#WRITE(PTR, $0000021C)
+その結果もある意味で当然と言えた。
+<END>
+
+#WRITE(PTR, $00000308)
+すでに俺には“実績”がある。
+<END>
+
+#WRITE(PTR, $00000318)
+ルカ子が男のままだと勘違いした結果、彼女を泣かしたという実績が。
+<END>
+
+#WRITE(PTR, $00000328)
+というかアイツは、ほんの些細なことでも泣くんだよな……。
+<END>
+
+#WRITE(PTR, $00000338)
+今の俺にとって、ルカ子と話すことは、腫れ物に触れるようなものなのだ。
+<END>
+
+#WRITE(PTR, $000003A8)
+くっ、やはり紅莉栖に相談するしかないな。
+<END>
+
+#WRITE(PTR, $000003B8)
+仮にも助手だって女子なのだから、女心に理解はあるだろう。
+<END>
+
+#WRITE(PTR, $000004EA)
+というわけで、紅莉栖をブラウン管工房の店先にあるベンチに誘って、１対１で相談に乗ってもらう。
+<END>
+
+#WRITE(PTR, $000004FA)
+【紅莉栖】
+You seem pretty serious.
+<END>
+
+#WRITE(PTR, $0000050A)
+【倫太郎】
+Actually, I'm facing a difficult problem. A very delicate problem.
+<END>
+
+#WRITE(PTR, $00000524)
+【紅莉栖】
+Delicate? That word's like an antiparallel vector to you.
+<END>
+
+#WRITE(PTR, $00000534)
+【倫太郎】
+And that's exactly why I want to consult you, Assistant. It needs to be a woman.
+<END>
+
+#WRITE(PTR, $00000556)
+【紅莉栖】
+<DICT>Oh, you</DICT>
+<END>
+
+#WRITE(PTR, $00000570)
+【紅莉栖】
+What do you even mean by 'it needs to be a woman'?
+<END>
+
+#WRITE(PTR, $00000580)
+I explain all the circumstances to her-- including how many times I've time leaped, and what happened with Suzuha and Faris, of course.
+<END>
+
+#WRITE(PTR, $00000590)
+How many times have I explained this to her now?
+<END>
+
+#WRITE(PTR, $000005C2)
+This time, Kurisu believes unexpectedly easily that I've time leaped several times.
+<END>
+
+#WRITE(PTR, $000005D2)
+The only thing she didn't believe was the story about Lukako. She just started groaning "huuuummmm."
+<END>
+
+#WRITE(PTR, $000005E2)
+【紅莉栖】
+Urushibara-san is actually a guy, huh. That's completely beyond imagination.
+<END>
+
+#WRITE(PTR, $000005F2)
+【倫太郎】
+But it's the truth. Was, the truth.
+<END>
+
+#WRITE(PTR, $0000060C)
+【紅莉栖】
+So basically, umm, wait...
+<END>
+
+#WRITE(PTR, $00000626)
+She wrinkles her brow in thought.
+<END>
+
+#WRITE(PTR, $00000636)
+【紅莉栖】
+You mean she actually looks like Hashida?
+<END>
+
+#WRITE(PTR, $00000646)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00000656)
+Ah crap, I got a mental image there for a sec.
+<END>
+
+#WRITE(PTR, $00000666)
+Kurisu seems the same way.
+<END>
+
+#WRITE(PTR, $00000688)
+【倫太郎＆紅莉栖（倫）】
+「これはひどい」
+<END>
+
+#WRITE(PTR, $00000698)
+【倫太郎＆紅莉栖（紅）】
+「これはひどい」
+<END>
+
+#WRITE(PTR, $000006AC)
+２人して顔をしかめた。
+<END>
+
+#WRITE(PTR, $000006C6)
+【紅莉栖】
+「絶対有り得ない。あんなかわいらしい子が男だったなんて、私は認めない」
+<END>
+
+#WRITE(PTR, $000006D6)
+【倫太郎】
+「待て待て。突っ走るな。俺は一言もルカ子の見た目がいかにも男だったとは言っていない」
+<END>
+
+#WRITE(PTR, $000006E6)
+【倫太郎】
+「むしろ見た目はあのままだったのだ。男だったときから中性的というか、女性ホルモン分泌過多としか思えなかった」
+<END>
+
+#WRITE(PTR, $000006F6)
+おかげで俺は最初、ルカ子が女の子になったことにすら気付かず、とんでもない過ちを犯してしまったわけだが。
+<END>
+
+#WRITE(PTR, $00000710)
+【紅莉栖】
+「見た目はあのまま……」
+<END>
+
+#WRITE(PTR, $00000720)
+紅莉栖は一瞬、視線をさまよわせ├┤
+<END>
+
+#WRITE(PTR, $0000073A)
+【紅莉栖】
+「なら許す」
+<END>
+
+#WRITE(PTR, $0000074A)
+とつぶやいた。
+<END>
+
+#WRITE(PTR, $0000075A)
+誰になにを許すのかは、定かではない。
+<END>
+
+#WRITE(PTR, $0000077E)
+【紅莉栖】
+「で、あんたは、彼女に男に戻ってほしいと」
+<END>
+
+#WRITE(PTR, $0000078E)
+【倫太郎】
+「そうでなければまゆりは助からない」
+<END>
+
+#WRITE(PTR, $0000079E)
+【紅莉栖】
+「まゆりの命と、漆原さんの性別か……。どっちも突拍子がなさすぎて、さっぱり実感が湧かないけど」
+<END>
+
+#WRITE(PTR, $000007C4)
+【紅莉栖】
+「あんたの中で解は出てるわけね？」
+<END>
+
+#WRITE(PTR, $000007D4)
+【倫太郎】
+「無論だ。ルカ子には男に戻ってもらう」
+<END>
+
+#WRITE(PTR, $000007E4)
+【紅莉栖】
+「ある意味で残酷な仕打ち、かも」
+<END>
+
+#WRITE(PTR, $000007F4)
+【倫太郎】
+「そこでなるべく傷付けないようにするにはどうしようと、こうして相談している」
+<END>
+
+#WRITE(PTR, $00000804)
+俺はドクターペッパーを一口あおって、ギリリと歯噛みした。
+<END>
+
+#WRITE(PTR, $00000814)
+【倫太郎】
+「……自分のこれまでの{迂闊}[うかつ]な行動を呪いたい気分だ」
+<END>
+
+#WRITE(PTR, $00000824)
+【倫太郎】
+「Ｄメールをいろんな人間に使わせるべきではなかった」
+<END>
+
+#WRITE(PTR, $00000834)
+これは罰だ。俺の軽率な行動に対する、罰。
+<END>
+
+#WRITE(PTR, $00000844)
+Ｄメールを使った鈴羽、フェイリス、そしてルカ子の“痛み”を、俺はすべて背負っていく。背負っていかなければならない。
+<END>
+
+#WRITE(PTR, $0000085E)
+【紅莉栖】
+「これまでのことを悔やんでても、なにも始まらない」
+<END>
+
+#WRITE(PTR, $0000086E)
+【紅莉栖】
+「あんたの相談に対する私の解答は、１つよ」
+<END>
+
+#WRITE(PTR, $0000087E)
+クリスティーナは息を吹き上げ、前髪を揺らした。
+<END>
+
+#WRITE(PTR, $00000898)
+【紅莉栖】
+「漆原さんにはなにも言わない」
+<END>
+
+#WRITE(PTR, $000008A8)
+【倫太郎】
+「どういうことだ？」
+<END>
+
+#WRITE(PTR, $000008B8)
+【紅莉栖】
+「話を聞く限りだと、漆原さんについてはあんたにアドバンテージがある。つまり“過去に送ったＤメールの内容を知っている”っていうアドバンテージがね」
+<END>
+
+#WRITE(PTR, $000008CC)
+【紅莉栖】
+「だから、わざわざ彼女├┤
+<END2>
+
+#WRITE(PTR, $000008E6)
+いや、彼？　元彼？」
+<END>
+
+#WRITE(PTR, $00000904)
+【紅莉栖】
+「……わざわざ漆原さんに事情を告げなくても“Ｄメールを取り消すためのＤメール”は用意できる」
+<END>
+
+#WRITE(PTR, $00000914)
+【倫太郎】
+「ルカ子を装って１８年前のルカ子の母親へとメールを送れ、ということか」
+<END>
+
+#WRITE(PTR, $0000092E)
+【紅莉栖】
+「どうせ世界線が変わればその事実はすべて“なかったこと”になる」
+<END>
+
+#WRITE(PTR, $0000093E)
+【紅莉栖】
+「この際、倫理とかデリカシーとかは無視しても問題にはならない」
+<END>
+
+#WRITE(PTR, $0000094E)
+さすが理系人間。
+<END>
+
+#WRITE(PTR, $0000095E)
+結果重視というわけか。
+<END>
+
+#WRITE(PTR, $0000096E)
+【倫太郎】
+「だが、問題が１つある」
+<END>
+
+#WRITE(PTR, $0000097E)
+【倫太郎】
+「俺は、ルカ子の母親のポケベル番号を知らない」
+<END>
+
+#WRITE(PTR, $00000998)
+【紅莉栖】
+「はあ！？　あんたバカじゃないの！？　なんでメモっとかないわけ！？」
+<END>
+
+#WRITE(PTR, $000009A8)
+【倫太郎】
+「そのときは、こんなことになるとは思わなかったのだ！」
+<END>
+
+#WRITE(PTR, $000009B8)
+紅莉栖は小さく舌打ちすると、眉間を指の腹で擦りながらブツブツと考え出す。
+<END>
+
+#WRITE(PTR, $000009D2)
+【紅莉栖】
+「……お母さんのポケベル番号を単刀直入に聞き出せば？　理由は適当に考えて」
+<END>
+
+#WRITE(PTR, $000009E2)
+【倫太郎】
+「警戒される気がする……」
+<END>
+
+#WRITE(PTR, $000009F2)
+【紅莉栖】
+「なにビビってんのよ。いつもの無駄に尊大な岡部らしくないな」
+<END>
+
+#WRITE(PTR, $00000A02)
+無駄に尊大、というのは余計だ。
+<END>
+
+#WRITE(PTR, $00000A12)
+今の俺には、『鳳凰院凶真』をやっている心の余裕はない。
+<END>
+
+#WRITE(PTR, $00000A22)
+【紅莉栖】
+「そんなの、口から出任せでなんとかするのよ。それにほら、彼女って騙されやすそうな性格だし├┤」
+<END>
+
+#WRITE(PTR, $00000A3C)
+【紅莉栖】
+「って、言ってて自己嫌悪になりそう。私ってひどい女だ……」
+<END>
+
+#WRITE(PTR, $00000A4C)
+紅莉栖は１人で勝手にヘコんでいる。
+<END>
+
+#WRITE(PTR, $00000A5C)
+【倫太郎】
+「だが、単刀直入にありのままを話すべきなのかもしれん。下手に小細工を弄するより、真実を告げる方がまだ誠意がある……ように見える」
+<END>
+
+#WRITE(PTR, $00000A6C)
+【紅莉栖】
+「マッドサイエンティストが誠意とか、笑っちゃうわね」
+<END>
+
+#WRITE(PTR, $00000A8A)
+【紅莉栖】
+「洗脳してやるフゥーハハハ
+<END2>
+
+#WRITE(PTR, $00000AA4)
+とか言い出した方が似合ってる」
+<END>
+
+#WRITE(PTR, $00000AB8)
+こいつ、俺が真面目に話しているのに……！
+<END>
+
+#WRITE(PTR, $00000AC8)
+【倫太郎】
+I will shoulder Lukako's 'pain.' That's something I must do.
+<END>
+
+#WRITE(PTR, $00000AD8)
+【倫太郎】
+When I finally cancel that D-mail, the fact that Lukako was a girl will be 'undone'.
+<END>
+
+#WRITE(PTR, $00000AE8)
+【倫太郎】
+That's why I must shoulder it.
+<END>
+
+#WRITE(PTR, $00000B02)
+【紅莉栖】
+Then you didn't need to consult me. Go to her right away and tell her what you explained to me.
+<END>
+
+#WRITE(PTR, $00000B12)
+【倫太郎】
+That's true, I guess...
+<END>
+
+#WRITE(PTR, $00000B22)
+True. That's the only choice I can take....
+<END>
+
+#WRITE(PTR, $00000C52)
+There are few worshipers at the shrine, like always.
+<END>
+
+#WRITE(PTR, $00000C62)
+I guess that's exactly how it can keep its dignified silence even though it's less than a 10 minute walk from Akihabara Station.
+<END>
+
+#WRITE(PTR, $00000CAA)
+【るか】
+Ah, Okabe-san...
+<END>
+
+#WRITE(PTR, $00000CBA)
+Lukako is sweeping the grounds.
+<END>
+
+#WRITE(PTR, $00000CD4)
+【るか】
+I-I'm sorry, I left Summer Rain"Samidare" in my room...
+<END>
+
+#WRITE(PTR, $00000CE4)
+【倫太郎】
+No, that's okay.
+<END>
+
+#WRITE(PTR, $00000CFE)
+【るか】
+Eh, it, really is?
+<END>
+
+#WRITE(PTR, $00000D0E)
+Well I'm stumped now.
+<END>
+
+#WRITE(PTR, $00000D1E)
+I don't have the determination to tell her the truth now that we're face to face.
+<END>
+
+#WRITE(PTR, $00000D38)
+【るか】
+...did something... happen?
+<END>
+
+#WRITE(PTR, $00000D48)
+【倫太郎】
+W-well...
+<END>
+
+#WRITE(PTR, $00000D58)
+Lukako's crying face from before crosses my mind.
+<END>
+
+#WRITE(PTR, $00000D68)
+It was very sad. If possible, I don't want to make her cry.
+<END>
+
+#WRITE(PTR, $00000D78)
+No, why am acting so weak!?
+<END>
+
+#WRITE(PTR, $00000D88)
+I can't stop here.
+<END>
+
+#WRITE(PTR, $00000D98)
+I swore to do anything if it's to save Mayuri.
+<END>
+
+#WRITE(PTR, $00000DA8)
+And Lukako probably only said he wanted to become a girl out of curiosity.
+<END>
+
+#WRITE(PTR, $00000DB8)
+If I explain everything properly, she shouldn't refuse to become a guy again.
+<END>
+
+#WRITE(PTR, $00000DC8)
+【倫太郎】
+Lukako!
+<END>
+
+#WRITE(PTR, $00000DE2)
+【るか】
+Uh, yes!?
+<END>
+
+#WRITE(PTR, $00000DF2)
+When I grab both her shoulders, calling out to her so close we're almost pressed together, Lukako's cheeks start to flush.
+<END>
+
+#WRITE(PTR, $00000E02)
+【倫太郎】
+Please calm down and listen. The truth is, you, were really...
+<END>
+
+#WRITE(PTR, $00000E18)
+【倫太郎】
+A guy.
+<END>
+
+#WRITE(PTR, $00000E28)
+....
+<END>
+
+#WRITE(PTR, $00000E38)
+...
+<END>
+
+#WRITE(PTR, $00000E48)
+......
+<END>
+
+#WRITE(PTR, $00000E58)
+No reaction.
+<END>
+
+#WRITE(PTR, $00000E7E)
+Or, so I thought. Blobs of tears start welling up in Lukako's eyes.
+<END>
+
+#WRITE(PTR, $00000E8E)
+【るか】
+You're... saying that again...? Sniff...
+<END>
+
+#WRITE(PTR, $00000E9E)
+Aaahh, I made her cry again....
+<END>
+
+#WRITE(PTR, $00000EAE)
+But this time, I'm not flustered.
+<END>
+
+#WRITE(PTR, $00000EBE)
+【倫太郎】
+Listen! Unless you turn back into a guy... Mayuri's life, is no more.
+<END>
+
+#WRITE(PTR, $00000ECE)
+【るか】
+Eh...
+<END>
+
+#WRITE(PTR, $00000EDE)
+I explained everything.
+<END>
+
+#WRITE(PTR, $00000EEE)
+About time machines.
+<END>
+
+#WRITE(PTR, $00000EFE)
+About the D-mail Lukako sent.
+<END>
+
+#WRITE(PTR, $00000F0E)
+About Mayuri's sudden fate.
+<END>
+
+#WRITE(PTR, $00000F1E)
+About how to avoid it.
+<END>
+
+#WRITE(PTR, $00000F2E)
+I talked on and on about everything in a one-sided conversation.
+<END>
+
+#WRITE(PTR, $00000F48)
+【るか】
+...you, you're joking, right?
+<END>
+
+#WRITE(PTR, $00000F58)
+That was Lukako's first response after hearing everything.
+<END>
+
+#WRITE(PTR, $00000F68)
+【るか】
+I can't... believe any of it...
+<END>
+
+#WRITE(PTR, $00000F78)
+Her voice is trembling.
+<END>
+
+#WRITE(PTR, $00000F92)
+【るか】
+You're in character as, uhh, Kyouma-san, right...? You are, aren't you...?
+<END>
+
+#WRITE(PTR, $00000FA2)
+Shaking her head no, she backs away from me, step by step.
+<END>
+
+#WRITE(PTR, $00000FB2)
+【るか】
+But that setting, it's too cruel. Um, it troubles me, and I think it would make Mayuri-chan sad too...
+<END>
+
+#WRITE(PTR, $00000FC2)
+【倫太郎】
+I know you're confused hearing this all of a sudden. But, it's all true. I witnessed her death, countless times.
+<END>
+
+#WRITE(PTR, $00000FD2)
+【倫太郎】
+I'm sorry for making this selfish request of you. But I beg you.... To save Mayuri... I want you to become a guy again...
+<END>
+
+#WRITE(PTR, $00000FEC)
+【るか】
+Oooh... Please, tell me... you're joking... Okabe-san...
+<END>
+
+#WRITE(PTR, $00000FFC)
+【るか】
+A, guy.... I can't possibly... be.. a guy... ooh... I don't want to...
+<END>
+
+#WRITE(PTR, $0000100C)
+【るか】
+I've always been a girl, since I was born... that's cruel...
+<END>
+
+#WRITE(PTR, $00001026)
+【るか】
+And why... of all people... does it have to be Okabe-san... to say so...
+<END>
+
+#WRITE(PTR, $00001036)
+【るか】
+It's embarrassing... sniff... this... is too much...
+<END>
+
+#WRITE(PTR, $00001046)
+Lukako covers her face with both hands to snuff out her weeping.
+<END>
+
+#WRITE(PTR, $00001056)
+【倫太郎】
+Like hell it's embarrassing. It feels more out of place to me that you're a girl.
+<END>
+
+#WRITE(PTR, $00001066)
+Lukako's entire body twitches──
+<END>
+
+#WRITE(PTR, $00001076)
+And her crying stops.
+<END>
+
+#WRITE(PTR, $00001086)
+Mmm!?
+<END>
+
+#WRITE(PTR, $00001096)
+【るか】
+...be-san... tha... way...
+<END>
+
+#WRITE(PTR, $000010A6)
+I could barely pick up her voice.
+<END>
+
+#WRITE(PTR, $000010B6)
+【倫太郎】
+What? What did you say?
+<END>
+
+#WRITE(PTR, $000010C6)
+She lowers the hands that had covered her face.
+<END>
+
+#WRITE(PTR, $000010D6)
+Lukako was making a really sad... smile.
+<END>
+
+#WRITE(PTR, $000010F0)
+【るか】
+Okabe-san... thinks of me... in that way, huh?
+<END>
+
+#WRITE(PTR, $0000116E)
+Then Lukako shakes off my hands, running away.
+<END>
+
+#WRITE(PTR, $0000117E)
+【倫太郎】
+Lukako! Wait!
+<END>
+
+#WRITE(PTR, $0000118E)
+She doesn't stop even when I call.
+<END>
+
+#WRITE(PTR, $0000119E)
+She disappears into the shrine office.
+<END>
+
+#WRITE(PTR, $000011AE)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000011BE)
+It turned out just like my simulation.
+<END>
+
+#WRITE(PTR, $000011CE)
+I sigh, leaving the shrine, dejected.
+<END>
+
+#WRITE(PTR, $000011DE)
+I need to think of plan....
+<FILEEND09>
+

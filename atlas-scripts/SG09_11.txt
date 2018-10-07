@@ -1,0 +1,1312 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00003D58)
+
+#WRITE(PTR, $00000814)
+【紅莉栖】
+...Okabe?
+<END>
+
+#WRITE(PTR, $00000824)
+【倫太郎】
+Wasn't something weird about that girl just now...?
+<END>
+
+#WRITE(PTR, $00000834)
+【紅莉栖】
+That girl... you mean Nae-chan?
+<END>
+
+#WRITE(PTR, $00000844)
+I nod.
+<END>
+
+#WRITE(PTR, $0000085E)
+【紅莉栖】
+...she was almost like a different person.
+<END>
+
+#WRITE(PTR, $0000086E)
+【倫太郎】
+What does she mean she'll kill me in fifteen years?
+<END>
+
+#WRITE(PTR, $0000087E)
+It bothers me.
+<END>
+
+#WRITE(PTR, $0000088E)
+Does this girl know something?
+<END>
+
+#WRITE(PTR, $0000089E)
+What was she implying?
+<END>
+
+#WRITE(PTR, $000008B8)
+【紅莉栖】
+Okabe, don't worry about it.
+<END>
+
+#WRITE(PTR, $000008C8)
+【紅莉栖】
+Send the D-mail right now. That'll solve everything.
+<END>
+
+#WRITE(PTR, $000008D8)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000008E8)
+I put FB's phone in my pocket.
+<END>
+
+#WRITE(PTR, $000008F8)
+【倫太郎】
+I can't do it without seeing something.
+<END>
+
+#WRITE(PTR, $00000908)
+I'm partly responsible for that girl becoming a murderer.
+<END>
+
+#WRITE(PTR, $00000918)
+And I want to find out what she meant by kill me in fifteen years.
+<END>
+
+#WRITE(PTR, $00000928)
+【倫太郎】
+「タイムリープする。ラボに戻ろう」
+<END>
+
+#WRITE(PTR, $00000942)
+紅莉栖がかすかにため息をついたが、俺は聞こえないフリをした。
+<END>
+
+#WRITE(PTR, $00000B26)
+TL24.PMF
+<END2>
+
+#WRITE(PTR, $00000EC0)
+【紅莉栖】
+Anyway, the enemy...
+<END>
+
+#WRITE(PTR, $00000F08)
+Kurisu glances at Moeka, then whispers into my ear.
+<END>
+
+#WRITE(PTR, $00000F22)
+【紅莉栖】
+Isn't she the enemy?
+<END>
+
+#WRITE(PTR, $00000F32)
+【倫太郎】
+...It's 7AM now, right?
+<END>
+
+#WRITE(PTR, $00000F4C)
+【紅莉栖】
+Haah?
+<END>
+
+#WRITE(PTR, $00000F5C)
+【紅莉栖】
+Yeah, but, why do you ask so suddenly?
+<END>
+
+#WRITE(PTR, $00000F6C)
+After time leaping four hours from the lab development room, I'm in front of the station.
+<END>
+
+#WRITE(PTR, $00000F7C)
+I remember hearing what Kurisu just said.
+<END>
+
+#WRITE(PTR, $00000F8C)
+After returning to Akiba from Narita Airport, we joined up with Kurisu.
+<END>
+
+#WRITE(PTR, $00000F9C)
+After this, the three of us go to Tennouji's house.
+<END>
+
+#WRITE(PTR, $00000FAC)
+We're standing a bit away from Moeka.
+<END>
+
+#WRITE(PTR, $00000FBC)
+Without holding her phone, she's tiptoeing and kicking the dirt in boredom.
+<END>
+
+#WRITE(PTR, $00000FCC)
+Moeka, who was dead and bloody just a while ago, is perfectly calm.
+<END>
+
+#WRITE(PTR, $00000FDC)
+That didn't really feel mysterious at all.
+<END>
+
+#WRITE(PTR, $00000FEC)
+Rather than getting paralyzed over it, I should have gotten used to this.
+<END>
+
+#WRITE(PTR, $00000FFC)
+Since I've already experienced Mayuri's death and rebirth several times.
+<END>
+
+#WRITE(PTR, $0000100C)
+And so I know.
+<END>
+
+#WRITE(PTR, $0000101C)
+After this, Moeka dies, and Manager dies, and there's nothing we can do to prevent that.
+<END>
+
+#WRITE(PTR, $0000102C)
+So even though I came back, it's cruelly not to save those two.
+<END>
+
+#WRITE(PTR, $0000103C)
+I can't do anything about it, and I'm not obligated to save them anyway.
+<END>
+
+#WRITE(PTR, $0000104C)
+The bigger problem is Nae.
+<END>
+
+#WRITE(PTR, $0000119E)
+We arrive in front of Manager's house just like we did before I time leaped.
+<END>
+
+#WRITE(PTR, $000011AE)
+This time, I wait outside with Kurisu.
+<END>
+
+#WRITE(PTR, $000011BE)
+Moeka, ever expressionless, enters alone.
+<END>
+
+#WRITE(PTR, $000011CE)
+While waiting outside, I tell Kurisu what's going to happen after this.
+<END>
+
+#WRITE(PTR, $000011DE)
+And to wait a little after hearing the gunshot before going inside and taking Manager's phone.
+<END>
+
+#WRITE(PTR, $000011EE)
+The time before hearing that sound felt absurdly long.
+<END>
+
+#WRITE(PTR, $000011FE)
+Finally──
+<END>
+
+#WRITE(PTR, $00001290)
+【紅莉栖】
+...！
+<END>
+
+#WRITE(PTR, $000012A0)
+Kurisu loses her breath as her body goes stiff.
+<END>
+
+#WRITE(PTR, $000012B0)
+【紅莉栖】
+A gunshot actually...
+<END>
+
+#WRITE(PTR, $00001380)
+I immediately check my surroundings.
+<END>
+
+#WRITE(PTR, $00001390)
+And just as Kurisu had said, I saw a girl come out of the window.
+<END>
+
+#WRITE(PTR, $000013A0)
+Her gait was firm.
+<END>
+
+#WRITE(PTR, $000013B0)
+That's not the way an elementary schoolgirl walks after witnessing her father's death.
+<END>
+
+#WRITE(PTR, $000013C0)
+I quickly run in a way that hides the sound of my footsteps.
+<END>
+
+#WRITE(PTR, $000013D0)
+【倫太郎】
+Wait.
+<END>
+
+#WRITE(PTR, $00001418)
+I call out, and Nae turns her head towards me.
+<END>
+
+#WRITE(PTR, $00001502)
+Those eyes full of hatred focus straight at me.
+<END>
+
+#WRITE(PTR, $00001512)
+That alone is enough to make me shiver.
+<END>
+
+#WRITE(PTR, $00001522)
+It's pitiful, but I'm nervous even though my opponent's such a small girl.
+<END>
+
+#WRITE(PTR, $00001532)
+Something's just not right with that girl.
+<END>
+
+#WRITE(PTR, $00001542)
+Something's wrong.
+<END>
+
+#WRITE(PTR, $00001552)
+This Nae is a different existence that seems like Nae....
+<END>
+
+#WRITE(PTR, $000015BE)
+I want to know her true identity.
+<END>
+
+#WRITE(PTR, $000015CE)
+That's why I postponed changing the world line to time leap here.
+<END>
+
+#WRITE(PTR, $000016D0)
+Though I told her to stop, Nae keeps running away without stopping.
+<END>
+
+#WRITE(PTR, $000016E0)
+I also put all my strength into chasing that small back.
+<END>
+
+#WRITE(PTR, $00001742)
+I'm bad at physical movement, but my opponent's an elementary student.
+<END>
+
+#WRITE(PTR, $00001752)
+The distance between us quickly shortens.
+<END>
+
+#WRITE(PTR, $00001762)
+Nae keeps glancing at me, but keeps running away, silently grinding her teeth.
+<END>
+
+#WRITE(PTR, $00001772)
+That gesture doesn't seem childlike.
+<END>
+
+#WRITE(PTR, $00001782)
+When a normal kid gets chased by a big man, they'd cry and scream Don't come any closer- or Save me-.
+<END>
+
+#WRITE(PTR, $00001792)
+But this girl isn't saying anything.
+<END>
+
+#WRITE(PTR, $000017A2)
+She just keeps running wordlessly.
+<END>
+
+#WRITE(PTR, $000017B2)
+【倫太郎】
+Stop!
+<END>
+
+#WRITE(PTR, $000017C2)
+I call out to her once more when I'm close enough that I can touch her if I stretch out my hand.
+<END>
+
+#WRITE(PTR, $000017D2)
+And unexpectedly, Nae's running speed drops, and she eventually stops, catching her breath.
+<END>
+
+#WRITE(PTR, $0000183C)
+【綯】
+..., haah... ...ha ...ah
+<END>
+
+#WRITE(PTR, $0000184C)
+Looks like she gave up when she realized she couldn't get away.
+<END>
+
+#WRITE(PTR, $0000185C)
+Judging by her rough breathing, I guess she's reached her physical limit.
+<END>
+
+#WRITE(PTR, $0000186C)
+Kurisu and Moeka don't chase after us.
+<END>
+
+#WRITE(PTR, $0000187C)
+Since everyone's off on Obon vacation, there aren't that many people on the residential streets.
+<END>
+
+#WRITE(PTR, $0000188C)
+This is perfect, since I'm afraid the police would label me as a pedophile rapist if they saw all that. Now I'll have this girl tell me everything.
+<END>
+
+#WRITE(PTR, $0000189C)
+While catching my breath, I call out to her.
+<END>
+
+#WRITE(PTR, $000018B6)
+【倫太郎】
+You, are you really Tennouji Nae?
+<END>
+
+#WRITE(PTR, $000018C6)
+【綯】
+......
+<END>
+
+#WRITE(PTR, $000018D6)
+Nae glares at me as she catches her breath.
+<END>
+
+#WRITE(PTR, $000018E6)
+【倫太郎】
+You plan to kill Kiryuu Moeka after this, don't you?
+<END>
+
+#WRITE(PTR, $00001900)
+【綯】
+That's right.
+<END>
+
+#WRITE(PTR, $00001910)
+She says so nonchalantly with a cruel smile on her face.
+<END>
+
+#WRITE(PTR, $00001920)
+Her expression isn't something a child could pull off.
+<END>
+
+#WRITE(PTR, $00001930)
+【倫太郎】
+Revenge for your father?
+<END>
+
+#WRITE(PTR, $00001940)
+【綯】
+You and Kiryuu Moeka killed Daddy.
+<END>
+
+#WRITE(PTR, $00001950)
+【倫太郎】
+Manager killed himself. He blew his own brains out.
+<END>
+
+#WRITE(PTR, $00001960)
+【倫太郎】
+Even if I don't go, he kills himself, right?
+<END>
+
+#WRITE(PTR, $00001970)
+【倫太郎】
+You're scapegoating.
+<END>
+
+#WRITE(PTR, $0000198A)
+【綯】
+I don't give a shit.
+<END>
+
+#WRITE(PTR, $0000199A)
+She doesn't give a shit...?
+<END>
+
+#WRITE(PTR, $000019AA)
+【綯】
+When Daddy died, Kiryuu Moeka was there. But she didn't stop him.
+<END>
+
+#WRITE(PTR, $000019BA)
+【綯】
+So I won't forgive her.
+<END>
+
+#WRITE(PTR, $000019CA)
+【綯】
+Nor you, Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $000019DA)
+【綯】
+You weren't there, but if you didn't butt in, Daddy wouldn't have died.
+<END>
+
+#WRITE(PTR, $000019EA)
+So she means it would've been better if I didn't find the IBN 5100?
+<END>
+
+#WRITE(PTR, $000019FA)
+That's a good place to scapegoat.
+<END>
+
+#WRITE(PTR, $00001A14)
+【綯】
+But I won't kill you now. 'Cause I can't.
+<END>
+
+#WRITE(PTR, $00001A24)
+This little girl, who is so much shorter than I am.
+<END>
+
+#WRITE(PTR, $00001A34)
+Looks up at me with a cruel smile on her face.
+<END>
+
+#WRITE(PTR, $00001A44)
+【綯】
+I'll kill you in fifteen years. Stay scared until then.
+<END>
+
+#WRITE(PTR, $00001A54)
+I go on my knees and grab Nae by the shoulders.
+<END>
+
+#WRITE(PTR, $00001A64)
+I hold back my fear and glare back at her at eye level.
+<END>
+
+#WRITE(PTR, $00001A74)
+And yet this girl doesn't show any sign of faltering.
+<END>
+
+#WRITE(PTR, $00001A84)
+【倫太郎】
+Who... are you?
+<END>
+
+#WRITE(PTR, $00001A94)
+She isn't Tennouji Nae.
+<END>
+
+#WRITE(PTR, $00001AA4)
+【倫太郎】
+What does she mean she'll kill me in fifteen years?
+<END>
+
+#WRITE(PTR, $00001AB4)
+【綯】
+Exactly what it sounds like.
+<END>
+
+#WRITE(PTR, $00001AC4)
+【綯】
+Fifteen years from now, I 'killed' you.
+<END>
+
+#WRITE(PTR, $00001AD4)
+Killed? Why is she using past tense when talking about the future?
+<END>
+
+#WRITE(PTR, $00001AE4)
+Nae laughs even more provocatively.
+<END>
+
+#WRITE(PTR, $00001AF4)
+She draws her face near, muttering.
+<END>
+
+#WRITE(PTR, $00001B0E)
+【綯】
+Aha, you don't get it?
+<END>
+
+#WRITE(PTR, $00001B1E)
+【綯】
+Just now, didn't you say it? 'Who are you?'
+<END>
+
+#WRITE(PTR, $00001B2E)
+【綯】
+I am Tennouji Nae. No doubt about that.
+<END>
+
+#WRITE(PTR, $00001B48)
+【綯】
+Except I 'remember' my memories of fifteen years from now.
+<END>
+
+#WRITE(PTR, $00001B58)
+I was aghast.
+<END>
+
+#WRITE(PTR, $00001B68)
+Don't tell me, she──
+<END>
+
+#WRITE(PTR, $00001B78)
+【倫太郎】
+Time...leap...
+<END>
+
+#WRITE(PTR, $00001CA0)
+【倫太郎】
+!!
+<END>
+
+#WRITE(PTR, $00001CB0)
+Suddenly, Nae brandishes her knife.
+<END>
+
+#WRITE(PTR, $00001CC0)
+Completely caught of guard, I couldn't avoid it.
+<END>
+
+#WRITE(PTR, $00001D94)
+【倫太郎】
+Guh, aah...
+<END>
+
+#WRITE(PTR, $00001DA4)
+My right arm, which was grabbing Nae's shoulder, got cut near the elbow.
+<END>
+
+#WRITE(PTR, $00001DB4)
+A lot of blood spurted onto Nae's body.
+<END>
+
+#WRITE(PTR, $00001DC4)
+However, the girl before my eyes, holding the knife──
+<END>
+
+#WRITE(PTR, $00001DD4)
+【綯】
+Ahahahaha...
+<END>
+
+#WRITE(PTR, $00001DE4)
+Laughed.
+<END>
+
+#WRITE(PTR, $00001DF4)
+Laughed, just like she laughed when she killed Moeka.
+<END>
+
+#WRITE(PTR, $00001E04)
+【倫太郎】
+Damn...it...
+<END>
+
+#WRITE(PTR, $00001E14)
+I fall because of all the pain.
+<END>
+
+#WRITE(PTR, $00001E24)
+I panicked for a moment, but somehow managed to convince myself that I'm fine.
+<END>
+
+#WRITE(PTR, $00001E34)
+I'm fine. I won't die here. The world hasn't recognized that.
+<END>
+
+#WRITE(PTR, $00001E44)
+It's just like Nae said herself.
+<END>
+
+#WRITE(PTR, $00001E54)
+It's not that the brat won't kill me. She can't kill me.
+<END>
+
+#WRITE(PTR, $00001E64)
+I wouldn't die even if she tried to kill me.
+<END>
+
+#WRITE(PTR, $00001E74)
+【綯】
+Do you want me to tell you about your death?
+<END>
+
+#WRITE(PTR, $00001E84)
+【綯】
+You're the founder of some resistance, and struck back against SERN, though.
+<END>
+
+#WRITE(PTR, $00001E94)
+【綯】
+I abducted and confined you, and performed every which way of torture I could think of.
+<END>
+
+#WRITE(PTR, $00001EA4)
+【綯】
+You cried and screamed and shat and pissed yourself in pain while begging me for your life...!
+<END>
+
+#WRITE(PTR, $00001EB4)
+【綯】
+It was really unsightly, Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $00001EC4)
+【綯】
+I couldn't do anything else, so after slitting your throat with my own hands, I stabbed you over and over to my heart's content. I don't even know how many times I stabbed you...!
+<END>
+
+#WRITE(PTR, $00001ED4)
+【綯】
+And those are the last moments of your life. The fate waiting for you, who murdered Daddy...!
+<END>
+
+#WRITE(PTR, $00001EE4)
+Nae pries open the wound in my arm with her tiny little fingers.
+<END>
+
+#WRITE(PTR, $00001F50)
+【倫太郎】
+Ugwahhh!
+<END>
+
+#WRITE(PTR, $00001F60)
+My nerves burn, not just in my arm, but throughout my entire body──
+<END>
+
+#WRITE(PTR, $00001F70)
+Pierced by that much pain, I can't hold back my screaming.
+<END>
+
+#WRITE(PTR, $00001F80)
+I can't shake off Nae's hand.
+<END>
+
+#WRITE(PTR, $00001F90)
+I can't move a single finger due to the pain.
+<END>
+
+#WRITE(PTR, $00001FA0)
+【綯】
+Aha...
+<END>
+
+#WRITE(PTR, $00001FB0)
+【綯】
+SERN commandeered your Time Leap Machine, and kept custody of it for fifteen years. I had my eyes on it.
+<END>
+
+#WRITE(PTR, $00001FC0)
+【綯】
+Fifteen years from now, I, as a 'Rounder, ' killed you and then used it to come back.
+<END>
+
+#WRITE(PTR, $00001FD0)
+【綯】
+It's a piece of shit that can't go back more than 48 hours in one go, so it was tough, though.
+<END>
+
+#WRITE(PTR, $00001FE0)
+To go back fifteen years with 48-hour time leaps, that takes, uh let's see──
+<END>
+
+#WRITE(PTR, $00001FF0)
+I can't calculate with all this pain.
+<END>
+
+#WRITE(PTR, $00002000)
+【綯】
+With a simple calculation, 2738 times.
+<END>
+
+#WRITE(PTR, $00002010)
+【綯】
+Because various other things happen, so it's actually more than twice that, though. I've forgotten how many times I've time leaped...!
+<END>
+
+#WRITE(PTR, $00002020)
+Finally, I understand.
+<END>
+
+#WRITE(PTR, $00002030)
+When I came to this world line, right after I learned Moeka commit suicide.
+<END>
+
+#WRITE(PTR, $00002040)
+When I came back to the lab, there was evidence that somebody had used the time leap machine.
+<END>
+
+#WRITE(PTR, $00002050)
+So, basically, that was Nae's final leap...!
+<END>
+
+#WRITE(PTR, $00002060)
+Nae focuses on my eyes, and inserts her fingers even deeper into my wound.
+<END>
+
+#WRITE(PTR, $00002070)
+I bite my lip, frantically holding back the pain.
+<END>
+
+#WRITE(PTR, $00002080)
+The blood won't stop.
+<END>
+
+#WRITE(PTR, $00002090)
+The dripping blood stains the asphalt dark red.
+<END>
+
+#WRITE(PTR, $000020A0)
+【綯】
+I lived just for the sake of this revenge. I won't let anyone get in my way. I will absolutely kill Moeka. With 'my own hands.'
+<END>
+
+#WRITE(PTR, $000020B0)
+【綯】
+I won't let her kill herself. I won't let her take the easy way out.
+<END>
+
+#WRITE(PTR, $000020C0)
+【倫太郎】
+「たった、それだけのために……１５年もの歳月を遡ってきたのか%nよ……？」
+<END>
+
+#WRITE(PTR, $000020D0)
+こいつは、復讐に取り憑かれてしまっている……。
+<END>
+
+#WRITE(PTR, $000020E0)
+そして、元は素直で無邪気だったこの少女をこんな風に変えてしまったのは├┤たとえそれが逆恨みだとは言え├┤俺と萌郁なんだ……。
+<END>
+
+#WRITE(PTR, $000020F0)
+言ってみれば、俺と萌郁がこの子の１５年を奪ったんだ。
+<END>
+
+#WRITE(PTR, $00002100)
+１５年。
+<END>
+
+#WRITE(PTR, $00002110)
+その途方もない年月の重みに対して、実感はわかない。
+<END>
+
+#WRITE(PTR, $00002120)
+【綯】
+Just for that' you say?
+<END>
+
+#WRITE(PTR, $0000215C)
+Nae's slender fingers pry further into my wound. I can feel her touch my bone.
+<END>
+
+#WRITE(PTR, $0000216C)
+【倫太郎】
+Gah, gwaaah...!
+<END>
+
+#WRITE(PTR, $0000217C)
+【綯】
+It might be 'just for that' to you guys, but for me, killing you and Kiryuu Moeka means everything to me...!
+<END>
+
+#WRITE(PTR, $0000218C)
+【倫太郎】
+So, you'll kill Moeka, and then... what next?
+<END>
+
+#WRITE(PTR, $0000219C)
+【綯】
+Next...?
+<END>
+
+#WRITE(PTR, $000021AC)
+【倫太郎】
+You're going to redo these 15 years you've come back...?
+<END>
+
+#WRITE(PTR, $000021BC)
+【綯】
+Hmph, what does that matter...
+<END>
+
+#WRITE(PTR, $000021CC)
+【綯】
+It doesn't matter... at all...
+<END>
+
+#WRITE(PTR, $000021DC)
+Without tears. Without jeers.
+<END>
+
+#WRITE(PTR, $000021EC)
+Looking at this expressionless 11 year old girl, I have nothing more to say.
+<END>
+
+#WRITE(PTR, $00002290)
+At last, Nae lets go of my arm. She takes a look at my blood on her hand as if it were cow manure.
+<END>
+
+#WRITE(PTR, $000022AA)
+【綯】
+You don't have to do anything now.
+<END>
+
+#WRITE(PTR, $000022BA)
+【綯】
+Just fear, and repent, Okabe Rintaro. Until we meet again fifteen years from now.
+<END>
+
+#WRITE(PTR, $000023C2)
+I couldn't do anything but let Nae go after she spat out those words.
+<END>
+
+#WRITE(PTR, $000023D2)
+【倫太郎】
+Ha, hahaha...
+<END>
+
+#WRITE(PTR, $000023E2)
+Dry laughter unintentionally passes from my lips.
+<END>
+
+#WRITE(PTR, $000023F2)
+She's also an outsider to cause and effect.
+<END>
+
+#WRITE(PTR, $00002402)
+I think over the questions I asked her again.
+<END>
+
+#WRITE(PTR, $00002412)
+What sort of life will Nae lead after killing Moeka?
+<END>
+
+#WRITE(PTR, $0000242E)
+The first time she lived those fifteen years, all she had was revenge.
+<END>
+
+#WRITE(PTR, $0000243E)
+And after time leaping thousands of times, she completed her revenge.
+<END>
+
+#WRITE(PTR, $0000244E)
+How will she live those fifteen years the second time?
+<END>
+
+#WRITE(PTR, $0000245E)
+Will she kill me again?
+<END>
+
+#WRITE(PTR, $0000246E)
+Will her revenge be complete after thirty years?
+<END>
+
+#WRITE(PTR, $0000247E)
+How sad is that?
+<END>
+
+#WRITE(PTR, $0000248E)
+Maybe traveling back in time brings nothing but tragedy.
+<END>
+
+#WRITE(PTR, $0000249E)
+We made a time machine out of curiosity.
+<END>
+
+#WRITE(PTR, $000024AE)
+But we shouldn't have made it.
+<END>
+
+#WRITE(PTR, $000024BE)
+Then SERN wouldn't have targeted us.
+<END>
+
+#WRITE(PTR, $000024CE)
+Mayuri wouldn't have been killed either.
+<END>
+
+#WRITE(PTR, $000024DE)
+Suzuha wouldn't have needed to time travel to 1975.
+<END>
+
+#WRITE(PTR, $000024EE)
+Faris wouldn't have had to experience her father's death twice.
+<END>
+
+#WRITE(PTR, $000024FE)
+Lukako would be a girl without any mental torment.
+<END>
+
+#WRITE(PTR, $0000250E)
+Moeka wouldn't have killed Mayuri.
+<END>
+
+#WRITE(PTR, $0000251E)
+【紅莉栖】
+Okabe!
+<END>
+
+#WRITE(PTR, $000025F2)
+Kurisu rushes over to me.
+<END>
+
+#WRITE(PTR, $00002602)
+Her face goes pale once she sees my wounded arm.
+<END>
+
+#WRITE(PTR, $00002652)
+【紅莉栖】
+How'd you get that wound!? Are you okay!?
+<END>
+
+#WRITE(PTR, $00002662)
+I peek at her worried face as she kneels in front of me.
+<END>
+
+#WRITE(PTR, $00002672)
+【倫太郎】
+The phone...?
+<END>
+
+#WRITE(PTR, $00002682)
+【紅莉栖】
+I brought it but...
+<END>
+
+#WRITE(PTR, $00002692)
+What Kurisu presents to me certainly is FB's phone.
+<END>
+
+#WRITE(PTR, $000026E8)
+I take it and begin typing the mail with my left hand.
+<END>
+
+#WRITE(PTR, $00002702)
+【紅莉栖】
+Hey, explain yourself! How'd you get that wound!?
+<END>
+
+#WRITE(PTR, $00002712)
+【紅莉栖】
+Should I call an ambulance!?
+<END>
+
+#WRITE(PTR, $00002722)
+【倫太郎】
+Calm down...
+<END>
+
+#WRITE(PTR, $00002732)
+【倫太郎】
+I'm sending the D-mail now.
+<END>
+
+#WRITE(PTR, $0000274C)
+【紅莉栖】
+Ah, I see. If the world line changes, then this wound will go away... huh...
+<END>
+
+#WRITE(PTR, $0000275C)
+It should go away.
+<END>
+
+#WRITE(PTR, $0000276C)
+But my wound doesn't matter.
+<END>
+
+#WRITE(PTR, $0000280A)
+More importantly, when the world line changes, FB-- Manager's death, Nae's vengeful heart, and Moeka's death, will all be undone.
+<END>
+
+#WRITE(PTR, $000028A8)
+That's more important.
+<END>
+
+#WRITE(PTR, $00002946)
+I finish the mail and take a breather.
+<END>
+
+#WRITE(PTR, $000029C6)
+【倫太郎】
+Hey, why didn't Manager... kill Moeka...?
+<END>
+
+#WRITE(PTR, $000029F6)
+【紅莉栖】
+What do you mean?
+<END>
+
+#WRITE(PTR, $00002A1C)
+Any member who has found an IBN 5100 has done their duty, and is silenced. Any member, without exception.
+<END>
+
+#WRITE(PTR, $00002A42)
+Manager certainly did say that.
+<END>
+
+#WRITE(PTR, $00002A68)
+In that case, the one who should've been disposed of is Moeka, the one who found the IBN 5100 in the first place.
+<END>
+
+#WRITE(PTR, $00002A8E)
+And yet Manager cut contact with Moeka.
+<END>
+
+#WRITE(PTR, $00002AB4)
+And when we made sure of Manager's true identity, he killed himself without killing Moeka.
+<END>
+
+#WRITE(PTR, $00002ADA)
+【倫太郎】
+...I've been thinking. Manager saved Moeka after all.
+<END>
+
+#WRITE(PTR, $00002B00)
+It's just my convenient way of thinking.
+<END>
+
+#WRITE(PTR, $00002B26)
+Maybe I just wanted to feel satisfied convincing myself that was true.
+<END>
+
+#WRITE(PTR, $00002B4C)
+At any rate, Nae will kill Moeka with her own hands in just a few hours, so even if Manager thought that way, it was meaningless.
+<END>
+
+#WRITE(PTR, $00002B72)
+But──
+<END>
+
+#WRITE(PTR, $00002B98)
+【倫太郎】
+It would be nice if that's how it is in the β World Line.
+<END>
+
+#WRITE(PTR, $00002BBE)
+They are the enemy.
+<END>
+
+#WRITE(PTR, $00002BE4)
+They are the ones I should hate for killing Mayuri.
+<END>
+
+#WRITE(PTR, $00002C0A)
+But in some sense, Manager, and Moeka, and Nae too.
+<END>
+
+#WRITE(PTR, $00002C30)
+They all might just be victims in my confusion of cause and effect.
+<END>
+
+#WRITE(PTR, $00002C56)
+I wish that at least, in my goal, the β World Line, they can all live proper lives.
+<END>
+
+#WRITE(PTR, $00002CC6)
+That's why I have to send this D-mail.
+<END>
+
+#WRITE(PTR, $00002CD6)
+【倫太郎】
+I'm sorry, Nae...
+<END>
+
+#WRITE(PTR, $00002CE6)
+When I send the D-mail, this world line will be "undone"──
+<END>
+
+#WRITE(PTR, $00002CF6)
+【倫太郎】
+「お前の復讐は、果たされない……」
+<END>
+
+#WRITE(PTR, $00002DD0)
+WD12.PMF
+<END2>
+
+#WRITE(PTR, $000031FC)
+世界がぼやけ、色を失い、ぐるぐると歪み、転回する。
+<END>
+
+#WRITE(PTR, $0000320C)
+やがてその感覚が矯正され徐々に色を取り戻してくると、自分がラボの近くの路地に立っていると分かった。
+<END>
+
+#WRITE(PTR, $00003228)
+右腕の焼けるような痛みが、ふっと和らぐ。
+<END>
+
+#WRITE(PTR, $00003238)
+切り裂かれた傷も、そこから流れ出ていた血も、きれいさっぱり消えた。
+<END>
+
+#WRITE(PTR, $00003248)
+代わりに、なぜかドクターペッパーが２本入ったコンビニ袋を持っている。
+<END>
+
+#WRITE(PTR, $00003258)
+すべて、なかったことにされたんだろうか。
+<END>
+
+#WRITE(PTR, $00003268)
+俺は真っ先に萌郁のアパートへ向かった。
+<END>
+
+#WRITE(PTR, $00003386)
+アパートを訪ねると萌郁は普通にドアを開けて顔をのぞかせた。
+<END>
+
+#WRITE(PTR, $000033CE)
+顔色は悪くないように見える。
+<END>
+
+#WRITE(PTR, $000033DE)
+ＦＢに見捨てられて絶望しているようには見えない。
+<END>
+
+#WRITE(PTR, $000033EE)
+玄関先に血痕もないし、包丁も転がっていない。
+<END>
+
+#WRITE(PTR, $000033FE)
+いや、萌郁が殺された時間は確か１０時過ぎだったはず。
+<END>
+
+#WRITE(PTR, $0000340E)
+【萌郁】
+Okabe-kun...
+<END>
+
+#WRITE(PTR, $0000341E)
+【萌郁】
+Just how did you find...
+<END>
+
+#WRITE(PTR, $0000342E)
+【倫太郎】
+Let me kill some time!
+<END>
+
+#WRITE(PTR, $0000343E)
+I say so and force my way in.
+<END>
+
+#WRITE(PTR, $000034DC)
+...Moeka's time of death passed.
+<END>
+
+#WRITE(PTR, $000034EC)
+Nae didn't appear in the end.
+<END>
+
+#WRITE(PTR, $000034FC)
+The world line changed after all.
+<END>
+
+#WRITE(PTR, $0000357E)
+Right in ront of me, Moeka sends a mail.
+<END>
+
+#WRITE(PTR, $0000358E)
+It feels like it's been forever since she's sent so many mails.
+<END>
+
+#WRITE(PTR, $000035A4)
+【倫太郎】
+Unnecessary? Who said?
+<END>
+
+#WRITE(PTR, $00003692)
+【倫太郎】
+FB told you to stop...
+<END>
+
+#WRITE(PTR, $000036AC)
+【萌郁】
+...！
+<END>
+
+#WRITE(PTR, $0000372E)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $0000373E)
+So FB is alive.
+<END>
+
+#WRITE(PTR, $00003760)
+I feel relief, and at the same time, impending doom.
+<END>
+
+#WRITE(PTR, $00003770)
+Obviously, since the defeated enemy revived.
+<END>
+
+#WRITE(PTR, $00003780)
+But there's no point in telling Moeka anything more.
+<END>
+
+#WRITE(PTR, $00003790)
+Did FB put a stop to the Rounder's duty of IBN 5100 retrieval?
+<END>
+
+#WRITE(PTR, $00003880)
+【天王寺】
+Doing your duty sets you up for 'disposal.' So we're more like livestock than dogs.
+<END>
+
+#WRITE(PTR, $000038DA)
+I play back that man's last words in my head.
+<END>
+
+#WRITE(PTR, $000038EA)
+He put a stop to it so that she wouldn't be disposed.
+<END>
+
+#WRITE(PTR, $000038FA)
+If that's the truth, then maybe he really did do it to save Moeka after all.
+<END>
+
+#WRITE(PTR, $000039EA)
+【綯】
+Just fear, and repent, Okabe Rintaro. Until we meet again fifteen years from now.
+<END>
+
+#WRITE(PTR, $00003A44)
+I wonder what happens with Nae.
+<END>
+
+#WRITE(PTR, $00003A54)
+I can't get that innocent yet hateful voice out of my head.
+<END>
+
+#WRITE(PTR, $00003A64)
+In that world line, I sparked the flames of homicidal revenge in such a young little girl.
+<END>
+
+#WRITE(PTR, $00003A74)
+I bite my lip hard.
+<END>
+
+#WRITE(PTR, $00003A84)
+I'm not afraid of you. I won't repent either.
+<END>
+
+#WRITE(PTR, $00003A94)
+Because that world line has already been undone.
+<END>
+
+#WRITE(PTR, $00003AA4)
+Because vengeful obsession should've disappeared from your heart.
+<END>
+
+#WRITE(PTR, $00003AB4)
+Moeka hasn't died, which means that I've confirmed the world line has changed, and if things go as expected the IBN 5100 should have already come back to me.
+<END>
+
+#WRITE(PTR, $00003AC4)
+So there's no need to stay in this world line any more.
+<FILEEND03>
+

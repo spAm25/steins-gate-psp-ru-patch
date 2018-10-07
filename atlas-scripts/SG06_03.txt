@@ -1,0 +1,676 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002114)
+
+#WRITE(PTR, $000007E8)
+【倫太郎】
+Whew...
+<END>
+
+#WRITE(PTR, $000007F8)
+I take a deep breath.
+<END>
+
+#WRITE(PTR, $00000808)
+【倫太郎】
+That was a dream...
+<END>
+
+#WRITE(PTR, $00000818)
+【倫太郎】
+There's no way something like that could really happen...
+<END>
+
+#WRITE(PTR, $00000828)
+I'm probably having psychological anxieties from all these tightropes I've had to walk.
+<END>
+
+#WRITE(PTR, $00000838)
+So I just saw that nightmare.
+<END>
+
+#WRITE(PTR, $00000848)
+That's how I want it to be.
+<END>
+
+#WRITE(PTR, $00000858)
+That's the only way I think it can be.
+<END>
+
+#WRITE(PTR, $00000868)
+I desperately persuade myself so.
+<END>
+
+#WRITE(PTR, $00000994)
+Was I just being naive──?
+<END>
+
+#WRITE(PTR, $000009A4)
+I'll soon come to realize it.
+<END>
+
+#WRITE(PTR, $00000A22)
+I left the shopping to Kurisu.
+<END>
+
+#WRITE(PTR, $00000A32)
+I stay in the lab with Daru, waiting for Mayuri to return.
+<END>
+
+#WRITE(PTR, $00000B8A)
+【まゆり】
+Tutturu-♪ I'm back-
+<END>
+
+#WRITE(PTR, $00000BAA)
+An innocent smile.
+<END>
+
+#WRITE(PTR, $00000BBA)
+Mayuri is alive.
+<END>
+
+#WRITE(PTR, $00000BCA)
+Before. And later.
+<END>
+
+#WRITE(PTR, $00000CE0)
+Nothing to worry about.
+<END>
+
+#WRITE(PTR, $00000CF0)
+We start the development council along with Suzuha.
+<END>
+
+#WRITE(PTR, $00000E76)
+【まゆり】
+Okarin, Okarin.
+<END>
+
+#WRITE(PTR, $00000E90)
+【まゆり】
+I called Faris-chan and Luka-chan too, but they said they couldn't join today-.
+<END>
+
+#WRITE(PTR, $00000EA0)
+A conversation I've heard somewhere before.
+<END>
+
+#WRITE(PTR, $00000EB8)
+<DICT>Deja Vu</DICT>. I'm imagining things.
+<END>
+
+#WRITE(PTR, $00000ED4)
+【倫太郎】
+I see. Did they have things to do?
+<END>
+
+#WRITE(PTR, $00000EEE)
+【まゆり】
+Faris-chan has a RaiNet tournament today.
+<END>
+
+#WRITE(PTR, $00000F08)
+【至】
+Crap, I should've cheered her on! How careless of me!
+<END>
+
+#WRITE(PTR, $00000F18)
+【まゆり】
+And Luka-chan seemed embarrassed for some reason-
+<END>
+
+#WRITE(PTR, $00000F68)
+【紅莉栖】
+Maybe she thinks you'll make her wear a costume if she comes here again?
+<END>
+
+#WRITE(PTR, $00000F78)
+Just like the dream?
+<END>
+
+#WRITE(PTR, $00000F88)
+I'm not trying to remember the conversation in my dream.
+<END>
+
+#WRITE(PTR, $00000F98)
+But I clearly remember it.
+<END>
+
+#WRITE(PTR, $00000FBA)
+【倫太郎】
+The cosplay stuff? You still haven't convinced her yet?
+<END>
+
+#WRITE(PTR, $00000FD4)
+【まゆり】
+She said it was embarrassing. Even though 'Cute is Justice'-
+<END>
+
+#WRITE(PTR, $00000FEE)
+【紅莉栖】
+Cute is Justice'... that phrase is getting popular.
+<END>
+
+#WRITE(PTR, $00001008)
+【まゆり】
+Chris-chan, you're cute too-
+<END>
+
+#WRITE(PTR, $00001022)
+【紅莉栖】
+Hah? Eh?
+<END>
+
+#WRITE(PTR, $0000103C)
+【まゆり】
+Heyhey, wanna go to this coming ComiMa-?
+<END>
+
+#WRITE(PTR, $0000104C)
+【まゆり】
+I can't make something new, but I have a costume of Post-Awakening Seira from Blood Tune I made last year. I think the size is just right for Chris-chan too.
+<END>
+
+#WRITE(PTR, $00001066)
+【紅莉栖】
+Me, cosplay...?
+<END>
+
+#WRITE(PTR, $00001080)
+【紅莉栖】
+I'm sorta interested.
+<END>
+
+#WRITE(PTR, $00001090)
+【紅莉栖】
+Ah, but I refuse to do it in public, though.
+<END>
+
+#WRITE(PTR, $000010AA)
+【まゆり】
+It's okay to just wear it-. But you know, eventually, you'll want everyone to see. The cosplay demon compels you-
+<END>
+
+#WRITE(PTR, $000010C4)
+【まゆり】
+That reminds me. Chris-chan, you're always wearing that cute uniform, huh-. But was there a uniform like this in metro Tokyo-?
+<END>
+
+#WRITE(PTR, $000010DE)
+【紅莉栖】
+Ah, this?
+<END>
+
+#WRITE(PTR, $000010EE)
+【紅莉栖】
+For just two weeks, I did something like an abroad study at Ayamein, and so I modeled this after their uniform.
+<END>
+
+#WRITE(PTR, $00001108)
+【まゆり】
+Ah-, so it was Ayamein-. Their uniform is originally cute huh-. But Chris-chan's modeling sense might be really good~♪
+<END>
+
+#WRITE(PTR, $00001118)
+【まゆり】
+Tomorrow, I'll bring the costume, okay? Then will you try it on-?
+<END>
+
+#WRITE(PTR, $00001132)
+【紅莉栖】
+Yeah. Okay.
+<END>
+
+#WRITE(PTR, $00001182)
+【至】
+When's the photo session?
+<END>
+
+#WRITE(PTR, $0000119C)
+【紅莉栖】
+And of course, Hashida's always working hard on the ＨＥＮＴＡＩ road, huh.
+<END>
+
+#WRITE(PTR, $000011AC)
+【至】
+Come on, it's Blood Tune's Seira, right!? She's got panmoro going on, you know.
+<END>
+
+#WRITE(PTR, $000011BC)
+【紅莉栖】
+Panmoro?
+<END>
+
+#WRITE(PTR, $000011D6)
+【至】
+It means you can see MORe O' her PANties.
+<END>
+
+#WRITE(PTR, $000011F0)
+【紅莉栖】
+Eh, no way...?
+<END>
+
+#WRITE(PTR, $00001240)
+【まゆり】
+It's okay-♪
+<END>
+
+#WRITE(PTR, $00001250)
+【まゆり】
+Chris-chan might not know this, but last year, this phrase was really popular.
+<END>
+
+#WRITE(PTR, $0000126A)
+【まゆり】
+They're not panties so it's not embarrassing!'.
+<END>
+
+#WRITE(PTR, $00001284)
+【紅莉栖】
+Japan is over...
+<END>
+
+#WRITE(PTR, $00001294)
+【まゆり】
+Absolutely wear it, okay? Absolutely-?
+<END>
+
+#WRITE(PTR, $000012AA)
+【鈴羽】
+Maybe you should just stop.
+<END>
+
+#WRITE(PTR, $0000138A)
+Forcing her way through with a sharp voice is Suzuha.
+<END>
+
+#WRITE(PTR, $0000139A)
+She scowls at Kurisu like usual.
+<END>
+
+#WRITE(PTR, $000013AA)
+The formerly fun atmosphere freezes in an instant.
+<END>
+
+#WRITE(PTR, $000013BA)
+This atmosphere... I remember it too.
+<END>
+
+#WRITE(PTR, $000013CA)
+I can't laugh. I'm slowly losing my ability to laugh.
+<END>
+
+#WRITE(PTR, $00001432)
+【鈴羽】
+If you believe in Makise Kurisu, you'll get into trouble.
+<END>
+
+#WRITE(PTR, $00001442)
+【紅莉栖】
+What do you mean by that?
+<END>
+
+#WRITE(PTR, $00001452)
+【紅莉栖】
+I've been thinking for a while, but, have I done anything to you?
+<END>
+
+#WRITE(PTR, $00001462)
+【鈴羽】
+Nothing directly. But I know everything you've done.
+<END>
+
+#WRITE(PTR, $00001472)
+【紅莉栖】
+What do mean everything I've done? I've done nothing to be guilty of.
+<END>
+
+#WRITE(PTR, $00001482)
+【鈴羽】
+Sure thing. But I know. I know your true nature.
+<END>
+
+#WRITE(PTR, $00001492)
+【紅莉栖】
+Hmm, amazing. You can peek into my heart? That's a ground-breaking invention, so please, show me by all means.
+<END>
+
+#WRITE(PTR, $000014A2)
+【鈴羽】
+There is no device. If I'm forced to say, then it's a prediction.
+<END>
+
+#WRITE(PTR, $000014B2)
+【紅莉栖】
+So basically, you're all talk, huh.
+<END>
+
+#WRITE(PTR, $000014C2)
+【鈴羽】
+But it's the 'truth'.
+<END>
+
+#WRITE(PTR, $000014D2)
+【まゆり】
+Okarin.
+<END>
+
+#WRITE(PTR, $000014E2)
+Mayuri clings to me with teary eyes.
+<END>
+
+#WRITE(PTR, $000014F2)
+【まゆり】
+Stop them-
+<END>
+
+#WRITE(PTR, $00001502)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00001512)
+Should I listen to Mayuri's plea? Like in the dream.
+<END>
+
+#WRITE(PTR, $00001522)
+Even though I can't stop it, and end up leaving it to Mayuri?
+<END>
+
+#WRITE(PTR, $00001532)
+I don't reply, unable to move from that spot──
+<END>
+
+#WRITE(PTR, $00001542)
+【まゆり】
+Geez--
+<END>
+
+#WRITE(PTR, $00001552)
+Mayuri gives up pleading with me, puffs out her cheeks, and starts mediating between the two.
+<END>
+
+#WRITE(PTR, $00001562)
+【まゆり】
+Listen you two-. Mayushii doesn't like it when you fight. Let's all get along-
+<END>
+
+#WRITE(PTR, $00001692)
+Daru takes care of Suzuha, returning peace to the lab.
+<END>
+
+#WRITE(PTR, $000016A2)
+Kurisu's in the development room, making a call. Probably to her mother in America, I guess.
+<END>
+
+#WRITE(PTR, $000016B2)
+I sit on the sofa, drinking Dr Pepper, watching TV.
+<END>
+
+#WRITE(PTR, $000016C2)
+But I don't recognize what I see on the monitor.
+<END>
+
+#WRITE(PTR, $000016D2)
+It doesn't enter my head.
+<END>
+
+#WRITE(PTR, $000016E2)
+Mayuri sits down next to me.
+<END>
+
+#WRITE(PTR, $000016F2)
+She peels a banana and begins eating it.
+<END>
+
+#WRITE(PTR, $000017C6)
+【まゆり】
+Hey, hey, Okarin.
+<END>
+
+#WRITE(PTR, $000017D6)
+【まゆり】
+You know, it seems like we got really busy these past few weeks, huh-
+<END>
+
+#WRITE(PTR, $000017E6)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000017FC)
+Stop it....
+<END>
+
+#WRITE(PTR, $0000180C)
+Why are you saying the same things in my dream?
+<END>
+
+#WRITE(PTR, $0000181C)
+That was a dream. I has to be a dream.
+<END>
+
+#WRITE(PTR, $00001842)
+【まゆり】
+It's fun, huh♪
+<END>
+
+#WRITE(PTR, $00001852)
+Mayuri smiles happily, not noticing my lack of a reply.
+<END>
+
+#WRITE(PTR, $0000186C)
+【まゆり】
+You know, the lab mems increased to 8, right? Mayushii thinks it's getting a little cramped-
+<END>
+
+#WRITE(PTR, $0000187C)
+【まゆり】
+First of all, we don't have enough chairs.
+<END>
+
+#WRITE(PTR, $00001896)
+【まゆり】
+We need to buy more-. Okarin, do you have money?
+<END>
+
+#WRITE(PTR, $000018A6)
+I wordlessly, powerlessly shake my head.
+<END>
+
+#WRITE(PTR, $000018B6)
+For some reason, I couldn't look Mayuri in the face.
+<END>
+
+#WRITE(PTR, $000018C6)
+【まゆり】
+Then, Mayushii can give some of her salary.
+<END>
+
+#WRITE(PTR, $000018E0)
+【まゆり】
+Also, a microwave. If we don't buy a new one, I can't warm up any Juicy Karaage Number One-
+<END>
+
+#WRITE(PTR, $000018F0)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $0000190A)
+【まゆり】
+Okarin? Are you okay? You don't feel good-?
+<END>
+
+#WRITE(PTR, $0000191A)
+【倫太郎】
+Ah, it's nothing...
+<END>
+
+#WRITE(PTR, $0000192A)
+【まゆり】
+Are you feeling sick? Then you need to rest. Want to lie down? I'll let you lay on my lap, okay-?
+<END>
+
+#WRITE(PTR, $0000193A)
+【倫太郎】
+That's too embarrassing to──
+<END>
+
+#WRITE(PTR, $0000194A)
+...do, is what I was about to say, when──
+<END>
+
+#WRITE(PTR, $00001A14)
+The sound of an urgent news flash flows from the TV.
+<END>
+
+#WRITE(PTR, $00001A24)
+The subtitles read Terrorist Bomb Threat Suspends Yamate, Sobu, Keihin-Tohoku Lines.
+<END>
+
+#WRITE(PTR, $00001AF8)
+【鈴羽】
+Terrorist bomb threat?
+<END>
+
+#WRITE(PTR, $00001B08)
+【至】
+Anyway, all those lines lead to Akihabara Station. Mayu-shi, you can't go home, can you?
+<END>
+
+#WRITE(PTR, $00001C10)
+【まゆり】
+That's right-. I need to call home-
+<END>
+
+#WRITE(PTR, $00001C20)
+【倫太郎】
+No... way...
+<END>
+
+#WRITE(PTR, $00001C30)
+The same.
+<END>
+
+#WRITE(PTR, $00001C40)
+Every last thing, the same.
+<END>
+
+#WRITE(PTR, $00001D48)
+【鈴羽】
+Okabe Rintaro, let me ask you something.
+<END>
+
+#WRITE(PTR, $00001D58)
+That was a dream...
+<END>
+
+#WRITE(PTR, $00001D68)
+【鈴羽】
+Have you completed the Time Leap Machine?
+<END>
+
+#WRITE(PTR, $00001D78)
+It can't possibly be anything other than a dream, right....
+<END>
+
+#WRITE(PTR, $00001D88)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00001D98)
+Then, why....
+<END>
+
+#WRITE(PTR, $00001DB2)
+【鈴羽】
+Are you listening?
+<END>
+
+#WRITE(PTR, $00001DCC)
+【至】
+The Time Leap Machine's complete...
+<END>
+
+#WRITE(PTR, $00001DE6)
+【鈴羽】
+I see.
+<END>
+
+#WRITE(PTR, $00001DF6)
+【鈴羽】
+I remember I've got something to do, so I'm going out a bit.
+<END>
+
+#WRITE(PTR, $00001E12)
+Suzuha bluntly says so and quickly leaves the lab.
+<END>
+
+#WRITE(PTR, $00001E5A)
+【紅莉栖】
+What's with her...
+<END>
+
+#WRITE(PTR, $00001E6A)
+By any chance, is she anticipating Moeka's attack...?
+<END>
+
+#WRITE(PTR, $00001E7A)
+No, that's not it. That can't be it. Moeka's attack was a dream.
+<END>
+
+#WRITE(PTR, $00001E8A)
+I try convincing myself so, but can't remove the anxiety from my mind.
+<END>
+
+#WRITE(PTR, $00001E9A)
+It feels as if a cold hand had its hold around my heart.
+<END>
+
+#WRITE(PTR, $00001EB6)
+It's suffocating.
+<END>
+
+#WRITE(PTR, $00001EC6)
+It should be warm and humid, but my body's shaking from cold.
+<END>
+
+#WRITE(PTR, $00001ED6)
+This feeling is also the same.
+<END>
+
+#WRITE(PTR, $00001EE6)
+Was my choice a mistake?
+<END>
+
+#WRITE(PTR, $00001EF6)
+Did I finally get a second chance and let it all go to waste?
+<END>
+
+#WRITE(PTR, $00001F06)
+A soft feeling on my fingers.
+<END>
+
+#WRITE(PTR, $00001F16)
+When I look, Mayuri is gripping my hands with an anxious face.
+<END>
+
+#WRITE(PTR, $00001F26)
+I reflexively look towards the door.
+<END>
+
+#WRITE(PTR, $00001F36)
+If this dream isn't a dream, then──
+<END>
+
+#WRITE(PTR, $00001F46)
+Any time soon, the men will kick open the door and enter──
+<FILEEND51>
+

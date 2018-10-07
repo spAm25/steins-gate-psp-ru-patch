@@ -1,0 +1,1089 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00005EF0)
+
+#WRITE(PTR, $000008B2)
+そうしてたどり着いたのは、ＵＰＸの真横にある高層マンションだった。
+<END>
+
+#WRITE(PTR, $00000AFE)
+【まゆり】
+Waahh.... awwwesome....
+<END>
+
+#WRITE(PTR, $00000BA2)
+【至】
+Wait... seriously?
+<END>
+
+#WRITE(PTR, $00000C46)
+【倫太郎】
+It's a... super high class apartment....?
+<END>
+
+#WRITE(PTR, $00000CEA)
+Taken aback, we stand stock still on the spot.
+<END>
+
+#WRITE(PTR, $00000E9A)
+Furthermore, from Faris' call earlier, it looks like she lives on the top floor....
+<END>
+
+#WRITE(PTR, $00000F3E)
+【倫太郎】
+Did we get the wrong address...?
+<END>
+
+#WRITE(PTR, $00000FE2)
+No, I'm incapable of such a basic mistake.
+<END>
+
+#WRITE(PTR, $00001086)
+【倫太郎】
+Don't tell me Faris is under the 'Organization's' control!?
+<END>
+
+#WRITE(PTR, $0000124A)
+I quickly survey my surroundings.
+<END>
+
+#WRITE(PTR, $000012EE)
+There are no suspicious figures in visible range.
+<END>
+
+#WRITE(PTR, $00001392)
+【倫太郎】
+Does she have suspicious black suits under her command, planning to lure us into their web and haul us away!?
+<END>
+
+#WRITE(PTR, $00001440)
+【至】
+Nice delusion. The truth is stranger than fiction.
+<END>
+
+#WRITE(PTR, $000014F2)
+【至】
+「それにあのフェイリスたんの素顔が、実は金持ちのお嬢様だったとか、
+<END2>
+
+#WRITE(PTR, $0000150C)
+うは、超萌える展開じゃね？」
+<END>
+
+#WRITE(PTR, $000015B4)
+【倫太郎】
+Nice delusion yourself.
+<END>
+
+#WRITE(PTR, $00001662)
+【まゆり】
+Anyway, let's go in-
+<END>
+
+#WRITE(PTR, $0000183C)
+When we call up the room on the top floor via intercom, an elderly man's voice answers. Surprisingly, he quickly lets us in once I call myself Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $000018E0)
+It feels more and more like a trap, but I can't turn back now.
+<END>
+
+#WRITE(PTR, $00001A9E)
+The one who guides us into the room is the elderly man from the intercom.
+<END>
+
+#WRITE(PTR, $00001B42)
+A silver haired gentleman in a tuxedo.
+<END>
+
+#WRITE(PTR, $00001C1E)
+【まゆり】
+A-a real live butler...
+<END>
+
+#WRITE(PTR, $00001CCE)
+Just as Mayuri said, he indeed looks like a stereotypical butler, so much that you couldn't be anything but a butler.
+<END>
+
+#WRITE(PTR, $00001D72)
+【執事】
+Milady. Hououin Kyouma-sama, as well as his friends, have arrived.
+<END>
+
+#WRITE(PTR, $00001E16)
+The butler calls into the room.
+<END>
+
+#WRITE(PTR, $00001EBA)
+In front of a large window, Faris stands with a panoramic backdrop of Akiba.
+<END>
+
+#WRITE(PTR, $00002058)
+【フェイリス】
+Kuroki, thank nyu.
+<END>
+
+#WRITE(PTR, $000020FC)
+I haven't seen her wearing anything other than her usual maid uniform, so it's refreshing to see her in her plain clothes.
+<END>
+
+#WRITE(PTR, $0000223E)
+But, why does she equip her cat ears even in her personal time?
+<END>
+
+#WRITE(PTR, $000022F4)
+I wanna ask. I can't help but question it.
+<END>
+
+#WRITE(PTR, $00002398)
+But I restrain myself.
+<END>
+
+#WRITE(PTR, $0000243C)
+If I did ask, Faris would just seriously answer Faris had cat ears ever since she was born nya.
+<END>
+
+#WRITE(PTR, $0000253E)
+【フェイリス】
+Nyanya? Mayushii and Daru-nyan came too nyan?
+<END>
+
+#WRITE(PTR, $000025E2)
+Faris' eyes twinkle when she sees Mayuri and Daru behind me.
+<END>
+
+#WRITE(PTR, $00002686)
+【まゆり】
+Faris-chan, good afternyannyan-♪
+<END>
+
+#WRITE(PTR, $0000272A)
+【至】
+Mhmm, Faris-tan in plain clothes... too cute...!
+<END>
+
+#WRITE(PTR, $000027CE)
+I silence the heavy breathing Daru by introducing my elbow to his ribs.
+<END>
+
+#WRITE(PTR, $00002872)
+【倫太郎】
+Mayuri and Daru just followed me. If they're a bother, I'll send them home.
+<END>
+
+#WRITE(PTR, $00002920)
+【フェイリス】
+I don't mind nya. Everyone's welcome nyan♪
+<END>
+
+#WRITE(PTR, $000029C4)
+【倫太郎】
+Wait, so you talk like that even in your own home?
+<END>
+
+#WRITE(PTR, $00002A72)
+【フェイリス】
+Whaddaya meown?
+<END>
+
+#WRITE(PTR, $00002B16)
+【倫太郎】
+Gonna play dumb, huh? Akiha Rumiho.
+<END>
+
+#WRITE(PTR, $00002BC4)
+【フェイリス】
+Faris is Faris nya.
+<END>
+
+#WRITE(PTR, $00002C68)
+It's annoying, so I'll just drop it.
+<END>
+
+#WRITE(PTR, $00002D0C)
+【倫太郎】
+But just what's with your home? How do you live in a super high-class apartment in Akiba's best district?
+<END>
+
+#WRITE(PTR, $00002E42)
+I look around the room again.
+<END>
+
+#WRITE(PTR, $00002EE6)
+The interior design and furnishings give a very refined impression.
+<END>
+
+#WRITE(PTR, $00002F8A)
+It doesn't reek of a celebrity atmosphere.
+<END>
+
+#WRITE(PTR, $0000302E)
+Rather, it seems more like a model home.
+<END>
+
+#WRITE(PTR, $000030D2)
+There's not a trace of daily living. Probably because that butler, and possibly some real maids-- if there's a butler, there has to be maids-- always clean up.
+<END>
+
+#WRITE(PTR, $00003176)
+Speaking of the butler, he vanished before I noticed it.
+<END>
+
+#WRITE(PTR, $0000321A)
+He's a model butler if he can depart without a sound.
+<END>
+
+#WRITE(PTR, $000032F6)
+【倫太郎】
+Faris... just who are you?
+<END>
+
+#WRITE(PTR, $000033A4)
+【フェイリス】
+Like I said, Faris is Faris nyan.
+<END>
+
+#WRITE(PTR, $00003448)
+Faris says so nonchalantly.
+<END>
+
+#WRITE(PTR, $000034EC)
+【倫太郎】
+Don't play dumb. If you don't explain yourself, I'm leaving!
+<END>
+
+#WRITE(PTR, $000035C8)
+【至】
+H-how pretentious.... we came here to ask a favor of Faris-tan, didn't we...?
+<END>
+
+#WRITE(PTR, $00003676)
+【フェイリス】
+Hmmya.... Then, I'll explain just a little more....
+<END>
+
+#WRITE(PTR, $00003724)
+【フェイリス】
+This land was originally for my house nya.
+<END>
+
+#WRITE(PTR, $000037D2)
+【倫太郎】
+Haah?
+<END>
+
+#WRITE(PTR, $00003876)
+What did she just say...?
+<END>
+
+#WRITE(PTR, $0000391A)
+This land was originally for my house...?
+<END>
+
+#WRITE(PTR, $000039F6)
+【まゆり】
+I see-. Since you're Akiha-san after all-
+<END>
+
+#WRITE(PTR, $00003AA4)
+Mayuri's words take me by surprise.
+<END>
+
+#WRITE(PTR, $00003B48)
+【倫太郎】
+The surname Akiha.... You mean that's the name of Akihabara's generations of land barons-!?
+<END>
+
+#WRITE(PTR, $00003BF6)
+Faris nods with a slightly boastful face.
+<END>
+
+#WRITE(PTR, $00003C9A)
+So that also means she's living in such a high-class apartment since she's a super celebrity ojou-sama.
+<END>
+
+#WRITE(PTR, $00003D48)
+【フェイリス】
+By the way, Faris also has considerable influence in Akihabara's town development project, nyan.
+<END>
+
+#WRITE(PTR, $00003DEC)
+Faris sways her slender waist, making a motion like a cat washing its face.
+<END>
+
+#WRITE(PTR, $00003E9A)
+【フェイリス】
+The one who actively introduced moe culture to each of Akiba's shops is none other than Faris, nya.
+<END>
+
+#WRITE(PTR, $00003F3E)
+【まゆり】
+Wah-, ama-zing.
+<END>
+
+#WRITE(PTR, $00003FEC)
+【フェイリス】
+Faris went to those sorts of meetings ever since she was little nya.
+<END>
+
+#WRITE(PTR, $00004090)
+So basically, the current chaotic changes in Akiba were all made to this catgirl's liking?
+<END>
+
+#WRITE(PTR, $000041F2)
+<LINE>
+%LCFaris doesn't afraid of anything...!
+<ENDPANEL>
+
+#WRITE(PTR, $00004234)
+【フェイリス】
+But, but, I want you to keep that all a secret nyan.
+<END>
+
+#WRITE(PTR, $00004244)
+Faris' expression suddenly gets dark.
+<END>
+
+#WRITE(PTR, $00004254)
+【倫太郎】
+Why?
+<END>
+
+#WRITE(PTR, $000042AA)
+【フェイリス】
+You wanna knyow?
+<END>
+
+#WRITE(PTR, $000042BA)
+Faris approaches me.
+<END>
+
+#WRITE(PTR, $000042CA)
+With a sexy look on her face.
+<END>
+
+#WRITE(PTR, $000042E4)
+【フェイリス】
+That's because--
+<END>
+
+#WRITE(PTR, $000042F4)
+Faris gently strokes my cheek with her cool, slender fingers.
+<END>
+
+#WRITE(PTR, $00004304)
+After entrancing me, Faris--
+<END>
+
+#WRITE(PTR, $0000431E)
+Smiles and laughs.
+<END>
+
+#WRITE(PTR, $0000433A)
+【フェイリス】
+Faris is Faris nya-♪
+<END>
+
+#WRITE(PTR, $0000434A)
+Dammit, this catgirl made a fool of me....!
+<END>
+
+#WRITE(PTR, $00004364)
+【フェイリス】
+Anyway, Faris wants all her big Faris LOVE fans to keep treating her the same way they have nyan☆
+<END>
+
+#WRITE(PTR, $000043DA)
+For some reason, Daru makes a guts pose after seeing Faris' cutesy act.
+<END>
+
+#WRITE(PTR, $000043EA)
+【至】
+I'll treat you! I'll treat you at full force!
+<END>
+
+#WRITE(PTR, $000043FA)
+【まゆり】
+Mayushii's also a Faris-chan fan-. Faris-chan's maid spirit is really amazing. I adore you-
+<END>
+
+#WRITE(PTR, $0000440A)
+Daru and Mayuri are in complete adoration, but I disagree.
+<END>
+
+#WRITE(PTR, $0000441E)
+【倫太郎】
+I don't care about this Faris LOVE crap!
+<END>
+
+#WRITE(PTR, $00004440)
+I thrust my finger at Faris' nose.
+<END>
+
+#WRITE(PTR, $00004450)
+【倫太郎】
+Don't get so caught up in the moment, Faris NyanNyan. If you refuse, then this whole apartment will be stained in blood.
+<END>
+
+#WRITE(PTR, $00004460)
+【倫太郎】
+You purposefully called me to your home to show off your celebrity status as if to bring leverage into our negotiations, but it's futile.
+<END>
+
+#WRITE(PTR, $00004470)
+【倫太郎】
+And the reason is because I am the insane mad scientist, Hououin Kyouma!
+<END>
+
+#WRITE(PTR, $0000448A)
+【至】
+Th-that's not a reason at all...
+<END>
+
+#WRITE(PTR, $0000449A)
+Hmph, that should settle it.
+<END>
+
+#WRITE(PTR, $000044AA)
+With this, Faris should be all "heeeeee" and ask for my forgiveness while shaking in fear.
+<END>
+
+#WRITE(PTR, $000044C4)
+--Or so I thought, but instead, she looks at me with gleaming eyes.
+<END>
+
+#WRITE(PTR, $000044D4)
+【フェイリス】
+Hanya~n♪ Assertive people are so lovely nyan.
+<END>
+
+#WRITE(PTR, $000044F2)
+【至】
+What... was that...?
+<END>
+
+#WRITE(PTR, $00004502)
+That's what I want to say. What... -was- that...?
+<END>
+
+#WRITE(PTR, $000045C2)
+I wanted to threaten her, not enthrall her.
+<END>
+
+#WRITE(PTR, $00004666)
+So Faris is a masochist, huh...!
+<END>
+
+#WRITE(PTR, $00004714)
+【フェイリス】
+Honestly speaking, Faris didn't want to talk so much about herself nya.
+<END>
+
+#WRITE(PTR, $000047C6)
+【フェイリス】
+Faris has met a lot of people before, but whenever they learn she's the Akiha Heiress, they all stop seeing Faris as Faris nya.
+<END>
+
+#WRITE(PTR, $0000486A)
+【フェイリス】
+Faris and Akiha Rumiho want to be seen as separate nya.
+<END>
+
+#WRITE(PTR, $0000490E)
+【倫太郎】
+There's nothing to separate. You've already established yourself as Faris NyanNyan, have you not?
+<END>
+
+#WRITE(PTR, $000049BC)
+【フェイリス】
+Nya?
+<END>
+
+#WRITE(PTR, $00004A6E)
+【至】
+I completely agree with you on that point, Okarin! Whenever she speaks NyanNyanian and wears her cat ears, that is Faris-tan!
+<END>
+
+#WRITE(PTR, $00004B12)
+【倫太郎】
+You're the over-conscious one, Faris.
+<END>
+
+#WRITE(PTR, $00004BC0)
+【フェイリス】
+Is that so nya....
+<END>
+
+#WRITE(PTR, $00004C64)
+【倫太郎】
+You are too self conscious. To me, no matter where you go, you are nothing but the 'unbeatable' cat ear maid!
+<END>
+
+#WRITE(PTR, $00004D12)
+【フェイリス】
+Nyahaha. Thank nyu, Kyouma.
+<END>
+
+#WRITE(PTR, $00004DC4)
+Did I say something to be grateful for?
+<END>
+
+#WRITE(PTR, $00004E68)
+Well, Faris probably admires my human tolerance. Fuhahaha!
+<END>
+
+#WRITE(PTR, $00004F1E)
+Now then, let's finish this idle gossip and get down to business.
+<END>
+
+#WRITE(PTR, $00004F4E)
+【倫太郎】
+Now then, Faris, you said you had conditions in exchange for your search for the IBN 5100. What are they?
+<END>
+
+#WRITE(PTR, $00004F5E)
+【倫太郎】
+...Be careful about your conditions.
+<END>
+
+#WRITE(PTR, $00004F6E)
+【倫太郎】
+If I release... my right hand just once, everything will be destroyed, and nothing will remain... just so you know.
+<END>
+
+#WRITE(PTR, $00004F88)
+【フェイリス】
+It's okay nya.
+<END>
+
+#WRITE(PTR, $00004F98)
+Faris points at the cat ears sticking out of her head.
+<END>
+
+#WRITE(PTR, $00004FA8)
+【フェイリス】
+Within these cat ears lies the power to completely negate all abilities, 'NyanNyan Clear'.
+<END>
+
+#WRITE(PTR, $00004FC2)
+【フェイリス】
+When Kyouma's power rampages, Faris will surely stop it.
+<END>
+
+#WRITE(PTR, $00004FD2)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00004FE2)
+I really shouldn't have talked about this hand to Faris, huh....
+<END>
+
+#WRITE(PTR, $00004FF2)
+Faris' true terror is her ability, Dubbing10, which allows her to overbearingly steal other people's stories and add them to her own backstory.
+<END>
+
+#WRITE(PTR, $00005002)
+By the way, I named Dubbing 10. The number 10 doesn't really mean anything.
+<END>
+
+#WRITE(PTR, $00005020)
+【フェイリス】
+Well then, I guess I'll announce it, nya.
+<END>
+
+#WRITE(PTR, $00005030)
+【フェイリス】
+Faris' condition--
+<END>
+
+#WRITE(PTR, $0000504A)
+Faris lets out a chuckle.
+<END>
+
+#WRITE(PTR, $0000505A)
+But I notice.
+<END>
+
+#WRITE(PTR, $0000506A)
+Her eyes aren't laughing.
+<END>
+
+#WRITE(PTR, $00005080)
+【フェイリス】
+I want to use the time machine nya.
+<END>
+
+#WRITE(PTR, $00005090)
+I see....
+<END>
+
+#WRITE(PTR, $000050A0)
+I had a feeling that was it.
+<END>
+
+#WRITE(PTR, $000050B0)
+【フェイリス】
+You two said so at MayQueen yesterday, nya? That you developed a time machine.
+<END>
+
+#WRITE(PTR, $000050C0)
+【倫太郎】
+Indeed. We ran the first successful time machine experiments in human history.
+<END>
+
+#WRITE(PTR, $00005108)
+【至】
+Like I said, the first was SERN....
+<END>
+
+#WRITE(PTR, $00005130)
+【倫太郎】
+But don't misunderstand.
+<END>
+
+#WRITE(PTR, $00005140)
+【倫太郎】
+We call it a time machine, but it's not a personal all purpose time machine that a blue cat can put into your desk drawer.
+<END>
+
+#WRITE(PTR, $00005150)
+【倫太郎】
+Our level of success was sending a 36 byte mail to someone's phone in the past.
+<END>
+
+#WRITE(PTR, $00005160)
+【倫太郎】
+But this alone is worthy of a Nobel Prize in Physics, a transcendental super invention that repaints human history.
+<END>
+
+#WRITE(PTR, $0000517A)
+【フェイリス】
+It can send a mail to someone in the past? That's pawesome! Faris wants to use it by all means nya!
+<END>
+
+#WRITE(PTR, $0000518A)
+Faris jumps up and down with a face full of glee.
+<END>
+
+#WRITE(PTR, $0000519A)
+【倫太郎】
+The time machine is our lab's most important confidential matter. If you want to use it no matter what, then you must become a lab mem, though.
+<END>
+
+#WRITE(PTR, $000051B4)
+【フェイリス】
+Lab mem? What's that nya?
+<END>
+
+#WRITE(PTR, $000051FC)
+【まゆり】
+Well, it means you get to be a part of our circle♪ Mayushii'd be super happy if Faris-chan became a lab mem-
+<END>
+
+#WRITE(PTR, $00005244)
+【至】
+Same here!
+<END>
+
+#WRITE(PTR, $0000525E)
+【至】
+It would be a Warm! Well! Come!
+<END>
+
+#WRITE(PTR, $00005278)
+【至】
+Please join by all means!
+<END>
+
+#WRITE(PTR, $00005288)
+【フェイリス】
+How do I become a lab mem nya?
+<END>
+
+#WRITE(PTR, $00005298)
+【倫太郎】
+There is no contract. The only necessary thing is... yes, the blood covenant.
+<END>
+
+#WRITE(PTR, $000052B2)
+【フェイリス】
+Blood... covenant...!
+<END>
+
+#WRITE(PTR, $000052D0)
+The window should be closed, but a gust of wind blew. It was the air conditioner.
+<END>
+
+#WRITE(PTR, $000052E0)
+But outside the window, I see rainclouds cover the sky.
+<END>
+
+#WRITE(PTR, $000052F0)
+I hear the rumbling of thunder inside my brain.
+<END>
+
+#WRITE(PTR, $00005300)
+【倫太郎】
+Thou, Faris NyanNyan. If it is thy desire to abide by the code of law passed down in the High Ancient Word from times long forgotten, and join the ranks of the lab mems--
+<END>
+
+#WRITE(PTR, $00005310)
+【倫太郎】
+Then lift up thy flesh, lift up thy bone, lift up thy blood in the heaven's grail and receive the covenant of baptism!
+<END>
+
+#WRITE(PTR, $00005320)
+【倫太郎】
+Thy duty fulfilled, the forgotten god shall grant thee thy lab mem number.
+<END>
+
+#WRITE(PTR, $00005330)
+【至】
+I didn't understand a word of that....
+<END>
+
+#WRITE(PTR, $0000534A)
+【まゆり】
+Awawah. What to do? Mayushii doesn't have a blood coffin ant or a heavy's quail-. Does that mean Mayushii's not a lab mem...?
+<END>
+
+#WRITE(PTR, $00005364)
+【至】
+Mayu-shi, I think you should be OK. This is just Okarin's usual habit.
+<END>
+
+#WRITE(PTR, $0000537E)
+【まゆり】
+I see-. If it's his usual habit then that's that♪ But thank goodness-
+<END>
+
+#WRITE(PTR, $00005398)
+【フェイリス】
+Understood nya. I'll take the blood covenant nya....
+<END>
+
+#WRITE(PTR, $000053F2)
+Faris puts on a serious face and grips a small knife placed on top of the desk--
+<END>
+
+#WRITE(PTR, $00005402)
+And for some reason, slashes it against her wrist.
+<END>
+
+#WRITE(PTR, $00005412)
+【倫太郎】
+──！？
+<END>
+
+#WRITE(PTR, $0000542C)
+【まゆり】
+Noo!
+<END>
+
+#WRITE(PTR, $00005446)
+【至】
+Uh, isn't it a paper knife?
+<END>
+
+#WRITE(PTR, $00005460)
+【フェイリス】
+Nyahaha♪ Daru-nyan's right nya~
+<END>
+
+#WRITE(PTR, $0000547A)
+Gh, she surprised me...!
+<END>
+
+#WRITE(PTR, $0000548A)
+I clear my throat and pull myself together.
+<END>
+
+#WRITE(PTR, $0000549A)
+【倫太郎】
+Well then, Faris, I certify you as Lab Mem Number 007.
+<END>
+
+#WRITE(PTR, $000054EA)
+【フェイリス】
+Yes nya. Now can I use the time machine nya?
+<END>
+
+#WRITE(PTR, $000054FA)
+【倫太郎】
+Yeah. That's correct. But it's useless to reveal our secret. Death to betrayers. That's the law of the lab. Remember it.
+<END>
+
+#WRITE(PTR, $00005514)
+【まゆり】
+I didn't know that-
+<END>
+
+#WRITE(PTR, $0000552E)
+【至】
+That's because Okarin just thought of it on the spot.
+<END>
+
+#WRITE(PTR, $0000553E)
+【フェイリス】
+Tha-nk nyu-, Kyouma!
+<END>
+
+#WRITE(PTR, $000055A6)
+Faris hugs me by the neck.
+<END>
+
+#WRITE(PTR, $000055B6)
+A very sweet aroma tickles my nose.
+<END>
+
+#WRITE(PTR, $000055C6)
+And something very soft....
+<END>
+
+#WRITE(PTR, $000055E0)
+【至】
+Hey, Okarin, you jerk-! I made the Microwave Ophone too-!
+<END>
+
+#WRITE(PTR, $00005634)
+【フェイリス】
+「そうなのニャ？　
+<END2>
+
+#WRITE(PTR, $0000564E)
+じゃあダルニャンも！」
+<END>
+
+#WRITE(PTR, $000056D0)
+フェイリスはダルに飛びかかっていった。
+<END>
+
+#WRITE(PTR, $00005720)
+【まゆり】
+Okarin, Okarin. It's great you could please Faris-chan♪
+<END>
+
+#WRITE(PTR, $00005730)
+【倫太郎】
+Heheheh.... Mayuri, you really are innocent.
+<END>
+
+#WRITE(PTR, $0000574A)
+【まゆり】
+Hweh?
+<END>
+
+#WRITE(PTR, $00005774)
+I take out my phone and put it to my ear.
+<END>
+
+#WRITE(PTR, $00005784)
+【倫太郎】
+...It's me. ...Yeah, I successfully deceived Faris. She's just a 17 year old girl after all.
+<END>
+
+#WRITE(PTR, $00005794)
+【倫太郎】
+Though that catgirl thinks she's bargained with me to appease her lust for mankind's dream, the forbidden fruit that is the time machine--
+<END>
+
+#WRITE(PTR, $000057A4)
+【倫太郎】
+She doesn't realize that she's dancing on the palm of my, Hououin Kyouma's hand.
+<END>
+
+#WRITE(PTR, $000057B4)
+【倫太郎】
+...Hmph, why did I accept the catgirl's conditions, you ask? Isn't that obvious? Basically--
+<END>
+
+#WRITE(PTR, $000057C4)
+Then I warp my lips into a grin.
+<END>
+
+#WRITE(PTR, $000057D4)
+Right now, my shark teeth are probably glistening suspiciously.
+<END>
+
+#WRITE(PTR, $000057E4)
+...Damn, I wish I had shark teeth.
+<END>
+
+#WRITE(PTR, $000057F4)
+【倫太郎】
+That catgirl is a test subject.
+<END>
+
+#WRITE(PTR, $00005804)
+【倫太郎】
+...What? Heresy's such a cruel way to put it. But it's not completely wrong. Heheheh.
+<END>
+
+#WRITE(PTR, $00005814)
+【まゆり】
+...?
+<END>
+
+#WRITE(PTR, $000058BA)
+So far, we haven't gotten significant experimental data on D-mails.
+<END>
+
+#WRITE(PTR, $000058CA)
+Kurisu refuses to become a testee, and Mayuri and Daru are too stupid to be useful.
+<END>
+
+#WRITE(PTR, $000058DA)
+We got experiments done with Moeka and Lukako, but I want to get more data.
+<END>
+
+#WRITE(PTR, $000058EA)
+And now we have this offer.
+<END>
+
+#WRITE(PTR, $000058FA)
+Experimental data and an IBN 5100. I'm getting those from Faris. Two birds with one stone!
+<END>
+
+#WRITE(PTR, $0000590A)
+I've completely recovered from the shock of losing the IBN 5100.
+<END>
+
+#WRITE(PTR, $00005976)
+【倫太郎】
+...Yeah. Basically, Faris intends to use us--
+<END>
+
+#WRITE(PTR, $00005986)
+【倫太郎】
+But it's actually the opposite. She's like a moth flying into our flame. Fuhahaha!
+<END>
+
+#WRITE(PTR, $00005996)
+【倫太郎】
+...So, we're moving onto the next experiment as planned. Everything is Steins;Gate's choice. El Psy Congroo.
+<END>
+
+#WRITE(PTR, $000059B8)
+After I put away my phone, someone taps me on the shoulder.
+<END>
+
+#WRITE(PTR, $000059C8)
+Right after that, they blow into my ear.
+<END>
+
+#WRITE(PTR, $000059D8)
+【倫太郎】
+Mmgh!?
+<END>
+
+#WRITE(PTR, $000059E8)
+【フェイリス】
+Who were you calling just neow?
+<END>
+
+#WRITE(PTR, $000059F8)
+After servicing Daru, Faris was standing behind me before I noticed her.
+<END>
+
+#WRITE(PTR, $00005A08)
+Seems like she heard everything.
+<END>
+
+#WRITE(PTR, $00005A18)
+【倫太郎】
+You're such a slowpoke, Faris NyanNyan.
+<END>
+
+#WRITE(PTR, $00005A28)
+【倫太郎】
+You already took the blood covenant. If you violate the contract, you'll be visited by destruction.
+<END>
+
+#WRITE(PTR, $00005A38)
+【倫太郎】
+You can no longer escape.
+<END>
+
+#WRITE(PTR, $00005A48)
+【フェイリス】
+OK nya. So, where is the time machine nya?
+<END>
+
+#WRITE(PTR, $00005A58)
+She seems rushed....
+<END>
+
+#WRITE(PTR, $00005A68)
+【倫太郎】
+The time machine-- accurately speaking, the Microwave Ophone (Temp), is in our lab
+<END>
+
+#WRITE(PTR, $00005A90)
+Let's try applying the Microwave Ophone's original purpose this time.
+<END>
+
+#WRITE(PTR, $00005AA0)
+Basically, remote control.
+<END>
+
+#WRITE(PTR, $00005B3E)
+Kurisu's watching over the lab.
+<END>
+
+#WRITE(PTR, $00005B4E)
+I guess we'll leave the Microwave Ophone (Temp)'s setup to that assistant of mine.
+<END>
+
+#WRITE(PTR, $00005B96)
+When I ask Faris what mail address she's going to send to, she answers with her father 10 years ago. I take a memo of that address.
+<END>
+
+#WRITE(PTR, $00005BA6)
+The destination is 10 years ago, April 3, 2000.
+<END>
+
+#WRITE(PTR, $00005BB6)
+It has to be on at 8AM that day, so we use a calculator on the net to factor in leap years, resulting in 86168 hours.
+<END>
+
+#WRITE(PTR, $00005C4E)
+【まゆり】
+Umm, so does that mean it has to keep going for 86, 000 seconds-?
+<END>
+
+#WRITE(PTR, $00005C68)
+【まゆり】
+Microwave Ophone-chan won't get tired-?
+<END>
+
+#WRITE(PTR, $00005C78)
+【倫太郎】
+No, it's not like it actually has to go all those seconds.
+<END>
+
+#WRITE(PTR, $00005C88)
+We've learned that from previous experiments.
+<END>
+
+#WRITE(PTR, $00005C98)
+【倫太郎】
+If you send it once the discharge phenomenon occurs, it reaches the past.
+<END>
+
+#WRITE(PTR, $00005CA8)
+【倫太郎】
+Therefore, by the Butterfly Effect, the remaining seconds should cancel.
+<END>
+
+#WRITE(PTR, $00005CB8)
+By the pattern so far, the fact that a D-mail was sent becomes undone, and the D-mail only remains with the recipient.
+<END>
+
+#WRITE(PTR, $00005CC8)
+Now, let's call Kurisu.
+<FILEEND14>
+

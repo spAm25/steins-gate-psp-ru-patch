@@ -1,0 +1,824 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002748)
+
+#WRITE(PTR, $000008E2)
+I somehow manage to calm down, and come back to the lab.
+<END>
+
+#WRITE(PTR, $000008F2)
+For now, I'll think of that mail as a prank and drive it to the corner of my mind.
+<END>
+
+#WRITE(PTR, $00000968)
+Gathered in the lab this early in the morning-- well, actually it's already noon-- are three high school girls.
+<END>
+
+#WRITE(PTR, $00000978)
+Lab Mem Numbers 002, 004, and 006.
+<END>
+
+#WRITE(PTR, $00000988)
+Mayuri, Kurisu, and Lukako.
+<END>
+
+#WRITE(PTR, $00000998)
+I greet them, trying not to stiffen my expression.
+<END>
+
+#WRITE(PTR, $000009A8)
+【倫太郎】
+It's Sunday on Obon holiday. You've sure got some free time, eh, Lab Mem Girls.
+<END>
+
+#WRITE(PTR, $00000A3E)
+【るか】
+Ah, Okabe-san. Pardon the intrusion.
+<END>
+
+#WRITE(PTR, $00000A86)
+【まゆり】
+Okarin, good morning-♪
+<END>
+
+#WRITE(PTR, $00000A96)
+I smile and wave back at the two high school girls for my morning greeting.
+<END>
+
+#WRITE(PTR, $00000AA6)
+In a sense, this is a happy scene.
+<END>
+
+#WRITE(PTR, $00000AB6)
+By the way, one of these girls is, to be accurate, a high school boy who looks like a girl.
+<END>
+
+#WRITE(PTR, $00000AC6)
+And that happy scene was ruined by a certain assistant who just gave me an uninterested look before going back to reading.
+<END>
+
+#WRITE(PTR, $00000AD6)
+【倫太郎】
+What are you doing?
+<END>
+
+#WRITE(PTR, $00000B3A)
+Mayuri and Lukako are sitting next to each other on the sofa, reading a book together.
+<END>
+
+#WRITE(PTR, $00000B4A)
+When I take a peek, it looks like a cosplay photoalbum.
+<END>
+
+#WRITE(PTR, $00000B5A)
+【まゆり】
+You know, yesterday I said I was going to Nakano to by doujinshi, right-? And when I was there, I found a doujin photoalbum of a super cute cosplayer-
+<END>
+
+#WRITE(PTR, $00000B6A)
+【まゆり】
+So I bought it on impulse♪
+<END>
+
+#WRITE(PTR, $00000B82)
+【まゆり】
+Look, Luka-chan. This is a costume of Sedona from <DICT>Blood Tune</DICT>. Isn't it well made-? Isn't it super cute-?
+<END>
+
+#WRITE(PTR, $00000B92)
+【るか】
+Wahh, it is.
+<END>
+
+#WRITE(PTR, $00000BA2)
+I see. And so she's showing it to Lukako to reeducate him.
+<END>
+
+#WRITE(PTR, $00000BB2)
+Lukako was so against it, but Mayuri's pretty praiseworthy.
+<END>
+
+#WRITE(PTR, $00000BC2)
+But he looks so interested in the photoalbum, that maybe he's interested in cosplay itself. Maybe his issue is simply being too shy to be in front of people.
+<END>
+
+#WRITE(PTR, $00000BD2)
+【まゆり】
+Hey, hey, Chris-chan, take a look too-. It's impressive-
+<END>
+
+#WRITE(PTR, $00000BE2)
+【紅莉栖】
+It's okay, I guess.
+<END>
+
+#WRITE(PTR, $00000BF2)
+Looks like Kurisu's the only one not participating in the doujin photoalbum appreciation party.
+<END>
+
+#WRITE(PTR, $00000C02)
+She just gives a cold hmph.
+<END>
+
+#WRITE(PTR, $00000C12)
+She's reading a difficult western book.
+<END>
+
+#WRITE(PTR, $00000C22)
+Dammit, pretending to be intelligent?
+<END>
+
+#WRITE(PTR, $00000C32)
+You don't talk that way when Mayuri gives you a suggestion. Or so I thought, but Mayuri doesn't seem to mind, so I don't butt in.
+<END>
+
+#WRITE(PTR, $00000C42)
+【まゆり】
+Wah, the next pages are swimsuits-. Amazing-. So much skin, huh. She's got great style, like a gravure idol.
+<END>
+
+#WRITE(PTR, $00000C52)
+【るか】
+How admirable....
+<END>
+
+#WRITE(PTR, $00000C62)
+【まゆり】
+Admirable-? The swimsuits?
+<END>
+
+#WRITE(PTR, $00000C72)
+【るか】
+I... don't have that great a style....
+<END>
+
+#WRITE(PTR, $00000C82)
+【まゆり】
+But but, Luka-chan, I'm sure you make your large friends breathe hard.
+<END>
+
+#WRITE(PTR, $00000C92)
+Hey, hey, Mayuri.... What the hell are you saying? It's like you're referring to Daru with that remark.
+<END>
+
+#WRITE(PTR, $00000CA2)
+【まゆり】
+You know, flat chests are justice. So even if you don't have breasts, you should still be confident-
+<END>
+
+#WRITE(PTR, $00000CB2)
+【紅莉栖】
+Khmmkhmmkhmm!
+<END>
+
+#WRITE(PTR, $00000CC2)
+Kurisu starts magnificently choking on her coffee.
+<END>
+
+#WRITE(PTR, $00000CD2)
+I know that feel. I almost did a spittake with my Dr Pepper.
+<END>
+
+#WRITE(PTR, $00000CE2)
+Furthermore, Mayuri has no persuasive power at all with her super bust unsuitable for her height.
+<END>
+
+#WRITE(PTR, $00000D3E)
+【まゆり】
+I know. Once ComiMa's over, let's all go play in the ocean-. It's summer after all, and Mayushii's been making costumes all the time, so she hasn't gotten to play at all.
+<END>
+
+#WRITE(PTR, $00000D58)
+【まゆり】
+Hey, hey, Okarin, Chris-chan, whaddya think-? An all-lab mem beach trip.
+<END>
+
+#WRITE(PTR, $00000DA0)
+【るか】
+Eh...? All lab mems...?
+<END>
+
+#WRITE(PTR, $00000DE8)
+【紅莉栖】
+I'm not going. I've gotta go back to America soon. I haven't even packed, so I don't have that much time.
+<END>
+
+#WRITE(PTR, $00000E06)
+【倫太郎】
+Well, since you're casually reading in the lab, you seem to have plenty of time to me.
+<END>
+
+#WRITE(PTR, $00000E20)
+【紅莉栖】
+......
+<END>
+
+#WRITE(PTR, $00000E30)
+Kurisu snaps her book shut and glares at me for my sarcasm.
+<END>
+
+#WRITE(PTR, $00000E4A)
+【紅莉栖】
+Fine, then I'll be blunt. Why the hell would I go swimming with two ＨＥＮＴＡＩ scoundrels?
+<END>
+
+#WRITE(PTR, $00000E64)
+【紅莉栖】
+If it's just the girl members, I'd happily join♪
+<END>
+
+#WRITE(PTR, $00000E74)
+【倫太郎】
+Hmph, so you're being honest now, Christina. 'I don't want to show the boys my birthmarked butt, so I don't want them to come'-
+<END>
+
+#WRITE(PTR, $00000E8E)
+【紅莉栖】
+I don't have a birthmark!
+<END>
+
+#WRITE(PTR, $00000E9E)
+【倫太郎】
+Anyway, if you're limiting it to just the girl members, then doesn't that rule out Lukako?
+<END>
+
+#WRITE(PTR, $00000EB8)
+【紅莉栖】
+What the hell do you mean by that?
+<END>
+
+#WRITE(PTR, $00000EC8)
+【倫太郎】
+Didn't we expressly tell you before? That Lukako is a bonafide man!
+<END>
+
+#WRITE(PTR, $00000F16)
+My declaration of the truth--
+<END>
+
+#WRITE(PTR, $00000F26)
+Freezes the atmosphere.
+<END>
+
+#WRITE(PTR, $00000F36)
+Wait, what...?
+<END>
+
+#WRITE(PTR, $00000F46)
+There's something off about their reaction.
+<END>
+
+#WRITE(PTR, $00000F9A)
+【紅莉栖】
+You're the worst. I can't believe you'd call a girl a man right in front of her.
+<END>
+
+#WRITE(PTR, $00001010)
+【まゆり】
+That's right. Okarin, I don't like you saying that...
+<END>
+
+#WRITE(PTR, $00001020)
+【るか】
+......
+<END>
+
+#WRITE(PTR, $00001030)
+Not just Kurisu, but even Mayuri condemns me.
+<END>
+
+#WRITE(PTR, $00001040)
+And then Lukako starts to clearly turn pale, hanging his head with shaking shoulders.
+<END>
+
+#WRITE(PTR, $00001050)
+Is he... crying...?
+<END>
+
+#WRITE(PTR, $00001060)
+Normally, he'd get depressed and say something like That's true, I am a guy... and wearing swimsuits is embarrassing too, but he'd never start crying....
+<END>
+
+#WRITE(PTR, $00001070)
+【倫太郎】
+Christina. I understand your desire to turn a blind eye to the truth. After all, Lukako is a guy, yet he is so lovely--
+<END>
+
+#WRITE(PTR, $00001152)
+【紅莉栖】
+Okabe!
+<END>
+
+#WRITE(PTR, $00001162)
+Kurisu's expression grows ever more stern as she approaches me.
+<END>
+
+#WRITE(PTR, $0000117C)
+【紅莉栖】
+If giving me weird nicknames is your sense of humor, then that's fine-- no, actually it's not fine at all--
+<END>
+
+#WRITE(PTR, $0000118C)
+【紅莉栖】
+But what you said just now is below the belt.
+<END>
+
+#WRITE(PTR, $000011A6)
+【紅莉栖】
+I didn't think you were the sort of jerk to hurt others, but I was mistaken, wasn't I? Right now, you're really the worst.
+<END>
+
+#WRITE(PTR, $000011B6)
+【倫太郎】
+Eh...?
+<END>
+
+#WRITE(PTR, $000011C6)
+What? Why did disaster suddenly strike?
+<END>
+
+#WRITE(PTR, $000011E0)
+【紅莉栖】
+Apologize. Apologize to Urushibara-san right now.
+<END>
+
+#WRITE(PTR, $000011F0)
+【倫太郎】
+No, no, wait. I don't have to apologize for anything. I just said the tru--
+<END>
+
+#WRITE(PTR, $00001200)
+【るか】
+It's okay.
+<END>
+
+#WRITE(PTR, $00001248)
+Lukako gets up from the sofa, whispering with a fading voice.
+<END>
+
+#WRITE(PTR, $00001258)
+Still hanging his head.
+<END>
+
+#WRITE(PTR, $00001268)
+【るか】
+So... so that's how Okabe-san sees me, huh...
+<END>
+
+#WRITE(PTR, $00001278)
+【倫太郎】
+Nonononono! That's not how I see you, Lukako, you -are- a guy, right!? Or are you escaping from reality too!?
+<END>
+
+#WRITE(PTR, $00001292)
+【紅莉栖】
+You're the one escaping from reality!
+<END>
+
+#WRITE(PTR, $000012DA)
+【まゆり】
+That's right-. Luka-chan's a girl. Okarin, you're terrible.
+<END>
+
+#WRITE(PTR, $000012EA)
+【倫太郎】
+Anyway, Mayuri, why did you suddenly start calling Lukako 'Luka-chan' instead of 'Luka-kun'?
+<END>
+
+#WRITE(PTR, $000012FA)
+【紅莉栖】
+Okabe, how long are you gonna keep this up!? She's a girl!
+<END>
+
+#WRITE(PTR, $0000130A)
+Mayuri nods in agreement.
+<END>
+
+#WRITE(PTR, $0000131A)
+Eh, huh?
+<END>
+
+#WRITE(PTR, $0000132A)
+Just what are these guys...?
+<END>
+
+#WRITE(PTR, $0000133A)
+A prank? A trap?
+<END>
+
+#WRITE(PTR, $0000134A)
+【るか】
+I'm... going home...!
+<END>
+
+#WRITE(PTR, $000013C0)
+And then Lukako slips by me, trying to head outside the lab.
+<END>
+
+#WRITE(PTR, $000013D0)
+I grab his hand from behind and detain him.
+<END>
+
+#WRITE(PTR, $000013E0)
+【倫太郎】
+Hold it, Lukako! Stop trying to trick me! You are an honest to goodness man! If you want proof, it's right here--
+<END>
+
+#WRITE(PTR, $0000143C)
+I put Lukako's slender body into a Nelson hold.
+<END>
+
+#WRITE(PTR, $0000144C)
+I try to grab at Lukako's "manhood" at his crotch--
+<END>
+
+#WRITE(PTR, $00001552)
+Nothing.
+<END>
+
+#WRITE(PTR, $00001562)
+【倫太郎】
+Oh...?
+<END>
+
+#WRITE(PTR, $00001572)
+【るか】
+Ah...
+<END>
+
+#WRITE(PTR, $00001582)
+【紅莉栖】
+You...
+<END>
+
+#WRITE(PTR, $00001592)
+【まゆり】
+Awawa....
+<END>
+
+#WRITE(PTR, $0000168A)
+【倫太郎】
+Ohhhh? Eh? Huh? Why?
+<END>
+
+#WRITE(PTR, $0000169A)
+I try groping at his crotch some more.
+<END>
+
+#WRITE(PTR, $000016AA)
+【るか】
+ugh, No, no, don't... Okabe-san, please... stop... sniff.
+<END>
+
+#WRITE(PTR, $000016BA)
+Nothing. Nada.
+<END>
+
+#WRITE(PTR, $000016CA)
+It should be there.
+<END>
+
+#WRITE(PTR, $000016DA)
+I mean, he's a man--
+<END>
+
+#WRITE(PTR, $000016EA)
+At that moment, an electric current runs through my brain.
+<END>
+
+#WRITE(PTR, $000016FA)
+No way--
+<END>
+
+#WRITE(PTR, $0000170A)
+Yes way.
+<END>
+
+#WRITE(PTR, $0000171A)
+So is that how it is...!?
+<END>
+
+#WRITE(PTR, $00001782)
+【倫太郎】
+Lukako, you...
+<END>
+
+#WRITE(PTR, $00001792)
+That D-mail that I thought was surely a failure...
+<END>
+
+#WRITE(PTR, $000017A2)
+Was a success...!
+<END>
+
+#WRITE(PTR, $000017B2)
+【倫太郎】
+You're a girl!?
+<END>
+
+#WRITE(PTR, $000017FA)
+【紅莉栖】
+That's what we've been saying-!
+<END>
+
+#WRITE(PTR, $00001BAE)
+Immediately afterward, my brain gets thumped.
+<END>
+
+#WRITE(PTR, $00001BBE)
+The corner of Kurisu's massive book sinks into my skull--
+<END>
+
+#WRITE(PTR, $00001C88)
+【るか】
+hic... ugg... egh...
+<END>
+
+#WRITE(PTR, $00001C98)
+Lukako is crying.
+<END>
+
+#WRITE(PTR, $00001CA8)
+Mayuri worriedly rubs her back.
+<END>
+
+#WRITE(PTR, $00001CF8)
+Kurisu glares down at me in a daunting stance.
+<END>
+
+#WRITE(PTR, $00001D08)
+Daru, who arrived a moment ago, is in the corner, stifling a laugh.
+<END>
+
+#WRITE(PTR, $00001D18)
+"How rude" is what I'd like to say, but don't.
+<END>
+
+#WRITE(PTR, $00001D28)
+Because 100 out of 100 unknowing outsiders would assume the situation is like this:
+<END>
+
+#WRITE(PTR, $00001D38)
+A perverted college boy is genuflecting to a high school girl of justice.
+<END>
+
+#WRITE(PTR, $00001D48)
+And that assumption isn't technically incorrect....
+<END>
+
+#WRITE(PTR, $00001D58)
+The top of my head is throbbing.
+<END>
+
+#WRITE(PTR, $00001D68)
+Most likely because Kurisu instantly wiped out a hundred million of my environmentally endangered neurons in a single blow.
+<END>
+
+#WRITE(PTR, $00001D78)
+I put a moist towel to my head.
+<END>
+
+#WRITE(PTR, $00001D88)
+【紅莉栖】
+I want to vivisect your brain out of your head and give it a good washing.
+<END>
+
+#WRITE(PTR, $00001DA2)
+【紅莉栖】
+Then, without putting it back in your body, I'd submerge it in culture fluid so you couldn't do another shameful act like that again.
+<END>
+
+#WRITE(PTR, $00001DBC)
+【紅莉栖】
+Anyway, I won't hand you over to the police, so consider thanking me.
+<END>
+
+#WRITE(PTR, $00001DCC)
+【倫太郎】
+Yes ma'am... I'm sorry...
+<END>
+
+#WRITE(PTR, $00001DDC)
+I honestly apologize.
+<END>
+
+#WRITE(PTR, $00001DF8)
+No, I was too hasty....
+<END>
+
+#WRITE(PTR, $00001E08)
+I didn't think it'd be gone.
+<END>
+
+#WRITE(PTR, $00001F0E)
+Lukako became a woman.
+<END>
+
+#WRITE(PTR, $00001F1E)
+Her appearance didn't change, and she's a flat-chested girl, but still a girl nonetheless.
+<END>
+
+#WRITE(PTR, $00001F2E)
+After all, that which is precious is gone.
+<END>
+
+#WRITE(PTR, $00001F3E)
+I clearly confirmed that by my own hand.
+<END>
+
+#WRITE(PTR, $00001F4E)
+It's now the firm truth.
+<END>
+
+#WRITE(PTR, $00001F5E)
+Who would've thought we'd prove that idiotic old wives' tale in this fashion?
+<END>
+
+#WRITE(PTR, $00001F6E)
+More importantly, I did something horrible to Lukako....
+<END>
+
+#WRITE(PTR, $00001F86)
+It wouldn't be strange if the perverted act of groping such an innocent 17 year old girl's crotch would give her <DICT>PTSD</DICT>.
+<END>
+
+#WRITE(PTR, $00001F96)
+And that's to say nothing of Lukako's already docile nature....
+<END>
+
+#WRITE(PTR, $00001FA6)
+Next time I come in contact with her, I need to be as gentle as humanly possible.
+<END>
+
+#WRITE(PTR, $00001FB6)
+No, maybe I shouldn't even speak to her for as long as life endures.
+<END>
+
+#WRITE(PTR, $00001FC6)
+But I'm entirely at fault, so I have to accept any stigma placed upon me.
+<END>
+
+#WRITE(PTR, $00002080)
+【紅莉栖】
+Anyway, just what would give you such a strange delusion like Urushibara-san being a boy?
+<END>
+
+#WRITE(PTR, $00002090)
+【倫太郎】
+Heheheh... I said so before, didn't I? The past changed via D-mail. Lukako was a guy, but we sent his wish to become a girl as a D-mail. And we succeeded.
+<END>
+
+#WRITE(PTR, $000020A0)
+【倫太郎】
+The instant the world line changed, I certainly recognized it did. By means of the demon eye, Reading Steiner, of course.
+<END>
+
+#WRITE(PTR, $000020B0)
+【倫太郎】
+I ought to look at that time in retrospect. I should've had more faith in my own special ability!
+<END>
+
+#WRITE(PTR, $000020C0)
+Kurisu calmly readies her book above her head.
+<END>
+
+#WRITE(PTR, $000020DA)
+【紅莉栖】
+Want some more?
+<END>
+
+#WRITE(PTR, $000021B0)
+【倫太郎】
+No, it's true. Please believe me...!
+<END>
+
+#WRITE(PTR, $000021C0)
+【倫太郎】
+I can theoretically explain this phenomenon. When we sent the D-mail, the world's history changed to follow suit. Basically, the past changed. My brain perceived that change!
+<END>
+
+#WRITE(PTR, $000021D0)
+【倫太郎】
+I, alone throughout the whole world, can perceive causality changes! Correct, that means that I am this world's observer!
+<END>
+
+#WRITE(PTR, $000021E0)
+I stand up in excitation, bellowing out a fervent speech.
+<END>
+
+#WRITE(PTR, $000021F0)
+But nobody gave any reaction.
+<END>
+
+#WRITE(PTR, $00002210)
+【紅莉栖】
+Just sit down.
+<END>
+
+#WRITE(PTR, $000022E6)
+I sit down again in dejection.
+<END>
+
+#WRITE(PTR, $000022FE)
+【倫太郎】
+Don't you understand? I'm the observer-- in other words, the person who opens the box in the so-called "<DICT>Schrodinger's cat</DICT>" experiment in quantum mechanics, you know?
+<END>
+
+#WRITE(PTR, $00002346)
+【まゆり】
+Shredding Gar-?
+<END>
+
+#WRITE(PTR, $0000238E)
+【至】
+Wahh, he said it, Schrodinger's cat.
+<END>
+
+#WRITE(PTR, $0000239E)
+【至】
+The Japanese have a Schrodinger fetish.
+<END>
+
+#WRITE(PTR, $000023B8)
+【紅莉栖】
+You're Japanese too.
+<END>
+
+#WRITE(PTR, $000023D0)
+【至】
+I'm already sick of it. I do admit that <DICT>pussies</DICT> are cute, though.
+<END>
+
+#WRITE(PTR, $000023E0)
+【倫太郎】
+Gh....
+<END>
+
+#WRITE(PTR, $000023F0)
+Daru struck the nail on the head so well, I can't object.
+<END>
+
+#WRITE(PTR, $00002400)
+Schrodinger's experiment certainly has become a staple of Japanese entertainment media dealing with quantum theory.
+<END>
+
+#WRITE(PTR, $0000242A)
+【倫太郎】
+Anyway, I have a demon eye with such a unique ability. Its name is Reading Steiner, as I have explained before.
+<END>
+
+#WRITE(PTR, $00002444)
+【紅莉栖】
+And I thought I told you that that Reading Steiner name is dumb so you should quit it.
+<END>
+
+#WRITE(PTR, $00002454)
+【紅莉栖】
+It feels like Engrish (和製英語 - "wasei eigo"). Like a manga special technique.
+<END>
+
+#WRITE(PTR, $0000246E)
+【紅莉栖】
+Its a grammatical mess too. If 'steiner' refers to 'stein', then it's half German, half English. A mess.
+<END>
+
+#WRITE(PTR, $0000247E)
+【紅莉栖】
+By the way, is this Steins Gate or whatever? You've said that too.
+<END>
+
+#WRITE(PTR, $0000248E)
+【倫太郎】
+Heheheh... looks like you've still got your butt birthmark, huh, Christina.
+<END>
+
+#WRITE(PTR, $0000249E)
+【倫太郎】
+Naming is all about feeling. My creativity, comparable to the genius Leonardo Da Vinci, can't be contained by the shackles of grammar! Fuhaha--!
+<END>
+
+#WRITE(PTR, $000024D2)
+She hits me again.
+<END>
+
+#WRITE(PTR, $000024E2)
+Stars fly through my vision.
+<END>
+
+#WRITE(PTR, $000024FC)
+【紅莉栖】
+Reflect on your actions a little.
+<END>
+
+#WRITE(PTR, $0000250C)
+【倫太郎】
+I'm sorry...
+<END>
+
+#WRITE(PTR, $0000258A)
+Lukako still hasn't stopped crying.
+<FILEEND33>
+

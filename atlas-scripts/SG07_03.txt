@@ -1,0 +1,520 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001E9A)
+
+#WRITE(PTR, $000002A4)
+【まゆり】
+Okari-n♪
+<END>
+
+#WRITE(PTR, $00000380)
+Coming out of the ticket gate, Mayuri leisurely walks up to me.
+<END>
+
+#WRITE(PTR, $00000424)
+【まゆり】
+Tutturu-♪ I didn't think you'd actually come all the way to the station to pick me up-. Mayushii's surprised.
+<END>
+
+#WRITE(PTR, $000004C8)
+【倫太郎】
+It would be bad if my 'hostage' got away.
+<END>
+
+#WRITE(PTR, $0000056C)
+【まゆり】
+Yeah, it would be bad. So, Mayushii's really happy. Ehhehe-♪
+<END>
+
+#WRITE(PTR, $00000610)
+I don't quite understand, but....
+<END>
+
+#WRITE(PTR, $000006B4)
+Mayuri gives a carefree smile, walking ahead of me, almost skipping.
+<END>
+
+#WRITE(PTR, $00000762)
+【まゆり】
+So, what's that bag you're holding?
+<END>
+
+#WRITE(PTR, $00000806)
+【倫太郎】
+...Mister Braun gave it to me. It's an Upart that can measure the numerical values of world lines.
+<END>
+
+#WRITE(PTR, $000008B4)
+【まゆり】
+Hmm, seems amazing, huh-. But, what are 'numerical values of world lines'-?
+<END>
+
+#WRITE(PTR, $00000958)
+I smile wryly.
+<END>
+
+#WRITE(PTR, $00000A0E)
+【倫太郎】
+Mayuri, you really are a dummy, huh.
+<END>
+
+#WRITE(PTR, $00000A26)
+Why did I do this?
+<END>
+
+#WRITE(PTR, $00000A36)
+After I left Manager's house, I called Mayuri to ask when she's coming to Akiba, and then came to the station to pick her up.
+<END>
+
+#WRITE(PTR, $00000A46)
+Anxiety still smoulders at the bottom of my heart──
+<END>
+
+#WRITE(PTR, $00000A56)
+Yesterday-- the night of Friday the 13th. We somehow managed to survive.
+<END>
+
+#WRITE(PTR, $00000A76)
+While that may be true, that doesn't mean our safety is guaranteed.
+<END>
+
+#WRITE(PTR, $00000A86)
+For example-- the possibility that Moeka will attack now, daytime on the 14th, isn't zero.
+<END>
+
+#WRITE(PTR, $00000A96)
+I might just be over-protective. But still.
+<END>
+
+#WRITE(PTR, $00000AA6)
+If I let my guard down, the scene of Mayuri's death still flashes back into my mind.
+<END>
+
+#WRITE(PTR, $00000AB6)
+I don't ever want to see that scene again.
+<END>
+
+#WRITE(PTR, $00000B76)
+【倫太郎】
+Mayuri, I'm just talking hypothetically, but do you think it would be better if you didn't come to Akiba until ComiMa ends?
+<END>
+
+#WRITE(PTR, $00000C1A)
+I made such a proposal, but she didn't answer.
+<END>
+
+#WRITE(PTR, $00000CBE)
+Wanting to know what's wrong, I look to the side.
+<END>
+
+#WRITE(PTR, $00000D62)
+【倫太郎】
+Wait, where is she!?
+<END>
+
+#WRITE(PTR, $00000E06)
+I look around in a rush and see her wandering off to a newly opened shaved ice store.
+<END>
+
+#WRITE(PTR, $00000EBC)
+Tch. That careless girl....
+<END>
+
+#WRITE(PTR, $0000102C)
+【紅莉栖】
+Okabe's a devoted type, huh.
+<END>
+
+#WRITE(PTR, $0000103C)
+Kurisu, completely settled into the lab, starts talking with a sour look on her face and an iced coffee in her hand.
+<END>
+
+#WRITE(PTR, $0000104C)
+【倫太郎】
+How so?
+<END>
+
+#WRITE(PTR, $0000105C)
+I was on @channel, gathering information on the IBN 5100, but I let go of the mouse.
+<END>
+
+#WRITE(PTR, $0000106C)
+I couldn't find the IBN 5100. I went to Yanabayashi Shrine this morning, but contrary to my expectations, the retro PC wasn't there.
+<END>
+
+#WRITE(PTR, $0000107C)
+The thing that Suzuha had promised she would entrust to us.
+<END>
+
+#WRITE(PTR, $0000108C)
+Her present from 1975.
+<END>
+
+#WRITE(PTR, $0000109C)
+Without it, we can't hack into SERN's database, meaning we can't achieve Divergence over 1%.
+<END>
+
+#WRITE(PTR, $000010B6)
+【紅莉栖】
+You're starting to treat Mayuri like a princess.
+<END>
+
+#WRITE(PTR, $000010C6)
+【紅莉栖】
+Today you went to the station to greet her, you poison tasted her lunch, and you even walked here hand in hand.
+<END>
+
+#WRITE(PTR, $0000110E)
+【まゆり】
+You know, Okarin loves Mayushii, doesn't he? Ehhehe-
+<END>
+
+#WRITE(PTR, $0000111E)
+So she talked....
+<END>
+
+#WRITE(PTR, $0000112E)
+Mayuri said so carefree, stuffing her cheeks with takoyaki.
+<END>
+
+#WRITE(PTR, $0000113E)
+I'm pretty sure she's not smiling happily because of my love, but because of the takoyaki's deliciousness. Anyway, she's talking like it doesn't involve her.
+<END>
+
+#WRITE(PTR, $0000114E)
+I mean, don't tell Kurisu...
+<END>
+
+#WRITE(PTR, $00001168)
+【紅莉栖】
+So, honestly, what is it?
+<END>
+
+#WRITE(PTR, $00001178)
+【倫太郎】
+What's what?
+<END>
+
+#WRITE(PTR, $00001188)
+【紅莉栖】
+I've been wondering. Are you two going out?
+<END>
+
+#WRITE(PTR, $00001198)
+【倫太郎】
+Does it look like it?
+<END>
+
+#WRITE(PTR, $000011B2)
+【紅莉栖】
+Eh, uh, that's, umm...
+<END>
+
+#WRITE(PTR, $000011C2)
+Just what sort of delusion did this girl have?
+<END>
+
+#WRITE(PTR, $000011D2)
+【まゆり】
+You know, Okarin and Mayushii have been friends since we were little-♪
+<END>
+
+#WRITE(PTR, $000011EC)
+【まゆり】
+Uu ou, Mwawoohii's weeally hwawy nawo.
+<END>
+
+#WRITE(PTR, $000011FC)
+【倫太郎】
+Don't talk while eating. It's improper.
+<END>
+
+#WRITE(PTR, $00001210)
+【紅莉栖】
+「じゃあ、付き合ってないんだ？　
+<END2>
+
+#WRITE(PTR, $0000122A)
+ま、まあ、誰も岡部みたいな変人と付き合おうとは思わないし、当然よね」
+<END>
+
+#WRITE(PTR, $0000123E)
+【倫太郎】
+Pff, Christina. I'm disappointed in you!
+<END>
+
+#WRITE(PTR, $00001258)
+【紅莉栖】
+Haah? What's that all of a sudden?
+<END>
+
+#WRITE(PTR, $00001268)
+【倫太郎】
+I noticed. I have noticed. Your true nature.
+<END>
+
+#WRITE(PTR, $00001278)
+【倫太郎】
+You're nothing but a mainstream woman who really gets into love talks...!
+<END>
+
+#WRITE(PTR, $00001288)
+【倫太郎】
+You're at the age where you like love talks and reading love stories, aren't you!? Absurd! Neither I, Hououin Kyouma, nor our lab, wish for someone whose head is filled with such a flower garden!
+<END>
+
+#WRITE(PTR, $00001298)
+It feels nostalgic, but strange for me to be spewing such pretentious hipster bullshit after so long.
+<END>
+
+#WRITE(PTR, $000012A8)
+It feels a little awkward to say lines like these.
+<END>
+
+#WRITE(PTR, $000012B8)
+Guh, can I no longer return to those pure days...?
+<END>
+
+#WRITE(PTR, $000012D2)
+【紅莉栖】
+Just what are you trying to say, you pretentious, (self-proclaimed) mad scientist?
+<END>
+
+#WRITE(PTR, $000012E2)
+It's been so long since I've had a useless conversation with Kurisu like this.
+<END>
+
+#WRITE(PTR, $000012F2)
+I suddenly feel lonely.
+<END>
+
+#WRITE(PTR, $00001302)
+When I was driven into a corner, unable to save Mayuri, I sought help from this genius girl.
+<END>
+
+#WRITE(PTR, $00001312)
+And then she encouraged me, supported me, all the while using a sever manner of speech.
+<END>
+
+#WRITE(PTR, $00001322)
+That fact completely disappeared the same way Suzuha's memories did.
+<END>
+
+#WRITE(PTR, $00001332)
+──Thank you for encouraging me back then.
+<END>
+
+#WRITE(PTR, $00001342)
+I express secret gratitude in my heart.
+<END>
+
+#WRITE(PTR, $000014D4)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000014E4)
+I finish typing on the X68000's keyboard and sigh.
+<END>
+
+#WRITE(PTR, $000014F4)
+I stare at the Divergence Meter placed on the side shelf.
+<END>
+
+#WRITE(PTR, $00001540)
+Its number: 0.409431%.
+<END>
+
+#WRITE(PTR, $00001550)
+What that meant.
+<END>
+
+#WRITE(PTR, $00001650)
+【鈴羽】
+The world's structure is like a 'twisted thread'.
+<END>
+
+#WRITE(PTR, $00001660)
+【鈴羽】
+Many possible world lines are in superposition, branching out infinitely.
+<END>
+
+#WRITE(PTR, $000016CC)
+【鈴羽】
+When the meter surpasses 1%, you will have reached the β World Line.
+<END>
+
+#WRITE(PTR, $00001738)
+【鈴羽】
+Outside the range of Attractor Field α-- If you reach the β World Line... the converging 'result' will also change.
+<END>
+
+#WRITE(PTR, $000017A4)
+【鈴羽】
+That's right. As long as you break through 1%... you can save Shiina Mayuri.
+<END>
+
+#WRITE(PTR, $000017FE)
+Then, conversely──
+<END>
+
+#WRITE(PTR, $0000180E)
+Since I haven't broken 1%, does that mean Mayuri isn't saved?
+<END>
+
+#WRITE(PTR, $0000181E)
+Is the world converging to the same "result"-- that is, Mayuri's death?
+<END>
+
+#WRITE(PTR, $0000182E)
+That can't be.
+<END>
+
+#WRITE(PTR, $0000183E)
+That shouldn't be.
+<END>
+
+#WRITE(PTR, $0000184E)
+I mean, nothing happened yesterday.
+<END>
+
+#WRITE(PTR, $0000185E)
+Mayuri's alive, here, safe and sound.
+<END>
+
+#WRITE(PTR, $0000186E)
+So nothing will happen. Nothing should happen.
+<END>
+
+#WRITE(PTR, $0000187E)
+I believed that, but the dark doubt deep within my heart is slowly swelling today.
+<END>
+
+#WRITE(PTR, $0000188E)
+My brain can't seem to think about anything else now.
+<END>
+
+#WRITE(PTR, $0000189E)
+No matter how much I stare at it, the meter's number won't move a smidgen.
+<END>
+
+#WRITE(PTR, $000018AE)
+So far, the only times Reading Steiner has activated are the times we sent past-changing D-mails.
+<END>
+
+#WRITE(PTR, $0000194E)
+What is it like... in the case of time leaping?
+<END>
+
+#WRITE(PTR, $0000195E)
+The vertigo I feel when I time leap might be an adverse effect of my "Reading Steiner" ability.
+<END>
+
+#WRITE(PTR, $0000196E)
+Or possibly, it might be caused by my nerves pulsating when my brain is forced to remember future memories.
+<END>
+
+#WRITE(PTR, $0000197E)
+I can't explain everything.
+<END>
+
+#WRITE(PTR, $0000198E)
+In any case, I'm perfectly prepared for the worst case scenario.
+<END>
+
+#WRITE(PTR, $0000199E)
+I've already set the Time Leap machine's timer to send my memories to my phone three hours into the past.
+<END>
+
+#WRITE(PTR, $000019AE)
+And with Daru's help, I bought a remote for the 42in Braun tube TV downstairs from a junk shop.
+<END>
+
+#WRITE(PTR, $000019BE)
+When we were experimenting with the Microwave Ophone earlier, it made a hole in the floor, but that's actually useful. Instead of filling the hole, I made it bigger.
+<END>
+
+#WRITE(PTR, $000019CE)
+The 42in Braun tube TV was right underneath the hole.
+<END>
+
+#WRITE(PTR, $000019DE)
+So if I point the remote to the hole and press the power button, it turns on.
+<END>
+
+#WRITE(PTR, $00001A7E)
+So if things suddenly go bad, I can time leap immediately.
+<END>
+
+#WRITE(PTR, $00001A8E)
+And I also have Future Gadget No.4: Monad Snake on hand.
+<END>
+
+#WRITE(PTR, $00001AD6)
+【紅莉栖】
+Okabe.
+<END>
+
+#WRITE(PTR, $00001AE6)
+Kurisu enters the development room.
+<END>
+
+#WRITE(PTR, $00001AF6)
+【紅莉栖】
+Didn't you say we weren't going to do Time Leap Machine experiments?
+<END>
+
+#WRITE(PTR, $00001B06)
+【倫太郎】
+This is just in case.
+<END>
+
+#WRITE(PTR, $00001B20)
+【紅莉栖】
+In case what?
+<END>
+
+#WRITE(PTR, $00001B30)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00001B40)
+I don't want to answer that.
+<END>
+
+#WRITE(PTR, $00001B50)
+I keep praying that my fears will end unfounded.
+<END>
+
+#WRITE(PTR, $00001B60)
+──It's okay. Everything should be okay.
+<END>
+
+#WRITE(PTR, $00001B70)
+They didn't attack yesterday, so nothing should happen today.
+<END>
+
+#WRITE(PTR, $00001B80)
+At the very least, we're past the crisis of Mayuri's life.
+<END>
+
+#WRITE(PTR, $00001B90)
+But I still can't help but pray.
+<END>
+
+#WRITE(PTR, $00001BA0)
+Please let everything be safe. Please don't let anything happen.
+<END>
+
+#WRITE(PTR, $00001CBC)
+My prayers were──
+<END>
+
+#WRITE(PTR, $00001CCC)
+Unanswered.
+<FILEEND7E>
+

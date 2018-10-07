@@ -1,0 +1,886 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002632)
+
+#WRITE(PTR, $000001FC)
+萌郁は３０分近く経っても、撮影を続けていた。
+<END>
+
+#WRITE(PTR, $0000020C)
+だんだん、シャッター音の間隔は長くなりつつあるが、真剣な表情でアングルを微調整して渾身の一枚を模索している感じだ。
+<END>
+
+#WRITE(PTR, $0000021C)
+├┤モデル撮影じゃあるまいし。
+<END>
+
+#WRITE(PTR, $0000022C)
+俺は半ば呆れつつ、談話室からその様子を眺めていた。
+<END>
+
+#WRITE(PTR, $0000023C)
+朝食代わりのバナナを頬張る。
+<END>
+
+#WRITE(PTR, $0000024C)
+萌郁がいるせいでコンビニまで行きたくても行けないのだ。
+<END>
+
+#WRITE(PTR, $0000025C)
+１人で持ち運ぶのは無理だと分かってはいても、今の萌郁から目を離したらＩＢＮ５１００を持って行かれてしまう危険がある。
+<END>
+
+#WRITE(PTR, $000002FE)
+と、メールを受信した。
+<END>
+
+#WRITE(PTR, $0000031C)
+おのれ、今度はいったいなんだ？
+<END>
+
+#WRITE(PTR, $0000033A)
+いちいちこの“メールによる対話”に付き合うのもバカらしくなってくる。
+<END>
+
+#WRITE(PTR, $0000046A)
+【倫太郎】
+Didn't I tell you you can't?
+<END>
+
+#WRITE(PTR, $0000047A)
+I direct my answer towards the development room.
+<END>
+
+#WRITE(PTR, $0000048A)
+【倫太郎】
+Besides, that thing weighs a ton. You can't carry it by yourself.
+<END>
+
+#WRITE(PTR, $00000594)
+【倫太郎】
+No, no. Wait.
+<END>
+
+#WRITE(PTR, $00000668)
+【倫太郎】
+Why are you assuming I'll lend it to you!? I thought I said I wouldn't!
+<END>
+
+#WRITE(PTR, $00000682)
+【萌郁】
+...Really?
+<END>
+
+#WRITE(PTR, $00000692)
+【倫太郎】
+Really.
+<END>
+
+#WRITE(PTR, $000006AC)
+【萌郁】
+...No matter what?
+<END>
+
+#WRITE(PTR, $000006BC)
+【倫太郎】
+No matter what.
+<END>
+
+#WRITE(PTR, $000006D6)
+Once again, Masseuse does her thing, typing on her phone at high speed.
+<END>
+
+#WRITE(PTR, $00000778)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $000008D0)
+Why is she going out of her way to send me a one word mail?
+<END>
+
+#WRITE(PTR, $000008E0)
+Troublesome woman.
+<END>
+
+#WRITE(PTR, $000008FA)
+It's probably just another worthless mail from Masseuse.
+<END>
+
+#WRITE(PTR, $0000090A)
+If she wants to assert herself, then she should speak up.
+<END>
+
+#WRITE(PTR, $00000952)
+She silently glances at me more, and for some reason, begins to lift the cardboard box.
+<END>
+
+#WRITE(PTR, $00000962)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00000972)
+【倫太郎】
+Wh-, hey, hey, hold it right there!
+<END>
+
+#WRITE(PTR, $00000A46)
+【倫太郎】
+What are you doing!?
+<END>
+
+#WRITE(PTR, $00000A60)
+【萌郁】
+...Bringing it home.
+<END>
+
+#WRITE(PTR, $00000A70)
+【倫太郎】
+Don't screw with me! Who said you could!?
+<END>
+
+#WRITE(PTR, $00000A80)
+Well, it's not like she can lift this ridiculously heavy behemoth with those slender arms of hers.
+<END>
+
+#WRITE(PTR, $00000A90)
+【萌郁】
+You didn't, reply, to my mail.
+<END>
+
+#WRITE(PTR, $00000AA0)
+【倫太郎】
+What...?
+<END>
+
+#WRITE(PTR, $00000AD2)
+I hurry up and check the mail that just came.
+<END>
+
+#WRITE(PTR, $00000D5A)
+Hoh, if I don't reply that means it's okay to bring it home, I see the logic behind--
+<END>
+
+#WRITE(PTR, $00000D70)
+【倫太郎】
+Er, that argument's irrational!
+<END>
+
+#WRITE(PTR, $00000D80)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00000D90)
+【倫太郎】
+Anyway, leave.
+<END>
+
+#WRITE(PTR, $00000DA0)
+Moeka keeps clinging to the cardboard box.
+<END>
+
+#WRITE(PTR, $00000DF0)
+She takes my words and reluctantly stands up.
+<END>
+
+#WRITE(PTR, $00000E04)
+【倫太郎】
+Okay? Just listen.
+<END>
+
+#WRITE(PTR, $00000E1E)
+【倫太郎】
+The phantom retro PC, the IBN 5100, has chosen me, Hououin Kyouma, to be its contractual master.
+<END>
+
+#WRITE(PTR, $00000E2E)
+【倫太郎】
+That's the undeniable truth. Not even God can change this decision. It is Steins;Gate's choice!
+<END>
+
+#WRITE(PTR, $00000E3E)
+【倫太郎】
+In the first place, I'm only borrowing this thing the IBN 5100's power temporarily. When I'm done with it, I'm returning it to its original owner.
+<END>
+
+#WRITE(PTR, $00000E58)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00000EDA)
+Like I said, stop with the mails!
+<END>
+
+#WRITE(PTR, $00000EF0)
+【倫太郎】
+I can't tell you that. I'm sworn to confidentiality through the contract, and I must protect the original owner from those who desire the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000F0A)
+Actually, maybe. Maybe.
+<END>
+
+#WRITE(PTR, $00000F1A)
+Maybe if Moeka seduced Luka's dad and asked to borrow the IBN 5100, he might just lend it to her.
+<END>
+
+#WRITE(PTR, $00000F2A)
+And then I couldn't complain when Moeka takes away the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000F3A)
+I must avoid that situation at all costs.
+<END>
+
+#WRITE(PTR, $00000F54)
+Well, I don't think Moeka can seduce anyone with the way her character is. And since Luka's dad has a wife and kids, I don't think he'd fall easily either.
+<END>
+
+#WRITE(PTR, $0000104E)
+I'm probably just thinking to much.
+<END>
+
+#WRITE(PTR, $0000105E)
+Moeka hangs her head without saying a single complaint.
+<END>
+
+#WRITE(PTR, $0000106E)
+【倫太郎】
+...I'm not that evil.
+<END>
+
+#WRITE(PTR, $00001088)
+【倫太郎】
+I formed a contract with the IBN 5100this thing for my own goals. After I achieve those goals, you can negotiate with the original owner to form a contract.
+<END>
+
+#WRITE(PTR, $00001098)
+When I return the IBN 5100 to Yanagigayashi Shrine--
+<END>
+
+#WRITE(PTR, $000010A8)
+The Final CrusadeRagnarok with SERN will be complete, and the fate of the world will have already been decided.
+<END>
+
+#WRITE(PTR, $000010B8)
+【倫太郎】
+And then, when the Final CrusadeRagnarok completes, be it in victory, or be it in defeat, my life as Hououin Kyouma will already be--
+<END>
+
+#WRITE(PTR, $000010C8)
+【倫太郎】
+Wait, please forget what I just said. This isn't the time to be thinking that far into the future. That's right, the future...
+<END>
+
+#WRITE(PTR, $000010E2)
+【萌郁】
+...? More importantly, where
+<END>
+
+#WRITE(PTR, $000010F2)
+Geez.... I even said it with conviction. She just can't read the atmosphere.
+<END>
+
+#WRITE(PTR, $00001102)
+【倫太郎】
+The IBN 5100 was at Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00001278)
+With perfect timing, I hear the sound of the door opening from the lounge. Moeka twitches.
+<END>
+
+#WRITE(PTR, $0000129A)
+I take a look and see Daru, wiping the sweat off his brow with a towel as he comes in.
+<END>
+
+#WRITE(PTR, $0000137A)
+【至】
+...Guten Morgen.
+<END>
+
+#WRITE(PTR, $0000138A)
+【倫太郎】
+You sure are early.
+<END>
+
+#WRITE(PTR, $0000139A)
+Ever since university entered summer break, Daru has been coming to the lab in the morning less and less.
+<END>
+
+#WRITE(PTR, $000013AA)
+But then again, he's also been staying up all night more and more.
+<END>
+
+#WRITE(PTR, $000013BA)
+【至】
+Because yesterday, I went to bed at dusk. I woke up at five this morning.
+<END>
+
+#WRITE(PTR, $000013D4)
+【至】
+Hah-, it's hot-. It's just too unbelievable for it to be this hot in the morning, durr.
+<END>
+
+#WRITE(PTR, $000013EE)
+【至】
+Oh? Ohh? Okarin, that erot... sexy 3D woman over there, who might she be?
+<END>
+
+#WRITE(PTR, $00001436)
+【倫太郎】
+Ah, let me introduce you. She's Shining Finger Kiryuu Moeka.
+<END>
+
+#WRITE(PTR, $00001446)
+【至】
+Shining... Finger... you say? Does she yell 'This hand of mine glows'?
+<END>
+
+#WRITE(PTR, $00001456)
+【倫太郎】
+She doesn't. But she has an ability.
+<END>
+
+#WRITE(PTR, $00001470)
+【至】
+Wha, ability... no way.
+<END>
+
+#WRITE(PTR, $00001480)
+【倫太郎】
+You'll get it when you see it. She unmistakeably has an ability.
+<END>
+
+#WRITE(PTR, $0000149A)
+【至】
+Well, whatever. Welcome, Kiryuu-shi.
+<END>
+
+#WRITE(PTR, $000014AA)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $000014BA)
+Even though Daru bowed his head, Moeka doesn't so much as look at him.
+<END>
+
+#WRITE(PTR, $000014CA)
+She's now-- or rather, always-- looking down on at her phone.
+<END>
+
+#WRITE(PTR, $000014DA)
+That behavior causes Daru to blush.
+<END>
+
+#WRITE(PTR, $000014F8)
+【至】
+「……な、なんという華麗なスルー。デブオタだからって見下してやがりますか？　
+<END2>
+
+#WRITE(PTR, $0000151A)
+くっそー、さてはおぬし、<DICT>スイーツ（笑）</DICT>だな！？」
+<END>
+
+#WRITE(PTR, $0000152E)
+【倫太郎】
+Umm, Moeka, this man is my dependable right armMy Favorite Right Arm, Supah Hakah Daru--
+<END>
+
+#WRITE(PTR, $0000153E)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $0000154E)
+Moeka pulls her chin back so slightly I can't tell if she bowed her head or not.
+<END>
+
+#WRITE(PTR, $0000155E)
+Her expression didn't change at all. Everything about Daru flows cleanly through one ear and out the other.
+<END>
+
+#WRITE(PTR, $0000156E)
+Even though she was so eager to meet the supah hakah.
+<END>
+
+#WRITE(PTR, $00001588)
+【至】
+Okarin, don't tell she's done something dangerous?
+<END>
+
+#WRITE(PTR, $00001598)
+【倫太郎】
+Dangerous as in what? She just photographed us.
+<END>
+
+#WRITE(PTR, $000015B2)
+【至】
+Photograph... you say...? She's going to blackmail us and then finally turn us into sex toys...
+<END>
+
+#WRITE(PTR, $000015C2)
+【倫太郎】
+Stop applying your eroge brain to reality.
+<END>
+
+#WRITE(PTR, $000015DC)
+【至】
+My bad.
+<END>
+
+#WRITE(PTR, $000015EC)
+Daru just adds to the trouble, saying that sort of drivel in front of the person in question.
+<END>
+
+#WRITE(PTR, $00001612)
+【至】
+Ah, yeah. I thought up some improvements to the Microwave Ophone.
+<END>
+
+#WRITE(PTR, $00001622)
+【倫太郎】
+Improvements? Where?
+<END>
+
+#WRITE(PTR, $00001632)
+【至】
+Look, now we need to do an annoying procedure. Just to send D-mails into the past.
+<END>
+
+#WRITE(PTR, $00001642)
+【倫太郎】
+Yeah.
+<END>
+
+#WRITE(PTR, $0000165C)
+【至】
+I want to make it simpler. Ah, and also make it possible to forward from the Microwave Ophone's dedicated phone.
+<END>
+
+#WRITE(PTR, $0000166C)
+【倫太郎】
+Forward? What exactly do you mean?
+<END>
+
+#WRITE(PTR, $0000167C)
+【至】
+Right now, you can only send a D-mail to the phone attached to the Microwave Ophone, right?
+<END>
+
+#WRITE(PTR, $0000168C)
+That's right. In yesterday's experiments, my phone was attached to the Microwave Ophone (Temp)'s socket, so my inbox got flooded with D-mails.
+<END>
+
+#WRITE(PTR, $000016A6)
+【至】
+That's pretty inconvenient. If we give the Microwave Ophone's dedicated phone a forwarding function, then we can send D-mails to any number by means of that phone.
+<END>
+
+#WRITE(PTR, $000016B6)
+【倫太郎】
+How long will improvement take?
+<END>
+
+#WRITE(PTR, $000016D0)
+【至】
+Two or three hours, I guess? That's if you help me, though.
+<END>
+
+#WRITE(PTR, $000016E0)
+【倫太郎】
+Understood. I'll help.
+<END>
+
+#WRITE(PTR, $000016F0)
+【至】
+OK.
+<END>
+
+#WRITE(PTR, $00001700)
+Daru really is reliable.
+<END>
+
+#WRITE(PTR, $00001718)
+I walk near Daru, ceremoniously raising my hand for a high five.
+<END>
+
+#WRITE(PTR, $00001734)
+But he completely ignores it, sits on the sofa, and begins eating.
+<END>
+
+#WRITE(PTR, $00001744)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $0000175C)
+Dammit! Pay attention, Daru!
+<END>
+
+#WRITE(PTR, $0000176C)
+I slowly lower my hand.
+<END>
+
+#WRITE(PTR, $0000177C)
+W-whatever.
+<END>
+
+#WRITE(PTR, $0000178C)
+Once the improvements are complete, we'll gather the lab mems and begin discussing serious D-mail use.
+<END>
+
+#WRITE(PTR, $0000179C)
+We did nothing but experiments yesterday, but it's time to think more about what we can do by sending mail into the past.
+<END>
+
+#WRITE(PTR, $0000183E)
+...Another mail?
+<END>
+
+#WRITE(PTR, $0000185C)
+I have the choice to look or to not look, but the ringtone pressures me to look. It's far more irritating than normal conversation.
+<END>
+
+#WRITE(PTR, $0000187A)
+Moeka's reticent and inconspicuous existence could, in some sense, be due to her acquired worldly wisdom, though.
+<END>
+
+#WRITE(PTR, $000019A4)
+How careless...!
+<END>
+
+#WRITE(PTR, $000019B4)
+Daru, you idiot, you made such a basic mistake!
+<END>
+
+#WRITE(PTR, $00001A9C)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00001AAC)
+Moeka makes eye contact with me.
+<END>
+
+#WRITE(PTR, $00001ABC)
+With her eyes that always looked at nothing but her phone.
+<END>
+
+#WRITE(PTR, $00001ACC)
+She's staring straight at me now.
+<END>
+
+#WRITE(PTR, $00001B4C)
+I ignore her and go back to the development room.
+<END>
+
+#WRITE(PTR, $00001B5C)
+【倫太郎】
+If you want to say something, then say it verba--
+<END>
+
+#WRITE(PTR, $00001B6C)
+My lose my breath mid-sentence.
+<END>
+
+#WRITE(PTR, $00001BC0)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00001BD0)
+Unusual for her, Moeka turns her eyes towards me.
+<END>
+
+#WRITE(PTR, $00001BE0)
+Usually, she'd only look at her phone display.
+<END>
+
+#WRITE(PTR, $00001BF0)
+【萌郁】
+...Look at the mail.
+<END>
+
+#WRITE(PTR, $00001C00)
+I didn't expect her to be so serious.
+<END>
+
+#WRITE(PTR, $00001C10)
+【倫太郎】
+Verbally--
+<END>
+
+#WRITE(PTR, $00001C2A)
+【萌郁】
+Sending mail to the past.'
+<END>
+
+#WRITE(PTR, $00001C3A)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $00001C4A)
+【萌郁】
+You guys said that just now.
+<END>
+
+#WRITE(PTR, $00001C5A)
+【萌郁】
+...tell me.
+<END>
+
+#WRITE(PTR, $00001C6A)
+How careless...!
+<END>
+
+#WRITE(PTR, $00001C7A)
+Daru, you idiot, you made such a basic mistake!
+<END>
+
+#WRITE(PTR, $00001C8E)
+I need to talk my way out of this somehow...!
+<END>
+
+#WRITE(PTR, $00001D2C)
+It's just part-time, but she works for the mass media.
+<END>
+
+#WRITE(PTR, $00001D3C)
+If she finds out that the first time machine in human history is here, it'll spread to the entire world.
+<END>
+
+#WRITE(PTR, $00001D4C)
+And then the Organization would know.
+<END>
+
+#WRITE(PTR, $00001D5C)
+That alone must be stopped.
+<END>
+
+#WRITE(PTR, $00001DC0)
+【倫太郎】
+You misheard us.
+<END>
+
+#WRITE(PTR, $00001DD0)
+【萌郁】
+No.
+<END>
+
+#WRITE(PTR, $00001DE0)
+Moeka shakes her head side to side.
+<END>
+
+#WRITE(PTR, $00001DF0)
+【萌郁】
+I heard it clearly.
+<END>
+
+#WRITE(PTR, $00001E00)
+Moeka's pretty persistent.
+<END>
+
+#WRITE(PTR, $00001E10)
+I know that because of all her mail attacks.
+<END>
+
+#WRITE(PTR, $00001E20)
+She won't let me escape so easily.
+<END>
+
+#WRITE(PTR, $00001E30)
+Just what should I do...!
+<END>
+
+#WRITE(PTR, $00001E6E)
+I grind my teeth and put my phone to my right ear.
+<END>
+
+#WRITE(PTR, $00001E7E)
+【倫太郎】
+It's me. Things have gone bad. ...No, not that. Information on the 8th machine got leaked to a third party. ...Yeah, I know. I need to do something.
+<END>
+
+#WRITE(PTR, $00001E8E)
+【倫太郎】
+...Depending on the situation, I may need to silence her. ...Yeah, I know, we can't let the 'Organization' know about this.
+<END>
+
+#WRITE(PTR, $00001E9E)
+【倫太郎】
+If this is Steins;Gate's choice, then it's too much, isn't it? ...Hmph, don't worry. I'll have plenty of time to go to hell after the crusade.
+<END>
+
+#WRITE(PTR, $00001EAE)
+【倫太郎】
+El Psy Congroo.
+<END>
+
+#WRITE(PTR, $00001EFC)
+I put my phone in my pocket, and turn back to Moeka.
+<END>
+
+#WRITE(PTR, $00001F0C)
+【萌郁】
+...Who was on the phone?
+<END>
+
+#WRITE(PTR, $00001F1C)
+【倫太郎】
+Doesn't concern you.
+<END>
+
+#WRITE(PTR, $00001F36)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00001F46)
+Moeka hangs her head. She starts another mail.
+<END>
+
+#WRITE(PTR, $00001FC8)
+What's with this code?
+<END>
+
+#WRITE(PTR, $00001FD8)
+Since she didn't include her usual signature, does that mean she was in a hurry? Her expression didn't change at all, though.
+<END>
+
+#WRITE(PTR, $00001FEE)
+Anyway, I disregard the mail's contents.
+<END>
+
+#WRITE(PTR, $000020CC)
+I take one step towards Moeka.
+<END>
+
+#WRITE(PTR, $000020DC)
+Moeka makes no attempt to escape.
+<END>
+
+#WRITE(PTR, $000020EC)
+She has no path of retreat.
+<END>
+
+#WRITE(PTR, $000020FC)
+【倫太郎】
+Choose. Swear to protect our secret... or death.
+<END>
+
+#WRITE(PTR, $0000210C)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $0000211C)
+【倫太郎】
+Right now. No grace period. No alternatives either.
+<END>
+
+#WRITE(PTR, $0000212C)
+【倫太郎】
+You know our lab's secret, so prepare yourself for the worst, Kiryuu Moeka.
+<END>
+
+#WRITE(PTR, $00002146)
+【萌郁】
+...You'll kill me?
+<END>
+
+#WRITE(PTR, $00002156)
+【倫太郎】
+Only if you try to publish the truth.... Underestimating me, the insane mad scientist, Hououin Kyouma, is not--
+<END>
+
+#WRITE(PTR, $00002166)
+【至】
+What? Okarin, are you at it again?
+<END>
+
+#WRITE(PTR, $00002176)
+Before I realized it, Daru was standing behind me.
+<END>
+
+#WRITE(PTR, $00002186)
+I turn around in surprise.
+<END>
+
+#WRITE(PTR, $000022AA)
+【至】
+Umm, Kiryuu-shi, was it? Okarin's got that sort of illness, so it's OK to just ignore him.
+<END>
+
+#WRITE(PTR, $000022C4)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $000022D4)
+Can't you read the atmosphere, Supah Hakah-!?
+<END>
+
+#WRITE(PTR, $000022E4)
+【倫太郎】
+Imbecile! Because of your careless words, she found out that the Microwave Ophone (Temp) can function as a time machine!
+<END>
+
+#WRITE(PTR, $000022FE)
+【萌郁】
+...! Time machine...
+<END>
+
+#WRITE(PTR, $00002318)
+【至】
+Just now, Okarin, you said some careless words too.
+<END>
+
+#WRITE(PTR, $00002328)
+【倫太郎】
+Ugh...
+<END>
+
+#WRITE(PTR, $00002338)
+No good, everything that could go wrong, has.
+<END>
+
+#WRITE(PTR, $00002348)
+How can I recover from this situation!?
+<END>
+
+#WRITE(PTR, $00002358)
+To silence Moeka about this secret--
+<END>
+
+#WRITE(PTR, $000023CE)
+【まゆり】
+Tutturu-♪ Good morning-
+<END>
+
+#WRITE(PTR, $000023DE)
+【まゆり】
+Ah, Okarin, before the time machine experiments, Mayushii wants to warm up some karaage-
+<END>
+
+#WRITE(PTR, $00002454)
+Heartbroken, I genuflect.
+<END>
+
+#WRITE(PTR, $00002464)
+This is no good. It's impossible to talk my way out of this one.
+<END>
+
+#WRITE(PTR, $00002474)
+【倫太郎】
+Kiryuu Moeka. I'll tell you everything.... And I have a favor to ask.
+<FILEEND19>
+

@@ -1,0 +1,341 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00000BFE)
+
+#WRITE(PTR, $000001E8)
+I sit on the bench in front of the Braun Tube Workshop, spacing out as I stare at the night sky.
+<END>
+
+#WRITE(PTR, $000001F8)
+I try sorting out what happened this afternoon.
+<END>
+
+#WRITE(PTR, $00000208)
+But it's impossible.
+<END>
+
+#WRITE(PTR, $00000218)
+The more I think about it, the more complicated it gets.
+<END>
+
+#WRITE(PTR, $00000290)
+And so I hear footsteps coming down from the second floor.
+<END>
+
+#WRITE(PTR, $00000332)
+When I try peeking, I see Mayuri and Kurisu.
+<END>
+
+#WRITE(PTR, $000003A8)
+【倫太郎】
+Going home?
+<END>
+
+#WRITE(PTR, $000003B8)
+【まゆり】
+Yup.
+<END>
+
+#WRITE(PTR, $000003C8)
+【紅莉栖】
+Okabe, do you always stay here overnight?
+<END>
+
+#WRITE(PTR, $000003D8)
+【倫太郎】
+I guess. Since I'm a mad scientist, I must be able to stay overnight at a research institution, immersed in research, or I'm unqualified.
+<END>
+
+#WRITE(PTR, $000003F2)
+【紅莉栖】
+I think you're putting too much emphasis on appearance, though.
+<END>
+
+#WRITE(PTR, $00000402)
+【まゆり】
+But you know, this place is really convenient, right-. Mayushii wants to stay over here if mom and dad will let her-
+<END>
+
+#WRITE(PTR, $0000041C)
+【紅莉栖】
+Eh, really...?
+<END>
+
+#WRITE(PTR, $00000436)
+【まゆり】
+And then I can get to work quickly♪ Hey, hey, Chris-chan, next time, why don't we all stay over?
+<END>
+
+#WRITE(PTR, $00000450)
+【紅莉栖】
+If the male forces aren't around, then OK.
+<END>
+
+#WRITE(PTR, $00000460)
+【倫太郎】
+That's impossible.
+<END>
+
+#WRITE(PTR, $0000047A)
+【紅莉栖】
+Then, Mayuri-san, how about you come to my hotel?
+<END>
+
+#WRITE(PTR, $00000494)
+【まゆり】
+Ah, that reminds me, we did make that promise, huh-. Ehhehe-, then allow me to intrude next time, okay♪
+<END>
+
+#WRITE(PTR, $000004AE)
+【紅莉栖】
+You can come whenever you like. Well then...
+<END>
+
+#WRITE(PTR, $000004CA)
+Kurisu waves her hand, walking in the opposite direction from Akihabara Station.
+<END>
+
+#WRITE(PTR, $000005A0)
+Mayuri doesn't move from that spot.
+<END>
+
+#WRITE(PTR, $000005B0)
+Instead, she does her usual habit-- Stardust Shakehand.
+<END>
+
+#WRITE(PTR, $000005C0)
+Looking up to the night sky, she raises her hand as if to grasp the stars.
+<END>
+
+#WRITE(PTR, $000005D0)
+And with good timing, a shooting star crosses through the night sky.
+<END>
+
+#WRITE(PTR, $000005E0)
+【まゆり】
+...Hey, Okarin.
+<END>
+
+#WRITE(PTR, $000005F0)
+【倫太郎】
+Yeah. A shooting star. Made your wish?
+<END>
+
+#WRITE(PTR, $00000600)
+Mayuri doesn't answer.
+<END>
+
+#WRITE(PTR, $00000610)
+She keeps looking up to the sky--
+<END>
+
+#WRITE(PTR, $00000620)
+【まゆり】
+Okarin, back in elementary school, you got a terrible fever and stayed in bed for a month, right-?
+<END>
+
+#WRITE(PTR, $00000630)
+【倫太郎】
+Why bring this up so suddenly?
+<END>
+
+#WRITE(PTR, $000006CE)
+I certainly did have that experience.
+<END>
+
+#WRITE(PTR, $000006DE)
+That was about 10 years ago. At the turn of the century, when the world was in an uproar about the year 2000 problem.
+<END>
+
+#WRITE(PTR, $000006EE)
+Near the end of 1999 until New Years Day 2000, I had a nearly 40 degree fever for about a month.
+<END>
+
+#WRITE(PTR, $000006FE)
+Or so it seems. I don't have memories of it myself. According to my parents, I was unconscious the whole time, having nightmares. The doctors said it was a miracle I didn't die.
+<END>
+
+#WRITE(PTR, $0000070E)
+Because of that fever, I didn't get to experience the once in a thousand year millennium countdown event.
+<END>
+
+#WRITE(PTR, $0000071E)
+By the way, the cause of that fever was unknown.
+<END>
+
+#WRITE(PTR, $00000782)
+【まゆり】
+Back then, Mayushii was so afraid that Okarin might've died-
+<END>
+
+#WRITE(PTR, $00000792)
+【まゆり】
+So Granny and I wished to the sky together. 'Okarin, don't die'
+<END>
+
+#WRITE(PTR, $000007A2)
+【倫太郎】
+Hehehe, it's impossible for me to die! After all, ten years ago, I was a mad scientist with an IQ of 170, equaling that of Thomas Edison!
+<END>
+
+#WRITE(PTR, $000007B2)
+I'm not sure if Edison had an IQ of 170, though.
+<END>
+
+#WRITE(PTR, $000007CC)
+【まゆり】
+Heeh, is that so-. Okarin's amazing, huh-
+<END>
+
+#WRITE(PTR, $000007E6)
+【まゆり】
+But you know, Mayushii was still itty bitty, so she didn't know, and wished to the sky--
+<END>
+
+#WRITE(PTR, $000007F6)
+【まゆり】
+But on New Year's eve, right before the calendar change, a shooting star went pewww across the sky. Just like now.
+<END>
+
+#WRITE(PTR, $00000810)
+【まゆり】
+You know, if you repeat your wish three times before the shooting star disappears, your wish will come true, right-? Did you know?
+<END>
+
+#WRITE(PTR, $00000820)
+Of course. That's not even trivia, but the most common of common knowledge.
+<END>
+
+#WRITE(PTR, $0000083A)
+【まゆり】
+of course, Mayushii repeated her wish three times for dear life.
+<END>
+
+#WRITE(PTR, $00000854)
+Then Mayuri finally lowers her hand and turns to me.
+<END>
+
+#WRITE(PTR, $00000864)
+On her face is a fleeting smile.
+<END>
+
+#WRITE(PTR, $00000874)
+【まゆり】
+The next day, on New Years, Okarin's fever went down, and he woke up.
+<END>
+
+#WRITE(PTR, $0000088E)
+【まゆり】
+So basically, Mayushii is Okarin's lifesaver-. Ehhehe-
+<END>
+
+#WRITE(PTR, $0000089E)
+【倫太郎】
+No, that's not it. What saved me from that circumstance was Steins;Gate's choice.
+<END>
+
+#WRITE(PTR, $000008B8)
+【まゆり】
+Ehh-? Really-?
+<END>
+
+#WRITE(PTR, $000008C8)
+【倫太郎】
+Really.
+<END>
+
+#WRITE(PTR, $000008E2)
+【まゆり】
+I see-
+<END>
+
+#WRITE(PTR, $000008F2)
+Mayuri looks a little disappointed.
+<END>
+
+#WRITE(PTR, $0000090C)
+【まゆり】
+Hey, hey. Okarin, when your fever went down, you said this, remember?
+<END>
+
+#WRITE(PTR, $0000091C)
+【まゆり】
+My vision's all gooey, I can't stand cause I'm all dizzy, and my body's all twitchy.'
+<END>
+
+#WRITE(PTR, $0000092C)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $0000093C)
+【まゆり】
+Okarin, just a while ago, you felt the same thing, didn't you-?
+<END>
+
+#WRITE(PTR, $0000094C)
+【まゆり】
+Are you okay...? You won't get a fever and collapse again?
+<END>
+
+#WRITE(PTR, $0000095C)
+Mayuri's asking with a really anxious face.
+<END>
+
+#WRITE(PTR, $0000096C)
+Looks like she got worried at my unrest over Moeka.
+<END>
+
+#WRITE(PTR, $0000097C)
+Geez. For my hostage to worry about me.
+<END>
+
+#WRITE(PTR, $0000098C)
+I unintentionally smile wryly.
+<END>
+
+#WRITE(PTR, $0000099C)
+【倫太郎】
+No worries. Don't worry about a thing.
+<END>
+
+#WRITE(PTR, $000009B8)
+I shrug as I give this answer and recall what happened ten years ago.
+<END>
+
+#WRITE(PTR, $000009C8)
+When I woke up from that fever, the first thing that flew into my eyes was Mayuri's crying face.
+<END>
+
+#WRITE(PTR, $000009D8)
+That's right. Certainly, back then, when I heard about how I had collapsed with a fever, I think I did say something like what Mayuri said.
+<END>
+
+#WRITE(PTR, $000009E8)
+And now when I recall it, it does seem to match well with that sensation I felt a few hours ago, Reading Steiner.
+<END>
+
+#WRITE(PTR, $000009F8)
+【倫太郎】
+I see, so this demon eye of mine already dwelled in my body back then, huh...! Fuhahaha!
+<END>
+
+#WRITE(PTR, $00000A08)
+So basically, that's the answer, Steins;Gate's choice!
+<END>
+
+#WRITE(PTR, $00000A18)
+I really was born with this ability!
+<END>
+
+#WRITE(PTR, $00000A28)
+This ability that even convinced John Titor I was the Messiah!
+<END>
+
+#WRITE(PTR, $00000A38)
+Laughing loudly, I was convinced of it.
+<FILEEND35>
+

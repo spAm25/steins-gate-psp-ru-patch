@@ -1,0 +1,431 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000010BC)
+
+#WRITE(PTR, $00000202)
+コンビニから帰ってくると、ビルの前にブラウン管工房のバイト戦士が立っていた。
+<END>
+
+#WRITE(PTR, $00000212)
+ストレッチをして身体をほぐしている。
+<END>
+
+#WRITE(PTR, $0000025A)
+【鈴羽】
+Sup
+<END>
+
+#WRITE(PTR, $0000026A)
+She notices me and calls out while stretching.
+<END>
+
+#WRITE(PTR, $000002E8)
+【鈴羽】
+You doing something blithesome this early in the morning?
+<END>
+
+#WRITE(PTR, $000002F8)
+Blithesome....
+<END>
+
+#WRITE(PTR, $00000308)
+Every so often, she says weird things like that.
+<END>
+
+#WRITE(PTR, $00000318)
+【倫太郎】
+Indeed. Don't be surprised, okay? We're making a time machine that will be remembered throughout human history.
+<END>
+
+#WRITE(PTR, $00000328)
+【鈴羽】
+Hmmm. Is that so.
+<END>
+
+#WRITE(PTR, $00000338)
+【倫太郎】
+H-hey, shouldn't you be more surprised!?
+<END>
+
+#WRITE(PTR, $00000348)
+【至】
+Well, isn't it natural to not believe? I was half in doubt at first too.
+<END>
+
+#WRITE(PTR, $00000362)
+【至】
+Anyway, is it really okay to reveal our secret so easily, Okarin? Wasn't that top secret?
+<END>
+
+#WRITE(PTR, $00000372)
+【倫太郎】
+Crap...! Working Warrior, please keep what I just said a secret.
+<END>
+
+#WRITE(PTR, $0000038C)
+【鈴羽】
+Okay, but that's not what I mean.
+<END>
+
+#WRITE(PTR, $000003B0)
+Working Warrior peeps into the Braun Tube Workshop.
+<END>
+
+#WRITE(PTR, $000003C0)
+【鈴羽】
+Manager's really irritated.
+<END>
+
+#WRITE(PTR, $000003D0)
+【倫太郎】
+Meaning?
+<END>
+
+#WRITE(PTR, $000003E0)
+【鈴羽】
+The vibrations from the second floor were so intense, not just dust fell, but it was actually shaking. Like we were bombed.
+<END>
+
+#WRITE(PTR, $000003FE)
+【鈴羽】
+「“あいつらいったいなにしてんだ、家賃上げてやるぞコラ”
+<END2>
+
+#WRITE(PTR, $00000418)
+ってぼやいてた」
+<END>
+
+#WRITE(PTR, $0000042C)
+【鈴羽】
+Maybe you should go apologize.
+<END>
+
+#WRITE(PTR, $00000446)
+【至】
+Gegege. Won't it be bad if he kicks us out?
+<END>
+
+#WRITE(PTR, $00000456)
+【倫太郎】
+Alright, leave it to me. And Daru, go stop Assistant's experiments for a while.
+<END>
+
+#WRITE(PTR, $00000470)
+【至】
+Roger..., you're shining the brightest right now.
+<END>
+
+#WRITE(PTR, $00000492)
+Daru salutes and rushes up to the second floor.
+<END>
+
+#WRITE(PTR, $000004B8)
+【鈴羽】
+...So, did Makise Kurisu come?
+<END>
+
+#WRITE(PTR, $000004C8)
+【倫太郎】
+Yeah.
+<END>
+
+#WRITE(PTR, $000004D8)
+That reminds me, Working Warrior picked a fight with Christina yesterday.
+<END>
+
+#WRITE(PTR, $000004E8)
+【倫太郎】
+Do you know her?
+<END>
+
+#WRITE(PTR, $00000502)
+【鈴羽】
+Mm-... no. Yesterday was our first velitation.
+<END>
+
+#WRITE(PTR, $00000512)
+【倫太郎】
+Velitation?
+<END>
+
+#WRITE(PTR, $000005B0)
+What does that word mean?
+<END>
+
+#WRITE(PTR, $000005C0)
+Felicitation....
+<END>
+
+#WRITE(PTR, $000005D0)
+Facilitation....
+<END>
+
+#WRITE(PTR, $000005E0)
+Confrontation!
+<END>
+
+#WRITE(PTR, $00000644)
+【倫太郎】
+Ohh, I see.
+<END>
+
+#WRITE(PTR, $00000654)
+Actually, I don't.
+<END>
+
+#WRITE(PTR, $00000664)
+【倫太郎】
+Wasn't that hostility a little... random for a first encounter?
+<END>
+
+#WRITE(PTR, $0000067E)
+【鈴羽】
+...Antipathy.
+<END>
+
+#WRITE(PTR, $0000068E)
+A subdued mutter.
+<END>
+
+#WRITE(PTR, $0000069E)
+Again. Another difficult word.
+<END>
+
+#WRITE(PTR, $000006AE)
+It's bothersome, so I thought of asking her again, but Suzuha's hanging her head, not saying any more. Basically, it's like she doesn't want to explain.
+<END>
+
+#WRITE(PTR, $0000074C)
+I try to think of the etymology of antipathy in my head.
+<END>
+
+#WRITE(PTR, $0000075C)
+Anti. Pathy. Like the opposite... of sympathy.
+<END>
+
+#WRITE(PTR, $000007C0)
+【倫太郎】
+Oh. So you have a personal grudge against her, huh. But... even though you just met?
+<END>
+
+#WRITE(PTR, $000007DA)
+【鈴羽】
+Well, yeah.
+<END>
+
+#WRITE(PTR, $000007EA)
+【倫太郎】
+What happened?
+<END>
+
+#WRITE(PTR, $00000804)
+【鈴羽】
+Nothing, directly.
+<END>
+
+#WRITE(PTR, $00000814)
+【倫太郎】
+So you mean you're indirectly connected?
+<END>
+
+#WRITE(PTR, $00000824)
+【鈴羽】
+......
+<END>
+
+#WRITE(PTR, $00000834)
+【倫太郎】
+If you'd like, I could go talk things over with Christina.
+<END>
+
+#WRITE(PTR, $00000844)
+【鈴羽】
+It doesn't really matter.
+<END>
+
+#WRITE(PTR, $00000854)
+【倫太郎】
+Maybe you're simply putting the blame on the wrong person?
+<END>
+
+#WRITE(PTR, $00000880)
+【鈴羽】
+Geez, you're so persistent!
+<END>
+
+#WRITE(PTR, $00000890)
+Working Warrior explodes emotionally, pouting her lips.
+<END>
+
+#WRITE(PTR, $000008AA)
+【鈴羽】
+Okabe Rintaro-, shouldn't you apologize to Manager instead of talking to me?
+<END>
+
+#WRITE(PTR, $000008BA)
+Heheheh, Actually, I'm getting cold feet....
+<END>
+
+#WRITE(PTR, $000008CA)
+But I am Hououin Kyouma. The mad scientist who calls chaos to the world.
+<END>
+
+#WRITE(PTR, $000008DA)
+There's no way I can stumble here.
+<END>
+
+#WRITE(PTR, $000008EA)
+I prepare myself, and enter the Braun Tube Workshop door along with the part-timer.
+<END>
+
+#WRITE(PTR, $00000960)
+【倫太郎】
+Excuse me!
+<END>
+
+#WRITE(PTR, $00000970)
+Manager's sitting at the counter inside, slurping delivery ramen.
+<END>
+
+#WRITE(PTR, $00000980)
+Even when I enter, he doesn't move his sight from the huge 42in Braun tube TV.
+<END>
+
+#WRITE(PTR, $00000990)
+It's showing a daytime variety show, reporting on a celebrity divorce.
+<END>
+
+#WRITE(PTR, $000009D8)
+Working Warrior doesn't say anything. She comes in attentively with bated breath.
+<END>
+
+#WRITE(PTR, $000009F4)
+【天王寺】
+Oh, Okabe. Just what are you doing up there?
+<END>
+
+#WRITE(PTR, $00000A04)
+Straight to the punch.
+<END>
+
+#WRITE(PTR, $00000A14)
+Manager doesn't take his eyes of the TV, and he doesn't stop slurping his ramen while sweating his glands out.
+<END>
+
+#WRITE(PTR, $00000A24)
+And yet, he exudes an extraordinary force.
+<END>
+
+#WRITE(PTR, $00000A34)
+I can't falter now.
+<END>
+
+#WRITE(PTR, $00000A44)
+【倫太郎】
+Actually, we're in the experiment of the century. Namely, the device which will repaint human history, the time──
+<END>
+
+#WRITE(PTR, $00000A54)
+【天王寺】
+I don't care what games you guys play. I'm the owner of this building. You got that?
+<END>
+
+#WRITE(PTR, $00000A64)
+【天王寺】
+It's a fairly worn out building. You guys keep making a ruckus, it echoes through the walls and I can't concentrate.
+<END>
+
+#WRITE(PTR, $00000A74)
+I'll keep quiet about the dent in the floor....
+<END>
+
+#WRITE(PTR, $00000A84)
+【倫太郎】
+Heheheh, Mister Braun, don't tell me, this building didn't fake its earthquake prevention certification, did it?
+<END>
+
+#WRITE(PTR, $00000A94)
+【天王寺】
+What if it did?
+<END>
+
+#WRITE(PTR, $00000AA4)
+I honestly go pale.
+<END>
+
+#WRITE(PTR, $00000AB4)
+M-maybe we should seek shelter soon....
+<END>
+
+#WRITE(PTR, $00000AC4)
+【天王寺】
+It's been properly reinforced. But regardless, you guys are still shaking it too much.
+<END>
+
+#WRITE(PTR, $00000AD4)
+【倫太郎】
+Hmph, this building has collapsed once or twice, so what are you saying?
+<END>
+
+#WRITE(PTR, $00000AE4)
+【天王寺】
+Yeah.？
+<END>
+
+#WRITE(PTR, $00000AF4)
+【倫太郎】
+I've said it before, but our current experiments are of grand importance to the history of science, no, they can repaint all of human history itself.
+<END>
+
+#WRITE(PTR, $00000B04)
+【倫太郎】
+It's more important than prolonging the life of this building for ten or so years!
+<END>
+
+#WRITE(PTR, $00000DA0)
+Right as I finish speaking, the building starts shaking.
+<END>
+
+#WRITE(PTR, $00000DB0)
+Something like dust, or concrete fragments, or I don't know what, starts falling from the ceiling. The 42in widescreen Braun tube TV's image becomes disarrayed.
+<END>
+
+#WRITE(PTR, $00000DC0)
+Tch, Daru! What are you doing!? I thought I told you to stop Assistant's experiments!
+<END>
+
+#WRITE(PTR, $00000E96)
+【天王寺】
+Hey, Okabe...
+<END>
+
+#WRITE(PTR, $00000EA6)
+He starts glaring at me.
+<END>
+
+#WRITE(PTR, $00000EB6)
+【天王寺】
+Looks like it's calmed down, eh. Some got into my ramen, so what are you going to do about it!? Anyway, no more shaking!
+<END>
+
+#WRITE(PTR, $00000EC6)
+【天王寺】
+Or I'll raise your rent 10, 000!
+<END>
+
+#WRITE(PTR, $00000ED6)
+Wha...!? If you raise it 10, 000 yen, we're ruined!
+<END>
+
+#WRITE(PTR, $00000EE6)
+【倫太郎】
+Leave it to me, Mister Braun! On my honor, I swear there won't be any more shaking today!
+<END>
+
+#WRITE(PTR, $00000EF6)
+I so declare as I rush out of the Braun Tube Workshop.
+<FILEEND1A>
+

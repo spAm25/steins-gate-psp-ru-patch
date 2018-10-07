@@ -1,0 +1,975 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000381A)
+
+#WRITE(PTR, $00000A72)
+その通りになった。
+<END>
+
+#WRITE(PTR, $00000A82)
+ラボに押し入ってくるいくつもの黒い影。
+<END>
+
+#WRITE(PTR, $00000A92)
+あまりにも素早い動き。
+<END>
+
+#WRITE(PTR, $00000AA2)
+あまりにも訓練された鋭さ。
+<END>
+
+#WRITE(PTR, $00000AB2)
+そして向けられた、銃口。
+<END>
+
+#WRITE(PTR, $00000AC2)
+押し入ってきたのは、５人ほどの男たち。
+<END>
+
+#WRITE(PTR, $00000AD2)
+全員に見覚えがあった。
+<END>
+
+#WRITE(PTR, $00000AE2)
+それで確信した。
+<END>
+
+#WRITE(PTR, $00000AF2)
+俺はタイムリープをしたんだ。
+<END>
+
+#WRITE(PTR, $00000B02)
+こんなふざけた“今”を変えろと紅莉栖に背中を押されて。
+<END>
+
+#WRITE(PTR, $00000B12)
+なのに、夢だったと思って、台無しにした。
+<END>
+
+#WRITE(PTR, $00000B22)
+【ラウンダーＡ】
+Don't move. Everyone, hands in the air.
+<END>
+
+#WRITE(PTR, $00000B38)
+Silence.
+<END>
+
+#WRITE(PTR, $00000B48)
+Standstill.
+<END>
+
+#WRITE(PTR, $00000B58)
+The intruders say no more.
+<END>
+
+#WRITE(PTR, $00000B68)
+I regret my actions these past few hours.
+<END>
+
+#WRITE(PTR, $00000B78)
+Why didn't I do anything?
+<END>
+
+#WRITE(PTR, $00000B88)
+What did I time leap for?
+<END>
+
+#WRITE(PTR, $00000B98)
+The sound of heels echoes.
+<END>
+
+#WRITE(PTR, $00000BA8)
+A woman is coming up the stairs.
+<END>
+
+#WRITE(PTR, $00000BB8)
+It's Kiryuu Moeka....
+<END>
+
+#WRITE(PTR, $00000BC8)
+The woman who killed-- no, who will kill Mayuri, is coming.
+<END>
+
+#WRITE(PTR, $00000BFE)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000C0E)
+Everything's the same as my dream.
+<END>
+
+#WRITE(PTR, $00000C1E)
+That was reality.
+<END>
+
+#WRITE(PTR, $00000C2E)
+That was my future memory.
+<END>
+
+#WRITE(PTR, $00000C3E)
+That was what awaited in the future.
+<END>
+
+#WRITE(PTR, $00000C4E)
+【まゆり】
+Moeka-san? This is...?
+<END>
+
+#WRITE(PTR, $00000C5E)
+【萌郁】
+We're taking the time machine.
+<END>
+
+#WRITE(PTR, $00000C6E)
+If I kill her first, will that mean Mayuri won't die?
+<END>
+
+#WRITE(PTR, $00000C7E)
+I considered the option, but soon gave up.
+<END>
+
+#WRITE(PTR, $00000C8E)
+The gunmen are more troublesome than Moeka.
+<END>
+
+#WRITE(PTR, $00000C9E)
+One of them even has an AK-47.
+<END>
+
+#WRITE(PTR, $00000CAE)
+The instant I resist, he'll make beehives outta us.
+<END>
+
+#WRITE(PTR, $00000CBE)
+If only Suzuha would come back a little quicker....
+<END>
+
+#WRITE(PTR, $00000CCE)
+That's my wish.
+<END>
+
+#WRITE(PTR, $00000CDE)
+【萌郁】
+Makise Kurisu, Okabe Rintaro, Hashida Itaru. The three of you will come with us.
+<END>
+
+#WRITE(PTR, $00000CEE)
+【萌郁】
+No resistance permitted.
+<END>
+
+#WRITE(PTR, $00000CFE)
+【萌郁】
+Anyway, come.
+<END>
+
+#WRITE(PTR, $00000D0E)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00000D1E)
+【至】
+Wh-where to?
+<END>
+
+#WRITE(PTR, $00000D2E)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000D3E)
+No words.
+<END>
+
+#WRITE(PTR, $00000D4E)
+【紅莉栖】
+I'd like to at least know the reason and destination...
+<END>
+
+#WRITE(PTR, $00000D5E)
+【萌郁】
+Resistance is futile.
+<END>
+
+#WRITE(PTR, $00000D6E)
+【萌郁】
+You have nowhere to run.
+<END>
+
+#WRITE(PTR, $00000D7E)
+【萌郁】
+My comrades are already spread throughout Akihabara.
+<END>
+
+#WRITE(PTR, $00000D8E)
+【萌郁】
+I don't want to resort to violence.
+<END>
+
+#WRITE(PTR, $00000D9E)
+【萌郁】
+The three of you, come with us.
+<END>
+
+#WRITE(PTR, $00000DAE)
+【紅莉栖】
+Why three?
+<END>
+
+#WRITE(PTR, $00000DBE)
+【萌郁】
+I have no intention of answering any questions.
+<END>
+
+#WRITE(PTR, $00000DCE)
+【萌郁】
+All you people have to do is come with me.
+<END>
+
+#WRITE(PTR, $00000DDE)
+【まゆり】
+H-hey, Moeka-san, you're a fellow lab mem... aren't you?
+<END>
+
+#WRITE(PTR, $00000EEA)
+Moeka answers that question──
+<END>
+
+#WRITE(PTR, $00000FB8)
+By pulling a gun out of her shirt and readying it.
+<END>
+
+#WRITE(PTR, $00000FC8)
+The same──
+<END>
+
+#WRITE(PTR, $00000FD8)
+【萌郁】
+The reason we're having you come with u──
+<END>
+
+#WRITE(PTR, $00000FE8)
+【萌郁】
+Is to silence you.
+<END>
+
+#WRITE(PTR, $00000FF8)
+【萌郁】
+That won't change even if you refuse.
+<END>
+
+#WRITE(PTR, $00001008)
+【萌郁】
+The three of you, come with us.
+<END>
+
+#WRITE(PTR, $00001018)
+【萌郁】
+If you refuse any more, we'll make you want to come with us.
+<END>
+
+#WRITE(PTR, $00001028)
+Moeka slowly raises her gun hand.
+<END>
+
+#WRITE(PTR, $00001038)
+Its muzzle points directly at──
+<END>
+
+#WRITE(PTR, $00001138)
+【まゆり】
+...
+<END>
+
+#WRITE(PTR, $00001148)
+【萌郁】
+Shiina Mayuri is unnecessary.
+<END>
+
+#WRITE(PTR, $00001158)
+I try to stop it.
+<END>
+
+#WRITE(PTR, $00001168)
+But my hoarse voice won't come out.
+<END>
+
+#WRITE(PTR, $00001178)
+I just looked stupid, spewing out air.
+<END>
+
+#WRITE(PTR, $00001188)
+Seeking help, I look at Kurisu.
+<END>
+
+#WRITE(PTR, $00001198)
+Kurisu's looking at Mayuri.
+<END>
+
+#WRITE(PTR, $000011A8)
+She has a tearful face.
+<END>
+
+#WRITE(PTR, $000011B8)
+I look at Daru.
+<END>
+
+#WRITE(PTR, $000011C8)
+He's trembling.
+<END>
+
+#WRITE(PTR, $000011D8)
+He's trying to mutter something, but his voice won't come out.
+<END>
+
+#WRITE(PTR, $000011E8)
+Someone, stop this.
+<END>
+
+#WRITE(PTR, $0000127C)
+Stop Moeka...!
+<END>
+
+#WRITE(PTR, $0000133A)
+【萌郁】
+...for SERN... for FB... for SERN... FB...
+<END>
+
+#WRITE(PTR, $00001354)
+Her lips close tightly.
+<END>
+
+#WRITE(PTR, $00001406)
+With a dry sound.
+<END>
+
+#WRITE(PTR, $00001416)
+Everything moves in slow motion.
+<END>
+
+#WRITE(PTR, $00001426)
+The passage of time slows down.
+<END>
+
+#WRITE(PTR, $0000147E)
+Moeka's gun.
+<END>
+
+#WRITE(PTR, $000014F0)
+She pulls the trigger.
+<END>
+
+#WRITE(PTR, $000015EE)
+Bam. Blood flutters from Mayuri's forehead.
+<END>
+
+#WRITE(PTR, $000015FE)
+Warm liquid splashes onto my face.
+<END>
+
+#WRITE(PTR, $0000160E)
+I hurriedly catch Mayuri's delicate, small body as it starts to collapse.
+<END>
+
+#WRITE(PTR, $0000166E)
+Mayuri's body was like a marionette with its strings cut.
+<END>
+
+#WRITE(PTR, $0000167E)
+Her head and her limbs drooped, powerless.
+<END>
+
+#WRITE(PTR, $0000168E)
+My nose is assaulted by the smell of gunpowder.
+<END>
+
+#WRITE(PTR, $0000169E)
+And then, the smell of blood.
+<END>
+
+#WRITE(PTR, $00001714)
+【至】
+Whaaaaaaaaaaaa!
+<END>
+
+#WRITE(PTR, $00001730)
+Daru screams while holding his head, falling to his knees on the spot.
+<END>
+
+#WRITE(PTR, $00001740)
+In my arms.
+<END>
+
+#WRITE(PTR, $00001750)
+Mayuri breathes her dying breaths──
+<END>
+
+#WRITE(PTR, $00001760)
+【まゆり】
+O...kari...
+<END>
+
+#WRITE(PTR, $00001770)
+【まゆり】
+......
+<END>
+
+#WRITE(PTR, $0000178A)
+【紅莉栖】
+No, noooo...!
+<END>
+
+#WRITE(PTR, $0000183C)
+Died.
+<END>
+
+#WRITE(PTR, $0000184C)
+Mayuri died again.
+<END>
+
+#WRITE(PTR, $000018AC)
+Mayuri's face was stained red.
+<END>
+
+#WRITE(PTR, $000018BC)
+That stain soaks into my hands too.
+<END>
+
+#WRITE(PTR, $000018CC)
+Very warm.
+<END>
+
+#WRITE(PTR, $000018DC)
+Mayuri's body moves not a twitch.
+<END>
+
+#WRITE(PTR, $000018EC)
+【萌郁】
+I'll say it once more. The three of you, come with us.
+<END>
+
+#WRITE(PTR, $000018FC)
+【萌郁】
+You have no more warnings.
+<END>
+
+#WRITE(PTR, $0000190C)
+【萌郁】
+If you resist, we will kill you too.
+<END>
+
+#WRITE(PTR, $0000191C)
+It reaches my ears.
+<END>
+
+#WRITE(PTR, $0000192C)
+I hear that voice.
+<END>
+
+#WRITE(PTR, $0000193C)
+But I don't hear those words.
+<END>
+
+#WRITE(PTR, $0000194C)
+The same.
+<END>
+
+#WRITE(PTR, $0000195C)
+I understand.
+<END>
+
+#WRITE(PTR, $0000196C)
+I let Mayuri die again.
+<END>
+
+#WRITE(PTR, $0000197C)
+Because I didn't try to believe.
+<END>
+
+#WRITE(PTR, $0000198C)
+I lay Mayuri down.
+<END>
+
+#WRITE(PTR, $0000199C)
+I'm sorry, Mayuri.
+<END>
+
+#WRITE(PTR, $000019AC)
+I'm sorry....
+<END>
+
+#WRITE(PTR, $00001B1C)
+I stand up.
+<END>
+
+#WRITE(PTR, $00001B2C)
+Even though this is the second time, I'm overcome with hatred for Moeka.
+<END>
+
+#WRITE(PTR, $00001B3C)
+I try to plop down and barrel roll to approach Moeka.
+<END>
+
+#WRITE(PTR, $00001C18)
+【紅莉栖】
+Okabe...
+<END>
+
+#WRITE(PTR, $00001C28)
+She grabs my arm from behind.
+<END>
+
+#WRITE(PTR, $00001C38)
+【紅莉栖】
+You can't...
+<END>
+
+#WRITE(PTR, $00001C48)
+【倫太郎】
+Let me go!
+<END>
+
+#WRITE(PTR, $00001C58)
+【紅莉栖】
+You can't, you can't... they'll kill you...
+<END>
+
+#WRITE(PTR, $00001CD4)
+Moeka's gun is now pointed to my brow.
+<END>
+
+#WRITE(PTR, $00001CE4)
+Her finger is already on the trigger.
+<END>
+
+#WRITE(PTR, $00001CF4)
+【倫太郎】
+You gonna kill me too!?
+<END>
+
+#WRITE(PTR, $00001D04)
+【萌郁】
+If you resist.
+<END>
+
+#WRITE(PTR, $00001D14)
+【紅莉栖】
+Okabe, please, for now, just obey... okay?
+<END>
+
+#WRITE(PTR, $00001D24)
+【紅莉栖】
+At this rate, they'll kill you too...
+<END>
+
+#WRITE(PTR, $00001D34)
+【倫太郎】
+Gh...!
+<END>
+
+#WRITE(PTR, $00001D44)
+I strongly grind my teeth and hold back my rage.
+<END>
+
+#WRITE(PTR, $00001D54)
+I see a small shadow soar.
+<END>
+
+#WRITE(PTR, $00001D64)
+It strikes Moeka's gun hand──
+<END>
+
+#WRITE(PTR, $00002082)
+【萌郁】
+...!?
+<END>
+
+#WRITE(PTR, $00002138)
+Moeka drops her gun.
+<END>
+
+#WRITE(PTR, $00002148)
+At her feet, a small stone.
+<END>
+
+#WRITE(PTR, $00002158)
+【鈴羽】
+Get down!
+<END>
+
+#WRITE(PTR, $00002174)
+【ラウンダーＢ】
+Gweh!!
+<END>
+
+#WRITE(PTR, $000021DC)
+Appearing with the exact same timing as before I time leaped, Suzuha knocks down the attacker standing close to the entrance.
+<END>
+
+#WRITE(PTR, $000021F8)
+And then her sharp movements seamlessly flow, knocking down a second and third.
+<END>
+
+#WRITE(PTR, $00002208)
+【ラウンダーＡ】
+Why that...!?
+<END>
+
+#WRITE(PTR, $00002218)
+The remaining dark skinned crew cut guy tries to shoot his automatic rifle.
+<END>
+
+#WRITE(PTR, $00002228)
+But before he can, Suzuha snatches a stunned attackers gun and shoots him.
+<END>
+
+#WRITE(PTR, $00002244)
+【ラウンダーＡ】
+Gwah!!
+<END>
+
+#WRITE(PTR, $00002254)
+Blood spurts out of the man's hand.
+<END>
+
+#WRITE(PTR, $00002276)
+Without stopping, Suzuha delivers a soaring soccer ball kick to the squatting crew cut guy's jaw.
+<END>
+
+#WRITE(PTR, $00002292)
+【萌郁】
+That's enough.
+<END>
+
+#WRITE(PTR, $0000235A)
+【鈴羽】
+!!
+<END>
+
+#WRITE(PTR, $0000236A)
+Moeka and Suzuha point their guns at each other.
+<END>
+
+#WRITE(PTR, $0000237A)
+A staredown.
+<END>
+
+#WRITE(PTR, $0000238A)
+Silence returns.
+<END>
+
+#WRITE(PTR, $0000239A)
+【萌郁】
+...who are you?
+<END>
+
+#WRITE(PTR, $000023AA)
+【鈴羽】
+42
+<END>
+
+#WRITE(PTR, $000023BA)
+Suzuha murmurs a cryptic number.
+<END>
+
+#WRITE(PTR, $000023CA)
+She glances at me.
+<END>
+
+#WRITE(PTR, $000023DA)
+【鈴羽】
+TV
+<END>
+
+#WRITE(PTR, $000023EA)
+No, I already know what she means.
+<END>
+
+#WRITE(PTR, $000023FA)
+【鈴羽】
+Turned on
+<END>
+
+#WRITE(PTR, $0000240A)
+I jump into the development room.
+<END>
+
+#WRITE(PTR, $000024C2)
+【萌郁】
+Don't move!
+<END>
+
+#WRITE(PTR, $000024D2)
+【鈴羽】
+That's my line.
+<END>
+
+#WRITE(PTR, $0000251A)
+I bring Kurisu along.
+<END>
+
+#WRITE(PTR, $0000252A)
+I put on the headgear without hesitation.
+<END>
+
+#WRITE(PTR, $0000253A)
+【紅莉栖】
+Okabe, I──
+<END>
+
+#WRITE(PTR, $0000254A)
+【倫太郎】
+I'm leaping...!
+<END>
+
+#WRITE(PTR, $0000255A)
+【紅莉栖】
+But! What if it fails──
+<END>
+
+#WRITE(PTR, $0000256A)
+【倫太郎】
+Please set it up!
+<END>
+
+#WRITE(PTR, $0000257A)
+I order Kurisu around and pick up Monad Snake from the side shelf.
+<END>
+
+#WRITE(PTR, $00002596)
+Kurisu bites her lip and starts putting the settings into the X68000.
+<END>
+
+#WRITE(PTR, $000025A6)
+【鈴羽】
+Okabe Rintaro! One guy's moving!
+<END>
+
+#WRITE(PTR, $000025B6)
+【萌郁】
+Kill them, don't let them use it.
+<END>
+
+#WRITE(PTR, $000025C6)
+Before the crew cut man enters the development room, I push the switch.
+<END>
+
+#WRITE(PTR, $000026BA)
+My vision turns white.
+<END>
+
+#WRITE(PTR, $000026CA)
+I can't see anything.
+<END>
+
+#WRITE(PTR, $000026DA)
+I can't tell anything.
+<END>
+
+#WRITE(PTR, $00002722)
+【紅莉栖】
+Okabe! Is this really okay!?
+<END>
+
+#WRITE(PTR, $0000273C)
+【紅莉栖】
+Are you okay with time leaping!? Are you!?
+<END>
+
+#WRITE(PTR, $0000274C)
+【倫太郎】
+Do it, Kurisu! Activate the machine!
+<END>
+
+#WRITE(PTR, $00002946)
+After that, beyond the smoke. Bluish-white light.
+<END>
+
+#WRITE(PTR, $00002956)
+The discharge phenomenon is starting!
+<END>
+
+#WRITE(PTR, $00002966)
+The bluish-white light grows more extreme.
+<END>
+
+#WRITE(PTR, $00002976)
+My feet shake intensively.
+<END>
+
+#WRITE(PTR, $00002986)
+The ring singularity opens.
+<END>
+
+#WRITE(PTR, $000029D2)
+I push down the headgear with one hand and crouch.
+<END>
+
+#WRITE(PTR, $00002AF8)
+This is reality.
+<END>
+
+#WRITE(PTR, $00002B08)
+It wasn't a dream.
+<END>
+
+#WRITE(PTR, $00002B18)
+I engrave that fact into my mind.
+<END>
+
+#WRITE(PTR, $00002B28)
+Once more──
+<END>
+
+#WRITE(PTR, $00002B7E)
+Tremendous shaking.
+<END>
+
+#WRITE(PTR, $00002B9A)
+【倫太郎】
+「頼む、もう一度跳んでくれっ！」
+<END>
+
+#WRITE(PTR, $00002BAA)
+絶叫した直後。
+<END>
+
+#WRITE(PTR, $00002BBA)
+再び、世界が、吹き飛んだ├┤
+<END>
+
+#WRITE(PTR, $00002E20)
+TL02.PMF
+<END2>
+
+#WRITE(PTR, $0000316A)
+鼓膜が吹き飛んだかのような錯覚。
+<END>
+
+#WRITE(PTR, $0000317A)
+聴覚が麻痺している。
+<END>
+
+#WRITE(PTR, $0000318A)
+【倫太郎】
+────!!？
+<END>
+
+#WRITE(PTR, $0000319A)
+The blown off, gushy world.
+<END>
+
+#WRITE(PTR, $000031AA)
+Was instantly reborn.
+<END>
+
+#WRITE(PTR, $000031BA)
+My body convulses against my will, as if run through with electricity.
+<END>
+
+#WRITE(PTR, $000031CA)
+──I come back to my senses.
+<END>
+
+#WRITE(PTR, $000031E6)
+I'm in the lab development room.
+<END>
+
+#WRITE(PTR, $000031F6)
+I'm standing in front of the Time Leap Machine with my phone to my ear.
+<END>
+
+#WRITE(PTR, $00003206)
+【倫太郎】
+...Gh
+<END>
+
+#WRITE(PTR, $00003216)
+My brain hurts again.
+<END>
+
+#WRITE(PTR, $00003226)
+It's different from a headache.
+<END>
+
+#WRITE(PTR, $00003236)
+Not only pain, but various feelings overflow.
+<END>
+
+#WRITE(PTR, $00003246)
+Miserable feelings, tearful sadness, excessive laughter──
+<END>
+
+#WRITE(PTR, $00003256)
+Almost as if weren't myself.
+<END>
+
+#WRITE(PTR, $00003266)
+But. Even so.
+<END>
+
+#WRITE(PTR, $00003276)
+【倫太郎】
+...I leapt again.
+<END>
+
+#WRITE(PTR, $00003286)
+I fumble at that fact.
+<END>
+
+#WRITE(PTR, $00003296)
+I quickly return to the lounge.
+<END>
+
+#WRITE(PTR, $0000336A)
+【紅莉栖】
+Kyah, you surprised me....
+<END>
+
+#WRITE(PTR, $0000337A)
+I almost crashed into Kurisu.
+<END>
+
+#WRITE(PTR, $00003394)
+【紅莉栖】
+Don't startle me like that...
+<END>
+
+#WRITE(PTR, $00003468)
+【倫太郎】
+Daru...! Is it the before 5 on the 13th!?
+<END>
+
+#WRITE(PTR, $00003482)
+【至】
+Eh, umm, yeah, it is, so...?
+<END>
+
+#WRITE(PTR, $00003566)
+Alright. Time leap successful.
+<END>
+
+#WRITE(PTR, $00003576)
+I pat Kurisu on the shoulders, almost in an embrace.
+<END>
+
+#WRITE(PTR, $00003586)
+【倫太郎】
+You're... a genius...
+<END>
+
+#WRITE(PTR, $000035A0)
+【紅莉栖】
+Wha, what's this so suddenly? Feels bad man...
+<END>
+
+#WRITE(PTR, $000035CA)
+I hurriedly take out my phone.
+<FILEEND0F>
+

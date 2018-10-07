@@ -1,0 +1,1061 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002B24)
+
+#WRITE(PTR, $000007DC)
+店長の家には、俺と萌郁で突入する手はずになった。
+<END>
+
+#WRITE(PTR, $000007EC)
+紅莉栖には、外で見張っていてもらう。
+<END>
+
+#WRITE(PTR, $000007FC)
+と言っても不法侵入するわけではないので、素直に家の呼び鈴を押す。
+<END>
+
+#WRITE(PTR, $0000080C)
+と、店長はすぐに現れ、居間に通してくれた。
+<END>
+
+#WRITE(PTR, $000008AC)
+{世界線変動率}[ダイバージェンス]メーターに自然と目が行った。
+<END>
+
+#WRITE(PTR, $000008F8)
+その数値は“０．５２３３０７％”と表示されていた。
+<END>
+
+#WRITE(PTR, $00000908)
+１％オーバーまでは、まだ遠い。そのことが俺の心に焦燥感をもたらす。
+<END>
+
+#WRITE(PTR, $00000918)
+【天王寺】
+You came at a great time.
+<END>
+
+#WRITE(PTR, $0000096C)
+Tennouji isn't angry that we came so early, but is welcoming us with a smile instead.
+<END>
+
+#WRITE(PTR, $0000097C)
+He even starts preparing us instant coffee.
+<END>
+
+#WRITE(PTR, $0000098C)
+【倫太郎】
+You're up pretty early, huh, Mister Braun.
+<END>
+
+#WRITE(PTR, $0000099C)
+【天王寺】
+I guess. I need to match Nae's school hours, so waking up early is essential.
+<END>
+
+#WRITE(PTR, $000009AC)
+【天王寺】
+It's summer break now, but it's already become a habit.
+<END>
+
+#WRITE(PTR, $000009BC)
+【倫太郎】
+Is your daughter still asleep?
+<END>
+
+#WRITE(PTR, $000009D6)
+【天王寺】
+Shut up. What are you planning, asking about Nae like that? If you attack her in her sleep, I'll seriously kill you.
+<END>
+
+#WRITE(PTR, $000009E6)
+【倫太郎】
+I won't.
+<END>
+
+#WRITE(PTR, $000009F6)
+I'm more interested in this guy's wife.
+<END>
+
+#WRITE(PTR, $00000A06)
+We spent time inside the house like this, but we haven't seen her.
+<END>
+
+#WRITE(PTR, $00000A16)
+Is she still sleeping like Nae?
+<END>
+
+#WRITE(PTR, $00000A26)
+Or maybe she's hiding down in the cellar.
+<END>
+
+#WRITE(PTR, $00000A36)
+I'd like to search this house at full force, but of course that's impossible.
+<END>
+
+#WRITE(PTR, $00000A46)
+But what concerns me is how Manager talked just now──
+<END>
+
+#WRITE(PTR, $00000A56)
+It sounded like he was a single father.
+<END>
+
+#WRITE(PTR, $00000A66)
+The person most likely to be FB is Manager's wife.
+<END>
+
+#WRITE(PTR, $00000A76)
+But I might be making a grave assumption.
+<END>
+
+#WRITE(PTR, $00000A86)
+Manager might just be a mere courier after all, and not know anything about FB.
+<END>
+
+#WRITE(PTR, $00000A96)
+There's the possibility that FB might not even be here in Akiba in the first place.
+<END>
+
+#WRITE(PTR, $00000AA6)
+I'm stumped.
+<END>
+
+#WRITE(PTR, $00000AB6)
+I need to make sure, but how should I say it?
+<END>
+
+#WRITE(PTR, $00000AFE)
+Moeka's been hanging her head for a while.
+<END>
+
+#WRITE(PTR, $00000B0E)
+I can't count on this woman.
+<END>
+
+#WRITE(PTR, $00000B2A)
+Whether or not Manager's wife is FB, I don't think tricks will work against him.
+<END>
+
+#WRITE(PTR, $00000B3A)
+So I challenge him directly.
+<END>
+
+#WRITE(PTR, $00000B4A)
+【倫太郎】
+A few hours ago, six men assembled in front of this house, took a certain something and flew to France. Obviously, you know, don't you?
+<END>
+
+#WRITE(PTR, $00000B5A)
+Instead of his usual cursing, Manager smiles gently.
+<END>
+
+#WRITE(PTR, $00000B74)
+【天王寺】
+And that is?
+<END>
+
+#WRITE(PTR, $00000B84)
+【倫太郎】
+...the IBN 5100. You should know about it.
+<END>
+
+#WRITE(PTR, $00000B94)
+【天王寺】
+The phantom retro PC, right?
+<END>
+
+#WRITE(PTR, $00000BA4)
+It's so anticlimactic that he admits it so easily.
+<END>
+
+#WRITE(PTR, $00000BB4)
+Manager seems like a different person today.
+<END>
+
+#WRITE(PTR, $00000BC4)
+【倫太郎】
+Just what are you? A courier perhaps, or maybe──
+<END>
+
+#WRITE(PTR, $00000BD4)
+【倫太郎】
+A Rounder?
+<END>
+
+#WRITE(PTR, $00000BEE)
+【天王寺】
+......
+<END>
+
+#WRITE(PTR, $00000C36)
+Manager said no more, but instead shifted focus to Moeka.
+<END>
+
+#WRITE(PTR, $00000C56)
+【天王寺】
+Did you betray us? M4?
+<END>
+
+#WRITE(PTR, $00000D2C)
+【萌郁】
+...！？
+<END>
+
+#WRITE(PTR, $00000D3C)
+Moeka's whole body twitched.
+<END>
+
+#WRITE(PTR, $00000D4C)
+That was something only FB should know about, Moeka's codename.
+<END>
+
+#WRITE(PTR, $00000D5C)
+【萌郁】
+Don't tell me... F...B...?
+<END>
+
+#WRITE(PTR, $00000E66)
+Manager smiled wryly──
+<END>
+
+#WRITE(PTR, $00000E76)
+【天王寺】
+Do you know who Ferdinand Braun is?
+<END>
+
+#WRITE(PTR, $00000E86)
+Being asked such an unintelligible question, Moeka and I look at each other.
+<END>
+
+#WRITE(PTR, $00000E96)
+【天王寺】
+Hey, hey, he's the Physics Nobel Prize laureate who invented the Braun Tube, you know.
+<END>
+
+#WRITE(PTR, $00000EA6)
+I knew this guy liked Braun Tubes since I first met him.
+<END>
+
+#WRITE(PTR, $00000EB6)
+But what does that question have to do with...?
+<END>
+
+#WRITE(PTR, $00000EC6)
+【天王寺】
+Ferdinand Braun. Initials?
+<END>
+
+#WRITE(PTR, $00000ED6)
+【倫太郎】
+...Ah!
+<END>
+
+#WRITE(PTR, $00000EF0)
+【萌郁】
+FB...!
+<END>
+
+#WRITE(PTR, $00000F6C)
+【天王寺】
+That's how it is.
+<END>
+
+#WRITE(PTR, $00000F7C)
+Tennouji slowly takes out a handgun.
+<END>
+
+#WRITE(PTR, $00000F8C)
+He did it so spontaneously, that at first, I didn't recognize it was a handgun.
+<END>
+
+#WRITE(PTR, $00000F9C)
+A black luster conveying its coldness, a heavy form.
+<END>
+
+#WRITE(PTR, $00000FAC)
+The muzzle is pointing straight at Moeka.
+<END>
+
+#WRITE(PTR, $00000FBC)
+【倫太郎】
+Uh...
+<END>
+
+#WRITE(PTR, $00000FCC)
+Suddenly pulling a gun out like that, you can't be...!
+<END>
+
+#WRITE(PTR, $00000FDC)
+Moeka and I are unarmed. I should've planned ahead for something like this...!
+<END>
+
+#WRITE(PTR, $00000FEC)
+I mean, I didn't expect that Manager could be FB.
+<END>
+
+#WRITE(PTR, $00000FFC)
+I always thought FB was this man's wife.
+<END>
+
+#WRITE(PTR, $0000100C)
+【倫太郎】
+Let me ask one thing...
+<END>
+
+#WRITE(PTR, $0000101C)
+【倫太郎】
+Your wife...
+<END>
+
+#WRITE(PTR, $0000102C)
+【天王寺】
+She died when Nae was born. That all?
+<END>
+
+#WRITE(PTR, $0000103C)
+I curse in my mind.
+<END>
+
+#WRITE(PTR, $0000104C)
+That's obvious since I've never seen her.
+<END>
+
+#WRITE(PTR, $0000105C)
+She wasn't around from the start.
+<END>
+
+#WRITE(PTR, $0000106C)
+I should've known that FB... was a guy.
+<END>
+
+#WRITE(PTR, $0000107C)
+【萌郁】
+No... that can't be...
+<END>
+
+#WRITE(PTR, $0000108C)
+【天王寺】
+What's next after dependence on me? Escapism?
+<END>
+
+#WRITE(PTR, $0000109C)
+Shaking the gun, Manager-- No, Tennouji Yuugo, sneers.
+<END>
+
+#WRITE(PTR, $000010AC)
+An overwhelming disadvantage. An absolute frontal attack.
+<END>
+
+#WRITE(PTR, $000010BC)
+At this rate, it'll end with both Moeka and me dead.
+<END>
+
+#WRITE(PTR, $000010CC)
+...No, it won't end.
+<END>
+
+#WRITE(PTR, $000010DC)
+At least, I won't die.
+<END>
+
+#WRITE(PTR, $000010EC)
+The world doesn't want me dead today.
+<END>
+
+#WRITE(PTR, $000010FC)
+It's guaranteed I won't die.
+<END>
+
+#WRITE(PTR, $0000110C)
+If you take Attractor Field Theory into consideration.
+<END>
+
+#WRITE(PTR, $0000111C)
+I, who have already been to the 16th once and time leaped from there, can't possibly die now, early morning on the 15th.
+<END>
+
+#WRITE(PTR, $0000112C)
+Paradoxically speaking, I certainly live until the 16th.
+<END>
+
+#WRITE(PTR, $0000113C)
+But──
+<END>
+
+#WRITE(PTR, $000011E6)
+It's not like that for Moeka.
+<END>
+
+#WRITE(PTR, $000011F6)
+Today, she will die.
+<END>
+
+#WRITE(PTR, $00001206)
+Whether her means of death is suicide or murder doesn't really matter.
+<END>
+
+#WRITE(PTR, $00001216)
+Moeka might die here.
+<END>
+
+#WRITE(PTR, $00001226)
+I──
+<END>
+
+#WRITE(PTR, $0000129C)
+Stop thinking about that.\p
+<END>
+
+#WRITE(PTR, $000012AC)
+Now's not the time to think about that.\p
+<END>
+
+#WRITE(PTR, $000012BC)
+What's important is to obtain FB's cellphone, and send a D-mail with it.\p
+<END>
+
+#WRITE(PTR, $000012CC)
+That is my only goal.\p
+<END>
+
+#WRITE(PTR, $00001364)
+In any case, even though a gun's being pointed, there's no need to freeze in fear.
+<END>
+
+#WRITE(PTR, $00001374)
+Now that I've gotten this far, all I can do is an all-out attack.
+<END>
+
+#WRITE(PTR, $00001384)
+【倫太郎】
+So you were a member of the Rounders. You were SERN's dog.
+<END>
+
+#WRITE(PTR, $00001394)
+【天王寺】
+A dog, huh. Ya ain't wrong about that.
+<END>
+
+#WRITE(PTR, $000013A4)
+Today, Tennouji is different from usual.
+<END>
+
+#WRITE(PTR, $000013B4)
+A flexible attitude. Even if I provoke him, he doesn't get angry.
+<END>
+
+#WRITE(PTR, $000013C4)
+On the contrary, he's holding that gun without a shred of tension in his voice.
+<END>
+
+#WRITE(PTR, $000013D4)
+Is this the true face of the man called Tennouji?
+<END>
+
+#WRITE(PTR, $000013E4)
+Was the Manager winding tubes at the Braun Tube Workshop all an act?
+<END>
+
+#WRITE(PTR, $000013F4)
+【倫太郎】
+If you shoot, the gunshot will wake your daughter.
+<END>
+
+#WRITE(PTR, $00001404)
+【天王寺】
+So what?
+<END>
+
+#WRITE(PTR, $00001414)
+【倫太郎】
+Do you want your daughter to see you do such a dirty act?
+<END>
+
+#WRITE(PTR, $00001424)
+【天王寺】
+My daughter isn't an intolerable girl who judges by appearances.
+<END>
+
+#WRITE(PTR, $00001434)
+I grind my teeth.
+<END>
+
+#WRITE(PTR, $00001444)
+【倫太郎】
+Of all things, you're a Rounder...
+<END>
+
+#WRITE(PTR, $00001454)
+【倫太郎】
+Hashida Suzu didn't look after you just so you could be that...!
+<END>
+
+#WRITE(PTR, $0000146A)
+【天王寺】
+......
+<END>
+
+#WRITE(PTR, $0000147A)
+Tennouji's smile stiffened for a second.
+<END>
+
+#WRITE(PTR, $0000148A)
+But he soon slaps his knee and starts laughing.
+<END>
+
+#WRITE(PTR, $000014A6)
+【天王寺】
+What's that, you knew about Suzu-san? You shoulda told me sooner.
+<END>
+
+#WRITE(PTR, $000014B6)
+In this world line, Manager and I haven't talked about Hashida Suzu.
+<END>
+
+#WRITE(PTR, $000014C6)
+【天王寺】
+But you're talking like you know a lot aren't ya? Suzu-san died 10 years ago. Back then, you were just about 8, Okabe.
+<END>
+
+#WRITE(PTR, $000014D6)
+【天王寺】
+But you knew Suzu-san?
+<END>
+
+#WRITE(PTR, $000014E6)
+【倫太郎】
+...I know.
+<END>
+
+#WRITE(PTR, $000014F6)
+I glare at Tennouji.
+<END>
+
+#WRITE(PTR, $00001506)
+I'm about to explode from frustration.
+<END>
+
+#WRITE(PTR, $00001516)
+【倫太郎】
+In my subjective time, it was just a few weeks since she was here in this era.
+<END>
+
+#WRITE(PTR, $0000161A)
+【鈴羽】
+Changing the future is up to you guys. I'll be sure to bring the package here in Akihabara. Then I'll entrust it to you.
+<END>
+
+#WRITE(PTR, $0000162A)
+【鈴羽】
+...Please. I want to change the future.
+<END>
+
+#WRITE(PTR, $00001684)
+Inside my head. I can still clearly remember Suzuha's words.
+<END>
+
+#WRITE(PTR, $00001694)
+Though they feel so long ago.
+<END>
+
+#WRITE(PTR, $000016A4)
+In actual time, they happened just a few days ago.
+<END>
+
+#WRITE(PTR, $000016B4)
+【倫太郎】
+She was always close to you..!
+<END>
+
+#WRITE(PTR, $000016C4)
+【倫太郎】
+Hashida Suzu... no, Amane Suzuha, came to this era to fight SERN, as a time traveler...!
+<END>
+
+#WRITE(PTR, $000016D4)
+【天王寺】
+......
+<END>
+
+#WRITE(PTR, $000016E4)
+【天王寺】
+What...are...
+<END>
+
+#WRITE(PTR, $000016F4)
+【倫太郎】
+You didn't notice, did you, FB? Your benefactor came from the year 2036. She was a member of our lab. Daru's daughter.
+<END>
+
+#WRITE(PTR, $00001704)
+【倫太郎】
+Suzuha hated SERN. And yet you, who are indebted to that same Suzuha, are nothing but SERN's dog?
+<END>
+
+#WRITE(PTR, $00001714)
+【倫太郎】
+You're making Suzuha turn in her grave...!
+<END>
+
+#WRITE(PTR, $000017C2)
+【天王寺】
+Stop spewing bullshit.
+<END>
+
+#WRITE(PTR, $000017D2)
+Tennouji points the gun at me.
+<END>
+
+#WRITE(PTR, $000017E2)
+I almost flinched, but I endured.
+<END>
+
+#WRITE(PTR, $000017F2)
+【倫太郎】
+...Why did you become like this?
+<END>
+
+#WRITE(PTR, $00001802)
+【天王寺】
+Shaddup. Stuff happened.
+<END>
+
+#WRITE(PTR, $00001812)
+Stuff... huh.
+<END>
+
+#WRITE(PTR, $00001822)
+【萌郁】
+Are you really... FB...?
+<END>
+
+#WRITE(PTR, $00001832)
+Moeka looks at the scene bewildered.
+<END>
+
+#WRITE(PTR, $00001902)
+Tennouji sighs and puts the gun down.
+<END>
+
+#WRITE(PTR, $00001912)
+【天王寺】
+Yeah, I am.
+<END>
+
+#WRITE(PTR, $00001922)
+【萌郁】
+The mails...
+<END>
+
+#WRITE(PTR, $00001932)
+【天王寺】
+I wrote them all. Why use womanly words? Camouflage. To hide my identity.
+<END>
+
+#WRITE(PTR, $00001942)
+【天王寺】
+Aren't there tons of Guys In Real Life online?
+<END>
+
+#WRITE(PTR, $00001952)
+【天王寺】
+Seriously, though. It was dreadful, M4. You send too much mail.
+<END>
+
+#WRITE(PTR, $00001962)
+【天王寺】
+I responded to each of your boring-ass consultations, so show some gratitude.
+<END>
+
+#WRITE(PTR, $0000197C)
+【萌郁】
+No...way...
+<END>
+
+#WRITE(PTR, $0000198C)
+【萌郁】
+FB... was like... a mother... to me...
+<END>
+
+#WRITE(PTR, $0000199C)
+【萌郁】
+I'd do anything... for FB...
+<END>
+
+#WRITE(PTR, $000019AC)
+【天王寺】
+That was the point. It's so easy to manipulate mental cases like you who form dependencies so quickly.
+<END>
+
+#WRITE(PTR, $000019BC)
+【倫太郎】
+...just stop.
+<END>
+
+#WRITE(PTR, $00001A20)
+I approach Tennouji, but freeze once he points the gun at me again.
+<END>
+
+#WRITE(PTR, $00001A30)
+【萌郁】
+Why...didn't you... contact me..?
+<END>
+
+#WRITE(PTR, $00001A40)
+【天王寺】
+Contact? Ahh, once you got the IBN 5100, you were no use to us anymore.
+<END>
+
+#WRITE(PTR, $00001A50)
+【萌郁】
+...no use...
+<END>
+
+#WRITE(PTR, $00001A60)
+That was obvious.
+<END>
+
+#WRITE(PTR, $00001A70)
+I even said so to Moeka.
+<END>
+
+#WRITE(PTR, $00001A80)
+That Moeka was an abandoned piece.
+<END>
+
+#WRITE(PTR, $00001A90)
+And to prove it, Tennouji keeps talking.
+<END>
+
+#WRITE(PTR, $00001AA0)
+Rounders are disposable.
+<END>
+
+#WRITE(PTR, $00001AB0)
+【天王寺】
+Recruiting members by direct mail is bad in terms of confidentiality, but that's just how the Rounders roll.
+<END>
+
+#WRITE(PTR, $00001AC0)
+【天王寺】
+And any member who finds an IBN 5100 has done their duty and is silenced. Any member, without exception.
+<END>
+
+#WRITE(PTR, $00001AD0)
+What...? What is he saying?
+<END>
+
+#WRITE(PTR, $00001AE0)
+【天王寺】
+Doing so, SERN and the 'committee' can cheaply keep their secrets and use misfits like us.
+<END>
+
+#WRITE(PTR, $00001AF0)
+【萌郁】
+FB...
+<END>
+
+#WRITE(PTR, $00001B00)
+【天王寺】
+They see all members of the Rounders as pieces. How sad, huh.
+<END>
+
+#WRITE(PTR, $00001B10)
+Tennouji, thinking something or another, takes the gun he has pointed to me──
+<END>
+
+#WRITE(PTR, $00001B64)
+【天王寺】
+Doing your duty sets you up for 'disposal.' So we're more like livestock than dogs.
+<END>
+
+#WRITE(PTR, $00001B74)
+And, while smiling, pushes it to his own temple──
+<END>
+
+#WRITE(PTR, $00001B84)
+【萌郁】
+...Eh?
+<END>
+
+#WRITE(PTR, $00001B94)
+【天王寺】
+If you defy them, you expose your family to danger. I can't let them touch my precious daughter, can I?
+<END>
+
+#WRITE(PTR, $00001BA4)
+【倫太郎】
+Hey, stop this──
+<END>
+
+#WRITE(PTR, $00001BB4)
+【天王寺】
+I feel bad for Suzu-san──
+<END>
+
+#WRITE(PTR, $00001BC4)
+【天王寺】
+Really, I do wonder why things turned out like this.
+<END>
+
+#WRITE(PTR, $00001C88)
+Without time to stop him──
+<END>
+
+#WRITE(PTR, $00001EF2)
+【萌郁】
+Ah...ah...
+<END>
+
+#WRITE(PTR, $00001F02)
+【倫太郎】
+Wh...y...
+<END>
+
+#WRITE(PTR, $00001F12)
+Blood. Brains.
+<END>
+
+#WRITE(PTR, $00001F22)
+Scatter to the wall.
+<END>
+
+#WRITE(PTR, $00001F32)
+Tennouji's burly body... lies down without moving a twitch.
+<END>
+
+#WRITE(PTR, $00001F42)
+A blood red stain gradually spreads over the tatami mat.
+<END>
+
+#WRITE(PTR, $00001F52)
+Dead.
+<END>
+
+#WRITE(PTR, $00001F62)
+Tennouji is dead.
+<END>
+
+#WRITE(PTR, $00001F8C)
+【萌郁】
+「こん……こんなの……
+<END2>
+
+#WRITE(PTR, $00001FA4)
+うっ、うおおええ……」
+<END>
+
+#WRITE(PTR, $00001FC4)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00001FD4)
+Everything ended unintelligibly.
+<END>
+
+#WRITE(PTR, $00001FE4)
+Without us doing anything, Tennouji had done his duty and disposed of himself.
+<END>
+
+#WRITE(PTR, $00001FF4)
+Today, has the will of the world recognized Tennouji's death?
+<END>
+
+#WRITE(PTR, $00002004)
+【倫太郎】
+You're... an idiot...
+<END>
+
+#WRITE(PTR, $00002306)
+I strongly bite my lip.
+<END>
+
+#WRITE(PTR, $00002316)
+I pound my fists on the floor.
+<END>
+
+#WRITE(PTR, $00002326)
+【倫太郎】
+How could you leave your daughter and just die on your own...!
+<END>
+
+#WRITE(PTR, $00002336)
+He said it was to protect his daughter, but just what should that daughter do from now on?
+<END>
+
+#WRITE(PTR, $00002346)
+【倫太郎】
+Moreover, why... did you smile when you died...!
+<END>
+
+#WRITE(PTR, $00002466)
+All Rounder members are disposable? Sacrificial pieces?
+<END>
+
+#WRITE(PTR, $00002476)
+Not just Moeka, but even FB is a mere sacrificial piece?
+<END>
+
+#WRITE(PTR, $00002486)
+That's how SERN works?
+<END>
+
+#WRITE(PTR, $00002496)
+This is just messed up...!
+<END>
+
+#WRITE(PTR, $000024A6)
+It's too disconnected from reality.
+<END>
+
+#WRITE(PTR, $000024B6)
+Is Nae... still sleeping in the next room?
+<END>
+
+#WRITE(PTR, $000024C6)
+Not knowing her father died?
+<END>
+
+#WRITE(PTR, $00002546)
+How can I explain this to his daughter....
+<END>
+
+#WRITE(PTR, $00002556)
+Should I run?
+<END>
+
+#WRITE(PTR, $00002566)
+Again, strictly, my purpose is to obtain FB's phone.
+<END>
+
+#WRITE(PTR, $00002576)
+And then if I change the world line by sending a D-mail, the present will be reconstructed.
+<END>
+
+#WRITE(PTR, $00002586)
+So there's no need to shoulder the unpleasant responsibilities.
+<END>
+
+#WRITE(PTR, $00002596)
+Run away. To run away is to be called a coward.
+<END>
+
+#WRITE(PTR, $000025A6)
+Everything's going to be undone.
+<END>
+
+#WRITE(PTR, $000025B6)
+Yet I.
+<END>
+
+#WRITE(PTR, $000025C6)
+I timidly open the sliding door to the next room.
+<END>
+
+#WRITE(PTR, $00002628)
+Just as I thought, it's a child's room. There's a red backpack hanging next to the desk, and a futon is laid out.
+<END>
+
+#WRITE(PTR, $00002638)
+But Nae isn't there.
+<END>
+
+#WRITE(PTR, $00002648)
+The window is open, and the lace curtains are waving as if to invite the fresh morning breeze inside.
+<END>
+
+#WRITE(PTR, $00002658)
+【倫太郎】
+...she's gone?
+<END>
+
+#WRITE(PTR, $00002668)
+Where did... she go?
+<END>
+
+#WRITE(PTR, $00002678)
+Where did that kid... go....
+<END>
+
+#WRITE(PTR, $00002688)
+Don't tell me she was kidnapped by SERN?
+<END>
+
+#WRITE(PTR, $00002698)
+Or was she gone before we came here?
+<END>
+
+#WRITE(PTR, $000026A8)
+I don't know....
+<END>
+
+#WRITE(PTR, $000026B8)
+This is all so unexpected, I don't know what to think.
+<END>
+
+#WRITE(PTR, $000026E0)
+【倫太郎】
+Let's look for... his phone...
+<END>
+
+#WRITE(PTR, $000026F0)
+Manager's phone.
+<END>
+
+#WRITE(PTR, $0000278E)
+I'm relieved Nae isn't here.
+<END>
+
+#WRITE(PTR, $0000279E)
+I don't have to tell her about her father's death.
+<END>
+
+#WRITE(PTR, $000027AE)
+Manager's phone was in his pants pocket.
+<END>
+
+#WRITE(PTR, $000027BE)
+In any case, I was thinking about stealing it during the entire lookout.
+<END>
+
+#WRITE(PTR, $000027CE)
+If he resisted, I'd have the conviction to steal it even if I had to kill him, just like Kurisu said before.
+<END>
+
+#WRITE(PTR, $000027DE)
+But I never thought──
+<END>
+
+#WRITE(PTR, $000027EE)
+That he'd die before I killed him...
+<END>
+
+#WRITE(PTR, $000027FE)
+And now, like a hyena scavenging fresh flesh, I'm stealing the possessions of the recently deceased. I make myself want to puke.
+<END>
+
+#WRITE(PTR, $00002926)
+I couldn't find Nae after all.
+<END>
+
+#WRITE(PTR, $00002936)
+After getting Manager's phone, I carry the paralyzed Moeka on my shoulders, leaving the Tennouji residence as if running away.
+<END>
+
+#WRITE(PTR, $00002946)
+We regroup with Kurisu, who was waiting worried outside, and hail a taxi.
+<END>
+
+#WRITE(PTR, $00002956)
+If we had left the rental car parked close to that house, there's a possibility we'd become prime suspects.
+<END>
+
+#WRITE(PTR, $00002966)
+We should've properly reported it to the police, but we avoided getting asked the annoying details.
+<FILEEND06>
+

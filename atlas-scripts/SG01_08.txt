@@ -1,0 +1,352 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001366)
+
+#WRITE(PTR, $0000027C)
+【倫太郎】
+... Damn, it's hot.
+<END>
+
+#WRITE(PTR, $0000028C)
+When I returned to Akiba after going to the university in the morning, I was engulfed by an unbearable heat.
+<END>
+
+#WRITE(PTR, $0000029C)
+So for now, I decided to stay at a certain bakery in Yodobashi and appease my thirst with an iced coffee.
+<END>
+
+#WRITE(PTR, $000002AC)
+I'll take this opportunity to check out @channel on my cellphone.
+<END>
+
+#WRITE(PTR, $000002BC)
+This is a regular activity for me.
+<END>
+
+#WRITE(PTR, $000002CC)
+I frequent the occult and future technology boards, and occasionally visit the physics board.
+<END>
+
+#WRITE(PTR, $000002DC)
+There are some others that I go to, but not periodically.
+<END>
+
+#WRITE(PTR, $000002F0)
+I checked if @channel has any threads about either the mass disappearance phenomenon or the Makise Kurisu stabbing incident, but didn't find any.
+<END>
+
+#WRITE(PTR, $00000300)
+So, what I saw was actually a delusion...
+<END>
+
+#WRITE(PTR, $00000310)
+Some of the threads in the occult section have a person who calls himself 'John Titor' posting in them.
+<END>
+
+#WRITE(PTR, $00000320)
+John Titor? After such a long time?
+<END>
+
+#WRITE(PTR, $00000330)
+I actually know quite a lot about this guy.
+<END>
+
+#WRITE(PTR, $000003DA)
+He's a self-proclaimed time traveler who first appeared on American forums about 10 years ago.
+<END>
+
+#WRITE(PTR, $000003F4)
+Titor posted that he came from the year 2036 to get an old PC called '<DICT>IBN</DICT> 5100', while answering the questions of the forum <DICT> dwellers</DICT>.
+<END>
+
+#WRITE(PTR, $00000404)
+He partially 'predicted' certain future events, as well.
+<END>
+
+#WRITE(PTR, $0000041C)
+Examples of which are the outbreak of the Iraq war and the spread of the <DICT>Creutzfeld-Jakob disease</DICT>.
+<END>
+
+#WRITE(PTR, $0000042C)
+He tried to prove that he's a from the future by explaining the theory behind his time machine and taking pictures of it's instruction manual.
+<END>
+
+#WRITE(PTR, $0000043C)
+However, he disappeared after about 4 months without revealing his true identity to the public.
+<END>
+
+#WRITE(PTR, $0000044C)
+At one point, his predictions that turned out to be true became a hot subject in Japan.
+<END>
+
+#WRITE(PTR, $0000045C)
+Yes, there were things that he got right.
+<END>
+
+#WRITE(PTR, $0000046C)
+However, due to the many false predictions and contradictions in his posts, the majority of people are skeptical about him being a time traveler.
+<END>
+
+#WRITE(PTR, $0000047C)
+And so, you're telling me that, after 10 years, John Titor appeared in Japan's @channel?
+<END>
+
+#WRITE(PTR, $000004E8)
+How stupid... What an obvious <DICT>troll</DICT>.
+<END>
+
+#WRITE(PTR, $000004F8)
+In the first place, John Titor is an American, so why the hell is he posting on @channel in perfect Japanese?
+<END>
+
+#WRITE(PTR, $00000508)
+Well, I guess I'll check out what he says...
+<END>
+
+#WRITE(PTR, $00000738)
+Looks like he's a making a website.
+<END>
+
+#WRITE(PTR, $00000748)
+Wait, I'm quite sure that he already had one.
+<END>
+
+#WRITE(PTR, $0000075E)
+What this Titor is writing closely resembles the posts that the original Titor made 10 years ago.
+<END>
+
+#WRITE(PTR, $0000076E)
+Some of the books based on him are translated into Japanese and are being sold here.
+<END>
+
+#WRITE(PTR, $0000077E)
+I got my hands on one of them by accident, and got somewhat interested.
+<END>
+
+#WRITE(PTR, $0000078E)
+That's why I know that what he's posting here on @channel is pretty much the same as what the one from 10 years ago posted.
+<END>
+
+#WRITE(PTR, $0000079E)
+I wonder where I put that book...
+<END>
+
+#WRITE(PTR, $000007AE)
+I read it when I was in middle school, so it's probably in some shelf back at my parent's home.
+<END>
+
+#WRITE(PTR, $000007BE)
+Regardless of that, this new John Titor is nothing but an impostor.
+<END>
+
+#WRITE(PTR, $000007CE)
+No, the way he's pretty much copying and pasting everything makes him something below that.
+<END>
+
+#WRITE(PTR, $000007DE)
+There are a lot of enthusiasts on @channel.
+<END>
+
+#WRITE(PTR, $000007EE)
+It's true that John Titor is not that popular here in Japan, but I'm quite sure that these people won't fall for such a troll.
+<END>
+
+#WRITE(PTR, $0000089E)
+However, the reactions of the posters are quite the opposite.
+<END>
+
+#WRITE(PTR, $000008AE)
+It feels as if no one is aware of the first time that John Titor appeared.
+<END>
+
+#WRITE(PTR, $000008BE)
+No one is even talking about his appearance from 10 years ago.
+<END>
+
+#WRITE(PTR, $000008CE)
+I tried to post about it, but was completely ignored.
+<END>
+
+#WRITE(PTR, $000008DE)
+Damn it...! What the hell...!?
+<END>
+
+#WRITE(PTR, $00000942)
+I need to do some investigation on this.
+<END>
+
+#WRITE(PTR, $00000952)
+There's an American website about John Titor...
+<END>
+
+#WRITE(PTR, $00000962)
+And tons of personal blogs where people talk about him.
+<END>
+
+#WRITE(PTR, $00000972)
+I try looking up 'John Titor' on a search engine.
+<END>
+
+#WRITE(PTR, $00000A2C)
+<LINE>
+%LCSearch Results: 12 hits
+<ENDPANEL>
+
+#WRITE(PTR, $00000A64)
+Only 12?
+<END>
+
+#WRITE(PTR, $00000A74)
+Moreover, all 12 of the results are the posts that the current Titor is posting in @chan.
+<END>
+
+#WRITE(PTR, $00000A84)
+I can't find a single trace of the Titor from 10 years ago.
+<END>
+
+#WRITE(PTR, $00000A94)
+It's too weird. This definitely can't be real...
+<END>
+
+#WRITE(PTR, $00000AA4)
+A few years ago I made a search about him, and there were thousands of hits.
+<END>
+
+#WRITE(PTR, $00000AB4)
+Does this site use a filter or something?
+<END>
+
+#WRITE(PTR, $00000B1E)
+I test this out with another search engine, but the results were the same.
+<END>
+
+#WRITE(PTR, $00000B5C)
+This is truly getting to me...
+<END>
+
+#WRITE(PTR, $00000B6C)
+I feel as if I'm the only one who wandered into some other world.
+<END>
+
+#WRITE(PTR, $00000B7C)
+Is this a conspiracy of the Organization?
+<END>
+
+#WRITE(PTR, $00000B8C)
+This situation is making me feel somewhat eerie.
+<END>
+
+#WRITE(PTR, $00000B9C)
+Ever since yesterday, lots of confusing events have been happening.
+<END>
+
+#WRITE(PTR, $00000C0E)
+I'll try calling Daru.
+<END>
+
+#WRITE(PTR, $00000C2C)
+He will definitely know about Titor.
+<END>
+
+#WRITE(PTR, $00000C4A)
+That is something I'm certain about.
+<END>
+
+#WRITE(PTR, $00000C68)
+I actually talked with him about John Titor some time ago.
+<END>
+
+#WRITE(PTR, $00000C86)
+Though, I forgot the details of the conversation.
+<END>
+
+#WRITE(PTR, $00000CA4)
+However, I'm completely sure that the conversation happened.
+<END>
+
+#WRITE(PTR, $00000E98)
+【至】
+Yeah?
+<END>
+
+#WRITE(PTR, $00000EB4)
+【倫太郎】
+It's me, what's your situation?
+<END>
+
+#WRITE(PTR, $00000ED0)
+【至】
+... Okarin, can't you at least stop that stuff when talking on the phone?
+<END>
+
+#WRITE(PTR, $00000EEC)
+【倫太郎】
+I'm asking you about what you know concerning John Titor.
+<END>
+
+#WRITE(PTR, $00000F08)
+【至】
+I'm not really getting you, bro.
+<END>
+
+#WRITE(PTR, $00000F24)
+【倫太郎】
+At any rate, where are you now? Are you coming to the lab?
+<END>
+
+#WRITE(PTR, $00000F40)
+【至】
+Right now I'm at 'MayQueen+Nyan²'.
+<END>
+
+#WRITE(PTR, $00000F5C)
+【倫太郎】
+Again...?
+<END>
+
+#WRITE(PTR, $00000F74)
+'MayQueen+Nyan²' is <DICT>Maid Cafe</DICT> in Akiba.
+<END>
+
+#WRITE(PTR, $00000F84)
+Daru, who likes 3D maids, is a regular over there.
+<END>
+
+#WRITE(PTR, $00000F94)
+【倫太郎】
+I need to have a confidential conversation with you.
+<END>
+
+#WRITE(PTR, $00000FA4)
+Though, I don't think that the confidentiality will be necessary...
+<END>
+
+#WRITE(PTR, $00000FB4)
+【倫太郎】
+Don't leave until I come there.
+<END>
+
+#WRITE(PTR, $00000FD0)
+【至】
+Huh? You're coming? Sweet!
+<END>
+
+#WRITE(PTR, $00001144)
+Taking out my phone from the bag is such a pain, so I decided not to call Daru.
+<END>
+
+#WRITE(PTR, $00001154)
+However, on my way back to the lab, I sent him an email and got his location from the response.
+<END>
+
+#WRITE(PTR, $00001194)
+By 'MayQueen', he's referring to 'MayQueen+Nyan²', a <DICT> Maid Café</DICT>.
+<END>
+
+#WRITE(PTR, $000011A4)
+Daru, who likes 3D maids, is a regular over there.
+<FILEEND65>
+

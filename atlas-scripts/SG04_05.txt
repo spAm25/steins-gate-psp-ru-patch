@@ -1,0 +1,517 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000238C)
+
+#WRITE(PTR, $0000050C)
+ラボまで戻ってくると、２階へ続く階段の前に萌郁がしゃがみこんでいた。
+<END>
+
+#WRITE(PTR, $0000051C)
+せっかく常設してあるベンチにはあえて座ろうとしていないのは、膝を抱えるようにしゃがみ込むのがこの女のベスポジだからとかそういうジンクスがあるんだろうか。
+<END>
+
+#WRITE(PTR, $0000052C)
+萌郁は相変わらずケータイとにらめっこ中だった。
+<END>
+
+#WRITE(PTR, $0000057C)
+俺が近付いてくるのに気付くと、のろのろと立ち上がる。
+<END>
+
+#WRITE(PTR, $0000058C)
+しかし視線はこちらに向けようとしない。
+<END>
+
+#WRITE(PTR, $000005A6)
+【萌郁】
+...Thank you.
+<END>
+
+#WRITE(PTR, $000005B6)
+【倫太郎】
+For what?
+<END>
+
+#WRITE(PTR, $000005D0)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $000006E6)
+【倫太郎】
+I don't really think you're selfish. Rather, I'm the one who should be thankful for your request.
+<END>
+
+#WRITE(PTR, $000006F6)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000834)
+Once we enter the lab, I talk to all the lab mems doing their own thing about Moeka.
+<END>
+
+#WRITE(PTR, $0000084E)
+【まゆり】
+I think it's good-♪ Moeka-san is a lab mem after all, right-♪
+<END>
+
+#WRITE(PTR, $00000868)
+Daru and Kurisu, like Mayuri, don't object either.
+<END>
+
+#WRITE(PTR, $00000878)
+【至】
+So, what sorta mail does Kiryuu-shi plan to send?
+<END>
+
+#WRITE(PTR, $00000888)
+【倫太郎】
+My request is that its contents be simple, easy to understand, and that we can confirm whether or not the past changes.
+<END>
+
+#WRITE(PTR, $000008A2)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000944)
+And, a mail came.
+<END>
+
+#WRITE(PTR, $00000AA8)
+Why does she have to explain every little thing with a mail?
+<END>
+
+#WRITE(PTR, $00000ABE)
+No, More importantly--
+<END>
+
+#WRITE(PTR, $00000ACE)
+【倫太郎】
+A secret? What do you mean?
+<END>
+
+#WRITE(PTR, $00000AE8)
+【紅莉栖】
+What? What happened?
+<END>
+
+#WRITE(PTR, $00000AF8)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000C08)
+【倫太郎】
+No, there's no such problem.
+<END>
+
+#WRITE(PTR, $00000C58)
+Kurisu peeks at my phone from beside.
+<END>
+
+#WRITE(PTR, $00000C68)
+【紅莉栖】
+Hmmm, I see.
+<END>
+
+#WRITE(PTR, $00000C7E)
+【紅莉栖】
+I don't understand how you feel, but since this is strictly an experiment, data collection should take priority.
+<END>
+
+#WRITE(PTR, $00000C8E)
+【倫太郎】
+Hoooohhh.... We agree for once, Assistant.
+<END>
+
+#WRITE(PTR, $00000CA8)
+【紅莉栖】
+I-it's not like I'm agreeing with you. If we don't collect data, then no matter how much time passes, we won't figure out the structure of the Microwave Ophone.
+<END>
+
+#WRITE(PTR, $00000D26)
+【まゆり】
+But, but. You know, girls have tons of secrets.
+<END>
+
+#WRITE(PTR, $00000D40)
+【まゆり】
+It's the same as when you keep unspeakable secrets to yourself and say gehehe-, you know-?
+<END>
+
+#WRITE(PTR, $00000D88)
+【至】
+Kwahh!? Don't tell me this is turning into sexual harassment!?
+<END>
+
+#WRITE(PTR, $00000D98)
+【倫太郎】
+Calm down, Daru!
+<END>
+
+#WRITE(PTR, $00000DF4)
+I turn to Mayuri and Moeka, founders of the mainstream girl alliance.
+<END>
+
+#WRITE(PTR, $00000E04)
+【倫太郎】
+I don't remember forcing you to write deeply private matters in the mail.
+<END>
+
+#WRITE(PTR, $00000E4C)
+Kurisu nods deeply to my words. Looks like she doesn't intend to join the mainstream girl alliance.
+<END>
+
+#WRITE(PTR, $00000E72)
+【紅莉栖】
+Even if you want to send private content, we shouldn't for now. We haven't completely settled the problems of time paradoxes, so we need to be extremely careful.
+<END>
+
+#WRITE(PTR, $00000E82)
+【萌郁】
+...Private content is no good?
+<END>
+
+#WRITE(PTR, $00000E92)
+【紅莉栖】
+At least, nothing you want to keep undisclosed. Because, even if you mean well, the mail's contents might have a serious effect on the time axis.
+<END>
+
+#WRITE(PTR, $00000EA2)
+【紅莉栖】
+You should show your mail to a third party and have them check if the contents are problematic or not.
+<END>
+
+#WRITE(PTR, $00000EB2)
+【倫太郎】
+Mmhmm, Assistant said everything I wanted to say. And, with that said, we have no intention of halting the experiment!
+<END>
+
+#WRITE(PTR, $00000ECC)
+【紅莉栖】
+...It's not like I spoke for you. Don't misunderstand.
+<END>
+
+#WRITE(PTR, $00000EDC)
+She sure is cheeky to be emphasizing every single point.
+<END>
+
+#WRITE(PTR, $00000EF6)
+【紅莉栖】
+In the first place, experiments prioritize data over privacy. If you're going to be a test subject, you need to be prepared for that.
+<END>
+
+#WRITE(PTR, $00000F06)
+Don't tell me she's doesn't want to send a D-mail because she's not prepared for that.
+<END>
+
+#WRITE(PTR, $00000F20)
+【まゆり】
+Ehh-? Really-? Mayushii just sent a mail without being prepared for that-
+<END>
+
+#WRITE(PTR, $00000F3A)
+【まゆり】
+I'm sorry-, Chris-chan...
+<END>
+
+#WRITE(PTR, $00000F54)
+【紅莉栖】
+You don't have to apologize.... I'm not criticizing you. That's just the general rule.
+<END>
+
+#WRITE(PTR, $00000F64)
+I don't think I've heard of that general rule, but it looks like she'll snap at me if I say anything, so I'll stop for now.
+<END>
+
+#WRITE(PTR, $00000F8C)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000F9C)
+Moeka's expression doesn't change.
+<END>
+
+#WRITE(PTR, $00000FAC)
+Same as always. I don't know what she's thinking.
+<END>
+
+#WRITE(PTR, $00000FBC)
+【倫太郎】
+You're already a lab mem. You must have confidence in us. Save private information for another day.
+<END>
+
+#WRITE(PTR, $00000FCC)
+【倫太郎】
+If you say you can't, then... I'll be forced to show you. That which lies dormant in me, Hououin Kyouma: the power of ominous insanity...!
+<END>
+
+#WRITE(PTR, $00000FDC)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000FEC)
+Moeka's so concentrated on typing a mail, it doesn't seem like she heard my threat.
+<END>
+
+#WRITE(PTR, $00001102)
+【倫太郎】
+Hmm, umm, it'll be in the arrival history.
+<END>
+
+#WRITE(PTR, $0000111C)
+【萌郁】
+...And the send history?
+<END>
+
+#WRITE(PTR, $0000112C)
+【倫太郎】
+Nothing, wait, that's not quite it. It'll disappear from the send history.
+<END>
+
+#WRITE(PTR, $0000113C)
+I confirmed that after I sent that D-mail yesterday. Moeka should've been there, though.
+<END>
+
+#WRITE(PTR, $00001156)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $0000129E)
+Looks like she understands.
+<END>
+
+#WRITE(PTR, $000012AE)
+I show the mail to Kurisu too.
+<END>
+
+#WRITE(PTR, $00001304)
+【まゆり】
+Moeka-san, don't overdo it, okay-
+<END>
+
+#WRITE(PTR, $00001314)
+Consolation? Encouragement?
+<END>
+
+#WRITE(PTR, $00001324)
+I don't know her intention, but Mayuri worriedly calls out to Moeka.
+<END>
+
+#WRITE(PTR, $0000136C)
+【至】
+So then, whattaya sending? It's a pretty high hurdle to meet Okarin's request of changing the past in a simple to understand way.
+<END>
+
+#WRITE(PTR, $0000137C)
+【倫太郎】
+What are you saying? Isn't it just that all of your levels are too low?
+<END>
+
+#WRITE(PTR, $00001396)
+【萌郁】
+I have an idea.
+<END>
+
+#WRITE(PTR, $000013A6)
+Moeka murmurs.
+<END>
+
+#WRITE(PTR, $000013B6)
+【倫太郎】
+Hohh? Just as expected. Please, give us the details.
+<END>
+
+#WRITE(PTR, $000013D0)
+Then, Moeka invokes her special ability again.
+<END>
+
+#WRITE(PTR, $000013E0)
+High-speed dexterity. The manifestation of Shining Finger.
+<END>
+
+#WRITE(PTR, $000014F0)
+【倫太郎】
+Shining Finger sure is skilled, huh! A true model lab mem!
+<END>
+
+#WRITE(PTR, $00001500)
+With this idea, it should be simple enough to tell whether the past changed or not.
+<END>
+
+#WRITE(PTR, $00001548)
+Looks like these useless three have no objections to the superior masseuse's idea.
+<END>
+
+#WRITE(PTR, $0000159E)
+We look at Moeka's phone.
+<END>
+
+#WRITE(PTR, $000015F0)
+It's purple and gaudy.
+<END>
+
+#WRITE(PTR, $00001608)
+There's no strap, and it's not a <DICT>deco phone</DICT> popular among mainstream girls lately.
+<END>
+
+#WRITE(PTR, $00001650)
+【至】
+Oh, that's the GG01 that just came out last month.
+<END>
+
+#WRITE(PTR, $00001698)
+【まゆり】
+Gee Gee Zero One?
+<END>
+
+#WRITE(PTR, $000016B2)
+【至】
+The latest model. I'm pretty sure the LCD is detachable, so you can choose various attachments for it.
+<END>
+
+#WRITE(PTR, $000016C2)
+【至】
+Right now, it's in short supply, so you'd be put on a waiting list wherever you go. You really did well to get one.
+<END>
+
+#WRITE(PTR, $000016D2)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $000016E2)
+If she's really that uninterested in the latest popular model,
+<END>
+
+#WRITE(PTR, $000016F2)
+Then that means 24-hour phone users are picky about even popular models.
+<END>
+
+#WRITE(PTR, $0000170E)
+【倫太郎】
+So, Masseuse.
+<END>
+
+#WRITE(PTR, $00001728)
+【まゆり】
+Hey, hey, why do you call Moeka-san 'misuse'-?
+<END>
+
+#WRITE(PTR, $00001738)
+【倫太郎】
+"...That's the name I dubbed Kiryuu Moeka's special ability. Kiryuu Moeka, from here on, you shall call yourself the Flash Masseuse, or in other words, Shining Finger.
+<END>
+
+#WRITE(PTR, $00001752)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00001762)
+Moeka expressionlessly shakes her head.
+<END>
+
+#WRITE(PTR, $00001772)
+【倫太郎】
+What...? You don't like it? I named your special ability, so what are you displeased with...!
+<END>
+
+#WRITE(PTR, $0000178C)
+【まゆり】
+It's cause Moeka-san is Moeka-san. And she's not a masseuse, she works at an editorial company....
+<END>
+
+#WRITE(PTR, $000017A6)
+【至】
+Mayu-shi, it's uncool to seriously reply to trolls.
+<END>
+
+#WRITE(PTR, $000017B6)
+【倫太郎】
+I'm not trolling, just naming her ability.
+<END>
+
+#WRITE(PTR, $00001806)
+【紅莉栖】
+Cut the chatter and just start preparations.
+<END>
+
+#WRITE(PTR, $00001816)
+Gh, dammit. You're just an assistant. Don't boss us around....
+<END>
+
+#WRITE(PTR, $0000187E)
+【至】
+What if Manager Braun says something?
+<END>
+
+#WRITE(PTR, $0000188E)
+【倫太郎】
+Fuhahaha! Don't be afraid of Mister Braun! If he storms in yelling, I'll kick him to the curb!
+<END>
+
+#WRITE(PTR, $0000189E)
+【至】
+Seriously? Okarin, you're so cool. That's why I admire you!
+<END>
+
+#WRITE(PTR, $000018AE)
+【紅莉栖】
+He's just talk, isn't he?
+<END>
+
+#WRITE(PTR, $000018BE)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000018CE)
+I dare not object.
+<END>
+
+#WRITE(PTR, $000018DE)
+Moeka's already finished writing her 36 byte mail.
+<END>
+
+#WRITE(PTR, $000018EE)
+When I check Moeka's expression to see if her preparations are OK, she faintly nods.
+<END>
+
+#WRITE(PTR, $000018FE)
+We set the timer to 100 seconds. With this, we should be able to send it to Moeka's phone just about four days back-- to July 31st.
+<END>
+
+#WRITE(PTR, $0000190E)
+【倫太郎】
+「電話レンジ（仮）、起動！」
+<END>
+
+#WRITE(PTR, $00001BC4)
+作動から１５秒ほどで、放電現象が発生した。
+<END>
+
+#WRITE(PTR, $00001BD4)
+萌郁に目で合図する。
+<END>
+
+#WRITE(PTR, $00001BE4)
+萌郁は珍しく表情を引き締め、
+<END>
+
+#WRITE(PTR, $00001BF4)
+手に握りしめたケータイの送信ボタンを押した├┤
+<END>
+
+#WRITE(PTR, $00001C88)
+WD03.PMF
+<FILEEND9E>
+

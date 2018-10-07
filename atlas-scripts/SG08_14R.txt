@@ -1,0 +1,1514 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002D88)
+
+#WRITE(PTR, $000003A0)
+俺は両膝を抱え、壁にもたれたまま、長い長い空白を味わっていた。
+<END>
+
+#WRITE(PTR, $000003B0)
+まゆりが死んでから、どれぐらいの時間が流れたんだろう。
+<END>
+
+#WRITE(PTR, $000003C0)
+通夜にも、告別式にも出なかった。
+<END>
+
+#WRITE(PTR, $000003D0)
+出られるわけがない。
+<END>
+
+#WRITE(PTR, $000003E0)
+俺が殺したようなものなんだから。
+<END>
+
+#WRITE(PTR, $000003F0)
+なにも見たくない。
+<END>
+
+#WRITE(PTR, $00000400)
+誰にも会いたくない。
+<END>
+
+#WRITE(PTR, $00000410)
+息をするのさえ{億劫}[おっくう]だ。
+<END>
+
+#WRITE(PTR, $00000420)
+けれど俺は、この空虚な想いとも、心が押し潰されそうなほどの罪悪感とも、どちらとも向き合って、自分がしてしまったことを受け入れなければならないのだ。
+<END>
+
+#WRITE(PTR, $00000430)
+それが今の俺の義務。
+<END>
+
+#WRITE(PTR, $00000440)
+やらなければいけないこと。
+<END>
+
+#WRITE(PTR, $000004B6)
+と、外からカーテンを引く音がした。
+<END>
+
+#WRITE(PTR, $00000582)
+隣の談話室からの明かりが、射し込んでくる。
+<END>
+
+#WRITE(PTR, $00000592)
+その明かりを背にして、女が立っていた。
+<END>
+
+#WRITE(PTR, $000005EA)
+シルエットからそれが紅莉栖だと分かったが、俺はすぐに顔を伏せて雑音を遮断した。
+<END>
+
+#WRITE(PTR, $000005FA)
+【紅莉栖】
+Okabe. It's already been three days, so will you at least eat something?
+<END>
+
+#WRITE(PTR, $0000060A)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $0000061A)
+【紅莉栖】
+You knew, didn't you?
+<END>
+
+#WRITE(PTR, $0000062A)
+【紅莉栖】
+That, on that day, Mayuri would die.
+<END>
+
+#WRITE(PTR, $0000063A)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $0000064A)
+【紅莉栖】
+Why don't you time leap?
+<END>
+
+#WRITE(PTR, $0000065A)
+【紅莉栖】
+You wouldn't hesitate to use the Time Leap Machine to save Mayuri. That's what I hypothesized.
+<END>
+
+#WRITE(PTR, $0000066A)
+【紅莉栖】
+Anyway, what happened to your plan to change Urushibara-san's gender to male and take back the IBN 5100?
+<END>
+
+#WRITE(PTR, $0000067A)
+【紅莉栖】
+You were so focused on carrying out that plan to save Mayuri. Then, why──?
+<END>
+
+#WRITE(PTR, $0000068A)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $0000069A)
+【紅莉栖】
+Wait, by any chance, did you already get back the IBN 5100, and this is after you changed world lines?
+<END>
+
+#WRITE(PTR, $000006AA)
+【紅莉栖】
+And what's left here is Okabe Rintaro's remains. Left behind. And now this is the parallel world that continues from the future where Mayuri wasn't saved──
+<END>
+
+#WRITE(PTR, $000006BA)
+【倫太郎】
+...I didn't get back the IBN 5100.
+<END>
+
+#WRITE(PTR, $000006CA)
+It might be because I haven't spoken in three days, but my voice was hoarse.
+<END>
+
+#WRITE(PTR, $000006DA)
+【紅莉栖】
+What do you mean?
+<END>
+
+#WRITE(PTR, $000006EA)
+【倫太郎】
+...I couldn't change Lukako back into a guy.
+<END>
+
+#WRITE(PTR, $000006FA)
+【倫太郎】
+That's why I accepted this fate...
+<END>
+
+#WRITE(PTR, $0000070A)
+No, again, I chose words that make my actions seem ambiguous.
+<END>
+
+#WRITE(PTR, $0000071A)
+【倫太郎】
+I... let Mayuri die...
+<END>
+
+#WRITE(PTR, $0000072A)
+【紅莉栖】
+......
+<END>
+
+#WRITE(PTR, $0000073A)
+Kurisu catches her breath.
+<END>
+
+#WRITE(PTR, $0000074A)
+Why did I confess?
+<END>
+
+#WRITE(PTR, $0000075A)
+It's not something I should confess so easily.
+<END>
+
+#WRITE(PTR, $0000076A)
+Almost like calling myself a murderer.
+<END>
+
+#WRITE(PTR, $0000077A)
+It should've been Lukako's and my secret.
+<END>
+
+#WRITE(PTR, $0000078A)
+And yet, I──
+<END>
+
+#WRITE(PTR, $0000079A)
+Do I want to be criticized, to put myself at ease?
+<END>
+
+#WRITE(PTR, $000007AA)
+At this rate, it seems like it's a lot more preferable to be criticized by someone than to keep living with the pain of keeping it bottled up.
+<END>
+
+#WRITE(PTR, $000007BA)
+And, if that someone is Kurisu, I'm sure she would tell me exactly what's on her mind.
+<END>
+
+#WRITE(PTR, $000007CA)
+Like, 'You're the worst.
+<END>
+
+#WRITE(PTR, $000007DA)
+But──
+<END>
+
+#WRITE(PTR, $000007EA)
+【紅莉栖】
+...will you eat?
+<END>
+
+#WRITE(PTR, $00000876)
+Kurisu didn't criticize me.
+<END>
+
+#WRITE(PTR, $00000886)
+【紅莉栖】
+If you're okay with cup noodles, I can prepare that. Or do you want to go buy something?
+<END>
+
+#WRITE(PTR, $00000896)
+【倫太郎】
+Blame me. Scold me for killing Mayuri...
+<END>
+
+#WRITE(PTR, $000008B0)
+【紅莉栖】
+I do want to scold you, but let's stop. It doesn't look like I need to say anything.
+<END>
+
+#WRITE(PTR, $000008C0)
+【紅莉栖】
+Returning to the past and bending the laws of causality might be an impertinent act, after all.
+<END>
+
+#WRITE(PTR, $000008D0)
+【紅莉栖】
+More importantly...
+<END>
+
+#WRITE(PTR, $000008EA)
+【紅莉栖】
+There's no way that I could scold you.
+<END>
+
+#WRITE(PTR, $000008FA)
+【紅莉栖】
+You've been fighting all alone this whole time as the only existence outside the confines of cause and effect.
+<END>
+
+#WRITE(PTR, $0000090A)
+【紅莉栖】
+So no one else can understand your pain but you──
+<END>
+
+#WRITE(PTR, $0000091A)
+【紅莉栖】
+No one else but you can understand the meaning of your choice.
+<END>
+
+#WRITE(PTR, $0000092A)
+【紅莉栖】
+There's no way I can blame you when I haven't time leaped even once.
+<END>
+
+#WRITE(PTR, $0000093A)
+【倫太郎】
+...How can you be so understanding?
+<END>
+
+#WRITE(PTR, $0000094A)
+I strongly grasp my knees.
+<END>
+
+#WRITE(PTR, $0000095A)
+【紅莉栖】
+There's no way I could understand. When you decided to save Mayuri by time leaping, you must've made a resolve that nobody else could understand.
+<END>
+
+#WRITE(PTR, $00000974)
+【紅莉栖】
+So accept what you've done.
+<END>
+
+#WRITE(PTR, $00000984)
+【紅莉栖】
+If you do that, then you'll never forget the meaning of what you've done.
+<END>
+
+#WRITE(PTR, $00000994)
+So, in other words, Kurisu's telling me to Suffer by yourself.
+<END>
+
+#WRITE(PTR, $000009A4)
+What a sadistic woman....
+<END>
+
+#WRITE(PTR, $000009BE)
+【紅莉栖】
+But...
+<END>
+
+#WRITE(PTR, $000009D8)
+【紅莉栖】
+You should take responsibility for the other girl you saved with your choice.
+<END>
+
+#WRITE(PTR, $000009EC)
+【紅莉栖】
+「まゆりは死んだわ。
+<END2>
+
+#WRITE(PTR, $00000A06)
+残念だけど、残念っていう言葉だけじゃ足りないぐらい悲しいけど、とにかくまゆりはもういない」
+<END>
+
+#WRITE(PTR, $00000A1A)
+【紅莉栖】
+You couldn't oppose the world's convergence, the world's will.
+<END>
+
+#WRITE(PTR, $00000A2A)
+【紅莉栖】
+But, that girl is still alive. Thanks to you, she's still alive, as a girl.
+<END>
+
+#WRITE(PTR, $00000A44)
+【紅莉栖】
+And I think she's suffering all alone, just like you.
+<END>
+
+#WRITE(PTR, $00000A54)
+【紅莉栖】
+The only one who can understand her suffering is you, Okabe, her 'accomplice, ' right?
+<END>
+
+#WRITE(PTR, $00000A64)
+【倫太郎】
+Accomplice...
+<END>
+
+#WRITE(PTR, $00000B7A)
+The woman named Makise Kurisu.
+<END>
+
+#WRITE(PTR, $00000B8A)
+Is truly harsh....
+<END>
+
+#WRITE(PTR, $00000B9A)
+Lukako's image floats through my mind.
+<END>
+
+#WRITE(PTR, $00000BAA)
+She used to be a guy.
+<END>
+
+#WRITE(PTR, $00000BBA)
+But now she's a woman. And from now on, she'll live as a woman.
+<END>
+
+#WRITE(PTR, $00000BCA)
+The one who chose that future for Lukako is, without a doubt, me.
+<END>
+
+#WRITE(PTR, $00000BDA)
+When I imagine her frail smile, I feel like a spring has sprung in the frozen soil of my dry heart.
+<END>
+
+#WRITE(PTR, $00000BEA)
+I can't bear to lose Lukako after sacrificing Mayuri....
+<END>
+
+#WRITE(PTR, $00000BFA)
+In that case, what I can do is──
+<END>
+
+#WRITE(PTR, $00000C0A)
+【倫太郎】
+Thank you, Kurisu.
+<END>
+
+#WRITE(PTR, $00000C1A)
+【倫太郎】
+I'm glad I talked with you.
+<END>
+
+#WRITE(PTR, $00000D5C)
+I walk onto the shrine's grounds and almost feel the heat on my skin slowly lower.
+<END>
+
+#WRITE(PTR, $00000D6C)
+The large tree next to the main building. Its branches coated with luscious leaves sway in the gentle breeze.
+<END>
+
+#WRITE(PTR, $00000D7C)
+These silently still grounds seem slightly cooler than the crowded buildings in front of the station.
+<END>
+
+#WRITE(PTR, $00000D8C)
+We might also be near the Kanda River.
+<END>
+
+#WRITE(PTR, $00000D9C)
+It's devoid of people, as usual.
+<END>
+
+#WRITE(PTR, $00000DAC)
+I casually advance towards the offertory box, absentmindedly gazing at the shrine.
+<END>
+
+#WRITE(PTR, $00000DBC)
+I wonder if Lukako's home.
+<END>
+
+#WRITE(PTR, $00000DCC)
+Her family should be here too. How to call for her.
+<END>
+
+#WRITE(PTR, $00000DDC)
+As I think this, the wind suddenly lets up, and the sound of trees rustling stops for a bit.
+<END>
+
+#WRITE(PTR, $00000DEC)
+And in it's place, I hear sobbing deep within.
+<END>
+
+#WRITE(PTR, $00000DFC)
+Sounds like it's behind the main building.
+<END>
+
+#WRITE(PTR, $00000E0C)
+I gain some confidence, and slowly head towards the voice.
+<END>
+
+#WRITE(PTR, $00000E68)
+【るか】
+Uh... sniff...
+<END>
+
+#WRITE(PTR, $00000E78)
+Subduing her voice.
+<END>
+
+#WRITE(PTR, $00000E88)
+Hugging her knees.
+<END>
+
+#WRITE(PTR, $00000E98)
+Holding Summer Rain"Samidare".
+<END>
+
+#WRITE(PTR, $00000EA8)
+Lukako was there, crying.
+<END>
+
+#WRITE(PTR, $00000EB8)
+【倫太郎】
+Lukako...
+<END>
+
+#WRITE(PTR, $00000EC8)
+【るか】
+...Okabe, san.
+<END>
+
+#WRITE(PTR, $00000ED8)
+Lukako turns her wet eyes towards me when she notices me, but immediately afterwards, buries her face in her knees.
+<END>
+
+#WRITE(PTR, $00000EE8)
+And then her shoulders start shaking.
+<END>
+
+#WRITE(PTR, $00000EF8)
+【るか】
+Yesterday... I went to Mayuri-chan's funeral...
+<END>
+
+#WRITE(PTR, $00000F08)
+【るか】
+Everyone cried. I didn't know Mayuri-chan was loved by so many people...
+<END>
+
+#WRITE(PTR, $00000F18)
+【るか】
+Of course, I loved Mayuri-chan too...
+<END>
+
+#WRITE(PTR, $00000F28)
+【るか】
+I'm not really good with strangers, but Mayuri-chan would still brightly talk to me...
+<END>
+
+#WRITE(PTR, $00000F38)
+【るか】
+She was the friend I loved the most...
+<END>
+
+#WRITE(PTR, $00000F48)
+I lost the words I was about to say.
+<END>
+
+#WRITE(PTR, $00000F58)
+All I could do was sit silently next to Lukako.
+<END>
+
+#WRITE(PTR, $00000F68)
+【るか】
+But still, why, Okabe-san...
+<END>
+
+#WRITE(PTR, $00000F78)
+【るか】
+Why... are we... still alive?
+<END>
+
+#WRITE(PTR, $00000F88)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00000F98)
+【るか】
+Even though Mayuri-chan died...
+<END>
+
+#WRITE(PTR, $00000FA8)
+【るか】
+Now, while I'm still a girl...
+<END>
+
+#WRITE(PTR, $00000FB8)
+Since she somehow got back her memories from when she was a guy.
+<END>
+
+#WRITE(PTR, $00000FC8)
+Now, Lukako is beginning to have gender identity issues.
+<END>
+
+#WRITE(PTR, $00000FD8)
+I don't know that feeling.
+<END>
+
+#WRITE(PTR, $00000FE8)
+Just as Kurisu said, Lukako is also isolated outside the confines of cause and effect.
+<END>
+
+#WRITE(PTR, $00000FF8)
+【るか】
+It just doesn't feel right... for me to keep living like this...
+<END>
+
+#WRITE(PTR, $00001008)
+【倫太郎】
+That's not true.
+<END>
+
+#WRITE(PTR, $00001018)
+Even though I try to cheer her up with those careless words, Lukako keeps shaking her head in denial.
+<END>
+
+#WRITE(PTR, $00001028)
+【るか】
+Okabe-san, is there any way at all to save Mayuri-chan...?
+<END>
+
+#WRITE(PTR, $00001038)
+【倫太郎】
+...It's useless.
+<END>
+
+#WRITE(PTR, $00001048)
+【るか】
+No way...!
+<END>
+
+#WRITE(PTR, $000010AC)
+Lukako stands up while crying and pleads with me.
+<END>
+
+#WRITE(PTR, $000010BC)
+【るか】
+Let's keep thinking.... I'll do anything if it'll save Mayuri-chan...!
+<END>
+
+#WRITE(PTR, $000010CC)
+【るか】
+I heard from Mayuri-chan before.... that Okabe-san made a device that goes back in time.
+<END>
+
+#WRITE(PTR, $000010DC)
+Is she talking about the Time Leap Machine...
+<END>
+
+#WRITE(PTR, $000010EC)
+【るか】
+If we use that──
+<END>
+
+#WRITE(PTR, $000010FC)
+【倫太郎】
+It's useless.
+<END>
+
+#WRITE(PTR, $0000110C)
+【るか】
+If we go back in time, I'm sure we'll find a way...
+<END>
+
+#WRITE(PTR, $0000111C)
+【倫太郎】
+There is... no way.
+<END>
+
+#WRITE(PTR, $0000112C)
+I declare so while clenching my fist and hanging my head.
+<END>
+
+#WRITE(PTR, $0000113C)
+【倫太郎】
+It may be cruel, but all we can do is accept Mayuri's death, and keep on living.
+<END>
+
+#WRITE(PTR, $00001156)
+【るか】
+You can't give up...! Why are you giving up? Aren't you sad at all that Mayuri-chan died?
+<END>
+
+#WRITE(PTR, $00001166)
+【倫太郎】
+...In any case, there is no way.
+<END>
+
+#WRITE(PTR, $00001176)
+【るか】
+No, I don't want Mayuri-chan to die...!
+<END>
+
+#WRITE(PTR, $00001186)
+【倫太郎】
+Lukako!
+<END>
+
+#WRITE(PTR, $000011A0)
+Lukako's whole body winces when I grab her shoulder and raise my voice.
+<END>
+
+#WRITE(PTR, $000011B0)
+【倫太郎】
+Did you... really think I gave up that easily?
+<END>
+
+#WRITE(PTR, $000011C0)
+【るか】
+Okabe...san...
+<END>
+
+#WRITE(PTR, $000011D0)
+【倫太郎】
+She was my very important childhood friend.... There's no way I could have given up on her...
+<END>
+
+#WRITE(PTR, $000011E0)
+【倫太郎】
+I thought. I thought so much I could die, I struggled, and I struggled, and tried any means I thought could help...! How many times do you think I've gone back in time...
+<END>
+
+#WRITE(PTR, $000011F0)
+【倫太郎】
+But it was all useless.... The world just wants her dead. No matter how I try to avoid it, the world snatches Mayuri away just to laugh at me...
+<END>
+
+#WRITE(PTR, $00001200)
+【倫太郎】
+To save Mayuri, I've sacrificed other people's memories. I did so to save Mayuri, no matter whom I hurt.
+<END>
+
+#WRITE(PTR, $00001210)
+【倫太郎】
+But that's my limit...
+<END>
+
+#WRITE(PTR, $00001220)
+【倫太郎】
+It's already useless...
+<END>
+
+#WRITE(PTR, $00001230)
+There is a way. There are still ways to save Mayuri.
+<END>
+
+#WRITE(PTR, $00001240)
+But I chose none of them.
+<END>
+
+#WRITE(PTR, $00001250)
+Theoretically, it's not impossible.
+<END>
+
+#WRITE(PTR, $00001260)
+But, it's impossible, for me.
+<END>
+
+#WRITE(PTR, $0000127A)
+【るか】
+...I'm sorry.
+<END>
+
+#WRITE(PTR, $0000128A)
+【るか】
+I didn't think even stop to think... about Okabe-san's feelings.
+<END>
+
+#WRITE(PTR, $0000129A)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000012AA)
+【るか】
+But, there's no way, that it's useless.... Isn't there still one more way left....?
+<END>
+
+#WRITE(PTR, $000012BA)
+【るか】
+If you turn me back into a guy──
+<END>
+
+#WRITE(PTR, $000012CA)
+【倫太郎】
+That's no good.
+<END>
+
+#WRITE(PTR, $000012DA)
+If we do that, then this choice will have no meaning.
+<END>
+
+#WRITE(PTR, $000012EA)
+I chose Lukako instead of Mayuri. That's how it is, if you think about it.
+<END>
+
+#WRITE(PTR, $00001304)
+【るか】
+Please, Okabe-san. I don't want to be a girl so badly that I'd sacrifice Mayuri-chan...!
+<END>
+
+#WRITE(PTR, $00001314)
+【るか】
+Please, let me save Mayuri-chan...!
+<END>
+
+#WRITE(PTR, $00001324)
+【倫太郎】
+I won't turn you back into a guy.
+<END>
+
+#WRITE(PTR, $0000133E)
+【るか】
+Why...
+<END>
+
+#WRITE(PTR, $0000134E)
+【るか】
+Why won't you...!?
+<END>
+
+#WRITE(PTR, $0000135E)
+【倫太郎】
+That's what I chose. I can't keep on hurting people to feed my ego.
+<END>
+
+#WRITE(PTR, $0000136E)
+【倫太郎】
+Besides, even if we go back to the original world line, it's not certain we can avoid Mayuri's death.
+<END>
+
+#WRITE(PTR, $0000137E)
+【倫太郎】
+I... won't sacrifice anyone's memories... I won't sacrifice your memories... for just a small chance like that.
+<END>
+
+#WRITE(PTR, $0000138E)
+【倫太郎】
+So that's enough.
+<END>
+
+#WRITE(PTR, $0000139E)
+【るか】
+Okabe-san...
+<END>
+
+#WRITE(PTR, $000013AE)
+【るか】
+But, this is unforgivable.
+<END>
+
+#WRITE(PTR, $000013C8)
+【るか】
+I don't... an existence like me, doesn't deserve to live...
+<END>
+
+#WRITE(PTR, $000013D8)
+【るか】
+How can I keep living like this... knowing that me being a girl contributed to Mayuri's death...?
+<END>
+
+#WRITE(PTR, $000013E8)
+【るか】
+That's too heavy a burden... for me to bear...
+<END>
+
+#WRITE(PTR, $000013F8)
+【るか】
+So, why...
+<END>
+
+#WRITE(PTR, $00001408)
+【るか】
+Why didn't you send the mail to my mom's pager 18 years ago...?
+<END>
+
+#WRITE(PTR, $00001418)
+【るか】
+Why didn't you chose Mayuri-chan... but me...?
+<END>
+
+#WRITE(PTR, $00001428)
+【倫太郎】
+You have nothing to feel indebted about. Everything is my choice.
+<END>
+
+#WRITE(PTR, $00001438)
+【倫太郎】
+The one who killed Mayuri is me. So, all the guilt hangs on me.
+<END>
+
+#WRITE(PTR, $00001448)
+I hold the god-rivaling power known as the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00001458)
+I chose Mayuri's Death out of the infinite futures.
+<END>
+
+#WRITE(PTR, $00001468)
+And so, I must naturally carry the responsibility equal to the gods.
+<END>
+
+#WRITE(PTR, $00001478)
+【倫太郎】
+And, I thought I wanted you to be happy.
+<END>
+
+#WRITE(PTR, $00001492)
+【るか】
+......
+<END>
+
+#WRITE(PTR, $000014A2)
+【るか】
+Happy? How can I possibly be happy...
+<END>
+
+#WRITE(PTR, $000014B2)
+【るか】
+When Mayuri died because of me...
+<END>
+
+#WRITE(PTR, $000014C2)
+【倫太郎】
+It wasn't because of you. Please don't say that again. You might be sad now, but...
+<END>
+
+#WRITE(PTR, $000014D2)
+【倫太郎】
+I want you to keep going forward, and live enough for Mayuri too.
+<END>
+
+#WRITE(PTR, $000014EC)
+【るか】
+No way... I don't want that!
+<END>
+
+#WRITE(PTR, $000014FC)
+Lukako clings to my chest.
+<END>
+
+#WRITE(PTR, $0000150C)
+She focuses on me without wiping her tears.
+<END>
+
+#WRITE(PTR, $0000151C)
+【るか】
+In that case... In that case, I want to help bear Okabe's burden together...
+<END>
+
+#WRITE(PTR, $0000152C)
+【倫太郎】
+Bear... together? What nonsense.
+<END>
+
+#WRITE(PTR, $0000153C)
+【倫太郎】
+I am a human outside of the confines of cause and effect, the human that chose to let Mayuri die──
+<END>
+
+#WRITE(PTR, $0000154C)
+【るか】
+Then me too... I'll go outside the confines of cause and effect...
+<END>
+
+#WRITE(PTR, $0000155C)
+【るか】
+I regained the memories of my time as a guy, so doesn't that mean I'm already outside...?
+<END>
+
+#WRITE(PTR, $0000156C)
+【るか】
+I also know that I'm living as a woman in exchange for Mayuri's fate, too...
+<END>
+
+#WRITE(PTR, $0000157C)
+【るか】
+We're accomplices...
+<END>
+
+#WRITE(PTR, $0000158C)
+Kurisu said the same thing.
+<END>
+
+#WRITE(PTR, $0000159C)
+Luka and I are accomplices.
+<END>
+
+#WRITE(PTR, $000015B6)
+【るか】
+This sadness. And this indebtedness.
+<END>
+
+#WRITE(PTR, $000015C6)
+【るか】
+I want the two of us to embrace them, so we don't forget...
+<END>
+
+#WRITE(PTR, $000015D6)
+The two of us are existences isolated outside the confines of cause and effect, where nobody else can understand us.
+<END>
+
+#WRITE(PTR, $000015E6)
+That's why──
+<END>
+
+#WRITE(PTR, $000015F6)
+【倫太郎】
+Yeah, I understand...
+<END>
+
+#WRITE(PTR, $00001606)
+I strongly embrace Lukako.
+<END>
+
+#WRITE(PTR, $00001616)
+【倫太郎】
+Let's bear our burden, together...
+<END>
+
+#WRITE(PTR, $00001626)
+【倫太郎】
+Let's live... without forgetting this memory, together...
+<END>
+
+#WRITE(PTR, $00001640)
+【るか】
+Can I stay by you, forever?
+<END>
+
+#WRITE(PTR, $00001650)
+【るか】
+Because... I love you, Okabe-san...
+<END>
+
+#WRITE(PTR, $00001660)
+【るか】
+I might be betraying Mayuri-chan, but... I want to be together forever...
+<END>
+
+#WRITE(PTR, $00001670)
+【倫太郎】
+Of course.
+<END>
+
+#WRITE(PTR, $00001680)
+We both bear the same burden of indebtedness.
+<END>
+
+#WRITE(PTR, $00001690)
+From now on, we press our shoulders together, accepting Mayuri's death, yet still living.
+<END>
+
+#WRITE(PTR, $000017E2)
+After that, we passed the time sitting down together until the sky turned the color of dusk.
+<END>
+
+#WRITE(PTR, $000017F2)
+We didn't really do anything, and we didn't really talk about anything.
+<END>
+
+#WRITE(PTR, $00001802)
+Lukako rests her head on my shoulder.
+<END>
+
+#WRITE(PTR, $00001812)
+I embraced her shoulder, and feel her breathing near me.
+<END>
+
+#WRITE(PTR, $00001822)
+We just kept silently gazing at the sky.
+<END>
+
+#WRITE(PTR, $00001832)
+And in our hearts, we prayed for Mayuri's happiness in the afterlife.
+<END>
+
+#WRITE(PTR, $00001842)
+I'm sorry, Mayuri.
+<END>
+
+#WRITE(PTR, $00001852)
+I'm sorry....
+<END>
+
+#WRITE(PTR, $0000186C)
+【るか】
+Hey, Okabe-san...
+<END>
+
+#WRITE(PTR, $0000187C)
+Lukako raises her head and breaks the silence.
+<END>
+
+#WRITE(PTR, $0000188C)
+I could feel some sort of resolution emanating from her expression.
+<END>
+
+#WRITE(PTR, $0000189C)
+【るか】
+There's still one thing that I should have done for Mayuri-chan that I left undone...
+<END>
+
+#WRITE(PTR, $000018AC)
+【るか】
+Because of that, I made a sad memory for Mayuri-chan...
+<END>
+
+#WRITE(PTR, $000018BC)
+【倫太郎】
+Something left undone?
+<END>
+
+#WRITE(PTR, $000018CC)
+【るか】
+...Cosplay.
+<END>
+
+#WRITE(PTR, $000018DC)
+Oh, that....
+<END>
+
+#WRITE(PTR, $000018EC)
+These last few weeks, Mayuri was constantly asking Lukako to wear the costumes she made for her.
+<END>
+
+#WRITE(PTR, $000018FC)
+But, Lukako would always reject her, because it's too embarrassing.
+<END>
+
+#WRITE(PTR, $0000190C)
+I remember Mayuri on the day she died.
+<END>
+
+#WRITE(PTR, $00001A08)
+【まゆり】
+I think it would really fit Luka-chan if she cosplayed Kirari-chan-
+<END>
+
+#WRITE(PTR, $00001A18)
+【まゆり】
+Luka-chan is so cute, she makes Mayushii's heart throb, you know.
+<END>
+
+#WRITE(PTR, $00001A44)
+【まゆり】
+Luka-chan's usually a very obedient girl, right-? She rarely gives her own opinion.
+<END>
+
+#WRITE(PTR, $00001A54)
+【まゆり】
+When you cosplay, your 'usual' self becomes 'another' self.
+<END>
+
+#WRITE(PTR, $00001A64)
+【まゆり】
+That's why I think that if Luka-chan cosplays once, even if it's embarrassing at first, she'll definitely find a new Luka-chan.
+<END>
+
+#WRITE(PTR, $00001A74)
+【まゆり】
+And when that happens, she'll become more assertive than before, and maybe even dominate Okarin in the butt-. Ehhehe-
+<END>
+
+#WRITE(PTR, $00001ADE)
+Even on that day, Mayuri would only talk about Lukako.
+<END>
+
+#WRITE(PTR, $00001AEE)
+I stood her up on my promise to bring Lukako to ComiMa, and made her lonely, even though she got over it.
+<END>
+
+#WRITE(PTR, $00001AFE)
+Mayuri wanted to get Lukako to cosplay from the bottom of her heart.
+<END>
+
+#WRITE(PTR, $00001B0E)
+【るか】
+Could that machine that goes back in time... go back to that day?
+<END>
+
+#WRITE(PTR, $00001B1E)
+【倫太郎】
+Go back?' You mean, you will...!?
+<END>
+
+#WRITE(PTR, $00001B2E)
+Lukako nods firmly.
+<END>
+
+#WRITE(PTR, $00001B3E)
+【倫太郎】
+Are you serious?
+<END>
+
+#WRITE(PTR, $00001B4E)
+Nobody has used the Time Leap Machine except me.
+<END>
+
+#WRITE(PTR, $00001B5E)
+At present, it's never failed, but if something does happen, it might not be reversible.
+<END>
+
+#WRITE(PTR, $00001B6E)
+In SERN's time machine experiments, the test subjects turned into jellymen. Something like that may happen, and there's a significant possibility that her memories might break in the process.
+<END>
+
+#WRITE(PTR, $00001B7E)
+【倫太郎】
+It's too dangerous. So far, only I have used it...
+<END>
+
+#WRITE(PTR, $00001B8E)
+【るか】
+Please...!
+<END>
+
+#WRITE(PTR, $00001BA8)
+【るか】
+At the very least, I want Mayuri-chan to leave with a smile...
+<END>
+
+#WRITE(PTR, $00001BB8)
+【るか】
+Because I wasn't able to do anything for her...
+<END>
+
+#WRITE(PTR, $00001BC8)
+【倫太郎】
+But if we go there, you're won't be able to handle all the otaku.
+<END>
+
+#WRITE(PTR, $00001BD8)
+【るか】
+I am a bit scared after all.... But... I never said that...
+<END>
+
+#WRITE(PTR, $00001BF2)
+【るか】
+Besides that, I want to really be the same as Okabe-san.
+<END>
+
+#WRITE(PTR, $00001C02)
+【るか】
+If I use that device... I'll have completely gone outside the confines of cause and effect, won't I?
+<END>
+
+#WRITE(PTR, $00001C12)
+【るか】
+And then I can bear the same feelings as Okabe-san....
+<END>
+
+#WRITE(PTR, $00001C22)
+【るか】
+So please...
+<END>
+
+#WRITE(PTR, $00001C32)
+That innocent emotion warms my heart.
+<END>
+
+#WRITE(PTR, $00001C42)
+Lukako is thinking about me and Mayuri from the bottom of her heart.
+<END>
+
+#WRITE(PTR, $00001C52)
+In the end, I couldn't say no to those feelings.
+<END>
+
+#WRITE(PTR, $00001D80)
+When we got back to the lab, neither Daru nor Kurisu were there.
+<END>
+
+#WRITE(PTR, $00001D90)
+Even though just a few days ago, Mayuri, Kurisu, Daru, and I, along with the others were spending our time noisily here.
+<END>
+
+#WRITE(PTR, $00001DA0)
+With Mayuri gone, it seems like only dreams of those days are left behind.
+<END>
+
+#WRITE(PTR, $00001DB0)
+Now, only loneliness floats through the lab.
+<END>
+
+#WRITE(PTR, $00001DC0)
+But without expressing those feelings, I entered the experiment room with Lukako.
+<END>
+
+#WRITE(PTR, $00001E60)
+Luckily, the CRT downstairs was turned on, so we could immediately begin time leaping.
+<END>
+
+#WRITE(PTR, $00001E70)
+【倫太郎】
+What time will you jump to?
+<END>
+
+#WRITE(PTR, $00001EB8)
+【るか】
+...The morning of that day.
+<END>
+
+#WRITE(PTR, $00001EC8)
+【るか】
+If I jump to the day before, I don't think I would be mentally stable enough to accept it as reality.
+<END>
+
+#WRITE(PTR, $00001ED8)
+【るか】
+So please...
+<END>
+
+#WRITE(PTR, $00001EE8)
+Meaning she's chosen the very day to cosplay with a smile.
+<END>
+
+#WRITE(PTR, $00001EF8)
+But to jump to that day would take at least three jumps.
+<END>
+
+#WRITE(PTR, $00001F08)
+I don't know if we can successfully get her to the 15th....
+<END>
+
+#WRITE(PTR, $00001F18)
+I'm worried, but Lukako's will doesn't waver.
+<END>
+
+#WRITE(PTR, $00001F28)
+【倫太郎】
+Get in touch with me after you've leaped safely. Then I'm sure I'd take you to where Mayuri is.
+<END>
+
+#WRITE(PTR, $00001F38)
+【るか】
+Okay...
+<END>
+
+#WRITE(PTR, $00001F48)
+I cover Lukako's head with the headgear attached to the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00001F58)
+Her body is obviously shaking.
+<END>
+
+#WRITE(PTR, $00001F68)
+That's understandable, I guess.
+<END>
+
+#WRITE(PTR, $00001F78)
+Even I'm starting to get so tense my heart seems like it'll explode.
+<END>
+
+#WRITE(PTR, $00001F88)
+The is the first experiment where someone besides me will use the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00001F98)
+I can't stop thinking about what would happen if we fail.
+<END>
+
+#WRITE(PTR, $00001FA8)
+【倫太郎】
+Don't worry. Your brain will hurt a bit, but it'll settle down in a while.
+<END>
+
+#WRITE(PTR, $00001FC2)
+【るか】
+O, Okay...
+<END>
+
+#WRITE(PTR, $00001FD2)
+【倫太郎】
+Even if you get to the other side, don't get distracted. Calm down and try to understand your surroundings.
+<END>
+
+#WRITE(PTR, $00001FE2)
+【倫太郎】
+It'll be okay. I'm with you.
+<END>
+
+#WRITE(PTR, $00001FF2)
+I gently caress her cheek, and Lukako gives a small sigh of relief.
+<END>
+
+#WRITE(PTR, $0000200C)
+【るか】
+...Then, let's go.
+<END>
+
+#WRITE(PTR, $0000201C)
+I nod, and, hiding the shakiness in my fingertips from Lukako, set the microwave timer.
+<END>
+
+#WRITE(PTR, $0000202C)
+【るか】
+I'll be sure to return...
+<END>
+
+#WRITE(PTR, $0000203C)
+【倫太郎】
+Yeah. I'll be waiting.
+<END>
+
+#WRITE(PTR, $0000204C)
+I smile to Lukako.
+<END>
+
+#WRITE(PTR, $0000223A)
+Right after, the entire room gets wrapped up in the electrical discharge phenomenon.
+<END>
+
+#WRITE(PTR, $0000224A)
+When I see Lukako's body as if it's shining, I open my eyes wide.
+<END>
+
+#WRITE(PTR, $0000226C)
+The building violently shakes.
+<END>
+
+#WRITE(PTR, $0000227C)
+The smell of ozone fills my nose.
+<END>
+
+#WRITE(PTR, $0000228C)
+The already strong electrical discharge becomes even stronger, strong enough that I can't even open my eyes.
+<END>
+
+#WRITE(PTR, $000022A6)
+【るか】
+Okabe-sa──
+<END>
+
+#WRITE(PTR, $000022B6)
+Lukako's voice calling my name is suddenly cut short──
+<END>
+
+#WRITE(PTR, $00002728)
+My entire body goes through shock and chills, just like it always does right after time leaping.
+<END>
+
+#WRITE(PTR, $00002738)
+【倫太郎】
+...This is
+<END>
+
+#WRITE(PTR, $00002748)
+It's not like I time leaped myself.
+<END>
+
+#WRITE(PTR, $00002758)
+Nevertheless, I teleported from the lab to Yanabayashi shrine.
+<END>
+
+#WRITE(PTR, $00002768)
+Did the world line change...?
+<END>
+
+#WRITE(PTR, $00002778)
+No, Reading Steiner didn't activate, so there's no way the world line changed.
+<END>
+
+#WRITE(PTR, $00002788)
+Then, why──？
+<END>
+
+#WRITE(PTR, $00002798)
+Was it because Lukako made small changes after jumping to the past...?
+<END>
+
+#WRITE(PTR, $000027EC)
+I look to the side, and Lukako is there.
+<END>
+
+#WRITE(PTR, $000027FC)
+When she notices my gaze, she gets up and smiles.
+<END>
+
+#WRITE(PTR, $0000280C)
+【るか】
+Want to see the pictures?
+<END>
+
+#WRITE(PTR, $0000281C)
+【倫太郎】
+Pictures?
+<END>
+
+#WRITE(PTR, $0000282C)
+What's this about pictures?
+<END>
+
+#WRITE(PTR, $0000283C)
+【るか】
+It worked. I did it.
+<END>
+
+#WRITE(PTR, $0000284C)
+【るか】
+Do you not remember? Okabe-san, you suddenly changed....
+<END>
+
+#WRITE(PTR, $0000285C)
+【倫太郎】
+Right after you leaped into the past, I found myself standing here.
+<END>
+
+#WRITE(PTR, $0000286C)
+【倫太郎】
+Did you go to ComiMa?
+<END>
+
+#WRITE(PTR, $00002886)
+Once again, Lukako starts crying wordlessly.
+<END>
+
+#WRITE(PTR, $00002896)
+Then, she nods slowly.
+<END>
+
+#WRITE(PTR, $000028A6)
+She takes out a few pictures and hand them out to me.
+<END>
+
+#WRITE(PTR, $000028C0)
+【るか】
+Mayuri-chan... was so... happy...
+<END>
+
+#WRITE(PTR, $000028DC)
+I look at the first picture handed to me.
+<END>
+
+#WRITE(PTR, $000028EC)
+I gasp in surprise when I see what's in it.
+<END>
+
+#WRITE(PTR, $000028FC)
+【倫太郎】
+「俺もお前も、はしゃぎすぎだよな……」
+<END>
+
+#WRITE(PTR, $0000290C)
+気が付けば、視界は涙でにじんでいた。
+<END>
+
+#WRITE(PTR, $00002960)
+その写真の中に├┤
+<END>
+
+#WRITE(PTR, $00002970)
+まゆりがいた。
+<END>
+
+#WRITE(PTR, $00002980)
+俺とルカ子とまゆりの笑顔があった。
+<END>
+
+#WRITE(PTR, $000029C2)
+END_RUK.PMF
+<FILEENDA3>
+

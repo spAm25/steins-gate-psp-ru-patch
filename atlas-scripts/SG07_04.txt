@@ -1,0 +1,521 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001B12)
+
+#WRITE(PTR, $000004BC)
+ドアが蹴破られる。
+<END>
+
+#WRITE(PTR, $000004CC)
+いくつもの黒い影が、ラボに押し入ってくる。
+<END>
+
+#WRITE(PTR, $000004DC)
+見覚えのある男たち├┤ラウンダー├┤に銃口を向けられて、俺は凍りついていた。
+<END>
+
+#WRITE(PTR, $000004EC)
+不安は確信へと変わり、絶望へと叩き落とされる。
+<END>
+
+#WRITE(PTR, $000004FC)
+まるでビデオを見ているかのように。
+<END>
+
+#WRITE(PTR, $0000050C)
+なにもかもが、あのときと同じ。
+<END>
+
+#WRITE(PTR, $0000051C)
+違う点と言えば。
+<END>
+
+#WRITE(PTR, $0000052C)
+今日が１３日の金曜日ではなく、ちょうど２４時間遅れているということ。
+<END>
+
+#WRITE(PTR, $0000053C)
+そして、どれだけ待っても鈴羽は助けに来てくれないということ。
+<END>
+
+#WRITE(PTR, $0000054C)
+【ラウンダーＡ】
+Don't move. Everyone, hands in the air.
+<END>
+
+#WRITE(PTR, $0000055C)
+The dark skinned crew cut man's words were exactly the same.
+<END>
+
+#WRITE(PTR, $0000056C)
+Eventually, the unpleasant sound of heels resounds from the stairway.
+<END>
+
+#WRITE(PTR, $0000057C)
+The same...!
+<END>
+
+#WRITE(PTR, $00000610)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000620)
+【まゆり】
+Moeka-san? This is...?
+<END>
+
+#WRITE(PTR, $00000630)
+【萌郁】
+We're taking the time machine.
+<END>
+
+#WRITE(PTR, $00000640)
+Suppressing the fear that I might get killed, I grab Mayuri's arm.
+<END>
+
+#WRITE(PTR, $00000650)
+【ラウンダーＡ】
+Don't move!
+<END>
+
+#WRITE(PTR, $00000660)
+The crew cut man says something he hasn't before.
+<END>
+
+#WRITE(PTR, $00000670)
+【萌郁】
+Makise Kurisu, Okabe Rintaro, Hashida Itaru. The three of you will come with us.
+<END>
+
+#WRITE(PTR, $00000680)
+【萌郁】
+No resistance permitted.
+<END>
+
+#WRITE(PTR, $00000690)
+【萌郁】
+Anyway, come.
+<END>
+
+#WRITE(PTR, $000006A0)
+【萌郁】
+You have nowhere to run.
+<END>
+
+#WRITE(PTR, $000006B0)
+【萌郁】
+My comrades are already spread throughout Akihabara.
+<END>
+
+#WRITE(PTR, $000006C0)
+──What do I do?
+<END>
+
+#WRITE(PTR, $000006D0)
+I should use my concealed Monad Snake, right?
+<END>
+
+#WRITE(PTR, $000006E0)
+Use it, and then time leap...?
+<END>
+
+#WRITE(PTR, $000006F0)
+But Mayuri hasn't been killed yet.
+<END>
+
+#WRITE(PTR, $00000700)
+There's a possibility she might not be killed in this world line──
+<END>
+
+#WRITE(PTR, $00000716)
+【ラウンダーＡ】
+You there.
+<END>
+
+#WRITE(PTR, $00000794)
+The crew cut man points his gun at me.
+<END>
+
+#WRITE(PTR, $000007A4)
+My heartbeat jumps up. I gush a cold sweat for an instant.
+<END>
+
+#WRITE(PTR, $000007B4)
+【ラウンダーＡ】
+I thought I told you to raise both hands.
+<END>
+
+#WRITE(PTR, $000007C4)
+I only raised my left.
+<END>
+
+#WRITE(PTR, $000007D4)
+【ラウンダーＡ】
+What are you hiding...!
+<END>
+
+#WRITE(PTR, $000007E4)
+I have to use it...!
+<END>
+
+#WRITE(PTR, $000007F4)
+Don't count on wishful thinking.
+<END>
+
+#WRITE(PTR, $00000804)
+【倫太郎】
+!!
+<END>
+
+#WRITE(PTR, $00000814)
+I prepare myself and switch on Monad Snake.
+<END>
+
+#WRITE(PTR, $0000087A)
+My vision turns white.
+<END>
+
+#WRITE(PTR, $0000088A)
+I can't see anything.
+<END>
+
+#WRITE(PTR, $0000089A)
+I can't tell anything.
+<END>
+
+#WRITE(PTR, $000008AA)
+The Rounders shouldn't be able to focus their aim in this condition.
+<END>
+
+#WRITE(PTR, $000008BA)
+I have to time leap while it lasts...!
+<END>
+
+#WRITE(PTR, $000008CA)
+Pulling Mayuri's hand, I fumble over to the development room.
+<END>
+
+#WRITE(PTR, $000008DA)
+【萌郁】
+Shoot.
+<END>
+
+#WRITE(PTR, $000008F6)
+I hear the sound of a randomly fired gun behind me──
+<END>
+
+#WRITE(PTR, $00000912)
+【まゆり】
+augh──！
+<END>
+
+#WRITE(PTR, $00000922)
+Suddenly, Mayuri's arm got heavy.
+<END>
+
+#WRITE(PTR, $00000988)
+I trip forward.
+<END>
+
+#WRITE(PTR, $00000998)
+I fall on my face.
+<END>
+
+#WRITE(PTR, $000009A8)
+【倫太郎】
+Mayu──
+<END>
+
+#WRITE(PTR, $000009B8)
+Our hands get separated.
+<END>
+
+#WRITE(PTR, $000009C8)
+I grope around to look for Mayuri.
+<END>
+
+#WRITE(PTR, $000009D8)
+I soon touch her slender hand.
+<END>
+
+#WRITE(PTR, $000009F4)
+【まゆり】
+O...kari...
+<END>
+
+#WRITE(PTR, $00000A04)
+Mayuri's feeble whisper reaches my ears.
+<END>
+
+#WRITE(PTR, $00000A14)
+Did she get hit...!?
+<END>
+
+#WRITE(PTR, $00000A24)
+The Rounder's random shot coincidentally hit Mayuri, in this poor visibility!?
+<END>
+
+#WRITE(PTR, $00000A34)
+【まゆり】
+It... hurts...
+<END>
+
+#WRITE(PTR, $00000A44)
+Mayuri's voice quickly shrinks.
+<END>
+
+#WRITE(PTR, $00000A54)
+Strength leaves her grasp.
+<END>
+
+#WRITE(PTR, $00000A64)
+【倫太郎】
+Mayuri! Hey, hang in there!
+<END>
+
+#WRITE(PTR, $00000A74)
+No matter how much I yell, Mayuri won't answer.
+<END>
+
+#WRITE(PTR, $00000A84)
+The faint sound of breathing. Awfully shallow.
+<END>
+
+#WRITE(PTR, $00000A94)
+──Sorry.
+<END>
+
+#WRITE(PTR, $00000AA4)
+Once again, I couldn't save you.
+<END>
+
+#WRITE(PTR, $00000AB4)
+Even though I thought I had.
+<END>
+
+#WRITE(PTR, $00000AC4)
+Nothing changed.
+<END>
+
+#WRITE(PTR, $00000AD4)
+I grind my teeth.
+<END>
+
+#WRITE(PTR, $00000B00)
+【紅莉栖】
+Stop it, stop it!
+<END>
+
+#WRITE(PTR, $00000B10)
+【至】
+Heeee, don't shoot me, bro!
+<END>
+
+#WRITE(PTR, $00000B20)
+I hear Kurisu and Daru's screams.
+<END>
+
+#WRITE(PTR, $00000B30)
+Guns are being fired at random.
+<END>
+
+#WRITE(PTR, $00000C9E)
+【倫太郎】
+Guh...!
+<END>
+
+#WRITE(PTR, $00000CAE)
+A tremendous pain runs through the top of my head.
+<END>
+
+#WRITE(PTR, $00000D06)
+When I press it down with my hand, I feel something slippery.
+<END>
+
+#WRITE(PTR, $00000D16)
+A large amount of blood is flowing out.
+<END>
+
+#WRITE(PTR, $00000D26)
+【倫太郎】
+Ah, aahhh...
+<END>
+
+#WRITE(PTR, $00000D36)
+It hurts. Hurtshurtshurts...!
+<END>
+
+#WRITE(PTR, $00000D46)
+It feels like my head is being whittled down with a saw.
+<END>
+
+#WRITE(PTR, $00000D56)
+My ears start ringing.
+<END>
+
+#WRITE(PTR, $00000D66)
+My body's lurching over. I can't stand up straight.
+<END>
+
+#WRITE(PTR, $00000D76)
+Time leap... quick....
+<END>
+
+#WRITE(PTR, $00000E28)
+I grip Mayuri's limp hand one last time, crawl to the development room, barely find the headgear, and put it on.
+<END>
+
+#WRITE(PTR, $00000E38)
+I point the remote to the hole and press the switch.
+<END>
+
+#WRITE(PTR, $00000E48)
+The TV downstairs turns on, and I hear the performers laughing from within.
+<END>
+
+#WRITE(PTR, $00000E58)
+【ラウンダーＡ】
+Target A and Target C secured.
+<END>
+
+#WRITE(PTR, $00000E68)
+【紅莉栖】
+「岡部っ！　逃げて！　逃げてぇ！」
+<END>
+
+#WRITE(PTR, $00000E78)
+くそぅ……！
+<END>
+
+#WRITE(PTR, $00000E88)
+俺は悔しさに拳を握りしめる。
+<END>
+
+#WRITE(PTR, $00000E98)
+すでにタイムリープマシンは作動させた。
+<END>
+
+#WRITE(PTR, $00001086)
+すでに放電現象は始まっている├┤
+<END>
+
+#WRITE(PTR, $00001096)
+足許が激しく揺れ出す。
+<END>
+
+#WRITE(PTR, $000010B8)
+俺はまた、繰り返す├┤
+<END>
+
+#WRITE(PTR, $000010C8)
+過去への旅を├┤
+<END>
+
+#WRITE(PTR, $000013B8)
+TL13.PMF
+<END2>
+
+#WRITE(PTR, $00001780)
+【倫太郎】
+──
+<END>
+
+#WRITE(PTR, $00001790)
+The world collapses. Then quickly rebounds back to normal.
+<END>
+
+#WRITE(PTR, $000017A0)
+I endure the numbness in my brain stem and eyes.
+<END>
+
+#WRITE(PTR, $000017B0)
+The pain in my parietal region disappeared as if it were a lie.
+<END>
+
+#WRITE(PTR, $000017C0)
+I wipe the sweat off of my brow and look around.
+<END>
+
+#WRITE(PTR, $000017D0)
+I couldn't see any more of Monad Snake's vapor.
+<END>
+
+#WRITE(PTR, $000017E0)
+The air was very clear.
+<END>
+
+#WRITE(PTR, $000017F0)
+Kurisu's reading a western book like usual.
+<END>
+
+#WRITE(PTR, $00001800)
+Mayuri's playing a handheld game while eating a banana.
+<END>
+
+#WRITE(PTR, $00001810)
+Daru's not there. Now that I think about it, he did say he was going out somewhere from noon to dusk today.
+<END>
+
+#WRITE(PTR, $00001820)
+【倫太郎】
+Mayu──
+<END>
+
+#WRITE(PTR, $00001830)
+I quickly swallow my words.
+<END>
+
+#WRITE(PTR, $00001878)
+【まゆり】
+What's wrong-? Okarin, you wanna banana too?
+<END>
+
+#WRITE(PTR, $00001888)
+When I wave my hand no, Mayuri tilts her head and then looks back at her game.
+<END>
+
+#WRITE(PTR, $000018B2)
+I sink into the sofa and close my eyes.
+<END>
+
+#WRITE(PTR, $000018C2)
+I feel like screaming in regret, but desperately hold back.
+<END>
+
+#WRITE(PTR, $000018D2)
+...Even when I sacrificed our memories with Suzuha to change the world line, nothing changed.
+<END>
+
+#WRITE(PTR, $000018E2)
+Let's think.
+<END>
+
+#WRITE(PTR, $000018F2)
+The Divergence Meter shows about 0.4%.
+<END>
+
+#WRITE(PTR, $00001902)
+Let's think about how to get that above 1%.
+<END>
+
+#WRITE(PTR, $00001912)
+No, if I just worry about this by myself, things will turn out the same way.
+<END>
+
+#WRITE(PTR, $00001922)
+I'll consult Kurisu like last time.
+<END>
+
+#WRITE(PTR, $00001944)
+【倫太郎】
+Kurisu, come with me a sec.
+<END>
+
+#WRITE(PTR, $00001954)
+I lead her out of the lab.
+<FILEEND4D>
+

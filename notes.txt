@@ -32,22 +32,49 @@ Name begins at: ",＠" ends at: "＠「"
 Message begins at: "＠「" ends at:"」%p"
 
 
+TODO: Don't put newlines before <LINE> if previous one was <LINE>
+
+For BIN files that have automatic translation (basically story strings) I'll bypass the atlas-compile step and will write final BINs in the topographer itself
+
+
+
+
+
 DATA.txt has phone messages in it
 
 
 DICT file structure is related to Game-Database.plist We can get translations for all the terms there.
 &cTIPSC; == <DICT>
 &cMESC; == </DICT>
+&n&sp(142); <LINE>
+%t052
 
 
 
 Theory on how to display English character names in the appropriate "name box" on top of the main dialogue box:
 -The game probably has some kind of the mapping file that if it detects a specific occurance 【<name in glyphs>】 that it will put it in the special box
 - Do more research on this and if needed it can just be replaced with English string for the name
+-Yeah, looks like they are in the DATA.txt. Good good
 
-
+戻る - Go back/return
 【】
 
-【Mayuri】 【まゆり】
-【Okabe】 【倫太郎】
-【Itaru】 【至】
+[Kazuma] 【カズマ】
+[Tamaru] 【タマル】
+[Kirari] 【キラリ】
+[Kakeru] 【カケル】
+[Cyber Dragon] 【サイバードラゴン】
+[Chairman] 【司会者】
+[Boy] 【男の子】
+
+[Moeka] 【萌郁】
+[Luka] 【るか】
+[Nae] 【綯】
+[Kurisu] 【紅莉栖】
+[Nakabachi] 【中鉢】
+[Faris] 【フェイリス】
+[Suzuha] 【鈴羽】
+[Tennoji] 【天王寺】
+[Mayuri] 【まゆり】
+[Rintaro] 【倫太郎】
+[Itaru] 【至】

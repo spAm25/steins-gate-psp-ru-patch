@@ -1,0 +1,2128 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000039CA)
+
+#WRITE(PTR, $00000242)
+【倫太郎】
+...ah.
+<END>
+
+#WRITE(PTR, $00000252)
+The world waves.
+<END>
+
+#WRITE(PTR, $00000262)
+My legs shake.
+<END>
+
+#WRITE(PTR, $00000272)
+I look down with my fingertips to my brow, waiting for my senses to return to normal.
+<END>
+
+#WRITE(PTR, $00000282)
+I'm struck by each possible emotion, one by one, against my will.
+<END>
+
+#WRITE(PTR, $000002CA)
+I absent-mindedly look at Kurisu standing before me.
+<END>
+
+#WRITE(PTR, $000002DA)
+At first, I couldn't hear her over the buzzing in my ears, but her voice eventually reaches me.
+<END>
+
+#WRITE(PTR, $000002EA)
+【紅莉栖】
+──see? You're all shaky. It's still only the second day, so what are you doing with all this exhaustion?
+<END>
+
+#WRITE(PTR, $000002FA)
+Kurisu thrusts her finger at me, acting all preachy.
+<END>
+
+#WRITE(PTR, $00000314)
+【紅莉栖】
+I'm sure you'll find the pin. There's still plenty of time, so you don't have to rush.
+<END>
+
+#WRITE(PTR, $00000324)
+【紅莉栖】
+More importantly, you'll worry both Mayuri and me if you collapse, you know?
+<END>
+
+#WRITE(PTR, $0000033E)
+【紅莉栖】
+Take care of your body a little.
+<END>
+
+#WRITE(PTR, $0000034E)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $0000035E)
+It seems I've successfully time leaped.
+<END>
+
+#WRITE(PTR, $0000036E)
+【倫太郎】
+Yeah... I know.
+<END>
+
+#WRITE(PTR, $00000496)
+I turn and nod to Kurisu, then collapse onto the sofa.
+<END>
+
+#WRITE(PTR, $000004A6)
+──In the end, I couldn't chose to sacrifice either.
+<END>
+
+#WRITE(PTR, $000004B6)
+In some sense, this is running away.
+<END>
+
+#WRITE(PTR, $000004C6)
+But there was no other way.
+<END>
+
+#WRITE(PTR, $000004D6)
+To prevent Suzuha's dying taste of despair.
+<END>
+
+#WRITE(PTR, $000004E6)
+Without Mayuri's death.
+<END>
+
+#WRITE(PTR, $000004F6)
+This was the only choice.
+<END>
+
+#WRITE(PTR, $00000506)
+Mayuri will be killed in two days.
+<END>
+
+#WRITE(PTR, $00000516)
+If the last peaceful days left for me, Mayuri, and Suzuha, are these two days,
+<END>
+
+#WRITE(PTR, $00000526)
+Then all I can do is repeat these two days.
+<END>
+
+#WRITE(PTR, $00000536)
+All we can do is keep repeating. Over and over again.
+<END>
+
+#WRITE(PTR, $00000546)
+Within the confines of these two days, I will keep living──
+<END>
+
+#WRITE(PTR, $00000688)
+The wind caresses my cheek.
+<END>
+
+#WRITE(PTR, $00000698)
+I push down on the pedal and begin to ascend the Harumi Bridge with the sea breeze blowing.
+<END>
+
+#WRITE(PTR, $000006A8)
+The spokes rhythmically revolve, reflecting rays of strong sunlight.
+<END>
+
+#WRITE(PTR, $000006B8)
+Sweat oozes out of my every pore, but it's not unpleasant.
+<END>
+
+#WRITE(PTR, $000006C8)
+It's actually quite healthy. It somehow reminds me of running around the school grounds back in my elementary days.
+<END>
+
+#WRITE(PTR, $000006D8)
+【まゆり】
+Feels good, man
+<END>
+
+#WRITE(PTR, $000006E8)
+【至】
+Hwooh, hee, Why do I have to tag along for this?
+<END>
+
+#WRITE(PTR, $000006F8)
+【紅莉栖】
+Same... here... haah, hwooh... I mean, the wind's too strong...
+<END>
+
+#WRITE(PTR, $00000708)
+【まゆり】
+Daru-kun's kinda chubby, so I think he needs to exercise more-
+<END>
+
+#WRITE(PTR, $00000718)
+【至】
+Fat neckbeard master race...
+<END>
+
+#WRITE(PTR, $0000076C)
+Leading the way is Suzuha.
+<END>
+
+#WRITE(PTR, $0000077C)
+She's riding her favorite MTB, nimbly turning the pedals.
+<END>
+
+#WRITE(PTR, $0000079C)
+【鈴羽】
+The scenery sure is nice
+<END>
+
+#WRITE(PTR, $000007AC)
+From here on Harumi Bridge, you can see Tokyo Bay clearly, and also far away is the Rainbow Bridge.
+<END>
+
+#WRITE(PTR, $000007BC)
+What you see in the surrounding reclaimed land is not willy-nilly residential areas, but the extremes of either huge skyscrapers or vacant land.
+<END>
+
+#WRITE(PTR, $000007CC)
+Leisurely traveling here from Akihabara shouldn't take more than 2 hours.
+<END>
+
+#WRITE(PTR, $000007DC)
+I actually knew how surprisingly close it was when I returned home to Akiba by nonstop bus after ComiMa, but I never thought I'd come here by bike.
+<END>
+
+#WRITE(PTR, $000007EC)
+Everyone except Suzuha is using rent-a-cycles.
+<END>
+
+#WRITE(PTR, $000007FC)
+I proposed this cycling activity as a change of pace from the search for the unfindable pin.
+<END>
+
+#WRITE(PTR, $0000080C)
+Of course, I already know who the pin belongs to, and who Suzuha's father is.
+<END>
+
+#WRITE(PTR, $0000081C)
+But I dare not tell anyone.
+<END>
+
+#WRITE(PTR, $0000082C)
+If at all possible, I want to spend these two days in peace and delay Suzuha's time travel.
+<END>
+
+#WRITE(PTR, $0000083C)
+That became my current goal.
+<END>
+
+#WRITE(PTR, $0000084C)
+【鈴羽】
+I actually thought it was going to be a waste of time until we left. But people are creatures who need to spend time like this every now and then.
+<END>
+
+#WRITE(PTR, $0000085C)
+【紅莉栖】
+Making the Time Leap Machine was... more fun... for me...
+<END>
+
+#WRITE(PTR, $0000086C)
+【至】
+Hi, hikikomori are the strongest... Today, today is proof...
+<END>
+
+#WRITE(PTR, $0000087C)
+【まゆり】
+You two are all worn out-. Ehhehe-
+<END>
+
+#WRITE(PTR, $0000088C)
+【鈴羽】
+How sloppy-. You won't survive like that, you know?
+<END>
+
+#WRITE(PTR, $0000089C)
+In contrast to the composed Suzuha and Mayuri, Kurisu and Daru are exhausted.
+<END>
+
+#WRITE(PTR, $000008AC)
+Incidentally, I know the distance between Akiba and Ariake, so I preserved my physical strength well.
+<END>
+
+#WRITE(PTR, $000008BC)
+【至】
+W, where's some water!? Still no vending machine!? I could kill for a glass of water!
+<END>
+
+#WRITE(PTR, $000008CC)
+【倫太郎】
+Sorry to say, but there's no convenience store until we cross another bridge after this one. Be patient until then.
+<END>
+
+#WRITE(PTR, $000008DC)
+【至】
+You, you serious...? I can't, it's impossible...
+<END>
+
+#WRITE(PTR, $000008EC)
+【まゆり】
+Okarin, you sure know your stuff-. Have you been here before?
+<END>
+
+#WRITE(PTR, $000008FC)
+【倫太郎】
+...Yeah. Many times.
+<END>
+
+#WRITE(PTR, $0000090C)
+Yes, I've been here many times. Many times, I've gone this way.
+<END>
+
+#WRITE(PTR, $0000091C)
+──How long has it been since this closed loop began turning?
+<END>
+
+#WRITE(PTR, $0000092C)
+I don't quite know how many total days it's been.
+<END>
+
+#WRITE(PTR, $0000093C)
+So I think in terms of 2-day cycles.
+<END>
+
+#WRITE(PTR, $0000094C)
+Now is already the forth cycle.
+<END>
+
+#WRITE(PTR, $0000095C)
+On August 13th, Mayuri is killed in the Rounders' raid.
+<END>
+
+#WRITE(PTR, $0000096C)
+This truth is locked up in my heart alone.
+<END>
+
+#WRITE(PTR, $0000097C)
+Indeed, we were living typical college student days.
+<END>
+
+#WRITE(PTR, $0000098C)
+This cycling activity is also part of it.
+<END>
+
+#WRITE(PTR, $0000099C)
+Suzuha and Mayuri look like they enjoy cycling, and it's fun, so I have us do it each cycle.
+<END>
+
+#WRITE(PTR, $000009AC)
+Our destination is Tokyo Big Sight in Ariake.
+<END>
+
+#WRITE(PTR, $000009BC)
+Several days from now, it will be home to ComiMa, the world's largest doujinshi marketplace event.
+<END>
+
+#WRITE(PTR, $000009CC)
+【倫太郎】
+Big Sight is right ahead if we keep going straight. We should be there in about 10 minutes.
+<END>
+
+#WRITE(PTR, $000009DC)
+【至】
+Break before that...
+<END>
+
+#WRITE(PTR, $000009EC)
+At last, Daru seems to have used up the last of his strength. While still on his bike, he rests his upper half on the guardrail that divides the roadway and the footpath.
+<END>
+
+#WRITE(PTR, $000009FC)
+There, I turn and park next to Daru's bike.
+<END>
+
+#WRITE(PTR, $00000A0C)
+【倫太郎】
+That dangerous, you know. Get up.
+<END>
+
+#WRITE(PTR, $00000A1C)
+【至】
+Let me rest a bit~
+<END>
+
+#WRITE(PTR, $00000A2C)
+【倫太郎】
+Didn't I just tell you it's dangerous!?
+<END>
+
+#WRITE(PTR, $00000A3C)
+I sigh and pull Daru by the arm.
+<END>
+
+#WRITE(PTR, $00000A4C)
+【至】
+Okay, okay, I get it──
+<END>
+
+#WRITE(PTR, $00000A5C)
+Right after Daru gets up,
+<END>
+
+#WRITE(PTR, $00000B18)
+A large truck speeds through the roadway.
+<END>
+
+#WRITE(PTR, $00000B28)
+The wind pressure left by the truck is almost enough to blow me and Daru away.
+<END>
+
+#WRITE(PTR, $00000B38)
+The bridge faintly sways from the shock.
+<END>
+
+#WRITE(PTR, $00000B58)
+【至】
+Th, that was close!
+<END>
+
+#WRITE(PTR, $00000B68)
+He probably wouldn't have made contact even if he had leaned out, but that still doesn't change how dangerous it was.
+<END>
+
+#WRITE(PTR, $00000B78)
+【至】
+I'm saved thanks to Okarin...
+<END>
+
+#WRITE(PTR, $00000B88)
+【まゆり】
+You know, it kind of seems like Okarin saw the future-
+<END>
+
+#WRITE(PTR, $00000B98)
+【紅莉栖】
+You used a D-mail, didn't you?
+<END>
+
+#WRITE(PTR, $00000BA8)
+Mayuri's innocent smile.
+<END>
+
+#WRITE(PTR, $00000BB8)
+Kurisu's cynical grin.
+<END>
+
+#WRITE(PTR, $00000BC8)
+Both of them were probably joking.
+<END>
+
+#WRITE(PTR, $00000BD8)
+But, they're not really mistaken.
+<END>
+
+#WRITE(PTR, $00000BE8)
+The only thing wrong was that I time leaped instead of using a D-mail.
+<END>
+
+#WRITE(PTR, $00000BF8)
+【鈴羽】
+...
+<END>
+
+#WRITE(PTR, $00000C08)
+Suzuha's eyes met mine.
+<END>
+
+#WRITE(PTR, $00000C18)
+She seemed to be having so much fun just before, but now she's facing me with a bewildered expression.
+<END>
+
+#WRITE(PTR, $00000C28)
+I──
+<END>
+
+#WRITE(PTR, $00000C38)
+Avert my eyes.
+<END>
+
+#WRITE(PTR, $00000D96)
+【至】
+O Holy Land, I have returned!
+<END>
+
+#WRITE(PTR, $00000DA6)
+Daru's vigor gradually returns as he faces Big Sight with arms wide open.
+<END>
+
+#WRITE(PTR, $00000E24)
+【まゆり】
+This is the first time I've come when nobody's around-
+<END>
+
+#WRITE(PTR, $00000E34)
+【紅莉栖】
+So it was this wide. Yet it gets crammed with people during ComiMa... unbelievable.
+<END>
+
+#WRITE(PTR, $00000E44)
+We personally experience Big Sight in its full majesty when there are few people around.
+<END>
+
+#WRITE(PTR, $00000E54)
+Even though you wouldn't think it's big when you see it during ComiMa.
+<END>
+
+#WRITE(PTR, $00000E6E)
+【まゆり】
+Hey, hey, Mayushii's hungry-
+<END>
+
+#WRITE(PTR, $00000EB6)
+【至】
+Isn't there a family restaurant nearby? Let's rest there a bit.
+<END>
+
+#WRITE(PTR, $00000ED0)
+【紅莉栖】
+We have to go the same distance on the way back, huh. Just thinking about it's depressing...
+<END>
+
+#WRITE(PTR, $00000EEC)
+The three of them go searching for a family restaurant.
+<END>
+
+#WRITE(PTR, $00000F34)
+Suzuha is still looking up at Big Sight.
+<END>
+
+#WRITE(PTR, $00000F44)
+【倫太郎】
+What's wrong, Suzuha?
+<END>
+
+#WRITE(PTR, $00000F54)
+I dare ask.
+<END>
+
+#WRITE(PTR, $00000F64)
+I already know Suzuha's answer.
+<END>
+
+#WRITE(PTR, $00000F7E)
+──I'm excited to see Big Sight in real life.
+<END>
+
+#WRITE(PTR, $00000F8E)
+【鈴羽】
+I'm excited to see Big Sight in real life.
+<END>
+
+#WRITE(PTR, $00000F9E)
+Suzuha's eyes are shining.
+<END>
+
+#WRITE(PTR, $00000FB8)
+【鈴羽】
+You know, Big Sight's gone in 2036.
+<END>
+
+#WRITE(PTR, $00000FC8)
+【鈴羽】
+As part of a large-scale reclamation project, they roll out a bigger event hall. The dome reaches that whole area.
+<END>
+
+#WRITE(PTR, $00000FD8)
+While saying so, Suzuha points above Tokyo Bay.
+<END>
+
+#WRITE(PTR, $00000FE8)
+【鈴羽】
+But Hashida Itaru just now said that it's being treated as a holy land.
+<END>
+
+#WRITE(PTR, $00000FF8)
+【鈴羽】
+Isn't there an amazing event called ComiMa? My mother said she participated in that event and met my father there.
+<END>
+
+#WRITE(PTR, $00001008)
+【倫太郎】
+I see, so your mother may have been a fujoshi.
+<END>
+
+#WRITE(PTR, $00001022)
+【鈴羽】
+That's why I've always wanted to see this. Thank you, Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $00001032)
+【鈴羽】
+I feel like I've gotten just a little bit closer to my father.
+<END>
+
+#WRITE(PTR, $00001042)
+You "feel like" it but ──
+<END>
+
+#WRITE(PTR, $00001052)
+A sharp ache stabs through my heart.
+<END>
+
+#WRITE(PTR, $00001062)
+I know who Suzuha's father is.
+<END>
+
+#WRITE(PTR, $00001072)
+It's the dude right over there.
+<END>
+
+#WRITE(PTR, $00001082)
+But I don't tell her.
+<END>
+
+#WRITE(PTR, $00001092)
+Until the afternoon of the 13th.
+<END>
+
+#WRITE(PTR, $000010A2)
+It shall remain a secret until after the time leap machine is complete.
+<END>
+
+#WRITE(PTR, $000010B2)
+Just to prolong these 2 days of peace.
+<END>
+
+#WRITE(PTR, $000010C2)
+【まゆり】
+Okariin! Suzu-saan! Hurry, hurry up!
+<END>
+
+#WRITE(PTR, $000010DC)
+【鈴羽】
+Hey, they're calling us. Let's go, I'm hungry too.
+<END>
+
+#WRITE(PTR, $000010EC)
+Suzuha pulls my hand and I start running.
+<END>
+
+#WRITE(PTR, $000010FC)
+I plaster a bitter smile on my face.
+<END>
+
+#WRITE(PTR, $00001220)
+Today was fun.
+<END>
+
+#WRITE(PTR, $00001230)
+Tomorrow will also be fun.
+<END>
+
+#WRITE(PTR, $00001240)
+That's right.
+<END>
+
+#WRITE(PTR, $00001250)
+Because these fun days will last us all eternity...
+<END>
+
+#WRITE(PTR, $00001382)
+The wind caresses my cheek.
+<END>
+
+#WRITE(PTR, $00001392)
+I push down on the pedal and begin to ascend the Harumi Bridge with the sea breeze blowing.
+<END>
+
+#WRITE(PTR, $000013A2)
+The spokes rhythmically revolve, reflecting rays of strong sunlight.
+<END>
+
+#WRITE(PTR, $000013B2)
+Sweat oozes out of my every pore, but it's not unpleasant.
+<END>
+
+#WRITE(PTR, $000013C2)
+It's actually quite healthy. It somehow reminds me of running around the school grounds back in my elementary days.
+<END>
+
+#WRITE(PTR, $000013D2)
+【まゆり】
+Feels good, man
+<END>
+
+#WRITE(PTR, $000013E2)
+【至】
+Hwooh, hee, Why do I have to tag along for this?
+<END>
+
+#WRITE(PTR, $000013F2)
+【紅莉栖】
+Same... here... haah, hwooh... I mean, the wind's too strong...
+<END>
+
+#WRITE(PTR, $00001402)
+【まゆり】
+Daru-kun's kinda chubby, so I think he needs to exercise more-
+<END>
+
+#WRITE(PTR, $00001412)
+【至】
+Fat neckbeard master race...
+<END>
+
+#WRITE(PTR, $00001466)
+Leading the way is Suzuha.
+<END>
+
+#WRITE(PTR, $00001476)
+She's riding her favorite MTB, nimbly turning the pedals.
+<END>
+
+#WRITE(PTR, $00001496)
+【鈴羽】
+The scenery sure is nice
+<END>
+
+#WRITE(PTR, $000014A6)
+From here on Harumi Bridge, you can see Tokyo Bay clearly, and also far away is the Rainbow Bridge.
+<END>
+
+#WRITE(PTR, $000014B6)
+Everyone except Suzuha is using rent-a-cycles.
+<END>
+
+#WRITE(PTR, $000014C6)
+I proposed this cycling activity as a change of pace from the search for the unfindable pin.
+<END>
+
+#WRITE(PTR, $000014D6)
+【鈴羽】
+I actually thought it was going to be a waste of time until we left. But people are creatures who need to spend time like this every now and then.
+<END>
+
+#WRITE(PTR, $000014E6)
+【紅莉栖】
+Making the Time Leap Machine was... more fun... for me...
+<END>
+
+#WRITE(PTR, $000014F6)
+【至】
+Hi, hikikomori are the strongest... Today, today is proof...
+<END>
+
+#WRITE(PTR, $00001506)
+【まゆり】
+You two are all worn out-. Ehhehe-
+<END>
+
+#WRITE(PTR, $00001516)
+【鈴羽】
+How sloppy-. You won't survive like that, you know?
+<END>
+
+#WRITE(PTR, $00001526)
+In contrast to the composed Suzuha and Mayuri, Kurisu and Daru are exhausted.
+<END>
+
+#WRITE(PTR, $00001536)
+Incidentally, I know the distance between Akiba and Ariake, so I preserved my physical strength well.
+<END>
+
+#WRITE(PTR, $00001546)
+【至】
+W, where's some water!? Still no vending machine!? I could kill for a glass of water!
+<END>
+
+#WRITE(PTR, $00001556)
+【倫太郎】
+Sorry to say, but there's no convenience store until we cross another bridge after this one. Be patient until then.
+<END>
+
+#WRITE(PTR, $00001566)
+I replied mechanically.
+<END>
+
+#WRITE(PTR, $00001576)
+【至】
+You, you serious...? I can't, it's impossible...
+<END>
+
+#WRITE(PTR, $00001586)
+【まゆり】
+Okarin, you sure know your stuff-. Have you been here before?
+<END>
+
+#WRITE(PTR, $00001596)
+【倫太郎】
+...Yeah. Many times.
+<END>
+
+#WRITE(PTR, $000015A6)
+Yes, I've been here many times. Many times, I've gone this way.
+<END>
+
+#WRITE(PTR, $000015B6)
+What cycle am I on today?
+<END>
+
+#WRITE(PTR, $000015C6)
+I feel like I'm past 10.
+<END>
+
+#WRITE(PTR, $000015D6)
+I'm endlessly repeating the same loop, as usual.
+<END>
+
+#WRITE(PTR, $000015E6)
+Moeka's attack? Mayuri's death?
+<END>
+
+#WRITE(PTR, $000015F6)
+Those things won't happen for all eternity.
+<END>
+
+#WRITE(PTR, $00001606)
+Today, we're once again off on an adventure on rent-a-cycle MTBs.
+<END>
+
+#WRITE(PTR, $00001616)
+【倫太郎】
+Big Sight is right ahead if we keep going straight. We should be there in about 10 minutes.
+<END>
+
+#WRITE(PTR, $00001626)
+【至】
+Break before that...
+<END>
+
+#WRITE(PTR, $00001636)
+At last, Daru seems to have used up the last of his strength. While still on his bike, he rests his upper half on the guardrail that divides the roadway and the footpath.
+<END>
+
+#WRITE(PTR, $00001646)
+There, I turn and park next to Daru's bike.
+<END>
+
+#WRITE(PTR, $00001656)
+【倫太郎】
+That's dangero──
+<END>
+
+#WRITE(PTR, $0000166C)
+I swallowed my words.
+<END>
+
+#WRITE(PTR, $0000167C)
+Thoughts too dark to be my own suddenly slipped into my mind.
+<END>
+
+#WRITE(PTR, $00001698)
+What would happen if I didn't pull Daru's arm?
+<END>
+
+#WRITE(PTR, $000016A8)
+Would the expected happen?
+<END>
+
+#WRITE(PTR, $000016B8)
+Would this sloppy body of Daru's get caught in the truck's body and get sent flying like a rag doll? Would his head or arm get blown off and his crimson blood gush everywhere?
+<END>
+
+#WRITE(PTR, $000016C8)
+Would Suzuha, Mayuri, and Kurisu scream after witnessing such an event?
+<END>
+
+#WRITE(PTR, $000016D8)
+That might be interesting too.
+<END>
+
+#WRITE(PTR, $000016E8)
+In any case, as long as I time leap, I don't care if Daru dies or not.
+<END>
+
+#WRITE(PTR, $000016F8)
+If I go back to the start of the loop, Daru won't even have a scratch.
+<END>
+
+#WRITE(PTR, $00001708)
+It doesn't matter to me how much blood he gushes, or how far his entrails come out.
+<END>
+
+#WRITE(PTR, $00001718)
+Moreover, everyone needs a little spice in their life.
+<END>
+
+#WRITE(PTR, $00001728)
+An encounter with a splatter scene is necessary to arouse one's own survival instinct by invoking fear.
+<END>
+
+#WRITE(PTR, $00001738)
+If I keep soaking in these lukewarm days, I'd lose my motivation to seek peace.
+<END>
+
+#WRITE(PTR, $00001748)
+As far as these 2 days are concerned, I am god.
+<END>
+
+#WRITE(PTR, $00001758)
+So I have the freedom to chose who lives and who dies──
+<END>
+
+#WRITE(PTR, $00001774)
+【至】
+Woah!
+<END>
+
+#WRITE(PTR, $00001784)
+An ear-piercing car horn.
+<END>
+
+#WRITE(PTR, $00001794)
+Daru hurriedly lifts himself from the guardrail.
+<END>
+
+#WRITE(PTR, $00001850)
+Right after that, a large truck passes by at a staggering speed.
+<END>
+
+#WRITE(PTR, $00001860)
+Daru clumsily falls off his bike and lands on his rear.
+<END>
+
+#WRITE(PTR, $00001880)
+【至】
+Th, that was close!
+<END>
+
+#WRITE(PTR, $00001890)
+【紅莉栖】
+Hey, are you okay?
+<END>
+
+#WRITE(PTR, $000018A0)
+【鈴羽】
+Are you hurt?
+<END>
+
+#WRITE(PTR, $000018B0)
+Kurisu and Suzuha stop their bicycles and help Daru get up.
+<END>
+
+#WRITE(PTR, $000018C0)
+【まゆり】
+Wawah-, that truck's awful-
+<END>
+
+#WRITE(PTR, $000018D0)
+Said truck already crossed the intersection after the bridge and had become a tiny speck.
+<END>
+
+#WRITE(PTR, $000018E0)
+【至】
+Hah, what a shock. 'the hell's with that truck!? Don't screw with me, I should have checked the number! Then I could be like 'Reported!'
+<END>
+
+#WRITE(PTR, $000018F0)
+【紅莉栖】
+Nothing actually happened, so there really isn't any point in reporting it, you know?
+<END>
+
+#WRITE(PTR, $00001900)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $00001910)
+Everyone says this and that while helping Daru up.
+<END>
+
+#WRITE(PTR, $00001920)
+As for me, I'm staring at my own hands.
+<END>
+
+#WRITE(PTR, $00001930)
+I'm glad it ended as a funny story, but...
+<END>
+
+#WRITE(PTR, $00001940)
+Just now, I had thought unspeakable thoughts.
+<END>
+
+#WRITE(PTR, $00001950)
+I chose this two day loop so that nobody would get hurt.
+<END>
+
+#WRITE(PTR, $00001960)
+So that I could prevent Suzuha's time travel without Mayuri's death.
+<END>
+
+#WRITE(PTR, $00001970)
+Just now, contradicting the very purpose of this refuge loop, I was ready to let Daru die.
+<END>
+
+#WRITE(PTR, $00001980)
+And I didn't even give it a second thought.
+<END>
+
+#WRITE(PTR, $00001990)
+【鈴羽】
+...Okabe Rintaro?
+<END>
+
+#WRITE(PTR, $000019A0)
+【倫太郎】
+!?
+<END>
+
+#WRITE(PTR, $000019B0)
+When she called my name, I reflexively cowered.
+<END>
+
+#WRITE(PTR, $000019C0)
+Suzuha's eyes questioned me.
+<END>
+
+#WRITE(PTR, $000019D0)
+There's no way she could have noticed my dark emotions back there.
+<END>
+
+#WRITE(PTR, $000019E0)
+I knew that, but still couldn't shake the feeling she could see right through me.
+<END>
+
+#WRITE(PTR, $000019F0)
+【鈴羽】
+... you look pale?
+<END>
+
+#WRITE(PTR, $00001A00)
+【至】
+Wait, Okarin, you're more shook up than I am. Something wrong?
+<END>
+
+#WRITE(PTR, $00001A10)
+【倫太郎】
+Uh, ahh...
+<END>
+
+#WRITE(PTR, $00001A20)
+【倫太郎】
+Well, if our supah hakah died, it would be disastrous for our lab!
+<END>
+
+#WRITE(PTR, $00001A30)
+I used a purposefully extravagant tone to cover up my guilty thoughts, and started pedaling.
+<END>
+
+#WRITE(PTR, $00001A40)
+【倫太郎】
+Break time's over! Let's go!
+<END>
+
+#WRITE(PTR, $00001B5C)
+I am the Observer of this world.
+<END>
+
+#WRITE(PTR, $00001B6C)
+Nobody can escape my subjectivity.
+<END>
+
+#WRITE(PTR, $00001B7C)
+This world exists as long as I wish.
+<END>
+
+#WRITE(PTR, $00001B8C)
+So does Mayuri. And Daru. And Kurisu.
+<END>
+
+#WRITE(PTR, $00001B9C)
+And Suzuha as well.
+<END>
+
+#WRITE(PTR, $00001BAC)
+A space where everybody can sing in harmony.
+<END>
+
+#WRITE(PTR, $00001BBC)
+A place where nobody stands between life and death.
+<END>
+
+#WRITE(PTR, $00001BCC)
+A 48 hour eternity.
+<END>
+
+#WRITE(PTR, $00001BDC)
+I am the Creator of this Paradise.
+<END>
+
+#WRITE(PTR, $00001BEC)
+There's no mistake about that.
+<END>
+
+#WRITE(PTR, $00001BFC)
+Tomorrow will be another good day for everyone.
+<END>
+
+#WRITE(PTR, $00001D66)
+【至】
+O Holy Land, I have returned!
+<END>
+
+#WRITE(PTR, $00001D76)
+Daru's vigor gradually returns as he faces Big Sight with arms wide open.
+<END>
+
+#WRITE(PTR, $00001DF4)
+【まゆり】
+This is the first time I've come when nobody's around-
+<END>
+
+#WRITE(PTR, $00001E04)
+【紅莉栖】
+So it was this wide. Yet it gets crammed with people during ComiMa... unbelievable.
+<END>
+
+#WRITE(PTR, $00001E14)
+We personally experience Big Sight in its full majesty when there are few people around.
+<END>
+
+#WRITE(PTR, $00001E24)
+Even though you wouldn't think it's big when you see it during ComiMa.
+<END>
+
+#WRITE(PTR, $00001E3E)
+【まゆり】
+Hey, hey, Mayushii's hungry-
+<END>
+
+#WRITE(PTR, $00001E86)
+【至】
+Isn't there a family restaurant nearby? Let's rest there a bit.
+<END>
+
+#WRITE(PTR, $00001EA0)
+【紅莉栖】
+We have to go the same distance on the way back, huh. Just thinking about it's depressing...
+<END>
+
+#WRITE(PTR, $00001EC2)
+The three of them go searching for a family restaurant.
+<END>
+
+#WRITE(PTR, $00001F0A)
+Suzuha is still looking up at Big Sight.
+<END>
+
+#WRITE(PTR, $00001F1A)
+I quietly observe that figure.
+<END>
+
+#WRITE(PTR, $00002030)
+Tight legs.
+<END>
+
+#WRITE(PTR, $00002040)
+Slender body.
+<END>
+
+#WRITE(PTR, $00002050)
+Her clothes accentuate all her fine curves.
+<END>
+
+#WRITE(PTR, $000020F4)
+She's got some surprisingly nice breasts.
+<END>
+
+#WRITE(PTR, $00002104)
+I feel my soul turning wicked.
+<END>
+
+#WRITE(PTR, $00002114)
+Like terribly viscous lava.
+<END>
+
+#WRITE(PTR, $00002124)
+Its whispers drip like poison.
+<END>
+
+#WRITE(PTR, $00002134)
+Hypothetically ──
+<END>
+
+#WRITE(PTR, $00002144)
+If I bring this future girl into confinement and have my way with her, what would happen?
+<END>
+
+#WRITE(PTR, $000021B0)
+Taking her away itself is simple enough.
+<END>
+
+#WRITE(PTR, $000021C0)
+I just have to say I know who your father is. Let's talk alone, and Suzuha would happily come along with me.
+<END>
+
+#WRITE(PTR, $000021D0)
+Also, no such Amane Suzuha exists in current day Japan.
+<END>
+
+#WRITE(PTR, $000021E0)
+She doesn't have Japanese citizenship, or even a birth certificate.
+<END>
+
+#WRITE(PTR, $000021F0)
+Obviously, since she won't be born for another seven years.
+<END>
+
+#WRITE(PTR, $00002200)
+So, even if she runs to the police, nobody would believe her.
+<END>
+
+#WRITE(PTR, $00002210)
+She said that in the future she's part of the resistance, so she might unexpectedly resist, or she might be strong.
+<END>
+
+#WRITE(PTR, $00002220)
+But she's still a woman. Men are physically stronger.
+<END>
+
+#WRITE(PTR, $00002230)
+It might be a hard fight, but I can hold her down by force.
+<END>
+
+#WRITE(PTR, $00002240)
+Another me-- or possibly, Hououin Kyouma-- is whispering inside my head.
+<END>
+
+#WRITE(PTR, $00002250)
+──You want a woman, don't you? You were born a man, so it's natural.
+<END>
+
+#WRITE(PTR, $00002260)
+Daru's daughter? A time traveler on a mission to change the future?
+<END>
+
+#WRITE(PTR, $0000230E)
+<LINE>
+%LCWho cares?
+<END2>
+
+#WRITE(PTR, $0000231E)
+<LINE>
+%LCSuzuha's a fine woman. That's it.
+<ENDPANEL>
+
+#WRITE(PTR, $00002336)
+<LINE>
+%LCIt's not like you're a saint.
+<END2>
+
+#WRITE(PTR, $00002346)
+<LINE>
+%LCYou say so yourself. That you're an &s(1154);insane mad scientist&s(1000);.
+<END2>
+
+#WRITE(PTR, $00002356)
+<LINE>
+%LCIf you're going to call yourself that, let me see you snap a litle.
+<ENDPANEL>
+
+#WRITE(PTR, $0000236E)
+<LINE>
+%LCDon't you have a &s(1154);nearly omnipotent item&s(1000);？
+<END2>
+
+#WRITE(PTR, $0000237E)
+<LINE>
+%LCYou can &s(1308);%CFF008rape&s(1000);%CE her, and then undo it with the Time Leap Machine.
+<ENDPANEL>
+
+#WRITE(PTR, $00002396)
+<LINE>
+%LCWhile we're at it, why not taste the same girl's <LINE>&s(1308);%CFF008virginity&s(1000);%CE<LINE> over and over again?
+<END2>
+
+#WRITE(PTR, $000023A6)
+<LINE>
+%LCWouldn't that be great? All those eroge buying<LINE>"VIRGIN ONLY" shitposters would be jelly.
+<ENDPANEL>
+
+#WRITE(PTR, $000023BE)
+<LINE>
+&sp(32);Not only can you &s(1308);%CFF008rape&s(1000);%CE women,
+<END2>
+
+#WRITE(PTR, $000023CE)
+<LINE>
+&sp(112);with the Time Leap Machine, you can even do &s(1770);OTHER&s(1000); things.
+<ENDPANEL>
+
+#WRITE(PTR, $000023FA)
+Murder. Theft. Abduction. Fraud. Arson──
+<END>
+
+#WRITE(PTR, $000024A8)
+<LINE>
+%LCThose things?
+<END2>
+
+#WRITE(PTR, $000024B8)
+<LINE>
+%LCAre those things really the evil you have in your heart, Okabe Rintaro?
+<END2>
+
+#WRITE(PTR, $000024C8)
+<LINE>
+%LCHmm. That just shows how shallow humans like I really are.
+<ENDPANEL>
+
+#WRITE(PTR, $000024E0)
+<LINE>
+%LCConsider the following, Okabe Rintaro.
+<END2>
+
+#WRITE(PTR, $000024F0)
+<LINE>
+%LCThough you may have started it of your own volition, isn't this endless two day loop torture?
+<ENDPANEL>
+
+#WRITE(PTR, $00002504)
+<LINE>
+%LCAren't you slowly growing tired of it?
+<ENDPANEL>
+
+#WRITE(PTR, $00002514)
+<LINE>
+%LCIn the confines of these two days, you don't need any boring, worthless things like etiquette, ethics, or laws.
+<ENDPANEL>
+
+#WRITE(PTR, $00002528)
+<LINE>
+%LCI am a Hunter.
+<END2>
+
+#WRITE(PTR, $00002538)
+<LINE>
+%LC&s(1308);%CFF008Taboos&s(1000);%CE can eat shit and die. Just hunt for your own self-indulgence.
+<ENDPANEL>
+
+#WRITE(PTR, $00002564)
+I'm allowed to do that.
+<END>
+
+#WRITE(PTR, $00002574)
+That's right. I am the Observer. I am god.
+<END>
+
+#WRITE(PTR, $00002622)
+<LINE>
+&sp(32);Do her.&s(1000);
+<END2>
+
+#WRITE(PTR, $00002632)
+<LINE>
+&sp(560);%LC&s(1308);%CFF008in&s(1000);%CE
+<END2>
+
+#WRITE(PTR, $00002642)
+<LINE>
+&sp(180);%LC&s(1770);%CFF008Rape her.&s(1000);%CE
+<ENDPANEL>
+
+#WRITE(PTR, $0000266E)
+Nobody can criticize me in this closed loop.
+<END>
+
+#WRITE(PTR, $0000271C)
+<LINE>
+&sp(50);Cast away your morals.&s(1000);%CE
+<END2>
+
+#WRITE(PTR, $0000272C)
+<LINE>
+&sp(560);%LC&s(1154);Revert to &s(1000);primitive ways.
+<END2>
+
+#WRITE(PTR, $0000273C)
+<LINE>
+&sp(140);%LC&s(1770);%CFF008Follow your &s(1000);%CEinstincts.
+<ENDPANEL>
+
+#WRITE(PTR, $00002768)
+【倫太郎】
+Guh...
+<END>
+
+#WRITE(PTR, $00002778)
+I close both ears.
+<END>
+
+#WRITE(PTR, $00002788)
+I avert my eyes from Suzuha as if our lives depended on it.
+<END>
+
+#WRITE(PTR, $00002798)
+Zawa zawa. Zawa zawa.
+<END>
+
+#WRITE(PTR, $000027A8)
+My ears are buzzing.
+<END>
+
+#WRITE(PTR, $000027B8)
+I avert my eyes from Suzuha as if our lives depended on it──
+<END>
+
+#WRITE(PTR, $00002886)
+【鈴羽】
+...Okabe Rintaro?
+<END>
+
+#WRITE(PTR, $00002896)
+Before I knew it, Suzuha grabbed me by the shoulders and is peering into my face.
+<END>
+
+#WRITE(PTR, $000028A6)
+The warm feeling of her hand increases the buzzing in my ears.
+<END>
+
+#WRITE(PTR, $000028B6)
+【鈴羽】
+Are you sick after all? Want to rest?
+<END>
+
+#WRITE(PTR, $000028C6)
+I can't look Suzuha straight in the eyes with these dark feelings clogging my mind.
+<END>
+
+#WRITE(PTR, $00002978)
+I shake off Suzuha's hand and run to Big Sight's entrance.
+<END>
+
+#WRITE(PTR, $00002988)
+【鈴羽】
+Okabe Rintaro! Where are you going!?
+<END>
+
+#WRITE(PTR, $00002998)
+I wanted to get away from Suzuha now. If I didn't, I might give into the urge.
+<END>
+
+#WRITE(PTR, $000029AE)
+I stare at my own hands.
+<END>
+
+#WRITE(PTR, $000029BE)
+Firmly close. Open. Close. Open.
+<END>
+
+#WRITE(PTR, $000029CE)
+I keep repeating.
+<END>
+
+#WRITE(PTR, $000029EA)
+They still move.
+<END>
+
+#WRITE(PTR, $000029FA)
+Just as I expect them to.
+<END>
+
+#WRITE(PTR, $00002A0A)
+Just as I order them to.
+<END>
+
+#WRITE(PTR, $00002A1A)
+But.
+<END>
+
+#WRITE(PTR, $00002A2A)
+Those dark impulses.
+<END>
+
+#WRITE(PTR, $00002A3A)
+The devil's whispers.
+<END>
+
+#WRITE(PTR, $00002A4A)
+How can I explain those?
+<END>
+
+#WRITE(PTR, $00002A5A)
+What the hell was that?
+<END>
+
+#WRITE(PTR, $00002A6A)
+What happened to me?
+<END>
+
+#WRITE(PTR, $00002A7A)
+My body begins to tremble.
+<END>
+
+#WRITE(PTR, $00002A8A)
+My teeth are shivering.
+<END>
+
+#WRITE(PTR, $00002A9A)
+It's cold.
+<END>
+
+#WRITE(PTR, $00002AAA)
+Even though it's hot enough to burn my skin, I feel cold.
+<END>
+
+#WRITE(PTR, $00002ABA)
+I'm afraid of myself.
+<END>
+
+#WRITE(PTR, $00002ACA)
+Am I... Am I still okay?
+<END>
+
+#WRITE(PTR, $00002ADA)
+I am Hououin Kyouma, Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $00002AEA)
+The insane mad scientist who loves science and chaos.
+<END>
+
+#WRITE(PTR, $00002AFA)
+How's that? I can say it, can't I?
+<END>
+
+#WRITE(PTR, $00002B0A)
+Can I still say it?
+<END>
+
+#WRITE(PTR, $00002B1A)
+【倫太郎】
+...'still?'
+<END>
+
+#WRITE(PTR, $00002B2A)
+What's that supposed to mean?
+<END>
+
+#WRITE(PTR, $00002B3A)
+Does it mean I can't even assess my own self-control?
+<END>
+
+#WRITE(PTR, $00002B4A)
+Am I going to break?
+<END>
+
+#WRITE(PTR, $00002BAC)
+Like a Moebius Strip, these same two days are going round and round and round and round and round and round and round and round.
+<END>
+
+#WRITE(PTR, $00002BBC)
+But today, those same two days failed.
+<END>
+
+#WRITE(PTR, $00002BCC)
+Because my feelings twisted.
+<END>
+
+#WRITE(PTR, $00002BDC)
+On Harumi Bridge, not only did I hesitate to save Daru, but I also yielded to my dark emotions.
+<END>
+
+#WRITE(PTR, $00002BFC)
+Those emotions.
+<END>
+
+#WRITE(PTR, $00002C0C)
+Dark impulses.
+<END>
+
+#WRITE(PTR, $00002C1C)
+Dripping emotions.
+<END>
+
+#WRITE(PTR, $00002C2C)
+I listened to the poisonous, disgusting whispers.
+<END>
+
+#WRITE(PTR, $00002C3C)
+I was really being drawn in.
+<END>
+
+#WRITE(PTR, $00002C4C)
+I myself can't deny it.
+<END>
+
+#WRITE(PTR, $00002C5C)
+But it's still just a sprout.
+<END>
+
+#WRITE(PTR, $00002C6C)
+If those emotions attack me again like a tsunami,
+<END>
+
+#WRITE(PTR, $00002C7C)
+Will I be able to stay myself?
+<END>
+
+#WRITE(PTR, $00002C8C)
+Will I be able to control myself?
+<END>
+
+#WRITE(PTR, $00002CE2)
+Mayuri.
+<END>
+
+#WRITE(PTR, $00002D38)
+Kurisu.
+<END>
+
+#WRITE(PTR, $00002D8E)
+Daru.
+<END>
+
+#WRITE(PTR, $00002DEC)
+And... Suzuha.
+<END>
+
+#WRITE(PTR, $00002DFC)
+Will I be able to keep myself from hurting them for any reason?
+<END>
+
+#WRITE(PTR, $00002E0C)
+Will I be able to keep anyone from getting hurt in this loop I escaped to in order to protect both Mayuri and Suzuha?
+<END>
+
+#WRITE(PTR, $00002E1C)
+Do I really have that sort of strength?
+<END>
+
+#WRITE(PTR, $00002E38)
+I don't know.
+<END>
+
+#WRITE(PTR, $00002E48)
+I don't know might be better than no.
+<END>
+
+#WRITE(PTR, $00002E58)
+At present, I can't say anything more than that.
+<END>
+
+#WRITE(PTR, $00002E68)
+But this infinite loop is the world I wanted.
+<END>
+
+#WRITE(PTR, $00002E78)
+I can only protect this world. Only I can protect this world.
+<END>
+
+#WRITE(PTR, $00002E88)
+I pray that that impulse was only a delusion.
+<END>
+
+#WRITE(PTR, $00002E98)
+That it won't surface a second time.
+<END>
+
+#WRITE(PTR, $00002EA8)
+That somehow tomorrow will be peaceful.
+<END>
+
+#WRITE(PTR, $00002FE8)
+The wind caresses my cheek.
+<END>
+
+#WRITE(PTR, $00002FF8)
+I push down on the pedal and begin to ascend the Harumi Bridge with the sea breeze blowing.
+<END>
+
+#WRITE(PTR, $00003008)
+The spokes rhythmically revolve, reflecting rays of strong sunlight.
+<END>
+
+#WRITE(PTR, $00003018)
+Sweat oozes out of my every pore, but it's not unpleasant.
+<END>
+
+#WRITE(PTR, $00003028)
+It's actually quite healthy. It somehow reminds me of running around the school grounds back in my elementary days.
+<END>
+
+#WRITE(PTR, $00003038)
+【まゆり】
+Feels good, man
+<END>
+
+#WRITE(PTR, $00003048)
+【至】
+Hwooh, hee, Why do I have to tag along for this?
+<END>
+
+#WRITE(PTR, $00003058)
+【紅莉栖】
+Same... here... haah, hwooh... I mean, the wind's too strong...
+<END>
+
+#WRITE(PTR, $00003068)
+【まゆり】
+Daru-kun's kinda chubby, so I think he needs to exercise more-
+<END>
+
+#WRITE(PTR, $00003078)
+【至】
+Fat neckbeard master race...
+<END>
+
+#WRITE(PTR, $000030CC)
+Leading the way is Suzuha.
+<END>
+
+#WRITE(PTR, $000030DC)
+She's riding her favorite MTB, nimbly turning the pedals.
+<END>
+
+#WRITE(PTR, $000030FC)
+【鈴羽】
+The scenery sure is nice
+<END>
+
+#WRITE(PTR, $0000310C)
+From here on Harumi Bridge, you can see Tokyo Bay clearly, and also far away is the Rainbow Bridge.
+<END>
+
+#WRITE(PTR, $0000311C)
+Everyone except Suzuha is using rent-a-cycles.
+<END>
+
+#WRITE(PTR, $0000312C)
+I proposed this cycling activity as a change of pace from the search for the unfindable pin.
+<END>
+
+#WRITE(PTR, $0000313C)
+【鈴羽】
+I actually thought it was going to be a waste of time until we left. But people are creatures who need to spend time like this every now and then.
+<END>
+
+#WRITE(PTR, $0000314C)
+【紅莉栖】
+Making the Time Leap Machine was... more fun... for me...
+<END>
+
+#WRITE(PTR, $0000315C)
+【至】
+Hi, hikikomori are the strongest... Today, today is proof...
+<END>
+
+#WRITE(PTR, $0000316C)
+【まゆり】
+You two are all worn out-. Ehhehe-
+<END>
+
+#WRITE(PTR, $0000317C)
+【鈴羽】
+How sloppy-. You won't survive like that, you know?
+<END>
+
+#WRITE(PTR, $0000318C)
+In contrast to the composed Suzuha and Mayuri, Kurisu and Daru are exhausted.
+<END>
+
+#WRITE(PTR, $0000319C)
+Incidentally, I know the distance between Akiba and Ariake, so I preserved my physical strength well.
+<END>
+
+#WRITE(PTR, $000031AC)
+【至】
+W, where's some water!? Still no vending machine!? I could kill for a glass of water!
+<END>
+
+#WRITE(PTR, $000031BC)
+【倫太郎】
+...Then do it.
+<END>
+
+#WRITE(PTR, $000031CC)
+【至】
+Eh?
+<END>
+
+#WRITE(PTR, $000031DC)
+Everyone was startled by my line.
+<END>
+
+#WRITE(PTR, $000031EC)
+【倫太郎】
+Try it. Kill.
+<END>
+
+#WRITE(PTR, $000031FC)
+【至】
+Wait, seriously replying to a troll thread?
+<END>
+
+#WRITE(PTR, $0000320C)
+【倫太郎】
+Yeah, seriously. Why don't you do it? If you want to do it, then do it.
+<END>
+
+#WRITE(PTR, $0000321C)
+【紅莉栖】
+Hey, Okabe. What are you saying so suddenly?
+<END>
+
+#WRITE(PTR, $0000322C)
+【まゆり】
+Okarin, you shouldn't say things like that, okay?
+<END>
+
+#WRITE(PTR, $0000323C)
+【鈴羽】
+...
+<END>
+
+#WRITE(PTR, $0000324C)
+【至】
+Annnyway, why so mad, Okarin?
+<END>
+
+#WRITE(PTR, $0000325C)
+【倫太郎】
+Nothing.
+<END>
+
+#WRITE(PTR, $0000326C)
+【倫太郎】
+There's a convenience store across two bridges. No complaining until then.
+<END>
+
+#WRITE(PTR, $0000327C)
+【至】
+Geh, really? That's unexpectedly far.
+<END>
+
+#WRITE(PTR, $0000328C)
+【鈴羽】
+...
+<END>
+
+#WRITE(PTR, $0000329C)
+──Several hundred days since then. No, maybe thousands. How many cycles has it been?
+<END>
+
+#WRITE(PTR, $000032AC)
+I've kept repeating this closed loop so many times that it's hard to keep track.
+<END>
+
+#WRITE(PTR, $000032BC)
+I've even forgotten the reason I'm doing this.
+<END>
+
+#WRITE(PTR, $000032CC)
+I'm only spending each day as if I'm only signing it.
+<END>
+
+#WRITE(PTR, $000032DC)
+Everyone says the same things. Everyone responds the same ways. My physiological responses have blurred a bit, but aside from that, every day is the same.
+<END>
+
+#WRITE(PTR, $000032EC)
+Same, same, same, same, same, same, same, same.
+<END>
+
+#WRITE(PTR, $000032FC)
+To be exact, sometimes subtle deviations occur.
+<END>
+
+#WRITE(PTR, $0000330C)
+But it's still within deviation. The points still form a line.
+<END>
+
+#WRITE(PTR, $0000331C)
+Everything that happens is insignificant.
+<END>
+
+#WRITE(PTR, $0000332C)
+Everything that happens is meaningless. Pointless.
+<END>
+
+#WRITE(PTR, $0000333C)
+I am the only one still living in this loop.
+<END>
+
+#WRITE(PTR, $0000334C)
+Everyone else is only being kept alive.
+<END>
+
+#WRITE(PTR, $0000335C)
+I'm just keeping them alive.
+<END>
+
+#WRITE(PTR, $0000336C)
+And we're just spinning our wheels in this dead world.
+<END>
+
+#WRITE(PTR, $0000337C)
+My soul also died before I knew it.
+<END>
+
+#WRITE(PTR, $0000338C)
+Yeah, I am already dead.
+<END>
+
+#WRITE(PTR, $0000339C)
+I can't keep living like this.
+<END>
+
+#WRITE(PTR, $000033AC)
+Mayuri's life and death?
+<END>
+
+#WRITE(PTR, $000033BC)
+Moeka's attack?
+<END>
+
+#WRITE(PTR, $000033CC)
+Suzuha's time travel?
+<END>
+
+#WRITE(PTR, $000033DC)
+My first self might have cared about all that.
+<END>
+
+#WRITE(PTR, $000033EC)
+Since when?
+<END>
+
+#WRITE(PTR, $000033FC)
+When did I stop caring?
+<END>
+
+#WRITE(PTR, $0000340C)
+When did I start looping like clockwork for all eternity?
+<END>
+
+#WRITE(PTR, $0000341C)
+What happened to me worrying about things like Mayuri's life and death or Moeka's attack?
+<END>
+
+#WRITE(PTR, $0000342C)
+After these two days, everything will be as before. Everything will be reset. I will reset it myself.
+<END>
+
+#WRITE(PTR, $0000343C)
+Then I guess it's pointless to worry.
+<END>
+
+#WRITE(PTR, $0000344C)
+Ridiculous.
+<END>
+
+#WRITE(PTR, $0000345C)
+I've repeated this loop how many times before?
+<END>
+
+#WRITE(PTR, $0000346C)
+Without seeing anything, without hearing anything, my senses have gone dull.
+<END>
+
+#WRITE(PTR, $0000347C)
+It's like I'm absentmindedly separated from everything by a membrane.
+<END>
+
+#WRITE(PTR, $0000348C)
+And I've already gotten use to it.
+<END>
+
+#WRITE(PTR, $0000349C)
+And thus, I don't find it inconvenient.
+<END>
+
+#WRITE(PTR, $000034AC)
+I simply adapted.
+<END>
+
+#WRITE(PTR, $000034BC)
+I simply optimized.
+<END>
+
+#WRITE(PTR, $000034CC)
+To this far too narrow world.
+<END>
+
+#WRITE(PTR, $000034DC)
+To this far too nice world.
+<END>
+
+#WRITE(PTR, $000034EC)
+Why is getting use to it so bad?
+<END>
+
+#WRITE(PTR, $000034FC)
+Shouldn't it be best to get used to it?
+<END>
+
+#WRITE(PTR, $0000350C)
+【至】
+Haah.... I quit cycling-
+<END>
+
+#WRITE(PTR, $0000351C)
+Daru used up the last of his strength. While still on his bike, he rests his upper half on the guardrail that divides the roadway and the footpath.
+<END>
+
+#WRITE(PTR, $0000352C)
+I stop my bicycle and look on with abated eyes.
+<END>
+
+#WRITE(PTR, $00003548)
+【至】
+Woah!
+<END>
+
+#WRITE(PTR, $00003558)
+An ear-piercing car horn.
+<END>
+
+#WRITE(PTR, $00003568)
+Daru hurriedly lifts himself from the guardrail.
+<END>
+
+#WRITE(PTR, $00003624)
+Right after that, a large truck passes by at a staggering speed.
+<END>
+
+#WRITE(PTR, $00003634)
+Daru clumsily falls off his bike and lands on his rear.
+<END>
+
+#WRITE(PTR, $00003654)
+【至】
+Th, that was close!
+<END>
+
+#WRITE(PTR, $00003664)
+【紅莉栖】
+Hey, are you okay?
+<END>
+
+#WRITE(PTR, $00003674)
+【鈴羽】
+Are you hurt?
+<END>
+
+#WRITE(PTR, $00003684)
+Kurisu and Suzuha stop their bicycles and help Daru get up.
+<END>
+
+#WRITE(PTR, $00003694)
+【まゆり】
+Wawah-, that truck's awful-
+<END>
+
+#WRITE(PTR, $000036A4)
+Said truck already crossed the intersection after the bridge and had become a tiny speck.
+<END>
+
+#WRITE(PTR, $000036B4)
+【至】
+Hah, what a shock. 'the hell's with that truck!? Don't screw with me, I should have checked the number! Then I could be like 'Reported!'
+<END>
+
+#WRITE(PTR, $000036C4)
+【倫太郎】
+Then report him.
+<END>
+
+#WRITE(PTR, $000036D4)
+The truck's number smoothly rolls off my tongue.
+<END>
+
+#WRITE(PTR, $000036E4)
+It's a number I'm sick of seeing. It's imprinted into my mind.
+<END>
+
+#WRITE(PTR, $000036F4)
+【倫太郎】
+There, I told you. Go report him.
+<END>
+
+#WRITE(PTR, $00003704)
+I hold out my phone to Daru.
+<END>
+
+#WRITE(PTR, $00003714)
+【至】
+...Okarin, do you hate me?
+<END>
+
+#WRITE(PTR, $00003724)
+【倫太郎】
+You said you wanted to report him, so I'm giving you the opportunity to report him.
+<END>
+
+#WRITE(PTR, $00003734)
+I blandly spin these words.
+<END>
+
+#WRITE(PTR, $00003744)
+It doesn't matter. Nothing matters.
+<END>
+
+#WRITE(PTR, $00003754)
+【紅莉栖】
+Sure, Hashida's attitude needs adjustment, but yours isn't good either, Okabe.
+<END>
+
+#WRITE(PTR, $00003764)
+【倫太郎】
+No preaching, you class rep character.
+<END>
+
+#WRITE(PTR, $00003774)
+【紅莉栖】
+Wh, what?
+<END>
+
+#WRITE(PTR, $00003784)
+【まゆり】
+You shouldn't be fighting-. Daru-kun's alright, so we should all live happily ever after, okay?
+<END>
+
+#WRITE(PTR, $00003794)
+Ignoring Mayuri's intercession, I keep holding out my phone to Daru.
+<END>
+
+#WRITE(PTR, $000037A4)
+【倫太郎】
+You're not going to report him?
+<END>
+
+#WRITE(PTR, $000037B4)
+【至】
+W, well, I guess I'll let him off the hook this time.
+<END>
+
+#WRITE(PTR, $000037C4)
+I take a deep breath while putting away my phone.
+<END>
+
+#WRITE(PTR, $000037D4)
+【鈴羽】
+...
+<END>
+
+#WRITE(PTR, $000037E4)
+Suzuha's stern eyes face towards me.
+<END>
+
+#WRITE(PTR, $000037F4)
+She looks like she's about to say something.
+<END>
+
+#WRITE(PTR, $00003804)
+But I take that glance straight on. I no longer feel a thing.
+<FILEEND0C>
+

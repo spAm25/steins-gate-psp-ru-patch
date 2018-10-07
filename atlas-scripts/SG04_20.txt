@@ -1,0 +1,523 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002142)
+
+#WRITE(PTR, $00000208)
+Faris' dad seems like a nice man.
+<END>
+
+#WRITE(PTR, $00000218)
+He doesn't have the atmosphere of a pompous rich man.
+<END>
+
+#WRITE(PTR, $00000228)
+The sun is setting, but there are still many people in front of Akiba Station.
+<END>
+
+#WRITE(PTR, $00000238)
+Foreigners stand out more than usual. Akiba Town is known throughout the world, so much so that people come from abroad just to buy consumer electronics and moe goods.
+<END>
+
+#WRITE(PTR, $00000248)
+But it's so hot outside.
+<END>
+
+#WRITE(PTR, $00000258)
+Just walking is enough to open up every sweat gland.
+<END>
+
+#WRITE(PTR, $00000268)
+The air conditioning at Faris' house was indeed comfortable.
+<END>
+
+#WRITE(PTR, $00000278)
+I want some in the lab too, but unfortunately, we don't have that kind of money.
+<END>
+
+#WRITE(PTR, $00000324)
+Anyway, how about we go eat somewhere?
+<END>
+
+#WRITE(PTR, $000003C8)
+Thinking that, I look back at Daru and Mayuri behind m--
+<END>
+
+#WRITE(PTR, $00000532)
+Mayuri's not there.
+<END>
+
+#WRITE(PTR, $000005D6)
+【倫太郎】
+Mm...? Where'd Mayuri go?
+<END>
+
+#WRITE(PTR, $00000684)
+【至】
+Hm? Huh? Now that you mention it, she disappeared.
+<END>
+
+#WRITE(PTR, $00000728)
+Did Stardust Shakehand activate again?
+<END>
+
+#WRITE(PTR, $0000085E)
+I check my surroundings.
+<END>
+
+#WRITE(PTR, $00000902)
+And then I see Mayuri from behind, casually walking toward the station.
+<END>
+
+#WRITE(PTR, $000009A6)
+She's already about 50 meters away.
+<END>
+
+#WRITE(PTR, $00000A4A)
+I chase after her.
+<END>
+
+#WRITE(PTR, $00000B80)
+【倫太郎】
+Mayuri, where are you going!?
+<END>
+
+#WRITE(PTR, $00000C5C)
+【まゆり】
+Ah, Okarin-. You know, Mayushii's going home after this, but she's thinking about going to drop by Nakano.
+<END>
+
+#WRITE(PTR, $00000D00)
+【倫太郎】
+If you're going home, then why didn't you say so?
+<END>
+
+#WRITE(PTR, $00000DAE)
+【まゆり】
+Ehhehe-. Sorry. But you know, whenever I think I gotta go to Nakano, that's all I can think about.
+<END>
+
+#WRITE(PTR, $00000E8A)
+【至】
+Mayu-shi's ability to erase her presence is abnormal.
+<END>
+
+#WRITE(PTR, $00000FCE)
+Mayuri does this a lot.
+<END>
+
+#WRITE(PTR, $00001072)
+She staggers off somewhere without saying anything.
+<END>
+
+#WRITE(PTR, $00001116)
+And just like Daru said, we really can't sense her presence at those times.
+<END>
+
+#WRITE(PTR, $000011BA)
+That's why she always surprises me with the illusion that she disappears.
+<END>
+
+#WRITE(PTR, $0000125E)
+Stardust Shakehand and Sneaking Fadeout. Truly troublesome abilities.
+<END>
+
+#WRITE(PTR, $000013A0)
+【倫太郎】
+What business do you have in Nakano, anyway?
+<END>
+
+#WRITE(PTR, $000013C6)
+【まゆり】
+Well, a "Sorrow Sword" doujinshi came out yesterday-
+<END>
+
+#WRITE(PTR, $000013E0)
+【至】
+Porn?
+<END>
+
+#WRITE(PTR, $000013F0)
+【まゆり】
+No. But the artist is 'Kouka Yui-san'. Mayushii's thinks it's time to get serious-
+<END>
+
+#WRITE(PTR, $00001412)
+【至】
+Heh, Kouka Yui, huh-. The character designer for last year's <DICT>Gunbum</DICT>, right?
+<END>
+
+#WRITE(PTR, $0000142C)
+【まゆり】
+Yup. That's right-
+<END>
+
+#WRITE(PTR, $0000143C)
+【至】
+Buy me one too.
+<END>
+
+#WRITE(PTR, $00001456)
+【まゆり】
+Okidokey-♪
+<END>
+
+#WRITE(PTR, $00001466)
+【倫太郎】
+Hey, hey, what are you guys saying? If you want doujinshi, why not go to Toranoana right there?
+<END>
+
+#WRITE(PTR, $00001484)
+Daru and Mayuri stare blankly at my words.
+<END>
+
+#WRITE(PTR, $00001494)
+【まゆり】
+There, where-?
+<END>
+
+#WRITE(PTR, $000014A4)
+【倫太郎】
+No, by there, I mean there. Right over-
+<END>
+
+#WRITE(PTR, $0000154C)
+I point my finger--
+<END>
+
+#WRITE(PTR, $0000155C)
+Not at Toranoana.
+<END>
+
+#WRITE(PTR, $0000156C)
+【倫太郎】
+Wh...at...?
+<END>
+
+#WRITE(PTR, $00001588)
+I rub my eyes and blink several times.
+<END>
+
+#WRITE(PTR, $00001598)
+I stare at it again.
+<END>
+
+#WRITE(PTR, $000015A8)
+I thought maybe I got the wrong place.
+<END>
+
+#WRITE(PTR, $000015B8)
+But I couldn't find it no matter how much I searched.
+<END>
+
+#WRITE(PTR, $000015C8)
+On the contrary--
+<END>
+
+#WRITE(PTR, $000015D8)
+Toranoana's neighbor, animate, disappeared too.
+<END>
+
+#WRITE(PTR, $000015E8)
+In their place are electronics stores.
+<END>
+
+#WRITE(PTR, $000015F8)
+Furthermore, those electronics stores are unfamiliar, Daiichi Kaden and T-2ONE Minami.
+<END>
+
+#WRITE(PTR, $00001696)
+No, wait....
+<END>
+
+#WRITE(PTR, $000016A6)
+I remember hearing from Mister Braun that Akiba used to have a whole bunch more electronics shops.
+<END>
+
+#WRITE(PTR, $000016B6)
+Several shops have already closed. I think Daiichi Kaden and T-2ONE Minami were among them....
+<END>
+
+#WRITE(PTR, $0000171A)
+【倫太郎】
+Toranoana and animate- where did they go!?
+<END>
+
+#WRITE(PTR, $00001790)
+【至】
+Are you telling a joke by any chance?
+<END>
+
+#WRITE(PTR, $000017A0)
+【倫太郎】
+Huh?
+<END>
+
+#WRITE(PTR, $000017B0)
+【まゆり】
+There aren't any Toranoanas or animates in Akiba, you know-? That's why Mayushii's going to Nakano to buy doujinshi.
+<END>
+
+#WRITE(PTR, $000017C0)
+【倫太郎】
+...What do you mean there aren't any!? They were just there yesterday, right!?
+<END>
+
+#WRITE(PTR, $000017D0)
+What about today?
+<END>
+
+#WRITE(PTR, $000017E0)
+When we went to Faris' house, I didn't clearly see them, though....
+<END>
+
+#WRITE(PTR, $000017FA)
+【至】
+There aren't any. It's not like there would be any moe shops in Akiba anyway. The moe holy land is Nakano, durr.
+<END>
+
+#WRITE(PTR, $0000180A)
+【倫太郎】
+Isn't Akiba more famous worldwide as the moe holy land?
+<END>
+
+#WRITE(PTR, $00001824)
+【至】
+Has the heat finally gotten to you, Okarin? Akiba is the electric town. If you made a moe shop, then the maniacs would start a rebellion.
+<END>
+
+#WRITE(PTR, $000018C2)
+The conversation doesn't connect.
+<END>
+
+#WRITE(PTR, $000018D2)
+This feel... this feeling...!
+<END>
+
+#WRITE(PTR, $000018E2)
+I'm frustrated.
+<END>
+
+#WRITE(PTR, $000018F2)
+The past changed.
+<END>
+
+#WRITE(PTR, $00001902)
+I notice from the corner of my brain.
+<END>
+
+#WRITE(PTR, $00001966)
+But I still can't help but ask.
+<END>
+
+#WRITE(PTR, $00001976)
+【倫太郎】
+"Mandarake?"
+<END>
+
+#WRITE(PTR, $00001986)
+【まゆり】
+None-
+<END>
+
+#WRITE(PTR, $00001996)
+【倫太郎】
+Akibaoo~!?
+<END>
+
+#WRITE(PTR, $000019B0)
+【至】
+That's normal.
+<END>
+
+#WRITE(PTR, $000019C0)
+【倫太郎】
+I mean Akibaoo~koku, where they sell doujinshi!
+<END>
+
+#WRITE(PTR, $000019D0)
+【至】
+The hell's that?
+<END>
+
+#WRITE(PTR, $000019EA)
+【まゆり】
+They sell doujinshi at Akibaoo~?
+<END>
+
+#WRITE(PTR, $00001A04)
+【至】
+No way. That's impossible by any means.
+<END>
+
+#WRITE(PTR, $00001A14)
+【倫太郎】
+Gamers!? Ramutara!?
+<END>
+
+#WRITE(PTR, $00001A2E)
+They shake their heads.
+<END>
+
+#WRITE(PTR, $00001A3E)
+【倫太郎】
+MelonBooks!? Asobit City!?
+<END>
+
+#WRITE(PTR, $00001A4E)
+They give back confused looks.
+<END>
+
+#WRITE(PTR, $00001A5E)
+So basically--
+<END>
+
+#WRITE(PTR, $00001A6E)
+I take a deep gulp.
+<END>
+
+#WRITE(PTR, $00001A8A)
+I finally understand.
+<END>
+
+#WRITE(PTR, $00001A9A)
+It's too unreal, but I understand.
+<END>
+
+#WRITE(PTR, $00001AAA)
+【倫太郎】
+This town's chaos... is dissipating....
+<END>
+
+#WRITE(PTR, $00001ABA)
+Only the otaku pandering shops, selling anime and eroge, have completely disappeared from Akiba Town--
+<END>
+
+#WRITE(PTR, $00001BE8)
+For the final desperate struggle, I run to the usual spot.
+<END>
+
+#WRITE(PTR, $00001BF8)
+"MayQueen+Nyan²".
+<END>
+
+#WRITE(PTR, $00001C08)
+The maid cafe where Mayuri and Faris work, and Daru and I frequent.
+<END>
+
+#WRITE(PTR, $00001C18)
+But upon arriving in front of that store, I could do nothing but stand stock still and surrender to the finishing blow.
+<END>
+
+#WRITE(PTR, $00001C78)
+【倫太郎】
+Gone--
+<END>
+
+#WRITE(PTR, $00001C88)
+It's lost.
+<END>
+
+#WRITE(PTR, $00001C98)
+Not just the moe shops, but even the maid cafe disappeared.
+<END>
+
+#WRITE(PTR, $00001CA8)
+Not just MayQueen, but the other multitudes of maid cafes and cosplay service stores have probably disappeared too.
+<END>
+
+#WRITE(PTR, $00001CF0)
+【倫太郎】
+Mayuri. You work at MayQueen, don't you?
+<END>
+
+#WRITE(PTR, $00001D0A)
+【まゆり】
+MayQueen? What's that-? The potato?
+<END>
+
+#WRITE(PTR, $00001D1A)
+【倫太郎】
+"MayQueen+Nyan²"！
+<END>
+
+#WRITE(PTR, $00001D62)
+I try asking Daru too, but to no reaction.
+<END>
+
+#WRITE(PTR, $00001D7C)
+【まゆり】
+Mayushii's part time job is at Lemoine, you know?
+<END>
+
+#WRITE(PTR, $00001D8C)
+【倫太郎】
+Lemoine? Is that a maid cafe?
+<END>
+
+#WRITE(PTR, $00001D9C)
+【まゆり】
+No. A normal coffee shop.
+<END>
+
+#WRITE(PTR, $00001DAC)
+【倫太郎】
+...Is there even a single maid cafe in Akiba?
+<END>
+
+#WRITE(PTR, $00001DC6)
+【至】
+None. The people who come to Akiba are prejudiced against that sort of moe business. Nobody would go.
+<END>
+
+#WRITE(PTR, $00001DD6)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00001DF2)
+It's already definite.
+<END>
+
+#WRITE(PTR, $00001E02)
+This is most likely an influence of Faris' D-mail.
+<END>
+
+#WRITE(PTR, $00001E12)
+The Butterfly Effect Kurisu talked about.
+<END>
+
+#WRITE(PTR, $00001EB0)
+Faris said she had participated in Akiba's city development conferences ever since she was little. And that, adopting her opinion, they increased the moe shops.
+<END>
+
+#WRITE(PTR, $00001EC0)
+And by sending a D-mail to 2000 directly, or indirectly negating that, the world line was reconstructed to one with an Akiba without those stores.
+<END>
+
+#WRITE(PTR, $00001ED0)
+I guess that's it.
+<END>
+
+#WRITE(PTR, $00001EE0)
+To think that a single mail could rewrite ten years of a town's history.
+<END>
+
+#WRITE(PTR, $00001EF0)
+Is it okay to repaint the town's appearance to our convenience-- no, Faris' convenience?
+<END>
+
+#WRITE(PTR, $00001F00)
+I almost felt guilty about it, but since I'm the only one who remembers the original Akiba, nobody can blame me.
+<END>
+
+#WRITE(PTR, $00001F10)
+I can't do anything about the changes after all.
+<END>
+
+#WRITE(PTR, $00001F20)
+But still, just what did Faris send...?
+<FILEEND59>
+

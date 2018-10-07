@@ -1,0 +1,690 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000270C)
+
+#WRITE(PTR, $00000810)
+収穫なく戻ってきた柳林神社は、夕陽に染まって朱色に染まっていた。
+<END>
+
+#WRITE(PTR, $0000082C)
+ここまで戻ってくる間、ずっと繋いでいた手を、ルカ子の方から離す。
+<END>
+
+#WRITE(PTR, $0000083C)
+それから俺に向き直った。
+<END>
+
+#WRITE(PTR, $00000884)
+【るか】
+This really is farewell, huh...
+<END>
+
+#WRITE(PTR, $00000894)
+【倫太郎】
+Yeah.
+<END>
+
+#WRITE(PTR, $000008A4)
+【るか】
+I'm really happy... that I could train with Kyouma-san.
+<END>
+
+#WRITE(PTR, $000008B4)
+She looks shy again.
+<END>
+
+#WRITE(PTR, $000008C4)
+But her cheeks are dyed pink.
+<END>
+
+#WRITE(PTR, $000008D4)
+I could tell she was desperately holding her tears back.
+<END>
+
+#WRITE(PTR, $000008E4)
+The meaning of those tears are different than the ones before I time leaped.
+<END>
+
+#WRITE(PTR, $000008F4)
+That's what I'd like to think.
+<END>
+
+#WRITE(PTR, $00000904)
+【倫太郎】
+I... didn't really do anything lover-like for you, did I?
+<END>
+
+#WRITE(PTR, $0000091E)
+【るか】
+That doesn't matter to me.
+<END>
+
+#WRITE(PTR, $0000092E)
+【倫太郎】
+Ahh. I see.
+<END>
+
+#WRITE(PTR, $0000093E)
+Because Lukako smiles.
+<END>
+
+#WRITE(PTR, $0000094E)
+I'm sincerely relieved.
+<END>
+
+#WRITE(PTR, $00000968)
+【るか】
+...Please save Mayuri-chan.
+<END>
+
+#WRITE(PTR, $00000978)
+【るか】
+Because Mayuri is... a really important friend to me.
+<END>
+
+#WRITE(PTR, $00000988)
+【倫太郎】
+Lukako...
+<END>
+
+#WRITE(PTR, $000009A2)
+【るか】
+Ahaha, um, please, go already. If you don't... I might cry...
+<END>
+
+#WRITE(PTR, $000009BC)
+【るか】
+So, please...
+<END>
+
+#WRITE(PTR, $000009CC)
+【るか】
+Thank you, for everything until today...
+<END>
+
+#WRITE(PTR, $000009E6)
+【るか】
+Ah, in times like these, I use the usual password, right...
+<END>
+
+#WRITE(PTR, $000009F6)
+【るか】
+Umm, El Psy Congaly...
+<END>
+
+#WRITE(PTR, $00000A06)
+【倫太郎】
+It's Congroo.
+<END>
+
+#WRITE(PTR, $00000A16)
+I wryly smile unintentionally.
+<END>
+
+#WRITE(PTR, $00000A26)
+Lukako also forces a laugh.
+<END>
+
+#WRITE(PTR, $00000A40)
+【るか】
+El Psy Congroo, then.
+<END>
+
+#WRITE(PTR, $00000A50)
+She bows deeply.
+<END>
+
+#WRITE(PTR, $00000A60)
+She doesn't raise her head.
+<END>
+
+#WRITE(PTR, $00000A70)
+A sign for me to please go already.
+<END>
+
+#WRITE(PTR, $00000AE4)
+I turn back to the torii at the entrance to the shrine.
+<END>
+
+#WRITE(PTR, $00000AF4)
+My feet are heavy.
+<END>
+
+#WRITE(PTR, $00000B04)
+They won't advance.
+<END>
+
+#WRITE(PTR, $00000B14)
+I stop in front of the stairs.
+<END>
+
+#WRITE(PTR, $00000B3E)
+Then I take out my phone.
+<END>
+
+#WRITE(PTR, $00000C6A)
+【紅莉栖】
+Hello, Okabe? Mayuri called me. She was mad. You stood up her promise to go to ComiMa, or something.
+<END>
+
+#WRITE(PTR, $00000C86)
+【倫太郎】
+Christina... please enter the number I'm about to say into the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00000CA2)
+【紅莉栖】
+What? Explain yourself.
+<END>
+
+#WRITE(PTR, $00000CBE)
+【倫太郎】
+Please, just do it.... I'm sending the D-mail now.
+<END>
+
+#WRITE(PTR, $00000CCE)
+I hear a sigh on the other end of the phone.
+<END>
+
+#WRITE(PTR, $00000CDE)
+【倫太郎】
+The number is...
+<END>
+
+#WRITE(PTR, $00000CEE)
+I tell her Lukako's mother's pager number, and one more thing.
+<END>
+
+#WRITE(PTR, $00000CFE)
+"*2*2292983183129298318312929"
+<END>
+
+#WRITE(PTR, $00000D0E)
+MeatMeatVegVegMeatMeatVegVeg....
+<END>
+
+#WRITE(PTR, $00000D1E)
+If she sees this, Lukako's mother would probably think it's a prank.
+<END>
+
+#WRITE(PTR, $00000D2E)
+And then, she'd think the D-mail we sent earlier is also a prank.
+<END>
+
+#WRITE(PTR, $00000D3E)
+And if that still doesn't change the world line, we can just try saying something else.
+<END>
+
+#WRITE(PTR, $00000D4E)
+The pagers in 1992 didn't have a number display function, so the sender's phone number isn't shown. So Lukako's mother won't know who sent it.
+<END>
+
+#WRITE(PTR, $00000D5E)
+I already told Kurisu the timer setting.
+<END>
+
+#WRITE(PTR, $00000D6E)
+Everything's set now.
+<END>
+
+#WRITE(PTR, $00000D92)
+Once I get confirmation that the 42in Braun tube TV is on, I hang up.
+<END>
+
+#WRITE(PTR, $00000DA2)
+Now I just need to call the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00000DB2)
+Then the world line will change──
+<END>
+
+#WRITE(PTR, $00000EDC)
+Lukako will turn back into a guy.
+<END>
+
+#WRITE(PTR, $00000EF8)
+His memories will disappear.
+<END>
+
+#WRITE(PTR, $00000F4E)
+Mayuri won't die today.
+<END>
+
+#WRITE(PTR, $00000F6A)
+But.
+<END>
+
+#WRITE(PTR, $00000F7A)
+I'm hesitating to open my address book.
+<END>
+
+#WRITE(PTR, $00000F8A)
+I think about Lukako, who's probably still watching me from behind.
+<END>
+
+#WRITE(PTR, $00000F9A)
+I wonder what sort of face she's makking.
+<END>
+
+#WRITE(PTR, $00000FAA)
+I want to check, but I don't think she'd let me turn back.
+<END>
+
+#WRITE(PTR, $00000FBA)
+Lukako finally smiled for me today, but reservations still linger inside me.
+<END>
+
+#WRITE(PTR, $00000FCA)
+This time, I'm about to sacrifice Lukako's memories.
+<END>
+
+#WRITE(PTR, $00000FDA)
+The memories of the 17 years she lived as a girl in this world line.
+<END>
+
+#WRITE(PTR, $00000FEA)
+The memories of her parents, who rejoiced the fact she was born a girl.
+<END>
+
+#WRITE(PTR, $00000FFA)
+I'm about to undo all of that.
+<END>
+
+#WRITE(PTR, $0000100A)
+If I don't, I would deny the 17 years Lukako lived as a guy.
+<END>
+
+#WRITE(PTR, $0000101A)
+I would deny the memories of her parents, who rejoiced the fact he was born a guy.
+<END>
+
+#WRITE(PTR, $0000102A)
+But still──
+<END>
+
+#WRITE(PTR, $0000103A)
+Is it okay to turn Lukako back into a guy?
+<END>
+
+#WRITE(PTR, $0000104A)
+Confused at what I should do, I can't advance forward.
+<END>
+
+#WRITE(PTR, $0000105A)
+The two memories I've sacrificed so far──
+<END>
+
+#WRITE(PTR, $000010EC)
+Suzuha and Faris' crying faces cross my mind.
+<END>
+
+#WRITE(PTR, $000010FC)
+I──
+<END>
+
+#WRITE(PTR, $000014B2)
+Feel a soft impact on my back.
+<END>
+
+#WRITE(PTR, $000014C2)
+Lukako is embracing me from behind.
+<END>
+
+#WRITE(PTR, $00001546)
+【るか】
+...
+<END>
+
+#WRITE(PTR, $00001556)
+I hear faint sobbing.
+<END>
+
+#WRITE(PTR, $00001566)
+What expression is she making now? I know, even without looking.
+<END>
+
+#WRITE(PTR, $00001576)
+【るか】
+I... really don't... want to change back...
+<END>
+
+#WRITE(PTR, $00001586)
+I feel the pain of thin needles stabbing my chest.
+<END>
+
+#WRITE(PTR, $00001596)
+【るか】
+Because... because...
+<END>
+
+#WRITE(PTR, $000015A6)
+【るか】
+If I change back into a guy... I'd have to seal my feelings for Okabe-san...
+<END>
+
+#WRITE(PTR, $000015B6)
+【るか】
+I don't think I should love Okabe-san if I'm a guy...
+<END>
+
+#WRITE(PTR, $000015C6)
+I'm not against homosexual love.
+<END>
+
+#WRITE(PTR, $000015D6)
+But unfortunately, I am heterosexual.
+<END>
+
+#WRITE(PTR, $000015E6)
+I wouldn't be able to answer guy Lukako's feelings.
+<END>
+
+#WRITE(PTR, $000015F6)
+【るか】
+And... my memories of today, will vanish too, won't they...?
+<END>
+
+#WRITE(PTR, $00001606)
+【るか】
+That we held hands and walked together...
+<END>
+
+#WRITE(PTR, $00001616)
+【るか】
+That we trained together after such a long time...
+<END>
+
+#WRITE(PTR, $00001626)
+【るか】
+That I touched Okabe's body like I am now...
+<END>
+
+#WRITE(PTR, $00001636)
+【るか】
+I don't want to... I don't want to forget...
+<END>
+
+#WRITE(PTR, $00001646)
+【るか】
+Because I love you... I love you, Okabe-san...
+<END>
+
+#WRITE(PTR, $00001656)
+【るか】
+I do want to save Mayuri-chan too, and I understand that there's no other way, but...
+<END>
+
+#WRITE(PTR, $00001666)
+【るか】
+It's still... painful...
+<END>
+
+#WRITE(PTR, $00001676)
+【るか】
+At the very least, I want... to keep my memories of today...
+<END>
+
+#WRITE(PTR, $00001686)
+【るか】
+If I knew it would end up this painful...
+<END>
+
+#WRITE(PTR, $00001696)
+【るか】
+Then I never would have wished to become a girl...
+<END>
+
+#WRITE(PTR, $000016A6)
+【倫太郎】
+Lukako...
+<END>
+
+#WRITE(PTR, $000016B6)
+【るか】
+Sniff...
+<END>
+
+#WRITE(PTR, $000016C6)
+【るか】
+I'm sorry. I know you don't think that matters... sniff...
+<END>
+
+#WRITE(PTR, $000016D6)
+【倫太郎】
+Even if you turn back into a guy... Lukako will still be Lukako to me. That won't change.
+<END>
+
+#WRITE(PTR, $000016E6)
+【るか】
+Yes.... You saying that, makes me happy...
+<END>
+
+#WRITE(PTR, $000016F6)
+【るか】
+Okabe-san.... Please, send that mail...
+<END>
+
+#WRITE(PTR, $00001706)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00001716)
+【るか】
+Please. Send it, quickly...
+<END>
+
+#WRITE(PTR, $00001726)
+【るか】
+If I get to feel your warmth any longer... I...
+<END>
+
+#WRITE(PTR, $00001736)
+【るか】
+I might say even worse things...
+<END>
+
+#WRITE(PTR, $00001746)
+【るか】
+I can't... hold back my feelings anymore, so...
+<END>
+
+#WRITE(PTR, $00001756)
+【倫太郎】
+But...
+<END>
+
+#WRITE(PTR, $00001766)
+Is this okay?
+<END>
+
+#WRITE(PTR, $00001776)
+Is this really okay?
+<END>
+
+#WRITE(PTR, $00001786)
+【るか】
+Okabe-san... please...
+<END>
+
+#WRITE(PTR, $00001796)
+I'm about to sacrifice someone again.
+<END>
+
+#WRITE(PTR, $000017A6)
+Is it okay for me to decide this on my own?
+<END>
+
+#WRITE(PTR, $000017D6)
+The fingers holding my phone are shaking──
+<END>
+
+#WRITE(PTR, $0000181E)
+And, those fingers, are wraped up in Lukako's warm hand.
+<END>
+
+#WRITE(PTR, $00001898)
+【るか】
+Will you remember... me?
+<END>
+
+#WRITE(PTR, $000018B6)
+【倫太郎】
+...Yeah.
+<END>
+
+#WRITE(PTR, $000018D4)
+Now if I just call the Microwave Ophone (Temp), I can send a message to Luka's mother's pager before she's born.
+<END>
+
+#WRITE(PTR, $000018F2)
+【るか】
+Will you remember... the time I was a girl?
+<END>
+
+#WRITE(PTR, $00001910)
+【倫太郎】
+...Yeah.
+<END>
+
+#WRITE(PTR, $0000192E)
+If I make the call──
+<END>
+
+#WRITE(PTR, $0000194C)
+【るか】
+Will you remember... these short four days when we were lovers?
+<END>
+
+#WRITE(PTR, $0000196A)
+【倫太郎】
+...Yeah.
+<END>
+
+#WRITE(PTR, $00001AA4)
+Lukako places her finger.
+<END>
+
+#WRITE(PTR, $00001AB4)
+On top of mine.
+<END>
+
+#WRITE(PTR, $00001AC4)
+On top of the Send button──
+<END>
+
+#WRITE(PTR, $00001ADE)
+【るか】
+Thank you... Okabe-san.
+<END>
+
+#WRITE(PTR, $00001AEE)
+【るか】
+「さようなら。ボクの……好きな人├┤」
+<END>
+
+#WRITE(PTR, $00001BB6)
+WD10.PMF
+<END2>
+
+#WRITE(PTR, $00002026)
+【倫太郎】
+No, I can't do it──
+<END>
+
+#WRITE(PTR, $00002040)
+【るか】
+Okabe... san...? Why....?
+<END>
+
+#WRITE(PTR, $00002050)
+【倫太郎】
+I can't do it anymore.... I can't sacrifice anybody else's memories...
+<END>
+
+#WRITE(PTR, $000021E6)
+So far, I've trampled over both Suzuha's and Faris' memories.
+<END>
+
+#WRITE(PTR, $000021F6)
+I pretended to not notice their suffering, all the while telling myself It's all for sake of saving Mayuri.
+<END>
+
+#WRITE(PTR, $00002206)
+I alone will remember their memories.
+<END>
+
+#WRITE(PTR, $00002216)
+That was my justification, but it was just a convenient excuse.
+<END>
+
+#WRITE(PTR, $000022D2)
+【倫太郎】
+I don't have... any right to do that.
+<END>
+
+#WRITE(PTR, $000022E2)
+I genuflect on the spot, brokenhearted.
+<END>
+
+#WRITE(PTR, $000022F2)
+Nothing can save Mayuri but sending D-mails.
+<END>
+
+#WRITE(PTR, $00002302)
+Currently, there are no alternative methods.
+<END>
+
+#WRITE(PTR, $00002312)
+But──
+<END>
+
+#WRITE(PTR, $00002322)
+Even so, I don't have the right to erase Lukako's entire life as a girl....
+<END>
+
+#WRITE(PTR, $00002332)
+I can't do such an arrogant thing.
+<END>
+
+#WRITE(PTR, $00002342)
+More than anything, I didn't want to lose the Lukako standing here before me.
+<END>
+
+#WRITE(PTR, $00002352)
+【るか】
+Okabe-san...
+<END>
+
+#WRITE(PTR, $00002362)
+...Mayuri can't... be saved.
+<END>
+
+#WRITE(PTR, $00002372)
+Mayuri's death is... fate.
+<END>
+
+#WRITE(PTR, $00002382)
+No matter how many world lines I cross, the resulting world will converge, according to the Attractor Field theory.
+<END>
+
+#WRITE(PTR, $00002392)
+Mayuri will die, no matter what...
+<END>
+
+#WRITE(PTR, $000024EE)
+I'm already tired.
+<END>
+
+#WRITE(PTR, $00002536)
+Mayuri.
+<END>
+
+#WRITE(PTR, $00002546)
+I wasn't enough of an egoistic human being to sacrifice everything for your survival's sake....
+<FILEEND48>
+

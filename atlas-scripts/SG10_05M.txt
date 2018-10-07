@@ -1,0 +1,160 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000006BA)
+
+#WRITE(PTR, $00000214)
+【倫太郎】
+...I'm sorry.
+<END>
+
+#WRITE(PTR, $00000224)
+I tell her.
+<END>
+
+#WRITE(PTR, $0000024A)
+【紅莉栖】
+......
+<END>
+
+#WRITE(PTR, $0000025A)
+I turn to the girl whom I will now let die.
+<END>
+
+#WRITE(PTR, $0000026A)
+【倫太郎】
+Mayuri is the one person I want to save no matter what.
+<END>
+
+#WRITE(PTR, $0000027A)
+Almost wringing myself out, I tell her.
+<END>
+
+#WRITE(PTR, $0000028A)
+【倫太郎】
+...I can't save you.
+<END>
+
+#WRITE(PTR, $0000029A)
+【紅莉栖】
+...it's okay.
+<END>
+
+#WRITE(PTR, $000002AA)
+When I finish telling her, I feel like the weight of a tombstone disappeared from my shoulders.
+<END>
+
+#WRITE(PTR, $000002BA)
+At the same time, I also started to feel the pain of several rods impaling my heart.
+<END>
+
+#WRITE(PTR, $000002CA)
+Kurisu weakly returns my embrace.
+<END>
+
+#WRITE(PTR, $000002DA)
+Then she separates from me, and stands up.
+<END>
+
+#WRITE(PTR, $0000032A)
+【紅莉栖】
+Well then
+<END>
+
+#WRITE(PTR, $0000033A)
+Her face already showed she was refreshed.
+<END>
+
+#WRITE(PTR, $0000034A)
+【紅莉栖】
+I'll go home first.
+<END>
+
+#WRITE(PTR, $0000035A)
+【倫太郎】
+Back home? Where to...
+<END>
+
+#WRITE(PTR, $0000036A)
+Don't tell me she means America?
+<END>
+
+#WRITE(PTR, $00000384)
+【紅莉栖】
+The lab, of course. I need to dry my clothes. I also want to shower.
+<END>
+
+#WRITE(PTR, $00000394)
+In that case, we should go back together.
+<END>
+
+#WRITE(PTR, $000003A4)
+I was about to say that, but Kurisu beat me to the punch as if she could read my mind.
+<END>
+
+#WRITE(PTR, $000003BE)
+【紅莉栖】
+You, stay and wait here a while, while you're all wet.
+<END>
+
+#WRITE(PTR, $000003CE)
+【紅莉栖】
+Understand?
+<END>
+
+#WRITE(PTR, $000003DE)
+We won't go back together.
+<END>
+
+#WRITE(PTR, $000003EE)
+That's her verdict.
+<END>
+
+#WRITE(PTR, $000003FE)
+【倫太郎】
+...understood.
+<END>
+
+#WRITE(PTR, $0000046C)
+I hang my head. And close my eyes.
+<END>
+
+#WRITE(PTR, $0000047C)
+I hug my own arms.
+<END>
+
+#WRITE(PTR, $0000048C)
+Kurisu's footsteps fade into the distance.
+<END>
+
+#WRITE(PTR, $0000049C)
+Even though it's summer,
+<END>
+
+#WRITE(PTR, $000004AC)
+And even though this building's air conditioning isn't working.,
+<END>
+
+#WRITE(PTR, $000004BC)
+My whole body is shivering.
+<END>
+
+#WRITE(PTR, $000004CC)
+Because I can no longer show my face to Kurisu....
+<END>
+
+#WRITE(PTR, $000004DC)
+I was relieved that she rejected going home together.
+<END>
+
+#WRITE(PTR, $000004EC)
+【倫太郎】
+He... hehe...
+<END>
+
+#WRITE(PTR, $000004FC)
+I unconsciously started laughing in self-derision.
+<FILEEND45>
+

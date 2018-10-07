@@ -1,0 +1,742 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001AB8)
+
+#WRITE(PTR, $00000810)
+【紅莉栖】
+...What?
+<END>
+
+#WRITE(PTR, $00000820)
+【倫太郎】
+Upset?
+<END>
+
+#WRITE(PTR, $00000830)
+【紅莉栖】
+...yeah.
+<END>
+
+#WRITE(PTR, $00000840)
+Maybe it's because I alienated her right after she finished the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00000850)
+She was probably only relieved after she had time to fully consider its implications.
+<END>
+
+#WRITE(PTR, $00000860)
+【倫太郎】
+I came from 5 hours later.
+<END>
+
+#WRITE(PTR, $0000087A)
+【紅莉栖】
+......
+<END>
+
+#WRITE(PTR, $0000088A)
+Kurisu stares at me with a piercing glare──
+<END>
+
+#WRITE(PTR, $0000089A)
+【紅莉栖】
+You joking?
+<END>
+
+#WRITE(PTR, $000008AA)
+Her narrowed eyes make me believe that looks could kill.
+<END>
+
+#WRITE(PTR, $000008BA)
+【倫太郎】
+D-don't stare at me.... This isn't what you said at all! 'If you say you came from the future, I'll probably believe you'? Like hell you did...!
+<END>
+
+#WRITE(PTR, $000008D4)
+【紅莉栖】
+Haah? What's with that idiotic line?
+<END>
+
+#WRITE(PTR, $000008E4)
+【倫太郎】
+You said it 5 hours later, you know!?
+<END>
+
+#WRITE(PTR, $000008F8)
+【紅莉栖】
+「ねつ造しないで。私が
+<END2>
+
+#WRITE(PTR, $00000912)
+“たぶん信じる”
+<END2>
+
+#WRITE(PTR, $0000092C)
+みたいな論理性皆無の発言するわけないでしょ」
+<END>
+
+#WRITE(PTR, $00000940)
+くっ、５時間後のこいつ自身に聞かせてやりたい……。
+<END>
+
+#WRITE(PTR, $00000950)
+こうなったら、一言一句、紅莉栖が言ったことを伝えるしかないか。
+<END>
+
+#WRITE(PTR, $00000960)
+【倫太郎】
+When I told you I successfully time leaped, you said that 'Without a doubt, it meant that my theory wasn't wrong. I was happy it succeeded.'
+<END>
+
+#WRITE(PTR, $00000970)
+【倫太郎】
+I'm the one who improved the Microwave Ophone into the Time Leap Machine in the first place, aren't I?'
+<END>
+
+#WRITE(PTR, $0000098A)
+【紅莉栖】
+...I-I wouldn't say 'aren't I?' like that.
+<END>
+
+#WRITE(PTR, $0000099A)
+【倫太郎】
+What you want most right now is My Fork.
+<END>
+
+#WRITE(PTR, $000009B4)
+【紅莉栖】
+Wait
+<END>
+
+#WRITE(PTR, $000009C4)
+Kurisu's face suddenly turns red.
+<END>
+
+#WRITE(PTR, $000009D4)
+【倫太郎】
+It looks like you already have My Spoon.
+<END>
+
+#WRITE(PTR, $000009EE)
+【紅莉栖】
+Sh-she even said that? Damn five hour future me...
+<END>
+
+#WRITE(PTR, $000009FE)
+She's seriously worried. In any case, it looks like I got her to believe.
+<END>
+
+#WRITE(PTR, $00000A18)
+【紅莉栖】
+It feels like someone peeked into my heart. And that someone is Okabe of all people.
+<END>
+
+#WRITE(PTR, $00000A28)
+What does this girl think of me?
+<END>
+
+#WRITE(PTR, $00000A42)
+【紅莉栖】
+But I think I can believe what you say. Tell me the details.
+<END>
+
+#WRITE(PTR, $00000B58)
+I explain everything to Kurisu again.
+<END>
+
+#WRITE(PTR, $00000B68)
+It's the second time, so I was more organized than before.
+<END>
+
+#WRITE(PTR, $00000CBA)
+【紅莉栖】
+I see.... If what you say is true, then this is pretty bad...
+<END>
+
+#WRITE(PTR, $00000CCA)
+There's still about five hours until Mayuri's death.
+<END>
+
+#WRITE(PTR, $00000CDA)
+We need to work out some sort of counter plan before then.
+<END>
+
+#WRITE(PTR, $00000CF4)
+【紅莉栖】
+Five hour future me said the chronology protection conjecture holds, but I think it's slightly different.
+<END>
+
+#WRITE(PTR, $00000D04)
+【紅莉栖】
+That conjecture denies the possibility of time travel from quantum theory because of the danger of disrupting the law of cause and effect.
+<END>
+
+#WRITE(PTR, $00000D1E)
+【紅莉栖】
+But in the case of time leaping, no time paradoxes occur in the first place.
+<END>
+
+#WRITE(PTR, $00000D2E)
+Two of me don't exist at the same time.
+<END>
+
+#WRITE(PTR, $00000D3E)
+I can't bring anything with me to the past either.
+<END>
+
+#WRITE(PTR, $00000D4E)
+The only change is the memories stored in my temporal lobe.
+<END>
+
+#WRITE(PTR, $00000D5E)
+Yes, at the very least, time leaping can't cause a Grandfather Paradox.
+<END>
+
+#WRITE(PTR, $00000D6E)
+【倫太郎】
+It's the will of the world after all.
+<END>
+
+#WRITE(PTR, $00000D7E)
+【倫太郎】
+It's as if the universe itself is censoring me, correcting any changes I try to make.
+<END>
+
+#WRITE(PTR, $00000D8E)
+【紅莉栖】
+Then that means time leaping can't save Mayuri. Since anything you do will be fixed.
+<END>
+
+#WRITE(PTR, $00000D9E)
+【倫太郎】
+...I can't accept that.
+<END>
+
+#WRITE(PTR, $00000DB8)
+【紅莉栖】
+I agree. The will of the world explanation's too unrealistic. I won't support it.
+<END>
+
+#WRITE(PTR, $00000DC8)
+【倫太郎】
+What about the many worlds interpretation? It's settled if I observe the possibility that Mayuri doesn't die.
+<END>
+
+#WRITE(PTR, $00000DE2)
+【紅莉栖】
+The many worlds interpretation, huh.... It might be related to how Mayuri's means of death keeps changing...
+<END>
+
+#WRITE(PTR, $00000DF2)
+【紅莉栖】
+But mutual observation of superpositioned possible worlds is impossible. How can you observe them?
+<END>
+
+#WRITE(PTR, $00000E02)
+【倫太郎】
+That's because my special ability, Reading Steiner──
+<END>
+
+#WRITE(PTR, $00000E1C)
+【紅莉栖】
+This guy's hopeless. If I don't do something soon...
+<END>
+
+#WRITE(PTR, $00000E2C)
+【倫太郎】
+...there's no other explanation.
+<END>
+
+#WRITE(PTR, $00000E46)
+【紅莉栖】
+A special ability, you...? Are you, serious, by any chance?
+<END>
+
+#WRITE(PTR, $00000E56)
+【倫太郎】
+I'm not trying to screw with you.
+<END>
+
+#WRITE(PTR, $00000E66)
+My eye can clearly perceive the world's reorganization.
+<END>
+
+#WRITE(PTR, $00000E76)
+The D-mail experiments so far have made that clear.
+<END>
+
+#WRITE(PTR, $00000E86)
+【紅莉栖】
+I don't know anything about special abilities, but I wouldn't rely on such an indefinite thing like that.
+<END>
+
+#WRITE(PTR, $00000E96)
+【紅莉栖】
+Anyway, you can't control which possibilities you observe, so I don't know if the many worlds interpretation holds or not. But it's unreasonable to expect to arrive at the possibility where Mayuri doesn't die.
+<END>
+
+#WRITE(PTR, $00000EA6)
+【倫太郎】
+Wait. The conversation's not going to go anywhere like this. We're good on the interpretation talk, so we should think about what it is we can do.
+<END>
+
+#WRITE(PTR, $00000EC0)
+【紅莉栖】
+Time leaping won't change the result. I already said so.
+<END>
+
+#WRITE(PTR, $00000ED0)
+【倫太郎】
+Then what should we do!?
+<END>
+
+#WRITE(PTR, $00000EE0)
+【紅莉栖】
+Calm down.
+<END>
+
+#WRITE(PTR, $00000EF0)
+【倫太郎】
+Like hell I can calm down! Just how many times do you think I've had to see Mayuri die!?
+<END>
+
+#WRITE(PTR, $00000F00)
+【倫太郎】
+Her tragic bloodshed, her final breaths... I've seen them with my own eyes, over and over... and over...
+<END>
+
+#WRITE(PTR, $00000F10)
+【倫太郎】
+I couldn't do anything... but watch...!
+<END>
+
+#WRITE(PTR, $00000F20)
+I grind my teeth. When I remember those scenes, I'm driven by the frustration to blame everything around me.
+<END>
+
+#WRITE(PTR, $00000F3A)
+【紅莉栖】
+You won't solve anything if you give into your emotions.
+<END>
+
+#WRITE(PTR, $00000F4A)
+【倫太郎】
+You're only this calm because it doesn't concern you, aren't you!?
+<END>
+
+#WRITE(PTR, $00000F5A)
+【紅莉栖】
+...True. I don't know what happens five hours from now. Honestly speaking, it doesn't feel real.
+<END>
+
+#WRITE(PTR, $00000F74)
+【紅莉栖】
+But it's not like I don't believe you.
+<END>
+
+#WRITE(PTR, $00000F84)
+【紅莉栖】
+Okabe, you gotta hang in there.
+<END>
+
+#WRITE(PTR, $00000F94)
+Kurisu's warm hand touches my arm.
+<END>
+
+#WRITE(PTR, $00000FA4)
+She gently pats it.
+<END>
+
+#WRITE(PTR, $00000FB4)
+How American.
+<END>
+
+#WRITE(PTR, $00000FC4)
+【倫太郎】
+...Sorry.
+<END>
+
+#WRITE(PTR, $00000FD4)
+Becoming emotional certainly is meaningless.
+<END>
+
+#WRITE(PTR, $00000FE4)
+I need to calm down like Kurisu said. Calm down....
+<END>
+
+#WRITE(PTR, $00000FF4)
+【倫太郎】
+What I don't understand is how the cause changes, yet the result is always the same.
+<END>
+
+#WRITE(PTR, $00001004)
+【倫太郎】
+All I can think is that cause and effect are warped.
+<END>
+
+#WRITE(PTR, $0000101E)
+【紅莉栖】
+Maybe the cause of Mayuri's death isn't 'getting shot by Kiryuu Moeka, ' but something more macro.
+<END>
+
+#WRITE(PTR, $0000102E)
+【紅莉栖】
+Maybe 'because we made a time machine' or possibly 'because SERN found out we hacked them'.
+<END>
+
+#WRITE(PTR, $0000103E)
+【紅莉栖】
+As a result, Mayuri dies. If you think like that, cause and effect aren't warped.
+<END>
+
+#WRITE(PTR, $0000104E)
+【倫太郎】
+Can that explain how she got run over when Nae pushed her onto the train tracks?
+<END>
+
+#WRITE(PTR, $00001068)
+【紅莉栖】
+Ah, I see... hmmmm...
+<END>
+
+#WRITE(PTR, $00001082)
+【紅莉栖】
+But the law of cause and effect is absolute. Deny that, and you deny all of physics.
+<END>
+
+#WRITE(PTR, $00001092)
+【紅莉栖】
+So there must be a 'cause' for Mayuri's certain death.
+<END>
+
+#WRITE(PTR, $000010A2)
+【倫太郎】
+If we find out that 'cause, ' then maybe we can do something──
+<END>
+
+#WRITE(PTR, $000010BC)
+【紅莉栖】
+Not really.
+<END>
+
+#WRITE(PTR, $000010CC)
+【倫太郎】
+What do you mean?
+<END>
+
+#WRITE(PTR, $000010DC)
+【紅莉栖】
+The problem is when that causal event occurred.
+<END>
+
+#WRITE(PTR, $000010EC)
+【紅莉栖】
+If it happened a long time ago... then we can't deal with it.
+<END>
+
+#WRITE(PTR, $000010FC)
+【倫太郎】
+We have the Time Leap Machine, so I can go back to whenever I had my cell phone, right!?
+<END>
+
+#WRITE(PTR, $00001116)
+【紅莉栖】
+No, you can't. This is just a prediction, but a single use of the Time Leap Machine can only bring you back 48 hours at the longest... I think.
+<END>
+
+#WRITE(PTR, $00001126)
+48 hours... so two days!?
+<END>
+
+#WRITE(PTR, $00001136)
+【倫太郎】
+Why are you saying that just now...
+<END>
+
+#WRITE(PTR, $00001150)
+【紅莉栖】
+Just now? I only completed the Time Leap Machine just now, right?
+<END>
+
+#WRITE(PTR, $00001160)
+That's true....
+<END>
+
+#WRITE(PTR, $00001170)
+【倫太郎】
+Five hour future you didn't say that either.
+<END>
+
+#WRITE(PTR, $0000118A)
+【紅莉栖】
+Aah, I see. ...Maybe she couldn't find the time to say it.
+<END>
+
+#WRITE(PTR, $0000119A)
+【倫太郎】
+So, why can I only leap 48 hours?
+<END>
+
+#WRITE(PTR, $000011B4)
+【紅莉栖】
+I don't know. It's not like I made the machine with a full understanding of its theory and structure.
+<END>
+
+#WRITE(PTR, $000011C4)
+【紅莉栖】
+You can do consecutive leaps. As long as the Time Leap Machine exists, that is. For example, if the Time Leap Machine doesn't break for ten years, then you could go back those ten years.
+<END>
+
+#WRITE(PTR, $000011D4)
+【紅莉栖】
+By simple calculation, that would take 1825 time leaps, so there's quite a big risk, but it's theoretically possible.
+<END>
+
+#WRITE(PTR, $000011E4)
+【倫太郎】
+Then what's the problem──
+<END>
+
+#WRITE(PTR, $000011FE)
+【紅莉栖】
+A big one. Didn't I say so? As long as the Time Leap Machine exists.
+<END>
+
+#WRITE(PTR, $0000120E)
+【紅莉栖】
+When was that machine completed?
+<END>
+
+#WRITE(PTR, $0000121E)
+【倫太郎】
+...Ah.
+<END>
+
+#WRITE(PTR, $00001238)
+【紅莉栖】
+That's right. Just an hour ago. August 13, 2010 at about 2PM.
+<END>
+
+#WRITE(PTR, $00001248)
+【紅莉栖】
+It didn't exist before then.
+<END>
+
+#WRITE(PTR, $00001258)
+【紅莉栖】
+It's impossible to use the machine before 2 today.
+<END>
+
+#WRITE(PTR, $00001268)
+【倫太郎】
+So basically, I can go back──
+<END>
+
+#WRITE(PTR, $00001278)
+Count 28 hours back from 14 o'clock on the 13th.
+<END>
+
+#WRITE(PTR, $00001288)
+【倫太郎】
+To August 11th at 14 o'clock at the furthest!?
+<END>
+
+#WRITE(PTR, $00001298)
+Kurisu nods with a serious look.
+<END>
+
+#WRITE(PTR, $000012B2)
+【紅莉栖】
+Perhaps.
+<END>
+
+#WRITE(PTR, $000012C2)
+【倫太郎】
+You can't improve it!?
+<END>
+
+#WRITE(PTR, $000012D2)
+【紅莉栖】
+In the future, perhaps, but it's impossible in this situation.
+<END>
+
+#WRITE(PTR, $000012E2)
+【紅莉栖】
+If we had more precise equipment, used lots of money, and better parts, then we might be able to manage.
+<END>
+
+#WRITE(PTR, $000012FC)
+【紅莉栖】
+Even if we did all that, I think SERN would still crush us.
+<END>
+
+#WRITE(PTR, $0000130C)
+【紅莉栖】
+Neither the future you nor me have time leaped here yet, so it's end of proof, I guess.
+<END>
+
+#WRITE(PTR, $0000131C)
+So basically──
+<END>
+
+#WRITE(PTR, $0000132C)
+【倫太郎】
+In the end, we can't even do anything!?
+<END>
+
+#WRITE(PTR, $0000133C)
+【倫太郎】
+Even though we have the Time Leap Machine, we still can't avoid the fate of SERN killing Mayuri in five hours!?
+<END>
+
+#WRITE(PTR, $000013C2)
+Then I hear a sound from outside the window.
+<END>
+
+#WRITE(PTR, $000013D2)
+What?
+<END>
+
+#WRITE(PTR, $000013E2)
+Don't tell me it's Moeka!?
+<END>
+
+#WRITE(PTR, $000013F2)
+Did she overhear us just now!?
+<END>
+
+#WRITE(PTR, $00001402)
+I rush to the window and look to the street below.
+<END>
+
+#WRITE(PTR, $000014E2)
+Suzuha's there.
+<END>
+
+#WRITE(PTR, $000014F2)
+She's hastily picking up her fallen bicycle.
+<END>
+
+#WRITE(PTR, $00001502)
+Our eyes meet.
+<END>
+
+#WRITE(PTR, $00001512)
+【倫太郎】
+...her?
+<END>
+
+#WRITE(PTR, $0000152C)
+Why is she so pale?
+<END>
+
+#WRITE(PTR, $0000153C)
+Her lips faintly move.
+<END>
+
+#WRITE(PTR, $0000154C)
+She seemed to whisper something, but I couldn't catch what she said from here.
+<END>
+
+#WRITE(PTR, $0000155C)
+【倫太郎】
+Hey!
+<END>
+
+#WRITE(PTR, $000015FC)
+I called out to her, but Suzuha quickly averts her eyes and rushes off on her bicycle.
+<END>
+
+#WRITE(PTR, $0000160C)
+She's acting strange....
+<END>
+
+#WRITE(PTR, $0000161C)
+I smell a conspiracy.
+<END>
+
+#WRITE(PTR, $0000162C)
+Moeka was SERN's spy.
+<END>
+
+#WRITE(PTR, $0000163C)
+She approached me by feigning a chance encounter.
+<END>
+
+#WRITE(PTR, $0000164C)
+In that case, could Suzuha possibly be the same?
+<END>
+
+#WRITE(PTR, $0000165C)
+I should doubt everything.
+<END>
+
+#WRITE(PTR, $0000166C)
+In the first place, Suzuha's words also had some suspicious points like Moeka's.
+<END>
+
+#WRITE(PTR, $0000167C)
+She doesn't hide her hostility towards Kurisu, and she single-handedly knocked down all of SERN's assassins.
+<END>
+
+#WRITE(PTR, $0000168C)
+I wonder if her father really exists.
+<END>
+
+#WRITE(PTR, $0000169C)
+Is the John Titor posting on the internet her father?
+<END>
+
+#WRITE(PTR, $000016AC)
+What's the meaning of the name Barrel Titor?
+<END>
+
+#WRITE(PTR, $0000174C)
+Something might be happening──
+<END>
+
+#WRITE(PTR, $0000175C)
+My intuition whispers so.
+<END>
+
+#WRITE(PTR, $0000176C)
+That's why I rush out of the lab immediately.
+<END>
+
+#WRITE(PTR, $0000177C)
+【紅莉栖】
+Wait, where are you going!?
+<END>
+
+#WRITE(PTR, $0000189A)
+I don't think I can catch up to a bicycle.
+<END>
+
+#WRITE(PTR, $000018AA)
+But I've got a hunch.
+<END>
+
+#WRITE(PTR, $000018BA)
+This development hasn't happened yet.
+<END>
+
+#WRITE(PTR, $000018CA)
+I explained the situation to Kurisu, and Suzuha rushed off somewhere when she overheard it.
+<END>
+
+#WRITE(PTR, $000018DA)
+Properly speaking, Suzuha should've stayed at the Braun Tube Workshop until 6:30 today.
+<END>
+
+#WRITE(PTR, $000018EA)
+So I've got a feeling.
+<END>
+
+#WRITE(PTR, $000018FA)
+That something's happening.
+<FILEEND81>
+

@@ -1,0 +1,199 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00000906)
+
+#WRITE(PTR, $000002AA)
+【紅莉栖】
+......
+<END>
+
+#WRITE(PTR, $000002C4)
+Kurisu sighs when I meet her.
+<END>
+
+#WRITE(PTR, $000002D4)
+【紅莉栖】
+Why didn't you at least contact me a little?
+<END>
+
+#WRITE(PTR, $000002E4)
+【倫太郎】
+I've been busy.
+<END>
+
+#WRITE(PTR, $000002F4)
+【紅莉栖】
+You've been busy, huh.
+<END>
+
+#WRITE(PTR, $0000033C)
+Kurisu glances at Moeka.
+<END>
+
+#WRITE(PTR, $0000034C)
+【倫太郎】
+Were you worried by any chance?
+<END>
+
+#WRITE(PTR, $00000372)
+【紅莉栖】
+I, I wasn't! It's not like I really care what you do or where you go.
+<END>
+
+#WRITE(PTR, $0000038C)
+【紅莉栖】
+But Mayuri was really worried. It was pitiful watching her.
+<END>
+
+#WRITE(PTR, $0000039C)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000003AC)
+【紅莉栖】
+Just contact her, at the very least.
+<END>
+
+#WRITE(PTR, $000003BC)
+Now that she mentions it, it feels like I haven't talked to Mayuri in forever.
+<END>
+
+#WRITE(PTR, $000003D0)
+【倫太郎】
+Everything I'm doing is to save Mayuri.
+<END>
+
+#WRITE(PTR, $000003E0)
+【倫太郎】
+I'm about to find out the enemy's true identity.
+<END>
+
+#WRITE(PTR, $000003FA)
+【紅莉栖】
+Anyway, the enemy...
+<END>
+
+#WRITE(PTR, $00000442)
+Kurisu glances at Moeka again.
+<END>
+
+#WRITE(PTR, $00000452)
+Moeka is completely expressionless, tiptoeing and kicking the dirt in boredom.
+<END>
+
+#WRITE(PTR, $00000462)
+Moeka hasn't held her phone ever since we started the lookout.
+<END>
+
+#WRITE(PTR, $00000488)
+【紅莉栖】
+Isn't she the enemy?
+<END>
+
+#WRITE(PTR, $00000498)
+【倫太郎】
+She is an enemy, but we're cooperating in order to seek the truth.
+<END>
+
+#WRITE(PTR, $000004A8)
+【紅莉栖】
+She's the one... who killed Mayuri, isn't she?
+<END>
+
+#WRITE(PTR, $000004B8)
+【倫太郎】
+...yeah.
+<END>
+
+#WRITE(PTR, $000004C8)
+But Moeka is only a pawn who is no longer a threat. That's how I judge her.
+<END>
+
+#WRITE(PTR, $000004D8)
+What's necessary to save Mayuri is to get the king. The king's cellphone.
+<END>
+
+#WRITE(PTR, $000004F2)
+【紅莉栖】
+Whatever. So? You're going somewhere now, right? Take me with you.
+<END>
+
+#WRITE(PTR, $00000502)
+【倫太郎】
+You serious, my Assistant?
+<END>
+
+#WRITE(PTR, $00000512)
+【紅莉栖】
+I'm, but I'm not your assistant.
+<END>
+
+#WRITE(PTR, $00000522)
+【倫太郎】
+It might be dangerous.
+<END>
+
+#WRITE(PTR, $0000053C)
+【紅莉栖】
+Eh...
+<END>
+
+#WRITE(PTR, $0000054C)
+Kurisu falters for an instant, but quickly tightens her expression.
+<END>
+
+#WRITE(PTR, $00000566)
+【紅莉栖】
+Do I end up dying today?
+<END>
+
+#WRITE(PTR, $00000576)
+Having experienced the future, I should know who dies today.
+<END>
+
+#WRITE(PTR, $00000586)
+【倫太郎】
+No. You don't die.
+<END>
+
+#WRITE(PTR, $000005A0)
+【紅莉栖】
+Then there's no problem. 'The World' guarantees that I won't die today, after all.
+<END>
+
+#WRITE(PTR, $000005B0)
+Right, Kurisu won't die today. Mayuri won't die either.
+<END>
+
+#WRITE(PTR, $000005C0)
+The one to die is──
+<END>
+
+#WRITE(PTR, $00000694)
+The one next to me, Kiryuu Moeka.
+<END>
+
+#WRITE(PTR, $000006A4)
+This afternoon, she commits suicide.
+<END>
+
+#WRITE(PTR, $00000718)
+I've told that truth to Moeka herself.
+<END>
+
+#WRITE(PTR, $00000728)
+Nevertheless, Moeka isn't upset-- at least on the surface, and is expressionless as always. The only thing different is that she isn't looking at her phone.
+<END>
+
+#WRITE(PTR, $00000738)
+But Moeka isn't a strong woman.
+<END>
+
+#WRITE(PTR, $00000748)
+Underneath her expressionless face, she might be frantically fighting the dread of death──
+<FILEEND26>
+

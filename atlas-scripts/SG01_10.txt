@@ -1,0 +1,1258 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00006766)
+
+#WRITE(PTR, $000007E8)
+【まゆり＆フェイリス２（ま）】
+Welcome home, my myaster.♪
+<END>
+
+#WRITE(PTR, $000007F8)
+【まゆり＆フェイリス２（フ）】
+「お帰りニャさいませ。ご主人様♪」
+<END>
+
+#WRITE(PTR, $00000818)
+『メイクイーン＋ニャン⑯』の扉を開けると、２人のネコ耳メイドが笑顔でお出迎えしてくれた。
+<END>
+
+#WRITE(PTR, $00000828)
+【まゆり】
+「あ、オカリンだー」
+<END>
+
+#WRITE(PTR, $00000920)
+そのうちの１人は、まゆりだった。
+<END>
+
+#WRITE(PTR, $00000930)
+こいつもこの店で『マユシィ・ニャンニャン』として働いている。
+<END>
+
+#WRITE(PTR, $00000940)
+その縁もあって、俺も月に２度ほどはこの店に通っているのだ。
+<END>
+
+#WRITE(PTR, $00000950)
+常連客……ということになるのだろう、俺も。
+<END>
+
+#WRITE(PTR, $00000AA4)
+ちなみに他のメイド喫茶には行ったことがない。
+<END>
+
+#WRITE(PTR, $00000B48)
+【まゆり】
+「オカリン。お帰りニャさいませ」
+<END>
+
+#WRITE(PTR, $00000BEC)
+改めて頭を下げたまゆりは、なにか思い付いたのかハッとした。
+<END>
+
+#WRITE(PTR, $00000C90)
+【まゆり】
+「ねぇねぇオカリン、まゆしぃは今気付いたんだけどね」
+<END>
+
+#WRITE(PTR, $00000D34)
+【まゆり】
+「“オカリン”と“おかえり”って、似てるねー♪」
+<END>
+
+#WRITE(PTR, $00000DD8)
+どうでもいい……。
+<END>
+
+#WRITE(PTR, $00000F3C)
+【フェイリス】
+「凶真、よく来たニャン。ゆっくりしていってね！」
+<END>
+
+#WRITE(PTR, $0000107E)
+もう１人のお出迎えメイド、フェイリス・ニャンニャン├┤当然ながら源氏名である├┤が、上目遣いと猫っぽい仕草の<DICT>コンボ攻撃</DICT>で俺に甘えてくる。
+<END>
+
+#WRITE(PTR, $00001122)
+この『メイクイーン＋ニャン⑯』の人気ナンバーワンメイドである。
+<END>
+
+#WRITE(PTR, $000011C6)
+まゆり以上のロリっぷりを誇る。実際の年齢は、まゆりと同い年らしいが。
+<END>
+
+#WRITE(PTR, $00001300)
+【フェイリス】
+「ダルニャンも来てるニャン。待ちぼうけしてるニャ」
+<END>
+
+#WRITE(PTR, $000013A4)
+ダルが足しげくこの店に通っているのは、このフェイリスが目当てだからである。
+<END>
+
+#WRITE(PTR, $00001448)
+たまにフェイリスの個人ブログを眺めながら“フェイリスかわいいよフェイリス”とか独り言をつぶやいている。かなり重症だ。
+<END>
+
+#WRITE(PTR, $000014EC)
+２次元か３次元か、どちらかにしろといつも言っているのだが、ヤツは聞く耳を持とうとしない。
+<END>
+
+#WRITE(PTR, $00001590)
+ちなみに俺は、この猫娘が苦手である。
+<END>
+
+#WRITE(PTR, $00001634)
+なぜかと言うと“勝てる気がしない”からだ。
+<END>
+
+#WRITE(PTR, $00001718)
+【フェイリス】
+「今日も“機関”打倒のための極秘会議かニャ？」
+<END>
+
+#WRITE(PTR, $000017BC)
+【倫太郎】
+「あ、ああ、そんなところだ」
+<END>
+
+#WRITE(PTR, $0000186A)
+【フェイリス】
+「フェイリスも混ぜてほしいニャ～」
+<END>
+
+#WRITE(PTR, $0000190E)
+【倫太郎】
+「やめておけ。ネコ耳メイドが太刀打ちできるほど、“機関”は甘くない」
+<END>
+
+#WRITE(PTR, $000019BC)
+【フェイリス】
+「そんなことないニャ。フェイリスには“あの秘奥義”があるのニャ。きっとお役に立てるニャン」
+<END>
+
+#WRITE(PTR, $00001A60)
+【倫太郎】
+「なに！？　“あの秘奥義”、ついに会得したのか！？」
+<END>
+
+#WRITE(PTR, $00001B0E)
+【フェイリス】
+「そうニャ……。ギアナ高地での修行に耐え抜き、師匠の死も乗り越えて、フェイリスはついに……手に入れたのニャ」
+<END>
+
+#WRITE(PTR, $00001BB2)
+師匠って誰だよ……。
+<END>
+
+#WRITE(PTR, $00001C56)
+フェイリスには、俺の真名である鳳凰院凶真という名や、“機関”のことなどは話したことがある。
+<END>
+
+#WRITE(PTR, $00001CFA)
+そうしたらこいつは俺以上にノリノリになってしまい、以来、顔を合わせるたびにフェイリスの方から話を振ってくるのだ。
+<END>
+
+#WRITE(PTR, $00001D9E)
+ちなみにフェイリスの言う“あの秘奥義”などという存在は、今日初めて聞かされた。
+<END>
+
+#WRITE(PTR, $00001E4C)
+【フェイリス】
+「だから凶真、約束通り、フェイリスも“精霊会議”に参加させてほしいニャン」
+<END>
+
+#WRITE(PTR, $00001EF0)
+う……。さっそくフェイリスが暴走を始めている。
+<END>
+
+#WRITE(PTR, $00001F94)
+これに付き合ってしまったら、３０分は解放されないぞ。
+<END>
+
+#WRITE(PTR, $00002038)
+【倫太郎】
+「お前、“{聖域}[サンクチュアリ]”に行くと言うのか！？」
+<END>
+
+#WRITE(PTR, $000020DC)
+【倫太郎】
+「ダメだ、いくら秘奥義を会得したとはいえ、あの場所はお前にはまだ早すぎる」
+<END>
+
+#WRITE(PTR, $0000218A)
+【フェイリス】
+「そんな！　約束したニャ！　ニャのに、凶真は裏切るって言うのかニャン！？」
+<END>
+
+#WRITE(PTR, $0000222E)
+【フェイリス】
+「それに、あの場所にはフェイリスのお兄ちゃんが……」
+<END>
+
+#WRITE(PTR, $000022D2)
+いねえよ。というか精霊会議ってなんだ！？
+<END>
+
+#WRITE(PTR, $00002376)
+フェイリスは本当に涙目になって俺を見つめてくる。
+<END>
+
+#WRITE(PTR, $0000241A)
+ブリッコだと分かっていても、ついたじろいでしまった。
+<END>
+
+#WRITE(PTR, $000024BE)
+こいつと話していると、俺がツッコミ役に回らざるを得なくなる。とても調子が狂うのだ。
+<END>
+
+#WRITE(PTR, $00002562)
+そして会話の主導権はフェイリスに持って行かれ、結局いつもこいつの妄想を聞かされるハメになる。
+<END>
+
+#WRITE(PTR, $00002606)
+だいたい、悪ふざけにもほどがある。
+<END>
+
+#WRITE(PTR, $000026AA)
+俺とフェイリスとで語ることには、決定的な違いがあった。
+<END>
+
+#WRITE(PTR, $0000274E)
+すなわち、俺が語ることはすべて“真実”であるのに対し、フェイリスの言うことはすべて“妄想”であり“設定”だということ！
+<END>
+
+#WRITE(PTR, $000027F2)
+その妄想に俺はいつも振り回されてしまう。
+<END>
+
+#WRITE(PTR, $00002896)
+だから“勝てる気がしない”のだ。
+<END>
+
+#WRITE(PTR, $00002972)
+【まゆり】
+「えっとね、なんか分からないけど、まゆしぃもサンクチュアリっていうところに行きたいなー？」
+<END>
+
+#WRITE(PTR, $00002A16)
+うわ、脳天気少女までが加わってきたぞ。
+<END>
+
+#WRITE(PTR, $00002ABA)
+こうなるとさらにカオスだ。
+<END>
+
+#WRITE(PTR, $00002B5E)
+無理矢理にでも会話を終わらせなければ。
+<END>
+
+#WRITE(PTR, $00002C0E)
+【倫太郎】
+「来なくていい。この話はもう終わりだ」
+<END>
+
+#WRITE(PTR, $00002CB2)
+【まゆり】
+「ええー」
+<END>
+
+#WRITE(PTR, $00002D56)
+【フェイリス】
+「凶真だけずるいニャ！」
+<END>
+
+#WRITE(PTR, $00002E60)
+【まゆり】
+「そうだよー、まゆしぃもフェリスちゃんもダメなんてね、オカリンは冷たいと思うのです」
+<END>
+
+#WRITE(PTR, $00002F04)
+【倫太郎】
+「……フェリスとは誰だ？」
+<END>
+
+#WRITE(PTR, $00002FBA)
+【まゆり】
+「フェリスちゃんはフェリスちゃんだよー。
+<END2>
+
+#WRITE(PTR, $00002FD4)
+ねー？」
+<END>
+
+#WRITE(PTR, $00003086)
+【フェイリス】
+「ねー？」
+<END>
+
+#WRITE(PTR, $0000312A)
+まゆりとフェイリスは顔を見合わせて、互いに笑みを交わした。
+<END>
+
+#WRITE(PTR, $000031CE)
+もしかしてフェイリスのことか？　実はフェリスが本当の名前で、フェイリスと思っている俺が間違えていたのか？
+<END>
+
+#WRITE(PTR, $00003272)
+そう思って困惑したのだが├┤
+<END>
+
+#WRITE(PTR, $00003320)
+【まゆり】
+「あのね、まゆしぃは言いにくいから、フェリスちゃんって短くしてるんだー♪」
+<END>
+
+#WRITE(PTR, $000033C4)
+【倫太郎】
+「なんだ、そういうことか」
+<END>
+
+#WRITE(PTR, $00003472)
+【フェイリス】
+「なんだか女学院みたいで、それも悪くないニャ」
+<END>
+
+#WRITE(PTR, $00003516)
+それはそれとして。
+<END>
+
+#WRITE(PTR, $000035BA)
+【倫太郎】
+「いいからさっさと案内してくれ。俺はいつまでここに立っていればいいんだ」
+<END>
+
+#WRITE(PTR, $00003668)
+【フェイリス】
+「ニャハハ、ごめんなさいニャ。ご主人様、御案内ニャ～ン♪」
+<END>
+
+#WRITE(PTR, $0000370C)
+【フェイリス】
+「マユシィ、御案内よろしくニャンニャン」
+<END>
+
+#WRITE(PTR, $000037BA)
+【まゆり】
+「任せてニャンニャン♪」
+<END>
+
+#WRITE(PTR, $0000385E)
+『メイクイーン＋ニャン⑯』のネコ耳メイドは、ある程度、語尾に“ニャン”を付けなければいけない決まりがある。
+<END>
+
+#WRITE(PTR, $00003942)
+まゆりが、俺の手を引いて店内へ誘導する。
+<END>
+
+#WRITE(PTR, $000039E6)
+御案内時に手を繋いでくれるのは、マユシィ・ニャンニャンだけらしい。
+<END>
+
+#WRITE(PTR, $00003A8A)
+たぶんこいつは特になんの打算や考えもなくやっているのだろうが、こういうことを天然でやってしまうことから、このメイド喫茶ではフェイリスに次ぐ人気なんだとか。
+<END>
+
+#WRITE(PTR, $00003B3A)
+ダルのいる席に案内してもらう。
+<END>
+
+#WRITE(PTR, $00003BDE)
+店内の客の入りは６割程度といったところ。
+<END>
+
+#WRITE(PTR, $00003C82)
+『メイクイーン＋ニャン⑯』は、アキバのメイド喫茶としては中堅ぐらいのポジションだ。
+<END>
+
+#WRITE(PTR, $00003D26)
+フェイリスたちの格好を見ても分かる通り、メイド喫茶というよりコスプレ喫茶に近い。
+<END>
+
+#WRITE(PTR, $00003DCA)
+しかも、ネコ耳メイド＋ニャンニャン語は、はっきり言って他のメイド喫茶よりも初心者には敷居が高かった。
+<END>
+
+#WRITE(PTR, $00003E6E)
+一方で、メイド喫茶マニアから見てもネコ耳には賛否両論あり、
+<END>
+
+#WRITE(PTR, $00003FBC)
+<LINE><LINE>“ネコ耳装備なんてメイドじゃねえ！”
+<ENDPANEL>
+
+#WRITE(PTR, $00004060)
+<LINE><LINE><LINE>　　　　　　　　　　　　　“ネコ耳＋メイドで破壊力２倍だろ！”
+<ENDPANEL>
+
+#WRITE(PTR, $0000412C)
+という２つの意見が、真っ向から対立しているのだ。
+<END>
+
+#WRITE(PTR, $000041D0)
+この店はアキバに数あるメイド喫茶の中では古参に入るが、メディアへの露出もそれほど多くないため、どちらかと言うと地味な印象だ。
+<END>
+
+#WRITE(PTR, $00004274)
+ちなみに今語ったことはすべて、ダルの意見である。
+<END>
+
+#WRITE(PTR, $0000432A)
+耳にタコができるほど何度も聞かされたせいで、俺もすっかり覚えてしまった。
+<END>
+
+#WRITE(PTR, $00004408)
+【まゆり】
+「ダルくん、オカリンが来たニャン」
+<END>
+
+#WRITE(PTR, $00004450)
+【至】
+「遅すぎでしょ、マジで」
+<END>
+
+#WRITE(PTR, $00004460)
+対面に座った俺に、ダルは視線を向けようとしなかった。
+<END>
+
+#WRITE(PTR, $00004470)
+唇を尖らせている。どうやら不機嫌らしい。
+<END>
+
+#WRITE(PTR, $0000448A)
+【至】
+「それで、今フェイリスたんとなにを話していたか詳しく」
+<END>
+
+#WRITE(PTR, $0000449A)
+【倫太郎】
+「……聞きたいのか？　どうせダルには理解できない話だと思うが」
+<END>
+
+#WRITE(PTR, $000044AA)
+というか俺もほとんど理解できなかった……。
+<END>
+
+#WRITE(PTR, $000044BA)
+要するに妄想の垂れ流しなわけだし。
+<END>
+
+#WRITE(PTR, $000044D4)
+【至】
+「ああ、そっち系の話かぁ……」
+<END>
+
+#WRITE(PTR, $000044E4)
+【至】
+「フェイリスたんとオカリンの会話は、普通のオタじゃついて行けない領域に達してるよな。オーラみたいなものが出てるっつーの？」
+<END>
+
+#WRITE(PTR, $00004504)
+【至】
+「２人だけの<DICT>固有結界</DICT>張りやがって！　
+<END2>
+
+#WRITE(PTR, $0000451E)
+許さない、絶対にだ！」
+<END>
+
+#WRITE(PTR, $0000453C)
+【まゆり】
+It's almost like Faris-chan is interested in Okarin nya.
+<END>
+
+#WRITE(PTR, $0000454C)
+【まゆり】
+Out of all the maids and all the myasters that come here, Okarin is the only one who can keep up with Faris-chan's words nya.
+<END>
+
+#WRITE(PTR, $0000455C)
+Though, even I can't keep up with it too well.
+<END>
+
+#WRITE(PTR, $0000456C)
+【至】
+I am so jelly of Okarin! What a lucky bastard!
+<END>
+
+#WRITE(PTR, $0000457C)
+【倫太郎】
+Fuh, I have no interest in that lying woman.
+<END>
+
+#WRITE(PTR, $00004596)
+【至】
+Is this today's 'I don't wanna hear that from you' thread?
+<END>
+
+#WRITE(PTR, $000045A6)
+【倫太郎】
+Silence, you unfaithful bastard! Your 2D wives are crying.
+<END>
+
+#WRITE(PTR, $000045C0)
+【至】
+Guhaa, that one hit me hard, bro...
+<END>
+
+#WRITE(PTR, $000045E6)
+Daru grabs his chest and unnaturally falls on the table.
+<END>
+
+#WRITE(PTR, $000045F6)
+I take a sip of the water that Mayuri left on it.
+<END>
+
+#WRITE(PTR, $00004610)
+【まゆり】
+So, myaster, may I take your order nya?
+<END>
+
+#WRITE(PTR, $00004620)
+【倫太郎】
+Omelet rice. And a coffee, black.
+<END>
+
+#WRITE(PTR, $0000463A)
+【まゆり】
+Understood NyanNyan♪
+<END>
+
+#WRITE(PTR, $00004656)
+After taking my order, Mayuri goes towards counter while tottering between tables as if she was swimming.
+<END>
+
+#WRITE(PTR, $00004666)
+That looked somewhat dangerous.
+<END>
+
+#WRITE(PTR, $00004676)
+【至】
+So, about that business you had with me...
+<END>
+
+#WRITE(PTR, $0000468A)
+Daru asked that while still lying on the table
+<END>
+
+#WRITE(PTR, $0000469A)
+That's right.
+<END>
+
+#WRITE(PTR, $000046AA)
+After being confronted by the masseuse and the cat-girl, I almost forgot my real objective.
+<END>
+
+#WRITE(PTR, $000046F2)
+【至】
+I was gonna go to the lab after 1 hour...
+<END>
+
+#WRITE(PTR, $00004702)
+【倫太郎】
+I've got something that I want to talk to you about secretly and urgently.
+<END>
+
+#WRITE(PTR, $00004712)
+I lean on the table, and reconnoiter the surroundings.
+<END>
+
+#WRITE(PTR, $00004722)
+【倫太郎】
+You do know who John Titor is, right?
+<END>
+
+#WRITE(PTR, $00004732)
+【至】
+... John Titor? Who?
+<END>
+
+#WRITE(PTR, $00004742)
+【倫太郎】
+A self-proclaimed time traveler from the future who appeared in America 10 years ago. I spoke to you about him not so long ago.
+<END>
+
+#WRITE(PTR, $0000475C)
+【至】
+You making stuff up again, Okarin?
+<END>
+
+#WRITE(PTR, $0000476C)
+【倫太郎】
+I'm not! All I speak is the truth!
+<END>
+
+#WRITE(PTR, $00004784)
+【至】
+Haah, <DICT>shit sucks</DICT>. Well, I guess I can play along.
+<END>
+
+#WRITE(PTR, $000047A6)
+【至】
+So, what's the <DICT> sauce</DICT> on this guy being from the future?
+<END>
+
+#WRITE(PTR, $000047B6)
+【倫太郎】
+Wait, why are you talking like it's the first you've ever heard of him?
+<END>
+
+#WRITE(PTR, $000047C6)
+【至】
+Because it is.
+<END>
+
+#WRITE(PTR, $000047D6)
+【倫太郎】
+You sure you didn't forget?
+<END>
+
+#WRITE(PTR, $000047F0)
+【至】
+Dunno about that.
+<END>
+
+#WRITE(PTR, $00004800)
+【倫太郎】
+Books about him were released in Japan.
+<END>
+
+#WRITE(PTR, $00004810)
+【至】
+If you show me them, then I might remember.
+<END>
+
+#WRITE(PTR, $00004820)
+【倫太郎】
+Wait, you really don't know about him?
+<END>
+
+#WRITE(PTR, $0000483A)
+【至】
+The memories of people are very vague, you know. They're completely different from digital memory.
+<END>
+
+#WRITE(PTR, $0000484A)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $000048FA)
+This is truly weird.
+<END>
+
+#WRITE(PTR, $0000490A)
+I might even call this a true abnormality.
+<END>
+
+#WRITE(PTR, $0000491A)
+When I was in senior high, I remember talking with Daru about John Titor. Since it was nothing but a simple chat, it wouldn't be surprising if Daru forgot.
+<END>
+
+#WRITE(PTR, $0000492A)
+He is quite an internet addict.
+<END>
+
+#WRITE(PTR, $0000493A)
+However, the internet gives the user the choice of accessing only that information in which he is interested in, and I don't know if Daru looked up information about John Titor.
+<END>
+
+#WRITE(PTR, $0000494A)
+If he says that it's the first time he ever heard of him, there's the possibility that he just never looked him up on the net.
+<END>
+
+#WRITE(PTR, $0000495A)
+Are my memories wrong, or is it the memories of everyone else?
+<END>
+
+#WRITE(PTR, $000049BE)
+【倫太郎】
+Then, how about 'IBN5100'?
+<END>
+
+#WRITE(PTR, $000049D8)
+【至】
+Heeh, You know that PC, Okarin? Not bad.
+<END>
+
+#WRITE(PTR, $000049E8)
+【倫太郎】
+You know about it?
+<END>
+
+#WRITE(PTR, $00004A02)
+【至】
+It's the model that IBN released in 1975.
+<END>
+
+#WRITE(PTR, $00004A12)
+Right. That's what John Titor wrote on @channel.
+<END>
+
+#WRITE(PTR, $00004A22)
+That's why he first went to the year 1975, got the IBN5100 and then time traveled to 1998.
+<END>
+
+#WRITE(PTR, $00004A32)
+【倫太郎】
+What kind of PC is it?
+<END>
+
+#WRITE(PTR, $00004A54)
+【至】
+An expensive <DICT>as fuck</DICT> PC.
+<END>
+
+#WRITE(PTR, $00004A64)
+【至】
+Ever since the release, it was so expensive that normal people couldn't get their hands on it.
+<END>
+
+#WRITE(PTR, $00004A74)
+【至】
+That's kinda sad, since it was an excellent PC at that time, and IBN even installed some special features into it.
+<END>
+
+#WRITE(PTR, $00004A84)
+【至】
+The 'IBN PC' series released in 1981 were a big hit and much more popular than IBN5100.
+<END>
+
+#WRITE(PTR, $00004A9C)
+【至】
+Still, all the information I know about IBN5100 is from a <DICT>Wiki</DICT> on the internet.
+<END>
+
+#WRITE(PTR, $00004AAC)
+【倫太郎】
+Did you hear the urban legend that one of them is in Akiba?
+<END>
+
+#WRITE(PTR, $00004AC6)
+【至】
+YeaYea, I heard it. It became the talk of the net about a month ago.
+<END>
+
+#WRITE(PTR, $00004AE8)
+【至】
+And so, several volunteering @channelers explored Akiba's shops while looking for it. My friend from '<DICT>Furepara</DICT>' called Geji-nee was the main person behind that.
+<END>
+
+#WRITE(PTR, $00004AF8)
+【至】
+Even that 'Lightning-fast Knight-Hart' joined in, but they still couldn't find it.
+<END>
+
+#WRITE(PTR, $00004B08)
+【倫太郎】
+So this urban legend was nothing but a rumor, huh?
+<END>
+
+#WRITE(PTR, $00004B22)
+【至】
+I dunno. There are lots of underground shops in Akiba, so it wouldn't be strange for the IBN5100 to be hidden in one of the more suspicious ones.
+<END>
+
+#WRITE(PTR, $00004B32)
+【倫太郎】
+Hmm, I understand.
+<END>
+
+#WRITE(PTR, $00004BD4)
+My phone starts vibrating while letting out a noise.
+<END>
+
+#WRITE(PTR, $00004BF2)
+It stops after about 3 seconds.
+<END>
+
+#WRITE(PTR, $00004C10)
+Looks like I got a mail.
+<END>
+
+#WRITE(PTR, $00004C2E)
+I can check it out whenever I want, though.
+<END>
+
+#WRITE(PTR, $00004C4C)
+I'm now talking with Daru, so maybe it would be better if I leave it for afterwards.
+<END>
+
+#WRITE(PTR, $00005052)
+Hey, hey...
+<END>
+
+#WRITE(PTR, $00005062)
+What's with this mail?
+<END>
+
+#WRITE(PTR, $00005072)
+Disregarding the weird timing...
+<END>
+
+#WRITE(PTR, $00005088)
+Is the sender of this mail and the Shining Finger really the same person?
+<END>
+
+#WRITE(PTR, $00005098)
+Even though we just exchanged addresses, she's being so familiar...
+<END>
+
+#WRITE(PTR, $000050A8)
+The tension is completely different, as well. Does she have a split personality or something?
+<END>
+
+#WRITE(PTR, $0000511A)
+Hmm, I am talking with Daru about the IBN5100 right now, so I guess I should give her a response...
+<END>
+
+#WRITE(PTR, $00005138)
+But, do I really have to give an instant response to a woman I just met?
+<END>
+
+#WRITE(PTR, $00005156)
+I, Hououin Kyouma, am not one to take people lightly.
+<END>
+
+#WRITE(PTR, $00005174)
+Currently, I have lots of time to think about which choice is better.
+<END>
+
+#WRITE(PTR, $00005192)
+I still have not ascertained if that woman can be trusted.
+<END>
+
+#WRITE(PTR, $000051B0)
+But, I believe that I should at least give her a decent response.
+<END>
+
+#WRITE(PTR, $000051CE)
+I have yet to confirm that that woman is not with the Organization.
+<END>
+
+#WRITE(PTR, $000051EC)
+Nonetheless, I should tell her what I just heard from Daru.
+<END>
+
+#WRITE(PTR, $0000520A)
+To discourage her, of course. Fwahahaha!
+<END>
+
+#WRITE(PTR, $000053DC)
+I tell Daru to wait a bit, and start to type words into my phone.
+<END>
+
+#WRITE(PTR, $000053F8)
+It's not like I trust that woman, but I believe that giving her the truth that Daru told me won't do any harm.
+<END>
+
+#WRITE(PTR, $00005408)
+It will also make her feel dejected! Fwahahaha!
+<END>
+
+#WRITE(PTR, $00005622)
+Aaand, done.
+<END>
+
+#WRITE(PTR, $0000566A)
+Wha-!
+<END>
+
+#WRITE(PTR, $0000567A)
+A response already!?
+<END>
+
+#WRITE(PTR, $0000568A)
+No time lag!?
+<END>
+
+#WRITE(PTR, $0000569A)
+As expected of Glowing MasseuseShining Finger. The woman whose fingers move at the speed of light.
+<END>
+
+#WRITE(PTR, $000056AA)
+Clicking my tongue, I start reading the mail.
+<END>
+
+#WRITE(PTR, $0000578C)
+Damn you!
+<END>
+
+#WRITE(PTR, $0000579C)
+As I thought, she's really good at this.
+<END>
+
+#WRITE(PTR, $000057AC)
+I think I got myself into something annoying
+<END>
+
+#WRITE(PTR, $000057BC)
+I'd better not give a response to this one...
+<END>
+
+#WRITE(PTR, $000057CC)
+The minimum requirements have been fulfilled and I have nothing to feel guilty about.
+<END>
+
+#WRITE(PTR, $0000581A)
+【倫太郎】
+Sorry to keep you waiting, Daru.
+<END>
+
+#WRITE(PTR, $0000582E)
+For now, I'll ignore it.
+<END>
+
+#WRITE(PTR, $0000583E)
+There's kindness in this action, yes.
+<END>
+
+#WRITE(PTR, $00005886)
+【倫太郎】
+Sorry to keep you waiting, Daru.
+<END>
+
+#WRITE(PTR, $000058AA)
+【倫太郎】
+Now, I want to confirm one thing--
+<END>
+
+#WRITE(PTR, $000058BA)
+Once again, I look around and lean towards Daru.
+<END>
+
+#WRITE(PTR, $000058CA)
+【倫太郎】
+IBN5100 is the item which can trigger the end of the world, right?
+<END>
+
+#WRITE(PTR, $000058E4)
+【至】
+Why? It's neither a trigger nor will it end the world, bro.
+<END>
+
+#WRITE(PTR, $00005932)
+【フェイリス】
+Whyat? You're gonna end the world nya?
+<END>
+
+#WRITE(PTR, $0000594E)
+Faris brought the omelet rice.
+<END>
+
+#WRITE(PTR, $0000595E)
+Such gallant body movements.
+<END>
+
+#WRITE(PTR, $0000596E)
+Even while she's still doing her cat-like antics, the balance of the trays she's holding with single hands does not break.
+<END>
+
+#WRITE(PTR, $0000597E)
+Even with all the NyanNyan stuff, I feel lots of professionalism from Faris.
+<END>
+
+#WRITE(PTR, $00005A06)
+【フェイリス】
+Myaster, sorry to keep you waiting NyanNyan♪ Your omelet rice is here nya~n!
+<END>
+
+#WRITE(PTR, $00005A20)
+After putting the omelet rice on the table, the cat-girl takes out a full ketchup container from a pocket of her apron.
+<END>
+
+#WRITE(PTR, $00005A70)
+With it, she flawlessly sprays out the words 'The World is in Danger!' on the yellow canvas that is the omelet rice.
+<END>
+
+#WRITE(PTR, $00005ACE)
+【フェイリス】
+Please enjoy your meal before the world ends♪
+<END>
+
+#WRITE(PTR, $00005B94)
+【至】
+Woah, 'The World is in Danger!'! Faris-tan's writing is so cute that I'm in danger, too!
+<END>
+
+#WRITE(PTR, $00005BA4)
+Daru loses himself.
+<END>
+
+#WRITE(PTR, $00005BB4)
+I try to tell him to calm down via eye language, but to no avail.
+<END>
+
+#WRITE(PTR, $00005C8E)
+With the bottom of my spoon, I erase the ketchup words.
+<END>
+
+#WRITE(PTR, $00005CB8)
+【至】
+Aah... What a waste...
+<END>
+
+#WRITE(PTR, $00005CC8)
+What do you mean, 'waste', I'm eating it either way.
+<END>
+
+#WRITE(PTR, $00005CE2)
+【フェイリス】
+Daru-nyan Daru-nyan, did I tell you about the 'Faris cup' nya?
+<END>
+
+#WRITE(PTR, $00005CFC)
+【至】
+Yeah, of course! I will participate, too!
+<END>
+
+#WRITE(PTR, $00005D0C)
+【倫太郎】
+Faris cup? What's that?
+<END>
+
+#WRITE(PTR, $00005D1C)
+I ask that while eating the omelet rice.
+<END>
+
+#WRITE(PTR, $00005D36)
+【フェイリス】
+Nyext Sunday, in this cafe, Faris is hawlding a 'Rai-Net' convention nya!
+<END>
+
+#WRITE(PTR, $00005D46)
+Faris is lightly hopping in high spirits.
+<END>
+
+#WRITE(PTR, $00005D56)
+I wish she wouldn't do that when people are eating nearby.
+<END>
+
+#WRITE(PTR, $00005D66)
+【フェイリス】
+Faris is the one who coordinates and organizes it, you could awlso call me the one who brought it up nyan!
+<END>
+
+#WRITE(PTR, $00005D80)
+【フェイリス】
+Kyouma can come as well nyan! Drink included, the price is only 1000 yen. The reward for the one who wins against Faris will be her hand-made food nya!
+<END>
+
+#WRITE(PTR, $00005D9A)
+【至】
+No no. Okarin doesn't know much about 'Rai-net'.
+<END>
+
+#WRITE(PTR, $00005DB4)
+【フェイリス】
+Nya? But it's interesting.
+<END>
+
+#WRITE(PTR, $00005DC4)
+【倫太郎】
+No, I'm fine...
+<END>
+
+#WRITE(PTR, $00005DD4)
+I stop eating the omelet rice and let out a small sigh.
+<END>
+
+#WRITE(PTR, $00005DE4)
+【倫太郎】
+'Rai-net Access Battlers', huh...? Whenever I hear that, I always remember that person, who was the champion... It's already been 2 years since then...
+<END>
+
+#WRITE(PTR, $00005DF4)
+【倫太郎】
+No, it's nothing. Forget what you just heard.
+<END>
+
+#WRITE(PTR, $00005E0E)
+【フェイリス】
+NyaNya? You we're talking so seriously just neow! Who is 'thyat person' nya?
+<END>
+
+#WRITE(PTR, $00005E1E)
+【至】
+He probably doesn't exist. 'Rai-net' officially began only about 1 year ago.
+<END>
+
+#WRITE(PTR, $00005E2E)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $00005E48)
+【フェイリス】
+Kyouma, you still cannot forget 'thyat person' nya?
+<END>
+
+#WRITE(PTR, $00005E58)
+【倫太郎】
+Huh?
+<END>
+
+#WRITE(PTR, $00005E7A)
+【フェイリス】
+I remember thyat you and 'thyat person'... Faris brother were on very good terms. So good that Faris was jealous nya.
+<END>
+
+#WRITE(PTR, $00005E8A)
+Kuh, dammit. She just 'stole' my story...!
+<END>
+
+#WRITE(PTR, $00005E9A)
+I did not say anything about 'that person' being Faris' brother!
+<END>
+
+#WRITE(PTR, $00005EAA)
+Hell, I don't even know if Faris even HAS siblings!
+<END>
+
+#WRITE(PTR, $00005EBA)
+I shouldn't have talked like that in front of her!
+<END>
+
+#WRITE(PTR, $00005F0A)
+【フェイリス】
+But, it's time to let go of the past nya!
+<END>
+
+#WRITE(PTR, $00005F24)
+Her shout resounds through the cafe, and she points her finger at me.
+<END>
+
+#WRITE(PTR, $00005F34)
+【フェイリス】
+Even if it's paynful... No, BECAUSE it is paynful, I accepted brother's dying wish, and have become a 'Rai-netter' nyan!
+<END>
+
+#WRITE(PTR, $00005F4E)
+【フェイリス】
+Do you remembenya? The words that big brother always used to say, 'let's bring peace to the world through Rai-net'--
+<END>
+
+#WRITE(PTR, $00005F96)
+【倫太郎】
+Faris, bring me my coffee.
+<END>
+
+#WRITE(PTR, $00005FB0)
+【フェイリス】
+NyaNya?
+<END>
+
+#WRITE(PTR, $00005FC0)
+I hand her over the dish from which I consumed the omelet rice.
+<END>
+
+#WRITE(PTR, $00005FD0)
+I have a habit of always eating my meals fast. I acquired it due to the long years of being chased by the Organization.
+<END>
+
+#WRITE(PTR, $00005FE8)
+That's why <DICT>slow food</DICT> can go fuck itself.
+<END>
+
+#WRITE(PTR, $00006038)
+【フェイリス】
+Understood nya~. It will just be a moment♪
+<END>
+
+#WRITE(PTR, $0000608C)
+Faris takes the dish and goes back to the counter while blabbering NyanNyan speak.
+<END>
+
+#WRITE(PTR, $0000609C)
+Ahh, if that went on, I would've had to play along with her delusions for more than 10 minutes.
+<END>
+
+#WRITE(PTR, $000060B6)
+【至】
+Faris-tan is a 'Rai-netter' of her own tier.
+<END>
+
+#WRITE(PTR, $000060C6)
+Daru explains to me with a bitter smile on his face.
+<END>
+
+#WRITE(PTR, $000060D6)
+【至】
+She had 400 informal battles, and wasn't beat even once.
+<END>
+
+#WRITE(PTR, $000060E6)
+【倫太郎】
+What is she, Rickson Gracie?
+<END>
+
+#WRITE(PTR, $000060F6)
+Daru ignores my retort.
+<END>
+
+#WRITE(PTR, $00006110)
+【至】
+It's a shame that Faris-tan doesn't join the official tournaments. If she did, then she'd win for sure.
+<END>
+
+#WRITE(PTR, $00006120)
+【倫太郎】
+Well, why doesn't she join?
+<END>
+
+#WRITE(PTR, $0000613A)
+【至】
+Faris thinks about the customers here first and foremost. She says something along the lines of 'If it'd trouble the cafe, then I will not join the tournament'. She is a model maid.
+<END>
+
+#WRITE(PTR, $0000614A)
+【至】
+Also, since she is about the same age as Mayushi, she must go to school, as well.
+<END>
+
+#WRITE(PTR, $000061F6)
+【倫太郎】
+Since she doesn't want to trouble the cafe, she's organizing the 'Faris Cup', right?
+<END>
+
+#WRITE(PTR, $000062A4)
+【至】
+That don't matter at all!
+<END>
+
+#WRITE(PTR, $00006352)
+【至】
+The point is that Faris is cute. Cute is justice. Cat-eared maids are sexually outrageous. That's all that matters.
+<END>
+
+#WRITE(PTR, $000063F6)
+【倫太郎】
+So are you into 2D or 3D? Decide already.
+<END>
+
+#WRITE(PTR, $000064A4)
+【至】
+Double the dimension, double the fun.
+<END>
+
+#WRITE(PTR, $0000655A)
+【倫太郎】
+You sure are carefree, Daru.
+<END>
+
+#WRITE(PTR, $00006588)
+【至】
+Well said. <DICT> Soz</DICT> about that.
+<END>
+
+#WRITE(PTR, $00006598)
+Daru doesn't usually show any motivation, but he sure gets fired up in such situations.
+<END>
+
+#WRITE(PTR, $000065A8)
+I really wish that he'd apply some of this enthusiasm to our lab activities.
+<FILEEND3B>
+

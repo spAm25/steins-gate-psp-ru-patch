@@ -1,0 +1,1439 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00004FF4)
+
+#WRITE(PTR, $00000A4C)
+……いよいよここからが本番だ。
+<END>
+
+#WRITE(PTR, $00000BB4)
+『サイリウム・セーバー』を手に握り、音を立てないよう振る。
+<END>
+
+#WRITE(PTR, $00000BC4)
+これにより、中の赤い蛍光塗料が発光を始める。
+<END>
+
+#WRITE(PTR, $00000BD4)
+効果時間はおよそ１０分。紅莉栖が現れる前には発光はおさまっているはず。
+<END>
+
+#WRITE(PTR, $00000BE4)
+自分がすべきことは、はっきりと見えている。
+<END>
+
+#WRITE(PTR, $00000BF4)
+けれど、はっきり言ってタイミングはシビアだ。
+<END>
+
+#WRITE(PTR, $00000C04)
+あの錯乱状態の中鉢をうまくいなせるかどうか。
+<END>
+
+#WRITE(PTR, $00000C14)
+それが一番難しいところだろう。
+<END>
+
+#WRITE(PTR, $00000CB8)
+もし失敗すれば、紅莉栖は殺される。
+<END>
+
+#WRITE(PTR, $00000CC8)
+【倫太郎】
+What are you so afraid of, Hououin Kyouma?
+<END>
+
+#WRITE(PTR, $00000CD8)
+【倫太郎】
+Everything's obviously going as I expected.
+<END>
+
+#WRITE(PTR, $00000CE8)
+I talk to myself as if giving instructions.
+<END>
+
+#WRITE(PTR, $00000CF8)
+【倫太郎】
+Operation Norn of the Future"Skuld" is flawless. After all, I spent fifteen years perfecting this plan.
+<END>
+
+#WRITE(PTR, $00000D08)
+【倫太郎】
+I believe in myself. I believe in Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00000D18)
+And I will definitely save Kurisu.
+<END>
+
+#WRITE(PTR, $00000D72)
+I lay in wait in the same cardboard boxes as last time, close my eyes, and wait for that time to come.
+<END>
+
+#WRITE(PTR, $00000D82)
+I hear the sparse sound of applause from the event hall.
+<END>
+
+#WRITE(PTR, $00000D92)
+Meaning I should be hearing footsteps soon──
+<END>
+
+#WRITE(PTR, $00000EA0)
+And, just as I thought, I see Kurisu with the same timing as when I waited last time.
+<END>
+
+#WRITE(PTR, $00000EF0)
+Leaning against the wall, she checks the contents of the envelope and faintly smiles.
+<END>
+
+#WRITE(PTR, $00000F00)
+Now I understand why Kurisu is smiling.
+<END>
+
+#WRITE(PTR, $00000F9E)
+The Upa inside.
+<END>
+
+#WRITE(PTR, $00000FAE)
+She's probably smiling at how adorable it is.
+<END>
+
+#WRITE(PTR, $00000FBE)
+It really doesn't suit you, Kurisu.
+<END>
+
+#WRITE(PTR, $00000FCE)
+I smile bitterly inside.
+<END>
+
+#WRITE(PTR, $00000FDE)
+My heart is calm even though I've already reached this point.
+<END>
+
+#WRITE(PTR, $00000FEE)
+Nakabachi's appearance is my signal to start.
+<END>
+
+#WRITE(PTR, $00000FFE)
+When he takes out his knife, I'll throw out the Cyalume Saber.
+<END>
+
+#WRITE(PTR, $0000100E)
+Then I scare Nakabachi away and stun Kurisu.
+<END>
+
+#WRITE(PTR, $0000101E)
+I can do both by brandishing the stun gun I prepared beforehand.
+<END>
+
+#WRITE(PTR, $0000102E)
+That was my plan.
+<END>
+
+#WRITE(PTR, $00001142)
+The next set of footsteps resounds.
+<END>
+
+#WRITE(PTR, $00001152)
+Kurisu raises her head.
+<END>
+
+#WRITE(PTR, $00001162)
+I can't confirm it, but it's no doubt Nakabachi.
+<END>
+
+#WRITE(PTR, $00001206)
+【紅莉栖】
+...I have something to talk about.
+<END>
+
+#WRITE(PTR, $00001216)
+【中鉢】
+......
+<END>
+
+#WRITE(PTR, $00001226)
+【紅莉栖】
+Are you listening? Papa.
+<END>
+
+#WRITE(PTR, $00001236)
+Every single word Kurisu mutters is the same.
+<END>
+
+#WRITE(PTR, $00001250)
+【中鉢】
+What's that?
+<END>
+
+#WRITE(PTR, $0000126A)
+【紅莉栖】
+Papa, I heard you were going to hold a time machine presentation.
+<END>
+
+#WRITE(PTR, $0000127A)
+【紅莉栖】
+So I thought about it too. About whether or not a time machine could be made.
+<END>
+
+#WRITE(PTR, $00001318)
+A disquieting air drifts between the two of them. Nakabachi doesn't even try to hide his displeasure at all.
+<END>
+
+#WRITE(PTR, $00001328)
+Without a doubt, that's partly because of the complaint the first me rose during the presentation.
+<END>
+
+#WRITE(PTR, $00001338)
+It's just about time for Nakabachi to lose his temper.
+<END>
+
+#WRITE(PTR, $00001348)
+Once again, I check the Cyalume Saber in my hand.
+<END>
+
+#WRITE(PTR, $00001358)
+The glow has already dimmed. If I remove the cap at the tip, the fake blood will flow──
+<END>
+
+#WRITE(PTR, $000013BC)
+【倫太郎】
+...!?
+<END>
+
+#WRITE(PTR, $0000145A)
+I almost stop breathing unintentionally.
+<END>
+
+#WRITE(PTR, $000014A2)
+I bring the dim Cyalume Saber to my eyes to check in detail.
+<END>
+
+#WRITE(PTR, $000014B2)
+The fake blood inside had begun to harden.
+<END>
+
+#WRITE(PTR, $000014C2)
+Strange. This shouldn't be happening. I was certain it should keep fluid for at least 30 minutes after the light goes out.
+<END>
+
+#WRITE(PTR, $000014D2)
+A dud!? Defective!?
+<END>
+
+#WRITE(PTR, $000014E2)
+That reminds me, we haven't actually used the Cyalume Saber even once.
+<END>
+
+#WRITE(PTR, $000014F2)
+The chemicals inside are single use, so it's a consumable item. Considering the lab's financial condition, we never used it, thinking it would be a waste.
+<END>
+
+#WRITE(PTR, $0000150E)
+It's such a disgrace to notice now of all times!
+<END>
+
+#WRITE(PTR, $0000151E)
+And I didn't even bring a spare.
+<END>
+
+#WRITE(PTR, $0000152E)
+Guh. Not as planned.
+<END>
+
+#WRITE(PTR, $0000153E)
+The simulated scene in my head crumbles.
+<END>
+
+#WRITE(PTR, $0000164A)
+【中鉢】
+I wasn't exiled!
+<END>
+
+#WRITE(PTR, $0000165A)
+I'm startled at Nakabachi's angry yell.
+<END>
+
+#WRITE(PTR, $0000166A)
+【中鉢】
+Those incompetent colleagues of mine were just jealous of my superiority. They were disgusted of me and just gave up on me!
+<END>
+
+#WRITE(PTR, $00001684)
+【紅莉栖】
+Please don't yell...
+<END>
+
+#WRITE(PTR, $00001722)
+Time won't stop for me.
+<END>
+
+#WRITE(PTR, $00001732)
+How do I recover from the situation now?
+<END>
+
+#WRITE(PTR, $00001742)
+It's impossible to leave this place.
+<END>
+
+#WRITE(PTR, $00001752)
+In just a short while, Nakabachi will attack his own daughter.
+<END>
+
+#WRITE(PTR, $00001762)
+If I come out after that, the result will just be the same as last time.
+<END>
+
+#WRITE(PTR, $00001772)
+I'll end up killing Kurisu again.
+<END>
+
+#WRITE(PTR, $00001782)
+That must be avoided at all costs...!
+<END>
+
+#WRITE(PTR, $00001792)
+But then, just what should I do!?
+<END>
+
+#WRITE(PTR, $000017A2)
+Go back to the time machine and start again?
+<END>
+
+#WRITE(PTR, $000017B2)
+No, that's no good. Suzuha already told me.
+<END>
+
+#WRITE(PTR, $000017C2)
+There's not enough fuel to leap through time again.
+<END>
+
+#WRITE(PTR, $000017D2)
+This is my last chance!
+<END>
+
+#WRITE(PTR, $00001840)
+【紅莉栖】
+Hey. It's been so long since we last met, so there's a lot I want to talk about, but Papa, you're living in Aomori now, aren't you?
+<END>
+
+#WRITE(PTR, $0000185A)
+【中鉢】
+Go back.
+<END>
+
+#WRITE(PTR, $00001874)
+【紅莉栖】
+Eh...
+<END>
+
+#WRITE(PTR, $00001884)
+【中鉢】
+Just go back to America already. I don't want to see your face again.
+<END>
+
+#WRITE(PTR, $00001894)
+【紅莉栖】
+But──
+<END>
+
+#WRITE(PTR, $000018AE)
+【中鉢】
+What do you mean you want to hear my opinion!? What do you mean joint signatures! That isn't what you think in the slightest, is it!?
+<END>
+
+#WRITE(PTR, $0000194C)
+I don't know if it's because I'm in a rush, but sweat won't stop running down my brow.
+<END>
+
+#WRITE(PTR, $0000195C)
+My heart keeps beating like it does after exercise, and my breathing gets rough.
+<END>
+
+#WRITE(PTR, $0000196C)
+I cover my mouth with my hand to supress the sound of my breathing.
+<END>
+
+#WRITE(PTR, $000019D0)
+【中鉢】
+Are you pitying me!? Do you despise me!? Even though you're my daughter!
+<END>
+
+#WRITE(PTR, $000019EA)
+【紅莉栖】
+Wh-what are you talking about? Calm down──
+<END>
+
+#WRITE(PTR, $000019FA)
+【中鉢】
+I'm perfectly calm! Don't tell me what to do!
+<END>
+
+#WRITE(PTR, $00001A98)
+Nakabachi won't stop heating up.
+<END>
+
+#WRITE(PTR, $00001AA8)
+The same words. The same development.
+<END>
+
+#WRITE(PTR, $00001AB8)
+Heading straight towards tragedy.
+<END>
+
+#WRITE(PTR, $00001AC8)
+Time, please stop....
+<END>
+
+#WRITE(PTR, $00001AD8)
+I beg but quickly stop.
+<END>
+
+#WRITE(PTR, $00001AE8)
+Are you gonna rely on god, Hououin Kyouma?
+<END>
+
+#WRITE(PTR, $00001AF8)
+But──
+<END>
+
+#WRITE(PTR, $00001B08)
+Did you forget?
+<END>
+
+#WRITE(PTR, $00001B6C)
+【中鉢】
+I'll tell you why I called you here today. I triumphed! I was going to flaunt the greatness of my research!
+<END>
+
+#WRITE(PTR, $00001B7C)
+【中鉢】
+I going to show you just how despairingly far apart we are!
+<END>
+
+#WRITE(PTR, $00001C26)
+<LINE>
+%LCI will change the future.
+<ENDPANEL>
+
+#WRITE(PTR, $00001C36)
+<LINE>
+%LCI will deceive the world.
+<ENDPANEL>
+
+#WRITE(PTR, $00001C5E)
+【中鉢】
+And yet, everything was in vain because of that damned punk! I know you saw me and laughed at me! Just how far will you go to ridicule your own father!?
+<END>
+
+#WRITE(PTR, $00001C6E)
+【紅莉栖】
+I didn't laugh at──
+<END>
+
+#WRITE(PTR, $00001C88)
+【中鉢】
+Do you want my opinion on this thesis? I'll tell you right now.
+<END>
+
+#WRITE(PTR, $00001C98)
+【中鉢】
+I will publish this thesis with my name. That is all.
+<END>
+
+#WRITE(PTR, $00001CA8)
+Forget about the cruel god, forget about the will of the world.
+<END>
+
+#WRITE(PTR, $00001CB8)
+I will save Kurisu myself.
+<END>
+
+#WRITE(PTR, $00001CC8)
+I won't let her get killed again.
+<END>
+
+#WRITE(PTR, $00001CD8)
+I won't kill Kurisu.
+<END>
+
+#WRITE(PTR, $00001CF2)
+【紅莉栖】
+...Papa, don't tell me... you're stealing it?
+<END>
+
+#WRITE(PTR, $00001D0C)
+【中鉢】
+...What did you say?
+<END>
+
+#WRITE(PTR, $00001D1C)
+【紅莉栖】
+You're stealing... my thesis? That was the last thing I thought you'd do──
+<END>
+
+#WRITE(PTR, $00001EF0)
+【紅莉栖】
+──
+<END>
+
+#WRITE(PTR, $00001F0A)
+Kurisu's cheek is struck.
+<END>
+
+#WRITE(PTR, $00001F1A)
+【中鉢】
+Who do you think you're talking to!?
+<END>
+
+#WRITE(PTR, $00001F2A)
+It's finally started...!
+<END>
+
+#WRITE(PTR, $00002224)
+Nakabachi puts his hand to Kurisu's neck.
+<END>
+
+#WRITE(PTR, $00002234)
+Kurisu's groans of agony reach my ears.
+<END>
+
+#WRITE(PTR, $00002244)
+There's still a way to prevent Kurisu's death.
+<END>
+
+#WRITE(PTR, $00002254)
+The puddle of blood I once saw spreading underneath Kurisu's collapsed face down body.
+<END>
+
+#WRITE(PTR, $00002264)
+There's still one more way to reproduce that besides using fake blood.
+<END>
+
+#WRITE(PTR, $00002274)
+That's──
+<END>
+
+#WRITE(PTR, $00002284)
+A bet, to use the world's convergence against itself.
+<END>
+
+#WRITE(PTR, $00002294)
+But I don't know the odds of winning this bet, and arriving at the unknown world line, the Steins Gate.
+<END>
+
+#WRITE(PTR, $000022A4)
+【紅莉栖】
+Ah, uuh...
+<END>
+
+#WRITE(PTR, $000022B4)
+【中鉢】
+You think you understand how I feel!? Why do you think you're so superior!? I detest you...! I hate your very existence!
+<END>
+
+#WRITE(PTR, $000022C4)
+【中鉢】
+Nobody in this world is superior to me! Understand!? It's a disgrace! There's no reason for a daughter to be superior to her father!
+<END>
+
+#WRITE(PTR, $000022D4)
+【中鉢】
+So I stayed away from you! I couldn't stand the thought of you being my daughter!
+<END>
+
+#WRITE(PTR, $000022E4)
+【中鉢】
+Because of you... because of you...!
+<END>
+
+#WRITE(PTR, $000022F4)
+No──
+<END>
+
+#WRITE(PTR, $00002304)
+Say no more.
+<END>
+
+#WRITE(PTR, $00002314)
+I am a mad scientist surpassing god.
+<END>
+
+#WRITE(PTR, $00002324)
+What I desire is chaos.
+<END>
+
+#WRITE(PTR, $00002334)
+I don't need any predetermined future...!
+<END>
+
+#WRITE(PTR, $00002344)
+【倫太郎】
+Stop!
+<END>
+
+#WRITE(PTR, $00002354)
+I slowly step forward from my covering.
+<END>
+
+#WRITE(PTR, $0000242E)
+Nakabachi turns to my direction, stunned.
+<END>
+
+#WRITE(PTR, $0000243E)
+Glimmering, bloodshot eyes.
+<END>
+
+#WRITE(PTR, $0000244E)
+【中鉢】
+You're... the one from before...!
+<END>
+
+#WRITE(PTR, $000024A0)
+【中鉢】
+Because of you... my presentation was a failure!
+<END>
+
+#WRITE(PTR, $000024B0)
+Nakabachi's hand separates from Kurisu's neck.
+<END>
+
+#WRITE(PTR, $0000250E)
+【紅莉栖】
+Guh, gah hoh gah hoh gah hoh...
+<END>
+
+#WRITE(PTR, $00002538)
+【中鉢】
+How dare you show your face to me again...! You... all of you are just getting in my way...!
+<END>
+
+#WRITE(PTR, $00002548)
+【中鉢】
+You're in cohoots with Kurisu aren't you!? That's it, that's it isn't it!?
+<END>
+
+#WRITE(PTR, $00002558)
+【中鉢】
+I won't... let you brats... have your way...!
+<END>
+
+#WRITE(PTR, $00002568)
+Nakabachi takes the knife out of his pocket with bloodshot eyes.
+<END>
+
+#WRITE(PTR, $00002578)
+A blade reflecting cold light. Seeing that, I laugh provocatively.
+<END>
+
+#WRITE(PTR, $00002588)
+【倫太郎】
+Just try it.
+<END>
+
+#WRITE(PTR, $00002598)
+【中鉢】
+Youngster... what are you!?
+<END>
+
+#WRITE(PTR, $000025A8)
+【倫太郎】
+My name is──
+<END>
+
+#WRITE(PTR, $000025B8)
+【倫太郎】
+Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $000025D2)
+【中鉢】
+What?
+<END>
+
+#WRITE(PTR, $000025E2)
+【倫太郎】
+If you don't know, then memorize it. Ho-oh as in phoenix, In, the temple. Finally, the Kyou in atrocious becomes Ma in truth. Hououin Kyouma...!
+<END>
+
+#WRITE(PTR, $000025F2)
+【倫太郎】
+I am the one who desires chaos. The one who destroys the order in the world.
+<END>
+
+#WRITE(PTR, $00002602)
+【倫太郎】
+And finally, the one who will crush your ambition!
+<END>
+
+#WRITE(PTR, $000026BE)
+Kurisu gets up on wobbling legs while holding her neck.
+<END>
+
+#WRITE(PTR, $000026CE)
+【紅莉栖】
+Run away...
+<END>
+
+#WRITE(PTR, $000026DE)
+【倫太郎】
+I refuse!
+<END>
+
+#WRITE(PTR, $000027A4)
+I turn to Nakabachi with both arms spread, not even looking at Kurisu.
+<END>
+
+#WRITE(PTR, $000027B4)
+【倫太郎】
+What's wrong, Doctor Nakabachi? Can't walk the walk? Not going to kill me?
+<END>
+
+#WRITE(PTR, $000027CE)
+【倫太郎】
+But then again, killing someone with such divine strength as mine is probably impossible for the likes of you, huh!? Fuhahaha!
+<END>
+
+#WRITE(PTR, $0000287C)
+【中鉢】
+D-don't you mess with me!
+<END>
+
+#WRITE(PTR, $000028CC)
+Nakabachi goes into a frenzy. He points his blade and rushes forward.
+<END>
+
+#WRITE(PTR, $000028DC)
+【紅莉栖】
+No..., Papa, stop it
+<END>
+
+#WRITE(PTR, $000028EC)
+At this rate, the one who will get stabbed to death is me.
+<END>
+
+#WRITE(PTR, $000028FC)
+Nakabachi's expression is no longer normal.
+<END>
+
+#WRITE(PTR, $0000290C)
+He's fallen into insanity. He's being controlled by his warped heart.
+<END>
+
+#WRITE(PTR, $0000291C)
+He can't be stopped.
+<END>
+
+#WRITE(PTR, $0000292C)
+In that case, that impulse──
+<END>
+
+#WRITE(PTR, $0000293C)
+I'll take it.
+<END>
+
+#WRITE(PTR, $0000294C)
+【倫太郎】
+You can't kill me! Absolutely not!
+<END>
+
+#WRITE(PTR, $0000295C)
+【中鉢】
+Diee!
+<END>
+
+#WRITE(PTR, $00002A1A)
+The knife's sharp tip approaches before my eyes.
+<END>
+
+#WRITE(PTR, $00002A2A)
+Without removing my eyes from it,
+<END>
+
+#WRITE(PTR, $00002A3A)
+──I'll take it.
+<END>
+
+#WRITE(PTR, $00002B50)
+【倫太郎】
+Gah... ha...!
+<END>
+
+#WRITE(PTR, $00002B6A)
+【中鉢】
+Ha, haheehee, haheeheeheeheehee...
+<END>
+
+#WRITE(PTR, $00002B86)
+An intense pain pierces my abdomen.
+<END>
+
+#WRITE(PTR, $00002B96)
+I feel the hard, cold blade pierce my body.
+<END>
+
+#WRITE(PTR, $00002BA6)
+I was stabbed...!
+<END>
+
+#WRITE(PTR, $00002BB6)
+I was stabbed... by that... knife...!
+<END>
+
+#WRITE(PTR, $00002BC6)
+Pain runs through my entire body like my guts were being stirred──
+<END>
+
+#WRITE(PTR, $00002BD6)
+【倫太郎】
+Ah, gaah, aaahh!
+<END>
+
+#WRITE(PTR, $00002C5A)
+The knife is pulled out, and a large amount of blood spills out of the wound.
+<END>
+
+#WRITE(PTR, $00002C6A)
+【倫太郎】
+Haah, haah, gaha....
+<END>
+
+#WRITE(PTR, $00002C7A)
+The taste of blood spreads through my mouth.
+<END>
+
+#WRITE(PTR, $00002C8A)
+I'm about to lose consciousness from all the pain.
+<END>
+
+#WRITE(PTR, $00002C9A)
+My body's hot like it's burning.
+<END>
+
+#WRITE(PTR, $00002CAA)
+My vision blurs.
+<END>
+
+#WRITE(PTR, $00002CBA)
+I'm about to tumble down on the spot, but desperately endure.
+<END>
+
+#WRITE(PTR, $00002D0A)
+【中鉢】
+L-look at you now... aheeheeheehee... that's what you get for ridiculing me──
+<END>
+
+#WRITE(PTR, $00002D98)
+【中鉢】
+Hee...!
+<END>
+
+#WRITE(PTR, $00002DA8)
+I take out the stun gun, and for show, activate the electric arc, causing Nakabachi to go pale.
+<END>
+
+#WRITE(PTR, $00002DB8)
+【倫太郎】
+You've...done it now...
+<END>
+
+#WRITE(PTR, $00002DC8)
+I glare at him.
+<END>
+
+#WRITE(PTR, $00002DD8)
+I advance one step, and start feeling the urge to vomit from the back of my throat.
+<END>
+
+#WRITE(PTR, $00002DE8)
+【倫太郎】
+Gach...
+<END>
+
+#WRITE(PTR, $00002E6C)
+Blood spews from my throat.
+<END>
+
+#WRITE(PTR, $00002E7C)
+But I still don't let Nakabachi out of my sight.
+<END>
+
+#WRITE(PTR, $00002E8C)
+【倫太郎】
+You've done it... you've really done it now...!
+<END>
+
+#WRITE(PTR, $00002E9C)
+【倫太郎】
+I'll... kill you... geezer...
+<END>
+
+#WRITE(PTR, $00002EAC)
+【中鉢】
+Heeee...!
+<END>
+
+#WRITE(PTR, $00002EBC)
+【倫太郎】
+You too, little girlie... I'll massacre everyone...!
+<END>
+
+#WRITE(PTR, $00002ECC)
+【紅莉栖】
+Don't move!
+<END>
+
+#WRITE(PTR, $00002F88)
+Kurisu rushes over to me.
+<END>
+
+#WRITE(PTR, $00002F98)
+She clings to my body, supporting it.
+<END>
+
+#WRITE(PTR, $00002FA8)
+【紅莉栖】
+Lie down! I'll call an ambulance right now...!
+<END>
+
+#WRITE(PTR, $0000307A)
+I just said massacre everyone so why is this woman running towards me?
+<END>
+
+#WRITE(PTR, $0000308A)
+She's good-natured even though she's a tsundere. Back when I was trying to save Mayuri, she was always the one who would support me.
+<END>
+
+#WRITE(PTR, $0000309A)
+【倫太郎】
+I'll... save you.
+<END>
+
+#WRITE(PTR, $000030B4)
+【紅莉栖】
+Eh? What do──
+<END>
+
+#WRITE(PTR, $00003248)
+【紅莉栖】
+────
+<END>
+
+#WRITE(PTR, $00003258)
+Kurisu's body convulses.
+<END>
+
+#WRITE(PTR, $00003268)
+Strength leaves the legs that had supported me.
+<END>
+
+#WRITE(PTR, $00003278)
+She collapses.
+<END>
+
+#WRITE(PTR, $000033CA)
+I'm sorry for doing this.
+<END>
+
+#WRITE(PTR, $000033DA)
+I apologize in my heart.
+<END>
+
+#WRITE(PTR, $00003488)
+【倫太郎】
+I'll... torture your daughter as I please... after I kill you...
+<END>
+
+#WRITE(PTR, $00003498)
+【倫太郎】
+Nakabachi... first... is you...!
+<END>
+
+#WRITE(PTR, $000034A8)
+【倫太郎】
+Heh, heh, heh hahahaha...
+<END>
+
+#WRITE(PTR, $000034B8)
+【中鉢】
+Hiiiii!
+<END>
+
+#WRITE(PTR, $0000356A)
+And then Nakabachi throws away his knife with a pitiful cry.
+<END>
+
+#WRITE(PTR, $0000357A)
+He retreats back one step. Two steps.
+<END>
+
+#WRITE(PTR, $00003604)
+【中鉢】
+Hyeehhhhhh!
+<END>
+
+#WRITE(PTR, $00003614)
+For the finishing touch, I push the switch on the stun gun once more, and finally, Nakabachi turns away. He runs towards the elevator deep in the passage.
+<END>
+
+#WRITE(PTR, $00003624)
+But he makes sure to pick up the envelope Kurisu dropped. The shrewd man.
+<END>
+
+#WRITE(PTR, $00003634)
+【倫太郎】
+Haah... haah... haah...
+<END>
+
+#WRITE(PTR, $00003644)
+I try touching my stomach wound.
+<END>
+
+#WRITE(PTR, $000036C8)
+【倫太郎】
+Ugg...
+<END>
+
+#WRITE(PTR, $000036D8)
+Just with that, pain penetrates my whole body, and I fall on my knees.
+<END>
+
+#WRITE(PTR, $000036E8)
+My consciousnesss is flying away from the pain.
+<END>
+
+#WRITE(PTR, $000036F8)
+The blood won't stop.
+<END>
+
+#WRITE(PTR, $00003708)
+It keeps dripping.
+<END>
+
+#WRITE(PTR, $00003718)
+I kneel, and place both hands on the ground.
+<END>
+
+#WRITE(PTR, $00003728)
+【倫太郎】
+Still not enough...
+<END>
+
+#WRITE(PTR, $00003738)
+I stick my own fingers into my wound wet with blood.
+<END>
+
+#WRITE(PTR, $00003748)
+I take a small breath and just take the plunge.
+<END>
+
+#WRITE(PTR, $00003758)
+【倫太郎】
+──
+<END>
+
+#WRITE(PTR, $00003768)
+A terrible pain runs through it.
+<END>
+
+#WRITE(PTR, $00003778)
+I can't bear it──
+<END>
+
+#WRITE(PTR, $000037D2)
+【倫太郎】
+AAAAAAAAAAHHHHHH────！
+<END>
+
+#WRITE(PTR, $000037E2)
+I scream.
+<END>
+
+#WRITE(PTR, $0000386C)
+I'm seriously going to faint...!
+<END>
+
+#WRITE(PTR, $0000387C)
+But I still keep opening my wound.
+<END>
+
+#WRITE(PTR, $000038F2)
+【倫太郎】
+Gahch, haah, haah, gguh, kha...
+<END>
+
+#WRITE(PTR, $00003902)
+The ground is stained more and more red.
+<END>
+
+#WRITE(PTR, $000039E6)
+【鈴羽】
+Uncle Okarin!
+<END>
+
+#WRITE(PTR, $00003A02)
+Suzuha rushes here.
+<END>
+
+#WRITE(PTR, $00003A4A)
+【鈴羽】
+Th-that wound...! What happened!? Just what happened!?
+<END>
+
+#WRITE(PTR, $00003A64)
+【鈴羽】
+Dummy, of all things... to fail...!
+<END>
+
+#WRITE(PTR, $00003A74)
+【倫太郎】
+Heh, hehe...
+<END>
+
+#WRITE(PTR, $00003A8E)
+【鈴羽】
+Uncle...?
+<END>
+
+#WRITE(PTR, $00003A9E)
+【倫太郎】
+What are you misunderstanding, Suzuha...
+<END>
+
+#WRITE(PTR, $00003AAE)
+【倫太郎】
+Look at this floor... notice anything...?
+<END>
+
+#WRITE(PTR, $00003ABE)
+【鈴羽】
+Floor...?
+<END>
+
+#WRITE(PTR, $00003ACE)
+【倫太郎】
+Heh, heh... that's plenty of blood... don't you think?
+<END>
+
+#WRITE(PTR, $00003ADE)
+The thing I made there. It's──
+<END>
+
+#WRITE(PTR, $00003AF8)
+【鈴羽】
+Ah...! A puddle of blood...!
+<END>
+
+#WRITE(PTR, $00003B08)
+For the sake of deceiving the first me.
+<END>
+
+#WRITE(PTR, $00003B18)
+For the sake of deceiving the world.
+<END>
+
+#WRITE(PTR, $00003B28)
+The stage is set...!
+<END>
+
+#WRITE(PTR, $00003B42)
+【鈴羽】
+But at this rate, you'll die, Uncle...!
+<END>
+
+#WRITE(PTR, $00003B52)
+【倫太郎】
+Kuku, there's no way I'm going to die...
+<END>
+
+#WRITE(PTR, $00003B62)
+【倫太郎】
+Who the hell do you think I am?
+<END>
+
+#WRITE(PTR, $00003B72)
+【倫太郎】
+I am the insane mad scientist, Hououin Kyouma, you know...
+<END>
+
+#WRITE(PTR, $00003B82)
+【鈴羽】
+Uncle...
+<END>
+
+#WRITE(PTR, $00003B92)
+I was stabbed in Kurisu's place.
+<END>
+
+#WRITE(PTR, $00003BA2)
+I made a puddle of blood on the floor with my blood.
+<END>
+
+#WRITE(PTR, $00003BB2)
+If the world converges, then it's already predetermined that I won't die.
+<END>
+
+#WRITE(PTR, $00003BC2)
+The world desires not my death. My death is in 2025. That's fixed in this β World Line.
+<END>
+
+#WRITE(PTR, $00003BD2)
+That's my wager.
+<END>
+
+#WRITE(PTR, $00003BE2)
+I dared to provoke Nakabachi, and got stabbed on purpose.
+<END>
+
+#WRITE(PTR, $00003BF2)
+I didn't think it would hurt this much though.
+<END>
+
+#WRITE(PTR, $00003C02)
+If we reach the Steins Gate.
+<END>
+
+#WRITE(PTR, $00003C12)
+That's an unknown world line, with a completely undetermined future.
+<END>
+
+#WRITE(PTR, $00003C22)
+Of course, that includes the part where I won't die.
+<END>
+
+#WRITE(PTR, $00003C32)
+How ironic. Even though it means I could die, I want to reach that world line.
+<END>
+
+#WRITE(PTR, $00003C42)
+My lips silently warp into a smile, and I complete the finishing touches.
+<END>
+
+#WRITE(PTR, $00003C52)
+【倫太郎】
+Suzuha... get Kurisu's body...
+<END>
+
+#WRITE(PTR, $00003C6C)
+【鈴羽】
+Ah, okay...!
+<END>
+
+#WRITE(PTR, $00003C88)
+Suzuha lifts up Kurisu's body, which had fainted after one blast from the stun gun.
+<END>
+
+#WRITE(PTR, $00003C98)
+Then she lays her face down on top of my puddle of blood.
+<END>
+
+#WRITE(PTR, $00003D06)
+Kurisu doesn't wake up. Unconscious, she stays perfectly still.
+<END>
+
+#WRITE(PTR, $00003D16)
+But she's definitely breathing.
+<END>
+
+#WRITE(PTR, $00003D84)
+I gently stroke her hair.
+<END>
+
+#WRITE(PTR, $00003D94)
+【倫太郎】
+Did it hurt...? I'm sorry. But I did it... to save you.
+<END>
+
+#WRITE(PTR, $00003DA4)
+【倫太郎】
+Because... even though those three weeks... those days won't come back...
+<END>
+
+#WRITE(PTR, $00003DB4)
+【倫太郎】
+I wanted you to live...
+<END>
+
+#WRITE(PTR, $00003DC4)
+Even if we reach the Steins Gate.
+<END>
+
+#WRITE(PTR, $00003DD4)
+Even if Kurisu lives.
+<END>
+
+#WRITE(PTR, $00003DE4)
+Even if I don't die.
+<END>
+
+#WRITE(PTR, $00003DF4)
+We will probably never meet again.
+<END>
+
+#WRITE(PTR, $00003E04)
+Kurisu will go to a future where she doesn't become a lab mem.
+<END>
+
+#WRITE(PTR, $00003E14)
+A future where we don't make the Time Leap Machine together.
+<END>
+
+#WRITE(PTR, $00003E24)
+But, I'm still glad I was able to save her.
+<END>
+
+#WRITE(PTR, $00003E92)
+【倫太郎】
+...farewell.
+<END>
+
+#WRITE(PTR, $00003EA2)
+Please stay unconscious here for a while.
+<END>
+
+#WRITE(PTR, $00003EB2)
+If you don't, then we can't deceive the first me.
+<END>
+
+#WRITE(PTR, $00003EC2)
+I motion for Suzuha to pick up the knife, and I get up from blocking the wall.
+<END>
+
+#WRITE(PTR, $00003ED2)
+【倫太郎】
+Mission complete.... Let's head back now...
+<END>
+
+#WRITE(PTR, $000040B4)
+【鈴羽】
+Uncle, this is too absurd.... There's a limit to foolishness!
+<END>
+
+#WRITE(PTR, $000040C4)
+【倫太郎】
+...foolishness, how rude. Everything went just as planned... hehheh... heh...
+<END>
+
+#WRITE(PTR, $000040D4)
+【鈴羽】
+Don't talk. We'll return right now. To August 21.
+<END>
+
+#WRITE(PTR, $000040E4)
+【鈴羽】
+Try to bear the G force okay? Ah, damn. We should at least do some first aid, but I didn't bring anything with me...
+<END>
+
+#WRITE(PTR, $000040F4)
+Pressure almost crushing my body.
+<END>
+
+#WRITE(PTR, $00004104)
+My wound throbs. I'm about to groan, but I bite my lip and bear it.
+<END>
+
+#WRITE(PTR, $000042F6)
+Rainbow lights fill my vision.
+<END>
+
+#WRITE(PTR, $00004306)
+The time machine seems to come alive.
+<END>
+
+#WRITE(PTR, $00004316)
+Suzuha wraps my wound with a towel.
+<END>
+
+#WRITE(PTR, $00004326)
+【鈴羽】
+Hey, Uncle. I'm sure that the Steins Gate waits on the other side. A world unknown to me, you, or anyone waits.
+<END>
+
+#WRITE(PTR, $00004336)
+【鈴羽】
+You live, and Makise Kurisu lives, and Shiina Mayuri lives.
+<END>
+
+#WRITE(PTR, $00004346)
+【鈴羽】
+I don't time travel to 2010.
+<END>
+
+#WRITE(PTR, $00004356)
+【鈴羽】
+Though I don't know if World War III breaks out or not in this world line...
+<END>
+
+#WRITE(PTR, $00004366)
+【鈴羽】
+Though I don't know if SERN's dystopia is constructed or not in this world line...
+<END>
+
+#WRITE(PTR, $00004376)
+Someone's warm hand holds mine.
+<END>
+
+#WRITE(PTR, $00004386)
+Tightly. Tightly.
+<END>
+
+#WRITE(PTR, $00004396)
+【鈴羽】
+The world we believed in, where the future is filled with hope, is waiting...
+<END>
+
+#WRITE(PTR, $000044A0)
+I softly close my eyes.
+<END>
+
+#WRITE(PTR, $000044B0)
+Breathing is painful.
+<END>
+
+#WRITE(PTR, $000044C0)
+My pain slowly goes away.
+<END>
+
+#WRITE(PTR, $00004524)
+【鈴羽】
+Once we reach there, I'll most likely disappear. I won't be able to thank you for our arrival at the 'Steins Gate.'
+<END>
+
+#WRITE(PTR, $00004534)
+【鈴羽】
+So I'll thank you here.
+<END>
+
+#WRITE(PTR, $00004544)
+The feeling of her grasping hand gradually fades.
+<END>
+
+#WRITE(PTR, $0000460A)
+【鈴羽】
+Thank you, Uncle. ...Don't die. Live.
+<END>
+
+#WRITE(PTR, $0000461A)
+【鈴羽】
+「でさ、きっと７年後に……会おうね」
+<END>
+
+#WRITE(PTR, $000046D6)
+<LINE><LINE><LINE>%LC帰ろう├┤
+<ENDPANEL>
+
+#WRITE(PTR, $000046E6)
+<LINE><LINE><LINE>%LCまゆりとダルが待つ、８月２１日へ帰ろう。
+<ENDPANEL>
+
+#WRITE(PTR, $00004A44)
+<LINE><LINE><LINE>%LCそこには、どんな未来も確定していない世界が待っている├┤
+<ENDPANEL>
+
+#WRITE(PTR, $00004C2C)
+END_TRUE.PMF
+<FILEENDB0>
+

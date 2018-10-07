@@ -1,0 +1,305 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000198A)
+
+#WRITE(PTR, $00000204)
+%L1
+<END2>
+
+#WRITE(PTR, $0000020A)
+Ｃｈａｐｔｅｒ８　【自己相似のアンドロギュノス】
+<END2>
+
+#WRITE(PTR, $00000210)
+%L1
+<END2>
+
+#WRITE(PTR, $0000048C)
+カップに投げ落とされたダイスのように、ぐらぐらと三半規管が揺れる。
+<END>
+
+#WRITE(PTR, $0000049C)
+反転した床は、気が付けばもう普通に戻っている。
+<END>
+
+#WRITE(PTR, $000004AC)
+俺はラボの開発室へと瞬間移動していた。
+<END>
+
+#WRITE(PTR, $000004BC)
+すぐ横に、フェイリスが立っている。
+<END>
+
+#WRITE(PTR, $000004CC)
+俺の魔眼“リーディング・シュタイナー”は、はっきりと世界線が変わったことを認識した。
+<END>
+
+#WRITE(PTR, $000004DC)
+それに、ヴァイラルアタッカーズの連中にやられた身体の痛みがなくなっている。見れば、俺の身体から怪我らしい怪我がすべて消えていた。
+<END>
+
+#WRITE(PTR, $00000530)
+フェイリスは、部屋の真ん中に立ってキョロキョロとしていた。
+<END>
+
+#WRITE(PTR, $00000540)
+その顔からも、泣きはらした跡がきれいさっぱり消えていた。
+<END>
+
+#WRITE(PTR, $0000055A)
+【フェイリス】
+Kyouma~. Do you know where Faris' phone is nya?
+<END>
+
+#WRITE(PTR, $0000056A)
+The Faris who, until just a while ago, was facing me with a painful smile, is no longer here.
+<END>
+
+#WRITE(PTR, $0000057A)
+Instead, the one there was the usual simplistic, charming Faris with an impish smile.
+<END>
+
+#WRITE(PTR, $0000058A)
+I look at the phone I'm gripping.
+<END>
+
+#WRITE(PTR, $0000059A)
+It's not my phone, but one with several cute, girly cat doll phone straps attached.
+<END>
+
+#WRITE(PTR, $000005AA)
+【倫太郎】
+Your phone's here.
+<END>
+
+#WRITE(PTR, $000005C4)
+【フェイリス】
+Nya?
+<END>
+
+#WRITE(PTR, $00000614)
+Faris walks up to me with a teasing smile on her face.
+<END>
+
+#WRITE(PTR, $00000624)
+She pokes at my fingers with her index finger, twirling it around.
+<END>
+
+#WRITE(PTR, $00000634)
+【フェイリス】
+Kyouma... did you see that thing that's in here nya?
+<END>
+
+#WRITE(PTR, $00000644)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00000654)
+Faris gently takes the phone from my hand.
+<END>
+
+#WRITE(PTR, $0000066E)
+【フェイリス】
+If you did see it, then please forget about it nya. That thing needs to stay sealed inside, nya. If not, those guys will awakenyan...
+<END>
+
+#WRITE(PTR, $0000067E)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00000698)
+【フェイリス】
+Hey, Kyouma!? This is where you put in a comeback nya! The usual Kyouma would say 'Whaddya mean that thing!?' and turn all red in denyial!
+<END>
+
+#WRITE(PTR, $000006A8)
+【倫太郎】
+...sorry.
+<END>
+
+#WRITE(PTR, $000006B8)
+Before sending the D-mail, Faris said she didn't want to forget.
+<END>
+
+#WRITE(PTR, $000006C8)
+And I lied that she would surely remember.
+<END>
+
+#WRITE(PTR, $000006DC)
+【フェイリス】
+「今日の凶真はやっぱり変ニャ。いつもなら遠慮なんかせずに、偉そうなことばっかり言ってる├┤
+<END2>
+
+#WRITE(PTR, $000006F6)
+ニャ！？」
+<END>
+
+#WRITE(PTR, $0000070A)
+俺はフェイリスを抱きしめていた。
+<END>
+
+#WRITE(PTR, $0000071A)
+きつく、きつく├┤
+<END>
+
+#WRITE(PTR, $0000072A)
+【倫太郎】
+I'm sorry.
+<END>
+
+#WRITE(PTR, $0000073A)
+Faris remembers nothing.
+<END>
+
+#WRITE(PTR, $0000081E)
+Nothing about her victory at the RaiNet tournament.
+<END>
+
+#WRITE(PTR, $000008BC)
+Nothing about the Viral Attackers and their cronies chasing us around Akiba.
+<END>
+
+#WRITE(PTR, $00000962)
+Nothing about her father who had gallantly ridden in on his limousine to save his daughter.
+<END>
+
+#WRITE(PTR, $00000A08)
+Nothing about how we had talked alone in her bedroom.
+<END>
+
+#WRITE(PTR, $00000A78)
+Nothing. She remembers nothing.
+<END>
+
+#WRITE(PTR, $00000A88)
+Everything that happened in that world line was undone by that last D-mail.
+<END>
+
+#WRITE(PTR, $00000A98)
+What happens to that world line, I don't know.
+<END>
+
+#WRITE(PTR, $00000AA8)
+Possibly, just like Suzuha had said before, it might simultaneously exist even now through superposition.
+<END>
+
+#WRITE(PTR, $00000AB8)
+Or possibly, the instant the D-mail was sent, everything vanished at the flick of a switch.
+<END>
+
+#WRITE(PTR, $00000AC8)
+You'd have to be a god to correctly observe each and every world line, so thinking about it is pointless.
+<END>
+
+#WRITE(PTR, $00000AD8)
+But one thing's clear:
+<END>
+
+#WRITE(PTR, $00000AE8)
+I can never return to that world line again.
+<END>
+
+#WRITE(PTR, $00000AF8)
+Faris can no longer talk to her father.
+<END>
+
+#WRITE(PTR, $00000B08)
+So──
+<END>
+
+#WRITE(PTR, $00000B22)
+【フェイリス】
+Kyouma...? How, how bold nya.... Mayushii's in the next room, she'll find out...? Nyahaha...
+<END>
+
+#WRITE(PTR, $00000B32)
+【倫太郎】
+I'm sorry....
+<END>
+
+#WRITE(PTR, $00000B42)
+I could do nothing but apologize.
+<END>
+
+#WRITE(PTR, $00000D2E)
+In this world line, Mayuri invited Faris to come play at the lab. That's how the cause and effect changed.
+<END>
+
+#WRITE(PTR, $00000DD2)
+Seems like she came to see a costume Mayuri made.
+<END>
+
+#WRITE(PTR, $00000E76)
+Faris had to work after this, so she left the lab right afterwards.
+<END>
+
+#WRITE(PTR, $00000F2C)
+After seeing Faris off, I head towards Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00000FD4)
+On the way, I stop at Chuo Dori and take a look around.
+<END>
+
+#WRITE(PTR, $00001094)
+【倫太郎】
+Everything came back...
+<END>
+
+#WRITE(PTR, $00001138)
+The moe shops exist now.
+<END>
+
+#WRITE(PTR, $000011DC)
+animate, Toranoana, Mandarake, Gamers, Lammtarra, Melon Books, Asobit City....
+<END>
+
+#WRITE(PTR, $00001280)
+Each one of them revived in Akiba.
+<END>
+
+#WRITE(PTR, $00001324)
+There's a gigantic anime hanging screen on Sofmap.
+<END>
+
+#WRITE(PTR, $000013C8)
+Maids walk around the street handing out leaflets.
+<END>
+
+#WRITE(PTR, $0000146C)
+Cosplaying girls are advertising in the storefronts of game shops.
+<END>
+
+#WRITE(PTR, $00001522)
+But I didn't feel any relief in my heart for the comeback of the familiar scenery.
+<END>
+
+#WRITE(PTR, $000015C6)
+The only thing grinding in my heart was confirmation of the fact that Faris' father was forever lost.
+<END>
+
+#WRITE(PTR, $0000167C)
+But now's not the time to stop.
+<END>
+
+#WRITE(PTR, $00001694)
+I shake my head and hurry to the shrine.
+<END>
+
+#WRITE(PTR, $000016E4)
+By the way, the satellite disappeared from Radio Kaikan's rooftop.
+<END>
+
+#WRITE(PTR, $000016F4)
+Naturally, since it's past Suzuha's departure. My heart throbs again just thinking about it.
+<END>
+
+#WRITE(PTR, $000017C0)
+With this, the wounds within my heart have likely multiplied.
+<FILEEND4B>
+

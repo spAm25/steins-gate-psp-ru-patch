@@ -1,0 +1,638 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000150E)
+
+#WRITE(PTR, $00000234)
+%L1
+<END2>
+
+#WRITE(PTR, $0000023A)
+Ｃｈａｐｔｅｒ７　【虚像歪曲のコンプレックス】
+<END2>
+
+#WRITE(PTR, $00000240)
+%L1
+<END2>
+
+#WRITE(PTR, $000004BC)
+世界が幾何学模様にひび割れ、それからゴムのように柔軟に伸縮した。
+<END>
+
+#WRITE(PTR, $000004CC)
+それが短いスパンで繰り返される。
+<END>
+
+#WRITE(PTR, $000004DC)
+眉間に光が集約する感覚。
+<END>
+
+#WRITE(PTR, $000004EC)
+まぶたの裏側に無数の星が散る。
+<END>
+
+#WRITE(PTR, $000004FC)
+その星はやがて、白黒の視界に色を呼び出していく。
+<END>
+
+#WRITE(PTR, $0000050C)
+【倫太郎】
+──
+<END>
+
+#WRITE(PTR, $0000051C)
+The severe vertigo passes in several seconds.
+<END>
+
+#WRITE(PTR, $0000052C)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00000548)
+Cold sweat oozes from my temples.
+<END>
+
+#WRITE(PTR, $00000558)
+While I hit both sides of my head with my fists, the air in my lungs squeezes out little by little.
+<END>
+
+#WRITE(PTR, $00000568)
+The world line has changed, I guess.
+<END>
+
+#WRITE(PTR, $00000578)
+I head to the lounge to check with the Divergence Meter.
+<END>
+
+#WRITE(PTR, $00000618)
+【倫太郎】
+It disappeared...
+<END>
+
+#WRITE(PTR, $00000628)
+Before the world line changed-- just a few minutes ago-- I had checked that Nixie tube meter, but now it's nowhere to be found.
+<END>
+
+#WRITE(PTR, $00000638)
+I soon understand what's going on.
+<END>
+
+#WRITE(PTR, $00000648)
+The day I received that meter was within the time undone by that last D-mail.
+<END>
+
+#WRITE(PTR, $00000658)
+So it's natural that the meter isn't here.
+<END>
+
+#WRITE(PTR, $00000668)
+I feel a throbbing pain deep within my chest. Feelings of regret.
+<END>
+
+#WRITE(PTR, $00000678)
+I grind my teeth and fight that pain.
+<END>
+
+#WRITE(PTR, $00000688)
+If nobody else will remember.
+<END>
+
+#WRITE(PTR, $00000698)
+Then I guess only I protect those memories.
+<END>
+
+#WRITE(PTR, $000006A8)
+Our memories with Suzuha.
+<END>
+
+#WRITE(PTR, $000006B8)
+Inside the room are Mayuri, Kurisu, and Daru.
+<END>
+
+#WRITE(PTR, $000006C8)
+Mayuri and Kurisu are getting along on the sofa, dozing off shoulder to shoulder.
+<END>
+
+#WRITE(PTR, $000006D8)
+Daru doesn't look towards that spectacle of two innocent high school girls, but instead plays eroge on his PC.
+<END>
+
+#WRITE(PTR, $000006E8)
+I take a deep breath and turn on the TV.
+<END>
+
+#WRITE(PTR, $000006F8)
+I tuned to a news channel.
+<END>
+
+#WRITE(PTR, $00000708)
+The world line should've changed.
+<END>
+
+#WRITE(PTR, $00000718)
+I erased our memories of Suzuha.
+<END>
+
+#WRITE(PTR, $00000728)
+And because of that, Suzuha should have leapt to 1975 without losing her memories, bringing the IBN 5100 to the lab.
+<END>
+
+#WRITE(PTR, $00000738)
+Then we should use that to hack into SERN and completely erase all of the information they intercepted from us.
+<END>
+
+#WRITE(PTR, $00000748)
+If we do that, then Moeka's group won't attack, and Mayuri won't die.
+<END>
+
+#WRITE(PTR, $00000758)
+That's how it should've happened.
+<END>
+
+#WRITE(PTR, $00000768)
+That's how it has to be.
+<END>
+
+#WRITE(PTR, $00000778)
+That's how I believed it would be, which is why I sacrificed Suzuha's memories.
+<END>
+
+#WRITE(PTR, $00000788)
+The quickest way to confirm that change is to see whether or not there are delays at Akihabara Station.
+<END>
+
+#WRITE(PTR, $00000798)
+【倫太郎】
+Daru, is the Yamate Line stopped?
+<END>
+
+#WRITE(PTR, $000007E0)
+【至】
+Huh? No, it's not stopped, is it?
+<END>
+
+#WRITE(PTR, $000007F0)
+【倫太郎】
+Check online.
+<END>
+
+#WRITE(PTR, $00000800)
+【至】
+Wait, I'm at a great part.
+<END>
+
+#WRITE(PTR, $00000810)
+【倫太郎】
+Please.
+<END>
+
+#WRITE(PTR, $00000820)
+Daru sighs as he looks at the top page of Taboo!
+<END>
+
+#WRITE(PTR, $0000083A)
+【至】
+Mm, it doesn't look stopped after all.
+<END>
+
+#WRITE(PTR, $0000084A)
+【倫太郎】
+Thanks.
+<END>
+
+#WRITE(PTR, $0000085A)
+The world line... changed.
+<END>
+
+#WRITE(PTR, $0000086A)
+Then that retro PC-- the IBN 5100, should be in the development room.
+<END>
+
+#WRITE(PTR, $0000090A)
+I go back to the development room and see if I can find anything.
+<END>
+
+#WRITE(PTR, $0000091A)
+But contrary to my expectations, I couldn't find it.
+<END>
+
+#WRITE(PTR, $0000092A)
+What does this mean...?
+<END>
+
+#WRITE(PTR, $0000093A)
+I look at my watch.
+<END>
+
+#WRITE(PTR, $0000094A)
+7:43PM
+<END>
+
+#WRITE(PTR, $0000095A)
+Moeka's group attacks──
+<END>
+
+#WRITE(PTR, $0000096A)
+What time again?
+<END>
+
+#WRITE(PTR, $0000097A)
+My heart throbs like a drum.
+<END>
+
+#WRITE(PTR, $0000098A)
+Everything should've been solved. Moeka's group isn't going into action, as evidenced by the normal train schedule. I was convinced of that.
+<END>
+
+#WRITE(PTR, $0000099A)
+So, why? It doesn't feel like anything's been solved.
+<END>
+
+#WRITE(PTR, $000009AA)
+The disappearance of the IBN 5100 really does put me at unease.
+<END>
+
+#WRITE(PTR, $000009BA)
+I want to slowly think about where that retro PC could be, but I don't think I have that much free time.
+<END>
+
+#WRITE(PTR, $000009CA)
+My feelings press me on.
+<END>
+
+#WRITE(PTR, $000009DA)
+I'm cornered and can't judge things properly.
+<END>
+
+#WRITE(PTR, $000009EA)
+Looking like an idiot, I check my watch again.
+<END>
+
+#WRITE(PTR, $000009FA)
+7:46PM
+<END>
+
+#WRITE(PTR, $00000A0A)
+The scene back then comes back to mind.
+<END>
+
+#WRITE(PTR, $00000A1A)
+Mayuri, who died bleeding.
+<END>
+
+#WRITE(PTR, $00000A2A)
+The smell of gunpowder from Moeka's gun.
+<END>
+
+#WRITE(PTR, $00000A3A)
+I frantically shake those visions out of my head.
+<END>
+
+#WRITE(PTR, $00000A4A)
+I look at the lab entrance.
+<END>
+
+#WRITE(PTR, $00000A5A)
+...The door hasn't been kicked open yet.
+<END>
+
+#WRITE(PTR, $00000A6A)
+I gulp.
+<END>
+
+#WRITE(PTR, $00000A7A)
+With feelings like prayer.
+<END>
+
+#WRITE(PTR, $00000A8A)
+I was petrified.
+<END>
+
+#WRITE(PTR, $00000BBA)
+...Time passed to 9PM.
+<END>
+
+#WRITE(PTR, $00000BCA)
+I peek out of the window down the street.
+<END>
+
+#WRITE(PTR, $00000BDA)
+Nobody's there.
+<END>
+
+#WRITE(PTR, $00000BEA)
+【至】
+Okarin, are you waiting for someone? You've been looking down there for a while.
+<END>
+
+#WRITE(PTR, $00000BFA)
+Just like Daru said, I had probably peeked down 20 times in the past hour.
+<END>
+
+#WRITE(PTR, $00000C0A)
+And each of those 20 times, I didn't detect any suspicious figures.
+<END>
+
+#WRITE(PTR, $00000C1A)
+...Moeka's group didn't appear.
+<END>
+
+#WRITE(PTR, $00000C2A)
+If my memories aren't mistaken, the attack was earlier than 8PM.
+<END>
+
+#WRITE(PTR, $00000C3A)
+Just as I thought, the past changed along with the world line. So I should think that the event of the attack has also changed.
+<END>
+
+#WRITE(PTR, $00000C4A)
+Suzuha's sacrifice was not in vain.
+<END>
+
+#WRITE(PTR, $00000C5A)
+Finally aware of that fact, I let out a deep breath.
+<END>
+
+#WRITE(PTR, $00000C6A)
+Now I notice that my hour of heightened tension caused my armpits to sweat.
+<END>
+
+#WRITE(PTR, $00000C7A)
+【倫太郎】
+Mayuri, and Kurisu.
+<END>
+
+#WRITE(PTR, $00000D82)
+The Lab Mem Girls that had been dozing off a while ago were now awake.
+<END>
+
+#WRITE(PTR, $00000D92)
+They're having a slightly late dinner.
+<END>
+
+#WRITE(PTR, $00000DA2)
+Mayuri has cup yakisoba. Kurisu has cup tonkotsu ramen.
+<END>
+
+#WRITE(PTR, $00000DB2)
+By the way, Kurisu's slurping the noodles with a fork.
+<END>
+
+#WRITE(PTR, $00000DCC)
+【紅莉栖】
+...? Eh, right now, did you just say my name normally?
+<END>
+
+#WRITE(PTR, $00000DDC)
+Kurisu lifts up her face, stunned.
+<END>
+
+#WRITE(PTR, $00000DEC)
+She seems really astonished.
+<END>
+
+#WRITE(PTR, $00000DFC)
+【倫太郎】
+When you two are done eating, go home. It's already this late, so I'll send you off.
+<END>
+
+#WRITE(PTR, $00000E16)
+【まゆり】
+Okidokey, I'll do that-
+<END>
+
+#WRITE(PTR, $00000E30)
+【紅莉栖】
+It's not like I need Okabe to send me off or anything. I can go home alone.
+<END>
+
+#WRITE(PTR, $00000E40)
+【倫太郎】
+Just listen. Daru, you too.
+<END>
+
+#WRITE(PTR, $00000E50)
+【至】
+Huh? Me too?
+<END>
+
+#WRITE(PTR, $00000F8C)
+The Yamate, Sobu, and Keihin-Tohoku lines, as well as the Ginza Line that passes through Suehirocho Station, are all operating normally without a problem.
+<END>
+
+#WRITE(PTR, $00000F9C)
+Neither Moeka, nor her fellow men, could be seen anywhere.
+<END>
+
+#WRITE(PTR, $00000FAC)
+Kurisu's taking the Sobu Line to the next station, Ochanomizu, while Daru's going the opposite way to Shin-Koiwa.
+<END>
+
+#WRITE(PTR, $00000FBC)
+Mayuri and I are taking the Yamate Line to Ikebukuro, so we part at the station's ticket gate.
+<END>
+
+#WRITE(PTR, $00000FCC)
+And now, the Lamate Line safely heads through the dark night to Ikebukuro.
+<END>
+
+#WRITE(PTR, $00000FDC)
+There are surprisingly few passengers. I guess there aren't many homebound salarymen since they're off for Obon holiday.
+<END>
+
+#WRITE(PTR, $00001024)
+Mayuri was silently playing a handheld game. A RaiNet Kakeru action RPG. Inside the small LCD fights Mayuri's playable character, a gigantic Upa.
+<END>
+
+#WRITE(PTR, $00001034)
+I stand next to her, deep in emotion, gazing at the profile of my childhood friend.
+<END>
+
+#WRITE(PTR, $00001044)
+Mayuri survived the night of the 13th.
+<END>
+
+#WRITE(PTR, $00001060)
+Now that I think about it, just how many times have I tasted the despair of tonight?
+<END>
+
+#WRITE(PTR, $00001070)
+No matter what I did, no matter how hard I tried, I couldn't save this optimistic childhood friend of mine.
+<END>
+
+#WRITE(PTR, $00001080)
+Right before my eyes, Mayuri died tragic deaths, over and over.
+<END>
+
+#WRITE(PTR, $00001090)
+But now, she's alive.
+<END>
+
+#WRITE(PTR, $000010A0)
+This is a natural scene.
+<END>
+
+#WRITE(PTR, $000010B0)
+This is why I sacrificed Suzuha's memories.
+<END>
+
+#WRITE(PTR, $000010C0)
+I'm sorry, Suzuha.
+<END>
+
+#WRITE(PTR, $000010D0)
+Thank you, Suzuha.
+<END>
+
+#WRITE(PTR, $000010E0)
+I give these two feelings to Suzuha, who no longer exists now in 2010.
+<END>
+
+#WRITE(PTR, $000010F0)
+──No, Suzuha might still be close by.
+<END>
+
+#WRITE(PTR, $00001100)
+Where in Akiba could the 54 year old Suzuha be?
+<END>
+
+#WRITE(PTR, $00001110)
+I'll try asking Tennouji tomorrow.
+<END>
+
+#WRITE(PTR, $00001120)
+Because Tennouji is most likely indebted to Suzuha in this world line too.
+<END>
+
+#WRITE(PTR, $00001130)
+I wonder if Suzuha remembers me.
+<END>
+
+#WRITE(PTR, $00001140)
+【まゆり】
+...hey, hey, Okarin
+<END>
+
+#WRITE(PTR, $00001188)
+Suddenly, Mayuri lifts her head.
+<END>
+
+#WRITE(PTR, $00001198)
+A bewildered look floated in her expression.
+<END>
+
+#WRITE(PTR, $000011A8)
+And her cheeks were slightly dyed pink.
+<END>
+
+#WRITE(PTR, $000011B8)
+【倫太郎】
+What?
+<END>
+
+#WRITE(PTR, $000011C8)
+【まゆり】
+Don't you what me-. If you keep staring at me like that, it gets Mayushii all nervous.
+<END>
+
+#WRITE(PTR, $000011D8)
+【倫太郎】
+Did it make you get a Game Over?
+<END>
+
+#WRITE(PTR, $000011E8)
+【まゆり】
+Yeah.
+<END>
+
+#WRITE(PTR, $000011F8)
+【倫太郎】
+Sorry about that.
+<END>
+
+#WRITE(PTR, $00001208)
+I apologize, but keep looking at her.
+<END>
+
+#WRITE(PTR, $00001222)
+Without going back to play her game, Mayuri looks at me concerned.
+<END>
+
+#WRITE(PTR, $00001232)
+【まゆり】
+Okarin, something feels different about you today, you know?
+<END>
+
+#WRITE(PTR, $00001242)
+【倫太郎】
+R-really?
+<END>
+
+#WRITE(PTR, $00001252)
+【まゆり】
+Yeah. What's wrong-?
+<END>
+
+#WRITE(PTR, $00001262)
+Mayuri is unexpectedly sharp.
+<END>
+
+#WRITE(PTR, $00001272)
+I understood that when she found out that Suzuha's father was Daru.
+<END>
+
+#WRITE(PTR, $00001282)
+I don't want to worry her too much.
+<END>
+
+#WRITE(PTR, $00001292)
+I want Mayuri to smile optimistically like usual, without anything to worry about.
+<END>
+
+#WRITE(PTR, $000012A2)
+Because it's already over.
+<END>
+
+#WRITE(PTR, $000012B2)
+【倫太郎】
+Hehehe, nothing has changed about me. I wasn't looking at your face just now; I was thinking about how to bring chaos to the world. Fuhahaha
+<END>
+
+#WRITE(PTR, $000012C2)
+【まゆり】
+Really-? You're not overworking yourself?
+<END>
+
+#WRITE(PTR, $000012D2)
+【倫太郎】
+For an insane mad scientist such as myself, there is no such thing as overwork. For these gray brain cells of mine, having an IQ of 170, are always cranking out perfect calculations.
+<END>
+
+#WRITE(PTR, $000012EC)
+【まゆり】
+I see-. But you need to relax and take a break every now and then. Please don't forget, okay, Okarin?
+<END>
+
+#WRITE(PTR, $00001308)
+Having said that, Mayuri returns to her game.
+<END>
+
+#WRITE(PTR, $00001318)
+I feel cold glances pour on me from my surroundings, but I don't care at all.
+<END>
+
+#WRITE(PTR, $00001328)
+Mayuri is here with me.
+<END>
+
+#WRITE(PTR, $00001338)
+This is a normal scene.
+<END>
+
+#WRITE(PTR, $00001348)
+I can finally return to "normal" things──
+<FILEEND2D>
+

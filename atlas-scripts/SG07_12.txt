@@ -1,0 +1,323 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00000C0E)
+
+#WRITE(PTR, $00000210)
+A soft feeling on the back of my head.
+<END>
+
+#WRITE(PTR, $00000220)
+My head is resting of Faris' lap, inside the limousine.
+<END>
+
+#WRITE(PTR, $00000230)
+Heat, rather than pain.
+<END>
+
+#WRITE(PTR, $00000240)
+My body was hot here and there.
+<END>
+
+#WRITE(PTR, $00000250)
+And yet my bones shivered as if they were twisting.
+<END>
+
+#WRITE(PTR, $00000260)
+There's also a terrible ringing in my ears.
+<END>
+
+#WRITE(PTR, $00000270)
+The urge to vomit settled earlier, though.
+<END>
+
+#WRITE(PTR, $00000280)
+They really wrecked me....
+<END>
+
+#WRITE(PTR, $00000290)
+According to Faris' dad, after hearing news that Faris had won the RaiNet AB Grand Championship, he was rushing to UPX from his workplace when he came across that scene.
+<END>
+
+#WRITE(PTR, $000002A0)
+What a coincidence.
+<END>
+
+#WRITE(PTR, $000002B0)
+Is this also Steins;Gate's choice...?
+<END>
+
+#WRITE(PTR, $000002C0)
+【フェイリスパパ】
+I really need to thank you, Okabe-kun. Thank you for protecting my daughter.
+<END>
+
+#WRITE(PTR, $000002D0)
+【倫太郎】
+P-protecting, nah...
+<END>
+
+#WRITE(PTR, $000002E0)
+I had become inadvertently admirable.
+<END>
+
+#WRITE(PTR, $000002F0)
+If I could, I would prostrate myself.
+<END>
+
+#WRITE(PTR, $00000300)
+【倫太郎】
+I couldn't do anything. I was completely pathetic...
+<END>
+
+#WRITE(PTR, $00000310)
+【フェイリスパパ】
+Absolutely not. You saved my daughter's life.
+<END>
+
+#WRITE(PTR, $00000320)
+He firmly shakes my hand.
+<END>
+
+#WRITE(PTR, $00000330)
+【フェイリス】
+Oh, Papa.... You have important work to do, so I even told you not to overdo yourself, nyan.
+<END>
+
+#WRITE(PTR, $00000340)
+Faris says that while looking happy.
+<END>
+
+#WRITE(PTR, $00000350)
+But──
+<END>
+
+#WRITE(PTR, $00000360)
+I recall the words Faris had said before.
+<END>
+
+#WRITE(PTR, $00000456)
+【フェイリス】
+What Faris granted──
+<END>
+
+#WRITE(PTR, $00000466)
+【フェイリス】
+...Was to revive Papa who died ten years ago nya.
+<END>
+
+#WRITE(PTR, $000004CC)
+In that case, to return to the original world line, I have to get rid of the dad in front of me right now....
+<END>
+
+#WRITE(PTR, $000004DC)
+【フェイリスパパ】
+I always keep my promises with Rumiho.
+<END>
+
+#WRITE(PTR, $000004EC)
+【フェイリスパパ】
+I decided to, long ago.
+<END>
+
+#WRITE(PTR, $000004FC)
+【フェイリス】
+Papa... thank you nya.
+<END>
+
+#WRITE(PTR, $0000050C)
+The limousine dashes into the night, eventually reaching Faris' home.
+<END>
+
+#WRITE(PTR, $00000676)
+【フェイリスパパ】
+Hoh, the IBN 5100, huh?
+<END>
+
+#WRITE(PTR, $00000686)
+【倫太郎】
+Right. I heard you were an enthusiastic retro PC collector. Do you know anything about it?
+<END>
+
+#WRITE(PTR, $00000696)
+I ended up eating a meal at Faris' house.
+<END>
+
+#WRITE(PTR, $000006A6)
+Somehow, it seems Faris' dad was pleased with me and was most gracious.
+<END>
+
+#WRITE(PTR, $000006B6)
+I would've been okay with just borrowing the shower, but he even prepared a change of clothes for me, and it was still dangerous to go outside today, so he told me I could stay.
+<END>
+
+#WRITE(PTR, $000006C6)
+During the meal.
+<END>
+
+#WRITE(PTR, $000006D6)
+Enduring the pain still throbbing through my body, I tried asking about the IBN 5100.
+<END>
+
+#WRITE(PTR, $000006F0)
+【フェイリスパパ】
+It's quite unusual for a young man such as yourself to know about the IBN 5100, isn't it.
+<END>
+
+#WRITE(PTR, $00000700)
+Her dad smiled when I brought up his hobby.
+<END>
+
+#WRITE(PTR, $00000710)
+【フェイリスパパ】
+I certainly had one. I relinquished it, though.
+<END>
+
+#WRITE(PTR, $00000720)
+【倫太郎】
+Relinquished...?
+<END>
+
+#WRITE(PTR, $0000073A)
+【フェイリスパパ】
+Yeah. Compelling circumstances came up.
+<END>
+
+#WRITE(PTR, $0000077E)
+Her dad glimpses at Faris.
+<END>
+
+#WRITE(PTR, $0000078E)
+Faris keeps eating her meal without saying anything in particular.
+<END>
+
+#WRITE(PTR, $000007A6)
+【倫太郎】
+Did you dedicate it to Yanabayashi Shrine?
+<END>
+
+#WRITE(PTR, $000007B6)
+【フェイリスパパ】
+Dedicate...? Ah, no, I didn't.
+<END>
+
+#WRITE(PTR, $000007C6)
+He didn't...?
+<END>
+
+#WRITE(PTR, $000007D6)
+I drop my shoulders, overcome by an indescribable exhaustion.
+<END>
+
+#WRITE(PTR, $000007F0)
+【フェイリスパパ】
+I think I did something inexcusable to Hashida-san, who entrusted the IBN 5100 to me...
+<END>
+
+#WRITE(PTR, $00000800)
+【倫太郎】
+Hashida, as in Hashida Suzu?
+<END>
+
+#WRITE(PTR, $00000810)
+Faris' dad nods.
+<END>
+
+#WRITE(PTR, $00000820)
+Suzuha's pseudonym. Hearing that name instantly raises my pulse.
+<END>
+
+#WRITE(PTR, $00000830)
+She obtained an IBN 5100.
+<END>
+
+#WRITE(PTR, $00000840)
+And then she brought it here to Akihabara.
+<END>
+
+#WRITE(PTR, $00000850)
+She got it done right....
+<END>
+
+#WRITE(PTR, $00000860)
+My heart painfully squeezes with sadness.
+<END>
+
+#WRITE(PTR, $00000870)
+【フェイリスパパ】
+This is an old story, a story from before my company was this big.
+<END>
+
+#WRITE(PTR, $00000880)
+【フェイリスパパ】
+Rumiho was kidnapped. The culprit demanded an unthinkable sum of ransom money.
+<END>
+
+#WRITE(PTR, $00000890)
+【フェイリスパパ】
+Maybe I should have mortgaged the company instead.
+<END>
+
+#WRITE(PTR, $000008AA)
+【フェイリスパパ】
+At that time, people appeared like a godsend, offering large sums of money to buy IBN 5100s.
+<END>
+
+#WRITE(PTR, $000008BA)
+【フェイリスパパ】
+Because I sold mine, I was able to prepare Rumiho's ransom money.
+<END>
+
+#WRITE(PTR, $00000902)
+【フェイリス】
+Papa, stop telling that story...
+<END>
+
+#WRITE(PTR, $00000912)
+For some reason, Faris' face turned red with embarrassment.
+<END>
+
+#WRITE(PTR, $00000922)
+If I had to say, her dad was talking really happily.
+<END>
+
+#WRITE(PTR, $00000932)
+You don't really expect to hear kidnapping stories...
+<END>
+
+#WRITE(PTR, $0000094E)
+【倫太郎】
+...So, who was the buyer?
+<END>
+
+#WRITE(PTR, $0000095E)
+【フェイリスパパ】
+Hmm, a French businessman, I believe. I think I still have his contact information. Would you like to know it?
+<END>
+
+#WRITE(PTR, $0000096E)
+I politely declined that offer.
+<END>
+
+#WRITE(PTR, $0000097E)
+Even if we borrow it from France, it would take more than a week for it to arrive, and depending on the situation, it might require an outrageous sum of money.
+<END>
+
+#WRITE(PTR, $00000A18)
+But, France....
+<END>
+
+#WRITE(PTR, $00000A28)
+There's a high possibility the buyer is related to SERN, or to the Rounders.
+<END>
+
+#WRITE(PTR, $00000A38)
+I tightly clench my palm into a fist, and open it again.
+<END>
+
+#WRITE(PTR, $00000A48)
+Did you slip through my grasp again, you IBN 5100...!?
+<FILEEND7C>
+

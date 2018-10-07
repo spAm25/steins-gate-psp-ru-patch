@@ -1,0 +1,690 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002C76)
+
+#WRITE(PTR, $00000890)
+俺とダルは、電話レンジ（仮）について悩むのを切り上げて<DICT>{大}[だい]ビル</DICT>に向かった。
+<END>
+
+#WRITE(PTR, $0000093C)
+今日はこの後、<DICT>ＡＴＦ</DICT>でのセミナーに参加しなければならない。
+<END>
+
+#WRITE(PTR, $000009E0)
+俺とダルが通っている東京電機大学が、産学連携機能の一環として、このＡＴＦに単位を設定しているのだ。
+<END>
+
+#WRITE(PTR, $00000A84)
+いわゆる夏の特別講習というところ。
+<END>
+
+#WRITE(PTR, $00000B28)
+これに出てレポートを書かないと単位がもらえないゼミがあるため、参加せざるを得ないのである。
+<END>
+
+#WRITE(PTR, $00000BCC)
+そう言えば今日のシンポジウムはどんな内容だっただろうか。
+<END>
+
+#WRITE(PTR, $00000C70)
+夏休みに入る前に一度確認した気がするが、忘れてしまった。
+<END>
+
+#WRITE(PTR, $00000D14)
+【アナウンサー】
+An unidentified large object has crashed into a building in front of the Akihabara station.
+<END>
+
+#WRITE(PTR, $00000DB8)
+【アナウンサー】
+Currently the area is restricted by the police and it's forbidden to go in front of the building but if you look at the object from a distance it resembles a space satellite!
+<END>
+
+#WRITE(PTR, $00000E5C)
+I throw a glance down from the overpass which connects UPX and Daibiru and it looks like there are more people than usual today.
+<END>
+
+#WRITE(PTR, $00000F00)
+There are also some weird-looking teenagers among them and they definitely don't seem like people who would normally visit Akiba.
+<END>
+
+#WRITE(PTR, $00000FA4)
+They all seem to be going towards the Central Street which is still off limits.
+<END>
+
+#WRITE(PTR, $00001048)
+【倫太郎】
+Daru won't you go to the Radio Center for some sightseeing?
+<END>
+
+#WRITE(PTR, $00001124)
+【至】
+Even if I go there I won't be able to see it. And anyway I'm constantly monitoring the net for any news about it. The number of threads on @chan has already exceeded 100 and that's awesome!
+<END>
+
+#WRITE(PTR, $000011DA)
+Oh so that's why he was staring at his phone while walking.
+<END>
+
+#WRITE(PTR, $00001250)
+Upon entering Daibiru we take the elevator towards the ATF assembly hall at the 5th floor.
+<END>
+
+#WRITE(PTR, $000012A4)
+【至】
+Ahhh... it's so cool. I'm coming back to life. abababababa...
+<END>
+
+#WRITE(PTR, $000012B4)
+There's air conditioning in Daibiru so this is like an oasis for us poor university students.
+<END>
+
+#WRITE(PTR, $000012C4)
+There's more than one reason for why were going to ATF to participate in this.
+<END>
+
+#WRITE(PTR, $000012E2)
+【倫太郎】
+We might acquire some answers to the problems concerning the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $000012F2)
+【至】
+It's annoying so can you stop using the '(Temp)' already?
+<END>
+
+#WRITE(PTR, $00001302)
+That will not shake my resolution. Even if no other lab members say it I will keep using it until I decide on a better name.
+<END>
+
+#WRITE(PTR, $00001320)
+【倫太郎】
+Right now that doesn't matter.
+<END>
+
+#WRITE(PTR, $00001330)
+【至】
+So did you come up with some ridiculous theory again?
+<END>
+
+#WRITE(PTR, $00001340)
+【倫太郎】
+What are you mean ridiculous? I have already transcended all the things in this world's nature and am constantly thinking about the limitless possibilities... Don't you dare call that ridiculous.
+<END>
+
+#WRITE(PTR, $0000135E)
+【至】
+By 'transcended all the things in nature' you mean that you're talking about whatever you want huh? I wouldn't even call that theorizing.
+<END>
+
+#WRITE(PTR, $0000136E)
+【倫太郎】
+Daru I believe that the Microwave Ophone (Temp) might be the key that will open the Steins;Gate. What do you make of that?
+<END>
+
+#WRITE(PTR, $0000137E)
+【至】
+That Stein-whatever doesn't even have a proper meaning.
+<END>
+
+#WRITE(PTR, $000013FA)
+We hear a ringing sound which indicates that we have reached the 5th floor.
+<END>
+
+#WRITE(PTR, $0000140A)
+The sensation of being lifted upwards disappears.
+<END>
+
+#WRITE(PTR, $0000141A)
+The elevator doors slowly open.
+<END>
+
+#WRITE(PTR, $0000142A)
+At the same time that I get out of the elevator--
+<END>
+
+#WRITE(PTR, $00001644)
+【紅莉栖？】
+Kyah--
+<END>
+
+#WRITE(PTR, $00001654)
+I bump into a person.
+<END>
+
+#WRITE(PTR, $00001664)
+I quickly grab the person's shoulder to support her.
+<END>
+
+#WRITE(PTR, $00001674)
+【紅莉栖？】
+Excuse me.
+<END>
+
+#WRITE(PTR, $000016D0)
+【倫太郎】
+Ah...!?
+<END>
+
+#WRITE(PTR, $000016E0)
+I recognize---
+<END>
+
+#WRITE(PTR, $000016F0)
+This woman's face.
+<END>
+
+#WRITE(PTR, $0000171A)
+【倫太郎】
+Ah... ah...!
+<END>
+
+#WRITE(PTR, $0000172A)
+I enter a state of shock.
+<END>
+
+#WRITE(PTR, $0000173A)
+Chills run down my spine.
+<END>
+
+#WRITE(PTR, $0000174A)
+I can't even move my fingers.
+<END>
+
+#WRITE(PTR, $0000175A)
+My gaze is fixed on the face of the person in front of me.
+<END>
+
+#WRITE(PTR, $0000176A)
+Her innocence makes her seem like a girl rather than a woman.
+<END>
+
+#WRITE(PTR, $0000177A)
+I already looked at this graceful face about 3 hours ago.
+<END>
+
+#WRITE(PTR, $0000181E)
+Makise... Kurisu...!
+<END>
+
+#WRITE(PTR, $0000182E)
+【紅莉栖】
+Uhm... is there a problem?
+<END>
+
+#WRITE(PTR, $00001858)
+Kurisu makes a puzzled face and tries to get away from me.
+<END>
+
+#WRITE(PTR, $00001868)
+However I don't let go of her shoulder.
+<END>
+
+#WRITE(PTR, $00001878)
+Instead I put more strength to my grip.
+<END>
+
+#WRITE(PTR, $00001888)
+【紅莉栖】
+O-ow...!
+<END>
+
+#WRITE(PTR, $00001898)
+【倫太郎】
+Y-you...
+<END>
+
+#WRITE(PTR, $000018A8)
+【倫太郎】
+You should be dead! Why are you here!?
+<END>
+
+#WRITE(PTR, $000018B8)
+【倫太郎】
+And...
+<END>
+
+#WRITE(PTR, $000018E2)
+Her clothes are the same she wore that time and they're completely clean.
+<END>
+
+#WRITE(PTR, $000018F2)
+No matter how much I stare at them it doesn't look like she's injured anywhere.
+<END>
+
+#WRITE(PTR, $00001902)
+With that amount of bleeding she must've had a heavy wound.
+<END>
+
+#WRITE(PTR, $00001912)
+【倫太郎】
+Unharmed...!
+<END>
+
+#WRITE(PTR, $00001922)
+【紅莉栖】
+W- it hurts...! Let go...!
+<END>
+
+#WRITE(PTR, $00001C84)
+Kurisu pushes me away.
+<END>
+
+#WRITE(PTR, $00001C94)
+Then she glares at me with a vigilant look.
+<END>
+
+#WRITE(PTR, $00001CA4)
+She doesn't seem like an injured person at all.
+<END>
+
+#WRITE(PTR, $00001CB4)
+【紅莉栖】
+... What?
+<END>
+
+#WRITE(PTR, $00001CC4)
+【倫太郎】
+You're alright? Your wounds are fine? No that's impossible! Makise Kurisu was stabbed and lying in a pool of blood she--
+<END>
+
+#WRITE(PTR, $00001D0C)
+【至】
+That story again?
+<END>
+
+#WRITE(PTR, $00001D1C)
+The one who cut me off was Daru.
+<END>
+
+#WRITE(PTR, $00001D2C)
+And he just said something weird.
+<END>
+
+#WRITE(PTR, $00001D3C)
+【倫太郎】
+What do you mean by that?
+<END>
+
+#WRITE(PTR, $00001D4C)
+【至】
+You sent me a mail like that a week ago.
+<END>
+
+#WRITE(PTR, $00001D5C)
+【倫太郎】
+A mail? Me?
+<END>
+
+#WRITE(PTR, $00001D6C)
+【倫太郎】
+Don't be absurd! I saw that Makise Kurisu was killed just about 3 hours ago!
+<END>
+
+#WRITE(PTR, $00001D86)
+【紅莉栖】
+Hey. Please don't just kill me off okay? I'm perfectly alive.
+<END>
+
+#WRITE(PTR, $00001DA0)
+【至】
+Speaking of which that mail was very weird. The date said that it was sent 'after' 1 week. Which implies that it came from the future...
+<END>
+
+#WRITE(PTR, $00001DF0)
+【紅莉栖】
+Came from the future?
+<END>
+
+#WRITE(PTR, $00001E00)
+【倫太郎】
+Did you check out some weird website Daru? It's unusual for you to spout ridiculous theories.
+<END>
+
+#WRITE(PTR, $00001E1E)
+【至】
+「違うがな。確かにメールの日付は１週間後の、ええと、２８……
+<END2>
+
+#WRITE(PTR, $00001E38)
+あ、そっか。２８日だから今日じゃん！」
+<END>
+
+#WRITE(PTR, $00001E4C)
+ダルは慌てた様子で自分のケータイを操作し、俺に見せてきた。
+<END>
+
+#WRITE(PTR, $00001E94)
+確かにそれは俺からダルへのメールだった。
+<END>
+
+#WRITE(PTR, $00001EA4)
+受信日時は７月２１日１２：５６。
+<END>
+
+#WRITE(PTR, $00001EB4)
+送信日時は……７月２８日１２：５４。
+<END>
+
+#WRITE(PTR, $00001EC4)
+メールは計３通。
+<END>
+
+#WRITE(PTR, $00001ED4)
+１通目は『牧瀬紅莉栖が』
+<END>
+
+#WRITE(PTR, $00001EE4)
+２通目は『男に刺された』
+<END>
+
+#WRITE(PTR, $00001EF4)
+３通目が『みたいだ。男』
+<END>
+
+#WRITE(PTR, $00001F04)
+なぜこんな短い文面を３通に分けて送ったんだ、俺は？
+<END>
+
+#WRITE(PTR, $00001F14)
+それに３通目は、途中で途切れてしまったかのようにも見える。
+<END>
+
+#WRITE(PTR, $00001F24)
+こんな短文メールを送った記憶はない。
+<END>
+
+#WRITE(PTR, $00001F34)
+だが文面には見覚えがあった。
+<END>
+
+#WRITE(PTR, $00001F84)
+【倫太郎】
+This is... The mail I sent 3 hours ago.
+<END>
+
+#WRITE(PTR, $00001F94)
+However I sent a single mail not 3. And I entered more words than this.
+<END>
+
+#WRITE(PTR, $00001FA4)
+Did Daru actually receive this 1 week ago? On the 21st?
+<END>
+
+#WRITE(PTR, $00001FC4)
+【紅莉栖】
+Very interesting...
+<END>
+
+#WRITE(PTR, $00001FD4)
+Wait when did she get here? Kurisu is glaring at the screen of the cellphone with a serious look.
+<END>
+
+#WRITE(PTR, $00002098)
+Oh right! The mail doesn't matter! Well maybe it does but not now!
+<END>
+
+#WRITE(PTR, $000020A8)
+Currently the more important question is 'why is she perfectly fine!?'.
+<END>
+
+#WRITE(PTR, $000020B8)
+Is this an illusion!? No a ghost!? Have I been cursed or something!?
+<END>
+
+#WRITE(PTR, $000020C8)
+As a mad scientist I refuse to believe such unscientific things!
+<END>
+
+#WRITE(PTR, $000021DC)
+I timidly extend my hand towards Kurisu's face...
+<END>
+
+#WRITE(PTR, $000022F6)
+... and touch her head.
+<END>
+
+#WRITE(PTR, $00002306)
+I can actually feel the cuticles her silk-like hair.
+<END>
+
+#WRITE(PTR, $00002316)
+【倫太郎】
+Sh-she's here and I can touch her... To think that I just thought that she's a ghost... How silly of me.
+<END>
+
+#WRITE(PTR, $0000233C)
+【紅莉栖】
+...
+<END>
+
+#WRITE(PTR, $0000234C)
+【至】
+O-Okarin... Ain't that a bit dangerous?
+<END>
+
+#WRITE(PTR, $000023EE)
+I keep poking Kurisu's cheek with my finger.
+<END>
+
+#WRITE(PTR, $000023FE)
+Such wonderful softness and skin tension. It's completely different from a dead bod- wait I never actually touched one.
+<END>
+
+#WRITE(PTR, $00002418)
+【紅莉栖】
+... Hey
+<END>
+
+#WRITE(PTR, $00002428)
+Anyway I already touched her shoulder when we bumped into each other and when she pushed me away.
+<END>
+
+#WRITE(PTR, $00002438)
+My assumption that she has no body is nothing but proof that I'm in a state of confusion.
+<END>
+
+#WRITE(PTR, $00002448)
+Then what was that gruesome scene I saw in the Radio Center? What exactly was that man's scream I heard?
+<END>
+
+#WRITE(PTR, $00002458)
+Was that series of events an illusion just like the mass disappearance?
+<END>
+
+#WRITE(PTR, $00002468)
+That's right wounds! If that was real then the Makise Kurisu right here must have injuries!
+<END>
+
+#WRITE(PTR, $00002478)
+I must investigate.
+<END>
+
+#WRITE(PTR, $0000251A)
+I grab the edge of her clothes and slowly try to to move them aside--
+<END>
+
+#WRITE(PTR, $000025C6)
+【紅莉栖】
+Do you want cops coming after you?
+<END>
+
+#WRITE(PTR, $000025D6)
+【倫太郎】
+... I just want to find out the truth.
+<END>
+
+#WRITE(PTR, $000025E6)
+While Makise Kurisu is shaking with anger I return her a direct gaze and move her jacket aside--
+<END>
+
+#WRITE(PTR, $00002600)
+【紅莉栖】
+What's that all about you PERVERT!? Are you stupid!? Do you want to die!?
+<END>
+
+#WRITE(PTR, $000026C8)
+She pushes my hand aside.
+<END>
+
+#WRITE(PTR, $000026E2)
+【至】
+That's <DICT>Louise-chan</DICT>'s famous line!
+<END>
+
+#WRITE(PTR, $000026F2)
+I ignore Daru's screaming and continue talking without flinching.
+<END>
+
+#WRITE(PTR, $00002702)
+【倫太郎】
+I'm perfectly sure that I saw it!
+<END>
+
+#WRITE(PTR, $0000271C)
+【紅莉栖】
+Wait! Did you just saw my underw...!?
+<END>
+
+#WRITE(PTR, $0000272C)
+Kurisu's face reddens as she quickly tries to cover herself up.
+<END>
+
+#WRITE(PTR, $0000273C)
+【倫太郎】
+You imbecile! That's not it!
+<END>
+
+#WRITE(PTR, $00002756)
+【紅莉栖】
+...
+<END>
+
+#WRITE(PTR, $000027D6)
+Noon today after the ending of Doctor Nakabachi's presentation Makise Kurisu was killed by someone and lied in a pool of blood--
+<END>
+
+#WRITE(PTR, $000027E6)
+I give her a thorough explanation of that.
+<END>
+
+#WRITE(PTR, $0000286C)
+【紅莉栖】
+Eh? Doctor... Nakabachi...?
+<END>
+
+#WRITE(PTR, $000028B4)
+【至】
+What are you talking about Okarin? Nakabachi's presentation was cancelled.
+<END>
+
+#WRITE(PTR, $000028C4)
+【倫太郎】
+... Cancelled?
+<END>
+
+#WRITE(PTR, $000028D4)
+【至】
+Yep. Because of the satellite crashing.
+<END>
+
+#WRITE(PTR, $000028E4)
+Once again the things I've seen and what others tell me are completely different...
+<END>
+
+#WRITE(PTR, $000028F4)
+It's the same as the conversation I had with Mayuri after the mass disappearance.
+<END>
+
+#WRITE(PTR, $00002904)
+I'm feeling uneasy...
+<END>
+
+#WRITE(PTR, $00002914)
+Did I get myself involved in something outrageous?
+<END>
+
+#WRITE(PTR, $00002924)
+Is this another conspiracy of the Organization?
+<END>
+
+#WRITE(PTR, $0000293E)
+【紅莉栖】
+Hey you...
+<END>
+
+#WRITE(PTR, $0000294E)
+【倫太郎】
+M-my name is Hououin Kyouma!
+<END>
+
+#WRITE(PTR, $00002968)
+【至】
+But that's wrong completely...
+<END>
+
+#WRITE(PTR, $00002978)
+【紅莉栖】
+Hououin-san would you kindly tell me about what you just said in more detail?
+<END>
+
+#WRITE(PTR, $00002988)
+Looks like she now understands that I'm not lying.
+<END>
+
+#WRITE(PTR, $00002998)
+Even so I don't know why what I know and what others know doesn't match so I doubt that I can give her a good explanation--
+<END>
+
+#WRITE(PTR, $000029B4)
+A middle-aged man shows his face from the small conference room at the inner part of this floor.
+<END>
+
+#WRITE(PTR, $000029C4)
+【教授】
+Makise-san it's about to begin.
+<END>
+
+#WRITE(PTR, $000029DE)
+【紅莉栖】
+Eh? Uhm yes...
+<END>
+
+#WRITE(PTR, $000029FA)
+Kurisu throws me a glare takes a deep breath and heads towards the small conference room.
+<END>
+
+#WRITE(PTR, $00002A42)
+【至】
+Okarin let's just go for now...
+<END>
+
+#WRITE(PTR, $00002A52)
+【倫太郎】
+Go? What do you mean?
+<END>
+
+#WRITE(PTR, $00002A6C)
+【至】
+We came here to listen to a lecture genius.
+<END>
+
+#WRITE(PTR, $00002A7C)
+Oh right.
+<END>
+
+#WRITE(PTR, $00002A98)
+Daru goes to the same place where Kurisu just went.
+<END>
+
+#WRITE(PTR, $00002AA8)
+So she came to listen to the same lecture as us?
+<END>
+
+#WRITE(PTR, $00002AB8)
+... That girl genius?
+<FILEEND21>
+

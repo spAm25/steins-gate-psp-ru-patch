@@ -1,0 +1,693 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001DA0)
+
+#WRITE(PTR, $00000216)
+【倫太郎】
+Nn... ugh...?
+<END>
+
+#WRITE(PTR, $00000226)
+Disturbed by the melody, I slowly open up my eyes.
+<END>
+
+#WRITE(PTR, $00000236)
+What comes into view isn't the stars shining in the cosmos, but the familiar lab ceiling.
+<END>
+
+#WRITE(PTR, $00000246)
+Ugh, what a bad dream.
+<END>
+
+#WRITE(PTR, $00000256)
+What time is it now?
+<END>
+
+#WRITE(PTR, $00000266)
+It's bright outside the window.
+<END>
+
+#WRITE(PTR, $00000358)
+It rang again.
+<END>
+
+#WRITE(PTR, $00000376)
+My phone tells me I got another mail.
+<END>
+
+#WRITE(PTR, $00000394)
+So it's this sound that dares disturb people's sleep, huh....
+<END>
+
+#WRITE(PTR, $000004CA)
+That mail demon again...?
+<END>
+
+#WRITE(PTR, $000004DA)
+I thought I demanded her not to send them so frequently.
+<END>
+
+#WRITE(PTR, $00000500)
+I blankly stare at my phone's flickering display.
+<END>
+
+#WRITE(PTR, $00000510)
+My body and mind are dull.
+<END>
+
+#WRITE(PTR, $00000520)
+Don't want to move a step.
+<END>
+
+#WRITE(PTR, $00000530)
+Don't want to think a thought.
+<END>
+
+#WRITE(PTR, $00000540)
+That feeling.
+<END>
+
+#WRITE(PTR, $00000588)
+The incoming mail melody chimes again.
+<END>
+
+#WRITE(PTR, $00000598)
+Still not checking it, I sink my body into the sofa--
+<END>
+
+#WRITE(PTR, $0000060E)
+A reserved knock resounds from the entryway door.
+<END>
+
+#WRITE(PTR, $0000061E)
+Next comes a muffled voice from across the door.
+<END>
+
+#WRITE(PTR, $0000062E)
+I couldn't quite catch what it said, but it seems like a woman's voice.
+<END>
+
+#WRITE(PTR, $0000063E)
+Don't tell me, is the mail sender there?
+<END>
+
+#WRITE(PTR, $0000064E)
+Well, there's only one person who'd send me mails this frequently after all.
+<END>
+
+#WRITE(PTR, $00000666)
+I get up from the sofa just a bit annoyed.
+<END>
+
+#WRITE(PTR, $0000070C)
+Checking the clock, it's 9 AM. Meaning I've slept for over 15 hours.
+<END>
+
+#WRITE(PTR, $0000071C)
+I overslept, yet I'm sleepy.
+<END>
+
+#WRITE(PTR, $00000792)
+I stifle my yawn while unlocking the door.
+<END>
+
+#WRITE(PTR, $00000834)
+【萌郁】
+Ah...
+<END>
+
+#WRITE(PTR, $00000844)
+When I open the door, I see Shining Finger-- Kiryuu Moeka-- standing there, looking down at her phone.
+<END>
+
+#WRITE(PTR, $00000854)
+【倫太郎】
+I was asleep....
+<END>
+
+#WRITE(PTR, $00000864)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00000874)
+She faintly bows her head without any expression.
+<END>
+
+#WRITE(PTR, $00000884)
+Aren't you supposed to at least greet me?
+<END>
+
+#WRITE(PTR, $000008FA)
+I don't have a problem standing out here the whole time, but I reluctantly invite her in.
+<END>
+
+#WRITE(PTR, $0000090A)
+I'm still half asleep.
+<END>
+
+#WRITE(PTR, $0000091A)
+Not minding Moeka, I collapse onto the sofa.
+<END>
+
+#WRITE(PTR, $00000962)
+Even though I invited her in, Moeka just stands in the corner of the room.
+<END>
+
+#WRITE(PTR, $0000097C)
+【萌郁】
+...Sweaty.
+<END>
+
+#WRITE(PTR, $0000098C)
+【倫太郎】
+Hmph, what. I just had a little taste of what it's like to be a particle drifting through space.
+<END>
+
+#WRITE(PTR, $00000A2A)
+No, don't tell me that bad dream was....
+<END>
+
+#WRITE(PTR, $00000A3A)
+Maybe I'm more shocked at the truth of SERN's experiments than I thought I was.
+<END>
+
+#WRITE(PTR, $00000A4A)
+At any rate, I feel disoriented since I just got up.
+<END>
+
+#WRITE(PTR, $00000A5A)
+My vision's a little hazy too.
+<END>
+
+#WRITE(PTR, $00000ABE)
+I feel like yawning again. I fail to stifle it this time.
+<END>
+
+#WRITE(PTR, $00000ACE)
+【倫太郎】
+So... did you really come to see the IBN 5100?
+<END>
+
+#WRITE(PTR, $00000AE8)
+Moeka stiffly nods.
+<END>
+
+#WRITE(PTR, $00000B02)
+Then she starts entering something on her phone.
+<END>
+
+#WRITE(PTR, $00000BAE)
+Why does she have to talk through mail even when we're face to face?
+<END>
+
+#WRITE(PTR, $00000BCC)
+I've never seen anyone do something like this.
+<END>
+
+#WRITE(PTR, $00000BEA)
+Maybe... is the reason they call the Shining Finger ability an evil power...!?
+<END>
+
+#WRITE(PTR, $00000C08)
+She didn't say that. No, she didn't.
+<END>
+
+#WRITE(PTR, $00000D38)
+Certainly, what she said is true.
+<END>
+
+#WRITE(PTR, $00000D52)
+But if you're going to come, don't you usually tell the person Okay, then, I'll come by at ○○ tommorrow at least a day beforehand?
+<END>
+
+#WRITE(PTR, $00000DF0)
+【倫太郎】
+I can show you... but you didn't have to come so early in the morning....
+<END>
+
+#WRITE(PTR, $00000E06)
+【倫太郎】
+No, wait...!? Your true goal is to do an article on me, isn't it!?
+<END>
+
+#WRITE(PTR, $00000EA4)
+Back when we first met too, she took a picture of my face without permission.
+<END>
+
+#WRITE(PTR, $00000EB4)
+Since I am the insane mad scientist, Hououin Kyouma, who travels the world over, material on me is quite delicious.
+<END>
+
+#WRITE(PTR, $00000EC4)
+They say that several countries have been blown away in the past just by my disclosure of the dark sides of international governments.
+<END>
+
+#WRITE(PTR, $00000ED4)
+Though of course, I am being chased by the Organization.
+<END>
+
+#WRITE(PTR, $00000EE4)
+That's why I refuse all interviews and photo ops.
+<END>
+
+#WRITE(PTR, $00000EF4)
+This woman came along, aiming to get me when I'm still disoriented from getting up!
+<END>
+
+#WRITE(PTR, $00000F04)
+An excellent plan for a mass media member, a dirty trick for a human.
+<END>
+
+#WRITE(PTR, $00000F68)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00000F78)
+But Moeka doesn't show any reaction from my sharp accusation.
+<END>
+
+#WRITE(PTR, $00000F88)
+Am I wrong...?
+<END>
+
+#WRITE(PTR, $00000F9C)
+【倫太郎】
+I'm not looking.
+<END>
+
+#WRITE(PTR, $000010B6)
+Moeka's shoulders tremble.
+<END>
+
+#WRITE(PTR, $000010C6)
+【倫太郎】
+What sort of idiots would exchange mail when they're right in front of each other?
+<END>
+
+#WRITE(PTR, $000010D6)
+And right now, I don't have any energy to look at each and every mail.
+<END>
+
+#WRITE(PTR, $000010E6)
+【倫太郎】
+Ask verbally.
+<END>
+
+#WRITE(PTR, $00001100)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00001110)
+Moeka says nothing, and just stares at her phone.
+<END>
+
+#WRITE(PTR, $00001120)
+She doesn't look my way.
+<END>
+
+#WRITE(PTR, $00001130)
+I see her faintly stiffen her cheeks.
+<END>
+
+#WRITE(PTR, $00001140)
+She's probably daunted by my, Hououin Kyouma's aura of wickedness.
+<END>
+
+#WRITE(PTR, $00001150)
+Understandable. For I am he who desires chaos, fuhahaha.
+<END>
+
+#WRITE(PTR, $0000116E)
+【萌郁】
+...okay?
+<END>
+
+#WRITE(PTR, $00001186)
+Looks like she feels like talking now.
+<END>
+
+#WRITE(PTR, $00001196)
+But the single word okay? is simply ambiguous.
+<END>
+
+#WRITE(PTR, $000011A6)
+【倫太郎】
+Ask in a way I can understand.
+<END>
+
+#WRITE(PTR, $000011D0)
+I notice Moeka quickly looking around the lab.
+<END>
+
+#WRITE(PTR, $000011E0)
+【萌郁】
+I want to see... the IBN 5100.
+<END>
+
+#WRITE(PTR, $000011F0)
+【倫太郎】
+...Fine. But you can only look. After you look, you go home. Is that okay?
+<END>
+
+#WRITE(PTR, $00001200)
+No matter what, I won't sell it or lend it.
+<END>
+
+#WRITE(PTR, $00001210)
+Because we need this to complete our perfect hacking operation against SERN, the enemy.
+<END>
+
+#WRITE(PTR, $0000122A)
+Moeka bites her lip at my words.
+<END>
+
+#WRITE(PTR, $0000123A)
+But she soon nods faintly.
+<END>
+
+#WRITE(PTR, $000012C6)
+I open the curtains to the development room.
+<END>
+
+#WRITE(PTR, $000012D6)
+At the edge of the room lies the cardboard box with the IBN 5100 inside.
+<END>
+
+#WRITE(PTR, $000012E6)
+【倫太郎】
+That cardboard box over there. It's inside that.
+<END>
+
+#WRITE(PTR, $000012F6)
+I point to it by jerking my chin.
+<END>
+
+#WRITE(PTR, $0000136C)
+Moeka slowly walks up to the cardboard box, readies herself, and peeks inside.
+<END>
+
+#WRITE(PTR, $000013B4)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $000013C4)
+She reacts as if laying eyes upon treasure.
+<END>
+
+#WRITE(PTR, $000013D4)
+She keeps looking at it in fascination.
+<END>
+
+#WRITE(PTR, $000013E4)
+She shows no signs of examining it in more detail, nor of taking it out of the box.
+<END>
+
+#WRITE(PTR, $000013F4)
+Maybe she's not just an editorial part-timer, but also a retro PC maniac?
+<END>
+
+#WRITE(PTR, $00001404)
+Or maybe she's even a pervert with a retro PC fetish?
+<END>
+
+#WRITE(PTR, $00001414)
+No way. Under no circumstances do I want to live in the same world as perverts of that level.
+<END>
+
+#WRITE(PTR, $0000142E)
+So, after stiffening for a while, Moeka cheerfully starts another mail.
+<END>
+
+#WRITE(PTR, $000014D0)
+Tch, such an annoying woman....
+<END>
+
+#WRITE(PTR, $000014EE)
+Besides, it's not really something that'll compel me to take my phone out and open the mail screen.
+<END>
+
+#WRITE(PTR, $0000150C)
+Honestly speaking, it's not worth it to read the mail.
+<END>
+
+#WRITE(PTR, $0000152A)
+It would be over in a second if she just talked.
+<END>
+
+#WRITE(PTR, $0000165A)
+【倫太郎】
+No photography without permission. Tell me what sort of camera you're going to use.
+<END>
+
+#WRITE(PTR, $0000166A)
+The IBN 5100 is our secret weapon against SERN.
+<END>
+
+#WRITE(PTR, $0000167A)
+And unless I set up a photograph licensing system, my face may very well appear in the edges of the pictures.
+<END>
+
+#WRITE(PTR, $0000168A)
+Since I'm being chased by the Organization, I can't expose my face to the media.
+<END>
+
+#WRITE(PTR, $000016A4)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $000016B4)
+Moeka stops moving once I give her my instructions.
+<END>
+
+#WRITE(PTR, $000016C4)
+【倫太郎】
+No, that's fine. Just place the camera you're going to use on the shelves inside. Show it to me. Okay? No funny business.
+<END>
+
+#WRITE(PTR, $000016D4)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00001724)
+Moeka silently places her phone on the shelf.
+<END>
+
+#WRITE(PTR, $00001734)
+But she doesn't let go. She keeps her hand on it.
+<END>
+
+#WRITE(PTR, $00001744)
+【倫太郎】
+...Don't tell me, is that it? You're going to shoot with that phone's internal camera?
+<END>
+
+#WRITE(PTR, $00001754)
+Moeka nods, still expressionless.
+<END>
+
+#WRITE(PTR, $00001764)
+I thought she was doing an editorial article for sure, but using her phone as her press camera is....
+<END>
+
+#WRITE(PTR, $00001782)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00001792)
+Silence flows through.
+<END>
+
+#WRITE(PTR, $000017A2)
+Unable to calm down, Moeka looks down at my feet.
+<END>
+
+#WRITE(PTR, $000017B2)
+【萌郁】
+...Mail
+<END>
+
+#WRITE(PTR, $000017C2)
+【倫太郎】
+Ask verbally.
+<END>
+
+#WRITE(PTR, $000017DC)
+Moeka stays silent, and for some reason, slowly raises her phone above the cardboard box.
+<END>
+
+#WRITE(PTR, $00001852)
+【倫太郎】
+H-hey, what are you doing!
+<END>
+
+#WRITE(PTR, $00001862)
+That was clearly a shutter sound.
+<END>
+
+#WRITE(PTR, $00001872)
+Meaning she took a picture!?
+<END>
+
+#WRITE(PTR, $00001882)
+I snap both hands at Moeka.
+<END>
+
+#WRITE(PTR, $00001892)
+【倫太郎】
+Don't move! Do as I say. Slowly place your phone on the shelf inside. Do it now! Make any strange movements and you'll pay for it!
+<END>
+
+#WRITE(PTR, $000018AC)
+Fortunately, Moeka complies.
+<END>
+
+#WRITE(PTR, $000018FC)
+She obediently places her phone on the shelf.
+<END>
+
+#WRITE(PTR, $0000190C)
+But she doesn't let go. She keeps her hand on it.
+<END>
+
+#WRITE(PTR, $0000191C)
+【倫太郎】
+Why did you take a picture?
+<END>
+
+#WRITE(PTR, $0000192C)
+【萌郁】
+...I wanted to.
+<END>
+
+#WRITE(PTR, $0000193C)
+【倫太郎】
+You could've asked for permission. Why didn't you?
+<END>
+
+#WRITE(PTR, $00001956)
+【萌郁】
+I asked, by mail...
+<END>
+
+#WRITE(PTR, $00001966)
+So that was the last mail?
+<END>
+
+#WRITE(PTR, $00001976)
+【倫太郎】
+Oh, is that so. Ask verbally....
+<END>
+
+#WRITE(PTR, $00001986)
+But why did she take a picture...?
+<END>
+
+#WRITE(PTR, $00001996)
+Ah, I see. That reminds me, she said she was a part-timer at an editorial company.
+<END>
+
+#WRITE(PTR, $000019A6)
+So that means the photo's for an article?
+<END>
+
+#WRITE(PTR, $000019B6)
+But, taking an article picture with a phone camera...?
+<END>
+
+#WRITE(PTR, $000019CA)
+She really seems to be fatally lacking in mass media talent.
+<END>
+
+#WRITE(PTR, $000019DA)
+Or maybe she's too nervous about doing an article on me that she forgot her crucial camera?
+<END>
+
+#WRITE(PTR, $000019EA)
+At any rate, this is getting pitiful.
+<END>
+
+#WRITE(PTR, $00001A02)
+【倫太郎】
+OK. I don't mind if you take as many pictures as you want. On one condition. Not face shots. If you do shoot me, I won't just silence you--
+<END>
+
+#WRITE(PTR, $00001A1C)
+【萌郁】
+I won't take pictures. Not of Okabe-kun's face...
+<END>
+
+#WRITE(PTR, $00001A2C)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $00001ADE)
+Moeka quickly starts shooting inside the box.
+<END>
+
+#WRITE(PTR, $00001AEE)
+She doesn't notice me, Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00001AFE)
+Hmph. You may have desperately denied it, but I can tell you want to shoot me, Shining Finger. Did you think you could deceive my eye?
+<END>
+
+#WRITE(PTR, $00001B1A)
+My photograph sells at an eye-popping price.
+<END>
+
+#WRITE(PTR, $00001B2A)
+I should probably consider myself as the true target of this woman's editorial article.
+<END>
+
+#WRITE(PTR, $00001B3A)
+But I won't be exposed so easily.
+<END>
+
+#WRITE(PTR, $00001B4A)
+I'm sorry for Moeka, but I still can't let the Organization find me.
+<END>
+
+#WRITE(PTR, $00001B66)
+I've always been escaping with my life on the line.
+<END>
+
+#WRITE(PTR, $00001B76)
+That's why I can say this.
+<END>
+
+#WRITE(PTR, $00001B86)
+That I leave no trace.
+<END>
+
+#WRITE(PTR, $00001B96)
+And that I'm vigilant around the clock.
+<END>
+
+#WRITE(PTR, $00001BA6)
+That's the worldly wisdom I've learned in life so far.
+<END>
+
+#WRITE(PTR, $00001BC2)
+At any rate, Masseuse is shooting to her heart's content.
+<END>
+
+#WRITE(PTR, $00001BD2)
+She doesn't pay attention to me at all.
+<END>
+
+#WRITE(PTR, $00001BE2)
+Tch, she dares shred my pride... this woman.
+<FILEEND92>
+

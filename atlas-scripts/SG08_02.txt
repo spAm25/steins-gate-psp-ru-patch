@@ -1,0 +1,555 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000025BE)
+
+#WRITE(PTR, $000001EC)
+鳥居をくぐって階段を下り、森閑とした境内に足を踏み入れる。
+<END>
+
+#WRITE(PTR, $000001FC)
+社殿の横にある社務所のインターホンを連打すると、
+<END>
+
+#WRITE(PTR, $000002AA)
+【るか】
+「はい、どちらさま…
+<END2>
+
+#WRITE(PTR, $000002C4)
+…あ、岡部さん」
+<END>
+
+#WRITE(PTR, $000002D8)
+ルカ子が出てきてくれた。
+<END>
+
+#WRITE(PTR, $000002E8)
+男のくせに、相変わらず女の子のよう├┤
+<END>
+
+#WRITE(PTR, $000002F8)
+いいや、違う。目の前にいるルカ子は、本物の女の子だ。
+<END>
+
+#WRITE(PTR, $00000308)
+【倫太郎】
+Lukako, please ask your father for me. An old computer called the IBN 5100 should've been dedicated here.
+<END>
+
+#WRITE(PTR, $00000322)
+【るか】
+Eh.... An old... computer...?
+<END>
+
+#WRITE(PTR, $00000332)
+Hm? I clearly saw Lukako go pale when I said old computer.
+<END>
+
+#WRITE(PTR, $00000342)
+She lowered her face immediately, so I couldn't make sure, though.
+<END>
+
+#WRITE(PTR, $00000352)
+【るか】
+Eh, um, I'll go call my father...
+<END>
+
+#WRITE(PTR, $0000036E)
+Lukako hurries inside.
+<END>
+
+#WRITE(PTR, $0000037E)
+She looked... like she knew something.
+<END>
+
+#WRITE(PTR, $0000038E)
+Luka's dad quickly appears.
+<END>
+
+#WRITE(PTR, $000003D2)
+【漆原父】
+Well if it isn't Hououin-kun. Thank you for taking care of my daughter.
+<END>
+
+#WRITE(PTR, $000003E2)
+I rush the greeting and get down to business.
+<END>
+
+#WRITE(PTR, $000003F2)
+【倫太郎】
+In this shrine, about ten years ago, an old computer was dedicated here. Did you know?
+<END>
+
+#WRITE(PTR, $0000040C)
+【漆原父】
+An old computer.... Hmm, certainly, I do remember that.
+<END>
+
+#WRITE(PTR, $0000041C)
+【倫太郎】
+Really!?
+<END>
+
+#WRITE(PTR, $0000042C)
+Yayifications! I finally returned to a world line with an IBN 5100!
+<END>
+
+#WRITE(PTR, $0000043C)
+【倫太郎】
+I'd like you to show me by all means!
+<END>
+
+#WRITE(PTR, $00000456)
+【漆原父】
+Okay. Please wait a bit.
+<END>
+
+#WRITE(PTR, $00000466)
+Luka's dad heads inside the sanctuary in the back.
+<END>
+
+#WRITE(PTR, $00000572)
+【るか】
+......
+<END>
+
+#WRITE(PTR, $00000616)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000006BA)
+Lukako's been silently moping for a while now.
+<END>
+
+#WRITE(PTR, $0000075E)
+She's not calm at all, touching her hair and restlessly looking around.
+<END>
+
+#WRITE(PTR, $00000802)
+【倫太郎】
+Are you afraid of me, Lukako?
+<END>
+
+#WRITE(PTR, $000008BC)
+【るか】
+Eh?
+<END>
+
+#WRITE(PTR, $00000960)
+【倫太郎】
+I understand. I mean, after all, I uh... touched, your, uh, your no-no spot, I guess...
+<END>
+
+#WRITE(PTR, $00000A0E)
+【るか】
+......
+<END>
+
+#WRITE(PTR, $00000AB2)
+Crap, I just made things more awkward!
+<END>
+
+#WRITE(PTR, $00000B56)
+At least use a more subtle word, dummy!
+<END>
+
+#WRITE(PTR, $00000BFA)
+【るか】
+Afraid of you, Okabe-san? No, not at all...
+<END>
+
+#WRITE(PTR, $00000C9E)
+【るか】
+That was really... embarrassing, but...
+<END>
+
+#WRITE(PTR, $00000D42)
+【倫太郎】
+Sorry.
+<END>
+
+#WRITE(PTR, $00000DE6)
+【るか】
+Okay...
+<END>
+
+#WRITE(PTR, $00000E8A)
+【倫太郎】
+By the way, do you know about the IBN 5100?
+<END>
+
+#WRITE(PTR, $00000F38)
+【るか】
+N-no!
+<END>
+
+#WRITE(PTR, $00000FDC)
+Lukako shakes her head in an unnatural way.
+<END>
+
+#WRITE(PTR, $00001080)
+【るか】
+I don't... know.
+<END>
+
+#WRITE(PTR, $00001124)
+【倫太郎】
+But when I called you earlier, you kinda seemed like you knew about it, right?
+<END>
+
+#WRITE(PTR, $000011D2)
+【るか】
+That's...
+<END>
+
+#WRITE(PTR, $00001276)
+Lukako shrinks more and more.
+<END>
+
+#WRITE(PTR, $0000131A)
+I feel like I'm bullying her again, so I don't press her any further.
+<END>
+
+#WRITE(PTR, $000013BE)
+I've done a terrible thing to this girl.
+<END>
+
+#WRITE(PTR, $00001462)
+So it might be best if we stop our previous master and disciple relationship. I don't plan to keep it either.
+<END>
+
+#WRITE(PTR, $00001506)
+I need to treat her more gently, more fitting for a girl.
+<END>
+
+#WRITE(PTR, $000015AA)
+If I don't, I could get sued for sexual harassment. If I'm not careful, I could get convicted for attempted rape or indecency by contact.
+<END>
+
+#WRITE(PTR, $0000164E)
+But just how exactly do I treat her more fitting for a girl....
+<END>
+
+#WRITE(PTR, $000016F2)
+Cause I've been treating everybody the same.
+<END>
+
+#WRITE(PTR, $00001796)
+【倫太郎】
+The costume Mayuri made... in the end, you didn't wear it, did you?
+<END>
+
+#WRITE(PTR, $00001844)
+【るか】
+Ah, yes...
+<END>
+
+#WRITE(PTR, $000018E8)
+【倫太郎】
+Because it's embarrassing?
+<END>
+
+#WRITE(PTR, $0000198C)
+【るか】
+Yes...
+<END>
+
+#WRITE(PTR, $00001A30)
+Why is Lukako this unconfident?
+<END>
+
+#WRITE(PTR, $00001AD4)
+If that's her nature, then I guess she can't help it, but.
+<END>
+
+#WRITE(PTR, $00001B78)
+Didn't she say her reason for becoming a girl was to gain confidence in the first place?
+<END>
+
+#WRITE(PTR, $00001C2E)
+And yet, she's a girl now, but she still seems the same inside.
+<END>
+
+#WRITE(PTR, $00001CC4)
+【漆原父】
+...That's strange.
+<END>
+
+#WRITE(PTR, $00001CDE)
+And Luka's dad comes out.
+<END>
+
+#WRITE(PTR, $00001CEE)
+I'm saved. I was stumped since the conversation wasn't going anywhere.
+<END>
+
+#WRITE(PTR, $00001CFE)
+【倫太郎】
+Did you find it?
+<END>
+
+#WRITE(PTR, $00001D0E)
+I try asking just in case, but Luka's dad was empty handed.
+<END>
+
+#WRITE(PTR, $00001D1E)
+He was tilting his head deep in thought.
+<END>
+
+#WRITE(PTR, $00001D2E)
+【漆原父】
+Thing is, I couldn't find it.
+<END>
+
+#WRITE(PTR, $00001D3E)
+【倫太郎】
+You couldn't find it, meaning?
+<END>
+
+#WRITE(PTR, $00001D4E)
+【漆原父】
+I certainly remember receiving an old computer, but it wasn't anywhere in the storehouse.
+<END>
+
+#WRITE(PTR, $00001D5E)
+The IBN 5100 isn't in Yanabayashi Shrine──
+<END>
+
+#WRITE(PTR, $00001D7A)
+Without thinking, I push my temples and groan.
+<END>
+
+#WRITE(PTR, $00001D8A)
+So the world's still warped after all.
+<END>
+
+#WRITE(PTR, $00001D9A)
+The mirage I can't grip no matter how far I grab.
+<END>
+
+#WRITE(PTR, $00001DAA)
+The phantom that doesn't respond.
+<END>
+
+#WRITE(PTR, $00001DBA)
+The IBN 5100──
+<END>
+
+#WRITE(PTR, $00001DCA)
+【倫太郎】
+...Let me get this straight. The one who dedicated the PC here was Akiha Rumiho-san, if I'm not mistaken?
+<END>
+
+#WRITE(PTR, $00001DDA)
+【漆原父】
+Huh, how did you know? Do you know her by chance?
+<END>
+
+#WRITE(PTR, $00001DEA)
+【倫太郎】
+...yeah. We're friends.
+<END>
+
+#WRITE(PTR, $00001E04)
+【漆原父】
+Rumiho-chan has grown up to be a splendid young lady, hasn't she?
+<END>
+
+#WRITE(PTR, $00001E14)
+【漆原父】
+It was when she was still in elementary school. She came to visit with her butler, Kuroki-san.
+<END>
+
+#WRITE(PTR, $00001E2E)
+【漆原父】
+But why did that computer disappear? I thought someone might have stolen it, but everything else is untouched, and the sanctuary lock isn't broken...
+<END>
+
+#WRITE(PTR, $00001E3E)
+What her father just said contradicts Lukako's words.
+<END>
+
+#WRITE(PTR, $00001E4E)
+Lukako said she didn't know about the old PC, the IBN 5100.
+<END>
+
+#WRITE(PTR, $00001E5E)
+【漆原父】
+Luka, do you know anything about it? For the last annual cleaning day, didn't you sweep the sanctuary?
+<END>
+
+#WRITE(PTR, $00001E78)
+【るか】
+...
+<END>
+
+#WRITE(PTR, $00001E88)
+Once again, Lukako is hanging her head, almost shaking.
+<END>
+
+#WRITE(PTR, $00001E98)
+Her lips, and the hand clenched tight before her chest are faintly trembling.
+<END>
+
+#WRITE(PTR, $00001EA8)
+【倫太郎】
+Lukako, what's wrong?
+<END>
+
+#WRITE(PTR, $00001EB8)
+I try asking again.
+<END>
+
+#WRITE(PTR, $00001EC8)
+Lukako doesn't raise her head.
+<END>
+
+#WRITE(PTR, $00001EE2)
+【るか】
+...I don't know, anything.
+<END>
+
+#WRITE(PTR, $00001EF2)
+She says so, while looking like she does know.
+<END>
+
+#WRITE(PTR, $00001F02)
+Lukako is lying.
+<END>
+
+#WRITE(PTR, $00001F12)
+Just, why?
+<END>
+
+#WRITE(PTR, $00001F22)
+It's not rocket science.
+<END>
+
+#WRITE(PTR, $00001F32)
+The reason Lukako knows about the IBN 5100 she originally shouldn't know about.
+<END>
+
+#WRITE(PTR, $00001F42)
+That's──
+<END>
+
+#WRITE(PTR, $00001F52)
+Because the world line changed.
+<END>
+
+#WRITE(PTR, $00001F62)
+The cause is probably a D-mail.
+<END>
+
+#WRITE(PTR, $00001F72)
+In Faris' case, I didn't know what her D-mail was about.
+<END>
+
+#WRITE(PTR, $00001F82)
+But in Lukako's case, I already clearly know what it is.
+<END>
+
+#WRITE(PTR, $00001F92)
+I want to become a girl.
+<END>
+
+#WRITE(PTR, $00001FA2)
+Due to the Butterfly Effect, I should assume that D-mail influenced other circumstances besides Lukako's gender.
+<END>
+
+#WRITE(PTR, $00001FB2)
+In particular, the whereabouts of the IBN 5100.
+<END>
+
+#WRITE(PTR, $000020D4)
+It was like that with Suzuha, and with Faris.
+<END>
+
+#WRITE(PTR, $000020E4)
+I can't help but think the world's keeping the IBN 5100 away from me.
+<END>
+
+#WRITE(PTR, $000020F4)
+At any rate, when Lukako sent her D-mail, my demon eye, Reading Steiner, activated. Meaning the D-mail changed the world line.
+<END>
+
+#WRITE(PTR, $00002174)
+If that means the IBN 5100 won't return to me in this world line.
+<END>
+
+#WRITE(PTR, $00002184)
+Then what I need to do next is "cancel" Lukako's D-mail──
+<END>
+
+#WRITE(PTR, $00002194)
+In other words, I need to turn Lukako back into a guy....
+<END>
+
+#WRITE(PTR, $000021A4)
+Just then, not because of heatstroke, or "Reading Steiner», I really started to feel vertigo.
+<END>
+
+#WRITE(PTR, $000021B4)
+Just how do I explain this to the person in question?
+<END>
+
+#WRITE(PTR, $000021C4)
+Just the other day, when I called Lukako a guy, she started crying up a flood. And then Kurisu and Mayuri formed the Lab Mem Girls alliance and severely tortured me.
+<END>
+
+#WRITE(PTR, $000021D4)
+Is it possible to turn Lukako back into a guy without causing trouble?
+<END>
+
+#WRITE(PTR, $000021E4)
+This is going to be tough.
+<END>
+
+#WRITE(PTR, $000021F4)
+Maybe I should try consulting someone for the time being.
+<END>
+
+#WRITE(PTR, $00002204)
+At first I was going to consult Kurisu, but just this time, it'll be awkward to talk with a girl lab mem.
+<END>
+
+#WRITE(PTR, $00002214)
+Let's think a little....
+<END>
+
+#WRITE(PTR, $00002344)
+I visit Manager's house.
+<END>
+
+#WRITE(PTR, $00002354)
+The Divergence Meter is here.
+<END>
+
+#WRITE(PTR, $00002364)
+I came here to check its value.
+<END>
+
+#WRITE(PTR, $000023B0)
+That value was up about 0.05% from before I canceled Faris' D-mail.
+<END>
+
+#WRITE(PTR, $000023C0)
+I certainly did move world lines.
+<END>
+
+#WRITE(PTR, $000023D0)
+We're steadily rising to 1% Divergence.
+<END>
+
+#WRITE(PTR, $000023E0)
+This meter's value gives me courage.
+<END>
+
+#WRITE(PTR, $00002400)
+Just like when I came here before-- though that was in a different world line, so it's the first time for him-- Tennouji recounts memories of Hashida Suzu.
+<FILEEND7B>
+

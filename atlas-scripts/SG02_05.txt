@@ -1,0 +1,1329 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00004358)
+
+#WRITE(PTR, $000007E4)
+【至】
+...
+<END>
+
+#WRITE(PTR, $000007F4)
+ダルがハッキングを始めて、２０時間が経過した。
+<END>
+
+#WRITE(PTR, $00000804)
+夜が明けて、爽やかな夏の朝。
+<END>
+
+#WRITE(PTR, $00000814)
+俺は、ケータイで＠ちゃんねるを見ながら、チラリとダルの様子を{窺}[うかが]った。
+<END>
+
+#WRITE(PTR, $00000824)
+貧乏揺すりのスピードはもはや高速ピストン状態になっていた。
+<END>
+
+#WRITE(PTR, $00000834)
+カタカタカタ、というキーボードの音と連動するように、足も小刻みに上下している。
+<END>
+
+#WRITE(PTR, $00000844)
+かれこれ４０時間は寝ていないはずだが、ダルは相変わらずＰＣの前から離れようとしない。
+<END>
+
+#WRITE(PTR, $00000854)
+ちょっと休んだらどうだ、と何度か声をかけようとしたが、それすらもためらわれた。とにかく話しかけるなというオーラを全身から発しているのだ。
+<END>
+
+#WRITE(PTR, $0000086C)
+俺は少し身を縮こまらせつつ、再びケータイの画面に目を落とした。
+<END>
+
+#WRITE(PTR, $0000087C)
+ジョン・タイターとの議論は、噛み合わないままに進んでいた。
+<END>
+
+#WRITE(PTR, $0000088C)
+やはりタイター自身どころか、他の誰もが１０年前のタイターの件について知らないようだ。
+<END>
+
+#WRITE(PTR, $0000089C)
+不特定多数が集まる＠ちゃんねるにおいて、俺以外の全員が示し合わせているとは考えにくい。
+<END>
+
+#WRITE(PTR, $000008AC)
+しかし、そんなことはあまりにも不可解ではないか？
+<END>
+
+#WRITE(PTR, $000008DE)
+というわけでしびれを切らした俺は、タイターの呼びかけ通り、直接メールをすることにした。
+<END>
+
+#WRITE(PTR, $000008EE)
+ヤツは大胆にも、＠ちゃんねるに自らのアドレスを晒している。これはヤツからの挑戦と受け取るべきだろう！
+<END>
+
+#WRITE(PTR, $000009D6)
+送るメールの内容は、１０年前と今とで、書き込みが変わっていることについての追及である。
+<END>
+
+#WRITE(PTR, $000009E6)
+１０年前にあった書き込みで、現在のタイターが触れていないこと。
+<END>
+
+#WRITE(PTR, $000009F6)
+俺もおぼろげにしか覚えていないが、主に以下のようなものだった。
+<END>
+
+#WRITE(PTR, $00000A94)
+・２０１５年頃に第３次世界大戦が始まり多くの人が死ぬ。
+<END>
+
+#WRITE(PTR, $00000B32)
+・２０３６年は核戦争によって地球は汚染されている。
+<END>
+
+#WRITE(PTR, $00000BD0)
+・２０３６年からタイムトラベルしてきたのは１９７５年のＩＢＮ５１００を入手するため。それは第３次世界大戦にて失われたテクノロジーの復興のためである。
+<END>
+
+#WRITE(PTR, $00000C6E)
+・ＩＢＮ５１００には隠された機能が存在する。ＡＰＬやＢＡＳＩＣ以前のＩＢＮ独自仕様の特殊なコンピュータ言語をデバッグすることが可能。
+<END>
+
+#WRITE(PTR, $00000D0C)
+・ただしその事実を知っているのはＩＢＮの一部技術者のみで、この機能はマニュアルには載っていない。
+<END>
+
+#WRITE(PTR, $00000DAA)
+・タイターは１９９８年にアメリカで『幼い自分』や『まだ若い頃の両親』と会っている。
+<END>
+
+#WRITE(PTR, $00000E48)
+・タイターは軍人としてタイムトラベラーに志願した。
+<END>
+
+#WRITE(PTR, $00000EE6)
+・タイターはアメリカ人である。
+<END>
+
+#WRITE(PTR, $00000F84)
+さらにタイターは２０００年の書き込みで、未来に起きる出来事について言葉を残していて、そのいくつかは的中している。
+<END>
+
+#WRITE(PTR, $00000F94)
+２００１年２月のペルー沿岸沖地震の発生、新たなローマ教皇の誕生、イラク戦争の勃発、中国の宇宙進出など。
+<END>
+
+#WRITE(PTR, $00000FA4)
+どれも曖昧な言い方ではあるものの、的中したと取ることができる。
+<END>
+
+#WRITE(PTR, $00000FB4)
+一方で、的中しなかった予言も存在する。
+<END>
+
+#WRITE(PTR, $00000FCC)
+例えば<DICT>２０００年問題</DICT>、アメリカの内戦、北京五輪の中止、２００９年にアメリカ史上初の女性大統領誕生、など。
+<END>
+
+#WRITE(PTR, $00000FDC)
+他にもあるが、ひとまずここでは捨て置く。
+<END>
+
+#WRITE(PTR, $00000FEC)
+なぜ予言は的中しなかったのかについても、質問しておこう。
+<END>
+
+#WRITE(PTR, $000011DC)
+よし、メール送信、と。
+<END>
+
+#WRITE(PTR, $00001274)
+このメールにまともに答えられなかったとしたら、今になって＠ちゃんねるに降臨したタイターは偽者だということ。
+<END>
+
+#WRITE(PTR, $00001284)
+これは試金石だぞ、ジョン・タイター。
+<END>
+
+#WRITE(PTR, $00001294)
+ククク、さあ、どう出てくる？
+<END>
+
+#WRITE(PTR, $0000130A)
+【まゆり】
+「トゥットゥルー♪　おはよー」
+<END>
+
+#WRITE(PTR, $000013B8)
+まゆりが入ってきた。
+<END>
+
+#WRITE(PTR, $000013C8)
+食い物の恨みは昨日のうちに晴れたらしく、いつものニコニコ顔だ。
+<END>
+
+#WRITE(PTR, $000013D8)
+【倫太郎】
+「こんな朝早くからどうしたのだ？」
+<END>
+
+#WRITE(PTR, $000013F2)
+【まゆり】
+「うん、２人が２日連続徹夜って聞いたからね、差し入れ買ってきたよー」
+<END>
+
+#WRITE(PTR, $00001402)
+【倫太郎】
+「そうか。それはご苦労」
+<END>
+
+#WRITE(PTR, $00001412)
+正確には俺は昨日の昼に眠ったから、２日連続ではないが。
+<END>
+
+#WRITE(PTR, $000014E6)
+まゆりは手に提げたコンビニ袋をガサガサと漁り始めた。
+<END>
+
+#WRITE(PTR, $000014F6)
+そして取り出したのは├┤
+<END>
+
+#WRITE(PTR, $00001518)
+【まゆり】
+「じゃーん。<DICT>おでん缶</DICT>！」
+<END>
+
+#WRITE(PTR, $00001528)
+受け取ったおでん缶はまだ温かかった。
+<END>
+
+#WRITE(PTR, $00001538)
+さっそくフタを開け、牛すじを口に運ぶ。
+<END>
+
+#WRITE(PTR, $00001548)
+まゆりは付き合いが長いだけあって、俺の好みをよく分かっている。
+<END>
+
+#WRITE(PTR, $00001558)
+俺はおでん缶の中では“牛すじ入り”が一番好きなのだ。
+<END>
+
+#WRITE(PTR, $00001568)
+【まゆり】
+「まゆしぃからのプレゼントだよー。１個２７０円もするんだから、大事に食べてねー」
+<END>
+
+#WRITE(PTR, $00001578)
+【倫太郎】
+「最近、バナナやからあげは食べ飽きていたところだ。今後もこの差し入れで頼む」
+<END>
+
+#WRITE(PTR, $00001592)
+【まゆり】
+「さすがにしょっちゅうおごれるほど、まゆしぃのポケットマネーは多くないのです」
+<END>
+
+#WRITE(PTR, $000015AC)
+【まゆり】
+「あと、バナナやからあげはまゆしぃが大好きだから今後も続けます」
+<END>
+
+#WRITE(PTR, $000015BC)
+むっ。
+<END>
+
+#WRITE(PTR, $000015CC)
+“冷凍食品ばかり食べていたら太るぞ”という脅し文句が浮かんだが、まゆり相手では効かないことが分かっていたので、あえて口にしなかった。
+<END>
+
+#WRITE(PTR, $000015DC)
+こいつは、どれだけ食べても太らないという体質の持ち主なのだ。
+<END>
+
+#WRITE(PTR, $000015F6)
+【まゆり】
+「あとね、他にもあるよ。はい、じゃ～ん♪」
+<END>
+
+#WRITE(PTR, $0000163E)
+次に出されたのは『雷ネット』のイラストが描かれた小箱だった。
+<END>
+
+#WRITE(PTR, $0000164E)
+【まゆり】
+「雷ネットソーセージ。あのね、おまけで『うーぱ』のボトルキャップが付いてくるんだー。すごくほしかったから買っちゃった」
+<END>
+
+#WRITE(PTR, $0000166A)
+えへ、と小さく舌を突き出す。
+<END>
+
+#WRITE(PTR, $0000167A)
+予言しよう。数ヶ月後、このラボは『うーぱ』グッズで埋め尽くされると。
+<END>
+
+#WRITE(PTR, $0000168A)
+今はソファに座っているクッションをはじめとして数えるほどしかないが、きっと増える。
+<END>
+
+#WRITE(PTR, $00001740)
+【まゆり】
+「んで、ダルくんはどう～？」
+<END>
+
+#WRITE(PTR, $000017E4)
+【倫太郎】
+「苦戦中だ。少しぐらい休んでもらった方がいいんだがな。なにもぶっ通しでなんとかしろとは一言も言ってないんだから」
+<END>
+
+#WRITE(PTR, $00001888)
+【まゆり】
+「ダルくんのスーパーハカー魂が、メラメラバーニングしちゃったんだねー」
+<END>
+
+#WRITE(PTR, $0000192C)
+【至】
+「そこっ、ハカーって言わないように！」
+<END>
+
+#WRITE(PTR, $000019D0)
+しっかり聞こえていたようで、ダイエットコーラの空のペットボトルが飛んできた。
+<END>
+
+#WRITE(PTR, $00001D20)
+俺の頭に当たって、カコンと気持ちいい音を立てる。
+<END>
+
+#WRITE(PTR, $00001DC4)
+【まゆり】
+「ピリピリしてるー……」
+<END>
+
+#WRITE(PTR, $00001F2C)
+まゆりとともに談話室の片隅へと避難し、そこでおでん缶を静かに食べることにした。
+<END>
+
+#WRITE(PTR, $00001FD0)
+【まゆり】
+「でもー、ハッキングって悪いことなんだよねー？　まゆしぃはね、２人にそういうことしてほしくないなー」
+<END>
+
+#WRITE(PTR, $00002074)
+【倫太郎】
+「ダルの、スーパーハカー……じゃなくてハッカーとしての腕前、使わなければ宝の持ち腐れだ」
+<END>
+
+#WRITE(PTR, $00002118)
+ちなみにＳＥＲＮは、２００８年にもハッカーにシステムを乗っ取られそうになったことがある。ネットで調べてみたらそのニュースがヒットしたのだ。
+<END>
+
+#WRITE(PTR, $000021BC)
+つまりｗｏｒｌｄ ｗｉｄｅ ｗｅｂを開発した集団であろうと、セキュリティには穴があるということ。
+<END>
+
+#WRITE(PTR, $00002260)
+ダルほどの腕前ならば、そんな穴のあるセキュリティに侵入するなど造作もないことのはずなのだ。
+<END>
+
+#WRITE(PTR, $00002304)
+【倫太郎】
+「それにこれはＳＥＲＮの悪事を暴くため。世界を陰で支配する巨大な闇との戦いなのだよ！」
+<END>
+
+#WRITE(PTR, $000023B2)
+【まゆり】
+「悪いことは悪いことだよー」
+<END>
+
+#WRITE(PTR, $00002456)
+む？　珍しくまゆりが俺の言うことを真に受けない。
+<END>
+
+#WRITE(PTR, $000024FA)
+まあ、悪いことをしているというのは俺としても自覚している。
+<END>
+
+#WRITE(PTR, $0000259E)
+しかしだからと言って止めるわけにはいかないのだ。
+<END>
+
+#WRITE(PTR, $00002654)
+ここはなんとか話を逸らすべきだろう。
+<END>
+
+#WRITE(PTR, $0000266C)
+【倫太郎】
+「まゆりよ、薩摩あげをやるから牛すじをくれないか？」
+<END>
+
+#WRITE(PTR, $0000268A)
+【まゆり】
+「ええー？　
+<END2>
+
+#WRITE(PTR, $000026A4)
+それならウズラ卵がいいなー」
+<END>
+
+#WRITE(PTR, $000026B8)
+【倫太郎】
+「ふざけるな。俺は牛すじの次にウズラ卵が好きなのだ」
+<END>
+
+#WRITE(PTR, $000026D2)
+【まゆり】
+「まゆしぃもウズラ卵、好きだもん」
+<END>
+
+#WRITE(PTR, $000026E2)
+【倫太郎】
+「ちくわで手を打ってくれ」
+<END>
+
+#WRITE(PTR, $00002700)
+【まゆり】
+「んー、分かったよー。
+<END2>
+
+#WRITE(PTR, $0000271A)
+薩摩あげよりはちくわだもんねー」
+<END>
+
+#WRITE(PTR, $0000272E)
+というわけで串でちくわをぶっ刺し、まゆりの持つ缶に入れてやる。
+<END>
+
+#WRITE(PTR, $0000273E)
+代わりに牛すじを抜き取った。
+<END>
+
+#WRITE(PTR, $0000274E)
+そして話を逸らすことにも成功した。まゆりは食べ物の話ならばたいてい食いつくからな。誘導はたやすいのだ、フゥーハハハ！
+<END>
+
+#WRITE(PTR, $00002751)
+【至】
+「もうすぐなんだよ……ＳＱＬのテーブル一覧さえ手に入れれば、パスワード特定余裕なんだよ……ぐへへ……僕をナメんな……」
+<END>
+
+#WRITE(PTR, $000027CC)
+ダルがブツブツ言い出している。
+<END>
+
+#WRITE(PTR, $000027DC)
+どうやらそろそろ決着しそうな気配だな。
+<END>
+
+#WRITE(PTR, $000027F0)
+ダルって本当にスーパーなハカーだったんだな。
+<END>
+
+#WRITE(PTR, $00002800)
+ヤツの本気を初めて見た気がする。
+<END>
+
+#WRITE(PTR, $00002810)
+と、ダルが身を乗り出して、画面を食い入るように見つめた。
+<END>
+
+#WRITE(PTR, $00002820)
+画面には、さっきと変わらず数字やアルファベットの羅列が映し出されているだけだが……。
+<END>
+
+#WRITE(PTR, $00002830)
+【至】
+「おほっ、キタキタキター、いいよいいよ、おら、観念して俺の前に全部晒しやがれっつの、素っ裸にされてる気分はどうだよ、ヒャッハー、ハ、ハハ……」
+<END>
+
+#WRITE(PTR, $00002840)
+目は完全に血走っていた。
+<END>
+
+#WRITE(PTR, $00002850)
+なにやら気色悪い独り言をつぶやいているし。
+<END>
+
+#WRITE(PTR, $00002860)
+一睡もしていないせいで、妙なテンションになってしまったのかもしれない。
+<END>
+
+#WRITE(PTR, $00002870)
+ダルは今度は新しい窓を開いて、そこに１２文字ほどの単語（？）を入力してエンターキーを押した。
+<END>
+
+#WRITE(PTR, $0000288C)
+エラー音が鳴る。
+<END>
+
+#WRITE(PTR, $0000289C)
+するとすぐに入力した文字列を消して、別の文字を入力。
+<END>
+
+#WRITE(PTR, $000028B8)
+そんな行動を何度か繰り返していると├┤
+<END>
+
+#WRITE(PTR, $0000291E)
+【至】
+「……おおっ、キタ！　キターーーーーー！　ＩＤとパス一致ひょっほう！　ログイン完了だゴルァ！　死ね！　なめんな！　ＹＥＳＹＥＳＹＥＳ！」
+<END>
+
+#WRITE(PTR, $0000292E)
+な、なんというハイテンション……。
+<END>
+
+#WRITE(PTR, $0000293E)
+【倫太郎】
+「ダル、やったのか！？」
+<END>
+
+#WRITE(PTR, $000029A8)
+俺の声に振り返ったヤツの顔は艶やかで、スッキリした表情だった。
+<END>
+
+#WRITE(PTR, $000029C0)
+まるで<DICT>賢者タイム</DICT>に入ったときのようだ。
+<END>
+
+#WRITE(PTR, $000029D0)
+【至】
+「ミッションコンプリート」
+<END>
+
+#WRITE(PTR, $000029E0)
+【倫太郎】
+「本当か！？」
+<END>
+
+#WRITE(PTR, $00002A28)
+【まゆり】
+「わー、すごいねー。よく分かんないけど」
+<END>
+
+#WRITE(PTR, $00002A38)
+およそ２０時間の苦闘はついに終わった。
+<END>
+
+#WRITE(PTR, $00002A48)
+俺はねぎらうように、開けていないおでん缶をダルへと放り投げた。
+<END>
+
+#WRITE(PTR, $00002A98)
+【至】
+「仕事の後のおでん缶って、最高すぎだろ」
+<END>
+
+#WRITE(PTR, $00002AA8)
+【倫太郎】
+「よくやった。やはりお前は世界最高のスーパーハカー├┤」
+<END>
+
+#WRITE(PTR, $00002AC2)
+【至】
+「ハッカーな」
+<END>
+
+#WRITE(PTR, $00002AD2)
+【倫太郎】
+「ハ、ハッカーだ。お前が敵でなくてよかった」
+<END>
+
+#WRITE(PTR, $00002AE2)
+【倫太郎】
+「それで、世界滅亡計画の証拠は見つかったか？」
+<END>
+
+#WRITE(PTR, $00002AFC)
+【至】
+「いや、まだ見てねーっつの。繋がっただけ」
+<END>
+
+#WRITE(PTR, $00002B0C)
+【至】
+「ま、ここまで来れば後は楽だけどな」
+<END>
+
+#WRITE(PTR, $00002B1C)
+【倫太郎】
+「ならば、疲れているところ悪いがさっそく調べてくれ。きっとあるはずなのだ、陰謀の影が」
+<END>
+
+#WRITE(PTR, $00002B36)
+【至】
+「はいはい、やりますよ。でもその前におでん缶食わせろ」
+<END>
+
+#WRITE(PTR, $00002C5A)
+食事を終えて一服したダルのキーボードを叩く指さばきは、さっきよりも軽快になっていた。
+<END>
+
+#WRITE(PTR, $00002CA2)
+【至】
+「手に入れたパスが、ＳＥＲＮの誰のものなのかってのが問題なんだよなー」
+<END>
+
+#WRITE(PTR, $00002CEA)
+【まゆり】
+The problem is the who this password belongs to, and their position in SERN, huh-
+<END>
+
+#WRITE(PTR, $00002D04)
+【至】
+What do you mean-?
+<END>
+
+#WRITE(PTR, $00002D14)
+【至】
+I went into SERN's database and got a data table.From there, I focused on people with simple passwords like 11111111 and ABCDEFGH to obtain an ID.
+<END>
+
+#WRITE(PTR, $00002D2E)
+【至】
+It's best if the owner of that ID were a server manager, but I don't think we'd be that lucky.
+<END>
+
+#WRITE(PTR, $00002D48)
+【まゆり】
+In Japanese please-
+<END>
+
+#WRITE(PTR, $00002D58)
+【倫太郎】
+Same.
+<END>
+
+#WRITE(PTR, $00002D72)
+【至】
+In short, if the password belonged to a SERN server manager, then we could lick the entirety of SERN's body and see whatever we wanted, but if it's just an ordinary researcher's password, then we could only see its boobs, or something like that.
+<END>
+
+#WRITE(PTR, $00002D82)
+【まゆり】
+Daru-kun, that's naughty-
+<END>
+
+#WRITE(PTR, $00002D92)
+【倫太郎】
+Don't use erotic examples. Basically, you mean the information we can see will be limited, right?
+<END>
+
+#WRITE(PTR, $00002DAC)
+【至】
+Exactly.
+<END>
+
+#WRITE(PTR, $00002DC6)
+【至】
+Well, getting a server manager's password would only be a matter of time. Let's save that for later. I'm really sleepy now.
+<END>
+
+#WRITE(PTR, $00002DE0)
+It would be cruel to push Daru any further.
+<END>
+
+#WRITE(PTR, $00002DF0)
+It's unfortunate, but it can't be helped. Let's let him rest so he can be refreshed.
+<END>
+
+#WRITE(PTR, $00002E0C)
+【至】
+Ohh, looks like the ID we got belongs to an accelerator division official.
+<END>
+
+#WRITE(PTR, $00002E1C)
+【倫太郎】
+It's not a server manager then...?
+<END>
+
+#WRITE(PTR, $00002E64)
+【至】
+It would take a miracle to get one with our first try. How many staff members do you think SERN has?
+<END>
+
+#WRITE(PTR, $00002EAC)
+【まゆり】
+How many?
+<END>
+
+#WRITE(PTR, $00002EBC)
+【至】
+Over 6000.
+<END>
+
+#WRITE(PTR, $00002ED6)
+There's that many...?
+<END>
+
+#WRITE(PTR, $00002EF2)
+【至】
+Well, for now, this accelerator division official, uh his name is...
+<END>
+
+#WRITE(PTR, $00002F02)
+【至】
+Mr. Jack. Let's peep into his mail log.
+<END>
+
+#WRITE(PTR, $00002F12)
+As expected, the mails come up in English.
+<END>
+
+#WRITE(PTR, $00002F5A)
+【まゆり】
+Uwawah-. Mayushii's head is starting to hurt...
+<END>
+
+#WRITE(PTR, $00002F6A)
+Hmph. It's miserable to be flinching at the sight of English.
+<END>
+
+#WRITE(PTR, $00002F86)
+【倫太郎】
+Daru, what's written there?
+<END>
+
+#WRITE(PTR, $00002F96)
+【至】
+Need to translate it...
+<END>
+
+#WRITE(PTR, $00002FAE)
+【倫太郎】
+Angle up the <DICT>Babel Fish</DICT>!
+<END>
+
+#WRITE(PTR, $00002FBE)
+【至】
+I'm not gonna do something tedious like that.
+<END>
+
+#WRITE(PTR, $00002FCE)
+Daru boots up translation software and auto-translates the open page.
+<END>
+
+#WRITE(PTR, $00002FDE)
+Poor, unnatural Japanese shows up.
+<END>
+
+#WRITE(PTR, $00002FEE)
+The first line said A HAPPY NEW YEAR.
+<END>
+
+#WRITE(PTR, $00002FFE)
+【至】
+Greeting like of New Year it does the~. Go on vacation in Spain... envy
+<END>
+
+#WRITE(PTR, $0000300E)
+That mail's contents were normal. Nothing out of the ordinary.
+<END>
+
+#WRITE(PTR, $0000301E)
+【至】
+If we keep scouring the log like this, we can also identify the server manager.
+<END>
+
+#WRITE(PTR, $00003066)
+【まゆり】
+You know, looking through someone else's mail without permission makes me feel really sorry....
+<END>
+
+#WRITE(PTR, $00003150)
+Mayuri gets depressed and moves away from the computer out of guilt.
+<END>
+
+#WRITE(PTR, $00003160)
+She silently sits on the sofa and sighs as she hugs the giant Upa cushion.
+<END>
+
+#WRITE(PTR, $00003170)
+What we're doing certainly is socially unacceptable. I recognize that. But--
+<END>
+
+#WRITE(PTR, $000031E0)
+【倫太郎】
+Having stepped foot on the path of evil long ago, I no longer know what guilt feels like, fuhahaha!
+<END>
+
+#WRITE(PTR, $000031F0)
+【倫太郎】
+I shall take all responsibility. I have no intention to get either of you charged with guilt.
+<END>
+
+#WRITE(PTR, $00003238)
+【至】
+Uhoh. I'd let Okarin do me in the butt.
+<END>
+
+#WRITE(PTR, $00003248)
+【倫太郎】
+I decline.
+<END>
+
+#WRITE(PTR, $00003262)
+【倫太郎】
+So with that said, Daru, don't hesitate to peek.
+<END>
+
+#WRITE(PTR, $00003306)
+【まゆり】
+Okarin, you're bad-. Mayushii's a sad panda.
+<END>
+
+#WRITE(PTR, $00003316)
+That's of no concern to me.
+<END>
+
+#WRITE(PTR, $00003326)
+Don't be a hypocrite.
+<END>
+
+#WRITE(PTR, $000033D2)
+Upon further examination, we discover several mails with the title Experiment report.
+<END>
+
+#WRITE(PTR, $000033E2)
+Which means "実験報告" in Japanese.
+<END>
+
+#WRITE(PTR, $000033F2)
+Looks like he sends this mail almost daily.
+<END>
+
+#WRITE(PTR, $00003402)
+【倫太郎】
+LHC experiment reports, huh. There could be a time machine hint in there. We should try opening it.
+<END>
+
+#WRITE(PTR, $00003412)
+【至】
+It seems dangerous to look at it, though...
+<END>
+
+#WRITE(PTR, $00003422)
+Daru says so while clicking that mail.
+<END>
+
+#WRITE(PTR, $00003432)
+What came out is a cryptic series of symbols.
+<END>
+
+#WRITE(PTR, $00003442)
+【至】
+This is encrypted.
+<END>
+
+#WRITE(PTR, $00003452)
+【倫太郎】
+Tch, so it really wasn't that simple...
+<END>
+
+#WRITE(PTR, $00003462)
+【至】
+Well, it'll be a piece of cake to solve this level of encryption.
+<END>
+
+#WRITE(PTR, $00003472)
+Nice, supah hakah.
+<END>
+
+#WRITE(PTR, $00003482)
+He's no doubt a genius.
+<END>
+
+#WRITE(PTR, $000034BA)
+In about 10 minutes, Daru's undone the security.
+<END>
+
+#WRITE(PTR, $000034CA)
+What takes more time is deciphering the confusingly translated Japanese.
+<END>
+
+#WRITE(PTR, $0000351E)
+【至】
+Umm, liberally translated...
+<END>
+
+#WRITE(PTR, $00003584)
+【至】
+Hi, Pole'
+<END>
+
+#WRITE(PTR, $00003630)
+【倫太郎】
+That acting's unnecessary.
+<END>
+
+#WRITE(PTR, $0000364A)
+【至】
+Ya think so...?
+<END>
+
+#WRITE(PTR, $000036B2)
+【至】
+Uploaded today's experimental data to the server. The LHC's condition is excellent. Though, it is the 'LHC' to the end.'
+<END>
+
+#WRITE(PTR, $000036C2)
+【至】
+It's almost fickle like a cat, but it was surprisingly obedient this month. It would be great if it stayed in this condition forever.'
+<END>
+
+#WRITE(PTR, $000036D2)
+【至】
+'But don't you think this work isn't rewarding? This kitten-- or should I say large cat HAHAHAHA-- has been in operation for 9 years.'
+<END>
+
+#WRITE(PTR, $000036E2)
+【至】
+This research that repaints human history should only be seen by a small group of people.'
+<END>
+
+#WRITE(PTR, $000036F2)
+【至】
+In all actuality, if it was officially announced, it would become a scandal, don't you think?'
+<END>
+
+#WRITE(PTR, $00003702)
+【至】
+Those guys around the world would probably say this: 'Call Robert Zemeckiff to SERN right away. Then you could get him to make it in less than a year'.'
+<END>
+
+#WRITE(PTR, $00003712)
+【倫太郎】
+...9 years?
+<END>
+
+#WRITE(PTR, $00003722)
+I rub my temples with my thumbs, waiting for Daru to finish reading.
+<END>
+
+#WRITE(PTR, $00003732)
+Calm down. Sort it out.
+<END>
+
+#WRITE(PTR, $00003792)
+【倫太郎】
+Do you think there were any translation mistakes in that mail?
+<END>
+
+#WRITE(PTR, $000037A2)
+Does Daru notice something unnatural too? He's not joking like usual.
+<END>
+
+#WRITE(PTR, $000037EA)
+【至】
+If you believe in the translation software, there shouldn't be any mistakes, right? The Japanese certainly is strange here and there, though.
+<END>
+
+#WRITE(PTR, $000037FA)
+【倫太郎】
+But something's weird then.
+<END>
+
+#WRITE(PTR, $0000380A)
+【倫太郎】
+The LHC should've only been put into operation around spring last year. But if you read between the lines in this mail, it's been in operation for 9 years.
+<END>
+
+#WRITE(PTR, $00003824)
+【至】
+That's strange.
+<END>
+
+#WRITE(PTR, $000038D4)
+The mail's send date is this year, 2010, so nine years ago is 2001.
+<END>
+
+#WRITE(PTR, $000038E4)
+Yesterday on @channel, John Titor posted this:
+<END>
+
+#WRITE(PTR, $000038F4)
+If you want to supplement that explanation, then you have no choice but to believe what they say.
+<END>
+
+#WRITE(PTR, $00003904)
+They have already succeeded at the creation of micro-black holes.
+<END>
+
+#WRITE(PTR, $00003914)
+I gulp.
+<END>
+
+#WRITE(PTR, $00003924)
+If you read between the lines in this mail... there's the nuance that they're doing some sort of secret experiments
+<END>
+
+#WRITE(PTR, $00003934)
+And Robert Zemeckiff is a super-famous Hollywood movie director.
+<END>
+
+#WRITE(PTR, $00003944)
+He directed a trilogy of smash-hit time travel movies about 20 years ago.
+<END>
+
+#WRITE(PTR, $00003954)
+I groan.
+<END>
+
+#WRITE(PTR, $00003964)
+Don't tell me... my expectations were correct?
+<END>
+
+#WRITE(PTR, $00003974)
+SERN's hiding a major secret from the world?
+<END>
+
+#WRITE(PTR, $00003984)
+And it's even research on time machines, or something related...?
+<END>
+
+#WRITE(PTR, $000039E8)
+【倫太郎】
+Daru. Examine it some more. Search for traces of time machine research.
+<END>
+
+#WRITE(PTR, $00003A02)
+【至】
+Seriously...?
+<END>
+
+#WRITE(PTR, $00003A12)
+I don't know if Daru was directing that to my order, or to SERN's secret.
+<END>
+
+#WRITE(PTR, $00003A2E)
+Either way, Daru takes my words to heart and begins tapping on the keyboard again.
+<END>
+
+#WRITE(PTR, $00003A8E)
+【至】
+Hmm, there aren't any mails with the phrase 'time machine' in them...
+<END>
+
+#WRITE(PTR, $00003A9E)
+【至】
+But the phrase 'Z Program' is used hundreds of times in the past few months.
+<END>
+
+#WRITE(PTR, $00003AAE)
+【至】
+Don't you think it could be the experiments they're doing with the LHC right now?
+<END>
+
+#WRITE(PTR, $00003ABE)
+【倫太郎】
+What is it specifically? Black hole formation experiments?
+<END>
+
+#WRITE(PTR, $00003ACE)
+【至】
+Hmmm, let's look for a document... ah, found one.
+<END>
+
+#WRITE(PTR, $00003ADE)
+Daru opens up a PDF file sent as an attachment.
+<END>
+
+#WRITE(PTR, $00003AEE)
+【至】
+Hohoh-, looks like this is top secret stuff from France, England, and Holland.
+<END>
+
+#WRITE(PTR, $00003AFE)
+【倫太郎】
+...top secret national affairs?
+<END>
+
+#WRITE(PTR, $00003B0E)
+【至】
+SERN's not even a national organization, so why?
+<END>
+
+#WRITE(PTR, $00003B1E)
+【至】
+Anyway, top secret national affairs? This bad, isn't it?
+<END>
+
+#WRITE(PTR, $00003B2E)
+【倫太郎】
+Don't care. Examine the details.
+<END>
+
+#WRITE(PTR, $00003B3E)
+【至】
+No, no. If we get caught, we won't just be sorry.
+<END>
+
+#WRITE(PTR, $00003B4E)
+【倫太郎】
+Are you so incompetent at hacking that you'd get tracked?
+<END>
+
+#WRITE(PTR, $00003B5E)
+【至】
+...I did it in a way that can't be tracked.
+<END>
+
+#WRITE(PTR, $00003B6E)
+【倫太郎】
+Then I fail to see a problem.
+<END>
+
+#WRITE(PTR, $00003B7E)
+【至】
+Well, thanks.
+<END>
+
+#WRITE(PTR, $00003B8E)
+Daru makes a slightly awkward face as he feeds a file detailing the Z Program into the translation software.
+<END>
+
+#WRITE(PTR, $00003BF4)
+【至】
+Hmm, 'May 14 #137th Z Program Experiment Report'...
+<END>
+
+#WRITE(PTR, $00003C04)
+【至】
+'Because the mission of mini-black hole formation has already been established, the report is omitted. First--'
+<END>
+
+#WRITE(PTR, $00003C14)
+【倫太郎】
+Stop! Stop!
+<END>
+
+#WRITE(PTR, $00003C74)
+All of a sudden, Titor's 'prediction' became reality...!
+<END>
+
+#WRITE(PTR, $00003C84)
+【倫太郎】
+So SERN did use the LHC to successfully generate mini-black holes...!
+<END>
+
+#WRITE(PTR, $00003C94)
+【至】
+Officially, they announced that they still haven't succeeded with the experiments, so why...
+<END>
+
+#WRITE(PTR, $00003CA4)
+When Titor posted believe what they say, that's what he was referring to.
+<END>
+
+#WRITE(PTR, $00003CB4)
+【至】
+In the first place, the experiment's goal was to create new particle reactions, not generate mini-black holes....
+<END>
+
+#WRITE(PTR, $00003CC4)
+Daru doesn't take his wide eyes off the monitor.
+<END>
+
+#WRITE(PTR, $00003CD4)
+【倫太郎】
+But in reality, they're already generating mini-black holes.
+<END>
+
+#WRITE(PTR, $00003CE4)
+【至】
+Seems like it.
+<END>
+
+#WRITE(PTR, $00003CF4)
+【倫太郎】
+What's written after that?
+<END>
+
+#WRITE(PTR, $00003D04)
+【至】
+Umm...
+<END>
+
+#WRITE(PTR, $00003D64)
+【至】
+Experimental results: Error. Human is dead, mismatch. For details, consult the enclosed Jellyman's Report No.14.'
+<END>
+
+#WRITE(PTR, $00003D74)
+【至】
+Unless lifter adjustment, as well as each local field conformity position can be fixed, it is proposed that the experiments must be terminated.'
+<END>
+
+#WRITE(PTR, $00003D84)
+【倫太郎】
+Wh-what does that mean?
+<END>
+
+#WRITE(PTR, $00003D94)
+【至】
+Human is dead means that somebody died, right?
+<END>
+
+#WRITE(PTR, $00003DBC)
+【倫太郎】
+Wha...
+<END>
+
+#WRITE(PTR, $00003DCC)
+Somebody died?
+<END>
+
+#WRITE(PTR, $00003DDC)
+Seriously?
+<END>
+
+#WRITE(PTR, $00003DEC)
+I groan.
+<END>
+
+#WRITE(PTR, $00003DFC)
+Th-this isn't a joke anymore.
+<END>
+
+#WRITE(PTR, $00003E0C)
+We've might've gotten involved in something outrageous.
+<END>
+
+#WRITE(PTR, $00003E1C)
+Maybe we've fallen and we can't get up.
+<END>
+
+#WRITE(PTR, $00003E2C)
+We've stirred up a hornet's nest.
+<END>
+
+#WRITE(PTR, $00003ECA)
+Pfft, who gives a damn?
+<END>
+
+#WRITE(PTR, $00003EDA)
+I-I'm not afraid. After all, I am the insane mad scientist, Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00003EEA)
+We can't stop after coming this far.
+<END>
+
+#WRITE(PTR, $00003EFA)
+I can't control my curiosity. And watching an actual evil deed take place without doing anything about it just leaves a bad taste.
+<END>
+
+#WRITE(PTR, $00003F0A)
+My throat has gone dry from the strain.
+<END>
+
+#WRITE(PTR, $00003F1A)
+I swallow down my spit.
+<END>
+
+#WRITE(PTR, $00003F2A)
+In an attempt to keep whatever composure I can, I scold myself for trying to run away.
+<END>
+
+#WRITE(PTR, $00003F8E)
+【倫太郎】
+What is this Jellyman's Report?
+<END>
+
+#WRITE(PTR, $00003F9E)
+Daru starts typing once I ask my question, but he soon clicks his tongue.
+<END>
+
+#WRITE(PTR, $00003FE6)
+【至】
+Well, I can't find it in Mr. Jack's mail. We need to get a hold of a higher up or a server manager's password.
+<END>
+
+#WRITE(PTR, $00003FF6)
+【倫太郎】
+Then we'll postpone that. Search for tings related to time machines.
+<END>
+
+#WRITE(PTR, $00004010)
+【至】
+But nothing's going to turn up, you know~?
+<END>
+
+#WRITE(PTR, $00004050)
+After that, Daru spends about 15 minutes fishing through the accelerator division official's mail, but can't find anything about time machines after all.
+<END>
+
+#WRITE(PTR, $00004098)
+【至】
+Words like accelerator technical committee, and LHC project official came out, so I guess we should look for an ID from there. Maybe we can get more detailed information from them.
+<END>
+
+#WRITE(PTR, $000040A8)
+【倫太郎】
+You can't examine it using Mr. Jack's ID?
+<END>
+
+#WRITE(PTR, $000040B8)
+Daru nods.
+<END>
+
+#WRITE(PTR, $000040C8)
+【倫太郎】
+Well then, let's stop for today...
+<END>
+
+#WRITE(PTR, $000040E2)
+【至】
+By the way, what we saw just now was SERN's biggest server, but there's actually another one, a strange database.
+<END>
+
+#WRITE(PTR, $000040F2)
+【倫太郎】
+Strange, in what way?
+<END>
+
+#WRITE(PTR, $00004102)
+【至】
+...It was buggy.
+<END>
+
+#WRITE(PTR, $00004112)
+【倫太郎】
+Buggy?
+<END>
+
+#WRITE(PTR, $0000412C)
+【至】
+Well, buggy, or rather, something that seemed like program code came up....
+<END>
+
+#WRITE(PTR, $00004146)
+【至】
+It was too ambiguous and confusing, or rather, utterly impossible to decode, thank you very much, or rather
+<END>
+
+#WRITE(PTR, $00004156)
+【倫太郎】
+Could it be encrypted?
+<END>
+
+#WRITE(PTR, $00004170)
+【至】
+That's not a cipher I've ever seen. It couldn't come into existence as a program in the first place. It just bothers me as to why they would have a database like that that nobody could see.
+<END>
+
+#WRITE(PTR, $00004180)
+【倫太郎】
+That does bother me.
+<END>
+
+#WRITE(PTR, $0000419A)
+【至】
+I'll try analyzing it for a bit.
+<FILEEND1C>
+

@@ -1,0 +1,241 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00000B64)
+
+#WRITE(PTR, $0000025E)
+俺はケータイを握ったまま、ソファにふんぞり返っていた。
+<END>
+
+#WRITE(PTR, $0000026E)
+正面にあるテレビでは、夏の高校野球が放送されている。
+<END>
+
+#WRITE(PTR, $0000027E)
+高校名を見ただけで分かった。熊本と愛知の代表だ。
+<END>
+
+#WRITE(PTR, $0000028E)
+脳がちくちくと痛む。
+<END>
+
+#WRITE(PTR, $0000029E)
+耳鳴りもなかなかおさまらない。
+<END>
+
+#WRITE(PTR, $000002AE)
+タイムリープ直後のこの不快な気分だけは、なんとも耐えがたいものがある。
+<END>
+
+#WRITE(PTR, $000002BE)
+時計を見ると１時４５分ぐらい。
+<END>
+
+#WRITE(PTR, $000002CE)
+この時間はなにをしていただろう。
+<END>
+
+#WRITE(PTR, $000002DE)
+紅莉栖のタイムリープマシンはあと１５分ほどで終わる。ほとんど佳境、最終調整に入っており、俺はもう特にやることもなかったはず。
+<END>
+
+#WRITE(PTR, $000002EE)
+脳の痛みが引くと、今度は頭頂部がズキズキとし始めた。
+<END>
+
+#WRITE(PTR, $000002FE)
+なぜだろう。
+<END>
+
+#WRITE(PTR, $0000030E)
+ああ、そうか。この直前にブラウン管工房で一悶着あって、店長から脳天にゲンコツを喰らったのだった。
+<END>
+
+#WRITE(PTR, $0000032A)
+まゆりがミシンを動かしてコスを作っている。
+<END>
+
+#WRITE(PTR, $0000033A)
+ダルはＰＣで萌え画像収集に余念がない。
+<END>
+
+#WRITE(PTR, $0000034A)
+紅莉栖は開発室でタイムリープマシンの調整中。
+<END>
+
+#WRITE(PTR, $0000035A)
+俺はまったく同じ姿勢のままで、１５分間待つことになった。
+<END>
+
+#WRITE(PTR, $00000410)
+それまでずっと談話室に響いていたミシンの音が、ふと途切れた。
+<END>
+
+#WRITE(PTR, $00000420)
+【まゆり】
+Okarin, Okarin. Come here a bit-
+<END>
+
+#WRITE(PTR, $00000430)
+She holds the costume and tells me so.
+<END>
+
+#WRITE(PTR, $00000440)
+【まゆり】
+Can you hold this for me-? Spread it out like 'fwapp!'
+<END>
+
+#WRITE(PTR, $00000488)
+【至】
+Mayu-shi, say that fwapp again.
+<END>
+
+#WRITE(PTR, $00000498)
+Daru overheard from his computer.
+<END>
+
+#WRITE(PTR, $000004B2)
+【まゆり】
+Fwapp!
+<END>
+
+#WRITE(PTR, $000004CC)
+【至】
+I got a fwapp!
+<END>
+
+#WRITE(PTR, $000004DC)
+【紅莉栖】
+Stop it already, you ＨＥＮＴＡＩ.
+<END>
+
+#WRITE(PTR, $000004EC)
+Following Mayuri's directions, I spread the costume out by the sleeves.
+<END>
+
+#WRITE(PTR, $000004FC)
+【まゆり】
+Mm...
+<END>
+
+#WRITE(PTR, $00000516)
+【まゆり】
+Yup, thanks-
+<END>
+
+#WRITE(PTR, $00000526)
+Her face looks a little tired, perhaps since she stayed up all night.
+<END>
+
+#WRITE(PTR, $00000536)
+But Mayuri's face was all smiles.
+<END>
+
+#WRITE(PTR, $00000546)
+【まゆり】
+Finished-♪
+<END>
+
+#WRITE(PTR, $00000556)
+Umm, I was supposed to say something now, but I don't remember what....
+<END>
+
+#WRITE(PTR, $00000566)
+I can't remember.
+<END>
+
+#WRITE(PTR, $00000580)
+【まゆり】
+I finished before Chris-chan-. It was a competition-.
+<END>
+
+#WRITE(PTR, $00000590)
+【紅莉栖】
+You win, Mayuri. Well done.
+<END>
+
+#WRITE(PTR, $000005A0)
+【紅莉栖】
+But I'm finished here too.
+<END>
+
+#WRITE(PTR, $00000674)
+Kurisu finishes connecting the two cords she's holding.
+<END>
+
+#WRITE(PTR, $0000068E)
+【紅莉栖】
+Complete
+<END>
+
+#WRITE(PTR, $000006A4)
+Alright, now.
+<END>
+
+#WRITE(PTR, $000006B4)
+【倫太郎】
+We won't experiment.
+<END>
+
+#WRITE(PTR, $000006DA)
+【紅莉栖】
+Eh!!?
+<END>
+
+#WRITE(PTR, $000006EA)
+Crap, was that too soon...?
+<END>
+
+#WRITE(PTR, $00000704)
+【紅莉栖】
+Hey, don't just suddenly refuse like that.... Why do you think I worked so hard to make this?
+<END>
+
+#WRITE(PTR, $00000714)
+【倫太郎】
+Time leaping raises heaps of problems. I want to inspect them all carefully.
+<END>
+
+#WRITE(PTR, $0000072E)
+【紅莉栖】
+Hu-huh.... That's quite an honest opinion for you.
+<END>
+
+#WRITE(PTR, $00000836)
+【まゆり】
+What sort of problems-? Isn't it complete-?
+<END>
+
+#WRITE(PTR, $00000846)
+【倫太郎】
+I'll explain in detail some other day. Everyone's tired now, so let's disband.
+<END>
+
+#WRITE(PTR, $00000860)
+【至】
+We're not going to go all out and celebrate its completion?
+<END>
+
+#WRITE(PTR, $00000870)
+【倫太郎】
+「それも後日だ」
+<END>
+
+#WRITE(PTR, $00000986)
+というわけでまゆりとダルはラボから追い払った。
+<END>
+
+#WRITE(PTR, $00000996)
+まゆりには俺の充電器を貸しておいた。同じメーカー製だから共用ができるのだ。
+<END>
+
+#WRITE(PTR, $000009A6)
+紅莉栖も帰ろうとしていたのを、こっそり引き留めた。
+<END>
+
+#WRITE(PTR, $00000ABB)
+4<DUMMY><DUMMY><DUMMY><DUMMY><DUMMY><DUMMY><END2>
+<DUMMY>
+

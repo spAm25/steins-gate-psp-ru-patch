@@ -1,0 +1,1320 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000038EA)
+
+#WRITE(PTR, $000001F4)
+ＩＢＮ５１００を探すと言っても、手がかりはゼロだ。
+<END>
+
+#WRITE(PTR, $00000204)
+１時間ほどネットカフェで情報を漁ってみたが、収穫はなかった。
+<END>
+
+#WRITE(PTR, $00000214)
+ヨドバシ内にあるジューススタンドで買ったタピオカ入りマンゴージュースを飲みながら、俺は思案にふけっていた。
+<END>
+
+#WRITE(PTR, $00000224)
+土曜日ということで、駅前は混雑し始めていた。
+<END>
+
+#WRITE(PTR, $00000234)
+何人かのメイドが、駅から吐き出されてくる人々にチラシを配っている。
+<END>
+
+#WRITE(PTR, $00000244)
+ダル以上にレトロＰＣに詳しいヤツは誰かいないだろうか。
+<END>
+
+#WRITE(PTR, $00000254)
+そう言えば、あの{閃光の指圧師}[シャイニングフィンガー]が、ＩＢＮ５１００にご執心だったな。
+<END>
+
+#WRITE(PTR, $000002C6)
+あのメール魔に連絡するのは、あまり気が進まないが……。
+<END>
+
+#WRITE(PTR, $000002E4)
+聖戦の勝敗がかかっているわけだから、好き嫌いを言っている場合ではないと分かってはいるのだが。
+<END>
+
+#WRITE(PTR, $00000472)
+指圧師のケータイの電話番号は知らないので、ひとまずメールを送ることにした。
+<END>
+
+#WRITE(PTR, $00000664)
+タピオカ入りマンゴージュースを飲み終えると、俺はアテもなく中央通りへと向かった。
+<END>
+
+#WRITE(PTR, $00000772)
+と、すぐにメールが来た。
+<END>
+
+#WRITE(PTR, $00000882)
+送信者は閃光の指圧師。
+<END>
+
+#WRITE(PTR, $00000892)
+なんというレスの速さだ。
+<END>
+
+#WRITE(PTR, $000008A2)
+だが電話求むと書いたのに、なぜメールを返してくる？
+<END>
+
+#WRITE(PTR, $000009D4)
+結局連絡はせず、俺はマンゴージュースを飲み終えた。
+<END>
+
+#WRITE(PTR, $000009E4)
+アテもなく中央通りへ向かう。
+<END>
+
+#WRITE(PTR, $00000B9A)
+と、まるで見計らったようにメールが来た。
+<END>
+
+#WRITE(PTR, $00000BB8)
+まさか……メール魔か？
+<END>
+
+#WRITE(PTR, $00000D10)
+くっ、ヤツめ、まるで俺の心を読んだかのようだ。
+<END>
+
+#WRITE(PTR, $00000D2E)
+歩きながら、思わず周囲をキョロキョロと見回してしまった。
+<END>
+
+#WRITE(PTR, $00000D3E)
+あの陰気な顔が近くにいないかと探してみたが、さすがに見つからなかった。
+<END>
+
+#WRITE(PTR, $00000DB8)
+仕方ない。返信してやるか。
+<END>
+
+#WRITE(PTR, $00000E9E)
+指圧師のケータイの電話番号は知らないので、ひとまずメールを送ることにした。
+<END>
+
+#WRITE(PTR, $00000F96)
+『電話求む』と打ち込み、一緒に俺の電話番号も添えて、送信。
+<END>
+
+#WRITE(PTR, $000010A2)
+後は向こうからの連絡を待つだけだ。
+<END>
+
+#WRITE(PTR, $00001144)
+と、すぐに返事が来た。
+<END>
+
+#WRITE(PTR, $00001248)
+なんというレスの速さだ。
+<END>
+
+#WRITE(PTR, $00001258)
+だが電話求むと書いたのに、なぜメールを返してくる？
+<END>
+
+#WRITE(PTR, $00001308)
+メールで、だと？
+<END>
+
+#WRITE(PTR, $00001318)
+込み入った話をしようとしているのに、なぜそんな面倒な方法を取らなければならないのだ。
+<END>
+
+#WRITE(PTR, $00001328)
+なんとか電話番号を聞き出してやる。
+<END>
+
+#WRITE(PTR, $000013B6)
+『電話番号を教えろ。それとＩＢＮ５１００についての、そちらの情報を求む』
+<END>
+
+#WRITE(PTR, $0000141A)
+これで送信、と。
+<END>
+
+#WRITE(PTR, $000014C8)
+メールを終えて顔を上げると、ものすごい数の人垣ができていた。
+<END>
+
+#WRITE(PTR, $000014D8)
+相変わらずラジ館前はすごい人の数だな……。
+<END>
+
+#WRITE(PTR, $000014E8)
+マスコミの数も、墜落した日からほとんど減っていない。
+<END>
+
+#WRITE(PTR, $000014F8)
+ラジ館は、今日も休業中である。
+<END>
+
+#WRITE(PTR, $00001554)
+当然、人工衛星は今もそこにあった。
+<END>
+
+#WRITE(PTR, $0000159C)
+返事は３０秒と経たないうちに来た。
+<END>
+
+#WRITE(PTR, $00001630)
+メールを見ようと視線を落としたところで、見知った顔と目が合った。
+<END>
+
+#WRITE(PTR, $00001640)
+【紅莉栖】
+Ah.
+<END>
+
+#WRITE(PTR, $000016B0)
+【倫太郎】
+Assistant? What are you doing here?
+<END>
+
+#WRITE(PTR, $000016CA)
+【紅莉栖】
+Hey. When did I become your assistant?
+<END>
+
+#WRITE(PTR, $000016DA)
+She looks like she'll snap at me, so to dampen her spirit, I go back to checking my mail.
+<END>
+
+#WRITE(PTR, $0000172C)
+That bitch...!
+<END>
+
+#WRITE(PTR, $00001746)
+I told her to tell me her phone number and she just ignored me!
+<END>
+
+#WRITE(PTR, $00001756)
+And she doesn't even have any information! There are limits to uselessness!
+<END>
+
+#WRITE(PTR, $00001766)
+【紅莉栖】
+...Why are you glaring at me?
+<END>
+
+#WRITE(PTR, $00001784)
+【倫太郎】
+Don't mind it. You're not the cause of my frustration.
+<END>
+
+#WRITE(PTR, $0000179E)
+【紅莉栖】
+An outburst of anger? Don't glare.
+<END>
+
+#WRITE(PTR, $000017AE)
+【倫太郎】
+You've glared at me several times too, haven't you?
+<END>
+
+#WRITE(PTR, $000017C8)
+【紅莉栖】
+That's because your ＨＥＮＴＡＩ--
+<END>
+
+#WRITE(PTR, $000017E2)
+【紅莉栖】
+Ah, no, I'm not saying anything.
+<END>
+
+#WRITE(PTR, $0000188C)
+Tch, that again....
+<END>
+
+#WRITE(PTR, $000019F0)
+I wanted to snap my phone in half and throw it at the ground.
+<END>
+
+#WRITE(PTR, $00001A00)
+What do you mean Tell me♪!? You making fun of me with that ♪?
+<END>
+
+#WRITE(PTR, $00001A10)
+More importantly, why does she send me two short consecutive mails like that?
+<END>
+
+#WRITE(PTR, $00001A20)
+I mean, she might as well just send them as one.
+<END>
+
+#WRITE(PTR, $00001A3A)
+【紅莉栖】
+Are the mails you're getting that unpleasant?
+<END>
+
+#WRITE(PTR, $00001A4A)
+【倫太郎】
+They're more unconventional than unpleasant.
+<END>
+
+#WRITE(PTR, $00001A5A)
+I'm not satisfied calling it by one word.
+<END>
+
+#WRITE(PTR, $00001AE8)
+Stop sending me bits and pieces of mail. I'm begging you, so please send them together!
+<END>
+
+#WRITE(PTR, $00001BEE)
+After sending that mail, I'm a little satisfied.
+<END>
+
+#WRITE(PTR, $00001C04)
+I turn to Kurisu again.
+<END>
+
+#WRITE(PTR, $00001C14)
+【倫太郎】
+So, Christina, what are you doing here?
+<END>
+
+#WRITE(PTR, $00001C2E)
+【紅莉栖】
+I'd like you to at least call me something consistently.
+<END>
+
+#WRITE(PTR, $00001C3E)
+【紅莉栖】
+...But it doesn't really matter what I'm here for, does it?
+<END>
+
+#WRITE(PTR, $00001C4E)
+【倫太郎】
+What? Why are you pouting?
+<END>
+
+#WRITE(PTR, $00001C68)
+【紅莉栖】
+I'm not pouting. But, I don't want to get involved with you any more than what's necessary.
+<END>
+
+#WRITE(PTR, $00001C78)
+【倫太郎】
+What nonsense. You're already a lab mem, you know. You need to work for the benefit of the lab, or we'll be in trouble.
+<END>
+
+#WRITE(PTR, $00001C88)
+Though, she is only a provisional member.
+<END>
+
+#WRITE(PTR, $00001C98)
+No, it's because she's a provisional member that we need her to invest as much of her knowledge in the lab.
+<END>
+
+#WRITE(PTR, $00001CA8)
+【紅莉栖】
+...I hate myself for losing to curiosity back then.
+<END>
+
+#WRITE(PTR, $00001CC4)
+Kurisu sighs while looking up to the satellite above.
+<END>
+
+#WRITE(PTR, $00001CD4)
+Not just us, but several other people are standing still here, looking up.
+<END>
+
+#WRITE(PTR, $00001CE4)
+It's become a new tourist spot in Akiba.
+<END>
+
+#WRITE(PTR, $00001CF4)
+【倫太郎】
+Did you come to see the satellite?
+<END>
+
+#WRITE(PTR, $00001D3C)
+【紅莉栖】
+...I guess.
+<END>
+
+#WRITE(PTR, $00001D56)
+【紅莉栖】
+Don't you think it's unbelievable? Normally, satellites are calculated to burn up in the atmosphere during orbit when they fall. How can it be in that good condition?
+<END>
+
+#WRITE(PTR, $00001D66)
+And that's even despite the huge hole it opened up in the building....
+<END>
+
+#WRITE(PTR, $00001D76)
+I wonder if satellites are really that strong.
+<END>
+
+#WRITE(PTR, $00001D86)
+If I had to say, I'd say they seem more brittle than strong.
+<END>
+
+#WRITE(PTR, $00001D96)
+【倫太郎】
+Where's this satellite from in the first place?
+<END>
+
+#WRITE(PTR, $00001DB0)
+【紅莉栖】
+We still don't know. There are rumors it's something from the former Soviet Union, but Russia denies it. Thanks to that, it looks like they can't remove it.
+<END>
+
+#WRITE(PTR, $00001DC0)
+Three days have passed and it's still unknown. How interesting.
+<END>
+
+#WRITE(PTR, $00001DD0)
+I smell a conspiracy.
+<END>
+
+#WRITE(PTR, $00001DE0)
+【倫太郎】
+I see, so this is the work of the 'Organization' too...! To erase me, who was at Radio Kaikan at that time!
+<END>
+
+#WRITE(PTR, $00001DFA)
+【紅莉栖】
+Organization'? What's that?
+<END>
+
+#WRITE(PTR, $00001E0A)
+【倫太郎】
+The 'Organization' is the 'Organization'. Its formal name is something else, but all those who know of its existence call it the 'Organization' out of fear.
+<END>
+
+#WRITE(PTR, $00001E1A)
+【倫太郎】
+Manipulating the world from the shadows, they are a secret organization transcending national borders, with politics, economics, religion, and everything else in their grasp.
+<END>
+
+#WRITE(PTR, $00001E34)
+【紅莉栖】
+Thanks for the conspiracy theory. Now cat hiss at--
+<END>
+
+#WRITE(PTR, $00001E4E)
+【紅莉栖】
+...
+<END>
+
+#WRITE(PTR, $00001E5E)
+For some reason, Kurisu hangs her head as she blushes.
+<END>
+
+#WRITE(PTR, $00001E6E)
+【倫太郎】
+What's wrong?
+<END>
+
+#WRITE(PTR, $00001E7E)
+【紅莉栖】
+N-nothing's wrong. Really, nothing, okay? No more questioning.
+<END>
+
+#WRITE(PTR, $00001E8E)
+Strange woman.
+<END>
+
+#WRITE(PTR, $00001E9E)
+【紅莉栖】
+M-more importantly, how was the Microwave Ophone!?
+<END>
+
+#WRITE(PTR, $00001EAE)
+【倫太郎】
+Why are you that interested? By the way, it's not the Microwave Ophone, it's the Microwave Ophone (Temp)--
+<END>
+
+#WRITE(PTR, $00001EC8)
+【紅莉栖】
+Just answer me. How was it?
+<END>
+
+#WRITE(PTR, $00001ED8)
+【倫太郎】
+...No progress. We tried repeating the experiment, but at present, we haven't reproduced that discharge phenomenon, nor returned a mail to the past.
+<END>
+
+#WRITE(PTR, $00001EE8)
+【紅莉栖】
+I see....
+<END>
+
+#WRITE(PTR, $00001F8A)
+Another mail.
+<END>
+
+#WRITE(PTR, $00001FA8)
+Damn Masseuse, I told her not to send so many brief mails, but she doesn't understand yet?
+<END>
+
+#WRITE(PTR, $00001FC6)
+I can't handle this mail demon.
+<END>
+
+#WRITE(PTR, $000020F8)
+Looks like she's rethinking things.
+<END>
+
+#WRITE(PTR, $00002108)
+Hopefully I don't have to worry about any more mail attacks.
+<END>
+
+#WRITE(PTR, $00002158)
+【紅莉栖】
+Hallo-? Could you put away your phone when you're talking with someone?
+<END>
+
+#WRITE(PTR, $00002176)
+【倫太郎】
+Don't say that. I'm reforming the mail demon, so you should acknowledge my efforts.
+<END>
+
+#WRITE(PTR, $000021C6)
+【紅莉栖】
+Why are you so pompous...?
+<END>
+
+#WRITE(PTR, $000021D6)
+【倫太郎】
+I'd like to ask you the same thing, Christina.
+<END>
+
+#WRITE(PTR, $000021F0)
+【紅莉栖】
+...
+<END>
+
+#WRITE(PTR, $0000222A)
+With that said, let's reply to Masseuse.
+<END>
+
+#WRITE(PTR, $000022B8)
+As long as you understand. I'm also looking for an IBN 5100. Let's exchange information from now on. You don't need to reply to this mail.
+<END>
+
+#WRITE(PTR, $0000231C)
+I type that out and send it.
+<END>
+
+#WRITE(PTR, $000023DA)
+【紅莉栖】
+Are you done with your mail exchange? Hououin-san?
+<END>
+
+#WRITE(PTR, $000023EA)
+【倫太郎】
+Hoh, so you remember my true name, huh. Indeed, my name is Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00002404)
+【紅莉栖】
+I said it sarcastically.
+<END>
+
+#WRITE(PTR, $00002414)
+【倫太郎】
+How was that sarcastic? You said my name correctly. There's nothing wrong. That's a good attitude as an assistant.
+<END>
+
+#WRITE(PTR, $00002424)
+【紅莉栖】
+Okabe-san, you're crazy, you know?
+<END>
+
+#WRITE(PTR, $00002434)
+【倫太郎】
+I am not Okabe!
+<END>
+
+#WRITE(PTR, $0000244E)
+【紅莉栖】
+I'm tired of talking to you....
+<END>
+
+#WRITE(PTR, $00002462)
+Let's check the mail later.
+<END>
+
+#WRITE(PTR, $0000247C)
+【紅莉栖】
+You're pompous, but it looks like you know your manners at least.
+<END>
+
+#WRITE(PTR, $0000248C)
+【倫太郎】
+What do you mean?
+<END>
+
+#WRITE(PTR, $000024A6)
+【紅莉栖】
+I hate people who play with their phones while talking to others.
+<END>
+
+#WRITE(PTR, $000024B6)
+【倫太郎】
+I see, so that's why you forcibly took my phone when we first met.
+<END>
+
+#WRITE(PTR, $000024D0)
+【紅莉栖】
+When we first met? I didn't do that.
+<END>
+
+#WRITE(PTR, $000024E0)
+【倫太郎】
+Yeah you did. When I was making my periodic report, you grabbed my--
+<END>
+
+#WRITE(PTR, $000024F0)
+Phone out of my hand. Before I finish talking, I shut my mouth.
+<END>
+
+#WRITE(PTR, $00002500)
+The events at Radio Kaikan.
+<END>
+
+#WRITE(PTR, $00002510)
+My story of what happened back then doesn't mesh with Daru's and Mayuri's, and now Kurisu's stories.
+<END>
+
+#WRITE(PTR, $00002520)
+So was that a dream or an illusion after all...?
+<END>
+
+#WRITE(PTR, $0000253A)
+【紅莉栖】
+What? What do you mean by periodic report?
+<END>
+
+#WRITE(PTR, $0000254A)
+【倫太郎】
+No. It's nothing.
+<END>
+
+#WRITE(PTR, $0000255E)
+【倫太郎】
+So, about the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $0000258A)
+【倫太郎】
+After the experiment, you screamed something like 'Time machines are a lie!'. Did you recall a past trauma?
+<END>
+
+#WRITE(PTR, $000025A4)
+【紅莉栖】
+Hey, you. Don't just give me traumas like that.
+<END>
+
+#WRITE(PTR, $000025B4)
+【倫太郎】
+I see. That was back when you were 5 years old. Christina was in an Arkansas plain when lightning--
+<END>
+
+#WRITE(PTR, $000025CE)
+【紅莉栖】
+I wasn't hit by lightning! And I was still living in Japan when I was five. Anyway, why Arkansas?
+<END>
+
+#WRITE(PTR, $000025DE)
+【倫太郎】
+When I was trying to imagine tranquil scenery, the first state name to come to mind was Arkansas, and the next one was Oregon.
+<END>
+
+#WRITE(PTR, $000025F8)
+【紅莉栖】
+Not Utah? Relatively speaking, isn't Utah more suitable?
+<END>
+
+#WRITE(PTR, $00002608)
+【倫太郎】
+Then answer me, Christina! Why did you say 'lie' back then!?
+<END>
+
+#WRITE(PTR, $00002622)
+【紅莉栖】
+...It's not like I said it with any particular conviction. My logic was simply that I didn't want to believe. There's enough fringe science in novels and movies.
+<END>
+
+#WRITE(PTR, $00002632)
+【倫太郎】
+Fringe science? What nonsense.
+<END>
+
+#WRITE(PTR, $00002642)
+【倫太郎】
+You should've seen it clearly too. The phenomenon of the mail flying into the past! The instant the banana teleported!
+<END>
+
+#WRITE(PTR, $00002652)
+【紅莉栖】
+...I saw, but something must be wrong. Or possibly, we're just making convenient explanations.
+<END>
+
+#WRITE(PTR, $00002662)
+【紅莉栖】
+Didn't I say so at ATF? Time machines are just a pipe dream with today's technology.
+<END>
+
+#WRITE(PTR, $0000267C)
+【紅莉栖】
+And that's to say nothing of a playtime club like you guys, who made junk just by connecting a phone to a microwave and expect time travel to occur.
+<END>
+
+#WRITE(PTR, $0000268C)
+【倫太郎】
+But it actually occurred. How can you deny what you saw with your own eyes? Are you saying theories are more correct than reality? Then just live out your whole life using sophistry and word play.
+<END>
+
+#WRITE(PTR, $0000269C)
+【紅莉栖】
+What do you mean by word play?
+<END>
+
+#WRITE(PTR, $000026AC)
+【倫太郎】
+Quantum theory and the likes seem like nothing but word play to me.
+<END>
+
+#WRITE(PTR, $000026C6)
+【紅莉栖】
+...Wait, are you trying to deny modern physics? Who do you think you are?
+<END>
+
+#WRITE(PTR, $000026D6)
+【倫太郎】
+Phenomena are straightforward. What happens is everything; what doesn't happen, what isn't observed is nothing but a hypothesis.
+<END>
+
+#WRITE(PTR, $000026E6)
+【紅莉栖】
+When hypotheses pile up, and theories are verified, they become real.
+<END>
+
+#WRITE(PTR, $000026F6)
+【紅莉栖】
+That's how modern physics comes to understand the truth of the universe.
+<END>
+
+#WRITE(PTR, $00002706)
+【倫太郎】
+But there are also cases where hypotheses are mistaken. Even Einstein was wrong about some things.
+<END>
+
+#WRITE(PTR, $00002720)
+【紅莉栖】
+So just because they could be mistaken, you're going to do nothing? Then just live out your whole life playing king locked up in that dirty building of yours.
+<END>
+
+#WRITE(PTR, $00002730)
+【紅莉栖】
+You'll never reach the truth that way. Failure teaches success.
+<END>
+
+#WRITE(PTR, $00002740)
+【倫太郎】
+I see. Nice rebuttal.
+<END>
+
+#WRITE(PTR, $00002750)
+【紅莉栖】
+...You're never getting off your high horse, huh.
+<END>
+
+#WRITE(PTR, $00002760)
+【倫太郎】
+By the way, Christina, I've always felt this. That physicists are contradictory.
+<END>
+
+#WRITE(PTR, $0000277A)
+【紅莉栖】
+...Contradictory?
+<END>
+
+#WRITE(PTR, $0000278A)
+【倫太郎】
+There certainly are phenomena that everyone knows occur in reality, yet physicists haven't begun work on elucidating. What do you think about that?
+<END>
+
+#WRITE(PTR, $000027A4)
+【紅莉栖】
+I don't know unless you can cite examples.
+<END>
+
+#WRITE(PTR, $000027B4)
+【倫太郎】
+Ghosts, for instance.
+<END>
+
+#WRITE(PTR, $000027CE)
+【紅莉栖】
+The occult...
+<END>
+
+#WRITE(PTR, $000027DE)
+【倫太郎】
+You're going to give up thinking because it's the occult? That contradicts what you just said.
+<END>
+
+#WRITE(PTR, $000027EE)
+【倫太郎】
+You'll never reach the truth that way.'
+<END>
+
+#WRITE(PTR, $00002808)
+【紅莉栖】
+...
+<END>
+
+#WRITE(PTR, $00002818)
+【倫太郎】
+People who have seen ghosts certainly exist. Photographic evidence also exists.
+<END>
+
+#WRITE(PTR, $00002828)
+【倫太郎】
+However, why doesn't anyone continue turning over new hypotheses?
+<END>
+
+#WRITE(PTR, $00002838)
+【紅莉栖】
+...It's a different field of study.
+<END>
+
+#WRITE(PTR, $00002848)
+【倫太郎】
+The study of unelucidated phenomena be damned.
+<END>
+
+#WRITE(PTR, $00002858)
+【紅莉栖】
+...True, but
+<END>
+
+#WRITE(PTR, $00002868)
+【倫太郎】
+With that said, we should accurately inspect the phenomenon of sending mail into the past. Assistant, lend me your power.
+<END>
+
+#WRITE(PTR, $00002882)
+【紅莉栖】
+No.
+<END>
+
+#WRITE(PTR, $00002892)
+Kurisu answers clearly.
+<END>
+
+#WRITE(PTR, $000028A2)
+She glares as she usually does.
+<END>
+
+#WRITE(PTR, $000028B2)
+So this genius girl really does hate me, huh.
+<END>
+
+#WRITE(PTR, $000028C2)
+【紅莉栖】
+I won't have a hand in fringe science. I won't make the same mistake my father did.
+<END>
+
+#WRITE(PTR, $000028D2)
+【倫太郎】
+Father...?
+<END>
+
+#WRITE(PTR, $000028E2)
+【紅莉栖】
+Your line of thought is okay to express verbally, but it doesn't hold in the academic society.
+<END>
+
+#WRITE(PTR, $000028F2)
+【紅莉栖】
+The day you decide to research time travel theory is the day you're out a job.
+<END>
+
+#WRITE(PTR, $00002902)
+【倫太郎】
+How can you say it that certainly?
+<END>
+
+#WRITE(PTR, $00002912)
+【紅莉栖】
+That's how my father was.
+<END>
+
+#WRITE(PTR, $00002928)
+Kurisu grinds her teeth.
+<END>
+
+#WRITE(PTR, $00002944)
+【紅莉栖】
+My physicist father loved time machines. He was fascinated by Wells' 'The Time Machine' and seriously studied them.
+<END>
+
+#WRITE(PTR, $0000295E)
+【紅莉栖】
+But since he was too obsessed, he was nearly banished from the academic society.
+<END>
+
+#WRITE(PTR, $00002978)
+【紅莉栖】
+Since I saw that happen to my father, I don't want to get involved with time travel research...!
+<END>
+
+#WRITE(PTR, $00002988)
+Her sheer force puts me to shame this time.
+<END>
+
+#WRITE(PTR, $00002A26)
+Umm, did I get her seriously mad?
+<END>
+
+#WRITE(PTR, $00002A36)
+I feel like I stepped on an unexpected land mine.
+<END>
+
+#WRITE(PTR, $00002A46)
+What do I do? If I get her any angrier, she could sting me.
+<END>
+
+#WRITE(PTR, $00002A56)
+Let's calm her down a little.
+<END>
+
+#WRITE(PTR, $00002A66)
+Let's do that.
+<END>
+
+#WRITE(PTR, $00002A76)
+Umm, how should I talk to her...?
+<END>
+
+#WRITE(PTR, $00002AE4)
+【紅莉栖】
+...I'm sorry. I got emotional.
+<END>
+
+#WRITE(PTR, $00002AF4)
+She apologizes first.
+<END>
+
+#WRITE(PTR, $00002B04)
+Christina's calm nature saves me.
+<END>
+
+#WRITE(PTR, $00002B14)
+【倫太郎】
+Fuhahaha! Don't worry about it! I wanted to test your nature, so I purposefully made you angry!
+<END>
+
+#WRITE(PTR, $00002B2E)
+【紅莉栖】
+...
+<END>
+
+#WRITE(PTR, $00002B48)
+【紅莉栖】
+...Anyway, the Microwave Ophone isn't a time machine.
+<END>
+
+#WRITE(PTR, $00002B58)
+【紅莉栖】
+Mail transmission is a man made system, so it should be a phenomenon explainable in the scope of that system.
+<END>
+
+#WRITE(PTR, $00002B68)
+【倫太郎】
+...I understand how you think, Assistant. You hate time machines that much. Your reaction was like an allergy.
+<END>
+
+#WRITE(PTR, $00002B82)
+【紅莉栖】
+...
+<END>
+
+#WRITE(PTR, $00002B92)
+【倫太郎】
+I'm sorry to trouble you by forcing you to become a lab mem. You don't have to come again.
+<END>
+
+#WRITE(PTR, $00002BA2)
+【紅莉栖】
+...Even if you don't tell me, I won't come.
+<END>
+
+#WRITE(PTR, $00002BB2)
+【倫太郎】
+But, I will tell you this. Christina.
+<END>
+
+#WRITE(PTR, $00002BCC)
+【紅莉栖】
+Don't say Christina.
+<END>
+
+#WRITE(PTR, $00002BDC)
+【倫太郎】
+Lab Mem Number 004 will be a retired number. That number... is yours forever.
+<END>
+
+#WRITE(PTR, $00002C58)
+Ending the speech, I turn my back to Kurisu. I don't look back.
+<END>
+
+#WRITE(PTR, $00002CBA)
+I close my eyes and walk slowly.
+<END>
+
+#WRITE(PTR, $00002CCA)
+I'm not looking ahead, so I'm worried I might bump into someone.
+<END>
+
+#WRITE(PTR, $00002CDA)
+Wait, am I even walking straight in the first place?
+<END>
+
+#WRITE(PTR, $00002CEA)
+【紅莉栖】
+What are you trying to show off for?
+<END>
+
+#WRITE(PTR, $00002E2E)
+My shoulder is suddenly pulled from behind.
+<END>
+
+#WRITE(PTR, $00002E3E)
+I brace my legs so I don't fall backwards.
+<END>
+
+#WRITE(PTR, $00002EE0)
+【倫太郎】
+What are you doing!? You just ruined my production-- a farewell scene walking into the sunset, and you still call yourself my assistant!?
+<END>
+
+#WRITE(PTR, $00002EFA)
+【紅莉栖】
+Like I said, I'm not your assistant! And besides, I still have something to talk to you about!
+<END>
+
+#WRITE(PTR, $00002F0A)
+Dammit, her obstinacy has returned...!
+<END>
+
+#WRITE(PTR, $00002F24)
+【紅莉栖】
+I didn't hear this, but before, you said I was stabbed, right? I demand an explanation for that.
+<END>
+
+#WRITE(PTR, $00002F34)
+That's right, that's another Phenomenon hasn't been elucidated even though it occurred in real life.
+<END>
+
+#WRITE(PTR, $00002F44)
+【倫太郎】
+That was an illusion I saw.
+<END>
+
+#WRITE(PTR, $00002F54)
+I'll just leave it at that for now.
+<END>
+
+#WRITE(PTR, $00002F6E)
+【紅莉栖】
+Why did you dream about me?
+<END>
+
+#WRITE(PTR, $00002F7E)
+【倫太郎】
+I don't know. And it wasn't a dream, but an illusion.
+<END>
+
+#WRITE(PTR, $00002F98)
+【紅莉栖】
+You said something about Doctor Nakabachi, but what was it?
+<END>
+
+#WRITE(PTR, $00002FA8)
+【倫太郎】
+On that day, Doctor Nakabachi held a time machine presentation at Radio Kaikan.
+<END>
+
+#WRITE(PTR, $00002FB8)
+【紅莉栖】
+The presentation was canceled. Because of the satellite crash.
+<END>
+
+#WRITE(PTR, $00002FC8)
+【倫太郎】
+That's how things seem to have turned out, huh. But it safely opened in the illusion I saw. Mayuri and I went to see it when you called out to me.
+<END>
+
+#WRITE(PTR, $00002FE2)
+【紅莉栖】
+I don't flirt. Much less call out to idiots like you.
+<END>
+
+#WRITE(PTR, $00002FF2)
+【倫太郎】
+Like I said, it was an illusion, right? No, maybe... it's this world that's the illusion.
+<END>
+
+#WRITE(PTR, $00003002)
+【倫太郎】
+If that's the case, that solves the riddle of the Microwave Ophone (Temp). If it's an illusion, then it could possibly disregard the laws of physics.
+<END>
+
+#WRITE(PTR, $0000301C)
+【紅莉栖】
+Escapism? How unexpectedly chicken, huh.
+<END>
+
+#WRITE(PTR, $0000302C)
+【倫太郎】
+I proposed a hypothesis. That's the strong point of physicists.
+<END>
+
+#WRITE(PTR, $00003046)
+【紅莉栖】
+So, who stabbed me? Don't tell me, you did?
+<END>
+
+#WRITE(PTR, $00003056)
+Back then, I recall the sight of Kurisu collapsed in a puddle of blood and start shivering.
+<END>
+
+#WRITE(PTR, $00003066)
+Was that really an illusion? Even so, it was too real.
+<END>
+
+#WRITE(PTR, $00003076)
+I can clearly remember the smell of blood.
+<END>
+
+#WRITE(PTR, $00003086)
+【倫太郎】
+When I rushed over, you were already collapsed and bloody. I couldn't find the culprit.
+<END>
+
+#WRITE(PTR, $00003096)
+【紅莉栖】
+I don't get it. Why do I have to die in your illusion....? Do you hate me?
+<END>
+
+#WRITE(PTR, $000030A6)
+【倫太郎】
+Not one bit. At that point in time, we had only spoken once. We were just passing strangers.
+<END>
+
+#WRITE(PTR, $000030B6)
+Well, that one time we talked was during the events of the illusion, so strictly speaking, at that point in time, the only information I had on the person named Makise Kurisu was that she had been published.
+<END>
+
+#WRITE(PTR, $000030C6)
+【倫太郎】
+Anyway, we basically had no points of contact. That's why, after seeing your corpse, I ran away without calling 119.
+<END>
+
+#WRITE(PTR, $000030E0)
+【紅莉栖】
+How cruel.
+<END>
+
+#WRITE(PTR, $000030F0)
+【倫太郎】
+What do you want? You want me to go back to the past and handle your corpse courteously? I'd need to use the Microwave Ophone (Temp) for that, though.
+<END>
+
+#WRITE(PTR, $00003100)
+Though we'd still need to clear the problem of returning to the illusion.
+<END>
+
+#WRITE(PTR, $0000311A)
+【紅莉栖】
+...That's enough. Don't see any more illusions. It doesn't feel good to think you're being killed in other people's dreams.
+<END>
+
+#WRITE(PTR, $0000312A)
+【倫太郎】
+I can't make any guarantees. To do that would require 24 hour perfect surveillance inside my brain.
+<END>
+
+#WRITE(PTR, $00003144)
+【紅莉栖】
+You really have a comeback for everything, don't you.
+<END>
+
+#WRITE(PTR, $00003160)
+Kurisu shakes her head side to side in amazement as she walks toward the station.
+<END>
+
+#WRITE(PTR, $00003170)
+Looks like she wants to end the conversation.
+<END>
+
+#WRITE(PTR, $00003180)
+In revenge for last time, I grab Kurisu's delicate shoulder from behind.
+<END>
+
+#WRITE(PTR, $000032CC)
+【紅莉栖】
+「きゃっ、
+<END2>
+
+#WRITE(PTR, $000032E6)
+な、なによ├┤！？」
+<END>
+
+#WRITE(PTR, $000032FA)
+【倫太郎】
+I'm not done talking.
+<END>
+
+#WRITE(PTR, $00003314)
+【紅莉栖】
+You're trying to pick a fight.
+<END>
+
+#WRITE(PTR, $00003324)
+【倫太郎】
+It's revenge for ruining my farewell scene, Christina! You shall regret your thoughtless actions!
+<END>
+
+#WRITE(PTR, $0000333E)
+【紅莉栖】
+Okay, okay, understood. So, what?
+<END>
+
+#WRITE(PTR, $0000334E)
+【倫太郎】
+About the IBN 5100.
+<END>
+
+#WRITE(PTR, $0000335E)
+【紅莉栖】
+I don't know what you mean if you just say about. What about it?
+<END>
+
+#WRITE(PTR, $0000336E)
+【倫太郎】
+...No, if you don't know, that's okay. Fare thee well. We'll probably never meet again.
+<END>
+
+#WRITE(PTR, $000033E4)
+This time for sure, I turn my back to Kurisu--
+<END>
+
+#WRITE(PTR, $00003500)
+【紅莉栖】
+Don't just stop talking there. That feels bad, you know?
+<END>
+
+#WRITE(PTR, $00003510)
+She grabs my upper arm.
+<END>
+
+#WRITE(PTR, $00003520)
+Damn woman. Not once, but twice...!
+<END>
+
+#WRITE(PTR, $000035C2)
+【紅莉栖】
+What is the IBN five... whatever?
+<END>
+
+#WRITE(PTR, $000035D2)
+【倫太郎】
+IBN 5100. A retro PC from 1975. I'm searching for it now.
+<END>
+
+#WRITE(PTR, $000035E2)
+【紅莉栖】
+Hmmmm. What do you plan to use it for?
+<END>
+
+#WRITE(PTR, $000035F2)
+Looks like she's interested.
+<END>
+
+#WRITE(PTR, $00003602)
+She was the same when she came to the lab too, but it seems like this woman is just brimming with curiosity.
+<END>
+
+#WRITE(PTR, $00003612)
+【倫太郎】
+Interested?
+<END>
+
+#WRITE(PTR, $0000362C)
+【紅莉栖】
+...
+<END>
+
+#WRITE(PTR, $0000363C)
+Kurisu quickly averts her eyes.
+<END>
+
+#WRITE(PTR, $0000364C)
+But she doesn't let go of my arm.
+<END>
+
+#WRITE(PTR, $0000365C)
+【倫太郎】
+You're interested, aren't you?
+<END>
+
+#WRITE(PTR, $0000366C)
+【紅莉栖】
+...Just a little.
+<END>
+
+#WRITE(PTR, $0000367C)
+【倫太郎】
+Then allow me to tell you. The IBN 5100 and SERN have a secret connection.
+<END>
+
+#WRITE(PTR, $00003696)
+【紅莉栖】
+SERN as in... that SERN?
+<END>
+
+#WRITE(PTR, $000036A6)
+【倫太郎】
+Indeed. And through our lab's elevated examination efforts, we have found traces of SERN researching time travel.
+<END>
+
+#WRITE(PTR, $000036B6)
+Now, be surprised.
+<END>
+
+#WRITE(PTR, $000036D0)
+【紅莉栖】
+...Ridiculous. Never heard of that.
+<END>
+
+#WRITE(PTR, $000036EC)
+Kurisu gives me a cold glance, this time for sure letting go and walking away alone.
+<END>
+
+#WRITE(PTR, $000036FC)
+Fuck-damn-shit-cunnnnt!
+<END>
+
+#WRITE(PTR, $0000370C)
+Just you watch.
+<END>
+
+#WRITE(PTR, $0000371C)
+I'll definitely disclose SERN's conspiracy!
+<FILEEND6S>
+

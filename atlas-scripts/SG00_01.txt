@@ -1,0 +1,2405 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000073FC)
+
+#WRITE(PTR, $00000BEE)
+%L1
+<END2>
+
+#WRITE(PTR, $00000BF4)
+プロローグ
+<END2>
+
+#WRITE(PTR, $00000BFA)
+%L1
+<END2>
+
+#WRITE(PTR, $00000CDA)
+INSERT01.PMF
+<END2>
+
+#WRITE(PTR, $00000E0C)
+INSERT02.PMF
+<END2>
+
+#WRITE(PTR, $000010D2)
+【まゆり？】
+Hey what are you mumbling about?
+<END>
+
+#WRITE(PTR, $000010E2)
+No sound is coming from the phone I'm holding against my right ear. A perfect silence.
+<END>
+
+#WRITE(PTR, $000010F2)
+Strong summer sunlight is hitting me.
+<END>
+
+#WRITE(PTR, $00001102)
+Sweat is slowly flowing down my chin and dropping onto the asphalt below.
+<END>
+
+#WRITE(PTR, $0000114A)
+【まゆり？】
+Okarin? Hey!
+<END>
+
+#WRITE(PTR, $0000115A)
+In front of me stands a girl.
+<END>
+
+#WRITE(PTR, $0000116A)
+Tilting her head she calls my name.
+<END>
+
+#WRITE(PTR, $0000117A)
+Her facial expression holds the innocence of a middle school girl. She doesn't seem to understand that we're wading into enemy territory nor does she sense even a bit of the tension in the air.
+<END>
+
+#WRITE(PTR, $00001190)
+After placing my hand on the mic of my phone I put my index finger on my mouth.
+<END>
+
+#WRITE(PTR, $000011A0)
+A gesture asking for silence.
+<END>
+
+#WRITE(PTR, $000011BA)
+【まゆり？】
+Are you on the phone with someone?
+<END>
+
+#WRITE(PTR, $000011F6)
+I nod my head and return the phone to my ear.
+<END>
+
+#WRITE(PTR, $00001206)
+The other end of the phone still emits no sound.
+<END>
+
+#WRITE(PTR, $00001216)
+They probably became silent as our conversation was something that shouldn't be spread lightly.
+<END>
+
+#WRITE(PTR, $00001226)
+【倫太郎】
+... No ignore what you just heard. Everything's fine. We'll infiltrate the assembly grounds now.
+<END>
+
+#WRITE(PTR, $00001236)
+Same as always the other party is silent.
+<END>
+
+#WRITE(PTR, $00001246)
+Apparently they're only listening to my progress report.
+<END>
+
+#WRITE(PTR, $00001256)
+A rational decision.
+<END>
+
+#WRITE(PTR, $00001266)
+Having a regular conversation here would be too risky and foolish.
+<END>
+
+#WRITE(PTR, $00001276)
+【倫太郎】
+Yes Dr. Nakabachi went off by himself. I'm planning on having him tell us plenty on the subject.
+<END>
+
+#WRITE(PTR, $00001296)
+【倫太郎】
+...What!? The "<DICT> Organization</DICT>" has already begun its operations!?
+<END>
+
+#WRITE(PTR, $000012A6)
+I widen my eyes and exclaim in a shocked manner.
+<END>
+
+#WRITE(PTR, $000013EE)
+The girl turns towards me in surprise.
+<END>
+
+#WRITE(PTR, $000013FE)
+Or more like she was already staring at me.
+<END>
+
+#WRITE(PTR, $0000141A)
+While shaking my head and pressing my temple I quickly let out a deep sigh.
+<END>
+
+#WRITE(PTR, $0000142A)
+【倫太郎】
+I see so that's the choice of Steins;Gate. El Psy Congroo.
+<END>
+
+#WRITE(PTR, $00001440)
+Saying the password I bring the phone away from my ears and place it in my breast pocket.
+<END>
+
+#WRITE(PTR, $00001450)
+Steins;Gate.
+<END>
+
+#WRITE(PTR, $00001460)
+One could call it 'the will of the gods' or perhaps even "fate" .
+<END>
+
+#WRITE(PTR, $00001470)
+There are only a few people who know of its existence.
+<END>
+
+#WRITE(PTR, $00001480)
+Anyways let's go ahead and start the infiltration.
+<END>
+
+#WRITE(PTR, $00001490)
+I pick up my feet and move towards the Radio Center by the station.
+<END>
+
+#WRITE(PTR, $000015CC)
+This is an infiltration into enemy territory so I cannot take the risks of mindlessly breaking in.
+<END>
+
+#WRITE(PTR, $000015DC)
+Ignoring the elevator and escalator I took the stairs towards the 8th floor which is also the topmost.
+<END>
+
+#WRITE(PTR, $000015EC)
+However I used up all my strength upon reaching the 7th.
+<END>
+
+#WRITE(PTR, $000015FC)
+【まゆり】
+Who were you talking with on the phone back there?
+<END>
+
+#WRITE(PTR, $0000160C)
+The girl who caught up with me Shiina Mayuri asks me that while being perfectly fine.
+<END>
+
+#WRITE(PTR, $0000161C)
+Due to my loss of energy after going up the stairs I put my hands on my knees and take a deep breath.
+<END>
+
+#WRITE(PTR, $0000162C)
+Apparently using the stairs wasn't a good idea. It's too intense.
+<END>
+
+#WRITE(PTR, $0000163C)
+After wiping off the sweat running on my forehead I face Mayuri again.
+<END>
+
+#WRITE(PTR, $00001684)
+【倫太郎】
+Don't ask. It's for your sake as well.
+<END>
+
+#WRITE(PTR, $0000169E)
+【まゆり】
+Really? Thank you Okarin.
+<END>
+
+#WRITE(PTR, $000016AE)
+Mayuri smiles happily.
+<END>
+
+#WRITE(PTR, $000016BE)
+She truly is very perceptive.
+<END>
+
+#WRITE(PTR, $000016CE)
+She understands the position I'm in and doesn't meddle any further.
+<END>
+
+#WRITE(PTR, $0000176C)
+She is my childhood friend.
+<END>
+
+#WRITE(PTR, $0000177C)
+A 16 year old female high school student younger than me by 2 years. She's more like a little sister to me rather than a childhood friend.
+<END>
+
+#WRITE(PTR, $0000178C)
+Our places of residence are in the same neighborhood and we spent a lot of time together since long ago.
+<END>
+
+#WRITE(PTR, $0000179C)
+I once thought that Mayuri has the qualities to be burdened with the cruel fate of being the key to Steins;Gate. Just now the idea came to me again.
+<END>
+
+#WRITE(PTR, $000017AC)
+I want her to always be by my side.
+<END>
+
+#WRITE(PTR, $000017BC)
+That's a modest wish that I thought just now.
+<END>
+
+#WRITE(PTR, $000019DE)
+Upon entering the assembly hall on the 8th floor we're greeted by a cheap-looking set up.
+<END>
+
+#WRITE(PTR, $000019EE)
+A sign says 'Doctor Nakabachi's Time Machine Invention Press Conference'.
+<END>
+
+#WRITE(PTR, $00001A36)
+【まゆり】
+Anyway Okarin Okarin.
+<END>
+
+#WRITE(PTR, $00001A46)
+She's been calling me that for a while now but that is neither my real name nor my codename. It's a nickname she's given me that even I don't like.
+<END>
+
+#WRITE(PTR, $00001A56)
+【倫太郎】
+Mayuri I keep telling you. Do not call me 'Okarin'.
+<END>
+
+#WRITE(PTR, $00001A66)
+【まゆり】
+Eh? But I've been calling you that since a long time ago.
+<END>
+
+#WRITE(PTR, $00001A76)
+【倫太郎】
+That's all a thing of the past. I am now 'Hououin Kyouma'. An insane mad scientist targeted by secret organizations from all over the world. Fwahahaha!
+<END>
+
+#WRITE(PTR, $00001A90)
+【まゆり】
+But I can't remember such a difficult name.
+<END>
+
+#WRITE(PTR, $00001AA8)
+Anyhow Hououin Kyouma is my <DICT>True Name</DICT>
+<END>
+
+#WRITE(PTR, $00001AC2)
+【まゆり】
+Besides it doesn't resemble 'Okabe Rintaro' at all. What a weird name eheheh
+<END>
+
+#WRITE(PTR, $00001AD2)
+Hmm she smiles with honest happiness.
+<END>
+
+#WRITE(PTR, $00001AE2)
+By the way Okabe Rintaro is my real name but I don't like it because it sounds stupid.
+<END>
+
+#WRITE(PTR, $00001AF2)
+And due to that I dislike the nickname 'Okarin' which was taken from my real name.
+<END>
+
+#WRITE(PTR, $00001B02)
+Anyway 'Okarin'? Seriously?
+<END>
+
+#WRITE(PTR, $00001B12)
+That sounds like one of those yellow buckets they have in bathhouses.
+<END>
+
+#WRITE(PTR, $00001B2C)
+【まゆり】
+So Okarin. Uhmm can you tell me...
+<END>
+
+#WRITE(PTR, $00001B3C)
+Looks like she doesn't understand.
+<END>
+
+#WRITE(PTR, $00001B4C)
+She's been calling me that for 5 years now so now I'm halfway towards giving up.
+<END>
+
+#WRITE(PTR, $00001B5C)
+【まゆり】
+What's gonna happen here from now on?
+<END>
+
+#WRITE(PTR, $00001B6C)
+【倫太郎】
+You're saying that you accompanied me without even knowing that?
+<END>
+
+#WRITE(PTR, $00001B86)
+【まゆり】
+Yep.
+<END>
+
+#WRITE(PTR, $00001B96)
+She smiles while nodding.
+<END>
+
+#WRITE(PTR, $00001BA6)
+This is Tokyo the Radio Center in Akihabara.
+<END>
+
+#WRITE(PTR, $00001BB6)
+The 8th floor here is an event space.
+<END>
+
+#WRITE(PTR, $00001BC6)
+【倫太郎】
+What will begin here is Doctor Nakabachi's press conference.
+<END>
+
+#WRITE(PTR, $00001BD6)
+Doctor Nakabachi is an inventor. A famous person who often appears on TV and holds some patents. Though the world in general sees him as nothing more than a lunatic.
+<END>
+
+#WRITE(PTR, $00001BF0)
+【まゆり】
+A press conference? But I don't see any reporters...
+<END>
+
+#WRITE(PTR, $00001C00)
+It's just like Mayuri says.
+<END>
+
+#WRITE(PTR, $00001C1C)
+I took a glimpse into the inner part of the assembly hall but I didn't see neither cameramen nor people that look like reporters not even one. When you consider that this is more like a presentation than a press conference.
+<END>
+
+#WRITE(PTR, $00001C2C)
+Including me there are about 10 men idling around.
+<END>
+
+#WRITE(PTR, $00001C3C)
+Yes just 10.
+<END>
+
+#WRITE(PTR, $00001C4C)
+Considering Nakabachi's popularity and that this is event touches the subject of 'successful development of a time machine' there should've been much more people here.
+<END>
+
+#WRITE(PTR, $00001C5C)
+【倫太郎】
+This is probably a disturbance caused by the Organization.
+<END>
+
+#WRITE(PTR, $00001C6C)
+Muttering with self-derision I make a forced reaction and strain my lips.
+<END>
+
+#WRITE(PTR, $00001C7C)
+Nakabachi is not my acquaintance but he's a person who was on the same side as me.
+<END>
+
+#WRITE(PTR, $00001C8C)
+However he resigned and left us.
+<END>
+
+#WRITE(PTR, $00001C9C)
+The Organization couldn't overlook this timing.
+<END>
+
+#WRITE(PTR, $00001CAC)
+【倫太郎】
+I really don't want to get involved with this.
+<END>
+
+#WRITE(PTR, $00001CBC)
+Nonetheless I'm very interested in what he has to say.
+<END>
+
+#WRITE(PTR, $00001CCC)
+That is the reason why I came here wasting an early afternoon of my precious summer holiday.
+<END>
+
+#WRITE(PTR, $00001CDC)
+After thinking about what I just mumbled to myself Mayuri tilts her head after a lengthy pause.
+<END>
+
+#WRITE(PTR, $00001D28)
+【まゆり】
+「巻き巻きトカゲ？　
+<END2>
+
+#WRITE(PTR, $00001D42)
+あ、それを言うならエリ巻きトカゲだねー。えっへへー」
+<END>
+
+#WRITE(PTR, $00001D56)
+俺はため息をついてしまう。
+<END>
+
+#WRITE(PTR, $00001D66)
+１人ボケツッコミ笑いとは実に脳天気なことだ。
+<END>
+
+#WRITE(PTR, $00001D76)
+まあ、まゆりは昔からこんな感じだが。
+<END>
+
+#WRITE(PTR, $00001D86)
+【倫太郎】
+Be careful Mayuri. It's possible that something might happ-
+<END>
+
+#WRITE(PTR, $00001E28)
+Right when I was saying that!
+<END>
+
+#WRITE(PTR, $00001E40)
+What is this sound? <DICT> Electromagnetic wave</DICT> attack?!
+<END>
+
+#WRITE(PTR, $00001FCA)
+The floor is slightly shaking.
+<END>
+
+#WRITE(PTR, $00001FDA)
+Definitely an attack.
+<END>
+
+#WRITE(PTR, $00001FEA)
+From above.
+<END>
+
+#WRITE(PTR, $00001FFA)
+However the 8th floor that we're on is the topmost.
+<END>
+
+#WRITE(PTR, $0000200A)
+If it's from above then it can only be the roof.
+<END>
+
+#WRITE(PTR, $00002052)
+【まゆり】
+An earthquake? Shindo scale 2? Magnitude 2? What was the difference between Shindo and magnitudes again?
+<END>
+
+#WRITE(PTR, $0000206E)
+I leave the troubled girl.
+<END>
+
+#WRITE(PTR, $0000207E)
+Feeling something bad I rush out of the assembly hall.
+<END>
+
+#WRITE(PTR, $00002194)
+Disregarding the sign that says 'no entry' I run to the staircase which leads to the rooftop.
+<END>
+
+#WRITE(PTR, $00002490)
+For some reason the door to the rooftop is open or more like the lock is broken.
+<END>
+
+#WRITE(PTR, $000024A0)
+Just as I open the door I see lots of black smoke rising up.
+<END>
+
+#WRITE(PTR, $000024B0)
+Moreover for some reason the air is filled with rainbow colored phosphorescent light dancing around.
+<END>
+
+#WRITE(PTR, $000024C0)
+【倫太郎】
+An... explosion!?
+<END>
+
+#WRITE(PTR, $000024D0)
+I try to fake surprise but wait is this seriously an explosion?
+<END>
+
+#WRITE(PTR, $000024E0)
+This is bad my chest is starting to throb.
+<END>
+
+#WRITE(PTR, $000024F0)
+My heart is beating faster.
+<END>
+
+#WRITE(PTR, $00002500)
+Uhmm... W-what course of action should I take?
+<END>
+
+#WRITE(PTR, $00002510)
+Should I run away?
+<END>
+
+#WRITE(PTR, $00002520)
+But why an explosion? Terrorism?
+<END>
+
+#WRITE(PTR, $00002530)
+I don't really think that's it.
+<END>
+
+#WRITE(PTR, $00002540)
+Why? Because there's a strange object placed in the very middle of the empty space of the rooftop.
+<END>
+
+#WRITE(PTR, $000025C2)
+【倫太郎】
+What... Is this?
+<END>
+
+#WRITE(PTR, $000025D2)
+It's a mysterious piece of machinery.
+<END>
+
+#WRITE(PTR, $000025E2)
+Considerably large. About 3 meters or more in height.
+<END>
+
+#WRITE(PTR, $000025F2)
+Is this a... space satellite?
+<END>
+
+#WRITE(PTR, $00002602)
+Is this the cause of all the shaking and the matter flying around?
+<END>
+
+#WRITE(PTR, $00002612)
+Who would put such a thing here?
+<END>
+
+#WRITE(PTR, $00002622)
+Was this thing prepared by Nakabachi? Does it have something to do with the presentation?
+<END>
+
+#WRITE(PTR, $00002632)
+Even if hypothetically speaking this was true then how would he get this thing up here?
+<END>
+
+#WRITE(PTR, $00002642)
+This is the rooftop of an 8 floor building.
+<END>
+
+#WRITE(PTR, $00002652)
+My head is full of questions.
+<END>
+
+#WRITE(PTR, $00002662)
+Obviously I will not find the answers by asking myself.
+<END>
+
+#WRITE(PTR, $00002672)
+While I'm hesitating on whether I should come closer to the mysterious object some people probably the staff of the Radio building and the press conference start to come here through the staircase.
+<END>
+
+#WRITE(PTR, $00002682)
+Everyone is as bewildered as I am.
+<END>
+
+#WRITE(PTR, $00002692)
+【鈴羽３】
+Please do not come closer!
+<END>
+
+#WRITE(PTR, $000026A2)
+And so one of the women who I think is one of the staff starts to approach us while waving both of her hands.
+<END>
+
+#WRITE(PTR, $000026B2)
+【鈴羽３】
+The press conference will begin as scheduled so please wait for it!
+<END>
+
+#WRITE(PTR, $000026C2)
+Is she trying to hide something?
+<END>
+
+#WRITE(PTR, $000026D2)
+The situation was dealt with awfully quickly and I was kept away from the object that looks like a satellite.
+<END>
+
+#WRITE(PTR, $000026E2)
+【倫太郎】
+This smell. It's the smell of a conspiracy. What are they trying to hide? What was the explosion about?
+<END>
+
+#WRITE(PTR, $000026F2)
+I mumbled and tried to arrange my thoughts.
+<END>
+
+#WRITE(PTR, $00002702)
+It's bothering me...
+<END>
+
+#WRITE(PTR, $00002712)
+It's bothering me but I should really try to avoid danger for now.
+<END>
+
+#WRITE(PTR, $00002722)
+It's not like I got scared or anything.
+<END>
+
+#WRITE(PTR, $000028A4)
+Led by the officials I return to the 8th floor.
+<END>
+
+#WRITE(PTR, $000028B4)
+Mayuri wasn't in the event assembly hall.
+<END>
+
+#WRITE(PTR, $000028C4)
+After a short search I found her in the hall of the 7th floor.
+<END>
+
+#WRITE(PTR, $000029EA)
+Under a plate which says 'The Land of Japan's PC Origin'<DICT> Capsule Toys</DICT> were lined up.
+<END>
+
+#WRITE(PTR, $000029FA)
+She's gazing at them with a greedy look.
+<END>
+
+#WRITE(PTR, $00002A24)
+While feeling great relief I take out my phone.
+<END>
+
+#WRITE(PTR, $00002A34)
+【倫太郎】
+It's me. I have a bad feeling about this. I think that something might be happening in places we don't know about.
+<END>
+
+#WRITE(PTR, $00002A44)
+【倫太郎】
+Yes I understand. I won't do anything irrational. I too value my own life. El Psy Congroo.
+<END>
+
+#WRITE(PTR, $00002A54)
+After saying the password once again I wipe my forehead with the back of my hand.
+<END>
+
+#WRITE(PTR, $00002A64)
+This sucks. So much cold sweat.
+<END>
+
+#WRITE(PTR, $00002A74)
+What should I do if something is actually happening?
+<END>
+
+#WRITE(PTR, $00002A84)
+My feelings are split between excitement and anxiety.
+<END>
+
+#WRITE(PTR, $00002A9A)
+I put away my phone and return my gaze towards Mayuri.
+<END>
+
+#WRITE(PTR, $00002B08)
+What is she doing?
+<END>
+
+#WRITE(PTR, $00002B18)
+Could she be daydreaming about capsule toys?
+<END>
+
+#WRITE(PTR, $00002B28)
+She doesn't seem to be perturbed by the explosion at all.
+<END>
+
+#WRITE(PTR, $00002B38)
+I can't decide if that's amazing or just idiotic.
+<END>
+
+#WRITE(PTR, $00002B48)
+【倫太郎】
+Mayuri what are you up to?
+<END>
+
+#WRITE(PTR, $00002B9C)
+【まゆり】
+Hmm?
+<END>
+
+#WRITE(PTR, $00002BB6)
+【まゆり】
+Well... I really want an Upa.
+<END>
+
+#WRITE(PTR, $00002BC6)
+Just like I thought.
+<END>
+
+#WRITE(PTR, $00002C90)
+On the capsule toy machine that Mayuri pointed at there was a cheap display saying 'RaiNet Kakeru 3D Character Doll Series'.
+<END>
+
+#WRITE(PTR, $00002CA8)
+Among children and adults alike there's not a single person who doesn't know the anime "<DICT> RaiNet Kakeru</DICT>"
+<END>
+
+#WRITE(PTR, $00002CB8)
+A card game based on it 'RaiNet Access Battlers' even gained popularity overseas to the extent of there being world tournaments held.
+<END>
+
+#WRITE(PTR, $00002CC8)
+By the way the Upa that Mayuri mentioned is an extremely popular RaiNet character which is something along the lines of a mascot to the series.
+<END>
+
+#WRITE(PTR, $00002CD8)
+It's appearance is that of an egg with little limbs attached to it due to which it vaguely resembles a dog.
+<END>
+
+#WRITE(PTR, $00002CE8)
+This thing seems to have the role of the weak mascot character.
+<END>
+
+#WRITE(PTR, $00002CF8)
+It's not strange for it to gain popularity among high school girls. This reminds me of some ugly frog character which was popular last year. I forgotten it's name though.
+<END>
+
+#WRITE(PTR, $00002D50)
+【倫太郎】
+Go ahead and try it. Though it's not guaranteed that you will get an Upa.
+<END>
+
+#WRITE(PTR, $00002D60)
+However Mayuri has a troubled smile on her face.
+<END>
+
+#WRITE(PTR, $00002D7A)
+【まゆり】
+But Mayushii is completely out of 100 yen coins.
+<END>
+
+#WRITE(PTR, $00002D8A)
+Mayuri calls herself 'Mayushii'.
+<END>
+
+#WRITE(PTR, $00002D9A)
+To be precise after 'Mayushii' a ☆ needs to be added.
+<END>
+
+#WRITE(PTR, $00002DAA)
+Therefore it's 'Mayushii☆'.
+<END>
+
+#WRITE(PTR, $00002DBA)
+Though that's completely pointless.
+<END>
+
+#WRITE(PTR, $00002DCA)
+【まゆり】
+That's why Okarin Okarin can you lend me 100 yen?
+<END>
+
+#WRITE(PTR, $00002DDA)
+As if demanding something she shows me the palm of her hand.
+<END>
+
+#WRITE(PTR, $00002DEA)
+Apparently she was expecting this from the very beginning.
+<END>
+
+#WRITE(PTR, $00002DFA)
+At least she didn't say 'Hand it over' or something.
+<END>
+
+#WRITE(PTR, $00002E0A)
+【倫太郎】
+Don't act like a spoiled brat Mayuri. I will not lend you money. Right now I will teach you how harsh life can be.
+<END>
+
+#WRITE(PTR, $00002E6A)
+After declaring that I take out a 100 yen coin from my wallet and insert it into the slot. Then I forcefully turn the lever.
+<END>
+
+#WRITE(PTR, $00002EE0)
+【まゆり】
+Ah ahh-...
+<END>
+
+#WRITE(PTR, $00002F08)
+I open the capsule and take out the contents.
+<END>
+
+#WRITE(PTR, $00002F50)
+Mayuri was trying to sneak a peek at what I am holding interested about what was inside.
+<END>
+
+#WRITE(PTR, $00002F6A)
+【まゆり】
+Ah It's an Upa. And it's metal. A Metal Upa!
+<END>
+
+#WRITE(PTR, $00002F7A)
+【倫太郎】
+Is it rare?
+<END>
+
+#WRITE(PTR, $00002F8A)
+【まゆり】
+Very!
+<END>
+
+#WRITE(PTR, $00002FF8)
+While examining the Metal Upa we get away from the capsule toy machines.
+<END>
+
+#WRITE(PTR, $00003008)
+A boy who seems like an elementary school student was watching us so he ran up to the 'RaiNet' machine to try his luck.
+<END>
+
+#WRITE(PTR, $00003018)
+【男の子】
+Ah a normal 'Upa'.
+<END>
+
+#WRITE(PTR, $00003028)
+With resentment he glares at the Metal Upa that I got.
+<END>
+
+#WRITE(PTR, $00003038)
+Mayuri is standing next to me with her eyes shining.
+<END>
+
+#WRITE(PTR, $00003048)
+Hey high school girl you're on the same level as an elementary school boy...
+<END>
+
+#WRITE(PTR, $000030AC)
+【倫太郎】
+Hah well then I shall give this to Mayuri.
+<END>
+
+#WRITE(PTR, $000030BC)
+To be honest I don't care at all.
+<END>
+
+#WRITE(PTR, $000030CC)
+I force the Metal Upa into her hand.
+<END>
+
+#WRITE(PTR, $000030DC)
+【まゆり】
+Really? Is it okay Okarin?
+<END>
+
+#WRITE(PTR, $000030EC)
+【倫太郎】
+I am Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $000030FC)
+【まゆり】
+Eheheh thank you Okarin♪.
+<END>
+
+#WRITE(PTR, $0000310C)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $0000311C)
+Could it be that she's ignoring me on purpose?
+<END>
+
+#WRITE(PTR, $0000314A)
+【司会者】
+To those who have gathered here today to attend Doctor Nakabachi's Time Machine Invention Press Conference we give our honest thanks.
+<END>
+
+#WRITE(PTR, $0000315A)
+A dim microphone voice that came from the floor above said that.
+<END>
+
+#WRITE(PTR, $0000316A)
+【倫太郎】
+Looks like it's beginning.
+<END>
+
+#WRITE(PTR, $00003224)
+I go towards the 8th floor.
+<END>
+
+#WRITE(PTR, $00003234)
+However Mayuri doesn't follow me.
+<END>
+
+#WRITE(PTR, $000032A2)
+【倫太郎】
+Come on Mayuri.
+<END>
+
+#WRITE(PTR, $000032EA)
+【まゆり】
+Uh-huh wait wait. I have to write my name on it.
+<END>
+
+#WRITE(PTR, $000032FA)
+Looks like she's engrossed with the Metal Upa.
+<END>
+
+#WRITE(PTR, $0000341E)
+【司会者】
+Well then without further delay I introduce to you the inventor Doctor Nakabachi! Everyone please welcome him with a round of applause!
+<END>
+
+#WRITE(PTR, $00003494)
+Greeted by the clapping of only a few people Doctor Nakabachi appears.
+<END>
+
+#WRITE(PTR, $000034A4)
+He's walking towards the platform in the inner part of the press conference room.
+<END>
+
+#WRITE(PTR, $000034B4)
+He has a sour look on his face. Displeasure seems to be flowing all over his body.
+<END>
+
+#WRITE(PTR, $00003562)
+【中鉢】
+I am Doctor Nakabachi. Pleased to meet you.
+<END>
+
+#WRITE(PTR, $0000357C)
+【中鉢】
+Okay then to those who have gathered here I will teach the theory behind the invention of the century that will surely stay in human history - a time machine.
+<END>
+
+#WRITE(PTR, $000036A6)
+【まゆり】
+Time machine? Did that person make one?
+<END>
+
+#WRITE(PTR, $000036B6)
+Mayuri caught up after finishing writing her name on the Metal Upa and asks such an obvious thing.
+<END>
+
+#WRITE(PTR, $000036D2)
+With a microphone in one hand Nakabachi brimming with confidence starts talking.
+<END>
+
+#WRITE(PTR, $000036E2)
+With me included the audience is about 20 people. More than there was before.
+<END>
+
+#WRITE(PTR, $000036F2)
+But as expected reporters and cameramen were nowhere in sight.
+<END>
+
+#WRITE(PTR, $00003702)
+I now understand how Doctor Nakabachi is treated by society.
+<END>
+
+#WRITE(PTR, $00003712)
+If this lunatic says something like 'I've invented a time machine!' they're just gonna sarcastically laugh and say 'What is this guy talking about'?
+<END>
+
+#WRITE(PTR, $00003722)
+I too came here because I had some interest in what he has to say but it's not like I expect a lot from him.
+<END>
+
+#WRITE(PTR, $00003732)
+And after listening to some of his time machine theory I was filled with disappointment which turned into anger in a short amount of time.
+<END>
+
+#WRITE(PTR, $000037EC)
+【倫太郎】
+DOOOOOCCTOOOOORRRRR!
+<END>
+
+#WRITE(PTR, $000037FC)
+Disregarding the fact that this is a press conference I loudly shout out.
+<END>
+
+#WRITE(PTR, $0000380C)
+【倫太郎】
+There's a limit to how much you can make a fool out of us!
+<END>
+
+#WRITE(PTR, $00003826)
+【中鉢】
+Who are you!?
+<END>
+
+#WRITE(PTR, $00003836)
+【倫太郎】
+It doesn't matter who I am! The more important thing is the time machine theory that you just recited!
+<END>
+
+#WRITE(PTR, $0000384E)
+【倫太郎】
+Everything that you just said is copied from <DICT> John Titor</DICT>! How dare you call yourself an inventor!?
+<END>
+
+#WRITE(PTR, $0000385E)
+【中鉢】
+S-somebody get rid of this man!
+<END>
+
+#WRITE(PTR, $0000386E)
+【倫太郎】
+You're the one who should get out Doctor! Have you no shame!? You do not have the right to call yourself an inventor!
+<END>
+
+#WRITE(PTR, $0000387E)
+【中鉢】
+Be silent you annoyance! You conceited brat!
+<END>
+
+#WRITE(PTR, $0000399A)
+And so someone behind me grabs my arm.
+<END>
+
+#WRITE(PTR, $000039AA)
+Being quite sure that it's an official who came to take me away I forcefully turn around and glare at the person.
+<END>
+
+#WRITE(PTR, $000039BA)
+【倫太郎】
+Let go of m... hm?
+<END>
+
+#WRITE(PTR, $00003A24)
+【紅莉栖？】
+......
+<END>
+
+#WRITE(PTR, $00003A34)
+It's a female about the same age as I.
+<END>
+
+#WRITE(PTR, $00003A44)
+She's giving me an intense gaze.
+<END>
+
+#WRITE(PTR, $00003A54)
+With such a strong look which knows no bashfulness aimed right at me I falter.
+<END>
+
+#WRITE(PTR, $00003A64)
+I remember this face. Did I see her somewhere before?
+<END>
+
+#WRITE(PTR, $00003A74)
+【倫太郎】
+Ah...
+<END>
+
+#WRITE(PTR, $00003A84)
+It's Makise Kurisu.
+<END>
+
+#WRITE(PTR, $00003A94)
+I didn't meet her before but I know her face.
+<END>
+
+#WRITE(PTR, $00003AA4)
+A few days ago my friend Daru aka Hashida Itaru showed me a magazine.
+<END>
+
+#WRITE(PTR, $00003AB4)
+Inside there was an article which said 'Girl Genius Gives a Lecture in Akihabara'.
+<END>
+
+#WRITE(PTR, $00003AC4)
+This year's spring being only 17 she skipped several grades and graduated from an American university. On top of that her research was published in an American scientific magazine called 'SCIENCE'.
+<END>
+
+#WRITE(PTR, $00003B36)
+In the article she was introduced as Makise Kurisu.
+<END>
+
+#WRITE(PTR, $00003B46)
+The person in the photo that was inserted there looked exactly like the conceited woman in front of me.
+<END>
+
+#WRITE(PTR, $00003C22)
+Just like she did in the photo right now she has a sullen look on her face.
+<END>
+
+#WRITE(PTR, $00003D60)
+Why would such a genius call out to me?
+<END>
+
+#WRITE(PTR, $00003D70)
+【紅莉栖】
+Can you come with me for a moment?
+<END>
+
+#WRITE(PTR, $00003D80)
+She asks me that while quickly looking around with a stern expression on her face.
+<END>
+
+#WRITE(PTR, $00003D90)
+What's with this behavior?
+<END>
+
+#WRITE(PTR, $00003DA0)
+She doesn't seem like part of the staff of the assembly hall...
+<END>
+
+#WRITE(PTR, $00003DB0)
+Let alone an official of the Doctor Nakabachi's conference.
+<END>
+
+#WRITE(PTR, $00003DC0)
+Wait... Could it be...!
+<END>
+
+#WRITE(PTR, $00003DD0)
+【倫太郎】
+Y you a member of the Organization!?
+<END>
+
+#WRITE(PTR, $00003DEA)
+【紅莉栖】
+Huh?
+<END>
+
+#WRITE(PTR, $00003DFA)
+【倫太郎】
+Kuh for them to go that far... I misjudged them.
+<END>
+
+#WRITE(PTR, $00003E1A)
+【紅莉栖】
+Do not mess around and come with me for a moment.
+<END>
+
+#WRITE(PTR, $00003E2A)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $00003E3A)
+For now I'll just shut up and listen.
+<END>
+
+#WRITE(PTR, $00003E4A)
+Just now due to picking a fight with Doctor Nakabachi I attracted too much attention.
+<END>
+
+#WRITE(PTR, $00003E5A)
+Especially Nakabachi himself who is now giving me the most terrifying scowl.
+<END>
+
+#WRITE(PTR, $00003E6A)
+For him it must be mortifying to be ratted out by a youngster like me.
+<END>
+
+#WRITE(PTR, $00003E7A)
+Anyway for now I have to get rid of the unnecessary attention I have drawn to myself.
+<END>
+
+#WRITE(PTR, $00003E8A)
+I am an insane mad scientist chased by the Organization.
+<END>
+
+#WRITE(PTR, $00003E9A)
+If I keep this up, I feel that it might turn into a dangerous situation.
+<END>
+
+#WRITE(PTR, $00003EAA)
+I must not involve Mayuri or any other bystanders in this.
+<END>
+
+#WRITE(PTR, $00003EC6)
+Makise Kurisu leads me out of the assembly hall while I obediently follow.
+<END>
+
+#WRITE(PTR, $00004070)
+【倫太郎】
+If you plan on doing something to me here then people will know. That's bad for you as well right?
+<END>
+
+#WRITE(PTR, $00004080)
+【紅莉栖】
+What are you talking about? Try to act civilized.
+<END>
+
+#WRITE(PTR, $00004090)
+She glares at me with considerable intensity.
+<END>
+
+#WRITE(PTR, $000040A0)
+Even if her face holds many graceful features she does not have a shred of loveliness.
+<END>
+
+#WRITE(PTR, $000040B0)
+A beautiful agent unmatched in cruelty...
+<END>
+
+#WRITE(PTR, $000040C0)
+I sense some trouble but for some reason I felt exhilarated by it.
+<END>
+
+#WRITE(PTR, $000040D0)
+Looks like chaos gets my blood flowing kukuku.
+<END>
+
+#WRITE(PTR, $000040EA)
+【紅莉栖】
+I only want to ask you something.
+<END>
+
+#WRITE(PTR, $000040FA)
+【倫太郎】
+I do not have to answer that. I know how you people of the Organization work.
+<END>
+
+#WRITE(PTR, $00004114)
+【紅莉栖】
+What is this 'Organization'?
+<END>
+
+#WRITE(PTR, $0000413E)
+I ignore that question and after quickly taking it out I put my phone against my ear.
+<END>
+
+#WRITE(PTR, $0000414E)
+【倫太郎】
+It's me. An agent of the Organization has captured me... Yeah it's Makise Kurisu be vary of her... No I'm fine I should be able to get away from her.
+<END>
+
+#WRITE(PTR, $00004168)
+【紅莉栖】
+......
+<END>
+
+#WRITE(PTR, $0000424E)
+Suddenly Kurisu took the phone from my hand.
+<END>
+
+#WRITE(PTR, $0000425E)
+What a magnificent and speedy surprise attack! I didn't even have time to resist.
+<END>
+
+#WRITE(PTR, $0000426E)
+【倫太郎】
+Guh... what are you doing!?
+<END>
+
+#WRITE(PTR, $0000428E)
+【紅莉栖】
+Huh? This phone is off.
+<END>
+
+#WRITE(PTR, $0000429E)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000042B8)
+【紅莉栖】
+Who were you talking to?
+<END>
+
+#WRITE(PTR, $000042D4)
+Being looked at with a questioning glance I quickly turn away.
+<END>
+
+#WRITE(PTR, $000042E4)
+Oh... she's good at this. An attack on the mind to make me lose my sense of identity?
+<END>
+
+#WRITE(PTR, $000042F4)
+Reorganize yourself. I will not give in to an attack of such degree.
+<END>
+
+#WRITE(PTR, $00004304)
+【倫太郎】
+You don't have the right to have that question answered but I'll tell you anyway. That is a special phone which turns itself off if anyone besides me touches it. Fwahahahaha!
+<END>
+
+#WRITE(PTR, $0000434C)
+The reason I carry such a phone is to protect all the classified information.
+<END>
+
+#WRITE(PTR, $0000435C)
+I quickly take back my phone and wipe the cold sweat off my forehead.
+<END>
+
+#WRITE(PTR, $0000436C)
+Ah that was close.
+<END>
+
+#WRITE(PTR, $0000437C)
+【紅莉栖】
+... Oh so you were talking to yourself.
+<END>
+
+#WRITE(PTR, $0000438C)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $0000439C)
+This is bad. Ordinary methods don't work on girl genius Makise Kurisu.
+<END>
+
+#WRITE(PTR, $000043AC)
+My mental state is being shaken!
+<END>
+
+#WRITE(PTR, $000043BC)
+Hm looks like it's time to do a strategic retreat.
+<END>
+
+#WRITE(PTR, $000043CC)
+I must wait for a chance...!
+<END>
+
+#WRITE(PTR, $0000441C)
+Kurisu's expression stiffens and she suddenly draws near me.
+<END>
+
+#WRITE(PTR, $0000442C)
+From point-blank range she is glaring straight at me with those large fiery pupils.
+<END>
+
+#WRITE(PTR, $0000443C)
+The light in her eyes is overflowing with a powerful will.
+<END>
+
+#WRITE(PTR, $0000444C)
+Without noticing it I am completely charmed.
+<END>
+
+#WRITE(PTR, $0000445C)
+Could the owner of such honest and pure eyes actually be an agent of the Organization...?
+<END>
+
+#WRITE(PTR, $00004478)
+【紅莉栖】
+A while ago what were you trying to tell me?
+<END>
+
+#WRITE(PTR, $00004488)
+A while ago?
+<END>
+
+#WRITE(PTR, $00004498)
+【倫太郎】
+When exactly do you mean by 'a while ago'?
+<END>
+
+#WRITE(PTR, $000044A8)
+【紅莉栖】
+About 15 minutes back. Before the conference began.
+<END>
+
+#WRITE(PTR, $000044B8)
+What is she saying? This is the first time I've ever met her.
+<END>
+
+#WRITE(PTR, $000044C8)
+15 minutes ago I was messing around with Mayuri and her Upa capsule toys.
+<END>
+
+#WRITE(PTR, $000044E2)
+【紅莉栖】
+You tried to tell me something right? With a look on your face that was overflowing with sorrow.
+<END>
+
+#WRITE(PTR, $000044F2)
+Is this a trap? Because this certainly looks like foul play by the Organization.
+<END>
+
+#WRITE(PTR, $00004502)
+However why would this girl use such methods?
+<END>
+
+#WRITE(PTR, $00004512)
+【紅莉栖】
+You looked like you were about to break down crying and like you were in a lot of pain.
+<END>
+
+#WRITE(PTR, $00004522)
+【紅莉栖】
+... Why? Did we meet somewhere before?
+<END>
+
+#WRITE(PTR, $00004532)
+Makise Kurisu doesn't look like she's joking.
+<END>
+
+#WRITE(PTR, $00004542)
+However I do not know this woman.
+<END>
+
+#WRITE(PTR, $00004552)
+Wait don't get fooled by her face!
+<END>
+
+#WRITE(PTR, $00004562)
+She's an agent unmatched in cruelty.
+<END>
+
+#WRITE(PTR, $00004572)
+If I show her an opening it's my loss...!
+<END>
+
+#WRITE(PTR, $0000458C)
+【紅莉栖】
+Anyway why do you know my name?
+<END>
+
+#WRITE(PTR, $0000459C)
+【倫太郎】
+I can see through everything.
+<END>
+
+#WRITE(PTR, $000045AC)
+Because I'm a mad scientist.
+<END>
+
+#WRITE(PTR, $000045BC)
+【倫太郎】
+Genius girl when we meet next time we're gonna be enemies!
+<END>
+
+#WRITE(PTR, $000045CC)
+【紅莉栖】
+Huh?
+<END>
+
+#WRITE(PTR, $000045DC)
+【倫太郎】
+Farewell... fwahahaha!
+<END>
+
+#WRITE(PTR, $000045FE)
+I do a 180 degree U-turn and gallantly run down the stairs.
+<END>
+
+#WRITE(PTR, $0000460E)
+Makise Kurisu's words telling me to stop catch up with me but there's no way I'm listening to the words of the enemy.
+<END>
+
+#WRITE(PTR, $0000473A)
+【倫太郎】
+D... damn you Organization! Sending in agents... Looks like they're finally getting serious
+<END>
+
+#WRITE(PTR, $0000474A)
+I hurriedly ran down to the 4th floor and looked behind me. After confirming that Makise Kurisu didn't follow me I put my finger on my temple and take a deep breath.
+<END>
+
+#WRITE(PTR, $0000475A)
+【倫太郎】
+S... still I cannot let them capture me at this point.
+<END>
+
+#WRITE(PTR, $0000476A)
+Okay then what course of action should I take?
+<END>
+
+#WRITE(PTR, $0000477A)
+At first my aim was to listen to Doctor Nakabachi's conference but now I know that it's a rip-off so there's no point in going back.
+<END>
+
+#WRITE(PTR, $0000478A)
+I should just return home.
+<END>
+
+#WRITE(PTR, $0000479A)
+That seems to be the best choice.
+<END>
+
+#WRITE(PTR, $000047F4)
+Wait I just realized that I'm forgetting something important.
+<END>
+
+#WRITE(PTR, $00004804)
+Now what exactly is it...?
+<END>
+
+#WRITE(PTR, $00004824)
+【倫太郎】
+Crap I left Mayuri behind.
+<END>
+
+#WRITE(PTR, $00004834)
+What a dead weight.
+<END>
+
+#WRITE(PTR, $00004844)
+I shouldn't have brought her here.
+<END>
+
+#WRITE(PTR, $00004854)
+Even though I thought of her safety first and foremost I let down my guard.
+<END>
+
+#WRITE(PTR, $00004864)
+For now let's try to call her. If possible I'll just tell her to get over here.
+<END>
+
+#WRITE(PTR, $000048B0)
+While thinking that I take out my phone and turn it on.
+<END>
+
+#WRITE(PTR, $000048DA)
+Just when I did that the phone rang.
+<END>
+
+#WRITE(PTR, $00004922)
+【倫太郎】
+Hm? A mail huh?
+<END>
+
+#WRITE(PTR, $000049A4)
+It's not a normal mail but a movie mail with a video attached.
+<END>
+
+#WRITE(PTR, $000049B4)
+I don't recognize the sender's email address.
+<END>
+
+#WRITE(PTR, $000049E4)
+With a sense of suspicion I play the video.
+<END>
+
+#WRITE(PTR, $00004BFA)
+【倫太郎】
+...？
+<END>
+
+#WRITE(PTR, $00004C0A)
+It's nothing but static noise and snow.
+<END>
+
+#WRITE(PTR, $00004C1A)
+A prank? Or perhaps an attack by Makise Kurisu? Is this some mysterious sound wave that makes people go crazy?
+<END>
+
+#WRITE(PTR, $00004C2A)
+... No I don't remember giving her my mail address so I'm probably thinking too deep.
+<END>
+
+#WRITE(PTR, $00004C3A)
+After feeling stupid due to obediently watching some of the video I click my tongue.
+<END>
+
+#WRITE(PTR, $00004C4A)
+Seriously I don't have time for something this pointless.
+<END>
+
+#WRITE(PTR, $00004DD8)
+After stopping the playback of the movie mail I look through the address book and call Mayuri.
+<END>
+
+#WRITE(PTR, $00004E08)
+【倫太郎】
+Guh Mayuri. Why aren't you answering?
+<END>
+
+#WRITE(PTR, $00004E18)
+If it's come to this looks like I'll have to go back to the assembly hall.
+<END>
+
+#WRITE(PTR, $00004E28)
+However if I meet Makise Kurisu again there might be some trouble.
+<END>
+
+#WRITE(PTR, $00004E44)
+【倫太郎】
+Huh!? Could it be that Makise Kurisu kidnapped Mayuri!?
+<END>
+
+#WRITE(PTR, $00004E54)
+【倫太郎】
+Damn you. Is that how the Organization does things?
+<END>
+
+#WRITE(PTR, $00004E64)
+I do not have the alternative of leaving Mayuri behind.
+<END>
+
+#WRITE(PTR, $00004E74)
+This might be overprotective of me but I cannot have her leave my sight. She's like a little sister to me and when I ignore her there's the danger that she might wander off somewhere.
+<END>
+
+#WRITE(PTR, $00004E84)
+And by 'somewhere' I mean 'somewhere that's not here'.
+<END>
+
+#WRITE(PTR, $00004E94)
+She was like that since forever.
+<END>
+
+#WRITE(PTR, $00004EA4)
+... Perhaps me becoming Hououin Kyouma is one of the reasons for Mayuri being in danger.
+<END>
+
+#WRITE(PTR, $00004EB4)
+【倫太郎】
+Looks like I have to return.
+<END>
+
+#WRITE(PTR, $00004EFA)
+I wearily start going up the stairs towards the 8th floor.
+<END>
+
+#WRITE(PTR, $00005026)
+When I returned to the assembly hall Doctor Nakabachi's conference was just about to end.
+<END>
+
+#WRITE(PTR, $00005036)
+There's no one on the platform. Apparently the fake inventor already left.
+<END>
+
+#WRITE(PTR, $00005046)
+The 20 or so attendees one by one started their leaving preparations.
+<END>
+
+#WRITE(PTR, $0000505C)
+I find Mayuri instantly.
+<END>
+
+#WRITE(PTR, $0000506C)
+In the corner of the assembly hall she's restlessly looking around for something.
+<END>
+
+#WRITE(PTR, $0000507C)
+Looks like she wasn't kidnapped.
+<END>
+
+#WRITE(PTR, $0000508C)
+I don't see Makise Kurisu anywhere.
+<END>
+
+#WRITE(PTR, $0000509C)
+This is truly convenient.
+<END>
+
+#WRITE(PTR, $000050AC)
+【倫太郎】
+Kukuku... that woman got cold feet and ran.
+<END>
+
+#WRITE(PTR, $000050BC)
+【倫太郎】
+Fine. I will let you go this time.
+<END>
+
+#WRITE(PTR, $000050CC)
+While cautiously looking around I run up to Mayuri.
+<END>
+
+#WRITE(PTR, $00005120)
+【倫太郎】
+Mayuri why didn't you answer the call? It's time to take our leave.
+<END>
+
+#WRITE(PTR, $00005130)
+【まゆり】
+Ah Okarin. My Metal Upa ran away.
+<END>
+
+#WRITE(PTR, $00005140)
+Completely downhearted she complains to me.
+<END>
+
+#WRITE(PTR, $00005150)
+【倫太郎】
+Ran away? So it moved on it's own volition. That's some real fantasy right there.
+<END>
+
+#WRITE(PTR, $00005160)
+【まゆり】
+I dropped it somewhere...
+<END>
+
+#WRITE(PTR, $00005170)
+I get it. So now she's looking for it.
+<END>
+
+#WRITE(PTR, $00005180)
+Truly a trivial thing.
+<END>
+
+#WRITE(PTR, $00005190)
+【倫太郎】
+If you don't see it then give up. We'll just get another one.
+<END>
+
+#WRITE(PTR, $000051A0)
+【まゆり】
+We won't get another one. You know Metal Upa go for 10000yen in internet auctions.
+<END>
+
+#WRITE(PTR, $000051B0)
+【倫太郎】
+W...what?
+<END>
+
+#WRITE(PTR, $000051C0)
+For such a measly toy?
+<END>
+
+#WRITE(PTR, $000051D0)
+【倫太郎】
+Mayuri where did you drop it!?
+<END>
+
+#WRITE(PTR, $000051EA)
+【まゆり】
+I don't know that's why I'm looking... Anyway if we find it we're not selling it okay?
+<END>
+
+#WRITE(PTR, $000051FA)
+【倫太郎】
+Fwahaha... that 10000yen will go to my research funds.
+<END>
+
+#WRITE(PTR, $0000520A)
+【まゆり】
+I'm telling you we're not selling it. I even wrote my name on it.
+<END>
+
+#WRITE(PTR, $00005226)
+So with my eyes wide open I start the search for the Metal Upa.
+<END>
+
+#WRITE(PTR, $00005236)
+【まゆり】
+Tutturu~♪ Mr Upa Mr Upa please come out.
+<END>
+
+#WRITE(PTR, $00005246)
+Even if Mayuri calls out to it like that there's no chance that it will come out.
+<END>
+
+#WRITE(PTR, $00005256)
+By the way 'Tutturu~♪' is a phrase that Mayuri likes. She uses it in many situations.
+<END>
+
+#WRITE(PTR, $00005266)
+Though I still don't know the meaning of it.
+<END>
+
+#WRITE(PTR, $00005276)
+We can't find the Metal Upa.
+<END>
+
+#WRITE(PTR, $00005286)
+This might mean that she didn't drop it here but in the hall near the capsule toys on the 7th floor.
+<END>
+
+#WRITE(PTR, $00005296)
+It's possible that someone picked up the Metal Upa and while knowing it's price they took it to sell it later.
+<END>
+
+#WRITE(PTR, $000052A6)
+Imagining that I writhe in frustration.
+<END>
+
+#WRITE(PTR, $000052B6)
+【倫太郎】
+Damn you you vulgar beast who thinks of nothing but money. Have some shame...!
+<END>
+
+#WRITE(PTR, $000052FE)
+【まゆり】
+You too Okarin.
+<END>
+
+#WRITE(PTR, $0000530E)
+Guh I've just been retorted by Mayuri.
+<END>
+
+#WRITE(PTR, $00005344)
+【倫太郎？】
+AAAAAAAAAAAAAAAHHHHHHHHHHHHHHH!
+<END>
+
+#WRITE(PTR, $00005354)
+【倫太郎】
+！？
+<END>
+
+#WRITE(PTR, $00005364)
+What was that voice just now?
+<END>
+
+#WRITE(PTR, $000053AC)
+【まゆり】
+A... scream?
+<END>
+
+#WRITE(PTR, $000053BC)
+This isn't normal.
+<END>
+
+#WRITE(PTR, $000053CC)
+I am easily able to count the amount of people remaining in the assembly hall.
+<END>
+
+#WRITE(PTR, $000053DC)
+Most of those who came to see the conference already left. Including me and Mayuri only about half are remaining.
+<END>
+
+#WRITE(PTR, $000053EC)
+Everyone who heard the scream are cowering.
+<END>
+
+#WRITE(PTR, $000053FC)
+I don't think I'm acting any different.
+<END>
+
+#WRITE(PTR, $0000540C)
+You don't hear such a hair-raising and aberrant scream everyday.
+<END>
+
+#WRITE(PTR, $0000541C)
+Again...? Is this the continuation of the explosion? Something is really happening again?
+<END>
+
+#WRITE(PTR, $0000546C)
+Mayuri tightly grasps my hand.
+<END>
+
+#WRITE(PTR, $0000547C)
+【倫太郎】
+Mayuri stay here.
+<END>
+
+#WRITE(PTR, $0000548C)
+I take a deep breath gulp down my saliva and start running towards the direction where the scream came from.
+<END>
+
+#WRITE(PTR, $000055F0)
+Not towards the stairs but just a bit deeper down the hallway. It's dark and gloomy.
+<END>
+
+#WRITE(PTR, $00005600)
+I think I heard the voice come from here.
+<END>
+
+#WRITE(PTR, $00005610)
+Lowering my back I carefully walk forwards while looking around and being discrete.
+<END>
+
+#WRITE(PTR, $00005620)
+After I turned a corner 'THAT' entered my field of vision.
+<END>
+
+#WRITE(PTR, $00005630)
+In the middle of the hall.
+<END>
+
+#WRITE(PTR, $00005640)
+Something is collapsed with it's face on the ground.
+<END>
+
+#WRITE(PTR, $00005650)
+Someone is collapsed with their face on the ground.
+<END>
+
+#WRITE(PTR, $00005660)
+I can't move an inch.
+<END>
+
+#WRITE(PTR, $00005670)
+I remember that attire.
+<END>
+
+#WRITE(PTR, $00005680)
+What is that?
+<END>
+
+#WRITE(PTR, $00005690)
+Who is that?
+<END>
+
+#WRITE(PTR, $000056A0)
+I instantly recognize it.
+<END>
+
+#WRITE(PTR, $0000595A)
+【倫太郎】
+M...
+<END>
+
+#WRITE(PTR, $0000596A)
+Makise Kurisu...
+<END>
+
+#WRITE(PTR, $0000597A)
+I can't see her face.
+<END>
+
+#WRITE(PTR, $0000598A)
+But there's no mistaking it.
+<END>
+
+#WRITE(PTR, $0000599A)
+She's the conceited girl genius who messed with me just about 10 minutes ago.
+<END>
+
+#WRITE(PTR, $000059AA)
+Lying in a puddle of vivid crimson blood she lies there.
+<END>
+
+#WRITE(PTR, $000059BA)
+She's dead...
+<END>
+
+#WRITE(PTR, $000059CA)
+【倫太郎】
+Eh... w... why...?
+<END>
+
+#WRITE(PTR, $000059DA)
+I realized that I'm shaking.
+<END>
+
+#WRITE(PTR, $000059EA)
+What to do? I want to run. I want to run away.
+<END>
+
+#WRITE(PTR, $000059FA)
+I shouldn't have come here to see this.
+<END>
+
+#WRITE(PTR, $00005A0A)
+This is obviously abnormal.
+<END>
+
+#WRITE(PTR, $00005A1A)
+Not ordinary.
+<END>
+
+#WRITE(PTR, $00005A2A)
+I can only see that someone has killed Makise Kurisu.
+<END>
+
+#WRITE(PTR, $00005A3A)
+Who?
+<END>
+
+#WRITE(PTR, $00005A4A)
+There are no other people here.
+<END>
+
+#WRITE(PTR, $00005A60)
+【司会者】
+uh... aahhhh...!
+<END>
+
+#WRITE(PTR, $00005AD8)
+Startled I turn around.
+<END>
+
+#WRITE(PTR, $00005AE8)
+A few other men caught up with me.
+<END>
+
+#WRITE(PTR, $00005AF8)
+Completely pale everyone is looking at Kurisu's dead body.
+<END>
+
+#WRITE(PTR, $00005B14)
+【司会者】
+Call the police!
+<END>
+
+#WRITE(PTR, $00005B24)
+The one who shouted that with a shaky voice was the man who hosted the conference.
+<END>
+
+#WRITE(PTR, $00005B34)
+As if waiting for those words everyone start screaming and run away simultaneously.
+<END>
+
+#WRITE(PTR, $00005B44)
+I of course am one of them for there is absolutely no reason for me to stay here.
+<END>
+
+#WRITE(PTR, $00005B54)
+I feel bad for Makise Kurisu but emotions like 'I want to run away' and 'I'm afraid' win over that feeling.
+<END>
+
+#WRITE(PTR, $00005BDA)
+I return to the assembly hall and Mayuri was waiting there with a face that is about to cry.
+<END>
+
+#WRITE(PTR, $00005C22)
+【まゆり】
+Okarin... what's wrong...?
+<END>
+
+#WRITE(PTR, $00005C72)
+【倫太郎】
+W... we're getting out!
+<END>
+
+#WRITE(PTR, $00005C82)
+I drag Mayuri's hand and we leave that place as quick as possible.
+<END>
+
+#WRITE(PTR, $00005DE6)
+As we are running down the stairs I try to remove the image of Kurisu's corpse from my mind.
+<END>
+
+#WRITE(PTR, $00005DF6)
+However it's impossible.
+<END>
+
+#WRITE(PTR, $00005E90)
+What's burned into my eyes might not be her corpse but the vivid crimson blood spreading out under it.
+<END>
+
+#WRITE(PTR, $00005EA0)
+This was the first time I've ever seen a dead body of a person.
+<END>
+
+#WRITE(PTR, $00005EB0)
+Happily I never had to witness the death of a relative.
+<END>
+
+#WRITE(PTR, $00005EC0)
+I never even attended a funeral.
+<END>
+
+#WRITE(PTR, $00005FD8)
+This was the first time I saw a dead body.
+<END>
+
+#WRITE(PTR, $00005FE8)
+Chills run through my spine when I remember the fear or more like the disgust I felt.
+<END>
+
+#WRITE(PTR, $000060FE)
+I can't think of anything else.
+<END>
+
+#WRITE(PTR, $0000610E)
+No other thoughts come to my mind.
+<END>
+
+#WRITE(PTR, $0000611E)
+Even though my relation with Makise Kurisu was only that one meeting...
+<END>
+
+#WRITE(PTR, $0000629E)
+【倫太郎】
+Haa... haa...
+<END>
+
+#WRITE(PTR, $000062AE)
+Once I reach the Central Street I stop.
+<END>
+
+#WRITE(PTR, $000062BE)
+After running down the stairs at full speed I am completely out of breath.
+<END>
+
+#WRITE(PTR, $00006306)
+【まゆり】
+Hey... hey... what happened? You're completely pale...
+<END>
+
+#WRITE(PTR, $00006316)
+Mayuri has a nonchalant expression on her face.
+<END>
+
+#WRITE(PTR, $00006326)
+Obviously because she didn't see that scene.
+<END>
+
+#WRITE(PTR, $00006336)
+She's also perfectly fine after running so much.
+<END>
+
+#WRITE(PTR, $00006346)
+Even though she's thickheaded she sure has a lot of stamina.
+<END>
+
+#WRITE(PTR, $00006356)
+【倫太郎】
+A person... died.
+<END>
+
+#WRITE(PTR, $00006370)
+【まゆり】
+「え……」
+<END>
+
+#WRITE(PTR, $0000638C)
+何度か、深呼吸。
+<END>
+
+#WRITE(PTR, $0000639C)
+まだ脳裏にあの血の色は残っているが。
+<END>
+
+#WRITE(PTR, $000063AC)
+それでも、だいぶ落ち着いてきた。
+<END>
+
+#WRITE(PTR, $000063BC)
+牧瀬紅莉栖は殺された。
+<END>
+
+#WRITE(PTR, $000063CC)
+誰が犯人かは分からない。
+<END>
+
+#WRITE(PTR, $00006442)
+サイレンが遠くで聞こえるから、もうすぐ救急車が来るだろう。
+<END>
+
+#WRITE(PTR, $00006452)
+その後、警察も押しかけてきて、ここは大騒ぎになる。
+<END>
+
+#WRITE(PTR, $00006462)
+でも今はまだ、夏休みの秋葉原を歩く多くの人たちが、この事件に気付いていない。
+<END>
+
+#WRITE(PTR, $00006472)
+みんな、いつもと同じように歩いている。
+<END>
+
+#WRITE(PTR, $00006482)
+家電や、萌えや、エロを求めて、歩いている。
+<END>
+
+#WRITE(PTR, $00006492)
+いつもの、秋葉原だ。
+<END>
+
+#WRITE(PTR, $000064BC)
+俺は、なんとなく、ポケットの中からケータイを取り出していた。
+<END>
+
+#WRITE(PTR, $000064CC)
+特に目的があったわけじゃなかった。
+<END>
+
+#WRITE(PTR, $000064DC)
+あ、そうだ、牧瀬紅莉栖のことを教えてくれたダルに、さっき俺が見た驚くべき事件を伝えてやろう。そう思った。
+<END>
+
+#WRITE(PTR, $000065BC)
+不謹慎と言えば、不謹慎だ。
+<END>
+
+#WRITE(PTR, $000065CC)
+俺は興奮していた。頭に血が上っていたのかも。
+<END>
+
+#WRITE(PTR, $000065DC)
+あんな出来事をこの目で見てしまった後じゃ、冷静な判断などできない。
+<END>
+
+#WRITE(PTR, $000065EC)
+人間なんて、所詮そんなもの。
+<END>
+
+#WRITE(PTR, $000065FC)
+それほど高尚な存在じゃない。
+<END>
+
+#WRITE(PTR, $0000660C)
+そう、分かっているさ、結局のところ├┤
+<END>
+
+#WRITE(PTR, $0000661C)
+ヘドロにも似た穢れた肉から成り立ち。
+<END>
+
+#WRITE(PTR, $0000662C)
+子宮の中で腐り落ちる精液のごとき膿んだ精神を宿す。
+<END>
+
+#WRITE(PTR, $0000663C)
+それが人間なんだ。
+<END>
+
+#WRITE(PTR, $0000664C)
+などとちょっぴり感傷に浸りつつ、ケータイで文章を入力していく。
+<END>
+
+#WRITE(PTR, $000066EA)
+『牧瀬紅莉栖が男に刺されたみたいだ。男が誰かは知らないけどさ。ヤバいかも。大丈夫かな』
+<END>
+
+#WRITE(PTR, $000066FA)
+犯人が男かどうかは分からない。ただなんとなく、女よりは男の方が現実的だな、という気がしただけで、俺の単なる憶測だ。
+<END>
+
+#WRITE(PTR, $0000670A)
+ついでに言うと、刺殺かどうかも想像。
+<END>
+
+#WRITE(PTR, $0000671A)
+銃声はしなかったし、あれだけの血溜まりができていたからそう思っただけ。
+<END>
+
+#WRITE(PTR, $0000672A)
+一方で、明確に『殺された』と書くのはやめた。
+<END>
+
+#WRITE(PTR, $0000673A)
+なぜなのか、理由は自分でもはっきりしたものはなかった。
+<END>
+
+#WRITE(PTR, $0000674A)
+あえて言えば、書くことでそれが“確定”してしまいそうな気がしたから、だろうか。
+<END>
+
+#WRITE(PTR, $0000675A)
+とても後ろめたい気分になりそうだったのだ。
+<END>
+
+#WRITE(PTR, $0000676A)
+別に、俺が殺したわけじゃないのに。そんな自分の奇妙な心理状態を考えて、苦笑した。
+<END>
+
+#WRITE(PTR, $0000677A)
+ついさっき、１人の人間の死を目の当たりにしていながら、ほんの数分後には、笑っていられる。
+<END>
+
+#WRITE(PTR, $0000678A)
+こんな俺は、残酷で冷たい人間なのだろうか。
+<END>
+
+#WRITE(PTR, $0000679A)
+悪魔的な狂気のマッドサイエンティストとしてはお似合いだ。
+<END>
+
+#WRITE(PTR, $000067AA)
+親指を、ケータイの送信ボタンに添える。
+<END>
+
+#WRITE(PTR, $000067BA)
+俺は、
+<END>
+
+#WRITE(PTR, $000067CA)
+その指に、
+<END>
+
+#WRITE(PTR, $000067DA)
+軽く力を込めて、
+<END>
+
+#WRITE(PTR, $000067F8)
+メールを送信した├┤
+<END>
+
+#WRITE(PTR, $00006808)
+その、直後├┤
+<END>
+
+#WRITE(PTR, $0000683A)
+INSERT03.PMF
+<END2>
+
+#WRITE(PTR, $000068C6)
+WD01.PMF
+<END2>
+
+#WRITE(PTR, $00006C38)
+【倫太郎】
+──
+<END>
+
+#WRITE(PTR, $00006C48)
+What was this feeling just now...?
+<END>
+
+#WRITE(PTR, $00006C58)
+Wait more importantly...!
+<END>
+
+#WRITE(PTR, $00006D7A)
+【倫太郎】
+Gone...
+<END>
+
+#WRITE(PTR, $00006D8A)
+Summer holidays.
+<END>
+
+#WRITE(PTR, $00006D9A)
+Noon.
+<END>
+
+#WRITE(PTR, $00006DAA)
+Akihabara.
+<END>
+
+#WRITE(PTR, $00006DBA)
+Central Street 1 minute walk away from the station.
+<END>
+
+#WRITE(PTR, $00006DCA)
+Right here--
+<END>
+
+#WRITE(PTR, $00006DDA)
+In nothing but a moment--
+<END>
+
+#WRITE(PTR, $00006DEA)
+Thousands of pedestrians--
+<END>
+
+#WRITE(PTR, $00006DFA)
+Inside my field of vision--
+<END>
+
+#WRITE(PTR, $00006E0A)
+All at once--
+<END>
+
+#WRITE(PTR, $00006E1A)
+Vanished.
+<END>
+
+#WRITE(PTR, $00006E2A)
+Is this a dream? Am I seeing an illusion?
+<END>
+
+#WRITE(PTR, $00006E3A)
+I don't get it.
+<END>
+
+#WRITE(PTR, $00006E4A)
+But they're gone.
+<END>
+
+#WRITE(PTR, $00006E5A)
+I saw that very moment.
+<END>
+
+#WRITE(PTR, $00006E9A)
+I just silently enter a state of terror.
+<END>
+
+#WRITE(PTR, $00006EAA)
+In a completely empty Akihabara...
+<END>
+
+#WRITE(PTR, $00006EBA)
+all alone...
+<END>
+
+#WRITE(PTR, $00006ECA)
+I'm standing here.
+<END>
+
+#WRITE(PTR, $00006EDA)
+Consumed by confusion I unintentionally look up.
+<END>
+
+#WRITE(PTR, $00006F70)
+The Radio building--
+<END>
+
+#WRITE(PTR, $00006FE2)
+at about the 8th floor that we have just left--
+<END>
+
+#WRITE(PTR, $00007054)
+has a space satellite sticking out of it.
+<FILEEND99>
+

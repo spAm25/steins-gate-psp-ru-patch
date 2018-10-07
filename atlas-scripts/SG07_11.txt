@@ -1,0 +1,1748 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000603A)
+
+#WRITE(PTR, $000008E2)
+【倫太郎】
+...?
+<END>
+
+#WRITE(PTR, $000008F2)
+I look around after suddenly feeling intense stares.
+<END>
+
+#WRITE(PTR, $00000902)
+A crowd has gathered around us.
+<END>
+
+#WRITE(PTR, $00000912)
+We're surrounded....
+<END>
+
+#WRITE(PTR, $00000922)
+These unfriendly stares....
+<END>
+
+#WRITE(PTR, $00000932)
+Are these people jealous Faris-fans who think we're a stupid couple...!?
+<END>
+
+#WRITE(PTR, $00000942)
+I start shivering, but it doesn't seem like that's the case.
+<END>
+
+#WRITE(PTR, $00000952)
+Then who are they...?
+<END>
+
+#WRITE(PTR, $00000962)
+Moeka's Rounders!?
+<END>
+
+#WRITE(PTR, $000009AA)
+【４℃】
+Yo.
+<END>
+
+#WRITE(PTR, $000009BA)
+A man clad in all black clothes slowly steps forward.
+<END>
+
+#WRITE(PTR, $000009CA)
+I recognize this man.
+<END>
+
+#WRITE(PTR, $000009DA)
+The bald spot guy, huh?
+<END>
+
+#WRITE(PTR, $000009EA)
+He got hasty and lost.
+<END>
+
+#WRITE(PTR, $000009FA)
+Wait, this guy again...?
+<END>
+
+#WRITE(PTR, $00000A0A)
+Now that I get a good look, all of the men surrounding us are dressed like 4℃. So are all of these guys Viral Attacker underlings...?
+<END>
+
+#WRITE(PTR, $00000A1A)
+4℃'s gaudy white teeth shine.
+<END>
+
+#WRITE(PTR, $00000A2A)
+【４℃】
+I've got something to say to the champion. Gaia whispered for me to object.
+<END>
+
+#WRITE(PTR, $00000A72)
+【フェイリス】
+Object?
+<END>
+
+#WRITE(PTR, $00000A8C)
+【４℃】
+You pussy. Just now, that power to read your opponent's heart...? Just what sort of trickery is that!?
+<END>
+
+#WRITE(PTR, $00000A9C)
+【倫太郎】
+It's not a trick! Didn't you make a mimicry of that yourself!?
+<END>
+
+#WRITE(PTR, $00000AB6)
+【フェイリス】
+Faris doesn't do scaredy-cat things like you guys nya.
+<END>
+
+#WRITE(PTR, $00000AC6)
+【４℃】
+What was that? I, the black nobleman, swear to the god of the elegant evil realm, that I do no trickery! ...I don't know any other way, though.
+<END>
+
+#WRITE(PTR, $00000AD6)
+【４℃】
+Okay, you violated white Siamese cat? I don't accept my defeat. That last 'Change Directory' was a trick.
+<END>
+
+#WRITE(PTR, $00000AE6)
+【倫太郎】
+That's irresponsible to say without proof.
+<END>
+
+#WRITE(PTR, $00000AF6)
+【４℃】
+Hmph, looks like you don't know, so I'll tell you. 'What I say is black is black.' That's the truth of RaiNet.
+<END>
+
+#WRITE(PTR, $00000B06)
+These guys came here to make completely false accusations.
+<END>
+
+#WRITE(PTR, $00000B16)
+Doesn't look like they'll take no for an answer.
+<END>
+
+#WRITE(PTR, $00000B26)
+And they've surrounded us so we can't escape.
+<END>
+
+#WRITE(PTR, $00000B36)
+【４℃】
+By the way, your father's a guy who everyone in Akihabara knows, huh.
+<END>
+
+#WRITE(PTR, $00000B46)
+【４℃】
+And so you pulled your connections at the RaiNet AB Grand Championships so that the all the staff members would let you win. There are those sorts of rumors among RaiNetters, right?
+<END>
+
+#WRITE(PTR, $00000B56)
+【４℃】
+What a huge scoundrel. You're not a bit elegant evil. You're not a white Siamese cat either.
+<END>
+
+#WRITE(PTR, $00000B66)
+【４℃】
+You're a fat pig creeping in the mud.
+<END>
+
+#WRITE(PTR, $00000B80)
+Zawazawa, zawazawa....
+<END>
+
+#WRITE(PTR, $00000B90)
+A murmur grows little by little.
+<END>
+
+#WRITE(PTR, $00000BA0)
+When I take a good look, outside the wall of Viral guys, spectators coming home from the RaiNet tournament are surrounding at a distance in curiosity.
+<END>
+
+#WRITE(PTR, $00000BB0)
+The Viral surrounders start jeering loudly so that they can hear it.
+<END>
+
+#WRITE(PTR, $00000BC0)
+【ヴァイラルフリークスＡ】
+Seriously? I thought it went way to well, but it was basically a staged, rigged race?
+<END>
+
+#WRITE(PTR, $00000BD0)
+【ヴァイラルフリークスＢ】
+That cat lady's the worst!
+<END>
+
+#WRITE(PTR, $00000BE0)
+【ヴァイラルフリークスＣ】
+So Faris was that sorta person eh. Filth. Pure Filth!
+<END>
+
+#WRITE(PTR, $00000BFA)
+【４℃】
+That's how it is, Champion. No, SHAMpion Faris.
+<END>
+
+#WRITE(PTR, $00000C0A)
+【４℃】
+Genuflect right here. Bow before me, the black Lucifer, 4℃, rub your head on the ground, and beg for mercy.
+<END>
+
+#WRITE(PTR, $00000C1A)
+【４℃】
+And forfeit your throne. If you do all that, then I swear to Lucifer to forgive you for your forgery.
+<END>
+
+#WRITE(PTR, $00000C2A)
+【ヴァイラルフリークスＤ】
+That's right! Turn down your victory!
+<END>
+
+#WRITE(PTR, $00000C3A)
+【ヴァイラルフリークスＥ】
+And never turn back to RaiNet Access Battlers again!
+<END>
+
+#WRITE(PTR, $00000C4A)
+【ヴァイラルフリークスＦ】
+Retire from RaiNetting, you bitch!
+<END>
+
+#WRITE(PTR, $00000C5A)
+Jeers fly about from the Viral surrounders.
+<END>
+
+#WRITE(PTR, $00000C6A)
+The bystanders watching the black mass around Faris and I don't approach. I guess they don't want to get involved.
+<END>
+
+#WRITE(PTR, $00000C7A)
+What a farce.
+<END>
+
+#WRITE(PTR, $00000C8A)
+How much longer will we have to go along with this?
+<END>
+
+#WRITE(PTR, $00000C9A)
+【倫太郎】
+Let's go, Faris.
+<END>
+
+#WRITE(PTR, $00000CB4)
+【フェイリス】
+Nya...?
+<END>
+
+#WRITE(PTR, $00000CD0)
+I grab Faris' wrist and force our way through the Viral surrounders──
+<END>
+
+#WRITE(PTR, $00000E8A)
+Looking back while frantically running, I see──
+<END>
+
+#WRITE(PTR, $00000F26)
+【４℃】
+Hold it right there!
+<END>
+
+#WRITE(PTR, $00000F36)
+4℃ and his surrounding group are chasing after us.
+<END>
+
+#WRITE(PTR, $00001050)
+With the sound of rushing footsteps beats in our hearts, Faris and I do nothing but throw out one foot in front of the other.
+<END>
+
+#WRITE(PTR, $0000106E)
+...What, a phone call now of all times!?
+<END>
+
+#WRITE(PTR, $00001204)
+【倫太郎】
+Hello!?
+<END>
+
+#WRITE(PTR, $00001220)
+【至】
+It's me.
+<END>
+
+#WRITE(PTR, $0000123C)
+【倫太郎】
+What!? I'm! Busy! Now!
+<END>
+
+#WRITE(PTR, $00001258)
+【至】
+Okarin, you still at the hall?
+<END>
+
+#WRITE(PTR, $00001274)
+【倫太郎】
+I'm not!
+<END>
+
+#WRITE(PTR, $00001290)
+【至】
+You haven't seen Faris-tan, have you? They're actually on fire──
+<END>
+
+#WRITE(PTR, $000012AC)
+【倫太郎】
+On fire!? What is!?
+<END>
+
+#WRITE(PTR, $000012C8)
+【至】
+Faris-tan's blogs and Faris-tan's fan sites are!
+<END>
+
+#WRITE(PTR, $000012E4)
+Tch. I see. That's what he meant.
+<END>
+
+#WRITE(PTR, $000012F4)
+False suspicions are already flooding the net.
+<END>
+
+#WRITE(PTR, $00001304)
+Damn Viral Attackers. Using such cheap tactics!
+<END>
+
+#WRITE(PTR, $00001314)
+【倫太郎】
+Hanging up!
+<END>
+
+#WRITE(PTR, $0000132A)
+I press the end call button and run even faster.
+<END>
+
+#WRITE(PTR, $000013BE)
+It's an emergency! Like hell I can answer!
+<END>
+
+#WRITE(PTR, $000013CE)
+I disregard the call and run even faster.
+<END>
+
+#WRITE(PTR, $0000150E)
+【フェイリス】
+Kyouma! Those guys are! Still following nyan!
+<END>
+
+#WRITE(PTR, $0000151E)
+【倫太郎】
+Tch...!
+<END>
+
+#WRITE(PTR, $0000152E)
+Still. I can still run!
+<END>
+
+#WRITE(PTR, $0000153E)
+Even though! I said! I was bad at running!
+<END>
+
+#WRITE(PTR, $0000155A)
+While devouring oxygen, I pull Faris by the hand and run faster.
+<END>
+
+#WRITE(PTR, $000016D8)
+We zigzag across the streets of Akiba until we loop back to UPX.
+<END>
+
+#WRITE(PTR, $000016E8)
+Faris' house is right next door.
+<END>
+
+#WRITE(PTR, $000016F8)
+We should've run there first.
+<END>
+
+#WRITE(PTR, $00001708)
+【倫太郎】
+Haah, haah, hooh...!
+<END>
+
+#WRITE(PTR, $00001718)
+【フェイリス】
+Haahaah, hooh, hoooh...
+<END>
+
+#WRITE(PTR, $00001728)
+My lungs are on fire.
+<END>
+
+#WRITE(PTR, $00001738)
+My legs are aching.
+<END>
+
+#WRITE(PTR, $00001752)
+【フェイリス】
+Kyouma! Look at that nya!
+<END>
+
+#WRITE(PTR, $00001762)
+【倫太郎】
+Eh?
+<END>
+
+#WRITE(PTR, $00001772)
+Faris strongly pulls my sleeve, stopping me.
+<END>
+
+#WRITE(PTR, $00001782)
+When I peek at where Faris is silently pointing──
+<END>
+
+#WRITE(PTR, $00001792)
+Near the entrance to the high class celebrity apartments, several clearly unbecoming trolls clad in black are loitering.
+<END>
+
+#WRITE(PTR, $000017A2)
+Gh, they knew we would come here...!
+<END>
+
+#WRITE(PTR, $000017BC)
+【フェイリス】
+We can't get in like this nya...
+<END>
+
+#WRITE(PTR, $000017CC)
+【倫太郎】
+Anyway, let's leave!
+<END>
+
+#WRITE(PTR, $0000187A)
+We cut through Yodobashi, heading to Showa Dori, but get found en route.
+<END>
+
+#WRITE(PTR, $0000188A)
+【ヴァイラルフリークスＡ】
+Ah, there they are!
+<END>
+
+#WRITE(PTR, $0000189A)
+【ヴァイラルフリークスＢ】
+Send the info to the mailing list!
+<END>
+
+#WRITE(PTR, $000018AA)
+【倫太郎】
+...!
+<END>
+
+#WRITE(PTR, $000018BA)
+Damn, just how many of them are there!?
+<END>
+
+#WRITE(PTR, $000018CA)
+All we can do is turn back in a panic.
+<END>
+
+#WRITE(PTR, $00001970)
+If we keep running like this, we won't make any progress.
+<END>
+
+#WRITE(PTR, $00001980)
+We need to find a calm place.
+<END>
+
+#WRITE(PTR, $00001990)
+The lab. We can manage if we escape there.
+<END>
+
+#WRITE(PTR, $000019A0)
+We need to reach there somehow.
+<END>
+
+#WRITE(PTR, $00001AEA)
+But Virals are loitering around the lab's circumference.
+<END>
+
+#WRITE(PTR, $00001AFA)
+We can't carelessly approach the lab.
+<END>
+
+#WRITE(PTR, $00001BA0)
+【倫太郎】
+Hooo, hoo, Haahaahaah...
+<END>
+
+#WRITE(PTR, $00001BB0)
+Before I noticed, we came here....
+<END>
+
+#WRITE(PTR, $00001BC0)
+The ramen shop behind the lab.
+<END>
+
+#WRITE(PTR, $00001BD0)
+But in another world line, "MayQueen+Nyan²" was here.
+<END>
+
+#WRITE(PTR, $00001BE0)
+Faris and Mayuri worked as maids there.
+<END>
+
+#WRITE(PTR, $00001C28)
+【フェイリス】
+Why are we stopping here nya? We need to run quickly──
+<END>
+
+#WRITE(PTR, $00001C38)
+MayQueen's second floor seemed to now be the storehouse for the ramen shop downstairs.
+<END>
+
+#WRITE(PTR, $00001C48)
+...Actually, we might be able to hide there.
+<END>
+
+#WRITE(PTR, $00001C58)
+I urge Faris and run up the stairs.
+<END>
+
+#WRITE(PTR, $00001CF8)
+In the empty room are piles of what seem to be wheat flour bags for the ramen shop downstairs.
+<END>
+
+#WRITE(PTR, $00001D40)
+Faris and I slip into cover and hide our breath.
+<END>
+
+#WRITE(PTR, $00001D50)
+We came here on our own.... We can just pray nobody saw us.
+<END>
+
+#WRITE(PTR, $00001D60)
+【倫太郎】
+Anyway, let's wait here until those guys give up.
+<END>
+
+#WRITE(PTR, $00001DFA)
+I take out my phone and open the mail writing screen.
+<END>
+
+#WRITE(PTR, $00001E98)
+I send Daru an SOS mail.
+<END>
+
+#WRITE(PTR, $00001F36)
+Faris and I are currently hiding above 'Ramen Tasaburou.'
+<END>
+
+#WRITE(PTR, $00001FD4)
+It's mostly empty with some sacks of wheat flour.
+<END>
+
+#WRITE(PTR, $00002072)
+Nothing that looks useful as a weapon, and nothing big enough to hide behind.
+<END>
+
+#WRITE(PTR, $00002110)
+The Viral Attackers are chasing us.
+<END>
+
+#WRITE(PTR, $000021AE)
+It's not a place that seems like you can hear people talking. I wouldn't have a problem taking on one or ten guys, but Faris is here, so I can't just go crazy.
+<END>
+
+#WRITE(PTR, $0000224C)
+Daru, please call us a taxi.
+<END>
+
+#WRITE(PTR, $00002270)
+I finish writing and send it.
+<END>
+
+#WRITE(PTR, $000022F8)
+【倫太郎】
+──whew
+<END>
+
+#WRITE(PTR, $00002308)
+Ah, it's still hot.
+<END>
+
+#WRITE(PTR, $00002318)
+I'm so thirsty since we've been running in severe heat.
+<END>
+
+#WRITE(PTR, $00002328)
+【倫太郎】
+Haah, haah.... If only MayQueen were here, we'd have air conditioning, and I could get something to drink, huh...
+<END>
+
+#WRITE(PTR, $00002342)
+【フェイリス】
+Nya?
+<END>
+
+#WRITE(PTR, $00002352)
+【倫太郎】
+Oh, nothing...
+<END>
+
+#WRITE(PTR, $00002362)
+When I say whatever was on my mind, Faris makes a dubious face.
+<END>
+
+#WRITE(PTR, $00002372)
+【フェイリス】
+Kyouma, how do you know the name of the maid cafe that was scheduled to open here nya?
+<END>
+
+#WRITE(PTR, $00002382)
+【倫太郎】
+Eh...?
+<END>
+
+#WRITE(PTR, $000023A8)
+【フェイリス】
+Wait, I know, we opened up the homepage for a little bit to post maid recruiting informationyan. Kyouma, did you see it nya-?
+<END>
+
+#WRITE(PTR, $000023B8)
+【倫太郎】
+...It was scheduled to open?
+<END>
+
+#WRITE(PTR, $000023C8)
+【フェイリス】
+Faris planned it and passed it through the conference. It was almost a done deal nyan.
+<END>
+
+#WRITE(PTR, $000023E2)
+【フェイリス】
+But at the end, Papa said no, and the plan died nya.
+<END>
+
+#WRITE(PTR, $000023F2)
+【フェイリス】
+Ahhh, Papa's such a blockhead nya...
+<END>
+
+#WRITE(PTR, $0000240C)
+【フェイリス】
+If he left the store to me, it would've become the best maid cafe in all of Japan with hanya~n costumes and kyunkyu~n maids.
+<END>
+
+#WRITE(PTR, $00002426)
+【フェイリス】
+It would've even pulled customers from Ueno and Ikebukuro to Akiba.... How disappointing nya.
+<END>
+
+#WRITE(PTR, $00002436)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $00002446)
+The former Akihabara with shops filled with games and anime and 2D bishoujo.
+<END>
+
+#WRITE(PTR, $00002456)
+The current Akihabara, transformed into a retro electric town.
+<END>
+
+#WRITE(PTR, $00002466)
+The maid cafe, "MayQueen+Nyan²".
+<END>
+
+#WRITE(PTR, $00002476)
+The storehouse, of the ramen shop.
+<END>
+
+#WRITE(PTR, $00002486)
+If you add things up, Faris shouldn't have been this attached to RaiNet Access Battlers in the previous world line.
+<END>
+
+#WRITE(PTR, $00002496)
+【倫太郎】
+Faris, no, Akiha Rumiho.
+<END>
+
+#WRITE(PTR, $000024B0)
+【フェイリス】
+Hanyan?
+<END>
+
+#WRITE(PTR, $000024C0)
+【倫太郎】
+Since you're the Akiha daughter and heir, you go to the Akihabara city development conferences too, right?
+<END>
+
+#WRITE(PTR, $000024D0)
+【フェイリス】
+Nnya? I don't go, nya.
+<END>
+
+#WRITE(PTR, $000024E0)
+【倫太郎】
+You don't? But you said so...
+<END>
+
+#WRITE(PTR, $000024F0)
+She said so before the world line changed?
+<END>
+
+#WRITE(PTR, $00002500)
+【フェイリス】
+Papa goes to the conferences nya. So why would Faris have to go nya?
+<END>
+
+#WRITE(PTR, $00002510)
+【倫太郎】
+Conversely, why did you go to the conferences...?
+<END>
+
+#WRITE(PTR, $0000252A)
+【フェイリス】
+Like-I-said- I don't go to them nya.
+<END>
+
+#WRITE(PTR, $0000253A)
+That's right. Why would a high school girl go to that sort of conference in the first place?
+<END>
+
+#WRITE(PTR, $0000254A)
+Not to mention, Faris said she was the (self proclaimed) propagator of moe shops.
+<END>
+
+#WRITE(PTR, $0000255A)
+Moe shops began to multiply in Akiba around 2002 right?
+<END>
+
+#WRITE(PTR, $0000256A)
+Back then, Faris was still 9 years old, man!
+<END>
+
+#WRITE(PTR, $0000257A)
+...This might be a hint to the D-mail Faris sent.
+<END>
+
+#WRITE(PTR, $0000258A)
+【倫太郎】
+Faris, your dad's a retro PC lover, right?
+<END>
+
+#WRITE(PTR, $000025A4)
+【フェイリス】
+Exactly nya. Oh, now that you mention it, we still haven't found an IBN 5100 nyan.
+<END>
+
+#WRITE(PTR, $000025B4)
+【倫太郎】
+By the way, has your dad ever relinquished any retro PCs?
+<END>
+
+#WRITE(PTR, $000025C4)
+In another world line, Faris' dad dedicated the IBN 5100 at Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $000025D4)
+No wait, did Faris do that?
+<END>
+
+#WRITE(PTR, $000025E4)
+【フェイリス】
+Never nya. Papa loves all of the PC's he's collected nya. It's unthinkable that he'd relinquish any nya.
+<END>
+
+#WRITE(PTR, $000025F4)
+Then why was it dedicated...?
+<END>
+
+#WRITE(PTR, $00002604)
+【倫太郎】
+Do you have any retro PCs, Faris?
+<END>
+
+#WRITE(PTR, $0000261E)
+【フェイリス】
+I don't get Papa's hobby at all nya. Faris likes cosplay and anime and cute things nyan.
+<END>
+
+#WRITE(PTR, $0000262E)
+【倫太郎】
+...
+<END>
+
+#WRITE(PTR, $0000263E)
+The reason the moe shops disappeared was because Faris didn't participate in the city development conferences.
+<END>
+
+#WRITE(PTR, $0000264E)
+I guess that's what the D-mail was about.
+<END>
+
+#WRITE(PTR, $0000265E)
+【倫太郎】
+Let's say you participated in city development ever since you were a child.
+<END>
+
+#WRITE(PTR, $00002678)
+【フェイリス】
+Then I think I'd put moe shops all over Akiba nya. Just go to ComiMa and you'll see how amazing otaku power is nya.
+<END>
+
+#WRITE(PTR, $00002688)
+【フェイリス】
+More people would probably visit Akiba nyan.
+<END>
+
+#WRITE(PTR, $00002698)
+【倫太郎】
+That aside, if you no longer wanted to participate after participating for all that time.
+<END>
+
+#WRITE(PTR, $000026A8)
+【倫太郎】
+How would you stop yourself in the past?
+<END>
+
+#WRITE(PTR, $000026C2)
+【フェイリス】
+Is this some sorta psychological test nya?
+<END>
+
+#WRITE(PTR, $000026D2)
+【倫太郎】
+Simply hypothetical talk.
+<END>
+
+#WRITE(PTR, $000026E2)
+Faris ponders for a while──
+<END>
+
+#WRITE(PTR, $000026FC)
+【フェイリス】
+Hm... a dramatic way is best nya.
+<END>
+
+#WRITE(PTR, $0000270C)
+【倫太郎】
+What...?
+<END>
+
+#WRITE(PTR, $0000271C)
+【フェイリス】
+A drama-like development nya. Faris is the type to really believe that stuff. I probably got that from Papa, nyan.
+<END>
+
+#WRITE(PTR, $0000272C)
+Is that so.
+<END>
+
+#WRITE(PTR, $0000274A)
+【フェイリス】
+「だから例えば、フェイリスが誘拐されるとか├┤」
+<END2>
+
+#WRITE(PTR, $00002764)
+
+<END>
+
+#WRITE(PTR, $00002778)
+不意に、フェイリスは黙り込んだ。
+<END>
+
+#WRITE(PTR, $00002788)
+暗い室内。その顔色ははっきり読み取れない。
+<END>
+
+#WRITE(PTR, $0000279E)
+【フェイリス】
+...kid...nap?
+<END>
+
+#WRITE(PTR, $000027AE)
+【倫太郎】
+Faris?
+<END>
+
+#WRITE(PTR, $000027BE)
+What's wrong?
+<END>
+
+#WRITE(PTR, $000027CE)
+Faris holds her head, confused.
+<END>
+
+#WRITE(PTR, $000027E8)
+【フェイリス】
+Ugh...
+<END>
+
+#WRITE(PTR, $000027F8)
+【フェイリス】
+My head hurts nya...
+<END>
+
+#WRITE(PTR, $00002812)
+【フェイリス】
+H-hey, Kyouma.... Faris has been feeling funny since coming to this storehouse nya.... Even though I only came here once when I was little...
+<END>
+
+#WRITE(PTR, $00002822)
+【フェイリス】
+It feels... really familiar nya...
+<END>
+
+#WRITE(PTR, $00002832)
+【フェイリス】
+Like I've walked around here... countless times nya...
+<END>
+
+#WRITE(PTR, $00002842)
+What does this mean?
+<END>
+
+#WRITE(PTR, $00002852)
+Another lie? But this is so──
+<END>
+
+#WRITE(PTR, $0000286C)
+【フェイリス】
+Ah...
+<END>
+
+#WRITE(PTR, $0000287C)
+And now she looks up emphatically.
+<END>
+
+#WRITE(PTR, $0000288C)
+And then she clings to me.
+<END>
+
+#WRITE(PTR, $0000289C)
+【フェイリス】
+I... remember nya...
+<END>
+
+#WRITE(PTR, $000028AC)
+【倫太郎】
+Remember what?
+<END>
+
+#WRITE(PTR, $000028C6)
+【フェイリス】
+...I remember nya!
+<END>
+
+#WRITE(PTR, $000028D6)
+There was a sense of urgency in her voice.
+<END>
+
+#WRITE(PTR, $000028E6)
+I'm engulfed by that force, unable to respond.
+<END>
+
+#WRITE(PTR, $000028F6)
+【フェイリス】
+MayQueen+Nyan²！
+<END>
+
+#WRITE(PTR, $00002912)
+【フェイリス】
+Kyouma and Daru-nyan were regular customers nya. And Mayushii worked here too nya.
+<END>
+
+#WRITE(PTR, $00002922)
+【倫太郎】
+...Really? You really remember?
+<END>
+
+#WRITE(PTR, $00002932)
+Faris nods.
+<END>
+
+#WRITE(PTR, $0000294C)
+【フェイリス】
+And how Kyouma and Daru talked about the time machine at the store, and how I asked to use it in return for searching for the IBN 5100,
+<END>
+
+#WRITE(PTR, $0000295C)
+【フェイリス】
+And how later, Kyouma and Daru-nyan won the argument about how comparing time to a river's flow was weird,
+<END>
+
+#WRITE(PTR, $0000296C)
+【フェイリス】
+And how we joined in the 'blood oath' so I could become a lab mem,
+<END>
+
+#WRITE(PTR, $0000297C)
+It does feel like those things happened...
+<END>
+
+#WRITE(PTR, $0000298C)
+【倫太郎】
+And the D-mail? Do you remember the D-mail's contents?
+<END>
+
+#WRITE(PTR, $000029A6)
+【フェイリス】
+...
+<END>
+
+#WRITE(PTR, $000029B6)
+Faris lets out a sigh.
+<END>
+
+#WRITE(PTR, $000029C6)
+She droops her shoulders as if that excitement were a lie.
+<END>
+
+#WRITE(PTR, $000029D6)
+Don't tell me that's all she remembers?
+<END>
+
+#WRITE(PTR, $000029E6)
+Or was she really tricking me?
+<END>
+
+#WRITE(PTR, $000029F6)
+Both were wrong.
+<END>
+
+#WRITE(PTR, $00002A06)
+【フェイリス】
+I remember, but... Kyouma, did you say you absolutely needed to cancel it nya?
+<END>
+
+#WRITE(PTR, $00002A16)
+【倫太郎】
+Correct. I need to correct the past changed by your D-mail──
+<END>
+
+#WRITE(PTR, $00002A30)
+【フェイリス】
+You can't nya!
+<END>
+
+#WRITE(PTR, $00002A40)
+Faris violently shook her head.
+<END>
+
+#WRITE(PTR, $00002A50)
+And then she sticks to me.
+<END>
+
+#WRITE(PTR, $00002A60)
+The two of us, alone in a dim ingredient storehouse.
+<END>
+
+#WRITE(PTR, $00002A70)
+Our breath hadn't returned to normal, maybe because we had been running.
+<END>
+
+#WRITE(PTR, $00002A80)
+Relief that we had hid ourselves from the enemy.
+<END>
+
+#WRITE(PTR, $00002A90)
+Or perhaps both, perhaps neither, but Faris just sticking to me was enough to intensely excite me.
+<END>
+
+#WRITE(PTR, $00002AA0)
+Gh, calm down...!
+<END>
+
+#WRITE(PTR, $00002ABA)
+【フェイリス】
+You can't return it to normal nya...
+<END>
+
+#WRITE(PTR, $00002ACA)
+【倫太郎】
+Please listen, Faris! Mayuri's life depends on this!
+<END>
+
+#WRITE(PTR, $00002AE4)
+【フェイリス】
+Eh... Mayushii's...?
+<END>
+
+#WRITE(PTR, $00002AF4)
+【倫太郎】
+If we don't return the world line to normal; if I don't get the IBN 5100, then Mayuri will die...
+<END>
+
+#WRITE(PTR, $00002B04)
+【倫太郎】
+That might sound stupid, but that, is the truth...
+<END>
+
+#WRITE(PTR, $00002B14)
+【倫太郎】
+So please.... I need to send another D-mail and cancel the last one you──
+<END>
+
+#WRITE(PTR, $00002B2E)
+【フェイリス】
+The wish Faris granted with her D-mail──
+<END>
+
+#WRITE(PTR, $00002B3E)
+As if to erase my voice, Faris repeats her words.
+<END>
+
+#WRITE(PTR, $00002B4E)
+Her eyes are faintly clouded, reflecting the dim light.
+<END>
+
+#WRITE(PTR, $00002B5E)
+【フェイリス】
+What Faris granted──
+<END>
+
+#WRITE(PTR, $00002B6E)
+【フェイリス】
+...Was to revive Papa who died ten years ago nya.
+<END>
+
+#WRITE(PTR, $00002B7E)
+【倫太郎】
+──!?
+<END>
+
+#WRITE(PTR, $00002B8E)
+What...?
+<END>
+
+#WRITE(PTR, $00002BA8)
+【フェイリス】
+More simply put... it changed the past where Papa died so he wouldn't die nyan.
+<END>
+
+#WRITE(PTR, $00002BB8)
+You mean that gentle, dandy dad... died ten years ago...?
+<END>
+
+#WRITE(PTR, $00002BC8)
+That's consistent with everything.
+<END>
+
+#WRITE(PTR, $00002BD8)
+Faris really remembered after all.
+<END>
+
+#WRITE(PTR, $00002BE8)
+Since I know the result, all I have to do now is send the cancellation D-mail.
+<END>
+
+#WRITE(PTR, $00002BF8)
+But my words won't come out.
+<END>
+
+#WRITE(PTR, $00002C08)
+Does canceling the D-mail that avoided her dad's death ten years ago,
+<END>
+
+#WRITE(PTR, $00002C18)
+Basically mean the same thing as "Kill her revived father again"──？
+<END>
+
+#WRITE(PTR, $00002C9C)
+【倫太郎】
+!?
+<END>
+
+#WRITE(PTR, $00002CAC)
+I hear the sound of the door opening and rush to block Faris' mouth with my hand.
+<END>
+
+#WRITE(PTR, $00002CC8)
+【ヴァイラルフリークスＡ】
+Is Faris really hiding in here?
+<END>
+
+#WRITE(PTR, $00002CD8)
+【ヴァイラルフリークスＢ】
+Someone saw two people who looked like them get in here.
+<END>
+
+#WRITE(PTR, $00002CE8)
+Crap...!
+<END>
+
+#WRITE(PTR, $00002CF8)
+Don't tell me we were seen!
+<END>
+
+#WRITE(PTR, $00002D08)
+We need to do something here.
+<END>
+
+#WRITE(PTR, $00002D18)
+If they call their friends, it's curtains for us.
+<END>
+
+#WRITE(PTR, $00002DF2)
+【倫太郎】
+...!
+<END>
+
+#WRITE(PTR, $00002E10)
+Shit, not now...!
+<END>
+
+#WRITE(PTR, $00002E2E)
+The Viral men react to the ringtone.
+<END>
+
+#WRITE(PTR, $00002FD6)
+【ヴァイラルフリークスＡ】
+Where are you!
+<END>
+
+#WRITE(PTR, $00002FE6)
+【ヴァイラルフリークスＢ】
+So you were here, huh Faris.
+<END>
+
+#WRITE(PTR, $00002FF6)
+【倫太郎】
+Hello──
+<END>
+
+#WRITE(PTR, $00003012)
+【紅莉栖】
+Okabe! Can you hear me!? We called a taxi, but it'll take some time to get there.
+<END>
+
+#WRITE(PTR, $0000302E)
+Kurisu, huh....
+<END>
+
+#WRITE(PTR, $0000303E)
+【倫太郎】
+You exposed us to the pursuers.... They're right in front of us...!
+<END>
+
+#WRITE(PTR, $0000304E)
+【ヴァイラルフリークスＡ】
+Hey, come out!
+<END>
+
+#WRITE(PTR, $0000305E)
+【ヴァイラルフリークスＢ】
+There's no point in hiding!
+<END>
+
+#WRITE(PTR, $0000307A)
+【紅莉栖】
+I see. Then I'll give you an escape method lecture. You haven't left the place you were before, right?
+<END>
+
+#WRITE(PTR, $00003096)
+The men are approaching our hiding spot. But because the room is dark, it seems they can't tell where we are.
+<END>
+
+#WRITE(PTR, $000030A6)
+I listen carefully to Kurisu's voice.
+<END>
+
+#WRITE(PTR, $000030C2)
+【紅莉栖】
+Scatter the wheat flour that's in the room and escape. OK?
+<END>
+
+#WRITE(PTR, $000030DE)
+Scatter...?
+<END>
+
+#WRITE(PTR, $000030FA)
+【紅莉栖】
+Then switch on the light.
+<END>
+
+#WRITE(PTR, $00003116)
+Now I get it.
+<END>
+
+#WRITE(PTR, $00003126)
+I see, so that's it, huh?
+<END>
+
+#WRITE(PTR, $00003136)
+【倫太郎】
+Roger. Over.
+<END>
+
+#WRITE(PTR, $0000314C)
+And then I see a white flash.
+<END>
+
+#WRITE(PTR, $0000315C)
+The pursuer takes out a balisong with his right hand, opening up the blade with some fancy finger flipping.
+<END>
+
+#WRITE(PTR, $000031A4)
+【フェイリス】
+!?
+<END>
+
+#WRITE(PTR, $000032D8)
+I hurriedly rip open a nearby wheat flour sack and toss its contents out into the air.
+<END>
+
+#WRITE(PTR, $000032E8)
+The scattered white powder shines in the sunlight through the window.
+<END>
+
+#WRITE(PTR, $000032F8)
+【ヴァイラルフリークスＡ】
+Gwah, 'the hell's this!?
+<END>
+
+#WRITE(PTR, $00003308)
+【ヴァイラルフリークスＢ】
+I can't see...! Gawch gawch
+<END>
+
+#WRITE(PTR, $00003318)
+Slipping beside the flustered men, I carry Faris towards the exit.
+<END>
+
+#WRITE(PTR, $00003328)
+Right next to the exit, I see the light switch.
+<END>
+
+#WRITE(PTR, $00003338)
+I push Faris out first and flip the switch right before shutting the door.
+<END>
+
+#WRITE(PTR, $000033F2)
+Right as we get out.
+<END>
+
+#WRITE(PTR, $00003468)
+On the other side of the door, a sound like firecrackers resounds.
+<END>
+
+#WRITE(PTR, $00003478)
+Dust explosion.
+<END>
+
+#WRITE(PTR, $00003492)
+A chemical phenomenon used by guys like <DICT>MacDyver</DICT> or <DICT>Master Cheaton</DICT>.
+<END>
+
+#WRITE(PTR, $000034A2)
+Now those guys will be preoccupied for a bit, unable to chase us!
+<END>
+
+#WRITE(PTR, $000034EA)
+【フェイリス】
+Khohkhoh, khohkhohkhoh
+<END>
+
+#WRITE(PTR, $000034FA)
+Faris coughs with wheat flour covering her clothes and hair.
+<END>
+
+#WRITE(PTR, $0000350A)
+But we don't have time to spare.
+<END>
+
+#WRITE(PTR, $0000351A)
+The taxi still isn't here.
+<END>
+
+#WRITE(PTR, $0000352A)
+But it's not like we can wait for it.
+<END>
+
+#WRITE(PTR, $0000353A)
+We need to leave here quickly...!
+<END>
+
+#WRITE(PTR, $000035BC)
+I press the call end button and push the phone into my pocket.
+<END>
+
+#WRITE(PTR, $000035CC)
+But it's too late.
+<END>
+
+#WRITE(PTR, $000035DC)
+They already heard it.
+<END>
+
+#WRITE(PTR, $000035F8)
+【ヴァイラルフリークスＡ】
+Hey, we found you!
+<END>
+
+#WRITE(PTR, $00003608)
+【ヴァイラルフリークスＢ】
+Hehhehhe! You can't escape!
+<END>
+
+#WRITE(PTR, $00003618)
+With brass knuckles in hand, he starts grinning, baring his canines.
+<END>
+
+#WRITE(PTR, $00003628)
+We're suddenly driven to the wall.
+<END>
+
+#WRITE(PTR, $00003638)
+Dammit! Is this it──！?
+<END>
+
+#WRITE(PTR, $00003648)
+The moment I started giving up.
+<END>
+
+#WRITE(PTR, $00003690)
+【フェイリス】
+Ah, ah-! ４℃"Shido" got run over by a car there nya-!
+<END>
+
+#WRITE(PTR, $000036A0)
+Faris yelled as she pointed out the window.
+<END>
+
+#WRITE(PTR, $000036B0)
+【ヴァイラルフリークスＡ】
+Wh-what!? 4℃-san!?
+<END>
+
+#WRITE(PTR, $000036CC)
+Faris recklessly rushes the bewildered men──
+<END>
+
+#WRITE(PTR, $000036DC)
+Or so I thought, but she slips through them.
+<END>
+
+#WRITE(PTR, $000036EC)
+I follow.
+<END>
+
+#WRITE(PTR, $000037D6)
+We run down the stairs, almost tumbling.
+<END>
+
+#WRITE(PTR, $000037E6)
+【倫太郎】
+Nice feint, Faris...!
+<END>
+
+#WRITE(PTR, $000038A8)
+But──
+<END>
+
+#WRITE(PTR, $000038B8)
+【ヴァイラルフリークスＣ】
+You're not getting away!
+<END>
+
+#WRITE(PTR, $000038C8)
+【ヴァイラルフリークスＤ】
+We have you surrounded!
+<END>
+
+#WRITE(PTR, $000038D8)
+Crap...!
+<END>
+
+#WRITE(PTR, $000038E8)
+We headed for the lab, but got ambushed.
+<END>
+
+#WRITE(PTR, $00003930)
+【フェイリス】
+Ah, ahh... ahhhh....
+<END>
+
+#WRITE(PTR, $00003940)
+Soon Faris and I are surrounded by the group with the fires of hatred burning in their eyes.
+<END>
+
+#WRITE(PTR, $00003988)
+【４℃】
+Yo, not letting you run any more.
+<END>
+
+#WRITE(PTR, $00003998)
+The crowd parts left and right, and 4℃ steps forward, wearing a hat.
+<END>
+
+#WRITE(PTR, $000039A8)
+【４℃】
+I'll tell you one thing. You bastards can't escape my totally bad black aura.
+<END>
+
+#WRITE(PTR, $000039C0)
+I quickly protect Faris behind my back.
+<END>
+
+#WRITE(PTR, $000039D0)
+4℃ pops the knuckles in his fists, showing his white teeth.
+<END>
+
+#WRITE(PTR, $000039E0)
+【４℃】
+I always act against the system. This time, my elegant evil story ends in perfect victory.
+<END>
+
+#WRITE(PTR, $000039F0)
+【倫太郎】
+Stop. Don't lay a finger on me.
+<END>
+
+#WRITE(PTR, $00003A00)
+The only thing I can do to stop faltering is to go into Hououin Kyouma mode.
+<END>
+
+#WRITE(PTR, $00003A10)
+【倫太郎】
+Gh, at this rate, my right arm... will break lose...!
+<END>
+
+#WRITE(PTR, $00003A20)
+【４℃】
+Always standing at the front line of the scene is one man. That one man, is the peacock flapping its black wings.
+<END>
+
+#WRITE(PTR, $00003A30)
+【倫太郎】
+Gh, gwaaaaah, calm down, right arm of mine...! No, the seal is... coming undone, everyone, run away now...! Or you will all seriously die...!
+<END>
+
+#WRITE(PTR, $00003A40)
+【４℃】
+I'll elegantly floor you with my crazy dance. The one chosen by the jet black wings is I.
+<END>
+
+#WRITE(PTR, $00003A50)
+【倫太郎】
+No... my right hand... my right haaaaand.... Please, stop, I don't want, to kill any moore──
+<END>
+
+#WRITE(PTR, $00003A6A)
+【４℃】
+Hey, what the hell is he doing...?
+<END>
+
+#WRITE(PTR, $00003D6C)
+A sound rings through the top of my head.
+<END>
+
+#WRITE(PTR, $00003D7C)
+I've been struck──
+<END>
+
+#WRITE(PTR, $00003D8C)
+【ヴァイラルフリークスＣ】
+4℃, don't let him trick you! He's just a pretentious hipster bullshitter!
+<END>
+
+#WRITE(PTR, $00003D9C)
+【倫太郎】
+Yeah, like you guys can talk.
+<END>
+
+#WRITE(PTR, $00003DAC)
+【ヴァイラルフリークスＤ】
+Whatever, just beat the shit outta him!
+<END>
+
+#WRITE(PTR, $00003DBC)
+【倫太郎】
+If you say so... prepare yourselves! Releasing restriction si──
+<END>
+
+#WRITE(PTR, $000040D8)
+Before I can finish, I'm kicked in the solar plexus. My gastric juices counterflow.
+<END>
+
+#WRITE(PTR, $000040E8)
+【倫太郎】
+Gweh...
+<END>
+
+#WRITE(PTR, $000040F8)
+【フェイリス】
+Kyouma!
+<END>
+
+#WRITE(PTR, $000046E8)
+He grabs the top of my head.
+<END>
+
+#WRITE(PTR, $000046F8)
+He knees me repeatedly.
+<END>
+
+#WRITE(PTR, $00004708)
+He releases my hair from his violent grasp.
+<END>
+
+#WRITE(PTR, $00004720)
+I fall to the ground and start coughing.
+<END>
+
+#WRITE(PTR, $0000503E)
+Hard toes sink into my legs, stomach, shoulders, chest, and face.
+<END>
+
+#WRITE(PTR, $0000504E)
+4℃'s relentless final blow.
+<END>
+
+#WRITE(PTR, $0000505E)
+【４℃】
+Pff, what did I say? You can't touch this. Extremely cold ice burns──
+<END>
+
+#WRITE(PTR, $0000506E)
+【倫太郎】
+Like I said, that's not a burn, but frostbite, you dumbass──
+<END>
+
+#WRITE(PTR, $0000507E)
+【４℃】
+Why you!
+<END>
+
+#WRITE(PTR, $0000595C)
+A hard sole strikes my entire body.
+<END>
+
+#WRITE(PTR, $0000596C)
+【フェイリス】
+Kyouma-!
+<END>
+
+#WRITE(PTR, $0000597C)
+My body seemed like nothing but a sensory organ for pain.
+<END>
+
+#WRITE(PTR, $0000598C)
+I abandoned all thought and just wished for the storm to pass.
+<END>
+
+#WRITE(PTR, $0000599C)
+【フェイリス】
+Stop it nya-! Don't hurt Kyouma any more-!
+<END>
+
+#WRITE(PTR, $000059AC)
+【４℃】
+Shut up. Don't order me around. I only listen to the whispers of Gaia──
+<END>
+
+#WRITE(PTR, $000059BC)
+4℃ takes my thumb in both his hands, twisting it in the opposite direction──
+<END>
+
+#WRITE(PTR, $000059CC)
+【フェイリス】
+Stop it! Someone, help-!
+<END>
+
+#WRITE(PTR, $00005A86)
+A sound──
+<END>
+
+#WRITE(PTR, $00005A96)
+Resounds.
+<END>
+
+#WRITE(PTR, $00005AA6)
+A thick exhaust note.
+<END>
+
+#WRITE(PTR, $00005AB6)
+The honking of a horn.
+<END>
+
+#WRITE(PTR, $00005AC6)
+A large car is rushing through this narrow street at a terrific speed.
+<END>
+
+#WRITE(PTR, $00005AD6)
+Everyone screams and scatters to the sides of the road to avoid it.
+<END>
+
+#WRITE(PTR, $00005B4C)
+The smell of burnt rubber.
+<END>
+
+#WRITE(PTR, $00005B5C)
+Tire tracks on the asphault. A limousine breaks down the siege.
+<END>
+
+#WRITE(PTR, $00005B6C)
+It suddenly stops right in front of my fallen face.
+<END>
+
+#WRITE(PTR, $00005B7C)
+The backseat door opens.
+<END>
+
+#WRITE(PTR, $00005B8C)
+【フェイリスパパ】
+Get inside!
+<END>
+
+#WRITE(PTR, $00005B9C)
+【フェイリス】
+P-Papa...!
+<END>
+
+#WRITE(PTR, $00005C48)
+But I can't even stand up.
+<END>
+
+#WRITE(PTR, $00005C58)
+There's no strength in my entire body.
+<END>
+
+#WRITE(PTR, $00005C68)
+My vision is hazy too.
+<END>
+
+#WRITE(PTR, $00005C78)
+And then a slender arm wraps underneath my armpit.
+<END>
+
+#WRITE(PTR, $00005C88)
+The soft scent of tachibana tickles my nose.
+<END>
+
+#WRITE(PTR, $00005CD0)
+【フェイリス】
+Kyouma, hang in there nya!
+<END>
+
+#WRITE(PTR, $00005CE0)
+I roll into the limousine, borrowing Faris' shoulder.
+<END>
+
+#WRITE(PTR, $00005DF6)
+【４℃】
+D-dammit! Wait!
+<END>
+
+#WRITE(PTR, $00005E06)
+The door shuts, interrupting his shouting.
+<END>
+
+#WRITE(PTR, $00005E7C)
+The car speeds off like a bullet.
+<FILEEND0A>
+

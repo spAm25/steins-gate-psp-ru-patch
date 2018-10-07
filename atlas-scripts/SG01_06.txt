@@ -1,0 +1,846 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002164)
+
+#WRITE(PTR, $000007D8)
+結局、ＡＴＦでの紅莉栖の講義は最後まで聴いておいた。
+<END>
+
+#WRITE(PTR, $000007E8)
+紅莉栖は、最初に紹介した２つのタイムトラベル理論以外にも、それぞれ分かりやすく解説してくれた。
+<END>
+
+#WRITE(PTR, $000007F8)
+最初はたどたどしいところもあったが次第に慣れてきたのか、最終的にはとても１８歳で初舞台とは思えないほど、堂々とした講義だった。
+<END>
+
+#WRITE(PTR, $00000808)
+俺の意地悪な質問に皮肉で返したりと、あの度胸は大したものだ。
+<END>
+
+#WRITE(PTR, $00000818)
+って、なぜ俺はあの女を誉めているのか！
+<END>
+
+#WRITE(PTR, $00000828)
+それよりもだ。
+<END>
+
+#WRITE(PTR, $00000838)
+俺は牧瀬紅莉栖が死んだのを見ているのだ。
+<END>
+
+#WRITE(PTR, $00000848)
+なのに彼女は生きていた。
+<END>
+
+#WRITE(PTR, $00000858)
+俺の記憶には{齟齬}[そご]がある。
+<END>
+
+#WRITE(PTR, $00000868)
+紅莉栖の件だけでなく、まゆりやダルとの会話も噛み合わなかったし、俺の記憶とは違うことが現実には起きていたりもする。
+<END>
+
+#WRITE(PTR, $00000878)
+俺が夢か幻を見ていたのだ、と言ってしまえばそれで問題は解決だ。
+<END>
+
+#WRITE(PTR, $00000888)
+だが、万が一ということもある。
+<END>
+
+#WRITE(PTR, $00000898)
+というわけで├┤
+<END>
+
+#WRITE(PTR, $00000910)
+ＡＴＦが終わるとダルと別れ、まっすぐにこの{柳林}[やなばやし]神社にやって来た。
+<END>
+
+#WRITE(PTR, $00000920)
+目的は、お祓いしてもらうためだ。
+<END>
+
+#WRITE(PTR, $00000930)
+ＡＴＦでの牧瀬紅莉栖が幽霊だったとはとても思えない。
+<END>
+
+#WRITE(PTR, $00000940)
+だがそれでもお祓いしてもらいたいと思ってしまうのは、日本人的発想が染みついているからだな。
+<END>
+
+#WRITE(PTR, $00000950)
+柳林神社は{万世橋}[まんせいばし]を渡ってすぐの脇道を入り、ガード下をくぐった先の川沿いにある。周囲の雑居ビルとは不釣り合いな、とても小さな神社だ。
+<END>
+
+#WRITE(PTR, $00000960)
+アキバには神田明神があり、そっちの方が有名だが、俺はあえてこちらの神社を選んだ。
+<END>
+
+#WRITE(PTR, $00000970)
+境内は猫の額並みで、あるのかないのか分からないほどの狭さだ。
+<END>
+
+#WRITE(PTR, $00000980)
+それでも植えられたわずかな木々からは、セミの鳴き声が響いてくる。
+<END>
+
+#WRITE(PTR, $00000A14)
+【まゆり】
+Oh? It's Okarin! Tutturu~♪
+<END>
+
+#WRITE(PTR, $00000A24)
+In front of the shrine building, there are 2 girls.
+<END>
+
+#WRITE(PTR, $00000A34)
+One of them is Mayuri...
+<END>
+
+#WRITE(PTR, $00000AEC)
+And another one, - a docile-looking girl wearing shrine maiden clothes.
+<END>
+
+#WRITE(PTR, $00000AFC)
+... Though, it's a mistake to call her a 'girl'.
+<END>
+
+#WRITE(PTR, $00000B0C)
+This is Urushibara Luka.
+<END>
+
+#WRITE(PTR, $00000B1C)
+The 'son' of this shrine's chief priest.
+<END>
+
+#WRITE(PTR, $00000B2C)
+Yes, a son.
+<END>
+
+#WRITE(PTR, $00000B3C)
+No matter how you look at him, he looks like a lovely girl, but... he's a guy.
+<END>
+
+#WRITE(PTR, $00000BCC)
+【るか】
+Okabe-san, hello.
+<END>
+
+#WRITE(PTR, $00000C7A)
+He makes a quick bow to me.
+<END>
+
+#WRITE(PTR, $00000C8A)
+His voice and behavior makes him look like a female.
+<END>
+
+#WRITE(PTR, $00000C9A)
+Or more like, more feminine than a female.
+<END>
+
+#WRITE(PTR, $00000CF0)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00000D04)
+Taller than Mayuri, and of a very slim build.
+<END>
+
+#WRITE(PTR, $00000D18)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00000D2C)
+Looks good in shrine maiden clothing.
+<END>
+
+#WRITE(PTR, $00000D40)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00000D54)
+He's holding a broom, so I'm guessing that he was in the middle of cleaning.
+<END>
+
+#WRITE(PTR, $00000D68)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00000D7C)
+It's so hot, even though it's almost evening.
+<END>
+
+#WRITE(PTR, $00000D90)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00000DA4)
+The damn cicadas won't shut up.
+<END>
+
+#WRITE(PTR, $00000DB8)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00000E68)
+【倫太郎】
+Lukako, what happened to the blade that I gave you?
+<END>
+
+#WRITE(PTR, $00000E78)
+He is an acquaintance of mine, and I call him Lukako.
+<END>
+
+#WRITE(PTR, $00000E90)
+I helped him when he was surrounded by a group of retards with cameras in some<DICT> mall </DICT> and we have known each other since then.
+<END>
+
+#WRITE(PTR, $00000EA0)
+By chance, Lukako and Mayuri are classmates in the same high school.
+<END>
+
+#WRITE(PTR, $00000EB0)
+I found this out after I became acquainted with Lukako.
+<END>
+
+#WRITE(PTR, $00000ECA)
+Lukako is taken aback by my sharp question.
+<END>
+
+#WRITE(PTR, $00000EDA)
+With a blushing face, he's fidgeting as if he's gonna start crying.
+<END>
+
+#WRITE(PTR, $00000EEA)
+【るか】
+Eh, uhmm... You're talking about the demon sword, SamidareSummer Rain, right?
+<END>
+
+#WRITE(PTR, $00000EFA)
+【倫太郎】
+Right. I bought that for you so that you could control your powers.
+<END>
+
+#WRITE(PTR, $00000F1C)
+【まゆり】
+Ah, but you bought that in Akiba's '<DICT>Main Weaponry Shop</DICT>', didn't you? For 980yen, I think--
+<END>
+
+#WRITE(PTR, $00000F2C)
+【倫太郎】
+Mayuri! If you speak any further, you will be erased by 'them'! Don't ever talk about that!
+<END>
+
+#WRITE(PTR, $00000F4A)
+【まゆり】
+「え、消されちゃうのー？
+<END2>
+
+#WRITE(PTR, $00000F64)
+　オカリン、心配してくれてありがとうー。でもでも、“ヤツら”って誰かな？」
+<END>
+
+#WRITE(PTR, $00000F78)
+まゆりの問いかけはあえてスルーする。
+<END>
+
+#WRITE(PTR, $00000FC8)
+【倫太郎】
+So, Lukako. Do you use the 'demon sword, Summer Rain', just like I told you to?
+<END>
+
+#WRITE(PTR, $00000FE2)
+【るか】
+Y-yes, I practice swinging once every day...
+<END>
+
+#WRITE(PTR, $00000FF2)
+【倫太郎】
+With it, you can master theSeishin ZanmaMind-Killing Demon style, and prevent the evil flames that sleep within you from burning you up.
+<END>
+
+#WRITE(PTR, $00001002)
+Demon sword, Summer Rain' is a fake blade, but that is because it is hiding it's true form from the world.
+<END>
+
+#WRITE(PTR, $00001012)
+If it's in the hands of a skilled master, it will release it's true power.
+<END>
+
+#WRITE(PTR, $00001022)
+It is a cheap purchase that I got for 980yen (tax included).
+<END>
+
+#WRITE(PTR, $00001032)
+However, even if it is a fake, the police would not let it slide if you were to walk around the town with it.
+<END>
+
+#WRITE(PTR, $00001042)
+That's why I always remind Lukako to 'not walk with it within the town'.
+<END>
+
+#WRITE(PTR, $0000105C)
+【るか】
+Thank you, Okabe-san, for this wonderful present.
+<END>
+
+#WRITE(PTR, $0000106C)
+【倫太郎】
+I am not Okabe.
+<END>
+
+#WRITE(PTR, $000010B4)
+【まゆり】
+You're Okarin.
+<END>
+
+#WRITE(PTR, $000010CE)
+【るか】
+I'm sorry, Kyouma-san.
+<END>
+
+#WRITE(PTR, $000010DE)
+【倫太郎】
+It's okay if you get it. Now, the password.
+<END>
+
+#WRITE(PTR, $000010EE)
+【るか】
+Ah, uhmm, El... Psy... Congaryu...?
+<END>
+
+#WRITE(PTR, $000010FE)
+【倫太郎】
+Wrong! It's not Congaryu, but Congroo!
+<END>
+
+#WRITE(PTR, $00001118)
+【るか】
+Y, yes!
+<END>
+
+#WRITE(PTR, $00001128)
+【るか】
+El... Psy... Congroo.
+<END>
+
+#WRITE(PTR, $00001138)
+【るか】
+I-is that fine?
+<END>
+
+#WRITE(PTR, $00001148)
+As I smile, Lukako makes a happy smile.
+<END>
+
+#WRITE(PTR, $00001162)
+【るか】
+Thank you very much!
+<END>
+
+#WRITE(PTR, $00001172)
+Loveliness to which anyone could fall for.
+<END>
+
+#WRITE(PTR, $000012D4)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00001368)
+【まゆり】
+What a nice teacher-student relationship... Mayushii isn't a <DICT>fujoshi</DICT>, but this is somewhat exciting.
+<END>
+
+#WRITE(PTR, $00001382)
+【るか】
+Eeh? Ma, Mayuri-chan, don't imagine anything weird...
+<END>
+
+#WRITE(PTR, $00001392)
+Seriously.
+<END>
+
+#WRITE(PTR, $000013A2)
+Though, the 'teacher-student relationship' part is true.
+<END>
+
+#WRITE(PTR, $000013BA)
+I, Hououin Kyouma, with the use of my<DICT> Mind Control</DICT> , taught Lukako about the conspiracies and ruling structures of the world, and instructed him on how to fight them.
+<END>
+
+#WRITE(PTR, $000013CA)
+The talk about 'demon sword, Summer Rain' and so on, are linked to that.
+<END>
+
+#WRITE(PTR, $000013DA)
+Disregarding his looks, personality-wise Lukako is very obedient and honest, and a hard worker at that.
+<END>
+
+#WRITE(PTR, $000013EA)
+Moreover, he's the one who said that he wants to be taught many things, and as a master, I am greatly pleased with this disciple.
+<END>
+
+#WRITE(PTR, $000013FA)
+However, he doesn't process what I say too quickly, and has theminusweak point of being too shy.
+<END>
+
+#WRITE(PTR, $00001478)
+【倫太郎】
+So, why is Mayuri here?
+<END>
+
+#WRITE(PTR, $00001488)
+【まゆり】
+I came here to see Luka-kun.
+<END>
+
+#WRITE(PTR, $000014A2)
+【まゆり】
+I keep asking him to come to next month's<DICT> Comima</DICT> while cosplaying as <DICT> Kirari-chan</DICT> from 'Rai-net', but he doesn't want to do it, at all.
+<END>
+
+#WRITE(PTR, $000014B2)
+【るか】
+But, cosplaying, is too embarrassing for me...
+<END>
+
+#WRITE(PTR, $000014C2)
+【まゆり】
+But, but I just know that Luka-kun would look good in it.
+<END>
+
+#WRITE(PTR, $000014E4)
+【まゆり】
+You'd become very popular as '<DICT>Too cute to be a girl</DICT>', you know. Come on, let's make a cosplay debut.
+<END>
+
+#WRITE(PTR, $000014F4)
+Mayuri has the hobby of making cosplay. Up until now she has made more than 30 costumes, but she herself almost never wore any of them.
+<END>
+
+#WRITE(PTR, $00001504)
+She seems to feel supreme joy in seeing someone else wear them.
+<END>
+
+#WRITE(PTR, $00001514)
+And, apparently, she seems to have chosen Lukako as her next target.
+<END>
+
+#WRITE(PTR, $00001524)
+Obviously, Mayuri is currently making the cosplay of a popular female character.
+<END>
+
+#WRITE(PTR, $00001534)
+I don't really think that I understand why Lukako doesn't want to wear those clothes.
+<END>
+
+#WRITE(PTR, $00001544)
+I mean, he's already wearing shrine maiden's clothing and all, so I don't see why he would be opposed to cosplay... It's not so different, after all.
+<END>
+
+#WRITE(PTR, $00001554)
+I sigh, and restrain Mayuri, who is urging Lukako to do it.
+<END>
+
+#WRITE(PTR, $00001564)
+【倫太郎】
+Leave such trivial things for later.
+<END>
+
+#WRITE(PTR, $0000157E)
+【まゆり】
+Eeh? But it's very important for Mayushii...
+<END>
+
+#WRITE(PTR, $0000158E)
+【倫太郎】
+But for me, it's trivial!
+<END>
+
+#WRITE(PTR, $0000159E)
+【倫太郎】
+Besides that, Lukako, the reason I came to the shrine is to get an exorcism. Can you do it?
+<END>
+
+#WRITE(PTR, $000015B8)
+【るか】
+An exorcism? Then, you should be asking my father...
+<END>
+
+#WRITE(PTR, $000015C8)
+【倫太郎】
+No, it's nothing that serious. I just need some peace of mind.
+<END>
+
+#WRITE(PTR, $000015D8)
+That's why I came here instead of the Kanda Shrine.
+<END>
+
+#WRITE(PTR, $000015E8)
+【倫太郎】
+So, bring the usual 'thing' over here.
+<END>
+
+#WRITE(PTR, $00001602)
+【るか】
+Eh? The usual 'thing' is... The 'Summer Rain'?
+<END>
+
+#WRITE(PTR, $00001612)
+【倫太郎】
+Wrong! Who the hell uses a demon sword for exorcism!? I obviously mean the 'thing'!
+<END>
+
+#WRITE(PTR, $0000162C)
+【るか】
+Uhmm... uh...?
+<END>
+
+#WRITE(PTR, $0000163C)
+【倫太郎】
+I don't know what's it called, but it's the rod thing with white paper attached to it, the one that Shinto priests swing around.
+<END>
+
+#WRITE(PTR, $00001656)
+【まゆり】
+Ahahah~, the explanation just now was very childish, Okarin♪.
+<END>
+
+#WRITE(PTR, $00001666)
+I'm quite shocked that Mayuri is the one who said it.
+<END>
+
+#WRITE(PTR, $00001680)
+【るか】
+Ah, the OonusaShide wand, right? But I don't know if my father would lend it to me...
+<END>
+
+#WRITE(PTR, $0000169A)
+【るか】
+I'll go and ask him.
+<END>
+
+#WRITE(PTR, $000016B6)
+Lukako made a quick bow, and hurriedly ran off towards the residence.
+<END>
+
+#WRITE(PTR, $000016C6)
+Mayuri is checking the time on a pocket watch that she took out from her bag.
+<END>
+
+#WRITE(PTR, $0000170E)
+It's an old-fashioned item which doesn't look like something that a high school girl would have.
+<END>
+
+#WRITE(PTR, $0000171E)
+Apparently, the name is 'Pockety'.
+<END>
+
+#WRITE(PTR, $0000172E)
+Obviously, it's a name that Mayuri gave it, and definitely not some brand name.
+<END>
+
+#WRITE(PTR, $0000173E)
+I am quite aware of the fact that she has been carrying 'Pockety' with her at all times ever since elementary school.
+<END>
+
+#WRITE(PTR, $0000174E)
+For Mayuri, it's a treasure more valuable than any other item.
+<END>
+
+#WRITE(PTR, $0000176A)
+【まゆり】
+Well, it's almost time for my part-time job, so I'm gonna go now...
+<END>
+
+#WRITE(PTR, $0000177A)
+【倫太郎】
+Okay, then do your best. Are you going straight home afterwards?
+<END>
+
+#WRITE(PTR, $00001794)
+【まゆり】
+Yep.
+<END>
+
+#WRITE(PTR, $000017A4)
+Mayuri's parent's home is in Ikebukuro.
+<END>
+
+#WRITE(PTR, $000017B4)
+She takes the train to come here almost every day.
+<END>
+
+#WRITE(PTR, $000017C4)
+Since we're childhood friends, my real home is in Ikebukuro, as well.
+<END>
+
+#WRITE(PTR, $000017D4)
+Ever since the start of the summer holidays, I have been living in my lab.
+<END>
+
+#WRITE(PTR, $000017E4)
+【まゆり】
+Okay, then, see you tomorrow!
+<END>
+
+#WRITE(PTR, $00001800)
+I stop Mayuri, who was about to trot off.
+<END>
+
+#WRITE(PTR, $00001848)
+【倫太郎】
+... Mayuri. That time at the Radio Center... Did you hear a man's scream?
+<END>
+
+#WRITE(PTR, $00001858)
+【まゆり】
+A scream...?
+<END>
+
+#WRITE(PTR, $00001868)
+Mayuri blinks several times and puts her finger against her forehead, pretending to think hard. And then, she puts on the usual smile.
+<END>
+
+#WRITE(PTR, $00001878)
+【まゆり】
+When did that happen, again?
+<END>
+
+#WRITE(PTR, $00001888)
+【倫太郎】
+Today's noon.
+<END>
+
+#WRITE(PTR, $000018A2)
+【まゆり】
+I don't think I heard it.
+<END>
+
+#WRITE(PTR, $000018B2)
+【倫太郎】
+... Right. Okay then, I understand.
+<END>
+
+#WRITE(PTR, $000018CC)
+【まゆり】
+Okarin, you're weird.
+<END>
+
+#WRITE(PTR, $000018E6)
+【まゆり】
+Bye, then. Tutturu~♪
+<END>
+
+#WRITE(PTR, $00001902)
+Mayuri passes the archway and runs off while waving to me until I can't see her.
+<END>
+
+#WRITE(PTR, $0000194A)
+【るか】
+Okabe-san, sorry to keep you waiting.
+<END>
+
+#WRITE(PTR, $0000195A)
+As if to replace Mayuri, Lukako returns.
+<END>
+
+#WRITE(PTR, $0000196A)
+In his hand, he's holding the weird tufty thing.
+<END>
+
+#WRITE(PTR, $00001984)
+【るか】
+I was able to borrow it. What a relief.
+<END>
+
+#WRITE(PTR, $0000199E)
+【るか】
+Huh? Mayuri-chan left already?
+<END>
+
+#WRITE(PTR, $000019AE)
+【倫太郎】
+Lukako, don't worry about Mayuri and start the exorcism already!
+<END>
+
+#WRITE(PTR, $000019C8)
+【るか】
+Ah, yes. Are you really fine with me...? What exactly am I supposed to exorci
+<END>
+
+#WRITE(PTR, $000019DE)
+Lukako is getting nervous.
+<END>
+
+#WRITE(PTR, $000019EE)
+Right after I think about how unreliable he is, chills suddenly run down my spine.
+<END>
+
+#WRITE(PTR, $00001A1A)
+【倫太郎】
+Ugh, An evil spirit... Has possessed... Me...
+<END>
+
+#WRITE(PTR, $00001A2A)
+While violently shaking, I grab my own wrist.
+<END>
+
+#WRITE(PTR, $00001A3A)
+【倫太郎】
+Kuh... Calm down, you wicked being... Hurry, Lukako... At this rate, it will take control... of me...!
+<END>
+
+#WRITE(PTR, $00001A54)
+【るか】
+No, no way...! Okabe-san, please get a hold of yourself...!
+<END>
+
+#WRITE(PTR, $00001A64)
+【倫太郎】
+I am not Okabe-san...!
+<END>
+
+#WRITE(PTR, $00001A7E)
+【るか】
+I apologize, Kyouma-san...! Aah, but what should I do...?
+<END>
+
+#WRITE(PTR, $00001A8E)
+【倫太郎】
+The exorcism... Hurry...! Do it the same way... That I taught you...!
+<END>
+
+#WRITE(PTR, $00001AA8)
+【るか】
+Y-yes...!
+<END>
+
+#WRITE(PTR, $00001B0C)
+Lukako puts on a serious look, and tightly grips the Shide wand with both hands.
+<END>
+
+#WRITE(PTR, $00001B1C)
+His posture and expression makes him give off a powerful atmosphere.
+<END>
+
+#WRITE(PTR, $00001B2C)
+【るか】
+Uhm... I... Err...
+<END>
+
+#WRITE(PTR, $00001B3C)
+Lukako is stuttering with a completely red face.
+<END>
+
+#WRITE(PTR, $00001B4C)
+Looks like he's hesitating about what he's about to say.
+<END>
+
+#WRITE(PTR, $00001B5C)
+The embarrassment is making him panic... Kuh, damn this novice...!
+<END>
+
+#WRITE(PTR, $00001B6C)
+【倫太郎】
+Lu...ka... Please, drive out... the evil spirit... from inside me...!
+<END>
+
+#WRITE(PTR, $00001B7C)
+【倫太郎】
+I... don't want... to kill you...!
+<END>
+
+#WRITE(PTR, $00001B8C)
+【るか】
+Uuh...
+<END>
+
+#WRITE(PTR, $00001B9C)
+Lukako starts crying.
+<END>
+
+#WRITE(PTR, $00001BAC)
+Looks like he's really worrying.
+<END>
+
+#WRITE(PTR, $00001BBC)
+I am completely aware that he's a guy, but his actions and appearance make me feel guilt as if I just made a frail girl cry.
+<END>
+
+#WRITE(PTR, $00001BCC)
+But, as his eyes get filled with tears, it looks like he finally built up the resolve.
+<END>
+
+#WRITE(PTR, $00001BDC)
+【るか】
+E, evil spirit...!
+<END>
+
+#WRITE(PTR, $00001BEC)
+He raises the Shide wand high above his head, and then swings it left and right.
+<END>
+
+#WRITE(PTR, $00001BFC)
+【るか】
+Please leave from Okabe-- no, Kyouma-san's body...!
+<END>
+
+#WRITE(PTR, $00001C0C)
+【倫太郎】
+That's good, now hit my arm with the tufty stuff...!
+<END>
+
+#WRITE(PTR, $00001C6A)
+【るか】
+Eii!
+<END>
+
+#WRITE(PTR, $00001C7A)
+The end of the Shide wand hits my upper arm.
+<END>
+
+#WRITE(PTR, $00001C8A)
+In manga and such, this would be the cue for some dramatic shockwave to occur, but nothing like that happened.
+<END>
+
+#WRITE(PTR, $00001C9A)
+The only thing I hear are the cries of cicadas.
+<END>
+
+#WRITE(PTR, $00001CDA)
+【るか】
+H, how... was it?
+<END>
+
+#WRITE(PTR, $00001CEA)
+I deeply sigh.
+<END>
+
+#WRITE(PTR, $00001CFA)
+The shaking of my hand has stopped.
+<END>
+
+#WRITE(PTR, $00001D0A)
+【倫太郎】
+... It's fine. Looks like the evil spirit has left. Well done, Lukako.
+<END>
+
+#WRITE(PTR, $00001D24)
+After a sigh of relief, Lukako blushes.
+<END>
+
+#WRITE(PTR, $00001D34)
+【るか】
+I'm happy, to be of service...
+<END>
+
+#WRITE(PTR, $00001D44)
+That bashful appearance makes him look too feminine...
+<FILEEND3E>
+

@@ -1,0 +1,454 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000013CC)
+
+#WRITE(PTR, $000007D0)
+With the tournament over, I wait for Faris outside the hall.
+<END>
+
+#WRITE(PTR, $000007E0)
+I sent Daru home beforehand. After this, I inevitably have to tell Faris about Mayuri. I didn't want him to hear it.
+<END>
+
+#WRITE(PTR, $00000834)
+【フェイリス】
+Kyouma-!
+<END>
+
+#WRITE(PTR, $00000844)
+And, without caring what others might think, Faris waves her hand and rushes over to me.
+<END>
+
+#WRITE(PTR, $00000854)
+While wearing her maid clothes. Furthermore, her hand was carrying two bouquets.
+<END>
+
+#WRITE(PTR, $00000864)
+【倫太郎】
+Congratulations on your victory, Fa──
+<END>
+
+#WRITE(PTR, $00000968)
+Before I finished talking, Faris jumped at me.
+<END>
+
+#WRITE(PTR, $00000978)
+Suddenly both my arms support a light body weight and I feel something soft on my cheek, causing my head to go blank.
+<END>
+
+#WRITE(PTR, $00000988)
+A k... kiss? She kissed me?
+<END>
+
+#WRITE(PTR, $00000998)
+【フェイリス】
+Nyahuhu. That's thanks for today nyan.
+<END>
+
+#WRITE(PTR, $000009A8)
+Faris smiled innocently.
+<END>
+
+#WRITE(PTR, $000009B8)
+Pure joy overflows from my entire body.
+<END>
+
+#WRITE(PTR, $000009C8)
+【倫太郎】
+N-no... if your this is my thanks, that puts me in a little trouble.
+<END>
+
+#WRITE(PTR, $000009D8)
+【フェイリス】
+What's that nya? You mean a kiss isn't enough, so you want a date nyan? Man, Kyouma, you're so greedy nyan.
+<END>
+
+#WRITE(PTR, $000009E8)
+【フェイリス】
+Butbut, Faris wouldn't mind if you said so nya♪
+<END>
+
+#WRITE(PTR, $000009F8)
+Faris spreads an impish smile.
+<END>
+
+#WRITE(PTR, $00000A08)
+【倫太郎】
+It's great that my earplugs were of use to you.... So get off, it's hot.
+<END>
+
+#WRITE(PTR, $00000A64)
+I forcefully pry Faris' body off.
+<END>
+
+#WRITE(PTR, $00000A74)
+The spectators on their way home are looking at us.
+<END>
+
+#WRITE(PTR, $00000A8E)
+【フェイリス】
+Kyouma, apawlogies for doubting you nya-. If I believed Kyouma from the beginning, it wouldn't have been such a close game nya-.
+<END>
+
+#WRITE(PTR, $00000A9E)
+Faris bashfully paws at her head.
+<END>
+
+#WRITE(PTR, $00000AAE)
+I take that hand of hers and leave the scene.
+<END>
+
+#WRITE(PTR, $00000C68)
+When we get to the bridge, the tournament spectators are finally all gone.
+<END>
+
+#WRITE(PTR, $00000C78)
+【倫太郎】
+Faris. Will you listen to what I have to say now?
+<END>
+
+#WRITE(PTR, $00000C92)
+【フェイリス】
+Nya?
+<END>
+
+#WRITE(PTR, $00000CA2)
+【倫太郎】
+I wasn't the one who thought to bring you sunglasses and earplugs.
+<END>
+
+#WRITE(PTR, $00000CB2)
+【フェイリス】
+Really nya? Then who did──
+<END>
+
+#WRITE(PTR, $00000CC2)
+【倫太郎】
+You did.
+<END>
+
+#WRITE(PTR, $00000CD2)
+Faris tilts her head.
+<END>
+
+#WRITE(PTR, $00000CE2)
+【倫太郎】
+To be precise, the you two hours later. At first, you lost to the Viral Attackers' underhanded tactics.
+<END>
+
+#WRITE(PTR, $00000CF2)
+【倫太郎】
+And then you asked me to use my time machine to stop them.
+<END>
+
+#WRITE(PTR, $00000D0C)
+【フェイリス】
+Time machine...
+<END>
+
+#WRITE(PTR, $00000D1C)
+【倫太郎】
+This was a contract, so to speak. You almost remembered the D-mail you used to change the past even though you should've forgotten.
+<END>
+
+#WRITE(PTR, $00000D2C)
+【倫太郎】
+You said that you'd remember if you won the RaiNet tournament.
+<END>
+
+#WRITE(PTR, $00000D46)
+【フェイリス】
+???
+<END>
+
+#WRITE(PTR, $00000D56)
+【倫太郎】
+So? Do you remember? Please say you remember. This is important for me.
+<END>
+
+#WRITE(PTR, $00000D66)
+【フェイリス】
+Hm~
+<END>
+
+#WRITE(PTR, $00000D76)
+Faris stares into my eyes.
+<END>
+
+#WRITE(PTR, $00000D86)
+A glance like she was looking for something.
+<END>
+
+#WRITE(PTR, $00000D96)
+And then she puts her fingers to her lips in thought──
+<END>
+
+#WRITE(PTR, $00000DB0)
+Finally, she smiles blankly.
+<END>
+
+#WRITE(PTR, $00000DC0)
+【フェイリス】
+Maybe, Faris lied to you about that nya?
+<END>
+
+#WRITE(PTR, $00000DD0)
+【倫太郎】
+Haah?
+<END>
+
+#WRITE(PTR, $00000DE0)
+【フェイリス】
+Back then, Faris was depressed that she lost to the Virals, right? So, when she heard about the time machine, she thought she wanted to use that so she could win nya.
+<END>
+
+#WRITE(PTR, $00000DFA)
+【フェイリス】
+Because if she didn't, she would be too ashamed to meet Papa...
+<END>
+
+#WRITE(PTR, $00000E0A)
+【フェイリス】
+That's probably why she went along with Kyouma and said she remembered... that's what I think nya... That's probably what Faris would do nya.
+<END>
+
+#WRITE(PTR, $00000E1A)
+【倫太郎】
+No... way...
+<END>
+
+#WRITE(PTR, $00000E2A)
+Dammit! I was stupid to believe what this catgirl said!
+<END>
+
+#WRITE(PTR, $00000E3A)
+If I think about how she normally acts, I should've expected this!
+<END>
+
+#WRITE(PTR, $00000E4A)
+I sigh deeply and lean on the bridge's guardrail.
+<END>
+
+#WRITE(PTR, $00000E5A)
+So that solved nothing in the end, huh....
+<END>
+
+#WRITE(PTR, $00000E6A)
+I need to restore the world we warped no matter what.
+<END>
+
+#WRITE(PTR, $00000E7A)
+But I don't have a way to find out what was in Faris' D-mail.
+<END>
+
+#WRITE(PTR, $00000E8A)
+I don't know, Faris herself forgot, and it disappeared from her sent history.
+<END>
+
+#WRITE(PTR, $00000E9A)
+Just what do I do──
+<END>
+
+#WRITE(PTR, $00000EF0)
+【フェイリス】
+Kyouma.
+<END>
+
+#WRITE(PTR, $00000F00)
+And suddenly, Faris whispers into my ear.
+<END>
+
+#WRITE(PTR, $00000F10)
+【フェイリス】
+Look into Faris' eyes nya.
+<END>
+
+#WRITE(PTR, $00000F20)
+【倫太郎】
+What?
+<END>
+
+#WRITE(PTR, $00000F30)
+【フェイリス】
+Just look into them nya
+<END>
+
+#WRITE(PTR, $00000F4C)
+Faris' face was right beside mine. Her breath tickled my ear.
+<END>
+
+#WRITE(PTR, $00000F5C)
+Look at her from this close range?
+<END>
+
+#WRITE(PTR, $00000F6C)
+Does she plan to kiss me on the lips now?
+<END>
+
+#WRITE(PTR, $00000F7C)
+But Faris' face suddenly got serious, so gulp and do as told.
+<END>
+
+#WRITE(PTR, $00000F8C)
+I turn to Faris and stare into the eyes of the girl a head shorter than me.
+<END>
+
+#WRITE(PTR, $00000F9C)
+Faris looks up at me too.
+<END>
+
+#WRITE(PTR, $00000FAC)
+I-if an outsider saw us, they'd think we were a stupid couple lost in our own world....
+<END>
+
+#WRITE(PTR, $00000FBC)
+Seeing Faris' noble facial features up close, I was seriously fascinated.
+<END>
+
+#WRITE(PTR, $00000FCC)
+Wah... her eyelashes are really long.
+<END>
+
+#WRITE(PTR, $00000FE6)
+【フェイリス】
+Kyouma, are you tense?
+<END>
+
+#WRITE(PTR, $00000FFE)
+【倫太郎】
+Ummm, well right now, I'm calculating <DICT>Fermat's Last Theorem</DICT> in my head...
+<END>
+
+#WRITE(PTR, $0000100E)
+【フェイリス】
+So basically, you're tense.
+<END>
+
+#WRITE(PTR, $00001028)
+【フェイリス】
+Actually, Faris can use just one type of magic.
+<END>
+
+#WRITE(PTR, $00001038)
+【倫太郎】
+M-magic... you say...? Don't tell me that's...
+<END>
+
+#WRITE(PTR, $00001048)
+【フェイリス】
+I'm only telling this to Kyouma, but actually, Faris can read other people's minds nyan.
+<END>
+
+#WRITE(PTR, $00001060)
+【フェイリス】
+The Stand name is <DICT>Smile of the Chesire Cat</DICT>"Chesire Break"
+<END>
+
+#WRITE(PTR, $0000107A)
+【フェイリス】
+Whatcha think nya? Pawesome, nyan?
+<END>
+
+#WRITE(PTR, $0000108A)
+【倫太郎】
+...Only me? But the Virals just said it a while ago, didn't they?
+<END>
+
+#WRITE(PTR, $000010A4)
+【フェイリス】
+I didn't think they'd know about it nya.
+<END>
+
+#WRITE(PTR, $000010B4)
+I don't feel like denying ESP. Because I too have a special ability called Reading Steiner.
+<END>
+
+#WRITE(PTR, $000010CE)
+【フェイリス】
+Since I was small, I would steal a glance at Papa's business partners, and I could read what they were thinking nya.
+<END>
+
+#WRITE(PTR, $000010DE)
+【フェイリス】
+It's more like an intuition or a sixth sense nya. Through eye movements, facial expressions, or gestures, I would know 'Ah, this person just lied.'
+<END>
+
+#WRITE(PTR, $000010EE)
+【倫太郎】
+...So did you use that ability during the RaiNet tournament?
+<END>
+
+#WRITE(PTR, $00001108)
+【フェイリス】
+Yeah nya♪ Faris is an entertainyah. It's my style to always get into a pinch on purpose, and then make a huge turnabout nyan.
+<END>
+
+#WRITE(PTR, $00001118)
+【フェイリス】
+Also, if I wear sunglasses, then I can't read my opponent's thoughts nyan.
+<END>
+
+#WRITE(PTR, $00001128)
+Is that why you didn't put them on...
+<END>
+
+#WRITE(PTR, $00001138)
+【フェイリス】
+It's because of this power that I knew Kyouma wasn't lying this morning nya~
+<END>
+
+#WRITE(PTR, $00001148)
+【倫太郎】
+But at first, you wouldn't go along with me at all though.
+<END>
+
+#WRITE(PTR, $00001162)
+【フェイリス】
+I was just upset nya.
+<END>
+
+#WRITE(PTR, $00001172)
+It feels like she's just deceiving me though.
+<END>
+
+#WRITE(PTR, $00001182)
+【フェイリス】
+And, Kyouma's not lying now either nya.
+<END>
+
+#WRITE(PTR, $00001192)
+【倫太郎】
+......
+<END>
+
+#WRITE(PTR, $000011A2)
+【フェイリス】
+Faris used that "D-mail" thing and changed the past nya? I believe that nya.
+<END>
+
+#WRITE(PTR, $000011BC)
+【フェイリス】
+Faris would like to remember for Kyouma, but.... Apawlogies nya.
+<END>
+
+#WRITE(PTR, $000011CC)
+【フェイリス】
+I can't remember nyan....
+<END>
+
+#WRITE(PTR, $000011DC)
+【倫太郎】
+I... see...
+<END>
+
+#WRITE(PTR, $000011EC)
+We've come to a stalemate.
+<END>
+
+#WRITE(PTR, $000011FC)
+All I can do is look for other methods.
+<FILEEND2A>
+

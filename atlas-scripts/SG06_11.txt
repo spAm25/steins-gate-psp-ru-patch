@@ -1,0 +1,1297 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000275C)
+
+#WRITE(PTR, $000001FC)
+昼間に戻ってきた俺は、すぐには行動せずにソファに深々と腰を預け、じっと考え込んだ。
+<END>
+
+#WRITE(PTR, $0000020C)
+これだけ何度もまゆりの死を回避しようとしているのに、結果はすべて最悪の形で終わった。
+<END>
+
+#WRITE(PTR, $0000021C)
+しかも“まゆりの死”についての因果が、だんだんねじ曲がっている。
+<END>
+
+#WRITE(PTR, $0000022C)
+因果。つまり原因と結果。
+<END>
+
+#WRITE(PTR, $0000023C)
+まゆりの死の原因はなんだったか。
+<END>
+
+#WRITE(PTR, $00000328)
+“俺たちの作ったタイムマシンの回収のために、ＳＥＲＮが萌郁を含む刺客を差し向けた”
+<END>
+
+#WRITE(PTR, $00000338)
+それが俺の出した答えだ。
+<END>
+
+#WRITE(PTR, $000003A8)
+だが、タイムリープを繰り返してまゆりの死を回避しようとしたら。
+<END>
+
+#WRITE(PTR, $000003B8)
+その“原因”が大きくねじ曲がった。
+<END>
+
+#WRITE(PTR, $000004A4)
+新御茶ノ水駅での、天王寺{綯}[なえ]によるホームからの突き落とし。
+<END>
+
+#WRITE(PTR, $000004B4)
+これは、明らかにＳＥＲＮは関係ない。それは“偶然の事故”だ。
+<END>
+
+#WRITE(PTR, $00000524)
+まゆりを殺すのが誰か、というのも変化している。
+<END>
+
+#WRITE(PTR, $00000534)
+最初は萌郁だった。だがやがて、萌郁以外の人間にも殺されるようになった。
+<END>
+
+#WRITE(PTR, $00000544)
+これは、どういうことなのか。
+<END>
+
+#WRITE(PTR, $00000554)
+考えても、答えが出るわけがなかった。
+<END>
+
+#WRITE(PTR, $00000564)
+誰かに教えてほしかったが、答えられる人間はいないだろう。
+<END>
+
+#WRITE(PTR, $00000574)
+人類史上において、生きて時間の壁を越えた人間は俺しかいないのだから。
+<END>
+
+#WRITE(PTR, $00000584)
+……いや、１人いる。ジョン・タイター。
+<END>
+
+#WRITE(PTR, $00000594)
+だが、ヤツとコンタクトを取る術はない。
+<END>
+
+#WRITE(PTR, $000005A4)
+メールを送っても返事は来なくなってしまったし、＠ちゃんねるからも姿を消した。
+<END>
+
+#WRITE(PTR, $000005B4)
+そもそも、ヤツが本物のタイムトラベラーかどうかさえ、確信が持てないのだ。
+<END>
+
+#WRITE(PTR, $00000614)
+今回は逃げるのは諦めた。
+<END>
+
+#WRITE(PTR, $00000624)
+代わりに、別のアプローチを取ることにした。
+<END>
+
+#WRITE(PTR, $00000634)
+逃げるのがダメならば、こちらから仕掛けるのだ。
+<END>
+
+#WRITE(PTR, $00000644)
+萌郁に“タイムマシンについて大事な話があるから２人だけで会いたい”とメールを出した。
+<END>
+
+#WRITE(PTR, $00000784)
+場所はラジ館の屋上を指定した。
+<END>
+
+#WRITE(PTR, $00000794)
+封鎖されているラジ館。
+<END>
+
+#WRITE(PTR, $000007A4)
+いまだそこに人工衛星は突き刺さったまま。
+<END>
+
+#WRITE(PTR, $000007B4)
+けれどもう墜落から２週間以上が経っている。
+<END>
+
+#WRITE(PTR, $000007C4)
+警察による警備は皆無と言っていい。
+<END>
+
+#WRITE(PTR, $000007D4)
+人が多いにもかかわらず、あっさりと忍び込むことに成功した。
+<END>
+
+#WRITE(PTR, $000007E4)
+表のシャッターが半開きになっていたから、いかにも関係者ですという顔をして堂々とくぐり抜けてきただけだが。
+<END>
+
+#WRITE(PTR, $000007F4)
+ここに来るのは、ドクター中鉢の発表会以来だ。
+<END>
+
+#WRITE(PTR, $00000804)
+いや、この世界線では中鉢の発表会は中止されたのだったか。
+<END>
+
+#WRITE(PTR, $00000814)
+当然ながら、この場には俺以外は誰もいない。
+<END>
+
+#WRITE(PTR, $00000824)
+相手は容赦なく人を殺す外道だけに、これは危険な賭けだった。
+<END>
+
+#WRITE(PTR, $00000834)
+まして萌郁は銃を持っているかもしれないのだ。
+<END>
+
+#WRITE(PTR, $00000844)
+だがこちらとしても容赦するつもりはない。
+<END>
+
+#WRITE(PTR, $00000854)
+待ち合わせ時間は５時半。まだ２０分以上ある。
+<END>
+
+#WRITE(PTR, $00000864)
+早めに来たのは待ち伏せするためだ。
+<END>
+
+#WRITE(PTR, $00000874)
+俺はすでに３０分前から物陰に隠れ、じっと息を殺し続けていた。
+<END>
+
+#WRITE(PTR, $000008F0)
+ドアが開く音がして。
+<END>
+
+#WRITE(PTR, $00000944)
+萌郁が、１人で現れた。
+<END>
+
+#WRITE(PTR, $00000954)
+キョロキョロと見回している。
+<END>
+
+#WRITE(PTR, $00000964)
+俺にはまだ気付いていない。
+<END>
+
+#WRITE(PTR, $00000974)
+俺はシャツの中から、銃を取り出した。
+<END>
+
+#WRITE(PTR, $00000984)
+それは本物ではない。
+<END>
+
+#WRITE(PTR, $00000994)
+未来ガジェット１号機。『ビット粒子砲』である。
+<END>
+
+#WRITE(PTR, $000009A4)
+“砲”という名前ではあるが、見た目はオモチャの光線銃である。
+<END>
+
+#WRITE(PTR, $000009B4)
+テレビのリモコンを無理矢理内蔵させている。
+<END>
+
+#WRITE(PTR, $000009C4)
+もちろん殺傷能力はゼロだ。
+<END>
+
+#WRITE(PTR, $000009D4)
+どう見てもハッタリだが、時間がなかったからこれしか用意できなかったのだ。
+<END>
+
+#WRITE(PTR, $00000A42)
+俺は萌郁の背中側からダッシュで駆け寄った。
+<END>
+
+#WRITE(PTR, $00000A52)
+振り返ろうとする萌郁の背中に、『ビット粒子砲』を突き付ける。
+<END>
+
+#WRITE(PTR, $00000A62)
+【倫太郎】
+Don't move.
+<END>
+
+#WRITE(PTR, $00000AAA)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000ABA)
+【倫太郎】
+Raise your arms.
+<END>
+
+#WRITE(PTR, $00000ACA)
+Just like a Hollywood movie.
+<END>
+
+#WRITE(PTR, $00000ADA)
+But the tension was unusual.
+<END>
+
+#WRITE(PTR, $00000AEA)
+This isn't a movie. She's not an actress.
+<END>
+
+#WRITE(PTR, $00000AFA)
+This is reality. She's a murderer.
+<END>
+
+#WRITE(PTR, $00000B0A)
+After Moeka silently raises her hands, I grope her clothes.
+<END>
+
+#WRITE(PTR, $00000B1A)
+Sure enough, she was hiding a gun.
+<END>
+
+#WRITE(PTR, $00000B2A)
+I take it away and exchange it with Bit Particle Gun.
+<END>
+
+#WRITE(PTR, $00000B3A)
+【倫太郎】
+How unfortunate. That first gun was a toy.
+<END>
+
+#WRITE(PTR, $00000B54)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000B64)
+【倫太郎】
+I want to hear your story. I know you're SERN's assassin.
+<END>
+
+#WRITE(PTR, $00000B74)
+【萌郁】
+...how?
+<END>
+
+#WRITE(PTR, $00000B84)
+【倫太郎】
+You want to know? You fucking want to know...!?
+<END>
+
+#WRITE(PTR, $00000B94)
+I boil over with frustration and rage.
+<END>
+
+#WRITE(PTR, $00000BA4)
+Because of her....
+<END>
+
+#WRITE(PTR, $00000BB4)
+Because of her, Mayuri...!
+<END>
+
+#WRITE(PTR, $00000BC4)
+【倫太郎】
+I came from the future in the time machine...!
+<END>
+
+#WRITE(PTR, $00000BD4)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000BE4)
+【倫太郎】
+You think I'm kidding? But I've already repeated this same time four or five times over.
+<END>
+
+#WRITE(PTR, $00000BF4)
+I don't remember how many times any more.
+<END>
+
+#WRITE(PTR, $00000C04)
+It feels like I've looped dozens of hours.
+<END>
+
+#WRITE(PTR, $00000C14)
+I haven't slept at all that entire time.
+<END>
+
+#WRITE(PTR, $00000C24)
+Strangely, I'm not sleepy at all.
+<END>
+
+#WRITE(PTR, $00000C34)
+【倫太郎】
+That's why I know what you guys are going to do.
+<END>
+
+#WRITE(PTR, $00000C44)
+【倫太郎】
+Past 7, the trains stop. Because of a bomb threat.
+<END>
+
+#WRITE(PTR, $00000C5E)
+【萌郁】
+...
+<END>
+
+#WRITE(PTR, $00000C6E)
+Moeka loses her breath.
+<END>
+
+#WRITE(PTR, $00000C7E)
+So it was their doing after all.
+<END>
+
+#WRITE(PTR, $00000C8E)
+【倫太郎】
+I also know that today, you and your friends will attack the lab.
+<END>
+
+#WRITE(PTR, $00000C9E)
+【倫太郎】
+And also that you kill Mayuri there...!
+<END>
+
+#WRITE(PTR, $00000CAE)
+【萌郁】
+I...
+<END>
+
+#WRITE(PTR, $00000CBE)
+【倫太郎】
+Understand? I'm a Time Leaper.
+<END>
+
+#WRITE(PTR, $00000CD8)
+Moeka nods faintly.
+<END>
+
+#WRITE(PTR, $00000CE8)
+I can easily kill her here and now. But I don't.
+<END>
+
+#WRITE(PTR, $00000CF8)
+First I need to get her to talk.
+<END>
+
+#WRITE(PTR, $00000D08)
+【倫太郎】
+What are you guys to SERN?
+<END>
+
+#WRITE(PTR, $00000D18)
+【萌郁】
+...'Rounders'
+<END>
+
+#WRITE(PTR, $00000D28)
+Moeka answers with surprising obedience.
+<END>
+
+#WRITE(PTR, $00000D38)
+She easily steals other peoples lives, but values her own.
+<END>
+
+#WRITE(PTR, $00000D48)
+【倫太郎】
+Rounders? Just what kind of organization is that? How is it related to SERN?
+<END>
+
+#WRITE(PTR, $00000D62)
+【萌郁】
+...by mail.
+<END>
+
+#WRITE(PTR, $00000D72)
+【倫太郎】
+No. Explain verbally.
+<END>
+
+#WRITE(PTR, $00000D82)
+【萌郁】
+...The Rounders
+<END>
+
+#WRITE(PTR, $00000D92)
+【萌郁】
+Are a separate organization from SERN.
+<END>
+
+#WRITE(PTR, $00000DA2)
+【萌郁】
+We don't come out publicly.
+<END>
+
+#WRITE(PTR, $00000DB2)
+【萌郁】
+That's how we operate.
+<END>
+
+#WRITE(PTR, $00000DC2)
+【倫太郎】
+A secret mercenary force?
+<END>
+
+#WRITE(PTR, $00000DD2)
+【萌郁】
+...No.
+<END>
+
+#WRITE(PTR, $00000DE2)
+【萌郁】
+IBN 5100.
+<END>
+
+#WRITE(PTR, $00000DF2)
+【萌郁】
+In order to gather information on them and retrieve them,
+<END>
+
+#WRITE(PTR, $00000E02)
+【萌郁】
+We spread across the globe.
+<END>
+
+#WRITE(PTR, $00000E12)
+【萌郁】
+We collect them.
+<END>
+
+#WRITE(PTR, $00000E22)
+IBN 5100....
+<END>
+
+#WRITE(PTR, $00000E32)
+Now that she mentions it, she has always been obsessed with that retro PC.
+<END>
+
+#WRITE(PTR, $00000E42)
+Furthermore, SERN's database uses those IBN 5100s.
+<END>
+
+#WRITE(PTR, $00000E52)
+That computer has a premium attached to it.
+<END>
+
+#WRITE(PTR, $00000E62)
+It's difficult to obtain.
+<END>
+
+#WRITE(PTR, $00000E72)
+Is it because these guys have a worldwide monopoly on them?
+<END>
+
+#WRITE(PTR, $00000E82)
+【倫太郎】
+What's the scale of the Rounders?
+<END>
+
+#WRITE(PTR, $00000E9C)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $00000EAC)
+【倫太郎】
+Answer me!
+<END>
+
+#WRITE(PTR, $00000EBC)
+【萌郁】
+I don't know...
+<END>
+
+#WRITE(PTR, $00000ECC)
+【萌郁】
+Because I'm peripheral.
+<END>
+
+#WRITE(PTR, $00000EDC)
+So she's only a peripheral member, then....
+<END>
+
+#WRITE(PTR, $00000EEC)
+【倫太郎】
+So you were the one who stole my IBN 5100 after all?
+<END>
+
+#WRITE(PTR, $00000EFC)
+Moeka doesn't answer.
+<END>
+
+#WRITE(PTR, $00000F0C)
+【倫太郎】
+Why information on the IBN 5100? Anti-hacking measures?
+<END>
+
+#WRITE(PTR, $00000F26)
+【萌郁】
+Preservation of confidentiality.
+<END>
+
+#WRITE(PTR, $00000F36)
+【萌郁】
+It's the highest priority...
+<END>
+
+#WRITE(PTR, $00000F46)
+【萌郁】
+For SERN.
+<END>
+
+#WRITE(PTR, $00000F56)
+【倫太郎】
+Just what are they hiding?
+<END>
+
+#WRITE(PTR, $00000F66)
+【倫太郎】
+Even by hacking with a normal PC, we could see that they killed hundreds of human test subjects in their time travel experiments.
+<END>
+
+#WRITE(PTR, $00000F76)
+【倫太郎】
+You mean their IBN 5100 database has even more classified information!?
+<END>
+
+#WRITE(PTR, $00000F90)
+【萌郁】
+I don't know...
+<END>
+
+#WRITE(PTR, $00000FA0)
+【倫太郎】
+Because you're peripheral?
+<END>
+
+#WRITE(PTR, $00000FB0)
+I said so sarcastically, but Moeka nodded.
+<END>
+
+#WRITE(PTR, $00000FC0)
+Damn. Useless bitch.
+<END>
+
+#WRITE(PTR, $00000FD0)
+【倫太郎】
+Why did you attack the lab? No, for you, it's 'Why will you attack the lab'?
+<END>
+
+#WRITE(PTR, $00000FEA)
+【萌郁】
+...you should know.
+<END>
+
+#WRITE(PTR, $00000FFA)
+【倫太郎】
+...Because we hacked into SERN?
+<END>
+
+#WRITE(PTR, $0000100A)
+【萌郁】
+Three reasons.
+<END>
+
+#WRITE(PTR, $0000101A)
+【萌郁】
+First. Because you knew. All of you.
+<END>
+
+#WRITE(PTR, $0000102A)
+【萌郁】
+Something you shouldn't know.
+<END>
+
+#WRITE(PTR, $0000103A)
+So they did find out about the hacking....
+<END>
+
+#WRITE(PTR, $0000104A)
+【萌郁】
+And the time machine.
+<END>
+
+#WRITE(PTR, $0000105A)
+【萌郁】
+That you guys made.
+<END>
+
+#WRITE(PTR, $0000106A)
+They want to steal that, huh.
+<END>
+
+#WRITE(PTR, $0000107A)
+It seems SERN wants a monopoly on time machine technology to the very end.
+<END>
+
+#WRITE(PTR, $00001094)
+【萌郁】
+The decisive reason:
+<END>
+
+#WRITE(PTR, $000010A4)
+【萌郁】
+You guys tried to announce that time machine to the world.
+<END>
+
+#WRITE(PTR, $000010B4)
+Why does she know that much....
+<END>
+
+#WRITE(PTR, $000010C4)
+We decided that right after the Time Leap Machine was completed.
+<END>
+
+#WRITE(PTR, $000010D4)
+Basically, three hours ago.
+<END>
+
+#WRITE(PTR, $000010E4)
+【萌郁】
+That's why, all members, to be restrained...
+<END>
+
+#WRITE(PTR, $000010F4)
+【倫太郎】
+Restrained? You killed Mayuri!
+<END>
+
+#WRITE(PTR, $00001104)
+【萌郁】
+She is unnecessary.
+<END>
+
+#WRITE(PTR, $00001114)
+I flip out at that word.
+<END>
+
+#WRITE(PTR, $00001124)
+I nearly pulled the trigger.
+<END>
+
+#WRITE(PTR, $00001134)
+【萌郁】
+The ones who made the time machine are you, Makise, and Hashida.
+<END>
+
+#WRITE(PTR, $00001144)
+【萌郁】
+It doesn't matter if we kill her.
+<END>
+
+#WRITE(PTR, $00001154)
+【萌郁】
+That's what I was told.
+<END>
+
+#WRITE(PTR, $00001164)
+【倫太郎】
+What do you plan to do after restraining us?
+<END>
+
+#WRITE(PTR, $00001174)
+【萌郁】
+Confine you in SERN's facilities, and force you to research time machines...
+<END>
+
+#WRITE(PTR, $00001184)
+【倫太郎】
+So you're going that and crush all of SERN's time machine research competition?
+<END>
+
+#WRITE(PTR, $0000119E)
+【萌郁】
+...I was just ordered to retrieve.
+<END>
+
+#WRITE(PTR, $000011AE)
+【倫太郎】
+It was a mistake to consider you a friend for even a second.
+<END>
+
+#WRITE(PTR, $000011BE)
+【萌郁】
+...For SERN. Everything.
+<END>
+
+#WRITE(PTR, $000011CE)
+【萌郁】
+...FB's orders. Everything.
+<END>
+
+#WRITE(PTR, $000011DE)
+【萌郁】
+...I'll do anything. If FB tells me to.
+<END>
+
+#WRITE(PTR, $000011EE)
+FB....
+<END>
+
+#WRITE(PTR, $000011FE)
+Is that her superior's name?
+<END>
+
+#WRITE(PTR, $00001218)
+【萌郁】
+Okabe-kun.
+<END>
+
+#WRITE(PTR, $00001228)
+【萌郁】
+...Are you?
+<END>
+
+#WRITE(PTR, $00001238)
+【萌郁】
+...John Titor.
+<END>
+
+#WRITE(PTR, $00001248)
+【倫太郎】
+...What?
+<END>
+
+#WRITE(PTR, $00001258)
+John Titor?
+<END>
+
+#WRITE(PTR, $00001268)
+【萌郁】
+I can't think of anyone. But you...
+<END>
+
+#WRITE(PTR, $00001278)
+Me?
+<END>
+
+#WRITE(PTR, $00001288)
+【倫太郎】
+How absurd.
+<END>
+
+#WRITE(PTR, $00001298)
+I press the gun into Moeka's back more strongly.
+<END>
+
+#WRITE(PTR, $000012A8)
+【倫太郎】
+More importantly, if you don't feel like dying, call your off your friends and that FB guy. Cancel the lab attack.
+<END>
+
+#WRITE(PTR, $000012C2)
+Moeka shakes her head left and right.
+<END>
+
+#WRITE(PTR, $000012D2)
+【萌郁】
+I don't have the authority.
+<END>
+
+#WRITE(PTR, $000012E2)
+【倫太郎】
+Like I give a shit. Just do something, authority or not. Or else...
+<END>
+
+#WRITE(PTR, $000012F2)
+【倫太郎】
+I'll kill you.
+<END>
+
+#WRITE(PTR, $00001302)
+I can't kill her.
+<END>
+
+#WRITE(PTR, $00001312)
+I'm not a murderer.
+<END>
+
+#WRITE(PTR, $00001322)
+Honestly, my hands are trembling just like Moeka's did when she attacked the lab.
+<END>
+
+#WRITE(PTR, $00001332)
+【倫太郎】
+Why... did you kill...
+<END>
+
+#WRITE(PTR, $00001342)
+Even though her hands were trembling back then.
+<END>
+
+#WRITE(PTR, $00001352)
+Even though murder is a dreadful thing.
+<END>
+
+#WRITE(PTR, $00001362)
+Right now, when I said "I'll kill you», the trembling got even stronger.
+<END>
+
+#WRITE(PTR, $00001372)
+【倫太郎】
+You didn't want to do that either, did you? So why...
+<END>
+
+#WRITE(PTR, $0000138C)
+【萌郁】
+I
+<END>
+
+#WRITE(PTR, $0000139C)
+【萌郁】
+...just obey
+<END>
+
+#WRITE(PTR, $000013AC)
+【萌郁】
+FB.
+<END>
+
+#WRITE(PTR, $000013BC)
+【倫太郎】
+Then just bring that FB bastard here.
+<END>
+
+#WRITE(PTR, $000013CC)
+Moeka shakes her head again.
+<END>
+
+#WRITE(PTR, $000013DC)
+【倫太郎】
+Just tell me his circumstances or else──
+<END>
+
+#WRITE(PTR, $000013F6)
+【萌郁】
+...that's impossible.
+<END>
+
+#WRITE(PTR, $00001406)
+【萌郁】
+Meeting with FB──
+<END>
+
+#WRITE(PTR, $0000142C)
+Something hard is pushed onto my back.
+<END>
+
+#WRITE(PTR, $0000143C)
+I get the chills.
+<END>
+
+#WRITE(PTR, $0000144C)
+I didn't notice any signs at all.
+<END>
+
+#WRITE(PTR, $0000145C)
+Someone is behind me....
+<END>
+
+#WRITE(PTR, $00001478)
+【ラウンダーＡ】
+Throw the gun away.
+<END>
+
+#WRITE(PTR, $00001488)
+A man's voice.
+<END>
+
+#WRITE(PTR, $00001498)
+Moeka's comrade...?
+<END>
+
+#WRITE(PTR, $000014A8)
+【倫太郎】
+That's dirty, Kiryuu Moeka...!
+<END>
+
+#WRITE(PTR, $000014B8)
+Regrettably, I was still about to pull the trigger.
+<END>
+
+#WRITE(PTR, $000014C8)
+【倫太郎】
+Didn't we promise to meet alone...!?
+<END>
+
+#WRITE(PTR, $000014D8)
+【萌郁】
+......
+<END>
+
+#WRITE(PTR, $000014E8)
+Moeka doesn't answer.
+<END>
+
+#WRITE(PTR, $000014F8)
+【ラウンダーＡ】
+Just throw the gun away.
+<END>
+
+#WRITE(PTR, $00001508)
+【倫太郎】
+I'll give you the time machine. Just don't kill anyone.
+<END>
+
+#WRITE(PTR, $00001522)
+【萌郁】
+Even then──
+<END>
+
+#WRITE(PTR, $00001532)
+Even though I'm still thrusting a gun at her, Moeka ignores it and looks back at me.
+<END>
+
+#WRITE(PTR, $00001542)
+Expressionless.
+<END>
+
+#WRITE(PTR, $00001552)
+Cold eyes.
+<END>
+
+#WRITE(PTR, $00001562)
+【萌郁】
+You'll be confined...
+<END>
+
+#WRITE(PTR, $00001572)
+【萌郁】
+And never let loose.
+<END>
+
+#WRITE(PTR, $00001582)
+Moeka takes the gun from my hand.
+<END>
+
+#WRITE(PTR, $00001592)
+She takes it back while I'm unable to resist.
+<END>
+
+#WRITE(PTR, $000015A2)
+【倫太郎】
+Please...
+<END>
+
+#WRITE(PTR, $000015B2)
+【倫太郎】
+I apologize for hacking... so please don't kill anyone...
+<END>
+
+#WRITE(PTR, $000019AC)
+I suddenly take a strong impact to the back of the head and collapse on the spot.
+<END>
+
+#WRITE(PTR, $000019BC)
+My consciousness fades.
+<END>
+
+#WRITE(PTR, $000019CC)
+【ラウンダーＡ】
+Target B secured. Retrieval please.
+<END>
+
+#WRITE(PTR, $000019DC)
+I knew it was useless.
+<END>
+
+#WRITE(PTR, $000019EC)
+Even if Moeka's group doesn't kill her.
+<END>
+
+#WRITE(PTR, $00001A34)
+Mayuri will be killed by the world.
+<END>
+
+#WRITE(PTR, $00001A44)
+That's surely what the world has decided.
+<END>
+
+#WRITE(PTR, $00001A54)
+That's Steins;Gate's choice.
+<END>
+
+#WRITE(PTR, $00001A70)
+...What do you mean, Steins;Gate? You retarded?
+<END>
+
+#WRITE(PTR, $00001A80)
+There's no such thing.
+<END>
+
+#WRITE(PTR, $00001A90)
+There's no meaning to those words.
+<END>
+
+#WRITE(PTR, $00001AA0)
+It's just my catch phrase.
+<END>
+
+#WRITE(PTR, $00001AB0)
+But──
+<END>
+
+#WRITE(PTR, $00001AC0)
+Fate certainly exists.
+<END>
+
+#WRITE(PTR, $00001AD0)
+The will of the world. Natural providence. In other words, an absolute force that humans cannot oppose.
+<END>
+
+#WRITE(PTR, $00001B36)
+I wake up in a station wagon.
+<END>
+
+#WRITE(PTR, $00001B46)
+I'm lying down in the rear seat.
+<END>
+
+#WRITE(PTR, $00001B56)
+The windows are all coated with a black film, so with a single glance, I can't tell where we are or what's inside.
+<END>
+
+#WRITE(PTR, $00001B66)
+I feel a throbbing pain in the back of my head.
+<END>
+
+#WRITE(PTR, $00001B76)
+My hands are tied behind me.
+<END>
+
+#WRITE(PTR, $00001B92)
+What time is it now?
+<END>
+
+#WRITE(PTR, $00001BA2)
+How long have I been unconscious?
+<END>
+
+#WRITE(PTR, $00001BB2)
+Aside from me, there's another man inside the car.
+<END>
+
+#WRITE(PTR, $00001BC2)
+I recognize him from a previous time leap. He's the one that stabbed Mayuri to death when we tried to escape by taxi.
+<END>
+
+#WRITE(PTR, $00001BD2)
+So he was one of Moeka's comrades after all.
+<END>
+
+#WRITE(PTR, $00001BE2)
+The man seems to have noticed I've woken up, but he doesn't call out to me.
+<END>
+
+#WRITE(PTR, $00001BF2)
+He just wordlessly shows me his gun.
+<END>
+
+#WRITE(PTR, $00001C02)
+As long as I have this, you can't run away.
+<END>
+
+#WRITE(PTR, $00001C12)
+It's like he said that.
+<END>
+
+#WRITE(PTR, $00001C22)
+The car's clock says it's past 7.
+<END>
+
+#WRITE(PTR, $00001C32)
+I look out the window again.
+<END>
+
+#WRITE(PTR, $00001C42)
+It seems the car's parked on Kuramae-hashi Dori.
+<END>
+
+#WRITE(PTR, $00001C52)
+Meaning we're close to the lab.
+<END>
+
+#WRITE(PTR, $00001C62)
+Has Moeka already attacked?
+<END>
+
+#WRITE(PTR, $00001C72)
+I told all lab mems including Mayuri to escape beforehand.
+<END>
+
+#WRITE(PTR, $00001C82)
+She probably won't be killed by Moeka's group.
+<END>
+
+#WRITE(PTR, $00001C92)
+While that might be true, I don't know if I saved Mayuri or not.
+<END>
+
+#WRITE(PTR, $00001CA2)
+At this rate, Moeka's going to take the Time Leap Machine away.
+<END>
+
+#WRITE(PTR, $00001CB2)
+What'll happen then?
+<END>
+
+#WRITE(PTR, $00001CC2)
+I'm fine as long as Mayuri is saved.
+<END>
+
+#WRITE(PTR, $00001CD2)
+But the will of the world will probably kill her.
+<END>
+
+#WRITE(PTR, $00001CE2)
+Since I have the Time Leap Machine, I can still do trial and error.
+<END>
+
+#WRITE(PTR, $00001CF2)
+I plan to keep time leaping until Mayuri is saved.
+<END>
+
+#WRITE(PTR, $00001D02)
+But if they take away the machine, then the future will be decided.
+<END>
+
+#WRITE(PTR, $00001D12)
+The future without Mayuri.
+<END>
+
+#WRITE(PTR, $00001D22)
+As long as I can time leap, I can undo everything.
+<END>
+
+#WRITE(PTR, $00001D32)
+Even if I get shot here and now, there's no problem as long as it's not an instant kill.
+<END>
+
+#WRITE(PTR, $00001D48)
+【倫太郎】
+Aaaaahhhhhh────！
+<END>
+
+#WRITE(PTR, $00001E10)
+It's a hard fight since my bound hands restricts me to headbutts and kicks.
+<END>
+
+#WRITE(PTR, $00001E20)
+I got hit by a bullet. The bleeding in my neck and chest won't stop, but neither will the adrenaline. I don't feel that much pain.
+<END>
+
+#WRITE(PTR, $00001E30)
+Since I can move, I guess it's not a fatal wound.
+<END>
+
+#WRITE(PTR, $00001E40)
+I go to the lab with my hands still tied.
+<END>
+
+#WRITE(PTR, $00001E50)
+I'm afraid I might not be able to input the Time Leap Machine's settings in this condition.
+<END>
+
+#WRITE(PTR, $00001EF0)
+Mayuri, Kurisu, and Daru are in the lab.
+<END>
+
+#WRITE(PTR, $00001F00)
+And so are Moeka, and her fellow men.
+<END>
+
+#WRITE(PTR, $00001F10)
+When I open the door and rush in, everyone looks at me in surprise.
+<END>
+
+#WRITE(PTR, $00001F58)
+【まゆり】
+Okarin!
+<END>
+
+#WRITE(PTR, $00001FB2)
+Mayuri sees my tattered body, rushing over to me while shedding tears.
+<END>
+
+#WRITE(PTR, $00001FC2)
+Stop──
+<END>
+
+#WRITE(PTR, $00001FD2)
+I try to stop that careless action.
+<END>
+
+#WRITE(PTR, $0000201A)
+Moeka points her gun at Mayuri in the corner of my vision.
+<END>
+
+#WRITE(PTR, $0000202A)
+I force my way through the trajectory.
+<END>
+
+#WRITE(PTR, $0000203A)
+I cover Mayuri.
+<END>
+
+#WRITE(PTR, $000020E6)
+But a man pulls me down from behind──
+<END>
+
+#WRITE(PTR, $00002102)
+【まゆり】
+「ぁっ├┤！」
+<END>
+
+#WRITE(PTR, $0000211E)
+まゆりの小さな身体が、俺の目の前に倒れた。
+<END>
+
+#WRITE(PTR, $0000212E)
+見開いたまま、俺に向けられている瞳。
+<END>
+
+#WRITE(PTR, $0000213E)
+涙で濡れた、その瞳。
+<END>
+
+#WRITE(PTR, $0000214E)
+もう、光は失われていて。
+<END>
+
+#WRITE(PTR, $0000215E)
+また、この結果なのか……。
+<END>
+
+#WRITE(PTR, $0000216E)
+また├┤
+<END>
+
+#WRITE(PTR, $0000217E)
+また├┤！
+<END>
+
+#WRITE(PTR, $0000218E)
+その後に起きたことは同じだった。
+<END>
+
+#WRITE(PTR, $0000219E)
+鈴羽が現れて『ラウンダー』の男たちを全員倒し、俺は紅莉栖の助けを借りてタイムリープする├┤
+<END>
+
+#WRITE(PTR, $0000236E)
+TL08.PMF
+<FILEENDA8>
+
