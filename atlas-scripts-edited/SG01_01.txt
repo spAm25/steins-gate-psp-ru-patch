@@ -103,7 +103,7 @@ However the Future Gadget Laboratory has a serious lack of capable staff but we 
 <END>
 
 #WRITE(PTR, $0000049E)
-【Rintaro】... Lab Members. Including me we make up a grand total of 3.
+【Rintaro】...Lab Members. Including me we make up a grand total of 3.
 <END>
 
 #WRITE(PTR, $000004AE)

@@ -60,7 +60,7 @@ They all seem to be going towards the Central Street which is still off limits.
 <END>
 
 #WRITE(PTR, $00001124)
-【Daru】Even if I go there I won't be able to see it. And anyway I'm constantly monitoring the net for any news about it. The number of threads on @chan has already exceeded 100 and that's awesome!
+【Itaru】Even if I go there I won't be able to see it. And anyway I'm constantly monitoring the net for any news about it. The number of threads on @chan has already exceeded 100 and that's awesome!
 <END>
 
 #WRITE(PTR, $000011DA)
@@ -72,7 +72,7 @@ Upon entering Daibiru we take the elevator towards the ATF assembly hall at the 
 <END>
 
 #WRITE(PTR, $000012A4)
-【Daru】Ahhh... it's so cool. I'm coming back to life. abababababa...
+【Itaru】Ahhh... it's so cool. I'm coming back to life. abababababa...
 <END>
 
 #WRITE(PTR, $000012B4)
@@ -88,7 +88,7 @@ There's more than one reason for why were going to ATF to participate in this.
 <END>
 
 #WRITE(PTR, $000012F2)
-【Daru】It's annoying so can you stop using the "(Temp)" already?
+【Itaru】It's annoying so can you stop using the "(Temp)" already?
 <END>
 
 #WRITE(PTR, $00001302)
@@ -100,7 +100,7 @@ That will not shake my resolution. Even if no other lab members say it I will ke
 <END>
 
 #WRITE(PTR, $00001330)
-【Daru】So did you come up with some ridiculous theory again?
+【Itaru】So did you come up with some ridiculous theory again?
 <END>
 
 #WRITE(PTR, $00001340)
@@ -108,7 +108,7 @@ That will not shake my resolution. Even if no other lab members say it I will ke
 <END>
 
 #WRITE(PTR, $0000135E)
-【Daru】By "transcended all the things in nature" you mean that you're talking about whatever you want huh? I wouldn't even call that theorizing.
+【Itaru】By "transcended all the things in nature" you mean that you're talking about whatever you want huh? I wouldn't even call that theorizing.
 <END>
 
 #WRITE(PTR, $0000136E)
@@ -116,7 +116,7 @@ That will not shake my resolution. Even if no other lab members say it I will ke
 <END>
 
 #WRITE(PTR, $0000137E)
-【Daru】That Stein-whatever doesn't even have a proper meaning.
+【Itaru】That Stein-whatever doesn't even have a proper meaning.
 <END>
 
 #WRITE(PTR, $000013FA)
@@ -260,7 +260,7 @@ She doesn't seem like an injured person at all.
 <END>
 
 #WRITE(PTR, $00001CB4)
-【Kurisu】... What?
+【Kurisu】...What?
 <END>
 
 #WRITE(PTR, $00001CC4)
@@ -268,7 +268,7 @@ She doesn't seem like an injured person at all.
 <END>
 
 #WRITE(PTR, $00001D0C)
-【Daru】That story again?
+【Itaru】That story again?
 <END>
 
 #WRITE(PTR, $00001D1C)
@@ -284,7 +284,7 @@ And he just said something weird.
 <END>
 
 #WRITE(PTR, $00001D4C)
-【Daru】You sent me a mail like that a week ago.
+【Itaru】You sent me a mail like that a week ago.
 <END>
 
 #WRITE(PTR, $00001D5C)
@@ -300,7 +300,7 @@ And he just said something weird.
 <END>
 
 #WRITE(PTR, $00001DA0)
-【Daru】Speaking of which that mail was very weird. The date said that it was sent "after" 1 week. Which implies that it came from the future...
+【Itaru】Speaking of which that mail was very weird. The date said that it was sent "after" 1 week. Which implies that it came from the future...
 <END>
 
 #WRITE(PTR, $00001DF0)
@@ -312,7 +312,7 @@ And he just said something weird.
 <END>
 
 #WRITE(PTR, $00001E1E)
-【Daru】I'm not! The date definitely said that it came from after 1 week! Uhm that's uh 28th...
+【Itaru】I'm not! The date definitely said that it came from after 1 week! Uhm that's uh 28th...
 <END2>
 
 #WRITE(PTR, $00001E38)
@@ -424,7 +424,7 @@ I can actually feel the cuticles her silk-like hair.
 <END>
 
 #WRITE(PTR, $0000234C)
-【Daru】O-Okarin... Ain't that a bit dangerous?
+【Itaru】O-Okarin... Ain't that a bit dangerous?
 <END>
 
 #WRITE(PTR, $000023EE)
@@ -488,7 +488,7 @@ She pushes my hand aside.
 <END>
 
 #WRITE(PTR, $000026E2)
-【Daru】That's <DICT>Louise-chan</DICT>'s famous line!
+【Itaru】That's <DICT>Louise-chan</DICT>'s famous line!
 <END>
 
 #WRITE(PTR, $000026F2)
@@ -528,7 +528,7 @@ I give her a thorough explanation of that.
 <END>
 
 #WRITE(PTR, $000028B4)
-【Daru】What are you talking about Okarin? Nakabachi's presentation was cancelled.
+【Itaru】What are you talking about Okarin? Nakabachi's presentation was cancelled.
 <END>
 
 #WRITE(PTR, $000028C4)
@@ -536,7 +536,7 @@ I give her a thorough explanation of that.
 <END>
 
 #WRITE(PTR, $000028D4)
-【Daru】Yep. Because of the satellite crashing.
+【Itaru】Yep. Because of the satellite crashing.
 <END>
 
 #WRITE(PTR, $000028E4)
@@ -568,7 +568,7 @@ Is this another conspiracy of the Organization?
 <END>
 
 #WRITE(PTR, $00002968)
-【Daru】But that's wrong completely...
+【Itaru】But that's wrong completely...
 <END>
 
 #WRITE(PTR, $00002978)
@@ -600,7 +600,7 @@ Kurisu throws me a glare takes a deep breath and heads towards the small confere
 <END>
 
 #WRITE(PTR, $00002A42)
-【Daru】Okarin let's just go for now...
+【Itaru】Okarin let's just go for now...
 <END>
 
 #WRITE(PTR, $00002A52)
@@ -608,7 +608,7 @@ Kurisu throws me a glare takes a deep breath and heads towards the small confere
 <END>
 
 #WRITE(PTR, $00002A6C)
-【Daru】We came here to listen to a lecture genius.
+【Itaru】We came here to listen to a lecture genius.
 <END>
 
 #WRITE(PTR, $00002A7C)

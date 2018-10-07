@@ -6,12 +6,11 @@
 #JMP($00001874)
 
 #WRITE(PTR, $000007F2)
-【Rintaro】
-Gone...
+【Rintaro】Gone...
 <END>
 
 #WRITE(PTR, $00000802)
-After I left the Radio Center I witnessed a strange phenomenon in which every person walking down the streets of Akiba 'vanished' right in front of my eyes.
+After I left the Radio Center I witnessed a strange phenomenon in which every person walking down the streets of Akiba "vanished" right in front of my eyes.
 <END>
 
 #WRITE(PTR, $00000812)

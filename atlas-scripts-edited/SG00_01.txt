@@ -1452,7 +1452,7 @@ With a sense of suspicion I play the video.
 <END>
 
 #WRITE(PTR, $00004BFA)
-【Rintaro】...？
+【Rintaro】...?
 <END>
 
 #WRITE(PTR, $00004C0A)

@@ -458,7 +458,7 @@ Looks like his intracranial pervert processor started working at the highest spe
 <END>
 
 #WRITE(PTR, $000044B6)
-【Kurisu】... Hm? ... Hmm?
+【Kurisu】...Hm? ...Hmm?
 <END>
 
 #WRITE(PTR, $00004564)

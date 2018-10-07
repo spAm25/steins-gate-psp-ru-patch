@@ -458,7 +458,7 @@ He's rubbing his eyes, blinking like crazy and is tilting his head in puzzlement
 <END>
 
 #WRITE(PTR, $000019E8)
-【Itaru】... It's gone.
+【Itaru】...It's gone.
 <END>
 
 #WRITE(PTR, $000019F8)
