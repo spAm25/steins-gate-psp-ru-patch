@@ -1,0 +1,760 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001CC8)
+
+#WRITE(PTR, $000001E8)
+I made the wrong assumptions.
+<END>
+
+#WRITE(PTR, $000001F8)
+The girl genius didn't come here to listen to the lecture.
+<END>
+
+#WRITE(PTR, $00000322)
+【Kurisu】Uhmm... thank you for coming to listen to a young person such as myself.
+<END>
+
+#WRITE(PTR, $00000332)
+【Rintaro】So she's the one doing the lecture...
+<END>
+
+#WRITE(PTR, $00000342)
+Japan's 17 year old genius who had her article published in SCIENCE.
+<END>
+
+#WRITE(PTR, $00000352)
+If what Daru said is correct a few days ago she turned 18.
+<END>
+
+#WRITE(PTR, $00000362)
+The first I've ever known about her was from an article in a weekly Japan's gossip magazine that Daru showed me.
+<END>
+
+#WRITE(PTR, $00000372)
+That time he told me this:
+<END>
+
+#WRITE(PTR, $00000382)
+"She recently came to Japan and she's gonna be a special guest in ATF."
+<END>
+
+#WRITE(PTR, $00000392)
+I remember that just now.
+<END>
+
+#WRITE(PTR, $000003A2)
+So he was talking about today huh?
+<END>
+
+#WRITE(PTR, $000003B2)
+【Kurisu】I am kind of nervous since this is my first time doing this so I would greatly appreciate it if you overlook my blunders.
+<END>
+
+#WRITE(PTR, $000003CE)
+The group attending this lecture has a lot of variety.
+<END>
+
+#WRITE(PTR, $000003DE)
+There are a lot of students like me and Daru as well as university professors.
+<END>
+
+#WRITE(PTR, $000003EE)
+Kurisu gives me a sharp look.
+<END>
+
+#WRITE(PTR, $000003FE)
+She's definitely keeping an eye on me.
+<END>
+
+#WRITE(PTR, $0000040E)
+When I glare back at her she quickly averts her eyes.
+<END>
+
+#WRITE(PTR, $0000041E)
+Hmph I don't care if she's a girl genius or whatever but she's hard for me to stomach.
+<END>
+
+#WRITE(PTR, $0000042E)
+I thought the same when she called out to me in the Radio Center.
+<END>
+
+#WRITE(PTR, $0000043E)
+She's actually an audacious person and is only feigning friendliness right now.
+<END>
+
+#WRITE(PTR, $0000044E)
+Even if her being killed was nothing but an illusion I think I know that much about her personality.
+<END>
+
+#WRITE(PTR, $00000464)
+【Kurisu】This time I've been told to talk about the subject of time machines. It's not really my area of expertise but I will give it my best.
+<END>
+
+#WRITE(PTR, $00000474)
+【Rintaro】Hoh... Time machines huh...?
+<END>
+
+#WRITE(PTR, $00000484)
+【Kurisu】If I were to begin with the conclusion I would say that time machines are a completely absurd concept.
+<END>
+
+#WRITE(PTR, $0000049A)
+【Rintaro】Objection!
+<END>
+
+#WRITE(PTR, $00000510)
+【Kurisu】Fueh...!?
+<END>
+
+#WRITE(PTR, $00000520)
+Kurisu and all the people who came to listen to this lecture are taken aback by my words.
+<END>
+
+#WRITE(PTR, $00000530)
+A natural reaction I suppose.
+<END>
+
+#WRITE(PTR, $00000540)
+I however have no intention on silently listening to the words of some girl genius.
+<END>
+
+#WRITE(PTR, $00000550)
+【Rintaro】It's too early to say that time machines are impossible to make.
+<END>
+
+#WRITE(PTR, $00000560)
+【Itaru】Okarin you're overdoing it...!
+<END>
+
+#WRITE(PTR, $00000570)
+Daru who is sitting at my side is giving me a humble salutation pose.
+<END>
+
+#WRITE(PTR, $00000580)
+The staff of ATF are approaching probably to take me out of the room.
+<END>
+
+#WRITE(PTR, $00000590)
+Perhaps I got too carried away.
+<END>
+
+#WRITE(PTR, $00000606)
+【Kurisu】Uhmm well I guess that this is fine too... A discussion is livelier than a lecture.
+<END>
+
+#WRITE(PTR, $00000616)
+Because she said that there was no need for me to be taken out.
+<END>
+
+#WRITE(PTR, $00000626)
+I think I just heard some bad words but I think it's better to ignore them.
+<END>
+
+#WRITE(PTR, $00000636)
+【Kurisu】But before that allow me to speak my thoughts on this.
+<END>
+
+#WRITE(PTR, $0000069E)
+【Kurisu】Until now a lot of scientists have proposed many time travel theories but at the very base there are only 11 of them.
+<END>
+
+#WRITE(PTR, $000006AE)
+Hmm... Ehm what were they again?
+<END>
+
+#WRITE(PTR, $000006BE)
+From the back of my head I can name the cosmic string theory...
+<END>
+
+#WRITE(PTR, $000007EC)
+【Kurisu】Neutron star theory. Black hole theory. Speed of light theory.
+<END>
+
+#WRITE(PTR, $00000816)
+【Kurisu】Tachyon theory. Wormhole theory. Exotic matter theory.
+<END>
+
+#WRITE(PTR, $00000840)
+【Kurisu】Cosmic string theory. Quantum gravity theory. Cesium laser beam theory.
+<END>
+
+#WRITE(PTR, $0000086A)
+【Kurisu】Elementary particle ring laser theory. Dirac antiparticle theory.
+<END>
+
+#WRITE(PTR, $00000918)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000928)
+I see as expected of a girl genius.
+<END>
+
+#WRITE(PTR, $00000938)
+Makise Kurisu I acknowledge you as a worthy opponent.
+<END>
+
+#WRITE(PTR, $00000948)
+【Kurisu】However each of these theories are nothing more but hypotheses.
+<END>
+
+#WRITE(PTR, $00000958)
+【Kurisu】Some of them are even denying the possibility of others.
+<END>
+
+#WRITE(PTR, $00000968)
+【Rintaro】Then what if a 12th theory was proposed?
+<END>
+
+#WRITE(PTR, $000009DE)
+【Kurisu】Hm? Ah ehh right. That's uhm...
+<END>
+
+#WRITE(PTR, $00000A08)
+【Kurisu】Then it would be denied by the 13th theory!
+<END>
+
+#WRITE(PTR, $00000A18)
+Damn you brat...!
+<END>
+
+#WRITE(PTR, $00000A28)
+Bending my supposition and actually using my own words against me...
+<END>
+
+#WRITE(PTR, $00000A38)
+Not bad not bad at all.
+<END>
+
+#WRITE(PTR, $00000AA6)
+I can feel the stares piercing me.
+<END>
+
+#WRITE(PTR, $00000AB6)
+The prideful professors are giving me sullen looks.
+<END>
+
+#WRITE(PTR, $00000AC6)
+This is bad I think I got too carried away.
+<END>
+
+#WRITE(PTR, $00000AD6)
+I might not get points if this keeps up so I think I'll have some restraint now...
+<END>
+
+#WRITE(PTR, $00000B54)
+【Kurisu】By the way time travel to the future is available to us right now according to <DICT>the theory of relativity</DICT> that is.
+<END>
+
+#WRITE(PTR, $00000B64)
+【Kurisu】For example if a person was to go to the Haneda airport and boarded a plane heading towards Okinawa he upon arriving the destination would be about 1 hundred millionth part of a second in front of me in the future.
+<END>
+
+#WRITE(PTR, $00000B74)
+What does that mean?
+<END>
+
+#WRITE(PTR, $00000B84)
+【Kurisu】The theory of relativity states that the time of an object slows down as the speed of said object approaches the speed of light.
+<END>
+
+#WRITE(PTR, $00000B94)
+【Kurisu】To give another example if one was to run at the speed close to the speed of light the time that affects that person would only be half of the time that affects us.
+<END>
+
+#WRITE(PTR, $00000BBE)
+【Kurisu】If he was to run for 24 hours the amount of time that would affect the surroundings would be 48 hours and that is something that we can call "leaping 1 day into the future" Hououin Kyouma-san.
+<END>
+
+#WRITE(PTR, $00000BCE)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000BDE)
+Calling me by name...
+<END>
+
+#WRITE(PTR, $00000BEE)
+Even though I just decided to restrain myself it looks like Makise Kurisu wants to pick a fight with me.
+<END>
+
+#WRITE(PTR, $00000BFE)
+... I do wish that she wouldn't speak that name in front of so many people though.
+<END>
+
+#WRITE(PTR, $00000C0E)
+I don't want unrelated people to find it out.
+<END>
+
+#WRITE(PTR, $00000C1E)
+【Professor】But that's just sophism isn't it?
+<END>
+
+#WRITE(PTR, $00000C48)
+Someone who isn't me - a professor at that calmly made an objection.
+<END>
+
+#WRITE(PTR, $00000C58)
+Truly the example of time travel that Makise Kurisu just made is not something that can be called time travel.
+<END>
+
+#WRITE(PTR, $00000C68)
+Still for an old professor to make refutations against an 18 year old girl...
+<END>
+
+#WRITE(PTR, $00000C78)
+Perhaps he decided to join in on the discussion...
+<END>
+
+#WRITE(PTR, $00000C88)
+...or maybe he's only trying to harass the girl genius.
+<END>
+
+#WRITE(PTR, $00000C98)
+【Kurisu】It is.
+<END>
+
+#WRITE(PTR, $00000CA8)
+She nonchalantly accepts the objection.
+<END>
+
+#WRITE(PTR, $00000CB8)
+Considering the fact that she has such an audience for the first time in her 18 years of life it's surprising how calm she is.
+<END>
+
+#WRITE(PTR, $00000CC8)
+Normally after having a much older professor object to her such a person would completely lose herself.
+<END>
+
+#WRITE(PTR, $00000CD8)
+However the way Kurisu reacts to the situation makes it seem like she's saying "I can handle this guy!"
+<END>
+
+#WRITE(PTR, $00000CE8)
+【Professor】So is it possible to go back in time?
+<END>
+
+#WRITE(PTR, $00000CF8)
+【Kurisu】You can go even into the past right now. Peek at the sky at night with a telescope. You can see light from tens of thousands of years ago can't you?
+<END>
+
+#WRITE(PTR, $00000D08)
+【Student】That's sophism as well!
+<END>
+
+#WRITE(PTR, $00000D18)
+The person who said that with his weird voice is a student taking the lecture.
+<END>
+
+#WRITE(PTR, $00000D28)
+【Kurisu】Well what I've said until now has been an introduction.
+<END>
+
+#WRITE(PTR, $00000D38)
+Is it only me or did her expression became stiff just now?
+<END>
+
+#WRITE(PTR, $00000D48)
+【Kurisu】Practically for example let's think about the first thing necessary to make a time machine that could physically move everyone to the past or future.
+<END>
+
+#WRITE(PTR, $00000D58)
+【Kurisu】Let's consider the cosmic string theory and the wormhole theory.
+<END>
+
+#WRITE(PTR, $00000D68)
+【Kurisu】A cosmic string is a cord-shaped "crevice" which has an extremely large mass.
+<END>
+
+#WRITE(PTR, $00000D78)
+A string-like crevice...?
+<END>
+
+#WRITE(PTR, $00000D88)
+Must be like one of those cracks from where "THEY" come?
+<END>
+
+#WRITE(PTR, $00000D98)
+But does something like that really exist?
+<END>
+
+#WRITE(PTR, $00000E34)
+【Kurisu】The width of the crevice is about the same as that of an <DICT>elementary particle</DICT> while the length is about that of a small galaxy
+<END>
+
+#WRITE(PTR, $00000ED2)
+【Kurisu】Since it has extremely large mass it has the ability to distort space-time. If you were to attempt a full rotation within that distortion in the cosmic string you might rotate less than 360°
+<END>
+
+#WRITE(PTR, $00000FAC)
+【Kurisu】In other words you are able to do something resembling a warp... This is called space-time angle deficit.
+<END>
+
+#WRITE(PTR, $00000FC6)
+【Kurisu】Due to the loss of angle if an object was to pass through the area with angle deficit the time passing for that object would become 0.
+<END>
+
+#WRITE(PTR, $00001052)
+【Kurisu】By applying this and assuming that a cosmic string moves at a speed close to the speed of light--
+<END>
+
+#WRITE(PTR, $00001062)
+【Kurisu】According to the theory of relativity the time of the cosmic string becomes slower than the time of the surroundings. Passing through the distorted angle deficit area would make the time passage which was originally 0 become negative.
+<END>
+
+#WRITE(PTR, $00001072)
+【Kurisu】Thus after the passage the direction in which time goes is the 'past'.
+<END>
+
+#WRITE(PTR, $00001082)
+【Kurisu】So with the use of 2 cosmic strings a space deficit jump can occur. If an object was to travel within that space deficit towards one location and then back to the original spot it would return at the same time at which it entered.
+<END>
+
+#WRITE(PTR, $00001092)
+【Kurisu】And that is a rough explanation of what cosmic string theory-based time travel is.
+<END>
+
+#WRITE(PTR, $000010AA)
+【Kurisu】Also to prevent misunderstandings I must mention that the cosmic string theory and the <DICT>superstring theory</DICT> are different things
+<END>
+
+#WRITE(PTR, $000010BA)
+【Kurisu】Anyway there are 3 things that one must prepare for cosmic string theory-based time travel towards the past.
+<END>
+
+#WRITE(PTR, $000010CA)
+【Kurisu】1: Cosmic strings 2 of them. Oh by the way they are hypothesized to only exist in the space where the universe was first formed so they might be a little hard to find.
+<END>
+
+#WRITE(PTR, $000010DA)
+【Kurisu】2: Even if you successfully find them you would need energy that would make them move at a speed close to the speed of light.
+<END>
+
+#WRITE(PTR, $0000110C)
+【Kurisu】Well I wonder what amount of energy would be sufficient to move a crevice the length of a galaxy at the speed of light... At the very least I'm pretty certain that it would be more than <DICT>1.21 jigowatts</DICT>
+<END>
+
+#WRITE(PTR, $0000111C)
+A part of the lecture attendees burst out laughing at that.
+<END>
+
+#WRITE(PTR, $0000112C)
+【Kurisu】3: A space-ship that would be able to travel towards the location of the cosmic string and back. It's an absolute necessity for those who want to time travel.
+<END>
+
+#WRITE(PTR, $0000113C)
+【Kurisu】...What do you think Hououin-san? Would you like to attempt cosmic string based time travel?
+<END>
+
+#WRITE(PTR, $0000114C)
+There's no way I can do that.
+<END>
+
+#WRITE(PTR, $0000115C)
+And why the hell is she addressing me?
+<END>
+
+#WRITE(PTR, $0000116C)
+I'm not the one laughed at her or anything...
+<END>
+
+#WRITE(PTR, $0000117C)
+【Kurisu】Hm? Looks like Hououin-san is not willing to try out the cosmic string theory.
+<END>
+
+#WRITE(PTR, $0000118C)
+【Kurisu】Then let's consider the aforementioned wormhole theory. I think that it is more realistic than the cosmic string theory.
+<END>
+
+#WRITE(PTR, $0000119C)
+【Kurisu】So... Hououin-san... Do you know what a wormhole is?
+<END>
+
+#WRITE(PTR, $000011AC)
+No don't ask me dammit! I'm trying to lay low here...
+<END>
+
+#WRITE(PTR, $000011BC)
+It's something like a... loophole or a shortcut in space... right?
+<END>
+
+#WRITE(PTR, $000011CC)
+【Rintaro】Though I guess that I must answer this one.
+<END>
+
+#WRITE(PTR, $000011F6)
+【Kurisu】Yes that's right.
+<END>
+
+#WRITE(PTR, $00001206)
+Phew I got it right.
+<END>
+
+#WRITE(PTR, $00001216)
+What a relief...
+<END>
+
+#WRITE(PTR, $000012AA)
+【Kurisu】There are 2 holes which are connected via a tunnel. The time that it takes to pass through that tunnel is 0 regardless of how far away the holes are.
+<END>
+
+#WRITE(PTR, $000012C8)
+【Kurisu】However here's a disappointing notification. Super gravity is active within that tunnel so an object would be completely crushed upon entering it.
+<END>
+
+#WRITE(PTR, $000012D8)
+【Kurisu】That's why we need something that would negate the effects of gravity.
+<END>
+
+#WRITE(PTR, $000012F6)
+【Kurisu】That something is called "exotic matter". It's basically material which has negative weight and opposes the effects of gravity.
+<END>
+
+#WRITE(PTR, $00001306)
+Negative weight huh? I can't picture that at all...
+<END>
+
+#WRITE(PTR, $00001316)
+Something that rises when you leave it on the ground perhaps?
+<END>
+
+#WRITE(PTR, $00001326)
+...Nope.
+<END>
+
+#WRITE(PTR, $0000139E)
+Then Kurisu clenches her fist and shows it to us.
+<END>
+
+#WRITE(PTR, $000013AE)
+【Kurisu】This crushed state that I'm showing you is the state of an object in the tunnel of a wormhole.
+<END>
+
+#WRITE(PTR, $000013BE)
+【Kurisu】For the object to be able to go through the tunnel there has to be something which would repel the crushing force. Otherwise things would not be pretty.
+<END>
+
+#WRITE(PTR, $000013CE)
+After saying that Kurisu opens her hand.
+<END>
+
+#WRITE(PTR, $00001454)
+【Kurisu】With the use of exotic matter the wormhole would be stabilized and allow the possibility of teleportation. However there's another step required if you want to use them for time travel.
+<END>
+
+#WRITE(PTR, $0000146C)
+【Kurisu】Imagine that the entrance to the wormhole is in Akihabara while the exit is in <DICT>LA</DICT>
+<END>
+
+#WRITE(PTR, $0000147C)
+【Kurisu】Now imagine that the hole in LA goes to and back from the end of the universe at the speed close to the speed of light.
+<END>
+
+#WRITE(PTR, $0000148C)
+H-how...?
+<END>
+
+#WRITE(PTR, $0000149C)
+【Kurisu】According to the theory of relativity time slows down for objects moving at the speed of light. So we can assume that the hole which returned to LA would be in the past.
+<END>
+
+#WRITE(PTR, $000014AC)
+【Kurisu】And with those conditions Hououin-san can enter the wormhole and arrive at the LA from several years ago.
+<END>
+
+#WRITE(PTR, $000014C4)
+【Kurisu】However we still cannot call this anything beyond pseudo time travel or the <DICT>Urashima effect</DICT>
+<END>
+
+#WRITE(PTR, $000014D4)
+【Kurisu】
+The important step afterwards is to return into the wormhole from LA's side. By doing so the time that passed would be 0--
+<END>
+
+#WRITE(PTR, $000014E4)
+【Kurisu】...And Hououin-san would appear at the Akihabara of the same time period at which he entered the wormhole from LA's side. With this the time travel is complete.
+<END>
+
+#WRITE(PTR, $000014F4)
+【Kurisu】The things necessary for wormhole theory are more easier to obtain than the ones for cosmic string theory.
+<END>
+
+#WRITE(PTR, $00001504)
+【Kurisu】1: The wormhole itself. They might be somewhere in the universe but no one has ever seen one.
+<END>
+
+#WRITE(PTR, $00001514)
+【Kurisu】2: The energy required to move a wormhole to and from the end of the universe at a speed close to the speed of light.
+<END>
+
+#WRITE(PTR, $00001524)
+【Kurisu】3: Exotic matter which by the way is not actually confirmed to exist.
+<END>
+
+#WRITE(PTR, $000015A4)
+...So the realization of either of these requires ridiculous amounts of work and effort.
+<END>
+
+#WRITE(PTR, $000015B4)
+Or it's more like the very idea of time machines seems unrealistic.
+<END>
+
+#WRITE(PTR, $000015C4)
+【Kurisu】So do you now know what I meant when I said "absurd"?
+<END>
+
+#WRITE(PTR, $000015D4)
+【Kurisu】Every one of the time travel theories are nothing but thought experiments which will never actually advance beyond the area of theories and be put into practice.
+<END>
+
+#WRITE(PTR, $000015E4)
+【Student】Isn't there anything simpler? Like something that you could just pull out of a drawer and put to use immediately...
+<END>
+
+#WRITE(PTR, $000015F4)
+【Kurisu】There isn't.
+<END>
+
+#WRITE(PTR, $00001604)
+A strong declaration.
+<END>
+
+#WRITE(PTR, $00001614)
+【Kurisu】That is the limit we have with present-day physics. Though I don't know how it will be after 10 years.
+<END>
+
+#WRITE(PTR, $00001624)
+【Kurisu】And anyway even if a method which allows easy travel to the past appeared it would not be guaranteed that it's completely safe.
+<END>
+
+#WRITE(PTR, $0000163C)
+【Kurisu】That is due to the problems concerning <DICT>the principle of causality</DICT>
+<END>
+
+#WRITE(PTR, $00001698)
+【Rintaro】Time paradox... Law of conservation of mass?
+<END>
+
+#WRITE(PTR, $000016A8)
+The entire universe has a set amount of mass which cannot be changed.
+<END>
+
+#WRITE(PTR, $000016B8)
+If someone traveled from the future back to point A in the past the mass of the time machine and the people on it would be an extra.
+<END>
+
+#WRITE(PTR, $000016C8)
+That is a contradiction.
+<END>
+
+#WRITE(PTR, $000016D8)
+I have memories of reading a ridiculous book in the past which said that if this kind of contradiction were to happen the universe would be in danger.
+<END>
+
+#WRITE(PTR, $000016E8)
+Though it didn't write what kind of danger.
+<END>
+
+#WRITE(PTR, $00001718)
+【Kurisu】If you think that the law of conservation of mass applies to macro-systems like the universe or micro-systems like atoms or elementary particles you're mistaken.
+<END>
+
+#WRITE(PTR, $00001728)
+What!? Really...?
+<END>
+
+#WRITE(PTR, $00001752)
+【Kurisu】Fufu...
+<END>
+
+#WRITE(PTR, $00001762)
+Ah! She just saw my reaction and put on a triumphant smile!
+<END>
+
+#WRITE(PTR, $00001772)
+Guh, this is mortifying...
+<END>
+
+#WRITE(PTR, $0000179C)
+【Kurisu】That law only applies only to chemical reactions and it's not being considered in modern physics at all.
+<END>
+
+#WRITE(PTR, $000017AC)
+【Kurisu】Something can be created out of "nothing".
+<END>
+
+#WRITE(PTR, $000017BC)
+Heeh.
+<END>
+
+#WRITE(PTR, $000017CC)
+That's quite amazing ain't it?
+<END>
+
+#WRITE(PTR, $000017DC)
+【Professor】Then what is the problem?
+<END>
+
+#WRITE(PTR, $000017EC)
+【Kurisu】Time paradoxes specifically the "Grandfather's Paradox".
+<END>
+
+#WRITE(PTR, $000017FC)
+The one where you go back in time and kill your parent before you were born which causes a contradiction huh...
+<END>
+
+#WRITE(PTR, $0000180C)
+【Kurisu】As long as this paradox does not have a proper solution time travel is definitely not a possibility.
+<END>
+
+#WRITE(PTR, $0000181C)
+【Student】So what if you just don't kill the parents?
+<END>
+
+#WRITE(PTR, $0000182C)
+【Kurisu】The solution is not as simple as that. It's very dangerous to think of this with an SF movie mindset. There are many problems besides your disappearance.
+<END>
+
+#WRITE(PTR, $0000183C)
+Really? I doubt that it's that serious though.
+<END>
+
+#WRITE(PTR, $0000184C)
+【Kurisu】The appearance of a contradiction would mean the collapse of the principle of causality the crumble of the theory of relativity and even the breakdown of all the laws of physics.
+<END>
+
+#WRITE(PTR, $0000185C)
+【Kurisu】A paradox is nothing but another thought experiment. It is something that neither can nor does happen in reality.
+<END>
+
+#WRITE(PTR, $0000186C)
+【Kurisu】That means that even if something has a only a 0.000001% chance of happening it will never diverge from the original outcome. Sounds logical doesn't it?
+<END>
+
+#WRITE(PTR, $0000187C)
+【Kurisu】There might be loopholes like the multiverse interpretation and the principle of self non-contradiction but personally I find them too fantasy-like so I would like to disregard them.
+<END>
+
+#WRITE(PTR, $0000188C)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $0000189C)
+Kuh...
+<END>
+
+#WRITE(PTR, $000018AC)
+I'm grinding my teeth in anger.
+<END>
+
+#WRITE(PTR, $0000191A)
+I avert my eyes from Makise Kurisu who has a composed facial expression.
+<END>
+
+#WRITE(PTR, $0000192A)
+Looks like I have nothing left but to admit that she is a genius.
+<FILEEND3F>
+

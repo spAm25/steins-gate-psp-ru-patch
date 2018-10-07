@@ -1,0 +1,448 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000138E)
+
+#WRITE(PTR, $000001EA)
+%L1
+<END2>
+
+#WRITE(PTR, $000001F0)
+Chapter 1 【Time Travel Paranoia】
+<END2>
+
+#WRITE(PTR, $000001F6)
+%L1
+<END2>
+
+#WRITE(PTR, $0000034E)
+【Rintaro】Hey you there. Can you see us?
+<END>
+
+#WRITE(PTR, $0000035E)
+【Rintaro】...Why don't you answer? I'm asking you. Yes you - the one in the other side of the monitor.
+<END>
+
+#WRITE(PTR, $0000036E)
+【Rintaro】Hmph that's a stupid face you're making. You're so boring.
+<END>
+
+#WRITE(PTR, $0000037E)
+【Rintaro】To you it looks like we're inside a television monitor. Kukuku however that is incorrect.
+<END>
+
+#WRITE(PTR, $0000038E)
+【Rintaro】The one inside the monitor is you. The world that you think is reality is nothing but fiction. Of course that includes yourself.
+<END>
+
+#WRITE(PTR, $0000039E)
+【Rintaro】True reality is located on this side.
+<END>
+
+#WRITE(PTR, $000003AE)
+【Rintaro】You don't understand what I'm talking about? That's not surprising.
+<END>
+
+#WRITE(PTR, $000003BE)
+【Rintaro】Ah whatever. I shall tell you about us in an easy-to-understand way.
+<END>
+
+#WRITE(PTR, $000003CE)
+【Rintaro】First our current location.
+<END>
+
+#WRITE(PTR, $000003DE)
+【Rintaro】First our current location. This is the Future Gadget Laboratory located in Akihabara Tokyo. We usually just call it 'The Lab'. We aspire to reconstruct the ruling structure of the world.
+<END>
+
+#WRITE(PTR, $000003EE)
+【Mayuri】Really...? You shouldn't do anything bad Okarin.
+<END>
+
+#WRITE(PTR, $000003FE)
+【Rintaro】Shut up for a moment Mayuri.
+<END>
+
+#WRITE(PTR, $0000040E)
+【Rintaro】After leaving the station go down the Central Street until you reach the Suehirochou Station crossing where you take the Kuramaebashi avenue to the left.
+<END>
+
+#WRITE(PTR, $0000041E)
+【Rintaro】By entering the alley before the next traffic light you will find an old-fashioned apartment building
+<END>
+
+#WRITE(PTR, $0000042E)
+【Rintaro】On the first floor of the building we have a certain maniac's shop called the "CRT Workshop".
+<END>
+
+#WRITE(PTR, $0000043E)
+【Rintaro】Even though it's the age of LCD that shop still sells and handles CRT TVs. No matter how much of an electronics town Akihabara is the demand for those is next to none so the shop is deserted.
+<END>
+
+#WRITE(PTR, $0000044E)
+【Rintaro】However Tennouji the manager of the "CRT Workshop" is also the owner of this building.
+<END>
+
+#WRITE(PTR, $0000045E)
+【Rintaro】The urban development is progressing at a quick pace so the price of land in Akihabara has skyrocketed. That's why so many small hobby shops were built here.
+<END>
+
+#WRITE(PTR, $0000046E)
+【Rintaro】Fortunately the manager has an eye for people. After taking a liking to my charisma he lent me the entire second floor of the building for almost nothing. Fuahahaha!
+<END>
+
+#WRITE(PTR, $0000047E)
+【Rintaro】
+However the Future Gadget Laboratory has a serious lack of capable staff but we are always open to applications from excellent researchers. Currently our researchers are--
+<END>
+
+#WRITE(PTR, $0000048E)
+【Mayuri】Okarin Okarin! You're supposed to say 'Lab Members'! Not researchers.
+<END>
+
+#WRITE(PTR, $0000049E)
+【Rintaro】... Lab Members. Including me we make up a grand total of 3.
+<END>
+
+#WRITE(PTR, $000004AE)
+【Rintaro】Laboratory Member No. 001 the lab's founder and crazy mad scientist: myself Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $000004BE)
+【Mayuri】Okarin sounds a lot cuter though.
+<END>
+
+#WRITE(PTR, $000004D6)
+【Rintaro】And then we have Laboratory Member No. 002 the <DICT>cosplay</DICT> hobbyist and the only girl: Shiina Mayuri.
+<END>
+
+#WRITE(PTR, $000004E6)
+【Mayuri】Tuturu! ♪ I'm Mayushii. My hobby is not wearing but making the costumes.
+<END>
+
+#WRITE(PTR, $000004FE)
+【Rintaro】Finally we have Laboratory Member No. 003 the <DICT>Supa~ Hacka</DICT>, Hashida Itaru.
+<END>
+
+#WRITE(PTR, $00000516)
+【Itaru】It's Super Hacker not Supa~ Hacka. <DICT>Duh</DICT>.
+<END>
+
+#WRITE(PTR, $00000526)
+【Rintaro】Our main activity here at the Future Gadget Laboratory is the act of "invention" itself.
+<END>
+
+#WRITE(PTR, $00000536)
+【Rintaro】The details can be found on the lab's homepage.
+<END>
+
+#WRITE(PTR, $00000546)
+【Rintaro】Of course our top priority are future gadgets which could be used to fight the dark supremacy but many other inventions were created as byproducts of this research. Hell there are currently more of them than the actual inventions that we wanted.
+<END>
+
+#WRITE(PTR, $00000556)
+【Rintaro】We have already completed 8 future gadgets but that is only the beginning. In my head I have ideas for a total of 108 of them.
+<END>
+
+#WRITE(PTR, $00000566)
+【Itaru】It's like a certain tennis manga eh? I get it.
+<END>
+
+#WRITE(PTR, $0000057E)
+【Rintaro】It's the number of humanity's worldly desires you <DICT>@channel</DICT>er.Okarin?
+<END>
+
+#WRITE(PTR, $0000058E)
+【Rintaro】Also I told you not to interrupt me while I'm speaking.
+<END>
+
+#WRITE(PTR, $0000059E)
+【Itaru】Anyway why are you talking to yourself
+<END>
+
+#WRITE(PTR, $000005AE)
+【Rintaro】I'm not talking to myself! Can't you see? I'm talking to the guy on the other side of the monitor.
+<END>
+
+#WRITE(PTR, $000005BE)
+【Mayuri】Oh he just grinned.
+<END>
+
+#WRITE(PTR, $000005CE)
+【Rintaro】What are you laughing about you bastard!? You're the one inside the monitor!
+<END>
+
+#WRITE(PTR, $000005E6)
+【Itaru】Maybe you should just tell him to <DICT>"Don't Look This Way"</DICT>
+<END>
+
+#WRITE(PTR, $000005F6)
+【Mayuri】Will he really understand that?
+<END>
+
+#WRITE(PTR, $00000606)
+【Rintaro】He doesn't even seem to understand that we're talking to him. His lack of self-awareness is quite sad.
+<END>
+
+#WRITE(PTR, $00000616)
+【Mayuri】Maybe to that person we appear to be just a game?
+<END>
+
+#WRITE(PTR, $00000626)
+【Itaru】I don't think that the whole concept of "real" or "game" exists to them.
+<END>
+
+#WRITE(PTR, $0000063E)
+【Mayuri】But Daru-kun aren't your beloved <DICT>2D girls</DICT> the same?
+<END>
+
+#WRITE(PTR, $0000064E)
+【Itaru】That's different. They are my waifus.
+<END>
+
+#WRITE(PTR, $0000065E)
+【Rintaro】Nobody cares about your wives.
+<END>
+
+#WRITE(PTR, $0000066E)
+【Itaru】Didn't Mayushii bring up an interesting idea though? Suppose that hypothetically speaking we were the ones inside a game - do you think that it's possible for us to realize that?
+<END>
+
+#WRITE(PTR, $0000067E)
+【Rintaro】No.
+<END>
+
+#WRITE(PTR, $0000068E)
+【Itaru】An immediate reply huh...?
+<END>
+
+#WRITE(PTR, $0000069E)
+【Rintaro】That type of discussion is completely unproductive. What we should be focusing on is thinking about how we will crush the world's ruling structure.
+<END>
+
+#WRITE(PTR, $000006B8)
+【Itaru】<DICT>Pretentious lunatic</DICT>.
+<END>
+
+#WRITE(PTR, $00000734)
+After what Daru said I look upwards away from the monitor.
+<END>
+
+#WRITE(PTR, $00000790)
+The monitor displayed the disturbing yet cute character "Alpaca-man" whose design was based off of an <DICT>alpaca</DICT>.
+<END>
+
+#WRITE(PTR, $000007A0)
+This is an interactive game called "Alpaca-man 2" where you could speak to it via a microphone and it would answer back.
+<END>
+
+#WRITE(PTR, $000007B0)
+The game exploded in popularity upon release 10 years ago. Personally I find it only disgusting instead of "disturbing yet cute".
+<END>
+
+#WRITE(PTR, $000007C0)
+I bought it yesterday at a second-hand goods store for 500 yen headset included.
+<END>
+
+#WRITE(PTR, $00000864)
+I look back at Daru and squint my eyes to intimidate him.
+<END>
+
+#WRITE(PTR, $00000874)
+【Rintaro】Shut up Super Haker. I'm not pretentious.
+<END>
+
+#WRITE(PTR, $00000884)
+I raise up my forelocks and collect the right words.
+<END>
+
+#WRITE(PTR, $00000894)
+【Rintaro】I'm Hououin... Kyouma!
+<END>
+
+#WRITE(PTR, $000008AE)
+【Itaru】What is that an anime character?
+<END>
+
+#WRITE(PTR, $000008BE)
+【Rintaro】Good grief. Daru your communication skills are broken beyond repair.
+<END>
+
+#WRITE(PTR, $000008D6)
+【Itaru】I always liven up the place when I go to anime <DICT>offline</DICT> meetings bro.
+<END>
+
+#WRITE(PTR, $00000974)
+This fat eccentric bespectacled guy is my brother-in-arms and right-hand man - Hashida Itaru A.K.A Daru.
+<END>
+
+#WRITE(PTR, $00000984)
+He's one of those otaku youths who sit on the PC all day.
+<END>
+
+#WRITE(PTR, $00000994)
+He has 2D wives on who he cheats with 3D maids. There are some problems with his preferences but to him all is well so long as it's moe.
+<END>
+
+#WRITE(PTR, $000009A4)
+Daru is a very skilled and an extremely reliable man who turns my brilliant ideas into reality despite always saying that his forte is software and not hardware.
+<END>
+
+#WRITE(PTR, $00000A08)
+【Mayuri】Ow...! I pricked my finger...
+<END>
+
+#WRITE(PTR, $00000B46)
+On the other side we have Shiina Mayuri - a 16 year old high school girl who is currently licking her finger with her eyes full of tears.
+<END>
+
+#WRITE(PTR, $00000B56)
+This one's also an otaku but not nearly as bad as Daru.
+<END>
+
+#WRITE(PTR, $00000B66)
+This nonchalant childhood friend of mine is in charge of making (female only) anime character cosplay for the Future Gadget Lab. Just like every other day she is doing that right now.
+<END>
+
+#WRITE(PTR, $00000B76)
+I don't really know much about the characters or if the costumes are even good.
+<END>
+
+#WRITE(PTR, $00000B86)
+Why does the Future Gadget Lab needs (female only) anime character cosplay you ask?
+<END>
+
+#WRITE(PTR, $00000B96)
+Let's just say that it absolutely doesn't.
+<END>
+
+#WRITE(PTR, $00000BA6)
+That basically means that Mayuri is a completely useless existence to the lab.
+<END>
+
+#WRITE(PTR, $00000BB6)
+However I have absolutely no intention of kicking her out.
+<END>
+
+#WRITE(PTR, $00000BC6)
+After all the first one who knocked on the door of my just-established Future Gadget Lab was no other than her.
+<END>
+
+#WRITE(PTR, $00000BD6)
+Even now I clearly remember the spring day when she first came to the lab. This is what Mayuri said to me.
+<END>
+
+#WRITE(PTR, $00000C94)
+【Mayuri】Mayushii is Okarin's hostage so I will be here no matter what.
+<END>
+
+#WRITE(PTR, $00000D1A)
+Yes what she meant by that is truly uncertain.
+<END>
+
+#WRITE(PTR, $00000D2A)
+But for me it was an offer of salvation.
+<END>
+
+#WRITE(PTR, $00000D3A)
+She was the first person to join me in my grand plan. Her presence saved me from the solitude of being chased by the Organization.
+<END>
+
+#WRITE(PTR, $00000D4A)
+I will be forever grateful for that.
+<END>
+
+#WRITE(PTR, $00000D5A)
+I don't care that Mayuri is useless. I'm fine with her just being here.
+<END>
+
+#WRITE(PTR, $00000DBE)
+【Itaru】So Okarin. Did Alpaca-man respond?
+<END>
+
+#WRITE(PTR, $00000E62)
+【Rintaro】No not at all.
+<END>
+
+#WRITE(PTR, $00000EBE)
+I don't know if it's a bug or something else but the human-faced Alpaca inside the monitor shows no reaction even though I'm speaking to him with utmost effort. What an ungrateful bastard.
+<END>
+
+#WRITE(PTR, $00000ECE)
+Screw this I give up.
+<END>
+
+#WRITE(PTR, $00000EDE)
+This is boring.
+<END>
+
+#WRITE(PTR, $00000EEE)
+Never again will I play this pointless game.
+<END>
+
+#WRITE(PTR, $00000F2E)
+【Rintaro】Damn unsociable alpaca...
+<END>
+
+#WRITE(PTR, $00000F3E)
+While cursing I lightly hit the top of the TV.
+<END>
+
+#WRITE(PTR, $00000F4E)
+Suddenly...
+<END>
+
+#WRITE(PTR, $00000F6A)
+【Rintaro】Hm?
+<END>
+
+#WRITE(PTR, $00000F7A)
+The TV made a noise as if it had shorted and then the screen suddenly went pitch black.
+<END>
+
+#WRITE(PTR, $00000F8A)
+Changing the channel turning the power onoff or hitting it several times didn't change anything.
+<END>
+
+#WRITE(PTR, $00000FA0)
+A complete silence.
+<END>
+
+#WRITE(PTR, $00000FB0)
+Looks like... It broke.
+<END>
+
+#WRITE(PTR, $00000FC0)
+This shabby TV was given to us for free by the CRT Workshop downstairs.
+<END>
+
+#WRITE(PTR, $00000FD0)
+Maybe it's life span is over.
+<END>
+
+#WRITE(PTR, $00001018)
+【Mayuri】Alpaca-san must be mad.
+<END>
+
+#WRITE(PTR, $00001028)
+【Rintaro】Ugh. I will have to go ask if it can be fixed.
+<END>
+
+#WRITE(PTR, $00001044)
+I turn the TV off and go next to the sofa.
+<END>
+
+#WRITE(PTR, $00001054)
+The humidity of the Japanese summer is really annoying. While fanning myself I look up at the ceiling where a stain stood out.
+<END>
+
+#WRITE(PTR, $000011C0)
+I try closing my eyes.
+<END>
+
+#WRITE(PTR, $000011D0)
+What naturally came to mind was the supernatural sight from an hour ago--
+<FILEEND24>
+

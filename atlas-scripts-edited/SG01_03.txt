@@ -1,0 +1,700 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001AB2)
+
+#WRITE(PTR, $00000224)
+Upon opening the curtains in the middle of the Future Gadget Lab one can enter the heart of it - a super top secret research and development area which is off limits to unauthorized people.
+<END>
+
+#WRITE(PTR, $00000234)
+It's an area for the development of Future Gadgets.
+<END>
+
+#WRITE(PTR, $00000244)
+Because the lab was originally a single room we put on a curtain to divide it.
+<END>
+
+#WRITE(PTR, $00000254)
+Personally I am not satisfied with this set-up at all because it reeks of poverty... Though when I look at this realistically you can live in luxury even if you are poor.
+<END>
+
+#WRITE(PTR, $00000264)
+The important thing is not the money but the strength of our ambitions.
+<END>
+
+#WRITE(PTR, $00000274)
+So I drag Daru with me into the development room.
+<END>
+
+#WRITE(PTR, $00000314)
+All the windows here are weatherstripped and closed off with packing tape making it only dimly lit.
+<END>
+
+#WRITE(PTR, $00000324)
+And man is it hot. It's like a sauna in here.
+<END>
+
+#WRITE(PTR, $00000334)
+I keep thinking of getting an air conditioner already but were currently lacking funds and I have yet to find an investor.
+<END>
+
+#WRITE(PTR, $00000344)
+Upon entering the development room I put on the lab coat that was carelessly hanged on the chair.
+<END>
+
+#WRITE(PTR, $00000354)
+I made it a rule for everyone to always wear it when in this room. It has ritualistic meaning to me.
+<END>
+
+#WRITE(PTR, $00000364)
+However Daru denies these customs of mine.
+<END>
+
+#WRITE(PTR, $00000374)
+Apparently he doesn't want to go through the hassle of constantly taking it on and off. Even if he's interested in it he finds it too troublesome. Our generation is ridiculed because we have men like these among us.
+<END>
+
+#WRITE(PTR, $00000384)
+The lab coat that I bought for Daru with my own pocket money is just staying on the shelf not even once worn. It's not being used this time either. Give me my 3000 yen back.
+<END>
+
+#WRITE(PTR, $00000394)
+【Rintaro】Daru is our plan coming along well?
+<END>
+
+#WRITE(PTR, $000003DC)
+【Itaru】Eh? What's the plan?
+<END>
+
+#WRITE(PTR, $000003EC)
+Daru looks at me completely puzzled.
+<END>
+
+#WRITE(PTR, $000003FC)
+I deeply sigh and make him face the table.
+<END>
+
+#WRITE(PTR, $000004A4)
+Enshrined in an over-dramatic way on the table placed in the middle of our development room is our business-purpose <DICT>Microwave Oven</DICT> - Our most recent target.
+<END>
+
+#WRITE(PTR, $000004B4)
+【Rintaro】The plan is the plan. What else is there besides the tuning of gadget #8?
+<END>
+
+#WRITE(PTR, $0000058A)
+【Itaru】
+Oh that? When you said "The plan" I thought it was something more important.
+<END>
+
+#WRITE(PTR, $0000059A)
+【Rintaro】We've known each other for about 3 years and a half by now right?
+<END>
+
+#WRITE(PTR, $000005AA)
+We went to the same high school together and now we're going to the same university. We have an undesired inseparable relationship. Though he only became a lab member about 2 months ago.
+<END>
+
+#WRITE(PTR, $000005BA)
+【Itaru】In the 2nd year of high school we were in separate classrooms and didn't talk at all so it's more like 2 years and a half ain't it?
+<END>
+
+#WRITE(PTR, $000005CA)
+【Rintaro】I don't care about the minor details. We've known each other for so long so try to keep up with my ideas already.
+<END>
+
+#WRITE(PTR, $000005E4)
+【Itaru】It's impossible...
+<END>
+
+#WRITE(PTR, $000005F4)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000604)
+A strange silence came around us.
+<END>
+
+#WRITE(PTR, $00000614)
+I dream that someday we will have a commandant-adjutant relationship where we can fully understand each other.
+<END>
+
+#WRITE(PTR, $00000624)
+【Rintaro】So did you make progress on the investigation concerning the bad condition of gadget #8?
+<END>
+
+#WRITE(PTR, $0000063E)
+【Itaru】No not yet.
+<END>
+
+#WRITE(PTR, $0000069A)
+Including this the Future Gadget Lab made a total of 8 inventions.
+<END>
+
+#WRITE(PTR, $000006AA)
+The future goal of our lab is just like I told that AlpacaMan to create items which could be used to fight the Organization and its dark supremacy.
+<END>
+
+#WRITE(PTR, $000006BA)
+None of the inventions we made are actually complete. It's more like we're still trying to think up what to make with no success.
+<END>
+
+#WRITE(PTR, $000006CA)
+Though on the other hand the byproduct of this brainstorm was the successful creation of our original futuristic gadgets.
+<END>
+
+#WRITE(PTR, $000006E2)
+Most of these gadgets however are only accidents which were created without previous plans while we were in the middle of doing some researching. I guess you could call this <DICT>Serendipity</DICT>.
+<END>
+
+#WRITE(PTR, $000006F2)
+A total of 8.
+<END>
+
+#WRITE(PTR, $00000702)
+I shall now introduce our glorious Future Gadgets.
+<END>
+
+#WRITE(PTR, $0000071A)
+Gadget #1 the "<DICT>Bit Particle Gun</DICT>"
+<END>
+
+#WRITE(PTR, $00000732)
+Gadget #2 the "<DICT>Take-cop Camera</DICT>"
+<END>
+
+#WRITE(PTR, $0000074A)
+Gadget #3 the "<DICT>Could this be 'ORAORA'?</DICT>"
+<END>
+
+#WRITE(PTR, $00000762)
+Gadget #4 the "<DICT>Moad Snake</DICT>"
+<END>
+
+#WRITE(PTR, $0000077A)
+Gadget #5 the "<DICT>Once again I made something stupid by Goemon</DICT>"
+<END>
+
+#WRITE(PTR, $00000792)
+Gadget #6 the "<DICT>Cyalume Saber</DICT>"
+<END>
+
+#WRITE(PTR, $000007AA)
+Gadget #7 the "<DICT>Ghost in the Ball</DICT>"
+<END>
+
+#WRITE(PTR, $000007BA)
+All of these are up for public display in the website that Daru made so go ahead and feast your eyes upon the greatness of a mad scientist.
+<END>
+
+#WRITE(PTR, $000007E4)
+Now that I'm done looking through our past creations let's return to the problems concerning the Future Gadget #8 the "Microwave Ophone (Temp)".
+<END>
+
+#WRITE(PTR, $000007F4)
+Due to it being completely tasteless I plan to change the name into something more refined thus the "(Temp)" part. By the way the one who gave it the "Microwave Ophone" name was not me but Mayuri.
+<END>
+
+#WRITE(PTR, $00000804)
+Every time we complete a Future Gadget we hold discussions to decide the name.
+<END>
+
+#WRITE(PTR, $00000814)
+I always go for names which sound like something taken out of fantasy fiction.
+<END>
+
+#WRITE(PTR, $00000824)
+Daru can't even be bothered to think. That guy can't understand the importance of this at all.
+<END>
+
+#WRITE(PTR, $00000834)
+Mayuri says that she can't remember difficult names. As expected of a simpleton such as her.
+<END>
+
+#WRITE(PTR, $00000844)
+The difference in opinions makes it very hard for us to come to a consensus.
+<END>
+
+#WRITE(PTR, $00000854)
+But let's ignore the name for now.
+<END>
+
+#WRITE(PTR, $00000864)
+The "Microwave Ophone (Temp)" is a dream invention which allows remote control of a microwave oven by connecting it to a cellphone.
+<END>
+
+#WRITE(PTR, $00000874)
+Before leaving you can put food into the microwave and when you are close to coming back you can use your phone to remote control it and have the food warmed up and ready when you enter your home sweet home.
+<END>
+
+#WRITE(PTR, $00000884)
+I guess this example doesn't make it seem very useful...
+<END>
+
+#WRITE(PTR, $00000894)
+However a few days ago we discovered that the Microwave Ophone (Temp) has a strange function which is outside of what we planned.
+<END>
+
+#WRITE(PTR, $000008A4)
+Our nonchalant girl Mayuri was going to warm up her daily dose of fried food and decided to use the remote control function of the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $000008B4)
+Trying to defrost Mayuri's favorite "Juicy Kara-age Number One!" under such conditions caused a strange event to happen.
+<END>
+
+#WRITE(PTR, $000008C4)
+In short the fried food "froze" instead of being warmed up.
+<END>
+
+#WRITE(PTR, $000008D4)
+It was already in a semi-defrosted condition when it was put in the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $000008E4)
+However the attempt to warm it up resulted in it freezing instead.
+<END>
+
+#WRITE(PTR, $000008F4)
+From that time me and Daru have been investigating to find out the cause...
+<END>
+
+#WRITE(PTR, $00000924)
+【Itaru】No matter how many times we re-do what Mayushi did the freezing just doesn't happen again.
+<END>
+
+#WRITE(PTR, $00000934)
+【Itaru】When we tried it with a banana it became something really weird.
+<END>
+
+#WRITE(PTR, $00000952)
+【Itaru】I don't get it at all...
+<END>
+
+#WRITE(PTR, $00000962)
+Daru who looks completely fed up with the heat grabs his shirt and starts fanning himself by flapping it.
+<END>
+
+#WRITE(PTR, $00000972)
+I too know about that "something really weird".
+<END>
+
+#WRITE(PTR, $00000982)
+We will now proceed to test whether or not it will happen again.
+<END>
+
+#WRITE(PTR, $00000992)
+【Rintaro】Mayuri! Mayuri! Bring the bananas over here!
+<END>
+
+#WRITE(PTR, $000009A2)
+I call out to Mayuri who is sewing something as usual.
+<END>
+
+#WRITE(PTR, $00000A7E)
+【Mayuri】...Are you making gelbanas again?
+<END>
+
+#WRITE(PTR, $00000A8E)
+【Itaru】This has been bothering me for a while Mayushi. Can you stop abbreviating them as gelbana?
+<END>
+
+#WRITE(PTR, $00000AA8)
+【Mayuri】But gelbanas ARE gelbanas.
+<END>
+
+#WRITE(PTR, $00000B54)
+I put the whole bunch of bananas that Mayuri brought into the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00000B9C)
+【Mayuri】Why do we have to use the whole bunch? It's such a waste...
+<END>
+
+#WRITE(PTR, $00000BAC)
+【Rintaro】We won't win the battle against the Organization if we're being stingy.
+<END>
+
+#WRITE(PTR, $00000BFC)
+【Mayuri】We don't have to win that. You know Mayushii is the one who buys the bananas. If you do this I can't eat even one of them.
+<END>
+
+#WRITE(PTR, $00000C0C)
+【Rintaro】Starting next time we'll do it with a single banana.
+<END>
+
+#WRITE(PTR, $00000C1C)
+This time however I shall magnificently ignore the grumbles of the hungry girl.
+<END>
+
+#WRITE(PTR, $00000C7E)
+The Microwave Ophone (Temp) is extremely simple to operate.
+<END>
+
+#WRITE(PTR, $00000C9C)
+One just needs to call the number of the cellphone we forcibly connected to the microwave oven.
+<END>
+
+#WRITE(PTR, $00000CBA)
+The number is already registered in my cellphone.
+<END>
+
+#WRITE(PTR, $00000D0A)
+Now where did I put it...
+<END>
+
+#WRITE(PTR, $00000D28)
+I look through the pockets of my trousers and lab coat.
+<END>
+
+#WRITE(PTR, $00000D74)
+Press a button to bring up your %CF8FF8【Phone】%CE<LINE>
+Then dial %CF8FF8【Microwave Ophone (Temp)】%CE<LINE>
+<LINE>
+You can check your button configuration in the MANUAL menu.
+<END2>
+
+#WRITE(PTR, $00000EEA)
+The call is complete.
+<END>
+
+#WRITE(PTR, $00000EFA)
+An instant connection.
+<END>
+
+#WRITE(PTR, $00000F16)
+【Mayuri2】
+R-E-N-G. This is the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00000F32)
+Upon calling I was automatically connected.
+<END>
+
+#WRITE(PTR, $00000F42)
+What came out was guidance voiced by Mayuri.
+<END>
+
+#WRITE(PTR, $00000F8A)
+【Mayuri】Did you hear Mayushii's voice?
+<END>
+
+#WRITE(PTR, $00000F9A)
+【Rintaro】Shut up for a moment I can't hear the Mayushii Guidance.
+<END>
+
+#WRITE(PTR, $00000FD2)
+【Mayuri2】From here you can control the timer.
+<END>
+
+#WRITE(PTR, $00000FE2)
+【Mayuri2】After entering # please input the heating time in seconds.
+<END>
+
+#WRITE(PTR, $00000FF2)
+【Mayuri2】For example 1 minute would be "#60".
+<END>
+
+#WRITE(PTR, $00001002)
+【Mayuri2】2 minutes would be "#120".
+<END>
+
+#WRITE(PTR, $0000101E)
+Entering what the guidance says will cause the Microwave Ophone (Temp) to begin heating with no problems.
+<END>
+
+#WRITE(PTR, $0000102E)
+In this case however anything besides "120#" will not work.
+<END>
+
+#WRITE(PTR, $00001070)
+Once I enter the symbols the Microwave Ophone (Temp) begins working emitting a low buzzing sound.
+<END>
+
+#WRITE(PTR, $000010B8)
+【Itaru】That would make it heat up wouldn't it?
+<END>
+
+#WRITE(PTR, $000010C8)
+Shit I messed up!
+<END>
+
+#WRITE(PTR, $00001146)
+I quickly stop the microwave.
+<END>
+
+#WRITE(PTR, $00001156)
+Once again I enter the symbols from the beginning.
+<END>
+
+#WRITE(PTR, $00001166)
+I have to disregard the guidance and input "120#".
+<END>
+
+#WRITE(PTR, $00001186)
+Shit I messed up while entering.
+<END>
+
+#WRITE(PTR, $00001196)
+Let's try this again.
+<END>
+
+#WRITE(PTR, $000011A6)
+I must ignore the guidance and enter '120#' instead.
+<END>
+
+#WRITE(PTR, $000011BA)
+And that's that.
+<END>
+
+#WRITE(PTR, $000011D0)
+It was originally just a mistake that Mayuri made but for some reason this input makes the microwave freeze instead of heat.
+<END>
+
+#WRITE(PTR, $000011EC)
+Microwave Ophone (Temp) starts working.
+<END>
+
+#WRITE(PTR, $000011FC)
+The dish and the bananas placed on it start to slowly rotate.
+<END>
+
+#WRITE(PTR, $00001244)
+【Itaru】What a neat turntable. It's spinning in reverse too.
+<END>
+
+#WRITE(PTR, $00001254)
+【Rintaro】What!? Spinning in reverse!?
+<END>
+
+#WRITE(PTR, $00001264)
+I didn't notice that!
+<END>
+
+#WRITE(PTR, $0000127C)
+【Rintaro】That might be important! If we look at how this affects the behavior at the quantum level and apply <DICT>Hund's law</DICT> to it--
+<END>
+
+#WRITE(PTR, $00001290)
+【Itaru】'm sure tha-
+<END2>
+
+#WRITE(PTR, $000012AA)
+Nope.
+<END>
+
+#WRITE(PTR, $000012BE)
+【Rintaro】...Nope right?
+<END>
+
+#WRITE(PTR, $000012CE)
+【Itaru】Nope.
+<END>
+
+#WRITE(PTR, $000012DE)
+【Rintaro】Okay...
+<END>
+
+#WRITE(PTR, $00001300)
+We continue to silently watch the spinning bananas.
+<END>
+
+#WRITE(PTR, $0000131C)
+After 120 seconds have passed the microwave oven lets out a sound.
+<END>
+
+#WRITE(PTR, $0000132C)
+I take out the bananas.
+<END>
+
+#WRITE(PTR, $00001374)
+【Mayuri】The gelbanas are do~ne.
+<END>
+
+#WRITE(PTR, $000013C8)
+The bananas became something that isn't a banana.
+<END>
+
+#WRITE(PTR, $000013D8)
+The looseness makes it seem gelatinous.
+<END>
+
+#WRITE(PTR, $000013E8)
+The whole bunch is like that.
+<END>
+
+#WRITE(PTR, $000013F8)
+After Mayuri discovered that the Microwave Ophone (Temp) has a freezing function we made an experiment in which we tried to freeze a banana. For some reason the result was this weird thing.
+<END>
+
+#WRITE(PTR, $00001408)
+We are becoming more and more confused about this.
+<END>
+
+#WRITE(PTR, $00001428)
+【Rintaro】Daru did you ever think about eating this? Of course you did! You have my salutations for becoming the sacrifice which will help us advance towards our goals...!
+<END>
+
+#WRITE(PTR, $00001470)
+【Itaru】It looks like it'd taste like crap though...
+<END>
+
+#WRITE(PTR, $00001480)
+【Rintaro】The taste doesn't matter. The meaning is behind eating it! So come on Daru show no discretion. I will take care of the consequences so don't hesitate and dig in!
+<END>
+
+#WRITE(PTR, $00001490)
+【Itaru】Nope.
+<END>
+
+#WRITE(PTR, $000014A0)
+【Rintaro】Okay then... Mayuri you shall be the one to have this honor.
+<END>
+
+#WRITE(PTR, $000014BA)
+【Mayuri】The gelbana was soft and squishy...
+<END>
+
+#WRITE(PTR, $000014CA)
+Wait she already tried it?
+<END>
+
+#WRITE(PTR, $000014DA)
+This airhead girl sure is something.
+<END>
+
+#WRITE(PTR, $000014EA)
+【Mayuri】It had no flavor and wasn't tasty at all--
+<END>
+
+#WRITE(PTR, $000014FA)
+【Rintaro】Soft and squishy huh... Daru what do you think?
+<END>
+
+#WRITE(PTR, $00001514)
+【Itaru】Squishy banana eh... A squishy banana...
+<END>
+
+#WRITE(PTR, $00001534)
+From Daru's nose leaked a single red drop.
+<END>
+
+#WRITE(PTR, $0000154E)
+【Itaru】Mayushi can you say "Your banana is very squishy..."?
+<END>
+
+#WRITE(PTR, $00001568)
+【Mayuri】Daru-kun Daru-kun... You have a nosebleed.
+<END>
+
+#WRITE(PTR, $00001582)
+【Itaru】Please just say it!
+<END>
+
+#WRITE(PTR, $0000159C)
+【Mayuri】Your banana is very sq--
+<END>
+
+#WRITE(PTR, $000015AC)
+【Rintaro】Don't make her say it you imbecile!
+<END>
+
+#WRITE(PTR, $000016DE)
+Daru calms down after I hit him with a tissue box.
+<END>
+
+#WRITE(PTR, $000016EE)
+Mayuri not understanding the situation tilts her head to the side with an optimistic smile on her face.
+<END>
+
+#WRITE(PTR, $00001716)
+【Rintaro】A gelatinous state means that it's half-solid which implies the possibility that the connections between particles became weaker...
+<END>
+
+#WRITE(PTR, $00001726)
+Semi-solid means that the originally solid banana went through liquefaction...
+<END>
+
+#WRITE(PTR, $00001736)
+【Rintaro】I got it!
+<END>
+
+#WRITE(PTR, $00001746)
+I face the whiteboard in the development room and write up "FREEZING" in the middle... Then I quickly cross it out and knock the board.
+<END>
+
+#WRITE(PTR, $00001756)
+【Rintaro】We were wrong when we thought that this was a "Freezing function"!
+<END>
+
+#WRITE(PTR, $00001766)
+When any material on Earth turns into a solid state from a liquid state it loses volume and it's density increases.
+<END>
+
+#WRITE(PTR, $00001776)
+Freezing is basically the act of solidification but the bananas that we experimented on showed the opposite result.
+<END>
+
+#WRITE(PTR, $00001786)
+If it became gelatinous it means that it's density has decreased.
+<END>
+
+#WRITE(PTR, $00001796)
+There's no way this can be called "Freezing".
+<END>
+
+#WRITE(PTR, $000017A6)
+【Rintaro】Okay you two! This is the part where you shout "W-WHAT!?"... Come on do it!
+<END>
+
+#WRITE(PTR, $0000181C)
+However their reactions were weak...
+<END>
+
+#WRITE(PTR, $0000182C)
+Mayuri probably didn't understand a word I was saying so I guess it can't be helped...
+<END>
+
+#WRITE(PTR, $0000183C)
+【Itaru】I know that this isn't a "freezing function".
+<END>
+
+#WRITE(PTR, $0000184C)
+I-if you did why didn't you tell me beforehand...?
+<END>
+
+#WRITE(PTR, $00001866)
+【Itaru】And if it isn't that then what exactly is this function?
+<END>
+
+#WRITE(PTR, $00001880)
+【Mayuri】The opposite of freezing is heating isn't it?
+<END>
+
+#WRITE(PTR, $00001890)
+【Rintaro】Truly a silly point of view Mayuri! If it's that then it's exactly the same as a normal microwave oven!
+<END>
+
+#WRITE(PTR, $000018AA)
+【Mayuri】Then what is it?
+<END>
+
+#WRITE(PTR, $000018C4)
+【Itaru】We don't know that's why we're troubled by it.
+<END>
+
+#WRITE(PTR, $000018D4)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000018E4)
+The reason for the semi-defrosted fried food becoming frozen--
+<END>
+
+#WRITE(PTR, $000018F4)
+Honestly I give up on thinking.
+<FILEEND96>
+
