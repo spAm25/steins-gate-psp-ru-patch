@@ -1,7 +1,7 @@
 ## Steins;Gate PSP English Patch, aka *topographer*
 This is a toolkit for disassembling Steins;Gate PSP version of the game. More specifically, it allows to extract all the game strings (dialogues, tips, UI elements). The goal with this is to make an English patch for the game. The extracted game strings are merged with available [English translation](http://tsuuun.blogspot.com/2012/01/happy-new-year-everyone-and-yeah-its.html) (note, this is not the latest translation available, since all the latest ones have broken links) and are formatted into a readable Atlas Script format. Those are then edited manually, since the merge of the game strings isn't perfect, and some things just have to be formatted manually.
 
-Honestly, you shouldn't bother with how it works, because I already did (well, currently I'm still doing it) everything for you. Final scripts can be found in `atlas-scripts-edit` (not all of them are available right now). The final patch will be posted here once the work is done.
+Honestly, you shouldn't bother with how it works, because I already did (well, currently I'm still doing it) everything for you. Final scripts can be found in `atlas-scripts-edited` (not all of them are available right now). The final patch will be posted here once the work is done.
 
 #### ETA
 No promises, but let's hope this will be released before the end of 2018.
