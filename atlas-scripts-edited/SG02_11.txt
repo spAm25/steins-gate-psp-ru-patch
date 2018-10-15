@@ -1,0 +1,503 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001F24)
+
+#WRITE(PTR, $00000892)
+Whew, so rushed....
+<END>
+
+#WRITE(PTR, $000008A2)
+With this, we can't attack the parts shops any more today.
+<END>
+
+#WRITE(PTR, $000008B2)
+I take a deep breath while looking around and find a strange silhouette.
+<END>
+
+#WRITE(PTR, $000008C2)
+A lone woman is squatting on the ground, hugging her knees.
+<END>
+
+#WRITE(PTR, $000008D2)
+In her hand is a gaudy purple phone. She's staring at its screen without moving a muscle.
+<END>
+
+#WRITE(PTR, $000008E2)
+Since nobody else is around, she's even more conspicuous.
+<END>
+
+#WRITE(PTR, $000008F2)
+And on further inspection, it's a face I remember.
+<END>
+
+#WRITE(PTR, $000009F8)
+【Rintaro】Shining Finger!
+<END>
+
+#WRITE(PTR, $00000A7E)
+I try calling, but there's no reaction.
+<END>
+
+#WRITE(PTR, $00000A8E)
+I just christened her Shining Finger on my own, so I guess it's natural.
+<END>
+
+#WRITE(PTR, $00000A9E)
+Umm, her name... her name was... Moe... Moekko? No... umm....
+<END>
+
+#WRITE(PTR, $00000B0C)
+【Rintaro】Masseuse!
+<END>
+
+#WRITE(PTR, $00000B1C)
+I end up moving in front of her, but she still doesn't notice.
+<END>
+
+#WRITE(PTR, $00000B2C)
+Or rather, I called out right in front of her, yet she doesn't lift up her face.
+<END>
+
+#WRITE(PTR, $00000B3C)
+Her fingers are restlessly typing on her phone, so she doesn't seem to be unconscious.
+<END>
+
+#WRITE(PTR, $00000B4C)
+But she still looks dead. There's no life in her eyes.
+<END>
+
+#WRITE(PTR, $00000B5C)
+I'm actually worried since she's not sweating at all despite the heat.
+<END>
+
+#WRITE(PTR, $00000B6C)
+【Rintaro】Can you not hear me?
+<END>
+
+#WRITE(PTR, $00000B7C)
+【Moeka】...Who?
+<END>
+
+#WRITE(PTR, $00000B8C)
+【Rintaro】Hououin Kyouma. The mad scientist.
+<END>
+
+#WRITE(PTR, $00000BDE)
+She looks at me for a moment.
+<END>
+
+#WRITE(PTR, $00000BEE)
+But it was really only a moment.
+<END>
+
+#WRITE(PTR, $00000BFE)
+【Moeka】...Who, again?
+<END>
+
+#WRITE(PTR, $00000C0E)
+【Rintaro】You, can you not remember people's faces?
+<END>
+
+#WRITE(PTR, $00000C1E)
+I don't remember Masseus' name, so I'm not one to talk, though.
+<END>
+
+#WRITE(PTR, $00000C2E)
+【Rintaro】Even though we agreed to help look for the IBN 5100, this is how it is, huh?
+<END>
+
+#WRITE(PTR, $00000C3E)
+Masseuse twitches upon hearing the word IBN 5100.
+<END>
+
+#WRITE(PTR, $00000C4E)
+But she still doesn't raise her face.
+<END>
+
+#WRITE(PTR, $00000C5E)
+【Moeka】Okabe-kun...
+<END>
+
+#WRITE(PTR, $00000C6E)
+【Rintaro】I am Hououin.
+<END>
+
+#WRITE(PTR, $00000C88)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00000C98)
+Ignoring me? Will she not recognize me as Hououin Kyouma no matter what?
+<END>
+
+#WRITE(PTR, $00000D3A)
+【Moeka】Sent... mail.
+<END>
+
+#WRITE(PTR, $00000D58)
+【Rintaro】Mail?
+<END>
+
+#WRITE(PTR, $00000D76)
+I certainly did just receive a mail.
+<END>
+
+#WRITE(PTR, $00000EDA)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000EEA)
+I'm almost enraged.
+<END>
+
+#WRITE(PTR, $00000EFA)
+Was that really something you should say by mail?
+<END>
+
+#WRITE(PTR, $00000F0A)
+Wouldn't it only take 5 seconds to say it verbally!?
+<END>
+
+#WRITE(PTR, $00000F1A)
+She's courteous when mailing, but the Masseuse in front of me is a lump of unsociability.
+<END>
+
+#WRITE(PTR, $00000F2A)
+How she writes Funny meeting you here♪ without smiling at all makes me think she's actually a different person.
+<END>
+
+#WRITE(PTR, $00000F40)
+【Rintaro】It truly is funny, huh. You looking through parts shops as well?
+<END>
+
+#WRITE(PTR, $00000F50)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00000F60)
+Even when I ask her a question, Masseuse doesn't even respond--
+<END>
+
+#WRITE(PTR, $00001002)
+Another mail.
+<END>
+
+#WRITE(PTR, $000011D2)
+【Rintaro】Can you not even speak?
+<END>
+
+#WRITE(PTR, $000011E2)
+【Moeka】...bother.
+<END>
+
+#WRITE(PTR, $000011F2)
+【Rintaro】Isn't it more of a bother to type out mail!?
+<END>
+
+#WRITE(PTR, $0000120C)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $0000121C)
+Masseuse starts hanging her head more and more after I yelled. She buries her face into her knees.
+<END>
+
+#WRITE(PTR, $000012BE)
+Anyway, don't wear such a short skirt. If you sit like that, it's completely visible. Though, she doesn't seem to mind.
+<END>
+
+#WRITE(PTR, $0000132C)
+I sigh, and silently leave the place.
+<END>
+
+#WRITE(PTR, $0000133C)
+I buy two Max Coffees from a nearby vending machine.
+<END>
+
+#WRITE(PTR, $000013DE)
+She mails about every little thing....
+<END>
+
+#WRITE(PTR, $00001542)
+I'm more amazed than angry.
+<END>
+
+#WRITE(PTR, $00001552)
+Besides, since I haven't come across anything, I need to get Moeka's IBN 5100 information, so I don't plan to go home.
+<END>
+
+#WRITE(PTR, $00001562)
+Come to think of it, this woman's name was Moeka, right? I remembered when I saw her mail.
+<END>
+
+#WRITE(PTR, $00001578)
+Holding the two Max Coffees, I return to Moeka.
+<END>
+
+#WRITE(PTR, $0000161C)
+【Moeka】Ah, Okabe-kun...
+<END>
+
+#WRITE(PTR, $0000162C)
+Masseuse was standing.
+<END>
+
+#WRITE(PTR, $0000163C)
+She just glances at me and breathes a sigh of relief.
+<END>
+
+#WRITE(PTR, $0000164C)
+【Rintaro】Want one?
+<END>
+
+#WRITE(PTR, $000016D8)
+I hand out a Max Coffee, which Masseuse timidly accepts.
+<END>
+
+#WRITE(PTR, $000016E8)
+But she doesn't start on it.
+<END>
+
+#WRITE(PTR, $000016F8)
+I wait for the coffee to cool down, open the tab, and take a sip.
+<END>
+
+#WRITE(PTR, $00001708)
+I want to savor this sweetness.
+<END>
+
+#WRITE(PTR, $00001718)
+【Rintaro】Why don't you speak?
+<END>
+
+#WRITE(PTR, $00001728)
+【Moeka】Because mailing... is easier.
+<END>
+
+#WRITE(PTR, $00001738)
+Like hell it is.
+<END>
+
+#WRITE(PTR, $00001748)
+Maybe she just has anthropophobia.
+<END>
+
+#WRITE(PTR, $00001758)
+With that in consideration, I'm taken aback by my own thoughtlessness.
+<END>
+
+#WRITE(PTR, $000017F6)
+【Rintaro】I see, so that's what it is...!
+<END>
+
+#WRITE(PTR, $00001806)
+So basically, Masseuse is afraid.
+<END>
+
+#WRITE(PTR, $00001816)
+Of my, insane mad scientist Hououin Kyouma's, evil aura!
+<END>
+
+#WRITE(PTR, $00001826)
+There's no helping it in that case. I nod to her behavior.
+<END>
+
+#WRITE(PTR, $00001836)
+Rather, I feel sorry. She's pitiable.
+<END>
+
+#WRITE(PTR, $00001846)
+Anybody would be overwhelmed before me.
+<END>
+
+#WRITE(PTR, $000018AA)
+【Moeka】I'm... weird, aren't I...
+<END>
+
+#WRITE(PTR, $000018BA)
+【Rintaro】No, you're normal.
+<END>
+
+#WRITE(PTR, $000018D4)
+【Moeka】Really...?
+<END>
+
+#WRITE(PTR, $000018E4)
+For no matter how disciplined your mind is, you will be subjugated with fear for me!
+<END>
+
+#WRITE(PTR, $000018F4)
+【Rintaro】You have nothing to be ashamed about. In this world, there exists something called absolute eternal truth. It's a wall, unchangeable no matter how much you struggle.
+<END>
+
+#WRITE(PTR, $00001904)
+【Rintaro】Therefore, people give up, give in, and change course.
+<END>
+
+#WRITE(PTR, $00001914)
+【Rintaro】But never forget this one thing. You hold within your heart, your own Steins;Gate.
+<END>
+
+#WRITE(PTR, $0000192E)
+【Moeka】Steins;Gate...
+<END>
+
+#WRITE(PTR, $0000193E)
+【Rintaro】All people inevitably hold one of that door. As long as you have it, you can follow any path without losing your way... That's right, just like I do.
+<END>
+
+#WRITE(PTR, $00001958)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00001968)
+Moeka nods.
+<END>
+
+#WRITE(PTR, $00001978)
+Looks like I got her to understand.
+<END>
+
+#WRITE(PTR, $00001988)
+【Rintaro】So, this is the real question at hand. Do you have any information on the IBN 5100?
+<END>
+
+#WRITE(PTR, $000019A2)
+Moeka answers by faintly shaking her head side to side.
+<END>
+
+#WRITE(PTR, $000019B2)
+【Rintaro】Just how long have you been searching?
+<END>
+
+#WRITE(PTR, $000019C2)
+【Moeka】...About 2 months.
+<END>
+
+#WRITE(PTR, $000019D2)
+【Rintaro】How have you been searching?
+<END>
+
+#WRITE(PTR, $000019EC)
+Of course, Moeka starts moving her fingers at high speed.
+<END>
+
+#WRITE(PTR, $00001AD4)
+2 months with four people....
+<END>
+
+#WRITE(PTR, $00001AE4)
+Even though hordes of otaku come to Akiba each day.
+<END>
+
+#WRITE(PTR, $00001AFA)
+【Rintaro】Have you tried talking to PC shop employees? They're got the most detailed PC information in Akiba, you know.
+<END>
+
+#WRITE(PTR, $00001B0A)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00001B24)
+Moeka shakes her head side to side again.
+<END>
+
+#WRITE(PTR, $00001B34)
+I'm starting to feel she's no good at investigation.
+<END>
+
+#WRITE(PTR, $00001B44)
+Like she's just wasting her time.
+<END>
+
+#WRITE(PTR, $00001B54)
+That whatever write editorial company that ordered Masseuse to investigate must be incompetent.
+<END>
+
+#WRITE(PTR, $00001B64)
+She's trying to work part-time for an editorial company even though she's like this.
+<END>
+
+#WRITE(PTR, $00001B74)
+【Rintaro】So which one's your goal? To obtain the IBN 5100, or to investigate the urban legend?
+<END>
+
+#WRITE(PTR, $00001B8E)
+【Moeka】Both.
+<END>
+
+#WRITE(PTR, $00001B9E)
+【Rintaro】I see.
+<END>
+
+#WRITE(PTR, $00001BAE)
+In that case, her search is limited to IBN 5100s in Akihabara.
+<END>
+
+#WRITE(PTR, $00001BBE)
+To tell the truth, I don't care about the urban legend, but I just want to obtain the IBN 5100. My true goal comes after obtaining it.
+<END>
+
+#WRITE(PTR, $00001BCE)
+So I don't need to fuss over just the IBN 5100s in Akihabara.
+<END>
+
+#WRITE(PTR, $00001BDE)
+Meaning I have no problem ordering one from a foreign net auction. Though, that would take time and money.
+<END>
+
+#WRITE(PTR, $00001BEE)
+If I don't find one after 2 or 3 days of searching, let's consider doing that.
+<END>
+
+#WRITE(PTR, $00001BFE)
+【Rintaro】Where do you plan to search next?
+<END>
+
+#WRITE(PTR, $00001C18)
+【Moeka】That's...
+<END>
+
+#WRITE(PTR, $00001C28)
+【Moeka】I'm...
+<END>
+
+#WRITE(PTR, $00001C38)
+【Rintaro】Hm? I didn't quite hear you.
+<END>
+
+#WRITE(PTR, $00001C52)
+Moeka types out a mail at high speed.
+<END>
+
+#WRITE(PTR, $00001CE0)
+No good. She's useless after all.
+<END>
+
+#WRITE(PTR, $00001CF6)
+【Rintaro】Don't worry. I have that sort of networking. If I use it, finding a retro PC should be no trouble at all.
+<END>
+
+#WRITE(PTR, $00001D10)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00001D20)
+Moeka looks up for the first time today. That look was a look of respect.
+<END>
+
+#WRITE(PTR, $00001D30)
+【Rintaro】Who do you think I am? I am Hououin Kyouma! What I wish for is the collapse of the ruling structures, and chaos! Fuhahaha!
+<END>
+
+#WRITE(PTR, $00001D40)
+【Moeka】That's... Okabe-kun's Steins;Gate...
+<END>
+
+#WRITE(PTR, $00001D50)
+【Rintaro】Not Okabe, Hououin!
+<FILEEND94>
+

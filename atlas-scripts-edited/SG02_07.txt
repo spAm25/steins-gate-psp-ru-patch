@@ -1,0 +1,527 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000034C6)
+
+#WRITE(PTR, $000001F0)
+When I rush down the stairs,
+<END>
+
+#WRITE(PTR, $0000020C)
+With perfect timing, a bicycle slips into a stop before me.
+<END>
+
+#WRITE(PTR, $000002F4)
+【Suzuha】Hi, Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $00000304)
+Suzuha greets me as she gets off her bicycle. I wanted to ask her if she was a foreigner or something, but more importantly, her bicycle catches my eye.
+<END>
+
+#WRITE(PTR, $00000314)
+It's the same bicycle as the one in front of the Braun Tube Workshop yesterday. Seems like it's Suzuha's.
+<END>
+
+#WRITE(PTR, $00000324)
+I wonder how much it was. It looks quite expensive, though.
+<END>
+
+#WRITE(PTR, $00000334)
+【Rintaro】Pretty nice technique.
+<END>
+
+#WRITE(PTR, $0000034E)
+【Suzuha】Bicycles really are fun, huh. I was my first time bicycling when I came to this town.
+<END>
+
+#WRITE(PTR, $000003FA)
+【Rintaro】First!? On bicycle!?
+<END>
+
+#WRITE(PTR, $0000049E)
+【Suzuha】Correct. Though, I have ridden on motorcycle a lot-
+<END>
+
+#WRITE(PTR, $00000542)
+Isn't that backwards?
+<END>
+
+#WRITE(PTR, $000005E6)
+Weird woman.
+<END>
+
+#WRITE(PTR, $0000068A)
+And her stopping style. I think it would be pretty dangerous if she did that all through the town. Beginners get carried away and get into accidents.
+<END>
+
+#WRITE(PTR, $0000072E)
+If she's going at that speed, she should at least put on a helmet.
+<END>
+
+#WRITE(PTR, $000007D2)
+【Rintaro】Going to work now?
+<END>
+
+#WRITE(PTR, $00000880)
+【Suzuha】Yup, correct.
+<END>
+
+#WRITE(PTR, $00000924)
+The Braun Tube Workshop's shutters are open, but this shop always opens around 11 to 12. I don't know the exact time. It always changes based on Manager's whim.
+<END>
+
+#WRITE(PTR, $000009C8)
+【Rintaro】That's perfect. I need to talk to you about something.
+<END>
+
+#WRITE(PTR, $00000A76)
+【Suzuha】Ehh-? I need to start preparing to open shop, you know.
+<END>
+
+#WRITE(PTR, $00000B1A)
+【Rintaro】What preparations does this crumbling old Braun Tube Workshop need?
+<END>
+
+#WRITE(PTR, $00000BC8)
+【Suzuha】None, huh. Geez. I just mindlessly sweep in front of the shop. If I clean inside, Manager gets angry. "Everything's where it needs to be" he says.
+<END>
+
+#WRITE(PTR, $00000C6C)
+It would make more sense to get angry for her not cleaning than to get angry for her cleaning.
+<END>
+
+#WRITE(PTR, $00000D10)
+Something's wrong with that Manager after all.
+<END>
+
+#WRITE(PTR, $00000DB4)
+【Rintaro】Then hear me out.
+<END>
+
+#WRITE(PTR, $00000E62)
+【Suzuha】But I'm so sleeepy.
+<END>
+
+#WRITE(PTR, $00000F06)
+In other words, she can't be bothered to talk.
+<END>
+
+#WRITE(PTR, $00000FAA)
+I glare at Suzuha.
+<END>
+
+#WRITE(PTR, $0000104E)
+【Rintaro】You would be wise... to not anger me.
+<END>
+
+#WRITE(PTR, $000010F2)
+【Suzuha】Does it have to be right now?
+<END>
+
+#WRITE(PTR, $00001196)
+My glare is not effective at all. She doesn't falter at all.
+<END>
+
+#WRITE(PTR, $0000123A)
+But I still maintain my stern expression and nod.
+<END>
+
+#WRITE(PTR, $00001334)
+【Suzuha】Then go ahead.
+<END>
+
+#WRITE(PTR, $000013D8)
+Suzuha shrugs her shoulders as she locks her bicycle, and turns to me.
+<END>
+
+#WRITE(PTR, $0000147C)
+【Suzuha】But make it brief.
+<END>
+
+#WRITE(PTR, $00001520)
+【Rintaro】Where is the IBN 5100?
+<END>
+
+#WRITE(PTR, $000015C4)
+【Suzuha】...Recondite.
+<END>
+
+#WRITE(PTR, $00001668)
+【Rintaro】Recon...? What?
+<END>
+
+#WRITE(PTR, $0000170C)
+【Suzuha】Ri-KON-dahyt
+<END>
+
+#WRITE(PTR, $000017B0)
+Recondite, so I guess she doesn't know.
+<END>
+
+#WRITE(PTR, $00001854)
+【Rintaro】The way you talked yesterday, it seemed like you knew.
+<END>
+
+#WRITE(PTR, $00001902)
+【Suzuha】The one who knows was an acquaintance of mine.
+<END>
+
+#WRITE(PTR, $000019A6)
+【Rintaro】Then take me to this acquaintance of yours. I won't take no for an answer. If you refuse, then I'll show you a living hell.
+<END>
+
+#WRITE(PTR, $00001A4A)
+【Suzuha】I can't.
+<END>
+
+#WRITE(PTR, $00001AEE)
+I even said I'd show her a living hell!
+<END>
+
+#WRITE(PTR, $00001BA2)
+【Suzuha】Because we can't meet even if I wanted to.
+<END>
+
+#WRITE(PTR, $00001C46)
+【Rintaro】What do you mean? Don't tell me they're an imaginary--
+<END>
+
+#WRITE(PTR, $00001CEA)
+【Suzuha】Dead. Years ago.
+<END>
+
+#WRITE(PTR, $00001D8E)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00001E32)
+【Rintaro】Sorry.
+<END>
+
+#WRITE(PTR, $00001F22)
+【Suzuha】Nah, it's okay, it's okay. Well, with that said, I don't really have that much information. Actually, I'm more of a learner than a teacher in this subject.
+<END>
+
+#WRITE(PTR, $00001FC6)
+Contrary to what you'd expect, Suzuha starts to cheer me up, patting my shoulders.
+<END>
+
+#WRITE(PTR, $0000206A)
+Then, the Braun Tube Workshop door opens, and Manager suddenly makes his appearance.
+<END>
+
+#WRITE(PTR, $00002146)
+【Tennoji】Hey, part-timer. It's only the third day and you're late!?
+<END>
+
+#WRITE(PTR, $000021F4)
+【Suzuha】Ah, Manager, sorry-. It was a little crowded this morning.
+<END>
+
+#WRITE(PTR, $00002298)
+【Tennoji】If you're not gonna take this seriously, you can always quit, ya know?
+<END>
+
+#WRITE(PTR, $0000233C)
+【Tennoji】Okabe, don't go meddling with my part-timer either.
+<END>
+
+#WRITE(PTR, $000023E0)
+【Rintaro】Aren't you the lustful one here, Mister Braun?
+<END>
+
+#WRITE(PTR, $00002484)
+【Tennoji】Why you, just try saying something like that in front of Nae. 'Cause I'll murder ya. Gotta keep my honor as a father.
+<END>
+
+#WRITE(PTR, $00002532)
+【Tennoji】Besides, I wouldn't lust after such a shitty little brat.
+<END>
+
+#WRITE(PTR, $00002616)
+【Suzuha】What was that!? Manager, take that back!
+<END>
+
+#WRITE(PTR, $000026BA)
+Suzuha's unusually mad.
+<END>
+
+#WRITE(PTR, $0000277A)
+【Tennoji】What, you mad?
+<END>
+
+#WRITE(PTR, $00002796)
+【Suzuha】I'm not a little brat! I'm an adult warrior!
+<END>
+
+#WRITE(PTR, $000027B0)
+【Tennoji】Haah? What are you saying?
+<END>
+
+#WRITE(PTR, $000027C0)
+Manager looks shocked, but I'm impressed by Suzuha's burning passion.
+<END>
+
+#WRITE(PTR, $000027D0)
+Without thinking, I take Suzuha's hand and grasp it firmly.
+<END>
+
+#WRITE(PTR, $0000287A)
+【Rintaro】I like the look in your eyes, Working Warrior. They shine with the radiance of the beast not seen in modern men.
+<END>
+
+#WRITE(PTR, $0000288A)
+【Rintaro】Never forget those eyes, and you shall surely class change from Working Warrior to True Warrior.
+<END>
+
+#WRITE(PTR, $000028A4)
+【Suzuha】Wait, but then I'm already a warrior.
+<END>
+
+#WRITE(PTR, $000028BC)
+【Rintaro】Will you fight with me on the dawning of <DICT>Ragnarok</DICT> with SERN? Until then, stay diligent.
+<END>
+
+#WRITE(PTR, $000028D6)
+【Suzuha】Ragnarok?
+<END>
+
+#WRITE(PTR, $000028E6)
+Suzuha tilts her head.
+<END>
+
+#WRITE(PTR, $000028F6)
+【Suzuha】What's that?
+<END>
+
+#WRITE(PTR, $00002906)
+【Rintaro】The final decisive battle with SERN.
+<END>
+
+#WRITE(PTR, $00002920)
+【Suzuha】Are there plans for that? If there are, then I'd happily participate, but I've never heard about it.
+<END>
+
+#WRITE(PTR, $00002930)
+【Rintaro】Naturally, since I just revealed it now. the Final CrusadeRagnarok shall be initiated by me. For the purpose of the world's rebirth!
+<END>
+
+#WRITE(PTR, $00002952)
+【Suzuha】Ohh-, Okabe Rintaro, you sure are brave. You'll probably fail, but I like your spirit.
+<END>
+
+#WRITE(PTR, $0000296C)
+【Suzuha】I wish my comrades were as spirited as you are.
+<END>
+
+#WRITE(PTR, $00002A0A)
+Apparently Suzuha has comrades.
+<END>
+
+#WRITE(PTR, $00002A1A)
+I'd like her to introduce me by all means.
+<END>
+
+#WRITE(PTR, $00002A2A)
+In order to construct Hououin Kyouma's personal army, the Phoenix Crusaders.
+<END>
+
+#WRITE(PTR, $00002A3A)
+Wait.
+<END>
+
+#WRITE(PTR, $00002A4A)
+Why does she assume I'll fail at Ragnarok?
+<END>
+
+#WRITE(PTR, $00002A5A)
+Looks like I need to teach Suzuha to fear me.
+<END>
+
+#WRITE(PTR, $00002AF2)
+【Tennoji】How come only weirdos gather at my store?
+<END>
+
+#WRITE(PTR, $00002B02)
+【Tennoji】Come on, part-timer. Just come inside.
+<END>
+
+#WRITE(PTR, $00002B1E)
+【Suzuha】Oka-y
+<END>
+
+#WRITE(PTR, $00002B38)
+【Suzuha】Bye then, Okabe Rintaro!
+<END>
+
+#WRITE(PTR, $00002B54)
+Suzuha raises one hand and wings at me as she heads inside the store.
+<END>
+
+#WRITE(PTR, $00002BA2)
+【Mayuri】Okarin, wait, wait-
+<END>
+
+#WRITE(PTR, $00002BBE)
+Then, crossing pathes with Suzuha, Mayuri comes down the stairs.
+<END>
+
+#WRITE(PTR, $00002BCE)
+【Rintaro】So you wanted to look with me after all, huh. That's the lab mem spirit.
+<END>
+
+#WRITE(PTR, $00002BE8)
+【Mayuri】Ah, no, that's not it-. I was thinking about buying lunch.
+<END>
+
+#WRITE(PTR, $00002BF8)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00002C08)
+She really is a glutton. It's not even lunchtime yet.
+<END>
+
+#WRITE(PTR, $00002D5A)
+【Rintaro】So, where are you going to buy it?
+<END>
+
+#WRITE(PTR, $00002D74)
+【Mayuri】Hmmm, where should I-
+<END>
+
+#WRITE(PTR, $00002D84)
+Mayuri places her finger on her bottom lip in thought as she walks.
+<END>
+
+#WRITE(PTR, $00002D9E)
+【Mayuri】Sanbo's gyuudon sounds good-
+<END>
+
+#WRITE(PTR, $00002DAE)
+This short high school girl truly has guts to enter "Sanbo" alone.
+<END>
+
+#WRITE(PTR, $00002DBE)
+She's a girl who can't read the atmosphere. In a good way.
+<END>
+
+#WRITE(PTR, $00002E5C)
+Gyuudon Restaurant "Sanbo". Its peculiar atmosphere is enough to cause hesitation in first-time customers.
+<END>
+
+#WRITE(PTR, $00002EAC)
+All seats inside are filled with male customers, so Mayuri would sit at an occupied table, smiling as she eats her gyuudon.
+<END>
+
+#WRITE(PTR, $00002EBC)
+All of the Sanbists-- regular customers who love Sanbo-- would see Mayuri's appearance at Sanbo, and keep posting comments online like The goddess descends! or Goddess FTW!.
+<END>
+
+#WRITE(PTR, $00002F7A)
+【Rintaro】But Sanbo isn't open this early--
+<END>
+
+#WRITE(PTR, $00002F8A)
+I try to warn her, but Mayuri's no longer walking beside me.
+<END>
+
+#WRITE(PTR, $00002F9A)
+She disappeared.
+<END>
+
+#WRITE(PTR, $00002FAA)
+Mayuri does this occasionally.
+<END>
+
+#WRITE(PTR, $00002FBA)
+And each time she does, I get startled with the illusion that she really did disappear from the world.
+<END>
+
+#WRITE(PTR, $00003002)
+I look about my surroundings and see Mayuri standing still at a distance.
+<END>
+
+#WRITE(PTR, $00003012)
+She's aimlessly looking up at the sky through the buildings.
+<END>
+
+#WRITE(PTR, $00003022)
+--It started again.
+<END>
+
+#WRITE(PTR, $00003032)
+Since she's stopped in the middle of the street, other passersby look at Mayuri from the side, wondering what she's doing.
+<END>
+
+#WRITE(PTR, $00003042)
+Without noticing those glances, Mayuri slowly raises her right hand out to the sky, as if entranced.
+<END>
+
+#WRITE(PTR, $00003052)
+Her posture stiffens.
+<END>
+
+#WRITE(PTR, $00003062)
+This is one of Mayuri's habits.
+<END>
+
+#WRITE(PTR, $00003072)
+I decided to call it Stardust Shakehand.
+<END>
+
+#WRITE(PTR, $00003082)
+Mayuri said she's liked looking at the night sky ever since she was little.
+<END>
+
+#WRITE(PTR, $00003092)
+She reaches her hand with a romantic, or childish reason-
+<END>
+
+#WRITE(PTR, $00003140)
+【Mayuri】I think, "I wonder if I can reach the stars-".
+<END>
+
+#WRITE(PTR, $00003196)
+When I asked her earlier, she smiled as she gave that reply.
+<END>
+
+#WRITE(PTR, $000031A6)
+At first she only did it to the night sky, but lately, she's been doing it regardless of the time or occasion.
+<END>
+
+#WRITE(PTR, $000031B6)
+Like now, even when she's walking and talking with someone, it's like something inside her switches on. Clearly speaking, it's nonsense.
+<END>
+
+#WRITE(PTR, $0000328C)
+【Rintaro】I don't think you can see any stars.
+<END>
+
+#WRITE(PTR, $0000329C)
+I walk up and call out to her. With a blank smile on her face, Mayuri slowly lowers her hand.
+<END>
+
+#WRITE(PTR, $000032B6)
+【Mayuri】You know, even during the day, the stars are still up there-
+<END>
+
+#WRITE(PTR, $000032C6)
+【Rintaro】Saying philosophical things is nice and all, but it's dangerous to stop in the middle of the street.
+<END>
+
+#WRITE(PTR, $000032E0)
+【Mayuri】Ehhehe-. That's true-
+<END>
+
+#WRITE(PTR, $000032F0)
+【Mayuri】Oh, oh, right now, Mayushii thought of something while looking at the sky, so she'll go with ramen for today's lunch.
+<END>
+
+#WRITE(PTR, $00003300)
+I don't know how ramen and stars are related, but that's something only Mayuri would know, so I give up thinking deeply about it.
+<FILEEND6B>
+

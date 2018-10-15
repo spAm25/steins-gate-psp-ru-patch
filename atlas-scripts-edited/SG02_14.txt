@@ -1,0 +1,1235 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00004E96)
+
+#WRITE(PTR, $000008C4)
+【Rintaro】Who is it?
+<END>
+
+#WRITE(PTR, $000008E0)
+【Kurisu?】...
+<END>
+
+#WRITE(PTR, $000008FC)
+What? All I can hear is noise. Wrong number?
+<END>
+
+#WRITE(PTR, $0000090C)
+No, perhaps--
+<END>
+
+#WRITE(PTR, $0000091C)
+【Rintaro】It's the "Organization", right? Is this a warning? You telling me to stop getting involved with SERN?
+<END>
+
+#WRITE(PTR, $00000938)
+【Kurisu?】Haah?
+<END>
+
+#WRITE(PTR, $00000960)
+Hm? It's a woman's voice.
+<END>
+
+#WRITE(PTR, $00000970)
+Furthermore, she's responding to my words with a dumb voice.
+<END>
+
+#WRITE(PTR, $00000980)
+【Rintaro】You're not from the "Organization"?
+<END>
+
+#WRITE(PTR, $0000099C)
+【Kurisu?】...No. It's Makise.
+<END>
+
+#WRITE(PTR, $000009B8)
+【Rintaro】Makise...
+<END>
+
+#WRITE(PTR, $000009C8)
+Who...?
+<END>
+
+#WRITE(PTR, $000009D8)
+I think I remember this voice from somewhere...
+<END>
+
+#WRITE(PTR, $000009E8)
+【Rintaro】Sorry, but I don't remember. Tell me where we met. Paris? London--
+<END>
+
+#WRITE(PTR, $00000A04)
+【Kurisu2】Akihabara. And we just met yesterday.
+<END>
+
+#WRITE(PTR, $00000AAE)
+Yesterday?
+<END>
+
+#WRITE(PTR, $00000ABE)
+Makise... Makise...
+<END>
+
+#WRITE(PTR, $00000B06)
+【Rintaro】Oh, Assistant!
+<END>
+
+#WRITE(PTR, $00000BD0)
+【Kurisu】Not your assistant! Makise Kurisu!
+<END>
+
+#WRITE(PTR, $00000BEC)
+【Rintaro】If you don't say Christina, then I have no way of knowing it's you.
+<END>
+
+#WRITE(PTR, $00000C08)
+【Kurisu】I'm not Christina either. How many times do I have to tell you?
+<END>
+
+#WRITE(PTR, $00000C24)
+【Rintaro】You're yapping your trap off like always.
+<END>
+
+#WRITE(PTR, $00000C40)
+【Kurisu】Whose fault is that? Whose?
+<END>
+
+#WRITE(PTR, $00000C5C)
+【Rintaro】Just wait, why do you know my phone number...?
+<END>
+
+#WRITE(PTR, $00000C6C)
+This is unnatural... Kurisu hasn't cleared any doubts that she might be a spy--
+<END>
+
+#WRITE(PTR, $00000C88)
+【Kurisu】I got Hashida-san to tell me.
+<END>
+
+#WRITE(PTR, $00000CA4)
+【Rintaro】Oh, that's boring. So, what is it, Assistant?
+<END>
+
+#WRITE(PTR, $00000CC0)
+【Kurisu】I said I'm not your assistant, but...
+<END>
+
+#WRITE(PTR, $00000CD0)
+【Kurisu】Haah, it's stupid to object. Where are you now?
+<END>
+
+#WRITE(PTR, $00000CEC)
+【Rintaro】I'm about to head out to Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00000D08)
+【Kurisu】Ah, okay. Bye then.
+<END>
+
+#WRITE(PTR, $00000D5E)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000D6E)
+【Rintaro】Eh? Haah!? What was that!? She hate me!? Does she hate me!?
+<END>
+
+#WRITE(PTR, $00000D8A)
+How dare a mere assistant look down on me...!
+<END>
+
+#WRITE(PTR, $00000D9A)
+I need to be careful next time I meet her.
+<END>
+
+#WRITE(PTR, $00000DAA)
+She got her thesis published in "Science" after all.
+<END>
+
+#WRITE(PTR, $00000F2A)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00000F3A)
+【Rintaro】...You got your thesis published in "Science", so what?
+<END>
+
+#WRITE(PTR, $00000F4A)
+【Kurisu】What's this all of a sudden?
+<END>
+
+#WRITE(PTR, $00000F5A)
+Assistant's standing in front of Yanabayashi Shrine for some reason.
+<END>
+
+#WRITE(PTR, $00000F6A)
+She glares at me with a sour look.
+<END>
+
+#WRITE(PTR, $00000F7A)
+【Rintaro】What was with that phone call?
+<END>
+
+#WRITE(PTR, $00000F94)
+【Kurisu】I just wanted to ask your whereabouts. And since you said you were coming here, I came.
+<END>
+
+#WRITE(PTR, $00000FA4)
+【Rintaro】Nobody called you, though.
+<END>
+
+#WRITE(PTR, $00000FB4)
+【Kurisu】I don't remember being called, either.
+<END>
+
+#WRITE(PTR, $00000FC4)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000FDE)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00000FEE)
+Why is she always pouting?
+<END>
+
+#WRITE(PTR, $0000109A)
+【Rintaro】Why did you come to meet me?
+<END>
+
+#WRITE(PTR, $00001148)
+【Kurisu】It's not like I came because I wanted to meet you. Don't get me wrong.
+<END>
+
+#WRITE(PTR, $000011EC)
+She just keeps those abusive words coming.
+<END>
+
+#WRITE(PTR, $0000129A)
+【Kurisu】...What you said yesterday as we split up got on my mind.
+<END>
+
+#WRITE(PTR, $0000133E)
+【Rintaro】What part?
+<END>
+
+#WRITE(PTR, $000013E2)
+【Kurisu】The IBN 5100. And SERN.
+<END>
+
+#WRITE(PTR, $00001486)
+【Rintaro】So, you weren't an "Organization" spy, but a SERN spy!? You came to kill me, didn't you!? That's what I thought! Since you have the face of a killer!
+<END>
+
+#WRITE(PTR, $00001534)
+【Kurisu】What about my face? How rude!
+<END>
+
+#WRITE(PTR, $000015E2)
+【Kurisu】Can you calm down a bit? You're always screwing around. You really don't look like you're older than I am.
+<END>
+
+#WRITE(PTR, $00001686)
+【Rintaro】Calm down, huh... Hmph, you don't understand. My body is constantly exposed to danger, and I've lived my entire life running and running.
+<END>
+
+#WRITE(PTR, $00001734)
+【Kurisu】Ehh, I don't get any of that idle talk at all.
+<END>
+
+#WRITE(PTR, $000017D8)
+【Rintaro】You come to pick a fight?
+<END>
+
+#WRITE(PTR, $00001886)
+【Kurisu】I'm just interested in how the IBN 5100 and SERN are related.
+<END>
+
+#WRITE(PTR, $0000192A)
+【Rintaro】Don't you mean you're more interested in SERN's time machine research? Be honest.
+<END>
+
+#WRITE(PTR, $000019D8)
+【Kurisu】Sh-shut up. I'm not interested in time machines at all.
+<END>
+
+#WRITE(PTR, $00001A7C)
+【Kurisu】More importantly, did you find an IBN 5100?
+<END>
+
+#WRITE(PTR, $00001B20)
+【Rintaro】I came here to check that.
+<END>
+
+#WRITE(PTR, $00001BC4)
+Kurisu looks up to Yanabayashi Shrine's smal torii.
+<END>
+
+#WRITE(PTR, $00001C72)
+【Kurisu】At the shrine?
+<END>
+
+#WRITE(PTR, $00001D16)
+【Rintaro】Correct.
+<END>
+
+#WRITE(PTR, $00001DBA)
+Then, with perfect timing, a beautiful girl-- er, beautiful boy-- dressed in miko garb appears from the nearby shrine office, holding a bamboo brom.
+<END>
+
+#WRITE(PTR, $00001E96)
+【Luka】Ah, Oka...Kyouma-san, hello.
+<END>
+
+#WRITE(PTR, $00001F7A)
+【Rintaro】...Lukako, why don't you have it?
+<END>
+
+#WRITE(PTR, $00002028)
+【Luka】Eh, umm, are you talking about "Demon Sword Samidare"?
+<END>
+
+#WRITE(PTR, $000020CC)
+【Rintaro】I thought I told you to carry it at all times!
+<END>
+
+#WRITE(PTR, $0000217A)
+【Luka】I'm sorry, but, it gets in the way when I'm cleaning, so...
+<END>
+
+#WRITE(PTR, $0000221E)
+【Rintaro】What are you going to do when you get attacked while you're cleaning? Nobody's going to come to your rescue, you know.
+<END>
+
+#WRITE(PTR, $000022CC)
+【Luka】Th-that's true... I'll be more careful from now on.
+<END>
+
+#WRITE(PTR, $000023A8)
+【Kurisu】Hey. What are you two talking about?
+<END>
+
+#WRITE(PTR, $0000244C)
+Finally noticing Kurisu's presence, Lukako looks at me with a puzzled look.
+<END>
+
+#WRITE(PTR, $000024FA)
+【Luka】Eh, um... who might this be...?
+<END>
+
+#WRITE(PTR, $0000259E)
+【Rintaro】Assistant.
+<END>
+
+#WRITE(PTR, $0000264C)
+【Kurisu】No! Wait, what's with that vague introduction!?
+<END>
+
+#WRITE(PTR, $000026F0)
+【Rintaro】I only told the truth, Christina.
+<END>
+
+#WRITE(PTR, $00002794)
+【Luka】She's n-n-not Japanese...?
+<END>
+
+#WRITE(PTR, $00002842)
+【Kurisu】I am Japanese.
+<END>
+
+#WRITE(PTR, $00002904)
+【Rintaro】More importantly, Lukako. I need to talk to your father--
+<END>
+
+#WRITE(PTR, $0000295C)
+【Kurisu】Wait! Introduce me! Properly!
+<END>
+
+#WRITE(PTR, $0000296C)
+【Rintaro】You want to be introduced? Properly?
+<END>
+
+#WRITE(PTR, $00002986)
+【Kurisu】It's unnatural to not be introduced in this situation.
+<END>
+
+#WRITE(PTR, $00002996)
+【Rintaro】I didn't come here to introduce you to Lukako!
+<END>
+
+#WRITE(PTR, $000029B0)
+【Kurisu】An introduction wouldn't take more than 10 seconds, yet you keep refusing?
+<END>
+
+#WRITE(PTR, $000029F8)
+【Luka】Um... fighting is...
+<END>
+
+#WRITE(PTR, $00002A08)
+Lukako's flustered. Looks like he's misunderstanding our fight.
+<END>
+
+#WRITE(PTR, $00002A86)
+【Rintaro】She's Makise Kurisu. ...My assistant.
+<END>
+
+#WRITE(PTR, $00002AA0)
+【Kurisu】Yes, whatever. Assistant, whatever... haah.
+<END>
+
+#WRITE(PTR, $00002ABA)
+【Luka】Nice to meet you, Makise-san. I-I'm Urushibara Luka.
+<END>
+
+#WRITE(PTR, $00002AD4)
+【Kurisu】Nice meeting you. How old are you?
+<END>
+
+#WRITE(PTR, $00002AE4)
+【Luka】17 this year.
+<END>
+
+#WRITE(PTR, $00002AF4)
+【Kurisu】A year below me, huh.
+<END>
+
+#WRITE(PTR, $00002B12)
+【Luka】Eh, is that so?
+<END2>
+
+#WRITE(PTR, $00002B2C)
+Makise-san, you're so adult-like, you don't seem just a year older...
+<END>
+
+#WRITE(PTR, $00002B40)
+【Rintaro】In other words, you look old.
+<END>
+
+#WRITE(PTR, $00002BF0)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00002C00)
+She glares at me.
+<END>
+
+#WRITE(PTR, $00002CA6)
+【Luka】No, that's not it, um, I mean you're very beautiful...!
+<END>
+
+#WRITE(PTR, $00002CC0)
+【Kurisu】Thanks. I think you're very cute.
+<END>
+
+#WRITE(PTR, $00002CDA)
+But he's a guy. I probably shouldn't tell Assistant that, though.
+<END>
+
+#WRITE(PTR, $00002CEA)
+If she were to learn the truth, she might go back to America from the shock.
+<END>
+
+#WRITE(PTR, $00002CFA)
+【Rintaro】Are we done with the dumb diplomacy?
+<END>
+
+#WRITE(PTR, $00002D18)
+【Kurisu】I'm sick of your complaining.
+<END>
+
+#WRITE(PTR, $00002D28)
+【Rintaro】Then, Lukako, I want to talk with your father. Can you call him for me?
+<END>
+
+#WRITE(PTR, $00002D42)
+【Luka】Yes, I can, but, you need to talk to my father about...?
+<END>
+
+#WRITE(PTR, $00002D52)
+【Rintaro】Serious business, critical for the future of mankind.
+<END>
+
+#WRITE(PTR, $00002D6C)
+【Luka】The future...!
+<END>
+
+#WRITE(PTR, $00002D86)
+【Kurisu】Of mankind?
+<END>
+
+#WRITE(PTR, $00002DA0)
+【Luka】I-I'll call him right away.
+<END>
+
+#WRITE(PTR, $00002DBC)
+Lukako rushes into the shrine office.
+<END>
+
+#WRITE(PTR, $00002DCC)
+That kid believes just about everything I say.
+<END>
+
+#WRITE(PTR, $00002DDC)
+Unlike the rebellious Assistant, he's actually really easy to talk to.
+<END>
+
+#WRITE(PTR, $00002EF6)
+【Kurisu】shh.
+<END>
+
+#WRITE(PTR, $00002F10)
+【Kurisu】Oh no, did I catch a cold...?
+<END>
+
+#WRITE(PTR, $00002F20)
+Kurisu's too busy sniffling for a while to scold me.
+<END>
+
+#WRITE(PTR, $00002F3C)
+Lukako's father soon apears.
+<END>
+
+#WRITE(PTR, $00002F4C)
+As for Lukako, he's pretty flustered, so he nearly drags him out to the grounds.
+<END>
+
+#WRITE(PTR, $00002F94)
+【Luka】Father, quickly, quickly...!
+<END>
+
+#WRITE(PTR, $00003014)
+【Luka's Father】Wait just a bit. If you rush me so much, I'm going to fall...
+<END>
+
+#WRITE(PTR, $0000302E)
+【Luka】But, the future of mankind depends on it...
+<END>
+
+#WRITE(PTR, $00003048)
+【Luka's Father】Oh, oh is that so. That sure is serious.
+<END>
+
+#WRITE(PTR, $000030EE)
+I've met this father several times before.
+<END>
+
+#WRITE(PTR, $000030FE)
+He's a gentle, respectable adult. With the exception of how he raised Lukako wrong.
+<END>
+
+#WRITE(PTR, $0000310E)
+This father dotes upon his son.
+<END>
+
+#WRITE(PTR, $0000311E)
+It seems like Lukako wears miko garb when helping with shrine duties because of his father's request. Maybe he's a pervert. No, I don't mean to mock the Shinto priesthood at all.
+<END>
+
+#WRITE(PTR, $000031F6)
+【Luka's Father】Ah, Hououin-kun. It's been a while. Thank you for always taking care of Luka.
+<END>
+
+#WRITE(PTR, $00003206)
+【Rintaro】No, the honor is mine.
+<END>
+
+#WRITE(PTR, $0000324E)
+【Kurisu】...His name isn't Hououin, it's Okabe.
+<END>
+
+#WRITE(PTR, $00003268)
+【Luka's Father】Eh, is that so?
+<END>
+
+#WRITE(PTR, $00003278)
+【Rintaro】Assistant! You're making things complicated, so don't talk!
+<END>
+
+#WRITE(PTR, $00003292)
+【Kurisu】Didn't I just say the truth?
+<END>
+
+#WRITE(PTR, $000032A2)
+Tch, just what did she come here for?
+<END>
+
+#WRITE(PTR, $000032C0)
+【Luka's Father】Luka told me that he was Hououin-kun, so I completely believed it, but, hmm, maybe Luka was just playing a trick on me. Hahaha.
+<END>
+
+#WRITE(PTR, $00003308)
+【Luka】Ah, Father, th-that's not it, Okabe-san is his real name, and the Hououin name is, umm...
+<END>
+
+#WRITE(PTR, $00003318)
+【Rintaro】I am Hououin.
+<END>
+
+#WRITE(PTR, $00003360)
+【Kurisu】Okabe Rintaro was the name your parents gave to you, right? Are you denying that?
+<END>
+
+#WRITE(PTR, $00003370)
+【Rintaro】Just be quiet, the Zombie!
+<END>
+
+#WRITE(PTR, $0000338E)
+【Kurisu】Who's the Zombie!?
+<END>
+
+#WRITE(PTR, $000033A8)
+【Luka's Father】Hahaha, it's great that you all get along.
+<END>
+
+#WRITE(PTR, $000033B8)
+Luka's dad looks at Kurisu.
+<END>
+
+#WRITE(PTR, $000033C8)
+【Luka's Father】Are you one of Luka's friends too? Please get along with Luka from now on too.
+<END>
+
+#WRITE(PTR, $000033E2)
+【Kurisu】Eh, I'm...
+<END>
+
+#WRITE(PTR, $000033F2)
+【Luka's Father】Because this child is very delicate, as you can see.
+<END>
+
+#WRITE(PTR, $0000340C)
+【Luka】F-father, stop it...
+<END>
+
+#WRITE(PTR, $00003434)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00003444)
+Kurisu's making a teary face for some reason.
+<END>
+
+#WRITE(PTR, $00003454)
+What's wrong? Is it that much of a bother to be called Lukako's friend when she's not?
+<END>
+
+#WRITE(PTR, $0000346E)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $0000348A)
+Noticing my glance, Kurisu quickly turns away.
+<END>
+
+#WRITE(PTR, $000034DA)
+【Luka's Father】So, Hououin-kun. Did you need me for something?
+<END>
+
+#WRITE(PTR, $00003578)
+That's right. This isn't the time for carefree chatter.
+<END>
+
+#WRITE(PTR, $00003588)
+This is a decisive event for the crusade!
+<END>
+
+#WRITE(PTR, $00003598)
+The future of mankind is, well, whatever.
+<END>
+
+#WRITE(PTR, $000035A8)
+For I am a mad scientist, not a hero of any sort.
+<END>
+
+#WRITE(PTR, $0000360C)
+I explain to Luka's dad about how I absolutely need the precious PC, the IBN 5100, no matter what.
+<END>
+
+#WRITE(PTR, $0000361C)
+On top of that, I ask him if that retro PC is dedicated here in Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $0000362C)
+Of course, I don't disclose the classified information that we plan to hack SERN or that this is all related to time machine research.
+<END>
+
+#WRITE(PTR, $00003646)
+【Luka's Father】I don't know if "dedicated" is the right word to use.
+<END>
+
+#WRITE(PTR, $00003656)
+【Luka's Father】But there certainly is an old computer entrusted to this shrine about 9 years ago.
+<END>
+
+#WRITE(PTR, $0000366C)
+【Rintaro】Eh...
+<END>
+
+#WRITE(PTR, $0000367C)
+I become speechless.
+<END>
+
+#WRITE(PTR, $0000368C)
+No way, really...?
+<END>
+
+#WRITE(PTR, $000036A8)
+【Rintaro】That's it! That's no doubt it!
+<END>
+
+#WRITE(PTR, $000036C2)
+【Luka's Father】Please wait for a while. I'll go get it now.
+<END>
+
+#WRITE(PTR, $000036F2)
+Luka's dad comes back in about 10 minutes.
+<END>
+
+#WRITE(PTR, $00003702)
+His face is bright red as he carries a large cardboard box.
+<END>
+
+#WRITE(PTR, $00003712)
+His gait is fairly unsteady. I wonder if he'll be okay.
+<END>
+
+#WRITE(PTR, $00003766)
+【Luka's Father】Whew, it was hard to look for it. I think this is probably it.
+<END>
+
+#WRITE(PTR, $00003776)
+Luka's dad places the box on the ground, taking a deep breath as he rubs his back.
+<END>
+
+#WRITE(PTR, $00003786)
+Is it that heavy?
+<END>
+
+#WRITE(PTR, $00003796)
+I thank him and take a look inside.
+<END>
+
+#WRITE(PTR, $000037EA)
+【Rintaro】This is an IBN 5100...!
+<END>
+
+#WRITE(PTR, $000037FA)
+Contained inside is a simple computer with an integrated monitor.
+<END>
+
+#WRITE(PTR, $0000380A)
+I say monitor, but it's only about as big as a car GPS screen.
+<END>
+
+#WRITE(PTR, $0000381A)
+I compare it with the IBN 5100 image I got from Masseuse.
+<END>
+
+#WRITE(PTR, $0000382A)
+It looks very similar.
+<END>
+
+#WRITE(PTR, $000038B6)
+【Luka】Ah, please look here.
+<END>
+
+#WRITE(PTR, $000038CE)
+Lukako points to the logo placed between the <DICT>tape drive</DICT> and the monitor.
+<END>
+
+#WRITE(PTR, $000038DE)
+It clearly says "IBN 5100 Portable Computer".
+<END>
+
+#WRITE(PTR, $000038EE)
+【Rintaro】Fuhaha, fuuhahahaha! Finally, I have elucidated Akiba's urban legend!
+<END>
+
+#WRITE(PTR, $00003908)
+This very computer is the phantom PC of Akiba!
+<END>
+
+#WRITE(PTR, $00003918)
+It's in favorable condition. There's only a thin layer of dust on it.
+<END>
+
+#WRITE(PTR, $00003928)
+However, it looks like we need to plug it in to test if it works or not.
+<END>
+
+#WRITE(PTR, $00003938)
+Now, the problem is whether Luka's dad will lend it to me or not.
+<END>
+
+#WRITE(PTR, $00003994)
+【Rintaro】Urushibara-shi. I'd like to ask bluntly.
+<END>
+
+#WRITE(PTR, $000039A4)
+【Rintaro】But could I borrow this computer?
+<END>
+
+#WRITE(PTR, $000039B4)
+【Luka's Father】You may.
+<END>
+
+#WRITE(PTR, $000039C4)
+【Rintaro】That easily!?
+<END>
+
+#WRITE(PTR, $000039D4)
+Is it okay for a priest to lend dedicated objects to other people?
+<END>
+
+#WRITE(PTR, $000039E4)
+I've never heard anything like that. That's why I was expecting he'd refuse.
+<END>
+
+#WRITE(PTR, $000039F4)
+【Luka's Father】When this was entrusted to us, the owner said this:
+<END>
+
+#WRITE(PTR, $00003A0E)
+【Luka's Father】"If a young person appears saying they need the computer no matter what, you may at that time gladly lend it to them."
+<END>
+
+#WRITE(PTR, $00003A1E)
+【Luka's Father】I didn't think one would actually appear like this. Actually, I forgot about it until those rumors started popping up.
+<END>
+
+#WRITE(PTR, $00003A38)
+【Luka's Father】Therefore, let's lend it to Hououin-kun. However, once you're done, please be sure to return it, okay?
+<END>
+
+#WRITE(PTR, $00003A48)
+【Rintaro】Yes, thank you very much!
+<END>
+
+#WRITE(PTR, $00003AE6)
+While bowing deeply, I snicker in my heart.
+<END>
+
+#WRITE(PTR, $00003AF6)
+Heheheh, I can't stop laughing. Things are going so swimmingly. It's almost like things are being prepared for me.
+<END>
+
+#WRITE(PTR, $00003B06)
+With this, SERN's hidden secrets are fully exposed.
+<END>
+
+#WRITE(PTR, $00003B16)
+We can expose their wicked research, and possibly, even gather hints on the creation of a time machine.
+<END>
+
+#WRITE(PTR, $00003B26)
+And then I can complete the first time machine in human history before them.
+<END>
+
+#WRITE(PTR, $00003BD8)
+With that said, now I have to bring the IBN 5100 back to the lab.
+<END>
+
+#WRITE(PTR, $00003BE8)
+But unfortunately, I don't have a car to transport it. In fact, I don't even have a license.
+<END>
+
+#WRITE(PTR, $00003BF8)
+Assistant is the same.
+<END>
+
+#WRITE(PTR, $00003C60)
+【Rintaro】Don't you usually get your license at age 16 in America? Yet you don't have one?
+<END>
+
+#WRITE(PTR, $00003C70)
+【Kurisu】What, there a problem? Over there, I've been doing nothing but research.
+<END>
+
+#WRITE(PTR, $00003C80)
+【Rintaro】You're wasting your youth away.
+<END>
+
+#WRITE(PTR, $00003C9A)
+【Kurisu】I don't think that when I look at you. Actually, I think I'm spending mine more usefully.
+<END>
+
+#WRITE(PTR, $00003CAA)
+Damn Assistant. Touche.
+<END>
+
+#WRITE(PTR, $00003CF2)
+【Luka】Uh, umm, it's not good to fight...
+<END>
+
+#WRITE(PTR, $00003D02)
+Lukako's flustered again.
+<END>
+
+#WRITE(PTR, $00003D12)
+【Rintaro】Lukako, you were a lifesaver today. Thank your father again for me.
+<END>
+
+#WRITE(PTR, $00003D22)
+Luka's dad had already returned to the shrine office.
+<END>
+
+#WRITE(PTR, $00003D32)
+Lukako nods at my words.
+<END>
+
+#WRITE(PTR, $00003D4C)
+【Kurisu】Your father sure is a lovely man.
+<END>
+
+#WRITE(PTR, $00003D66)
+【Luka】Eh...
+<END>
+
+#WRITE(PTR, $00003D76)
+Lukako and I freeze at Assistant's nonchalant words.
+<END>
+
+#WRITE(PTR, $00003D90)
+【Luka】M-my father is m-married... a-ad-adultery... isn't good...!
+<END>
+
+#WRITE(PTR, $00003DAA)
+【Kurisu】Huh...?
+<END>
+
+#WRITE(PTR, $00003DBA)
+【Rintaro】I see, Assistant. So you like old men, huh.
+<END>
+
+#WRITE(PTR, $00003DD4)
+【Kurisu】Hey, wait! Don't misunderstand, you two. That's not what I meant!
+<END>
+
+#WRITE(PTR, $00003DEE)
+【Luka】I-I won't give up my father...
+<END>
+
+#WRITE(PTR, $00003DFE)
+【Kurisu】P-please don't cry...
+<END>
+
+#WRITE(PTR, $00003E0E)
+【Kurisu】What I meant was that you and your father get along, so I was jealous. That's all I meant.
+<END>
+
+#WRITE(PTR, $00003E28)
+【Luka】Eh, ah, was that so.... Im sorry for the weird misunderstanding...! I did something so rude...!
+<END>
+
+#WRITE(PTR, $00003E42)
+【Kurisu】So don't cry. We resolved the misunderstand, so it's all okay.
+<END>
+
+#WRITE(PTR, $00003E52)
+【Rintaro】...but in the depths of your heart are feelings for Luka's dad.
+<END>
+
+#WRITE(PTR, $00003E70)
+【Kurisu】There aren't any.
+<END>
+
+#WRITE(PTR, $00003E8C)
+Christina turns away.
+<END>
+
+#WRITE(PTR, $00003E9C)
+I stop myself since angering her any further could lead to violence.
+<END>
+
+#WRITE(PTR, $00003EEC)
+【Rintaro】Lukako, don't forget your practice swinging with "Samidare".
+<END>
+
+#WRITE(PTR, $00003F06)
+【Luka】Y-yes sir. I'll do my best... Umm, El Psy Congaly...
+<END>
+
+#WRITE(PTR, $00003F16)
+【Rintaro】It's Congroo! Don't forget it.
+<END>
+
+#WRITE(PTR, $00003F30)
+【Luka】I-I'm sorry...
+<END>
+
+#WRITE(PTR, $00003F78)
+【Kurisu】Hey, it's terrible to bully girls, don't you think?
+<END>
+
+#WRITE(PTR, $00003F88)
+No, I don't think that.
+<END>
+
+#WRITE(PTR, $000040EA)
+Because Lukako is a guy.
+<END>
+
+#WRITE(PTR, $00004194)
+Ignoring Christina's retort, I lift up the box with the IBN 5100.
+<END>
+
+#WRITE(PTR, $000041A4)
+【Rintaro】Hmm, ...gah, it's heavy!
+<END>
+
+#WRITE(PTR, $000041BC)
+It'll take everything I've got to carry this weight all the way.
+<END>
+
+#WRITE(PTR, $000041CC)
+I put it down for now.
+<END>
+
+#WRITE(PTR, $000041DC)
+Now I know why Luka's dad's face was bright red when he carried this thing.
+<END>
+
+#WRITE(PTR, $00004252)
+【Luka】Is it that heavy...?
+<END>
+
+#WRITE(PTR, $00004262)
+【Kurisu】How weak. Even though it's only as big as a CRT monitor.
+<END>
+
+#WRITE(PTR, $00004272)
+【Rintaro】Then why don't you try carrying it? You'll understand that I wasn't wrong.
+<END>
+
+#WRITE(PTR, $0000428E)
+Kurisu sighs, holds both ends of the cardboard box, and puts in all her strength--
+<END>
+
+#WRITE(PTR, $0000429E)
+【Kurisu】Wheugh...!
+<END>
+
+#WRITE(PTR, $000042B8)
+After giving it her all without lifting it a centimeter, Kurisu gives up.
+<END>
+
+#WRITE(PTR, $00004300)
+【Kurisu】...I-it's really heavy.
+<END>
+
+#WRITE(PTR, $00004310)
+With a sour look on her face, she blushes slightly in embarrassment.
+<END>
+
+#WRITE(PTR, $00004320)
+Assistant seems to have a strong competitive spirit.
+<END>
+
+#WRITE(PTR, $0000433A)
+【Kurisu】This thing's gotta weigh like 30 kilos, right?
+<END>
+
+#WRITE(PTR, $0000434E)
+【Kurisu】Maybe we should've borrowed a push cart.
+<END2>
+
+#WRITE(PTR, $00004368)
+ Urushibara-san, is there one in the shrine?
+<END>
+
+#WRITE(PTR, $0000437C)
+【Luka】Umm, there is one, but actually, it's broken... I'm sorry.
+<END>
+
+#WRITE(PTR, $0000438C)
+【Kurisu】I see. Is there some other place we could borrow--
+<END>
+
+#WRITE(PTR, $0000439C)
+【Rintaro】No, we don't need a push cart.
+<END>
+
+#WRITE(PTR, $000043EC)
+【Kurisu】Then how are you going to bring it back? It takes about 10 minutes to walk back to your run-down lab from here.
+<END>
+
+#WRITE(PTR, $000043FC)
+【Rintaro】It may be too heavy for one person, but it's a different story for two. You and I just need to carry it together. That's the reason you're my assistant, right?
+<END>
+
+#WRITE(PTR, $00004416)
+【Kurisu】Is that the reason...?
+<END>
+
+#WRITE(PTR, $00004426)
+【Kurisu】Well, if both of us carry it, we might be able to manage.
+<END>
+
+#WRITE(PTR, $000044DC)
+【Kurisu】Nope.avi
+<END>
+
+#WRITE(PTR, $000044EC)
+【Rintaro】...eh?
+<END>
+
+#WRITE(PTR, $000045FA)
+【Kurisu】I-I said no.
+<END>
+
+#WRITE(PTR, $0000460A)
+【Rintaro】Didn't you say nope.avi?
+<END>
+
+#WRITE(PTR, $00004624)
+【Kurisu】Sh-shut up. Yes. I said no.
+<END>
+
+#WRITE(PTR, $00004634)
+...Could she possibly be an @channeler?
+<END>
+
+#WRITE(PTR, $00004652)
+【Kurisu】From the start, you made me a lab mem to "borrow my knowledge".
+<END2>
+
+#WRITE(PTR, $0000466C)
+So I'll guide you to the next answer in this case. "I won't do physical labor".
+<END>
+
+#WRITE(PTR, $00004680)
+【Rintaro】I see. Then there's no helping it. For now, I'll do my best to carry it, but...
+<END>
+
+#WRITE(PTR, $000046C8)
+I glimpse at Lukako.
+<END>
+
+#WRITE(PTR, $000047E2)
+Lukako twitches as he notices my glance, timidly raising his hands with a tearful face.
+<END>
+
+#WRITE(PTR, $000047F2)
+【Luka】Um, th-then, I will...
+<END>
+
+#WRITE(PTR, $0000480C)
+【Kurisu】Eh? Urushibara-san will? You okay?
+<END>
+
+#WRITE(PTR, $0000481C)
+【Luka】Yes, I-I'll do my best.
+<END>
+
+#WRITE(PTR, $0000486C)
+【Rintaro】No, Lukako. I shouldn't make you help me. I can manage by myself.
+<END>
+
+#WRITE(PTR, $0000487C)
+【Luka】No... no way. Please don't hold back. I want to be helpful for Okabe-san.
+<END>
+
+#WRITE(PTR, $0000488C)
+【Rintaro】No, I'll do it myself.
+<END>
+
+#WRITE(PTR, $0000489C)
+【Luka】I-I'll help you.
+<END>
+
+#WRITE(PTR, $000048E4)
+【Kurisu】Th-then, umm... me too....
+<END>
+
+#WRITE(PTR, $00004900)
+【Rintaro】Please, by all means.
+<END>
+
+#WRITE(PTR, $00004A1A)
+【Kurisu】Eh? Wha!?
+<END>
+
+#WRITE(PTR, $00004A2A)
+【Rintaro】Fuhahaha! Didn't you know, Christina? That was what you call a Japanese Gag!
+<END>
+
+#WRITE(PTR, $00004A44)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00004A8C)
+【Rintaro】Lukako, thanks for the backup! With that said, Assistant and I will carry this computer, so you don't have to help. Thanks for the concern.
+<END>
+
+#WRITE(PTR, $00004AA6)
+【Luka】Ah, okay... if that's how it is, then...
+<END>
+
+#WRITE(PTR, $00004AB6)
+【Rintaro】Now, Assistant! Since you volunteered yourself, I won't let you refuse. Hold it. Hold it now!
+<END>
+
+#WRITE(PTR, $00004AD0)
+【Kurisu】...Okay, okay.
+<END>
+
+#WRITE(PTR, $00004B4E)
+Kurisu and I lift up the cardboard box.
+<END>
+
+#WRITE(PTR, $00004B5E)
+Two people collaborating considerably reduces the weight.
+<END>
+
+#WRITE(PTR, $00004B6E)
+【Kurisu】Why do we have to be face to face?
+<END>
+
+#WRITE(PTR, $00004B7E)
+We're positioned so that we're looking at each other.
+<END>
+
+#WRITE(PTR, $00004B8E)
+But there's no other way to hold it, so there's no helping it.
+<END>
+
+#WRITE(PTR, $00004B9E)
+【Rintaro】Let's just go.
+<END>
+
+#WRITE(PTR, $00004BF2)
+I start to walk out of the shrine at once.
+<END>
+
+#WRITE(PTR, $00004C02)
+【Kurisu】Hey, wait, wait! Wait!
+<END>
+
+#WRITE(PTR, $00004C2A)
+【Rintaro】You're a noisy one.
+<END>
+
+#WRITE(PTR, $00004C3A)
+【Kurisu】Don't walk forwards. That means I have to walk backwards, right? Move sideways.
+<END>
+
+#WRITE(PTR, $00004C4A)
+【Rintaro】Just move quickly, Assistant.
+<END>
+
+#WRITE(PTR, $00004CB8)
+【Kurisu】Hey, listen, please, just listen! Walking backwards is just too much!
+<END>
+
+#WRITE(PTR, $00004CC8)
+【Rintaro】If you're an assistant, you should be able to do it.
+<END>
+
+#WRITE(PTR, $00004CD8)
+【Kurisu】Thanks for the esteem. But it's too much! I'm asking you to go sideways! No, I'm telling you to go sideways! Sideways! I'm going to fall!
+<FILEEND39>
+

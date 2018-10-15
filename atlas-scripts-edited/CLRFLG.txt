@@ -46,7 +46,7 @@
 <END2>
 
 #WRITE(PTR, $00000024)
-%CF8FF8Isolated Jamais Vu】 Ending%CE
+%CF8FF8【Isolated Jamais Vu】 Ending%CE
 <END2>
 
 #WRITE(PTR, $00000026)

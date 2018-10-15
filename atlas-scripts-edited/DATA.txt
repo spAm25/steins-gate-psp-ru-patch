@@ -227,7 +227,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000030C)
-HaselLoy
+Hello is th
 <END2>
 
 #WRITE(PTR, $00000324)
@@ -238,7 +238,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000032C)
-ance was
+is Washingt
 <END2>
 
 #WRITE(PTR, $00000344)
@@ -249,7 +249,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000034C)
-here ^_^
+on post?
 <END2>
 
 #WRITE(PTR, $00000364)
@@ -9915,15 +9915,15 @@ Chairman
 <END2>
 
 #WRITE(PTR, $000059CC)
-【漆原父】
+【Luka's Father】
 <END2>
 
 #WRITE(PTR, $000059D0)
-漆原父
+Luka's Father
 <END2>
 
 #WRITE(PTR, $000059D4)
-漆原父
+Luka's Father
 <END2>
 
 #WRITE(PTR, $000059DC)

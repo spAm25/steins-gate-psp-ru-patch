@@ -335,7 +335,7 @@ An online system for the creation and compilation of hypertext documents on a we
 <END2>
 
 #WRITE(PTR, $000001F0)
-電脳の魔術師級
+Computer Conjurer
 <END2>
 
 #WRITE(PTR, $000001F2)
@@ -351,7 +351,8 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $000001F8)
-オカリンの勝手な造語。<LINE>とにかくすごいプログラム、というような意味。
+Rintaro's arbitrary coinage.<LINE>
+Anyway, it sort of means an amazing program, or something.
 <END2>
 
 #WRITE(PTR, $00000210)
@@ -436,7 +437,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000290)
-ＨＴＭＬ
+HTML
 <END2>
 
 #WRITE(PTR, $00000292)
@@ -452,11 +453,13 @@ Net
 <END2>
 
 #WRITE(PTR, $00000298)
-『ＨｙｐｅｒＴｅｘｔ Ｍａｒｋｕｐ Ｌａｎｇｕａｇｅ』。<LINE>ｗｅｂページのドキュメントを記述するための言語。<LINE>ドキュメントの中に画像、音声、動画、ハイパーリンクなどを埋め込むことが可能。
+"HyperText Markup Language".<LINE>
+A language used to describe web page documents.<LINE>
+Images, videos, sound, and hyperlinks can be embedded into the document.
 <END2>
 
 #WRITE(PTR, $000002B0)
-ＨＴＴＰ
+HTTP
 <END2>
 
 #WRITE(PTR, $000002B2)
@@ -472,7 +475,8 @@ Net
 <END2>
 
 #WRITE(PTR, $000002B8)
-『ＨｙｐｅｒＴｅｘｔ Ｔｒａｎｓｆｅｒ Ｐｒｏｔｏｃｏｌ』。<LINE>ブラウザとｗｅｂサーバとの間でＨＴＭＬ等のデータ送受信に使われる通信プロトコル。
+"HyperText Transfer Protocol".<LINE>
+The communication protocol used to transfer data like HTML between a browser and a web server.
 <END2>
 
 #WRITE(PTR, $000002D0)
@@ -518,7 +522,7 @@ Irregularly holds special seminars and symposiums as a joint effort of several u
 <END2>
 
 #WRITE(PTR, $00000310)
-ＡＰＬ
+APL
 <END2>
 
 #WRITE(PTR, $00000312)
@@ -534,11 +538,12 @@ Other
 <END2>
 
 #WRITE(PTR, $00000318)
-『Ａ Ｐｒｏｇｒａｍｍｉｎｇ Ｌａｎｇｕａｇｅ』の略。<LINE>１９６４年に登場したプログラミング言語。
+Short for "A Programming Language".<LINE>
+A programming language introduced in 1964.
 <END2>
 
 #WRITE(PTR, $00000330)
-エキサイト先生
+Babel Fish
 <END2>
 
 #WRITE(PTR, $00000332)
@@ -554,7 +559,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000338)
-翻訳サイトの通称。
+Original: Nickname for a translation site.
 <END2>
 
 #WRITE(PTR, $00000350)
@@ -765,7 +770,7 @@ There ususally isn't a reason for the character to be odd-eyed. It's mostly just
 <END2>
 
 #WRITE(PTR, $00000490)
-おでん缶
+Canned Oden
 <END2>
 
 #WRITE(PTR, $00000492)
@@ -781,7 +786,8 @@ Akihabara
 <END2>
 
 #WRITE(PTR, $00000498)
-缶ジュースのような容器の中に、数種類のおでんの具が入ったもの。<LINE>１９９０年代の頭に、Akihabaraのパーツショップが店頭の自動販売機にて販売を始めて以降、徐々に人気を獲得しAkihabara名物となった。
+Several kinds of oden ingredients packaged like a canned drink.<LINE>
+After parts shops in Akihabara began selling it in vending machines, it gradually became a popular Akihabara specialty.
 <END2>
 
 #WRITE(PTR, $000004B0)
@@ -805,7 +811,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000004D0)
-オヌヌメ
+Recommended
 <END2>
 
 #WRITE(PTR, $000004D2)
@@ -821,7 +827,8 @@ Net
 <END2>
 
 #WRITE(PTR, $000004D8)
-『オススメ』をもじったもの。
+Original: Onunume, corruption of Osusume.<LINE>
+Means recommendation, encouragement, invitation.
 <END2>
 
 #WRITE(PTR, $000004F0)
@@ -1027,7 +1034,7 @@ They are called by various names depending on the era, region, and maker, but th
 <END2>
 
 #WRITE(PTR, $00000630)
-ガルガリ君
+GaruGari-kun
 <END2>
 
 #WRITE(PTR, $00000632)
@@ -1043,7 +1050,11 @@ Other
 <END2>
 
 #WRITE(PTR, $00000638)
-（架空）棒アイスの商品名。<LINE>氷菓の中では国民的知名度を誇り、コンビニなどで買うことができる。<LINE>スタンダードなソーダ味の他、コーラ味やグレープ味など、期間限定のものも含めて５０種類以上が発売された。<LINE>棒の部分には稀に“あたり”と書かれている場合があり、それが出るともう１本サービスとなる。<LINE>当たる確率は２％ほどという噂がある。
+(Fictional) Ice pop brand name.<LINE>
+Popular throughout the country. Can be bought at convenience stores and other places.<LINE>
+In addition to the standard soda flavor, over 50 varieties are sold, including cola, grape, and limited promotional flavors.<LINE>
+"Win" may be written on one part of the stick. A winning stick earns a free pop.<LINE>
+The chances of winning are rumored to be around 2％.
 <END2>
 
 #WRITE(PTR, $00000650)
@@ -1089,7 +1100,7 @@ For that reason, all those who know of its existence call it nothing but the "Or
 <END2>
 
 #WRITE(PTR, $00000690)
-擬人化
+Anthropomorphize
 <END2>
 
 #WRITE(PTR, $00000692)
@@ -1105,7 +1116,8 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00000698)
-動物や物体、さらには国や元素まで、あらゆる概念、事象等を人間のキャラクターに見立てること。<LINE>イラスト化が前提である。
+To liken an animal or an object, or even any concept or phenomenon including countries or chemical elements, to a human character.<LINE>
+Illustration is a given.
 <END2>
 
 #WRITE(PTR, $000006B0)
@@ -1233,7 +1245,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000770)
-クラッキング
+Cracking
 <END2>
 
 #WRITE(PTR, $00000772)
@@ -1249,7 +1261,10 @@ Net
 <END2>
 
 #WRITE(PTR, $00000778)
-Netワークに繋がれたシステムへの不正なアクセス、%nデータ改ざんなどを行うこと。<LINE>ハッキングと混同されがちだが、ハッキングの本来の意味はソフトウェアの研究や調査である。<LINE>一方でクラッキングは、悪意ある不正な行為であり、メ%nディアなどでハッキングという言葉が使われる場合は主にこちらを指すことが多い。
+Actions including illegal access to networked systems and data falsification.<LINE>
+Often confused with hacking, but hacking originally means the study and investigation of software.<LINE>
+On the other hand, cracking is a malicious illegal act.<LINE>
+The media usually means cracking when they use the word hacking.
 <END2>
 
 #WRITE(PTR, $00000790)
@@ -1335,7 +1350,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000810)
-賢者タイム
+Le Petite Mort
 <END2>
 
 #WRITE(PTR, $00000812)
@@ -1351,7 +1366,10 @@ Net
 <END2>
 
 #WRITE(PTR, $00000818)
-身も心も脱力状態となり、とても冷静で、あらゆる刺激が刺激として感じられなくなった状態。<LINE>男子限定の生理現象。<LINE>その様子はまるで魂の抜け殻である。<LINE>ハイパー賢者タイムや聖人タイムなどの別名もある。
+The condition where one's mind and body become exhausted, one becomes very composed, and becomes unable to sense any stimulus as a stimulus.<LINE>
+A phenomenon restricted to male physiology.<LINE>
+Entering this state is almost like an empty spiritual shell.<LINE>
+Also known as hyper sage time or saint time.
 <END2>
 
 #WRITE(PTR, $00000830)
@@ -1654,7 +1672,7 @@ The name is derived from "Spark Wars", an epic series of scifi Hollywood movies.
 <END2>
 
 #WRITE(PTR, $000009F0)
-サバゲー
+Survival Airsoft
 <END2>
 
 #WRITE(PTR, $000009F2)
@@ -1670,11 +1688,13 @@ Other
 <END2>
 
 #WRITE(PTR, $000009F8)
-サバイバルゲームの略。<LINE>エアガンなどを使って、近代の銃器を用いた戦闘を模して撃ち合いをするゲーム。<LINE>主に屋外の山中などで行われ、参加者は軍隊のような迷彩服に身を包むのが普通である。
+Original: Short for survival game.<LINE>
+A mock gunfight game using air guns. Primarily played outside in the mountains.<LINE>
+Participants generally cover themselves in camouflaged clothes like soldiers.
 <END2>
 
 #WRITE(PTR, $00000A10)
-３００人委員会
+The Council of 300
 <END2>
 
 #WRITE(PTR, $00000A12)
@@ -1690,7 +1710,12 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000A18)
-わずか３００人のみで構成されている、世界を陰で動かしていると噂される謎の秘密組織。<LINE>『見えざる支配者』。<LINE>各国の王族、情報機関、銀行を中心とした大企業、さらには陰謀論によく出てくるような秘密結社なども、すべて３００人委員会の下位組織に過ぎず、また世界のほぼすべての企業、警察、研究機関等がその影響下にあると言われている。<LINE>ただしその実在はあくまで噂でしかない。<LINE>３００人委員会の最終目的、それは一説には『世界人間牧場計画』いわゆる世界の新秩序の構築であるという。<LINE>一部のエリート以外の人間は、１０億人を残してすべて抹殺し、その１０億人は支配者たちの管理下で奴隷として扱われる、というものである。
+A secret organization of only 300 people rumored to manipulate the world behind the scenes.<LINE>
+"Unseen Masters".<LINE>
+The Council of 300 is said to have influence over the royal families, intelligence agencies, banks, enterprises, police, and research institutions of every nation, as well as over secret societies told of in conspiracy theories.<LINE>
+However, its existence is nothing but a rumor.<LINE>
+One theory states that the Council of 300's ultimate goal is to establish a One World Government.<LINE>
+With the exception of the elites, the world's population will be reduced to one billion, and that remaining one billion will be controlled as slaves.
 <END2>
 
 #WRITE(PTR, $00000A30)
@@ -1878,7 +1903,7 @@ Original: Abbreviation of "think with common sense".
 <END2>
 
 #WRITE(PTR, $00000B50)
-衝突型加速器
+Particle Collider
 <END2>
 
 #WRITE(PTR, $00000B52)
@@ -1894,7 +1919,12 @@ Science
 <END2>
 
 #WRITE(PTR, $00000B58)
-様々な荷電粒子を加速、衝突させてそこから発生する反応を研究するための実験装置。<LINE>加速させる粒子の種類によって名称も構造も変化する。<LINE>近年の高エネルギー加速器はそのほとんどがシンクロトロン――リング型加速器である。<LINE>リング型加速器は、大規模な構造や建設の費用が必要になるが、最も効率のいい衝突実験を行うことができる。<LINE>リング型である理由は、荷電粒子を電磁場の中に通過させることでローレンツ力により軌道が曲げられるからである。<LINE>主なシンクロトロンとしては、ＳＥＲＮのＬＨＣの他、アメリカやイギリス、日本などに存在している。
+Experimental equipment that accelerates various charged particles into collision for the purpose of researching the resulting reactions.<LINE>
+The type of particle accelerated also determines the naming scheme of the equipment.<LINE>
+In recent years, most high energy accelerators have been synchrotrons - ring types.<LINE>
+Ring type accelerators require high costs for their large-scale construction, but they can perform the most efficient collision experiments.<LINE>
+The reason for the ring shape is because charged particles can be sent through an electromagnetic field to bend their tragectory through the Lorentz force.<LINE>
+The main synchrotrons, other than SERN's LHC, are located in the US, the UK, and Japan.
 <END2>
 
 #WRITE(PTR, $00000B70)
@@ -1943,7 +1973,7 @@ And then, four months after his appearance, he left a comment saying "I will be 
 <END2>
 
 #WRITE(PTR, $00000BB0)
-シンクロニシティ
+Synchronicity
 <END2>
 
 #WRITE(PTR, $00000BB2)
@@ -1959,7 +1989,16 @@ Other
 <END2>
 
 #WRITE(PTR, $00000BB8)
-虫の知らせのような、意味のある偶然の一致。<LINE>同時性。同時発生。<LINE>心に思い浮かぶ事象と現実の出来事が一致すること。<LINE>ある事象（出来事）の生起を決定する法則原理として、従来知られていた『因果性』とは異なる原理として、共時性%n（きょうじせい）とも言う。<LINE>なにか２つの事象が『意味・イメージ』において『類似性・近接性』を備えるとき、このような２つの事象が時空間の秩序から突出し、これをシンクロニシティの作用と定義する。<LINE>例えば「部屋の花瓶が落ちて割れたのと同じ時間、病院で祖母が他界した」「誰かの噂話をしていたら、その人から電話がかかってきた」など、世界中には数え切れないほどの事例があり、ほぼ１００％の確率で誰もが一度は体験をしているとも言える非常にメジャーな事象。<LINE>スイスの分析心理学者カール・ユング（１８７５～１９６１）の唱えた概念。
+A meaningful coincidence.<LINE>
+Simultaneity.<LINE>
+Simultaneous incidence.<LINE>
+When events that come to mind and events of reality coincide.<LINE>
+A concept regarding the determination of events, differing from the concept of causality.<LINE>
+The effect of synchronicity is defined as the occurrence of two "meaningfully related" events as they are pushed out of the order of space-time.<LINE>
+For example, "A vase fell and shattered, and at the same time, my grandmother died in the hospital," "speak of the devil and he doth appear," etc.<LINE>
+It is a very major phenomenon with countless examples all over the world.<LINE>
+Chances are nearly 100％ for any random person to have experienced it.<LINE>
+A concept advocated by Swiss psychologist Carl Jung (1875-1961).
 <END2>
 
 #WRITE(PTR, $00000BD0)
@@ -2067,7 +2106,7 @@ Those with the supernatural ability to use stands are called "stand users".
 <END2>
 
 #WRITE(PTR, $00000C70)
-スタンドアローン
+Standalone
 <END2>
 
 #WRITE(PTR, $00000C72)
@@ -2083,7 +2122,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000C78)
-コンピュータを、他のコンピュータ、あるいはNetワークと繋げずに使用する状態。
+Usage of a computer without connecting it to another computer or network.
 <END2>
 
 #WRITE(PTR, $00000C90)
@@ -2443,7 +2482,7 @@ Name originates from "22 Emon".
 <END2>
 
 #WRITE(PTR, $00000EB0)
-ダブルミーニング
+Double Meaning
 <END2>
 
 #WRITE(PTR, $00000EB2)
@@ -2459,7 +2498,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000EB8)
-１つの言葉に、二重の意味が意図的に含まれていること。
+When a phrase can deliberately mean something else.
 <END2>
 
 #WRITE(PTR, $00000ED0)
@@ -2565,7 +2604,7 @@ Also used as a derogatory term to refer to older people who still pitifully act 
 Pessimistic, antisocial, imaginary actions, trying too hard so as to not look like a child.<LINE>
 The one performing these actions does indeed think their actions are stylish, but adults see them as ridiculous.<LINE>
 Also categorized into Chuunibyou is the act of imagining an anime-like backstory for oneself, most notably the "Evil Third Eye".<LINE>
-Okarin is a textbook example of this "Evil Third Eye."
+Rintaro is a textbook example of this "Evil Third Eye."
 <END2>
 
 #WRITE(PTR, $00000F70)
@@ -2654,7 +2693,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000FF0)
-テープドライブ
+Tape Drive
 <END2>
 
 #WRITE(PTR, $00000FF2)
@@ -2670,7 +2709,8 @@ Other
 <END2>
 
 #WRITE(PTR, $00000FF8)
-１９７０年代の大型ＰＣには、ＣＤ-ＲＯＭドライブどころかフ%nロッピーディスクドライブすらいまだ搭載されておらず、磁気カセットテープでデジタルデータを読み書きできるテープドライブが主流であった。
+Large PCs in the 1970s didn't have CD-ROM drives or even floppy drives.<LINE>
+Tape drives which could read and write digital data on magnetic cassette tapes were the norm.
 <END2>
 
 #WRITE(PTR, $00001010)
@@ -2903,7 +2943,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00001158)
-Okarin's favorite carbonated drink.
+Rintaro's favorite carbonated drink.
 <END2>
 
 #WRITE(PTR, $00001170)
@@ -3049,7 +3089,7 @@ Refers to anime characters.
 <END2>
 
 #WRITE(PTR, $00001250)
-２０００年問題
+Year 2000 Problem
 <END2>
 
 #WRITE(PTR, $00001252)
@@ -3065,7 +3105,13 @@ Other
 <END2>
 
 #WRITE(PTR, $00001258)
-西暦２０００年を迎えると、古いコンピュータが誤った動作を引き起こす可能性があるとされた問題。<LINE>古いコンピュータはメモリ節約のため、年号を下２桁で表しているものがほとんどであった。<LINE>そのため、１９９９年から２０００年へ変わると、下２桁は９９→００となってしまう。<LINE>それを想定したプログラムを搭載していないため、コンピュータは２０００年を１９００年と誤って認識してしまう可能性について指摘されていた。<LINE>個人所有の物はともかくとして、ライフラインや金融関係、軍事機器に用いられているコンピュータが誤作動した場合、最悪の事態も想定された。<LINE>このため、１９９０年代中盤以降、世界規模で手作業によりすべてのプログラムを更新するという対策が取られた。<LINE>この対策の成果により、２０００年問題は現実には杞憂に終わったのである。
+The problem that could have been possibly caused by old computers once the year 2000 would come.<LINE>
+In order to save memory space on old computers, years were almost always abbreviated to the final two digits.<LINE>
+Because of that, once 1999 changed to 2000, the last two digits would change from 99 to 00.<LINE>
+If its programming didn't anticipate that change, the computer could erroneously assume the year was 1900.<LINE>
+It was hypothesized that the computers used in the realms of the military, finance, and utilities would malfunction and cause the worst-case scenario.<LINE>
+To address this issue, counter-measures were taken in the mid 1990s to manually update every program.<LINE>
+As a result of this counter measure, the Year 2000 Problem ended as nothing but needless fear.
 <END2>
 
 #WRITE(PTR, $00001270)
@@ -3089,7 +3135,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001290)
-ニュージェネ事件
+New Gene Incident
 <END2>
 
 #WRITE(PTR, $00001292)
@@ -3105,7 +3151,12 @@ Other
 <END2>
 
 #WRITE(PTR, $00001298)
-（架空）およそ１年ほど前、渋谷で発生した連続猟奇殺人事件の俗称。<LINE>全部で７つの事件、計１４人が殺された。<LINE>その殺害方法があまりにも常軌を逸していたことや、この事件をむしろ歓迎し楽しむかのような渋谷の若者たちの反応から、マスコミは『ニュージェネレーションの狂気』というキーワードを当てはめ、よりセンセーショナルに報じた。<LINE>犯人として２５歳の男が逮捕されたが、その直後の渋谷地震に巻き込まれて死亡している。<LINE>Net上には、真犯人は別にいるとの噂が今も根強く残っている。
+(Fictional) The popular name for the outbreak of bizarre serial murders that happened in Shibuya about a year ago.<LINE>
+A total of 14 people died in all 7 incidents.<LINE>
+The methods of murder were entirely unorthodox, causing an unforseen craze among Shibuyan youth.<LINE>
+The mass media dubbed this "New Generation Madness" and sensationalized it.<LINE>
+A 25-year-old man was arrested as the culprit, but passed away in the Shibuya Earthquake immediately afterwards.<LINE>
+To this day, rumors remain on the internet that he was not the true culprit.
 <END2>
 
 #WRITE(PTR, $000012B0)
@@ -3625,7 +3676,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000015D0)
-ＢＡＳＩＣ
+BASIC
 <END2>
 
 #WRITE(PTR, $000015D2)
@@ -3641,11 +3692,12 @@ Other
 <END2>
 
 #WRITE(PTR, $000015D8)
-『Ｂｅｇｉｎｎｅｒ’ｓ Ａｌｌ ｐｕｒｐｏｓｅ Ｓｙｍｂｏｌｉｃ Ｉｎｓｔｒｕｃｔｉｏｎ Ｃｏｄｅ』の略。<LINE>１９７０年代に多く使われた、初心者向けのプログラミング言語。
+Short for "Beginner's All purpose Symbolic Instruciton Code".<LINE>
+A beginner's programming language frequently used in the 1970s.
 <END2>
 
 #WRITE(PTR, $000015F0)
-βエンドルフィン
+β Endorphins
 <END2>
 
 #WRITE(PTR, $000015F2)
@@ -3661,7 +3713,10 @@ Other
 <END2>
 
 #WRITE(PTR, $000015F8)
-脳内で分泌される神経伝達物質の１つ。<LINE>脳内麻薬とも呼ばれる。<LINE>痛みやストレスを抑える効果があり、多幸感を生み出す。<LINE>マラソンなどで『ランナーズハイ』と呼ばれる作用は、このβエンドルフィンの分泌によるものという説がある。
+A neurotransmitter secreted by the brain.<LINE>
+Also called an endogenous opioid.<LINE>
+Effectively suppresses pain and stress, producing euphoria.<LINE>
+The effect known in marathons as "runner's high" can be explained by the secretion of these β endorphins
 <END2>
 
 #WRITE(PTR, $00001610)
@@ -4400,7 +4455,7 @@ The confrontations are visualized into easy to understand battles, with well-tim
 <END2>
 
 #WRITE(PTR, $00001A70)
-最終聖戦
+Ragnarok
 <END2>
 
 #WRITE(PTR, $00001A72)
@@ -4416,7 +4471,8 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001A78)
-北欧神話にて語られる、神々による最終戦争。<LINE>『神々の黄昏』。
+In Norse Mythology, the final war of the gods.<LINE>
+"Twilight of the Gods"
 <END2>
 
 #WRITE(PTR, $00001A90)
@@ -4512,7 +4568,7 @@ Her voice actress is called the Tsundere Queen, Sugimiya Rie (Nicknamed Sugyuu).
 <END2>
 
 #WRITE(PTR, $00001B10)
-レーギャルンの箱
+Laegjarn
 <END2>
 
 #WRITE(PTR, $00001B12)
@@ -4528,7 +4584,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001B18)
-北欧神話において、魔剣レーヴァテインが納められ９つの錠によって守っている巨大な箱のこと。
+In Norse mythology, the gigantic chest protected by 9 locks. Houses the cursed sword, Laevateinn.
 <END2>
 
 #WRITE(PTR, $00001B30)
@@ -4632,7 +4688,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00001BD0)
-Ｗｏｒｌｄ Ｗｉｄｅ Ｗｅｂ
+World Wide Web
 <END2>
 
 #WRITE(PTR, $00001BD2)
@@ -4648,7 +4704,9 @@ Net
 <END2>
 
 #WRITE(PTR, $00001BD8)
-略して『ＷＷＷ』。<LINE>単に『ｗｅｂ』とも呼ばれる。<LINE>インターNetで標準的に用いられているドキュメントシステム。
+Abbreviated as WWW.<LINE>
+Also simply called the "web".<LINE>
+The standardized document system used on the internet.
 <END2>
 
 #WRITE(PTR, $00001BF0)
