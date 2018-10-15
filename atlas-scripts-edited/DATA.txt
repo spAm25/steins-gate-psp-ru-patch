@@ -10351,7 +10351,7 @@ Chapter 11
 <END2>
 
 #WRITE(PTR, $00005C74)
-Open The Steins Gate
+Steins;Gate Boundary
 <END2>
 
 #WRITE(PTR, $00005C78)
