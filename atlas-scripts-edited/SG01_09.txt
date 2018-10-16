@@ -6,7 +6,7 @@
 #JMP($00002FD2)
 
 #WRITE(PTR, $000001E8)
-"MayQueen+Nyan^2" is only a 3 minute walk away from the lab.
+"MayQueen+Nyan⑯" is only a 3 minute walk away from the lab.
 <END>
 
 #WRITE(PTR, $000001F8)
@@ -515,7 +515,7 @@ The depth of his knowledge of PCs is abnormal.
 <END>
 
 #WRITE(PTR, $00000E34)
-Speaking of him, I was heading towards "MayQueen+Nyan^2"... I shouldn't be wasting time here with an unknown woman.
+Speaking of him, I was heading towards "MayQueen+Nyan⑯"... I shouldn't be wasting time here with an unknown woman.
 <END>
 
 #WRITE(PTR, $00000E4C)

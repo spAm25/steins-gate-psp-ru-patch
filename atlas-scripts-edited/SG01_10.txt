@@ -16,7 +16,7 @@ Welcome home, my myaster.♪
 <END>
 
 #WRITE(PTR, $00000818)
-As I open the door to "MayQueen+Nyan^2", I am greeted by two smiling cat-eared maids.
+As I open the door to "MayQueen+Nyan⑯", I am greeted by two smiling cat-eared maids.
 <END>
 
 #WRITE(PTR, $00000828)
@@ -72,7 +72,7 @@ The other maid, - Faris NyanNyan - calls me by my true name as if it's natural, 
 <END>
 
 #WRITE(PTR, $00001122)
-She's the number 1 maid of "MayQueen+Nyan^2".
+She's the number 1 maid of "MayQueen+Nyan⑯".
 <END>
 
 #WRITE(PTR, $000011C6)
@@ -308,7 +308,7 @@ That aside...
 <END>
 
 #WRITE(PTR, $0000385E)
-It's a rule for the cat-eared maids of "MayQueen+Nyan^2" to use "nyan" to a certain degree.
+It's a rule for the cat-eared maids of "MayQueen+Nyan⑯" to use "nyan" to a certain degree.
 <END>
 
 #WRITE(PTR, $00003942)
@@ -332,7 +332,7 @@ About 6 people have been waiting at the entrance of the cafe.
 <END>
 
 #WRITE(PTR, $00003C82)
-"MayQueen+Nyan^2" holds the position of the main maid cafe in Akiba.
+"MayQueen+Nyan⑯" holds the position of the main maid cafe in Akiba.
 <END>
 
 #WRITE(PTR, $00003D26)

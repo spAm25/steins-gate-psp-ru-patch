@@ -198,7 +198,7 @@ The reason we did this connection is to allow us to control the business purpose
 <END>
 
 #WRITE(PTR, $00000AB8)
-Before I left "MayQueen+Nyan^2", Mayuri asked me to buy bananas.
+Before I left "MayQueen+Nyan⑯", Mayuri asked me to buy bananas.
 <END>
 
 #WRITE(PTR, $00000B5C)

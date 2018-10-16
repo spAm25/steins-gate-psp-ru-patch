@@ -417,7 +417,7 @@ For example, a space ship traveling near light speed returns after a few years t
 <END2>
 
 #WRITE(PTR, $00000270)
-ウルド
+Urd
 <END2>
 
 #WRITE(PTR, $00000272)
@@ -433,7 +433,9 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000278)
-北欧神話に登場するノルン（運命の女神）の三姉妹の長姉。<LINE>三姉妹は世界樹ユグドラシルの根本にあるウルドの泉で、ユグドラシルを育てている。<LINE>ウルドは過去を司る女神とされている。
+The eldest sister of the three Norns (goddesses of fate) in Norse mythology.<LINE>
+The three sisters raise the world tree, Yggdrasil, from Urd's fountain which lays at its roots.<LINE>
+Urd is considered the Norn of the Past.
 <END2>
 
 #WRITE(PTR, $00000290)
@@ -1761,7 +1763,7 @@ Science
 <END2>
 
 #WRITE(PTR, $00000A70)
-事象の地平線
+Event Horizion
 <END2>
 
 #WRITE(PTR, $00000A72)
@@ -1777,7 +1779,12 @@ Science
 <END2>
 
 #WRITE(PTR, $00000A78)
-事象の地平面、シュヴァルツシルト面とも呼ばれる。<LINE>あらゆる情報伝達が不可能になる境界のこと。<LINE>情報伝達は光、および電磁波により行われる。<LINE>だがブラックホールの中心部では、強い重力により光さえも脱出不可能になる。<LINE>その境目こそが事象の地平線である。<LINE>事象の地平線内で起きるあらゆる情報は、地平線の外から観測不可能である。<LINE>どんな光も脱出できないため、ブラックホールの中心は%n真っ黒に見える。
+Also known as the Schwarzchild surface.<LINE>
+The boundary where all information transmission becomes impossible.<LINE>
+Information transmission is light, which moves as an electromagnetic wave.<LINE>
+However, at the core of a black hole, strong gravity makes escape impossible even for light.<LINE>
+That boundary is the event horizon. No information that occurs within an event horizon can be observed from the outside.<LINE>
+The center of a black hole is pitch black because no light can escape from it.
 <END2>
 
 #WRITE(PTR, $00000A90)
@@ -2907,7 +2914,7 @@ Science
 <END2>
 
 #WRITE(PTR, $00001130)
-特異点が裸の状態
+Naked Singularity
 <END2>
 
 #WRITE(PTR, $00001132)
@@ -2923,7 +2930,10 @@ Science
 <END2>
 
 #WRITE(PTR, $00001138)
-特異点は“重力が無限大になっている場所”を指し、普通その特異点は事象の地平線によって覆われているため、外部から観測することはできない。<LINE>その事象の地平線が消えて、外部から特異点が“見える”ようになっている状態を指す。<LINE>そもそも特異点の“重力が無限大”とはどのようなものなのか、現在の物理学（相対性理論）においては説明不可能である。
+Singularity refers to "place of infinite gravity".<LINE>
+Since singularities are usually concealed by an event horizon, they cannot be observed from the outside.<LINE>
+A naked singularity refers to a singularity with its event horizon removed, allowing it to be observed.<LINE>
+Modern physics (The Theory of Relativity) is unable to explain the details of a singularity's "infinite gravity".
 <END2>
 
 #WRITE(PTR, $00001150)
@@ -3009,7 +3019,7 @@ It is said that the term originates from "It's not like there's a person inside!
 <END2>
 
 #WRITE(PTR, $000011D0)
-ＮＡＳＡ
+NASA
 <END2>
 
 #WRITE(PTR, $000011D2)
@@ -3025,7 +3035,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000011D8)
-アメリカ国立航空宇宙局　（Ｎａｔｉｏｎａｌ Ａｅｒｏｎａｕｔｉｃｓ ａｎｄ Ｓｐａｃｅ Ａｄｍｉｎｉｓｔｒａｔｉｏｎ）。<LINE>アメリカの宇宙開発を担う国家機関。
+America's National Aeronautics and Space Administration.
 <END2>
 
 #WRITE(PTR, $000011F0)
@@ -3760,7 +3770,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001650)
-変身バンク
+Stock Transformation
 <END2>
 
 #WRITE(PTR, $00001652)
@@ -3776,7 +3786,9 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001658)
-変身ヒーローや魔法少女もののアニメにおける、変身シーン、及びその演出のこと。<LINE>テレビアニメシリーズにおいては、変身バンクはほぼ毎回使い回されるため、そのシーンのみに作画監督を置き、独立してあらかじめ作っておく。<LINE>その影響で、アニメ本編と比べ作画や演出のクオリティが高くなることが多い。
+Refers to the transformation sequences in morphing hero and magical girl anime, as well as their direction.<LINE>
+Since stock transformation scenes are used in nearly every episode of TV anime series, their animation direction is done independently in advance.<LINE>
+As a result, the production quality is often higher than that of the rest of the anime.
 <END2>
 
 #WRITE(PTR, $00001670)
@@ -4108,7 +4120,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001870)
-ミュウツベ
+MewTube
 <END2>
 
 #WRITE(PTR, $00001872)
@@ -4124,7 +4136,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001878)
-（架空）正しくは『ＭｅｗＴｕｂｅ』。<LINE>アメリカの企業による、インターNetの動画共有サービス。
+(Fictional) An internet video sharing service in America.
 <END2>
 
 #WRITE(PTR, $00001890)
@@ -4325,7 +4337,7 @@ Its name is derived from the cult classic manga, "JuJu's Bizarre Adventure".
 <END2>
 
 #WRITE(PTR, $000019B0)
-問題の動画
+Black Hole Video
 <END2>
 
 #WRITE(PTR, $000019B2)
@@ -4341,7 +4353,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000019B8)
-ＬＨＣ実験により作られたミニブラックホールが、地球全体を飲み込みやがて消滅させてしまうという予想をＣＧにより再現した動画。<LINE>ミュウツベにアップされ世界規模で話題になった。
+A CG mockup video of an LHC-generated mini black hole engulfing the earth and annihilating. Became worldwide news when it was uploaded to MewTube.<
 <END2>
 
 #WRITE(PTR, $000019D0)

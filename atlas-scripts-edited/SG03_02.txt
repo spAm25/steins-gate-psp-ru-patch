@@ -1,0 +1,1340 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00005998)
+
+#WRITE(PTR, $0000049A)
+Dawn breaks.
+<END>
+
+#WRITE(PTR, $000004AA)
+We stayed up all night again.
+<END>
+
+#WRITE(PTR, $000004BA)
+To clear away drowsiness, I fill my mug with another cup of instant coffee. I lost count already.
+<END>
+
+#WRITE(PTR, $00000502)
+【Kurisu】Okabe.
+<END>
+
+#WRITE(PTR, $00000512)
+Kurisu hands out the guest mug to me without looking away from the PC monitor.
+<END>
+
+#WRITE(PTR, $00000522)
+Looks like she wants some more.
+<END>
+
+#WRITE(PTR, $000005C0)
+Since when did I become your maid? You should ask Mayuri, the professional maid for stuff like this.
+<END>
+
+#WRITE(PTR, $000005D0)
+That said, Kurisu's the one reading SERN's documents right now. Daru and I can somehow manage if we use translation software, but it's not very efficient.
+<END>
+
+#WRITE(PTR, $000005E0)
+It's a little off from our original goal, but I think it's best to borrow Kurisu's knowledge for this.
+<END>
+
+#WRITE(PTR, $000005F0)
+That's why it's not a good idea to displease her now.
+<END>
+
+#WRITE(PTR, $000006AE)
+I silently take the mug from Kurisu, dump in the powdered coffee, and pour in hot water from the pot.
+<END>
+
+#WRITE(PTR, $000006BE)
+Two packets of sugar. No milk.
+<END>
+
+#WRITE(PTR, $000006CE)
+Kurisu had already requested it the same way five times today.
+<END>
+
+#WRITE(PTR, $000006DE)
+I got accustomed to it too, so I prepare it without being told.
+<END>
+
+#WRITE(PTR, $00000754)
+I mix it well and bring it over to Kurisu. She doesn't immediately realize I'm standing behind her, so I bring the cup out in front of her face.
+<END>
+
+#WRITE(PTR, $00000764)
+Kurisu takes the mug without looking my way.
+<END>
+
+#WRITE(PTR, $00000774)
+【Kurisu】Thanks.
+<END>
+
+#WRITE(PTR, $00000784)
+She gives her grattitude, but she's engrossed with SERN.
+<END>
+
+#WRITE(PTR, $00000794)
+Even though she was that adamant about how they're traitors to researchers everywhere. How self-interested.
+<END>
+
+#WRITE(PTR, $000007A4)
+But I understand the feeling. Because I'm also itching to know.
+<END>
+
+#WRITE(PTR, $000007B4)
+Daru's fast asleep on the sofa.
+<END>
+
+#WRITE(PTR, $000007C4)
+His snoring is quite noisy. Furthermore, it seems like he has sleep apnea.
+<END>
+
+#WRITE(PTR, $000007D4)
+Kurisu's enduring the sound pretty well.
+<END>
+
+#WRITE(PTR, $000007E4)
+Is she just that concentrated?
+<END>
+
+#WRITE(PTR, $00000860)
+I decide to go channel surfing and see the usual topic on the news programs: the Radio Kaikan satellite crash.
+<END>
+
+#WRITE(PTR, $000008B4)
+【Announcer】Five days have passed in Akihabara since the satellite crash, but with the start of summer vacation season, crowds are gathering to get a glimpse of the satellite which was left as-is.
+<END>
+
+#WRITE(PTR, $00000960)
+【Middle School Girl】I came from Nagoya. I wanted to see it.
+<END>
+
+#WRITE(PTR, $00000A04)
+【Middle-aged Man】I took the train from Saitama. It's amazing-. Just where is that satellite from?
+<END>
+
+#WRITE(PTR, $00000AA8)
+【High School Girl】Yay! I'm a student from Chiba-♪
+<END>
+
+#WRITE(PTR, $00000B4C)
+【Announcer】People like these have been rushing here from all over Japan.
+<END>
+
+#WRITE(PTR, $00000BF8)
+【Announcer】Also, in an interview earlier today, Michael Byrne, spokesman for <DICT>NASA</DICT>, America's aeronautics and space administration,
+<END>
+
+#WRITE(PTR, $00000C9C)
+【Announcer】Suggested that a satellite had in fact not crashed in Japan, and that the crashed object was something else.
+<END>
+
+#WRITE(PTR, $00000D40)
+【Announcer】The fallen satellite is currently under police investigation. No estimated removal time has been set.
+<END>
+
+#WRITE(PTR, $00000DE4)
+Is it really under investigation?
+<END>
+
+#WRITE(PTR, $00000E88)
+This could also be a plot by the "Organiza--
+<END>
+
+#WRITE(PTR, $00000F86)
+【Mayuri】Tutturu-♪ Good morning-. Oh wait, should I say, good afternoon-?
+<END>
+
+#WRITE(PTR, $0000102A)
+The door unlocks from outside and Mayuri comes in.
+<END>
+
+#WRITE(PTR, $000010CE)
+He has a convenience store bag in her hand.
+<END>
+
+#WRITE(PTR, $00001172)
+There are various foods inside, but the probability that they're for us is low.
+<END>
+
+#WRITE(PTR, $00001220)
+【Mayuri】Wahh-, you know, it kinda seems like the air here is sooo thick.
+<END>
+
+#WRITE(PTR, $000012C4)
+The three of us who stayed up all night probably look pretty pale.
+<END>
+
+#WRITE(PTR, $00001368)
+But now that we know about SERN, it would be weirder if we were lively.
+<END>
+
+#WRITE(PTR, $00001428)
+【Mayuri】I'll go refresh the air, okay-
+<END>
+
+#WRITE(PTR, $0000144C)
+Mayuri opens the window wide.
+<END>
+
+#WRITE(PTR, $0000145C)
+The sky is so blue, it hurts my eyes. Large clouds listlessly flow in the wind.
+<END>
+
+#WRITE(PTR, $0000146C)
+It's a truly fresh sight.
+<END>
+
+#WRITE(PTR, $000015A8)
+Mayuri's appearance makes Daru get up with a grimace.
+<END>
+
+#WRITE(PTR, $000015B8)
+Kurisu also finally moves away from the computer, sipping her hot coffee.
+<END>
+
+#WRITE(PTR, $000015C8)
+She rubs her eyes as if they're tired.
+<END>
+
+#WRITE(PTR, $000015D8)
+I glance at the room's clock, and step forward to the center of the room.
+<END>
+
+#WRITE(PTR, $000015E8)
+【Rintaro】Since all lab mems are present and accounted for, this is the perfect opportunity to finally hold another Round Table Conference.
+<END>
+
+#WRITE(PTR, $0000160A)
+【Mayuri】Roundabout confluence?
+<END>
+
+#WRITE(PTR, $0000161A)
+Mayuri tilts her head while munching on her okaka onigiri brunch.
+<END>
+
+#WRITE(PTR, $0000162A)
+【Itaru】...What's that?
+<END>
+
+#WRITE(PTR, $0000163E)
+【Rintaro】The lab mem debriefing, a meeting.
+<END>
+
+#WRITE(PTR, $00001658)
+【Itaru】Have we ever done that before?
+<END>
+
+#WRITE(PTR, $00001672)
+【Kurisu】Where's this round table in the first place?
+<END>
+
+#WRITE(PTR, $00001682)
+【Rintaro】There's no real one. However, it lies in the hearts of us lab mems. Correct?
+<END>
+
+#WRITE(PTR, $000016A0)
+【Kurisu】No, it's not "correct".
+<END2>
+
+#WRITE(PTR, $000016BA)
+Don't go putting weird things into people's hearts.
+<END>
+
+#WRITE(PTR, $000016D8)
+【Mayuri】Is there one in Mayushii too?
+<END>
+
+#WRITE(PTR, $000016E8)
+【Rintaro】Yeahh, there is.
+<END>
+
+#WRITE(PTR, $00001702)
+【Mayuri】I see-. That's good. But what's a roundable?
+<END>
+
+#WRITE(PTR, $0000171C)
+【Itaru】So, why a round table? You King Arthur?
+<END>
+
+#WRITE(PTR, $00001736)
+【Kurisu】In the first place, I'm only a provisional lab mem.
+<END>
+
+#WRITE(PTR, $00001746)
+Geez every last one of you has to whine about every little thing!
+<END>
+
+#WRITE(PTR, $000017AA)
+【Rintaro】Anyway, it's a Round Table Conference! Mayuri wasn't around last night, so for now, let's explain the current situation to her.
+<END>
+
+#WRITE(PTR, $000017BA)
+I talk to Mayuri about everything we established from last night to dawn this morning.
+<END>
+
+#WRITE(PTR, $000017CA)
+About how SERN is making a time machine.
+<END>
+
+#WRITE(PTR, $000017DA)
+About jellymen.
+<END>
+
+#WRITE(PTR, $000017EA)
+About how we might be attacked by black suits for knowing this outrageous confidential information.
+<END>
+
+#WRITE(PTR, $000017FA)
+【Mayuri】I even told you that bad things aren't good.
+<END>
+
+#WRITE(PTR, $0000180A)
+【Rintaro】Hmph, bad you say? We are? How absurd.
+<END>
+
+#WRITE(PTR, $0000181A)
+【Rintaro】If you must say that, then SERN is even worse. Those guys have lost interest in controlling just the world, and now plan to even get their hands on time-space.
+<END>
+
+#WRITE(PTR, $0000182A)
+【Kurisu】I agree.
+<END>
+
+#WRITE(PTR, $0000183A)
+For some reason, Kurisu backs me up.
+<END>
+
+#WRITE(PTR, $0000184A)
+【Kurisu】What SERN is doing is unforgivable to society, unforgivable to humanity, and unforgivable as researchers.
+<END>
+
+#WRITE(PTR, $0000185A)
+【Mayuri】That's true, but-...
+<END>
+
+#WRITE(PTR, $0000186A)
+Unsatisfied, Mayuri keeps eating her okaka onigiri.
+<END>
+
+#WRITE(PTR, $0000187A)
+I didn't want to involve Mayuri, but she's surprisingly perceptive. She'd find out even if we kept it a secret. So it's better to just tell her at the start.
+<END>
+
+#WRITE(PTR, $000018A4)
+【Rintaro】Anyway, with this, our lab can no longer escape the "Ragnarok" with SERN.
+<END>
+
+#WRITE(PTR, $000018B4)
+I say that halfway as a bluff.
+<END>
+
+#WRITE(PTR, $000018C4)
+In any case, we can no longer return.
+<END>
+
+#WRITE(PTR, $000018D4)
+Now that we know, we can no longer erase our memory.
+<END>
+
+#WRITE(PTR, $000018E4)
+【Mayuri】Rag in a rock-...?
+<END>
+
+#WRITE(PTR, $000018F4)
+【Kurisu】Norse mythology again?
+<END>
+
+#WRITE(PTR, $00001904)
+【Rintaro】Christina! I ordered you to investigate SERN, right!? Did you learn anything new?
+<END>
+
+#WRITE(PTR, $00001914)
+【Kurisu】I don't remember being ordered, but whatever.
+<END>
+
+#WRITE(PTR, $00001924)
+【Kurisu】SERN faces two problems with time travel.
+<END>
+
+#WRITE(PTR, $00001934)
+【Kurisu】First is the adjustment of the Lifter, the electron injection device.
+<END>
+
+#WRITE(PTR, $00001944)
+【Kurisu】Unless it functions properly, they can't make the Kerr black hole singularites naked.
+<END>
+
+#WRITE(PTR, $00001954)
+【Kurisu】If you try to send the test subject through the singularities in this state, they'll be compressed at the micro level via super gravity. Naturally, there's no safety for them.
+<END>
+
+#WRITE(PTR, $00001964)
+【Kurisu】And the second problem is that they can't designate the destination for time travel. They can't choose where they go after coming out of the singular point.
+<END>
+
+#WRITE(PTR, $00001974)
+【Kurisu】That's why we should actually consider the 14 found jellymen the lucky ones.
+<END>
+
+#WRITE(PTR, $00001984)
+【Kurisu】Over a hundred human experiments were performed starting 2001. Basically, the remaining 80 or so people "jumped somewhere they can't locate".
+<END>
+
+#WRITE(PTR, $00001A48)
+【Mayuri】Why can't they locate them-?
+<END>
+
+#WRITE(PTR, $00001A62)
+【Itaru】Mayu-shi, did you know this? The world is constantly moving. Its rotational speed is 1500 kilos, and its orbital speed is 114000 kilos--
+<END>
+
+#WRITE(PTR, $00001A7C)
+Daru's triumphantly explaining to Mayuri, but he's relaying what Kurisu told him last night.
+<END>
+
+#WRITE(PTR, $00001A8C)
+【Kurisu】It seems like SERN's looking for solutions to these two problems, but it doesn't seem like it's going well for them.
+<END>
+
+#WRITE(PTR, $00001A9C)
+So does that mean even SERN is having a hard time?
+<END>
+
+#WRITE(PTR, $00001B00)
+【Rintaro】So, Assistant. Did you find anything out about SERN's time machine that could serve as a hint for the Microwave Ophone (Temp)?
+<END>
+
+#WRITE(PTR, $00001B10)
+【Kurisu】A hint, huh...
+<END>
+
+#WRITE(PTR, $00001B20)
+Kurisu looks upwards in thought.
+<END>
+
+#WRITE(PTR, $00001B30)
+【Kurisu】To start with, you could call the LHC "the world's largest microwave oven".
+<END>
+
+#WRITE(PTR, $00001B40)
+【Rintaro】I see! So basically, that means the Microwave Ophone (Temp) is a miniature LHC, right!?
+<END>
+
+#WRITE(PTR, $00001B50)
+【Kurisu】That might not necessarily be wrong.
+<END>
+
+#WRITE(PTR, $00001B60)
+I was sure she'd deny it. In fact, I thought she'd yell at me.
+<END>
+
+#WRITE(PTR, $00001B70)
+But instead, she agreed with me. What an ironic anticlimax.
+<END>
+
+#WRITE(PTR, $00001B80)
+【Kurisu】However, there are too many things we don't know about the Microwave Ophone. Why do the same phenomena as SERN's time machine occur in that tiny little microwave?
+<END>
+
+#WRITE(PTR, $00001B90)
+【Kurisu】Unlike the LHC, this thing wasn't made for time travel.
+<END>
+
+#WRITE(PTR, $00001C54)
+【Mayuri】It was made to warm Mayushii's karaage, right-
+<END>
+
+#WRITE(PTR, $00001C6E)
+【Kurisu】W-well, yeah.
+<END>
+
+#WRITE(PTR, $00001C7E)
+【Rintaro】At the very least, the jellyman phenomenom occurs with the Microwave Ophone (Temp), so we should think that Mayuri's bananas reach the Kerr black hole's ring singularity.
+<END>
+
+#WRITE(PTR, $00001C98)
+【Mayuri】It makes a black hole? Here?
+<END>
+
+#WRITE(PTR, $00001CB2)
+【Mayuri】It won't suck us in, will it-?
+<END>
+
+#WRITE(PTR, $00001CC2)
+If it sucked us in, we'd become jellymen too.
+<END>
+
+#WRITE(PTR, $00001D26)
+【Kurisu】But, we haven't been able to clarify the structure or outbreak conditions for the discharge phenomenon.
+<END>
+
+#WRITE(PTR, $00001D36)
+【Itaru】During our experiments earlier, we were only able to send mail into the past during the discharge phenomenon.
+<END>
+
+#WRITE(PTR, $00001D46)
+【Rintaro】We haven't succeeded a second time yet, but that discharge phenomenon could very well signify the injection of charge, that is, electrons.
+<END>
+
+#WRITE(PTR, $00001D56)
+【Rintaro】And only when it occurs does the path to the singular point open.
+<END>
+
+#WRITE(PTR, $00001D66)
+【Kurisu】We don't know the cause of the discharge phenomenon.
+<END>
+
+#WRITE(PTR, $00001D76)
+【Rintaro】That's what we're going to examine now.
+<END>
+
+#WRITE(PTR, $00001D86)
+【Kurisu】In the first place, the mails we're sending into the past are digital data, no physical objects. That's a definite difference from SERN's time machine.
+<END>
+
+#WRITE(PTR, $00001D96)
+【Rintaro】No, what they do is the same. Who's to say that digital data can't go through a singular point? I'd think it would be easier than something human sized going through.
+<END>
+
+#WRITE(PTR, $00001DA6)
+【Kurisu】Well... that's true...
+<END>
+
+#WRITE(PTR, $00001DB6)
+【Mayuri】You know, I think it's confusing how you say "mail"-
+<END>
+
+#WRITE(PTR, $00001DC6)
+【Mayuri】It makes me think of folding a letter into a paper airplane and making it go zooo-m, you know.
+<END>
+
+#WRITE(PTR, $00001DD6)
+【Rintaro】It's actually a light beam. Like optical digital data.
+<END>
+
+#WRITE(PTR, $00001DE6)
+【Rintaro】By the way, it's hard to keep saying "mail sent into the past", huh. Shouldn't we come up with a name?
+<END>
+
+#WRITE(PTR, $00001DF6)
+【Kurisu】Going to add parentheses again?
+<END>
+
+#WRITE(PTR, $00001E20)
+【Rintaro】Don't say "again"! You looking down on Hououin Kyouma!?
+<END>
+
+#WRITE(PTR, $00001E30)
+【Kurisu】You just want to give it a strange name, don't you?
+<END>
+
+#WRITE(PTR, $00001E40)
+【Rintaro】Hmph, "strange"? How rude. Then allow me to announce it. I shall name the phenomenon of "mail sent into the past" as follows. The name shall be--
+<END>
+
+#WRITE(PTR, $00001E50)
+【Rintaro】"Nostalgia Drive"
+<END>
+
+#WRITE(PTR, $00001E60)
+【Kurisu】Confusing. Rejected.
+<END>
+
+#WRITE(PTR, $00001E70)
+【Rintaro】Why, you! You think you have the authority to reject when you're just an assistant-!?
+<END>
+
+#WRITE(PTR, $00001E80)
+【Kurisu】Then why don't we take a vote? All in favor of Nostalgia Drive.
+<END>
+
+#WRITE(PTR, $00001F44)
+My hand cuts through the air on its way towards the ceiling.
+<END>
+
+#WRITE(PTR, $00001F54)
+But nobody else follows the same motion.
+<END>
+
+#WRITE(PTR, $00001F64)
+【Rintaro】Have you forsaken me, Daru!? Mayuri!?
+<END>
+
+#WRITE(PTR, $0000201A)
+【Mayuri】I think Chris-chan's right-. Mayushii can't remember such a long name.
+<END>
+
+#WRITE(PTR, $000020C8)
+【Itaru】It's too much pretentious bullshit, durr.
+<END>
+
+#WRITE(PTR, $0000216C)
+Tch, everyone's a critic....
+<END>
+
+#WRITE(PTR, $00002264)
+【Rintaro】In that case, have you guys thought of any names!? Don't tell me you just rejected my idea with no plan...!?
+<END>
+
+#WRITE(PTR, $00002308)
+【Kurisu】I think the most important thing is for it to be easy to understand. It's mail that retroactively goes through time, so don't you think "Retromail" should be good?
+<END>
+
+#WRITE(PTR, $000023AC)
+【Mayuri】What do you mean by "retro"-?
+<END>
+
+#WRITE(PTR, $00002450)
+Mayuri tilts her head while spooning out strawberry jelly.
+<END>
+
+#WRITE(PTR, $000024F4)
+How can you just eat that after hearing about jellymen?
+<END>
+
+#WRITE(PTR, $00002598)
+【Rintaro】Mayuri's reaction should be enough of an answer, Christina. You said it should be an easy to understand name, but it wasn't easy to understand at all, was it!?
+<END>
+
+#WRITE(PTR, $0000263C)
+【Kurisu】W-well that's because Mayuri-san is...
+<END>
+
+#WRITE(PTR, $000026E0)
+【Kurisu】Ah, no, it's nothing...
+<END>
+
+#WRITE(PTR, $0000279E)
+【Rintaro】Were you about to say it's because Mayuri's dumb?
+<END>
+
+#WRITE(PTR, $00002842)
+【Kurisu】N-no, I wasn't!
+<END>
+
+#WRITE(PTR, $0000299A)
+【Mayuri】Eh, Chris-chan, do you think Mayushii is dumb...?
+<END>
+
+#WRITE(PTR, $00002A48)
+【Kurisu】I don't. I don't think that in the slightest, so don't misunderstand. Okay?
+<END>
+
+#WRITE(PTR, $00002AF6)
+She can soothe Mayuri while giving me a sidelong glare. What a skillful woman.
+<END>
+
+#WRITE(PTR, $00002BEE)
+【Itaru】"The Mail who Leaped through Time" is a choice.
+<END>
+
+#WRITE(PTR, $00002C92)
+【Rintaro】That's a little stiff. It's hard to say.
+<END>
+
+#WRITE(PTR, $00002D36)
+【Itaru】Okarin's "Nostalagisticexpialidocious" was long too! And this references a movie title--
+<END>
+
+#WRITE(PTR, $00002DDA)
+【Rintaro】It should have romance. Romance.
+<END>
+
+#WRITE(PTR, $00002E7E)
+【Itaru】You're rejecting it for that...?
+<END>
+
+#WRITE(PTR, $00002FD6)
+【Mayuri】Ah, tutturu-! Mayushii got an idea-
+<END>
+
+#WRITE(PTR, $00003084)
+【Mayuri】How about "Back to the Mail"!? I took a movie title, and stuck mail to it-
+<END>
+
+#WRITE(PTR, $00003136)
+【Itaru】Mayu-shi, I already did the movie title joke.
+<END>
+
+#WRITE(PTR, $000031E4)
+【Kurisu】Besides, I think you got the meaning slightly wrong...
+<END>
+
+#WRITE(PTR, $00003288)
+It would literally mean returning to mail. Certainly cryptic.
+<END>
+
+#WRITE(PTR, $0000333A)
+【Mayuri】he meaning doesn't matter-.
+<END2>
+
+#WRITE(PTR, $00003354)
+ I took a movie title, and stuck mail to it...
+<END>
+
+#WRITE(PTR, $00003450)
+【Rintaro】Either way, it's too long!
+<END>
+
+#WRITE(PTR, $000034F4)
+【Itaru】Then how about "DeLorean Mail"?
+<END>
+
+#WRITE(PTR, $000035AA)
+【Rintaro】That doesn't even say what kind of mail it is anymore!
+<END>
+
+#WRITE(PTR, $000035C6)
+【Kurisu】Hey. This isn't the time to be wasting time on such trivial things. Hurry things up and just abbreviate it to "D-mail".
+<END>
+
+#WRITE(PTR, $000035F0)
+【Rintaro】No, but that's way too insipid...
+<END>
+
+#WRITE(PTR, $000036B4)
+【Kurisu】It don't care if it's insipid or if you don't like it.
+<END>
+
+#WRITE(PTR, $000036C4)
+Rejection.
+<END>
+
+#WRITE(PTR, $000036D4)
+Before I noticed it, Kurisu's influence among the lab mem ranks seemed to grow substantially.
+<END>
+
+#WRITE(PTR, $000036EE)
+【Mayuri】Then, let's decide on D-mail.
+<END>
+
+#WRITE(PTR, $000036FE)
+Mayuri, finished with her jelly, proclaims in satisfaction.
+<END>
+
+#WRITE(PTR, $0000370E)
+Wait, when did Mayuri become the speaker?
+<END>
+
+#WRITE(PTR, $00003772)
+【Itaru】So, why does the D-mail phenomenon occur?
+<END>
+
+#WRITE(PTR, $00003782)
+【Rintaro】Because the path of the ring singularity opens. I've said so before, right?
+<END>
+
+#WRITE(PTR, $00003792)
+【Kurisu】We haven't confirmed whether or not black holes are formed. It could simply resemble SERN's time machine by coincidence, and be some entirely different phenomenon.
+<END>
+
+#WRITE(PTR, $000037A2)
+【Kurisu】It's dangerous to rush to conclusions.
+<END>
+
+#WRITE(PTR, $000037B2)
+【Rintaro】What are you saying? Don't you want us to make our own time machine? That's why we so bravely hacked into SERN.
+<END>
+
+#WRITE(PTR, $000037C2)
+【Rintaro】What we should be talking about is how we can make the Microwave Ophone (Temp) usable as a time machine.
+<END>
+
+#WRITE(PTR, $000037D2)
+【Itaru】But-, do you think we can do it?
+<END>
+
+#WRITE(PTR, $000037FC)
+【Rintaro】I don't -think- we can do it. We will do it!
+<END>
+
+#WRITE(PTR, $0000380C)
+【Kurisu】What's with that spiritual supremacy doctrine? Are you an incompetent boss or something?
+<END>
+
+#WRITE(PTR, $0000381C)
+【Rintaro】Tch, damn you... You dare say those remarks about the insane mad scientist, Hououin Kyouma...
+<END>
+
+#WRITE(PTR, $0000382C)
+【Itaru】Well, it's not like Okarin's a boss anyway.
+<END>
+
+#WRITE(PTR, $0000383C)
+【Rintaro】Indeed. I am the symbol of this lab, not a boss.
+<END>
+
+#WRITE(PTR, $0000384C)
+【Kurisu】I don't know what you mean by symbol, but how are you going to use the Microwave Ophone as a time machine? Tell me your concrete solution.
+<END>
+
+#WRITE(PTR, $00003876)
+【Rintaro】Solution, huh... Right, there is one thing.
+<END>
+
+#WRITE(PTR, $00003886)
+【Rintaro】We've been thinking it's random whether or not the discharge phenomenon occurs, but I have a hypothesis.
+<END>
+
+#WRITE(PTR, $00003896)
+【Kurisu】What do you mean?
+<END>
+
+#WRITE(PTR, $000038A6)
+I look at my watch.
+<END>
+
+#WRITE(PTR, $000038B6)
+It's past noon.
+<END>
+
+#WRITE(PTR, $000038C6)
+【Rintaro】Reproduce the occurrence conditions, Christina. Last night, we did a lot of investigation. And then, we overlooked the simplest, most concrete "condition".
+<END>
+
+#WRITE(PTR, $000038D6)
+【Rintaro】That is, the time of occurrence.
+<END>
+
+#WRITE(PTR, $000038E6)
+【Kurisu】...ah.
+<END>
+
+#WRITE(PTR, $000038F6)
+【Rintaro】I checked the times of we the two occurrences of the discharge phenomenon.
+<END>
+
+#WRITE(PTR, $00003906)
+【Rintaro】And accordingly, when I accidentally sent the first D-mail to Daru's phone, it was somewhere around 12 and 13 o'clock.
+<END>
+
+#WRITE(PTR, $00003916)
+【Rintaro】Then the second time, when all four of us observed the D-mail, it was 18 o'clock.
+<END>
+
+#WRITE(PTR, $00003926)
+【Rintaro】So basically, if we experiment within those two times, we can possibly reproduce the effect.
+<END>
+
+#WRITE(PTR, $00003936)
+【Kurisu】Let's try immediately...!
+<END>
+
+#WRITE(PTR, $000039D8)
+Assistant's eye color changes completely as she rushes into the development room.
+<END>
+
+#WRITE(PTR, $000039E8)
+【Itaru】At any rate, this assistant sure is in high spirits.
+<END>
+
+#WRITE(PTR, $00003ABC)
+【Mayuri】Mayushii's banana supply has gone down-. I gotta buy more.
+<END>
+
+#WRITE(PTR, $00003ACC)
+Only one safe banana remains.
+<END>
+
+#WRITE(PTR, $00003ADC)
+We ate the rest after the other experiment.
+<END>
+
+#WRITE(PTR, $00003AEC)
+Not a single gelified banana remains on the bunch.
+<END>
+
+#WRITE(PTR, $00003B34)
+【Kurisu】Sorry, Mayuri-san. I'll go buy you some new bananas later.
+<END>
+
+#WRITE(PTR, $00003B4E)
+【Mayuri】Really? That makes me happy-♪
+<END>
+
+#WRITE(PTR, $00003B68)
+【Mayuri】You know, Okarin and daru-kun just eat my bananas, but they never pay for them...
+<END>
+
+#WRITE(PTR, $00003B78)
+I'll be sure to amend that in the future.
+<END>
+
+#WRITE(PTR, $00003B88)
+If it's to bring chaos to the world, a bunch of bananas is a small price to pay.
+<END>
+
+#WRITE(PTR, $00003BF6)
+Kurisu picks the banana off the bunch, leans under the table, and places it inside the microwave.
+<END>
+
+#WRITE(PTR, $00003C06)
+【Kurisu】First, let's see if it'll become a jellyman.
+<END>
+
+#WRITE(PTR, $00003D2A)
+【Kurisu】Agh...!
+<END>
+
+#WRITE(PTR, $00003D3A)
+She tries to get up and gloriously bangs her head underneath the table.
+<END>
+
+#WRITE(PTR, $00003D4A)
+【Rintaro】Quit the clumsy girl appeal.
+<END>
+
+#WRITE(PTR, $00003E20)
+【Kurisu】It was an accident!
+<END>
+
+#WRITE(PTR, $00003E30)
+Blushing in embarrassment, Kurisu gets up. She appeals with teary eyes.
+<END>
+
+#WRITE(PTR, $00003E40)
+【Kurisu】Do something about the microwave's placement. It's dangerous, and annoying.
+<END>
+
+#WRITE(PTR, $00003E50)
+【Rintaro】It made a hole in the floor, so we can't.
+<END>
+
+#WRITE(PTR, $00003E98)
+【Mayuri】Chris-chan, Chris-chan, pain, pain, go away-♪
+<END>
+
+#WRITE(PTR, $00003EA8)
+Mayuri pats the back of Kurisu's head, grandly waving her hand to the sky.
+<END>
+
+#WRITE(PTR, $00003EC2)
+【Kurisu】Thanks, Mayuri-san...
+<END>
+
+#WRITE(PTR, $00003EEA)
+Kurisu pulls herself together, types on the phone, and activates the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00003EFA)
+The banana inside the microwave slowly begins to spin in reverse.
+<END>
+
+#WRITE(PTR, $00003F0A)
+The 120 on the timer's display gradually decreases.
+<END>
+
+#WRITE(PTR, $00003F52)
+【Kurisu】Ah...!
+<END>
+
+#WRITE(PTR, $00003F62)
+Peeping into the microwave, Kurisu raises her voice in surprise.
+<END>
+
+#WRITE(PTR, $00003F72)
+The banana teleported.
+<END>
+
+#WRITE(PTR, $00003FEE)
+It instantly returned from the microwave to the bunch, becoming a jellyman.
+<END>
+
+#WRITE(PTR, $00004064)
+【Itaru】Ohh-
+<END>
+
+#WRITE(PTR, $00004074)
+【Mayuri】It became a gelbana, huh-
+<END>
+
+#WRITE(PTR, $00004084)
+【Rintaro】Heh, heheheh... fuhahaha, fuuhahahaha! Just as I suspected, the occurrence condition was "time"!
+<END>
+
+#WRITE(PTR, $00004094)
+I was half anxious in my innermost thoughts, but I'm relieved things went well.
+<END>
+
+#WRITE(PTR, $000040A4)
+I gloriously outwitted the impertinent genius girl. With this, I've secured my position in the lab-- as its symbol.
+<END>
+
+#WRITE(PTR, $000040CC)
+【Kurisu】W-way to go, Okabe. It was so simple, I didn't notice it.
+<END>
+
+#WRITE(PTR, $000040DC)
+Kurisu says that with a slightly sulky expression.
+<END>
+
+#WRITE(PTR, $000040EC)
+【Rintaro】Is it vexing? But still, I appreciate your words of praise. Fuhahahaha!
+<END>
+
+#WRITE(PTR, $00004106)
+【Kurisu】More importantly, lets see if we can reproduce D-mail.
+<END>
+
+#WRITE(PTR, $00004122)
+Kurisu ignores my proud laughter and excitedly starts typing out a mail.
+<END>
+
+#WRITE(PTR, $00004132)
+【Rintaro】Tch, Hououin Kyouma's dignity is dropping thanks to Christina...
+<END>
+
+#WRITE(PTR, $0000417A)
+【Itaru】I don't think you had any dignity to begin with.
+<END>
+
+#WRITE(PTR, $000041C2)
+【Kurisu】Whatever, just help me, you two. Okabe, I'm sending a mail to your phone.
+<END>
+
+#WRITE(PTR, $000041D2)
+It's like she's pushing us around...
+<END>
+
+#WRITE(PTR, $000041F2)
+While grinding my teeth, I insert my phone into the Microwave Ophone (Temp)'s slot.
+<END>
+
+#WRITE(PTR, $00004242)
+【Mayuri】Hey, hey, Chris-chan, what are you sending-?
+<END>
+
+#WRITE(PTR, $00004252)
+Mayuri peeks at Kurisu's phone, almost hugging her.
+<END>
+
+#WRITE(PTR, $00004262)
+【Kurisu】It doesn't really have to mean anything. We just need to confirm whether or not we can send it.
+<END>
+
+#WRITE(PTR, $00004272)
+【Mayuri】Hmm? Lemme see here, Okabe wazu un airhe...?
+<END>
+
+#WRITE(PTR, $00004282)
+【Rintaro】
+Wait. Assistant over there, what are you typing?
+<END>
+
+#WRITE(PTR, $0000429C)
+【Kurisu】Who knows? Ready? I'm sending it.
+<END>
+
+#WRITE(PTR, $000042B8)
+Daru already operated the microwave's timer through the X68000. Nothing's inside, but the microwave still operates. The countdown starts from 120.
+<END>
+
+#WRITE(PTR, $00004318)
+Now's where the timing counts.
+<END>
+
+#WRITE(PTR, $00004328)
+We have to suddenly open the microwave door while it's operating, but we've yet to verify the timing of sending the mail.
+<END>
+
+#WRITE(PTR, $00004338)
+With that said, we'll do them simultaneously for now.
+<END>
+
+#WRITE(PTR, $00004348)
+Kurisu readies her finger on her phone's send button.
+<END>
+
+#WRITE(PTR, $00004358)
+I firmly grasp the microwave door's handle.
+<END>
+
+#WRITE(PTR, $00004368)
+Mayuri seeks cover.
+<END>
+
+#WRITE(PTR, $00004378)
+【Itaru】I'm starting the countdown, okay?
+<END>
+
+#WRITE(PTR, $00004388)
+The microwave timer soon indicates 70.
+<END>
+
+#WRITE(PTR, $00004398)
+【Itaru】3, 2, 1... zero.
+<END>
+
+#WRITE(PTR, $000043A8)
+Almost simultaneously, Kurisu sends the mail.
+<END>
+
+#WRITE(PTR, $000043B8)
+And I open the microwave door.
+<END>
+
+#WRITE(PTR, $00004622)
+【Kurisu】Kyah.
+<END>
+
+#WRITE(PTR, $00004632)
+【Rintaro】Fuuhahahaha! It's coming...! It's coming you guys!
+<END>
+
+#WRITE(PTR, $0000464E)
+Light flashes across the room.
+<END>
+
+#WRITE(PTR, $0000465E)
+The cushioning underneath the Microwave Ophone (Temp) collapses under the weight.
+<END>
+
+#WRITE(PTR, $0000466E)
+The floor starts creaking.
+<END>
+
+#WRITE(PTR, $0000467E)
+Exactly like the discharge phenomenon that occurred before--!
+<END>
+
+#WRITE(PTR, $0000470C)
+The discharge phenomenon itself ended in a few dozen seconds.
+<END>
+
+#WRITE(PTR, $0000471C)
+Everybody looks at the Microwave Ophone (Temp) underneath the table with bated breath.
+<END>
+
+#WRITE(PTR, $0000472C)
+Luckily, it didn't break through the floor. That's a relief.
+<END>
+
+#WRITE(PTR, $00004774)
+【Kurisu】...Did the mail arrive?
+<END>
+
+#WRITE(PTR, $00004846)
+I disconnect my phone from the Microwave Ophone (Temp), and check my mail.
+<END>
+
+#WRITE(PTR, $00004856)
+Kurisu peeks at my phone screen from the side.
+<END>
+
+#WRITE(PTR, $00004A9E)
+I received some mail in English.
+<END>
+
+#WRITE(PTR, $00004AAE)
+Two mails.
+<END>
+
+#WRITE(PTR, $00004ABE)
+The timestamp was five days ago.
+<END>
+
+#WRITE(PTR, $00004AD8)
+【Kurisu】Pfft...
+<END>
+
+#WRITE(PTR, $00004AE8)
+Kurisu wrote that mail herself, yet she starts laughing when she sees it.
+<END>
+
+#WRITE(PTR, $00004AF8)
+The "Okabe" in the first one is clearly my name.
+<END>
+
+#WRITE(PTR, $00004C20)
+But what does "airhead" in the second one mean? Atmospheric skull?
+<END>
+
+#WRITE(PTR, $00004C30)
+I don't quite understand what it means, but I do understand this.
+<END>
+
+#WRITE(PTR, $00004C40)
+My assistant is making fun of me.
+<END>
+
+#WRITE(PTR, $00004C56)
+No, that doesn't matter right now.
+<END>
+
+#WRITE(PTR, $00004C66)
+【Rintaro】Christina, did you send two mails?
+<END>
+
+#WRITE(PTR, $00004C80)
+【Kurisu】Eh? No. I only sent one.
+<END>
+
+#WRITE(PTR, $00004CC8)
+【Mayuri】Mayushii saw too-. You know, she only sent one.
+<END>
+
+#WRITE(PTR, $00004CD8)
+【Rintaro】But I received two of them.
+<END>
+
+#WRITE(PTR, $00004CF2)
+【Kurisu】That's true... It was one sentence, but it got divided.
+<END>
+
+#WRITE(PTR, $00004D02)
+【Rintaro】By the way, what does this sentence mean?
+<END>
+
+#WRITE(PTR, $00004D1C)
+【Kurisu】Why don't you look it up yourself?
+<END>
+
+#WRITE(PTR, $00004D2C)
+Doesn't look like she wants to answer.
+<END>
+
+#WRITE(PTR, $00004DDE)
+【Itaru】That reminds me, the D-mail from before was cut up mid-sentence too.
+<END>
+
+#WRITE(PTR, $00004DFC)
+【Rintaro】Was it?
+<END>
+
+#WRITE(PTR, $00004E1A)
+【Itaru】Yeah. Look at your arrival history. I'm pretty sure I sent "Okarin's a pervert".
+<END>
+
+#WRITE(PTR, $000054B8)
+【Rintaro】It certainly is cut up into two as well.
+<END>
+
+#WRITE(PTR, $00005500)
+【Kurisu】I wonder what the cause could be.
+<END>
+
+#WRITE(PTR, $00005510)
+【Rintaro】It could be related to jellymen.
+<END>
+
+#WRITE(PTR, $00005558)
+【Mayuri】But, but, you know, Mayushii's more concerned about why it arrived five days ago.
+<END>
+
+#WRITE(PTR, $00005568)
+【Kurisu】That's true. Last time we sent one, it arrived five days ago too, right?
+<END>
+
+#WRITE(PTR, $00005578)
+【Rintaro】Yeah. It did.
+<END>
+
+#WRITE(PTR, $000055C0)
+【Itaru】Is it some sort of rule then?
+<END>
+
+#WRITE(PTR, $000055DA)
+【Mayuri】Then, then, let's try sending even more-
+<END>
+
+#WRITE(PTR, $000055EA)
+It's just like Mayuri said.
+<END>
+
+#WRITE(PTR, $000055FA)
+Now that we've reproduced the discharge phenomenon, as well as D-mail, we should keep experimenting and get as much experimental data as we can.
+<END>
+
+#WRITE(PTR, $0000560A)
+【Rintaro】Alright, lab mems, battle stations!
+<END>
+
+#WRITE(PTR, $0000562C)
+【Kurisu】He's at it again...
+<END>
+
+#WRITE(PTR, $0000563C)
+【Rintaro】Henceforth, we shall continue D-mail experiments for as long as possible!
+<END>
+
+#WRITE(PTR, $0000564C)
+【Rintaro】Daru, use the X68000 to observe, adjust, and gather information on the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00005666)
+【Rintaro】Assistant, keep pumping out mail. Try out various patterns of text. Japanese, English, full-width, half-width, emoticons. The contents don't matter.
+<END>
+
+#WRITE(PTR, $00005680)
+Masseuse is more qualified to type out mail, but since she's not a lab mem, I'll leave this role to Kurisu.
+<END>
+
+#WRITE(PTR, $0000569A)
+【Mayuri】What about Mayushii?
+<END>
+
+#WRITE(PTR, $000056AA)
+【Rintaro】Mayuri, I order you to go shopping. For now, buy some bananas. I, Hououin Kyouma, shall fund you!
+<END>
+
+#WRITE(PTR, $000056C4)
+【Mayuri】Wah-, Okarin's so generous-♪
+<END>
+
+#WRITE(PTR, $000056DE)
+【Kurisu】Then Okabe gets to open and close the microwave door, huh.
+<END>
+
+#WRITE(PTR, $000056F8)
+【Itaru】Uhyoh-. Isn't that job as simple as "putting the dandelion on sashimi"?
+<END>
+
+#WRITE(PTR, $00005708)
+【Rintaro】Hmph, no, Assistant's judgment is accurate. Most likely, the key to a successful D-mail is the timing of opening the microwave door!
+<END>
+
+#WRITE(PTR, $00005722)
+【Kurisu】No, I was just kidding...
+<END>
+
+#WRITE(PTR, $00005732)
+【Rintaro】Fuhahaha! Just leave opening and closing the microwave door to Hououin Kyouma! With the accuracy of God, the audacity of Asura, and the delicacy of handling women, shall I open and close this door!
+<END>
+
+#WRITE(PTR, $0000574C)
+【Mayuri】Wah-, Okarin, naughty-
+<END>
+
+#WRITE(PTR, $0000575C)
+【Rintaro】Furthermore, the current operation is top secret. You must not leak it to anyone. Got it?
+<END>
+
+#WRITE(PTR, $0000576C)
+Mayuri nods steadily.
+<END>
+
+#WRITE(PTR, $0000577C)
+【Rintaro】Now, I shall announce the operation name--
+<END>
+
+#WRITE(PTR, $00005796)
+【Kurisu】Don't need one. Let's start.
+<END>
+
+#WRITE(PTR, $000057B2)
+【Rintaro】What did... you say...?
+<END>
+
+#WRITE(PTR, $000057C2)
+You ruined my climax scene....
+<END>
+
+#WRITE(PTR, $000057D2)
+Tch, damn assistant, that's unforgivable...!
+<FILEEND62>
+

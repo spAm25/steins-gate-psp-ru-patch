@@ -6,3 +6,4 @@ Atlas.exe
 patch-data
 topographer/build
 topographer/objects
+.fuse*

@@ -1,0 +1,1224 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002F88)
+
+#WRITE(PTR, $000001EA)
+%L1
+<END2>
+
+#WRITE(PTR, $000001F0)
+Chapter 3 【Butterfly Effect's Divergence】
+<END2>
+
+#WRITE(PTR, $000001F6)
+%L1
+<END2>
+
+#WRITE(PTR, $00000366)
+The ticking of the clock has been reverberating in my ears.
+<END>
+
+#WRITE(PTR, $00000376)
+It's past 2AM.
+<END>
+
+#WRITE(PTR, $00000386)
+Since the window is closed、 I can't hear any outside noise.
+<END>
+
+#WRITE(PTR, $00000396)
+Daru, Kurisu, and I keep staring at the gruesome image reflected on the monitor, unable to speak.
+<END>
+
+#WRITE(PTR, $000003A6)
+We all realize something's wrong here.
+<END>
+
+#WRITE(PTR, $000003B6)
+This is terrible, isn't it...?
+<END>
+
+#WRITE(PTR, $000003C6)
+We can't complain if robust westerners in black suits kicked down the lab door right this instant...
+<END>
+
+#WRITE(PTR, $000003D6)
+I make sure the door's looked.
+<END>
+
+#WRITE(PTR, $0000041E)
+【Itaru】What... is this...
+<END>
+
+#WRITE(PTR, $0000042E)
+Daru breaks the silence with a whisper overcome with surprise.
+<END>
+
+#WRITE(PTR, $0000043E)
+【Itaru】Jellyman... as in gelification...?
+<END>
+
+#WRITE(PTR, $00000466)
+Upon hearing the familiar word "gelification", I instinctively look to the bunch of bananas placed next to the computer.
+<END>
+
+#WRITE(PTR, $00000476)
+There's only one banana left on the bunch now.
+<END>
+
+#WRITE(PTR, $00000486)
+We didn't have a single successful experiment today, so we don't have any gelified bananas.
+<END>
+
+#WRITE(PTR, $00000496)
+But I don't think this is a mere coincidence.
+<END>
+
+#WRITE(PTR, $000004A6)
+The gelified bananas produced by the Microwave Ophone (Temp), and the jellyman-ified corpses produced by SERN's experiments.
+<END>
+
+#WRITE(PTR, $000004B6)
+They seem identical in nature.
+<END>
+
+#WRITE(PTR, $000004FE)
+【Kurisu】Human experiments...?
+<END>
+
+#WRITE(PTR, $0000050E)
+Kurisu speaks calmly despite her grim expression.
+<END>
+
+#WRITE(PTR, $0000051E)
+But she doesn't try to divert her eyes from the gruesome image.
+<END>
+
+#WRITE(PTR, $0000052E)
+【Kurisu】Moreover, though it's not perfect, this means they've created a time machine.
+<END>
+
+#WRITE(PTR, $0000053E)
+【Rintaro】Eh...?
+<END>
+
+#WRITE(PTR, $0000054E)
+I've been out of it for a while due to the shock.
+<END>
+
+#WRITE(PTR, $0000055E)
+I'm terrified to have a genuine conspiracy before my eyes. So I don't quite understand the meaning of Kurisu's words.
+<END>
+
+#WRITE(PTR, $0000056E)
+【Kurisu】This article is from a 1921 New York Times issue.
+<END>
+
+#WRITE(PTR, $0000057E)
+【Rintaro】About 90 years... ago...?
+<END>
+
+#WRITE(PTR, $0000058E)
+【Kurisu】Look.
+<END>
+
+#WRITE(PTR, $0000059E)
+Kurisu points to part of the black and white photograph, her finger shaking slightly.
+<END>
+
+#WRITE(PTR, $000005FA)
+The corpse of a man who turned into a jellyman. At the top of his shoulder, perhaps printed on his clothes, you can see writing. It's fused onto the gelified body, but you can somehow manage to read it.
+<END>
+
+#WRITE(PTR, $00000652)
+【Rintaro】SERN...
+<END>
+
+#WRITE(PTR, $00000662)
+That's what's written.
+<END>
+
+#WRITE(PTR, $00000672)
+As if declaring it as proof.
+<END>
+
+#WRITE(PTR, $00000702)
+【Itaru】So basically... SERN used the LHC for time travel experiments, and sent a human back to 1921...?
+<END>
+
+#WRITE(PTR, $00000712)
+【Kurisu】Looks like they failed at keeping him alive, though.
+<END>
+
+#WRITE(PTR, $00000722)
+【Rintaro】Is this all of the Jellyman's Report?
+<END>
+
+#WRITE(PTR, $0000073C)
+【Itaru】No... there's still quite a bit. In total, umm... there's 14 people or so.
+<END>
+
+#WRITE(PTR, $0000074C)
+【Rintaro】If the word Jellyman means a gelified human, then... does that mean... there are that many human experimentation victims?
+<END>
+
+#WRITE(PTR, $00000768)
+I swallow my saliva.
+<END>
+
+#WRITE(PTR, $00000778)
+I'm awfully thirsty.
+<END>
+
+#WRITE(PTR, $000007DA)
+I take a cold Dr Pepper out of the fridge and moisten my mouth.
+<END>
+
+#WRITE(PTR, $00000844)
+【Rintaro】Show me the others.
+<END>
+
+#WRITE(PTR, $00000860)
+Daru switches the monitor to another report.
+<END>
+
+#WRITE(PTR, $00000870)
+Without being told to, Kurisu begins translating out loud.
+<END>
+
+#WRITE(PTR, $000008CC)
+【Kurisu】"Jellyman's Report 9"
+<END>
+
+#WRITE(PTR, $000008DC)
+【Kurisu】"Subject: Dan Strayski, Age: 26, Origin: Canada"
+<END>
+
+#WRITE(PTR, $000008EC)
+【Kurisu】"Z Program 4, Experiment Date: 2004-10-30 T 14:10"
+<END>
+
+#WRITE(PTR, $000008FC)
+【Kurisu】"Results: Error. Human is dead. Mismatch."
+<END>
+
+#WRITE(PTR, $0000090C)
+【Kurisu】The newspaper clipping... I think this is French. I can't read it.
+<END>
+
+#WRITE(PTR, $0000091C)
+【Rintaro】You can read the date, which is January 31, 2001.
+<END>
+
+#WRITE(PTR, $0000092C)
+【Kurisu】The location is... Pau, France, I guess.
+<END>
+
+#WRITE(PTR, $0000093C)
+2001, so that's fairly recent.
+<END>
+
+#WRITE(PTR, $0000094C)
+It's a large difference from James McCarthy, who jumped nearly 90 years to 1921.
+<END>
+
+#WRITE(PTR, $00000968)
+Daru tries to translate it literally with a machine translation, giving us the following content:
+<END>
+
+#WRITE(PTR, $00000A26)
+<LINE>
+January 31, 2001,
+<LINE>
+Collapsed male corpse discovered in forest outside Pau, France.
+<LINE>
+Corpse left foot fused to tree trunk, meaning its body become jelly.
+<ENDPANEL>
+
+#WRITE(PTR, $00000A56)
+Daru displays the next page.
+<END>
+
+#WRITE(PTR, $00000A84)
+【Kurisu】"Jellyman's Report 8"
+<END>
+
+#WRITE(PTR, $00000A94)
+【Kurisu】"Subject: Linda Hill, Age: 25, Origin: England"
+<END>
+
+#WRITE(PTR, $00000AA4)
+【Kurisu】"Z Program 4, Experiment Date: 2004-2-15 T 13:45"
+<END>
+
+#WRITE(PTR, $00000AB4)
+【Kurisu】"Results: Error. Human is dead. Mismatch."
+<END>
+
+#WRITE(PTR, $00000AC4)
+【Kurisu】"October 2, 1972, on the streets of Dharmapuri in Tamil Nadu, India, a jelified woman's corpse discovered."
+<END>
+
+#WRITE(PTR, $00000AD4)
+【Kurisu】"The corpse has traces of being run over by a car after it had been left alone. The lower half is damaged."
+<END>
+
+#WRITE(PTR, $00000AE4)
+Daru goes to the next page.
+<END>
+
+#WRITE(PTR, $00000B12)
+【Kurisu】"Jellyman's Report 7"
+<END>
+
+#WRITE(PTR, $00000B22)
+【Kurisu】"Subject: Michael Lang, Age: 33, Origin: Germany"
+<END>
+
+#WRITE(PTR, $00000B32)
+【Kurisu】"Z Program 4, Experiment Date: 2002-10-8 T 13:28"
+<END>
+
+#WRITE(PTR, $00000B42)
+【Kurisu】"Results: Error. Human is dead. Mismatch."
+<END>
+
+#WRITE(PTR, $00000B52)
+The article clipping is written in Japanese.
+<END>
+
+#WRITE(PTR, $00000B62)
+Looks like a pre-war newspaper.
+<END>
+
+#WRITE(PTR, $00000C14)
+<LINE>
+"May 24, 1936, <LINE>
+At the base of Mt. Hiei in Kyoto, the corpse of what is believed to be a gelified human was discovered.<LINE>
+It is in a damaged state, possibly due to sliding down the slope."
+<ENDPANEL>
+
+#WRITE(PTR, $00000C44)
+The contents were such.
+<END>
+
+#WRITE(PTR, $00000C54)
+I didn't know this news was even in Japan.
+<END>
+
+#WRITE(PTR, $00000C64)
+Though, it was pre-war, so someone born in the Heisei Era like me would have no way of knowing it.
+<END>
+
+#WRITE(PTR, $00000C74)
+Next page.
+<END>
+
+#WRITE(PTR, $00000CA2)
+On a beautiful coast, a jellyfish-like body washed ashore. There's a picture of the inhabitants surrounding and staring at it.
+<END>
+
+#WRITE(PTR, $00000CB2)
+【Kurisu】"Jellyman's Report 6"
+<END>
+
+#WRITE(PTR, $00000CC2)
+【Kurisu】"Subject: Mark Hughes, Age: 30, Origin: America"
+<END>
+
+#WRITE(PTR, $00000CD2)
+【Kurisu】"Z Program 4, Experiment Date: 2002-8-23 T 12:52"
+<END>
+
+#WRITE(PTR, $00000CE2)
+【Kurisu】"Results: Error. Human is dead. Mismatch."
+<END>
+
+#WRITE(PTR, $00000CF2)
+【Kurisu】"On July 1, 1985, a strange body washed ashore on the coast of Streymoy, Faroe Islands."
+<END>
+
+#WRITE(PTR, $00000D02)
+【Kurisu】"It appeared to be an adult male, but the body was flabby like a jellyfish. It wasn't alive. The inhabitants of the island spread rumors that it was the corpse of a merman."
+<END>
+
+#WRITE(PTR, $00000D12)
+【Kurisu】"On what is believed to be its shoulder was an inscription reading "SERN", but SERN denies any involvement"...
+<END>
+
+#WRITE(PTR, $00000DA2)
+【Itaru】Still want to look?
+<END>
+
+#WRITE(PTR, $00000DB2)
+【Rintaro】That's enough already.
+<END>
+
+#WRITE(PTR, $00000DC2)
+There are 14 of these people...?
+<END>
+
+#WRITE(PTR, $00000DD2)
+【Kurisu】The locations of discovery are spread throughout the world... What can we deduce from this result?
+<END>
+
+#WRITE(PTR, $00000DE2)
+Kurisu ponders with an austere expression.
+<END>
+
+#WRITE(PTR, $00000DF2)
+【Rintaro】They sent them to those places, right?
+<END>
+
+#WRITE(PTR, $00000E02)
+【Kurisu】I don't think so. It's too haphazard.
+<END>
+
+#WRITE(PTR, $00000E1C)
+【Itaru】The Kerr black hole does something with a singular point. Isn't that the cause?
+<END>
+
+#WRITE(PTR, $00000E2C)
+【Kurisu】"Due to infinite compression by supergravity, it's not considered possible to pass through the singular point in a Kerr black hole."
+<END>
+
+#WRITE(PTR, $00000E3C)
+【Kurisu】That was written.
+<END>
+
+#WRITE(PTR, $00000E56)
+【Itaru】What's a Kerr black hole? Is it different from a regular black hole?
+<END>
+
+#WRITE(PTR, $00000E66)
+【Kurisu】It's a theoretical black hole predicted to exist. Its trait is the singular point that revolves in its core. It hasn't been proven to exist, and there's no way to prove it either, though.
+<END>
+
+#WRITE(PTR, $00000F04)
+Kerr black hole.
+<END>
+
+#WRITE(PTR, $00000F14)
+I've heard that before somewhere.
+<END>
+
+#WRITE(PTR, $00000F24)
+【Rintaro】I see... John Titor!
+<END>
+
+#WRITE(PTR, $00000F34)
+Titor's time machine used Kerr black holes.
+<END>
+
+#WRITE(PTR, $00000F98)
+【Rintaro】Titor said this. In 2034, SERN successfully developed the time machine. And then Titor himself came in 2036.
+<END>
+
+#WRITE(PTR, $00000FA8)
+With that in consideration, it's not unnatural for both Titor and SERN to use the exact same time travel theory.
+<END>
+
+#WRITE(PTR, $00000FB8)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00000FC8)
+Kurisu silently shuts her eyes in thought.
+<END>
+
+#WRITE(PTR, $00000FE2)
+【Kurisu】Creating Kerr black holes, that's just too unreasonable... If you screw up, the entire world could become engulfed... Kerr black holes are just a hypothesis in the first place...
+<END>
+
+#WRITE(PTR, $00000FFA)
+【Rintaro】If Titor's predictions are a reality, then that means the LHC worst case scenario video on <DICT>MewTube</DICT> would be almost real.
+<END>
+
+#WRITE(PTR, $00001012)
+【Itaru】I don't know about Titor's predictions, but I've seen the <DICT>problem video</DICT> before. It was on the news two or three years ago.
+<END>
+
+#WRITE(PTR, $00001022)
+【Kurisu】The interior of a black hole doesn't have normal gravity. It's certainly possible that passing through there could allow time displacement, but there's no way a living human could pass through.
+<END>
+
+#WRITE(PTR, $00001032)
+【Rintaro】So we should think that Jellymanification happens for that very reason.
+<END>
+
+#WRITE(PTR, $0000104C)
+【Kurisu】Forget jellymen, decomposition occurs down to the particle level. That's what a black hole is.
+<END>
+
+#WRITE(PTR, $00001066)
+【Itaru】Before discussion, shouldn't we gather more time machine documents first?
+<END>
+
+#WRITE(PTR, $00001082)
+Daru's already started researching.
+<END>
+
+#WRITE(PTR, $0000109E)
+I'm suddenly anxious.
+<END>
+
+#WRITE(PTR, $000010AE)
+Is it okay to keep hacking carefree like this?
+<END>
+
+#WRITE(PTR, $000010BE)
+Should I stop Daru?
+<END>
+
+#WRITE(PTR, $000010CE)
+I'm the one who asked him to do it, but things have gone serious now.
+<END>
+
+#WRITE(PTR, $000010DE)
+But at the same time--
+<END>
+
+#WRITE(PTR, $000010EE)
+Irresistible curiosity billows up within me.
+<END>
+
+#WRITE(PTR, $000010FE)
+Time machines are becoming a reality.
+<END>
+
+#WRITE(PTR, $0000110E)
+Tempted to confirm that, I can't stop Daru.
+<END>
+
+#WRITE(PTR, $0000111E)
+【Itaru】Ah, it's here. There's a file in the Z Program that explains time travel theory.
+<END>
+
+#WRITE(PTR, $00001166)
+【Kurisu】That was pretty easy to find. SERN's too weak.
+<END>
+
+#WRITE(PTR, $000011AE)
+【Itaru】SERN's not weak, I'm just amazing.
+<END>
+
+#WRITE(PTR, $000011BE)
+【Rintaro】Daru is my dependable right arm "My Favorite Right Arm".
+<END>
+
+#WRITE(PTR, $000011D8)
+【Kurisu】I thought he was your supah hakah.
+<END>
+
+#WRITE(PTR, $000011F2)
+【Itaru】HaCKer.
+<END>
+
+#WRITE(PTR, $0000125A)
+【Rintaro】So, Christina, what's written there?
+<END>
+
+#WRITE(PTR, $0000126A)
+Since this is in English too, I have no choice but to rely on Assistant.
+<END>
+
+#WRITE(PTR, $0000127A)
+【Kurisu】Uhhhmm... can you give me some time to read it?
+<END>
+
+#WRITE(PTR, $0000128A)
+Kurisu's eyes dash left and right across the lines.
+<END>
+
+#WRITE(PTR, $0000129A)
+She doesn't show any particular dislike for my request.
+<END>
+
+#WRITE(PTR, $000012AA)
+Actually, it looks like Kurisu really wants to know too.
+<END>
+
+#WRITE(PTR, $000012BA)
+【Kurisu】No way... is this... really...?
+<END>
+
+#WRITE(PTR, $000012CA)
+【Kurisu】Just who... is Titor...?
+<END>
+
+#WRITE(PTR, $000012DA)
+【Rintaro】What are you muttering about? Tell me what's written there.
+<END>
+
+#WRITE(PTR, $00001336)
+【Kurisu】...Ah, okay.
+<END>
+
+#WRITE(PTR, $00001350)
+【Kurisu】I kinda, can't help but feel we're being set up.
+<END>
+
+#WRITE(PTR, $00001360)
+【Rintaro】What do you mean?
+<END>
+
+#WRITE(PTR, $00001370)
+【Kurisu】It's almost the same. ...The same as Titor's theory.
+<END>
+
+#WRITE(PTR, $0000138A)
+【Kurisu】Roughly explaining--
+<END>
+
+#WRITE(PTR, $0000139A)
+【Kurisu】The LHC collides protons head-on at 99.9999991％ the speed of light.
+<END>
+
+#WRITE(PTR, $000013AA)
+【Kurisu】Through that, they can compress a mass of １０⑱kg into an extremely narrow space of １０⑰m
+<END>
+
+#WRITE(PTR, $000013F8)
+【Itaru】In Japanese please. Three lines.
+<END>
+
+#WRITE(PTR, $00001412)
+【Kurisu】A super small mass.
+<END>
+
+#WRITE(PTR, $00001422)
+【Kurisu】Thrust inside a small space.
+<END>
+
+#WRITE(PTR, $00001432)
+【Kurisu】At full force.
+<END>
+
+#WRITE(PTR, $00001442)
+That explanation is too vague....
+<END>
+
+#WRITE(PTR, $00001468)
+【Itaru】That explanation is too erotic, durr!
+<END>
+
+#WRITE(PTR, $00001482)
+【Kurisu】Haah? What part of it is erotic--
+<END>
+
+#WRITE(PTR, $0000149C)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $000014B6)
+【Kurisu】...ah
+<END>
+
+#WRITE(PTR, $000014D0)
+【Kurisu】H-Hashida, you pervert!
+<END>
+
+#WRITE(PTR, $000014EA)
+【Itaru】Well, Makise-shi, don't you have a good imagination too?
+<END>
+
+#WRITE(PTR, $000014FA)
+【Kurisu】D-don't lump me with your lot!
+<END>
+
+#WRITE(PTR, $0000150A)
+Her denial is not convincing at all with that red face.
+<END>
+
+#WRITE(PTR, $0000151A)
+【Rintaro】Don't listen to the dumbass, Christina. Continue.
+<END>
+
+#WRITE(PTR, $00001534)
+【Kurisu】...ugh.
+<END>
+
+#WRITE(PTR, $00001544)
+【Kurisu】Uhh, what were we talking about?
+<END>
+
+#WRITE(PTR, $00001570)
+【Itaru】At full force.
+<END>
+
+#WRITE(PTR, $00001580)
+【Rintaro】Proton compression.
+<END>
+
+#WRITE(PTR, $0000159A)
+【Kurisu】If the compression is successful, it can make a micro singular point--
+<END>
+
+#WRITE(PTR, $000015B4)
+【Itaru】A micro singular point? Not a mini-black hole?
+<END>
+
+#WRITE(PTR, $000015C4)
+【Rintaro】They almost mean the same thing. After all, a singular point is at a black hole's core.
+<END>
+
+#WRITE(PTR, $000015D4)
+【Kurisu】If there are two of these micro singular points, it creates a black hole.
+<END>
+
+#WRITE(PTR, $000015E4)
+A black hole with two centers...?
+<END>
+
+#WRITE(PTR, $000015F4)
+Like a cowlick with two hairs? No, I don't think that's it...
+<END>
+
+#WRITE(PTR, $0000160E)
+【Itaru】Personify it, please.
+<END>
+
+#WRITE(PTR, $00001628)
+【Kurisu】Okay, okay, are you fine with Mic-chan and Cro-chan?
+<END>
+
+#WRITE(PTR, $00001642)
+【Itaru】If they're sisters, that's moe. Haah, haah.
+<END>
+
+#WRITE(PTR, $0000165C)
+【Kurisu】Once you give Mic-chan and Cro-chan electrons, they can move freely.
+<END>
+
+#WRITE(PTR, $00001676)
+【Itaru】Electric shock torture? That some sort of eroge?
+<END>
+
+#WRITE(PTR, $00001690)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $000016AA)
+【Kurisu】Now that the two of them can operate, they revolve at ultra high speed.
+<END>
+
+#WRITE(PTR, $000016BA)
+【Kurisu】And then, theoretically, Mic-chan and Cro-chan transform into Magical Girls "Ring Singularity".
+<END>
+
+#WRITE(PTR, $000016DC)
+【Itaru】A <DICT>stock transformation scene</DICT>, huh? I understand.
+<END>
+
+#WRITE(PTR, $0000177A)
+In any case, the supah hakah and the assistant seem to be having fun.
+<END>
+
+#WRITE(PTR, $000017E8)
+【Kurisu】This gives birth to the Kerr black hole effect.
+<END>
+
+#WRITE(PTR, $00001802)
+【Itaru】In the first place, what's a Kerr black hole? You said that it revolves.
+<END>
+
+#WRITE(PTR, $0000181C)
+【Kurisu】That's what it does.
+<END>
+
+#WRITE(PTR, $00001836)
+【Itaru】But don't black holes usually revolve? I mean, there's a whirlpool around the hole, right?
+<END>
+
+#WRITE(PTR, $00001846)
+【Kurisu】That part that looks like it's revolving is just the surrounding matter being sucked into the black hole.
+<END>
+
+#WRITE(PTR, $00001856)
+【Kurisu】Normal black holes are just a center point where super mass causes gravitational collapse. Everything falls towards it.
+<END>
+
+#WRITE(PTR, $00001866)
+【Kurisu】Since it's a point, it doesn't revolve.
+<END>
+
+#WRITE(PTR, $00001876)
+【Kurisu】On the other hand, Kerr black holes, like I said before, don't have a point at their center, but a ring.
+<END>
+
+#WRITE(PTR, $00001886)
+【Kurisu】Think of it like this: Once transformed into magical girls, Mic-chan and Cro-chan's hearts revolve in a ring inside their bodies, which is impossible for normal people.
+<END>
+
+#WRITE(PTR, $000018A0)
+【Itaru】...I'll pass on the guro.
+<END>
+
+#WRITE(PTR, $000018BC)
+【Rintaro】Assistant, you said this before right? That even if Kerr black holes exist, they can't be proven. What do you mean by that?
+<END>
+
+#WRITE(PTR, $000018DE)
+【Kurisu】Black holes have something called an <DICT>event horizon</DICT>.
+<END>
+
+#WRITE(PTR, $000018EE)
+【Kurisu】Once you get inside it, time and space switch places.
+<END>
+
+#WRITE(PTR, $000018FE)
+【Rintaro】Time and space switch places?
+<END>
+
+#WRITE(PTR, $0000190E)
+【Kurisu】Right now, we can freely move through space, but we can't move even one minute into the past. Those switch places.
+<END>
+
+#WRITE(PTR, $0000191E)
+【Kurisu】On the other side of the event horizon, spatial movement becomes impossible, while temporal movement becomes possible.
+<END>
+
+#WRITE(PTR, $0000192E)
+I can't imagine that at all....
+<END>
+
+#WRITE(PTR, $0000193E)
+【Kurisu】Since spatial movement is impossible, it's said you can never escape a black hole again.
+<END>
+
+#WRITE(PTR, $00001958)
+【Kurisu】For example, if Okabe rushed into a black hole, "time would stretch to infinity".
+<END>
+
+#WRITE(PTR, $00001968)
+【Kurisu】Since light cannot escape again, human eyes cannot see the other side of the event horizon.
+<END>
+
+#WRITE(PTR, $00001978)
+【Kurisu】Observation and proof are impossible.
+<END>
+
+#WRITE(PTR, $00001992)
+【Kurisu】There is an exception, however. When you use a Kerr black hole for time travel, this exception is vital.
+<END>
+
+#WRITE(PTR, $000019A2)
+【Rintaro】Can you teach without the pretension?
+<END>
+
+#WRITE(PTR, $000019B2)
+【Kurisu】The Kerr black hole has a singular point-- since it's rotating inside, it has angular momentum.
+<END>
+
+#WRITE(PTR, $000019FA)
+【Itaru】Like I said, in Japanese please.
+<END>
+
+#WRITE(PTR, $00001A14)
+【Kurisu】Didn't I already explain that it revolves at the core? Just think of that rotation as having momentum.
+<END>
+
+#WRITE(PTR, $00001A2E)
+【Kurisu】If you keep giving Mic-chan and Cro-chan electrons, they can freely operate, but--
+<END>
+
+#WRITE(PTR, $00001A46)
+【Kurisu】A feature of Kerr black holes is that when its angular momentum exceeds its mass, the event horizon disappears, and the singular points become <DICT>naked singularities</DICT>.
+<END>
+
+#WRITE(PTR, $00001A60)
+【Itaru】N-naked... you say...? You mean the magical girl costumes expose more, right? Does this have an anime yet-?
+<END>
+
+#WRITE(PTR, $00001A86)
+Kurisu and I completely ignore Daru's nonsense.
+<END>
+
+#WRITE(PTR, $00001A96)
+【Rintaro】Naked, as in they go from unobservable to observable.
+<END>
+
+#WRITE(PTR, $00001AB0)
+【Kurisu】When the event horizon disappears, there's no more reason for time and space to be changed. If you rush to the naked singularity, you can avoid that change.
+<END>
+
+#WRITE(PTR, $00001AC0)
+【Kurisu】And then the existence of the naked singularities cause the general theory of relativity and the principle of causality to fail.
+<END>
+
+#WRITE(PTR, $00001ADA)
+【Kurisu】The laws of the universe become disordered.
+<END>
+
+#WRITE(PTR, $00001AEA)
+【Rintaro】C-can such a thing exist?
+<END>
+
+#WRITE(PTR, $00001AFA)
+The negation of the theory of relativity and the principle of causality means serious paradoxes can occur. Didn't Kurisu say that earlier?
+<END>
+
+#WRITE(PTR, $00001B0A)
+【Kurisu】Up until now, its been predicted to have a high probability of existing. There are inconsistencies, but it's being proven.
+<END>
+
+#WRITE(PTR, $00001B1A)
+【Kurisu】The principle of causality fails, meaning it's possible to go back to the past by rushing into a naked singularity.
+<END>
+
+#WRITE(PTR, $00001B2A)
+I'm certain that John Titor said the same thing.
+<END>
+
+#WRITE(PTR, $00001B3A)
+So Titor's time machine did use SERN's time machine engineering after all. That seems entirely probable.
+<END>
+
+#WRITE(PTR, $00001B4A)
+However, Titor's time machine was very compact, enough to fit on a car.
+<END>
+
+#WRITE(PTR, $00001B5A)
+Which means that in 24 years, they successfully miniaturized the 27km diameter LHC.
+<END>
+
+#WRITE(PTR, $00001B74)
+【Kurisu】What I don't understand is how they inject electrons into the singular point.
+<END>
+
+#WRITE(PTR, $00001B8E)
+【Kurisu】Look. This is a picture of the LHC, but there's strange equipment installed at the proton collision site.
+<END>
+
+#WRITE(PTR, $00001B9E)
+【Kurisu】It looks like they call it a "Lifter", but... just what is it?
+<END>
+
+#WRITE(PTR, $00001BAE)
+【Rintaro】Daru, have you heard of it?
+<END>
+
+#WRITE(PTR, $00001BF6)
+【Itaru】Lifter, Lifter... I think I caught a glance of it in the Z Program too. Wanna google it?
+<END>
+
+#WRITE(PTR, $00001C12)
+Daru opens up a browser window, entering "Lifter" into a search engine.
+<END>
+
+#WRITE(PTR, $00001C22)
+【Itaru】Ah, look at those hits.
+<END>
+
+#WRITE(PTR, $00001C32)
+About 422, 000 results (0.25 seconds)
+<END>
+
+#WRITE(PTR, $00001C42)
+That's what it said on the monitor.
+<END>
+
+#WRITE(PTR, $00001C5C)
+【Kurisu】This many? Is nothing a secret anymore...?
+<END>
+
+#WRITE(PTR, $00001C6C)
+【Rintaro】Could this be it? Ionocraft.
+<END>
+
+#WRITE(PTR, $00001C86)
+【Kurisu】Ion, or in other words, a charged atom or molecule, huh. The meaning matches.
+<END>
+
+#WRITE(PTR, $00001CAE)
+We click on the page that says "Ionocraft(Lifter)".
+<END>
+
+#WRITE(PTR, $00001CBE)
+We go to the link.
+<END>
+
+#WRITE(PTR, $00001CCE)
+There's a video.
+<END>
+
+#WRITE(PTR, $00001D2A)
+Looks like some dim garage.
+<END>
+
+#WRITE(PTR, $00001D3A)
+But it doesn't seem like anything secretive. It just seems like a garage in an average American home.
+<END>
+
+#WRITE(PTR, $00001D4A)
+Some triangular model made of something like aluminum is placed center screen. It looks about 10cm high, and about 30cm wide.
+<END>
+
+#WRITE(PTR, $00001D5A)
+It's connected to some sort of voltage source by a thin wire.
+<END>
+
+#WRITE(PTR, $00001D6A)
+It's a fairly cheap looking device.
+<END>
+
+#WRITE(PTR, $00001D7A)
+That's all.
+<END>
+
+#WRITE(PTR, $00001D8A)
+Nothing else.
+<END>
+
+#WRITE(PTR, $00001D9A)
+After explaining something in some language I don't understand-- Russian, maybe?-- the person filming the video slowly turns on the voltage source.
+<END>
+
+#WRITE(PTR, $00001DAA)
+And then--
+<END>
+
+#WRITE(PTR, $00001DBA)
+【Itaru】Ah, it's floating....
+<END>
+
+#WRITE(PTR, $00001DCA)
+The silvery triangular model soundlessly floats into the air.
+<END>
+
+#WRITE(PTR, $00001DDA)
+Then it stays stationary.
+<END>
+
+#WRITE(PTR, $00001DEA)
+【Rintaro】Is that... an anti-gravity device...?
+<END>
+
+#WRITE(PTR, $00001DFA)
+【Kurisu】Of course not. That would be the breakthrough of the century.
+<END>
+
+#WRITE(PTR, $00001E0A)
+【Kurisu】Ionocraft... that's what it's called, so I think it has something to do with an electrode and electrified air...
+<END>
+
+#WRITE(PTR, $00001E1A)
+Kurisu's usual firm, confident tone is gone from her voice.
+<END>
+
+#WRITE(PTR, $00001E2A)
+But when we look up information on the ionocraft, we learn various things.
+<END>
+
+#WRITE(PTR, $00001E3A)
+Various sites have detailed instructions on how to make Lifters, but there are several theories on how they float, so we don't know which one is true.
+<END>
+
+#WRITE(PTR, $00001E96)
+【Rintaro】SERN had their eye on that Lifter. And they include it as a necessary device for time travel.
+<END>
+
+#WRITE(PTR, $00001EA6)
+【Rintaro】
+If they can operate a micro singular point's mass and gravitational field, then these things really are anti-gravity devices!
+<END>
+
+#WRITE(PTR, $00001EB6)
+【Kurisu】Well, if you apply such restrictive conditions, then I guess it might not be wrong.
+<END>
+
+#WRITE(PTR, $00001EC6)
+What's that supposed to mean?
+<END>
+
+#WRITE(PTR, $00001ED6)
+My curiosity's growing ever more.
+<END>
+
+#WRITE(PTR, $00001EF0)
+【Kurisu】But it looks like SERN's having trouble adjusting this Lifter, huh.
+<END>
+
+#WRITE(PTR, $00001F00)
+【Kurisu】They can't fully adjust the micro singular point's gravity. So they can't make completely naked singularities.
+<END>
+
+#WRITE(PTR, $00001F10)
+【Rintaro】So we should consider that the reason why the subjects turned into jellymen.
+<END>
+
+#WRITE(PTR, $00001F20)
+Kurisu nods at my words.
+<END>
+
+#WRITE(PTR, $00001F30)
+【Kurisu】If they can't make naked singularities, then basically, at the same time the subject is tossed into the black hole, they're crushed by tremendous mass.
+<END>
+
+#WRITE(PTR, $00001F44)
+【Kurisu】As a result, all of their substance turns into a fractal structure... Let's look at that as hypothesis.
+<END2>
+
+#WRITE(PTR, $00001F5E)
+ In actuality, I don't know at all. It might take months just to examine it.
+<END>
+
+#WRITE(PTR, $00001F72)
+Kurisu shrugs her shoulders as if giving up.
+<END>
+
+#WRITE(PTR, $00001F82)
+【Rintaro】Is the lifter still incomplete?
+<END>
+
+#WRITE(PTR, $00001F92)
+If we believe in Titor's words, then the time machine won't be complete for another 24 years.
+<END>
+
+#WRITE(PTR, $00001FA2)
+【Rintaro】Basically, if we can complete the Microwave Ophone (Temp) first, then we can outwit SERN...!
+<END>
+
+#WRITE(PTR, $00001FBC)
+【Kurisu】The scale is completely different. Besides, not even SERN has completed it, so what makes you think you can?
+<END>
+
+#WRITE(PTR, $00001FD6)
+【Kurisu】This isn't something that can be solved so easily.
+<END>
+
+#WRITE(PTR, $00001FE6)
+【Kurisu】In the first place, SERN hasn't solved the problems of time displacement adjustment, nor destination setting after the fact.
+<END>
+
+#WRITE(PTR, $00001FF6)
+【Kurisu】You should understand by how scattered the discovery times and locations of the jellymen are.
+<END>
+
+#WRITE(PTR, $00002006)
+【Kurisu】For example, there might be jellymen under the earth or in the void of space. There could be jellymen aside from the ones they found. Actually, I'm almost 100% sure of it.
+<END>
+
+#WRITE(PTR, $00002020)
+【Kurisu】If you come out in space tens of thousands of kilometers away from earth, there's no point in time travel. It's not practical at all.
+<END>
+
+#WRITE(PTR, $00002030)
+【Rintaro】Titor said there's something like a variable gravity lock system. He can use that to capture the earth's gravity and ensure he arrives somewhere on earth.
+<END>
+
+#WRITE(PTR, $0000204A)
+【Kurisu】Titor's explanation on that point is vague.
+<END>
+
+#WRITE(PTR, $0000205A)
+【Kurisu】He said that such a machine existed, but he didn't explain how it worked.
+<END>
+
+#WRITE(PTR, $0000213E)
+【Itaru】But if you're only moving through time, won't you just arrive in the same location?
+<END>
+
+#WRITE(PTR, $000021EC)
+【Kurisu】No, you won't.
+<END>
+
+#WRITE(PTR, $0000229A)
+【Itaru】Why?
+<END>
+
+#WRITE(PTR, $0000233E)
+【Rintaro】Because the earth is constantly moving.
+<END>
+
+#WRITE(PTR, $000023EC)
+【Kurisu】Correct. Rotation and revolution.
+<END>
+
+#WRITE(PTR, $00002490)
+【Kurisu】Earth's rotational velocity is about 1650 kilos.
+<END>
+
+#WRITE(PTR, $00002534)
+【Kurisu】Its orbital velocity is about 114000 kilos.
+<END>
+
+#WRITE(PTR, $000025D8)
+【Kurisu】Meaning one hour ago, we were that far away from where we are now.
+<END>
+
+#WRITE(PTR, $00002686)
+【Itaru】Mhoh-, thinking about it like that, we're earth-shatteringly fast.
+<END>
+
+#WRITE(PTR, $0000272A)
+【Kurisu】That's not all.
+<END>
+
+#WRITE(PTR, $000027CE)
+【Kurisu】The earth's solar system belongs to the Milky Way. The Milky Way is rotating like a coiling whirlpool.
+<END>
+
+#WRITE(PTR, $00002872)
+【Kurisu】There are various theories, but the earth is moves about 50 million km a day.
+<END>
+
+#WRITE(PTR, $00002916)
+How can she roll all those numbers so smoothly out of her mouth?
+<END>
+
+#WRITE(PTR, $000029BA)
+She may be a genius girl, but she didn't have a single opportunity to look those numbers up.
+<END>
+
+#WRITE(PTR, $00002A68)
+【Itaru】We've kinda gone to a ridiculous scale.
+<END>
+
+#WRITE(PTR, $00002B0C)
+【Kurisu】Incidentally, the Milky Way is grouped together with several other galaxies in a cluster, and these clusters are grouped into superclusters.
+<END>
+
+#WRITE(PTR, $00002BB0)
+【Kurisu】And these galaxy clusters and superclusters might be moving too. If that's the case, we might be moving even further.
+<END>
+
+#WRITE(PTR, $00002C54)
+【Kurisu】In any case, if you jump even just one second, location setting requires a huge calculation.
+<END>
+
+#WRITE(PTR, $00002D14)
+【Kurisu】Doing it by hand is impossible, and it might take a super computer years to come up with a solution just to get you to the same location.
+<END>
+
+#WRITE(PTR, $00002D2C)
+【Rintaro】Hmph, then there's no other way. Shouldn't we go seek out Titor and borrow his variable gravity system?
+<END>
+
+#WRITE(PTR, $00002D46)
+【Kurisu】That's a great idea. Go for it.
+<END>
+
+#WRITE(PTR, $00002D60)
+【Kurisu】I wonder how SERN is dealing with this problem...
+<END>
+
+#WRITE(PTR, $00002D7A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002D8A)
+【Itaru】......
+<END>
+
+#WRITE(PTR, $00002DA6)
+Without even considering my idea, Kurisu goes back to searching SERN's documents.
+<END>
+
+#WRITE(PTR, $00002DB6)
+Daru and I aren't good with English, so we can't blame Kurisu for hogging the monitor to herself.
+<FILEEND38>
+

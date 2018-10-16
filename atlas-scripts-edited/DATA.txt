@@ -227,7 +227,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000030C)
-Hello is th
+Hello is thi
 <END2>
 
 #WRITE(PTR, $00000324)
@@ -238,7 +238,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000032C)
-is Washingt
+s Washington
 <END2>
 
 #WRITE(PTR, $00000344)
@@ -249,7 +249,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000034C)
-on post?
+ Post?
 <END2>
 
 #WRITE(PTR, $00000364)
@@ -525,7 +525,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00000664)
-Re:どこにいる?
+Re: Where are you?
 <END2>
 
 #WRITE(PTR, $00000668)
@@ -533,11 +533,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $0000066C)
-今はメイクイーンですけど何か?
+I'm at MayQueen now, but what's wrong?
 <END2>
 
 #WRITE(PTR, $00000684)
-Re: どこにいる?
+Re: Where are you?
 <END2>
 
 #WRITE(PTR, $00000688)
@@ -545,7 +545,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $0000068C)
-今はキッチンジローですけど何か?
+Now, what is Jiro Kitchen?
 <END2>
 
 #WRITE(PTR, $000006A4)
@@ -583,7 +583,7 @@ Okarin, check TV or the net! The Radio Center's satellite disappeared! Oh noes l
 <END2>
 
 #WRITE(PTR, $00000704)
-ありのまま話すぜ！
+Talk like normal!
 <END2>
 
 #WRITE(PTR, $00000708)
@@ -591,11 +591,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $0000070C)
-用事があLukaら今日の集まりはパスでヨロ。
+I have some business today, so I'll pass on the meeting.
 <END2>
 
 #WRITE(PTR, $00000724)
-見てきた
+Found it
 <END2>
 
 #WRITE(PTR, $00000728)
@@ -603,11 +603,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $0000072C)
-コインロッカーだけど、右下のでかいロッカーは使用中だったお。で、これになんの意味が?　つーかこんな朝っぱらに僕に使いっ走りさせんなボケ！ヽ(`Д´)ﾉ
+There's a coin locker,and the big lower right locker is in use. So,what was the point of this? Anyway,don't make me your errand boy so early in the morning,fool! ヽ(`Д´)ﾉ
 <END2>
 
 #WRITE(PTR, $00000744)
-電話したよ～♪
+Called~♪
 <END2>
 
 #WRITE(PTR, $00000748)
@@ -615,7 +615,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000074C)
-あのね、Daruくんに連絡してみて～。
+Hey, try contacting Daru-kun~.
 <END2>
 
 #WRITE(PTR, $00000764)
@@ -626,7 +626,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000076C)
-トゥットゥル
+Tutturu~
 <END2>
 
 #WRITE(PTR, $00000784)
@@ -637,11 +637,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000078C)
-ーまゆしぃ☆
+Mayushii☆
 <END2>
 
 #WRITE(PTR, $000007A4)
-消えちゃった
+Disappeared
 <END2>
 
 #WRITE(PTR, $000007A8)
@@ -649,11 +649,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000007AC)
-ラジ館の人工衛星が消えたんだってー。ふしぎ。どこに飛んでっちゃったんだろうー?　手品みたいだね　ヘ（＞ロ＜）ノ　じゃ、おやすみなさいミ☆
+Apparently the Radio Center's satellite disappeared-. Mysterious. Wonder where it flew to? Like a magic trick ヘ（＞ロ＜）ノ　Well, goodnight☆
 <END2>
 
 #WRITE(PTR, $000007C4)
-行ってきまーす
+I'm off-
 <END2>
 
 #WRITE(PTR, $000007C8)
@@ -661,11 +661,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000007CC)
-オカリンおはよー♪　今から出発しまーす。
+G'mornin' Okarin-♪　I'm heading off now.
 <END2>
 
 #WRITE(PTR, $000007E4)
-悩んでる?
+Worried?
 <END2>
 
 #WRITE(PTR, $000007E8)
@@ -673,11 +673,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000007EC)
-トゥットゥルー、まゆしぃです。ねぇオカリン、なにか悩んでる?　最近のオカリンはね、たまにすごく辛そうな顔してるよー?　まゆしぃは、話し相手になってあげられないのかな?　それとも、まゆしぃだから、話し相手になってあげられないのかな?　それはね、とても寂しくて、辛いことだね。もしまゆしぃのこと重荷に感じてたら、はっきり言ってほしいです。
+Tutturu-, Mayushii here. Hey, Okarin,are you worried about something? You know, Okarin,lately you've been making a very painful face. Do you want to talk about it with Mayushii? Or, is it something you can't talk to Mayushii about? That's really lonely and painful then. If you feel like Mayushii's being a burden, then I want you to say so clearly.
 <END2>
 
 #WRITE(PTR, $00000804)
-待ってます
+Waiting
 <END2>
 
 #WRITE(PTR, $00000808)
@@ -685,13 +685,13 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000080C)
-岡部さん、さっそくメールしました。私、桐生Moekaと言います。20歳、フリーターです。編プロでバイトしてるっていうのは、お話しましたよね。さっきは急に写真撮ったりしてすいません。決して悪意があったわけじゃないんです。編プロの仕事で、秋葉原の街の風景が必要だったので、特に対象を決めずに無差別に撮ってたの。ちょうど人工衛星の件があったから、スクープを激写しようと狙ってたりっていう下心もあったけど（笑）＿ちなみに撮った写真は本番ではなくてテスト。だからケータイのカメラだったっていうオチ。あんなに必死になって、消してくれ～なんて頼んでこなくても、別に記事に使ったりはしなかったんだヨ。\n
+Okabe-san, I mailed you as soon as I could. My name is Kiryuu Moeka. I'm a 20 year old freelancer. I believe I mentioned I worked part time at a publishing company. Sorry for suddenly taking your picture. I didn't do it out of ill will. I needed some shots of Akihabara Town scenery for the publishing company, and indiscriminately took a picture without any particular target. Since the whole satellite thing happened, it actually was my ulterior motive to scoop out the right angle to shoot it, though (lmao). By the way, that picture I took was just a test, not the final shot. That's why I was just using the camera on my phone. Even if you weren't so franticly asking me to please delete it, it's not like I was really going to use it in an article. \n
 \n
-さて、本題です。本当にぶしつけなお願いで申し訳ないなって思ってるんだけど、岡部くんの知り合いのスーパーハッカーさんに、ぜひ×2都市伝説のこと、聞いてみてほしいの。実は私、パソコンのことって詳しくなくて、IBN5100っていうのがどんなパソコンなのかもいまいちよく分かってなかったりしま～す（岡部くんに見せたあの画像だけが頼りだったの。あ、添付して送るね）　絶対×2、返事ちょうだいね。ずっと待ってLukaら。できれば、友達のスーパーハッカーさんのアドレスも教えてもらえると、とっても嬉しいな。またメールするね。メールしていいよね?　イヤだって言ってもしちゃいま～す♪　Moeka
+Well, now for the real issue. I'm really sorry for rudely asking a favor like this, Okabe-kun, but it would be super neato if I could ask your acquaintance, the super hacker, about the urban legend. Actually, I don't really know much about the PC, the IBN 5100, like what sorta PC it could be or anything at all. (All I have to rely on is that picture I showed you, Okabe-kun. Ah, I'll attach the image) Be absolutely, positively sure to reply okay? Because I'll be waiting. If you could, I'd be super happy if you gave me your super hacker friend's address. I'll mail you again. It's okay to mail you again, right? If it's not, then just tell me, okeydokies♪? Moeka
 <END2>
 
 #WRITE(PTR, $00000824)
-Re:Re:待ってます
+Re: Re: Waiting
 <END2>
 
 #WRITE(PTR, $00000828)
@@ -699,11 +699,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000082C)
-それは本当なの?　ウソだよね?　またメールします。ところでジョン・なんとかって誰?　そんなようなこと、岡部くん話していたよね?　そのジョンさんがIBN5100を持ってるのかな?　お返事待ってます。
+Is that ture? It's a lie isn't it? I'll mail you again. Anyway, who's John Whatshisface? You mentioned something like that, didn't you, Okabe-kun? Does that Mr. John have an IBN 5100? Please reply. Moeka
 <END2>
 
 #WRITE(PTR, $00000844)
-学生さん?
+A student?
 <END2>
 
 #WRITE(PTR, $00000848)
@@ -711,11 +711,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000084C)
-Moekaです。岡部くんは学生さん?　だとしたら今は夏休みかな?
+Moeka here. Okabe-kun, are you a student? If so, are you on summer break?
 <END2>
 
 #WRITE(PTR, $00000864)
-タイプ
+Type
 <END2>
 
 #WRITE(PTR, $00000868)
@@ -723,11 +723,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000086C)
-岡部くんって生活は昼型?　夜型?　それによってメールを見てもらえる時間も変わるもんね。やっぱり、送ったらすぐ見てほしいしすぐ返事してほしいから。迷惑にならない時間になるべくメールするね。　Moeka
+Okabe-kun, are you a daytime-type? Nocturnal? I mean, I can change the hours to mail you based on that. After all, I want you to see my mails as soon as I send them. I don't want to mail you at bothersome hours, okay? Moeka
 <END2>
 
 #WRITE(PTR, $00000884)
-苦手
+Not good at it
 <END2>
 
 #WRITE(PTR, $00000888)
@@ -735,11 +735,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000088C)
-そうそう、私は電話は苦手なのでかけてこないこと（＾＾；）　じゃね♪　Moeka
+Yeah, that's right, I'm not good at handling phone calls, so don't call me（＾＾；） Byebye♪ Moeka
 <END2>
 
 #WRITE(PTR, $000008A4)
-苦手2
+Not good at it2
 <END2>
 
 #WRITE(PTR, $000008A8)
@@ -747,11 +747,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000008AC)
-さっきのメールだけど、私、岡部くんに電話番号は教えてないんだったよ。（＾＾；）メールだけの関係の方が気楽だよね。岡部くんはどう思う?
+This is about that last mail, but I didn't tell Okabe-kun my phone number.（＾＾；）I'm more comfortable with just mail-related things. What do you think, Okabe-kun? Moeka
 <END2>
 
 #WRITE(PTR, $000008C4)
-寝てる?
+Asleep?
 <END2>
 
 #WRITE(PTR, $000008C8)
@@ -759,11 +759,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000008CC)
-もしかして岡部くん、寝てる?　ちゃんと朝起きる生活してるんだね。スーパーハッカーさんには私のこと話してくれた?　それとジョンなんたらさんのことも知りたい。知りたい病にかかっちゃったみたい。
+Okabe-kun, are you sleeping by any chance? You should rise and shine. Did you tell the super hacker about me? Oh, also, I want to know more about John Whatshisface. I think I caught curiosity. Moeka
 <END2>
 
 #WRITE(PTR, $000008E4)
-起きて～
+Wake up~
 <END2>
 
 #WRITE(PTR, $000008E8)
@@ -771,11 +771,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000008EC)
-私、夜型だから、朝明るくなってきてから寝る生活がずっと続いてる。ま、もう慣れちゃって苦でもなくなったけどね。それじゃ、起きたらメールちょうだいね～♪　Moeka
+I'm nocturnal, so when it's bright in the morning, I'm usually still asleep. Well, I've already gotten use to it, so it doesn't hurt any more. Well, mail me when you wake up, okay~♪ Moeka
 <END2>
 
 #WRITE(PTR, $00000904)
-寝すぎ
+You sleep too much
 <END2>
 
 #WRITE(PTR, $00000908)
@@ -783,11 +783,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000090C)
-メールの返事が来ないよ～?　まだ寝てる?　それってさすがに寝すぎなんじゃない?　若いのに老け込んだような生活してちゃダメだよ。って、私が言えたことじゃないか（笑）　IBN5100についての情報、どしどし募集中～♪　Moeka
+Why won't you reply to me? Are you still sleeping? Aren't you sleeping too much? You live like an old geezer even though you're still young. Wait, that's not something I should be saying (lmao) I'm gathering information on the IBN 5100♪ Moeka
 <END2>
 
 #WRITE(PTR, $00000924)
-ぷりーず！
+Por favor!
 <END2>
 
 #WRITE(PTR, $00000928)
@@ -795,25 +795,24 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000092C)
-おーかーべーくーん！　そろそろ返事ほしいでーす。ずっと待ってるんだから。あとスーパーハカーさんの連絡先も教えてよー。こうしてのんびりしてる間にも、IBN5100が他の人の手に渡っちゃうかもしれないんだよ?　Moeka
+O-ka-be-ku-n! I want you to reply to me already. I've been waiting, you know. Also, tell me the supah hakah's address-. If you keep lazing around like this, someone else might take away the IBN 5100, you know? Moeka
 <END2>
 
 #WRITE(PTR, $00000944)
-Re:電話求む
+Re: Call me
 <END2>
 
 #WRITE(PTR, $00000948)
 Shining Finger
 <END2>
 
-#WRITE(PTR, $0000094C)
-連絡ありがとー♪　ずっと待ってたの\n
+Thanks for contacting me-♪ I've been waiting\n
 \n
-でも電話は苦手なのでメールでやり取りしようよ
+But I'm not good at calls, so let's exchange mails. Moeka
 <END2>
 
 #WRITE(PTR, $00000964)
-生きてる～?
+Still alive~?
 <END2>
 
 #WRITE(PTR, $00000968)
@@ -821,11 +820,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000096C)
-いい加減、連絡してよー(- -x）
+Just contact me already~(-s -x）Moeka
 <END2>
 
 #WRITE(PTR, $00000984)
-Re:電話求む
+Re: Call me
 <END2>
 
 #WRITE(PTR, $00000988)
@@ -833,13 +832,13 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000098C)
-やっと連絡キター\n
+You finally contacted me-\n
 \n
-電話は苦手だからメールのやり取りでお願いね
+I'm not good at calls, so please, let's exchange mails. Moeka
 <END2>
 
 #WRITE(PTR, $000009A4)
-Re:Re:Re:電話求む
+Re: Re: Re: Call me
 <END2>
 
 #WRITE(PTR, $000009A8)
@@ -847,11 +846,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000009AC)
-こっちの情報はほぼ無し。そっちは?
+No info here at all. How about you? Moeka
 <END2>
 
 #WRITE(PTR, $000009C4)
-Re:Re:Re:電話求む2
+Re: Re: Re: Call me2
 <END2>
 
 #WRITE(PTR, $000009C8)
@@ -859,11 +858,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000009CC)
-スーパーハカーさんの連絡先教えて♪
+Tell me the supah hakah's address♪ Moeka
 <END2>
 
 #WRITE(PTR, $000009E4)
-迷惑だったら謝罪します
+Sorry if it's a bother.
 <END2>
 
 #WRITE(PTR, $000009E8)
@@ -871,7 +870,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000009EC)
-しつこく送って、迷惑だったかな?　ごめんなさい。でもどうしてもIBN5100の情報がほしくて。今のところ、私にとって手がかりは岡部くんしかいないの。だからつい頼っちゃった。これからは短文でメールはしないって誓うから、私を見捨てないで。IBN5100を探すのを協力してほしい。私も、なにか分かったら情報提供すLukaら。よろしくね。　Moeka
+Was it bothersome to send mails so persistently? I'm sorry. But I need information on the IBN 5100 no matter what. And at present, you're the only clue I have, Okabe-kun. So I unintentionally relied on you.  I swear I won't send any more short mails, so please don't abandon me. I want you to help me look for an IBN 5100. If I find out anything, I'll inform you too. Let's work together. Moeka
 <END2>
 
 #WRITE(PTR, $00000A04)
@@ -882,7 +881,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000A0C)
-こんにちは、岡部くん。こんなところで会うなんて奇遇だね♪　Moeka
+Hello, Okabe-kun. It's strange to see you here♪　Moeka
 <END2>
 
 #WRITE(PTR, $00000A24)
@@ -893,11 +892,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000A2C)
-うん、そう。でも見つからなくて。
+Yeah, that's right. But I couldn't find it. Moeka
 <END2>
 
 #WRITE(PTR, $00000A44)
-怒った?
+You mad?
 <END2>
 
 #WRITE(PTR, $00000A48)
@@ -905,11 +904,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000A4C)
-ごめん。謝Lukaら戻ってきて。　Moeka
+I'm sorry. I apologize, so come back. Moeka
 <END2>
 
 #WRITE(PTR, $00000A64)
-いろいろ
+Various
 <END2>
 
 #WRITE(PTR, $00000A68)
@@ -917,11 +916,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000A6C)
-いろんなＰＣショップを回ったり、ネットのオークションを探したり、＠ちゃんねるで「知りませんか?」って質問してみたり、秋葉原を歩いている人に聞いてみたり。と言っても、話しかけることができた人は、岡部くんを入れて、4人ぐらいだけどね＞＜　Moeka
+I went around to various shops, I searched online acutions, I tried asking "Does anyone know?" on @channel, and I walked around Akihabara asking people. Or so I say, but including you, Okabe-kun, I could only talk to about four people＞＜ Moeka
 <END2>
 
 #WRITE(PTR, $00000A84)
-困った
+Stumped
 <END2>
 
 #WRITE(PTR, $00000A88)
@@ -929,11 +928,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000A8C)
-全然見つからないから、途方に暮れてた。　Moeka
+I'm at a loss since we can't find any at all. Moeka
 <END2>
 
 #WRITE(PTR, $00000AA4)
-情報あった?
+Got info?
 <END2>
 
 #WRITE(PTR, $00000AA8)
@@ -941,11 +940,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000AAC)
-IBN5100の情報、なにか見つけた?　私の方は全然。かなりいろいろなショップを回ったんだけど、店頭に置いてあった店はゼロ。やっぱり、店員さんに聞いた方がいいのかな。岡部くんの方は収穫あったかどうか教えてほしいな。　Moeka
+Did you find any IBN 5100 information? Nothing at all on my side. I've gone to quite a few different shops, but there aren't any in the shop fronts. It might be better to ask the shop workers after all. I want you to tell me if you've gotten anything on your side, Okabe-kun. Moeka
 <END2>
 
 #WRITE(PTR, $00000AC4)
-Re:Re:情報あった?
+Re: Re: Got info?
 <END2>
 
 #WRITE(PTR, $00000AC8)
@@ -953,11 +952,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000ACC)
-ブツってなに?　まさかIBN5100?　譲って！！！
+What goods? You don't mean an IBN 5100? Gimme!! Moeka
 <END2>
 
 #WRITE(PTR, $00000AE4)
-Re:Re:Re:Re:情報あった?
+Re: Re: Re: Re: Got info?
 <END2>
 
 #WRITE(PTR, $00000AE8)
@@ -965,11 +964,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000AEC)
-貸して！！！
+Lemme borrow it!!! Moeka
 <END2>
 
 #WRITE(PTR, $00000B04)
-おーい?
+Hellllooo?
 <END2>
 
 #WRITE(PTR, $00000B08)
@@ -977,11 +976,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000B0C)
-さっきの私のメール見た?　見たら連絡ちょうだいね。あ、今後は定期連絡するようにしようよ。毎日夜の7時にお互いの情報を交換するの。どう?　いいアイデアだと思わない?　そうしよう。そうしない?　君の意見を聞かせて。　Moeka
+Did you see my last mail? If you did, then reply okay? Ah, let's set a fixed time to communicate. Let's exchange information at 7PM each evening. How's that? Doesn't that seem like a good idea?  Let's do that. Why not do that? I want to hear your opinion. Moeka
 <END2>
 
 #WRITE(PTR, $00000B24)
-言い忘れ
+Forgot to say
 <END2>
 
 #WRITE(PTR, $00000B28)
@@ -989,11 +988,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000B2C)
-言い忘れてた。私へのメールは、基本的に24時間いつでも受け付けてLukaら。さっきのメールへの返信はいつでもいいよ。ただできるだけ早めにお願い。　Moeka
+I forgot to mention something. I'm ready to take mails any time around the clock. You can reply to my last mail at any time, okay? Just do it quickly, please. Moeka
 <END2>
 
 #WRITE(PTR, $00000B44)
-来ちゃった
+I came
 <END2>
 
 #WRITE(PTR, $00000B48)
@@ -1001,7 +1000,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000B4C)
-岡部くん、言われた通りに来たよ。IBN5100を見せてくれるって約束だよね?　いないの?　電気は点いてるし窓も開けっ放しだけど。もし中にいるなら、ドアの鍵、開けておいてくれない?　私、今ビルの前にいLukaら。　Moeka
+Okabe-kun, I came like you said. You promised to show me the IBN 5100, remember? Are you gone? I keep seeing lights from the window, though. If you're inside, then could you unlock the door? 'Cause I'm in front of the building. Moeka
 <END2>
 
 #WRITE(PTR, $00000B64)
@@ -9603,11 +9602,11 @@ Announcer
 <END2>
 
 #WRITE(PTR, $0000582C)
-【インタビューを受けている若い男】
+【Middle-aged Man】
 <END2>
 
 #WRITE(PTR, $00005830)
-インタビューを受けている若い男
+Middle-aged Man
 <END2>
 
 #WRITE(PTR, $00005834)
@@ -9615,11 +9614,11 @@ Announcer
 <END2>
 
 #WRITE(PTR, $0000583C)
-【インタビューを受けているWoman子高生】
+【High School Girl】
 <END2>
 
 #WRITE(PTR, $00005840)
-インタビューを受けているWoman子高生
+High School Girl
 <END2>
 
 #WRITE(PTR, $00005844)
@@ -9627,11 +9626,11 @@ Woman子高生
 <END2>
 
 #WRITE(PTR, $0000584C)
-【インタビューを受けている中年Woman性】
+【Middle School Girl】
 <END2>
 
 #WRITE(PTR, $00005850)
-インタビューを受けている中年Woman性
+Middle School Girl
 <END2>
 
 #WRITE(PTR, $00005854)

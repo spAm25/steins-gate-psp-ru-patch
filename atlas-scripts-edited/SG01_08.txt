@@ -293,7 +293,7 @@ However, I'm completely sure that the conversation happened.
 <END>
 
 #WRITE(PTR, $00000F40)
-【Itaru】Right now I'm at "MayQueen+Nyan^2".
+【Itaru】Right now I'm at "MayQueen+Nyan⑯".
 <END>
 
 #WRITE(PTR, $00000F5C)
@@ -301,7 +301,7 @@ However, I'm completely sure that the conversation happened.
 <END>
 
 #WRITE(PTR, $00000F74)
-"MayQueen+Nyan^2" is <DICT>Maid Cafe</DICT> in Akiba.
+"MayQueen+Nyan⑯" is <DICT>Maid Cafe</DICT> in Akiba.
 <END>
 
 #WRITE(PTR, $00000F84)
@@ -333,7 +333,7 @@ However, on my way back to the lab, I sent him an email and got his location fro
 <END>
 
 #WRITE(PTR, $00001194)
-By "MayQueen", he's referring to "MayQueen+Nyan^2", a <DICT>Maid Cafe</DICT>.
+By "MayQueen", he's referring to "MayQueen+Nyan⑯", a <DICT>Maid Cafe</DICT>.
 <END>
 
 #WRITE(PTR, $000011A4)
