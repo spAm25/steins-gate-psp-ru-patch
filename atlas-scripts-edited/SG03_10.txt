@@ -1,0 +1,1144 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00004A4E)
+
+#WRITE(PTR, $000004B8)
+【Rintaro】Now then, lab mem boys and girls.
+<END>
+
+#WRITE(PTR, $000004C8)
+I assemble all the lab mems, including Moeka, and solemnly begin to talk.
+<END>
+
+#WRITE(PTR, $000004D8)
+【Rintaro】Let us commence the 73rd Round Table Conference.
+<END>
+
+#WRITE(PTR, $00000520)
+【Kurisu】Yesterday was the 66th. Where'd the other six disappear to?
+<END>
+
+#WRITE(PTR, $00000546)
+【Rintaro】The only ones who care about the minor details are anal retentive bastards. That's why you'll never be more than an assistant, Christina!
+<END>
+
+#WRITE(PTR, $00000556)
+【Kurisu】Like I've said over and over, I'm not your assistant or Christina.
+<END>
+
+#WRITE(PTR, $00000566)
+Let's leave Kurisu and her complaints alone for now.
+<END>
+
+#WRITE(PTR, $0000058C)
+【Rintaro】For the first stage of Operation "Urd", we sent D-mails to inspect D-mail ability.
+<END>
+
+#WRITE(PTR, $000005D4)
+The result: we confirmed the limit of 3 lines of 6 full width or 12 half width characters each.
+<END>
+
+#WRITE(PTR, $000005E4)
+【Rintaro】With today's experiment, we advance to the second stage, practical applications of D-mail.
+<END>
+
+#WRITE(PTR, $000005F4)
+【Mayuri】Practical applications, huh? I'll be sure to send one to this morning, so I can say "Good morning, Okarin♪"
+<END>
+
+#WRITE(PTR, $00000604)
+【Rintaro】Like hell you will. Write that on the back of a leaflet or something.
+<END>
+
+#WRITE(PTR, $00000614)
+【Mayuri】Ehh-? But if it's on the back of a leaflet, it won't get to Okarin-
+<END>
+
+#WRITE(PTR, $0000065C)
+【Rintaro】What I mean by practical application is basically--
+<END>
+
+#WRITE(PTR, $0000066C)
+I take a short pause to look at all four members. Then I lower my voice--
+<END>
+
+#WRITE(PTR, $0000067C)
+【Rintaro】Whether or not we can change the past.
+<END>
+
+#WRITE(PTR, $0000068C)
+Waves of commotion spread.
+<END>
+
+#WRITE(PTR, $000006D4)
+【Kurisu】Wait just a second. That's too dangerous! You trying to become a god!?
+<END>
+
+#WRITE(PTR, $000006E4)
+【Rintaro】Huh, Assistant. What exactly is dangerous?
+<END>
+
+#WRITE(PTR, $000006F4)
+【Kurisu】Time paradoxes. Let's say you create a time paradox, instantly blowing away the world. What do you plan to do then?
+<END>
+
+#WRITE(PTR, $00000704)
+【Rintaro】Both you and I would be dead then, right?
+<END>
+
+#WRITE(PTR, $00000714)
+【Kurisu】You're going to change the past so thoughtlessly? You joking?
+<END>
+
+#WRITE(PTR, $00000724)
+【Kurisu】Don't tell me... you're not seriously going to bring chaos to the world or whatever for real, are you?
+<END>
+
+#WRITE(PTR, $00000880)
+【Itaru】No, no, of course not~. Makise-shi, you can just ignore what Okarin says, OK?
+<END>
+
+#WRITE(PTR, $0000089A)
+【Kurisu】Eh, r-really?
+<END>
+
+#WRITE(PTR, $000008B4)
+【Mayuri】It's okay-. You know, Okarin's really a very nice person-
+<END>
+
+#WRITE(PTR, $0000095C)
+【Rintaro】I don't remember asking for an appraisal, but I'll answer Christina's question.
+<END>
+
+#WRITE(PTR, $0000096C)
+【Rintaro】My ambition certainly is to bring chaos unto the world. However, preparations are still too incomplete to bring that ambition to fruition.
+<END>
+
+#WRITE(PTR, $0000097C)
+【Rintaro】If we can only send a 36 byte mail, that's not enough at all, don't you think?
+<END>
+
+#WRITE(PTR, $0000098C)
+【Rintaro】Therefore, I shall leave my ambition-- "Project Chaotic"-- aside for now.
+<END>
+
+#WRITE(PTR, $0000099C)
+【Moeka】Project Chaotic...?
+<END>
+
+#WRITE(PTR, $000009AC)
+【Kurisu】Improv?
+<END>
+
+#WRITE(PTR, $00000A92)
+【Itaru】Makise-shi, correct!
+<END>
+
+#WRITE(PTR, $00000AB0)
+【Kurisu】YES
+<END>
+
+#WRITE(PTR, $00000ACA)
+【Itaru】"I thought it up on the spot, so I just went ahead and said it." Okarin's always like that, eh.
+<END>
+
+#WRITE(PTR, $00000B72)
+【Rintaro】Don't analyze me, Daru! You too, Assistant! Stop that victorious guts pose! You making fun of me!?
+<END>
+
+#WRITE(PTR, $00000B82)
+【Mayuri】Hey, hey, so what sort of applications do you mean by practical applications-?
+<END>
+
+#WRITE(PTR, $00000B92)
+【Itaru】More details on concrete past-changing contents, please.
+<END>
+
+#WRITE(PTR, $00000BB8)
+【Rintaro】...First of all, don't forget that this is merely a verification experiment. All we need to do is check whether or not we can change the past. So it doesn't matter how trivial the change is.
+<END>
+
+#WRITE(PTR, $00000BC8)
+【Kurisu】Okabe, do you know about the Butterfly Effect?
+<END>
+
+#WRITE(PTR, $00000C10)
+【Rintaro】Of course.
+<END>
+
+#WRITE(PTR, $00000C20)
+【Itaru】Yeah, it's that saying. When the wind blows, the bucket maker gains.
+<END>
+
+#WRITE(PTR, $00000C30)
+【Kurisu】Eh? No, it's kinda like that, but kinda not...
+<END>
+
+#WRITE(PTR, $00000C40)
+【Rintaro】A butterfly flaps its wings in Beijing and a storm happens in New York, right?
+<END>
+
+#WRITE(PTR, $00000C58)
+【Kurisu】Yeah, that. Part of "<DICT>Chaos Theory</DICT>"
+<END>
+
+#WRITE(PTR, $00000C68)
+【Kurisu】Basically, even if it's something "trivial" like you say, an intentional change could have a significant influence on the future.
+<END>
+
+#WRITE(PTR, $00000C78)
+【Kurisu】How do you plan to take responsibility for that?
+<END>
+
+#WRITE(PTR, $00000C88)
+【Rintaro】Titor said this: the many-worlds interpretation holds true.
+<END>
+
+#WRITE(PTR, $00000CD0)
+【Kurisu】So you're saying that makes it okay to change the past? You believe in that suspicious would-be time traveler's delusion?
+<END>
+
+#WRITE(PTR, $00000CE0)
+【Rintaro】Can you prove it's a delusion?
+<END>
+
+#WRITE(PTR, $00000CF0)
+【Kurisu】I'm asking what you're going to do when your delusional foundation collapses underneath you.
+<END>
+
+#WRITE(PTR, $00000E0E)
+Kurisu and I glare at each other.
+<END>
+
+#WRITE(PTR, $00000E1E)
+For some reason, whenever I talk to this impertinent assistant, I end up emotional.
+<END>
+
+#WRITE(PTR, $00000E2E)
+That's not like you, mad scientist Hououin Kyouma. Calm down a bit.
+<END>
+
+#WRITE(PTR, $00000E9E)
+【Rintaro】Christina, you said this before, did you not?
+<END>
+
+#WRITE(PTR, $00000EAE)
+【Rintaro】When a theory is "observed" after laying down hypotheses, it becomes real. That's how modern physics comes to understand the truth of the universe.
+<END>
+
+#WRITE(PTR, $00000EBE)
+【Rintaro】You're contradicting yourself.
+<END>
+
+#WRITE(PTR, $00000ECE)
+【Kurisu】No. I am not.
+<END>
+
+#WRITE(PTR, $00000EDE)
+【Kurisu】The Microwave Ophone's principle is still not even constructed of hypotheses.
+<END>
+
+#WRITE(PTR, $00000EEE)
+【Kurisu】You could say we're still fumbling around. There are too many risks to try changing the past in our current state.
+<END>
+
+#WRITE(PTR, $00000EFE)
+【Kurisu】We should at least investigate a little more.
+<END>
+
+#WRITE(PTR, $00000F0E)
+Hmmm? So it's not like she's unconditionally against it then?
+<END>
+
+#WRITE(PTR, $00000F34)
+【Rintaro】You're actually just itching to try it out, aren't you?
+<END>
+
+#WRITE(PTR, $00000F44)
+【Kurisu】Th-that's...
+<END>
+
+#WRITE(PTR, $00000F54)
+Kurisu quickly looks away.
+<END>
+
+#WRITE(PTR, $00000F64)
+【Rintaro】Anyway, Assistant, didn't you want to deny that the Microwave Ophone (Temp) was a time machine?
+<END>
+
+#WRITE(PTR, $00000F74)
+【Rintaro】If it's not a time machine, then it can't change the past. You could prove that, so why are you against it?
+<END>
+
+#WRITE(PTR, $00000F84)
+【Kurisu】Oh shut up...
+<END>
+
+#WRITE(PTR, $00000F94)
+【Rintaro】And if you're going to talk about time paradoxes, then what about SERN?
+<END>
+
+#WRITE(PTR, $00000FDC)
+【Rintaro】They've already sent more than 100 people into the past. It wouldn't be strange even if one or two time paradoxes happened.
+<END>
+
+#WRITE(PTR, $00000FEC)
+【Kurisu】So you want to stoop to the same level as the guys that did those inhumane experiments?
+<END>
+
+#WRITE(PTR, $00001098)
+【Rintaro】We're not doing human testing or anything, so relax.
+<END>
+
+#WRITE(PTR, $00001212)
+【Mayuri】Hey, hey.
+<END>
+
+#WRITE(PTR, $000012B6)
+Until now, Mayuri had been staring blankly as Kurisu and I debated. But now, oddly enough, she's raising her hand to talk.
+<END>
+
+#WRITE(PTR, $00001364)
+【Mayuri】Okarin, Okarin. You know, Mayushii doesn't really get it, but by changing the past, what will you change and how-?
+<END>
+
+#WRITE(PTR, $00001408)
+Finally, some constructive conversation.
+<END>
+
+#WRITE(PTR, $0000150C)
+【Rintaro】Well then, allow me to answer. If I were to say what it is I want to do for this operation, it would be...
+<END>
+
+#WRITE(PTR, $000015C6)
+【Rintaro】To win the lottery!
+<END>
+
+#WRITE(PTR, $0000170C)
+Everyone except for Moeka stares blankly.
+<END>
+
+#WRITE(PTR, $000017BA)
+【Itaru】I agree. If we have money, I could buy all the computer parts I want, and go to MayQueen for all five meals of the day. It would be stranger if we didn't try it.
+<END>
+
+#WRITE(PTR, $00001868)
+As expected of Daru. Quick to the punch.
+<END>
+
+#WRITE(PTR, $00001916)
+【Mayuri】So it's money, huh-, Okarin... That makes Mayushii sad.
+<END>
+
+#WRITE(PTR, $000019C4)
+【Mayuri】We should do something that would bring peace to the world-
+<END>
+
+#WRITE(PTR, $00001A72)
+【Mayuri】Like, if we gave everybody in the whole wide world an Upa cushion--
+<END>
+
+#WRITE(PTR, $00001B20)
+【Rintaro】Hmph, peace to the world, you say? What's with the hypocrisy?
+<END>
+
+#WRITE(PTR, $00001BC4)
+【Rintaro】Who do you think I am? I am the insane mad scientist, Houou--
+<END>
+
+#WRITE(PTR, $00001C72)
+【Kurisu】Okabe, that's too low a motive.
+<END>
+
+#WRITE(PTR, $00001D16)
+Tch, is everyone a hypocrite here?
+<END>
+
+#WRITE(PTR, $00001E1A)
+【Rintaro】In the first place, don't get the meaning wrong.
+<END>
+
+#WRITE(PTR, $00001EBE)
+【Rintaro】This has nothing to do with world peace or motives. This is an experiment to check whether or not we can change the past.
+<END>
+
+#WRITE(PTR, $00001F62)
+【Rintaro】The easiest thing to understand is if we can win the lottery or not, right?
+<END>
+
+#WRITE(PTR, $00002006)
+【Kurisu】But your primary goal is the money, right?
+<END>
+
+#WRITE(PTR, $000020C0)
+【Rintaro】If I had the money, I could say goodbye to this rickety old building. Fuhahaha! I could get an office in Daibiru or UPX!
+<END>
+
+#WRITE(PTR, $00002164)
+【Kurisu】See, just like I thought.
+<END>
+
+#WRITE(PTR, $00002208)
+【Rintaro】I won't whitewash it. If we moved, we could experiment as much as we want without the fear of the muscular manager downstairs. If we had money, we could maintain our Future Gadget creation funds.
+<END>
+
+#WRITE(PTR, $000022AC)
+【Rintaro】Also, if we had a million yen, we can buy a truckload of Mayuri's favorite bananas.
+<END>
+
+#WRITE(PTR, $0000242E)
+【Mayuri】Eh,
+<END2>
+
+#WRITE(PTR, $00002448)
+ a t-truckload...
+<END>
+
+#WRITE(PTR, $0000255C)
+【Kurisu】Mayuri-san, don't let this miser mislead you!
+<END>
+
+#WRITE(PTR, $00002600)
+【Rintaro】Shut it, Celeb Seventeen!
+<END>
+
+#WRITE(PTR, $000026AE)
+【Kurisu】S-se... Serendipity?
+<END>
+
+#WRITE(PTR, $00002752)
+【Rintaro】Celeb. Seventeen.
+<END>
+
+#WRITE(PTR, $00002800)
+【Kurisu】'the hell is that supposed to mean...?
+<END>
+
+#WRITE(PTR, $000028A4)
+【Rintaro】You live in a hotel off of your parents' money. You're in no place to call other people misers.
+<END>
+
+#WRITE(PTR, $00002952)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $000029F6)
+Kurisu makes an unabashedly sulky face.
+<END>
+
+#WRITE(PTR, $00002A9A)
+She put in a retort like In the first place, I'm 18 now! but I gloriously ignored it.
+<END>
+
+#WRITE(PTR, $00002B3E)
+It doesn't matter if she's 17 or 18. The feeling of the words is everything!
+<END>
+
+#WRITE(PTR, $00002BE2)
+【Kurisu】Moeka-san, what do you think?
+<END>
+
+#WRITE(PTR, $00002C86)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00002D2A)
+No reaction from Moeka.
+<END>
+
+#WRITE(PTR, $00002DE0)
+【Kurisu】Hm-?
+<END>
+
+#WRITE(PTR, $00002DF8)
+Heheheh, her distress flare got shot down.
+<END>
+
+#WRITE(PTR, $00002E08)
+What Moeka's thinking is a mystery to me, but I'll treat her lack of opposition as "yes" .
+<END>
+
+#WRITE(PTR, $00002E78)
+【Rintaro】If you're going to complain, then suggest an alternative plan. Something that can change the past with an easy to understand "trivial event". Got anything?
+<END>
+
+#WRITE(PTR, $00002E88)
+【Kurisu】Umm...
+<END>
+
+#WRITE(PTR, $00002E98)
+【Mayuri】Hm-?
+<END>
+
+#WRITE(PTR, $00002EA8)
+【Kurisu】Let's try changing the hotel I'm staying at.
+<END>
+
+#WRITE(PTR, $00002EB8)
+Kurisu's voice lacks conviction.
+<END>
+
+#WRITE(PTR, $00002EC8)
+【Rintaro】That's completely unrelated to us. Celeb Seventeen, if you want to stay in Shinagawa or Uguisudani, then just move there.
+<END>
+
+#WRITE(PTR, $00002ED8)
+【Kurisu】...You don't have to say it like that, do you?
+<END>
+
+#WRITE(PTR, $00002EE8)
+【Itaru】Anyway, why Uguisudani?
+<END>
+
+#WRITE(PTR, $00002EF8)
+【Rintaro】Because there's a love hotel zone over th--
+<END>
+
+#WRITE(PTR, $00002FE6)
+【Kurisu】If you're going to spout nonsense like that, I'll perform a <DICT>lobotomy</DICT> on you and scrape out your frontal lobe.
+<END>
+
+#WRITE(PTR, $00002FF6)
+Hyeeehhhh, a lobotomy? How mad scientisty...
+<END>
+
+#WRITE(PTR, $00003010)
+【Mayuri】Then, how about we change my usual Juicy Karaage Number One for Chicken Bite Karaage-?
+<END>
+
+#WRITE(PTR, $0000302E)
+【Rintaro】Mayuri, you're always scarf down karaage.
+<END>
+
+#WRITE(PTR, $00003048)
+【Mayuri】Eh-...
+<END>
+
+#WRITE(PTR, $000030B2)
+Silence descends upon us.
+<END>
+
+#WRITE(PTR, $000030C2)
+Kurisu and Mayuri's eyes wander in thought, but it doesn't look like they have any good ideas.
+<END>
+
+#WRITE(PTR, $000030D2)
+Moeka... I never can tell what she's thinking. Maybe she's not even thinking. She's been staring at her phone without so much as moving her eyebrows, or even her fingers.
+<END>
+
+#WRITE(PTR, $000030E2)
+Daru declared support for me, so he's browsing moe news sites as if this whole thing doesn't concern him.
+<END>
+
+#WRITE(PTR, $00003102)
+【Rintaro】So in the end, even with a time machine before you all, this is all you can think of. You guys sure lack imagination, huh.
+<END>
+
+#WRITE(PTR, $00003112)
+【Rintaro】If you have no alternative plans, we'll use mine.
+<END>
+
+#WRITE(PTR, $00003122)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00003132)
+...
+<END>
+
+#WRITE(PTR, $00003142)
+So, after all, she does want to see if we can change the past too.
+<END>
+
+#WRITE(PTR, $00003152)
+She is a pure scientist after all. She has the characteristics of a mad scientist too, heheheh.
+<END>
+
+#WRITE(PTR, $000031A4)
+I take out my phone and put it to my ear.
+<END>
+
+#WRITE(PTR, $000031B4)
+【Rintaro】...It's me. We will now move Operation Urd to the second stage.
+<END>
+
+#WRITE(PTR, $000031C4)
+【Rintaro】...Yeah, no problem. I, Hououin Kyouma, shall take all responsibility. ...Hmph, don't be a nuisance.
+<END>
+
+#WRITE(PTR, $000031D4)
+【Rintaro】...Correct. This is my choice, and also Steins;Gate's choice. The crusade is near. ...El Psy Congroo.
+<END>
+
+#WRITE(PTR, $000031EA)
+I put away my phone and look around the lab mems.
+<END>
+
+#WRITE(PTR, $000031FA)
+【Rintaro】Now, operation start!
+<END>
+
+#WRITE(PTR, $0000329E)
+Nobody moves a muscle. They just exchange glances.
+<END>
+
+#WRITE(PTR, $000032AE)
+【Itaru】You tell us to start, but what exactly is it we should do?
+<END>
+
+#WRITE(PTR, $000032BE)
+【Rintaro】Are you incapable of doing anything without my instructions?
+<END>
+
+#WRITE(PTR, $000032D8)
+【Mayuri】First- we need to buy a lottery ticket.
+<END>
+
+#WRITE(PTR, $000032F2)
+【Kurisu】No, we need to get hold of a past winning number.
+<END>
+
+#WRITE(PTR, $0000330C)
+【Rintaro】Exactly, Celeb Seventeen. You understand, don't you?
+<END>
+
+#WRITE(PTR, $00003326)
+【Kurisu】...don't call me Celeb Seventeen.
+<END>
+
+#WRITE(PTR, $00003340)
+【Itaru】Anyway, there are different types of lotteries, you know? Think we should go with Dream Summer Jumbo?
+<END>
+
+#WRITE(PTR, $0000335A)
+【Mayuri】Ah, I saw a TV commercial for that the other day-
+<END>
+
+#WRITE(PTR, $00003374)
+【Rintaro】Did they announce the winners?
+<END>
+
+#WRITE(PTR, $0000338E)
+【Itaru】Should be next week or the week after.
+<END>
+
+#WRITE(PTR, $0000339E)
+【Rintaro】There's no meaning then! We can only send D-mails to the past, you know!
+<END>
+
+#WRITE(PTR, $000033B8)
+【Itaru】Yeah-, that's true.
+<END>
+
+#WRITE(PTR, $000033D2)
+【Itaru】Then, we could wait until the Summer Jumbo drawing date.
+<END>
+
+#WRITE(PTR, $000033E2)
+【Rintaro】You've got your priorities backwards. Don't get fixated on the Summer Jumbo. Let's look for the latest lottery to have announced its winners.
+<END>
+
+#WRITE(PTR, $000033FC)
+【Itaru】Hmmm, I'll go google it.
+<END>
+
+#WRITE(PTR, $00003418)
+Daru starts searching on his computer.
+<END>
+
+#WRITE(PTR, $00003428)
+Kurisu's seriously troubled, as Kurisus are wont to do.
+<END>
+
+#WRITE(PTR, $00003438)
+【Kurisu】If someone sent me the winning numbers from the future, would I believe it...
+<END>
+
+#WRITE(PTR, $00003452)
+【Mayuri】You know, Mayushii doesn't know how to buy a lottery ticket in the first place-
+<END>
+
+#WRITE(PTR, $0000346C)
+【Kurisu】That's true. I don't think teenage girls buy lottery tickets.
+<END>
+
+#WRITE(PTR, $0000347C)
+【Rintaro】Moeka, have you bought one?
+<END>
+
+#WRITE(PTR, $000035CA)
+When I call out to Moeka standing alone in the corner of the room, her shoulder's twitch.
+<END>
+
+#WRITE(PTR, $000035E4)
+Then she shakes her head a little bit.
+<END>
+
+#WRITE(PTR, $0000360A)
+【Mayuri】Okarin, have you bought one-?
+<END>
+
+#WRITE(PTR, $00003682)
+【Rintaro】...I've tried the <DICT>LOTO SIX</DICT> once.
+<END>
+
+#WRITE(PTR, $00003692)
+Result, utter failure. Not even a penny.
+<END>
+
+#WRITE(PTR, $000036A2)
+【Itaru】Ahh, LOTO SIX might be just perfect. I'm pretty sure they announce winning numbers every week.
+<END>
+
+#WRITE(PTR, $000036B2)
+Promptly searching on the net, we find out hat LOTO SIX announces winning numbers every Thursday.
+<END>
+
+#WRITE(PTR, $000036C2)
+They've also uploaded last week's 1st through 7th place numbers on the homepage.
+<END>
+
+#WRITE(PTR, $000036D2)
+【Mayuri】Are you going to send this winning number in a D-mail?
+<END>
+
+#WRITE(PTR, $000036E2)
+【Rintaro】Exactly. Though, of course, we have to mention it's a winning LOTO SIX number.
+<END>
+
+#WRITE(PTR, $000036F2)
+【Itaru】Hmm, last week's 1st prize was... woah, 200 million!
+<END>
+
+#WRITE(PTR, $00003718)
+What, 200 million!?
+<END>
+
+#WRITE(PTR, $00003728)
+That was more money than I had expected, so my heart skipped a beat.
+<END>
+
+#WRITE(PTR, $00003738)
+【Rintaro】N-no, wait! 1st is too much....
+<END>
+
+#WRITE(PTR, $00003748)
+【Itaru】Why?
+<END>
+
+#WRITE(PTR, $00003758)
+【Kurisu】200 million... that really is surprising, isn't it? hahahah...
+<END>
+
+#WRITE(PTR, $00003768)
+【Rintaro】No, not that. 1st would be... too conspicuous.
+<END>
+
+#WRITE(PTR, $00003778)
+【Kurisu】Haah?
+<END>
+
+#WRITE(PTR, $00003788)
+【Rintaro】Don't you get it!? I'm being chased by the "Organization", you know. If we won 1st prize in the LOTO SIX, the media would cover the event, and then and there, our presence will be known.
+<END>
+
+#WRITE(PTR, $00003798)
+【Kurisu】It won't.
+<END>
+
+#WRITE(PTR, $000037A8)
+【Mayuri】Then, why not just have Mayushii win-?
+<END>
+
+#WRITE(PTR, $000037B8)
+【Rintaro】No good. Stage 2 of Operation Urd's does have its risks, just like Celeb Sev over there said.
+<END>
+
+#WRITE(PTR, $000037C8)
+【Kurisu】Celeb Sev... don't abbreviate it.
+<END>
+
+#WRITE(PTR, $000037D8)
+【Rintaro】In order to take responsibility, I'll be winner.
+<END>
+
+#WRITE(PTR, $000037E8)
+【Kurisu】You're not just going to take all the money for yourself, right?
+<END>
+
+#WRITE(PTR, $000037F8)
+I ignore Celeb Sev's straight man act.
+<END>
+
+#WRITE(PTR, $00003808)
+The prospect of hogging 200 million yen certainly is appetizing.
+<END>
+
+#WRITE(PTR, $00003818)
+That amount of money is too big a change to the past. Just like Celeb Sev said just now, we can't ignore the Butterfly Effect. We should flap our butterfly wings as small as possible.
+<END>
+
+#WRITE(PTR, $00003828)
+I-I'm not nervous at all.
+<END>
+
+#WRITE(PTR, $0000384E)
+【Rintaro】With that said, we'd be too conspicuous, so let's try aiming for 2nd prize. Daru, how much is 2nd prize?
+<END>
+
+#WRITE(PTR, $0000385E)
+【Itaru】Umm, last time the dividend was... 23 million yen.
+<END>
+
+#WRITE(PTR, $0000386E)
+【Rintaro】...l-let's try aiming for 3d prize.
+<END>
+
+#WRITE(PTR, $0000387E)
+【Itaru】That decreases it to 700,000 yen, though.
+<END>
+
+#WRITE(PTR, $0000388E)
+【Rintaro】Ah, yeah, that's good. That should be about right.
+<END>
+
+#WRITE(PTR, $0000389E)
+【Kurisu】So Okabe's a chicken, huh.
+<END>
+
+#WRITE(PTR, $000038AE)
+【Rintaro】Heh, heheheh...! That's not something you should say after worrying so much about the risk of time paradoxes, dontcha think, Celeb Sev!?
+<END>
+
+#WRITE(PTR, $000038BE)
+【Kurisu】I'm begging you, please stop calling me that... I'll settle for Assistant.
+<END>
+
+#WRITE(PTR, $000038CE)
+【Kurisu】Besides, I don't get your line of thought.
+<END>
+
+#WRITE(PTR, $000038DE)
+【Rintaro】You're considering risks, and deciding if it's too much or too little money. You're the stubborn one.
+<END>
+
+#WRITE(PTR, $000038EE)
+【Kurisu】...How's that?
+<END>
+
+#WRITE(PTR, $000038FE)
+I let Celeb Sev talk.
+<END>
+
+#WRITE(PTR, $0000390E)
+【Mayuri】Uhmmm, with 700,000 yen, could we fill a truckload of bananas-?
+<END>
+
+#WRITE(PTR, $0000391E)
+She didn't say anything about using the entire dividend on bananas, but it looks like Mayuri intends to do so. Let's ignore the glutton for now.
+<END>
+
+#WRITE(PTR, $0000392E)
+【Itaru】For 3rd prize, you need to get five matching numbers.
+<END>
+
+#WRITE(PTR, $0000393E)
+Last week's six winning numbers are 02 12 19 34 35 and 40. The bonus number is 08.
+<END>
+
+#WRITE(PTR, $0000394E)
+1st prize is matching all 6 numbers.
+<END>
+
+#WRITE(PTR, $0000395E)
+2nd prize is matching 5 numbers plus the bonus number.
+<END>
+
+#WRITE(PTR, $0000396E)
+3rd prize is matching only 5 numbers.
+<END>
+
+#WRITE(PTR, $0000397E)
+【Rintaro】Moeka. I assign to you your first duty as a new lab mem.
+<END>
+
+#WRITE(PTR, $00003A6E)
+【Moeka】Eh...?
+<END>
+
+#WRITE(PTR, $00003A7E)
+Moeka stares in wonder.
+<END>
+
+#WRITE(PTR, $00003A8E)
+Seems she didn't expect her name to be called.
+<END>
+
+#WRITE(PTR, $00003A9E)
+【Rintaro】Think of what to send in the D-mail. Think of something that would convince an unknowing me one week ago to buy into the LOTO SIX.
+<END>
+
+#WRITE(PTR, $00003AAE)
+【Moeka】Me...?
+<END>
+
+#WRITE(PTR, $00003ABE)
+【Rintaro】You are the mail demon, so this should be your strong point, right?
+<END>
+
+#WRITE(PTR, $00003AD8)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00003AF2)
+She doesn't seem that interested, but Moeka nods.
+<END>
+
+#WRITE(PTR, $00003B88)
+We set the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00003B98)
+We register the forwarding mail address into the X68000 attached to the microwave.
+<END>
+
+#WRITE(PTR, $00003BA8)
+That address is my phone's, of course.
+<END>
+
+#WRITE(PTR, $00003BF0)
+【Kurisu】Thursday last week, so about five days ago, right? Sending your D-mail there?
+<END>
+
+#WRITE(PTR, $00003C00)
+Putting on the white coat, Kurisu double checks the dedicated phone attached to the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00003C48)
+【Itaru】The drawing was five days ago, so we have to send it to before then, don't we?
+<END>
+
+#WRITE(PTR, $00003C62)
+【Kurisu】In that case, one week ago, huh? 7 days is 168 hours, so let's round a bit and set it to 170#.
+<END>
+
+#WRITE(PTR, $00003CAA)
+【Mayuri】Ummm, 1, 7, 0, #...
+<END>
+
+#WRITE(PTR, $00003CF2)
+Moeka finished writing the mail.
+<END>
+
+#WRITE(PTR, $00003D02)
+She already punched in the text on my phone.
+<END>
+
+#WRITE(PTR, $00003DAC)
+<LINE>
+<LINE>
+<LINE>
+%LC"021219343537"<LINE>
+"Buy LOTO SIX"<LINE>
+"sure to win!"
+<ENDPANEL>
+
+#WRITE(PTR, $00003DD4)
+For the number, we replaced the 40 with 37.
+<END>
+
+#WRITE(PTR, $00003DE4)
+This way, we should eliminate the possibility of 1st and 2nd prize.
+<END>
+
+#WRITE(PTR, $00003DF4)
+【Rintaro】Well, this should be it.
+<END>
+
+#WRITE(PTR, $00003E04)
+We know that we can only send 36 bytes.
+<END>
+
+#WRITE(PTR, $00003E8C)
+【Mayuri】This kinda looks suspicious, doesn't it- Ehheheh-
+<END>
+
+#WRITE(PTR, $00003EA6)
+【Moeka】...I'll redo it.
+<END>
+
+#WRITE(PTR, $00003EB6)
+I hurriedly stop Moeka from erasing the mail.
+<END>
+
+#WRITE(PTR, $00003EC6)
+【Rintaro】This is fine. I don't think there's any other way. Though, it certainly is suspicious.
+<END>
+
+#WRITE(PTR, $00003EE0)
+【Mayuri】It'll be fine-. Actually, Okarin loves suspicious things, so I think it's perfect-♪
+<END>
+
+#WRITE(PTR, $00003EF0)
+That's not entirely incorrect, but it feels like she's making fun of me.
+<END>
+
+#WRITE(PTR, $00003F0C)
+Preparations complete.
+<END>
+
+#WRITE(PTR, $00003F1C)
+We're sending a mail across space-time, but preparing for that is surprisingly simple.
+<END>
+
+#WRITE(PTR, $00003F2C)
+【Rintaro】Now... it's time to open Steins;Gate.
+<END>
+
+#WRITE(PTR, $00003F74)
+【Kurisu】It's been bugging me, but what is that stain's gait thing?
+<END>
+
+#WRITE(PTR, $00003FBC)
+【Mayuri】It's Okarin's catch phrase-♪
+<END>
+
+#WRITE(PTR, $00003FCC)
+【Rintaro】Steins;Gate is Steins;Gate. Nothing more, nothing less.
+<END>
+
+#WRITE(PTR, $00003FE6)
+【Kurisu】That doesn't explain anything.
+<END>
+
+#WRITE(PTR, $00003FF6)
+【Rintaro】Don't complain about every single thing. That's not what we should be thinking about now.
+<END>
+
+#WRITE(PTR, $00004070)
+I place my finger on my phone's send button.
+<END>
+
+#WRITE(PTR, $00004080)
+I desperately try to stop that finger from trembling.
+<END>
+
+#WRITE(PTR, $000040C8)
+【Itaru】Welp, starting up the microwave-
+<END>
+
+#WRITE(PTR, $000040D8)
+I gulp down my saliva.
+<END>
+
+#WRITE(PTR, $0000413E)
+The turntable begins to revolve in the microwave without a door.
+<END>
+
+#WRITE(PTR, $0000414E)
+With a thunderous roar, discharge begins to fire off into empty space.
+<END>
+
+#WRITE(PTR, $0000415E)
+The timer ticks down.
+<END>
+
+#WRITE(PTR, $0000416E)
+163... 162... 161...
+<END>
+
+#WRITE(PTR, $0000417E)
+Change the past.
+<END>
+
+#WRITE(PTR, $0000418E)
+It seems very simple to do.
+<END>
+
+#WRITE(PTR, $0000419E)
+But just like Kurisu said, our foundation might collapse.
+<END>
+
+#WRITE(PTR, $000041AE)
+I said I'd take responsibility. But that was just talk in the end.
+<END>
+
+#WRITE(PTR, $000041BE)
+If a time paradox occurs, the world might take irreparable damage.
+<END>
+
+#WRITE(PTR, $000041CE)
+150... 149... 148...
+<END>
+
+#WRITE(PTR, $000041DE)
+Damage the likes of me can't even begin to compensate for.
+<END>
+
+#WRITE(PTR, $000043CC)
+The discharge phenomenon occurs inside the microwave.
+<END>
+
+#WRITE(PTR, $000043DC)
+All is well.
+<END>
+
+#WRITE(PTR, $000043EC)
+Now I just need to press the send button.
+<END>
+
+#WRITE(PTR, $000043FC)
+136... 135... 134...
+<END>
+
+#WRITE(PTR, $0000440C)
+Can't stop now.
+<END>
+
+#WRITE(PTR, $0000441C)
+Because I'm looking ahead.
+<END>
+
+#WRITE(PTR, $0000442C)
+Curiosity pushes me from behind.
+<END>
+
+#WRITE(PTR, $0000443C)
+There's no way this will destroy the world.
+<END>
+
+#WRITE(PTR, $0000444C)
+That's what I tell myself.
+<END>
+
+#WRITE(PTR, $0000445C)
+122... 121... 120...
+<END>
+
+#WRITE(PTR, $0000446C)
+【Rintaro】El Psy Congroo...!
+<END>
+
+#WRITE(PTR, $0000447C)
+I put strength into my button finger.
+<END>
+
+#WRITE(PTR, $000044A0)
+My phone displays a flying mail animation and the word "Sending".
+<END>
+
+#WRITE(PTR, $000044B0)
+116... 115...
+<END>
+
+#WRITE(PTR, $000044C0)
+Finally, that word changes to "Sent" and--
+<END>
+
+#WRITE(PTR, $00004590)
+WD02.PMF
+<FILEEND9F>
+

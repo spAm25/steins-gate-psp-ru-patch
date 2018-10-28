@@ -11,6 +11,7 @@ No promises, but let's hope this will be released before the end of 2018.
   - Prologue
   - Chapter 1
   - Chapter 2
+  - Chapter 3
 - Manually fill out DICT (all tips)
 - TEST THAT THE GAME WORKS AT THIS POINT
 - Manually fill out DATA (character names, phonebook, messages)

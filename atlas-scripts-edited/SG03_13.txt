@@ -1,0 +1,583 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002C04)
+
+#WRITE(PTR, $00000230)
+I want to get in touch with Titor soon.
+<END>
+
+#WRITE(PTR, $00000240)
+He might be able to give me the answers I seek.
+<END>
+
+#WRITE(PTR, $00000250)
+He might also be able to explain the event that only I experienced a few days ago-- the instantaneous disappearance of everyone on the road in Akiba.
+<END>
+
+#WRITE(PTR, $00000434)
+With that said, I hurry up and return to the lab, attracting everyone's worried eyes at once.
+<END>
+
+#WRITE(PTR, $00000550)
+Before Mayuri, the first to console(?) me, gets the chance to speak, I put up my hand to stop her.
+<END>
+
+#WRITE(PTR, $000005F4)
+【Rintaro】Wait! We'll talk when everything's over.
+<END>
+
+#WRITE(PTR, $00000698)
+I explain that we can't keep experimenting since the Braun Tube Workshop manager came back. Then I dismiss everyone for today.
+<END>
+
+#WRITE(PTR, $0000082E)
+【Mayuri】Okarin, you know, I'll buy you a banana tomorrow, okay-?
+<END>
+
+#WRITE(PTR, $000008D2)
+She says that and hands me the Upa plush toy placed on the sofa.
+<END>
+
+#WRITE(PTR, $00000980)
+【Mayuri】So for now, hug this little guy su-per tight and cheer up, okay?
+<END>
+
+#WRITE(PTR, $00000A36)
+It looks like she's fussing over me. But Mayuri shouldn't worry about me. -She- worries -me-.
+<END>
+
+#WRITE(PTR, $00000A98)
+She has to work after this, so she leaves.
+<END>
+
+#WRITE(PTR, $00000AA8)
+Daru goes with her. He probably wants to go meet Faris.
+<END>
+
+#WRITE(PTR, $00000AB8)
+Lukako keeps apologizing to me. Looks like he regrets messing up the LOTO SIX ticket.
+<END>
+
+#WRITE(PTR, $00000AC8)
+That reminds me, Lukako found out about the time machine too.
+<END>
+
+#WRITE(PTR, $00000AD8)
+Next time, I'll make him a lab mem to silence him.
+<END>
+
+#WRITE(PTR, $00000AF4)
+Moeka nods and goes home without a word.
+<END>
+
+#WRITE(PTR, $00000B56)
+In less than 30 minutes, Kurisu and I are the only ones left in the lab.
+<END>
+
+#WRITE(PTR, $00000B9E)
+【Rintaro】Assistant over there. You not going home?
+<END>
+
+#WRITE(PTR, $00000BAE)
+【Kurisu】If I'm an eyesore, I'll leave.
+<END>
+
+#WRITE(PTR, $00000BBE)
+【Rintaro】You're not an eyesore at all. But do you have any business here?
+<END>
+
+#WRITE(PTR, $00000BCE)
+【Kurisu】No. But there's something I want to think about for a bit.
+<END>
+
+#WRITE(PTR, $00000BDE)
+【Rintaro】Then go back to your hotel and think about it.
+<END>
+
+#WRITE(PTR, $00000BF8)
+【Kurisu】What? You want to kick me out?
+<END>
+
+#WRITE(PTR, $00000C08)
+【Rintaro】Oh, I see, since you have no friends, you'd be sad and lonely in your hotel room, so you want me, Hououin Kyouma, to look after you, huh, you damn spoiled celeb sev?
+<END>
+
+#WRITE(PTR, $00000C18)
+【Kurisu】You're the lonely one, aren't you? You've been depressed for a while now.
+<END>
+
+#WRITE(PTR, $00000C32)
+【Kurisu】Do you need some advice? I'm an outsider in a sense, so shouldn't it be easy to talk to me?
+<END>
+
+#WRITE(PTR, $00000C42)
+【Kurisu】A man getting advice from a younger woman is... mmhmm mmhmm, but if you're fine with that, then just ask away.
+<END>
+
+#WRITE(PTR, $00000C52)
+Does she have to be this impertinent?
+<END>
+
+#WRITE(PTR, $00000C62)
+She's smiling happily as if to make fun of me.
+<END>
+
+#WRITE(PTR, $00000C72)
+【Rintaro】I need to send some mails. If you insist on staying here, then be quiet and stay out of my way, okay, the Zombie?
+<END>
+
+#WRITE(PTR, $00000C8C)
+【Kurisu】You just have to call me that, don't you...
+<END>
+
+#WRITE(PTR, $00000CAE)
+Even though she says that, Kurisu still doesn't go home.
+<END>
+
+#WRITE(PTR, $00000CBE)
+She sits down on the sofa, beginning to read a massive technical book. On closer inspection, it's a western book.
+<END>
+
+#WRITE(PTR, $00000CCE)
+Maybe this assistant isn't a genius, but just an extreme studier.
+<END>
+
+#WRITE(PTR, $00000CDE)
+【Rintaro】Want some coffee?
+<END>
+
+#WRITE(PTR, $00000D26)
+【Kurisu】Sure thing.
+<END>
+
+#WRITE(PTR, $00000DC6)
+I heat up the instant coffee for Kurisu.
+<END>
+
+#WRITE(PTR, $00000E3C)
+I take out a fresh Dr Pepper out of the refrigerator for myself and sit down in front of the computer.
+<END>
+
+#WRITE(PTR, $00000E58)
+Alright, let's do what I should do.
+<END>
+
+#WRITE(PTR, $00000ED2)
+For now, let's pray that I -can- do it.
+<END>
+
+#WRITE(PTR, $00000EF0)
+What I should do is follow Suzuha's advice from earlier.
+<END>
+
+#WRITE(PTR, $00000F0E)
+Get in touch with Titor.
+<END>
+
+#WRITE(PTR, $00000F2C)
+Because what I'm experiencing right now could possibly be the many-world's interpretation.
+<END>
+
+#WRITE(PTR, $00000F4A)
+Which would mean that Kurisu over there and the Kurisu from before aren't one in the same.
+<END>
+
+#WRITE(PTR, $00000F68)
+This lab is a different lab from the lab before.
+<END>
+
+#WRITE(PTR, $00000F86)
+I don't quite understand.
+<END>
+
+#WRITE(PTR, $00001070)
+【Kurisu】What are you pacing for?
+<END>
+
+#WRITE(PTR, $0000108E)
+Kurisu looks at me with her cold glare.
+<END>
+
+#WRITE(PTR, $000010AC)
+Dammit. Those eyes are clearly eyes perv-discerning eyes.
+<END>
+
+#WRITE(PTR, $000010CA)
+I'm told her I'm not a pervert, but Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00001156)
+Why am I the only one who remembers in the first place?
+<END>
+
+#WRITE(PTR, $00001174)
+That's another question I'll ask of John Titor.
+<END>
+
+#WRITE(PTR, $00001192)
+I can't prove if he's a real time traveler or not, but there's that thing about the IBN 5100, so I believe he's real in my heart.
+<END>
+
+#WRITE(PTR, $0000123C)
+But, what sort of mail should I send?
+<END>
+
+#WRITE(PTR, $0000124C)
+I guess I have no choice but to say tell it like it is.
+<END>
+
+#WRITE(PTR, $0000125C)
+In any case, nothing will happen if I just worry about it.
+<END>
+
+#WRITE(PTR, $00001286)
+Half rebuking myself, I stop stalling and take out my phone.
+<END>
+
+#WRITE(PTR, $0000163E)
+I silently sigh and chug down my Dr Pepper.
+<END>
+
+#WRITE(PTR, $0000164E)
+Now I just wait for his reply.
+<END>
+
+#WRITE(PTR, $0000165E)
+I try looking at the @channel thread just to make sure, but it looks like Titor isn't posting now.
+<END>
+
+#WRITE(PTR, $0000166E)
+【Kurisu】That was a pretty deep sigh, wasn't it?
+<END>
+
+#WRITE(PTR, $00001718)
+Kurisu asks without raising her glance from her book.
+<END>
+
+#WRITE(PTR, $000017B6)
+Maybe I should talk to Kurisu.
+<END>
+
+#WRITE(PTR, $000017C6)
+About how sending the D-mail changed the past.
+<END>
+
+#WRITE(PTR, $000017D6)
+And about how Kurisu completely lost her memories about it.
+<END>
+
+#WRITE(PTR, $000017E6)
+Why am I only thinking of talking to Kurisu?
+<END>
+
+#WRITE(PTR, $000017F6)
+Because I don't think Mayuri or Daru understand this problem.
+<END>
+
+#WRITE(PTR, $00001806)
+Kurisu on the other hand, might be able to form some sort of hypothesis. That's what I hope.
+<END>
+
+#WRITE(PTR, $00001944)
+And then, my phone sounds its ringtone.
+<END>
+
+#WRITE(PTR, $00001962)
+Could it be a reply from Titor?
+<END>
+
+#WRITE(PTR, $00001980)
+Not by mail, but directly!?
+<END>
+
+#WRITE(PTR, $0000199E)
+Startled, I timidly look at my phone's display.
+<END>
+
+#WRITE(PTR, $000019BC)
+Daru's name is displayed there.
+<END>
+
+#WRITE(PTR, $000019DA)
+Disappointed, I lightly click my tongue.
+<END>
+
+#WRITE(PTR, $000019F8)
+Don't confuse me like that...
+<END>
+
+#WRITE(PTR, $00001AE4)
+【Rintaro】Christina. There's something I want to talk to you about.
+<END>
+
+#WRITE(PTR, $00001B0C)
+【Kurisu】Shouldn't you answer your phone before that?
+<END>
+
+#WRITE(PTR, $00001B2A)
+【Rintaro】It's Daru. It's probably something stupid.
+<END>
+
+#WRITE(PTR, $00001B48)
+Just a while ago, Daru said he was going to MayQueen with a stupid grin on his face, so there's no way he'd suddenly call me for something serious.
+<END>
+
+#WRITE(PTR, $00001D62)
+【Kurisu】You're really self-righteous, you know.
+<END>
+
+#WRITE(PTR, $00001D72)
+【Rintaro】You might not remember this, but earlier, I changed the past with a D-mail.
+<END>
+
+#WRITE(PTR, $00001D8C)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00001D9C)
+Kurisu stares at my face.
+<END>
+
+#WRITE(PTR, $00001DAC)
+Her expression was more stern than usual.
+<END>
+
+#WRITE(PTR, $00001DBC)
+【Kurisu】...I haven't been with you long enough to tell whether you're joking or you're serious.
+<END>
+
+#WRITE(PTR, $00001DCC)
+【Rintaro】But it's the truth. And then every human except for me "forgot" about it. No, to be more accurate, "that truth vanished".
+<END>
+
+#WRITE(PTR, $00001DE6)
+【Kurisu】The past changed, so the present changed with it? The Butterfly Effect, huh. But what you're saying is bullshit.
+<END>
+
+#WRITE(PTR, $00001DF6)
+【Rintaro】What makes you so sure?
+<END>
+
+#WRITE(PTR, $00001E10)
+【Kurisu】Why do you remember the fact that the past changed, Okabe?
+<END>
+
+#WRITE(PTR, $00001E20)
+【Kurisu】If you said you used a time machine to physically travel to the past and change history, then that would still just barely explain it.
+<END>
+
+#WRITE(PTR, $00001E30)
+【Kurisu】But with a D-mail, you haven't taken one step outside the "present", have you?'
+<END>
+
+#WRITE(PTR, $00001E40)
+【Kurisu】So if the "present" changed, changing us, then it's a contradiction for you to remain unchanged.
+<END>
+
+#WRITE(PTR, $00001E5A)
+【Kurisu】Or are you saying you didn't change because you're the observer? In that case, this is what you're claiming: "I am not a human being".
+<END>
+
+#WRITE(PTR, $00001E6A)
+I do agree with what Kurisu's saying. And I don't have the means to convince her.
+<END>
+
+#WRITE(PTR, $00001E7A)
+That's the reason for my confusion, and why I'm mailing Titor now.
+<END>
+
+#WRITE(PTR, $00001E8A)
+【Rintaro】...Everything is Steins;Gate's choice, according to the ability of my demon eye, Reading Steiner! Fuhahaha!
+<END>
+
+#WRITE(PTR, $00001EA4)
+【Kurisu】Aaaand, he's at it again.
+<END>
+
+#WRITE(PTR, $00001F46)
+Stunned, Kurisu goes back to her book.
+<END>
+
+#WRITE(PTR, $00001F56)
+【Kurisu】I'm not playing along with your games. Anyhow, that Reading Whatever name... you just came up with it now, didn't you?
+<END>
+
+#WRITE(PTR, $00001F66)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001F76)
+The punch line is that Kurisu laughed scornfully, making assumptions with just the current information.
+<END>
+
+#WRITE(PTR, $00001F86)
+There's still not enough information, even for a mad scientist like me, to explain the phenomenon I experienced earlier.
+<END>
+
+#WRITE(PTR, $00001F96)
+I bite down on my lips in impatience.
+<END>
+
+#WRITE(PTR, $000020FE)
+【Rintaro】Hello?
+<END>
+
+#WRITE(PTR, $0000211A)
+【Itaru】Ah, Okarin! Actually, I just noticed an unthinkable mistake!
+<END>
+
+#WRITE(PTR, $00002136)
+【Rintaro】Mistake?
+<END>
+
+#WRITE(PTR, $000021DC)
+Is it about the Microwave Ophone (Temp)?
+<END>
+
+#WRITE(PTR, $000021EC)
+Is it related to the phenomenon I experienced earlier?
+<END>
+
+#WRITE(PTR, $000021FC)
+I take a deep gulp.
+<END>
+
+#WRITE(PTR, $0000220C)
+I, a mad scientist, am getting stressed over a miserable thing.
+<END>
+
+#WRITE(PTR, $0000221C)
+What is Daru trying to say?
+<END>
+
+#WRITE(PTR, $0000222C)
+Is it related to the D-mail?
+<END>
+
+#WRITE(PTR, $00002298)
+I gently lick my wet lips, waiting for Daru's words.
+<END>
+
+#WRITE(PTR, $000022B4)
+【Itaru】Actually...
+<END>
+
+#WRITE(PTR, $000022C4)
+【Itaru】I left my wallet at the lab.
+<END>
+
+#WRITE(PTR, $000022E0)
+【Rintaro】...Wh...at?
+<END>
+
+#WRITE(PTR, $00002308)
+【Itaru】So I can't get into MayQueen! Okarin, sorry, but could you bring me my wallet? I'll get you a drink at MayQueen in return.
+<END>
+
+#WRITE(PTR, $00002324)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002334)
+【Rintaro】Go take a swim in Shindengawa!
+<END>
+
+#WRITE(PTR, $0000234A)
+I cry out and hang up.
+<END>
+
+#WRITE(PTR, $0000235A)
+Dammit, I got stressed over nothing.
+<END>
+
+#WRITE(PTR, $00002434)
+But right afterward, my ringtone resounds again.
+<END>
+
+#WRITE(PTR, $00002452)
+【Rintaro】Tch, damn persistent little...
+<END>
+
+#WRITE(PTR, $00002470)
+There's only about a three minute walk from between the lab and MayQueen, so if it's just a wallet, come get it yourself.
+<END>
+
+#WRITE(PTR, $00002740)
+【Rintaro】Hello. I'm not delivering your wallet, okay...!
+<END>
+
+#WRITE(PTR, $00002766)
+【Mayuri】Tutturu-♪ Okarin, Okarin.
+<END>
+
+#WRITE(PTR, $00002782)
+【Rintaro】...Oh, it's you, Mayuri. You're with Daru, right? You don't have to lend that dummy any money, okay?
+<END>
+
+#WRITE(PTR, $000027A8)
+【Mayuri】Ah-, yup, okay-♪
+<END>
+
+#WRITE(PTR, $000027C2)
+【Mayuri】So, Okarin, I was wondering if you cheered up-. Did you make sure to squeeze Upa?
+<END>
+
+#WRITE(PTR, $000027DE)
+【Rintaro】I didn't. Anyway, I am a mad scientist, always full of madness and ambition!
+<END>
+
+#WRITE(PTR, $00002804)
+【Mayuri】I see-. You know, if you're worried about anything, talk to Mayushii, okay-?
+<END>
+
+#WRITE(PTR, $00002814)
+【Mayuri】Mayushii doesn't understand hard things, but she does understand Okarin♪
+<END>
+
+#WRITE(PTR, $00002830)
+【Rintaro】...You understand me, you say?
+<END>
+
+#WRITE(PTR, $00002856)
+【Mayuri】I do-. We've been together since childhood after all. Ehhehe-.
+<END>
+
+#WRITE(PTR, $00002872)
+【Rintaro】...Hmph. I'm hanging up now. Work hard now.
+<END>
+
+#WRITE(PTR, $0000288E)
+【Mayuri】Yup. Thanks-. By now-
+<END>
+
+#WRITE(PTR, $00002912)
+【Rintaro】...Geez, that dummy.
+<END>
+
+#WRITE(PTR, $000029E8)
+【Kurisu】Okabe. You're grinning.
+<END>
+
+#WRITE(PTR, $000029F8)
+【Rintaro】...!!
+<END>
+
+#WRITE(PTR, $00002A08)
+【Rintaro】Wh-what are you trying to say, you celeb sev!
+<END>
+
+#WRITE(PTR, $00002A22)
+【Kurisu】Don't call me celeb sev!
+<END>
+
+#WRITE(PTR, $00002A32)
+I thought about talking to Kurisu about the truth, but I quit.
+<END>
+
+#WRITE(PTR, $00002A42)
+Like hell this mad scientist, Hououin Kyouma, would grin at the words of a hostage like Mayuri.
+<FILEEND36>
+

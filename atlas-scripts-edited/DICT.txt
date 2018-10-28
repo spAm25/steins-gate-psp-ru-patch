@@ -605,7 +605,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000390)
-Ｘ線
+X-Ray
 <END2>
 
 #WRITE(PTR, $00000392)
@@ -621,7 +621,8 @@ Other
 <END2>
 
 #WRITE(PTR, $00000398)
-ヴィルヘルム・レントゲンが１８９５年に発見した電磁波。<LINE>放射能の一種で、医療分野での診断用撮影に使われているのが有名。
+An electromagnetic wave discovered by Wilhelm Rontgen in 1895.<LINE>
+Radioactive. Famous for its medical usage of diagnostic photography.
 <END2>
 
 #WRITE(PTR, $000003B0)
@@ -914,7 +915,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000570)
-海馬・ＣＡ３
+Hippocampus
 <END2>
 
 #WRITE(PTR, $00000572)
@@ -930,7 +931,8 @@ Other
 <END2>
 
 #WRITE(PTR, $00000578)
-海馬は、細胞の大きさと形からＣＡ１、ＣＡ２、ＣＡ３という３つの部位に分けられる。<LINE>ＣＡとは、解剖学者ガレンジョが１７４２年に命名した“アンモン角（ｃｏｒｎｕ ａｍｍｏｎｉｓ）”に由来している。
+The hippocampus is divided into three histological sections: CA1, CA2, and CA3.<LINE>
+CA refers to the name given to the hippocampus by anatomist Garengeot in 1742, "cornu Ammonis" - horn of Amun.
 <END2>
 
 #WRITE(PTR, $00000590)
@@ -954,7 +956,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $000005B0)
-カオス理論
+Chaos Theory
 <END2>
 
 #WRITE(PTR, $000005B2)
@@ -970,7 +972,10 @@ Other
 <END2>
 
 #WRITE(PTR, $000005B8)
-“とても簡単な数式で表されることでも、どのような結果が出るのか、完璧な予測をすることは難しい”という理論。<LINE>ただしこれは“結果はランダムである”という意味ではなく、その結論へ至るための過程においてほんのわずかな変化でも結果には予想以上の大きなバラつきが出てしまうことを指す。<LINE>なお、短期的な予測についてはこの理論は当てはまらない。
+The theory that states "even if something can be expressed in a simple formula, it is hard to perfectly predict its outcome."<LINE>
+However, this doesn't mean the result is random.<LINE>
+It means that even the slightest variation in initial conditions can cause a widely diverging outcome.<LINE>
+Furthermore, this theory doesn't apply to short term predictions.
 <END2>
 
 #WRITE(PTR, $000005D0)
@@ -2009,7 +2014,7 @@ A concept advocated by Swiss psychologist Carl Jung (1875-1961).
 <END2>
 
 #WRITE(PTR, $00000BD0)
-スイーツ（笑）
+Mainstream Woman
 <END2>
 
 #WRITE(PTR, $00000BD1)
@@ -2025,7 +2030,9 @@ Net
 <END2>
 
 #WRITE(PTR, $00000BD8)
-流行に踊らされたり、男性には理解できないような考え方をする女性のことを侮蔑して使われる言葉。<LINE>女性向け雑誌などにおいて、高級でおしゃれなデザートのことをスイーツと呼ぶようになってから、それを嘲笑するためにNetスラングとして使われるようになった。<LINE>ただし、これをことさら使いたがるのは女性と縁のない男性が多いとも言われている。
+Original: A derogatory term referring to women who are manipulated by fads and subscribe to a way of thinking incomprehensible to men.<LINE>
+Since women's magazines in Japan refer to high class, fashionable desserts as "sweets," that term became used as derogatory interenet slang.<LINE>
+However, it is often said that this phrase is intentionally used by men who want nothing to do with women.
 <END2>
 
 #WRITE(PTR, $00000BF0)
@@ -2403,7 +2410,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000E30)
-ダイナマイト
+Dynamite
 <END2>
 
 #WRITE(PTR, $00000E32)
@@ -2419,7 +2426,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000E38)
-１８６６年にノーベルが発明した、ニトログリセリンを用いた爆薬。
+A nitroglycerine explosive invented by Nobel in 1866.
 <END2>
 
 #WRITE(PTR, $00000E50)
@@ -2660,7 +2667,7 @@ Also, on anonymous message boards on the internet, to post provocative opinions 
 <END2>
 
 #WRITE(PTR, $00000FB0)
-ツンデレ
+Tsundere
 <END2>
 
 #WRITE(PTR, $00000FB2)
@@ -2676,7 +2683,8 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00000FB8)
-普段はツンツンと生意気、二人っきりになるとデレデレといちゃつくヒロインのこと。<LINE>だが近年、その定義は曖昧になりつつある。
+A heroine who is usually impertinent and aloof (tsuntsun), but when alone with her object of love, becomes fawning and spoony (deredere).<LINE>
+However, the definition is getting more vague recently.
 <END2>
 
 #WRITE(PTR, $00000FD0)
@@ -2957,7 +2965,7 @@ Rintaro's favorite carbonated drink.
 <END2>
 
 #WRITE(PTR, $00001170)
-ドクターペッパリアン
+Dr Pepperian
 <END2>
 
 #WRITE(PTR, $00001172)
@@ -2973,7 +2981,8 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001178)
-ドクターペッパーをこよなく愛する人、の意。<LINE>オカリンの造語。
+Means somebody who loves Dr Pepper beyond all else.<LINE>
+Coined by Okarin.
 <END2>
 
 #WRITE(PTR, $00001190)
@@ -3352,7 +3361,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000013D0)
-ピザオタ
+Pizzaota
 <END2>
 
 #WRITE(PTR, $000013D2)
@@ -3368,7 +3377,10 @@ Otaku
 <END2>
 
 #WRITE(PTR, $000013D8)
-ピザとは“太っている”こと、オタはOtakuを指す。<LINE>Netの匿名掲示板において、「ピザでも食ってろデブ」と、太っている人への悪意ある攻撃、からかいの書き込みが元ネタであり、その認識が爆発的にNet上で広がった。<LINE>“ピザオタ”と言う場合、家でゴロゴロ寝転がりながら１人でピザを食べつつアニメを見ているメタボリックなOtakuというようなニュアンスとなる。
+An otaku who is fat on pizza.<LINE>
+On an anonymous online message board, someone had posted "Go grab a pizza, fatass" as an insult to a fat person.<LINE>
+That phrase exploded in popularity on the internet.<LINE>
+"Pizza ota" gives the nuanced connotation of an otaku with metabolic syndrome who lazes around at home alone all day eating pizza while watching anime.
 <END2>
 
 #WRITE(PTR, $000013F0)
@@ -3417,7 +3429,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001430)
-ＦＡ
+Final Answer
 <END2>
 
 #WRITE(PTR, $00001432)
@@ -3433,7 +3445,10 @@ Net
 <END2>
 
 #WRITE(PTR, $00001438)
-ここでは『ファイナルアンサー』を意味する。<LINE>「つまりそれが最終的な結論ということでいいんですね？」という確認に使われる。<LINE>Netスラング。<LINE>元ネタは、全問正解で１０００万円を獲得できる人気クイズ番組。
+Abbreviated as FA in Japanese.<LINE>
+Used in the question "Is that your final answer?".<LINE>
+Internet slang.<LINE>
+Originates from a popular quiz show with contestants who want to be millionaires.
 <END2>
 
 #WRITE(PTR, $00001450)
@@ -3730,7 +3745,7 @@ The effect known in marathons as "runner's high" can be explained by the secreti
 <END2>
 
 #WRITE(PTR, $00001610)
-ペニシリン
+Penicillin
 <END2>
 
 #WRITE(PTR, $00001612)
@@ -3746,7 +3761,8 @@ Other
 <END2>
 
 #WRITE(PTR, $00001618)
-世界初の抗生物質。<LINE>１９２９年に発見された。
+The world's first antibiotic.<LINE>
+Discovered in 1929.
 <END2>
 
 #WRITE(PTR, $00001630)
@@ -4660,7 +4676,7 @@ Akihabaraの中央通りが、週末になると歩行者天国として開放�
 <END2>
 
 #WRITE(PTR, $00001B90)
-ロト６
+Loto6
 <END2>
 
 #WRITE(PTR, $00001B92)
@@ -4676,11 +4692,13 @@ Other
 <END2>
 
 #WRITE(PTR, $00001B98)
-０１～４３までの数字が書かれたシートを買い、その数字の中から６つを選択、毎週発表される当選番号と一致していれば当たりとなる宝くじの一種。<LINE>当選者が出なかったときは次の週へと持ち越しされるため、当選金額は毎週変化する。
+A lottery where you buy a sheet printed with the numbers 01 to 43 and choose six.<LINE>
+Winning numbers are announced every week.<LINE>
+If nobody wins, the prize carries over to the next week, so the prize amount varies with time.
 <END2>
 
 #WRITE(PTR, $00001BB0)
-ロボトミー
+Lobotomy
 <END2>
 
 #WRITE(PTR, $00001BB2)
@@ -4696,7 +4714,10 @@ Other
 <END2>
 
 #WRITE(PTR, $00001BB8)
-脳に外科的な医療処置を行うことで、精神疾患を治療する術式の１つ。<LINE>頭蓋骨に小さな穴を開け、長いメスによって前頭葉を切除する。<LINE>これにより精神疾患が治療されるケースもあり、この術式の開発者にはノーベル賞が授与されたほどであった。<LINE>しかし一方で、重大な精神的副作用の発生や、前頭葉切除による人間性の喪失なども頻発。<LINE>１９７０年代になってロボトミー手術は世界的に禁止された。
+A surgical brain treatment for mental disorders.<LINE>
+A small hole is made into the skull, and the frontal lobe is cut with a long scalpel.<LINE>
+There are cases where this technique has cured mental disorders, enough to earn the developer a Nobel prize.<LINE>
+However, the technique has also caused serious mental side effects and loss of humanity.
 <END2>
 
 #WRITE(PTR, $00001BD0)
