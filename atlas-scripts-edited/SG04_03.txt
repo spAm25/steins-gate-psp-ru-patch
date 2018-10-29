@@ -1,0 +1,300 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001BEE)
+
+#WRITE(PTR, $00000644)
+We immediately started the D-mail experiment, and even though it's before noon, the Microwave Ophone (Temp)'s discharge phenomenon still broke out.
+<END>
+
+#WRITE(PTR, $00000654)
+Things look favorable today.
+<END>
+
+#WRITE(PTR, $00000664)
+By the way, we haven't talked to Manager downstairs yet.
+<END>
+
+#WRITE(PTR, $00000674)
+Maybe we should think of an excuse beforehand.
+<END>
+
+#WRITE(PTR, $00000684)
+But this isn't the time to read the owner's expression.
+<END>
+
+#WRITE(PTR, $00000694)
+Correct, for this is the war against the Organization, otherwise known as SERN, and their conspiracy controlling the world from the shadows!
+<END>
+
+#WRITE(PTR, $0000085E)
+【Itaru】<DICT>Anzai-sensei</DICT>, I-I want to eat Faris-tan's home cooking...
+<END>
+
+#WRITE(PTR, $00000942)
+【Mayuri】If you give up, it's game over you know-?
+<END>
+
+#WRITE(PTR, $00000A82)
+Even with Daru's second D-mail, the past didn't change.
+<END>
+
+#WRITE(PTR, $00000B26)
+I feel like RaiNet matches are difficult to cheat your way out of in the first place.
+<END>
+
+#WRITE(PTR, $00000BCA)
+Not to mention we're limited to 36 bytes.
+<END>
+
+#WRITE(PTR, $00000C6E)
+Looks like we'll have to give up on Daru, who's started to sulkily surf the net.
+<END>
+
+#WRITE(PTR, $00000D12)
+But even if we were to use another lab mem as a test subject, it doesn't look like Kurisu would bend her policy.
+<END>
+
+#WRITE(PTR, $00000DB6)
+Meaning there's only one candidate left.
+<END>
+
+#WRITE(PTR, $00000EF2)
+【Rintaro】Mayuri, let's have you change the past next.
+<END>
+
+#WRITE(PTR, $00000FA0)
+【Mayuri】Eh-? Mayushii? It's okay to change it?
+<END>
+
+#WRITE(PTR, $0000104E)
+【Mayuri】But changing the past... what should I change about it-?
+<END>
+
+#WRITE(PTR, $00001104)
+Mayuri looks stumped as she slurps her cup ramen.
+<END>
+
+#WRITE(PTR, $00001126)
+【Mayuri】Ah, then, how about this-? I'll change the past and have Luka-kun wear Mayushii's costume.
+<END>
+
+#WRITE(PTR, $00001136)
+【Rintaro】How?
+<END>
+
+#WRITE(PTR, $00001150)
+【Mayuri】By sending Luka-kun a mail-♪ Ehhehe-
+<END>
+
+#WRITE(PTR, $00001160)
+That's not changing the past, but just a wish, isn't it...
+<END>
+
+#WRITE(PTR, $00001170)
+【Rintaro】You can't think of something more simple, and easy to understand?
+<END>
+
+#WRITE(PTR, $0000118A)
+【Mayuri】Hm~mm~?
+<END>
+
+#WRITE(PTR, $0000119A)
+She slurps more ramen.
+<END>
+
+#WRITE(PTR, $000011AE)
+【Rintaro】...Let's use that cup ramen.
+<END>
+
+#WRITE(PTR, $000011BE)
+Looks like only I can come up with ideas.
+<END>
+
+#WRITE(PTR, $000011CE)
+【Rintaro】We'll send a D-mail to Mayuri one hour back. I wanna eat cup oden or so.
+<END>
+
+#WRITE(PTR, $00001216)
+【Kurisu】I don't think that's simple enough to convince her to--
+<END>
+
+#WRITE(PTR, $00001230)
+【Mayuri】Ah, that might be really good-☆
+<END>
+
+#WRITE(PTR, $0000124A)
+【Kurisu】Eh...?
+<END>
+
+#WRITE(PTR, $00001268)
+【Mayuri】Today, when I was in front of the vending machine, I couldn't decide for about ten minutes-.
+<END2>
+
+#WRITE(PTR, $00001282)
+ Should I go with cup oden-, or
+<END2>
+
+#WRITE(PTR, $0000129C)
+ should I go with cup ramen-?
+<END>
+
+#WRITE(PTR, $000012B0)
+【Rintaro】Basically, if she was pushed a little, Mayuri would inevitably want to eat cup oden, right!? Alright, let's go with that!
+<END>
+
+#WRITE(PTR, $000012CA)
+【Mayuri】Yup, okay-. Well then, before we change the past, I gotta eat all this ramen first-
+<END>
+
+#WRITE(PTR, $000012DA)
+Then Mayuri starts eating the ramen for dear life.
+<END>
+
+#WRITE(PTR, $000012F4)
+【Kurisu】What's wrong with not eating it?
+<END>
+
+#WRITE(PTR, $00001304)
+【Mayuri】That'll be a waste♪
+<END>
+
+#WRITE(PTR, $00001318)
+【Kurisu】Ah, I, I see.
+<END2>
+
+#WRITE(PTR, $00001332)
+ That's right... ahaha.
+<END>
+
+#WRITE(PTR, $00001346)
+Mayuri answers while smiling. Kurisu's face goes stiff.
+<END>
+
+#WRITE(PTR, $0000135E)
+She really is a <DICT>dumb girl</DICT>. This isn't the first time.
+<END>
+
+#WRITE(PTR, $000013D4)
+The D-mail preparations are set.
+<END>
+
+#WRITE(PTR, $000013E4)
+The contents of Mayuri's mail are simple enough.
+<END>
+
+#WRITE(PTR, $00001496)
+<LINE>
+<LINE>
+<LINE>
+%LC"Cup oden is:"<LINE>
+"Piping hot &"<LINE>
+"Delicious!!!"
+<ENDPANEL>
+
+#WRITE(PTR, $000014C6)
+Now we just pray that Mayuri will be inclined to choose cup oden.%
+<END>
+
+#WRITE(PTR, $00001522)
+We wait for Mayuri to finish eating her cup ramen and activate the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00001532)
+To send it one hour back, we set the timer to 1#. In other words, we set the microwave for only one second.
+<END>
+
+#WRITE(PTR, $00001542)
+I wonder if the discharge phenomenon will occur in that small time.
+<END>
+
+#WRITE(PTR, $00001552)
+This is another first challenge for this experiment.
+<END>
+
+#WRITE(PTR, $00001562)
+【Rintaro】Microwave Ophone (Temp), activate!
+<END>
+
+#WRITE(PTR, $00001638)
+【Mayuri】Aah, the mail still hasn't sent-...
+<END>
+
+#WRITE(PTR, $00001648)
+There wasn't enough time to blink, huh...
+<END>
+
+#WRITE(PTR, $0000175E)
+【Kurisu】So the discharge phenomenon won't occur with just one second, huh. It might just be data, but that's still good to know.
+<END>
+
+#WRITE(PTR, $0000176E)
+【Itaru】What if you try warming it up beforehand?
+<END>
+
+#WRITE(PTR, $00001788)
+【Kurisu】Warming it up?
+<END>
+
+#WRITE(PTR, $00001798)
+【Itaru】Basically, the discharge phenomenon won't occur with one second, right? Then just operate the microwave beforehand for about 30 seconds without sending a mail.
+<END>
+
+#WRITE(PTR, $000017A8)
+【Itaru】Wait a while after that, and try it again with the timer set at one second. If you do that, won't the discharge phenomenon occur even with just one second?
+<END>
+
+#WRITE(PTR, $000017B8)
+【Kurisu】Any Basis?
+<END>
+
+#WRITE(PTR, $000017D2)
+【Itaru】Zilch.
+<END>
+
+#WRITE(PTR, $000018A8)
+【Rintaro】Uhh, Mayuri, got anything else!?
+<END>
+
+#WRITE(PTR, $000018C6)
+【Mayuri】Eh, well...
+<END2>
+
+#WRITE(PTR, $000018E0)
+ Then, how about changing the garnish in the onigiri I bought last night-...
+<END>
+
+#WRITE(PTR, $000018F4)
+【Rintaro】You remember what garnish you had in the onigiri you ate last night?
+<END>
+
+#WRITE(PTR, $00001904)
+【Mayuri】Okaka.
+<END>
+
+#WRITE(PTR, $000019CE)
+【Kurisu】A-an immediate response!?
+<END>
+
+#WRITE(PTR, $000019DE)
+Seems she remembers it clearly.
+<END>
+
+#WRITE(PTR, $000019F2)
+【Mayuri】So then, change the okaka to, um...
+<END2>
+
+#WRITE(PTR, $00001A0C)
+ Let's go with mentaiko-♪
+<END>
+
+#WRITE(PTR, $00001A20)
+...Maybe I should search for another test subject.
+<END>
+
+#WRITE(PTR, $00001A30)
+In the end, the four lab mems sit silently, obviously making me think we can't complete a single experiment.
+<FILEEND7C>
+
