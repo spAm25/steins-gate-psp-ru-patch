@@ -6,19 +6,21 @@ Honestly, you shouldn't bother with how it works, because I already did (well, c
 #### ETA
 No promises, but let's hope this will be released before the end of 2018.
 
-#### What's left to be done (in order of priority)
-- Manually polish up all SG Atlas Scripts. Current progress:
-  - Prologue
-  - Chapter 1
-  - Chapter 2
-  - Chapter 3
-  - Chapter 4 (5/25)
-- Manually fill out DICT (all tips)
+#### What's done
+- PC version cutscenes with rendered subtitles converted to PMF
+  * This is actually finished. All cutscenes that require translation (`END_FAKE`, `END_TRUE`, `INSERT01`, `INSERT02`, `INSERT03`, `OPEN`, `OPEN2`. Though I'm not sure if `END_TRUE`, `OPEN` and `OPEN2` require translations, but it doesn't really matter) have been converted from PC version of the game. As far as I know, there are no other cutscenes that require translating, but if there are then I'll get to them later.
+  * The process required me to do some **illegal** magic to get to the result, so I'm not going to share the final PMFs in public as single files (if you ever stumble upon this trying to find a way to convert any video file into PMF then shoot me an email, I'll explain it). However, they will be included as a part of the final xdelta patch.
+  * [YO GUYS CHECK OUT MY LATEST YOUTUBE VID WHERE I REACT TO THE PATCHED PROLOGUE PMF PLAYING WITHOUT CRASHING ON A REAL PSP. LIKE COMMENT AND SUBSCRIBE XDDDD](https://youtu.be/Ajfok-Eup1w)
+- Chapters: 1, 2, 3, 4
+- DICT is fully translated (all ingame tips).
+- Some text messages in DATA, but not entirely
+
+#### What's left to be done
+- Manually polish up all other SG Atlas Scripts.
 - TEST THAT THE GAME WORKS AT THIS POINT
 - Manually fill out DATA (character names, phonebook, messages)
 - Manually translate UI elements
-- Get PC version cutscenes with subtitles, convert them to PMF and replace the current ones
-- Figure out a legal way to distribute all this (if I can't solve this one, then Imma just post the finished ISO)
+- Distribute this as an xdelta patch file
 
 #### Information about files/folders:
 - WIP
@@ -28,7 +30,7 @@ No promises, but let's hope this will be released before the end of 2018.
 #### Shoutouts to other people that were somehow involved in this:
 - [Riku](https://gbatemp.net/members/riku.176570/): Made a proof of concept that the translation of the game is possible. Didn't share his Cartographer scripts though, so instead ***TOPOGRAPHER*** happened.
 - [Nysek](https://github.com/Nysek/): Attempted to translate the game into English with Riku's tools (and somehow got to SG01_02. How did you do that? Manually???)
-- [HoaiTrung97](https://gbatemp.net/members/hoaitrung97.461220/): Idk, you seem cool. Good competition.
+
 
 #### Important links:
 - English translation: [link](http://tsuuun.blogspot.com/2012/01/happy-new-year-everyone-and-yeah-its.html)

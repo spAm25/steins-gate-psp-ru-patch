@@ -1011,7 +1011,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000B6C)
-もしかして寝てるの?　それとも無視してるの?　今、階段をのぼってる。　Moeka
+Are you sleeping by any chance? Or are you ignoring me? I'm climbing the stairs now. Moeka
 <END2>
 
 #WRITE(PTR, $00000B84)
@@ -1022,7 +1022,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000B8C)
-せめて返事ください…。それとも居留守?　ドアの前に来たよ。Moeka
+At least respond... Are you pretending to be out? I'm coming to the door. Moeka
 <END2>
 
 #WRITE(PTR, $00000BA4)
@@ -1033,11 +1033,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000BAC)
-ドアをノックしてみようかと思ったけど、このビル、薄暗くて…怖い。なんか出そうで、音出せない…＞＜　Moeka
+I thought about knocking on the door, but this building's dark and... scary. I'm going to be quiet so nothing comes out...＞＜ Moeka
 <END2>
 
 #WRITE(PTR, $00000BC4)
-いないの?
+Are you gone?
 <END2>
 
 #WRITE(PTR, $00000BC8)
@@ -1045,7 +1045,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000BCC)
-いないの?　今どこにいる?　秋葉原のどこかにいる?　Moeka
+Are you gone? Where are you now? Where in Akihabara could you be? Moeka
 <END2>
 
 #WRITE(PTR, $00000BE4)
@@ -9710,15 +9710,15 @@ Middle School Girl
 <END2>
 
 #WRITE(PTR, $000058BC)
-【Farisパパ】
+【Faris' Dad】
 <END2>
 
 #WRITE(PTR, $000058C0)
-Farisパパ
+Faris' Dad
 <END2>
 
 #WRITE(PTR, $000058C4)
-Farisパパ
+Faris' Dad
 <END2>
 
 #WRITE(PTR, $000058CC)
@@ -9902,15 +9902,15 @@ Chairman
 <END2>
 
 #WRITE(PTR, $000059BC)
-【執事】
+【Butler】
 <END2>
 
 #WRITE(PTR, $000059C0)
-執事
+Butler
 <END2>
 
 #WRITE(PTR, $000059C4)
-執事
+Butler
 <END2>
 
 #WRITE(PTR, $000059CC)

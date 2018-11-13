@@ -1,0 +1,252 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000013B4)
+
+#WRITE(PTR, $000002CE)
+The next morning, I leave the brightened lab and take an aimless stroll.
+<END>
+
+#WRITE(PTR, $00000372)
+What I learn as a result is that, although its chaos factor has decreased, all in all, Akiba is still Akiba.
+<END>
+
+#WRITE(PTR, $00000416)
+Electronics shops exist just like before. Or rather, they multiplied.
+<END>
+
+#WRITE(PTR, $000004BA)
+You can still hear the shops' loud theme songs and echoing barkers all the way from the sidewalk.
+<END>
+
+#WRITE(PTR, $0000055E)
+A little uninteresting-- but peaceful-- electronics otaku, PC maniacs, and even cheerful foreigners walk the streets.
+<END>
+
+#WRITE(PTR, $00000602)
+Maids handing out fliers on the streets, and young female customers-- so-called fujoshi-- disappeared, but the essence of an otaku town is unchanged.
+<END>
+
+#WRITE(PTR, $000006A6)
+That's a little bit of a relief.
+<END>
+
+#WRITE(PTR, $0000074A)
+By the way, about how Faris and I met despite MayQueen's nonexistence. Mayuri told me last night.
+<END>
+
+#WRITE(PTR, $000007EE)
+Mayuri and I accompanied Daru as he went to a small RaiNet AB tournament at a toy store in Ikebukuro, but he retired because of a stomach ache. Flustered, Mayuri and I ended up enlisting on the spur of the moment.
+<END>
+
+#WRITE(PTR, $00000892)
+Our opponent was Faris.
+<END>
+
+#WRITE(PTR, $00000936)
+Obviously Mayuri and I suffered overwhelming defeat as a newcomer pair, but apparently, Faris gave us kind, careful, and thorough advice on how to play.
+<END>
+
+#WRITE(PTR, $000009DA)
+That was the beginning of Mayuri and Faris' beautiful friendship.
+<END>
+
+#WRITE(PTR, $00000A90)
+The past was changed on a large scale on that part, but it's admirable that our current relationships remained the same in the end.
+<END>
+
+#WRITE(PTR, $00000AAC)
+Or maybe Lady Luck really exists.
+<END>
+
+#WRITE(PTR, $00000B4E)
+Oh, a mail.
+<END>
+
+#WRITE(PTR, $00000ED6)
+【Rintaro】What... is this...?
+<END>
+
+#WRITE(PTR, $00000EE6)
+A prank mail? Spam?
+<END>
+
+#WRITE(PTR, $00000EF6)
+Why red jelly? Being watched? Me?
+<END>
+
+#WRITE(PTR, $00000F86)
+I'm momentarily confused.
+<END>
+
+#WRITE(PTR, $00000F9C)
+Unintentionally, I look at my surroundings.
+<END>
+
+#WRITE(PTR, $00000FAC)
+Goosebumps raise instinctively.
+<END>
+
+#WRITE(PTR, $00000FBC)
+I feel something disquieting.
+<END>
+
+#WRITE(PTR, $00000FCC)
+【Rintaro】The "Organization"? ...Or maybe, SERN...?
+<END>
+
+#WRITE(PTR, $0000107E)
+<LINE>
+<LINE>
+<LINE>
+%t018If that's true, then--
+<ENDPANEL>
+
+#WRITE(PTR, $0000108E)
+<LINE>
+%t060This is... a threat mail...!?
+<ENDPANEL>
+
+#WRITE(PTR, $000010AA)
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+%t120My heart beats skyrocket.
+<ENDPANEL>
+
+#WRITE(PTR, $000010BA)
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+%t024Not good. Not good. Not good.
+<ENDPANEL>
+
+#WRITE(PTR, $000010CA)
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+%t210What do I do?
+<ENDPANEL>
+
+#WRITE(PTR, $000010DA)
+<LINE>
+<LINE>
+%t168Consult someone?
+<ENDPANEL>
+
+#WRITE(PTR, $000010EA)
+<LINE>
+<LINE>
+<LINE>
+%t144Whom? They'd get involved too.
+<ENDPANEL>
+
+#WRITE(PTR, $000010FA)
+<LINE>
+<LINE>
+%t108It's a prank.
+<ENDPANEL>
+
+#WRITE(PTR, $0000110A)
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+%t048Don't take it seriously.
+<ENDPANEL>
+
+#WRITE(PTR, $0000111A)
+<LINE>
+%t090What if it -is- serious?
+<ENDPANEL>
+
+#WRITE(PTR, $0000112A)
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+%t120Will black suits really come for me?
+<ENDPANEL>
+
+#WRITE(PTR, $00001146)
+<LINE>
+<LINE>
+<LINE>
+%t180Erase.
+<ENDPANEL>
+
+#WRITE(PTR, $00001156)
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+%t000They'll erase me. Erase us.
+<ENDPANEL>
+
+#WRITE(PTR, $00001166)
+<LINE>
+%t075Call the police?
+<ENDPANEL>
+
+#WRITE(PTR, $00001176)
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+%t018No, pointless. Not enough evidence.
+<ENDPANEL>
+
+#WRITE(PTR, $00001186)
+<LINE>
+<LINE>
+<LINE>
+%t240What do I do?
+<ENDPANEL>
+
+#WRITE(PTR, $00001196)
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+<LINE>
+%t270What should I do?
+<ENDPANEL>
+
+#WRITE(PTR, $000011A6)
+<LINE>
+<LINE>
+<LINE>
+%t006What should I--
+<ENDPANEL>
+
+#WRITE(PTR, $000011D6)
+Various thoughts spin inside my head.
+<END>
+
+#WRITE(PTR, $000011E6)
+Every pedestrian looks like an enemy.
+<END>
+
+#WRITE(PTR, $000011F6)
+I run away from the crowd.
+<FILEEND84>
+

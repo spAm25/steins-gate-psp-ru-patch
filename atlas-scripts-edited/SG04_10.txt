@@ -1,0 +1,495 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00003812)
+
+#WRITE(PTR, $00000820)
+After going out of the lab, I sink into a chair at "MayQueen+Nyan⑯" and think.
+<END>
+
+#WRITE(PTR, $00000830)
+Daru sits in front of me, impatiently waiting for Faris to bring us our order.
+<END>
+
+#WRITE(PTR, $000008DC)
+【Rintaro】Daru. What do you think about D-mail?
+<END>
+
+#WRITE(PTR, $0000098A)
+【Itaru】Cool, and somehow uncool.
+<END>
+
+#WRITE(PTR, $00000A2E)
+【Rintaro】What's uncool about it?
+<END>
+
+#WRITE(PTR, $00000ADC)
+【Itaru】It couldn't change the result of my RaiNet match with Faris-tan.
+<END>
+
+#WRITE(PTR, $00000B80)
+What a selfish reason...
+<END>
+
+#WRITE(PTR, $00000C24)
+【Rintaro】It's become clear with all these experiments, but the precision of D-mail still hasn't reached a reliable level.
+<END>
+
+#WRITE(PTR, $00000CC8)
+【Rintaro】It's defective as a device due to the involved element of luck. Unless we can somehow give the sender more control, it's going to end up as junk unfit for practical use.
+<END>
+
+#WRITE(PTR, $00000D6C)
+In the first place, there's the problem with how only I can recognize the results of the changes.
+<END>
+
+#WRITE(PTR, $00000E10)
+When I think about how I couldn't have confirmed the experimental results without my special ability, it makes me keenly aware of how user-unfriendly it is.
+<END>
+
+#WRITE(PTR, $00000EBE)
+【Itaru】It's certainly not getting results, huh. What about the LOTO SIX case?
+<END>
+
+#WRITE(PTR, $00000F62)
+【Rintaro】Pending.
+<END>
+
+#WRITE(PTR, $00001006)
+The fact that we missed due to Lukako's blunder does interest me, but what interests me more is why I would give the numbers to Lukako after getting the D-mail.
+<END>
+
+#WRITE(PTR, $000010AA)
+It's as if Steins;Gate's choice guided money away from my grasp.
+<END>
+
+#WRITE(PTR, $0000114E)
+Mm, no good, you're thinking negatively.
+<END>
+
+#WRITE(PTR, $000011F2)
+【Rintaro】The man known as Hououin Kyouma is not one to stumble at a point like this. I won't give up. For I am a mad scientist...!
+<END>
+
+#WRITE(PTR, $000012A0)
+【Itaru】I don't understand what you're saying, but you sure seem confident about it.
+<END>
+
+#WRITE(PTR, $00001344)
+【Rintaro】That Microwave Ophone (Temp) will someday be improved so that humans may use it to send things not only into the past, but also towards the future. I'll improve it. No, I must improve it!
+<END>
+
+#WRITE(PTR, $000013E8)
+【Rintaro】For that is Steins;Gate's choice! Fuhahahaha!
+<END>
+
+#WRITE(PTR, $00001492)
+【Faris】A time machine-?
+<END>
+
+#WRITE(PTR, $000017CC)
+【Rintaro】!!?
+<END>
+
+#WRITE(PTR, $000018B4)
+Before I realized it, Faris is standing right next to me.
+<END>
+
+#WRITE(PTR, $00001962)
+【Rintaro】Tch, damn you Faris, eavesdropping is cowardly...!
+<END>
+
+#WRITE(PTR, $00001A10)
+【Faris】What're you saying nya? Kyouma's voice is so loud, it echoed through the shop nya.
+<END>
+
+#WRITE(PTR, $00001ABE)
+What... did you say...?
+<END>
+
+#WRITE(PTR, $00001B62)
+Once again, I leaked classified information concerning the future of all mankind!
+<END>
+
+#WRITE(PTR, $00001C10)
+【Faris】Here's your iced coffee, and iced tea and "cat food". Thanks for waiting nyan♪
+<END>
+
+#WRITE(PTR, $00001CBE)
+Daru's order of cat food is a standard menu item for this maid cafe.
+<END>
+
+#WRITE(PTR, $00001D62)
+It's not miso over rice, but stylish risotto.
+<END>
+
+#WRITE(PTR, $00001E06)
+It's one of Daru's favorites. It's actually pretty tasty.
+<END>
+
+#WRITE(PTR, $00001EB4)
+The iced coffee is placed in front of me.
+<END>
+
+#WRITE(PTR, $00001F62)
+【Faris】Do you want milk and syrup in it nyan?
+<END>
+
+#WRITE(PTR, $00002006)
+【Rintaro】I refuse.
+<END>
+
+#WRITE(PTR, $000020B4)
+【Faris】If Kyouma's gonna be like that, then I'll pour it all in nya~. You need a moderate amount of sugar for a healthy brain nyan♪
+<END>
+
+#WRITE(PTR, $00002158)
+Despite my refusal, Faris pours all of the milk and syrup into my glass,
+<END>
+
+#WRITE(PTR, $0000223C)
+【Faris】Nyan nyan, nyan nyan♪
+<END>
+
+#WRITE(PTR, $000022E0)
+all the while murmuring that nonsense and mixing my iced coffee with a straw before my eyes.
+<END>
+
+#WRITE(PTR, $000024F2)
+【Itaru】There it is-! This is Faris-tan's secret technique, Mixing before Eyes-!
+<END>
+
+#WRITE(PTR, $00002596)
+Daru starts explaining in excitement.
+<END>
+
+#WRITE(PTR, $00002644)
+【Itaru】Normally, it's hard to do it without spilling the drink, yet Faris-tan can calmly pull it off. That's what I love about her!!
+<END>
+
+#WRITE(PTR, $000026E8)
+【Itaru】It's through this secret technique that Faris-tan reigns supreme as MayQueen's number one popular maid, exclamation mark!
+<END>
+
+#WRITE(PTR, $0000288C)
+The iced coffee in the glass changes color from black to brown.
+<END>
+
+#WRITE(PTR, $00002930)
+Carried away by Faris' pace again, I gnash my teeth.
+<END>
+
+#WRITE(PTR, $00002A42)
+Faris shows Daru the same secret technique.
+<END>
+
+#WRITE(PTR, $00002AF4)
+【Itaru】Faris-tan, thank you! I shall be sure to savor it.
+<END>
+
+#WRITE(PTR, $00002BAA)
+He bows deeply. Such a cordial man.
+<END>
+
+#WRITE(PTR, $00002BCE)
+I take a sidelong glance at Daru's excitement while taking a sip of my iced coffee. Its bitterness and sweetness flow through my throat.
+<END>
+
+#WRITE(PTR, $00002C16)
+When I look to the side, suddenly I see Faris standing with her silver tray in front of her waist.
+<END>
+
+#WRITE(PTR, $00002C26)
+【Rintaro】Do you need something?
+<END>
+
+#WRITE(PTR, $00002C36)
+【Faris】I wanna hear the rest nya♪
+<END>
+
+#WRITE(PTR, $00002C50)
+【Faris】Kyouma and Daru-nyan were talking about something interesting nya? Something about a time machine.
+<END>
+
+#WRITE(PTR, $00002C6E)
+【Faris】Faris really wants to hear nya~n.
+<END>
+
+#WRITE(PTR, $00002C7E)
+She gives a babyish look with upturned eyes.
+<END>
+
+#WRITE(PTR, $00002C8E)
+But I firmly repulse her.
+<END>
+
+#WRITE(PTR, $00002C9E)
+【Rintaro】It's top secret. Not to be shown to outsiders!
+<END>
+
+#WRITE(PTR, $00002CBC)
+【Faris】Just who exactly was the one who talked so loud it echoed through the whole store nya?
+<END>
+
+#WRITE(PTR, $00002CCC)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002D1C)
+【Faris】Daru-nya~n, Faris wants you to tell her nya....
+<END>
+
+#WRITE(PTR, $00002D36)
+Looks like she's targeting Daru now.
+<END>
+
+#WRITE(PTR, $00002DD4)
+Don't take him lightly, Faris NyanNyan.
+<END>
+
+#WRITE(PTR, $00002DE4)
+Daru is my most trustworthy right hand man, the wizard-class supah hakah.
+<END>
+
+#WRITE(PTR, $00002DF4)
+He won't be tricked into divulging classified information to outsiders!
+<END>
+
+#WRITE(PTR, $00002E62)
+【Itaru】Actually, we made an amazing machine that can send mails into the past. Mostly I did.
+<END>
+
+#WRITE(PTR, $00002E72)
+An instant surrender!
+<END>
+
+#WRITE(PTR, $00002E82)
+Seduction is scary...
+<END>
+
+#WRITE(PTR, $00002E9C)
+【Faris】So that's basically a time machine nya!?
+<END>
+
+#WRITE(PTR, $00002EAC)
+【Itaru】I guess you could say that-
+<END>
+
+#WRITE(PTR, $00002EC6)
+【Faris】It's pawesome that you could make a time machine nya. Faris is about to hnng over Daru-nyan's smartness nyan.
+<END>
+
+#WRITE(PTR, $00002EE0)
+【Itaru】Seriously-? Th-that's embarrassing, uheuhe.
+<END>
+
+#WRITE(PTR, $00002EF0)
+Dumbass. What's with that smile...
+<END>
+
+#WRITE(PTR, $00002F0A)
+【Faris】Faris always dreamed of riding a time machine on a journey across timeow
+<END>
+
+#WRITE(PTR, $00002F24)
+【Itaru】Someday, I'll bring you.
+<END>
+
+#WRITE(PTR, $00002F34)
+【Rintaro】Daru, don't make promises you can't keep.
+<END>
+
+#WRITE(PTR, $00002F88)
+【Faris】By the way, this has always bugged me, but what exactly is timeow?
+<END>
+
+#WRITE(PTR, $00002FA2)
+【Rintaro】What...?
+<END>
+
+#WRITE(PTR, $00002FBC)
+【Faris】Time is often compared to a river, flowing from past to future, right nya?
+<END>
+
+#WRITE(PTR, $00002FD6)
+【Faris】But is it really nya~?
+<END>
+
+#WRITE(PTR, $00003002)
+【Faris】If it does flow like a river, then where is the "present" between past and future, nya? Is it a point? Is it a line? Where does the "present" begin and end, nya?
+<END>
+
+#WRITE(PTR, $00003012)
+【Itaru】Now that you mention it, I do have a vague image of it, but I never gave it any serious thought.
+<END>
+
+#WRITE(PTR, $00003022)
+【Rintaro】The "present" is a leaf floating on top of the river. It moves along with the flow from past to future.
+<END>
+
+#WRITE(PTR, $0000303C)
+【Faris】So then, is it pawppropriate to consider that all people ride on that leaf? When you die, do you fall off that leaf nyan?
+<END>
+
+#WRITE(PTR, $0000304C)
+【Rintaro】That's probably right. All points upstream from that leaf are the past. Downstream, the future.
+<END>
+
+#WRITE(PTR, $0000306A)
+【Faris】Hmnya, but~
+<END>
+
+#WRITE(PTR, $0000307A)
+【Faris】To humans, is that leaf the same as the "present" nya?
+<END>
+
+#WRITE(PTR, $00003094)
+【Rintaro】Meaning...?
+<END>
+
+#WRITE(PTR, $000030AE)
+【Faris】I understand that humans observe time with units they defined, so the leaf is the "present". But--
+<END>
+
+#WRITE(PTR, $000030BE)
+【Faris】Let's say that every living being in the universe goes extinct, which I think would mean nothing would exist to observe the "present" nya.
+<END>
+
+#WRITE(PTR, $000030D8)
+【Faris】In that case, where does the "present" go nya?
+<END>
+
+#WRITE(PTR, $000030E8)
+【Itaru】Wouldn't something like a god or the will of the universe observe it?
+<END>
+
+#WRITE(PTR, $0000310A)
+【Faris】Then, if we consider that god as a <DICT>4th dimension</DICT>al being, can he freely move through the past and the present nya?
+<END>
+
+#WRITE(PTR, $0000311A)
+【Rintaro】O-ohh...?
+<END>
+
+#WRITE(PTR, $00003134)
+【Faris】If that god's "present" becomes the standard, then wouldn't it be weird unless our "present" either goes to the past or goes to the future nya?
+<END>
+
+#WRITE(PTR, $0000314E)
+【Itaru】Mmmmmm...
+<END>
+
+#WRITE(PTR, $0000315E)
+【Rintaro】So basically, you want to say that the "present" depends on the observer's subjectivity, right?
+<END>
+
+#WRITE(PTR, $00003178)
+【Faris】In that case, the past and the future also depend on the observer nyan.
+<END>
+
+#WRITE(PTR, $00003188)
+【Faris】If Faris were to use a time machine to time travel one week back, then Kyouma and Daru-nyan's "present" will differ from Faris' "present" by a week nya.
+<END>
+
+#WRITE(PTR, $000031A2)
+【Itaru】Yeah, now that you mention it...
+<END>
+
+#WRITE(PTR, $000031BC)
+【Faris】Then how's that difference represented by the leaf nya?
+<END>
+
+#WRITE(PTR, $000031CC)
+Daru and I don't answer.
+<END>
+
+#WRITE(PTR, $000031DC)
+That might be something nobody can answer, just like the "collapse of causality" thing that Kurisu mentioned.
+<END>
+
+#WRITE(PTR, $000031EC)
+So does that mean that time machines and time travel are impossible after all?
+<END>
+
+#WRITE(PTR, $000031FC)
+But SERN's Jellymanned subjects physically transferred way back to 1921...
+<END>
+
+#WRITE(PTR, $00003216)
+【Faris】In the first place, if things depend on the observer's subjectivity, then clocks become irrelevant, nyan.
+<END>
+
+#WRITE(PTR, $00003230)
+【Faris】Fun times fly, and painful times feel slow. So basically, the flow of time changes depending on subjectivity, nyan.
+<END>
+
+#WRITE(PTR, $0000324A)
+【Itaru】Speaking of which, as you grow older, it feels like time starts to flow faster, huh.
+<END>
+
+#WRITE(PTR, $00003262)
+【Rintaro】<DICT>Janet's law</DICT>, huh...
+<END>
+
+#WRITE(PTR, $0000327C)
+【Faris】So, Faris thinks about this sorta thing sometimes nya. That's why she thinks that time might not be something as simple as the flow of a river, nyan.
+<END>
+
+#WRITE(PTR, $00003296)
+【Itaru】Yeah, the more you think about it, the deeper you get ensnared in the trap.
+<END>
+
+#WRITE(PTR, $0000333A)
+The strict definition of time, similar to the question of where is self, is an eternal theme for humanity. Countless scholars of world renown have left this question unanswered. There's no way we can answer it.
+<END>
+
+#WRITE(PTR, $0000334A)
+With that said--
+<END>
+
+#WRITE(PTR, $000033BA)
+【Rintaro】Heh, heheheh, fuhahaha!
+<END>
+
+#WRITE(PTR, $000033D4)
+【Faris】Nyanya?
+<END>
+
+#WRITE(PTR, $000033E4)
+【Rintaro】Fret not. Such philosophical and physical considerations are irrelevant to the time machine we're developing, making space-time jumping possible! Am I correct, Daru!?
+<END>
+
+#WRITE(PTR, $000033FE)
+【Itaru】Yeah, yeah! That's right!
+<END>
+
+#WRITE(PTR, $00003418)
+【Faris】Nyaa~... it's gotten serious nya.
+<END>
+
+#WRITE(PTR, $00003432)
+【Faris】But Faris wants to try using the time machine you guys made nya~. Can I nya?
+<END>
+
+#WRITE(PTR, $0000344C)
+【Itaru】Well, I don't have any objections to letting Faris-tan using it.
+<END>
+
+#WRITE(PTR, $00003466)
+【Faris】Really nya? It's a promise, nya!
+<END>
+
+#WRITE(PTR, $00003476)
+【Rintaro】Daru, don't just decide things on your own!
+<END>
+
+#WRITE(PTR, $00003644)
+Faris springs up with joy, hugging Daru's rotund body.
+<END>
+
+#WRITE(PTR, $00003654)
+It's enough to make Daru look like he ascended.
+<FILEEND34>
+

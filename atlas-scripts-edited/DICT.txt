@@ -14,7 +14,7 @@ IBN
 <END2>
 
 #WRITE(PTR, $00000014)
-あいびーえぬ
+(AiBiEnu)
 <END2>
 
 #WRITE(PTR, $00000016)
@@ -37,7 +37,7 @@ Akashic Records
 <END2>
 
 #WRITE(PTR, $00000034)
-あかしっくれこーど
+(Akashikku Rekoudo)
 <END2>
 
 #WRITE(PTR, $00000036)
@@ -59,7 +59,7 @@ Acetylcholine
 <END2>
 
 #WRITE(PTR, $00000054)
-あせちるこりん
+(Asechirukorin)
 <END2>
 
 #WRITE(PTR, $00000056)
@@ -76,11 +76,11 @@ TODO
 <END2>
 
 #WRITE(PTR, $00000072)
-あ
+A
 <END2>
 
 #WRITE(PTR, $00000074)
-あっー
+(Aー)
 <END2>
 
 #WRITE(PTR, $00000076)
@@ -90,7 +90,8 @@ Net
 #WRITE(PTR, $00000078)
 Internet slang denoting homosexual love between two men.<LINE>
 The source is an athlete's heavy breathing from a certain video.<LINE>
-The correct pronunciation is still unclear.
+The correct pronunciation is still unclear.<LINE>
+Localization: Uho!Reference to the line "Uho! Ii otoko!" [Woah! Hot guy!] from Kuso Miso Technique.
 <END2>
 
 #WRITE(PTR, $00000090)
@@ -102,7 +103,7 @@ The correct pronunciation is still unclear.
 <END2>
 
 #WRITE(PTR, $00000094)
-あっとちゃんねる
+(Atto Chyanneru)
 <END2>
 
 #WRITE(PTR, $00000096)
@@ -123,7 +124,7 @@ Dumb girl
 <END2>
 
 #WRITE(PTR, $000000B4)
-あほのこ
+(Aho no ko)
 <END2>
 
 #WRITE(PTR, $000000B6)
@@ -140,7 +141,7 @@ Slightly different from a natural airhead.
 <END2>
 
 #WRITE(PTR, $000000D0)
-TODO
+Ayamein
 <END2>
 
 #WRITE(PTR, $000000D2)
@@ -148,7 +149,7 @@ TODO
 <END2>
 
 #WRITE(PTR, $000000D4)
-あやめいん
+(Ayamein)
 <END2>
 
 #WRITE(PTR, $000000D6)
@@ -170,7 +171,7 @@ Alpaca
 <END2>
 
 #WRITE(PTR, $000000F4)
-あるぱか
+(Arupaka)
 <END2>
 
 #WRITE(PTR, $000000F6)
@@ -186,7 +187,7 @@ Due to its strangely long neck and its charming face, it has some popularity as 
 <END2>
 
 #WRITE(PTR, $00000110)
-TODO
+Anchor
 <END2>
 
 #WRITE(PTR, $00000112)
@@ -194,7 +195,7 @@ TODO
 <END2>
 
 #WRITE(PTR, $00000114)
-あんか
+(Anka)
 <END2>
 
 #WRITE(PTR, $00000116)
@@ -218,7 +219,7 @@ Anzai-sensei
 <END2>
 
 #WRITE(PTR, $00000134)
-あんざいせんせい
+(Anzai sensei)
 <END2>
 
 #WRITE(PTR, $00000136)
@@ -231,7 +232,7 @@ On the internet, whenever one wants to express the longing desire to do somethin
 <END2>
 
 #WRITE(PTR, $00000150)
-アンチ
+Hater
 <END2>
 
 #WRITE(PTR, $00000152)
@@ -239,7 +240,7 @@ On the internet, whenever one wants to express the longing desire to do somethin
 <END2>
 
 #WRITE(PTR, $00000154)
-あんち
+(Anchi)
 <END2>
 
 #WRITE(PTR, $00000156)
@@ -247,7 +248,9 @@ Net
 <END2>
 
 #WRITE(PTR, $00000158)
-Net掲示板などで,ある人物や事柄に対して否定的な意見を書き込む人たち。<LINE>その人物や事柄のファンが集まるような場所にまで現れて,あえておとしめるようなことやファンを挑発するようなことを書いていく。<LINE>ファンとの間で感情的な論争になることも少なくない。
+People who post negative comments about certain people or things on the internet.<LINE>
+They appear in places where fans of those people or things gather, and provoke them or post derogatory things.<LINE>
+It's not rare for them to cause emotional debate among the fans.
 <END2>
 
 #WRITE(PTR, $00000170)
@@ -259,7 +262,7 @@ Net掲示板などで,ある人物や事柄に対して否定的な意見を書�
 <END2>
 
 #WRITE(PTR, $00000174)
-いってんにいちじごわっと
+(IttenNiIchi jigowatto)
 <END2>
 
 #WRITE(PTR, $00000176)
@@ -274,7 +277,7 @@ The scriptwriter made a spelling mistake which was reproduced in the translation
 <END2>
 
 #WRITE(PTR, $00000190)
-今北産業
+tl;dr
 <END2>
 
 #WRITE(PTR, $00000192)
@@ -282,7 +285,7 @@ The scriptwriter made a spelling mistake which was reproduced in the translation
 <END2>
 
 #WRITE(PTR, $00000194)
-いまきたさんぎょう
+(Imakitasangyou)
 <END2>
 
 #WRITE(PTR, $00000196)
@@ -290,7 +293,10 @@ Net
 <END2>
 
 #WRITE(PTR, $00000198)
-＠ちゃんねる用語。<LINE>盛り上がっているスレなどにおいて,少し遅れて話題に参加した人が“今来たばかりで話の流れがよく分からないので,簡潔に３行にまとめて教えてくれませんか？”と言うのを省略,もじったもの。
+Original: Ima Kita Sangyou, @channel term.<LINE>
+Used by people when they join a busy thread a little late.<LINE>
+An abbreviation and corruption of "I just now came, and don't really understand the flow of the conversation, so could you abbreviate it to three lines?"<LINE>
+Localization: An abreviation for "too long; didn't read". In this case, replace read with listen.
 <END2>
 
 #WRITE(PTR, $000001B0)
@@ -302,7 +308,7 @@ The principle of causality
 <END2>
 
 #WRITE(PTR, $000001B4)
-いんがりつ
+(Ingaritsu)
 <END2>
 
 #WRITE(PTR, $000001B6)
@@ -324,7 +330,7 @@ Wiki
 <END2>
 
 #WRITE(PTR, $000001D4)
-うぃき
+(Uiki)
 <END2>
 
 #WRITE(PTR, $000001D6)
@@ -344,7 +350,7 @@ Computer Conjurer
 <END2>
 
 #WRITE(PTR, $000001F4)
-うぃざーどきゅう
+(Uigi~dokyu~)
 <END2>
 
 #WRITE(PTR, $000001F6)
@@ -357,7 +363,7 @@ Anyway, it sort of means an amazing program, or something.
 <END2>
 
 #WRITE(PTR, $00000210)
-ＵＺＥＥＥＥＥ
+UZEEEEE
 <END2>
 
 #WRITE(PTR, $00000212)
@@ -365,7 +371,7 @@ Anyway, it sort of means an amazing program, or something.
 <END2>
 
 #WRITE(PTR, $00000214)
-うぜええええ
+(Uzeeeee)
 <END2>
 
 #WRITE(PTR, $00000216)
@@ -373,11 +379,12 @@ Net
 <END2>
 
 #WRITE(PTR, $00000218)
-うざい。<LINE>すごく鬱陶しい。
+Shut the fuck up.<LINE>
+You're annoying.
 <END2>
 
 #WRITE(PTR, $00000230)
-うｐ
+up
 <END2>
 
 #WRITE(PTR, $00000232)
@@ -385,7 +392,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000234)
-うぷ
+(Upu)
 <END2>
 
 #WRITE(PTR, $00000236)
@@ -393,7 +400,8 @@ Net
 <END2>
 
 #WRITE(PTR, $00000238)
-アップロードの略。
+Original: Abbreviation for upload.<LINE>
+Hiragana u + Latin p.
 <END2>
 
 #WRITE(PTR, $00000250)
@@ -405,7 +413,7 @@ Urashima Effect
 <END2>
 
 #WRITE(PTR, $00000254)
-うらしまこうか
+(Urashima kouka)
 <END2>
 
 #WRITE(PTR, $00000256)
@@ -426,7 +434,7 @@ Urd
 <END2>
 
 #WRITE(PTR, $00000274)
-うるど
+(Urudo)
 <END2>
 
 #WRITE(PTR, $00000276)
@@ -448,7 +456,7 @@ HTML
 <END2>
 
 #WRITE(PTR, $00000294)
-えいちてぃーえむえる
+(EichiTiEmuEru)
 <END2>
 
 #WRITE(PTR, $00000296)
@@ -470,7 +478,7 @@ HTTP
 <END2>
 
 #WRITE(PTR, $000002B4)
-えいちてぃーてぃーぴー
+(EichiTiTiPi)
 <END2>
 
 #WRITE(PTR, $000002B6)
@@ -483,7 +491,7 @@ The communication protocol used to transfer data like HTML between a browser and
 <END2>
 
 #WRITE(PTR, $000002D0)
-ＡＣＴＨ
+ACTH
 <END2>
 
 #WRITE(PTR, $000002D2)
@@ -491,7 +499,7 @@ The communication protocol used to transfer data like HTML between a browser and
 <END2>
 
 #WRITE(PTR, $000002D4)
-えーしーてぃーえいち
+(EiShiTeiEichi)
 <END2>
 
 #WRITE(PTR, $000002D6)
@@ -499,7 +507,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000002D8)
-副腎皮質刺激ホルモン。
+Adrenocorticotropic hormone.
 <END2>
 
 #WRITE(PTR, $000002F0)
@@ -511,7 +519,7 @@ ATF
 <END2>
 
 #WRITE(PTR, $000002F4)
-えーてぃーえふ
+(EiTiEfu)
 <END2>
 
 #WRITE(PTR, $000002F5)
@@ -533,7 +541,7 @@ APL
 <END2>
 
 #WRITE(PTR, $00000314)
-えーぴーえる
+(EiPiEru)
 <END2>
 
 #WRITE(PTR, $00000316)
@@ -554,7 +562,7 @@ Babel Fish
 <END2>
 
 #WRITE(PTR, $00000334)
-えきさいとせんせい
+(Ekisaitosensei)
 <END2>
 
 #WRITE(PTR, $00000336)
@@ -566,7 +574,7 @@ Original: Nickname for a translation site.
 <END2>
 
 #WRITE(PTR, $00000350)
-エクサ
+Exa
 <END2>
 
 #WRITE(PTR, $00000352)
@@ -574,7 +582,7 @@ Original: Nickname for a translation site.
 <END2>
 
 #WRITE(PTR, $00000354)
-えくさ
+(Ekusa)
 <END2>
 
 #WRITE(PTR, $00000356)
@@ -582,11 +590,12 @@ Other
 <END2>
 
 #WRITE(PTR, $00000358)
-１０⑮。<LINE>キロ→メガ→ギガ→テラ→ペタ→エクサの順に容量は大きくなる。<LINE>１エクサは１兆メガ。
+10⑮.<LINE>
+Kilo→Mega→Giga→Tera→Peta→Exa is the order of increasing capacity.<LINE>
+1 exa = 1 trillion x mega.
 <END2>
 
-#WRITE(PTR, $00000370)
-エシュロン
+Echelon
 <END2>
 
 #WRITE(PTR, $00000372)
@@ -594,7 +603,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000374)
-えしゅろん
+(Eshuron)
 <END2>
 
 #WRITE(PTR, $00000376)
@@ -602,7 +611,13 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000378)
-アメリカを中心として,軍事目的での高度な通信傍受システムが構築されているとする陰謀論が一部にあり,その通信傍受システムの名称を指す。<LINE>運営はアメリカ国家安全保障局（ＮＳＡ）が行っていると言われている。<LINE>だがアメリカ当局はエシュロンの存在を公に認めたことは一度もなく,存在を示す根拠も見つかっていない。<LINE>参加国はアメリカ,イギリス,カナダ,オーストラリア,%nニュージーランドであり,フランスは含まれていない。<LINE>日本はサードパーティーと呼ばれ,国内にエシュロンの傍受局を置くことを見返りとして,その情報を提供してもらうことができる。<LINE>日本国内では青森県の三沢飛行場にある,通称“ゾウの檻”こそがエシュロンであると噂されている。<LINE>その傍受内容は多岐に渡り,軍事用通信電波から個人のケータイ電話の電波まで,あらゆる情報を蓄積,分析しているという。
+An advanced military signals intelligence interception system centered in America, according to conspiracy theories.<LINE>
+It is said to be operated by America's National Security Agency(NSA).<LINE>
+However, American authorities have never publicly admitted to Echelon's existence, and no proof of its existence has been found.<LINE>
+Participating countries include America, the United Kingdom, Canada, Australia, and New Zealand, but not France.<LINE>
+As a third party, Japan can request the information from the domestic Echelon channel placed as collateral.<LINE>
+In Misawa Airbase, Aomori Prefecture, there is something nicknamed the "Elephant's Cage" which is rumored to be part of Echelon.<LINE>
+It is said to intercept, collect, and analyze a wide range of signals, from military grade to personal cellphone transmissions.
 <END2>
 
 #WRITE(PTR, $00000390)
@@ -614,7 +629,7 @@ X-Ray
 <END2>
 
 #WRITE(PTR, $00000394)
-えっくすせん
+(Eckusu sen)
 <END2>
 
 #WRITE(PTR, $00000396)
@@ -635,7 +650,7 @@ X68000
 <END2>
 
 #WRITE(PTR, $000003B4)
-えっくすろくまんはっせん
+(EckusuRokuManHossen)
 <END2>
 
 #WRITE(PTR, $000003B6)
@@ -656,7 +671,7 @@ MI6
 <END2>
 
 #WRITE(PTR, $000003D4)
-えむあいしっくす
+(EmuAiShicksu)
 <END2>
 
 #WRITE(PTR, $000003D6)
@@ -678,7 +693,7 @@ LA
 <END2>
 
 #WRITE(PTR, $000003F4)
-えるえー
+(EruEiー)
 <END2>
 
 #WRITE(PTR, $000003F6)
@@ -691,7 +706,7 @@ A city in California state, on America's west coast.
 <END2>
 
 #WRITE(PTR, $00000410)
-エルドフリームニル
+Eldhrimnir
 <END2>
 
 #WRITE(PTR, $00000412)
@@ -699,7 +714,7 @@ A city in California state, on America's west coast.
 <END2>
 
 #WRITE(PTR, $00000414)
-えるどふりーむにる
+(Erudofuri~muniru)
 <END2>
 
 #WRITE(PTR, $00000416)
@@ -707,11 +722,11 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000418)
-北欧神話に登場する,大きな鍋のこと。
+A large cauldron in Norse mythology.
 <END2>
 
 #WRITE(PTR, $00000430)
-オートミール
+Oatmeal
 <END2>
 
 #WRITE(PTR, $00000432)
@@ -719,7 +734,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000434)
-おーとみーる
+(Outomiーru)
 <END2>
 
 #WRITE(PTR, $00000436)
@@ -727,11 +742,12 @@ Other
 <END2>
 
 #WRITE(PTR, $00000438)
-アメリカでポピュラーな,粥状のシリアル。<LINE>朝食によく出される。
+A thin porridge-like cereal popular in America.<LINE>
+Often served for breakfast.
 <END2>
 
 #WRITE(PTR, $00000450)
-乙
+Otsu
 <END2>
 
 #WRITE(PTR, $00000452)
@@ -739,7 +755,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000454)
-おつ
+(Otsu)
 <END2>
 
 #WRITE(PTR, $00000456)
@@ -747,11 +763,12 @@ Net
 <END2>
 
 #WRITE(PTR, $00000458)
-『おつかれさま』の意。<LINE>Netスラング。
+Original: Otsu, Otsukaresama. Internet slang.<LINE>
+Localization: gj, good job. Both otsu and gj are often used sarcastically.
 <END2>
 
 #WRITE(PTR, $00000470)
-Odd-eye
+Odd-eyed
 <END2>
 
 #WRITE(PTR, $00000472)
@@ -759,7 +776,7 @@ Odd-eye
 <END2>
 
 #WRITE(PTR, $00000474)
-おっどあい
+(OddoAi)
 <END2>
 
 #WRITE(PTR, $00000476)
@@ -774,7 +791,7 @@ There ususally isn't a reason for the character to be odd-eyed. It's mostly just
 <END2>
 
 #WRITE(PTR, $00000490)
-Canned Oden
+Canned oden
 <END2>
 
 #WRITE(PTR, $00000492)
@@ -782,7 +799,7 @@ Canned Oden
 <END2>
 
 #WRITE(PTR, $00000494)
-おでんかん
+(Odenkan)
 <END2>
 
 #WRITE(PTR, $00000496)
@@ -795,7 +812,7 @@ After parts shops in Akihabara began selling it in vending machines, it graduall
 <END2>
 
 #WRITE(PTR, $000004B0)
-おにゃのこ
+Little missy
 <END2>
 
 #WRITE(PTR, $000004B2)
@@ -803,7 +820,7 @@ After parts shops in Akihabara began selling it in vending machines, it graduall
 <END2>
 
 #WRITE(PTR, $000004B4)
-おにゃのこ
+(Onyanoko)
 <END2>
 
 #WRITE(PTR, $000004B6)
@@ -811,7 +828,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000004B8)
-女の子のこと。
+A girl.
 <END2>
 
 #WRITE(PTR, $000004D0)
@@ -823,7 +840,7 @@ Recommended
 <END2>
 
 #WRITE(PTR, $000004D4)
-おぬぬめ
+(Onunume)
 <END2>
 
 #WRITE(PTR, $000004D6)
@@ -844,7 +861,7 @@ Offline
 <END2>
 
 #WRITE(PTR, $000004F4)
-おふかい
+(Ofukai)
 <END2>
 
 #WRITE(PTR, $000004F6)
@@ -856,7 +873,7 @@ When people who met through chat or anonymous message board gather in the same p
 <END2>
 
 #WRITE(PTR, $00000510)
-ｏｒｚ
+orz
 <END2>
 
 #WRITE(PTR, $00000512)
@@ -864,7 +881,7 @@ When people who met through chat or anonymous message board gather in the same p
 <END2>
 
 #WRITE(PTR, $00000514)
-おるつ
+(Orutsu)
 <END2>
 
 #WRITE(PTR, $00000516)
@@ -872,11 +889,14 @@ Net
 <END2>
 
 #WRITE(PTR, $00000518)
-人が四つん這いの状態で落ち込んでいる様子を描いた絵文字。<LINE>「ｏ」が頭,「ｒ」が手と胴体,「ｚ」が足である。<LINE>失意や落胆,挫折の気持ちを表現したいときに用いるのが一般的。<LINE>読み方は厳密には決まっておらず人それぞれで,「オルツ」「オルズ」「オアズ」あるいは「失意体前屈」などという呼び方がある。
+An ideograph depicting a person on all fours.<LINE>
+'o' is the head, 'r' is the arms and torso, and 'z' is the feet.<LINE>
+Typically used to express despair, dejection or frustration.<LINE>
+Pronunciation isn't set. People may pronounce it as "ortz", "oars", "orse" or possibly "disappointed man genuflecting".
 <END2>
 
 #WRITE(PTR, $00000530)
-懐古厨
+Nostalgiafag
 <END2>
 
 #WRITE(PTR, $00000532)
@@ -884,7 +904,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000534)
-かいこちゅう
+(Kaikochyu~)
 <END2>
 
 #WRITE(PTR, $00000536)
@@ -892,7 +912,10 @@ Net
 <END2>
 
 #WRITE(PTR, $00000538)
-Net上で,「昔はよかった。今は全然ダメ」というように,過去を極端に美化,賛美する一方,それ以外をまったく認めず罵倒する人のこと。<LINE>“厨”はそもそも,中学生の“中”をもじったものであり,%nNet上で中学生のような子供っぽい行動を取る人を侮蔑する言葉であった。<LINE>しかし徐々にその意味が拡大され,“○○厨”とする場合は“○○のことを空気を読まずに絶賛しつつ,それ以外をこき下ろす人”という意味となる。
+An internet term referring to people who say that "Things were better back then. The present is no good", over-glorifying the past while dismissing everything else as worthless.<LINE>
+The kanji for chuu(kitchen) is a corruption of the chuu(middle) in middle schooler.<LINE>
+On the internet, chuu in this form is a derogatory term for people who act childishly like a middle schooler.<LINE>
+However, the meaning of the term gradually broadened: "XXchuu" now means "someone who unconditionally praises XX, denouncing everything else".
 <END2>
 
 #WRITE(PTR, $00000550)
@@ -904,7 +927,7 @@ Hippocampus
 <END2>
 
 #WRITE(PTR, $00000554)
-かいば
+(Kaiba)
 <END2>
 
 #WRITE(PTR, $00000556)
@@ -916,7 +939,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000570)
-Hippocampus
+CA3
 <END2>
 
 #WRITE(PTR, $00000572)
@@ -924,7 +947,7 @@ Hippocampus
 <END2>
 
 #WRITE(PTR, $00000574)
-かいばしーえーすりー
+(Kaibashi~eisuri~)
 <END2>
 
 #WRITE(PTR, $00000576)
@@ -937,7 +960,7 @@ CA refers to the name given to the hippocampus by anatomist Garengeot in 1742, "
 <END2>
 
 #WRITE(PTR, $00000590)
-開発評議会
+Development council
 <END2>
 
 #WRITE(PTR, $00000592)
@@ -945,7 +968,7 @@ CA refers to the name given to the hippocampus by anatomist Garengeot in 1742, "
 <END2>
 
 #WRITE(PTR, $00000594)
-かいはつひょうぎかい
+(Kaihatsuhyougikai)
 <END2>
 
 #WRITE(PTR, $00000596)
@@ -953,7 +976,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000598)
-単なる宴会のこと。
+Just a party.
 <END2>
 
 #WRITE(PTR, $000005B0)
@@ -965,7 +988,7 @@ Chaos Theory
 <END2>
 
 #WRITE(PTR, $000005B4)
-かおすりろん
+(Kaosu Rirun)
 <END2>
 
 #WRITE(PTR, $000005B6)
@@ -980,7 +1003,7 @@ Furthermore, this theory doesn't apply to short term predictions.
 <END2>
 
 #WRITE(PTR, $000005D0)
-ガチ
+srsly
 <END2>
 
 #WRITE(PTR, $000005D2)
@@ -988,7 +1011,7 @@ Furthermore, this theory doesn't apply to short term predictions.
 <END2>
 
 #WRITE(PTR, $000005D4)
-がち
+(Gachi)
 <END2>
 
 #WRITE(PTR, $000005D6)
@@ -996,11 +1019,12 @@ Other
 <END2>
 
 #WRITE(PTR, $000005D8)
-俗語。<LINE>真剣勝負,真剣,本当に,というような意味。
+Original: Slang.<LINE>
+Means seriously, really, earnestly.
 <END2>
 
 #WRITE(PTR, $000005F0)
-カット＆ペースト
+Cut & Paste
 <END2>
 
 #WRITE(PTR, $000005F2)
@@ -1008,7 +1032,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000005F4)
-かっとあんどぺーすと
+(Katto ando peisuto)
 <END2>
 
 #WRITE(PTR, $000005F6)
@@ -1016,7 +1040,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000005F8)
-切り取りと貼り付け。<LINE>移動させること。
+To transfer.
 <END2>
 
 #WRITE(PTR, $00000610)
@@ -1028,7 +1052,7 @@ Capsule Toys
 <END2>
 
 #WRITE(PTR, $00000614)
-かぷせるとい
+(KapuseruToi)
 <END2>
 
 #WRITE(PTR, $00000616)
@@ -1050,7 +1074,7 @@ GaruGari-kun
 <END2>
 
 #WRITE(PTR, $00000634)
-がるがりくん
+(GaruGarikun)
 <END2>
 
 #WRITE(PTR, $00000636)
@@ -1066,7 +1090,7 @@ The chances of winning are rumored to be around 2％.
 <END2>
 
 #WRITE(PTR, $00000650)
-ガンバム
+Gunbum
 <END2>
 
 #WRITE(PTR, $00000652)
@@ -1074,7 +1098,7 @@ The chances of winning are rumored to be around 2％.
 <END2>
 
 #WRITE(PTR, $00000654)
-がんばむ
+(Ganbamu)
 <END2>
 
 #WRITE(PTR, $00000656)
@@ -1082,7 +1106,10 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00000658)
-（架空）正式名称は『機動勇者ガンバム』。<LINE>日本アニメ史上に燦然と輝くロボットアニメの金字塔で,ファーストシリーズは１９７０年代後半に放映された。<LINE>以来,様々な続編が現在でも作られ続けている。
+(Fictional) Formally known as "Mobile Jacket Gunbam".<LINE>
+A glowing monumental work of robot anime in Japanese anime history.<LINE>
+The first series was broadcasted in the latter half of the 1970s.<LINE>
+Various sequels have been produced since then.
 <END2>
 
 #WRITE(PTR, $00000670)
@@ -1094,7 +1121,7 @@ Organization
 <END2>
 
 #WRITE(PTR, $00000674)
-きかん
+(Kikan)
 <END2>
 
 #WRITE(PTR, $00000676)
@@ -1116,7 +1143,7 @@ Anthropomorphize
 <END2>
 
 #WRITE(PTR, $00000694)
-ぎじんか
+(Gijinka)
 <END2>
 
 #WRITE(PTR, $00000696)
@@ -1129,7 +1156,7 @@ Illustration is a given.
 <END2>
 
 #WRITE(PTR, $000006B0)
-キタコレ
+FTW
 <END2>
 
 #WRITE(PTR, $000006B2)
@@ -1137,7 +1164,7 @@ Illustration is a given.
 <END2>
 
 #WRITE(PTR, $000006B4)
-きたこれ
+FuruZaUin
 <END2>
 
 #WRITE(PTR, $000006B6)
@@ -1145,11 +1172,12 @@ Net
 <END2>
 
 #WRITE(PTR, $000006B8)
-物事が思い通りに進み興奮しているさまを表すNetスラング。<LINE>『ｋｔｋｒ』と省略されることも。
+Internet slang indicating one's excitement that things are going satisfactorily.<LINE>
+Also abbreviated to ktkr.
 <END2>
 
 #WRITE(PTR, $000006D0)
-キボン
+Que bom
 <END2>
 
 #WRITE(PTR, $000006D2)
@@ -1165,7 +1193,8 @@ Net
 <END2>
 
 #WRITE(PTR, $000006D8)
-『希望』をもじったもの。<LINE>Netスラング。<LINE>最近は死語になりつつある。
+A corruption of hope(kibou), Portuguese for "so good".<LINE>
+Lately becoming obsolete.
 <END2>
 
 #WRITE(PTR, $000006F0)
@@ -1177,7 +1206,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000006F4)
-きゅっぱち
+(Kyuppachi)
 <END2>
 
 #WRITE(PTR, $000006F6)
@@ -1190,7 +1219,7 @@ Sold so well that at one point, it was called the "national" computer.
 <END2>
 
 #WRITE(PTR, $00000710)
-Kirari
+Kirari-chan
 <END2>
 
 #WRITE(PTR, $00000712)
@@ -1198,7 +1227,7 @@ Kirari
 <END2>
 
 #WRITE(PTR, $00000714)
-きらりちゃん
+(Kirari-chan)
 <END2>
 
 #WRITE(PTR, $00000716)
@@ -1221,7 +1250,7 @@ King Burger
 <END2>
 
 #WRITE(PTR, $00000734)
-きんぐばーがー
+(KinguBa~ga~)
 <END2>
 
 #WRITE(PTR, $00000736)
@@ -1234,7 +1263,7 @@ Only a few franchises are in Japan.
 <END2>
 
 #WRITE(PTR, $00000750)
-ｇｄｇｄ
+gdgd
 <END2>
 
 #WRITE(PTR, $00000752)
@@ -1242,7 +1271,7 @@ Only a few franchises are in Japan.
 <END2>
 
 #WRITE(PTR, $00000754)
-ぐだぐだ
+(Gudaguda)
 <END2>
 
 #WRITE(PTR, $00000756)
@@ -1250,7 +1279,8 @@ Net
 <END2>
 
 #WRITE(PTR, $00000758)
-『グダグダ』の略。
+Original: Short for gudaguda, a mimetic word for something inconsistent and unruly.<LINE>
+Localization: Slang for a disastrous mess. Trainwrecks are often the result of miscommunication.
 <END2>
 
 #WRITE(PTR, $00000770)
@@ -1262,7 +1292,7 @@ Cracking
 <END2>
 
 #WRITE(PTR, $00000774)
-くらっきんぐ
+(Kurakkingu)
 <END2>
 
 #WRITE(PTR, $00000776)
@@ -1285,7 +1315,7 @@ Creutzfeld-Jakob disease
 <END2>
 
 #WRITE(PTR, $00000794)
-くろいつふぇるとやこぶびょう
+(Kuroitsuferu to Yakobu byou)
 <END2>
 
 #WRITE(PTR, $00000796)
@@ -1293,13 +1323,13 @@ Other
 <END2>
 
 #WRITE(PTR, $00000798)
-Refers to BSE(commonly known as mad cow disease), but strictly the case of human infection.<LINE>
+Refers to BSE (commonly known as mad cow disease), but strictly the case of human infection.<LINE>
 Early symptoms include memory loss, abnormal movements, personality changes, dementia, and muscle stiffness.<LINE>
 Worst-case scenario is general prostration for about 1-2 years or death by respiratory paralysis.
 <END2>
 
 #WRITE(PTR, $000007B0)
-ｋｗｓｋ
+kwsk
 <END2>
 
 #WRITE(PTR, $000007B2)
@@ -1307,7 +1337,7 @@ Worst-case scenario is general prostration for about 1-2 years or death by respi
 <END2>
 
 #WRITE(PTR, $000007B4)
-くわしく
+(Kuwashiku)
 <END2>
 
 #WRITE(PTR, $000007B5)
@@ -1315,11 +1345,12 @@ Net
 <END2>
 
 #WRITE(PTR, $000007B8)
-“詳しく”を省略したもの。<LINE>もっと詳細に教えてもらいたいときに用いる。
+Original: Short for "kuwashiku" or "in detail". Used when asking for the details.<LINE>
+Localization: Corruption of "sauce/more". Used when asking for something's source or more of it.
 <END2>
 
 #WRITE(PTR, $000007D0)
-決定論
+Determinism
 <END2>
 
 #WRITE(PTR, $000007D2)
@@ -1327,7 +1358,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000007D4)
-けっていろん
+(Ketteiron)
 <END2>
 
 #WRITE(PTR, $000007D6)
@@ -1335,11 +1366,15 @@ Other
 <END2>
 
 #WRITE(PTR, $000007D8)
-すべての出来事は,その前出の出来事のみによって決定しているという考え方。<LINE>因果的に考えるならば,未来は現在によって“既に”決定しており,現在は過去によって“既に”決定している。<LINE>すなわち人がその瞬間ごとにおいて自らの意志で行動を選んでいるように思えても,実はあらかじめ決定されている行動をなぞっているに過ぎないのである。<LINE>この主張を語る上では,『ラプラスの悪魔』という思考実験が例としてよく登場する。<LINE>すなわち「過去から現在までの,この宇宙に存在するすべての粒子の運動と位置を把握している者は,未来を完全に予測できる」というものである。
+The train of thought that says that every event is predetermined by previous events.<LINE>
+Thinking from a perspective of cause-and-effect, the future is "already" being determined by the present, just as the present is "already" determined by the past.<LINE>
+In other words, even though humans may think they're choosing their actions of their own will, in actuality, they are only tracing a determined path.<LINE>
+Those who make this claim often cite the thought experiment of "Laplace's Demon" as an example.<LINE>
+That is, for "an intellect which at a certain moment would know all forces that set nature in motion, and all positions of all items of which nature is composed... nothing would be uncertain and the future just like the past would be present before its eyes." --Pierre Simon Laplace
 <END2>
 
 #WRITE(PTR, $000007F0)
-ゲロカエルん
+Gero Froggy
 <END2>
 
 #WRITE(PTR, $000007F2)
@@ -1347,7 +1382,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000007F4)
-げろかえるん
+(Gerokaerun)
 <END2>
 
 #WRITE(PTR, $000007F6)
@@ -1355,11 +1390,13 @@ Other
 <END2>
 
 #WRITE(PTR, $000007F8)
-（架空）１年ほど前,渋谷の女子高生を中心に爆発的に流行した,キモカワイイ蛙のキャラクターのぬいぐるみストラップシリーズ。<LINE>携帯電話やバッグなどに１個から複数個つけて持ち歩いた。<LINE>渋谷地震後,毎週発売されていたシリーズが突然の打ち切りとなり,その人気は急速に冷めていった。
+(Fictional) A series of plush straps centered around an ugly-yet-cute frog character which became a tremendous fad among high school girls in Shibuya about a year ago.<LINE>
+Several of them could be seen strapped to cellphones and bags.<LINE>
+After the Shibuya Earthquake, the weekly series launches were canceled, and their popularity rapidly subsided.
 <END2>
 
 #WRITE(PTR, $00000810)
-Le Petite Mort
+Le petite mort
 <END2>
 
 #WRITE(PTR, $00000812)
@@ -1367,7 +1404,7 @@ Le Petite Mort
 <END2>
 
 #WRITE(PTR, $00000814)
-けんじゃたいむ
+(KenjaTaimu)
 <END2>
 
 #WRITE(PTR, $00000816)
@@ -1390,7 +1427,7 @@ Ghost in the Ball
 <END2>
 
 #WRITE(PTR, $00000834)
-こうかくきどうめいさいぼーる
+(Koukakukidoumeisaibouru)
 <END2>
 
 #WRITE(PTR, $00000836)
@@ -1416,7 +1453,7 @@ Advent
 <END2>
 
 #WRITE(PTR, $00000854)
-こうりん
+(ABenTsu)
 <END2>
 
 #WRITE(PTR, $00000856)
@@ -1428,7 +1465,7 @@ On things like @channel, when a celebrity, or whomever is the topic of that thre
 <END2>
 
 #WRITE(PTR, $00000870)
-コードジアース
+Code Jeass
 <END2>
 
 #WRITE(PTR, $00000872)
@@ -1436,7 +1473,7 @@ On things like @channel, when a celebrity, or whomever is the topic of that thre
 <END2>
 
 #WRITE(PTR, $00000874)
-こーどじあーす
+(Koudo Jiausu)
 <END2>
 
 #WRITE(PTR, $00000876)
@@ -1444,7 +1481,8 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00000878)
-（架空）２００６年に放映され大ヒットしたテレビアニメシ%nリーズ。<LINE>他人の心を操るという特殊な魔眼を手に入れた少年が,巨大な敵を相手に戦っていくというストーリー。
+(Fictional) A smash-hit TV anime series broadcast in 2006.<LINE>
+The story revolves around a boy who obtained a unique demon eye that can control people's hearts as he faces against enemies of epic proportions.
 <END2>
 
 #WRITE(PTR, $00000890)
@@ -1456,7 +1494,7 @@ Cosplay
 <END2>
 
 #WRITE(PTR, $00000894)
-こすぷれ
+(Kosupure)
 <END2>
 
 #WRITE(PTR, $00000896)
@@ -1478,7 +1516,7 @@ Don't Look This Way
 <END2>
 
 #WRITE(PTR, $000008B4)
-こっちみんな
+(KochiMinna)
 <END2>
 
 #WRITE(PTR, $000008B6)
@@ -1490,7 +1528,7 @@ It's almost an unwritten rule to say this retort when people or animals look at 
 <END2>
 
 #WRITE(PTR, $000008D0)
-コテハン
+Kotehan
 <END2>
 
 #WRITE(PTR, $000008D2)
@@ -1506,11 +1544,12 @@ Net
 <END2>
 
 #WRITE(PTR, $000008D8)
-『固定ハンドルネーム』の略。<LINE>特に＠ちゃんねるにおいては,固定ハンドルネームを使う人は少ない。<LINE>（ハンドルネームを入力せずに書き込んだ場合,『名無しさん』等として表示される）
+Original: Short for "fixed(KOTEi) HANdle name".<LINE>
+Especially on @channel, very few people use names. (If you post without entering anything into the name field, you post as "Anonymous" among other things.)
 <END2>
 
 #WRITE(PTR, $000008F0)
-コピー＆ペースト
+Copy & Paste
 <END2>
 
 #WRITE(PTR, $000008F2)
@@ -1518,7 +1557,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000008F4)
-こぴーあんどぺーすと
+(Kopi ando peisuto)
 <END2>
 
 #WRITE(PTR, $000008F5)
@@ -1526,11 +1565,11 @@ Other
 <END2>
 
 #WRITE(PTR, $000008F8)
-コピーと貼り付け。<LINE>複製。
+To duplicate.
 <END2>
 
 #WRITE(PTR, $00000910)
-コペンハーゲン解釈
+Copenhagen interpretation
 <END2>
 
 #WRITE(PTR, $00000912)
@@ -1538,7 +1577,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000914)
-こぺんはーげんかいしゃく
+(Kopenhaugen kaishaku)
 <END2>
 
 #WRITE(PTR, $00000916)
@@ -1546,7 +1585,13 @@ Science
 <END2>
 
 #WRITE(PTR, $00000918)
-シュレディンガーの猫の思考実験において,アインシュタインが示した決定論的な考え方ではなく,量子論的考え方からアプローチした解釈の１つ。<LINE>箱の蓋を開ける前の猫は“生きている状態”と“死んでいる状態”が重ね合わせになっており,蓋を開けて観測した瞬間にどちらかの状態へと収縮するという考え。<LINE>蓋を開けて猫が生きていた場合,時間を遡って“箱の蓋を開ける前の猫は生きていた”という事実が確定し,逆に猫が死んでいた場合は“箱の蓋を開ける前の猫は死んでいた”と確定する。<LINE>一方で,同じく量子論的アプローチからのもう１つの解釈――多世界解釈においては,“箱の中の猫が生きているのを観測した観測者”と“箱の中の猫が死んでいるのを観測した観測者”が重ね合わせの状態となっていて分岐していくという考え方をする。<LINE>現在の量子論においては,このコペンハーゲン解釈がスタンダードな考え方となっている。
+A quantum theory approach to explaining the Schrodinger's Cat thought experiment without Einstein's deterministic perspective.<LINE>
+It's thought that before the box is opened, the cat's condition is superpositioned between "living" and "dead".<LINE>
+The instant the box is opened and observed, the wave function collapses to either condition.<LINE>
+If the cat is alive upon opening the box, then the truth retroactively becomes "the cat was alive before the box was opened".<LINE>
+Conversely, if the cat is dead, the truth becomes "the cat was dead before the box was opened".<LINE>
+On the other hand, through the same quantum theory approach comes another interpretation-- by the many-worlds interpretation, the observer who observed the cat living inside the box, and the observer who observed the cat dead inside the box can be thought of as superpositioned and then diverging.<LINE>
+In current quantum theory, this Copenhagen interpretation is the standard school of thought.
 <END2>
 
 #WRITE(PTR, $00000930)
@@ -1558,7 +1603,7 @@ ComiMa
 <END2>
 
 #WRITE(PTR, $00000934)
-こみま
+(Komima)
 <END2>
 
 #WRITE(PTR, $00000936)
@@ -1580,7 +1625,7 @@ Reality Marble
 <END2>
 
 #WRITE(PTR, $00000954)
-こゆうけっかい
+(Koyuukekkai)
 <END2>
 
 #WRITE(PTR, $00000956)
@@ -1601,7 +1646,7 @@ Too cute to be a girl
 <END2>
 
 #WRITE(PTR, $00000974)
-こんなかわいいこがおんなのこのはずがない
+(Konna kawaiiko ga onna no ko no hozu ga nai)
 <END2>
 
 #WRITE(PTR, $00000976)
@@ -1622,7 +1667,7 @@ Combo
 <END2>
 
 #WRITE(PTR, $00000994)
-こんぼこうげき
+(Kombo kougeki)
 <END2>
 
 #WRITE(PTR, $00000996)
@@ -1644,7 +1689,7 @@ Soz
 <END2>
 
 #WRITE(PTR, $000009B4)
-さーせん
+(Sa~sen)
 <END2>
 
 #WRITE(PTR, $000009B6)
@@ -1666,7 +1711,7 @@ Cyalume Saber
 <END2>
 
 #WRITE(PTR, $000009D4)
-さいりうむせーばー
+(SairiumuSeiBaー)
 <END2>
 
 #WRITE(PTR, $000009D6)
@@ -1681,7 +1726,7 @@ The name is derived from "Spark Wars", an epic series of scifi Hollywood movies.
 <END2>
 
 #WRITE(PTR, $000009F0)
-Survival Airsoft
+Survival airsoft
 <END2>
 
 #WRITE(PTR, $000009F2)
@@ -1689,7 +1734,7 @@ Survival Airsoft
 <END2>
 
 #WRITE(PTR, $000009F4)
-さばげー
+(Sabage~)
 <END2>
 
 #WRITE(PTR, $000009F6)
@@ -1711,7 +1756,7 @@ The Council of 300
 <END2>
 
 #WRITE(PTR, $00000A14)
-さんびゃくにんいいんかい
+(Sanbyaku ni niinkai)
 <END2>
 
 #WRITE(PTR, $00000A16)
@@ -1736,7 +1781,7 @@ CRT
 <END2>
 
 #WRITE(PTR, $00000A34)
-しーあーるてぃー
+(ShiAuruTi)
 <END2>
 
 #WRITE(PTR, $00000A36)
@@ -1750,7 +1795,7 @@ Refers to Braun tubes.
 <END2>
 
 #WRITE(PTR, $00000A50)
-時間順序保護仮説
+Chronology protection conjecture
 <END2>
 
 #WRITE(PTR, $00000A52)
@@ -1758,7 +1803,7 @@ Refers to Braun tubes.
 <END2>
 
 #WRITE(PTR, $00000A54)
-じかんじゅんじょほごかせつ
+(Jikanjyunjyohogokasetsu)
 <END2>
 
 #WRITE(PTR, $00000A56)
@@ -1766,7 +1811,10 @@ Science
 <END2>
 
 #WRITE(PTR, $00000A58)
-スティーヴン・ホーキングによって提唱された,タイムトラベルは不可能であるとする量子力学の仮説。<LINE>タイムトラベルをしようとしても量子効果がそれを邪魔してしまう。<LINE>どうしてもタイムトラベルをしたいなら,無限大の“場のエネルギー”が必要となるが,そもそも無限大のエネルギーなど用意するのは不可能であり,これはすなわち原因と結果という因果律――時間順序は量子論的に保護されていることになる。
+A hypothesis in quantum mechanics proposed by Stephen Hawking, stating that time travel is impossible.<LINE>
+Attempts at time travel are hindered by quantum effects.<LINE>
+If one must time travel, infinite "field energy" is necessary, but is impossible in the first place.<LINE>
+This is in other words, the principle of causality-- chronology is protected by quantum theory.
 <END2>
 
 #WRITE(PTR, $00000A70)
@@ -1778,7 +1826,7 @@ Event Horizion
 <END2>
 
 #WRITE(PTR, $00000A74)
-じしょうのちへいせん
+(Jishyou no chiheisen)
 <END2>
 
 #WRITE(PTR, $00000A76)
@@ -1795,7 +1843,7 @@ The center of a black hole is pitch black because no light can escape from it.
 <END2>
 
 #WRITE(PTR, $00000A90)
-死亡フラグ
+Death flag
 <END2>
 
 #WRITE(PTR, $00000A92)
@@ -1803,7 +1851,7 @@ The center of a black hole is pitch black because no light can escape from it.
 <END2>
 
 #WRITE(PTR, $00000A94)
-しぼうふらぐ
+(Shibou furagu)
 <END2>
 
 #WRITE(PTR, $00000A96)
@@ -1811,11 +1859,13 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00000A98)
-死ぬことへの伏線。<LINE>コンピュータゲーム用語。<LINE>ポピュラーな例としては「オレ,この戦争が終わったら結婚するんだ」がある。
+Foreshadowing of death.<LINE>
+A computer game term.<LINE>
+A popular example is saying "Once the war's over, I'm gonna get married."
 <END2>
 
 #WRITE(PTR, $00000AB0)
-シボルエ
+Chevy
 <END2>
 
 #WRITE(PTR, $00000AB2)
@@ -1823,7 +1873,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00000AB4)
-しぼるえ
+(Shiborue)
 <END2>
 
 #WRITE(PTR, $00000AB6)
@@ -1831,11 +1881,11 @@ Other
 <END2>
 
 #WRITE(PTR, $00000AB8)
-（架空）アメリカの自動車会社のブランド名。
+Brand's name of American car company.
 <END2>
 
 #WRITE(PTR, $00000AD0)
-ジャネの法則
+Janet's Law
 <END2>
 
 #WRITE(PTR, $00000AD2)
@@ -1843,7 +1893,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000AD4)
-じゃねのほうそく
+(Jyane no housoku)
 <END2>
 
 #WRITE(PTR, $00000AD6)
@@ -1851,7 +1901,10 @@ Other
 <END2>
 
 #WRITE(PTR, $00000AD8)
-心理学者のジャネが提唱した,時間経過に対する考え方。<LINE>年齢を経るごとに時間が過ぎるのをはやく感じるのはなぜか。<LINE>例えば７歳の子にとっての１年は,人生における１/７を指すのに対し,７０歳の人にとっての１年は,人生における%n１/７０でしかない。<LINE>よって主観的な時間の長さは年齢に反比例するという法則。
+A perspective on the passage of time proposed by psychologist Janet.<LINE>
+For some reason, as one ages, time seems to pass by more quickly.<LINE>
+For example, one year is one seventh of a 7 year old's life, while it's only one seventieth of a 70 year old's life.<LINE>
+By this reasoning, the subjective length of time is inversely proportional to age.
 <END2>
 
 #WRITE(PTR, $00000AF0)
@@ -1863,7 +1916,7 @@ Dwellers
 <END2>
 
 #WRITE(PTR, $00000AF4)
-じゅうにん
+(Ju:nin)
 <END2>
 
 #WRITE(PTR, $00000AF6)
@@ -1876,7 +1929,7 @@ Usually refers to people who post on anonymous internet message boards.
 <END2>
 
 #WRITE(PTR, $00000B10)
-シュレディンガーの猫
+Schrodinger's cat
 <END2>
 
 #WRITE(PTR, $00000B12)
@@ -1884,7 +1937,7 @@ Usually refers to people who post on anonymous internet message boards.
 <END2>
 
 #WRITE(PTR, $00000B14)
-しゅれでぃんがーのねこ
+(Shyuredinga~ no neko)
 <END2>
 
 #WRITE(PTR, $00000B16)
@@ -1892,7 +1945,16 @@ Science
 <END2>
 
 #WRITE(PTR, $00000B18)
-量子論において最も有名なパラドックス。<LINE>物理学者のエルヴィン・シュレディンガーが量子力学を否定するために提唱した思考実験である。<LINE>しかし現在ではこのパラドックスはパラドックスではないと証明されており,逆に量子力学によって起こるパラドックスに似た現象を端的に表した例として,あちこちで引用されている。<LINE>箱の中に猫と毒ガス発生装置と放射性物質であるラジウムを入れておく。<LINE>ラジウムがアルファ粒子を放出すると検知器が反応して毒ガスが発生して猫は死ぬ。<LINE>ラジウムが例えば１時間でアルファ粒子を放出する確率を５０％とした場合,１時間後に箱の蓋を開けて中を確認した際,猫が生きている確率と死んでいる確率は１：１である。<LINE>では蓋を開ける前の猫の状態はどうだったのか？　アインシュタインはこのパラドックスに対し,蓋を開けて観測せずとも,猫は“生きている状態”か“死んでいる状態”かのどちらかであるとした。
+The most famous paradox in quantum theory.<LINE>
+A thought experiment proposed by physicist Erwin Schrodinger to repudiate quantum mechanics.<LINE>
+But currently, this paradox is being proven to not be a paradox.<LINE>
+Instead, it's being used as a widely accepted phenomenon that resembles a paradox in quantum mechanics, and is often referenced.<LINE>
+A cat is placed inside a box installed with a poisonous gas release system and radioactive radium.<LINE>
+If the radium emits an alpha particle, it sets off a sensor, releasing the poisonous gas and killing the cat.<LINE>
+Let's say radium has a 50% chance of alpha particle emission in one hour.<LINE>
+After that hour, the moment one opens the box, the cat has a 1:1 likelihood of being alive or dead.<LINE>
+So how was the cat before the box was opened?<LINE>
+According to Einstein, even without observation, the cat was either alive or dead.
 <END2>
 
 #WRITE(PTR, $00000B30)
@@ -1904,7 +1966,7 @@ Duh
 <END2>
 
 #WRITE(PTR, $00000B34)
-じょうこう
+(Jyoukou)
 <END2>
 
 #WRITE(PTR, $00000B36)
@@ -1925,7 +1987,7 @@ Particle Collider
 <END2>
 
 #WRITE(PTR, $00000B54)
-しょうとつがたかそくき
+(Shyoutotsugatakasokuki)
 <END2>
 
 #WRITE(PTR, $00000B56)
@@ -1942,7 +2004,7 @@ The main synchrotrons, other than SERN's LHC, are located in the US, the UK, and
 <END2>
 
 #WRITE(PTR, $00000B70)
-ショタ
+Shota
 <END2>
 
 #WRITE(PTR, $00000B72)
@@ -1950,7 +2012,7 @@ The main synchrotrons, other than SERN's LHC, are located in the US, the UK, and
 <END2>
 
 #WRITE(PTR, $00000B74)
-しょた
+(Shyota)
 <END2>
 
 #WRITE(PTR, $00000B76)
@@ -1958,7 +2020,9 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00000B78)
-萌え属性の１つ。<LINE>年端のいかない可愛らしい少年,またはそのような外見をしている青年のこと。<LINE>主に女性向けの作品などで使われる。
+A moe attribute.<LINE>
+A tender young boy or a young man with the outward appearance of one.<LINE>
+Primarily used for a female demographic.
 <END2>
 
 #WRITE(PTR, $00000B90)
@@ -1970,7 +2034,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00000B94)
-じょんたいたー
+(Jyon Taita~)
 <END2>
 
 #WRITE(PTR, $00000B96)
@@ -1995,7 +2059,7 @@ Synchronicity
 <END2>
 
 #WRITE(PTR, $00000BB4)
-しんくろにしてぃ
+(Shinkuronishite~)
 <END2>
 
 #WRITE(PTR, $00000BB6)
@@ -2003,9 +2067,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000BB8)
-A meaningful coincidence.<LINE>
-Simultaneity.<LINE>
-Simultaneous incidence.<LINE>
+A meaningful coincidence. Simultaneity. Simultaneous incidence.<LINE>
 When events that come to mind and events of reality coincide.<LINE>
 A concept regarding the determination of events, differing from the concept of causality.<LINE>
 The effect of synchronicity is defined as the occurrence of two "meaningfully related" events as they are pushed out of the order of space-time.<LINE>
@@ -2016,7 +2078,7 @@ A concept advocated by Swiss psychologist Carl Jung (1875-1961).
 <END2>
 
 #WRITE(PTR, $00000BD0)
-Mainstream Woman
+Mainstream woman
 <END2>
 
 #WRITE(PTR, $00000BD1)
@@ -2024,7 +2086,7 @@ Mainstream Woman
 <END2>
 
 #WRITE(PTR, $00000BD4)
-すいーつかっこわらい
+(Suiitsukatsukofurai)
 <END2>
 
 #WRITE(PTR, $00000BD6)
@@ -2046,7 +2108,7 @@ Supa~ Hacka
 <END2>
 
 #WRITE(PTR, $00000BF4)
-すーぱーはかー
+(SuーpaーHakaー)
 <END2>
 
 #WRITE(PTR, $00000BF6)
@@ -2061,7 +2123,7 @@ People ironically call the obviously nonexistent hacker a supah hakah.
 <END2>
 
 #WRITE(PTR, $00000C10)
-スクルド
+Skuld
 <END2>
 
 #WRITE(PTR, $00000C12)
@@ -2069,7 +2131,7 @@ People ironically call the obviously nonexistent hacker a supah hakah.
 <END2>
 
 #WRITE(PTR, $00000C14)
-すくるど
+(Sukurudo)
 <END2>
 
 #WRITE(PTR, $00000C16)
@@ -2077,7 +2139,9 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00000C18)
-北欧神話に登場するノルン（運命の女神）の三姉妹の三女。<LINE>三姉妹は世界樹ユグドラシルの根本にあるウルドの泉で,ユグドラシルを育てている。<LINE>スクルドは未来を司る女神とされている。<LINE>同時にワルキューレの１人でもある。
+The third sister of the three Norns (goddesses of fate) in Norse mythology.<LINE>
+The three sisters raise the world tree, Yggdrasil, from Urd's fountain which lays at its roots.<LINE>
+Skuld is considered the Norn of the Future. Also a valkyrie.
 <END2>
 
 #WRITE(PTR, $00000C30)
@@ -2089,7 +2153,7 @@ Starbecks
 <END2>
 
 #WRITE(PTR, $00000C34)
-すたべ
+(Sutabe)
 <END2>
 
 #WRITE(PTR, $00000C36)
@@ -2109,7 +2173,7 @@ Stand
 <END2>
 
 #WRITE(PTR, $00000C54)
-すたんど
+(Sutando)
 <END2>
 
 #WRITE(PTR, $00000C56)
@@ -2130,7 +2194,7 @@ Standalone
 <END2>
 
 #WRITE(PTR, $00000C74)
-すたんどあろーん
+(Sutando)
 <END2>
 
 #WRITE(PTR, $00000C76)
@@ -2150,7 +2214,7 @@ Slow food
 <END2>
 
 #WRITE(PTR, $00000C94)
-すろーふーど
+(Surou Fuudo)
 <END2>
 
 #WRITE(PTR, $00000C96)
@@ -2162,7 +2226,7 @@ Instead of fast food or instant foods, cooking that takes up time, perhaps incor
 <END2>
 
 #WRITE(PTR, $00000CB0)
-精緻化リハーサル
+Elaborative rehearsal
 <END2>
 
 #WRITE(PTR, $00000CB2)
@@ -2170,7 +2234,7 @@ Instead of fast food or instant foods, cooking that takes up time, perhaps incor
 <END2>
 
 #WRITE(PTR, $00000CB4)
-せいちかりはーさる
+(SeichikaRihaasaru)
 <END2>
 
 #WRITE(PTR, $00000CB6)
@@ -2178,11 +2242,12 @@ Other
 <END2>
 
 #WRITE(PTR, $00000CB8)
-人が記憶をする際,短期記憶から長期記憶へと落とし込む際に心理学的に行われる作業。<LINE>記憶したい事柄について意味づけや,他の記憶との関連づけをする。
+In memorization, the psychological action of transferring short-term memory into long-term memory.<LINE>
+One either attaches a meaning to the matter to be remembered, or relates the matter to some other familiar memory.
 <END2>
 
 #WRITE(PTR, $00000CD0)
-セックル
+Smex
 <END2>
 
 #WRITE(PTR, $00000CD2)
@@ -2190,7 +2255,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000CD4)
-せっくる
+(Sekkuru)
 <END2>
 
 #WRITE(PTR, $00000CD6)
@@ -2198,11 +2263,11 @@ Net
 <END2>
 
 #WRITE(PTR, $00000CD8)
-セックスのこと。
+Sex.
 <END2>
 
 #WRITE(PTR, $00000CF0)
-ＳＥＲＮ
+SERN
 <END2>
 
 #WRITE(PTR, $00000CF2)
@@ -2210,7 +2275,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000CF4)
-せるん
+(SeRuN)
 <END2>
 
 #WRITE(PTR, $00000CF6)
@@ -2218,7 +2283,11 @@ Science
 <END2>
 
 #WRITE(PTR, $00000CF8)
-（架空）ヨーロッパ原子核共同研究機関。<LINE>ただし『ＳＥＲＮ』はその略称ではない。<LINE>フランス語で『Ｓｏｃｉёｔё Ｅｕｒｏｐёｎ ｐｏｕｒ ｌａ Ｒｅｃｈｅｒｃｈｅ %nＮｕｃｌёａｉｒｅ（研究所設立準備会）』の略称がそのまま現在も使われている。<LINE>スイスのジュネーヴ郊外にある世界最大規模の素粒子物理学の研究所。<LINE>フランスとスイスの国境にまたがる形で存在しており,敷地内には銀行,図書館,郵便局,宿舎なども設けられている。<LINE>ヨーロッパの１９カ国を中心に世界中から研究チームが集まり,素粒子物理学に関する様々な実験が行われている。<LINE>ＳＥＲＮで働く関係者はおよそ数千人に及ぶ。
+(Fictional) A French acronym for "Societe Europen pour la Recherche Nucleaire", or "European Society for Nuclear Research".<LINE>
+The world's largest elementary particle physics laboratory located in the outskirts of Geneva on the Franco-Swiss border.<LINE>
+Has a bank, library, post office, and dorm on premise.<LINE>
+Researchers gather from 19 European countries and from around the world to perform experiments on elementary particle physics.<LINE>
+SERN employs several thousand officials.
 <END2>
 
 #WRITE(PTR, $00000D10)
@@ -2230,7 +2299,7 @@ Serendipity
 <END2>
 
 #WRITE(PTR, $00000D14)
-せれんでぃぴてぃ
+(Serendipiti)
 <END2>
 
 #WRITE(PTR, $00000D16)
@@ -2243,7 +2312,7 @@ The microwave oven was invented by this serendipity.
 <END2>
 
 #WRITE(PTR, $00000D30)
-ゼロサム
+Zerosum
 <END2>
 
 #WRITE(PTR, $00000D32)
@@ -2251,7 +2320,7 @@ The microwave oven was invented by this serendipity.
 <END2>
 
 #WRITE(PTR, $00000D34)
-ぜろさむ
+(Zerosamu)
 <END2>
 
 #WRITE(PTR, $00000D36)
@@ -2259,7 +2328,8 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00000D38)
-（架空）コードジアースの主人公が,正体を隠すため仮面を被って扮する『反逆の貴公子』。
+(Fictional) The protagonist of Code Jeass.<LINE>
+He is the "Young Noble of the Rebellion" who hides his identity behind a mask.
 <END2>
 
 #WRITE(PTR, $00000D50)
@@ -2271,7 +2341,7 @@ Theory of Relativity
 <END2>
 
 #WRITE(PTR, $00000D54)
-そうたいせいりろん
+(Soutaiseiriron)
 <END2>
 
 #WRITE(PTR, $00000D56)
@@ -2296,7 +2366,7 @@ Phase transition
 <END2>
 
 #WRITE(PTR, $00000D74)
-そうてんい
+(Souteni)
 <END2>
 
 #WRITE(PTR, $00000D76)
@@ -2309,7 +2379,7 @@ Varieties include solid-liquid-gas, ferromagnetic-paramagnetic and the vacuum ph
 <END2>
 
 #WRITE(PTR, $00000D90)
-ソーイングセット
+Sewing set
 <END2>
 
 #WRITE(PTR, $00000D92)
@@ -2317,7 +2387,7 @@ Varieties include solid-liquid-gas, ferromagnetic-paramagnetic and the vacuum ph
 <END2>
 
 #WRITE(PTR, $00000D94)
-そーいんぐせっと
+(Souingu setto)
 <END2>
 
 #WRITE(PTR, $00000D96)
@@ -2325,7 +2395,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000D98)
-裁縫セット。
+Sewing set.
 <END2>
 
 #WRITE(PTR, $00000DB0)
@@ -2337,7 +2407,7 @@ Sauce
 <END2>
 
 #WRITE(PTR, $00000DB4)
-そーす
+(Sousu)
 <END2>
 
 #WRITE(PTR, $00000DB6)
@@ -2345,8 +2415,9 @@ Net
 <END2>
 
 #WRITE(PTR, $00000DB8)
-Original: Short for "kuwashiku" or "in detail". Used when asking for the details.<LINE>
-Localization: Corruption of "sauce/more". Used when asking for something's source or more of it.
+Exhibition origin, documents, historical records, news source.<LINE>
+Where the information was obtained.<LINE>
+Since misinformation and disinformation often appear on anonymous internet message boards, it is important to present your source to gain trust.
 <END2>
 
 #WRITE(PTR, $00000DD0)
@@ -2358,7 +2429,7 @@ Elementary particle
 <END2>
 
 #WRITE(PTR, $00000DD4)
-そりゅうし
+(Soryuushi)
 <END2>
 
 #WRITE(PTR, $00000DD6)
@@ -2380,7 +2451,7 @@ Terminal mode
 <END2>
 
 #WRITE(PTR, $00000DF4)
-たーみなるもーど
+(Tauminaru moudo)
 <END2>
 
 #WRITE(PTR, $00000DF6)
@@ -2392,7 +2463,7 @@ Properly speaking, using another networked external computer terminal to operate
 <END2>
 
 #WRITE(PTR, $00000E10)
-タイーホ
+Throw you in the slammer
 <END2>
 
 #WRITE(PTR, $00000E12)
@@ -2400,7 +2471,7 @@ Properly speaking, using another networked external computer terminal to operate
 <END2>
 
 #WRITE(PTR, $00000E14)
-たいーほ
+(Tai~ho)
 <END2>
 
 #WRITE(PTR, $00000E16)
@@ -2408,7 +2479,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000E18)
-『逮捕』のこと。
+To be arrested.
 <END2>
 
 #WRITE(PTR, $00000E30)
@@ -2420,7 +2491,7 @@ Dynamite
 <END2>
 
 #WRITE(PTR, $00000E34)
-だいなまいと
+(Dainamaito)
 <END2>
 
 #WRITE(PTR, $00000E36)
@@ -2440,7 +2511,7 @@ Daibiru
 <END2>
 
 #WRITE(PTR, $00000E54)
-だいびる
+(DaiBiru)
 <END2>
 
 #WRITE(PTR, $00000E56)
@@ -2461,7 +2532,7 @@ As fuck
 <END2>
 
 #WRITE(PTR, $00000E74)
-たかすぎ
+(Takasugi)
 <END2>
 
 #WRITE(PTR, $00000E76)
@@ -2482,7 +2553,7 @@ Take-cop Camera
 <END2>
 
 #WRITE(PTR, $00000E94)
-たけこぷかめらー
+(TakeKopuKamera~)
 <END2>
 
 #WRITE(PTR, $00000E96)
@@ -2498,7 +2569,7 @@ Name originates from "22 Emon".
 <END2>
 
 #WRITE(PTR, $00000EB0)
-Double Meaning
+Double meaning
 <END2>
 
 #WRITE(PTR, $00000EB2)
@@ -2506,7 +2577,7 @@ Double Meaning
 <END2>
 
 #WRITE(PTR, $00000EB4)
-だぶるみーにんぐ
+(Daburu mi~ningu)
 <END2>
 
 #WRITE(PTR, $00000EB6)
@@ -2518,7 +2589,7 @@ When a phrase can deliberately mean something else.
 <END2>
 
 #WRITE(PTR, $00000ED0)
-だれうま
+Oh, you
 <END2>
 
 #WRITE(PTR, $00000ED2)
@@ -2526,7 +2597,7 @@ When a phrase can deliberately mean something else.
 <END2>
 
 #WRITE(PTR, $00000ED4)
-だれうま
+(Dareuma)
 <END2>
 
 #WRITE(PTR, $00000ED6)
@@ -2534,11 +2605,11 @@ Net
 <END2>
 
 #WRITE(PTR, $00000ED8)
-「誰がうまいこと言えと言った」というツッコミの略。<LINE>Netスラング。
+Original: Short for the tsukkomi "Who said something clever?". Internet slang.
 <END2>
 
 #WRITE(PTR, $00000EF0)
-誰得
+Whose benefit
 <END2>
 
 #WRITE(PTR, $00000EF2)
@@ -2546,7 +2617,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000EF4)
-だれとく
+(Daretoku)
 <END2>
 
 #WRITE(PTR, $00000EF6)
@@ -2554,11 +2625,11 @@ Net
 <END2>
 
 #WRITE(PTR, $00000EF8)
-“誰が得するんだよ？”の略。<LINE>否定的な意味で使われる。<LINE>Netスラング。
+Original: Short for "Who benefits from this?". Used in a negative way. Internet slang.
 <END2>
 
 #WRITE(PTR, $00000F10)
-チート
+Cheat code
 <END2>
 
 #WRITE(PTR, $00000F12)
@@ -2566,7 +2637,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00000F14)
-ちーと
+(Chi~to)
 <END2>
 
 #WRITE(PTR, $00000F16)
@@ -2574,11 +2645,14 @@ Other
 <END2>
 
 #WRITE(PTR, $00000F18)
-コンピュータゲーム用語。<LINE>直訳すると「ズルする」という意味。<LINE>改造ツールなどを用いてゲームデータを勝手に改変すること。<LINE>近年では制作者側が意図的にチートモードを搭載させたゲームも存在している。<LINE>「隠しコマンド」と呼ばれるようなものもチートモードの一種である。
+Computer game term.<LINE>
+Using modding toolkits to arbitrarily modify game data.<LINE>
+Recently, developers have intentionally made games with cheat modes.<LINE>
+One subset of cheat modes is known as "hidden commands".
 <END2>
 
 #WRITE(PTR, $00000F30)
-チェシャ猫
+Chesire Cat
 <END2>
 
 #WRITE(PTR, $00000F32)
@@ -2586,7 +2660,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00000F34)
-ちぇしゃねこ
+(Cheshya neko)
 <END2>
 
 #WRITE(PTR, $00000F36)
@@ -2594,11 +2668,11 @@ Other
 <END2>
 
 #WRITE(PTR, $00000F38)
-ルイス・キャロルの『不思議の国のアリス』に登場する,ニヤニヤと笑う架空の猫。
+A fictional grinning cat in Lewis Carroll's "Alice in Wonderland".
 <END2>
 
 #WRITE(PTR, $00000F50)
-Chuunibyou
+Pretentious lunatic
 <END2>
 
 #WRITE(PTR, $00000F52)
@@ -2606,7 +2680,7 @@ Chuunibyou
 <END2>
 
 #WRITE(PTR, $00000F54)
-ちゅうにびょう
+(ChuuniByou)
 <END2>
 
 #WRITE(PTR, $00000F56)
@@ -2632,7 +2706,7 @@ Superstring theory
 <END2>
 
 #WRITE(PTR, $00000F74)
-ちょうひもりろん
+(Chyouhimoriron)
 <END2>
 
 #WRITE(PTR, $00000F76)
@@ -2655,7 +2729,7 @@ Troll
 <END2>
 
 #WRITE(PTR, $00000F94)
-つり
+(Tsuri)
 <END2>
 
 #WRITE(PTR, $00000F96)
@@ -2677,7 +2751,7 @@ Tsundere
 <END2>
 
 #WRITE(PTR, $00000FB4)
-つんでれ
+(Tsundere)
 <END2>
 
 #WRITE(PTR, $00000FB6)
@@ -2690,7 +2764,7 @@ However, the definition is getting more vague recently.
 <END2>
 
 #WRITE(PTR, $00000FD0)
-ディストピア
+Dystopia
 <END2>
 
 #WRITE(PTR, $00000FD2)
@@ -2698,7 +2772,7 @@ However, the definition is getting more vague recently.
 <END2>
 
 #WRITE(PTR, $00000FD4)
-でぃすとぴあ
+(Disutopia)
 <END2>
 
 #WRITE(PTR, $00000FD6)
@@ -2706,11 +2780,12 @@ Other
 <END2>
 
 #WRITE(PTR, $00000FD8)
-ユートピアとは真逆の社会。<LINE>徹底的な管理,統制社会であり,すべての人間にプライバシーが存在せず,２４時間体制でその行動が監視される。
+A society that is the exact opposite of a utopia.<LINE>
+A completely controlled, regulated society, without a single privacy granted to the people, who are under 24 hour surveillance.
 <END2>
 
 #WRITE(PTR, $00000FF0)
-Tape Drive
+Tape drive
 <END2>
 
 #WRITE(PTR, $00000FF2)
@@ -2718,7 +2793,7 @@ Tape Drive
 <END2>
 
 #WRITE(PTR, $00000FF4)
-てーぷどらいぶ
+(Teipu doraibu)
 <END2>
 
 #WRITE(PTR, $00000FF6)
@@ -2739,7 +2814,7 @@ Deco phone
 <END2>
 
 #WRITE(PTR, $00001014)
-でこでん
+(Dekoden)
 <END2>
 
 #WRITE(PTR, $00001016)
@@ -2753,7 +2828,7 @@ Swarovskis or rhinestones can be pasted on the phone's surface for decoration.
 <END2>
 
 #WRITE(PTR, $00001030)
-デジャヴ
+Deja Vu
 <END2>
 
 #WRITE(PTR, $00001032)
@@ -2761,7 +2836,7 @@ Swarovskis or rhinestones can be pasted on the phone's surface for decoration.
 <END2>
 
 #WRITE(PTR, $00001034)
-でじゃぶ
+(Dejyabu)
 <END2>
 
 #WRITE(PTR, $00001036)
@@ -2769,11 +2844,15 @@ Other
 <END2>
 
 #WRITE(PTR, $00001038)
-既視感（仏：Ｄｅｊａ ｖｕ）のこと。<LINE>実際は一度も体験したことがないにもかかわらず,以前にもどこかで体験したように感じること。<LINE>単なる錯覚ではなく,夢や物忘れで済ませられないほどのリアルな『過去の実体験』としての感覚が伴う。<LINE>ただし,その『過去』とはいつ,どこだったのかは当然ながら思い出すことはできず,結果強い違和感をもたらす。<LINE>原因はいまだ解明されていない。<LINE>記憶の『回復』と『既知』の機能の同期がズレるという,非常に稀で一時的な異常の際に起きる生理現象だとする説。<LINE>脳の海馬傍回（空間処理と『慣れ』の感覚処理を受け持つ）に,痙攣のようなかすかな発作が起きるのが原因だとする説などがある。
+The feeling of having experienced something before despite never having actually experienced it.<LINE>
+It doesn't feel like a mere illusion, but a very real "past experience" that couldn't be forgotten or mistaken for a dream.<LINE>
+However, when and where that "past experience" happened cannot be remembered, resulting in an intense feeling of strangeness.<LINE>
+The cause has yet to be explained. ne theory is that it is a physiological phenomenon caused by an anomaly of memory where "recollection" and "previous memory" desynchronize temporarily.<LINE>
+The cause is theorized to be convulsion-like spasms in the brain's parahippocampal gyrus, which is in charge of processing space and "familiar" sensations.
 <END2>
 
 #WRITE(PTR, $00001050)
-鉄オタ
+Railfan
 <END2>
 
 #WRITE(PTR, $00001052)
@@ -2781,7 +2860,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00001054)
-てつおた
+(Tetsuota)
 <END2>
 
 #WRITE(PTR, $00001056)
@@ -2789,11 +2868,11 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001058)
-『鉄道Otaku』の略。
+Short for "railroad fanatic/tetsudou otaku".
 <END2>
 
 #WRITE(PTR, $00001070)
-電界
+Electric field
 <END2>
 
 #WRITE(PTR, $00001072)
@@ -2801,7 +2880,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001074)
-でんかい
+(Denkai)
 <END2>
 
 #WRITE(PTR, $00001076)
@@ -2809,11 +2888,12 @@ Science
 <END2>
 
 #WRITE(PTR, $00001078)
-電場とも。<LINE>電気の力が作用する空間のこと。<LINE>例えば,プラスチック製の下敷きをこすって頭に近づけると髪が逆立つのは,静電気によって発生した電界の影響である。
+The area where electric force takes effect.<LINE>
+For example, rubbing a balloon and putting it close to one's head causes one's hair to rise due to the influence of the resulting static electricity's electric field.
 <END2>
 
 #WRITE(PTR, $00001090)
-Electromagnetic Wave
+Electromagnetic wave
 <END2>
 
 #WRITE(PTR, $00001092)
@@ -2821,7 +2901,7 @@ Electromagnetic Wave
 <END2>
 
 #WRITE(PTR, $00001094)
-でんじは
+(Denjiha)
 <END2>
 
 #WRITE(PTR, $00001096)
@@ -2845,7 +2925,7 @@ Microwave
 <END2>
 
 #WRITE(PTR, $000010B4)
-でんしれんじ
+(Denshirenji)
 <END2>
 
 #WRITE(PTR, $000010B6)
@@ -2871,7 +2951,7 @@ TouTele
 <END2>
 
 #WRITE(PTR, $000010D4)
-とうてれ
+(Toutere)
 <END2>
 
 #WRITE(PTR, $000010D6)
@@ -2886,7 +2966,7 @@ ToTV is the only channel that indifferently continues with its normal programmin
 <END2>
 
 #WRITE(PTR, $000010F0)
-ＤＱＮ
+Troll
 <END2>
 
 #WRITE(PTR, $000010F2)
@@ -2894,7 +2974,7 @@ ToTV is the only channel that indifferently continues with its normal programmin
 <END2>
 
 #WRITE(PTR, $000010F4)
-どきゅん
+(Dokyun)
 <END2>
 
 #WRITE(PTR, $000010F6)
@@ -2902,11 +2982,12 @@ Net
 <END2>
 
 #WRITE(PTR, $000010F8)
-ドキュン。<LINE>反社会的な人。<LINE>常識のない人。
+An antisocial person.<LINE>
+Someone who lacks common sense.
 <END2>
 
 #WRITE(PTR, $00001110)
-特異点
+Gravitational Singularity
 <END2>
 
 #WRITE(PTR, $00001112)
@@ -2914,7 +2995,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001114)
-とくいてん
+(TokuIten)
 <END2>
 
 #WRITE(PTR, $00001116)
@@ -2922,7 +3003,12 @@ Science
 <END2>
 
 #WRITE(PTR, $00001118)
-ここでは宇宙物理学における『重力の特異点』を指す。<LINE>重力が無限大になる場所のことを指すが,あくまで理論上のものであり,特異点内部がどうなっているかはそもそも観測不可能のため,存在を証明することもできない。<LINE>ブラックホールの特異点は,寿命の末期にある星が重力崩壊により押し潰されて生まれた“点”であり,例えれば直径数百万ｋｍの星そのものと周囲のあらゆる物質が,“・”のドットよりも小さな空間に圧縮されているような状態と考えればいい。
+In this case, refers to gravitational singularities in astrophysics.<LINE>
+They refer to spots where gravity reaches infinity, but they are purely theoretical.<LINE>
+Since it is impossible to observe the interior of a singularity in the first place, their existence cannot be proven either.<LINE>
+A black hole's singularity is a "point" formed by the gravitational collapse of a dying star.<LINE>
+For example, consider a star millions of kilometers in diameter.<LINE>
+Now consider that entire star compressed into this period.
 <END2>
 
 #WRITE(PTR, $00001130)
@@ -2934,7 +3020,7 @@ Naked Singularity
 <END2>
 
 #WRITE(PTR, $00001134)
-とくいてんがはだかのじょうたい
+(Tokuitengahadakanojyoutai)
 <END2>
 
 #WRITE(PTR, $00001136)
@@ -2957,7 +3043,7 @@ Dr Pepper
 <END2>
 
 #WRITE(PTR, $00001154)
-どくたーぺっぱー
+(Dokutaー Peppaー)
 <END2>
 
 #WRITE(PTR, $00001156)
@@ -2977,7 +3063,7 @@ Dr Pepperian
 <END2>
 
 #WRITE(PTR, $00001174)
-どくたーぺっぱりあん
+(Dokutaー Pepparian)
 <END2>
 
 #WRITE(PTR, $00001176)
@@ -2998,7 +3084,7 @@ DOS
 <END2>
 
 #WRITE(PTR, $00001194)
-どす
+(Dosu)
 <END2>
 
 #WRITE(PTR, $00001196)
@@ -3018,7 +3104,7 @@ Inside people
 <END2>
 
 #WRITE(PTR, $000011B4)
-なかのひと
+(Naka no hito)
 <END2>
 
 #WRITE(PTR, $000011B6)
@@ -3040,7 +3126,7 @@ NASA
 <END2>
 
 #WRITE(PTR, $000011D4)
-なさ
+(NaSa)
 <END2>
 
 #WRITE(PTR, $000011D6)
@@ -3052,7 +3138,7 @@ America's National Aeronautics and Space Administration.
 <END2>
 
 #WRITE(PTR, $000011F0)
-ニコ厨
+Nico chu
 <END2>
 
 #WRITE(PTR, $000011F2)
@@ -3060,7 +3146,7 @@ America's National Aeronautics and Space Administration.
 <END2>
 
 #WRITE(PTR, $000011F4)
-にこちゅう
+(NikoChu~)
 <END2>
 
 #WRITE(PTR, $000011F6)
@@ -3068,11 +3154,12 @@ Net
 <END2>
 
 #WRITE(PTR, $000011F8)
-大規模動画投稿サイト『ニコニヤ動画』をよく利用する人たちのこと。<LINE>特に＠ちゃんねらーたちが,ニコニヤ動画利用者を侮辱する際に用いられる。
+People who often use the massive video uploading site, Nico Niya Douga.<LINE>
+Especially used among @channelers as an insult to Nico Niya Douga users.
 <END2>
 
 #WRITE(PTR, $00001210)
-虹エロ画像
+3DPD
 <END2>
 
 #WRITE(PTR, $00001212)
@@ -3080,7 +3167,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001214)
-にじえろがぞう
+(NijiEroGaZoo)
 <END2>
 
 #WRITE(PTR, $00001215)
@@ -3088,7 +3175,8 @@ Net
 <END2>
 
 #WRITE(PTR, $00001218)
-“虹”は“二次”をもじったものであり,正確には“二次元”を指す。<LINE>すなわち性的部位が描かれたＨなイラストのこと。
+Localization: 3DPD is an abbreviation for "3D Pig Disgusting".<LINE>
+In other words, Non-3DPD Porn would be illustrated porn.
 <END2>
 
 #WRITE(PTR, $00001230)
@@ -3100,7 +3188,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001234)
-にじげんのおんなのこ
+(Nijigen no Onna no ko)
 <END2>
 
 #WRITE(PTR, $00001236)
@@ -3120,7 +3208,7 @@ Year 2000 Problem
 <END2>
 
 #WRITE(PTR, $00001254)
-にせんねんもんだい
+(Nisen NenMonDai)
 <END2>
 
 #WRITE(PTR, $00001256)
@@ -3138,7 +3226,7 @@ As a result of this counter measure, the Year 2000 Problem ended as nothing but 
 <END2>
 
 #WRITE(PTR, $00001270)
-日本語でおｋ
+In Japanese plz
 <END2>
 
 #WRITE(PTR, $00001272)
@@ -3146,7 +3234,7 @@ As a result of this counter measure, the Year 2000 Problem ended as nothing but 
 <END2>
 
 #WRITE(PTR, $00001274)
-にほんごでおけ
+(Nihongo de oke)
 <END2>
 
 #WRITE(PTR, $00001276)
@@ -3154,7 +3242,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001278)
-『おｋ』は『ＯＫ』を意味する。<LINE>Net掲示板等で,意味不明なことを書き込む人間に対して「ちゃんと相手に意味が通じるように書いてください」というような意味で使われる,からかいの言葉。
+A teasing phrase used on online message boards to tell an incomprehensible poster to "please post comprehensibly".
 <END2>
 
 #WRITE(PTR, $00001290)
@@ -3166,7 +3254,7 @@ New Gene Incident
 <END2>
 
 #WRITE(PTR, $00001294)
-にゅーじぇねじけん
+(NyuJene Jiken)
 <END2>
 
 #WRITE(PTR, $00001296)
@@ -3183,7 +3271,7 @@ To this day, rumors remain on the internet that he was not the true culprit.
 <END2>
 
 #WRITE(PTR, $000012B0)
-ぬこ
+Pussies
 <END2>
 
 #WRITE(PTR, $000012B2)
@@ -3191,7 +3279,7 @@ To this day, rumors remain on the internet that he was not the true culprit.
 <END2>
 
 #WRITE(PTR, $000012B4)
-ぬこ
+(Nuko)
 <END2>
 
 #WRITE(PTR, $000012B6)
@@ -3199,11 +3287,13 @@ Net
 <END2>
 
 #WRITE(PTR, $000012B8)
-猫のこと。<LINE>“ねこ”→“ぬこ”見た目の似ている“ね”と“ぬ”を置き換えたもの。<LINE>置き換えたことに特に意味はないが,＠ちゃんねるやニコニヤ動画においては“ぬこ”という言い方が一般的。<LINE>Net上ではかわいらしい猫の画像や動画の人気は鉄板。
+A replacement of the "n" in "kitten" ("ne" in "neko") with the similar looking "h" ("nu").<LINE>
+The replacement has no real meaning, but it's popular to say "kitteh" on @channel and Nico Niya Douga.<LINE>
+Online videos and images of cute cats are sure to be popular.
 <END2>
 
 #WRITE(PTR, $000012D0)
-ぬるぽ
+What is love?
 <END2>
 
 #WRITE(PTR, $000012D2)
@@ -3211,7 +3301,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000012D4)
-ぬるぽ
+(Merupo)
 <END2>
 
 #WRITE(PTR, $000012D6)
@@ -3219,11 +3309,12 @@ Net
 <END2>
 
 #WRITE(PTR, $000012D8)
-古くからある＠ちゃんねる用語。<LINE>プログラマー板で発生し,現在では意味もなく使われている。<LINE>“ぬるぽ”という発言があった場合,必ず別の誰かが“ガッ”と突っ込むのがお約束となっている。
+Original: An old @channel term. First seen on the programmer board. Currently used without meaning. When someone says "nullpo", it's an unwritten rule for someone else to say "Ga!".<LINE>
+Localization: Lyrics to Haddaway's song, "What is Love?". When someone asks "What is Love?", the answer is always "Baby don't hurt me."
 <END2>
 
 #WRITE(PTR, $000012F0)
-ネトウヨ
+Neteyo
 <END2>
 
 #WRITE(PTR, $000012F2)
@@ -3231,7 +3322,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000012F4)
-ねとうよ
+(Netooyo)
 <END2>
 
 #WRITE(PTR, $000012F6)
@@ -3239,11 +3330,11 @@ Net
 <END2>
 
 #WRITE(PTR, $000012F8)
-『Net右翼』の略。
+Short for "Netto Uyoku" or "Internet Right-Winger".
 <END2>
 
 #WRITE(PTR, $00001310)
-脳Science
+Neuroscience
 <END2>
 
 #WRITE(PTR, $00001312)
@@ -3251,7 +3342,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001314)
-のうかがく
+(Noukagaku)
 <END2>
 
 #WRITE(PTR, $00001316)
@@ -3259,7 +3350,8 @@ Science
 <END2>
 
 #WRITE(PTR, $00001318)
-動物の脳について研究する分野。<LINE>神経Scienceとも呼ばれる。<LINE>生物学・遺伝学・医学・心理学・電子工学など,多岐に渡るアプローチから脳を研究する。
+The research field of the nervous system.<LINE>
+The study of the brain from a wide-ranging approach including biology, genetics, medicine, psychology, and electrical engineering.
 <END2>
 
 #WRITE(PTR, $00001330)
@@ -3271,7 +3363,7 @@ Noradrenaline
 <END2>
 
 #WRITE(PTR, $00001334)
-のるあどれなりん
+(Noruadorenarin)
 <END2>
 
 #WRITE(PTR, $00001336)
@@ -3285,7 +3377,7 @@ Secreted in times of anger among others.
 <END2>
 
 #WRITE(PTR, $00001350)
-禿同
+This
 <END2>
 
 #WRITE(PTR, $00001352)
@@ -3293,7 +3385,7 @@ Secreted in times of anger among others.
 <END2>
 
 #WRITE(PTR, $00001354)
-はげどう
+(Hagedou)
 <END2>
 
 #WRITE(PTR, $00001356)
@@ -3301,11 +3393,12 @@ Net
 <END2>
 
 #WRITE(PTR, $00001358)
-『激しく同意する』を省略,もじったもの。<LINE>Netスラング。
+Original: A corrupted abbreviation for "Strongly Agree" (Hageshiku Douisuru). Hagedou uses the kanji for "bald" instead of "strong". Internet slang.<LINE>
+Localization: Abbreviation for "Quoted for truth."
 <END2>
 
 #WRITE(PTR, $00001370)
-波動関数
+Wave function
 <END2>
 
 #WRITE(PTR, $00001372)
@@ -3313,7 +3406,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001374)
-はどうかんすう
+(Hadoukansu~)
 <END2>
 
 #WRITE(PTR, $00001376)
@@ -3321,11 +3414,13 @@ Science
 <END2>
 
 #WRITE(PTR, $00001378)
-量子論において,量子の状態を表すための関数。<LINE>波の速さは光の速度を超える。<LINE>実在するかどうかは確認されていない。
+In quantum theory, a function representing quantum state.<LINE>
+The wave's velocity exceeds that o light.<LINE>
+Its existence is unproven.
 <END2>
 
 #WRITE(PTR, $00001390)
-薔薇十字団
+Rosicruician Order
 <END2>
 
 #WRITE(PTR, $00001392)
@@ -3333,7 +3428,7 @@ Science
 <END2>
 
 #WRITE(PTR, $00001394)
-ばらじゅうじだん
+(Barajyuujidan)
 <END2>
 
 #WRITE(PTR, $00001396)
@@ -3341,11 +3436,12 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001398)
-１７世紀初頭にドイツで結成された,クリスチャン・ローゼンクロイツを創始者とする秘密結社。<LINE>ローゼンクロイツは錬金術や魔術の使い手であったとされているが,その実在は疑われている。
+A secret society founded in 17th century Germany by Christian Rosenkreuz.<LINE>
+Rosenkreuz was supposedly a practitioner of alchemy and black magic.
 <END2>
 
 #WRITE(PTR, $000013B0)
-ＰＴＳＤ
+PTSD
 <END2>
 
 #WRITE(PTR, $000013B2)
@@ -3353,7 +3449,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $000013B4)
-ぴーてぃーえすでぃー
+(PiーTiーEsuTiー)
 <END2>
 
 #WRITE(PTR, $000013B6)
@@ -3361,11 +3457,14 @@ Other
 <END2>
 
 #WRITE(PTR, $000013B8)
-心的外傷後ストレス障害（Ｐｏｓｔ-ｔｒａｕｍａｔｉｃ ｓｔｒｅｓｓ %nｄｉｓｏｒｄｅｒ）の略。<LINE>ＤＳＭ-Ⅳ（アメリカ精神医学会の定めた『精神障害の診断と統計の手引き』第４版・１９９４年発行）より。<LINE>事故,災害,犯罪等に遭遇し心に強いショックを受けたことが原因となり,様々なストレス障害を引き起こす精神疾患。<LINE>精神的に不安定になり,不眠や混乱,記憶の錯乱などの現象が１ヶ月以上持続している場合に当てはまる。
+Short for post-traumatic stress disorder.<LINE>
+From DSM-IV (The fourth edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiactric Association in 1994): A mental disorder inducing various stress symptoms, caused by the shock of an accident, disaster, or crime.<LINE>
+Symptoms include emotional instability, insomnia, confusion, and flashback memories.<LINE>
+Diagnose if symptoms continue for over a month.
 <END2>
 
 #WRITE(PTR, $000013D0)
-Pizzaota
+Pizza ota
 <END2>
 
 #WRITE(PTR, $000013D2)
@@ -3373,7 +3472,7 @@ Pizzaota
 <END2>
 
 #WRITE(PTR, $000013D4)
-ぴざおた
+(Pizaota)
 <END2>
 
 #WRITE(PTR, $000013D6)
@@ -3396,7 +3495,7 @@ Bit Particle Gun
 <END2>
 
 #WRITE(PTR, $000013F4)
-びっとりゅうしほう
+(BittoRyuuShihou)
 <END2>
 
 #WRITE(PTR, $000013F6)
@@ -3413,7 +3512,7 @@ Its name originates from the monumental work in the history of Japanese robot an
 <END2>
 
 #WRITE(PTR, $00001410)
-ＶＩＰ
+VIP
 <END2>
 
 #WRITE(PTR, $00001412)
@@ -3421,7 +3520,7 @@ Its name originates from the monumental work in the history of Japanese robot an
 <END2>
 
 #WRITE(PTR, $00001414)
-びっぷ
+(BiPpu)
 <END2>
 
 #WRITE(PTR, $00001416)
@@ -3429,7 +3528,8 @@ Net
 <END2>
 
 #WRITE(PTR, $00001418)
-＠ちゃんねるの板の中の１つ“ニュース速報ＶＩＰ板”のこと。<LINE>ニュース速報と言いつつ,現在では雑談系のスレがほとんどである。
+@channel's "Newsflash VIP Board".<LINE>
+Though it's called "newsflash", it's currently mostly made of idle chat threads.
 <END2>
 
 #WRITE(PTR, $00001430)
@@ -3441,7 +3541,7 @@ Final Answer
 <END2>
 
 #WRITE(PTR, $00001434)
-ふぁいなるあんさー
+(Fainaru Ansaー)
 <END2>
 
 #WRITE(PTR, $00001436)
@@ -3456,7 +3556,7 @@ Originates from a popular quiz show with contestants who want to be millionaires
 <END2>
 
 #WRITE(PTR, $00001450)
-フェルマーの最終定理
+Fermat’s last theorem
 <END2>
 
 #WRITE(PTR, $00001452)
@@ -3464,7 +3564,7 @@ Originates from a popular quiz show with contestants who want to be millionaires
 <END2>
 
 #WRITE(PTR, $00001454)
-ふぇるまーのさいしゅうていり
+(Ferumaー no saishyuuteiri)
 <END2>
 
 #WRITE(PTR, $00001456)
@@ -3472,11 +3572,11 @@ Other
 <END2>
 
 #WRITE(PTR, $00001458)
-“ｎが３以上の自然数であれば,Ｘ⑭＋Ｙ⑭＝Ｚ⑭となる自然数Ｘ,Ｙ,Ｚは存在しない”という数学における定理。<LINE>およそ３６０年間にわたり未解決となっていたが,１９９５年,ついに証明された。
+A mathematical theorem stating that "For any integer ｎ greater than 2, no three integers Ｘ, Ｙ, and Ｚ exist so that X^n＋Y^n＝Z^n." The theorem went unsolved for nearly 360 years, but it was finally proven in 1995.
 <END2>
 
 #WRITE(PTR, $00001470)
-プギャー
+Ha ha!
 <END2>
 
 #WRITE(PTR, $00001472)
@@ -3484,7 +3584,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00001474)
-ぷぎゃー
+(Pugya~)
 <END2>
 
 #WRITE(PTR, $00001476)
@@ -3492,7 +3592,8 @@ Net
 <END2>
 
 #WRITE(PTR, $00001478)
-相手を侮蔑するためのNetスラング。<LINE>指差して嘲笑する顔文字とセットで使われる。
+Internet slang used for contempt.<LINE>
+Used with a sneering smily face pointing its finger.
 <END2>
 
 #WRITE(PTR, $00001490)
@@ -3504,7 +3605,7 @@ Main Weaponry Shop
 <END2>
 
 #WRITE(PTR, $00001494)
-ぶきやほんぽ
+(Bukiyahonpo)
 <END2>
 
 #WRITE(PTR, $00001496)
@@ -3525,7 +3626,7 @@ Fujoshi
 <END2>
 
 #WRITE(PTR, $000014B4)
-ふじょし
+(Fujoshi)
 <END2>
 
 #WRITE(PTR, $000014B6)
@@ -3538,7 +3639,7 @@ Does not apply to mere female otaku.
 <END2>
 
 #WRITE(PTR, $000014D0)
-フラグ
+Flag
 <END2>
 
 #WRITE(PTR, $000014D2)
@@ -3546,7 +3647,7 @@ Does not apply to mere female otaku.
 <END2>
 
 #WRITE(PTR, $000014D4)
-ふらぐ
+(Furagu)
 <END2>
 
 #WRITE(PTR, $000014D6)
@@ -3554,7 +3655,10 @@ Otaku
 <END2>
 
 #WRITE(PTR, $000014D8)
-コンピュータゲーム用語。<LINE>いわゆる伏線のことではあるが,この場合は特に“お約束のパターン”という意味も含まれる。<LINE>“○○フラグ”と言う場合,“将来,○○が起きるためのスイッチ”といった意味を表す。<LINE>死亡フラグや恋愛フラグなどが代表例。
+Computer game term.<LINE>
+Refers to foreshadowing, but in this case includes the particular meaning of a "promised pattern".<LINE>
+The phrasing "XX Flag" means "a switch for XX to happen in the future".<LINE>
+Death Flags and Romance Flags are the representative examples.
 <END2>
 
 #WRITE(PTR, $000014F0)
@@ -3566,7 +3670,7 @@ Fractal structure
 <END2>
 
 #WRITE(PTR, $000014F4)
-ふらくたるこうぞう
+(Furakutaru kouzou)
 <END2>
 
 #WRITE(PTR, $000014F6)
@@ -3581,7 +3685,7 @@ Another example is the length of a coastline measured with different length rule
 <END2>
 
 #WRITE(PTR, $00001510)
-プラシーボ効果
+Placebo Effect
 <END2>
 
 #WRITE(PTR, $00001512)
@@ -3589,7 +3693,7 @@ Another example is the length of a coastline measured with different length rule
 <END2>
 
 #WRITE(PTR, $00001514)
-ぷらしーぼこうか
+(Purashiーbo kouka)
 <END2>
 
 #WRITE(PTR, $00001516)
@@ -3597,11 +3701,14 @@ Other
 <END2>
 
 #WRITE(PTR, $00001518)
-偽薬。<LINE>実際には薬としての効果のない,薬のように見える物のこと。<LINE>これを薬だと信じ込ませて患者に飲ませることで,心理的安定を与える。<LINE>すると薬としての効果がないにもかかわらず,病状が快方に向かう場合もある。
+A sham or simulated medical intervention.<LINE>
+A placebo is something that seems like medicine, but has no medical effect.<LINE>
+When taken by a patient who believes it to be medicine, it gives them psychological stability.<LINE>
+Despite placebos having no medical effect, there are cases where a patient's condition improves.
 <END2>
 
 #WRITE(PTR, $00001530)
-ブラチュー
+Blood Tune
 <END2>
 
 #WRITE(PTR, $00001532)
@@ -3609,7 +3716,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00001534)
-ぶらちゅー
+(Burachuー)
 <END2>
 
 #WRITE(PTR, $00001536)
@@ -3617,11 +3724,14 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001538)
-（架空）ＴＶアニメ『ブラッドチューンＴＨＥ ＡＮＩＭＡＴＩＯＮ』のこと。<LINE>元々はコミックで,メディアミックス展開により昨年,アニメ化。<LINE>全２６話で放映され,アニメファンから大きな注目を集め,特にメインヒロインの『星来オルジェル』は多数のフィギュアが出るなど大人気となった。
+(Fictional) The TV anime, "Blood Tune: THE ANIMATION".<LINE>
+Originally a comic, got an anime adaptation last year as part of a mixed-media project.<LINE>
+26 episodes were broadcast, gathering great attention from anime fans.<LINE>
+The numerous figures of the main heroine, "Seira Orgel", became especially popular.
 <END2>
 
 #WRITE(PTR, $00001550)
-ｐｌｚ
+plz
 <END2>
 
 #WRITE(PTR, $00001552)
@@ -3629,7 +3739,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001554)
-ぷりーず
+(Puriーzu)
 <END2>
 
 #WRITE(PTR, $00001556)
@@ -3637,7 +3747,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001558)
-『Ｐｌｅａｓｅ』を略したもの。
+Short for "please".
 <END2>
 
 #WRITE(PTR, $00001570)
@@ -3649,7 +3759,7 @@ Furepara
 <END2>
 
 #WRITE(PTR, $00001574)
-ふれぱら
+(Furepara)
 <END2>
 
 #WRITE(PTR, $00001576)
@@ -3672,7 +3782,7 @@ Hund's law
 <END2>
 
 #WRITE(PTR, $00001594)
-ふんとのきそく
+(Funto no kisoku)
 <END2>
 
 #WRITE(PTR, $00001596)
@@ -3685,7 +3795,7 @@ Orbitals of the same energy are each filled with one electron of the same spin b
 <END2>
 
 #WRITE(PTR, $000015B0)
-並行世界
+Parallel worlds
 <END2>
 
 #WRITE(PTR, $000015B2)
@@ -3693,7 +3803,7 @@ Orbitals of the same energy are each filled with one electron of the same spin b
 <END2>
 
 #WRITE(PTR, $000015B4)
-へいこうせかい
+(Heikousekai)
 <END2>
 
 #WRITE(PTR, $000015B6)
@@ -3701,7 +3811,8 @@ Other
 <END2>
 
 #WRITE(PTR, $000015B8)
-別の時空に,並行して存在する異世界。<LINE>我々が住む世界と同じ次元を持ち,時にはそこに暮らす人やあらゆる物の位置などまでが完全に一致している場合もある。
+A coexisting universe in separate time-space.<LINE>
+There are also cases where parallel worlds have the exact same dimensions as our world, or even sometimes the same people or objects.
 <END2>
 
 #WRITE(PTR, $000015D0)
@@ -3713,7 +3824,7 @@ BASIC
 <END2>
 
 #WRITE(PTR, $000015D4)
-べーしっく
+(Beishicku)
 <END2>
 
 #WRITE(PTR, $000015D6)
@@ -3734,7 +3845,7 @@ A beginner's programming language frequently used in the 1970s.
 <END2>
 
 #WRITE(PTR, $000015F4)
-べーたえんどるふぃん
+(Beita endorufin)
 <END2>
 
 #WRITE(PTR, $000015F6)
@@ -3757,7 +3868,7 @@ Penicillin
 <END2>
 
 #WRITE(PTR, $00001614)
-ぺにしりん
+(Penishirin)
 <END2>
 
 #WRITE(PTR, $00001616)
@@ -3770,7 +3881,7 @@ Discovered in 1929.
 <END2>
 
 #WRITE(PTR, $00001630)
-ベルダンディ
+Verthandi
 <END2>
 
 #WRITE(PTR, $00001632)
@@ -3778,7 +3889,7 @@ Discovered in 1929.
 <END2>
 
 #WRITE(PTR, $00001634)
-べるだんでぃ
+(Berudandi)
 <END2>
 
 #WRITE(PTR, $00001636)
@@ -3786,11 +3897,14 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001638)
-北欧神話に登場するノルン（運命の女神）の三姉妹の次女。<LINE>三姉妹は世界樹ユグドラシルの根本にあるウルドの泉で,ユグドラシルを育てている。<LINE>ベルダンディは現在を司る女神とされている。<LINE>日本においては某女神さまっ！　のマンガでも有名。
+The second sister of the three Norns (goddesses of fate) in Norse mythology.<LINE>
+The three sisters raise the world tree, Yggdrasil, from Urd's fountain which lays at its roots.<LINE>
+Urd is considered the Norn of the Present.<LINE>
+Popularized in Japan by a certain Goddess! manga.
 <END2>
 
 #WRITE(PTR, $00001650)
-Stock Transformation
+Stock transformation scene
 <END2>
 
 #WRITE(PTR, $00001652)
@@ -3798,7 +3912,7 @@ Stock Transformation
 <END2>
 
 #WRITE(PTR, $00001654)
-へんしんばんく
+(Henshinbanku)
 <END2>
 
 #WRITE(PTR, $00001656)
@@ -3820,7 +3934,7 @@ An editing company
 <END2>
 
 #WRITE(PTR, $00001674)
-へんぷろ
+(Henpuro)
 <END2>
 
 #WRITE(PTR, $00001676)
@@ -3833,7 +3947,7 @@ Contracted for design and editorial work from various publishers.
 <END2>
 
 #WRITE(PTR, $00001690)
-ポケベル
+Pager
 <END2>
 
 #WRITE(PTR, $00001692)
@@ -3841,7 +3955,7 @@ Contracted for design and editorial work from various publishers.
 <END2>
 
 #WRITE(PTR, $00001693)
-ぽけべる
+(Pakeberu)
 <END2>
 
 #WRITE(PTR, $00001696)
@@ -3849,7 +3963,10 @@ Other
 <END2>
 
 #WRITE(PTR, $00001698)
-電波によって小型受信機に合図を送るシステム,およびその小型受信機の俗称。<LINE>日本では１９６８年頃からサービスを開始し,１９９０年代に入って文字情報を送ることが可能となると,女子高生を中心に爆発的に普及した。<LINE>しかしそれもケータイ電話の登場によって徐々に下火となり,２００７年にはサービスを停止した。
+A system used to send signals to a small-sized receiver. Also the popular name for that small receiver.<LINE>
+Service in Japan started around 1968.<LINE>
+Support for sending text data was added in the 1990s, gaining explosive popularity among high school girls.<LINE>
+However, that popularity soon died upon the entry of cellphones, and in 2007, pager service was terminated.
 <END2>
 
 #WRITE(PTR, $000016B0)
@@ -3861,7 +3978,7 @@ Mall
 <END2>
 
 #WRITE(PTR, $000016B4)
-ほこてん
+(Hokoten)
 <END2>
 
 #WRITE(PTR, $000016B6)
@@ -3874,7 +3991,7 @@ An area where automobile traffic is prohibited.
 <END2>
 
 #WRITE(PTR, $000016D0)
-ホワイトホール
+White hole
 <END2>
 
 #WRITE(PTR, $000016D2)
@@ -3882,7 +3999,7 @@ An area where automobile traffic is prohibited.
 <END2>
 
 #WRITE(PTR, $000016D4)
-ほわいとほーる
+(Howaito houru)
 <END2>
 
 #WRITE(PTR, $000016D6)
@@ -3890,11 +4007,14 @@ Science
 <END2>
 
 #WRITE(PTR, $000016D8)
-ブラックホールと対を為すもの。<LINE>事象の地平線内へと入ってくるあらゆる物質に対し,ブ%nラックホールは吸い込んで逃がさないが,ホワイトホールは逆にすべて放出してしまう。<LINE>理論的には存在がほのめかされているが,実証は不可能とされており,また実際にいまだかつて観測されたことはない。
+The reverse of a black hole.<LINE>
+While nothing can escape a black hole, everything is released from a white hole.<LINE>
+Their existence is hinted at theoreticaly, but actual proof is impossible.<LINE>
+They have never been observed.
 <END2>
 
 #WRITE(PTR, $000016F0)
-Ｍｉｎｄｏｒｚ
+Mindorz
 <END2>
 
 #WRITE(PTR, $000016F2)
@@ -3902,7 +4022,7 @@ Science
 <END2>
 
 #WRITE(PTR, $000016F4)
-まいんどーず
+(Maindouzu)
 <END2>
 
 #WRITE(PTR, $000016F6)
@@ -3910,7 +4030,7 @@ Net
 <END2>
 
 #WRITE(PTR, $000016F8)
-（架空）パソコンのＯＳ（オペレーティングシステム）の１つ。<LINE>世界トップシェアを誇る。
+(Fictional) A computer OS (Operating System). Boasts top share in the world.
 <END2>
 
 #WRITE(PTR, $00001710)
@@ -3922,7 +4042,7 @@ Mind control
 <END2>
 
 #WRITE(PTR, $00001714)
-まいんどこんとろーる
+(Maindo kontorouru)
 <END2>
 
 #WRITE(PTR, $00001716)
@@ -3936,7 +4056,7 @@ An example of one type of mind control is where a roadside palm reader creates a
 <END2>
 
 #WRITE(PTR, $00001730)
-魔改造
+Demon mod
 <END2>
 
 #WRITE(PTR, $00001732)
@@ -3944,7 +4064,7 @@ An example of one type of mind control is where a roadside palm reader creates a
 <END2>
 
 #WRITE(PTR, $00001734)
-まかいぞう
+(MaKaizoo)
 <END2>
 
 #WRITE(PTR, $00001736)
@@ -3952,11 +4072,13 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001738)
-実際の意味としては,美少女フィギュアなどにおいて,本来は想定されていないにもかかわらず服などを強引に取り外し,裸にしてしまう改造のこと。<LINE>転じて,フィギュア以外の物でも元々想定していないような無茶な改良,改造行為を魔改造と呼ぶ場合もある。<LINE>なお,フィギュアにおいて最初から服のパーツを取り外せるよう想定されているものについては『キャストオフ』と呼び,魔改造には含まれない。
+In its actual meaning, refers to taking something like a bishoujo figure and forcibly removing clothes not intended to be removed; a nudity modification.<LINE>
+However, the term can also refer to the forciful modification of other objects to do things they're not intended to.<LINE>
+Demon mod does not apply to "cast off" figures, where the clothing parts are intended to be removed.
 <END2>
 
 #WRITE(PTR, $00001750)
-マクダイバー
+MacDyver
 <END2>
 
 #WRITE(PTR, $00001752)
@@ -3964,7 +4086,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001754)
-まくだいばー
+(MakuDaibaー)
 <END2>
 
 #WRITE(PTR, $00001756)
@@ -3972,11 +4094,13 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001758)
-（架空）正しくは『冒険野郎マクダイバー』。<LINE>１９８５年から７年間にわたりアメリカで放映された大人気テレビドラマ。<LINE>主人公のマクダイバーが,手近にある材料と,豊富な知識を使って危機を脱出する冒険活劇。
+(Fictional) Shown in Japan as "Adventure Lover MacDyver".<LINE>
+A popular TV drama that aired in America for seven years starting 1985.<LINE>
+The protagonist, MacDyver, would use everyday objects and his wealth of knowledge to escape from crises.
 <END2>
 
 #WRITE(PTR, $00001770)
-マクディ
+McD
 <END2>
 
 #WRITE(PTR, $00001772)
@@ -3984,7 +4108,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001774)
-まくでぃ
+(Makudi)
 <END2>
 
 #WRITE(PTR, $00001776)
@@ -3992,11 +4116,12 @@ Other
 <END2>
 
 #WRITE(PTR, $00001778)
-（架空）業界トップシェアを誇るファーストフードのチェーン店。<LINE>アメリカ発祥のハンバーガーショップ。
+(Fictional) A fast food restaurant chain boasting top market share.<LINE>
+A hamburger shop originating in America.
 <END2>
 
 #WRITE(PTR, $00001790)
-マグネトロン
+Magnetron
 <END2>
 
 #WRITE(PTR, $00001792)
@@ -4012,11 +4137,13 @@ Other
 <END2>
 
 #WRITE(PTR, $00001798)
-真空管の一種。<LINE>電子レンジやレーダーに使われている。<LINE>強力なマイクロウェーブを発生させる。
+A type of vacuum tube.<LINE>
+Used in microwave ovens and radar.<LINE>
+Produces a strong microwave.
 <END2>
 
 #WRITE(PTR, $000017B0)
-マスターチートン
+Master Cheaton
 <END2>
 
 #WRITE(PTR, $000017B2)
@@ -4024,7 +4151,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000017B4)
-ますたーちーとん
+(Masuta~ chi~ton)
 <END2>
 
 #WRITE(PTR, $000017B6)
@@ -4032,7 +4159,8 @@ Otaku
 <END2>
 
 #WRITE(PTR, $000017B8)
-（架空）１９８８年から６年間にわたり連載された,日本の人気コミック作品。<LINE>考古学者でありサバイバル教官であり保険調査員でもある主人公が活躍する。
+(Fictional) A popular Japanese comic serialized for six years starting 1988.<LINE>
+Follows the activities of the protagonist, who is an archeologist, and a survival instructor, and an insurance investigator.
 <END2>
 
 #WRITE(PTR, $000017D0)
@@ -4044,7 +4172,7 @@ Once again I made something stupid by Goemon
 <END2>
 
 #WRITE(PTR, $000017D4)
-またつまらぬものをつなげてしまったばいごえもん
+(MataTsumaranumono wo Tsunageteshimatta bai Goemon)
 <END2>
 
 #WRITE(PTR, $000017D6)
@@ -4067,7 +4195,7 @@ True Name
 <END2>
 
 #WRITE(PTR, $000017F4)
-まな
+(Mana)
 <END2>
 
 #WRITE(PTR, $000017F6)
@@ -4088,7 +4216,7 @@ Shit sucks
 <END2>
 
 #WRITE(PTR, $00001814)
-まんどくせ
+(Mandokuse)
 <END2>
 
 #WRITE(PTR, $00001816)
@@ -4100,7 +4228,7 @@ A corruption of "shit sucks"/"mendokusai".
 <END2>
 
 #WRITE(PTR, $00001830)
-みこみこオーバードライブ
+Miko Miko Overdrive
 <END2>
 
 #WRITE(PTR, $00001832)
@@ -4108,7 +4236,7 @@ A corruption of "shit sucks"/"mendokusai".
 <END2>
 
 #WRITE(PTR, $00001834)
-みこみこおーばーどらいぶ
+(MikoMiko ouba~doraibu)
 <END2>
 
 #WRITE(PTR, $00001836)
@@ -4116,11 +4244,12 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001838)
-（架空）５人の巫女の女の子を主人公とした,美少女変身ものアニメ。<LINE>メインターゲットは小学生の女の子であり,決して１０代後半～２０代の男性ではない。
+(Fictional) A bishoujo transformation anime with five miko girls as the protagonists.<LINE>
+Its main target audience is elementary schoolgirls, and by no means men in their teens to 20s.
 <END2>
 
 #WRITE(PTR, $00001850)
-ミストルティン
+Mistilteinn
 <END2>
 
 #WRITE(PTR, $00001852)
@@ -4128,7 +4257,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001854)
-みすとるてぃん
+(Misutorutein)
 <END2>
 
 #WRITE(PTR, $00001856)
@@ -4136,7 +4265,9 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001858)
-北欧神話に登場する伝説の剣。<LINE>ヤドリギが剣に変化したもので,不死の神バルドルの命を奪い,神々の最終戦争を招くきっかけとなった。
+A legendary sword in Norse mythology.<LINE>
+A mistletoe transfigured into a sword.<LINE>
+Stole away the life of the undying god Baldr, instigating the final war of the gods.
 <END2>
 
 #WRITE(PTR, $00001870)
@@ -4148,7 +4279,7 @@ MewTube
 <END2>
 
 #WRITE(PTR, $00001874)
-みゅうつべ
+(Myuu tsube)
 <END2>
 
 #WRITE(PTR, $00001875)
@@ -4160,7 +4291,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001890)
-ミリオタ
+Mili-ota
 <END2>
 
 #WRITE(PTR, $00001892)
@@ -4168,7 +4299,7 @@ Net
 <END2>
 
 #WRITE(PTR, $00001894)
-みりおた
+(Miriota)
 <END2>
 
 #WRITE(PTR, $00001896)
@@ -4176,11 +4307,12 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001898)
-『ミリタリーOtaku』の略。<LINE>軍事関係に多大な興味を持っている人。
+Short for "military otaku".<LINE>
+People with heavy interest in military affairs.
 <END2>
 
 #WRITE(PTR, $000018B0)
-ｍｓ
+ms
 <END2>
 
 #WRITE(PTR, $000018B2)
@@ -4188,7 +4320,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $000018B4)
-みりせかんど
+(Mirisekando)
 <END2>
 
 #WRITE(PTR, $000018B6)
@@ -4196,11 +4328,11 @@ Other
 <END2>
 
 #WRITE(PTR, $000018B8)
-ミリセカンド。ミリ秒。<LINE>１ミリ秒は０．００１秒。
+0.001 seconds.
 <END2>
 
 #WRITE(PTR, $000018D0)
-民明書房
+Minmei Shobou
 <END2>
 
 #WRITE(PTR, $000018D2)
@@ -4208,7 +4340,7 @@ Other
 <END2>
 
 #WRITE(PTR, $000018D4)
-みんめいしょぼう
+(Minmeishyobou)
 <END2>
 
 #WRITE(PTR, $000018D6)
@@ -4216,11 +4348,13 @@ Otaku
 <END2>
 
 #WRITE(PTR, $000018D8)
-某マンガに登場する架空の出版社。<LINE>主に闘技（もちろん架空である）についての著作を多く出版している。<LINE>民明書房刊の著作から引用するという体裁を取ることで,その情報がいかにも本当のことであるかのようにもっともらしく見せることができる。
+A fictional publisher from a certain manga.<LINE>
+They mainly publish various writings about the competitions (which of course are fictional).<LINE>
+"Quoting" Minmei Shobou does indeed seem to give credibility to information.
 <END2>
 
 #WRITE(PTR, $000018F0)
-Maid Cafe
+Maid cafe
 <END2>
 
 #WRITE(PTR, $000018F2)
@@ -4228,7 +4362,7 @@ Maid Cafe
 <END2>
 
 #WRITE(PTR, $000018F4)
-めいどきっさ
+(Meido kissa)
 <END2>
 
 #WRITE(PTR, $000018F6)
@@ -4243,7 +4377,7 @@ Patrons can talk to the employees and play games with them, but the store's prod
 <END2>
 
 #WRITE(PTR, $00001910)
-メシマズ
+Jelly
 <END2>
 
 #WRITE(PTR, $00001912)
@@ -4251,7 +4385,7 @@ Patrons can talk to the employees and play games with them, but the store's prod
 <END2>
 
 #WRITE(PTR, $00001914)
-めしまず
+(Meshimazu)
 <END2>
 
 #WRITE(PTR, $00001916)
@@ -4259,7 +4393,8 @@ Net
 <END2>
 
 #WRITE(PTR, $00001918)
-２００８年頃から,＠ちゃんねるやニコニヤ動画において「他人の不幸で今日も飯がうまい！」を意味する『メシウマ』という言葉が,アスキーアートとともに流行し始めた。<LINE>それの対義語として,「他人が不幸ではない,あるいは他人が幸せそうなので今日は飯がまずい」を意味する『メシマズ』という言葉が派生した。
+Original: Around 2008, the phrase "Meshi Uma", short for "Other people's misfortune make today's food appetizing!", came into popularity on @channel and Nico Niya Douga. The phrase had corresponding ASCII art. Its derived antonym is "Meshi Mazu", meaning "Other people's fortune make today's food unappetizing".<LINE>
+Localization: Jelly, corruption of jealous.
 <END2>
 
 #WRITE(PTR, $00001930)
@@ -4271,7 +4406,7 @@ Media Scrum
 <END2>
 
 #WRITE(PTR, $00001934)
-めでぃあすくらむ
+(Media Sukuramu)
 <END2>
 
 #WRITE(PTR, $00001936)
@@ -4292,7 +4427,7 @@ Menger's sponge
 <END2>
 
 #WRITE(PTR, $00001954)
-めんがーのすぽんじ
+(Menga~ no suponji)
 <END2>
 
 #WRITE(PTR, $00001956)
@@ -4317,7 +4452,7 @@ Moad Snake
 <END2>
 
 #WRITE(PTR, $00001974)
-もあっどすねーく
+(MoaddoSuneiku)
 <END2>
 
 #WRITE(PTR, $00001976)
@@ -4334,7 +4469,7 @@ Its name is derived from the stealth action game, "Metal Moa Solid: Rising".
 <END2>
 
 #WRITE(PTR, $00001990)
-Could this be 'ORAORA'?
+Could this be "ORAORA"?
 <END2>
 
 #WRITE(PTR, $00001992)
@@ -4342,7 +4477,7 @@ Could this be 'ORAORA'?
 <END2>
 
 #WRITE(PTR, $00001994)
-もしかしておらおらですかーっ
+(MoshikashiteOraOraDesukaー)
 <END2>
 
 #WRITE(PTR, $00001996)
@@ -4357,7 +4492,7 @@ Its name is derived from the cult classic manga, "JuJu's Bizarre Adventure".
 <END2>
 
 #WRITE(PTR, $000019B0)
-Black Hole Video
+Problem video
 <END2>
 
 #WRITE(PTR, $000019B2)
@@ -4365,7 +4500,7 @@ Black Hole Video
 <END2>
 
 #WRITE(PTR, $000019B4)
-もんだいのどうが
+(Mondai no douga)
 <END2>
 
 #WRITE(PTR, $000019B6)
@@ -4385,7 +4520,7 @@ UPX
 <END2>
 
 #WRITE(PTR, $000019D4)
-ゆーぴーえっくす
+(YuuPiーEckuSu)
 <END2>
 
 #WRITE(PTR, $000019D6)
@@ -4397,7 +4532,7 @@ Akihabara
 <END2>
 
 #WRITE(PTR, $000019F0)
-百合
+Yuri
 <END2>
 
 #WRITE(PTR, $000019F2)
@@ -4405,7 +4540,7 @@ Akihabara
 <END2>
 
 #WRITE(PTR, $000019F4)
-ゆり
+(Yuri)
 <END2>
 
 #WRITE(PTR, $000019F6)
@@ -4413,11 +4548,11 @@ Otaku
 <END2>
 
 #WRITE(PTR, $000019F8)
-女性同士の恋愛関係のこと。
+Homosexual romance between women.
 <END2>
 
 #WRITE(PTR, $00001A10)
-４次元
+4th Dimension
 <END2>
 
 #WRITE(PTR, $00001A12)
@@ -4425,7 +4560,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001A14)
-よじげん
+(Ejigen)
 <END2>
 
 #WRITE(PTR, $00001A16)
@@ -4433,11 +4568,12 @@ Science
 <END2>
 
 #WRITE(PTR, $00001A18)
-ここでは４次元時空を指す。<LINE>“幅,高さ,奥行き”の空間を表す３次元に,“時間”を加えたもの。
+In this case refers to four dimensional spacetime.<LINE>
+The fourth dimension of "time" is added to the three spatial dimensions of "width, length, and height".
 <END2>
 
 #WRITE(PTR, $00001A30)
-Ramen can
+Cup ramen
 <END2>
 
 #WRITE(PTR, $00001A32)
@@ -4445,7 +4581,7 @@ Ramen can
 <END2>
 
 #WRITE(PTR, $00001A34)
-らーめんかん
+(Raーmen kan)
 <END2>
 
 #WRITE(PTR, $00001A36)
@@ -4466,7 +4602,7 @@ RaiNet Kakeru
 <END2>
 
 #WRITE(PTR, $00001A54)
-らいねっとかける
+(RainettoKakeru)
 <END2>
 
 #WRITE(PTR, $00001A56)
@@ -4496,7 +4632,7 @@ Ragnarok
 <END2>
 
 #WRITE(PTR, $00001A74)
-らぐなろっく
+(Ragunarokku)
 <END2>
 
 #WRITE(PTR, $00001A76)
@@ -4509,7 +4645,7 @@ In Norse Mythology, the final war of the gods.<LINE>
 <END2>
 
 #WRITE(PTR, $00001A90)
-ラノベ
+Light novel
 <END2>
 
 #WRITE(PTR, $00001A92)
@@ -4517,7 +4653,7 @@ In Norse Mythology, the final war of the gods.<LINE>
 <END2>
 
 #WRITE(PTR, $00001A94)
-らのべ
+(Ranobe)
 <END2>
 
 #WRITE(PTR, $00001A96)
@@ -4525,11 +4661,14 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001A98)
-ライトノベル。<LINE>主に１０代男性向けに描かれた小説。<LINE>かわいらしい少女のイラストによる表紙や挿し絵が通常の小説に比べて多い。<LINE>ストーリー内容としてはＳＦからファンタジーまで様々だが,基本的には中高生の少年が,同年代の美少女と出会うことで非日常的な出来事に巻き込まれる話が近年は増えている。
+Illustrated novels targeted primarily for teenage boys.<LINE>
+Often have illustrations of lovely maidens on the covers.<LINE>
+Usually have more illustrations than conventional novels.<LINE?
+Stories range from scifi to fantasy, but in recent years, more and more fundamentally revolve around middle or high school aged boys meeting beautiful girls their age and getting involved with extraordinary circumstances.
 <END2>
 
 #WRITE(PTR, $00001AB0)
-リア充
+Normalfag
 <END2>
 
 #WRITE(PTR, $00001AB2)
@@ -4537,7 +4676,7 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001AB4)
-りあじゅう
+(Riajyuu)
 <END2>
 
 #WRITE(PTR, $00001AB6)
@@ -4545,7 +4684,8 @@ Net
 <END2>
 
 #WRITE(PTR, $00001AB7)
-現実（リアル）世界の生活が華やかで充実している人。<LINE>『友人が多い』『恋人がいる』『サークル活動に精を出す』%n『コンパに出る』『２次元に興味を持っていない』『夏休みは海外旅行に行く』などの例がある。
+People who flaunt their flourishing fulfillment in the normal, real world.<LINE>
+Examples include "I have many friends", "I have a girlfriend", "I work hard at club activities", "I party every night", "I'm not interested in 2D", and "I vacationed abroad this summer".
 <END2>
 
 #WRITE(PTR, $00001AD0)
@@ -4557,7 +4697,7 @@ Quantum teleportation
 <END2>
 
 #WRITE(PTR, $00001AD4)
-りょうしてれぽーと
+(RyoushiTerepo~to)
 <END2>
 
 #WRITE(PTR, $00001AD6)
@@ -4579,7 +4719,7 @@ This point differentiates quantum teleportation from actual teleportation.
 <END2>
 
 #WRITE(PTR, $00001AF0)
-ルイスちゃん
+Louise-chan
 <END2>
 
 #WRITE(PTR, $00001AF2)
@@ -4587,7 +4727,7 @@ This point differentiates quantum teleportation from actual teleportation.
 <END2>
 
 #WRITE(PTR, $00001AF4)
-Louise-chan
+(Ruisu-chan)
 <END2>
 
 #WRITE(PTR, $00001AF6)
@@ -4609,7 +4749,7 @@ Laegjarn
 <END2>
 
 #WRITE(PTR, $00001B14)
-れーぎゃるんのはこ
+(Re~gyarun no hako)
 <END2>
 
 #WRITE(PTR, $00001B16)
@@ -4621,7 +4761,7 @@ In Norse mythology, the gigantic chest protected by 9 locks. Houses the cursed s
 <END2>
 
 #WRITE(PTR, $00001B30)
-レジスタンス
+Resistance
 <END2>
 
 #WRITE(PTR, $00001B32)
@@ -4629,7 +4769,7 @@ In Norse mythology, the gigantic chest protected by 9 locks. Houses the cursed s
 <END2>
 
 #WRITE(PTR, $00001B34)
-れじすたんす
+(Rejisutansu)
 <END2>
 
 #WRITE(PTR, $00001B36)
@@ -4637,11 +4777,13 @@ Other
 <END2>
 
 #WRITE(PTR, $00001B38)
-政府等に対する,武装しての非正規の抵抗活動,およびそれに参加する人。<LINE>テロリズムとは紙一重の行為である。
+The armed act of rebellion against an entity such as the government using illegal means.<LINE>
+Also refers to the people who participate in such acts.<LINE>
+Differentiated by terrorism by a thin line.
 <END2>
 
 #WRITE(PTR, $00001B50)
-錬金術
+Alchemy
 <END2>
 
 #WRITE(PTR, $00001B52)
@@ -4649,7 +4791,7 @@ Other
 <END2>
 
 #WRITE(PTR, $00001B54)
-れんきんじゅつ
+(Renkinjyutsu)
 <END2>
 
 #WRITE(PTR, $00001B56)
@@ -4657,11 +4799,14 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001B58)
-フィクションや陰謀論においては,あらゆる物質,さらには人間の肉体や魂をも触媒として,別のものに作り替える技術を指す。<LINE>等価交換が必須とされる。<LINE>実際に中世ヨーロッパにいた錬金術師たちは,化学的な方法を用いて貴金属を精製しようとしていた。<LINE>その技術や成果は,現在の化学に受け継がれている。
+In fiction and conspiracy theories, refers to the art of transmuting any material into something else, using human bodies or souls as catalysts.<LINE>
+Equivalent exchange is essential.<LINE>
+European alchemists in the middle ages attempted to use chemical processes to purify precious metals.<LINE>
+Their techniques and results became what is now modern chemistry.
 <END2>
 
 #WRITE(PTR, $00001B70)
-ローアングラー
+Low angler
 <END2>
 
 #WRITE(PTR, $00001B72)
@@ -4669,7 +4814,7 @@ Conspiracy
 <END2>
 
 #WRITE(PTR, $00001B74)
-ろーあんぐらー
+(Rou anguraー)
 <END2>
 
 #WRITE(PTR, $00001B76)
@@ -4677,11 +4822,14 @@ Akihabara
 <END2>
 
 #WRITE(PTR, $00001B78)
-Akihabaraの中央通りが,週末になると歩行者天国として開放されていた時期,様々な女性コスプレイヤーやアイドルが路上で撮影会に近い行為を行っていた。<LINE>それを目当てにカメラを持って訪れるOtakuたちも多く,そんなプチ撮影会において女性をローアングルから撮影するOtakuのことを一部では“ローアングラー”と呼んだ。
+In Akihabara, Chuo Dori opens up as a pedestrian zone.<LINE>
+During that time, various female cosplayers and idols hold photo shoots on the road.<LINE>
+Many otaku come to these events holding cameras.<LINE>
+The ones that photograph the women from a low angle are called low anglers.
 <END2>
 
 #WRITE(PTR, $00001B90)
-Loto6
+LOTO SIX
 <END2>
 
 #WRITE(PTR, $00001B92)
@@ -4689,7 +4837,7 @@ Loto6
 <END2>
 
 #WRITE(PTR, $00001B94)
-ろとしっくす
+(Rotoshickusu)
 <END2>
 
 #WRITE(PTR, $00001B96)
@@ -4711,7 +4859,7 @@ Lobotomy
 <END2>
 
 #WRITE(PTR, $00001BB4)
-ろぼとみー
+(Robotomiー)
 <END2>
 
 #WRITE(PTR, $00001BB6)
@@ -4734,7 +4882,7 @@ World Wide Web
 <END2>
 
 #WRITE(PTR, $00001BD4)
-わーるどわいどうぇぶ
+(WaーrudoWaidoUebu)
 <END2>
 
 #WRITE(PTR, $00001BD6)
@@ -4748,7 +4896,7 @@ The standardized document system used on the internet.
 <END2>
 
 #WRITE(PTR, $00001BF0)
-ｗ
+lol
 <END2>
 
 #WRITE(PTR, $00001BF2)
@@ -4756,7 +4904,7 @@ The standardized document system used on the internet.
 <END2>
 
 #WRITE(PTR, $00001BF4)
-わらい
+(Warai)
 <END2>
 
 #WRITE(PTR, $00001BF6)
@@ -4764,6 +4912,10 @@ Net
 <END2>
 
 #WRITE(PTR, $00001BF8)
-（笑）のローマ字（ｗａｒａｉ）を省略したもの。<LINE>発祥は海外製オンラインゲームだと言われている。<LINE>語尾,あるいは文章の途中にこれを付けることで,笑っていること,おかしいことを表現する。<LINE>Netの匿名掲示板では「ｗｗｗｗｗ」といくつも繰り返すことで,より高い感情の度合いを表現したり,相手への嘲笑の意味としても使われる。<LINE>用例としては「うはｗｗｗｗｗおｋｗｗｗｗｗ」であったり%n「みｗなｗぎｗっｗてｗきｗたｗ」というような表現が使われ,その見た目から「草を生やす」という言い方をする場合もある。
+Original: An abbreviation for warai, laugh.<LINE>
+Said to originate from foreign online games.<LINE>
+Using this letter at the end of a word, or possibly in the middle of a sentence, denotes laughter at the absurdity of something.<LINE>
+On anonymous online message boards, repeating w's denotes the level of laughter, and is used in scorn.<LINE>
+There are also cases where the w's are used for their grasslike appearance.
 <FILEENDA0>
 

@@ -1,0 +1,571 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002986)
+
+#WRITE(PTR, $00000230)
+【Kurisu】Hmmm...
+<END>
+
+#WRITE(PTR, $00000240)
+【Kurisu】The disappearance of the IBN 5100 might be an effect of someone who's changed the past till now, right?
+<END>
+
+#WRITE(PTR, $00000250)
+【Rintaro】Ohh! So you believe my story, then!
+<END>
+
+#WRITE(PTR, $000002FC)
+【Kurisu】But from my subjectivity, all of the D-mails sent so far have had trivial content.
+<END>
+
+#WRITE(PTR, $000003D8)
+【Mayuri】Uhm, there's that mail you sent when we first realized that Microwave Ophone-chan was a time machine, right-?
+<END>
+
+#WRITE(PTR, $000004B4)
+【Itaru】It said "Okarin is a pervert", didn't it?
+<END>
+
+#WRITE(PTR, $00000562)
+【Kurisu】Then during the D-mail experiments, I sent dozens to Okabe's phone. But they were all insubstantial, so I don't think they could've changed the past.
+<END>
+
+#WRITE(PTR, $00000610)
+【Itaru】I sent two of them. I wrote secret measures to win the match against Faris.
+<END>
+
+#WRITE(PTR, $000006BE)
+【Kurisu】Then there's one more. The first mail Okabe sent by chance, saying I was dead.
+<END>
+
+#WRITE(PTR, $00000762)
+【Rintaro】But from my subjectivity, we sent several more.
+<END>
+
+#WRITE(PTR, $00000806)
+【Mayuri】You mean how you sent the winning LOTO SIX numbers-? And how Luka-chan bought a ticket with those numbers, but didn't win.
+<END>
+
+#WRITE(PTR, $000008B4)
+【Kurisu】But nobody aside from Okabe knows he sent it.
+<END>
+
+#WRITE(PTR, $00000958)
+【Rintaro】But I swear I showed you guys afterwards. It was still in my phone's arrival history.
+<END>
+
+#WRITE(PTR, $00000A06)
+【Itaru】We were so close.
+<END>
+
+#WRITE(PTR, $00000AB4)
+【Mayuri】Is that all-?
+<END>
+
+#WRITE(PTR, $00000B58)
+【Rintaro】No. There's still some more. Moeka and Lukako each sent a D-mail.
+<END>
+
+#WRITE(PTR, $00000C0A)
+【Kurisu】Oh yeah. But Okabe's the only one to claim that. Hashida, Mayuri-san, and I don't know about those.
+<END>
+
+#WRITE(PTR, $00000CB8)
+【Mayuri】Wellll, Mayushii's head is kinda getting all tangled up...
+<END>
+
+#WRITE(PTR, $00000D5C)
+【Rintaro】I already told you guys. Before and after the world changes, the only one whose memory continues is me.
+<END>
+
+#WRITE(PTR, $00000E0E)
+【Kurisu】And so, by your subjectivity, when did that IBN 5100 disappear? When you talked about it just a while ago? Until when do you remember it being here in the lab?
+<END>
+
+#WRITE(PTR, $00000EB2)
+【Rintaro】That's--
+<END>
+
+#WRITE(PTR, $00000FE4)
+I put my index finger to my forehead, sweeping up the bottom of my memory.
+<END>
+
+#WRITE(PTR, $00001088)
+IBN... IBN 5100...
+<END>
+
+#WRITE(PTR, $00001180)
+【Rintaro】I'm sure... it was August 3. I clearly remember it being in the lab until August 3.
+<END>
+
+#WRITE(PTR, $00001224)
+【Kurisu】Are you certain?
+<END>
+
+#WRITE(PTR, $000012DA)
+【Rintaro】I... would like to think so.
+<END>
+
+#WRITE(PTR, $000012FE)
+So many different things have happened, my head's full of confusion.
+<END>
+
+#WRITE(PTR, $0000130E)
+Umm, let's try organizing the conditions in which I obtained the IBN 5100.
+<END>
+
+#WRITE(PTR, $0000131E)
+I learned that Faris was well informed about the IBN 5100 as a Retro PC maniac.
+<END>
+
+#WRITE(PTR, $0000132E)
+And then, nine years ago, Faris dedicated her IBN 5100 to Yanabayashi Shrine. After asking Lukako and Luka Papa, I splendidly discovered my goal...
+<END>
+
+#WRITE(PTR, $0000133E)
+At the very least, I remember that Faris and Lukako should be concerned parties.
+<END>
+
+#WRITE(PTR, $0000134E)
+It would be weird if I didn't remember.
+<END>
+
+#WRITE(PTR, $000013C4)
+Let's try calling...
+<END>
+
+#WRITE(PTR, $000013E2)
+First up is Lukako.
+<END>
+
+#WRITE(PTR, $00001772)
+【Luka】Yes. Okabe-san, hello.
+<END>
+
+#WRITE(PTR, $0000178C)
+【Luka】Um... p-please forget about it...
+<END>
+
+#WRITE(PTR, $000017A8)
+Hm? About what?
+<END>
+
+#WRITE(PTR, $000017C4)
+【Luka】Cosplay....
+<END>
+
+#WRITE(PTR, $000017E0)
+Oh, that?
+<END>
+
+#WRITE(PTR, $000017F0)
+That was just Lukako getting embarrassed for no reason.
+<END>
+
+#WRITE(PTR, $00001800)
+【Rintaro】More importantly, I wanna ask about the IBN 5100.
+<END>
+
+#WRITE(PTR, $00001826)
+【Luka】Eh? Eyebeam... five?
+<END>
+
+#WRITE(PTR, $00001842)
+【Rintaro】IBN 5100. In Yanabayashi Shrine, someone deposited a retro computer about nine years ago. Know about it?
+<END>
+
+#WRITE(PTR, $00001868)
+【Luka】......
+<END>
+
+#WRITE(PTR, $00001878)
+【Luka】Y-yes.
+<END>
+
+#WRITE(PTR, $00001894)
+He remembers! Lukako really remembers!
+<END>
+
+#WRITE(PTR, $000018A4)
+【Rintaro】Just a while ago, I came to the shrine looking for it, right!? And then I asked your old man and he let me borrow it. Am I correct!?
+<END>
+
+#WRITE(PTR, $000018CA)
+【Luka】Eh...?
+<END>
+
+#WRITE(PTR, $000018DA)
+【Luka】That can't...
+<END>
+
+#WRITE(PTR, $000018F6)
+【Rintaro】...Am I wrong?
+<END>
+
+#WRITE(PTR, $0000191C)
+【Luka】I don't think I remember anything like that...
+<END>
+
+#WRITE(PTR, $00001938)
+What...?
+<END>
+
+#WRITE(PTR, $00001948)
+Is this another effect of changing the past?
+<END>
+
+#WRITE(PTR, $00001958)
+【Rintaro】It's a fact that the IBN 5100 was at that shrine, right? Is it there now?
+<END>
+
+#WRITE(PTR, $00001974)
+【Luka】No... I don't know. I don't know the details...
+<END>
+
+#WRITE(PTR, $00001990)
+【Rintaro】Where are you now? Is your old man close by?
+<END>
+
+#WRITE(PTR, $000019AC)
+【Luka】...he isn't.
+<END>
+
+#WRITE(PTR, $000019C8)
+【Rintaro】...I see. I understand. Sorry for calling you so suddenly.
+<END>
+
+#WRITE(PTR, $000019EE)
+【Luka】N-no problem. I'm sorry, that I couldn't be of use...
+<END>
+
+#WRITE(PTR, $00001A9E)
+It's true that the IBN 5100 was at Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00001AAE)
+And Lukako knew that.
+<END>
+
+#WRITE(PTR, $00001ABE)
+I need to check if it's still there or not.
+<END>
+
+#WRITE(PTR, $00001B5C)
+Could it be possible that the IBN returned to the shrine?
+<END>
+
+#WRITE(PTR, $00001B6C)
+Did that huge retro PC sprout legs and trot back?
+<END>
+
+#WRITE(PTR, $00001BD0)
+That's just silly.
+<END>
+
+#WRITE(PTR, $00001C6E)
+But a gelbana did return via teleportation from the microwave to the room.
+<END>
+
+#WRITE(PTR, $00001C7E)
+Moeka also instantly moved from the lab to somewhere else.
+<END>
+
+#WRITE(PTR, $00001C8E)
+With that in mind, it's entirely possible that the IBN 5100 teleported in the same way. Maybe I should go check later.
+<END>
+
+#WRITE(PTR, $00001CF2)
+Next is Faris.
+<END>
+
+#WRITE(PTR, $00001D02)
+By the way, I haven't told Faris my phone number. She just knows my mail address.
+<END>
+
+#WRITE(PTR, $00001D12)
+Because if I called Faris, I'd get rolled up into her usual rampage.
+<END>
+
+#WRITE(PTR, $00001D22)
+With that said--
+<END>
+
+#WRITE(PTR, $00001D32)
+There's only one route I can take.
+<END>
+
+#WRITE(PTR, $00001E08)
+【Rintaro】Mayuri, I want to contact Faris.
+<END>
+
+#WRITE(PTR, $00001E22)
+【Mayuri】Hweh~?
+<END>
+
+#WRITE(PTR, $00001E32)
+Mayuri's eating an eclair.
+<END>
+
+#WRITE(PTR, $00001E42)
+Looks like she put some in the refridgerator.
+<END>
+
+#WRITE(PTR, $00001E5C)
+【Mayuri】Want one too, Okarin-? They're delicious♪
+<END>
+
+#WRITE(PTR, $00001ED2)
+Now that I look, Kurisu and Daru are also eating.
+<END>
+
+#WRITE(PTR, $00001EE2)
+【Rintaro】You're all just carefree little bastards, aren't you!? The lab's in the middle of a mystery, people!
+<END>
+
+#WRITE(PTR, $00001EFC)
+【Kurisu】Everything could just be Okabe's delusion. No need to panic.
+<END>
+
+#WRITE(PTR, $00001F0C)
+It's not a delusion. Absolutely not... absolutely not!
+<END>
+
+#WRITE(PTR, $00001F26)
+【Mayuri】You need Faris-chan for something-? Is she at the store today-?
+<END>
+
+#WRITE(PTR, $00001F36)
+【Itaru】Faris-tan's taking a break today.
+<END>
+
+#WRITE(PTR, $00001FDC)
+Well done, Daru. You know Faris' work schedule better than Mayuri, her coworker.
+<END>
+
+#WRITE(PTR, $00001FEC)
+He should be awarded the title of Faris Stalker.
+<END>
+
+#WRITE(PTR, $00002088)
+【Rintaro】Mayuri, you know that girl's phone number, right? Lemme see if I can contact her.
+<END>
+
+#WRITE(PTR, $000020A2)
+【Mayuri】Yup. Okay-
+<END>
+
+#WRITE(PTR, $000020B2)
+Mayuri takes out her phone and makes a call.
+<END>
+
+#WRITE(PTR, $000020C2)
+After waiting a while, Mayuri's face quickly turns into a smile.
+<END>
+
+#WRITE(PTR, $000020DC)
+【Mayuri】Ah, Faris-chan? Good afternyun~nyun♪ Mayushii nyan.
+<END>
+
+#WRITE(PTR, $000020F6)
+【Kurisu】Nya, nyan...?
+<END>
+
+#WRITE(PTR, $00002106)
+Kurisu frowns when Mayuri's tone changes.
+<END>
+
+#WRITE(PTR, $00002116)
+【Mayuri】Sorry to bother you on your break-. Well, Okarin said he wants to talk to you about something-. Wanna talk to him?
+<END>
+
+#WRITE(PTR, $00002130)
+【Mayuri】Eh-? Okarin is Okarin-
+<END>
+
+#WRITE(PTR, $0000214A)
+【Mayuri】...Hm-? Kyoumah? Who's Kyoumah-?
+<END>
+
+#WRITE(PTR, $0000215A)
+Just what are they talking about?
+<END>
+
+#WRITE(PTR, $0000216A)
+By the way, Faris is the only person to call me by my true name-- that is, Hououin Kyouma. I'm thankful to her for that, but I'm still not good with her.
+<END>
+
+#WRITE(PTR, $00002184)
+【Mayuri】Well, just talk to him for now, okay-
+<END>
+
+#WRITE(PTR, $0000225A)
+【Mayuri】Here, Okarin.
+<END>
+
+#WRITE(PTR, $000023B8)
+I take Mayuri's phone.
+<END>
+
+#WRITE(PTR, $000023C8)
+Displayed on the LCD is Faris' face, adorned with cat ears, even though she's taking a break.
+<END>
+
+#WRITE(PTR, $000023D8)
+【Rintaro】It's me. Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $000023FE)
+【Faris】Nyao♪ It's rare for Kyouma to need meow for something.
+<END>
+
+#WRITE(PTR, $0000241A)
+【Rintaro】There's something I need to ask you.
+<END>
+
+#WRITE(PTR, $0000242A)
+【Rintaro】Long ago, you dedicated a retro PC to Yanabayashi shrine. Am I mistaken?
+<END>
+
+#WRITE(PTR, $00002450)
+【Faris】Nyan.
+<END>
+
+#WRITE(PTR, $0000246C)
+【Rintaro】What? What do meown by nyan?
+<END>
+
+#WRITE(PTR, $0000247C)
+Ah crap, I started to talk like her.
+<END>
+
+#WRITE(PTR, $0000248C)
+Kurisu bursts out laughing. Looks like she heard.
+<END>
+
+#WRITE(PTR, $000024B2)
+【Faris】I meown that you're not mistaken nya. Though, I only recently learned it was called the IBN 5100 nya.
+<END>
+
+#WRITE(PTR, $000024CE)
+【Rintaro】What? What do you mean recently...?
+<END>
+
+#WRITE(PTR, $000024EA)
+【Faris】I had Daru-nyan tell meow.
+<END>
+
+#WRITE(PTR, $00002506)
+So that's it...
+<END>
+
+#WRITE(PTR, $00002516)
+At any rate, it's a fact that the IBN 5100 was at Yanabayashi Shrine, and Faris knew that too.
+<END>
+
+#WRITE(PTR, $00002526)
+So did the IBN 5100 disappear from the lab after that...?
+<END>
+
+#WRITE(PTR, $00002536)
+No, Kurisu and the others lost their memories of the fact that I brought it from the shrine to the lab. So I'm considering two possibilities.
+<END>
+
+#WRITE(PTR, $00002546)
+1. I went to the shrine, but didn't obtain an IBN 5100. It's still at the shrine.
+<END>
+
+#WRITE(PTR, $00002556)
+2. Before I went to the shrine, someone moved the IBN 5100 somewhere else.
+<END>
+
+#WRITE(PTR, $00002566)
+Looks like I'll have to go to the shrine to check after all.
+<END>
+
+#WRITE(PTR, $0000258C)
+【Faris】What's this about the retro PC nya?
+<END>
+
+#WRITE(PTR, $000025A8)
+【Rintaro】Ah, nothing...
+<END>
+
+#WRITE(PTR, $000025B8)
+Faris was a retro PC maniac, wasn't she.
+<END>
+
+#WRITE(PTR, $000025C8)
+Let's just make sure.
+<END>
+
+#WRITE(PTR, $000025D8)
+【Rintaro】Do you have any other information on the IBN 5100? It's a super rare PC.
+<END>
+
+#WRITE(PTR, $000025E8)
+【Rintaro】As a charisma-build maid, you have a strong network in Akiba, right? I'd like to ask you to use that and search for any IBN 5100's in Akiba now.
+<END>
+
+#WRITE(PTR, $000025F8)
+We just need to fine one. It doesn't matter if it's not the one I found at the shrine.
+<END>
+
+#WRITE(PTR, $0000261E)
+【Faris】Hmnya~...
+<END>
+
+#WRITE(PTR, $00002638)
+【Faris】I can look, but on certain conditions, nya.
+<END>
+
+#WRITE(PTR, $00002654)
+【Rintaro】Conditions...?
+<END>
+
+#WRITE(PTR, $00002664)
+Is she trying to strike a deal?
+<END>
+
+#WRITE(PTR, $00002674)
+She's unexpectedly stubborn.
+<END>
+
+#WRITE(PTR, $00002684)
+【Rintaro】...Let's hear them.
+<END>
+
+#WRITE(PTR, $000026AA)
+【Faris】Then, I want you to come to Faris' house after this nya.
+<END>
+
+#WRITE(PTR, $000026C6)
+【Rintaro】House? Where is your house?
+<END>
+
+#WRITE(PTR, $000026D6)
+I hurriedly prepare a memo pad and write down the address Faris recites.
+<END>
+
+#WRITE(PTR, $000026E6)
+【Rintaro】Oh, so you live in Akiba.
+<END>
+
+#WRITE(PTR, $000026F6)
+It'll be fast in that case. Judging by the address, it should be right in front of the station.
+<END>
+
+#WRITE(PTR, $0000271C)
+【Faris】I'll be waiting then nya♪
+<END>
+
+#WRITE(PTR, $000027A2)
+I return Mayuri's phone and stand up from the couch.
+<END>
+
+#WRITE(PTR, $000027B2)
+I'm heading to Faris' house via Yanabayashi Shrine.
+<FILEEND5A>
+
