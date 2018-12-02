@@ -4,7 +4,11 @@ This is a toolkit for disassembling Steins;Gate PSP version of the game. More sp
 Honestly, you shouldn't bother with how it works, because I already did (well, currently I'm still doing it) everything for you. Final scripts can be found in `atlas-scripts-edited` (not all of them are available right now). The final patch will be posted here once the work is done.
 
 #### ETA
-No promises, but let's hope this will be released before the end of 2018.
+This will be finished until the end of 2018. The active work will begin December 18th. Currently I'm wrapping up with my exams at uni and I can't give this project as much time as I would like to. With that said, once the exams are done, it shouldn't take me more than 4-8 hours per each of the 7 chapters that are left to edit. I'll make multiple releases, for each of which there will be a choice of either PPF or xDelta methods of patching:
+- 0.9 Will contain the translated game, PMFs, DATA and DICT.
+- 1.0 Will add on the translated MENU, since that would require manual translation and isn't really a priority
+- THIS IS THE POINT WHERE PLAYTESTING WILL BE OF UPMOST IMPORTANCE
+- 1.x Will contain all the fixes after the playtesting (and will come around probably already in 2019)
 
 #### What's done
 - PC version cutscenes with rendered subtitles converted to PMF
