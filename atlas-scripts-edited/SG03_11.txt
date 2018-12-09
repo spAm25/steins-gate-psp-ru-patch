@@ -42,7 +42,7 @@ Instinctive feelings of fear.
 <END>
 
 #WRITE(PTR, $000002C2)
-【Rintaro】...！
+【Rintaro】...!
 <END>
 
 #WRITE(PTR, $000002D2)

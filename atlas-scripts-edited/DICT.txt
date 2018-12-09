@@ -1951,7 +1951,7 @@ But currently, this paradox is being proven to not be a paradox.<LINE>
 Instead, it's being used as a widely accepted phenomenon that resembles a paradox in quantum mechanics, and is often referenced.<LINE>
 A cat is placed inside a box installed with a poisonous gas release system and radioactive radium.<LINE>
 If the radium emits an alpha particle, it sets off a sensor, releasing the poisonous gas and killing the cat.<LINE>
-Let's say radium has a 50% chance of alpha particle emission in one hour.<LINE>
+Let's say radium has a 50％ chance of alpha particle emission in one hour.<LINE>
 After that hour, the moment one opens the box, the cat has a 1:1 likelihood of being alive or dead.<LINE>
 So how was the cat before the box was opened?<LINE>
 According to Einstein, even without observation, the cat was either alive or dead.
@@ -4129,7 +4129,7 @@ Magnetron
 <END2>
 
 #WRITE(PTR, $00001794)
-まぐねとろん
+(Magunetoron)
 <END2>
 
 #WRITE(PTR, $00001796)

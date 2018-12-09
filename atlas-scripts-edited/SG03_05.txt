@@ -636,7 +636,7 @@ Kurisu gives us a cold stare, shrugging her shoulders in amazement.
 <END>
 
 #WRITE(PTR, $00002174)
-【Itaru】There are things we don't understand, but since we completed the art of D-mailing, isn't that our <DICT>Final Answer</DICT>？
+【Itaru】There are things we don't understand, but since we completed the art of D-mailing, isn't that our <DICT>Final Answer</DICT>?
 <END>
 
 #WRITE(PTR, $0000218E)

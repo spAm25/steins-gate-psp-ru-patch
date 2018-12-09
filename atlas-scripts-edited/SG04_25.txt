@@ -54,7 +54,7 @@ Parents and children reunited after a long time might have a lot to talk about.
 <END>
 
 #WRITE(PTR, $00000D26)
-【Rintaro】...！
+【Rintaro】...!
 <END>
 
 #WRITE(PTR, $00000D36)
@@ -110,7 +110,7 @@ After about thirty minutes, following the people funneling into the station.
 <END>
 
 #WRITE(PTR, $00000F62)
-【Rintaro】...！
+【Rintaro】...!
 <END>
 
 #WRITE(PTR, $00000F72)

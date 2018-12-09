@@ -1,0 +1,583 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001036)
+
+#WRITE(PTR, $000001FC)
+After Mayuri and Daru go home, Kurisu is the only one who stays behind.
+<END>
+
+#WRITE(PTR, $0000020C)
+She's sitting in the development room chair, endlessly twirling a pen in her hand.
+<END>
+
+#WRITE(PTR, $00000254)
+【Rintaro】Just what are you doing?
+<END>
+
+#WRITE(PTR, $00000264)
+【Kurisu】Thinking. About the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00000274)
+【Kurisu】I understand how to make it, but just what will happen if we actually use it?
+<END>
+
+#WRITE(PTR, $00000284)
+【Rintaro】I see.
+<END>
+
+#WRITE(PTR, $00000294)
+Is she worried about what happens after she finishes it even though she hasn't started yet?
+<END>
+
+#WRITE(PTR, $000002A4)
+She sure is confident. Is this the freedom of a genius?
+<END>
+
+#WRITE(PTR, $00000342)
+What'll happen if we use it--
+<END>
+
+#WRITE(PTR, $00000352)
+It really doesn't seem like we'll come up with an answer to that soon. That's how our discussion earlier was, too.
+<END>
+
+#WRITE(PTR, $00000362)
+On the other hand, it seems like a problem of whether she agrees with her own conclusions.
+<END>
+
+#WRITE(PTR, $00000372)
+That's why I avoid arguing with her.
+<END>
+
+#WRITE(PTR, $000003D6)
+【Rintaro】Don't worry so much. Prioritize completing it for now.
+<END>
+
+#WRITE(PTR, $000003F0)
+【Kurisu】So pompous.
+<END>
+
+#WRITE(PTR, $0000040A)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00000426)
+Kurisu groans a little, and languidly lays herself on the desk.
+<END>
+
+#WRITE(PTR, $00000436)
+She's usually so gallant, but when she's thinking, she's pretty sloppy.
+<END>
+
+#WRITE(PTR, $00000446)
+This might be Kurisu's natural state.
+<END>
+
+#WRITE(PTR, $00000456)
+【Kurisu】Hey, Okabe--
+<END>
+
+#WRITE(PTR, $00000466)
+【Kurisu】Can I, consult you about something completely unrelated?
+<END>
+
+#WRITE(PTR, $00000476)
+【Rintaro】Don't consult me about something unrelated, but about something related, please.
+<END>
+
+#WRITE(PTR, $00000486)
+【Kurisu】You told me before, didn't you? That I could always consult you.
+<END>
+
+#WRITE(PTR, $00000496)
+Before...?
+<END>
+
+#WRITE(PTR, $000004A6)
+Just what is she talking about?
+<END>
+
+#WRITE(PTR, $000004B6)
+【Kurisu】I'm, probably hated by my father, huh...
+<END>
+
+#WRITE(PTR, $000004D2)
+She sighs such sad words.
+<END>
+
+#WRITE(PTR, $000004E2)
+I see, it's about that.
+<END>
+
+#WRITE(PTR, $00000580)
+If she keeps worrying idly like this, it'll hinder the development of the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00000590)
+In that case, I, Hououin Kyouma, must make her forget about this once and for all, must I not?
+<END>
+
+#WRITE(PTR, $000005A0)
+The development of the Time Leap Machine is precisely a project pivoted on Kurisu.
+<END>
+
+#WRITE(PTR, $000005B0)
+It's completely different from her past advisor-like role.
+<END>
+
+#WRITE(PTR, $000005C0)
+I need her to get a grip!
+<END>
+
+#WRITE(PTR, $00000624)
+【Rintaro】Fine then. Talk.
+<END>
+
+#WRITE(PTR, $0000066C)
+【Kurisu】Hmhm... you really are pompous.
+<END>
+
+#WRITE(PTR, $0000067C)
+【Rintaro】Earlier, were you on the phone with your father?
+<END>
+
+#WRITE(PTR, $0000068C)
+About four days ago, Kurisu was crying on the bench downstairs while on the phone.
+<END>
+
+#WRITE(PTR, $0000069C)
+The atmosphere was pretty serious.
+<END>
+
+#WRITE(PTR, $000006B6)
+【Kurisu】...Well, yeah.
+<END>
+
+#WRITE(PTR, $000006C6)
+【Kurisu】Since some time ago, it seems like my father started to hate me...
+<END>
+
+#WRITE(PTR, $000006D6)
+【Kurisu】Before I went to the states, he almost openly avoided me. Even though we're family.
+<END>
+
+#WRITE(PTR, $000006E6)
+【Rintaro】How did you act towards your father?
+<END>
+
+#WRITE(PTR, $000006F6)
+【Kurisu】Long ago, I was daddy's little girl. He was pretty heroic, you know?
+<END>
+
+#WRITE(PTR, $00000706)
+She talks with a self-deriding smile on her face.
+<END>
+
+#WRITE(PTR, $00000716)
+【Kurisu】My father's a physicist, but as a child, I loved hearing difficult conversations. I didn't understand a word of it, but I would always bother my father to talk to me.
+<END>
+
+#WRITE(PTR, $00000726)
+【Kurisu】I wanted to somehow understand, so I became engrossed in reading physics books since I was little.
+<END>
+
+#WRITE(PTR, $00000736)
+Th-that's a genius girl for you.
+<END>
+
+#WRITE(PTR, $00000746)
+No, maybe that yearning for her father's love was what gave birth to her genius.
+<END>
+
+#WRITE(PTR, $00000756)
+【Kurisu】Thanks to that, only my math grades at school towered above the rest. I ignored all the other subjects.
+<END>
+
+#WRITE(PTR, $00000766)
+【Kurisu】I read the theses my father wrote, you know? They're not something an elementary student can possibly understand, but I examined them with all my life, desperately decoding them.
+<END>
+
+#WRITE(PTR, $00000776)
+【Kurisu】I got to the level where I could argue about those theses with my father during late elementary school.
+<END>
+
+#WRITE(PTR, $00000786)
+【Kurisu】I was really happy, and enjoyed being able to talk to my father about physics.
+<END>
+
+#WRITE(PTR, $000007A0)
+【Kurisu】And then I would always win those arguments.
+<END>
+
+#WRITE(PTR, $000007B0)
+【Rintaro】That would make him hate you. Definitely hate you.
+<END>
+
+#WRITE(PTR, $000007C0)
+A tragedy fitting for a genius girl.
+<END>
+
+#WRITE(PTR, $000007D0)
+I mean, a physicist losing to his elementary school daughter...
+<END>
+
+#WRITE(PTR, $000007EA)
+【Kurisu】You really think so?
+<END>
+
+#WRITE(PTR, $000007FA)
+【Rintaro】I don't just think so. That's certainly the cause.
+<END>
+
+#WRITE(PTR, $00000814)
+【Kurisu】He certainly was very proud...
+<END>
+
+#WRITE(PTR, $00000824)
+【Kurisu】Anyway, one day, he suddenly stopped talking to me altogether...
+<END>
+
+#WRITE(PTR, $00000834)
+【Kurisu】Eventually, it got serious with Mama too, and he stopped coming home.
+<END>
+
+#WRITE(PTR, $00000844)
+【Kurisu】I really loved my father, so it was a big shock when I felt it was my fault things turned out that way. I even became truant for a period of time...
+<END>
+
+#WRITE(PTR, $00000854)
+【Kurisu】And then Mama recommended I study abroad.
+<END>
+
+#WRITE(PTR, $00000864)
+I see, so that's how it happened.
+<END>
+
+#WRITE(PTR, $00000874)
+【Rintaro】That means you're too superior.
+<END>
+
+#WRITE(PTR, $00000884)
+【Rintaro】So, what do you think about your father now?
+<END>
+
+#WRITE(PTR, $00000894)
+【Kurisu】I don't know...
+<END>
+
+#WRITE(PTR, $000008B0)
+Kurisu turns down her face.
+<END>
+
+#WRITE(PTR, $000008C0)
+【Rintaro】Your father's in Japan, right? Have you met with him at all?
+<END>
+
+#WRITE(PTR, $000008D0)
+【Kurisu】No... We haven't met after all.
+<END>
+
+#WRITE(PTR, $000008E0)
+【Kurisu】That's what we were talking about on the phone earlier. I asked if we could meet, but he yelled don't come...
+<END>
+
+#WRITE(PTR, $000008F0)
+Her father's such a pansy.
+<END>
+
+#WRITE(PTR, $00000900)
+So saying something like that would really make the strong Kurisu cry.
+<END>
+
+#WRITE(PTR, $00000910)
+【Kurisu】And, even if we do meet, I don't know what we could talk about...
+<END>
+
+#WRITE(PTR, $00000920)
+【Kurisu】I try my hardest to start talking to him even though he hates me, but he always ignores me....
+<END>
+
+#WRITE(PTR, $00000930)
+【Kurisu】It's so painful. Since I have those memories, I start to think that he'll ignore me again, and then I can't say anything.
+<END>
+
+#WRITE(PTR, $00000940)
+Trauma, huh.
+<END>
+
+#WRITE(PTR, $00000950)
+【Kurisu】Sniff...
+<END>
+
+#WRITE(PTR, $00000960)
+【Rintaro】Are you crying?
+<END>
+
+#WRITE(PTR, $00000970)
+【Kurisu】J-just a little, okay?
+<END>
+
+#WRITE(PTR, $00000980)
+【Rintaro】You still want to reconcile with your father. Correct?
+<END>
+
+#WRITE(PTR, $00000990)
+【Kurisu】I wonder...
+<END>
+
+#WRITE(PTR, $000009A0)
+【Rintaro】If you didn't, then you wouldn't have consulted me about him, you wouldn't have said you wanted to meet him, and you wouldn't be crying, would you?
+<END>
+
+#WRITE(PTR, $000009B0)
+【Kurisu】True...
+<END>
+
+#WRITE(PTR, $000009C0)
+【Rintaro】Just be honest with your feelings. "I love Daddy" and stuff.
+<END>
+
+#WRITE(PTR, $000009D0)
+【Kurisu】I think that's impossible for someone like me, though...
+<END>
+
+#WRITE(PTR, $000009E0)
+【Rintaro】Do you act cutesy with your father?
+<END>
+
+#WRITE(PTR, $00000A2E)
+Kurisu's face gets red as she gets up.
+<END>
+
+#WRITE(PTR, $00000A3E)
+【Kurisu】Wha- I-I don't act!
+<END>
+
+#WRITE(PTR, $00000A4E)
+【Rintaro】No, you do act. You can't reconcile like that.
+<END>
+
+#WRITE(PTR, $00000A5E)
+【Rintaro】You need to strike him straight just the way you are. There's no other solution.
+<END>
+
+#WRITE(PTR, $00000A78)
+【Rintaro】There's no point if you don't get your message across. It's meaningless to sugarcoat things.
+<END>
+
+#WRITE(PTR, $00000A88)
+【Rintaro】If you still can't get him to understand, then your reconciliation won't sprout. Then only time can tell.
+<END>
+
+#WRITE(PTR, $00000A98)
+【Kurisu】Time? How much?
+<END>
+
+#WRITE(PTR, $00000AA8)
+【Rintaro】It's not like I have a way of knowing that. I mean, I'm only a year older than you.
+<END>
+
+#WRITE(PTR, $00000AB8)
+【Rintaro】How many years ago did you go to America?
+<END>
+
+#WRITE(PTR, $00000AC8)
+【Kurisu】Umm... seven years ago.
+<END>
+
+#WRITE(PTR, $00000AD8)
+【Rintaro】If seven years have passed without any change, then maybe it'll take twice that long.
+<END>
+
+#WRITE(PTR, $00000AF2)
+【Kurisu】That's right... isn't it...
+<END>
+
+#WRITE(PTR, $00000B0E)
+Kurisu sighs, this time placing her elbow on the desk, listlessly resting her chin in her hands.
+<END>
+
+#WRITE(PTR, $00000B1E)
+Did my advice backfire by any chance? It looks like she's terribly depressed.
+<END>
+
+#WRITE(PTR, $00000B2E)
+I fold my arms.
+<END>
+
+#WRITE(PTR, $00000B3E)
+Hmm, I don't want to see Kurisu like this.
+<END>
+
+#WRITE(PTR, $00000B4E)
+【Rintaro】So, when will you go meet him?
+<END>
+
+#WRITE(PTR, $00000B96)
+【Kurisu】...Hweh?
+<END>
+
+#WRITE(PTR, $00000BB2)
+Kurisu let's out a silly voice and stares in wonder.
+<END>
+
+#WRITE(PTR, $00000BCA)
+I take out my phone and call up this month's calendar.
+<END>
+
+#WRITE(PTR, $00000BE2)
+【Rintaro】It has to be during summer break, and you have to tell me when you're going early ahead of time.
+<END>
+
+#WRITE(PTR, $00000BF2)
+【Kurisu】Wha-wha-wha-what are you talking about!?
+<END>
+
+#WRITE(PTR, $00000C02)
+【Rintaro】I have plans too. If you tell me suddenly, the our schedules might not match.
+<END>
+
+#WRITE(PTR, $00000C12)
+【Kurisu】Nonono, don't tell me you plan to come along!?
+<END>
+
+#WRITE(PTR, $00000C22)
+【Rintaro】Indeed. You are my assistant. My assistant's worries are my worries. I'll do anything I can so you can work in your best mental condition.
+<END>
+
+#WRITE(PTR, $00000C32)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00000C42)
+Kurisu looks dumbfounded.
+<END>
+
+#WRITE(PTR, $00000C52)
+What? Did I say something wrong?
+<END>
+
+#WRITE(PTR, $00000C62)
+【Kurisu】What's with that? Jokes should also be in moder --
+<END>
+
+#WRITE(PTR, $00000C72)
+【Rintaro】I'm completely serious.
+<END>
+
+#WRITE(PTR, $00000C8C)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00000C9C)
+【Rintaro】I'll follow you anywhere as long as it's within Japan. Though it'll be difficult if it's abroad since I don't have a passport or that much money.
+<END>
+
+#WRITE(PTR, $00000CAC)
+【Kurisu】Okabe...
+<END>
+
+#WRITE(PTR, $00000CBC)
+【Rintaro】If you're alone with your father, you won't know what to talk about, right?
+<END>
+
+#WRITE(PTR, $00000CCC)
+【Kurisu】Yeah...
+<END>
+
+#WRITE(PTR, $00000CDC)
+【Rintaro】So if I come along, there won't be a problem. I, Hououin Kyouma, will sense the mood and supply splendid subject matter.
+<END>
+
+#WRITE(PTR, $00000CF6)
+【Kurisu】...pfft
+<END>
+
+#WRITE(PTR, $00000D06)
+【Rintaro】Why are you laughing!?
+<END>
+
+#WRITE(PTR, $00000D16)
+【Kurisu】Come on, you of all people can't sense the mood at all.
+<END>
+
+#WRITE(PTR, $00000D26)
+【Rintaro】Ah...
+<END>
+
+#WRITE(PTR, $00000D36)
+That, that's true...! No, rather, that's my strong point. Mad scientists must be self-righteous.
+<END>
+
+#WRITE(PTR, $00000D50)
+【Kurisu】But thanks... I never thought that you'd go that far to say those things for me...
+<END>
+
+#WRITE(PTR, $00000D6A)
+【Kurisu】I-it's not like I'm happy about that or anything!
+<END>
+
+#WRITE(PTR, $00000D7A)
+【Kurisu】Honestly, it troubles me that you can be a good guy at times!
+<END>
+
+#WRITE(PTR, $00000D8A)
+What troubles her?
+<END>
+
+#WRITE(PTR, $00000D9A)
+Or rather, why did she suddenly snap? Shouldn't she be apologizing to me instead?
+<END>
+
+#WRITE(PTR, $00000DB4)
+【Kurisu】Hey, Okabe. I really can... take you up on that offer, right?
+<END>
+
+#WRITE(PTR, $00000DC4)
+【Rintaro】Of course.
+<END>
+
+#WRITE(PTR, $00000DD4)
+【Kurisu】Then, once we're done with the Microwave Ophone's improvements--
+<END>
+
+#WRITE(PTR, $00000DEE)
+【Kurisu】Come with me.
+<END>
+
+#WRITE(PTR, $00000DFE)
+【Rintaro】You can count on me. So, where's your father now?
+<END>
+
+#WRITE(PTR, $00000E0E)
+【Kurisu】Aomori.
+<END>
+
+#WRITE(PTR, $00000E1E)
+【Rintaro】Aomorii!?
+<END>
+
+#WRITE(PTR, $00000E2E)
+【Kurisu】My father lives there now.
+<END>
+
+#WRITE(PTR, $00000E3E)
+That's farther than expected.
+<END>
+
+#WRITE(PTR, $00000E58)
+【Kurisu】Wh-what? You're not going to back out are you!? Because it's already been decided. I'm taking you whether you like it or not, okay!?
+<END>
+
+#WRITE(PTR, $00000E68)
+【Rintaro】...a-as you wish.
+<END>
+
+#WRITE(PTR, $00000E78)
+Well, if promising to go to Aomori will make Kurisu work her hardest at the Time Leap Machine, it's a small price to pay.
+<FILEEND87>
+

@@ -1,0 +1,1135 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001DDC)
+
+#WRITE(PTR, $000001F8)
+At a good stopping point, I recline on the sofa, absentmindedly watching a high school baseball game.
+<END>
+
+#WRITE(PTR, $00000208)
+The teams from Kumamoto and Aichi are playing a heroic high hitting game.
+<END>
+
+#WRITE(PTR, $00000218)
+And then the sewing machine sounds reverberating in the lounge suddenly stop.
+<END>
+
+#WRITE(PTR, $00000260)
+【Mayuri】Okarin, Okarin. Come here a bit-
+<END>
+
+#WRITE(PTR, $00000270)
+She holds the costume and tells me so.
+<END>
+
+#WRITE(PTR, $00000280)
+Not understanding what's up, I stop supporting Kurisu and walk up to Mayuri when--
+<END>
+
+#WRITE(PTR, $00000290)
+【Mayuri】Can you hold this for me-? Spread it out like "fwapp"!
+<END>
+
+#WRITE(PTR, $000002D8)
+【Itaru】Mayu-shi, say that fwapp again.
+<END>
+
+#WRITE(PTR, $000002E8)
+Daru overheard from his computer.
+<END>
+
+#WRITE(PTR, $00000302)
+【Mayuri】Fwapp!
+<END>
+
+#WRITE(PTR, $0000031C)
+【Itaru】I got a fwapp!
+<END>
+
+#WRITE(PTR, $0000032C)
+【Kurisu】Stop it already, you perv.
+<END>
+
+#WRITE(PTR, $0000033C)
+Following Mayuri's directions, I spread the costume out by the sleeves.
+<END>
+
+#WRITE(PTR, $0000034C)
+【Mayuri】Mm...
+<END>
+
+#WRITE(PTR, $0000035C)
+She inspects it from a distance.
+<END>
+
+#WRITE(PTR, $0000036C)
+Mayuri unexpectedly has the temperament of an artist.
+<END>
+
+#WRITE(PTR, $0000037C)
+That's why cosplayers value Mayuri's costumes so high.
+<END>
+
+#WRITE(PTR, $0000038C)
+But the costume I'm holding now is custom-made for Lukako.
+<END>
+
+#WRITE(PTR, $0000039C)
+I thought Lukako was against it, but I guess Mayuri finished her persuasion.
+<END>
+
+#WRITE(PTR, $000003B6)
+【Mayuri】Yup, thanks-
+<END>
+
+#WRITE(PTR, $000003C6)
+Her face looks a little tired, perhaps since she stayed up all night.
+<END>
+
+#WRITE(PTR, $000003D6)
+But Mayuri's face was all smiles.
+<END>
+
+#WRITE(PTR, $000003E6)
+【Mayuri】Finished-♪
+<END>
+
+#WRITE(PTR, $000003F6)
+【Rintaro】It's complete?
+<END>
+
+#WRITE(PTR, $00000410)
+【Mayuri】Yup. I finished before Chris-chan-. It was a competition-.
+<END>
+
+#WRITE(PTR, $00000420)
+【Kurisu】You win, Mayuri. Well done.
+<END>
+
+#WRITE(PTR, $00000430)
+Damn assistant...
+<END>
+
+#WRITE(PTR, $00000440)
+She's like an entirely different person with Daru and me.
+<END>
+
+#WRITE(PTR, $00000450)
+What's with that look of an elder sister upon her younger sister?
+<END>
+
+#WRITE(PTR, $00000460)
+【Kurisu】But I'm finished here too.
+<END>
+
+#WRITE(PTR, $00000534)
+Kurisu finishes connecting the two cords she's holding.
+<END>
+
+#WRITE(PTR, $0000054E)
+【Kurisu】Complete
+<END>
+
+#WRITE(PTR, $0000055E)
+The instant Kurisu says that, we all--
+<END>
+
+#WRITE(PTR, $0000060C)
+Don't cheer.
+<END>
+
+#WRITE(PTR, $0000061C)
+【Mayuri】It's a tie, huh-
+<END>
+
+#WRITE(PTR, $0000062C)
+【Itaru】Ah-, I'm tired... I want Faris-tan to heal me...
+<END>
+
+#WRITE(PTR, $0000063C)
+We're not pumped up at all.
+<END>
+
+#WRITE(PTR, $0000064C)
+Like I said, I don't feel joyous either.
+<END>
+
+#WRITE(PTR, $0000065C)
+It's not because we're tired.
+<END>
+
+#WRITE(PTR, $0000066C)
+A time machine.
+<END>
+
+#WRITE(PTR, $0000067C)
+Though it only sends consciousness, it is a device that can transcend space-time...
+<END>
+
+#WRITE(PTR, $0000068C)
+We've fervently worked these past few days just to complete it, but...
+<END>
+
+#WRITE(PTR, $0000069C)
+Once we actually completed it, that heat rapidly froze.
+<END>
+
+#WRITE(PTR, $000006AC)
+--I never thought we'd actually complete it.
+<END>
+
+#WRITE(PTR, $000006BC)
+Such thoughts cross my mind.
+<END>
+
+#WRITE(PTR, $000006CC)
+--What are we doing? What are we doing with this?
+<END>
+
+#WRITE(PTR, $000006DC)
+Finally, I peep at Kurisu and Daru's expressions.
+<END>
+
+#WRITE(PTR, $000006F6)
+Kurisu's also making an awkward face.
+<END>
+
+#WRITE(PTR, $00000706)
+【Kurisu】We... may have made something outrageous...
+<END>
+
+#WRITE(PTR, $00000716)
+I look at the improved Microwave Ophone (Temp) again.
+<END>
+
+#WRITE(PTR, $0000076A)
+The biggest improvement is the headgear attached to the X68000.
+<END>
+
+#WRITE(PTR, $0000077A)
+It looks like some B-grade cyberpunk gimmick. The pin jacks at the nape of the neck and the back of the head are unnecessary. The tip burying itself into the the skull is unnecessary.
+<END>
+
+#WRITE(PTR, $0000078A)
+It's actually a simple device where you just need to put on the headgear.
+<END>
+
+#WRITE(PTR, $0000079A)
+It looks cheap, but I can turn a blind eye to that much.
+<END>
+
+#WRITE(PTR, $000007AA)
+【Rintaro】For now, shouldn't we decide on a formal name?
+<END>
+
+#WRITE(PTR, $000007D2)
+【Rintaro】Bullet Train to Heaven
+<END>
+
+#WRITE(PTR, $000007EC)
+【Itaru】Microwave Ophone 3rd Edition ver1.00
+<END>
+
+#WRITE(PTR, $00000806)
+【Mayuri】Silly Hat Microwave Ophone-chan
+<END>
+
+#WRITE(PTR, $00000816)
+Mmgh, split in opinions.
+<END>
+
+#WRITE(PTR, $00000830)
+【Kurisu】You guys really are thoughtless, huh.
+<END>
+
+#WRITE(PTR, $00000840)
+【Rintaro】Christina, not going to vote?
+<END>
+
+#WRITE(PTR, $0000085A)
+【Kurisu】...Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00000874)
+【Itaru】That's terrible.
+<END>
+
+#WRITE(PTR, $0000088E)
+【Kurisu】Wh-what's your problem? Simple is best, right? I mean, Okabe's been calling it that for the past two days.
+<END>
+
+#WRITE(PTR, $0000089E)
+【Rintaro】Seems Assistant has zero naming sense.
+<END>
+
+#WRITE(PTR, $000008AE)
+【Kurisu】I don't want to hear that pretentious hipster bullshit from you.
+<END>
+
+#WRITE(PTR, $000008C8)
+【Itaru】Ohhh...? No way, Makise-shi knows what pretentious hipster bullshit is... Well played.
+<END>
+
+#WRITE(PTR, $000008E2)
+【Kurisu】...Th-that was an accident. Don't get me wrong, okay?
+<END>
+
+#WRITE(PTR, $000008F2)
+A barefaced lie.
+<END>
+
+#WRITE(PTR, $00000902)
+She should just confess and say I'm a person who really likes @channel.
+<END>
+
+#WRITE(PTR, $00000912)
+Kurisu greets my grin with a glacial glare.
+<END>
+
+#WRITE(PTR, $00000922)
+【Rintaro】Mayuri. As the final tiebreaker, please choose one of them.
+<END>
+
+#WRITE(PTR, $00000932)
+Mayuri holds the right to decide the final name.
+<END>
+
+#WRITE(PTR, $00000942)
+That's the lab's silent agreement.
+<END>
+
+#WRITE(PTR, $0000095C)
+【Mayuri】Hmmm
+<END>
+
+#WRITE(PTR, $00000976)
+【Mayuri】I think Time Leap Machine is good.
+<END>
+
+#WRITE(PTR, $00000990)
+【Mayuri】Silly Hat Microwave Ophone-chan's a super close second, though.
+<END>
+
+#WRITE(PTR, $000009A0)
+【Itaru】That's because you thought of it, Mayu-shi...
+<END>
+
+#WRITE(PTR, $000009B0)
+【Kurisu】Like I said. Simple is best. Mayuri gets it.
+<END>
+
+#WRITE(PTR, $000009CA)
+【Mayuri】Ehhehe-
+<END>
+
+#WRITE(PTR, $000009DA)
+I was about to object, but it's an unwritten law not to complain once Mayuri's made a decision.
+<END>
+
+#WRITE(PTR, $000009EA)
+【Rintaro】Gh, so Time Leap Machine it is.
+<END>
+
+#WRITE(PTR, $000009FA)
+【Rintaro】Assistant! Please give a lecture on the Time Leap Machine's structure so that all members may understand.
+<END>
+
+#WRITE(PTR, $00000A0A)
+I heard a rough outline, but I want her to go over the details again.
+<END>
+
+#WRITE(PTR, $00000A1A)
+Kurisu nods and stands in front of the whiteboard.
+<END>
+
+#WRITE(PTR, $00000A88)
+【Kurisu】In short, this is a device which converts memories into data and sends them through a ring singularity into the past.
+<END>
+
+#WRITE(PTR, $00000A98)
+【Kurisu】The Microwave Ophone coincidentally has the same function as the time machine Titor talked about.
+<END>
+
+#WRITE(PTR, $00000AA8)
+【Kurisu】It can produce ring singularities and send 36 bytes + α of data into the past.
+<END>
+
+#WRITE(PTR, $00000AB8)
+【Kurisu】Destination setting-- basically, setting where it goes in the past-- is clearly restricted to cell phones.
+<END>
+
+#WRITE(PTR, $00000AC8)
+【Kurisu】Unlike with D-mails, this time the data takes the form of a phone call, so the destination isn't set by mail address, but by phone number.
+<END>
+
+#WRITE(PTR, $00000AD8)
+【Kurisu】The produced ring singularity is made naked and its gravity stabilized by a device-- a lifter, or in this case, the 42in Braun tube TV downstairs.
+<END>
+
+#WRITE(PTR, $00000AE8)
+What she's explained so far is the Microwave Ophone (Temp)'s function.
+<END>
+
+#WRITE(PTR, $00000AF8)
+Now comes the explanation for Kurisu's improvements.
+<END>
+
+#WRITE(PTR, $00000B16)
+【Kurisu】The Microwave Ophone now has headgear attached.
+<END>
+
+#WRITE(PTR, $00000B3C)
+【Kurisu】With this, we can scan the nerve impulse pattern of memories accumulated in the temporal lobe-- more accurately, the <DICT>CA3</DICT> of the hippocampus.
+<END>
+
+#WRITE(PTR, $00000B5A)
+【Kurisu】Then, using VR engineering, we can encode the nerve impulse signal data into electrical signal data.
+<END>
+
+#WRITE(PTR, $00000B6A)
+【Itaru】The file size is about 3.24 terabytes.
+<END>
+
+#WRITE(PTR, $00000B7A)
+Tera... I don't know if that's a large number or a small number to describe the entirety of memories.
+<END>
+
+#WRITE(PTR, $00000B98)
+【Kurisu】By the way, a 'decoding' program for this data needs to be set up beforehand.
+<END>
+
+#WRITE(PTR, $00000BA8)
+【Kurisu】Anybody well versed in programming can do this. I had Hashida make the program.
+<END>
+
+#WRITE(PTR, $00000BC6)
+【Kurisu】We send this electrical signal data through the net to SERN's LHC in France.
+<END>
+
+#WRITE(PTR, $00000BD6)
+For some reason, this building has a mysterious direct line to SERN.
+<END>
+
+#WRITE(PTR, $00000BE6)
+We can transfer any huge amount of data at considerably high speed, however--
+<END>
+
+#WRITE(PTR, $00000BF6)
+【Rintaro】How long does it take to send 3.24 terabytes of data?
+<END>
+
+#WRITE(PTR, $00000C06)
+【Itaru】We have not one, but 64 direct lines in parallel. So if we send it in 64 parts--
+<END>
+
+#WRITE(PTR, $00000C16)
+【Itaru】I think it'll transfer in about 45 seconds.
+<END>
+
+#WRITE(PTR, $00000C26)
+That's unexpectedly fast...
+<END>
+
+#WRITE(PTR, $00000C44)
+【Kurisu】If we remotely use the LHC to create a mini-black hole, we can utilize the surrounding super gravity for infinite compression to compress the data into 36 bytes.
+<END>
+
+#WRITE(PTR, $00000C54)
+Hmmm, 3 teras is about 3 trillion bytes. Compressing that into 36 bytes...
+<END>
+
+#WRITE(PTR, $00000C64)
+That's like a contortionist trick.
+<END>
+
+#WRITE(PTR, $00000C74)
+【Rintaro】Does compression take time?
+<END>
+
+#WRITE(PTR, $00000C84)
+【Itaru】It's instantaneous from here. We're using black hole power after all. It happens in about 23 milliseconds.
+<END>
+
+#WRITE(PTR, $00000CA2)
+【Kurisu】By the way, super compression of binary data is only valid around the mini-black hole. Once it separates from there, the data begins to decompress on its own.
+<END>
+
+#WRITE(PTR, $00000CB2)
+【Kurisu】Decompression time is the same as compression time, at 23 milliseconds.
+<END>
+
+#WRITE(PTR, $00000CC2)
+【Itaru】During that time, it must return from the LHC to the Microwave Ophone through this X68000 or else.
+<END>
+
+#WRITE(PTR, $00000CD2)
+【Itaru】Well, it's only 36 bytes + α, so it should easily make it in time.
+<END>
+
+#WRITE(PTR, $00000CE2)
+【Rintaro】Christina, continue.
+<END>
+
+#WRITE(PTR, $00000CF2)
+【Kurisu】When the Time Leap Machine activates, the Kerr black hole effect breaks out, producing ring singularities at the same time. When the discharge phenomenon breaks out, the data the LHC compressed into 36 bytes + α returns--
+<END>
+
+#WRITE(PTR, $00000D10)
+【Kurisu】It goes through the ring singularity.
+<END>
+
+#WRITE(PTR, $00000D20)
+【Kurisu】This part is the same as the Microwave Ophone.
+<END>
+
+#WRITE(PTR, $00000D30)
+【Kurisu】The data goes back to the time inputted through the timer, and then connects to the phone.
+<END>
+
+#WRITE(PTR, $00000D40)
+【Kurisu】When it goes through the ring singularity and reaches the phone in the past, the data should automatically decompress in 23 milliseconds.
+<END>
+
+#WRITE(PTR, $00000D50)
+【Kurisu】At the same time it decompresses, the "decoding" program runs, returning the electrical signal back into nerve impulse signals.
+<END>
+
+#WRITE(PTR, $00000D60)
+【Kurisu】When they arrive at the receiving cellphone, the nerve impulse signals are faintly discharged from the sending mouthpiece at around 0.02 amperes.
+<END>
+
+#WRITE(PTR, $00000D70)
+【Kurisu】Then the receiving cellphone touches the recipient's ear and emits the signals near their temple.
+<END>
+
+#WRITE(PTR, $00000D80)
+【Rintaro】Assuming the recipient answers their phone.
+<END>
+
+#WRITE(PTR, $00000D90)
+【Kurisu】If they don't answer, the memory transfer ends in failure. Well, in this case, there's no real demerit. Only the copy data vanishes.
+<END>
+
+#WRITE(PTR, $00000DA0)
+【Rintaro】Why a phone call instead of a mail?
+<END>
+
+#WRITE(PTR, $00000DB0)
+【Kurisu】Because during a call, the recipient brings their phone near their temple, making it easier to send data to the recipient's temporal lobe.
+<END>
+
+#WRITE(PTR, $00000DC0)
+【Kurisu】The area around the temple is placed near the frontal lobe and temporal lobe of the cerebrum, but like I said at first, the temporal lobe surrounds the hippocampus, where memories are stored.
+<END>
+
+#WRITE(PTR, $00000DDE)
+【Kurisu】So then, the "lump of all the recipient's memories",  the nerve impulse signals, is emitted from the cellphone. With that, the memory overwrite is complete.
+<END>
+
+#WRITE(PTR, $00000DEE)
+【Kurisu】At the same time, the phone's stimulation of the frontal lobe causes it to also create nerve impulse signals. This is important.
+<END>
+
+#WRITE(PTR, $00000DFE)
+【Kurisu】The frontal lobe sends "top down memory recollection signals" to the temporal lobe. These signals are sent when you recall memories.
+<END>
+
+#WRITE(PTR, $00000E0E)
+【Kurisu】By emitting nerve impulse signals that stimulate the frontal lobe, these "top down memory recollection signals" are intentionally sent out.
+<END>
+
+#WRITE(PTR, $00000E1E)
+【Kurisu】By these actions, the recipient is forced to "remember" all of the memories sent by the sender.
+<END>
+
+#WRITE(PTR, $00000E2E)
+【Kurisu】They'll remember memories from the future.
+<END>
+
+#WRITE(PTR, $00000E3E)
+【Kurisu】And the necessary time is less than a second.
+<END>
+
+#WRITE(PTR, $00000E4E)
+【Kurisu】As a result, the recipient now holds all the same memories as the sender and the time leap is complete.
+<END>
+
+#WRITE(PTR, $00000E5E)
+【Kurisu】For example, if the sender and recipient have a time difference of one week, the recipient will "remember" the memories they experienced one week in the future.
+<END>
+
+#WRITE(PTR, $00000E6E)
+【Kurisu】We need to be aware that consciousness and personality aren't transferred. Both of those depend on the recipient.
+<END>
+
+#WRITE(PTR, $00000E7E)
+【Itaru】Explain it with boobs.
+<END>
+
+#WRITE(PTR, $00000F0E)
+【Kurisu】B-boo...!?
+<END>
+
+#WRITE(PTR, $00000F1E)
+In place of Kurisu, silently blushing, I try to explain instead.
+<END>
+
+#WRITE(PTR, $00000F2E)
+Obviously not with boobs, though.
+<END>
+
+#WRITE(PTR, $00000F3E)
+【Rintaro】Let's say we send Daru's current memories to Daru in elementary school.
+<END>
+
+#WRITE(PTR, $00000F4E)
+【Rintaro】Now, Daru's a pervert who can see 2D, 3D, and inanimate objects as moe, but in elementary, he should still be a free-spirited innocent lad.
+<END>
+
+#WRITE(PTR, $00000F68)
+【Itaru】In elementary, I was a diligent little bastard, but what of it?
+<END>
+
+#WRITE(PTR, $00000F78)
+【Rintaro】Basically, the memories would be from the now-19 year old pervert Daru, but the consciousness and personality would be from that innocent little bastard.
+<END>
+
+#WRITE(PTR, $00000F88)
+【Rintaro】You won't become a great detective "with the looks of a child and the brains of an adult".
+<END>
+
+#WRITE(PTR, $00000FA2)
+【Itaru】What? That's boring.
+<END>
+
+#WRITE(PTR, $00000FB2)
+It's slightly different from the time leaping of consciousness itself in scifi novels. But that's as much as we can do right now.
+<END>
+
+#WRITE(PTR, $00000FC2)
+【Kurisu】Mmmhmm.
+<END>
+
+#WRITE(PTR, $00000FDC)
+【Kurisu】Umm, since cellphones end up playing roles like black holes and white holes, you're restricted to sending memories to "the times you had a cellphone".
+<END>
+
+#WRITE(PTR, $00000FEC)
+【Kurisu】We need to make sure that the sender and recipient are the same person.
+<END>
+
+#WRITE(PTR, $00000FFC)
+【Kurisu】For example, if the person who picks up isn't your past self, but your parent, or a friend, then the nerve impulse signals will emit onto that parent or friend instead.
+<END>
+
+#WRITE(PTR, $00001016)
+【Kurisu】And then, the recipient's memories will overwrite those of that parent or friend. If that all goes wrong, it could cause a personality disorder.
+<END>
+
+#WRITE(PTR, $00001032)
+Kurisu ends her explanation and takes a short breath.
+<END>
+
+#WRITE(PTR, $00001042)
+And with that, the lab falls into silence.
+<END>
+
+#WRITE(PTR, $00001052)
+Kursiu, Daru, and I all peek at each other's faces.
+<END>
+
+#WRITE(PTR, $00001062)
+Mayuri-- seems burned out by the difficult conversation.
+<END>
+
+#WRITE(PTR, $00001072)
+【Rintaro】So.
+<END>
+
+#WRITE(PTR, $000010E8)
+I clear my throat and tighten my facial expression.
+<END>
+
+#WRITE(PTR, $000010F8)
+I gulp down hard.
+<END>
+
+#WRITE(PTR, $00001108)
+【Rintaro】What are we going to do?
+<END>
+
+#WRITE(PTR, $00001122)
+【Itaru】Do about what?
+<END>
+
+#WRITE(PTR, $00001132)
+【Rintaro】How are we going to deal with the time machine?
+<END>
+
+#WRITE(PTR, $00001142)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00001152)
+My usually strong and bold assistant says nothing.
+<END>
+
+#WRITE(PTR, $00001162)
+She said we made something outrageous, so I guess Kurisu's somewhat feeling what I'm feeling.
+<END>
+
+#WRITE(PTR, $00001172)
+Noticing my glance, Kurisu finally begins to speak reluctantly.
+<END>
+
+#WRITE(PTR, $0000118C)
+【Kurisu】It certainly isn't something that should be left in our hands. The safest thing to do is transfer it to a research institution and have them treat it as a national project, right?
+<END>
+
+#WRITE(PTR, $000011A8)
+She says it without seeming to agree with it.
+<END>
+
+#WRITE(PTR, $000011B8)
+She most likely wants to try experimenting in her heart of hearts.
+<END>
+
+#WRITE(PTR, $000011C8)
+But she doesn't say so.
+<END>
+
+#WRITE(PTR, $000011D8)
+History's first time machine, which makes trespassing onto god's territory possible.
+<END>
+
+#WRITE(PTR, $000011E8)
+Most likely every national, and international organization would want that.
+<END>
+
+#WRITE(PTR, $000011F8)
+And the money they'd pay out for that would surely reach hundreds of millions.
+<END>
+
+#WRITE(PTR, $00001208)
+This device holds possibilities that tremendous and fierce.
+<END>
+
+#WRITE(PTR, $000012E4)
+【Itaru】It just doesn't feel real, huh.
+<END>
+
+#WRITE(PTR, $000012F4)
+【Mayuri】Mayushii doesn't get it either-
+<END>
+
+#WRITE(PTR, $0000130E)
+【Itaru】Well, that's 'cause Mayu-shi didn't help at all, right?
+<END>
+
+#WRITE(PTR, $00001328)
+【Mayuri】Ah, that's true, huh. Ehhehe-
+<END>
+
+#WRITE(PTR, $00001338)
+【Kurisu】Okabe, what's your opinion? And by that, I don't mean Hououin's opinion, but Okabe's, okay?
+<END>
+
+#WRITE(PTR, $00001348)
+My opinion's the same as Kurisu's.
+<END>
+
+#WRITE(PTR, $00001358)
+On the other hand--
+<END>
+
+#WRITE(PTR, $00001368)
+【Rintaro】I do feel like I want to experiment.
+<END>
+
+#WRITE(PTR, $00001378)
+For now, I mutter my true intentions.
+<END>
+
+#WRITE(PTR, $00001388)
+I notice Kurisu's loss of breath.
+<END>
+
+#WRITE(PTR, $000013A4)
+【Rintaro】But there are too many problems to practice time leaping.
+<END>
+
+#WRITE(PTR, $000013B4)
+This is unknown territory for us-- no, for humanity.
+<END>
+
+#WRITE(PTR, $000013C4)
+【Rintaro】...Who will time leap?
+<END>
+
+#WRITE(PTR, $000013D4)
+I look at the faces of the three lab mems.
+<END>
+
+#WRITE(PTR, $000014B0)
+Daru quickly looks away.
+<END>
+
+#WRITE(PTR, $000014C0)
+Mayuri's burned out.
+<END>
+
+#WRITE(PTR, $000014D0)
+Kurisu... stares at me.
+<END>
+
+#WRITE(PTR, $000014E0)
+【Kurisu】...It's hard to choose whom.
+<END>
+
+#WRITE(PTR, $000014F0)
+【Itaru】I'll pass.
+<END>
+
+#WRITE(PTR, $00001500)
+【Mayuri】...?
+<END>
+
+#WRITE(PTR, $00001510)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001520)
+Not a single person here wants to assertively take the honor to be history's first.
+<END>
+
+#WRITE(PTR, $00001530)
+Everyone-- except for Mayuri-- is probably thinking about the worst case scenario.
+<END>
+
+#WRITE(PTR, $00001540)
+--What if the time leap were to fail?
+<END>
+
+#WRITE(PTR, $00001674)
+【Kurisu】The possibility of becoming a Jellyman like with SERN's time machine is zero.
+<END>
+
+#WRITE(PTR, $00001684)
+【Kurisu】This machine sends data, not the real thing.
+<END>
+
+#WRITE(PTR, $0000169E)
+【Kurisu】Don't make any preconceptions about time leaping.
+<END>
+
+#WRITE(PTR, $000016B6)
+【Kurisu】You might say it's like a <DICT>cut & paste</DICT> of consciousness itself, though.
+<END>
+
+#WRITE(PTR, $000016CE)
+【Kurisu】No, wait, it's a <DICT>copy & paste</DICT> to the very end. And it's just memories.
+<END>
+
+#WRITE(PTR, $000016E8)
+【Kurisu】The original doesn't get erased.
+<END>
+
+#WRITE(PTR, $000016F8)
+That's a very easy to understand example.
+<END>
+
+#WRITE(PTR, $00001708)
+But that's not the problem.
+<END>
+
+#WRITE(PTR, $00001718)
+Time flows in one line from past, to present, to future. That's how time normally is to humans. Several problems pop up based on that idea.
+<END>
+
+#WRITE(PTR, $00001728)
+【Rintaro】There's a possibility that a mistake happens to the data sent to the past and it changes to a fractal structure.
+<END>
+
+#WRITE(PTR, $00001738)
+【Rintaro】Let's say I time leap one hour back--
+<END>
+
+#WRITE(PTR, $00001748)
+【Rintaro】The hollow fractal memory data could drive itself into my brain an hour back.
+<END>
+
+#WRITE(PTR, $00001758)
+【Rintaro】That could be the same as a sort of memory loss, couldn't it?
+<END>
+
+#WRITE(PTR, $00001772)
+【Kurisu】...It could.
+<END>
+
+#WRITE(PTR, $00001782)
+【Rintaro】And in that case, we'll arrive at the "present" one hour later. At that time, the "me who went back an hour and lost his memories" and the "current me" conflict in my brain.
+<END>
+
+#WRITE(PTR, $00001792)
+【Rintaro】Which data survives?
+<END>
+
+#WRITE(PTR, $000017A2)
+【Kurisu】...With theory in consideration, the moment the copy transfers one hour back, the "present" will change, so--
+<END>
+
+#WRITE(PTR, $000017B2)
+The conflicting current me disappears then.
+<END>
+
+#WRITE(PTR, $000017C2)
+【Rintaro】So basically, it isn't copy & paste then?
+<END>
+
+#WRITE(PTR, $000017D2)
+【Kurisu】I don't know. Because until now, it's been unprecedented to transcend time.
+<END>
+
+#WRITE(PTR, $000017E2)
+【Rintaro】With D-mails, the world is reconstructed according to what happens "after the change".
+<END>
+
+#WRITE(PTR, $000017F2)
+I'm the only one who recognizes that, though.
+<END>
+
+#WRITE(PTR, $0000180C)
+【Kurisu】I don't know what happens when you time leap.
+<END>
+
+#WRITE(PTR, $0000181C)
+【Kurisu】If it's the many-worlds interpretation like Titor said, then the instant you time leap, the "possible" world line you forked off to and the original "possible" world line exist simultaneously.
+<END>
+
+#WRITE(PTR, $0000182C)
+【Kurisu】At the same time, that means that the possible world line where "the present Okabe doesn't disappear" also naturally exists, most likely corresponding to the "present", I think.
+<END>
+
+#WRITE(PTR, $0000183C)
+【Mayuri】???
+<END>
+
+#WRITE(PTR, $0000184C)
+But that's only if the many-worlds interpretation holds in the first place.
+<END>
+
+#WRITE(PTR, $0000185C)
+【Rintaro】I thought you didn't believe in what Titor had to say.
+<END>
+
+#WRITE(PTR, $00001876)
+【Kurisu】I'm talking hypothetically. Titor doesn't matter right now.
+<END>
+
+#WRITE(PTR, $00001890)
+【Kurisu】If it's the <DICT>Copenhagen interpretation</DICT>, then every possible state propagates through space as a <DICT>wave function</DICT>. And the instant an observer observes, every state converges.
+<END>
+
+#WRITE(PTR, $000018A0)
+But arbitrary observation is impossible.
+<END>
+
+#WRITE(PTR, $000018B0)
+【Rintaro】Who that observer is is the problem.
+<END>
+
+#WRITE(PTR, $000018CA)
+【Itaru】Isn't it a third party? Like me, or Mayu-shi.
+<END>
+
+#WRITE(PTR, $000018DA)
+【Mayuri】...?
+<END>
+
+#WRITE(PTR, $000018EA)
+【Rintaro】Not necessarily. The observer might be me, or it might be someone else, or it might be god.
+<END>
+
+#WRITE(PTR, $000018FA)
+In the first place, the Copenhagen interpretation and the many-worlds interpretation are nothing but micro scale theories.
+<END>
+
+#WRITE(PTR, $0000190A)
+I can't say for certain whether or not they can be applied to humans, or the world.
+<END>
+
+#WRITE(PTR, $0000191A)
+What about my personal experiences with the demon eye, Reading Steiner?
+<END>
+
+#WRITE(PTR, $0000192A)
+If this demon eye is the sort of ability I think it is, then the world structure of changing world lines is correct.
+<END>
+
+#WRITE(PTR, $0000193A)
+【Rintaro】In the end, we arrive at the problem of "where is self"?
+<END>
+
+#WRITE(PTR, $00001954)
+【Kurisu】This Time Leap Machine only sends "memories" and nothing more. No doubt about that.
+<END>
+
+#WRITE(PTR, $0000196E)
+【Itaru】Won't the "present" be reconstructed at the moment of transfer?
+<END>
+
+#WRITE(PTR, $0000197E)
+【Itaru】Won't we run into the same phenomenon as Okarin's "Reading Steiner"?
+<END>
+
+#WRITE(PTR, $0000198E)
+【Rintaro】That's how it is in the case of D-mails. Since it's clear that sending mails into the past is an act of "intervention".
+<END>
+
+#WRITE(PTR, $0000199E)
+【Rintaro】But time leaping is an act of sending your memories to the past, so it's not clear if you can "intervene" or not.
+<END>
+
+#WRITE(PTR, $000019AE)
+【Rintaro】We can't know whether or not I can "intervene" in cause and effect after remembering my future memories until we try.
+<END>
+
+#WRITE(PTR, $000019C8)
+【Itaru】I'm getting confused.
+<END>
+
+#WRITE(PTR, $000019D8)
+【Itaru】Isn't this in the realm of religion? We're talking about where the soul is.
+<END>
+
+#WRITE(PTR, $000019F2)
+【Kurisu】...Wait. You guys are misunderstanding something.
+<END>
+
+#WRITE(PTR, $00001A02)
+【Kurisu】In terms of personality and consciousness, there's no change between Okabe one week ago and Okabe now.
+<END>
+
+#WRITE(PTR, $00001A12)
+【Kurisu】Whether or not they have memories of last week. That's the only difference.
+<END>
+
+#WRITE(PTR, $00001A22)
+【Rintaro】Is that it? Really?
+<END>
+
+#WRITE(PTR, $00001A3C)
+【Kurisu】...Don't quote me on that, though. After all, nobody's tried this before.
+<END>
+
+#WRITE(PTR, $00001A4C)
+The discussion's going nowhere.
+<END>
+
+#WRITE(PTR, $00001A5C)
+Personality and consciousness can't be strictly defined, so it's hard to imagine it.
+<END>
+
+#WRITE(PTR, $00001A6C)
+【Mayuri】So in the end, which is it-?
+<END>
+
+#WRITE(PTR, $00001A7C)
+【Kurisu】That's why we don't know. No matter how much we pointlessly discuss, in the end, it's all a "prediction".
+<END>
+
+#WRITE(PTR, $00001A96)
+【Kurisu】This experiment might be bogged down by preconceptions throughout history.
+<END>
+
+#WRITE(PTR, $00001AA6)
+In the end, we won't know until we try. Everything ends up at those words.
+<END>
+
+#WRITE(PTR, $00001AB6)
+And the experimental subject must be prepared to risk breaking their consciousness.
+<END>
+
+#WRITE(PTR, $00001AC6)
+Kurisu, Daru, and I say no more.
+<END>
+
+#WRITE(PTR, $00001AD6)
+We can't solve this problem.
+<END>
+
+#WRITE(PTR, $00001AE6)
+This is our limit at the end.
+<END>
+
+#WRITE(PTR, $00001AF6)
+But isn't it enough that we've come this far?
+<END>
+
+#WRITE(PTR, $00001B06)
+That itself is worthy of a Nobel Prize, and can't we get filthy rich just by selling the technology for hundreds of millions?
+<END>
+
+#WRITE(PTR, $00001B16)
+And if we announce the Time Leap Machine to the world, we can obstruct SERN's monopoly on the technology.
+<END>
+
+#WRITE(PTR, $00001B26)
+I try to forcefully persuade myself.
+<END>
+
+#WRITE(PTR, $00001B40)
+【Mayuri】Hey, hey.
+<END>
+
+#WRITE(PTR, $00001B50)
+Mayuri, who was until then burned out with her mouth half open, finally came back to life.
+<END>
+
+#WRITE(PTR, $00001B6A)
+【Mayuri】You know, hard things are hard for Mayushii to understand-
+<END>
+
+#WRITE(PTR, $00001B7A)
+【Mayuri】For example, can Mayushii make her banana time leap-?
+<END>
+
+#WRITE(PTR, $00001B94)
+【Kurisu】Oh, Mayuri...
+<END>
+
+#WRITE(PTR, $00001BA4)
+【Kurisu】Bananas don't have brains like people do.
+<END>
+
+#WRITE(PTR, $00001BBE)
+【Mayuri】Ah, I see-. Then it won't work, huh-
+<END>
+
+#WRITE(PTR, $00001BCE)
+Mayuri's no different from normal.
+<END>
+
+#WRITE(PTR, $00001BDE)
+I feel our tense atmosphere loosen up.
+<END>
+
+#WRITE(PTR, $00001BEE)
+【Rintaro】...Let's not experiment.
+<END>
+
+#WRITE(PTR, $00001BFE)
+【Rintaro】Let's entrust the Time Leap Machine to a suitable research institution. Then let's announce it to the world.
+<END>
+
+#WRITE(PTR, $00001C0E)
+Thanks to that, I could begin to say that.
+<END>
+
+#WRITE(PTR, $00001C1E)
+Kurisu and Daru didn't oppose.
+<FILEEND53>
+

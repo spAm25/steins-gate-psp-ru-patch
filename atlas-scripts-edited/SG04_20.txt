@@ -398,7 +398,7 @@ Not just MayQueen, but the other multitudes of maid cafes and cosplay service st
 <END>
 
 #WRITE(PTR, $00001D1A)
-【Rintaro】"MayQueen+Nyan⑯"！
+【Rintaro】"MayQueen+Nyan⑯"!
 <END>
 
 #WRITE(PTR, $00001D62)

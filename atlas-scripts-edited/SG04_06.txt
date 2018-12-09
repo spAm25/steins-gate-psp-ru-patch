@@ -494,7 +494,7 @@ I didn't want to think such frightening things, so I desperately shake my head.
 <END>
 
 #WRITE(PTR, $00001704)
-【Rintaro】...！
+【Rintaro】...!
 <END>
 
 #WRITE(PTR, $00001722)

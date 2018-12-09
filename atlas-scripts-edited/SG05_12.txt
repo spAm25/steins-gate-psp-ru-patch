@@ -1,0 +1,407 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00000D18)
+
+#WRITE(PTR, $000001EC)
+I try rubbing my head.
+<END>
+
+#WRITE(PTR, $000001FC)
+It throbs.
+<END>
+
+#WRITE(PTR, $0000020C)
+Damn Mister Braun. Has he no shame in hitting me seriously?
+<END>
+
+#WRITE(PTR, $0000021C)
+Maybe I should report him for assault.
+<END>
+
+#WRITE(PTR, $0000022C)
+Furthermore, I'm compelled to perform a strategic withdrawal.
+<END>
+
+#WRITE(PTR, $0000023C)
+No, this is still part of the strategy.
+<END>
+
+#WRITE(PTR, $0000024C)
+A 10, 000 yen rent increase is tough, but in exchange, I've obtained important information in a form I'd never expect.
+<END>
+
+#WRITE(PTR, $0000025C)
+【Rintaro】It's awwright in the end! Fuuhahaha!
+<END>
+
+#WRITE(PTR, $000002FC)
+【Mayuri】Okariin, the building just shook, but were things okay down there-?
+<END>
+
+#WRITE(PTR, $0000030C)
+Mayuri and Kurisu appear from the second story window.
+<END>
+
+#WRITE(PTR, $0000031C)
+【Kurisu】You really do revive like a undying phoenix.
+<END>
+
+#WRITE(PTR, $0000032C)
+【Rintaro】Hehehe, Christina. Allow me to make a prediction. In three minutes, you will recognize my greatness and embrace feelings of respect!
+<END>
+
+#WRITE(PTR, $0000033C)
+【Kurisu】I don't think so.
+<END>
+
+#WRITE(PTR, $0000034C)
+I run up the stairs.
+<END>
+
+#WRITE(PTR, $000004B0)
+【Kurisu】...How could such an obvious thing go unnoticed until now?
+<END>
+
+#WRITE(PTR, $000004C0)
+There's a possibility that the 42 in Braun tube TV downstairs is the lifter's replacement--
+<END>
+
+#WRITE(PTR, $000004D0)
+After I told that to Kurisu, that was her first response.
+<END>
+
+#WRITE(PTR, $000004E0)
+【Rintaro】Why are you blaming me?
+<END>
+
+#WRITE(PTR, $000004FA)
+【Kurisu】...I'm not blaming you. I'm just disappointed at the stupidity that nobody noticed, including me.
+<END>
+
+#WRITE(PTR, $00000542)
+【Itaru】We missed the forest for the trees.
+<END>
+
+#WRITE(PTR, $00000552)
+【Rintaro】In summary--
+<END>
+
+#WRITE(PTR, $00000562)
+【Rintaro】Just now, when the Microwave Ophone (Temp) on the second floor shook the building, the 42in Braun tube TV was on.
+<END>
+
+#WRITE(PTR, $00000572)
+【Rintaro】But when the TV was turned off, the shaking stopped at the same time.
+<END>
+
+#WRITE(PTR, $0000058C)
+【Kurisu】The discharge phenomenon was forcefully interrupted.
+<END>
+
+#WRITE(PTR, $0000059C)
+【Kurisu】Just to make sure, I put a banana in, but it didn't turn into a Jellyman.
+<END>
+
+#WRITE(PTR, $000005E4)
+【Mayuri】I think that's a good thing-. It's not good to waste food-
+<END>
+
+#WRITE(PTR, $000005F4)
+Nobody answers Mayuri's missing-the-point statement.
+<END>
+
+#WRITE(PTR, $00000604)
+When we look up the structure of a Braun tube on the net, we find out something interesting.
+<END>
+
+#WRITE(PTR, $0000061C)
+Braun tubes use an inner component called an "electron gun" to superheat electrons, or emit them through a high <DICT>electric field</DICT>, accelerate them, and converge them into a beam.
+<END>
+
+#WRITE(PTR, $0000062C)
+Those electrons scan onto the display's phosphor layer to emit light. That's how they're structured.
+<END>
+
+#WRITE(PTR, $0000063C)
+Thus, it seems appropriate as the replacement for the lifter.
+<END>
+
+#WRITE(PTR, $00000656)
+【Kurisu】We've found an answer, huh.
+<END>
+
+#WRITE(PTR, $00000666)
+【Kurisu】The electrons emitted by the 42in Braun tube TV interfere with the singular points produced by the Microwave Ophone.
+<END>
+
+#WRITE(PTR, $00000676)
+【Kurisu】The discharge phenomenon is an effect of that.
+<END>
+
+#WRITE(PTR, $00000690)
+【Itaru】The reason we couldn't use the Microwave Ophone at night was because that's when the Braun Tube Workshop's closed, then?
+<END>
+
+#WRITE(PTR, $000006A0)
+The Braun Tube Workshop doesn't have especially strict business hours, but it's usually open from around 11AM to 7PM.
+<END>
+
+#WRITE(PTR, $000006B0)
+The Microwave Ophone (Temp) time rule I came up with-- we can use it about noon to six-- matches up perfectly.
+<END>
+
+#WRITE(PTR, $000006C0)
+Whenever we abruptly couldn't use it during those times can simply be explained with the fact that the 42in Braun tube TV just wasn't on.
+<END>
+
+#WRITE(PTR, $000006D0)
+【Rintaro】But I don't think a Braun tube emits electrons that strong.
+<END>
+
+#WRITE(PTR, $000006EA)
+【Kurisu】It's not like the strength of the electrons is all that matters. If it were that simple, SERN would've solved this problem long ago.
+<END>
+
+#WRITE(PTR, $000006FA)
+I see. So it can't be too much or too little either, huh.
+<END>
+
+#WRITE(PTR, $0000070A)
+The strict value was unknown until now, and just by chance, it happened to match the 42in Braun tube's electron emission "ratio"--
+<END>
+
+#WRITE(PTR, $0000071A)
+It's reasonable to think of it like that.
+<END>
+
+#WRITE(PTR, $00000734)
+【Kurisu】They coincidentally match perfectly. The conditions here were miraculously perfect to create a time machine.
+<END>
+
+#WRITE(PTR, $00000744)
+【Rintaro】No, that's not it, Christina!
+<END>
+
+#WRITE(PTR, $00000754)
+【Rintaro】Everything is Steins;Gate's choice!
+<END>
+
+#WRITE(PTR, $0000076E)
+Kurisu gives an unusual wry smile at my words.
+<END>
+
+#WRITE(PTR, $0000077E)
+【Kurisu】It doesn't really matter what it is, though.
+<END>
+
+#WRITE(PTR, $00000798)
+【Mayuri】Umm-?
+<END>
+
+#WRITE(PTR, $000007A8)
+Mayuri halts her costume making and tilts her head.
+<END>
+
+#WRITE(PTR, $000007C2)
+【Mayuri】So, basically, what do we have to do to complete Super Microwave Ophone-chan-?
+<END>
+
+#WRITE(PTR, $000007DC)
+【Kurisu】Since we've found the cause, we have nothing left to fear.
+<END>
+
+#WRITE(PTR, $000007EC)
+【Kurisu】We've come to the solution that time leaping is possible whenever that large Braun tube TV is on... I think.
+<END>
+
+#WRITE(PTR, $00000806)
+【Itaru】Since that final adjustment got interrupted, don't we need to do another experiment?
+<END>
+
+#WRITE(PTR, $00000820)
+【Kurisu】That's right. Okabe.
+<END>
+
+#WRITE(PTR, $00000830)
+【Rintaro】What?
+<END>
+
+#WRITE(PTR, $00000840)
+【Kurisu】Go downstairs again and turn on that Braun tube TV.
+<END>
+
+#WRITE(PTR, $00000850)
+【Rintaro】Fuhaha, oh, Christina. That's a really funny joke. I respond to that with--
+<END>
+
+#WRITE(PTR, $00000866)
+【Rintaro】Mission: Unpossible!
+<END>
+
+#WRITE(PTR, $00000882)
+Like hell I can!
+<END>
+
+#WRITE(PTR, $00000892)
+The top of my head's still throbbing!
+<END>
+
+#WRITE(PTR, $000008A2)
+I can't even play the Mission: Unpossible theme in my head.
+<END>
+
+#WRITE(PTR, $000008B2)
+That's an endless death flag!
+<END>
+
+#WRITE(PTR, $000008CC)
+【Kurisu】Whatever, just go already.
+<END>
+
+#WRITE(PTR, $000008DC)
+Kurisu orders me with a sour look.
+<END>
+
+#WRITE(PTR, $000008EC)
+It's like I'm the assistant.
+<END>
+
+#WRITE(PTR, $000008FC)
+【Kurisu】If anyone can do it, it's you. You made an amazing discovery just now, right?
+<END>
+
+#WRITE(PTR, $0000090C)
+【Rintaro】Assistant, have you... recognized my greatness as a mad scientist?
+<END>
+
+#WRITE(PTR, $00000926)
+【Kurisu】Nope.
+<END>
+
+#WRITE(PTR, $00000936)
+【Rintaro】Ah...
+<END>
+
+#WRITE(PTR, $00000950)
+【Itaru】Gack, denied....
+<END>
+
+#WRITE(PTR, $0000096A)
+【Kurisu】Ah, crap, if I'm flattering him so he'd do his best, I should've said 'Yes'.
+<END>
+
+#WRITE(PTR, $00000984)
+【Kurisu】So with that said, Yes.
+<END>
+
+#WRITE(PTR, $00000994)
+【Rintaro】You're late!
+<END>
+
+#WRITE(PTR, $000009AE)
+【Kurisu】Now that we've found the device substituting the lifter, the Time Leap Machine is 99％ complete.
+<END>
+
+#WRITE(PTR, $000009BE)
+Kurisu suddenly tightens her expression.
+<END>
+
+#WRITE(PTR, $000009CE)
+But those eyes were gleaming ablaze.
+<END>
+
+#WRITE(PTR, $000009DE)
+She's a true seeker, through and through.
+<END>
+
+#WRITE(PTR, $000009EE)
+She seems excited that the completion of the first Time Leap Machine in human history is at hand.
+<END>
+
+#WRITE(PTR, $000009FE)
+Looking closely, her face is slightly flushed.
+<END>
+
+#WRITE(PTR, $00000A0E)
+【Kurisu】Isn't it this lab's dream? The time machine.
+<END>
+
+#WRITE(PTR, $00000A1E)
+Our dream... huh.
+<END>
+
+#WRITE(PTR, $00000A2E)
+I wasn't particularly aware of it, though.
+<END>
+
+#WRITE(PTR, $00000A3E)
+I'm definitely interested too.
+<END>
+
+#WRITE(PTR, $00000A4E)
+My fingers are shaking.
+<END>
+
+#WRITE(PTR, $00000A5E)
+Not from fear of Manager, but from excitement.
+<END>
+
+#WRITE(PTR, $00000A6E)
+【Rintaro】My dream is to manipulate space-time at will, and destroy the current ruling structures. And then, for new chaos to--
+<END>
+
+#WRITE(PTR, $00000A88)
+【Kurisu】Okabe.
+<END>
+
+#WRITE(PTR, $00000A98)
+Kurisu interrupts my words.
+<END>
+
+#WRITE(PTR, $00000AA8)
+【Kurisu】I don't want to hear Hououin's opinion, but Okabe's.
+<END>
+
+#WRITE(PTR, $00000AB8)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000AC8)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00000AD8)
+She stares motionlessly at me.
+<END>
+
+#WRITE(PTR, $00000AE8)
+I take her gaze head on.
+<END>
+
+#WRITE(PTR, $00000AF8)
+I spontaneously smile.
+<END>
+
+#WRITE(PTR, $00000B08)
+【Rintaro】Bring it on. Just leave everything to me.
+<END>
+
+#WRITE(PTR, $00000B18)
+I inform her so and head to the entranceway.
+<END>
+
+#WRITE(PTR, $00000B28)
+I should ready myself for two more fists and another 10, 000 yen rent increase.
+<END>
+
+#WRITE(PTR, $00000B4A)
+Kurisu and Daru send me off with applause for some reason.
+<END>
+
+#WRITE(PTR, $00000B5A)
+Mayuri's the only one who looks worried, but I pat her delicate shoulders to relieve her.
+<FILEEND32>
+
