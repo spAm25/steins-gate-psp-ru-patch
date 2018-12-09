@@ -493,7 +493,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000060C)
-Joined up with Mayuri. We're heading out to Ariake. \n
+Joined up with Mayuri. We're heading out to Ariake.\n
 \n
 Kinda exciting lol
 <END2>
@@ -603,7 +603,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $0000072C)
-There's a coin locker,and the big lower right locker is in use. So,what was the point of this? Anyway,don't make me your errand boy so early in the morning,fool! ヽ(`Д´)ﾉ
+There's a coin locker, and the big lower right locker is in use. So,what was the point of this? Anyway, don't make me your errand boy so early in the morning, fool! ヽ(`Д´)ﾉ
 <END2>
 
 #WRITE(PTR, $00000744)
@@ -649,7 +649,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000007AC)
-Apparently the Radio Center's satellite disappeared-. Mysterious. Wonder where it flew to? Like a magic trick ヘ（＞ロ＜）ノ　Well, goodnight☆
+Apparently the Radio Center's satellite disappeared-. Mysterious. Wonder where it flew to? Like a magic trick ヘ（＞ロ＜）ノ Well, goodnight☆
 <END2>
 
 #WRITE(PTR, $000007C4)
@@ -661,7 +661,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000007CC)
-G'mornin' Okarin-♪　I'm heading off now.
+G'mornin' Okarin-♪ I'm heading off now.
 <END2>
 
 #WRITE(PTR, $000007E4)
@@ -673,7 +673,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000007EC)
-Tutturu-, Mayushii here. Hey, Okarin,are you worried about something? You know, Okarin,lately you've been making a very painful face. Do you want to talk about it with Mayushii? Or, is it something you can't talk to Mayushii about? That's really lonely and painful then. If you feel like Mayushii's being a burden, then I want you to say so clearly.
+Tutturu-, Mayushii here. Hey, Okarin, are you worried about something? You know, Okarin, lately you've been making a very painful face. Do you want to talk about it with Mayushii? Or, is it something you can't talk to Mayushii about? That's really lonely and painful then. If you feel like Mayushii's being a burden, then I want you to say so clearly.
 <END2>
 
 #WRITE(PTR, $00000804)
@@ -685,7 +685,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000080C)
-Okabe-san, I mailed you as soon as I could. My name is Kiryuu Moeka. I'm a 20 year old freelancer. I believe I mentioned I worked part time at a publishing company. Sorry for suddenly taking your picture. I didn't do it out of ill will. I needed some shots of Akihabara Town scenery for the publishing company, and indiscriminately took a picture without any particular target. Since the whole satellite thing happened, it actually was my ulterior motive to scoop out the right angle to shoot it, though (lmao). By the way, that picture I took was just a test, not the final shot. That's why I was just using the camera on my phone. Even if you weren't so franticly asking me to please delete it, it's not like I was really going to use it in an article. \n
+Okabe-san, I mailed you as soon as I could. My name is Kiryuu Moeka. I'm a 20 year old freelancer. I believe I mentioned I worked part time at a publishing company. Sorry for suddenly taking your picture. I didn't do it out of ill will. I needed some shots of Akihabara Town scenery for the publishing company, and indiscriminately took a picture without any particular target. Since the whole satellite thing happened, it actually was my ulterior motive to scoop out the right angle to shoot it, though (lmao). By the way, that picture I took was just a test, not the final shot. That's why I was just using the camera on my phone. Even if you weren't so franticly asking me to please delete it, it's not like I was really going to use it in an article.\n
 \n
 Well, now for the real issue. I'm really sorry for rudely asking a favor like this, Okabe-kun, but it would be super neato if I could ask your acquaintance, the super hacker, about the urban legend. Actually, I don't really know much about the PC, the IBN 5100, like what sorta PC it could be or anything at all. (All I have to rely on is that picture I showed you, Okabe-kun. Ah, I'll attach the image) Be absolutely, positively sure to reply okay? Because I'll be waiting. If you could, I'd be super happy if you gave me your super hacker friend's address. I'll mail you again. It's okay to mail you again, right? If it's not, then just tell me, okeydokies♪? Moeka
 <END2>
@@ -735,7 +735,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000088C)
-Yeah, that's right, I'm not good at handling phone calls, so don't call me（＾＾；） Byebye♪ Moeka
+Yeah, that's right, I'm not good at handling phone calls, so don't call me（＾＾；）Byebye♪ Moeka
 <END2>
 
 #WRITE(PTR, $000008A4)
@@ -806,6 +806,7 @@ Re: Call me
 Shining Finger
 <END2>
 
+#WRITE(PTR, $0000094C)
 Thanks for contacting me-♪ I've been waiting\n
 \n
 But I'm not good at calls, so let's exchange mails. Moeka
@@ -870,7 +871,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000009EC)
-Was it bothersome to send mails so persistently? I'm sorry. But I need information on the IBN 5100 no matter what. And at present, you're the only clue I have, Okabe-kun. So I unintentionally relied on you.  I swear I won't send any more short mails, so please don't abandon me. I want you to help me look for an IBN 5100. If I find out anything, I'll inform you too. Let's work together. Moeka
+Was it bothersome to send mails so persistently? I'm sorry. But I need information on the IBN 5100 no matter what. And at present, you're the only clue I have, Okabe-kun. So I unintentionally relied on you. I swear I won't send any more short mails, so please don't abandon me. I want you to help me look for an IBN 5100. If I find out anything, I'll inform you too. Let's work together. Moeka
 <END2>
 
 #WRITE(PTR, $00000A04)
@@ -881,7 +882,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000A0C)
-Hello, Okabe-kun. It's strange to see you here♪　Moeka
+Hello, Okabe-kun. It's strange to see you here♪ Moeka
 <END2>
 
 #WRITE(PTR, $00000A24)
@@ -916,7 +917,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000A6C)
-I went around to various shops, I searched online acutions, I tried asking "Does anyone know?" on @channel, and I walked around Akihabara asking people. Or so I say, but including you, Okabe-kun, I could only talk to about four people＞＜ Moeka
+I went around to various shops, I searched online acutions, I tried asking "Does anyone know?" on @channel, and I walked around Akihabara asking people. Or so I say, but including you, Okabe-kun, I could only talk to about four people ＞＜ Moeka
 <END2>
 
 #WRITE(PTR, $00000A84)
@@ -976,7 +977,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000B0C)
-Did you see my last mail? If you did, then reply okay? Ah, let's set a fixed time to communicate. Let's exchange information at 7PM each evening. How's that? Doesn't that seem like a good idea?  Let's do that. Why not do that? I want to hear your opinion. Moeka
+Did you see my last mail? If you did, then reply okay? Ah, let's set a fixed time to communicate. Let's exchange information at 7PM each evening. How's that? Doesn't that seem like a good idea? Let's do that. Why not do that? I want to hear your opinion. Moeka
 <END2>
 
 #WRITE(PTR, $00000B24)
@@ -1033,7 +1034,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000BAC)
-I thought about knocking on the door, but this building's dark and... scary. I'm going to be quiet so nothing comes out...＞＜ Moeka
+I thought about knocking on the door, but this building's dark and... scary. I'm going to be quiet so nothing comes out... ＞＜ Moeka
 <END2>
 
 #WRITE(PTR, $00000BC4)
@@ -1049,7 +1050,7 @@ Are you gone? Where are you now? Where in Akihabara could you be? Moeka
 <END2>
 
 #WRITE(PTR, $00000BE4)
-ノック
+Knock
 <END2>
 
 #WRITE(PTR, $00000BE8)
@@ -1057,11 +1058,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000BEC)
-ノックするよ?　いたら返事してね?　Moeka
+I'm gonna knock okay? If you're there, respond, okay? Moeka
 <END2>
 
 #WRITE(PTR, $00000C04)
-うん
+Yeah
 <END2>
 
 #WRITE(PTR, $00000C08)
@@ -1069,11 +1070,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000C0C)
-見に来ていいって言ったよね?　Moeka
+You said I could come and look, right? Moeka
 <END2>
 
 #WRITE(PTR, $00000C24)
-急に来て
+Coming abruptly
 <END2>
 
 #WRITE(PTR, $00000C28)
@@ -1081,7 +1082,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000C2C)
-迷惑だったら謝る。でも見せてほしい。　Moeka
+Sorry to bother you. But I want you to show me. Moeka
 <END2>
 
 #WRITE(PTR, $00000C44)
@@ -1092,11 +1093,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000C4C)
-写真撮らせてほしいな♪　Moeka
+I wanna take a picture♪ Moeka
 <END2>
 
 #WRITE(PTR, $00000C64)
-5100を
+About 5100
 <END2>
 
 #WRITE(PTR, $00000C68)
@@ -1104,11 +1105,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000C6C)
-貸してほしいんだけど、駄目かな?　Moeka
+I wanna borrow the 5100, can I? Moeka
 <END2>
 
 #WRITE(PTR, $00000C84)
-岡部くんに
+For Okabe
 <END2>
 
 #WRITE(PTR, $00000C88)
@@ -1116,11 +1117,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000C8C)
-運ぶのを手伝ってもらえたら、とてもうれしい。Moeka
+I'd be happy if Okabe-kun would help me with transporting it. Moeka
 <END2>
 
 #WRITE(PTR, $00000CA4)
-そんなの
+That's
 <END2>
 
 #WRITE(PTR, $00000CA8)
@@ -1128,11 +1129,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000CAC)
-そんなのずるい＞＜　Moeka
+That's so mean ＞＜ Moeka
 <END2>
 
 #WRITE(PTR, $00000CC4)
-あれ
+Huh
 <END2>
 
 #WRITE(PTR, $00000CC8)
@@ -1140,11 +1141,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000CCC)
-返事ないってことは、貸してもらえるんだね!　ありがとう!　Moeka
+Since you're not replying, I guess that means I can borrow it! Thanks! Moeka
 <END2>
 
 #WRITE(PTR, $00000CE4)
-誰?
+Who?
 <END2>
 
 #WRITE(PTR, $00000CE8)
@@ -1152,11 +1153,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000CEC)
-元の所有者って誰?　教えて　Moeka
+Who's the original owner? Tell me. Moeka
 <END2>
 
 #WRITE(PTR, $00000D04)
-せめて
+At least
 <END2>
 
 #WRITE(PTR, $00000D08)
@@ -1164,11 +1165,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000D0C)
-どこで見つけたのかだけでも教えてよ…ね?　Moeka
+You can tell me where you found it... right? Moeka
 <END2>
 
 #WRITE(PTR, $00000D24)
-聞いちゃった…
+I heard...
 <END2>
 
 #WRITE(PTR, $00000D28)
@@ -1176,11 +1177,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000D2C)
-今、“メールを過去に送る”って話してたよね?　どういうこと?　どういうこと?　教えて!　Moeka
+Just now, you said something about "sending mail into the past", right? What's that? What's that? Tell me! Moeka
 <END2>
 
 #WRITE(PTR, $00000D44)
-まさか
+It can't be
 <END2>
 
 #WRITE(PTR, $00000D48)
@@ -1200,11 +1201,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000D6C)
-円卓会議ってなに?　教えて。Moeka
+What's a round-table conference? Tell me. Moeka
 <END2>
 
 #WRITE(PTR, $00000D84)
-うるど?
+Urd?
 <END2>
 
 #WRITE(PTR, $00000D88)
@@ -1212,11 +1213,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000D8C)
-オペレーション・ウルド?　なんだか軍隊みたい。Moeka
+Operation Urd? Sounds like a military. Moeka
 <END2>
 
 #WRITE(PTR, $00000DA4)
-笑
+lmao
 <END2>
 
 #WRITE(PTR, $00000DA8)
@@ -1224,11 +1225,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000DAC)
-Mayuriさんって、面白い人ね。Moeka
+Mayuri-san sure is funny. Moeka
 <END2>
 
 #WRITE(PTR, $00000DC4)
-それは
+That's
 <END2>
 
 #WRITE(PTR, $00000DC8)
@@ -1236,11 +1237,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000DCC)
-過去を変える……か。見てみたい。Moeka
+Changing the past... huh. I wanna try. Moeka
 <END2>
 
 #WRITE(PTR, $00000DE4)
-混沌?
+Chaos?
 <END2>
 
 #WRITE(PTR, $00000DE8)
@@ -1248,11 +1249,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000DEC)
-混沌ってなんのこと?　もしかして岡部くんってアブナイ人?　Moeka
+What's this about chaos? Okabe-kun, are you dangerous by any chance? Moeka
 <END2>
 
 #WRITE(PTR, $00000E04)
-否定する
+Denial
 <END2>
 
 #WRITE(PTR, $00000E08)
@@ -1260,11 +1261,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000E0C)
-私はそうは思わない。岡部くんはIBN5100を貸してくれなかった。意地悪な人。Moeka
+That's not what I think. Okabe-kun didn't lend me the IBN 5100. Evildoer. Moeka
 <END2>
 
 #WRITE(PTR, $00000E24)
-笑笑笑
+lmaoroflcopter
 <END2>
 
 #WRITE(PTR, $00000E28)
@@ -1272,11 +1273,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000E2C)
-岡部くんも、面白い人ね。Moeka
+Okabe-kun's funny too. Moeka
 <END2>
 
 #WRITE(PTR, $00000E44)
-ちょうちょ?
+Butterfly?
 <END2>
 
 #WRITE(PTR, $00000E48)
@@ -1284,11 +1285,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000E4C)
-バタフライ効果……知らない。みんな頭いいね。会話についていけないよ＞＜　Moeka
+The butterfly effect... I don't know what that is. Everyone's so smart. I can't follow the conversation ＞＜ Moeka
 <END2>
 
 #WRITE(PTR, $00000E64)
-小説みたい
+Like a book
 <END2>
 
 #WRITE(PTR, $00000E68)
@@ -1296,11 +1297,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000E6C)
-多世界?　世界がいっぱいあるの?　信じられないな。Moeka
+Many-worlds? There's a buncha worlds? I don't believe it. Moeka
 <END2>
 
 #WRITE(PTR, $00000E84)
-それって
+Then that means
 <END2>
 
 #WRITE(PTR, $00000E88)
@@ -1308,7 +1309,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000E8C)
-水掛け論になってるよ。　Moeka
+It's turning into a pointless argument. Moeka
 <END2>
 
 #WRITE(PTR, $00000EA4)
@@ -1320,11 +1321,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000EAC)
-セルン?　セルンって言った!?　Moeka
+sern? Did you say sern!? Moeka
 <END2>
 
 #WRITE(PTR, $00000EC4)
-楽しかった
+It was fun
 <END2>
 
 #WRITE(PTR, $00000EC8)
@@ -1332,11 +1333,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000ECC)
-今度、タイムマシンのこともっと聞かせて。絶対だよ!　約束だからね!　それじゃまた。　Moeka
+Next time, tell me more about time machines. Okay!? 'Cause it's a promise! Well, see you. Moeka
 <END2>
 
 #WRITE(PTR, $00000EE4)
-お願いがあります
+Want to ask a favor
 <END2>
 
 #WRITE(PTR, $00000EE8)
@@ -1344,11 +1345,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000EEC)
-私もＤメールを送ってみたいの!　ダメかな…?　Moeka
+I want to try sending a D-mail too! Can I...? Moeka
 <END2>
 
 #WRITE(PTR, $00000F04)
-ダメ?
+Can't I?
 <END2>
 
 #WRITE(PTR, $00000F08)
@@ -1356,11 +1357,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000F0C)
-返事ください。私もラボメンだから、いいでしょう?　お願い!　Moeka
+Please respond. It's okay since I'm a lab mem too, right? Please! Moeka
 <END2>
 
 #WRITE(PTR, $00000F24)
-私も
+I'm also
 <END2>
 
 #WRITE(PTR, $00000F28)
@@ -1368,11 +1369,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000F2C)
-ラボメンの1人のはずでしょ?　Moeka
+A lab mem, aren't I? Moeka
 <END2>
 
 #WRITE(PTR, $00000F44)
-つまり
+Basically
 <END2>
 
 #WRITE(PTR, $00000F48)
@@ -1380,11 +1381,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000F4C)
-私のワガママ、聞き入れてくれて。　Moeka
+Excuse me for being a little selfish. Moeka
 <END2>
 
 #WRITE(PTR, $00000F64)
-そのことだけど
+It's that but
 <END2>
 
 #WRITE(PTR, $00000F68)
@@ -1392,11 +1393,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000F6C)
-そのことだけど、もうひとつワガママ言わせてほしい。送るメールの内容は、内緒にしたいの。　Moeka
+It's that, but there's another selfish thing I want to say. I want to keep the contents of the mail a secret. Moeka
 <END2>
 
 #WRITE(PTR, $00000F84)
-だって…
+But, I mean...
 <END2>
 
 #WRITE(PTR, $00000F88)
@@ -1404,11 +1405,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000F8C)
-プライベートのこと知られるのは、恥ずかしいし…。　Moeka
+It's something private, and it would be embarrassing if you knew... Moeka
 <END2>
 
 #WRITE(PTR, $00000FA4)
-えっと
+Umm
 <END2>
 
 #WRITE(PTR, $00000FA8)
@@ -1416,11 +1417,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000FAC)
-これまでに送ったＤメールを、見せてくれないかな?　参考にして、判断したいから。Moeka
+Is it okay if I see all the D-mails you've sent so far? I want to use them as a reference. Moeka
 <END2>
 
 #WRITE(PTR, $00000FC4)
-了解
+Roger
 <END2>
 
 #WRITE(PTR, $00000FC8)
@@ -1428,11 +1429,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000FCC)
-履歴はもういい。岡部くんの言う通り、非公開にはしないよ。　Moeka
+I'm already fine with the history. I won't make it private, just like you said, Okabe-kun. Moeka
 <END2>
 
 #WRITE(PTR, $00000FE4)
-案は
+The plan
 <END2>
 
 #WRITE(PTR, $00000FE8)
@@ -1440,11 +1441,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $00000FEC)
-4日ぐらい前に、ケータイ電話を機種変したの。でもしばらく使ってみて、やっぱり変えない方がよかったって思い始めていて。だからＤメールで、4日前の私に、機種変はするなって送ろうと思うの。そうしたら、持っているケータイが変化するんじゃないかな?　Moeka
+About four days ago, I changed phone models. But after using it for a while, I started to think I'd rather have stayed with the old one. So I want to send a D-mail to myself four days ago and tell her to not change models. Then if we do that, the phone I'm holding will change, won't it? Moeka
 <END2>
 
 #WRITE(PTR, $00001004)
-Moekaです
+Moeka here
 <END2>
 
 #WRITE(PTR, $00001008)
@@ -1452,11 +1453,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000100C)
-どうかした?　ちょっと今、忙しいの。だからゴメンね。またメールすLukaら。　Moeka
+What's wrong? I'm kind of busy now. So, sorry. I'll mail you again. Moeka
 <END2>
 
 #WRITE(PTR, $00001024)
-なにを言っているの?
+What are you saying?
 <END2>
 
 #WRITE(PTR, $00001028)
@@ -1464,11 +1465,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000102C)
-1％も理解できない。きちんと説明してほしい。IBN5100を本当に見つけたの?　どこで?
+I didn't understand 1％. Please explain properly. Did you really find an IBN 5100? Where? Moeka
 <END2>
 
 #WRITE(PTR, $00001044)
-いいから
+Alright already
 <END2>
 
 #WRITE(PTR, $00001048)
@@ -1476,11 +1477,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000104C)
-IBN5100のことを話して。
+Just tell me about the IBN 5100.
 <END2>
 
 #WRITE(PTR, $00001064)
-タイムマシンは
+The time machine
 <END2>
 
 #WRITE(PTR, $00001068)
@@ -1488,11 +1489,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000106C)
-タイムマシンはどうなったの?　Moeka
+What happened to the time machine? Moeka
 <END2>
 
 #WRITE(PTR, $00001084)
-タイムマシンは
+The time machine
 <END2>
 
 #WRITE(PTR, $00001088)
@@ -1500,11 +1501,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000108C)
-まだ使っている?　それとも破棄した?　どういう仕組みなのか解明できた?　Moeka
+Still using it? Or dispose of it? Figure out the mechanism? Moeka
 <END2>
 
 #WRITE(PTR, $000010A4)
-なにそれ?
+What's that
 <END2>
 
 #WRITE(PTR, $000010A8)
@@ -1512,11 +1513,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000010AC)
-タイムリープってなに?　詳しく教えて!　Moeka
+What's a time leap? Tell me details! Moeka
 <END2>
 
 #WRITE(PTR, $000010C4)
-なんなの!?
+What is it!?
 <END2>
 
 #WRITE(PTR, $000010C8)
@@ -1524,11 +1525,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000010CC)
-タイムリープってなんなの!?　Moeka
+What's a time leap!? Moeka
 <END2>
 
 #WRITE(PTR, $000010E4)
-それは
+That’s
 <END2>
 
 #WRITE(PTR, $000010E8)
@@ -1536,11 +1537,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000010EC)
-それはとってもすごいね…。大発見だと思う。おめでとう。いつ頃完成する予定?　Moeka
+That's mindblowing... I think it's a breakthrough. Congratulations. When do you plan to complete it? Moeka
 <END2>
 
 #WRITE(PTR, $00001104)
-岡部くんに話がある
+Okabe-kun, we need to talk
 <END2>
 
 #WRITE(PTR, $00001108)
@@ -1548,7 +1549,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000110C)
-これから、行くね。Moeka
+Heading over now. Moeka
 <END2>
 
 #WRITE(PTR, $00001124)
@@ -1559,7 +1560,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000112C)
-というわけで、IBN5100はしばらく必要なくなったの。Moeka
+So, the IBN 5100 became unnecessary for a while. Moeka
 <END2>
 
 #WRITE(PTR, $00001144)
@@ -1570,7 +1571,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000114C)
-上司から、ストップがかかっちゃって。Moeka
+My superior ordered me to stop. Moeka
 <END2>
 
 #WRITE(PTR, $00001164)
@@ -1581,7 +1582,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000116C)
-どうしてFBを知ってるの?　どこでその情報を?　Moeka
+Why do you know about FB? Where did you get that information? Moeka
 <END2>
 
 #WRITE(PTR, $00001184)
@@ -1592,7 +1593,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000118C)
-というわけで、IBN5100はしばらく必要なくなったの。Moeka
+So, the IBN 5100 became unnecessary for a while. Moeka
 <END2>
 
 #WRITE(PTR, $000011A4)
@@ -1603,7 +1604,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000011AC)
-上司から、ストップがかかっちゃって。Moeka
+My superior ordered me to stop. Moeka
 <END2>
 
 #WRITE(PTR, $000011C4)
@@ -1614,14 +1615,14 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000011CC)
-どうしてFBを知ってるの?　どこでその情報を?　Moeka
+Why do you know about FB? Where did you get that information? Moeka
 <END2>
 
 #WRITE(PTR, $000011E4)
 <DUMMY>
 
 #WRITE(PTR, $000011E8)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $000011EC)
@@ -1632,99 +1633,99 @@ Shining Finger
 <DUMMY>
 
 #WRITE(PTR, $00001208)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $0000120C)
-ロト6で買え
+Buy LOTO SIX
 <END2>
 
 #WRITE(PTR, $00001224)
 <DUMMY>
 
 #WRITE(PTR, $00001228)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $0000122C)
-絶対当たる!
+sure to win!
 <END2>
 
 #WRITE(PTR, $00001244)
 <DUMMY>
 
 #WRITE(PTR, $00001248)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $0000124C)
-クリスの脅迫に屈せずSuzuhaを尾行せよ!
+Don’t listen to Cris, pursue Suzuha!
 <END2>
 
 #WRITE(PTR, $00001264)
 <DUMMY>
 
 #WRITE(PTR, $00001268)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $0000126C)
-クリスの脅迫
+Don't listen
 <END2>
 
 #WRITE(PTR, $00001284)
 <DUMMY>
 
 #WRITE(PTR, $00001288)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $0000128C)
-に屈せずSuzuha
+ to Cris, pu
 <END2>
 
 #WRITE(PTR, $000012A4)
 <DUMMY>
 
 #WRITE(PTR, $000012A8)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $000012AC)
-尾行せよ!
+rsue Suzuha!
 <END2>
 
 #WRITE(PTR, $000012C4)
 <DUMMY>
 
 #WRITE(PTR, $000012C8)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $000012CC)
-尾行は中止だ
+Cancel pursu
 <END2>
 
 #WRITE(PTR, $000012E4)
 <DUMMY>
 
 #WRITE(PTR, $000012E8)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $000012EC)
-前のメールは
+it. Last mai
 <END2>
 
 #WRITE(PTR, $00001304)
 <DUMMY>
 
 #WRITE(PTR, $00001308)
-鳳凰院凶真
+Hououin Kyouma
 <END2>
 
 #WRITE(PTR, $0000130C)
-SERNの罠
+l=SERNs trap
 <END2>
 
 #WRITE(PTR, $00001324)
@@ -1735,9 +1736,9 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000132C)
-岡部さんへ\n
+To Okabe-san:\n
 \n
-大事なお話があります。これからうちの神社まで来てもらえませんか?　待ってます。ずっと、待ってますから。
+I have something important to talk about. Can you come over to our shrine, please? Because I'll be waiting. I'll always keep waiting.
 <END2>
 
 #WRITE(PTR, $00001344)
@@ -1748,13 +1749,13 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000134C)
-岡部さんへ\n
+To Okabe-san:\n
 \n
-大事なお話があります。これからうちの神社まで来てもらえませんか?　待ってます。ずっと、待ってますから。
+I have something important to talk about. Can you come over to our shrine, please? Because I'll be waiting. I'll always keep waiting.
 <END2>
 
 #WRITE(PTR, $00001364)
-教えてください
+Please tell me
 <END2>
 
 #WRITE(PTR, $00001368)
@@ -1762,39 +1763,39 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000136C)
-本当に、これでよかったんでしょうか?
+Are you really okay with this?
 <END2>
 
 #WRITE(PTR, $00001384)
-ＥＵＲＥＫA
+EUREKA
 <END2>
 
 #WRITE(PTR, $00001388)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000138C)
-これから潜入してくる。うわー、どうしよ。柄にもなくキンチョー中。\n
+Going to infiltrate now. Waah, what to do. This isn't like me, I'm so nervous.\n
 \n
-曇りガラスの向こうをのぞいてるみたいに、自分で自分の心がよく見えない。\n
+I can't see my own heart, like peeking through frosted glass.\n
 \n
-以上報告終わり。
+Nothing more to report.
 <END2>
 
 #WRITE(PTR, $000013A4)
-ごめん
+Sorry
 <END2>
 
 #WRITE(PTR, $000013A8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $000013AC)
-さよなら
+Goodbye.
 <END2>
 
 #WRITE(PTR, $000013C4)
-ありがと
+Thanks
 <END2>
 
 #WRITE(PTR, $000013C8)
@@ -1802,11 +1803,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000013CC)
-さよなら
+Goodbye
 <END2>
 
 #WRITE(PTR, $000013E4)
-Re:役立たずでごめんなさい
+Re: Sorry for not being useful
 <END2>
 
 #WRITE(PTR, $000013E8)
@@ -1814,18 +1815,18 @@ FB
 <END2>
 
 #WRITE(PTR, $000013EC)
-Ｍ4、あなたは確かに人付き合いが苦手かもしれないわね。でもそれはあなたの個性とも言える。それに、私とはこうしてうまくやっていけているじゃない?正直な話、Ｍ4ほどひたむきに頑張ってくれる人は他にいないわ。とても感謝しているのよ。あなたがラウンダーに入ってくれてよかったとも思う。他の誰も評価していなくても、私はちゃんとあなたを見ていLukaら。また気軽にメールしてね。\n
+M4, you really don't seem good at social interaction. But that's just your personality. Besides, you're talking with me perfectly fine, aren't you? Honestly speaking, M4, there's nobody else who works quite as hard as you do. I'm very thankful for that. I'm glad you joined the Rounders. Even if nobody else values you, I'll always look out for you. Feel free to casually mail me like this.\n
 \n
-そうそう、せっかく名古屋にいるんだから、名物料理をなにか食べてみたら。いつもコンビニのおにぎりだと、栄養がつかないわよ。Ｍ4は名古屋のお味噌文化は苦手だったかしら?　だけど、その年で食べず嫌いなんてしていちゃダメよ。オススメは、断然味噌煮込みうどんね。\n
+Oh yes, since you're finally in Nagoya, you should at least try some of the local specialties. It's not good for your health to keep eating convenience store onigiri. Or are you not good with Nagoya's miso culture, M4? Even so, you should at least eat something at your age. I guess I'd recommend the firm miso stew.\n
 \n
-次の任務は東京の秋葉原で行うから、1週間以内に住めるアパートを探しておくこと。特別ボーナスを振り込んでおいたからね。\n
+Your next mission is to go to Akihabara, Tokyo, so look for an apartment to live in by next week. 'Cause we're giving you a special bonus payment, okay?\n
 \n
-それじゃまた。\n
-あなたのお母さん、FBより。
+Well, see you.\n
+From your mother, FB
 <END2>
 
 #WRITE(PTR, $00001404)
-あなたは本物ですか?
+Are you being honest?
 <END2>
 
 #WRITE(PTR, $00001408)
@@ -1833,17 +1834,17 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000140C)
-あなたがメールに書いてくれた事が全て事実だとすれば、それは非常に興味深い事です。特にIBN5100に隠された機能がある事は、私は今のところ誰にも話していません。にも係わらずあなたが知っているという事実は、私には驚くべき事のように思えます。少なくとも私は2000年には行っていません。これから行く可能性は有りますが。考えられる可能性は3つです。\n
+If what you wrote in your mail is all true, then it's very interesting indeed. Particularly concerning the IBN 5100's hidden ability, which I have not mentioned to anybody as of yet. I am indeed surprised at the fact that you know about it. However, I have not gone to the year 2000. Though, there is a possibility I may go there after this. There are three possibilities:\n
 \n
-1つは、2000年に現れたJohn Titorは未来の私である可能性。つまり2010年に居るこの私が、これから2000年に行って、あなたに教えて貰った事をもっともらしく書いた。ですがこれは卵が先か鶏が先かと言うパラドックスが生まれてしまいますね。\n
+First, the possibility that the John Titor who appeared in 2000 is my future self. In other words, I who have returned to 2010, will go to 2000 from here, and write about the things you have told me. But that would cause an a chicken and egg paradox, wouldn't it.\n
 \n
-2つ目は、あなたの妄想、あるいはウソだと言う事です。ですが私としてはあなたの言う内容について真剣に検討したいと思っている為、この可能性はひとまず置いておきます。\n
+Second, it's all your delusion, or possibly, fabrication. But for the sake of serious discussion of your statements, let's leave this possibility behind.\n
 \n
-3つ目。あなたは別の世界線の私が書いた事を見た可能性が有ります。つまりあなたは10年前は、今私たちが居るこの世界線とは別の世界線に居た、と言う事です。ですが、それだと説明不可能な点が出てきます。世界線が変動すると、パラドックスが生じないように過去から未来にかけてあらゆる因果が再構成されるのです。2036年時点でその理論は証明されています。ですので、本来、あなたは“別の世界線での記憶”を持ち合わせている筈が無いのです。私のような、タイムトラベラーでもない限りは……。この点について、何か心当たりは有りませんか?
+Third. There is a possibility that you saw something I wrote in a different world line. Basically, that means that 10 years ago, you existed in a different world line than the world line we're at now. However, that explanation brings out an impossibility. When the world line changes, every cause and effect is reconstructed from past to future in order to prevent paradoxes. That theory was proven in 2036. So, essentially, it's not expected for "memories of another world line" to ever remained unchanged. Not even for time travelers like me... Do you have any knowledge on this point?
 <END2>
 
 #WRITE(PTR, $00001424)
-それをどこで?
+Where did you find that?
 <END2>
 
 #WRITE(PTR, $00001428)
@@ -1851,11 +1852,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000142C)
-それは、1975年以前に使われていたＩＢＮ独自のとても古いプログラム言語であり、解読するにはIBN5100を使うしかないでしょう。
+That's written in an old proprietary IBN programming language used prior to 1975. You can probably only decipher it with an IBN 5100.
 <END2>
 
 #WRITE(PTR, $00001444)
-詳細を
+Details
 <END2>
 
 #WRITE(PTR, $00001448)
@@ -1863,7 +1864,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000144C)
-こんにちは、キョーマ。あなたのメールに書かれている事が本当かどうか検証したいので、変えたという過去について詳細に教えて貰えますか?
+Greetings, Kyouma. I want to verify whether or not what you wrote in your mail is true, so can you tell me the details of what you changed in the past?
 <END2>
 
 #WRITE(PTR, $00001464)
@@ -2019,11 +2020,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000015EC)
-Attractor Fields are, simply put, the focal points of world line convergence. They can also be used to explain things once called "fate" or "chance." There is no real meaning to making small changes to the world line. Small changes result in the same conclusion due to convergence. And humans who can observe that convergence rarely exist. I haven't met anybody who holds that sort of ability, so I'm qualified to accurately judge but... Kyouma, you could possibly be that rare existence who holds that ability. You might be able to guide the world. To the world line beyond 1％ divergence. Beyond the Attractor Field wall.
+Attractor Fields are, simply put, the focal points of world line convergence. They can also be used to explain things once called "fate" or "chance". There is no real meaning to making small changes to the world line. Small changes result in the same conclusion due to convergence. And humans who can observe that convergence rarely exist. I haven't met anybody who holds that sort of ability, so I'm qualified to accurately judge but... Kyouma, you could possibly be that rare existence who holds that ability. You might be able to guide the world. To the world line beyond 1％ divergence. Beyond the Attractor Field wall.
 <END2>
 
 #WRITE(PTR, $00001604)
-未来
+Future
 <END2>
 
 #WRITE(PTR, $00001608)
@@ -2031,11 +2032,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000160C)
-その先に待つのは、真の自由です。逆に言うと、その壁を越えられなければ、私が生きてきた通りのディストピアとなる。人類の未来は偽りの幸福によって洗脳され、自由意志を喪失します。私の目的は、＠ちゃんねるに書き込んだ通り、未来を変える事なのです。そしてそれを可能にするのは、あなたなのかも知れない。
+What waits for us on the other side is true freedom. Conversely, if we don't cross that wall, the world will turn to the same dystopia I lived through. The future of mankind will be hollow happiness by brainwashing: the forfeit of freedom. My goal is to change the future, just like I wrote on @channel. And the one to help me do that may be you.
 <END2>
 
 #WRITE(PTR, $00001624)
-未来2
+Future2
 <END2>
 
 #WRITE(PTR, $00001628)
@@ -2043,17 +2044,18 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000162C)
-キョーマ、あなたに、\n
+Kyouma, I want you
 \n
 \n
 \n
 \n
 \n
-救世主になって欲しい。\n
+\n
+to be the Messiah.\n
 \n
 \n
-もしまた同じ事が起きたら、もう一度連絡を下さい。\n
-その時こそあなたが救世主だと証明されるでしょう。
+If the same thing happens to you again, please contact me once more.\n
+That moment will prove that you are the messiah.
 <END2>
 
 #WRITE(PTR, $00001644)
@@ -2085,7 +2087,7 @@ patghqwskm@ninesixpbb.com
 <END2>
 
 #WRITE(PTR, $0000168C)
-お前を見ているぞ。
+You're being watched.
 <END2>
 
 #WRITE(PTR, $000016A4)
@@ -2096,7 +2098,7 @@ patghqwskm@ninesixpbb.com
 <END2>
 
 #WRITE(PTR, $000016AC)
-お前は知りすぎた。
+You know too much.
 <END2>
 
 #WRITE(PTR, $000016C4)
@@ -2107,7 +2109,7 @@ sg-epk@jtk93.x29.jp
 <END2>
 
 #WRITE(PTR, $000016CC)
-テレビを見ろ。
+Watch TV.
 <END2>
 
 #WRITE(PTR, $000016E4)
@@ -2128,11 +2130,11 @@ sg-epk@jtk93.x29.jp
 <END2>
 
 #WRITE(PTR, $0000170C)
-これがシュタインズゲートの選択だ。エル・プサイ・コングルゥ。
+This is the choice of Stein's Gate. El. Psy. Congroo.
 <END2>
 
 #WRITE(PTR, $00001724)
-書いた?
+Did you write it?
 <END2>
 
 #WRITE(PTR, $00001728)
@@ -2140,11 +2142,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000172C)
-\rsレポート\reはちゃんと書いたんでしょうね?　言っとくけど昨日のは冗談で言ったわけじゃない。もし書いてないって言うなら岡部に\rsサイエンティスト\reを名乗る資格はない。論文の重要性については、まだ大学に入りたてのあんたより私の方がよっぽど\rsよく知ってる\reんだからね!
+You made sure to write \rsthe report\re, right? For your information, I wasn't joking yesterday. If, by chance, you didn't write it, then you have no right to call yourself a \rsscientist\re, Okabe. I'm \rswell aware\re of the importance of writing theses; at least more aware than you, who just got into university!
 <END2>
 
 #WRITE(PTR, $00001744)
-サイエンティスト??
+Scientist??
 <END2>
 
 #WRITE(PTR, $00001748)
@@ -2152,7 +2154,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000174C)
-なにが\rsマッド\reよ。バカじゃないの?　あんたなんか\rsバッドサイエンティスト\reよ!
+What do you mean "\rsmad\re" scientist? More like \rsbad scientist\re, am I right?
 <END2>
 
 #WRITE(PTR, $00001764)
@@ -2176,7 +2178,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000178C)
-So basically, you're an "insane insane scientist," huh. That's on the same level as "hot water heater" (lol) and an "aching headache" (lol).
+So basically, you're an "insane insane scientist", huh. That's on the same level as "hot water heater" (lol) and an "aching headache" (lol).
 <END2>
 
 #WRITE(PTR, $000017A4)
@@ -2188,7 +2190,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000017AC)
-While you're out, can you buy me a fork? Because I want \rs"my fork."\re And some \rscup noodles\re for dinner too. There was something like "Gen-chan Ramen." That.
+While you're out, can you buy me a fork? Because I want \rs"my fork."\re And some \rscup noodles\re for dinner too. There was something like "Gen-chan Ramen". That.
 <END2>
 
 #WRITE(PTR, $000017C4)
@@ -2260,7 +2262,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000186C)
-I forgot to mention it, but could you buy me some cup noodles for dinner? There was something like "\rsHacodate Number 1\re." That.
+I forgot to mention it, but could you buy me some cup noodles for dinner? There was something like "\rsHacodate Number 1\re". That.
 <END2>
 
 #WRITE(PTR, $00001884)
@@ -2272,7 +2274,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000188C)
-Gyah! \rsA cockroach\re came out!　GELP!　HELP_MEEE!
+Gyah! \rsA cockroach\re came out! GELP! HELP_MEEE!
 <END2>
 
 #WRITE(PTR, $000018A4)
@@ -2308,7 +2310,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000018EC)
-I never said anything about "Gen-chan Ramen," but what is it?
+I never said anything about "Gen-chan Ramen", but what is it?
 <END2>
 
 #WRITE(PTR, $00001904)
@@ -2380,11 +2382,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000019AC)
-Sorry, I said to much（´・ω・` ）　But Okabe, shouldn't you choose your words better too...?
+Sorry, I said to much（´・ω・` ）But Okabe, shouldn't you choose your words better too...?
 <END2>
 
 #WRITE(PTR, $000019C4)
-The key(ﾉД`)
+The key (ﾉД`)
 <END2>
 
 #WRITE(PTR, $000019C8)
@@ -2416,7 +2418,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001A0C)
-Everything's scattered everywhere. The lab's a mess \rsbecause of you boys.\re Well, I'm also the type to scatter things around when I'm obsessed with experiments lol. This time I used some deodorizing spray. I disinfected this \rsfilth\re so that there won't be any more roaches! \rsHyahha\re!
+Everything's scattered everywhere. The lab's a mess \rsbecause of you boys\re. Well, I'm also the type to scatter things around when I'm obsessed with experiments lol. This time I used some deodorizing spray. I disinfected this \rsfilth\re so that there won't be any more roaches! \rsHyahha\re!
 <END2>
 
 #WRITE(PTR, $00001A24)
@@ -2536,7 +2538,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001B4C)
-I can't tell if this is true or just more of your usual BS.... Okabe, this is a serious situation. You're turning into the boy who cried wolf. So only tell me the truth from now on. Please.
+I can't tell if this is true or just more of your usual BS... Okabe, this is a serious situation. You're turning into the boy who cried wolf. So only tell me the truth from now on. Please.
 <END2>
 
 #WRITE(PTR, $00001B64)
@@ -2548,7 +2550,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001B6C)
-I'm not interested in Japanese haunted houses,and I don't even believe in ghosts one bit. Rather,what I'm scared of is vehicles. Though there's not a high chance of driver's unnatural mistakes causing accidents.
+I'm not interested in Japanese haunted houses, and I don't even believe in ghosts one bit. Rather, what I'm scared of is vehicles. Though there's not a high chance of driver's unnatural mistakes causing accidents.
 <END2>
 
 #WRITE(PTR, $00001B84)
@@ -2560,7 +2562,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001B8C)
-Not me, Hashida, you dummy! Don't mix us up on purpose! Dye! Anyway, don't you think something's wrong about me getting sniffed by Hashida? You should at least consider stopping Hashida's HENTAI-like tendencies or something.
+Not me, Hashida, you dummy! Don't mix us up on purpose! Dye! Anyway, don't you think something's wrong about me getting sniffed by Hashida? You should at least consider stopping Hashida's pervert-like tendencies or something.
 <END2>
 
 #WRITE(PTR, $00001BA4)
@@ -2572,7 +2574,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001BAC)
-I make sure to shower every day! If it so pleases you,come back here this instant and smell me! Get drunk off my sweet fragrance and dye of diabetes! And you even dared to peek on me before... That was my fist time to be seen naked by a man, you know. \ ( ^o^) /
+I make sure to shower every day! If it so pleases you, come back here this instant and smell me! Get drunk off my sweet fragrance and dye of diabetes! And you even dared to peek on me before... That was my first time to be seen naked by a man, you know. \ ( ^o^) /
 <END2>
 
 #WRITE(PTR, $00001BC4)
@@ -2608,7 +2610,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001C0C)
-H-hey, you! What the hell was that just now!? That was some loving hug! I'm seriously jealous.... Ah, no, not about getting hugged by you, but about having someone of the opposite sex to lovingly hug! Don't misunderstand me! Anyway,\rswhat was that\re about?
+H-hey, you! What the hell was that just now!? That was some loving hug! I'm seriously jealous... Ah, no, not about getting hugged by you, but about having someone of the opposite sex to lovingly hug! Don't misunderstand me! Anyway, \rswhat was that\re about?
 <END2>
 
 #WRITE(PTR, $00001C24)
@@ -2624,7 +2626,7 @@ Dammit, even though all you do to me is sexual harassment!ヽ(`Д´)ﾉ
 <END2>
 
 #WRITE(PTR, $00001C44)
-非モテWomanより
+Unpopular girl
 <END2>
 
 #WRITE(PTR, $00001C48)
@@ -2632,11 +2634,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001C4C)
-恋人ができてウキウキしてるのは別にどうでもいいけど、タイムリープマシンをどうすLukaについてもちゃんと考えて。私たちはとんでもないものを作ってしまった。これは放置しておいていいものじゃない。今後のことをラボメンの全員で話し合うべきよ。Mayuriのためだっていうのは分かってる。分かってる上で、言ってるの。漆原さんだけに気を取られないで。正直なところ、自分が作ったもののバケモノっぷりに、今さら恐ろしさを感じてきてて、なんだか落ち着かないのよね……。あんたとあーでもないこーでもないって話し合ってた方が、気持ちが楽になる気がする。
+I don't really care if you get a lover and get all cheerful, but also carefully consider what you're going to do with the Time Leap Machine. We may have created something outrageous. This isn't something we can just leave alone. We should discuss this matter with all the lab mems. I understand this is for Mayuri's sake. I understand, but I still need to say this: Don't get preoccupied with just Urushibara-san. To be honest, I'm still afraid of this monster I created, and can't seem to calm down... Talking to you about this and that made me more relieved.
 <END2>
 
 #WRITE(PTR, $00001C64)
-連絡しろバカ!
+Contact me, idiot!
 <END2>
 
 #WRITE(PTR, $00001C68)
@@ -2644,11 +2646,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001C6C)
-桐生って人はどうなった?　せめて生きてLukaどうかだけでも連絡よこしなさいよ!　もう死んでるとかバカなこと言わないでよ?　ねえ、せめてメールでいいから\rs返事\reして。でないとずっと\rs不安\reのままで、食事も喉を通らないから。
+How'd it go with that Kiryuu lady? At least let me know if you're still alive! Don't say anything stupid like you died or anything, okay? Please, just \rsrespond\re. Even a mail will do. Because if you don't, I'll be too \rsanxious\re to even eat.
 <END2>
 
 #WRITE(PTR, $00001C84)
-Re:Re:連絡しろバカ!
+Re: Re: Contact me, idiot!
 <END2>
 
 #WRITE(PTR, $00001C88)
@@ -2656,11 +2658,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001C8C)
-昨日みたいに私たちを無視しないで。私だけじゃなくてMayuriや橋田もずっと待ってる。泣きそうなMayuriは見たくないの。
+Don't disregard us like yesterday. Not just me, but Mayuri and Hashida are also waiting for you. I don't want to see Mayuri cry.
 <END2>
 
 #WRITE(PTR, $00001CA4)
-Re:Re:連絡しろバカ!
+Re: Re: Contact me, idiot!
 <END2>
 
 #WRITE(PTR, $00001CA8)
@@ -2668,11 +2670,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001CAC)
-今さらの返事だけど、聞いてほしい。私は青森なんてどうでもいいの。岡部に無事でいてほしいだけ。昨日みたいに無視されると、心の奥が、抉られたみたいに痛くなる。だから早く帰ってきて……。
+Sorry for the late reply, but I want you to listen. Aomori doesn't matter to me. I just want you to be safe, Okabe. Being ignored like yesterday hurt me, like my heart was gouged out. So hurry back home...
 <END2>
 
 #WRITE(PTR, $00001CC4)
-今どこ?
+Where are you now?
 <END2>
 
 #WRITE(PTR, $00001CC8)
@@ -2680,11 +2682,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00001CCC)
-あんたこの2日間、ずっとラボに来ないけど、どこにいるの?　秋葉原にはいるのよね?　分かった、悩み事でもあるんだろ?　一昨日、様子が変だったし。相談に乗Lukaら\rs居場所\re教えなさいよ。あんたと会えないと、なんか調子狂うの。ねえ、どこ?　どこなの?　顔が見たいよ……。
+Where are you? You haven't come to the lab in two days. You're still in Akihabara, right? We're worried, you know? You were acting strange yesterday. I'll give you some advice, so tell me \rswhere you are\re. Not seeing you somehow makes me go crazy. Hey, where are you? Where could you be? I want to see your face...
 <END2>
 
 #WRITE(PTR, $00001CE4)
-決戦は目前ニャ
+The decisive battle is close at hand nya
 <END2>
 
 #WRITE(PTR, $00001CE8)
@@ -2692,11 +2694,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001CEC)
-凶真はなかなかやるニャ。まさか“\rs気付く\re”なんてニャ。そしてそれならもう分かってるはずニャン。\rs赤き南十字星\reが、すでに\rs孵化の段階\reへ進んでいることを。だからこそFarisも“聖域”へ……ううん、なんでもないニャ。
+Kyouma's pretty good nya. Who would've thought you'd "\rsnotice\re" nya. In that case, you should understand nya. The \rsRed Southern Cross\re has already advanced to \rsthe hatching stage\re. For that reason, Faris is already headed to the "Holy Grounds" and... nyo, it's nothing.
 <END2>
 
 #WRITE(PTR, $00001D04)
-とぼけても無駄ニャ
+You can't feign ignorance nya
 <END2>
 
 #WRITE(PTR, $00001D08)
@@ -2704,11 +2706,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001D0C)
-気付いてないなんて言わせないニャ。なんのためにFarisがあの店に凶真をおびき寄せたと思ってるのニャ?　すでに“物語”は動き出しているのニャ。そのためのお膳立てを、Farisがしてあげたのニャ。なぜならFarisは“導く者”だからニャン。
+Don't say you didn't notice nya. For what purpose do you think Faris approached you in that store, nya Kyouma? That's because the "story" has already come to life. Faris approached you in order to prepare for that, nya. The reason is because Faris is the "guide", nya.
 <END2>
 
 #WRITE(PTR, $00001D24)
-やっぱりそうだったのニャ
+So that was it after all nya
 <END2>
 
 #WRITE(PTR, $00001D28)
@@ -2716,11 +2718,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001D2C)
-原罪具有者はすなわち予言者ニャ。その中でも“カオスを受け入れた堕天使”と呼ばれているWomanの子がいるニャ。添付すLukaら顔をよく覚えておくニャ。ちなみに耐性がないと、画像を見ただけで神の眼に射抜かれて原子レベルから原罪励起（666レセプター強制解放モード）が発生し消滅してしまうから注意ニャ!
+The Holders of Original Sin, that is, the Prophets nya. Among them is the girl known as "the Fallen Angel who Accepted Chaos", nya. I attached a picture of her face, so remember it well, nya. By the way, if you lack resistance, just looking at the image will cause the Divine Eye to activate Original Sin Excitation (Mode 666: Compulsory Receptor Release) which will annihilate you at the subatomic level. So be careful, nya!
 <END2>
 
 #WRITE(PTR, $00001D44)
-すでに緊急事態になってるのニャ
+It's already a state of emergency nya
 <END2>
 
 #WRITE(PTR, $00001D48)
@@ -2728,11 +2730,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001D4C)
-だからこそ、早く探さなくちゃいけないのニャ。“14番目の男”を。ヤツはきっと、このアキバのどこかにあるという“鷹の巣”――イーグル・プリズンにいるはずなのニャン。
+That's why you must go undercover immediately nya. "The 14th man". He must surely be in the "Hawk's Nest" -- Eagle Prison, which exists somewhere here in Akiba.
 <END2>
 
 #WRITE(PTR, $00001D64)
-原罪レベル180％に上昇
+Original Sin level rising to 180％
 <END2>
 
 #WRITE(PTR, $00001D68)
@@ -2740,11 +2742,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001D6C)
-凶真……あまり\rs表舞台\reで\rs目立った動き\reをするべきじゃないニャ。でないと、ヤツらに気付かれてしまうニャ。“召喚”に\rs2000年\reかかっていることを忘れちゃダメニャ。その2000年が台無しになったら……いや、でも案外、それも\rs面白い\reのかもしれないニャン。ニャフフ。
+Kyouma... when you're on \rscenter stage\re, you shouldn't be making such \rsconspicuous actions, \re nya. Otherwise, they'll notice you. You must not forget the "summons" of the year \rs2000\re. Everything was ruined that year... No, that actually might be unexpectedly \rsinteresting\re nyan. Nyahuhu.
 <END2>
 
 #WRITE(PTR, $00001D84)
-世界の真実
+The truth of the world
 <END2>
 
 #WRITE(PTR, $00001D88)
@@ -2752,11 +2754,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001D8C)
-誰もアキバが表舞台だとは一言も言ってないニャ。“世界の真実”を知りたいなら、今すぐFarisのところに来るのニャ。そう、破滅への序曲、大いなる宴は今まさに始まろうとしているニャ。
+Nobody said anything about Akiba being center stage nya. If you want to learn "the truth of the world", then come at once to Faris' place nya. That's right, the prelude to ruin, the grand party shall begin now.
 <END2>
 
 #WRITE(PTR, $00001DA4)
-無茶ニャ!
+Unreasonyable!
 <END2>
 
 #WRITE(PTR, $00001DA8)
@@ -2764,11 +2766,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001DAC)
-まさか正面からやりあうつもりかニャ?　そうなればアキバが血の海になるニャ。自重するニャ凶真!
+Don't tell meow you plan to face them head on? If you do, Akiba will become a sea of blood nya. Restrain yourself nya, Kyouma!
 <END2>
 
 #WRITE(PTR, $00001DC4)
-予言歌
+Song of Prophecy
 <END2>
 
 #WRITE(PTR, $00001DC8)
@@ -2776,7 +2778,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001DCC)
-でも“彼”の復活は堕天使ＦＥＳの歌によって予言されていたのニャ。密教の首飾りニャン。とってもいい曲ニャ♪　インディー時代のアルバムをこの前ゲットして（プレミア価格だったニャ）、ようやく“審判の日”に関するすべての予言詩をFarisは解明できたのニャ。
+But "His" revival has been prophesied according to the song of FES, the fallen angel nya. Mikkyou no Kubikazari nyan. A very nice tune nya♪ I got an album from when she was indie earlier (At a premium price nya), and Faris was gradually elucidated by each song of prophecy relating to "Judgment Day", nya.
 <END2>
 
 #WRITE(PTR, $00001DE4)
@@ -2787,11 +2789,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001DEC)
-凶真は混沌を求めてる……そうだニャ?（￣ー￣）
+Kyouma is seeking chaos... aren't you, nya?（￣ー￣）
 <END2>
 
 #WRITE(PTR, $00001E04)
-ＰＨAＮＴAＳＭ最高ニャ～♪
+PHANTASM is the cat's meow~♪
 <END2>
 
 #WRITE(PTR, $00001E08)
@@ -2799,11 +2801,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001E0C)
-凶真は\rsＰＨAＮＴAＳＭ\reのメジャーデビューシングル買ったかニャ?　『雷ネット翔』の\rs主題歌\reで、大人気なのニャ。Farisは5枚買ったのニャン。ま、雷ネッターとしては当然のたしなみニャン。ちなみに、ＰＨAＮＴAＳＭの曲には\rs重大な秘密\reが隠されて……おっと、呼び鈴が鳴ったニャ。誰か来たみたいなのニャン。ちょっと見てくるニャ。
+Kyouma, have you bought \rsPHANTASM\re's major debut single, nya? It's really popular since it's the \rstheme song\re for "RaiNet Kakeru". Faris brought five copies nya. Well, it's naturally my taste as a RaiNetter. By the way, within PHANTASM's songs hides an \rsimportant secret\re... Oops, the bell's ringing nya. Looks like someone's come nyan. I'll go look for a bit nya.
 <END2>
 
 #WRITE(PTR, $00001E24)
-ボーカルは美少Woman
+The vocalist is a beautiful girl
 <END2>
 
 #WRITE(PTR, $00001E28)
@@ -2811,11 +2813,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001E2C)
-『\rsカオス\reを受け入れた堕天使』『\rsコキュートス\re・フォース・ブリザード』とも呼ばれてるボーカルのＦＥＳは、インディー時代からちょっと\rs雰囲気変わった\reのニャ。
+The vocalist, FES, also called the "Fallen Angel who Accepted \rsChaos\re" and "\rsCocytus\re Force Raid", \rschanged her atmosphere\re a little since her indie days.
 <END2>
 
 #WRITE(PTR, $00001E44)
-雷ネット2期ＯＰ
+RaiNet OP 2
 <END2>
 
 #WRITE(PTR, $00001E48)
@@ -2823,11 +2825,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001E4C)
-\rs雷ネット翔\reの2期ＯＰニャ。14話から開始されたニャン。めちゃくちゃかっこいいのニャ～。去年、\rs渋谷\reのインディーシーンで話題になってたっぽいけど、まさかメジャーデビューするとは思わなかったニャ。
+\rsRaiNet Kakeru\re's second opening theme, nya. First played in ep 14 nyan. It's so super cool nya~. It seems like it became big news last year in \rsShibuya\re's indie scene, but I never thought she'd make a major debut nya.
 <END2>
 
 #WRITE(PTR, $00001E64)
-ＥｘAｃｔｒｙ（その通りでございます）
+Exactamundo
 <END2>
 
 #WRITE(PTR, $00001E68)
@@ -2835,11 +2837,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001E6C)
-ＦＥＳの\rs予言詩\reは健在なのニャ。\rsヤツら\reの手が迫る前に、Farisはこの予言から\rs聖域\reの場所を解読しなくちゃいけないのニャ!
+FES' \rssongs of prophecy\re are going strong nya. Before \rsthey\re can reach it, Faris must decipher the location of the \rsHoly Grounds\re from the prophecies nya!
 <END2>
 
 #WRITE(PTR, $00001E84)
-Re:Re:ボーカルは美少Woman
+Re: Re: The vocalist is a beautiful girl
 <END2>
 
 #WRITE(PTR, $00001E88)
@@ -2847,11 +2849,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001E8C)
-カオスになるのニャ。
+Become chaos nya.
 <END2>
 
 #WRITE(PTR, $00001EA4)
-Re:Re:ボーカルは美少Woman
+Re: Re: The vocalist is a beautiful girl
 <END2>
 
 #WRITE(PTR, $00001EA8)
@@ -2859,11 +2861,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001EAC)
-相手は死ぬのニャ。
+Kills them dead nya.
 <END2>
 
 #WRITE(PTR, $00001EC4)
-人間的に成長?
+Human growth?
 <END2>
 
 #WRITE(PTR, $00001EC8)
@@ -2871,11 +2873,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001ECC)
-昔はもっと近寄りがたいイメージだったニャ。氷のように冷たくて近寄りがたかったニャン。でも最近はステージの上でたまに笑顔も見せるらしいのニャ!　ＦＥＳ様の笑顔!　ハニャ～、見てみたいニャ。でもマスコミには汚されないでほしいのニャ。
+Long ago, she had an image of being hard to approach nya. Cold as ice nyan. But lately it looks like she's been smiling on stage nya! FES-sama's smile! Hanya~, I wannya see it nya. But I don't want the media to defile her nya.
 <END2>
 
 #WRITE(PTR, $00001EE4)
-雷ネット13話
+RaiNet Ep 13
 <END2>
 
 #WRITE(PTR, $00001EE8)
@@ -2883,11 +2885,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001EEC)
-ちなみに1期ラストの13話はこんな話だったのニャ。今度、ＤＶＤ貸してあげるニャ!　あ、でもまゆしぃから借りた方が早いかもニャン。
+By the way, we were talking about Ep 13 last time nya. Next time I'll lend you a DVD nya! Ah, but it might be quicker to borrow it from Mayushii, nyan.
 <END2>
 
 #WRITE(PTR, $00001F04)
-あれは黙示録
+Revelations
 <END2>
 
 #WRITE(PTR, $00001F08)
@@ -2895,11 +2897,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001F0C)
-具体的には言えないニャ。でもＦＥＳは歌によって黙示録を、すなわち世界の滅びを歌っているのニャ。
+I won't give specifics, nya. But FES sings Revelations, that is, songs of the world's ruin nya.
 <END2>
 
 #WRITE(PTR, $00001F24)
-審判の日
+Judgment Day
 <END2>
 
 #WRITE(PTR, $00001F28)
@@ -2907,11 +2909,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001F2C)
-やめるわけにはいかないニャ。“審判の日”は近いのニャ。だからFarisは行かなくちゃいけないのニャ。“聖域”に。そこが、Farisの本当に帰るべき場所なのニャン。
+There's no way I can quit, nya. "Judgment Day" is near, nya. That's why Faris must keep going nya. To the "Holy Grounds". That's the place Faris must return to nyan.
 <END2>
 
 #WRITE(PTR, $00001F44)
-永遠はあるよ
+Eternally exists
 <END2>
 
 #WRITE(PTR, $00001F48)
@@ -2919,11 +2921,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001F4C)
-なに言ってるニャ!　聖域は、きっとそこにあるのニャ!　だって、そうじゃないとFarisのお兄ちゃんが、お兄ちゃんが……!　だから凶真、適当なこと言わないでほしいニャ!　
+What are you saying nya! The Holy Grounds are surely there! Because, if they aren't, then Faris' Onii-chan, Onii-chan will... So Kyouma, please don't say such irresponsible things, nya!
 <END2>
 
 #WRITE(PTR, $00001F64)
-大いなる災いの予兆
+Sign of increasing misfortune
 <END2>
 
 #WRITE(PTR, $00001F68)
@@ -2931,11 +2933,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001F6C)
-大変ニャ、\rsヤツ\reが逃げ出したニャ!　捕まえて殺さないと、このアキバにとんでもない災いが起こるのニャ!　ヤツの名は“ジ・エンド・オブ・チューとリアル”。小さくてすばしっこい、チューチュー鳴くヤツなのニャ!　凶真、早く来て!　Farisに\rs手を貸して\reほしいニャン!
+It's terrible nya, \rshe\re escaped nya! If we don't nyab him and kill him, then misfortune will strike here in Akiba nya! His name is "The End of Tutorial". He's small, and nimble, and he cries "chuu chuu", nya! Kyouma, come here quick! Faris need you to \rslend a hand\re nyan!
 <END2>
 
 #WRITE(PTR, $00001F84)
-能力のこと
+About abilities
 <END2>
 
 #WRITE(PTR, $00001F88)
@@ -2943,11 +2945,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001F8C)
-結局、Farisは自分の力がよく分からないのニャ。なぜFarisには他の人と違って\rsネコ耳\reがあるのか。なぜFarisは\rsニャンニャン語\reしか話せないのか。故郷である\rsチンチラ星\reはどこにあるのか。ホントのことを知りたい。だから、Farisは行くニャ!　Farisが望む答えがある場所へ!
+In the end, Faris doesn't quite understand her own power nya. Why does Faris have \rscat ears\re unlike other people? Why can Faris only speak in \rsNyanNyanian\re? Where is my home, the \rsChinchilla Star\re? I want to know the truth. That's why Faris will go nya! To where the answers to all Faris' questions can be found!
 <END2>
 
 #WRITE(PTR, $00001FA4)
-大惨事ニャ……
+Cat-astrophe nya...
 <END2>
 
 #WRITE(PTR, $00001FA8)
@@ -2955,11 +2957,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001FAC)
-だから!　\rs遅すぎた\reと言ったんだニャ!
+That's why! I said you were \rstoo slow\re!
 <END2>
 
 #WRITE(PTR, $00001FC4)
-29Ｑ
+29Q
 <END2>
 
 #WRITE(PTR, $00001FC8)
@@ -2967,11 +2969,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001FCC)
-にくきゅうはきっと癒しでできている。今日は行けなくてごめんニャ。
+29Q can surely heal it. Sorry for not going today nya.
 <END2>
 
 #WRITE(PTR, $00001FE4)
-猫舌ニャけど
+Cat tongue nya
 <END2>
 
 #WRITE(PTR, $00001FE8)
@@ -2979,11 +2981,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $00001FEC)
-今日はいけなくてごめんニャ。代わりに、カンヤム・カンニャムっていう、おいしい紅茶が手に入ったから、今度おすそわけするニャ。みんなで飲んでニャン♪
+Sorry for not going today nya. To make up for it, I got some delicious Kanyam tea, so I'll share some next time. Let's drink it all together nyan♪
 <END2>
 
 #WRITE(PTR, $00002004)
-Re:Re:第8話
+Re: Re: Ep 8
 <END2>
 
 #WRITE(PTR, $00002008)
@@ -2991,11 +2993,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000200C)
-今日はいけなくてごめんニャ。Farisは雷ネットAＢグラチャンに向けて修行中なのニャン。\rs8話\reみたいな感じで圧勝を狙うニャ。
+Sorry for not going today nya. Faris was training for the RaiNet AB grand championships nyan. I'm aiming for a complete victory like \rsEp 8\re nya.
 <END2>
 
 #WRITE(PTR, $00002024)
-8話と言えば
+About Ep 8
 <END2>
 
 #WRITE(PTR, $00002028)
@@ -3003,11 +3005,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000202C)
-雷ネット翔のことに決まってるニャ!
+I'm talking about RaiNet Kakeru, obviously nya!
 <END2>
 
 #WRITE(PTR, $00002044)
-コミマは
+ComiMa
 <END2>
 
 #WRITE(PTR, $00002048)
@@ -3015,11 +3017,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000204C)
-マユシィは元気かニャ?　コミマ頑張ってって伝えてほしいニャ。Farisは今年は参加できないかもニャン。なんかその\rs気力がない\reのニャ。今はすっかり燃えたよ～燃えつきたよ～立てジョー立つんだジョー状態ニャン……。誰か……\rs助けて\reニャ……。世界が、\rs崩壊\reしようとしてるのニャ……。
+Is Mayushii doing fine? I want you to tell her to do her best for ComiMa nya. Faris might not be able to participate this year nyan. Somehow I don't have the \rsenergy\re nya. Now I'm completely burned out~ burnt up~ like, stand Joe... stand up, Joe... nyan... Someone... \rssave\re meow... The world... looks like it's \rscollapsing\re nya...
 <END2>
 
 #WRITE(PTR, $00002064)
-Re:Re:コミマは
+Re: Re: ComiMa
 <END2>
 
 #WRITE(PTR, $00002068)
@@ -3027,11 +3029,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000206C)
-この前の電話ではわざと元気にしてたニャ……。ホントは吊ってきたい気分満々ニャ……。
+I purposefully cheered up for that last phone call nya... I actually really wanted to hang up nya...
 <END2>
 
 #WRITE(PTR, $00002084)
-Re:Re:コミマは
+Re: Re: ComiMa
 <END2>
 
 #WRITE(PTR, $00002088)
@@ -3039,11 +3041,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000208C)
-存在意義の喪失。見てもらえない。見てほしいのに。他に術を知らないから。叫んでも誰も聞いてくれない。振り向いてほしい人には届かない。負け犬は生ぬるい雨に打たれて埃っぽい街をさまよう。Farisは、ここにいるのに。\rs誰か見つけて\re。
+I lost the meaning of life. I can't see it. Even though I want to. I don't know any other way. Nobody can hear me even if I shout. It doesn't reach the people I want to turn around. Losers walk the lonely road pounded by lukewarm rain. Even though Faris is here. \rsSomeone find me\re.
 <END2>
 
 #WRITE(PTR, $000020A4)
-Re:Re:コミマは
+Re: Re: ComiMa
 <END2>
 
 #WRITE(PTR, $000020A8)
@@ -3051,7 +3053,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $000020AC)
-こんな時はＰＨAＮＴAＳＭを聞いて、よりダークな気分に浸るニャ……。凶真も付き合うニャ。
+When I listen to PHANTASM at times like this, I get immersed in a darker feeling... Join me, Kyouma.
 <END2>
 
 #WRITE(PTR, $000020C4)
@@ -3063,7 +3065,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000020CC)
-あのね、今になって、\rsうーぱ\reを落としちゃったことにしょんぼりしてきたよ。去年、でぶっちょ\rsゲロカエルん\reを買えなかったとき以上かも＞＜
+あのね, 今になって, \rsうーぱ\reを落としちゃったことにしょんぼりしてきたよ。去年, でぶっちょ\rsゲロカエルん\reを買えなかったとき以上かも＞＜
 <END2>
 
 #WRITE(PTR, $000020E4)
@@ -3075,7 +3077,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000020EC)
-うーぱは大人気なんだよ?　主人公の\rs翔くん\reより人気あるし。ああいうかわいいマスコットキャラはついつい買いたくなっちゃうんだ。まゆしぃ的こだわりなのです。オカリンだって高校の頃、黒い\rs指出し手袋\reをたくさん集めてたよね?　それと同じだよ。
+うーぱは大人気なんだよ? 主人公の\rs翔くん\reより人気あるし。ああいうかわいいマスコットキャラはついつい買いたくなっちゃうんだ。まゆしぃ的こだわりなのです。オカリンだって高校の頃, 黒い\rs指出し手袋\reをたくさん集めてたよね? それと同じだよ。
 <END2>
 
 #WRITE(PTR, $00002104)
@@ -3087,7 +3089,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000210C)
-他のゲロカエルんはちっともほしくなかったけど、\rsでぶっちょ\reだけは欲しかったの。でもね、今になって思うとあんまりかわいくなかったかも。むしろ気持ち悪いかも。なんで前はあんなに欲しかったのかなあ。そう言えばでぶっちょって\rsDaru\reくんに似てるね♪
+他のゲロカエルんはちっともほしくなかったけど, \rsでぶっちょ\reだけは欲しかったの。でもね, 今になって思うとあんまりかわいくなかったかも。むしろ気持ち悪いかも。なんで前はあんなに欲しかったのかなあ。そう言えばでぶっちょって\rsDaru\reくんに似てるね♪
 <END2>
 
 #WRITE(PTR, $00002124)
@@ -3099,7 +3101,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000212C)
-雷ネット翔はね、とっても面白いよ。オカリンも一度でいいから、見てみて。けっこうね、考えさせられる内容も多くてね、絶対子供向けじゃないと思うなぁ。
+雷ネット翔はね, とっても面白いよ。オカリンも一度でいいから, 見てみて。けっこうね, 考えさせられる内容も多くてね, 絶対子供向けじゃないと思うなぁ。
 <END2>
 
 #WRITE(PTR, $00002144)
@@ -3111,7 +3113,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000214C)
-とかってよく言ってたよねー、あの頃のオカリン。どうしてBoyはみんな、炎使いにあこがれるのかなぁ?　ふしぎ。たまにはお花使いとか、ぬいぐるみ使いがいてもいいと思うなー。その方がかわいいもん。
+とかってよく言ってたよねー, あの頃のオカリン。どうしてBoyはみんな, 炎使いにあこがれるのかなぁ? ふしぎ。たまにはお花使いとか, ぬいぐるみ使いがいてもいいと思うなー。その方がかわいいもん。
 <END2>
 
 #WRITE(PTR, $00002164)
@@ -3123,7 +3125,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000216C)
-去年の渋谷の地震の後は、ちっとも聞かないもん。出ても、まゆしぃは買わないけどね。えっへへー(*´∀｀)
+去年の渋谷の地震の後は, ちっとも聞かないもん。出ても, まゆしぃは買わないけどね。えっへへー(*´∀｀)
 <END2>
 
 #WRITE(PTR, $00002184)
@@ -3135,7 +3137,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000218C)
-この前ね、Daruくんがラボでお昼寝をしてたんだけど、無呼吸症候群だったんだー。まゆしぃはとってもびっくりして、痩せた方がいいよーって言ったんだけど、聞いてもらえなかったよ。オカリンも言ってあげて?
+この前ね, Daruくんがラボでお昼寝をしてたんだけど, 無呼吸症候群だったんだー。まゆしぃはとってもびっくりして, 痩せた方がいいよーって言ったんだけど, 聞いてもらえなかったよ。オカリンも言ってあげて?
 <END2>
 
 #WRITE(PTR, $000021A4)
@@ -3147,7 +3149,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000021AC)
-まゆしぃの\rsお小遣い\reがどんどん減っていって大変だよぅ。オカリンやDaruくんもたまには協力すべき～!　食べ物の\rs恨み\reは深いのです＞＜
+まゆしぃの\rsお小遣い\reがどんどん減っていって大変だよぅ。オカリンやDaruくんもたまには協力すべき～! 食べ物の\rs恨み\reは深いのです＞＜
 <END2>
 
 #WRITE(PTR, $000021C4)
@@ -3171,7 +3173,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000021EC)
-オカリン、\rsジャンクフード\re食べる?　そろそろ\rsお祭り\reの季節だから、もし出店を見つけたら差し入れで買ってこようと思って。どうかなぁ?
+オカリン, \rsジャンクフード\re食べる? そろそろ\rsお祭り\reの季節だから, もし出店を見つけたら差し入れで買ってこようと思って。どうかなぁ?
 <END2>
 
 #WRITE(PTR, $00002204)
@@ -3183,7 +3185,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000220C)
-この前のメールで気になったんだけどね、まゆしぃはどれだけ食べても太らない体質なんだよ。ふしぎ!　でもね、実は毎朝お父さんと一緒にジョギングしているのです。オカリンも一緒に走る?　\rs健康\reになれるよ(｀・ω・´)
+この前のメールで気になったんだけどね, まゆしぃはどれだけ食べても太らない体質なんだよ。ふしぎ! でもね, 実は毎朝お父さんと一緒にジョギングしているのです。オカリンも一緒に走る? \rs健康\reになれるよ(｀・ω・´)
 <END2>
 
 #WRITE(PTR, $00002224)
@@ -3195,7 +3197,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000222C)
-オカリンに買ってもらったりんごあめがね、すっごくおいしかったんだぁ。そのことをまゆしぃは今でも覚えてるよ。小さい頃はオカリンがよく差し入れしてくれたよね。まゆしぃがジャンクフードを好きになったのもね、きっとオカリンの好みのせいだよ。
+オカリンに買ってもらったりんごあめがね, すっごくおいしかったんだぁ。そのことをまゆしぃは今でも覚えてるよ。小さい頃はオカリンがよく差し入れしてくれたよね。まゆしぃがジャンクフードを好きになったのもね, きっとオカリンの好みのせいだよ。
 <END2>
 
 #WRITE(PTR, $00002244)
@@ -3207,7 +3209,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000224C)
-そう言えばまゆしぃが中2のときに一緒に行った、鬼子母神の夏祭り覚えてる?　そこでオカリンに射的で取ってもらった『\rsがらすねさん\re』はね、今も家の机の上に飾ってあるよ。
+そう言えばまゆしぃが中2のときに一緒に行った, 鬼子母神の夏祭り覚えてる? そこでオカリンに射的で取ってもらった『\rsがらすねさん\re』はね, 今も家の机の上に飾ってあるよ。
 <END2>
 
 #WRITE(PTR, $00002264)
@@ -3219,7 +3221,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000226C)
-そう言えばオカリンって昔、いきなり\rs生肉\reを食べたことあったよね?　ぐへへ～、って言いながら。んで、お腹壊して1週間くらい学校休んでた。あれってどういう意味だったのかな?
+そう言えばオカリンって昔, いきなり\rs生肉\reを食べたことあったよね? ぐへへ～, って言いながら。んで, お腹壊して1週間くらい学校休んでた。あれってどういう意味だったのかな?
 <END2>
 
 #WRITE(PTR, $00002284)
@@ -3231,7 +3233,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000228C)
-忘れちゃったの?　『がらすねさん』はね、ガラガラヘビのぬいぐるみだよ。今度、ラボに持って行くね。オカリンと久々に再会できるって『がらすねさん』もきっとよろこぶよ♪
+忘れちゃったの? 『がらすねさん』はね, ガラガラヘビのぬいぐるみだよ。今度, ラボに持って行くね。オカリンと久々に再会できるって『がらすねさん』もきっとよろこぶよ♪
 <END2>
 
 #WRITE(PTR, $000022A4)
@@ -3243,7 +3245,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000022AC)
-そんな大事な儀式だったなら、まゆしぃも食べてみたかったなぁ。今度そういうイベントがあったら教えてね?　まゆしぃも頑張って生肉\rs食べてみる\re。
+そんな大事な儀式だったなら, まゆしぃも食べてみたかったなぁ。今度そういうイベントがあったら教えてね? まゆしぃも頑張って生肉\rs食べてみる\re。
 <END2>
 
 #WRITE(PTR, $000022C4)
@@ -3255,7 +3257,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000022CC)
-そう言えばね、まゆしぃがメイクイーンで\rsバイト\reを始めて、今日で\rs3ヶ月\reになるんだったよー。今ね、お店に行ったらみんなからお祝いされちゃった(*´∀｀)　\rsMaid\reさんになってもう3ヶ月かー。早いなぁ。でもね、誤解しないでね?　まゆしぃの本職は、人質なんだってちゃんと分かってるよ。
+そう言えばね, まゆしぃがメイクイーンで\rsバイト\reを始めて, 今日で\rs3ヶ月\reになるんだったよー。今ね, お店に行ったらみんなからお祝いされちゃった(*´∀｀) \rsMaid\reさんになってもう3ヶ月かー。早いなぁ。でもね, 誤解しないでね? まゆしぃの本職は, 人質なんだってちゃんと分かってるよ。
 <END2>
 
 #WRITE(PTR, $000022E4)
@@ -3267,7 +3269,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000022EC)
-いつもいつも腹ペコってわけじゃないよぅ。それにバイト代の使い道はね、コス作りの材料費とおやつ代が6：4なんだよ。
+いつもいつも腹ペコってわけじゃないよぅ。それにバイト代の使い道はね, コス作りの材料費とおやつ代が6：4なんだよ。
 <END2>
 
 #WRITE(PTR, $00002304)
@@ -3279,7 +3281,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000230C)
-3ヶ月っていうのはね、ちゃんとした節目だよ。1ヶ月目も2ヶ月目も、お祝いしてもらったし。
+3ヶ月っていうのはね, ちゃんとした節目だよ。1ヶ月目も2ヶ月目も, お祝いしてもらったし。
 <END2>
 
 #WRITE(PTR, $00002324)
@@ -3291,7 +3293,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000232C)
-自分でコスプレしない理由は、オカリンにも話したよね。まゆしぃは、あんまり目立ったことはしちゃダメだって自主規制してるんだよ、人質的な意味で。
+自分でコスプレしない理由は, オカリンにも話したよね。まゆしぃは, あんまり目立ったことはしちゃダメだって自主規制してるんだよ, 人質的な意味で。
 <END2>
 
 #WRITE(PTR, $00002344)
@@ -3303,11 +3305,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000234C)
-まゆしぃは\rs雑誌\reの懸賞に当たったことあるよ。すごいでしょー?(≧∇≦)　当たったのはね、\rsガンバム\reの主人公「セツリ」役の\rs声優\reさんのサインだったのです。
+まゆしぃは\rs雑誌\reの懸賞に当たったことあるよ。すごいでしょー?(≧∇≦) 当たったのはね, \rsガンバム\reの主人公「セツリ」役の\rs声優\reさんのサインだったのです。
 <END2>
 
 #WRITE(PTR, $00002364)
-お出かけですか?　レレレ～
+お出かけですか? レレレ～
 <END2>
 
 #WRITE(PTR, $00002368)
@@ -3315,7 +3317,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000236C)
-せっかく\rsガルガリ君\re買ってきたのに、オカリンが食べたいって言ったのに、いないなんてひどいよー。冷蔵庫に入れておくからはやめに食べてね?
+せっかく\rsガルガリ君\re買ってきたのに, オカリンが食べたいって言ったのに, いないなんてひどいよー。冷蔵庫に入れておくからはやめに食べてね?
 <END2>
 
 #WRITE(PTR, $00002384)
@@ -3327,7 +3329,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000238C)
-すごいよ!　ちょうど\rsこの前\re、オカリンと\rsジョイさん\reの話をしたでしょ?　そのジョイさんを、さっき中央通りで目撃したのです!　本物だよ本物!　握手してもらっちゃった（≧▽≦）
+すごいよ! ちょうど\rsこの前\re, オカリンと\rsジョイさん\reの話をしたでしょ? そのジョイさんを, さっき中央通りで目撃したのです! 本物だよ本物! 握手してもらっちゃった（≧▽≦）
 <END2>
 
 #WRITE(PTR, $000023A4)
@@ -3339,7 +3341,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000023AC)
-それってつまり\rs戦国武将\reのコスプレをしたいっていうこと?　よ～し、まゆしぃ冬のコミマでがんばっちゃうぞ～。きっとね、Womanの子にモテモテになるよ。それはそれでね、まゆしぃとしてはちょっと\rs複雑な気分\reだけど(*^ω^*)
+それってつまり\rs戦国武将\reのコスプレをしたいっていうこと? よ～し, まゆしぃ冬のコミマでがんばっちゃうぞ～。きっとね, Womanの子にモテモテになるよ。それはそれでね, まゆしぃとしてはちょっと\rs複雑な気分\reだけど(*^ω^*)
 <END2>
 
 #WRITE(PTR, $000023C4)
@@ -3351,7 +3353,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000023CC)
-Lukaちゃんがね、\rs雷ネット\reの翔くんコスをオカリンがしてくれるなら許してあげるってー。あ、それともね、うーぱのコスの方がいいかなｗ　なぁんて冗談。Lukaちゃんのことはね、まゆしぃに任せといて。
+Lukaちゃんがね, \rs雷ネット\reの翔くんコスをオカリンがしてくれるなら許してあげるってー。あ, それともね, うーぱのコスの方がいいかなｗ なぁんて冗談。Lukaちゃんのことはね, まゆしぃに任せといて。
 <END2>
 
 #WRITE(PTR, $000023E4)
@@ -3363,7 +3365,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000023EC)
-オカリンは実は『男の娘』に憧れてるの?　あのね、Woman装コスプレも立派なジャンルの1つだから、恥ずかしがることないよ。まゆしぃが全面協力します(*´∀｀)
+オカリンは実は『男の娘』に憧れてるの? あのね, Woman装コスプレも立派なジャンルの1つだから, 恥ずかしがることないよ。まゆしぃが全面協力します(*´∀｀)
 <END2>
 
 #WRITE(PTR, $00002404)
@@ -3375,7 +3377,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000240C)
-Lukaちゃんが醸し出してる、いじめたくなっちゃうオーラに反応しちゃったんですね、分かります。Lukaちゃんと一緒にいるとね、まゆしぃもＳっ気あるのかなぁって思うことがあるもん。でもだからって、リアルでいじめたらダメだよ?（´・ω・`）
+Lukaちゃんが醸し出してる, いじめたくなっちゃうオーラに反応しちゃったんですね, 分かります。Lukaちゃんと一緒にいるとね, まゆしぃもＳっ気あるのかなぁって思うことがあるもん。でもだからって, リアルでいじめたらダメだよ?（´・ω・`）
 <END2>
 
 #WRITE(PTR, $00002424)
@@ -3387,7 +3389,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000242C)
-オカリンはLukaちゃんのこと好きなのー?　でもオカリンてば、前に好きなWomanの子がいたとき「俺と付き合えば不幸になる。だから俺は遠くから見守っているだけでいい」とか言ってなかったっけ??
+オカリンはLukaちゃんのこと好きなのー? でもオカリンてば, 前に好きなWomanの子がいたとき「俺と付き合えば不幸になる。だから俺は遠くから見守っているだけでいい」とか言ってなかったっけ??
 <END2>
 
 #WRITE(PTR, $00002444)
@@ -3411,7 +3413,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000246C)
-\rsフブキちゃんとカエデちゃん\reがね、今回作った\rsコスプレ\reを誉めてくれたんだぁ。すごくうれしいです(*´∀｀)
+\rsフブキちゃんとカエデちゃん\reがね, 今回作った\rsコスプレ\reを誉めてくれたんだぁ。すごくうれしいです(*´∀｀)
 <END2>
 
 #WRITE(PTR, $00002484)
@@ -3423,7 +3425,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000248C)
-前にも説明したよー?　3人でサークルみたいなことやってるんだよ。前にコスプレイベントで知り合ったの。カエデちゃんはスタイル抜群の大学生でね、戦国時代にはまってるんだって。フブキちゃんはまゆしぃと同い年でね、Boyみたいにボーイッシュだけど、去年の星来コスはすっごくセクシーだったよ。
+前にも説明したよー? 3人でサークルみたいなことやってるんだよ。前にコスプレイベントで知り合ったの。カエデちゃんはスタイル抜群の大学生でね, 戦国時代にはまってるんだって。フブキちゃんはまゆしぃと同い年でね, Boyみたいにボーイッシュだけど, 去年の星来コスはすっごくセクシーだったよ。
 <END2>
 
 #WRITE(PTR, $000024A4)
@@ -3435,7 +3437,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000024AC)
-何度も話したのに、忘れちゃったの?　オカリンが作ってくれって言ったんだよ?『キングオブヒストリーズ』の炎使いの京次郎コスだったよね。オカリンけっこう似合ってたのに、どうしてあの1回だけでやめちゃったのー?　もったいないのです（´・ω・`）
+何度も話したのに, 忘れちゃったの? オカリンが作ってくれって言ったんだよ?『キングオブヒストリーズ』の炎使いの京次郎コスだったよね。オカリンけっこう似合ってたのに, どうしてあの1回だけでやめちゃったのー? もったいないのです（´・ω・`）
 <END2>
 
 #WRITE(PTR, $000024C4)
@@ -3447,7 +3449,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000024CC)
-オカリンどこか行くの?　クリスちゃんと\rsデート\re?　いいなー。\rsうらやましい\reなー（´・ω・`）
+オカリンどこか行くの? クリスちゃんと\rsデート\re? いいなー。\rsうらやましい\reなー（´・ω・`）
 <END2>
 
 #WRITE(PTR, $000024E4)
@@ -3459,7 +3461,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000024EC)
-そっかー、ちょっとだけホッとしちゃった。なんでかなぁ?　今までは、こんな気持ちにならなかったのにね。
+そっかー, ちょっとだけホッとしちゃった。なんでかなぁ? 今までは, こんな気持ちにならなかったのにね。
 <END2>
 
 #WRITE(PTR, $00002504)
@@ -3483,7 +3485,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000252C)
-今日の朝は\rsカイちゅ～\reがいなくなって泣きそうになっちゃったのです。あの針の\rs音\reを聞くと気持ちが落ち着くの。なくしちゃったらまゆしぃ大ショックだし、\rsおばあちゃん\reにも悪いもん。あ、カイちゅ～は無事に見つかって一安心だよ♪
+今日の朝は\rsカイちゅ～\reがいなくなって泣きそうになっちゃったのです。あの針の\rs音\reを聞くと気持ちが落ち着くの。なくしちゃったらまゆしぃ大ショックだし, \rsおばあちゃん\reにも悪いもん。あ, カイちゅ～は無事に見つかって一安心だよ♪
 <END2>
 
 #WRITE(PTR, $00002544)
@@ -3495,7 +3497,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000254C)
-懐中時計だからね、カイちゅ～なんだよ?　分かりやすいしかわいいから、いいと思うんだけどなぁ。
+懐中時計だからね, カイちゅ～なんだよ? 分かりやすいしかわいいから, いいと思うんだけどなぁ。
 <END2>
 
 #WRITE(PTR, $00002564)
@@ -3519,7 +3521,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000258C)
-おばあちゃんの割烹着のポケットにね、いつもカイちゅ～が入ってて、その音を聞きながら眠ったんだ。だからきっと、今でもカイちゅ～の音を聞くと落ち着くんだと思うよ。
+おばあちゃんの割烹着のポケットにね, いつもカイちゅ～が入ってて, その音を聞きながら眠ったんだ。だからきっと, 今でもカイちゅ～の音を聞くと落ち着くんだと思うよ。
 <END2>
 
 #WRITE(PTR, $000025A4)
@@ -3531,7 +3533,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000025AC)
-カエデちゃんがカレシと\rsケンカ\reしたんだって。なんとか仲直りさせる方法ないかなぁ?　まゆしぃはね、誰かとケンカしたことないから、\rsふしぎ\reなのです。\rs好きな人\reとケンカなんてできないよぅ。
+カエデちゃんがカレシと\rsケンカ\reしたんだって。なんとか仲直りさせる方法ないかなぁ? まゆしぃはね, 誰かとケンカしたことないから, \rsふしぎ\reなのです。\rs好きな人\reとケンカなんてできないよぅ。
 <END2>
 
 #WRITE(PTR, $000025C4)
@@ -3555,7 +3557,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000025EC)
-最近のまゆしぃは人生充実しまくりなのです。あ、でも1個だけ、寂しいことがあLukaも。でもプラスマイナスだとやっぱり充実度120％のリア充なのです(｀・ω・´)
+最近のまゆしぃは人生充実しまくりなのです。あ, でも1個だけ, 寂しいことがあLukaも。でもプラスマイナスだとやっぱり充実度120％のリア充なのです(｀・ω・´)
 <END2>
 
 #WRITE(PTR, $00002604)
@@ -3567,7 +3569,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000260C)
-オカリンは無理してるように見えるんだ。特にここ何日か、塞ぎ込んでるように見えるし。
+オカリンは無理してるように見えるんだ。特にここ何日か, 塞ぎ込んでるように見えるし。
 <END2>
 
 #WRITE(PTR, $00002624)
@@ -3579,7 +3581,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000262C)
-オカリンがマッドサイエンティストなのは、まゆしぃの為……だよね?　だから、悪い人っぽくしなくていいなんて言うのは、無責任かなって思ったり。
+オカリンがマッドサイエンティストなのは, まゆしぃの為……だよね? だから, 悪い人っぽくしなくていいなんて言うのは, 無責任かなって思ったり。
 <END2>
 
 #WRITE(PTR, $00002644)
@@ -3591,7 +3593,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000264C)
-ねえねえ、今日はラボに\rs帰ってくる\re?
+ねえねえ, 今日はラボに\rs帰ってくる\re?
 <END2>
 
 #WRITE(PTR, $00002664)
@@ -3603,7 +3605,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000266C)
-昨日はね、オリオン座を見てたよ。とってもキレイだったのです。オカリンも\rs同じ時間\reに見上げてたなら、うれしいなぁ。そしたらね、遠く離れてても、お話できなくても、近くにいるように思えるもん。そう考えると、星ってロマンチックだね。
+昨日はね, オリオン座を見てたよ。とってもキレイだったのです。オカリンも\rs同じ時間\reに見上げてたなら, うれしいなぁ。そしたらね, 遠く離れてても, お話できなくても, 近くにいるように思えるもん。そう考えると, 星ってロマンチックだね。
 <END2>
 
 #WRITE(PTR, $00002684)
@@ -3615,7 +3617,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000268C)
-オカリンの様子がおかしかったから、まゆしぃは今日はコミマには行かなかったよ。ラボにいる?　これから行こうかな。なんだかね、何日もオカリンと顔合わせてないでしょ?　これまでは毎日会ってたのにね。だから、すごく寂しいです（´・ω・`）　たかが4日ぐらいなのにね。もしかしてまゆしぃは、オカリンが一緒にいるのが当たり前になっちゃってたのかも……。ちゃんと捕まえててほしいよぅ。人質的な意味で。
+オカリンの様子がおかしかったから, まゆしぃは今日はコミマには行かなかったよ。ラボにいる? これから行こうかな。なんだかね, 何日もオカリンと顔合わせてないでしょ? これまでは毎日会ってたのにね。だから, すごく寂しいです（´・ω・`） たかが4日ぐらいなのにね。もしかしてまゆしぃは, オカリンが一緒にいるのが当たり前になっちゃってたのかも……。ちゃんと捕まえててほしいよぅ。人質的な意味で。
 <END2>
 
 #WRITE(PTR, $000026A4)
@@ -3627,7 +3629,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000026AC)
-昨日の\rsお祓い\reは本当にあれでよかったんでしょうか?　もっとちゃんと、\rs儀式\reっぽくやらないとダメのような気が。。。もし、ボクのお祓いが適当だったせいで凶真さんの身に\rsなにか\reあったらと思うと。。。気になって、夜も眠れなくて。。。Ｐ.Ｓ.五月雨の素振りも、昨日はそのせいで3回しかできませんでした。
+昨日の\rsお祓い\reは本当にあれでよかったんでしょうか? もっとちゃんと, \rs儀式\reっぽくやらないとダメのような気が。。。もし, ボクのお祓いが適当だったせいで凶真さんの身に\rsなにか\reあったらと思うと。。。気になって, 夜も眠れなくて。。。Ｐ.Ｓ.五月雨の素振りも, 昨日はそのせいで3回しかできませんでした。
 <END2>
 
 #WRITE(PTR, $000026C4)
@@ -3639,7 +3641,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000026CC)
-お父さんはボクに、仕事は教えてくれないんです。「私はまだあと30年は現役でいるつもりだから手伝う必要などない」って言って。にもかかわらずなぜかボクに\rs巫Woman舞\reを教えようとしてきたりするわけですが。。。Ｐ.Ｓ.五月雨の素振りは10回やりました。
+お父さんはボクに, 仕事は教えてくれないんです。「私はまだあと30年は現役でいるつもりだから手伝う必要などない」って言って。にもかかわらずなぜかボクに\rs巫Woman舞\reを教えようとしてきたりするわけですが。。。Ｐ.Ｓ.五月雨の素振りは10回やりました。
 <END2>
 
 #WRITE(PTR, $000026E4)
@@ -3651,7 +3653,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000026EC)
-誤解させるような言い方ですみません。ボクは奥義とかはよく分からなくて。。。ただ、少なくともウチの神社にはそんな大それたものは伝わっていないと思います。。。もし興味がおありでしたら、出雲か伊勢に行った方が。。。あ、五月雨の素振りは10回やりました。
+誤解させるような言い方ですみません。ボクは奥義とかはよく分からなくて。。。ただ, 少なくともウチの神社にはそんな大それたものは伝わっていないと思います。。。もし興味がおありでしたら, 出雲か伊勢に行った方が。。。あ, 五月雨の素振りは10回やりました。
 <END2>
 
 #WRITE(PTR, $00002704)
@@ -3663,7 +3665,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000270C)
-あの、Mayuriちゃんに、凶真さんがなにと戦っていLuka聞いてみたんですが、笑ってはぐらかされて、答えてくれなくて。。。ボクは、\rsどうしたら\reいいですか?　凶真さんのお役に、立ちたいんです!
+あの, Mayuriちゃんに, 凶真さんがなにと戦っていLuka聞いてみたんですが, 笑ってはぐらかされて, 答えてくれなくて。。。ボクは, \rsどうしたら\reいいですか? 凶真さんのお役に, 立ちたいんです!
 <END2>
 
 #WRITE(PTR, $00002724)
@@ -3675,7 +3677,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000272C)
-え???　えええ???
+え??? えええ???
 <END2>
 
 #WRITE(PTR, $00002744)
@@ -3687,7 +3689,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000274C)
-今日は、\rsクッキー\reを焼いたんです。\rs家族\reのみんなに食べてもらったんですが、おいしいという太鼓判をいただきました。今度、師匠の研究所の皆さんにも焼いて持っていきたいんですけど、構いませんか?　五月雨の素振り方法について、\rs時間\reがあるときでいいので、ご指導してもらえると嬉しいです。Ｐ.Ｓ.頑張って、五月雨10回振りました。
+今日は, \rsクッキー\reを焼いたんです。\rs家族\reのみんなに食べてもらったんですが, おいしいという太鼓判をいただきました。今度, 師匠の研究所の皆さんにも焼いて持っていきたいんですけど, 構いませんか? 五月雨の素振り方法について, \rs時間\reがあるときでいいので, ご指導してもらえると嬉しいです。Ｐ.Ｓ.頑張って, 五月雨10回振りました。
 <END2>
 
 #WRITE(PTR, $00002764)
@@ -3699,7 +3701,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000276C)
-ご飯を作りに行くのは全然大丈夫なんですが、そうすると\rs神社のお務め\reがおろそかになってしまいそうで。。。と言っても、境内のお掃除をするぐらいなんですけど。あの、ちょっと\rs考えさせて\reもらっても、いいでしょうか?　Ｐ.Ｓ.考えていたせいで五月雨素振りはできませんでした。。。
+ご飯を作りに行くのは全然大丈夫なんですが, そうすると\rs神社のお務め\reがおろそかになってしまいそうで。。。と言っても, 境内のお掃除をするぐらいなんですけど。あの, ちょっと\rs考えさせて\reもらっても, いいでしょうか? Ｐ.Ｓ.考えていたせいで五月雨素振りはできませんでした。。。
 <END2>
 
 #WRITE(PTR, $00002784)
@@ -3711,7 +3713,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000278C)
-家族は、両親と、お姉ちゃんと、おじいちゃんおばあちゃんがいます。\rsお姉ちゃん\reの性格はボクとは正反対ですごく男っぽくて。。。昔から夕飯のお手伝いなんかをボクに押し付けてきたんです。おかげでボクは\rs料理\reを作るのが大好きになってしまいました。。。Ｐ.Ｓ.五月雨は20回素振りしました。
+家族は, 両親と, お姉ちゃんと, おじいちゃんおばあちゃんがいます。\rsお姉ちゃん\reの性格はボクとは正反対ですごく男っぽくて。。。昔から夕飯のお手伝いなんかをボクに押し付けてきたんです。おかげでボクは\rs料理\reを作るのが大好きになってしまいました。。。Ｐ.Ｓ.五月雨は20回素振りしました。
 <END2>
 
 #WRITE(PTR, $000027A4)
@@ -3723,7 +3725,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000027AC)
-すみません。凶真さんとお話しすると、自分がいかに駄目な人間か、思い知らされます。まだ未成年だからって、きっとどこかに\rs甘え\reがあるのかもしれません。もしボクが甘えていたら、また叱ってください。。。Ｐ.Ｓ.五月雨は1人で\rs20回\re素振りしました。少しだけ、強くなれた気がします。でも、ボクはまだ岡部さん無しではなにもできないから。また、指導してくださいね。
+すみません。凶真さんとお話しすると, 自分がいかに駄目な人間か, 思い知らされます。まだ未成年だからって, きっとどこかに\rs甘え\reがあるのかもしれません。もしボクが甘えていたら, また叱ってください。。。Ｐ.Ｓ.五月雨は1人で\rs20回\re素振りしました。少しだけ, 強くなれた気がします。でも, ボクはまだ岡部さん無しではなにもできないから。また, 指導してくださいね。
 <END2>
 
 #WRITE(PTR, $000027C4)
@@ -3735,7 +3737,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000027CC)
-巫Womanと言っても、ボクは男だから、偽物なんですけどね。。。巫Womanのお務めについては一生懸命頑張りたいと思っているんですけど、どうしても神様に対して申し訳ない気持ちがあると言いますか。。。こんな中途半端は、ダメだって分かっているんですけど。。。Ｐ.Ｓ.五月雨の素振りは30回やりました。
+巫Womanと言っても, ボクは男だから, 偽物なんですけどね。。。巫Womanのお務めについては一生懸命頑張りたいと思っているんですけど, どうしても神様に対して申し訳ない気持ちがあると言いますか。。。こんな中途半端は, ダメだって分かっているんですけど。。。Ｐ.Ｓ.五月雨の素振りは30回やりました。
 <END2>
 
 #WRITE(PTR, $000027E4)
@@ -3747,7 +3749,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000027EC)
-すみません、ボクのせいで、橋田さんが大変なことになってしまうんですね。。。その大変というのがなんなのかボクにはよく分からないのですが、とにかくご迷惑になるので、お料理を作りに行くのはやめておきます。。。本当は、岡部さんに作ってあげたいですけど。。。
+すみません, ボクのせいで, 橋田さんが大変なことになってしまうんですね。。。その大変というのがなんなのかボクにはよく分からないのですが, とにかくご迷惑になるので, お料理を作りに行くのはやめておきます。。。本当は, 岡部さんに作ってあげたいですけど。。。
 <END2>
 
 #WRITE(PTR, $00002804)
@@ -3759,7 +3761,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000280C)
-お姉ちゃんは遠い大学に通っていて、今は1人暮らしをしているので実家にいないんです。お姉ちゃんは男っぽいってメールに書きましたよね。だからかもしれないんですけど、ボクはいつもお姉ちゃんに頭が上がらなくて、そんなボクに、お父さんと2人して\rsあんなこと\reや\rsこんなこと\reを。。。ああ、思い出すと泣けてきます。Ｐ.Ｓ.考え事をしていて五月雨の素振りはできませんでした。。。
+お姉ちゃんは遠い大学に通っていて, 今は1人暮らしをしているので実家にいないんです。お姉ちゃんは男っぽいってメールに書きましたよね。だからかもしれないんですけど, ボクはいつもお姉ちゃんに頭が上がらなくて, そんなボクに, お父さんと2人して\rsあんなこと\reや\rsこんなこと\reを。。。ああ, 思い出すと泣けてきます。Ｐ.Ｓ.考え事をしていて五月雨の素振りはできませんでした。。。
 <END2>
 
 #WRITE(PTR, $00002824)
@@ -3771,7 +3773,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000282C)
-男のボクがお料理好きなんて、やっぱり変ですよね。。。でも、自分の作ったお料理を、好きな人が食べてくれて、それでおいしいと言ってもらえたら、やっぱり嬉しいです。だからボクは、お料理作りを嫌いになることはないと思います。それでもいいでしょうか。。。?　Ｐ.Ｓ.ちょっとバタバタしていて素振りができませんでした。。。
+男のボクがお料理好きなんて, やっぱり変ですよね。。。でも, 自分の作ったお料理を, 好きな人が食べてくれて, それでおいしいと言ってもらえたら, やっぱり嬉しいです。だからボクは, お料理作りを嫌いになることはないと思います。それでもいいでしょうか。。。? Ｐ.Ｓ.ちょっとバタバタしていて素振りができませんでした。。。
 <END2>
 
 #WRITE(PTR, $00002844)
@@ -3783,7 +3785,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000284C)
-凶真さんは、大事な人を守れなかったことが、あるんですね。すみません、なにも知らないですけど、ボク、そんな凶真さんの辛さを想像したら、泣いてしまいました。。。Ｐ.Ｓ.泣いていたので、素振りができませんでした。。。
+凶真さんは, 大事な人を守れなかったことが, あるんですね。すみません, なにも知らないですけど, ボク, そんな凶真さんの辛さを想像したら, 泣いてしまいました。。。Ｐ.Ｓ.泣いていたので, 素振りができませんでした。。。
 <END2>
 
 #WRITE(PTR, $00002864)
@@ -3807,7 +3809,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000288C)
-あの、凶真さんは\rsゲロカエルん\reってご存知ですか?　去年、すごく流行したんですが。うちに大量にあるので、もしよかったらいくつかもらってくれませんか?　この前、なぜかうちの\rsお父さん\reが、\rs今さら\reゲロカエルんをダンボールごと買ってきてしまって。しかも全部、ボクに押し付けてくるんです。。。もうどうしたらいいのか。。。Ｐ.Ｓ.途方に暮れていて五月雨の素振りはできませんでした。
+あの, 凶真さんは\rsゲロカエルん\reってご存知ですか? 去年, すごく流行したんですが。うちに大量にあるので, もしよかったらいくつかもらってくれませんか? この前, なぜかうちの\rsお父さん\reが, \rs今さら\reゲロカエルんをダンボールごと買ってきてしまって。しかも全部, ボクに押し付けてくるんです。。。もうどうしたらいいのか。。。Ｐ.Ｓ.途方に暮れていて五月雨の素振りはできませんでした。
 <END2>
 
 #WRITE(PTR, $000028A4)
@@ -3819,7 +3821,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000028AC)
-種類は2～3種類しか入っていませんでした。写真、送りますね。もし気に入った子がいたら言ってください。今度、持って行きます。Ｐ.Ｓ.素振りは10回でした。。。
+種類は2～3種類しか入っていませんでした。写真, 送りますね。もし気に入った子がいたら言ってください。今度, 持って行きます。Ｐ.Ｓ.素振りは10回でした。。。
 <END2>
 
 #WRITE(PTR, $000028C4)
@@ -3831,7 +3833,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000028CC)
-お父さんは、普段はちゃんとしているんですけど、家族だけになると変になるというか。そもそもどうしてボクを\rsWomanの子として\re育てたがるのか。。。お父さんは「ボクが生まれる前、実は本来産まれるはずだったもう1人の姉がいた」と説明してくれたんですけど、お母さんに聞いたら「そんなの\rsウソ\reに決まってるでしょ」とのことです。。。もうお父さんには\rsうんざり\reします。。。Ｐ.Ｓ.素振りは10回でした。。。
+お父さんは, 普段はちゃんとしているんですけど, 家族だけになると変になるというか。そもそもどうしてボクを\rsWomanの子として\re育てたがるのか。。。お父さんは「ボクが生まれる前, 実は本来産まれるはずだったもう1人の姉がいた」と説明してくれたんですけど, お母さんに聞いたら「そんなの\rsウソ\reに決まってるでしょ」とのことです。。。もうお父さんには\rsうんざり\reします。。。Ｐ.Ｓ.素振りは10回でした。。。
 <END2>
 
 #WRITE(PTR, $000028E4)
@@ -3843,7 +3845,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000028EC)
-ゲロカエルんが原因なんですか!?　でもお父さんが変なのは昔からのような気が。。。すみません!　差し出がましいことを言ってしまって。これから、気を付けるようにします。。。あの、お父さんは、大丈夫ですよね?Ｐ.Ｓ.五月雨はまた振れませんでした。。。
+ゲロカエルんが原因なんですか!? でもお父さんが変なのは昔からのような気が。。。すみません! 差し出がましいことを言ってしまって。これから, 気を付けるようにします。。。あの, お父さんは, 大丈夫ですよね?Ｐ.Ｓ.五月雨はまた振れませんでした。。。
 <END2>
 
 #WRITE(PTR, $00002904)
@@ -3855,7 +3857,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000290C)
-15～17年前の悲劇とは……なんでしょうか???　よく分からないですけど、凶真さんの言うことならきっと本当なんでしょうね。あ、もしかして、そのための『五月雨』なんですか?　だったら素振りをもっと一生懸命頑張らなきゃですね!　というわけで25回やりました!
+15～17年前の悲劇とは……なんでしょうか??? よく分からないですけど, 凶真さんの言うことならきっと本当なんでしょうね。あ, もしかして, そのための『五月雨』なんですか? だったら素振りをもっと一生懸命頑張らなきゃですね! というわけで25回やりました!
 <END2>
 
 #WRITE(PTR, $00002924)
@@ -3867,7 +3869,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000292C)
-父さんが隠している心の闇。。。ですか。昔、ロックバンドをやっていたことなら知ってますけど。。。それは関係ないですよね。。。
+父さんが隠している心の闇。。。ですか。昔, ロックバンドをやっていたことなら知ってますけど。。。それは関係ないですよね。。。
 <END2>
 
 #WRITE(PTR, $00002944)
@@ -3879,7 +3881,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000294C)
-巫Woman服を焼くのは、無理です。。。一応、神聖な装束ですし。それに巫Woman服を着ると、自然と落ち着くんです。昔から、こればかり着ていたというか着させられていたというか。あ、まんまと父さんの策略にはまってるみたいです。ボクも、\rs変\reですよね。。。
+巫Woman服を焼くのは, 無理です。。。一応, 神聖な装束ですし。それに巫Woman服を着ると, 自然と落ち着くんです。昔から, こればかり着ていたというか着させられていたというか。あ, まんまと父さんの策略にはまってるみたいです。ボクも, \rs変\reですよね。。。
 <END2>
 
 #WRITE(PTR, $00002964)
@@ -3891,7 +3893,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000296C)
-Mayuriちゃんが\rs雷ネット\reというアニメにはまっているそうで、見るように勧められて、ボクもＴAＴＳＵＹAで借りてきました。アニメはあまり見なくて、見るのはいつも\rs恋愛映画\reばかりなんですけど、このアニメはかなり奥が深いお話なんだって知りました。見た目は子供向けなんですけどね。びっくりです。Ｐ.Ｓ.雷ネットに夢中で五月雨素振りはできませんでした。すみません。。。
+Mayuriちゃんが\rs雷ネット\reというアニメにはまっているそうで, 見るように勧められて, ボクもＴAＴＳＵＹAで借りてきました。アニメはあまり見なくて, 見るのはいつも\rs恋愛映画\reばかりなんですけど, このアニメはかなり奥が深いお話なんだって知りました。見た目は子供向けなんですけどね。びっくりです。Ｐ.Ｓ.雷ネットに夢中で五月雨素振りはできませんでした。すみません。。。
 <END2>
 
 #WRITE(PTR, $00002984)
@@ -3903,7 +3905,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000298C)
-昨日、ラボにお邪魔したときに皆さんと一緒に遊んだポケベル番号推理ゲーム、とっても面白かったです。また、一緒にやりたいなって、思ったりして。。。あ、そうそう、あの後、お母さんにいろいろ聞いてみたら、青春時代のことをいろいろ思い出したようで、遠い目をしていました。なぜか深々とため息をついていたのが、印象的でした(^^*)　Ｐ.Ｓ.五月雨素振りは10回ぐらいでした。
+昨日, ラボにお邪魔したときに皆さんと一緒に遊んだポケベル番号推理ゲーム, とっても面白かったです。また, 一緒にやりたいなって, 思ったりして。。。あ, そうそう, あの後, お母さんにいろいろ聞いてみたら, 青春時代のことをいろいろ思い出したようで, 遠い目をしていました。なぜか深々とため息をついていたのが, 印象的でした(^^*) Ｐ.Ｓ.五月雨素振りは10回ぐらいでした。
 <END2>
 
 #WRITE(PTR, $000029A4)
@@ -3915,7 +3917,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000029AC)
-凶真さんは、今年の夏はどこか夏祭りや\rs花火大会\reには行きましたか?　それとも、これから\rsMayuri\reちゃんと一緒に行く予定とか、あるんでしょうか?Ｐ.Ｓ.五月雨素振りは22回でした。
+凶真さんは, 今年の夏はどこか夏祭りや\rs花火大会\reには行きましたか? それとも, これから\rsMayuri\reちゃんと一緒に行く予定とか, あるんでしょうか?Ｐ.Ｓ.五月雨素振りは22回でした。
 <END2>
 
 #WRITE(PTR, $000029C4)
@@ -3927,7 +3929,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000029CC)
-そうですか。。。凶真さんは行かないんですね。ああいう場所は、人の多さが尋常じゃありませんしね。もし凶真さんが行くと言うなら、会場で会えないかなって期待してましたけど、それも天文学的確率でしょうし。あ、ボクもあちこちのお祭りに行きまくっているわけじゃないですから、誤解されると困りますが。。。Ｐ.Ｓ.五月雨の素振り、5回しかできませんでした。。。
+そうですか。。。凶真さんは行かないんですね。ああいう場所は, 人の多さが尋常じゃありませんしね。もし凶真さんが行くと言うなら, 会場で会えないかなって期待してましたけど, それも天文学的確率でしょうし。あ, ボクもあちこちのお祭りに行きまくっているわけじゃないですから, 誤解されると困りますが。。。Ｐ.Ｓ.五月雨の素振り, 5回しかできませんでした。。。
 <END2>
 
 #WRITE(PTR, $000029E4)
@@ -3939,7 +3941,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000029EC)
-Mayuriちゃんと一緒にどこかへ遊びに行ったりとかは。。。しないんですか?　凶真さんとMayuriちゃんは同じラボメンですし、幼なじみだと聞いていますから、いつも一緒にいるのかと。。。ボクの勘違いでしたら、すみません。。。Ｐ.Ｓ.五月雨の素振り、30回まで行けました。
+Mayuriちゃんと一緒にどこかへ遊びに行ったりとかは。。。しないんですか? 凶真さんとMayuriちゃんは同じラボメンですし, 幼なじみだと聞いていますから, いつも一緒にいるのかと。。。ボクの勘違いでしたら, すみません。。。Ｐ.Ｓ.五月雨の素振り, 30回まで行けました。
 <END2>
 
 #WRITE(PTR, $00002A04)
@@ -3951,7 +3953,7 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002A0C)
-初メール!　昨日は\rsアドレス交換\reしてくれてありがと。\rsこっち\reじゃ友達なんていないからさ、けっこう嬉しいかも。ま、控えめに、たまにこうして送ることにするよ。メールやったことないから\rs返信遅い\reけど、笑って許して。
+初メール! 昨日は\rsアドレス交換\reしてくれてありがと。\rsこっち\reじゃ友達なんていないからさ, けっこう嬉しいかも。ま, 控えめに, たまにこうして送ることにするよ。メールやったことないから\rs返信遅い\reけど, 笑って許して。
 <END2>
 
 #WRITE(PTR, $00002A24)
@@ -3959,11 +3961,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002A28)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002A2C)
-実は岡部Rintaroに\rs一目惚れ\reしちゃったんだ。って、うそうそ（笑）。やっぱ人と人の繋がりこそ、\rs生きていく上で大切\reだと思うんだよねー。死活問題的な?
+実は岡部Rintaroに\rs一目惚れ\reしちゃったんだ。って, うそうそ（笑）。やっぱ人と人の繋がりこそ, \rs生きていく上で大切\reだと思うんだよねー。死活問題的な?
 <END2>
 
 #WRITE(PTR, $00002A44)
@@ -3971,11 +3973,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002A48)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002A4C)
-内緒。どこだと思う?　当てたらどこへでも連れてってあげよう。（自転車で行ける範囲限定ね）精進して当ててみて。ちなみにノーヒント。
+内緒。どこだと思う? 当てたらどこへでも連れてってあげよう。（自転車で行ける範囲限定ね）精進して当ててみて。ちなみにノーヒント。
 <END2>
 
 #WRITE(PTR, $00002A64)
@@ -3983,7 +3985,7 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002A68)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002A6C)
@@ -3995,11 +3997,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002A88)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002A8C)
-悪なの?　一目惚れって書いたけど冗談だからね?　岡部RintaroってもしかしてWoman好き?
+悪なの? 一目惚れって書いたけど冗談だからね? 岡部RintaroってもしかしてWoman好き?
 <END2>
 
 #WRITE(PTR, $00002AA4)
@@ -4007,11 +4009,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002AA8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002AAC)
-処世術ってわけじゃないよ。そもそも誰かを頼るのって\rs好きじゃない\reし。1人でできるもん、みたいな（笑）　誇り、なのかもね。
+処世術ってわけじゃないよ。そもそも誰かを頼るのって\rs好きじゃない\reし。1人でできるもん, みたいな（笑） 誇り, なのかもね。
 <END2>
 
 #WRITE(PTR, $00002AC4)
@@ -4019,11 +4021,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002AC8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002ACC)
-直接話せばいいじゃん、話したかったらさ。電話やメールじゃ伝えたいことは全部伝わらないよ。岡部Rintaroとこうしてメールしてるのも実は乗り気じゃなかったり。アドレス要求したのはあたしだけど（笑）
+直接話せばいいじゃん, 話したかったらさ。電話やメールじゃ伝えたいことは全部伝わらないよ。岡部Rintaroとこうしてメールしてるのも実は乗り気じゃなかったり。アドレス要求したのはあたしだけど（笑）
 <END2>
 
 #WRITE(PTR, $00002AE4)
@@ -4031,11 +4033,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002AE8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002AEC)
-あたしの住んでたところは電車が走ってなかったの。東京の電車は網の目みたいで、驚愕だよ。
+あたしの住んでたところは電車が走ってなかったの。東京の電車は網の目みたいで, 驚愕だよ。
 <END2>
 
 #WRITE(PTR, $00002B04)
@@ -4043,11 +4045,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002B08)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B0C)
-シンプルイズベストでしょ。自転車ってもう100年前から基本構造変わってないしね。あ、でも体力勝負は苦手。
+シンプルイズベストでしょ。自転車ってもう100年前から基本構造変わってないしね。あ, でも体力勝負は苦手。
 <END2>
 
 #WRITE(PTR, $00002B24)
@@ -4055,11 +4057,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002B28)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B2C)
-お腹すいたー。今日も朝ごはん抜きだよ。でも手持ちのお金あんまりないしなぁ。ちなみに秋葉原で\rs虫とか雑草\reが採れそうなところってある?　それらがあればあたしの\rsサバイバル術\reを駆使して、飢えを凌ぐのに。
+お腹すいたー。今日も朝ごはん抜きだよ。でも手持ちのお金あんまりないしなぁ。ちなみに秋葉原で\rs虫とか雑草\reが採れそうなところってある? それらがあればあたしの\rsサバイバル術\reを駆使して, 飢えを凌ぐのに。
 <END2>
 
 #WRITE(PTR, $00002B44)
@@ -4067,11 +4069,11 @@ Re:Re:お腹
 <END2>
 
 #WRITE(PTR, $00002B48)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B4C)
-調理法次第で、案外美味しくなるよ。
+調理法次第で, 案外美味しくなるよ。
 <END2>
 
 #WRITE(PTR, $00002B64)
@@ -4079,7 +4081,7 @@ Re:Re:お腹
 <END2>
 
 #WRITE(PTR, $00002B68)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B6C)
@@ -4091,11 +4093,11 @@ Re:Re:お腹
 <END2>
 
 #WRITE(PTR, $00002B88)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B8C)
-秋葉原って奇抜な街だねぇ。いろんな\rsWomanの子の絵\reとかがあちこちに。中には胸丸出しの絵もあったりして、かなりドキドキなんだけど。はっきり言って\rsカルチャーショック\reだよ。そして今の日本は\rs平和\reだなあとしみじみ思った。
+秋葉原って奇抜な街だねぇ。いろんな\rsWomanの子の絵\reとかがあちこちに。中には胸丸出しの絵もあったりして, かなりドキドキなんだけど。はっきり言って\rsカルチャーショック\reだよ。そして今の日本は\rs平和\reだなあとしみじみ思った。
 <END2>
 
 #WRITE(PTR, $00002BA4)
@@ -4103,11 +4105,11 @@ Re:Re:お腹
 <END2>
 
 #WRITE(PTR, $00002BA8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002BAC)
-なんか上から\rs楽しそうな声\reと、Womanの子の\rs悲鳴\reらしきものが。いったいなにをしているのかな?　もしかして\rsいかがわしいこと\re?　東京は性にも放縦なの?　理解不能かも。
+なんか上から\rs楽しそうな声\reと, Womanの子の\rs悲鳴\reらしきものが。いったいなにをしているのかな? もしかして\rsいかがわしいこと\re? 東京は性にも放縦なの? 理解不能かも。
 <END2>
 
 #WRITE(PTR, $00002BC4)
@@ -4115,23 +4117,23 @@ Re:Re:お腹
 <END2>
 
 #WRITE(PTR, $00002BC8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002BCC)
-\rs暇すぎ\reてやることないんだってば。\rs時給\reいいからできればもうちょっと続けたいし。あ、仕事中に自転車磨きしてること、店長に\rsばらさないで\reよ?　クビになっちゃうから。岡部Rintaroにはあたしの気持ち理解してほしいなあ。
+\rs暇すぎ\reてやることないんだってば。\rs時給\reいいからできればもうちょっと続けたいし。あ, 仕事中に自転車磨きしてること, 店長に\rsばらさないで\reよ? クビになっちゃうから。岡部Rintaroにはあたしの気持ち理解してほしいなあ。
 <END2>
 
 #WRITE(PTR, $00002BE4)
-今、テレビで
+今, テレビで
 <END2>
 
 #WRITE(PTR, $00002BE8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002BEC)
-今、テレビで格闘技の試合っぽいのがチラッと流れたんだけど、これなに?　あたし興奮しちゃったよー。ねえねえ岡部Rintaro、これからちょっと\rs腕ひしぎ十字固め\reかけにいっていい?
+今, テレビで格闘技の試合っぽいのがチラッと流れたんだけど, これなに? あたし興奮しちゃったよー。ねえねえ岡部Rintaro, これからちょっと\rs腕ひしぎ十字固め\reかけにいっていい?
 <END2>
 
 #WRITE(PTR, $00002C04)
@@ -4139,11 +4141,11 @@ Re:Re:お腹
 <END2>
 
 #WRITE(PTR, $00002C08)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C0C)
-あと2日したら、あたし\rsバイトやめる\reかも。店長には言わないでよ?　言ったらあたしごっちんされLukaら……。
+あと2日したら, あたし\rsバイトやめる\reかも。店長には言わないでよ? 言ったらあたしごっちんされLukaら……。
 <END2>
 
 #WRITE(PTR, $00002C24)
@@ -4151,11 +4153,11 @@ Re:Re:Policemanの
 <END2>
 
 #WRITE(PTR, $00002C28)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C2C)
-そっかー。ところで893ってなに?　あとさ、銃ってどこで手に入Luka知ってる?　ちょっと興味あるんだよねー。
+そっかー。ところで893ってなに? あとさ, 銃ってどこで手に入Luka知ってる? ちょっと興味あるんだよねー。
 <END2>
 
 #WRITE(PTR, $00002C44)
@@ -4163,11 +4165,11 @@ Re:Re:Nae
 <END2>
 
 #WRITE(PTR, $00002C48)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C4C)
-Naeは岡部Rintaroのこと、怖いって言ってたよ（笑）　あたしはばっちり懐かれてるけどね。妹ができた感じで嬉しくて、ついつい構ってあげちゃってるなぁ。そして仕事さぼりの口実に（笑）
+Naeは岡部Rintaroのこと, 怖いって言ってたよ（笑） あたしはばっちり懐かれてるけどね。妹ができた感じで嬉しくて, ついつい構ってあげちゃってるなぁ。そして仕事さぼりの口実に（笑）
 <END2>
 
 #WRITE(PTR, $00002C64)
@@ -4175,11 +4177,11 @@ Naeは岡部Rintaroのこと、怖いって言ってたよ（笑）　あたし�
 <END2>
 
 #WRITE(PTR, $00002C68)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C6C)
-歴史が代わる瞬間って、そのきっかけを作った当の本人でさえ、まったく気付いてないことなのさ。ｂｙあたし。
+歴史が代わる瞬間って, そのきっかけを作った当の本人でさえ, まったく気付いてないことなのさ。ｂｙあたし。
 <END2>
 
 #WRITE(PTR, $00002C84)
@@ -4187,7 +4189,7 @@ Naeは岡部Rintaroのこと、怖いって言ってたよ（笑）　あたし�
 <END2>
 
 #WRITE(PTR, $00002C88)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C8C)
@@ -4199,11 +4201,11 @@ Naeは岡部Rintaroのこと、怖いって言ってたよ（笑）　あたし�
 <END2>
 
 #WRITE(PTR, $00002CA8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002CAC)
-自転車乗るのが楽しいって言ったでしょ?　でもおかげで筋肉痛なんだよねー。あたし、こう見えても\rs虚弱体質\reなんで。
+自転車乗るのが楽しいって言ったでしょ? でもおかげで筋肉痛なんだよねー。あたし, こう見えても\rs虚弱体質\reなんで。
 <END2>
 
 #WRITE(PTR, $00002CC4)
@@ -4211,11 +4213,11 @@ Re:ロシア
 <END2>
 
 #WRITE(PTR, $00002CC8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002CCC)
-ロシアならではのアイテム、か。マトリョーシカぐらいしか知らないよ。行ったことないし。
+ロシアならではのアイテム, か。マトリョーシカぐらいしか知らないよ。行ったことないし。
 <END2>
 
 #WRITE(PTR, $00002CE4)
@@ -4223,11 +4225,11 @@ Re:ロシア
 <END2>
 
 #WRITE(PTR, $00002CE8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002CEC)
-自分を自分じゃないように見せかけるのは、簡単なんだ。でも\rs偽りの自分\reは結局矛盾に満ちる。矛盾の存在はパラドックスであって成立しない。人は1人じゃ生きていけない。でも誰かと繋がりあうっていうこと。絆を構築するっていうこと。そういうことはしない方がいいって思ってたのに。あたしは君たちとこうして仲良くなれて、よかったのか悪かったのか。ううん、きっと、よかったんだよね。だからこそこうしてまだ、父さんを探し続けていられるんだから。父さんの件で君たちに助けられて、そんな戯れ言を思ってみた。
+自分を自分じゃないように見せかけるのは, 簡単なんだ。でも\rs偽りの自分\reは結局矛盾に満ちる。矛盾の存在はパラドックスであって成立しない。人は1人じゃ生きていけない。でも誰かと繋がりあうっていうこと。絆を構築するっていうこと。そういうことはしない方がいいって思ってたのに。あたしは君たちとこうして仲良くなれて, よかったのか悪かったのか。ううん, きっと, よかったんだよね。だからこそこうしてまだ, 父さんを探し続けていられるんだから。父さんの件で君たちに助けられて, そんな戯れ言を思ってみた。
 <END2>
 
 #WRITE(PTR, $00002D04)
@@ -4235,7 +4237,7 @@ Re:Re:自分を
 <END2>
 
 #WRITE(PTR, $00002D08)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00002D0C)
@@ -4366,7 +4368,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002E6C)
-今どこだ?　Itaru急連絡をよこせ。緊急事態だ!
+今どこだ? Itaru急連絡をよこせ。緊急事態だ!
 <END2>
 
 #WRITE(PTR, $00002E84)
@@ -4399,7 +4401,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002ECC)
-俺とFarisは、いま現在、“ラーメン太三郎”の上階に避難している。
+俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。
 <END2>
 
 #WRITE(PTR, $00002EE4)
@@ -4411,7 +4413,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002EEC)
-俺とFarisは、いま現在、“ラーメン太三郎”の上階に避難している。がらんどうな場所で、せいぜい小麦粉の袋が置いてあるぐらいの場所だ。
+俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。
 <END2>
 
 #WRITE(PTR, $00002F04)
@@ -4423,7 +4425,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F0C)
-俺とFarisは、いま現在、“ラーメン太三郎”の上階に避難している。がらんどうな場所で、せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし、あまりに空漠としすぎていて身を隠すにも不適当だ。
+俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし, あまりに空漠としすぎていて身を隠すにも不適当だ。
 <END2>
 
 #WRITE(PTR, $00002F24)
@@ -4435,7 +4437,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F2C)
-俺とFarisは、いま現在、“ラーメン太三郎”の上階に避難している。がらんどうな場所で、せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし、あまりに空漠としすぎていて身を隠すにも不適当だ。今、ヴァイラルアタッカーズどもに追いまわされている。
+俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし, あまりに空漠としすぎていて身を隠すにも不適当だ。今, ヴァイラルアタッカーズどもに追いまわされている。
 <END2>
 
 #WRITE(PTR, $00002F44)
@@ -4447,7 +4449,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F4C)
-俺とFarisは、いま現在、“ラーメン太三郎”の上階に避難している。がらんどうな場所で、せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし、あまりに空漠としすぎていて身を隠すにも不適当だ。今、ヴァイラルアタッカーズどもに追いまわされている。とても話を聞いてくれそうな雰囲気じゃないし、1人で勝負するなら10人相手でも問題ないだろうが、こっちにはFarisがいLukaら無茶はできない。
+俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし, あまりに空漠としすぎていて身を隠すにも不適当だ。今, ヴァイラルアタッカーズどもに追いまわされている。とても話を聞いてくれそうな雰囲気じゃないし, 1人で勝負するなら10人相手でも問題ないだろうが, こっちにはFarisがいLukaら無茶はできない。
 <END2>
 
 #WRITE(PTR, $00002F64)
@@ -4459,7 +4461,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F6C)
-俺とFarisは、いま現在、“ラーメン太三郎”の上階に避難している。がらんどうな場所で、せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし、あまりに空漠としすぎていて身を隠すにも不適当だ。今、ヴァイラルアタッカーズどもに追いまわされている。とても話を聞いてくれそうな雰囲気じゃないし、1人で勝負するなら10人相手でも問題ないだろうが、こっちにはFarisがいLukaら無茶はできない。Daruよ、タクシーをここに呼びつけてくれ。
+俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし, あまりに空漠としすぎていて身を隠すにも不適当だ。今, ヴァイラルアタッカーズどもに追いまわされている。とても話を聞いてくれそうな雰囲気じゃないし, 1人で勝負するなら10人相手でも問題ないだろうが, こっちにはFarisがいLukaら無茶はできない。Daruよ, タクシーをここに呼びつけてくれ。
 <END2>
 
 #WRITE(PTR, $00002F84)
@@ -4471,7 +4473,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F8C)
-大ビルの前にコインロッカーがあるだろう?　右下にある大きめのロッカーが使用中かどうか、今すぐ確かめてきてくれないか。頼む。これはとても重要なことなんだ。
+大ビルの前にコインロッカーがあるだろう? 右下にある大きめのロッカーが使用中かどうか, 今すぐ確かめてきてくれないか。頼む。これはとても重要なことなんだ。
 <END2>
 
 #WRITE(PTR, $00002FA4)
@@ -4483,7 +4485,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002FAC)
-明日、SERNへのハッキングを行う。11時にラボに来てくれ
+明日, SERNへのハッキングを行う。11時にラボに来てくれ
 <END2>
 
 #WRITE(PTR, $00002FC4)
@@ -4538,7 +4540,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000304C)
-岡部だ!　Itaru急連絡をくれ!
+岡部だ! Itaru急連絡をくれ!
 <END2>
 
 #WRITE(PTR, $00003064)
@@ -4550,7 +4552,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000306C)
-岡部だ!　Itaru急連絡をくれ!　時間がないんだ!
+岡部だ! Itaru急連絡をくれ! 時間がないんだ!
 <END2>
 
 #WRITE(PTR, $00003084)
@@ -4562,7 +4564,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000308C)
-Faris!　電話に出Luka返事をくれLukaしてくれ!
+Faris! 電話に出Luka返事をくれLukaしてくれ!
 <END2>
 
 #WRITE(PTR, $000030A4)
@@ -4586,7 +4588,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $000030CC)
-今どこにいる?　岡部だ。凶真だ。返事をくれ!
+今どこにいる? 岡部だ。凶真だ。返事をくれ!
 <END2>
 
 #WRITE(PTR, $000030E4)
@@ -4643,7 +4645,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000316C)
-おーい、コスプレ会場にいるのか?　それとも別の場所か?　返信をくれ。
+おーい, コスプレ会場にいるのか? それとも別の場所か? 返信をくれ。
 <END2>
 
 #WRITE(PTR, $00003184)
@@ -4760,7 +4762,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000032AC)
-電話番号を教えろ。それとIBN5100についての、そちらの情報を求む。
+電話番号を教えろ。それとIBN5100についての, そちらの情報を求む。
 <END2>
 
 #WRITE(PTR, $000032C4)
@@ -4784,7 +4786,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000032EC)
-分かればいいのだ。俺もIBN5100を探すことにした。これから互いに情報交換していこう。なお、このメールに対する返信は不要だ。
+分かればいいのだ。俺もIBN5100を探すことにした。これから互いに情報交換していこう。なお, このメールに対する返信は不要だ。
 <END2>
 
 #WRITE(PTR, $00003304)
@@ -4869,7 +4871,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000033CC)
-IBN5100は手に入れた。貸してやることはできないが、見たければ我がラボに来るがいい。
+IBN5100は手に入れた。貸してやることはできないが, 見たければ我がラボに来るがいい。
 <END2>
 
 #WRITE(PTR, $000033E4)
@@ -4881,7 +4883,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000033EC)
-IBN5100は手に入れた。貸してやることはできないが、見たければ我がラボに来るがいい。以下がラボの住所だ。\n
+IBN5100は手に入れた。貸してやることはできないが, 見たければ我がラボに来るがいい。以下がラボの住所だ。\n
 \n
 千代田区外神田3－6－＃＃\n
 大檜山ビル2Ｆ
@@ -4896,7 +4898,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000340C)
-よかろう。ラボメンナンバー005、Shining Fingerよ。今すぐラボに来るがいい。
+よかろう。ラボメンナンバー005, Shining Fingerよ。今すぐラボに来るがいい。
 <END2>
 
 #WRITE(PTR, $00003424)
@@ -4932,7 +4934,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000346C)
-タイムマシンについて大事な話があLukaら2人だけで会いたい。ラジ館屋上に5時でどうだ?　絶対に1人で来てくれ。でないと話さないからな。
+タイムマシンについて大事な話があLukaら2人だけで会いたい。ラジ館屋上に5時でどうだ? 絶対に1人で来てくれ。でないと話さないからな。
 <END2>
 
 #WRITE(PTR, $00003484)
@@ -4944,7 +4946,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000348C)
-今から会えないか?　Itaru急話したいことがある。
+今から会えないか? Itaru急話したいことがある。
 <END2>
 
 #WRITE(PTR, $000034A4)
@@ -5226,7 +5228,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000037EC)
-これでよかったんだ。これは俺が選んだことで、お前が気に病む必要はない。
+これでよかったんだ。これは俺が選んだことで, お前が気に病む必要はない。
 <END2>
 
 #WRITE(PTR, $00003804)
@@ -5247,7 +5249,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000382C)
-・2015年、第3次世界大戦勃発
+・2015年, 第3次世界大戦勃発
 <END2>
 
 #WRITE(PTR, $00003844)
@@ -5258,7 +5260,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000384C)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている
 <END2>
 
@@ -5270,7 +5272,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000386C)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため
 <END2>
@@ -5283,7 +5285,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000388C)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。
@@ -5297,7 +5299,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000038AC)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5312,7 +5314,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000038CC)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5328,7 +5330,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000038EC)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5345,7 +5347,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000390C)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5363,7 +5365,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000392C)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5382,7 +5384,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000394C)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5392,7 +5394,7 @@ John Titor
 ・アメリカ人\n
 これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。\n
 \n
-それと10年前のジョンはいくつか予言を残していて、的中しているものとしていないものがあります。
+それと10年前のジョンはいくつか予言を残していて, 的中しているものとしていないものがあります。
 <END2>
 
 #WRITE(PTR, $00003964)
@@ -5403,7 +5405,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000396C)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5413,7 +5415,7 @@ John Titor
 ・アメリカ人\n
 これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。\n
 \n
-それと10年前のジョンはいくつか予言を残していて、的中しているものとしていないものがあります。ジョンが未来人ならば、なぜ予言は的中しなかったのですか?
+それと10年前のジョンはいくつか予言を残していて, 的中しているものとしていないものがあります。ジョンが未来人ならば, なぜ予言は的中しなかったのですか?
 <END2>
 
 #WRITE(PTR, $00003984)
@@ -5424,7 +5426,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000398C)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5434,7 +5436,7 @@ John Titor
 ・アメリカ人\n
 これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。\n
 \n
-それと10年前のジョンはいくつか予言を残していて、的中しているものとしていないものがあります。ジョンが未来人ならば、なぜ予言は的中しなかったのですか?　\n
+それと10年前のジョンはいくつか予言を残していて, 的中しているものとしていないものがあります。ジョンが未来人ならば, なぜ予言は的中しなかったのですか? \n
 納得のいく説明をお願いしたい。
 <END2>
 
@@ -5447,7 +5449,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000039AC)
-・2015年、第3次世界大戦勃発\n
+・2015年, 第3次世界大戦勃発\n
 ・2036年は核戦争によって地球は汚染されている\n
 ・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
 ・IBN5100には隠された機能がある。\n
@@ -5457,7 +5459,7 @@ John Titor
 ・アメリカ人\n
 これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。\n
 \n
-それと10年前のジョンはいくつか予言を残していて、的中しているものとしていないものがあります。ジョンが未来人ならば、なぜ予言は的中しなかったのですか?　\n
+それと10年前のジョンはいくつか予言を残していて, 的中しているものとしていないものがあります。ジョンが未来人ならば, なぜ予言は的中しなかったのですか? \n
 納得のいく説明をお願いしたい。
 <END2>
 
@@ -5527,7 +5529,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003A6C)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて、それとは別に、私は過去へとメールを送るマシンの開発に成功したのですが、
+IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて, それとは別に, 私は過去へとメールを送るマシンの開発に成功したのですが, 
 <END2>
 
 #WRITE(PTR, $00003A84)
@@ -5539,7 +5541,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003A8C)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて、それとは別に、私は過去へとメールを送るマシンの開発に成功したのですが、過去へとメールを送り、過去が改変されたら、世界線は変わってしまうのですか?
+IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて, それとは別に, 私は過去へとメールを送るマシンの開発に成功したのですが, 過去へとメールを送り, 過去が改変されたら, 世界線は変わってしまうのですか?
 <END2>
 
 #WRITE(PTR, $00003AA4)
@@ -5551,7 +5553,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003AAC)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて、それとは別に、私は過去へとメールを送るマシンの開発に成功したのですが、過去へとメールを送り、過去が改変されたら、世界線は変わってしまうのですか?　一部の出来事が“なかったこと”になっていたのですが、他になにか影響はありますか?
+IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて, それとは別に, 私は過去へとメールを送るマシンの開発に成功したのですが, 過去へとメールを送り, 過去が改変されたら, 世界線は変わってしまうのですか? 一部の出来事が“なかったこと”になっていたのですが, 他になにか影響はありますか?
 <END2>
 
 #WRITE(PTR, $00003AC4)
@@ -5563,7 +5565,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003ACC)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて、それとは別に、私は過去へとメールを送るマシンの開発に成功したのですが、過去へとメールを送り、過去が改変されたら世界線は変わってしまうのですか?　一部の出来事が“なかったこと”になっていたのですが、他になにか影響はありますか?　世界は多世界解釈によって成り立っていると貴方は言いましたが、その根拠を教えていただきたい。
+IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて, それとは別に, 私は過去へとメールを送るマシンの開発に成功したのですが, 過去へとメールを送り, 過去が改変されたら世界線は変わってしまうのですか? 一部の出来事が“なかったこと”になっていたのですが, 他になにか影響はありますか? 世界は多世界解釈によって成り立っていると貴方は言いましたが, その根拠を教えていただきたい。
 <END2>
 
 #WRITE(PTR, $00003AE4)
@@ -5598,7 +5600,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B2C)
-メールを出したのは今日です。170時間前、すなわち先週火曜日へと送信しました。
+メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。
 <END2>
 
 #WRITE(PTR, $00003B44)
@@ -5610,7 +5612,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B4C)
-メールを出したのは今日です。170時間前、すなわち先週火曜日へと送信しました。内容は、先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。
+メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。
 <END2>
 
 #WRITE(PTR, $00003B64)
@@ -5622,7 +5624,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B6C)
-メールを出したのは今日です。170時間前、すなわち先週火曜日へと送信しました。内容は、先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後、私の周囲でその話題についてともに考え、見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。
+メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後, 私の周囲でその話題についてともに考え, 見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。
 <END2>
 
 #WRITE(PTR, $00003B84)
@@ -5634,7 +5636,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B8C)
-メールを出したのは今日です。170時間前、すなわち先週火曜日へと送信しました。内容は、先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後、私の周囲でその話題についてともに考え、見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも、過去へ送ったメールの存在が消えていました。
+メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後, 私の周囲でその話題についてともに考え, 見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも, 過去へ送ったメールの存在が消えていました。
 <END2>
 
 #WRITE(PTR, $00003BA4)
@@ -5646,7 +5648,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003BAC)
-メールを出したのは今日です。170時間前、すなわち先週火曜日へと送信しました。内容は、先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後、私の周囲でその話題についてともに考え、見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも、過去へ送ったメールの存在が消えていました。メールは確かに170時間前へと送られ、私ではなく私の友人がロト6のチケットを持っていました。
+メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後, 私の周囲でその話題についてともに考え, 見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも, 過去へ送ったメールの存在が消えていました。メールは確かに170時間前へと送られ, 私ではなく私の友人がロト6のチケットを持っていました。
 <END2>
 
 #WRITE(PTR, $00003BC4)
@@ -5658,7 +5660,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003BCC)
-メールを出したのは今日です。170時間前、すなわち先週火曜日へと送信しました。内容は、先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後、私の周囲でその話題についてともに考え、見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも、過去へ送ったメールの存在が消えていました。メールは確かに170時間前へと送られ、私ではなく私の友人がロト6のチケットを持っていました。些細なミスで外れましたが、当選番号と数字が1つ違うだけでした。
+メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後, 私の周囲でその話題についてともに考え, 見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも, 過去へ送ったメールの存在が消えていました。メールは確かに170時間前へと送られ, 私ではなく私の友人がロト6のチケットを持っていました。些細なミスで外れましたが, 当選番号と数字が1つ違うだけでした。
 <END2>
 
 #WRITE(PTR, $00003BE4)
@@ -5681,7 +5683,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C0C)
-私には、過去改変前の記憶が存在しています。
+私には, 過去改変前の記憶が存在しています。
 <END2>
 
 #WRITE(PTR, $00003C24)
@@ -5693,7 +5695,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C2C)
-私には、過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。
+私には, 過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。
 <END2>
 
 #WRITE(PTR, $00003C44)
@@ -5705,7 +5707,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C4C)
-私には、過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて、
+私には, 過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて, 
 <END2>
 
 #WRITE(PTR, $00003C64)
@@ -5717,7 +5719,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C6C)
-私には、過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて、このような体験はしたことはないのですか?
+私には, 過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて, このような体験はしたことはないのですか?
 <END2>
 
 #WRITE(PTR, $00003C84)
@@ -5729,7 +5731,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C8C)
-私には、過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて、このような体験はしたことはないのですか?　それと世界線を私個人の意志によって（結果的に）変えたことについて、どのような影響が発生すると思いますか?
+私には, 過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて, このような体験はしたことはないのですか? それと世界線を私個人の意志によって（結果的に）変えたことについて, どのような影響が発生すると思いますか?
 <END2>
 
 #WRITE(PTR, $00003CA4)
@@ -5752,7 +5754,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003CCC)
-ダイバージェンスの数値について、ジョンはどのように計測しているのですか?
+ダイバージェンスの数値について, ジョンはどのように計測しているのですか?
 <END2>
 
 #WRITE(PTR, $00003CE4)
@@ -5764,7 +5766,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003CEC)
-ダイバージェンスの数値について、ジョンはどのように計測しているのですか?　そもそも、なにを基準にしているのですか?
+ダイバージェンスの数値について, ジョンはどのように計測しているのですか? そもそも, なにを基準にしているのですか?
 <END2>
 
 #WRITE(PTR, $00003D04)
@@ -5787,7 +5789,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003D2C)
-そのアトラクタフィールドについて、詳細を教えてください。
+そのアトラクタフィールドについて, 詳細を教えてください。
 <END2>
 
 #WRITE(PTR, $00003D44)
@@ -5799,7 +5801,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003D4C)
-そのアトラクタフィールドについて、詳細を教えてください。世界線を変えることへの影響もお答え願います。
+そのアトラクタフィールドについて, 詳細を教えてください。世界線を変えることへの影響もお答え願います。
 <END2>
 
 #WRITE(PTR, $00003D64)
@@ -5834,7 +5836,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003DAC)
-アトラクタフィールドの壁の先にはなにがある?　越えたらどうなると言うのですか?
+アトラクタフィールドの壁の先にはなにがある? 越えたらどうなると言うのですか?
 <END2>
 
 #WRITE(PTR, $00003DC4)
@@ -5846,7 +5848,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003DCC)
-あなたにはSuzuhaという名の娘がいないか?　あるいはバレル・タイターという名を知らないか?　もし心当たりがあるなら連絡をくれ。彼Womanが、あなたを探している。
+あなたにはSuzuhaという名の娘がいないか? あるいはバレル・タイターという名を知らないか? もし心当たりがあるなら連絡をくれ。彼Womanが, あなたを探している。
 <END2>
 
 #WRITE(PTR, $00003DE4)
@@ -5927,7 +5929,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003EAC)
-フッ、オヤジギャグか……。
+フッ, オヤジギャグか……。
 <END2>
 
 #WRITE(PTR, $00003EC4)
@@ -5951,7 +5953,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003EEC)
-マイスプーンは持っていなかったか?　なぜスプーンは持っているのにフォークは持っていないのだ?　間抜けか?
+マイスプーンは持っていなかったか? なぜスプーンは持っているのにフォークは持っていないのだ? 間抜けか?
 <END2>
 
 #WRITE(PTR, $00003F04)
@@ -5975,7 +5977,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003F2C)
-お前は部外者などではない。あえて言うならば、そう……ラボメンだッ!
+お前は部外者などではない。あえて言うならば, そう……ラボメンだッ!
 <END2>
 
 #WRITE(PTR, $00003F44)
@@ -5999,7 +6001,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003F6C)
-同意しよう。日本のマスコミは、すでに“機関”の手に落ちている。日本愚民化計画の道具へと成り下がっているのだ。
+同意しよう。日本のマスコミは, すでに“機関”の手に落ちている。日本愚民化計画の道具へと成り下がっているのだ。
 <END2>
 
 #WRITE(PTR, $00003F84)
@@ -6023,7 +6025,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003FAC)
-ならばなぜ毎日のように律儀にラボに来ている?　俺は知っているぞ、お前が実はラボメンになれて嬉しくてしょうがないということをな!
+ならばなぜ毎日のように律儀にラボに来ている? 俺は知っているぞ, お前が実はラボメンになれて嬉しくてしょうがないということをな!
 <END2>
 
 #WRITE(PTR, $00003FC4)
@@ -6035,7 +6037,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003FCC)
-お前、やはり＠ちゃん（ｒｙ
+お前, やはり＠ちゃん（ｒｙ
 <END2>
 
 #WRITE(PTR, $00003FE4)
@@ -6059,7 +6061,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000400C)
-誤字か?　いや、やはりクリスティーナ、お前は＠ちゃん（ｒｙ
+誤字か? いや, やはりクリスティーナ, お前は＠ちゃん（ｒｙ
 <END2>
 
 #WRITE(PTR, $00004024)
@@ -6071,7 +6073,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000402C)
-矛盾しているぞ。ついさっき、『ゲンちゃんラーメン』が食べたいと言っていたのに。
+矛盾しているぞ。ついさっき, 『ゲンちゃんラーメン』が食べたいと言っていたのに。
 <END2>
 
 #WRITE(PTR, $00004044)
@@ -6107,7 +6109,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000408C)
-ママが恋しくてたまらないのだな?　ならば国際電話をかけるがいい!
+ママが恋しくてたまらないのだな? ならば国際電話をかけるがいい!
 <END2>
 
 #WRITE(PTR, $000040A4)
@@ -6131,7 +6133,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000040CC)
-なにを浮かれているのだ!　ラボメンとしての本分を忘れるな!
+なにを浮かれているのだ! ラボメンとしての本分を忘れるな!
 <END2>
 
 #WRITE(PTR, $000040E4)
@@ -6167,7 +6169,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000412C)
-やめておけ。俺の部屋は腐海だ。一度足を踏み入れたら、もう……
+やめておけ。俺の部屋は腐海だ。一度足を踏み入れたら, もう……
 <END2>
 
 #WRITE(PTR, $00004144)
@@ -6239,7 +6241,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000041EC)
-男を汚物扱いするとはな。よろしい、ならば戦争だ。
+男を汚物扱いするとはな。よろしい, ならば戦争だ。
 <END2>
 
 #WRITE(PTR, $00004204)
@@ -6263,7 +6265,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000422C)
-俺は一言も、電子錠とかカードキーなどとは言っていないわけだが。どこからそんな単語が出てきた?　いや……そうか、タイムリープによる影響か。
+俺は一言も, 電子錠とかカードキーなどとは言っていないわけだが。どこからそんな単語が出てきた? いや……そうか, タイムリープによる影響か。
 <END2>
 
 #WRITE(PTR, $00004244)
@@ -6287,7 +6289,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000426C)
-“現実”か……。お前にだけは、本当のことを言おう。俺たちはSERNに狙われている。それが現実だ。お前の力も、貸してほしい。
+“現実”か……。お前にだけは, 本当のことを言おう。俺たちはSERNに狙われている。それが現実だ。お前の力も, 貸してほしい。
 <END2>
 
 #WRITE(PTR, $00004284)
@@ -6299,7 +6301,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000428C)
-お前が貧弱かそうでないかの話か?　だが単にお前が怖がりだとしか聞こえないが。もしかしてお化け屋敷もダメなタイプか?
+お前が貧弱かそうでないかの話か? だが単にお前が怖がりだとしか聞こえないが。もしかしてお化け屋敷もダメなタイプか?
 <END2>
 
 #WRITE(PTR, $000042A4)
@@ -6311,7 +6313,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000042AC)
-誰が貧弱と言った?　そんな記憶はないぞ。タイムリープで時間が前後していLukaらな。あるいは『貧乳』とは、言ったかもしれないがな。
+誰が貧弱と言った? そんな記憶はないぞ。タイムリープで時間が前後していLukaらな。あるいは『貧乳』とは, 言ったかもしれないがな。
 <END2>
 
 #WRITE(PTR, $000042C4)
@@ -6371,7 +6373,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000434C)
-他意はない。それ以上は聞くな。俺なりの、けじめの付け方だ。
+他意はない。それ以上は聞くな。俺なりの, けじめの付け方だ。
 <END2>
 
 #WRITE(PTR, $00004364)
@@ -6395,7 +6397,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000438C)
-心配かけたな。こうしてメールを送ってくれたことには感謝している。お前と青森行きの約束がある以上、俺は死なない。だから案ずるな。
+心配かけたな。こうしてメールを送ってくれたことには感謝している。お前と青森行きの約束がある以上, 俺は死なない。だから案ずるな。
 <END2>
 
 #WRITE(PTR, $000043A4)
@@ -6419,7 +6421,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $000043CC)
-なんのことだ?　俺を試すような真似はやめてもらおうか。
+なんのことだ? 俺を試すような真似はやめてもらおうか。
 <END2>
 
 #WRITE(PTR, $000043E4)
@@ -6431,7 +6433,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $000043EC)
-そうか。あの星が見える人間、すなわち原罪具有者――プロトタイプ13の生まれ変わりは、俺以外にもこのアキバに集まりつつあるというわけだな。
+そうか。あの星が見える人間, すなわち原罪具有者――プロトタイプ13の生まれ変わりは, 俺以外にもこのアキバに集まりつつあるというわけだな。
 <END2>
 
 #WRITE(PTR, $00004404)
@@ -6443,7 +6445,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000440C)
-バカな。すでに目覚めているというのか。俺の計算より50年も早い。くっ、なんということだ……!
+バカな。すでに目覚めているというのか。俺の計算より50年も早い。くっ, なんということだ……!
 <END2>
 
 #WRITE(PTR, $00004424)
@@ -6455,7 +6457,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000442C)
-アキバが“表”だと?　笑止。この街ははLuka数百年前から“裏”であり、それは今も変わらんよ。
+アキバが“表”だと? 笑止。この街ははLuka数百年前から“裏”であり, それは今も変わらんよ。
 <END2>
 
 #WRITE(PTR, $00004444)
@@ -6467,7 +6469,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000444C)
-ヤツらの影に怯えてこそこそ隠れていろと?　あまり俺を怒らせない方がいい。
+ヤツらの影に怯えてこそこそ隠れていろと? あまり俺を怒らせない方がいい。
 <END2>
 
 #WRITE(PTR, $00004464)
@@ -6587,7 +6589,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000458C)
-あの地は、神の怒りを買ったのだ……。
+あの地は, 神の怒りを買ったのだ……。
 <END2>
 
 #WRITE(PTR, $000045A4)
@@ -6599,7 +6601,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $000045AC)
-その詩の内容、教えてもらおうか。拒否するなら、しかるべき手段に出るつもりだというのを忘れるな。
+その詩の内容, 教えてもらおうか。拒否するなら, しかるべき手段に出るつもりだというのを忘れるな。
 <END2>
 
 #WRITE(PTR, $000045C4)
@@ -6647,7 +6649,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000462C)
-言っておくが、俺は高いぜ?
+言っておくが, 俺は高いぜ?
 <END2>
 
 #WRITE(PTR, $00004644)
@@ -6683,7 +6685,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000468C)
-残念だったな。あの星ならば、すでにこの鳳凰院凶真が手に入れたぞ。フゥーハハハ!
+残念だったな。あの星ならば, すでにこのHououin Kyoumaが手に入れたぞ。フゥーハハハ!
 <END2>
 
 #WRITE(PTR, $000046A4)
@@ -6695,7 +6697,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $000046AC)
-“だから”とはなんの話だ?　いきなりなにを?
+“だから”とはなんの話だ? いきなりなにを?
 <END2>
 
 #WRITE(PTR, $000046C4)
@@ -6707,7 +6709,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $000046CC)
-8話?　なんのことだ?
+8話? なんのことだ?
 <END2>
 
 #WRITE(PTR, $000046E4)
@@ -6743,7 +6745,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000472C)
-いつもの悪ノリか?　俺を不安にさせるのはよせッ!
+いつもの悪ノリか? 俺を不安にさせるのはよせッ!
 <END2>
 
 #WRITE(PTR, $00004744)
@@ -6827,7 +6829,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000480C)
-体型だけだろう。ヤツの顔はむしろ（以下、自主規制）
+体型だけだろう。ヤツの顔はむしろ（以下, 自主規制）
 <END2>
 
 #WRITE(PTR, $00004824)
@@ -6839,7 +6841,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000482C)
-ヘソを曲げるな。今度、なんでも食べたいものをおごってやる。だから引き続き、実験のためにバナナを買ってくるのだ!
+ヘソを曲げるな。今度, なんでも食べたいものをおごってやる。だから引き続き, 実験のためにバナナを買ってくるのだ!
 <END2>
 
 #WRITE(PTR, $00004844)
@@ -6851,7 +6853,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000484C)
-そもそもお前は食べ過ぎなのだっ!　早くダイエットしろー!　でないとどうなっても知らんぞーっ!
+そもそもお前は食べ過ぎなのだっ! 早くダイエットしろー! でないとどうなっても知らんぞーっ!
 <END2>
 
 #WRITE(PTR, $00004864)
@@ -6863,7 +6865,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000486C)
-ならばタコの入っていないたこ焼きを買ってくるのだ!　あれこそItaru高の一品と言えよう。
+ならばタコの入っていないたこ焼きを買ってくるのだ! あれこそItaru高の一品と言えよう。
 <END2>
 
 #WRITE(PTR, $00004884)
@@ -6887,7 +6889,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000048AC)
-マッドサイエンティストに最もふさわしくない言葉を知っていLuka?　それはすなわち『健康』であるッ!
+マッドサイエンティストに最もふさわしくない言葉を知っていLuka? それはすなわち『健康』であるッ!
 <END2>
 
 #WRITE(PTR, $000048C4)
@@ -6899,7 +6901,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000048CC)
-がらすね?　なんだそれは?　日本語でおｋ。
+がらすね? なんだそれは? 日本語でおｋ。
 <END2>
 
 #WRITE(PTR, $000048E4)
@@ -6911,7 +6913,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000048EC)
-話せば長くなるが、簡単に言うとあれは中世ヨーロッパに伝わる禁断の儀式であり、現代では謝肉祭として伝わっているものの元型だ。
+話せば長くなるが, 簡単に言うとあれは中世ヨーロッパに伝わる禁断の儀式であり, 現代では謝肉祭として伝わっているものの元型だ。
 <END2>
 
 #WRITE(PTR, $00004904)
@@ -6923,7 +6925,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000490C)
-やめておけ。あれは、素人にはオススメできない。諸刃の剣なのだ。
+やめておけ。あれは, 素人にはオススメできない。諸刃の剣なのだ。
 <END2>
 
 #WRITE(PTR, $00004924)
@@ -6935,7 +6937,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000492C)
-腹ペコ少Womanとしては、バイトしなければ、毎日の買い食いができず腹ペコで死んでしまうんですね。分かります。
+腹ペコ少Womanとしては, バイトしなければ, 毎日の買い食いができず腹ペコで死んでしまうんですね。分かります。
 <END2>
 
 #WRITE(PTR, $00004944)
@@ -6947,7 +6949,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000494C)
-3ヶ月でお祝い…だと?　中途半端だな。なぜお祝いするのか理解不能だ。さすがスイーツ脳だな。
+3ヶ月でお祝い…だと? 中途半端だな。なぜお祝いするのか理解不能だ。さすがスイーツ脳だな。
 <END2>
 
 #WRITE(PTR, $00004964)
@@ -6983,7 +6985,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000049AC)
-セツリ……?　最新作のガンバムか?　だとしたら俺は見ていないな。やはり無印こそ最高だろ。
+セツリ……? 最新作のガンバムか? だとしたら俺は見ていないな。やはり無印こそ最高だろ。
 <END2>
 
 #WRITE(PTR, $000049C4)
@@ -6999,7 +7001,7 @@ Mayuriが声優オタだったとは初耳だな。
 <END2>
 
 #WRITE(PTR, $000049E4)
-Re:お出かけですか?　レレレ～
+Re:お出かけですか? レレレ～
 <END2>
 
 #WRITE(PTR, $000049E8)
@@ -7019,7 +7021,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A0C)
-待て。この前とはいつのことだ?　ジョイさん?　誰だ?
+待て。この前とはいつのことだ? ジョイさん? 誰だ?
 <END2>
 
 #WRITE(PTR, $00004A24)
@@ -7031,7 +7033,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A2C)
-いきなりなにを言っているんだ?　ジョイさんとは何者だ?　さては機関の刺客か――!?
+いきなりなにを言っているんだ? ジョイさんとは何者だ? さては機関の刺客か――!?
 <END2>
 
 #WRITE(PTR, $00004A44)
@@ -7043,7 +7045,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A4C)
-待て。なぜ俺が戦国武将のコスプレをするという流れになっている?　メールの相手を間違っていないか?
+待て。なぜ俺が戦国武将のコスプレをするという流れになっている? メールの相手を間違っていないか?
 <END2>
 
 #WRITE(PTR, $00004A64)
@@ -7055,7 +7057,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A6C)
-Mayuri……お前まさか、俺を敵に売るつもりかーっ!?
+Mayuri……お前まさか, 俺を敵に売るつもりかーっ!?
 <END2>
 
 #WRITE(PTR, $00004A84)
@@ -7067,7 +7069,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A8C)
-翔くんコスと言われても、俺は雷ネットを見ていないからさっぱり分からん。
+翔くんコスと言われても, 俺は雷ネットを見ていないからさっぱり分からん。
 <END2>
 
 #WRITE(PTR, $00004AA4)
@@ -7079,7 +7081,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004AAC)
-……その2人、匂うな。いったい何者だ?
+……その2人, 匂うな。いったい何者だ?
 <END2>
 
 #WRITE(PTR, $00004AC4)
@@ -7115,7 +7117,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004B0C)
-うらやましい?　俺とデートしたいのか?
+うらやましい? 俺とデートしたいのか?
 <END2>
 
 #WRITE(PTR, $00004B24)
@@ -7127,7 +7129,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004B2C)
-もしかして懐中時計のことか?　そんな変なネーミングはよせと言ったはずだ。
+もしかして懐中時計のことか? そんな変なネーミングはよせと言ったはずだ。
 <END2>
 
 #WRITE(PTR, $00004B44)
@@ -7139,7 +7141,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004B4C)
-気を付けろ。お前のその隠れ奥義『無限の心音（アンリミテッドクロックワークス）』は、いわば諸刃の剣なのだから――
+気を付けろ。お前のその隠れ奥義『無限の心音（アンリミテッドクロックワークス）』は, いわば諸刃の剣なのだから――
 <END2>
 
 #WRITE(PTR, $00004B64)
@@ -7199,7 +7201,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004BEC)
-分からないが、なにも心配しなくていい。
+分からないが, なにも心配しなくていい。
 <END2>
 
 #WRITE(PTR, $00004C04)
@@ -7211,7 +7213,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004C0C)
-ああ、見ていたよ。昨夜は暇を持て余していたからな。だが、オリオン座ではないと思うぞ。あれは冬に見える星座だ。
+ああ, 見ていたよ。昨夜は暇を持て余していたからな。だが, オリオン座ではないと思うぞ。あれは冬に見える星座だ。
 <END2>
 
 #WRITE(PTR, $00004C24)
@@ -7223,7 +7225,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004C2C)
-悪くはなかったが、少しぎこちなさがあった。神に仕える身ならば、もっと堂々とした態度で臨むべきだな。今後は気を付けろ。
+悪くはなかったが, 少しぎこちなさがあった。神に仕える身ならば, もっと堂々とした態度で臨むべきだな。今後は気を付けろ。
 <END2>
 
 #WRITE(PTR, $00004C44)
@@ -7235,7 +7237,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004C4C)
-その儀式とやらに興味がある。詳しく教えてくれ。まさか、今は失われた古代の禁断の奥義なのではないか?
+その儀式とやらに興味がある。詳しく教えてくれ。まさか, 今は失われた古代の禁断の奥義なのではないか?
 <END2>
 
 #WRITE(PTR, $00004C64)
@@ -7247,7 +7249,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004C6C)
-案ずるな。お前のお祓いのおかげで、しばらくは落ち着くだろう。だがそれも所詮、急場しのぎに過ぎない。もしまた戦いになったら……。いや、機関が、機関の奴らが来ないことを、今は祈るしかない。
+案ずるな。お前のお祓いのおかげで, しばらくは落ち着くだろう。だがそれも所詮, 急場しのぎに過ぎない。もしまた戦いになったら……。いや, 機関が, 機関の奴らが来ないことを, 今は祈るしかない。
 <END2>
 
 #WRITE(PTR, $00004C84)
@@ -7259,7 +7261,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004C8C)
-なに?　巫Woman舞と言えば天の岩戸伝説。まさかLukakoの父親め、神の座を開こうと言うのか……!　駄目だ、まだ早すぎる!
+なに? 巫Woman舞と言えば天の岩戸伝説。まさかLukakoの父親め, 神の座を開こうと言うのか……! 駄目だ, まだ早すぎる!
 <END2>
 
 #WRITE(PTR, $00004CA4)
@@ -7271,7 +7273,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004CAC)
-今はまだ知る必要はない。今はな。いずれシュタインズゲートの選択により、お前も必然的に知ることになるだろうから。
+今はまだ知る必要はない。今はな。いずれシュタインズゲートの選択により, お前も必然的に知ることになるだろうから。
 <END2>
 
 #WRITE(PTR, $00004CC4)
@@ -7295,7 +7297,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004CEC)
-お前は家族と仲がいいな。そもそも何人家族なのだ?　DaruがLukakoについて「神社の娘なら双子の姉妹かどうか。それが重要だ」と言っていたが。
+お前は家族と仲がいいな。そもそも何人家族なのだ? DaruがLukakoについて「神社の娘なら双子の姉妹かどうか。それが重要だ」と言っていたが。
 <END2>
 
 #WRITE(PTR, $00004D04)
@@ -7307,7 +7309,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004D0C)
-俺を頼るな。いいか、覚えておけ。出会いはすなわち別れの始まりだ。俺は……機関のこともあるし腕のこともあLukaら、長くは保たない。だから俺を頼ってはダメだ。
+俺を頼るな。いいか, 覚えておけ。出会いはすなわち別れの始まりだ。俺は……機関のこともあるし腕のこともあLukaら, 長くは保たない。だから俺を頼ってはダメだ。
 <END2>
 
 #WRITE(PTR, $00004D24)
@@ -7319,7 +7321,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004D2C)
-お前の本来の職業（クラス）は巫Womanだ。それをおろそかにしてはならない。今はそちらに専念しろ。もちろん、五月雨の素振りも含めての話だ。
+お前の本来の職業（クラス）は巫Womanだ。それをおろそかにしてはならない。今はそちらに専念しろ。もちろん, 五月雨の素振りも含めての話だ。
 <END2>
 
 #WRITE(PTR, $00004D44)
@@ -7343,7 +7345,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004D6C)
-お前に姉がいたとはな。頻繁に柳林神社を訪れているが、一度も会った試しがないな。
+お前に姉がいたとはな。頻繁に柳林神社を訪れているが, 一度も会った試しがないな。
 <END2>
 
 #WRITE(PTR, $00004D84)
@@ -7367,7 +7369,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004DAC)
-その年頃なら誰でも経験することだから気にするな。大切なのは、大事な人を守れなかったという悔いから生まれる、決意であり覚悟なのだ……。
+その年頃なら誰でも経験することだから気にするな。大切なのは, 大事な人を守れなかったという悔いから生まれる, 決意であり覚悟なのだ……。
 <END2>
 
 #WRITE(PTR, $00004DC4)
@@ -7379,7 +7381,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004DCC)
-馬鹿者!　20回は素振りのうちに入らん!　せめて100回やってから頑張ったと胸を張れ!
+馬鹿者! 20回は素振りのうちに入らん! せめて100回やってから頑張ったと胸を張れ!
 <END2>
 
 #WRITE(PTR, $00004DE4)
@@ -7391,7 +7393,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004DEC)
-詳しく聞かせてもらおう。あるいはそれは神代の頃より伝わる、禁断の秘技である可能性ががが
+詳しく聞かせてもらおう。あるいはそれは神代の頃より伝わる, 禁断の秘技である可能性ががが
 <END2>
 
 #WRITE(PTR, $00004E04)
@@ -7403,7 +7405,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E0C)
-まさか、汚されてしまったのか!?　だとしたら防人の巫Womanとしての力は失われてしまったかも……。
+まさか, 汚されてしまったのか!? だとしたら防人の巫Womanとしての力は失われてしまったかも……。
 <END2>
 
 #WRITE(PTR, $00004E24)
@@ -7415,7 +7417,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E2C)
-去年渋谷のWoman子高生に流行った、あのキモカエルか。確か、やたらと種類が出ていたな。
+去年渋谷のWoman子高生に流行った, あのキモカエルか。確か, やたらと種類が出ていたな。
 <END2>
 
 #WRITE(PTR, $00004E44)
@@ -7427,7 +7429,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E4C)
-お前の父上とはこの前も会ったばかりだが、実際の印象と、お前の話に出てくる父親の印象は、だいぶ違うな。いったいどっちが本当の姿なのだ?
+お前の父上とはこの前も会ったばかりだが, 実際の印象と, お前の話に出てくる父親の印象は, だいぶ違うな。いったいどっちが本当の姿なのだ?
 <END2>
 
 #WRITE(PTR, $00004E64)
@@ -7439,7 +7441,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E6C)
-去年のゲロカエルんブームは、機関による捏造、世論誘導の可能性がある。気を付けろLukako。お前の父親がおかしくなったのはそのゲロカエルんが原因かもしれん……。
+去年のゲロカエルんブームは, 機関による捏造, 世論誘導の可能性がある。気を付けろLukako。お前の父親がおかしくなったのはそのゲロカエルんが原因かもしれん……。
 <END2>
 
 #WRITE(PTR, $00004E84)
@@ -7451,7 +7453,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E8C)
-それだ!　そこにこそ、15～20年前ぐらいに起きた、あの悲劇を紐解く鍵があるに違いない!
+それだ! そこにこそ, 15～20年前ぐらいに起きた, あの悲劇を紐解く鍵があるに違いない!
 <END2>
 
 #WRITE(PTR, $00004EA4)
@@ -7463,7 +7465,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004EAC)
-なぜウソだと言い切れる?　お前の父上はなにか、誰にも言えない深い心の闇を抱えているのかもしれん。
+なぜウソだと言い切れる? お前の父上はなにか, 誰にも言えない深い心の闇を抱えているのかもしれん。
 <END2>
 
 #WRITE(PTR, $00004EC4)
@@ -7523,7 +7525,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004F4C)
-俺は行かない。あんな人混みでは、背後から刺される危険すらあLukaらな。機関から追われる身としては、そのような場所に出向くことはできないのだ。
+俺は行かない。あんな人混みでは, 背後から刺される危険すらあLukaらな。機関から追われる身としては, そのような場所に出向くことはできないのだ。
 <END2>
 
 #WRITE(PTR, $00004F64)
@@ -7535,7 +7537,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004F6C)
-祭りか……。Mayuriの予定は知らないが、有明で行われる別の祭りの準備で忙しそうにしているのは確かだ。
+祭りか……。Mayuriの予定は知らないが, 有明で行われる別の祭りの準備で忙しそうにしているのは確かだ。
 <END2>
 
 #WRITE(PTR, $00004F84)
@@ -7547,7 +7549,7 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00004F8C)
-否。お前の行為は交換と言うより、そう、アドレス要求だった。あまりの強引さに俺は敗北したのだ。
+否。お前の行為は交換と言うより, そう, アドレス要求だった。あまりの強引さに俺は敗北したのだ。
 <END2>
 
 #WRITE(PTR, $00004FA4)
@@ -7579,7 +7581,7 @@ Re:実は
 <END2>
 
 #WRITE(PTR, $00004FE8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $00004FEC)
@@ -7591,11 +7593,11 @@ Re:実は
 <END2>
 
 #WRITE(PTR, $00005008)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000500C)
-それがお前の処世術か。苦労しているのだなバイト戦士。
+それがお前の処世術か。苦労しているのだなWorking Warrior。
 <END2>
 
 #WRITE(PTR, $00005024)
@@ -7603,11 +7605,11 @@ Re:そもそも
 <END2>
 
 #WRITE(PTR, $00005028)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000502C)
-今どき、そんなレトロな生き方をしている若者がいたとは!
+今どき, そんなレトロな生き方をしている若者がいたとは!
 <END2>
 
 #WRITE(PTR, $00005044)
@@ -7615,11 +7617,11 @@ Re:そもそも
 <END2>
 
 #WRITE(PTR, $00005048)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000504C)
-いくらなんでもそれはネタだろう?　釣られはせん。釣られはせんぞー!
+いくらなんでもそれはネタだろう? 釣られはせん。釣られはせんぞー!
 <END2>
 
 #WRITE(PTR, $00005064)
@@ -7627,7 +7629,7 @@ Re:そもそも
 <END2>
 
 #WRITE(PTR, $00005068)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000506C)
@@ -7639,7 +7641,7 @@ Re:処世術?
 <END2>
 
 #WRITE(PTR, $00005088)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000508C)
@@ -7651,11 +7653,11 @@ Re:お腹
 <END2>
 
 #WRITE(PTR, $000050A8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $000050AC)
-ゲテモノ食いをするつもりか?　凄まじいな……。
+ゲテモノ食いをするつもりか? 凄まじいな……。
 <END2>
 
 #WRITE(PTR, $000050C4)
@@ -7663,7 +7665,7 @@ Re:お腹
 <END2>
 
 #WRITE(PTR, $000050C8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $000050CC)
@@ -7675,7 +7677,7 @@ Re:秋葉原って
 <END2>
 
 #WRITE(PTR, $000050E8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $000050EC)
@@ -7687,7 +7689,7 @@ Re:秋葉原って
 <END2>
 
 #WRITE(PTR, $00005108)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000510C)
@@ -7699,7 +7701,7 @@ Re:秋葉原って
 <END2>
 
 #WRITE(PTR, $00005128)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000512C)
@@ -7711,11 +7713,11 @@ Re:なんか上から
 <END2>
 
 #WRITE(PTR, $00005148)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000514C)
-お前もラボメンに入りたいのか?　だが俺たちをバイトさぼりの口実にされそうな気がする。
+お前もラボメンに入りたいのか? だが俺たちをバイトさぼりの口実にされそうな気がする。
 <END2>
 
 #WRITE(PTR, $00005164)
@@ -7723,7 +7725,7 @@ Re:なんか上から
 <END2>
 
 #WRITE(PTR, $00005168)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000516C)
@@ -7735,11 +7737,11 @@ Re:なんか上から
 <END2>
 
 #WRITE(PTR, $00005188)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000518C)
-どうやらバイト戦士は実に想像力豊からしいな。いや、妄想力と言うべきか。
+どうやらWorking Warriorは実に想像力豊からしいな。いや, 妄想力と言うべきか。
 <END2>
 
 #WRITE(PTR, $000051A4)
@@ -7747,11 +7749,11 @@ Re:暇すぎて
 <END2>
 
 #WRITE(PTR, $000051A8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $000051AC)
-だってば、ではない。いきなりなんの話だ?　バイトのことか?
+だってば, ではない。いきなりなんの話だ? バイトのことか?
 <END2>
 
 #WRITE(PTR, $000051C4)
@@ -7759,11 +7761,11 @@ Re:暇すぎて
 <END2>
 
 #WRITE(PTR, $000051C8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $000051CC)
-なに?　ブラウン管工房は時給がいいのか?　9月からのバイト先候補に入れておくとしよう。
+なに? ブラウン管工房は時給がいいのか? 9月からのバイト先候補に入れておくとしよう。
 <END2>
 
 #WRITE(PTR, $000051E4)
@@ -7771,23 +7773,23 @@ Re:暇すぎて
 <END2>
 
 #WRITE(PTR, $000051E8)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $000051EC)
-ククク、お前は今、致命的なミスを犯したぞバイト戦士。この俺に弱点を自ら暴露してしまうとはな!　このカード、いざというときのに使わせてもらう。
+ククク, お前は今, 致命的なミスを犯したぞWorking Warrior。この俺に弱点を自ら暴露してしまうとはな! このカード, いざというときのに使わせてもらう。
 <END2>
 
 #WRITE(PTR, $00005204)
-Re:今、テレビで
+Re:今, テレビで
 <END2>
 
 #WRITE(PTR, $00005208)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000520C)
-貴様、さてはコマンドサンボの使い手……やはり“機関”の刺客か!?
+貴様, さてはコマンドサンボの使い手……やはり“機関”の刺客か!?
 <END2>
 
 #WRITE(PTR, $00005224)
@@ -7795,11 +7797,11 @@ Re:あと
 <END2>
 
 #WRITE(PTR, $00005228)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000522C)
-やめるのか?　早まるのはよせ。そんなことをすればミスターブラウンに殺されるぞ!
+やめるのか? 早まるのはよせ。そんなことをすればミスターブラウンに殺されるぞ!
 <END2>
 
 #WRITE(PTR, $00005244)
@@ -7807,7 +7809,7 @@ Re:自転車乗る
 <END2>
 
 #WRITE(PTR, $00005248)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000524C)
@@ -7819,11 +7821,11 @@ Re:自分を
 <END2>
 
 #WRITE(PTR, $00005268)
-バイト戦士
+Working Warrior
 <END2>
 
 #WRITE(PTR, $0000526C)
-いきなり恥ずかしいポエムを送りつけてきてどうした?　黒歴史でも作りたいのか?
+いきなり恥ずかしいポエムを送りつけてきてどうした? 黒歴史でも作りたいのか?
 <END2>
 
 #WRITE(PTR, $00005284)
@@ -7879,16 +7881,16 @@ Re:自分を
 <END2>
 
 #WRITE(PTR, $0000530C)
-雷ネット翔　■アクセスＮｏ.1\n
-『噂のアイツはダメなヤツ!?　謎の転校生』\n
+雷ネット翔 ■アクセスＮｏ.1\n
+『噂のアイツはダメなヤツ!? 謎の転校生』\n
 ＮＹのネットカフェ。何者かがメールを打っている。\n
-『1時間後、\rs国防総省\reにサイバーテロ攻撃をしかける……』\n
+『1時間後, \rs国防総省\reにサイバーテロ攻撃をしかける……』\n
 しかしカケル自身はあまり乗り気ではなかった。\n
 「パソコンとかきっと苦手なのよ。しょうがないじゃない」\n
-そんなある日、パソコンの授業中。\n
-「おいおいキラリ、見ろよ転校生のアイツ、指1本でキーボード叩いてるぜー」\n
-「ちょっとぉ、やめなさいよタマルったら。転校生なんだし、しょうがないでしょ」\n
-そのときだ。カケルのカバンの中でなにかがうなる。クラス中の注目を集める中、小学生の間では持っているだけでも羨ましい、\rsサブノートＰＣ\reが出現した。しかもそれはなにやら不思議な形をしている。\n
+そんなある日, パソコンの授業中。\n
+「おいおいキラリ, 見ろよ転校生のアイツ, 指1本でキーボード叩いてるぜー」\n
+「ちょっとぉ, やめなさいよタマルったら。転校生なんだし, しょうがないでしょ」\n
+そのときだ。カケルのカバンの中でなにかがうなる。クラス中の注目を集める中, 小学生の間では持っているだけでも羨ましい, \rsサブノートＰＣ\reが出現した。しかもそれはなにやら不思議な形をしている。\n
 \n
 <END2>
 
@@ -7993,163 +7995,163 @@ fake me
 <END2>
 
 #WRITE(PTR, $000055D8)
-雷ネット翔　■アクセスＮｏ.1\n
-『噂のアイツはダメなヤツ!?　謎の転校生』\n
+雷ネット翔 ■アクセスＮｏ.1\n
+『噂のアイツはダメなヤツ!? 謎の転校生』\n
 \n
 ＮＹのネットカフェ。何者かがメールを打っている。\n
-『1時間後、国防総省にサイバーテロ攻撃をしかける……』\n
+『1時間後, 国防総省にサイバーテロ攻撃をしかける……』\n
 \n
-夢原翔（ユメハラ・カケル）、改行小学校に転校して来たばかりの小学5年生。勉強も運動もそつなくこなすけれど特に目立つようなStudentではなかった。\n
+夢原翔（ユメハラ・カケル）, 改行小学校に転校して来たばかりの小学5年生。勉強も運動もそつなくこなすけれど特に目立つようなStudentではなかった。\n
 \n
-クラスメイトのキラリやタマルは、この学校の弱小なパソコン部に所属しており、誰でもイイから人数を増やしたいという動機で、カケルに入部を迫る。\n
+クラスメイトのキラリやタマルは, この学校の弱小なパソコン部に所属しており, 誰でもイイから人数を増やしたいという動機で, カケルに入部を迫る。\n
 しかしカケル自身はあまり乗り気ではなかった。\n
 \n
 【Kirari】\n
 「パソコンとかきっと苦手なのよ。しょうがないじゃない」\n
 \n
-そんなある日、パソコンの授業中。\n
-そこそこタッチタイプが速いタマルはカケルに自慢する。そんなタマルをたしなめながらも、キラリはパソコンやネットに関する知識の豊富さを披露した。\n
+そんなある日, パソコンの授業中。\n
+そこそこタッチタイプが速いタマルはカケルに自慢する。そんなタマルをたしなめながらも, キラリはパソコンやネットに関する知識の豊富さを披露した。\n
 \n
 【Tamaru】\n
-「おいおいキラリ、見ろよ転校生のアイツ、指1本でキーボード叩いてるぜー」\n
+「おいおいキラリ, 見ろよ転校生のアイツ, 指1本でキーボード叩いてるぜー」\n
 \n
 【Kirari】\n
-「ちょっとぉ、やめなさいよタマルったら。転校生なんだし、しょうがないでしょ」\n
+「ちょっとぉ, やめなさいよタマルったら。転校生なんだし, しょうがないでしょ」\n
 \n
-パソコン室のキーボード上の1つ1つのキーを指でゆっくりと押しながら、そのキーストローク（キースイッチの深さ）を確認しているカケルの姿を見て、クラスの全員がカケルの腕前を見くびっていた。\n
-そのときだ。カケルのカバンの中でなにかがうなる。クラス中の注目を集める中、小学生の間では持っているだけでも羨ましい、サブノートＰＣが出現した。しかもそれはなにやら不思議な形をしている。\n
+パソコン室のキーボード上の1つ1つのキーを指でゆっくりと押しながら, そのキーストローク（キースイッチの深さ）を確認しているカケルの姿を見て, クラスの全員がカケルの腕前を見くびっていた。\n
+そのときだ。カケルのカバンの中でなにかがうなる。クラス中の注目を集める中, 小学生の間では持っているだけでも羨ましい, サブノートＰＣが出現した。しかもそれはなにやら不思議な形をしている。\n
 \n
 【Tamaru】\n
-「ウソだろーアイツ!　指1本のくせにサブノートかよー!」\n
+「ウソだろーアイツ! 指1本のくせにサブノートかよー!」\n
 \n
 【Kirari】\n
-「違うわタマル、よく見て、あのサブノートにはディスプレイがないわ」\n
+「違うわタマル, よく見て, あのサブノートにはディスプレイがないわ」\n
 \n
 【Tamaru】\n
-「キ、キラリ～、あんなの見たことないよ～、スクリーンが出てきちゃったよ!」\n
+「キ, キラリ～, あんなの見たことないよ～, スクリーンが出てきちゃったよ!」\n
 \n
-カケルのサブノートの中の『うーぱ』が、長屋さんからの緊急メールを運んできた。メールによると、驚くべきことに国防総省がハッキングを受けているらしい。\n
+カケルのサブノートの中の『うーぱ』が, 長屋さんからの緊急メールを運んできた。メールによると, 驚くべきことに国防総省がハッキングを受けているらしい。\n
 \n
-メールの内容を確認したカケルは目の色を変え、動き自体もそれまでと一転し驚くほど素早いものへと変貌した。\n
-クラス中がきょとんとした面持ちに。特製サブノートからスクリーンだけを外し、そのキーボードを学校のパソコンに接続。\n
-緊急対策として学校のＰＣを使ってクラッカーの追跡を始めてしまったのである。猛烈な勢いでキーボードを操作し始めるカケルに驚く、キラリやタマルたち。\n
-カケルは世界中のサーバを経由することで身元を隠しているクラッカーの痕跡を追跡していた。トラップのウィルスなどを難なく退治して、敵へ迫っていく。\n
-ＮＹのネットカフェ。モニタに、ウィンドウが開く。\n
-カケルが、ついに犯人を追いつめたのだ。犯人は、世界中のあらゆるネットポリスやＣＩAよりも早く自分のパソコンに辿り着いた人物がいたことに驚き、カケルにチャットで話しかけてくる。\n
-犯人は《Ｊ》と名乗った。Ｊはウィルスを放つ。それはとても強力なシロモノで、強制的に相手のパソコンをフリーズさせる力があった。\n
-だが、カケルは的確なワクチンをシュートして防ぎ、ジリジリと犯人の居場所へ近づいていく。場所がＮＹであるところまでは突き止めた。あともう少しで細かい住所まで特定できる……。\n
-Ｊは、カケルの実力に再度驚く。「まさか、これを使うはめになるとは……」と、奇妙な形をしたＣＤ－ＲＯＭを取り出した。そのＣＤ－ＲＯＭから放たれたウィルスを、カケルには防ぐことができなかった。しかも、謎のプログラムによる攻撃によって、ＰＣ教室の全てのパソコンが破壊されてしまう。\n
+メールの内容を確認したカケルは目の色を変え, 動き自体もそれまでと一転し驚くほど素早いものへと変貌した。\n
+クラス中がきょとんとした面持ちに。特製サブノートからスクリーンだけを外し, そのキーボードを学校のパソコンに接続。\n
+緊急対策として学校のＰＣを使ってクラッカーの追跡を始めてしまったのである。猛烈な勢いでキーボードを操作し始めるカケルに驚く, キラリやタマルたち。\n
+カケルは世界中のサーバを経由することで身元を隠しているクラッカーの痕跡を追跡していた。トラップのウィルスなどを難なく退治して, 敵へ迫っていく。\n
+ＮＹのネットカフェ。モニタに, ウィンドウが開く。\n
+カケルが, ついに犯人を追いつめたのだ。犯人は, 世界中のあらゆるネットポリスやＣＩAよりも早く自分のパソコンに辿り着いた人物がいたことに驚き, カケルにチャットで話しかけてくる。\n
+犯人は《Ｊ》と名乗った。Ｊはウィルスを放つ。それはとても強力なシロモノで, 強制的に相手のパソコンをフリーズさせる力があった。\n
+だが, カケルは的確なワクチンをシュートして防ぎ, ジリジリと犯人の居場所へ近づいていく。場所がＮＹであるところまでは突き止めた。あともう少しで細かい住所まで特定できる……。\n
+Ｊは, カケルの実力に再度驚く。「まさか, これを使うはめになるとは……」と, 奇妙な形をしたＣＤ－ＲＯＭを取り出した。そのＣＤ－ＲＯＭから放たれたウィルスを, カケルには防ぐことができなかった。しかも, 謎のプログラムによる攻撃によって, ＰＣ教室の全てのパソコンが破壊されてしまう。\n
 \n
 カケルの完敗であった――\n
-真っ赤な顔をして怒り出すパソコン教室の先生。そのとき放課後のベルが鳴る。悔しい思いをしながら、カケルはローラーシューズで長屋さんの元へ向かった。\n
+真っ赤な顔をして怒り出すパソコン教室の先生。そのとき放課後のベルが鳴る。悔しい思いをしながら, カケルはローラーシューズで長屋さんの元へ向かった。\n
 \n
-カケルという転校生が何者なのか知りたいキラリやタマルは、その後を追いかけた。\n
-長屋さんは、Ｊが使ったのはコンピュータウィルスの上を行くとても危険なモンスタープログラム『ヴァイオス』だと教えてくれる。\n
+カケルという転校生が何者なのか知りたいキラリやタマルは, その後を追いかけた。\n
+長屋さんは, Ｊが使ったのはコンピュータウィルスの上を行くとても危険なモンスタープログラム『ヴァイオス』だと教えてくれる。\n
 誰がなんのために作ったのか分からない謎のモンスタープログラム。\n
-通常ウィルスの数千倍とも言われる強力な破壊力。そしてこの複製不能なモンスタープログラムは、世界に9種類あり、全てを手に入れたものはネットの世界を牛耳ることができるとも言われている――\n
+通常ウィルスの数千倍とも言われる強力な破壊力。そしてこの複製不能なモンスタープログラムは, 世界に9種類あり, 全てを手に入れたものはネットの世界を牛耳ることができるとも言われている――\n
 単なるネット内の伝説だと思われていたモンスタープログラム。しかしそれを使うハッカーが出現した。これは世界規模の非常事態だ。\n
 \n
 「どうすればいいんだ?!」\n
-言い寄るカケルに、長屋さんが派手なインプットカードを取り出した。\n
+言い寄るカケルに, 長屋さんが派手なインプットカードを取り出した。\n
 「こちらも手をこまねいてるばかりではない。新しい雷ネットカードの開発が終わったところだ」\n
 \n
-新たな雷ネットカードとは、いったいなんなのか?　そしてカケルの正体とは?\n
+新たな雷ネットカードとは, いったいなんなのか? そしてカケルの正体とは?\n
 \n
 その頃――\n
-ＮＹのネットカフェの扉が開き、中から美少年が出てくる。\n
+ＮＹのネットカフェの扉が開き, 中から美少年が出てくる。\n
 「カケルか……面白いヤツだな」\n
-奇妙な形のＣＤ－ＲＯＭをしまいながら、楽しそうに笑った。\n
+奇妙な形のＣＤ－ＲＯＭをしまいながら, 楽しそうに笑った。\n
 \n
-その少年こそが、過去に世界を震撼させた小学生ハッカー『Ｊ』だった――
+その少年こそが, 過去に世界を震撼させた小学生ハッカー『Ｊ』だった――
 <END2>
 
 #WRITE(PTR, $000055DC)
-雷ネット翔　■アクセスＮｏ.2\n
-『そして未来へ!　雷ネット結成!』\n
+雷ネット翔 ■アクセスＮｏ.2\n
+『そして未来へ! 雷ネット結成!』\n
 \n
 すっかり話に置いていかれていたキラリとタマルが声を上げる。\n
 \n
 「いったいカケルは何者なのか?」\n
 \n
-実はカケルは、ネットの秩序を守護する有志のネット・ガーディアンだった。\n
-キラリとタマルはそのカッコ良さに即座に仲間にしてくれと頼む。しかし犯罪者と戦うことになる可能性のある、その危険性を考えカケルはきっぱりと断った。\n
-そのとき、ネットゲームサーバが、謎のハッカー『ビーズマン』によって攻撃されているという情報が入る。カケルはさっそく、長屋さんが作ってくれた新しい雷ネットカードと、特殊なブラウザ・アルファゲートを使って、戦いを挑むことに。\n
+実はカケルは, ネットの秩序を守護する有志のネット・ガーディアンだった。\n
+キラリとタマルはそのカッコ良さに即座に仲間にしてくれと頼む。しかし犯罪者と戦うことになる可能性のある, その危険性を考えカケルはきっぱりと断った。\n
+そのとき, ネットゲームサーバが, 謎のハッカー『ビーズマン』によって攻撃されているという情報が入る。カケルはさっそく, 長屋さんが作ってくれた新しい雷ネットカードと, 特殊なブラウザ・アルファゲートを使って, 戦いを挑むことに。\n
 \n
-初めて使う新しい雷ネットカード。カケルはそのハンデをものともせず、ブートスペルの打ち込みに成功。\n
-そして簡単にクラッカーに勝利すると思えたそのとき、ゲームサーバを完全に支配しているビーズマンは、ゲームプログラムのシステムそのものを書き換えることによって、カケルをゲームのループダンジョン奥深くへ閉じこめてきたのだ。\n
+初めて使う新しい雷ネットカード。カケルはそのハンデをものともせず, ブートスペルの打ち込みに成功。\n
+そして簡単にクラッカーに勝利すると思えたそのとき, ゲームサーバを完全に支配しているビーズマンは, ゲームプログラムのシステムそのものを書き換えることによって, カケルをゲームのループダンジョン奥深くへ閉じこめてきたのだ。\n
 ピンチに陥るカケル。\n
-そのときだ、なんとキラリとタマルもサイバーダイブして、ピンチのカケルを助けに来てくれたのだ!\n
-しかもなんと2人は、このゲームにとても詳しいという。それに、なによりもゲームプレイヤーたちが苦しめられているのが黙って見ていられなかったのだ。サーバを乗っ取り、ゲームプレイヤーを弄んだハッカーを絶対に許せなかったという2人の心意気に押され、3人の共闘を決意するカケル。2人の素晴らしいアシストと、カケルのシュート能力によって、見事ビーズマンを倒すことに成功したのだった。\n
+そのときだ, なんとキラリとタマルもサイバーダイブして, ピンチのカケルを助けに来てくれたのだ!\n
+しかもなんと2人は, このゲームにとても詳しいという。それに, なによりもゲームプレイヤーたちが苦しめられているのが黙って見ていられなかったのだ。サーバを乗っ取り, ゲームプレイヤーを弄んだハッカーを絶対に許せなかったという2人の心意気に押され, 3人の共闘を決意するカケル。2人の素晴らしいアシストと, カケルのシュート能力によって, 見事ビーズマンを倒すことに成功したのだった。\n
 \n
-すると突然、モニターに見知らぬチャットウィンドウが開く。\n
+すると突然, モニターに見知らぬチャットウィンドウが開く。\n
 なんとそれは警視庁からの通信だった。\n
-「ひょっとして、ほめられるのかな?」と喜ぶカケルたちだったが……\n
-警察は、3人に向かって言った――\n
+「ひょっとして, ほめられるのかな?」と喜ぶカケルたちだったが……\n
+警察は, 3人に向かって言った――\n
 \n
 「君たちを逮捕する!」
 <END2>
 
 #WRITE(PTR, $000055E0)
-雷ネット翔　■アクセスＮｏ.3\n
-『ピーポーピーポー!　ネットポリスの罠!』\n
+雷ネット翔 ■アクセスＮｏ.3\n
+『ピーポーピーポー! ネットポリスの罠!』\n
 \n
-日本のネットポリスは、手柄を立て続けるカケルを快く思ってはいなかった。そのため、不正アクセス禁止法をたてに、カケルを脅してきたのだ。今回は罪には問わないが、自重するようにと言い置いて、ビーズマンを捕まえた手柄を自分たちのものにしてしまったのである。\n
-「子供になにができる」と、バカにするネットポリスの中の1人レッド。怒るカケルたち。ハッキング能力では、絶対に負けないつもりだった。\n
+日本のネットポリスは, 手柄を立て続けるカケルを快く思ってはいなかった。そのため, 不正アクセス禁止法をたてに, カケルを脅してきたのだ。今回は罪には問わないが, 自重するようにと言い置いて, ビーズマンを捕まえた手柄を自分たちのものにしてしまったのである。\n
+「子供になにができる」と, バカにするネットポリスの中の1人レッド。怒るカケルたち。ハッキング能力では, 絶対に負けないつもりだった。\n
 \n
-と、そこへ「話はすべて聞いたよ!」と、ピーポー君のアイコンが出現。なんとそのピーポー君のアイコンが勝負を持ちかけてきた。\n
-ネット犯罪は凶悪化の一途を辿っている。少しでも戦力が欲しいのも事実。しかし、能力のない子供に捜査を攪乱させるわけにはいかない。そこで、あるゲームをやってカケルたちの実力を試したいのだという。\n
-もし警視庁のサーバの最深部にいるピーポー君の元まで侵入することができたら、カケルたちの勝ち。それを防ぐことができたら、ネットポリスの勝ち。もしもカケルたちが勝ったら、ネットポリスと同等の逮捕特権をあげよう――ピーポー君はそう提案した。\n
-負けるハズがないとタカをくくったレッドは勝負を承諾。かくして、警視庁のサーバを舞台にした、ハッキングバトルが行われることとなった。\n
+と, そこへ「話はすべて聞いたよ!」と, ピーポー君のアイコンが出現。なんとそのピーポー君のアイコンが勝負を持ちかけてきた。\n
+ネット犯罪は凶悪化の一途を辿っている。少しでも戦力が欲しいのも事実。しかし, 能力のない子供に捜査を攪乱させるわけにはいかない。そこで, あるゲームをやってカケルたちの実力を試したいのだという。\n
+もし警視庁のサーバの最深部にいるピーポー君の元まで侵入することができたら, カケルたちの勝ち。それを防ぐことができたら, ネットポリスの勝ち。もしもカケルたちが勝ったら, ネットポリスと同等の逮捕特権をあげよう――ピーポー君はそう提案した。\n
+負けるハズがないとタカをくくったレッドは勝負を承諾。かくして, 警視庁のサーバを舞台にした, ハッキングバトルが行われることとなった。\n
 \n
-しかし卑怯にも、レッドは警視庁サーバのポートをすべて閉鎖していた。ポートはいわば外部に開いた扉。つまり、入り口のない建物に侵入しろと言っているのである。\n
-カケルたちは為す術をなくし、途方にくれる。が、カケルにあるアイデアが浮かんだ。キラリ、タマルと一緒にローラーシューズで街を駆け抜けるカケル。\n
-2人の協力を受けて、カケルはなんと本物の警視庁ビル内への侵入に成功。特製のサブノートを警視庁内の公衆電話から接続し、豊富な知識と、見事なまでのテクニックでぐんぐんと深部へ。そしてついに目的のサーバへ侵入に成功する!\n
+しかし卑怯にも, レッドは警視庁サーバのポートをすべて閉鎖していた。ポートはいわば外部に開いた扉。つまり, 入り口のない建物に侵入しろと言っているのである。\n
+カケルたちは為す術をなくし, 途方にくれる。が, カケルにあるアイデアが浮かんだ。キラリ, タマルと一緒にローラーシューズで街を駆け抜けるカケル。\n
+2人の協力を受けて, カケルはなんと本物の警視庁ビル内への侵入に成功。特製のサブノートを警視庁内の公衆電話から接続し, 豊富な知識と, 見事なまでのテクニックでぐんぐんと深部へ。そしてついに目的のサーバへ侵入に成功する!\n
 \n
-カケルの勝ちを盛大に宣言するピーポー君。約束通り今後は警察からの全面バックアップを受けられることに。大喜びするカケルたち。しかし、レッドは「ピーポー君になんの権限があってそんなことをするんだ!　こんなもの無効だ!」とゴネる。\n
-そのときだ、ピーポー君の前にウィンドウが開いた。ナントそこにいたのは警視総監。つまりピーポー君の正体は警視総監だったのだ!\n
-「凶悪なネット犯罪に立ち向かうには……彼らのような若い力が必要ではないのかね?」という言葉に、レッドはまったく反論できなかった。\n
+カケルの勝ちを盛大に宣言するピーポー君。約束通り今後は警察からの全面バックアップを受けられることに。大喜びするカケルたち。しかし, レッドは「ピーポー君になんの権限があってそんなことをするんだ! こんなもの無効だ!」とゴネる。\n
+そのときだ, ピーポー君の前にウィンドウが開いた。ナントそこにいたのは警視総監。つまりピーポー君の正体は警視総監だったのだ!\n
+「凶悪なネット犯罪に立ち向かうには……彼らのような若い力が必要ではないのかね?」という言葉に, レッドはまったく反論できなかった。\n
 \n
-かくして、正式に警察にも認められた《雷ネットガーディアン》がここに誕生したのである!
+かくして, 正式に警察にも認められた《雷ネットガーディアン》がここに誕生したのである!
 <END2>
 
 #WRITE(PTR, $000055E4)
-雷ネット翔　■アクセスＮｏ.4\n
+雷ネット翔 ■アクセスＮｏ.4\n
 『パソコン部部長カズマのプライド』\n
 \n
 カケルのパソコン部への入部を願うキラリとタマル。\n
-だがパソコン部の部長を務める4組の市月一馬（イチカワ・カズマ）は「カケルの実力を見てからじゃないと、入部は認めない!」と言い出す。\n
-そこへ、紫藤小学校のパソコンから挑戦状が届く。紫藤小とはタイピング技術を競う大会『タイピング・マスターズ』においてライバル関係にある学校だ。\n
+だがパソコン部の部長を務める4組の市月一馬（イチカワ・カズマ）は「カケルの実力を見てからじゃないと, 入部は認めない!」と言い出す。\n
+そこへ, 紫藤小学校のパソコンから挑戦状が届く。紫藤小とはタイピング技術を競う大会『タイピング・マスターズ』においてライバル関係にある学校だ。\n
 勝負を受けないワケにはいかない。紫藤小パソコン部部長『今ぴゅう太』とカズマのタイピング・バトルゲームが始まった。\n
-最初はカズマがグングンをスコアを伸ばし優勢に。しかし、相手の見えないオンラインバトルであるのをいいことに、追い詰められた紫藤小はウィルスプログラムを改行小のＰＣへ送り込み、タイピングの処理スピード自体を遅くするというズルイ裏技をしかけてくる。\n
+最初はカズマがグングンをスコアを伸ばし優勢に。しかし, 相手の見えないオンラインバトルであるのをいいことに, 追い詰められた紫藤小はウィルスプログラムを改行小のＰＣへ送り込み, タイピングの処理スピード自体を遅くするというズルイ裏技をしかけてくる。\n
 それに気づかないカズマはいよいよ劣勢に立たされてしまう。相手が汚いウィルスでインチキをしてきたことに気づいたカケルが交代すると言い出す。\n
 \n
 【Kazuma】\n
-「改行小の名誉のかかったこの大事な戦いに、お前なんかと交代できるわけない」\n
+「改行小の名誉のかかったこの大事な戦いに, お前なんかと交代できるわけない」\n
 \n
-と、それでも鼻息の荒いカズマ。しかし勝負はますますカズマ劣勢へ。\n
-ここでタマルやキラリからもカケルの起用に背中を押されるカズマ。クラス全員が息をのんで見守る壊滅的な状況の中、カケルへとバトンが渡される。\n
+と, それでも鼻息の荒いカズマ。しかし勝負はますますカズマ劣勢へ。\n
+ここでタマルやキラリからもカケルの起用に背中を押されるカズマ。クラス全員が息をのんで見守る壊滅的な状況の中, カケルへとバトンが渡される。\n
 もはやあきらめるカズマ。頭を下げ背中を向けてしまう。しかしカズマの背中の方から聞いたことのないようなタイピングの音が。\n
-まるで機械音のように鳴り響くその音に驚き振り向くカズマ。そこには神速級のタイピングテクで、イカサマをしている相手を正攻法で撃破していくカケルの姿が!\n
+まるで機械音のように鳴り響くその音に驚き振り向くカズマ。そこには神速級のタイピングテクで, イカサマをしている相手を正攻法で撃破していくカケルの姿が!\n
 そして見事勝利!\n
-カケルは、カズマから「うちのパソコン部に入部してくれ!」と抱きつかれるハメになるのだった。\n
+カケルは, カズマから「うちのパソコン部に入部してくれ!」と抱きつかれるハメになるのだった。\n
 \n
-と、そこへ長屋さんから連絡が。インターネットバンクを狙った預金クラッキング事件が発生!　敵の名は世界的にも有名なネット系銀行強盗『ビショップ』!　カケルたちに再び緊張が走る!
+と, そこへ長屋さんから連絡が。インターネットバンクを狙った預金クラッキング事件が発生! 敵の名は世界的にも有名なネット系銀行強盗『ビショップ』! カケルたちに再び緊張が走る!
 <END2>
 
 #WRITE(PTR, $000055E8)
-雷ネット翔　■アクセスＮｏ.5\n
-『ネットバンクハッカー、ビショップとの出会い』\n
+雷ネット翔 ■アクセスＮｏ.5\n
+『ネットバンクハッカー, ビショップとの出会い』\n
 \n
 ネット上に存在する銀行。今やそれ自体が常識になっていると言えるだろう。空中を飛び交うワイヤレス回線。ときには億単位のお金が動いている。\n
 \n
-今回の敵『ビショップ』は車を使って移動しながらクラッキングをしかけ、位置情報を次々と偽装していくという、とても手強い相手だ。\n
-しかしカケルは敵の動き自体を次々と予測し、徐々に追い詰めていく。移動する敵から距離を離さないように、カケルたちも敵同様ローラーシューズを履いて街中のホットスポット（無線ＬAＮ接続ができる場所）や公衆電話回線を使って移動していく!\n
-カケルの素速い超絶テクと的確な攻撃、そしてタマルたちとのチームワークによって、ビショップを追いつめることに成功した!\n
-苦境に陥ったビショップが最終手段として敵が使ったのは、ナント!　世界に9つしか存在しないと言われている幻のモンスター・プログラムの1つ『テリオス』だった!\n
-その理不尽な破壊能力に一時は優勢だったカケルたちも一気に厳しい立場に追いやられてしまう。テリオスを使って、最後のとどめを刺しにくるビショップ。\n
+今回の敵『ビショップ』は車を使って移動しながらクラッキングをしかけ, 位置情報を次々と偽装していくという, とても手強い相手だ。\n
+しかしカケルは敵の動き自体を次々と予測し, 徐々に追い詰めていく。移動する敵から距離を離さないように, カケルたちも敵同様ローラーシューズを履いて街中のホットスポット（無線ＬAＮ接続ができる場所）や公衆電話回線を使って移動していく!\n
+カケルの素速い超絶テクと的確な攻撃, そしてタマルたちとのチームワークによって, ビショップを追いつめることに成功した!\n
+苦境に陥ったビショップが最終手段として敵が使ったのは, ナント! 世界に9つしか存在しないと言われている幻のモンスター・プログラムの1つ『テリオス』だった!\n
+その理不尽な破壊能力に一時は優勢だったカケルたちも一気に厳しい立場に追いやられてしまう。テリオスを使って, 最後のとどめを刺しにくるビショップ。\n
 その凶悪なウィルスがカケルたちの目の前に迫る!\n
 \n
-カケル絶体絶命!!　――が、彼らを庇うようにカケルのＰＣの中のなにかが飛び出したのだ!\n
+カケル絶体絶命!! ――が, 彼らを庇うようにカケルのＰＣの中のなにかが飛び出したのだ!\n
 \n
 ……なんとそれはカケルがかわいがっていたバーチャルペットのうーぱ!\n
 カケルたちの身代わりとして攻撃を受けてしまったうーぱ。\n
@@ -8158,229 +8160,229 @@ fake me
 <END2>
 
 #WRITE(PTR, $000055EC)
-雷ネット翔　■アクセスＮｏ.6\n
-『試練の先に、ウパウパ!　うーぱの秘密』\n
+雷ネット翔 ■アクセスＮｏ.6\n
+『試練の先に, ウパウパ! うーぱの秘密』\n
 \n
 モンスター級のウィルス攻撃をダイレクトに受けてしまったうーぱ。\n
-しかしなんとキズ1つ負っていなかった。しかもあろうことか、その攻撃自体を食べてしまったのだ。\n
-そんなうーぱの大活躍によって、ビショップ撃退に成功するカケル。おまけにビショップの使っていたモンスター・プログラム『テリオス』もあっさりとゲットしてしまう。\n
+しかしなんとキズ1つ負っていなかった。しかもあろうことか, その攻撃自体を食べてしまったのだ。\n
+そんなうーぱの大活躍によって, ビショップ撃退に成功するカケル。おまけにビショップの使っていたモンスター・プログラム『テリオス』もあっさりとゲットしてしまう。\n
 \n
-しかし分からない。うーぱはなぜ、あれだけ攻撃力のあるモンスター級のウィルスプログラムを食べてしまうことができたのか?\n
-長屋さんに聞いても分からなかった。だが、ネット上のどこかにいる謎のサイトマスター『サイバードラゴン』なら分かLukaもしれないとのこと。\n
-ありとあらゆるプログラムの知識を持つというサイバードラゴンは、ネット界のことをなんでも知っている長老のような存在であるらしい。\n
+しかし分からない。うーぱはなぜ, あれだけ攻撃力のあるモンスター級のウィルスプログラムを食べてしまうことができたのか?\n
+長屋さんに聞いても分からなかった。だが, ネット上のどこかにいる謎のサイトマスター『サイバードラゴン』なら分かLukaもしれないとのこと。\n
+ありとあらゆるプログラムの知識を持つというサイバードラゴンは, ネット界のことをなんでも知っている長老のような存在であるらしい。\n
 さっそくサイバー・ドラゴンのサイトを探すことにしたカケルたち。\n
 \n
-サイバードラゴンのサイトのＵＲＬをゲットするためには、どうやら『サイバードラゴンの試練』と呼ばれるネットゲームをクリアしなければならないらしい。\n
-試練として設定されたタイピングバトルや様々なウィルス攻撃は激しさを増していき、くじけそうになるカケルたち。\n
-しかし励まし合って懸命に進んでいく。そして苦労しながらも、カケルはサイバードラゴンのサイトＵＲＬをゲットすることに成功。サイトマスター・サイバードラゴンに会うことができた。\n
+サイバードラゴンのサイトのＵＲＬをゲットするためには, どうやら『サイバードラゴンの試練』と呼ばれるネットゲームをクリアしなければならないらしい。\n
+試練として設定されたタイピングバトルや様々なウィルス攻撃は激しさを増していき, くじけそうになるカケルたち。\n
+しかし励まし合って懸命に進んでいく。そして苦労しながらも, カケルはサイバードラゴンのサイトＵＲＬをゲットすることに成功。サイトマスター・サイバードラゴンに会うことができた。\n
 \n
-名前の通り、老龍の姿をしているサイバードラゴンに驚きつつも、うーぱのプログラムを見てもらう。\n
-そして分かったことは、なんとうーぱもモンスタープログラムであるということ。\n
-うーぱ自身も危険な存在なのかと心配するキラリ。だが、サイバードラゴンは、使う者の意志によって「凶器」にも、大切なものを「守る力」にもなると教えてくれた。\n
-だが、そのうーぱをモンスタープログラムとして覚醒させるには、それなりの手段が必要だと言う。\n
-もしそれが分からないレベルであるならば、たとえ覚醒できたとしても使いこなすことは不可能。\n
+名前の通り, 老龍の姿をしているサイバードラゴンに驚きつつも, うーぱのプログラムを見てもらう。\n
+そして分かったことは, なんとうーぱもモンスタープログラムであるということ。\n
+うーぱ自身も危険な存在なのかと心配するキラリ。だが, サイバードラゴンは, 使う者の意志によって「凶器」にも, 大切なものを「守る力」にもなると教えてくれた。\n
+だが, そのうーぱをモンスタープログラムとして覚醒させるには, それなりの手段が必要だと言う。\n
+もしそれが分からないレベルであるならば, たとえ覚醒できたとしても使いこなすことは不可能。\n
 うーぱの覚醒方法がまったく分からないままサイバードラゴンの元を離れるカケルたち。\n
-凶悪なプログラムに打ち勝つため、カケルは、いつの日かうーぱのモンスター・プログラムとしての起動方法までたどりつくことを誓うのだった――\n
+凶悪なプログラムに打ち勝つため, カケルは, いつの日かうーぱのモンスター・プログラムとしての起動方法までたどりつくことを誓うのだった――\n
 \n
-そんなモンスター・プログラムを持つスーパー小学生カケルたちの噂は、いつの間にか世界中に及んでいた。
+そんなモンスター・プログラムを持つスーパー小学生カケルたちの噂は, いつの間にか世界中に及んでいた。
 <END2>
 
 #WRITE(PTR, $000055F0)
-雷ネット翔　■アクセスＮｏ.7\n
-『航空機史上世界初!　地上からのハイジャック!』\n
+雷ネット翔 ■アクセスＮｏ.7\n
+『航空機史上世界初! 地上からのハイジャック!』\n
 \n
-アメリカで行われる世界タイピングマスターズのために、日本からの選抜団がロスに集結することになった。\n
-日本代表の中には、これまでのいくつもの事件解決で一躍国民的有名人になってしまったカケルの姿もあった。\n
-セコンドとして同行を許されたタマルと、お嬢様パワーで自腹でついてくるキラリ。これからの楽しいロス旅行について話が弾んでいくのも束の間、事件が起こる。\n
+アメリカで行われる世界タイピングマスターズのために, 日本からの選抜団がロスに集結することになった。\n
+日本代表の中には, これまでのいくつもの事件解決で一躍国民的有名人になってしまったカケルの姿もあった。\n
+セコンドとして同行を許されたタマルと, お嬢様パワーで自腹でついてくるキラリ。これからの楽しいロス旅行について話が弾んでいくのも束の間, 事件が起こる。\n
 \n
 3人の元へあわてた様子で客室乗務員がやってくる。なんと「このジャンボがハイジャックされた」というのだ。\n
-しかも犯人は同機には乗り合わせておらず、地上からのＰＣ操作だけでジャンボのメインＣＰＵをジャックしたらしい。\n
-手動操縦に切り替えることさえできず、操縦をハッカーの手に委ねるしかない状態で、乗客276名を乗せた旅客機という名のコンピュータの塊はどんどん高度を落としていく。\n
-犯人は1つの爆薬を使うこともなく、回線だけを使っていつでもジェットエンジンを停止、墜落させることができるという、今世紀初の『地上からのハイジャック』をしかけてきたのだ!\n
-犯人の狙いはモンスタープログラム『うーぱ』だ。サブノートを駆使して犯人のジャンボへの侵入経路を探るカケル。が、その経路がまったく見つからない。\n
+しかも犯人は同機には乗り合わせておらず, 地上からのＰＣ操作だけでジャンボのメインＣＰＵをジャックしたらしい。\n
+手動操縦に切り替えることさえできず, 操縦をハッカーの手に委ねるしかない状態で, 乗客276名を乗せた旅客機という名のコンピュータの塊はどんどん高度を落としていく。\n
+犯人は1つの爆薬を使うこともなく, 回線だけを使っていつでもジェットエンジンを停止, 墜落させることができるという, 今世紀初の『地上からのハイジャック』をしかけてきたのだ!\n
+犯人の狙いはモンスタープログラム『うーぱ』だ。サブノートを駆使して犯人のジャンボへの侵入経路を探るカケル。が, その経路がまったく見つからない。\n
 このジャンボへと繋ぐことのできる唯一の回線。それは厳重なパスワードで守られた管制塔からの専用回線のみであった\n
 。そのラインを中心に手がかりを探す……が見つからない。管制塔周辺にはあやしい動きがまったく見当たらないのだ。\n
 焦るカケルたち。\n
 \n
 旅客機が飛ぶような非常に高い高度では管制塔からの特殊な電波以外は届かないはずなのに。\n
-しかし様々な可能性を追求していくカケルに、この機へのもう1つの侵入経路が浮かぶ。それは人工衛星だった。\n
-「ビンゴ!」カケルの予感は的中した。海外との通信に利用するため、地上に設置された基地局と衛星とを結ぶライン。\n
-犯人は衛星までの防御壁ファイヤーウォールを突破し、衛星からこの旅客機のＣＰＵ端末へ接続しているのだ。これは人工衛星と旅客機を同時にジャックしているとも言える大事件だ。\n
-こうして犯人を探し当て、追い詰めていくカケル。地球軌道上を周回する衛星を中心に、ロボグラム同士の初の宇宙戦が繰り広げられる。そしてあっけなく勝利。\n
-敵は頭はいいのだが、ロボグラムの操作つまりタイピングではカケルに到底及ばないレベルだったからだ。ＰＣ画面を通してとは言え、初めて宇宙を見るカケルたち。\n
+しかし様々な可能性を追求していくカケルに, この機へのもう1つの侵入経路が浮かぶ。それは人工衛星だった。\n
+「ビンゴ!」カケルの予感は的中した。海外との通信に利用するため, 地上に設置された基地局と衛星とを結ぶライン。\n
+犯人は衛星までの防御壁ファイヤーウォールを突破し, 衛星からこの旅客機のＣＰＵ端末へ接続しているのだ。これは人工衛星と旅客機を同時にジャックしているとも言える大事件だ。\n
+こうして犯人を探し当て, 追い詰めていくカケル。地球軌道上を周回する衛星を中心に, ロボグラム同士の初の宇宙戦が繰り広げられる。そしてあっけなく勝利。\n
+敵は頭はいいのだが, ロボグラムの操作つまりタイピングではカケルに到底及ばないレベルだったからだ。ＰＣ画面を通してとは言え, 初めて宇宙を見るカケルたち。\n
 それは乗っているジャンボジェットをまるでスペースシャトルと錯覚してしまうほどの美しさだった。宇宙を悠々と漂うジャンボ。カケルたちの目には美しい星々が輝いていた。\n
 \n
-そしていよいよ、タイピングマスター世界大会が始まる。
+そしていよいよ, タイピングマスター世界大会が始まる。
 <END2>
 
 #WRITE(PTR, $000055F4)
-雷ネット翔　■アクセスＮｏ.8\n
-『響けイナズマ!　タイピングマスターの奥義!』\n
+雷ネット翔 ■アクセスＮｏ.8\n
+『響けイナズマ! タイピングマスターの奥義!』\n
 \n
-事件に遭遇しながらも、なんとか無事ロサンゼルス空港に到着したカケルたち。混み合う到着ターミナルを出ると、大きな荷物を持った老婆を手伝うアメリカの若者に関心する3人。\n
+事件に遭遇しながらも, なんとか無事ロサンゼルス空港に到着したカケルたち。混み合う到着ターミナルを出ると, 大きな荷物を持った老婆を手伝うアメリカの若者に関心する3人。\n
 \n
 【Tamaru】\n
-「へー、アメリカって国も結構良心的な人種なんだなー」\n
+「へー, アメリカって国も結構良心的な人種なんだなー」\n
 \n
 【Kirari】\n
 「どこの国だって人を思いやる気持ちがあるのよ」\n
 \n
 空港からバスで30分。今回の会場であるロサンゼルス・コンベンションセンターに到着。\n
-熱気あふれるタイピングマスターの会場は、いかにも強者そろいの様相である。\n
-なにより驚いたのは、参加者リストの中に世界的に有名なハッカーやクラッカーも名を連ねていること。\n
-彼らは逮捕する証拠をなにも残していないため、指名手配などとは無縁なのだ。\n
+熱気あふれるタイピングマスターの会場は, いかにも強者そろいの様相である。\n
+なにより驚いたのは, 参加者リストの中に世界的に有名なハッカーやクラッカーも名を連ねていること。\n
+彼らは逮捕する証拠をなにも残していないため, 指名手配などとは無縁なのだ。\n
 そしてその中には因縁の相手『Ｊ』の名も。もちろんお互いに顔を合わせたことはない。\n
 \n
 【Tamaru】\n
 「どんな悪党顔だろうなぁ?」\n
 \n
-会場での熾烈な戦いはインターネットを通して世界中に同時中継され、その注目度は今やオリンピックにも並ぶと言われ、世界の視線が釘付けとなっている。\n
+会場での熾烈な戦いはインターネットを通して世界中に同時中継され, その注目度は今やオリンピックにも並ぶと言われ, 世界の視線が釘付けとなっている。\n
 そして大会もいよいよメインレースへ突入。大音量のスピーカーでノリノリの大会ＤＪがベスト8を発表していく。\n
-7番目にカケルのコール、そして最後に『Ｊ』の名が叫ばれる。その瞬間姿を現したその男の顔……それはなんと空港で老婆を助けていたあの感じのいい少年ではないか!\n
-驚く3人。いったい彼は何者なんだ?　ちなみにカケル以外の日本代表選手はもう残っていない。レッドの部下、日本のネットポリス代表も1回戦で敗退。レッドたちも悔しい思いで残るカケルを見守る。\n
-カケルのベスト8初戦の相手は、音楽のリズムに乗ったダンシングタイプで華麗な技を見せる『ロストシェード』だ。\n
-が、カケルのタイピングスピードと確実さは、その比ではなく圧勝。\n
+7番目にカケルのコール, そして最後に『Ｊ』の名が叫ばれる。その瞬間姿を現したその男の顔……それはなんと空港で老婆を助けていたあの感じのいい少年ではないか!\n
+驚く3人。いったい彼は何者なんだ? ちなみにカケル以外の日本代表選手はもう残っていない。レッドの部下, 日本のネットポリス代表も1回戦で敗退。レッドたちも悔しい思いで残るカケルを見守る。\n
+カケルのベスト8初戦の相手は, 音楽のリズムに乗ったダンシングタイプで華麗な技を見せる『ロストシェード』だ。\n
+が, カケルのタイピングスピードと確実さは, その比ではなく圧勝。\n
 いよいよベスト4へ進出。次の相手はアラビアの石油王の息子『インドラパンサー』だ。\n
 ヨガを利用した柔らかな動きはまるで関節がないかのような奇妙なもの。操るロボグラムも動きのパターンにつかみどころがなく苦戦する。\n
-しかしカケルが使った相手をフリーズさせるウィルスアタックで、その柔らかい動きごと封じることに成功。最後は氷のように固まった相手を指1本で軽く突いただけで粉々に。\n
+しかしカケルが使った相手をフリーズさせるウィルスアタックで, その柔らかい動きごと封じることに成功。最後は氷のように固まった相手を指1本で軽く突いただけで粉々に。\n
 \n
-さぁいよいよ決勝だ!　相手は予想通り、あの謎の男『Ｊ』。\n
+さぁいよいよ決勝だ! 相手は予想通り, あの謎の男『Ｊ』。\n
 果たして勝負の行方は……!?
 <END2>
 
 #WRITE(PTR, $000055F8)
-雷ネット翔　■アクセスＮｏ.9\n
-『決戦!　そして……始まり』\n
+雷ネット翔 ■アクセスＮｏ.9\n
+『決戦! そして……始まり』\n
 \n
-『Ｊ』の武器、それは忍術の「分身の術」とでも言うべきもの。そのすばやい動きはまるで腕が4本あるようにさえ見える。\n
-独学で学んだというそのタイピング方法は通称『クロスリッパー』と呼ばれる。Ｊ自身、アメリカのアンダーグラウンド界ではかなりの有名人で、このタイピングテクにあこがれてマネる人もいるほど。\n
-これは瞬間的に腕がクロスする、つまり十字架をモチーフにつけられた名前だ。\n
+『Ｊ』の武器, それは忍術の「分身の術」とでも言うべきもの。そのすばやい動きはまるで腕が4本あるようにさえ見える。\n
+独学で学んだというそのタイピング方法は通称『クロスリッパー』と呼ばれる。Ｊ自身, アメリカのアンダーグラウンド界ではかなりの有名人で, このタイピングテクにあこがれてマネる人もいるほど。\n
+これは瞬間的に腕がクロスする, つまり十字架をモチーフにつけられた名前だ。\n
 もちろんカケルも独特の技を持っている。通称『サンダーグラディエイター』と呼ばれているもの。\n
-あまりのタイピングの速さに、指とキーの間に摩擦が生じ、それぞれの指先から雷のような小さな微弱電流が発生。次第にそれは大きくなりまるで指先でイナズマを操っていLukaのように見えるのだ。\n
-2人の戦いは完全に互角。ファーストセットはカケルが、セカンドセットはＪがゲットし、勝負はファイナルラウンドへ持ち込まれる。\n
+あまりのタイピングの速さに, 指とキーの間に摩擦が生じ, それぞれの指先から雷のような小さな微弱電流が発生。次第にそれは大きくなりまるで指先でイナズマを操っていLukaのように見えるのだ。\n
+2人の戦いは完全に互角。ファーストセットはカケルが, セカンドセットはＪがゲットし, 勝負はファイナルラウンドへ持ち込まれる。\n
 これが最後の勝負。真っ向勝負で火花がぶつかり合う壮絶なバトル。会場に設置された超大型ディスプレイパネルには2人の熱い戦いが映し出されている。息をのむ観客。\n
-しかしそんな熱い戦いも、突然の停電によって中断してしまった。\n
-どうやら自然に起きたトラブルではないようだ。通常ならばＵＰＳ（無停電装置）が働き、マシンまで落ちてしまうことは考えられない。\n
+しかしそんな熱い戦いも, 突然の停電によって中断してしまった。\n
+どうやら自然に起きたトラブルではないようだ。通常ならばＵＰＳ（無停電装置）が働き, マシンまで落ちてしまうことは考えられない。\n
 やむを得ず2人の戦いは一時休戦。騒然となる観客と焦る大会主催者。\n
-……そのとき、会場中のすべてのディスプレイに怪しげなロゴマークが映し出され、続いて1文字づつ、ゆっくりと文字が現れてきた。\n
+……そのとき, 会場中のすべてのディスプレイに怪しげなロゴマークが映し出され, 続いて1文字づつ, ゆっくりと文字が現れてきた。\n
 \n
-「I am a Monster. You are friend?　ﾊﾊﾊﾊﾊﾊ」\n
+「I am a Monster. You are friend? ﾊﾊﾊﾊﾊﾊ」\n
 \n
-不気味なメッセージとともに、なにやら小さな電流音が聞こえてくる。\n
+不気味なメッセージとともに, なにやら小さな電流音が聞こえてくる。\n
 \n
 【J】\n
-「どけ!　カケル!」\n
+「どけ! カケル!」\n
 \n
 突然カケルを突き飛ばすＪ。大会用ＰＣに接続されたカケル専用キーボードのケーブルを強引に外した。\n
 するとケーブルの接続されていたＵＳＢポートから火花が……。\n
-危うくショートから免れた、プレイヤーにとって命の次に大切とも言えるキーボード。どうやらカケルはＪによって救われたようである。\n
+危うくショートから免れた, プレイヤーにとって命の次に大切とも言えるキーボード。どうやらカケルはＪによって救われたようである。\n
 \n
 【Kakeru】\n
-「あ、ありがとう」\n
+「あ, ありがとう」\n
 \n
 【J】\n
-「フッ、礼にはおよばねーぜ。敵がいなくなったら勝負ができねーからな」\n
+「フッ, 礼にはおよばねーぜ。敵がいなくなったら勝負ができねーからな」\n
 \n
 そう言い残してＪは去っていく。\n
-大会は終了し、同率優勝として2人にトロフィーが渡されることとなるが、Ｊはそれさえ受け取らず消えてしまった。\n
-もちろん、カケルも受け取りを拒否。こうして勝負は来年の次回大会まで持ち越されることになった。\n
+大会は終了し, 同率優勝として2人にトロフィーが渡されることとなるが, Ｊはそれさえ受け取らず消えてしまった。\n
+もちろん, カケルも受け取りを拒否。こうして勝負は来年の次回大会まで持ち越されることになった。\n
 \n
-謎の少年Ｊ。その後、実はこのＪも雷ネットのバッジを付ることになるとは、このときのカケルたちには知るよしもない。
+謎の少年Ｊ。その後, 実はこのＪも雷ネットのバッジを付ることになるとは, このときのカケルたちには知るよしもない。
 <END2>
 
 #WRITE(PTR, $000055FC)
-雷ネット翔　■アクセスＮｏ.10\n
-『この子誰の子ネットの子?　タマルの恋の物語』\n
+雷ネット翔 ■アクセスＮｏ.10\n
+『この子誰の子ネットの子? タマルの恋の物語』\n
 \n
-今日も見事にクラッカーを退治したカケルたち。そんな中、タマルはネット上で1人のWomanの子に出会う。ひどく悲しい雰囲気を放つ少Woman・アユミのことが気になって仕方がないタマル。\n
-思い立って検索をかけ、アユミのサイトを見つけて遊びに行ったタマルは愕然とした。なんとサイトがメチャクチャに荒らされていたのだ。パスワードクラックによって、サイトを閉鎖することすらできないという悪質なものだった。\n
-調べてみると、ネット上に氾濫しているクラックツールを利用し、オモシロ半分にクラッキングするという低レベルの行為だった。不特定多数のスクリプトキディが暴れているのだ。\n
-怒ったタマルは、クラッキングツールを使用したキディたちに勝負を挑む。カケルの制止も聞かず、闇雲に突っ込んでいってしまうタマル。\n
-おかげで危険な目にあうが、持ち前のガッツで何度も挑み、ついにはキディたちを倒すことに成功。見事アユミのサイトも立ち直すことができた。\n
-タマルは、アユミに、もう安全になったことを伝えに行く。しかし、傷ついたアユミの気持ちは戻らなかった。\n
-彼Womanは、ネットをすっかり怖いものだと思っており、もう二度とサイトなどやりたくないと言い出したのだ。タマルは、かける言葉を見つけられなかった。\n
+今日も見事にクラッカーを退治したカケルたち。そんな中, タマルはネット上で1人のWomanの子に出会う。ひどく悲しい雰囲気を放つ少Woman・アユミのことが気になって仕方がないタマル。\n
+思い立って検索をかけ, アユミのサイトを見つけて遊びに行ったタマルは愕然とした。なんとサイトがメチャクチャに荒らされていたのだ。パスワードクラックによって, サイトを閉鎖することすらできないという悪質なものだった。\n
+調べてみると, ネット上に氾濫しているクラックツールを利用し, オモシロ半分にクラッキングするという低レベルの行為だった。不特定多数のスクリプトキディが暴れているのだ。\n
+怒ったタマルは, クラッキングツールを使用したキディたちに勝負を挑む。カケルの制止も聞かず, 闇雲に突っ込んでいってしまうタマル。\n
+おかげで危険な目にあうが, 持ち前のガッツで何度も挑み, ついにはキディたちを倒すことに成功。見事アユミのサイトも立ち直すことができた。\n
+タマルは, アユミに, もう安全になったことを伝えに行く。しかし, 傷ついたアユミの気持ちは戻らなかった。\n
+彼Womanは, ネットをすっかり怖いものだと思っており, もう二度とサイトなどやりたくないと言い出したのだ。タマルは, かける言葉を見つけられなかった。\n
 \n
 しかし――\n
-サイトが荒らされ、傷ついたアユミのことを知った世界中の人たちから励ましのメールが届く。ネットの世界は、剥き出しの悪意だけがあるわけではない。こんなに多くの無償の優しさだってあるのだ。\n
-サイトを再開することを決意するアユミ。と、ここでナント彼Womanも改行小のStudentだと分かる。\n
-一度、会ってみることにする2人。ドキドキしながら待っているタマルの前に現れたのは、なんとBoyだった。ぶっちゃけた話、ネカマだったのだ。\n
+サイトが荒らされ, 傷ついたアユミのことを知った世界中の人たちから励ましのメールが届く。ネットの世界は, 剥き出しの悪意だけがあるわけではない。こんなに多くの無償の優しさだってあるのだ。\n
+サイトを再開することを決意するアユミ。と, ここでナント彼Womanも改行小のStudentだと分かる。\n
+一度, 会ってみることにする2人。ドキドキしながら待っているタマルの前に現れたのは, なんとBoyだった。ぶっちゃけた話, ネカマだったのだ。\n
 \n
-かくしてタマルの恋（?）は、見事に散ってしまったのでした。
+かくしてタマルの恋（?）は, 見事に散ってしまったのでした。
 <END2>
 
 #WRITE(PTR, $00005600)
-雷ネット翔　■アクセスＮｏ.11\n
-『プリンス　オブＪ、再び』\n
+雷ネット翔 ■アクセスＮｏ.11\n
+『プリンス オブＪ, 再び』\n
 \n
-Ｊによるサイバーテロ事件が再び勃発する。敵を追いつめるも、逆に撃退されてしまうカケルたち。\n
-モンスタープログラム『ヴァイオス』でプログラムをフリーズさせられ、手も足も出せないのだ。\n
-そんな状況の中、Ｊがカケルにボイスチャットを使って話しかけてくる。\n
+Ｊによるサイバーテロ事件が再び勃発する。敵を追いつめるも, 逆に撃退されてしまうカケルたち。\n
+モンスタープログラム『ヴァイオス』でプログラムをフリーズさせられ, 手も足も出せないのだ。\n
+そんな状況の中, Ｊがカケルにボイスチャットを使って話しかけてくる。\n
 \n
 【J】\n
-「カケルよ、お前はなぜ、俺を止めようとする?」\n
+「カケルよ, お前はなぜ, 俺を止めようとする?」\n
 \n
 【Kakeru】\n
-「お前こそなんでこんなことを!　人々が苦しむ姿がそんなに楽しいのかよ!」\n
+「お前こそなんでこんなことを! 人々が苦しむ姿がそんなに楽しいのかよ!」\n
 \n
-Ｊは、自分の力を試したいからだと答える。\n
-絶対に入り込めないセキュリティ、盗めないデータ……それを手にすることができれば、自分の力を確かめることができる。カケルも自分の力を誇りたいから、ネットガーディアンをしているんじゃないのか?\n
-そんなことはないと、Ｊの言葉を否定するカケル。素直じゃないなと笑いながら、Ｊは去っていった。\n
-Ｊの言葉によって、自分がどうしてネットガーディアンをしているのか、迷い始めてしまうカケル。自分には、父親ゆずりの天才的な知識とテクニックがあった。それを活かすために、ガーディアンをしている。ガーディアンになりたくて、力を得たわけじゃない。\n
+Ｊは, 自分の力を試したいからだと答える。\n
+絶対に入り込めないセキュリティ, 盗めないデータ……それを手にすることができれば, 自分の力を確かめることができる。カケルも自分の力を誇りたいから, ネットガーディアンをしているんじゃないのか?\n
+そんなことはないと, Ｊの言葉を否定するカケル。素直じゃないなと笑いながら, Ｊは去っていった。\n
+Ｊの言葉によって, 自分がどうしてネットガーディアンをしているのか, 迷い始めてしまうカケル。自分には, 父親ゆずりの天才的な知識とテクニックがあった。それを活かすために, ガーディアンをしている。ガーディアンになりたくて, 力を得たわけじゃない。\n
 \n
 【Kakeru】\n
-「僕も自分の力を試したくて、ガーディアンをしているだけじゃないのか……?」\n
+「僕も自分の力を試したくて, ガーディアンをしているだけじゃないのか……?」\n
 \n
 悩み苦しむカケル。パソコンの前に座ることすら拒み始める自分の心。\n
 \n
-そんなカケルをよそに、Ｊの侵略は日本の交通機能を管轄する国土交通省のメインコンピュータへと及ぶ。\n
-日本のあちこちで交通事故が勃発。悲しいニュース速報が続くなか、それでも立ち上がれないカケル。\n
+そんなカケルをよそに, Ｊの侵略は日本の交通機能を管轄する国土交通省のメインコンピュータへと及ぶ。\n
+日本のあちこちで交通事故が勃発。悲しいニュース速報が続くなか, それでも立ち上がれないカケル。\n
 その中で1つのニュースが目に入る。ある子供の父親の死。\n
 それはカケルの境遇にとてもよく似ているものであった。\n
 \n
 目覚めるカケル。再起を誓い雷ネットキーボードの前に。\n
-カケル　VS　Ｊ　の戦いが再び始まった。
+カケル VS Ｊ の戦いが再び始まった。
 <END2>
 
 #WRITE(PTR, $00005604)
-雷ネット翔　■アクセスＮｏ.12\n
+雷ネット翔 ■アクセスＮｏ.12\n
 『うーぱ覚醒』\n
 \n
 モンスタープログラムを次々と繰り出してくるＪ。\n
-戦意を取り戻したカケル。しかし、うーぱというモンスタープログラムを持ちながら、その効力も使用方法も分からない。\n
-劣勢が続く戦いの中で、カケルはあることに気づく。うーぱを覚醒するための方法……それは生前の父から聞いたある一言だった。\n
+戦意を取り戻したカケル。しかし, うーぱというモンスタープログラムを持ちながら, その効力も使用方法も分からない。\n
+劣勢が続く戦いの中で, カケルはあることに気づく。うーぱを覚醒するための方法……それは生前の父から聞いたある一言だった。\n
 \n
 【カケル父】\n
 「手先のテクニックに溺れるな。本当の強さはカードにあるんだ」\n
 \n
-うーぱを覚醒させる方法、それは、うーぱ自身の本体プログラムすべてを雷ネットカードに閉じこめて、攻撃系の雷ネットカードを作り出すこと。\n
-パソコンの外に出してしまうことで、うーぱの存在がアンインストール（死）してしまうと思っていたカケルにとって、この方法は賭けでもあった。そしてこのうーぱ覚醒作戦は見事に大成功!\n
-と同時にうーぱの力が、想像以上に強大なものであったことに驚く。カケルの圧倒的な操作テクニックと、覚醒したうーぱの力を持って、Ｊを辛くも倒すことができたカケルたちだったが、一瞬の隙をつかれ逃げられてしまう。\n
+うーぱを覚醒させる方法, それは, うーぱ自身の本体プログラムすべてを雷ネットカードに閉じこめて, 攻撃系の雷ネットカードを作り出すこと。\n
+パソコンの外に出してしまうことで, うーぱの存在がアンインストール（死）してしまうと思っていたカケルにとって, この方法は賭けでもあった。そしてこのうーぱ覚醒作戦は見事に大成功!\n
+と同時にうーぱの力が, 想像以上に強大なものであったことに驚く。カケルの圧倒的な操作テクニックと, 覚醒したうーぱの力を持って, Ｊを辛くも倒すことができたカケルたちだったが, 一瞬の隙をつかれ逃げられてしまう。\n
 カケルのチャットウィンドウにＪから「楽しませてもらったよ」の文字。\n
-悔しがるカケルたち。なにもなかったかのように、かわいいデスクトップアクセサリーに戻るうーぱ。\n
+悔しがるカケルたち。なにもなかったかのように, かわいいデスクトップアクセサリーに戻るうーぱ。\n
 \n
 すべてを見ていたサイバードラゴン。成長したカケルたちをほほえましく見つめている。\n
 \n
 【Cyber Dragon】\n
-「がんばれ、カケル――」\n
+「がんばれ, カケル――」\n
 \n
-惜しくもＪは逃してしまったが、サイバードラゴンは、カケルたちが確実に成長していることを実感していたのだ。彼の正体はいったい……!?
+惜しくもＪは逃してしまったが, サイバードラゴンは, カケルたちが確実に成長していることを実感していたのだ。彼の正体はいったい……!?
 <END2>
 
 #WRITE(PTR, $00005608)
 （次回予告）\n
 \n
-ネットの世界を狙うハッカーたちは、まだまだたくさんいる。\n
-雷ネットの戦いは、始まったばかりなのだ!\n
-僕たちは、新たな決意を胸に、ネットの秩序を守るために駆け出す。\n
-大いなる、未来へと向けて――!!!\n
+ネットの世界を狙うハッカーたちは, まだまだたくさんいる。\n
+雷ネットの戦いは, 始まったばかりなのだ!\n
+僕たちは, 新たな決意を胸に, ネットの秩序を守るために駆け出す。\n
+大いなる, 未来へと向けて――!!!\n
 \n
-え、でもなにこの次回タイトル!　Woman子小学生だって……!?\n
+え, でもなにこの次回タイトル! Woman子小学生だって……!?\n
 \n
-雷ネット翔　■アクセスＮｏ.13\n
-『伝説のWoman子小学生ハッカー、ウィル・チャイナ　来日!』\n
+雷ネット翔 ■アクセスＮｏ.13\n
+『伝説のWoman子小学生ハッカー, ウィル・チャイナ 来日!』\n
 \n
 \n
-次回も、デュアルアクセス!
+次回も, デュアルアクセス!
 <END2>
 
 #WRITE(PTR, $00005610)
@@ -8417,9 +8419,9 @@ fake me
 \L343 名前:\c5JOHN TITOR\c0:2010/07/28(水) 20:47:42 ID:QA4nAofm0\n
 \n
 \T02タイムマシンはSERNによって独占されています。\n
-\T02一般人も、国家も、企業も、手に入れる事は出来ません。\n
-\T02彼らはそれを自身の利権の為だけに用いて、世界に\c4ディストピア\c0をもたらしました。\n
-\T02争いは完全に消えましたが、それは偽りの平和に過ぎません。\n
+\T02一般人も, 国家も, 企業も, 手に入れる事は出来ません。\n
+\T02彼らはそれを自身の利権の為だけに用いて, 世界に\c4ディストピア\c0をもたらしました。\n
+\T02争いは完全に消えましたが, それは偽りの平和に過ぎません。\n
 \n
 \T02ｋｗｓｋとは何です?\n
 \n
@@ -8453,12 +8455,12 @@ fake me
 \L476 名前:\c5JOHN TITOR\c0:2010/07/28(水) 22:07:41 ID:QA4nAofm0\n
 \n
 \T02私は現在を（あなたがたから見れば未来ですね）変えるという崇高な使命の為にやって来ました。\n
-\T02SERNによって作られたディストピアを破壊し、再び自由を手にする為です。\n
+\T02SERNによって作られたディストピアを破壊し, 再び自由を手にする為です。\n
 \T02この時代はとても心地が良いですね。人々が自由を謳歌している。\n
 \n
-\T02けれどこの自由も、僅か20年で失われてしまうという事を、みなさんは知らなければなりません。\n
+\T02けれどこの自由も, 僅か20年で失われてしまうという事を, みなさんは知らなければなりません。\n
 \n
-\T02酉とは何でしょうか?　教えて頂ければ対応します。\n
+\T02酉とは何でしょうか? 教えて頂ければ対応します。\n
 \n
 \n
 \L477 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:07:52 ID:woBqDu/kO\n
@@ -8467,7 +8469,7 @@ fake me
 \T02タイムマシンはSERNが独占してるならそうなるよな\n
 \T02だったらSERNの作ったディストピアを破壊するなんて目的は矛盾してる\n
 \n
-\T02論　破　終　了\n
+\T02論 破 終 了\n
 \n
 \n
 \L478 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:08:20 ID:0EmRpgw80\n
@@ -8485,7 +8487,7 @@ fake me
 \n
 \L480 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:11:06 ID:hXaIbr0U0\n
 \n
-\T02タイター氏1人の都合で未来を変えるって?　とんだ傲慢さだ。\n
+\T02タイター氏1人の都合で未来を変えるって? とんだ傲慢さだ。\n
 \T02ディストピアだっていーじゃん平和なんだろ\n
 \n
 \n
@@ -8494,24 +8496,24 @@ fake me
 #WRITE(PTR, $0000561C)
 \L523 名前:\c5JOHN TITOR\c0:2010/07/28(水) 22:43:19 ID:QA4nAofm0\n
 \n
-\T02私のタイムマシンは、SERNの技術を盗んで作ったプロトタイプと言うべきでしょう。\n
+\T02私のタイムマシンは, SERNの技術を盗んで作ったプロトタイプと言うべきでしょう。\n
 \T02あまり性能は良くありません。\n
 \n
-\T022036年を例えるならば、独裁者によって地球が支配されたようなものです。\n
-\T02独裁者は人々に対して完璧なる管理を行い、プライバシーは一切無く、食べ物の量も住む場所も結婚する相手も自動的に決められます。\n
+\T022036年を例えるならば, 独裁者によって地球が支配されたようなものです。\n
+\T02独裁者は人々に対して完璧なる管理を行い, プライバシーは一切無く, 食べ物の量も住む場所も結婚する相手も自動的に決められます。\n
 \T02そして独裁者に逆らう者は容赦なく殺されます。裁判等も有りません。\n
 \n
 \n
 \L524 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:44:33 ID:JLrNSYyx0\n
 \n
-\T02映画で見たことあるけど、過去を変えると未来が大きく変わるんですよ\n
+\T02映画で見たことあるけど, 過去を変えると未来が大きく変わるんですよ\n
 \T02なんの考えもなく自分の都合だけで今を変えて\n
 \T02未来がとんでもないことになったらどうするつもりですか\n
 \n
 \n
 \L525 名前:\rs栗悟飯とカメハメ波\re:2010/07/28(水) 22:44:51 ID:hdIy4Epi0\n
 \n
-\T02え、なにそれSERN＝独裁者とか言いたいの?\n
+\T02え, なにそれSERN＝独裁者とか言いたいの?\n
 \T02SERNがどんな機関か知らんのか\c4ｗ\c0\n
 \n
 \n
@@ -8523,7 +8525,7 @@ fake me
 \L527 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:46:32 ID:DBCLLiEc0\n
 \n
 \T02こいつの父親特定しようぜ\n
-\T02で、それを殺しちゃえばはた迷惑なタイムトラベラー（笑）は生まれないだろ\n
+\T02で, それを殺しちゃえばはた迷惑なタイムトラベラー（笑）は生まれないだろ\n
 \n
 \n
 \L528 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:47:41 ID:swA91YIrO\n
@@ -8537,18 +8539,18 @@ fake me
 #WRITE(PTR, $00005620)
 \L689 名前:\c5JOHN TITOR\c0:2010/07/28(水) 23:31:58 ID:QA4nAofm0\n
 \n
-\T02所謂、祖父のパラドックスと言うものですね。\n
+\T02所謂, 祖父のパラドックスと言うものですね。\n
 \T02しかしそれは発生しない事が証明されています。\n
-\T02計測した所、私の居た世界線と比べて、\n
+\T02計測した所, 私の居た世界線と比べて, \n
 \T02この世界線は0.571024％の変動率になっています。\n
 \T02私の父が殺されれば世界線変動率はさらに歪むでしょう。\n
-\T02それは私の父が殺された世界と言う可能性を生みますが、\n
+\T02それは私の父が殺された世界と言う可能性を生みますが, \n
 \T02殺されなかった世界が無くなる訳ではありません。\n
 \n
 \T02SERNは素粒子物理学の研究機関です。\n
 \T02それはこの時代も2036年も変わりません。\n
 \n
-\T02勿論、過去の自分に会う事は出来ます。\n
+\T02勿論, 過去の自分に会う事は出来ます。\n
 \T02会ったとしても何も起こらないと言うのが2036年における主流の考え方です。\n
 \T02私は残念ながら過去の自分に会った事は有りません。\n
 \n
@@ -8561,7 +8563,7 @@ fake me
 \n
 \L691 名前:\rs名無しの予言者さん\re:2010/07/28(水) 23:33:10 ID:gzWW0UajO\n
 \n
-\T02もしかして多世界解釈っすか?　マジパネェっす\n
+\T02もしかして多世界解釈っすか? マジパネェっす\n
 \n
 \n
 \L692 名前:\rs栗悟飯とカメハメ波\re:2010/07/28(水) 23:34:26 ID:hdIy4Ep10\n
@@ -8575,8 +8577,8 @@ fake me
 \L711 名前:\c5JOHN TITOR\c0:2010/07/28(水) 23:49:26 ID:QA4nAsfn0\n
 \n
 \T02私は自分の存在について証明する気も有りません。\n
-\T02此処にこうして書き込んだのは、ちょっとした気紛れですので。\n
-\T02私は私の使命に基づいて、粛々とすべき事をするだけです。\n
+\T02此処にこうして書き込んだのは, ちょっとした気紛れですので。\n
+\T02私は私の使命に基づいて, 粛々とすべき事をするだけです。\n
 \n
 \n
 \L712 名前:\rs名無しの予言者さん\re:2010/07/28(水) 23:49:45 ID:YmIvn94/0\n
@@ -8604,18 +8606,18 @@ fake me
 #WRITE(PTR, $00005628)
 \L807 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/29(木) 00:50:57 ID:4Co5c6io0\n
 \n
-\T02世界線は、無数に並行して流れる川のようなものです。\n
+\T02世界線は, 無数に並行して流れる川のようなものです。\n
 \T02途中で幾つにも分岐していきます。\n
 \T02例えばあなたがこの掲示板に書き込みをしたかしなかったか程度では世界線変動率に変化は有りません。\n
 \T02しかしあなたが通り魔に殺された場合は世界線変動率が変化します。\n
-\T02と言っても、ほんの0.000002％程度でしょうけれど。\n
-\T02誤解しないよう追記しておくと、人はそれだけ沢山居るという事です。\n
-\T02戦争や大きなテロ等が起きれば、その数値の幅も大きくなります。\n
+\T02と言っても, ほんの0.000002％程度でしょうけれど。\n
+\T02誤解しないよう追記しておくと, 人はそれだけ沢山居るという事です。\n
+\T02戦争や大きなテロ等が起きれば, その数値の幅も大きくなります。\n
 \n
-\T02トリップについて教えて下さった方、ありがとう。\n
+\T02トリップについて教えて下さった方, ありがとう。\n
 \T02以後はこれを付ければ良いのですね。覚えておきます。\n
 \n
-\T02今日は少し疲れてしまったので、また後日。\n
+\T02今日は少し疲れてしまったので, また後日。\n
 \T02みなさんとお話出来て楽しかったです。\n
 \n
 \n
@@ -8629,10 +8631,10 @@ fake me
 \n
 \T02みなさんは時間の概念について固定観念に支配されているようです\n
 \T02時間は過去から未来へ一方向へ流れている訳では有りません\n
-\T02もっと正確に言うならば、因果律は何が有っても矛盾を許さず結果の部分が改変された場合、それに伴う原因も破綻が無いよう改変されるのです\n
+\T02もっと正確に言うならば, 因果律は何が有っても矛盾を許さず結果の部分が改変された場合, それに伴う原因も破綻が無いよう改変されるのです\n
 \n
-\T02ダイバージェンスが変動する事を認識できる者が滅多に居ないのは、そう言う理由です\n
-\T02（ダイバージェンスとは、世界線変動率の事を指します）\n
+\T02ダイバージェンスが変動する事を認識できる者が滅多に居ないのは, そう言う理由です\n
+\T02（ダイバージェンスとは, 世界線変動率の事を指します）\n
 \n
 \n
 \L230 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:36:47 ID:EwxU7IKuO\n
@@ -8649,28 +8651,28 @@ fake me
 \n
 \L232 名前:\rs栗悟飯とカメハメ波\re:2010/07/30(金) 17:37:50 ID:c4YGJQG0\n
 \n
-\T02ダイバージェンスとかいうものの変動を認識できないなら、なんでタイターは変動率の数値を観測できているんだ?\n
-\T02あ、そうか、タイムマシンにはそれを計測できる装置も載っているんですね分かりますｗｗｗｗｗ\n
+\T02ダイバージェンスとかいうものの変動を認識できないなら, なんでタイターは変動率の数値を観測できているんだ?\n
+\T02あ, そうか, タイムマシンにはそれを計測できる装置も載っているんですね分かりますｗｗｗｗｗ\n
 \n
-\T02あと、研究機関だったSERNがいつの間にか世界を支配する統治機関に変貌した件について前から質問してるわけだが、いつ答えてくれるんですかねえジョンさんｗ\n
+\T02あと, 研究機関だったSERNがいつの間にか世界を支配する統治機関に変貌した件について前から質問してるわけだが, いつ答えてくれるんですかねえジョンさんｗ\n
 \n
 \n
 \L233 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:38:18 ID:oPnJf03PO\n
 \n
-\T02話は聞かせてもらった!　人類は滅亡する!（AA略\n
+\T02話は聞かせてもらった! 人類は滅亡する!（AA略\n
 \n
 \n
 \L234 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:39:04 ID:zpCcZ/Db0\n
 \n
-\T02ネタにマジレス、かこわるいｗ\n
+\T02ネタにマジレス, かこわるいｗ\n
 \T02タイターなんて釣りネタだろ\n
 \n
 \n
-\L235 名前:\rs鳳凰院凶真\re:2010/07/30(金) 17:40:23 ID:VigrFpib0\n
+\L235 名前:\rsHououin Kyouma\re:2010/07/30(金) 17:40:23 ID:VigrFpib0\n
 \n
-\T02どいつもこいつもタイターに対する誹謗中傷ばかりで、まともに議論しようという気がないようだな。だから貴様らは屑なのだ!\n
+\T02どいつもこいつもタイターに対する誹謗中傷ばかりで, まともに議論しようという気がないようだな。だから貴様らは屑なのだ!\n
 \n
-\T02時間が過去から未来へ流れているわけではないというなら、タイムマシンはぐっと身近な装置になるということだ未来から過去へ行くという行為が、時空の『逆行』ではなくなるわけだからな\n
+\T02時間が過去から未来へ流れているわけではないというなら, タイムマシンはぐっと身近な装置になるということだ未来から過去へ行くという行為が, 時空の『逆行』ではなくなるわけだからな\n
 \T02タイターの言うことにはうなずける部分がある\n
 \n
 \T02ところでタイターにSERNが今やっている実験についてもっと詳しく教えてもらいたい\n
@@ -8691,7 +8693,7 @@ fake me
 \L238 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:42:22 ID:5mZEpBkKO\n
 \n
 \T02つーかコテハンウザくね?\n
-\T02タイターより鳳凰院凶真ってヤツの方がウザい\n
+\T02タイターよりHououin Kyoumaってヤツの方がウザい\n
 \n
 \n
 \L239 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:42:49 ID:NFnnAEedO\n
@@ -8705,8 +8707,8 @@ fake me
 \n
 \L240 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:43:36 ID:ujdOuBNyO\n
 \n
-\T02タイムマシンがもし本当にあるなら、私はタイターさんにお願いしたいことがあります。\n
-\T02去年、母が渋谷の地震で亡くなりました。母が出かけるのを私が止めていれば、死んだりすることはなかった。\n
+\T02タイムマシンがもし本当にあるなら, 私はタイターさんにお願いしたいことがあります。\n
+\T02去年, 母が渋谷の地震で亡くなりました。母が出かけるのを私が止めていれば, 死んだりすることはなかった。\n
 \T02だからタイムマシンを貸して下さい!\n
 \n
 \n
@@ -8722,25 +8724,25 @@ fake me
 #WRITE(PTR, $00005630)
 \L311 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/30(金) 18:09:37 ID:nE2bVz8A0\n
 \n
-\T02時間は一方向には流れていないと言う事について、みなさんは特に何も感じなかったようですね。\n
+\T02時間は一方向には流れていないと言う事について, みなさんは特に何も感じなかったようですね。\n
 \T02それが固定観念に支配されている証拠です。\n
-\T02そしてその固定観念を破ろうとしないのは、私の目から見るとかなり深刻です。\n
+\T02そしてその固定観念を破ろうとしないのは, 私の目から見るとかなり深刻です。\n
 \T02ディストピアが構築されてしまった理由が何となく分かったような気がします。\n
 \n
 \n
-\T02ダイバージェンスが変わるような大きな出来事が発生すると、その度に過去は因果律に沿って矛盾が無いよう再構成されます。\n
-\T02例えば今、この世界線が、とある重大な出来事が発生した事でダイバージェンスが大きく変動し、世界線Ｂへ移ったとします。\n
-\T02世界線Ｂには、残念ながらこの＠ちゃんねるというネット掲示板は存在していませんでした。\n
-\T02その場合、あなたがたの中に有る『＠ちゃんねるを見た。\n
-\T02書き込みをした』と言うこれまでの記憶は消去され、その時間に別の事をしていた記憶が構築されるのです。\n
+\T02ダイバージェンスが変わるような大きな出来事が発生すると, その度に過去は因果律に沿って矛盾が無いよう再構成されます。\n
+\T02例えば今, この世界線が, とある重大な出来事が発生した事でダイバージェンスが大きく変動し, 世界線Ｂへ移ったとします。\n
+\T02世界線Ｂには, 残念ながらこの＠ちゃんねるというネット掲示板は存在していませんでした。\n
+\T02その場合, あなたがたの中に有る『＠ちゃんねるを見た。\n
+\T02書き込みをした』と言うこれまでの記憶は消去され, その時間に別の事をしていた記憶が構築されるのです。\n
 \n
-\T02これはつまり、現在を変える事で過去も変わる事の証明です。\n
+\T02これはつまり, 現在を変える事で過去も変わる事の証明です。\n
 \n
-\T02SERNについては昨日説明しました。あえて説明を付け加えるとするなら、彼らの言う事を安易に信じてはならないと言う事です。\n
+\T02SERNについては昨日説明しました。あえて説明を付け加えるとするなら, 彼らの言う事を安易に信じてはならないと言う事です。\n
 \T02既に彼らはマイクロブラックホール生成に成功しています。\n
 \n
 \n
-\L312 名前:\rs鳳凰院凶真\re:2010/07/30(金) 18:10:13 ID:VigrFpib0\n
+\L312 名前:\rsHououin Kyouma\re:2010/07/30(金) 18:10:13 ID:VigrFpib0\n
 \n
 \T02>>栗悟飯とカメハメ波\n
 \n
@@ -8748,9 +8750,9 @@ fake me
 \T02最初からウソだと決め込んでけんか腰になるより\n
 \T02例えそれがウソだろうが本当だろうがタイターの語ろうとしていることを聞いてから判断すればいいだけのこと\n
 \n
-\T02この俺、マッドサイエンティスト鳳凰院凶真こそが近い将来タイターとコンタクトを取ってタイムマシンを手に入れてやる\n
+\T02この俺, マッドサイエンティストHououin Kyoumaこそが近い将来タイターとコンタクトを取ってタイムマシンを手に入れてやる\n
 \n
-\T02そのとき俺は勝ち組になる。指をくわえてみているがいい、下衆どもが!\n
+\T02そのとき俺は勝ち組になる。指をくわえてみているがいい, 下衆どもが!\n
 \n
 \n
 \L313 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:11:05 ID:pBgaGka90\n
@@ -8766,7 +8768,7 @@ fake me
 \T02それは世界が再構築されてるとは言わないだろボケが\n
 \T02人の脳内で記憶が調整されてるってことじゃねえか\n
 \T02全然違うわアホか\n
-\T02そもそも、いったい誰が67億もの人間の脳を同時に調整してくれるんだ?\n
+\T02そもそも, いったい誰が67億もの人間の脳を同時に調整してくれるんだ?\n
 \T02自分自身が認識してそれをしてるのか?\n
 \n
 \T02少なくとも漏れにはそんな調整した覚えもされた覚えもないぞ\n
@@ -8801,7 +8803,7 @@ fake me
 \L318 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:13:44 ID:upvTBIcuO\n
 \n
 \T02タイターさんもヒャッハーしてたのか!\n
-\T02くそっ、萌えるじゃねえか!\n
+\T02くそっ, 萌えるじゃねえか!\n
 \n
 \n
 \L319 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:14:10 ID:JqAkKre70\n
@@ -8815,14 +8817,14 @@ fake me
 \L320 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/30(金) 18:15:19 ID:nE2bVz8A0\n
 \n
 \T02\rs>>314\re\n
-\T02成る程、こうして番号を指定する事で返事とするのですね。\n
+\T02成る程, こうして番号を指定する事で返事とするのですね。\n
 \n
 \T02世界の再構築と\n
 \T02人の脳内での記憶の調整\n
 \n
-\T02私はどちらも同じ意味だと思っているのですが、何故あなたは違うと思うのですか?\n
+\T02私はどちらも同じ意味だと思っているのですが, 何故あなたは違うと思うのですか?\n
 \n
-\T02世界線の変動を認識出来る人間は、一部を除いて存在しません。\n
+\T02世界線の変動を認識出来る人間は, 一部を除いて存在しません。\n
 \T02世界線が変わった時点で再構築は終了しているのです。\n
 \n
 \T02ヒャッハーとは何でしょうか?\n
@@ -8837,7 +8839,7 @@ fake me
 \T02人々は自分の食べる物を自分で育てています。\n
 \T02世界中で経済活動は遮断され人は1日のほとんどの時間を農場で過ごします。\n
 \n
-\T02科学技術は間違いなく発展していますが、\n
+\T02科学技術は間違いなく発展していますが, \n
 \T02それが人々に提供される機会は少ないです。\n
 \n
 \T02ほとんどをSERNとその背後に居る委員会が牛耳っていLukaらです。\n
@@ -8879,10 +8881,10 @@ fake me
 \n
 \T0220世紀末に崩壊したシステムが何故全世界規模で完璧に機能しているのか。\n
 \T02みなさんは疑問に思いませんか?\n
-\T02それが、私がタイムトラベルをして来た理由です。\n
+\T02それが, 私がタイムトラベルをして来た理由です。\n
 \n
-\T02はい、私は確かにテロリストと言われてもやむを得ないかも知れません。\n
-\T02私は自分たちの事はレジスタンスと考えていますが、やっている事はテロ行為です。\n
+\T02はい, 私は確かにテロリストと言われてもやむを得ないかも知れません。\n
+\T02私は自分たちの事はレジスタンスと考えていますが, やっている事はテロ行為です。\n
 \T02私のような行動を取る人間や組織は少数ながら存在します。\n
 \n
 \n
@@ -8896,7 +8898,7 @@ fake me
 \L650 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:29:38 ID:PbuGe/D9O\n
 \n
 \T02やっぱテロリストじゃん\n
-\T02何人殺したんだ?　その犠牲者に俺の子供が含まれてたらどうするんだよ\n
+\T02何人殺したんだ? その犠牲者に俺の子供が含まれてたらどうするんだよ\n
 \T02マジでタイターの親を見つけ出して今のうちに殺しとくべきじゃね?\n
 \n
 \n
@@ -8921,7 +8923,7 @@ fake me
 \T02SERNがタイムマシン使いまくってるらしいからそれで実験したんじゃね?\n
 \n
 \n
-\L654 名前:\rs鳳凰院凶真\re:2010/07/31(土) 07:37:53 ID:m7YluS130\n
+\L654 名前:\rsHououin Kyouma\re:2010/07/31(土) 07:37:53 ID:m7YluS130\n
 \n
 \T02\rs>>650\re\n
 \n
@@ -8936,7 +8938,7 @@ fake me
 \n
 \L655 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:39:57 ID:VZyBYXNK0\n
 \n
-\T02え、もしかしてJohn Titorって共産主義の工作員だったの?\n
+\T02え, もしかしてJohn Titorって共産主義の工作員だったの?\n
 \T02今どきそんなの流行らないからやめとけって\n
 \n
 \n
@@ -8957,7 +8959,7 @@ fake me
 \n
 \L659 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/31(土) 07:50:00 ID:/p3RJYvh0\n
 \n
-\T02私がこの時代に来た目的は、既に説明した通り未来を変える為です。\n
+\T02私がこの時代に来た目的は, 既に説明した通り未来を変える為です。\n
 \T02こうして掲示板に書き込んでいるのは警鐘を鳴らす為です。\n
 \T02ただおそらく世界線の収束によって無意味になるでしょうが。\n
 \T02けれど気付いてさえ貰えれば良いのです。\n
@@ -8967,12 +8969,12 @@ fake me
 \T02第3次世界大戦とは何の事でしょうか?\n
 \T02それもまたあなたが見たと言う別の世界線での私が言ったのですか?\n
 \n
-\T02あなたとは一度、ゆっくりお話ししたいですね。\n
+\T02あなたとは一度, ゆっくりお話ししたいですね。\n
 \T02メールアドレスにご連絡を貰えれば返事を書きます。\n
 \n
-\T02勿論鳳凰院さん以外の方からも、\n
+\T02勿論鳳凰院さん以外の方からも, \n
 \T02まともなメールについてはお待ちしています。\n
-\T02今の所、誹謗中傷のメールしか来ていませんので。\n
+\T02今の所, 誹謗中傷のメールしか来ていませんので。\n
 \n
 \T02改めて連絡先を明記しておきます。\n
 \T02\rsjohn_titor@egweb.ne.jp\re\n
@@ -8986,7 +8988,7 @@ fake me
 \T04タイムマシンの仕組みについてみなさんは非常に興味が有るようですね。\n
 \T04勿論教えても構いませんよ。\n
 \T04ちなみに現代の技術では恐らく再現するのは不可能でしょう。\n
-\T04特に一部の機構については、SERNが2034年に完成させるまで待たなければなりません。\n
+\T04特に一部の機構については, SERNが2034年に完成させるまで待たなければなりません。\n
 \n
 \T04タイムトラベルは重力を変える事で行います。\n
 \T04基本的概念は双子のパラドックスを用いていると考えてもらえれば良いです。\n
@@ -9016,7 +9018,7 @@ fake me
 \T04株価情報教えろっつーの\n
 \n
 \n
-\L234 :\c5鳳凰院凶真\c0:2010/07/29(木) 15:06:39 ID:1Kz7Z7Sn0\n
+\L234 :\c5Hououin Kyouma\c0:2010/07/29(木) 15:06:39 ID:1Kz7Z7Sn0\n
 \n
 \T04\rs>>229\re\n
 \n
@@ -9030,7 +9032,7 @@ fake me
 \n
 \T04\rs>>229\re\n
 \n
-\T04私はホモですｱｯｰ!、まで読んだ\n
+\T04私はホモですｱｯｰ!, まで読んだ\n
 \n
 \n
 \L236 :\rs名無しの予言者さん\re:2010/07/29(木) 15:07:23 ID:Lqjl70lsO\n
@@ -9062,7 +9064,7 @@ fake me
 \T04ティプラー・シリンダーってティプラー・マシンのことか?\n
 \T04アホかｗ\n
 \n
-\T04ティプラー・マシンは理論上「直径10ｋｍ、長さ100ｋｍ、太陽と同じ質量の円筒」を秒速2500回転させないとタイムマシンとして成立しないんだぞｗ\n
+\T04ティプラー・マシンは理論上「直径10ｋｍ, 長さ100ｋｍ, 太陽と同じ質量の円筒」を秒速2500回転させないとタイムマシンとして成立しないんだぞｗ\n
 \T04シボルエにそんなもん載ると思ってんのかよ\n
 \T04しかもティプラー・マシンはシリンダーが作られたときより過去へは移動できないし\n
 \n
@@ -9075,12 +9077,12 @@ fake me
 \n
 \T04これは驚きました。\n
 \T04私のタイムマシンは既にこの時代の人には知られていると言う事でしょうか?\n
-\T0410年前に現れた、と言うのは私の事ですか?\n
-\T04ならば鳳凰院凶真は別の世界線で私を見たと言う事だと思います。\n
+\T0410年前に現れた, と言うのは私の事ですか?\n
+\T04ならばHououin Kyoumaは別の世界線で私を見たと言う事だと思います。\n
 \T04少なくとも私はまだ2000年へは行っていません。\n
 \n
 \T04重要なのは回転するブラックホールにはティプラー・シリンダーと同じようにタイムトラベルの効果が有ると言う事です。\n
-\T04カー・ブラックホールについてはペンローズダイアグラムか、ティプラーの計算を見れば分かるはずです。\n
+\T04カー・ブラックホールについてはペンローズダイアグラムか, ティプラーの計算を見れば分かるはずです。\n
 \T04このカー・ブラックホールを2つ生成する事でタイムトラベルを行います。\n
 \n
 \n
@@ -9091,7 +9093,7 @@ fake me
 \n
 \L267 :\c5名無しの予言者さん\c0:2010/07/29(木) 15:22:26 ID:gigiR1Hh0\n
 \n
-\T04タイターが10年前にも現れていたってマジ?　ソースは?\n
+\T04タイターが10年前にも現れていたってマジ? ソースは?\n
 \n
 \n
 \L268 :\rs名無しの予言者さん\re:2010/07/29(木) 15:23:17 ID:K483z8/c0\n
@@ -9121,7 +9123,7 @@ fake me
 \n
 \T04カー・ブラックホールでのタイムトラベルは確かに理論的に可能だけど問題がいくつか\n
 \n
-\T041.どうやってブラックホールを回転させる?　まさか自然に回転してるブラックホールが見つかるまで待つとか言うなよ?\n
+\T041.どうやってブラックホールを回転させる? まさか自然に回転してるブラックホールが見つかるまで待つとか言うなよ?\n
 \n
 \T042.カー・ブラックホール内のミクロ\c4特異点\c0をどうやって通過するつもりだ?\n
 \T04シボルエがそのすさまじい重力に耐えられるわけないぞ\n
@@ -9129,7 +9131,7 @@ fake me
 \n
 \L272 :\rs名無しの予言者さん\re:2010/07/29(木) 15:26:00 ID:jPm+uqabO\n
 \n
-\T04ジョンさんはなんで説明を小出しにしてるの?　馬鹿なの?　死ぬの?\n
+\T04ジョンさんはなんで説明を小出しにしてるの? 馬鹿なの? 死ぬの?\n
 \n
 \n
 \L273 :\c5名無しの予言者さん\c0:2010/07/29(木) 15:26:08 ID:ZPjtoV5f0\n
@@ -9137,7 +9139,7 @@ fake me
 \T04株価情報ﾏﾀﾞｰ?(・∀・ )っ/凵⌒☆ﾁﾝﾁﾝ\n
 \n
 \n
-\L274 :\c5鳳凰院凶真\c0:2010/07/29(木) 15:26:54 ID:1Kz7Z7Sn0\n
+\L274 :\c5Hououin Kyouma\c0:2010/07/29(木) 15:26:54 ID:1Kz7Z7Sn0\n
 \n
 \T04これは俺の妄想などではない\n
 \T04紛れもなく10年前にタイター自身が語ったことだ\n
@@ -9152,14 +9154,14 @@ fake me
 #WRITE(PTR, $00005640)
 \L312 :\c5JOHNTITOR◆f8VuYnoyWU\c0:2010/07/29(木) 15:37:55 ID:4Co5c6io0\n
 \n
-\T04はい、重力歪曲装置は積まれています。\n
+\T04はい, 重力歪曲装置は積まれています。\n
 \T04私のタイムマシンはSERN製ではなくそれを参考にした独自の物なので\n
 \T04この重力歪曲装置が若干不安定です。\n
 \n
-\T04この装置によってミクロ特異点を発生させたり、通過時の重力調整を行います。\n
+\T04この装置によってミクロ特異点を発生させたり, 通過時の重力調整を行います。\n
 \T04ミクロ特異点に電子を注入する事でそれは可能です。\n
 \T04電子注入により特異点は超高速回転を始め局所重力正弦波が発生するのです。\n
-\T04私は専門家では無いですので、仕組みについてはこれ以上は適切な説明が出来ません。\n
+\T04私は専門家では無いですので, 仕組みについてはこれ以上は適切な説明が出来ません。\n
 \T04カー・ブラックホールは人工的に作る事が可能とだけ言っておきます。\n
 \n
 \T04SERNが2010年時点でブラックホール生成実験を行っている事についてはみなさんもご存じの筈です。\n
@@ -9184,9 +9186,9 @@ fake me
 \n
 \L316 :\rs栗悟飯とカメハメ波\re:2010/07/29(木) 15:40:27 ID:0WM1H5LT0\n
 \n
-\T04説明しないんじゃなくて、説明できないんだろｗ\n
+\T04説明しないんじゃなくて, 説明できないんだろｗ\n
 \n
-\T04移動先の指定はどうする?　地球は常に宇宙空間を動き続けてるんだぞ\n
+\T04移動先の指定はどうする? 地球は常に宇宙空間を動き続けてるんだぞ\n
 \n
 \T04ちなみにタイター＝鳳凰院説について提唱してみるｗ\n
 \n
@@ -9197,12 +9199,12 @@ fake me
 \L379 :\c5JOHNTITOR◆f8VuYnoyWU\c0:2010/07/29(木) 16:01:20 ID:4Co5c6io0\n
 \n
 \T04移動先の指定はＶＧＬで行います\n
-\T04ＶAｌｕAｂｌｅ　ＧｒAｖｉｔｙ　Ｌｏｃｋシステム\n
+\T04ＶAｌｕAｂｌｅ ＧｒAｖｉｔｙ Ｌｏｃｋシステム\n
 \T04日本語だと可変重力ロックシステムと言った所でしょうか\n
 \T04重力歪曲装置とセットになっている物です\n
-\T04これで到着予定先の局所重力を読み込み、ティプラー正弦波をその位置にロックするのです\n
-\T04地球の重力を捉えるので、必ず地球が有る場所に到着出来ます\n
-\T044個のセシウム時計の光学システムを利用して計算している為、誤差は極めて微少の物になります\n
+\T04これで到着予定先の局所重力を読み込み, ティプラー正弦波をその位置にロックするのです\n
+\T04地球の重力を捉えるので, 必ず地球が有る場所に到着出来ます\n
+\T044個のセシウム時計の光学システムを利用して計算している為, 誤差は極めて微少の物になります\n
 \n
 \n
 \L380 :\rs名無しの予言者さん\re:2010/07/29(木) 16:02:03 ID:OSrrA5ca0\n
@@ -9216,9 +9218,9 @@ fake me
 \T04てかタイターのうんこのせいで宇宙がヤバい\n
 \n
 \n
-\L382 :\c5鳳凰院凶真\c0:2010/07/29(木) 16:04:15 ID:1Kz7Z7Sn0\n
+\L382 :\c5Hououin Kyouma\c0:2010/07/29(木) 16:04:15 ID:1Kz7Z7Sn0\n
 \n
-\T04そうだ、そんなようなことが本にも書かれてあった気がする\n
+\T04そうだ, そんなようなことが本にも書かれてあった気がする\n
 \n
 \T04だがこれでは結局のところ本の内容をコピペしているだけであって\n
 \T04タイターでなくても誰でもできることになるぞ\n
