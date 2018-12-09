@@ -33,4 +33,5 @@ This will be finished until the end of 2018. The active work will begin December
 - ant08, the source of English translation: [Translation](http://tsuuun.blogspot.com/2012/01/happy-new-year-everyone-and-yeah-its.html), [Blog](http://tsuuun.blogspot.com/)
 - CommitteeOfZero, source of the subtitles for cutscenes, as well as translated backgrounds: [shgd-patch](https://github.com/CommitteeOfZero/sghd-patch), [GitHub](https://github.com/CommitteeOfZero), [Website](http://sonome.dareno.me/)
 - theryusui, help with decompressing/placebo-compressing KLZ files: [Tumblr](https://theryusui.tumblr.com/), [ROMhacking](https://www.romhacking.net/forum/index.php?action=profile;u=181)
+
 yo, if I forgot someone, or if you want me change something about you here, just email me.
