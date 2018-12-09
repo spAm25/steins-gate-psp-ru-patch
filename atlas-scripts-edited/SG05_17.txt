@@ -70,7 +70,7 @@ The only thing certain is that these guys aren't your average shoppers or touris
 <END>
 
 #WRITE(PTR, $00000D7C)
-【Attacker A】Don't move. Everyone, hands in the air.
+【Rounder A】Don't move. Everyone, hands in the air.
 <END>
 
 #WRITE(PTR, $00000D8C)
@@ -590,7 +590,7 @@ SERN!?
 <END>
 
 #WRITE(PTR, $000017A2)
-【Attacker A】M4
+【Rounder A】M4
 <END>
 
 #WRITE(PTR, $000017B2)
@@ -598,7 +598,7 @@ The dark-skinned man says something ambiguous as if addressing Moeka.
 <END>
 
 #WRITE(PTR, $000017C2)
-【Attacker A】Watch your words.
+【Rounder A】Watch your words.
 <END>
 
 #WRITE(PTR, $000017D2)
@@ -1205,7 +1205,7 @@ At her feet, a small stone.
 <END>
 
 #WRITE(PTR, $000036C2)
-【Attacker B】Gweh!!
+【Rounder B】Gweh!!
 <END>
 
 #WRITE(PTR, $0000372E)
@@ -1229,7 +1229,7 @@ She slides to the feet of the man at the rear, tripping him, and with smooth, fl
 <END>
 
 #WRITE(PTR, $000037A2)
-【Attacker A】Why that...!?
+【Rounder A】Why that...!?
 <END>
 
 #WRITE(PTR, $000037B2)
@@ -1241,7 +1241,7 @@ But before he can, Suzuha snatches a stunned attackers gun and shoots him.
 <END>
 
 #WRITE(PTR, $000037DE)
-【Attacker A】Gwah!!
+【Rounder A】Gwah!!
 <END>
 
 #WRITE(PTR, $000037EE)
@@ -1505,7 +1505,7 @@ Kurisu bites her lip and starts setting up the X68000.
 <END>
 
 #WRITE(PTR, $00003F5A)
-【Attacker A】I won't...let you...!
+【Rounder A】I won't...let you...!
 <END>
 
 #WRITE(PTR, $00003F6A)

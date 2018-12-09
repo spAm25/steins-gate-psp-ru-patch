@@ -821,7 +821,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000096C)
-Just contact me already~(-s -x）Moeka
+Just contact me already~(- -x）
 <END2>
 
 #WRITE(PTR, $00000984)
@@ -3057,7 +3057,7 @@ When I listen to PHANTASM at times like this, I get immersed in a darker feeling
 <END2>
 
 #WRITE(PTR, $000020C4)
-うーぱ…
+Upa...
 <END2>
 
 #WRITE(PTR, $000020C8)
@@ -3065,11 +3065,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000020CC)
-あのね, 今になって, \rsうーぱ\reを落としちゃったことにしょんぼりしてきたよ。去年, でぶっちょ\rsゲロカエルん\reを買えなかったとき以上かも＞＜
+You know, right now I'm really downhearted about dropping my \rsUpa\re. Maybe more so than last year when I didn't buy fatty \rsgero froggy\re ＞＜
 <END2>
 
 #WRITE(PTR, $000020E4)
-資金にしちゃだめー＞＜
+Don't trade it for funds- ＞＜
 <END2>
 
 #WRITE(PTR, $000020E8)
@@ -3077,11 +3077,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000020EC)
-うーぱは大人気なんだよ? 主人公の\rs翔くん\reより人気あるし。ああいうかわいいマスコットキャラはついつい買いたくなっちゃうんだ。まゆしぃ的こだわりなのです。オカリンだって高校の頃, 黒い\rs指出し手袋\reをたくさん集めてたよね? それと同じだよ。
+Upa is super popular, you know? Even more popular than the protagonist, \rsKakeru-kun\re. It's such a cute mascot character it makes me wanna buy them all. It's a very Mayushii-like obsession. I mean, Okarin, when you were in high school, you collected a lot of black \rsfingerless gloves\re, didn't you? It's like that.
 <END2>
 
 #WRITE(PTR, $00002104)
-でぶっちょだけ
+Just Fatty
 <END2>
 
 #WRITE(PTR, $00002108)
@@ -3089,11 +3089,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000210C)
-他のゲロカエルんはちっともほしくなかったけど, \rsでぶっちょ\reだけは欲しかったの。でもね, 今になって思うとあんまりかわいくなかったかも。むしろ気持ち悪いかも。なんで前はあんなに欲しかったのかなあ。そう言えばでぶっちょって\rsDaru\reくんに似てるね♪
+I didn't want any of the other Gero Froggies at all, but I did want \rsFatty\re. But you know, now that I think about it, maybe it wasn't really that cute at all. Actually, it was kind of icky maybe. I wonder why I wanted it that much in the first place. Now that I think about it, Fatty kinda looks like \rsDaru\re-kun.
 <END2>
 
 #WRITE(PTR, $00002124)
-面白いよ
+It's interesting
 <END2>
 
 #WRITE(PTR, $00002128)
@@ -3101,11 +3101,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000212C)
-雷ネット翔はね, とっても面白いよ。オカリンも一度でいいから, 見てみて。けっこうね, 考えさせられる内容も多くてね, 絶対子供向けじゃないと思うなぁ。
+RaiNet Kakeru is really interesting. You should try watching it once, Okarin. There's plenty of deep details that I don't think are aimed at children.
 <END2>
 
 #WRITE(PTR, $00002144)
-燃えたろー
+Burning-
 <END2>
 
 #WRITE(PTR, $00002148)
@@ -3113,11 +3113,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000214C)
-とかってよく言ってたよねー, あの頃のオカリン。どうしてBoyはみんな, 炎使いにあこがれるのかなぁ? ふしぎ。たまにはお花使いとか, ぬいぐるみ使いがいてもいいと思うなー。その方がかわいいもん。
+You said it once back then, Okarin. It seems like all boys are obsessed with fire. Mysterious. I think things like flowers or stuffed animals are good every once in a while-. That's cuter.
 <END2>
 
 #WRITE(PTR, $00002164)
-出てないんじゃないかな?
+Should I go?
 <END2>
 
 #WRITE(PTR, $00002168)
@@ -3125,11 +3125,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000216C)
-去年の渋谷の地震の後は, ちっとも聞かないもん。出ても, まゆしぃは買わないけどね。えっへへー(*´∀｀)
+I haven't heard a thing since after last year's earthquake in Shibuya. Even if I go, Mayushii has no money, though. Ehhehe-（*´∀｀)
 <END2>
 
 #WRITE(PTR, $00002184)
-危ない
+Dangerous
 <END2>
 
 #WRITE(PTR, $00002188)
@@ -3137,7 +3137,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000218C)
-この前ね, Daruくんがラボでお昼寝をしてたんだけど, 無呼吸症候群だったんだー。まゆしぃはとってもびっくりして, 痩せた方がいいよーって言ったんだけど, 聞いてもらえなかったよ。オカリンも言ってあげて?
+Just a little earlier, Daru-kun was taking a nap, but he had sleep apnea-. That really surprised Mayushii, and I told him that he should slim down-, but he didn't listen. Okarin, you should talk to him too.
 <END2>
 
 #WRITE(PTR, $000021A4)
@@ -3149,11 +3149,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000021AC)
-まゆしぃの\rsお小遣い\reがどんどん減っていって大変だよぅ。オカリンやDaruくんもたまには協力すべき～! 食べ物の\rs恨み\reは深いのです＞＜
+Mayushii's \rsspending money\re is getting dangerously low. Okarin, have you and Daru-kun been co-conspiring!? It's so \rsregretful\re to do that to food. ＞＜
 <END2>
 
 #WRITE(PTR, $000021C4)
-ありがとうです♪
+Thank you very much ♪
 <END2>
 
 #WRITE(PTR, $000021C8)
@@ -3161,11 +3161,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000021CC)
-オカリンがそう言ってくれるだけでうれしいよ（≧▽≦）
+Just hearing that from Okarin makes me happy（≧▽≦）
 <END2>
 
 #WRITE(PTR, $000021E4)
-8月だね～
+It's August~
 <END2>
 
 #WRITE(PTR, $000021E8)
@@ -3173,11 +3173,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000021EC)
-オカリン, \rsジャンクフード\re食べる? そろそろ\rsお祭り\reの季節だから, もし出店を見つけたら差し入れで買ってこようと思って。どうかなぁ?
+Okarin, do you eat \rsjunk food\re? It's almost \rsfestival\re season, so if I find any food stalls, I think I'll try them out. What do you think?
 <END2>
 
 #WRITE(PTR, $00002204)
-そう言えば
+That reminds me
 <END2>
 
 #WRITE(PTR, $00002208)
@@ -3185,11 +3185,12 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000220C)
-この前のメールで気になったんだけどね, まゆしぃはどれだけ食べても太らない体質なんだよ。ふしぎ! でもね, 実は毎朝お父さんと一緒にジョギングしているのです。オカリンも一緒に走る? \rs健康\reになれるよ(｀・ω・´)
+I just noticed with that mail from earlier, but Mayushii doesn't get fat no matter how much I eat. Mysterious! But actually, I go jogging with my father each morning. Okarin, want to run with us? You'll get \rshealthy\re. (｀・ω・´)
+
 <END2>
 
 #WRITE(PTR, $00002224)
-りんごあめ
+Candy apple
 <END2>
 
 #WRITE(PTR, $00002228)
@@ -3197,11 +3198,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000222C)
-オカリンに買ってもらったりんごあめがね, すっごくおいしかったんだぁ。そのことをまゆしぃは今でも覚えてるよ。小さい頃はオカリンがよく差し入れしてくれたよね。まゆしぃがジャンクフードを好きになったのもね, きっとオカリンの好みのせいだよ。
+The candy apple you bought for me was really yummy, Okarin. Mayushii still remembers that now. Little Okarin provided well for his prisoners. It's probably Okarin's fault that Mayushii started to like Junk food.
 <END2>
 
 #WRITE(PTR, $00002244)
-がらすね
+Rattsna
 <END2>
 
 #WRITE(PTR, $00002248)
@@ -3209,11 +3210,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000224C)
-そう言えばまゆしぃが中2のときに一緒に行った, 鬼子母神の夏祭り覚えてる? そこでオカリンに射的で取ってもらった『\rsがらすねさん\re』はね, 今も家の机の上に飾ってあるよ。
+Come to think of it, remember when we went together to Hariti's festival when Mayushii was in her 2nd year of high school? Okarin, you know that "\rsRattsna-san\re" you won at target shooting? It's still on my desk at home.
 <END2>
 
 #WRITE(PTR, $00002264)
-にく
+Meat
 <END2>
 
 #WRITE(PTR, $00002268)
@@ -3221,11 +3222,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000226C)
-そう言えばオカリンって昔, いきなり\rs生肉\reを食べたことあったよね? ぐへへ～, って言いながら。んで, お腹壊して1週間くらい学校休んでた。あれってどういう意味だったのかな?
+Come to think of it, Okarin, long ago, didn't you suddenly eat \rsraw meat\re one time? While saying "guhehe"? And then you were absent from school for about a week when it wrecked your stomach. What was that all about?
 <END2>
 
 #WRITE(PTR, $00002284)
-Re:Re:がらすね
+Re: Re: Rattsna
 <END2>
 
 #WRITE(PTR, $00002288)
@@ -3233,11 +3234,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000228C)
-忘れちゃったの? 『がらすねさん』はね, ガラガラヘビのぬいぐるみだよ。今度, ラボに持って行くね。オカリンと久々に再会できるって『がらすねさん』もきっとよろこぶよ♪
+Did you forget? Rattsna-san is that stuffed rattlesnake. I'll bring him over to the lab next time. I'm sure Rattsna-san will be happy to meet you again too, Okarin♪
 <END2>
 
 #WRITE(PTR, $000022A4)
-神秘だね♪
+How mysterious♪
 <END2>
 
 #WRITE(PTR, $000022A8)
@@ -3245,11 +3246,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000022AC)
-そんな大事な儀式だったなら, まゆしぃも食べてみたかったなぁ。今度そういうイベントがあったら教えてね? まゆしぃも頑張って生肉\rs食べてみる\re。
+If it was that important a ceremony, then Mayushii would've wanted to try eating it too. Tell me the next time that event comes, okay? Mayushii wants to give it her all and \rstry eating\re raw meat.
 <END2>
 
 #WRITE(PTR, $000022C4)
-Maidさん歴
+Maid experience
 <END2>
 
 #WRITE(PTR, $000022C8)
@@ -3257,11 +3258,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000022CC)
-そう言えばね, まゆしぃがメイクイーンで\rsバイト\reを始めて, 今日で\rs3ヶ月\reになるんだったよー。今ね, お店に行ったらみんなからお祝いされちゃった(*´∀｀) \rsMaid\reさんになってもう3ヶ月かー。早いなぁ。でもね, 誤解しないでね? まゆしぃの本職は, 人質なんだってちゃんと分かってるよ。
+Come to think of it, Mayushii has had her \rspart time job\re at MayQueen for \rsthree months\re as of today. Everyone at the shop gave me a congratulatory gift just now (*´∀｀) It's been three months since I've become a \rsmaid\re, huh-? Time sure flew. But don't get me wrong, okay? Mayushii remembers her main job is being a hostage.
 <END2>
 
 #WRITE(PTR, $000022E4)
-バイト代
+Salary
 <END2>
 
 #WRITE(PTR, $000022E8)
@@ -3269,11 +3270,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000022EC)
-いつもいつも腹ペコってわけじゃないよぅ。それにバイト代の使い道はね, コス作りの材料費とおやつ代が6：4なんだよ。
+It's not like I'm always, always starving. Besides, I spend my salary at a 6:4 ratio of cosplay materials to snacks.
 <END2>
 
 #WRITE(PTR, $00002304)
-中途半端じゃないよ
+It's not half-baked
 <END2>
 
 #WRITE(PTR, $00002308)
@@ -3281,11 +3282,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000230C)
-3ヶ月っていうのはね, ちゃんとした節目だよ。1ヶ月目も2ヶ月目も, お祝いしてもらったし。
+Three months is a legitimate milestone. They also gave me congratulatory gifts for the first and second months.
 <END2>
 
 #WRITE(PTR, $00002324)
-理由
+The reason
 <END2>
 
 #WRITE(PTR, $00002328)
@@ -3293,11 +3294,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000232C)
-自分でコスプレしない理由は, オカリンにも話したよね。まゆしぃは, あんまり目立ったことはしちゃダメだって自主規制してるんだよ, 人質的な意味で。
+Okarin, I've also told you the reason I don't cosplay myself. Mayushii doesn't want to stand out. I mean, as a hostage.
 <END2>
 
 #WRITE(PTR, $00002344)
-宝くじと言えば
+Speaking about lotteries
 <END2>
 
 #WRITE(PTR, $00002348)
@@ -3305,11 +3306,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000234C)
-まゆしぃは\rs雑誌\reの懸賞に当たったことあるよ。すごいでしょー?(≧∇≦) 当たったのはね, \rsガンバム\reの主人公「セツリ」役の\rs声優\reさんのサインだったのです。
+Mayushii won a \rsmagazine\re sweepstakes once. Amazing, huh-? (≧∇≦) You know the protagonist from \rsGunbam\re, Setsuri? I won an autograph from his \rsvoice actor\re.
 <END2>
 
 #WRITE(PTR, $00002364)
-お出かけですか? レレレ～
+Going out? Lelele~
 <END2>
 
 #WRITE(PTR, $00002368)
@@ -3317,11 +3318,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000236C)
-せっかく\rsガルガリ君\re買ってきたのに, オカリンが食べたいって言ったのに, いないなんてひどいよー。冷蔵庫に入れておくからはやめに食べてね?
+I went through all the trouble to buy some \rsGarugari-kun\re since Okarin said he wanted to eat them, but you're not even here. How cruel-. I put them in the fridge, so eat them quickly, okay?
 <END2>
 
 #WRITE(PTR, $00002384)
-目撃しちゃったぁ!
+I saw her!
 <END2>
 
 #WRITE(PTR, $00002388)
@@ -3329,11 +3330,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000238C)
-すごいよ! ちょうど\rsこの前\re, オカリンと\rsジョイさん\reの話をしたでしょ? そのジョイさんを, さっき中央通りで目撃したのです! 本物だよ本物! 握手してもらっちゃった（≧▽≦）
+Wow! \rsJust a bit earlier\re, I talked to you about \rsJoy-san\re didn't I? I just saw her for myself at Chuo Dori! The real thing! I got to shake her hand（≧▽≦）
 <END2>
 
 #WRITE(PTR, $000023A4)
-戦国武将?
+Sengoku Commander?
 <END2>
 
 #WRITE(PTR, $000023A8)
@@ -3341,11 +3342,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000023AC)
-それってつまり\rs戦国武将\reのコスプレをしたいっていうこと? よ～し, まゆしぃ冬のコミマでがんばっちゃうぞ～。きっとね, Womanの子にモテモテになるよ。それはそれでね, まゆしぃとしてはちょっと\rs複雑な気分\reだけど(*^ω^*)
+So, basically, that means you want to cosplay as a \rsSengoku Commander\re? Awrighty, Mayushii will work hard for Winter ComiMa. I know you'll be popular with the girls. In that case, that might give Mayushii some \rscomplicated feelings\re (*^ω^*)
 <END2>
 
 #WRITE(PTR, $000023C4)
-Lukaちゃんのこと
+About Luka-chan
 <END2>
 
 #WRITE(PTR, $000023C8)
@@ -3353,11 +3354,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000023CC)
-Lukaちゃんがね, \rs雷ネット\reの翔くんコスをオカリンがしてくれるなら許してあげるってー。あ, それともね, うーぱのコスの方がいいかなｗ なぁんて冗談。Lukaちゃんのことはね, まゆしぃに任せといて。
+You know, Luka-chan said if Okarin did \rsRaiNet\re's Kakeru-kun cosplay, she'd let me. Ah, or maybe a Upa cosplay would be better lol. Just kidding. Just leave Luka-chan to Mayushii.
 <END2>
 
 #WRITE(PTR, $000023E4)
-男の娘
+Trap
 <END2>
 
 #WRITE(PTR, $000023E8)
@@ -3365,11 +3366,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000023EC)
-オカリンは実は『男の娘』に憧れてるの? あのね, Woman装コスプレも立派なジャンルの1つだから, 恥ずかしがることないよ。まゆしぃが全面協力します(*´∀｀)
+Okarin, are you actually attracted to "traps"? You know, crossplaying is also a splendid genre, so there's nothing to be ashamed about. You have Mayushii's full support (*´∀｀)
 <END2>
 
 #WRITE(PTR, $00002404)
-Ｍっ気
+Masochism
 <END2>
 
 #WRITE(PTR, $00002408)
@@ -3377,11 +3378,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000240C)
-Lukaちゃんが醸し出してる, いじめたくなっちゃうオーラに反応しちゃったんですね, 分かります。Lukaちゃんと一緒にいるとね, まゆしぃもＳっ気あるのかなぁって思うことがあるもん。でもだからって, リアルでいじめたらダメだよ?（´・ω・`）
+Luka-chan emanates an aura that makes you want to tease her, and you just reacted to that. I understand. When Mayushii's with Luka-chan, I think I also feel a little sadistic. But even so, you shouldn't tease her in real life.（´・ω・`）
 <END2>
 
 #WRITE(PTR, $00002424)
-もしかして
+Don't tell me
 <END2>
 
 #WRITE(PTR, $00002428)
@@ -3389,11 +3390,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000242C)
-オカリンはLukaちゃんのこと好きなのー? でもオカリンてば, 前に好きなWomanの子がいたとき「俺と付き合えば不幸になる。だから俺は遠くから見守っているだけでいい」とか言ってなかったっけ??
+Okarin likes Luka-chan-? But Okarin, the last time there was a girl you liked, didn't you say something like "Going out with me will bring you misfortune. So I'll just watch over you from afar"?
 <END2>
 
 #WRITE(PTR, $00002444)
-翔くん
+Kakeru-kun
 <END2>
 
 #WRITE(PTR, $00002448)
@@ -3401,11 +3402,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000244C)
-詳しくはｗｅｂで!
+Check the interwebs for more details!
 <END2>
 
 #WRITE(PTR, $00002464)
-今日のうれしかったこと
+What made me happy today
 <END2>
 
 #WRITE(PTR, $00002468)
@@ -3413,11 +3414,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000246C)
-\rsフブキちゃんとカエデちゃん\reがね, 今回作った\rsコスプレ\reを誉めてくれたんだぁ。すごくうれしいです(*´∀｀)
+\rsFubuki-chan and Kaede-chan\re praised me for the \rscosplay\re I made them this time. I'm really happy (*´∀｀)
 <END2>
 
 #WRITE(PTR, $00002484)
-何者って…
+Who you say...
 <END2>
 
 #WRITE(PTR, $00002488)
@@ -3425,11 +3426,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000248C)
-前にも説明したよー? 3人でサークルみたいなことやってるんだよ。前にコスプレイベントで知り合ったの。カエデちゃんはスタイル抜群の大学生でね, 戦国時代にはまってるんだって。フブキちゃんはまゆしぃと同い年でね, Boyみたいにボーイッシュだけど, 去年の星来コスはすっごくセクシーだったよ。
+I explained before, didn't I-? The three of us do things like a circle. We got to know each other in a previous cosplay event. Kaede-chan is a stylish, distinguished university student with a major in the Sengoku Period. Fubuki-chan is the same age as Mayushii, and is kinda boyish, but she was really sexy last year in her Seira cosplay.
 <END2>
 
 #WRITE(PTR, $000024A4)
-きっかけ
+The reason
 <END2>
 
 #WRITE(PTR, $000024A8)
@@ -3437,11 +3438,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000024AC)
-何度も話したのに, 忘れちゃったの? オカリンが作ってくれって言ったんだよ?『キングオブヒストリーズ』の炎使いの京次郎コスだったよね。オカリンけっこう似合ってたのに, どうしてあの1回だけでやめちゃったのー? もったいないのです（´・ω・`）
+You forgot even though we talked about it so often? Okarin told me to make it, right? A costume of Kyoujirou, the flame user in "King of Histories". It really suited you, Okarin, so why are you quitting after just one time? That's a waste（´・ω・` ）
 <END2>
 
 #WRITE(PTR, $000024C4)
-どこ行くの?
+Where are you going?
 <END2>
 
 #WRITE(PTR, $000024C8)
@@ -3449,11 +3450,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000024CC)
-オカリンどこか行くの? クリスちゃんと\rsデート\re? いいなー。\rsうらやましい\reなー（´・ω・`）
+Okarin, where are you going? A \rsdate\re with Cris-chan? How nice-. I'm \rsjelly\re（´・ω・` ）
 <END2>
 
 #WRITE(PTR, $000024E4)
-難しいお話かな?
+A difficult conversation?
 <END2>
 
 #WRITE(PTR, $000024E8)
@@ -3461,11 +3462,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000024EC)
-そっかー, ちょっとだけホッとしちゃった。なんでかなぁ? 今までは, こんな気持ちにならなかったのにね。
+I see-, I'm a little relieved. Why's that? I've never felt this way before.
 <END2>
 
 #WRITE(PTR, $00002504)
-デート
+Date
 <END2>
 
 #WRITE(PTR, $00002508)
@@ -3473,11 +3474,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000250C)
-デートしたい。行くなら『サンボ』と『キッチン・ジロー』のどっちかだよ(*´∀｀)
+I wanna go on a date. Would you rather go to Sanbo or Kitchen Jiro? (*´∀｀)
 <END2>
 
 #WRITE(PTR, $00002524)
-今日あわあわしたこと
+Today's worry
 <END2>
 
 #WRITE(PTR, $00002528)
@@ -3485,11 +3486,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000252C)
-今日の朝は\rsカイちゅ～\reがいなくなって泣きそうになっちゃったのです。あの針の\rs音\reを聞くと気持ちが落ち着くの。なくしちゃったらまゆしぃ大ショックだし, \rsおばあちゃん\reにも悪いもん。あ, カイちゅ～は無事に見つかって一安心だよ♪
+This morning, I was about to cry when I couldn't find \rsPocketty~\re. Listening to the \rssound\re of its hands calms me down. If I lost it, it would be a big shock, and I'd have wronged \rsGranny\re. Ah, I was so relieved to find Pocketty~ all safe and sound♪
 <END2>
 
 #WRITE(PTR, $00002544)
-カイちゅ～
+Pocketty~
 <END2>
 
 #WRITE(PTR, $00002548)
@@ -3497,11 +3498,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000254C)
-懐中時計だからね, カイちゅ～なんだよ? 分かりやすいしかわいいから, いいと思うんだけどなぁ。
+It's Pocketty~ since it's a pocket watch, see? It's cute and easy to understand, so at least I think it's a good name.
 <END2>
 
 #WRITE(PTR, $00002564)
-そうそう
+Yeah, yeah
 <END2>
 
 #WRITE(PTR, $00002568)
@@ -3509,11 +3510,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000256C)
-そんな変な名前を付けてくれたんだったね。すっかり忘れてたよ～(*´∀｀)
+I did give it that weird name, huh. I completely forgot~ (*´∀｀)
 <END2>
 
 #WRITE(PTR, $00002584)
-ひざまくら
+Lap pillow
 <END2>
 
 #WRITE(PTR, $00002588)
@@ -3521,11 +3522,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000258C)
-おばあちゃんの割烹着のポケットにね, いつもカイちゅ～が入ってて, その音を聞きながら眠ったんだ。だからきっと, 今でもカイちゅ～の音を聞くと落ち着くんだと思うよ。
+Granny always had Pocketty~ in the pocket of her apron, so I'd go to sleep hearing that sound. I think that's probably why Pocketty~'s sound still calms me down.
 <END2>
 
 #WRITE(PTR, $000025A4)
-ケンカしたんだって
+They had a fight
 <END2>
 
 #WRITE(PTR, $000025A8)
@@ -3533,11 +3534,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000025AC)
-カエデちゃんがカレシと\rsケンカ\reしたんだって。なんとか仲直りさせる方法ないかなぁ? まゆしぃはね, 誰かとケンカしたことないから, \rsふしぎ\reなのです。\rs好きな人\reとケンカなんてできないよぅ。
+Kaede-chan had a \rsfight\re with her boyfriend. Could there be a way to help them reconcile? Mayushii's never had a fight with anyone, so I think it's \rsmysterious\re. I couldn't fight with the \rsperson I like\re.
 <END2>
 
 #WRITE(PTR, $000025C4)
-Re:Re:ケンカしたんだって
+Re: Re: They had a fight
 <END2>
 
 #WRITE(PTR, $000025C8)
@@ -3545,11 +3546,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000025CC)
-まゆしぃの好きな人……いるよ(*´∀｀)えへへ
+Mayushii does have... someone she likes (*´∀｀) ehehe
 <END2>
 
 #WRITE(PTR, $000025E4)
-無理してないよ
+Not overdoing it
 <END2>
 
 #WRITE(PTR, $000025E8)
@@ -3557,11 +3558,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000025EC)
-最近のまゆしぃは人生充実しまくりなのです。あ, でも1個だけ, 寂しいことがあLukaも。でもプラスマイナスだとやっぱり充実度120％のリア充なのです(｀・ω・´)
+Lately, Mayushii's been having a fulfilled life. Ah, but there might be just one lonely thing. But if you add everything up, I'm 120％ satisfied with my life. (｀・ω・´)
 <END2>
 
 #WRITE(PTR, $00002604)
-それならいいけど
+Then that's okay, but
 <END2>
 
 #WRITE(PTR, $00002608)
@@ -3569,11 +3570,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000260C)
-オカリンは無理してるように見えるんだ。特にここ何日か, 塞ぎ込んでるように見えるし。
+Okarin looks like he's overdoing it. Especially these last few days, you look like you're moping.
 <END2>
 
 #WRITE(PTR, $00002624)
-あのね
+You know?
 <END2>
 
 #WRITE(PTR, $00002628)
@@ -3581,11 +3582,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000262C)
-オカリンがマッドサイエンティストなのは, まゆしぃの為……だよね? だから, 悪い人っぽくしなくていいなんて言うのは, 無責任かなって思ったり。
+Okarin's a mad scientist for Mayushii's sake... right? That's why I think it's irresponsible of me to say you don't have to be a bad person.
 <END2>
 
 #WRITE(PTR, $00002644)
-帰ってくる?
+Are you coming back?
 <END2>
 
 #WRITE(PTR, $00002648)
@@ -3593,11 +3594,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000264C)
-ねえねえ, 今日はラボに\rs帰ってくる\re?
+Heyhey, are you \rscoming back\re to the lab today?
 <END2>
 
 #WRITE(PTR, $00002664)
-オリオン座
+Orion
 <END2>
 
 #WRITE(PTR, $00002668)
@@ -3605,11 +3606,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000266C)
-昨日はね, オリオン座を見てたよ。とってもキレイだったのです。オカリンも\rs同じ時間\reに見上げてたなら, うれしいなぁ。そしたらね, 遠く離れてても, お話できなくても, 近くにいるように思えるもん。そう考えると, 星ってロマンチックだね。
+Yesterday, I saw Orion. It was really pretty. If Okarin also looked up \rsat the same time\re, I'd be happy. Because then, it would seem like we're close by, even if we're far away and can't talk to each other. Stars are romantic if you think like that, huh.
 <END2>
 
 #WRITE(PTR, $00002684)
-会えないね
+Haven't met
 <END2>
 
 #WRITE(PTR, $00002688)
@@ -3617,11 +3618,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000268C)
-オカリンの様子がおかしかったから, まゆしぃは今日はコミマには行かなかったよ。ラボにいる? これから行こうかな。なんだかね, 何日もオカリンと顔合わせてないでしょ? これまでは毎日会ってたのにね。だから, すごく寂しいです（´・ω・`） たかが4日ぐらいなのにね。もしかしてまゆしぃは, オカリンが一緒にいるのが当たり前になっちゃってたのかも……。ちゃんと捕まえててほしいよぅ。人質的な意味で。
+Okarin's been acting strange lately, so Mayushii didn't go to ComiMa today. Are you in the lab? Maybe I'll go there now. For some reason, we haven't met face to face these last couple days, have we? Even though we used to see each other every day. So it's really lonely（´・ω・`）Even though it's only been about four days at most. Maybe Mayushii just got used to being with Okarin all the time... I want you to capture me. In the hostage sense.
 <END2>
 
 #WRITE(PTR, $000026A4)
-昨日のことについてです
+About what happened yesterday
 <END2>
 
 #WRITE(PTR, $000026A8)
@@ -3629,11 +3630,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000026AC)
-昨日の\rsお祓い\reは本当にあれでよかったんでしょうか? もっとちゃんと, \rs儀式\reっぽくやらないとダメのような気が。。。もし, ボクのお祓いが適当だったせいで凶真さんの身に\rsなにか\reあったらと思うと。。。気になって, 夜も眠れなくて。。。Ｐ.Ｓ.五月雨の素振りも, 昨日はそのせいで3回しかできませんでした。
+Were you really okay with leaving yesterday's \rsexorcism\re at that? I feel like it needed to be more \rsceremonial\re... When I think \rssomething\re might happen to Kyouma-san's body due to my irresponsible exorcism... It bothers me so much, I can't sleep at night. P.S. Because of that, I couldn't do more than three practice swings with Samidare.
 <END2>
 
 #WRITE(PTR, $000026C4)
-お務めについてです
+About the religious services
 <END2>
 
 #WRITE(PTR, $000026C8)
@@ -3641,11 +3642,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000026CC)
-お父さんはボクに, 仕事は教えてくれないんです。「私はまだあと30年は現役でいるつもりだから手伝う必要などない」って言って。にもかかわらずなぜかボクに\rs巫Woman舞\reを教えようとしてきたりするわけですが。。。Ｐ.Ｓ.五月雨の素振りは10回やりました。
+Father didn't teach me those tasks. He said "I still plan to do 30 more years of active service, so it's not necessary for you to help". Nevertheless, he still hasn't said why he taught me the \rsceremonial miko dance\re... P.S. I did 10 practice swings with Samidare.
 <END2>
 
 #WRITE(PTR, $000026E4)
-儀式の件です
+About ceremonies
 <END2>
 
 #WRITE(PTR, $000026E8)
@@ -3653,11 +3654,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000026EC)
-誤解させるような言い方ですみません。ボクは奥義とかはよく分からなくて。。。ただ, 少なくともウチの神社にはそんな大それたものは伝わっていないと思います。。。もし興味がおありでしたら, 出雲か伊勢に行った方が。。。あ, 五月雨の素振りは10回やりました。
+Sorry for my misleading words. I don't really know things like ancient secrets... But at least, I don't think there's anything outrageous like that at our shrine... If you're interested, you should go to Izumo or Ise instead... Ah, I did 10 practice swings with Samidare.
 <END2>
 
 #WRITE(PTR, $00002704)
-前回のメールについてです
+About that last email
 <END2>
 
 #WRITE(PTR, $00002708)
@@ -3665,11 +3666,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000270C)
-あの, Mayuriちゃんに, 凶真さんがなにと戦っていLuka聞いてみたんですが, 笑ってはぐらかされて, 答えてくれなくて。。。ボクは, \rsどうしたら\reいいですか? 凶真さんのお役に, 立ちたいんです!
+Um, Kyouma-san, I asked Mayuri-chan about what it is you're fighting against, but she kept laughing instead and didn't answer... \rsWhat\re should I do? I want to stand for Kyouma-san's cause!
 <END2>
 
 #WRITE(PTR, $00002724)
-Re:Re:お務めについてです
+Re: Re: About the religious services
 <END2>
 
 #WRITE(PTR, $00002728)
@@ -3677,11 +3678,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000272C)
-え??? えええ???
+Eh??? Eeehh???
 <END2>
 
 #WRITE(PTR, $00002744)
-お菓子を作りました
+I made sweets
 <END2>
 
 #WRITE(PTR, $00002748)
@@ -3689,11 +3690,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000274C)
-今日は, \rsクッキー\reを焼いたんです。\rs家族\reのみんなに食べてもらったんですが, おいしいという太鼓判をいただきました。今度, 師匠の研究所の皆さんにも焼いて持っていきたいんですけど, 構いませんか? 五月雨の素振り方法について, \rs時間\reがあるときでいいので, ご指導してもらえると嬉しいです。Ｐ.Ｓ.頑張って, 五月雨10回振りました。
+I baked \rscookies\re today. I had everyone in my \rsfamily\re eat some, and got their seal of approval. Next time, would it be okay if I baked and brought some over for everyone in your research lab, master? As for practice-swinging Samidare, I would be happy if you could guide me whenever you have the \rstime\re. P.S. I did my best and swung Samidare 10 times.
 <END2>
 
 #WRITE(PTR, $00002764)
-考えさせてください
+Please let me think
 <END2>
 
 #WRITE(PTR, $00002768)
@@ -3701,11 +3702,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000276C)
-ご飯を作りに行くのは全然大丈夫なんですが, そうすると\rs神社のお務め\reがおろそかになってしまいそうで。。。と言っても, 境内のお掃除をするぐらいなんですけど。あの, ちょっと\rs考えさせて\reもらっても, いいでしょうか? Ｐ.Ｓ.考えていたせいで五月雨素振りはできませんでした。。。
+I'm perfectly fine with cooking food, but I think if I do that, I'd end up neglecting my \rsshrine duties\re... So, can you \rslet me think about it\re for a bit? P.S. I was so deep in thought I didn't do any practice swings with Samidare...
 <END2>
 
 #WRITE(PTR, $00002784)
-家族についてです
+About my family members
 <END2>
 
 #WRITE(PTR, $00002788)
@@ -3713,11 +3714,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000278C)
-家族は, 両親と, お姉ちゃんと, おじいちゃんおばあちゃんがいます。\rsお姉ちゃん\reの性格はボクとは正反対ですごく男っぽくて。。。昔から夕飯のお手伝いなんかをボクに押し付けてきたんです。おかげでボクは\rs料理\reを作るのが大好きになってしまいました。。。Ｐ.Ｓ.五月雨は20回素振りしました。
+My family members include both parents, onee-chan, and Grandpa. \rsOnee-chan\re's personality is the polar opposite of mine: she's really boyish. Since long ago, she made me the one to help with dinner. Because of that, I started to love \rscooking\re... P.S. I did 20 practice swings with Samidare
 <END2>
 
 #WRITE(PTR, $000027A4)
-甘えていました
+I've depended on you too much
 <END2>
 
 #WRITE(PTR, $000027A8)
@@ -3725,11 +3726,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000027AC)
-すみません。凶真さんとお話しすると, 自分がいかに駄目な人間か, 思い知らされます。まだ未成年だからって, きっとどこかに\rs甘え\reがあるのかもしれません。もしボクが甘えていたら, また叱ってください。。。Ｐ.Ｓ.五月雨は1人で\rs20回\re素振りしました。少しだけ, 強くなれた気がします。でも, ボクはまだ岡部さん無しではなにもできないから。また, 指導してくださいね。
+I'm sorry. Whenever I talk with Kyouma-san, I realize how hopeless a person I am. Maybe it's because I'm still a minor, but I still have some \rsdependency\re. If I depend on you too much again, please scold me... P.S. I did \rs20\re practice swings with Samidare by myself. I feel I'm getting a little stronger. But I still can't do anything without you, Okabe-san. Please guide me again.
 <END2>
 
 #WRITE(PTR, $000027C4)
-お務めの件です
+About my duties
 <END2>
 
 #WRITE(PTR, $000027C8)
@@ -3737,11 +3738,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000027CC)
-巫Womanと言っても, ボクは男だから, 偽物なんですけどね。。。巫Womanのお務めについては一生懸命頑張りたいと思っているんですけど, どうしても神様に対して申し訳ない気持ちがあると言いますか。。。こんな中途半端は, ダメだって分かっているんですけど。。。Ｐ.Ｓ.五月雨の素振りは30回やりました。
+Even if you call me a miko, I'm a man, so it's not the real thing... I want to do my best with miko duties with all my life, but by all means, I feel like it's inexcusable in the face of god. I understand that this halfheartedness is no good, but... P.S. I did 30 practice swings with Samidare.
 <END2>
 
 #WRITE(PTR, $000027E4)
-ご迷惑はかけられません
+Not to be a bother
 <END2>
 
 #WRITE(PTR, $000027E8)
@@ -3749,11 +3750,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000027EC)
-すみません, ボクのせいで, 橋田さんが大変なことになってしまうんですね。。。その大変というのがなんなのかボクにはよく分からないのですが, とにかくご迷惑になるので, お料理を作りに行くのはやめておきます。。。本当は, 岡部さんに作ってあげたいですけど。。。
+I'm sorry, it's my fault for making things difficult for Hashida-san... I don't really understand what those things are, but I don't want to be a bother, so I won't bring you food. Even though I really wanted to cook it for you, Okabe-san...
 <END2>
 
 #WRITE(PTR, $00002804)
-姉についてです
+About my older sister
 <END2>
 
 #WRITE(PTR, $00002808)
@@ -3761,11 +3762,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000280C)
-お姉ちゃんは遠い大学に通っていて, 今は1人暮らしをしているので実家にいないんです。お姉ちゃんは男っぽいってメールに書きましたよね。だからかもしれないんですけど, ボクはいつもお姉ちゃんに頭が上がらなくて, そんなボクに, お父さんと2人して\rsあんなこと\reや\rsこんなこと\reを。。。ああ, 思い出すと泣けてきます。Ｐ.Ｓ.考え事をしていて五月雨の素振りはできませんでした。。。
+Onee-chan is attending university far away, living by herself, so she's not at home. I wrote that Onee-chan's boyish, didn't I. It may or may not be because of that, but I've never been a match for Onee-chan, so father did \rsthis\re and \rsthat\re to me... Ah, just remembering makes me cry. P.S. I was so deep in thought I didn't do any practice swings with Samidare...
 <END2>
 
 #WRITE(PTR, $00002824)
-お料理作りのことです
+About cooking
 <END2>
 
 #WRITE(PTR, $00002828)
@@ -3773,11 +3774,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000282C)
-男のボクがお料理好きなんて, やっぱり変ですよね。。。でも, 自分の作ったお料理を, 好きな人が食べてくれて, それでおいしいと言ってもらえたら, やっぱり嬉しいです。だからボクは, お料理作りを嫌いになることはないと思います。それでもいいでしょうか。。。? Ｐ.Ｓ.ちょっとバタバタしていて素振りができませんでした。。。
+It's weird for me to like cooking since I'm a man, isn't it... But it makes me happy when people I like eat my food and say it's delicious. I think that's why I don't hate cooking. Is that still okay...? P.S. I was a little restless, so I couldn't do any practice swings.
 <END2>
 
 #WRITE(PTR, $00002844)
-泣かせてください
+Please let me cry
 <END2>
 
 #WRITE(PTR, $00002848)
@@ -3785,11 +3786,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000284C)
-凶真さんは, 大事な人を守れなかったことが, あるんですね。すみません, なにも知らないですけど, ボク, そんな凶真さんの辛さを想像したら, 泣いてしまいました。。。Ｐ.Ｓ.泣いていたので, 素振りができませんでした。。。
+So, Kyouma-san, there were times you couldn't protect those important to you, weren't there. I'm sorry, but even though I don't know anything about it, imagining Kyouma-san in such pain made me cry... P.S. I was crying, so I couldn't do any practice swings...
 <END2>
 
 #WRITE(PTR, $00002864)
-Re:Re:姉についてです
+Re: Re: About my older sister
 <END2>
 
 #WRITE(PTR, $00002868)
@@ -3797,11 +3798,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000286C)
-汚されていません!Woman装を強要されただけです＞＜
+He didn't defile me! He just made me wear female clothing ＞＜
 <END2>
 
 #WRITE(PTR, $00002884)
-カエルについてです
+About frogs
 <END2>
 
 #WRITE(PTR, $00002888)
@@ -3809,11 +3810,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000288C)
-あの, 凶真さんは\rsゲロカエルん\reってご存知ですか? 去年, すごく流行したんですが。うちに大量にあるので, もしよかったらいくつかもらってくれませんか? この前, なぜかうちの\rsお父さん\reが, \rs今さら\reゲロカエルんをダンボールごと買ってきてしまって。しかも全部, ボクに押し付けてくるんです。。。もうどうしたらいいのか。。。Ｐ.Ｓ.途方に暮れていて五月雨の素振りはできませんでした。
+Um, Kyouma-san, are you familiar with \rsGero Froggies\re? They were a huge fad last year. We have a large quantity of them, so if you like, could you take a few off our hands? Just a bit earlier our \rsfather\re bought a cardboard box full of Gero Froggies this \rslate\re for some reason. And he even pushed them all onto me... I don't know what to do with them... P.S. I was so bewildered, I couldn't do any practice swings with Samidare.
 <END2>
 
 #WRITE(PTR, $000028A4)
-カエル情報補足です
+More news about the frogs
 <END2>
 
 #WRITE(PTR, $000028A8)
@@ -3821,11 +3822,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000028AC)
-種類は2～3種類しか入っていませんでした。写真, 送りますね。もし気に入った子がいたら言ってください。今度, 持って行きます。Ｐ.Ｓ.素振りは10回でした。。。
+Only about two or three types are were in the box. I'll send you a picture. If there are any ones you're interested in, please tell me. You can take them next time. P.S. I did 10 practice swings.
 <END2>
 
 #WRITE(PTR, $000028C4)
-いい加減な人なんです。。。
+He's irresponsible...
 <END2>
 
 #WRITE(PTR, $000028C8)
@@ -3833,11 +3834,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000028CC)
-お父さんは, 普段はちゃんとしているんですけど, 家族だけになると変になるというか。そもそもどうしてボクを\rsWomanの子として\re育てたがるのか。。。お父さんは「ボクが生まれる前, 実は本来産まれるはずだったもう1人の姉がいた」と説明してくれたんですけど, お母さんに聞いたら「そんなの\rsウソ\reに決まってるでしょ」とのことです。。。もうお父さんには\rsうんざり\reします。。。Ｐ.Ｓ.素振りは10回でした。。。
+Father usually does things properly, but he gets strange when only family members are around. Like, why I was raised \rsas a girl\re in the first place. Father explained that before I was born, I was actually supposed to have another older sister, but when I asked mom, she said "That's obviously a \rslie\re". I'm kind of \rsfed up\re with my father... P.S. I did 10 practice swings.
 <END2>
 
 #WRITE(PTR, $000028E4)
-気を付けます
+I'll be careful
 <END2>
 
 #WRITE(PTR, $000028E8)
@@ -3845,11 +3846,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000028EC)
-ゲロカエルんが原因なんですか!? でもお父さんが変なのは昔からのような気が。。。すみません! 差し出がましいことを言ってしまって。これから, 気を付けるようにします。。。あの, お父さんは, 大丈夫ですよね?Ｐ.Ｓ.五月雨はまた振れませんでした。。。
+The Gero Froggies are the source!? But it feels like father's been acting strange since long ago... sorry! I said something impertinent. I'll be careful from now on... Um, father will be okay, right? P.S. I didn't swing Samidare again...
 <END2>
 
 #WRITE(PTR, $00002904)
-悲劇の件について質問です
+Question about the tragedy
 <END2>
 
 #WRITE(PTR, $00002908)
@@ -3857,11 +3858,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000290C)
-15～17年前の悲劇とは……なんでしょうか??? よく分からないですけど, 凶真さんの言うことならきっと本当なんでしょうね。あ, もしかして, そのための『五月雨』なんですか? だったら素振りをもっと一生懸命頑張らなきゃですね! というわけで25回やりました!
+What... tragedy from 15-17 years ago??? I don't really know, but if Kyouma-san says so, then it's probably true, I guess. Ah, could that be what Samidare is for? If so, then I need to work even harder! So, I did 25 times!
 <END2>
 
 #WRITE(PTR, $00002924)
-心の闇についてです
+About darkness within his heart
 <END2>
 
 #WRITE(PTR, $00002928)
@@ -3869,11 +3870,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000292C)
-父さんが隠している心の闇。。。ですか。昔, ロックバンドをやっていたことなら知ってますけど。。。それは関係ないですよね。。。
+The darkness father hides in his heart...huh? If it's about the rock band he was part of long ago, I already know that... That's not it, is it...
 <END2>
 
 #WRITE(PTR, $00002944)
-巫Woman服についてです
+About miko clothes
 <END2>
 
 #WRITE(PTR, $00002948)
@@ -3881,11 +3882,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000294C)
-巫Woman服を焼くのは, 無理です。。。一応, 神聖な装束ですし。それに巫Woman服を着ると, 自然と落ち着くんです。昔から, こればかり着ていたというか着させられていたというか。あ, まんまと父さんの策略にはまってるみたいです。ボクも, \rs変\reですよね。。。
+I can't burn these miko clothes... They're sacred garments. That, and wearing miko clothes calms me down. Ah, then that means father's strategy worked. I'm \rsstrange\re too, aren't I...
 <END2>
 
 #WRITE(PTR, $00002964)
-雷ネットの件です
+About RaiNet
 <END2>
 
 #WRITE(PTR, $00002968)
@@ -3893,11 +3894,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000296C)
-Mayuriちゃんが\rs雷ネット\reというアニメにはまっているそうで, 見るように勧められて, ボクもＴAＴＳＵＹAで借りてきました。アニメはあまり見なくて, 見るのはいつも\rs恋愛映画\reばかりなんですけど, このアニメはかなり奥が深いお話なんだって知りました。見た目は子供向けなんですけどね。びっくりです。Ｐ.Ｓ.雷ネットに夢中で五月雨素振りはできませんでした。すみません。。。
+Mayuri-chan's obsessed with this anime called \rsRaiNet\re, so I rented it from TATSUYA when she recommended I watch it. I don't always watch anime, but when I do, it's always \rsromance\re, yet I found this anime to be pretty deep. Even though it's aimed at children. I was surprised. P.S. I was so engrossed with RaiNet, I couldn't do any practice swings with Samidare. I'm sorry...
 <END2>
 
 #WRITE(PTR, $00002984)
-ゲーム面白かったです
+That game was fun
 <END2>
 
 #WRITE(PTR, $00002988)
@@ -3905,11 +3906,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $0000298C)
-昨日, ラボにお邪魔したときに皆さんと一緒に遊んだポケベル番号推理ゲーム, とっても面白かったです。また, 一緒にやりたいなって, 思ったりして。。。あ, そうそう, あの後, お母さんにいろいろ聞いてみたら, 青春時代のことをいろいろ思い出したようで, 遠い目をしていました。なぜか深々とため息をついていたのが, 印象的でした(^^*) Ｐ.Ｓ.五月雨素振りは10回ぐらいでした。
+It was fun when we all played the game of figuring out pager numbers last time I imposed on the lab. I think I want to do that with everyone again... Ah, that's right, after that, I asked mother various things, and she looked nostalgic recalling various memories. I don't know why she sighed so deeply, but I was impressed. ( ^ ^ * ) P.S. I did 10 practice swings with Samidare.
 <END2>
 
 #WRITE(PTR, $000029A4)
-夏の予定についてです
+About summer plans
 <END2>
 
 #WRITE(PTR, $000029A8)
@@ -3917,11 +3918,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000029AC)
-凶真さんは, 今年の夏はどこか夏祭りや\rs花火大会\reには行きましたか? それとも, これから\rsMayuri\reちゃんと一緒に行く予定とか, あるんでしょうか?Ｐ.Ｓ.五月雨素振りは22回でした。
+Kyouma-san, have you gone to any festivals or \rsfirework shows\re this summer? Or maybe, do you have plans to go later with \rsMayuri\re-chan? P.S. I did 22 practice swings with Samidare.
 <END2>
 
 #WRITE(PTR, $000029C4)
-お祭りの件です
+About festivals
 <END2>
 
 #WRITE(PTR, $000029C8)
@@ -3929,11 +3930,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000029CC)
-そうですか。。。凶真さんは行かないんですね。ああいう場所は, 人の多さが尋常じゃありませんしね。もし凶真さんが行くと言うなら, 会場で会えないかなって期待してましたけど, それも天文学的確率でしょうし。あ, ボクもあちこちのお祭りに行きまくっているわけじゃないですから, 誤解されると困りますが。。。Ｐ.Ｓ.五月雨の素振り, 5回しかできませんでした。。。
+I see... So you haven't gone, Kyouma-san. Normally, there aren't that many people in those sorts of places. If you were to go, Kyouma-san, I wouldn't expect to meet you, but those chances are astronomical, I guess. Ah, it's not like I go to each and every festival, so don't misunderstand me. P.S. I only did 5 practice swings with Samidare...
 <END2>
 
 #WRITE(PTR, $000029E4)
-Mayuriちゃんの件です
+About Mayuri-chan
 <END2>
 
 #WRITE(PTR, $000029E8)
@@ -3941,11 +3942,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000029EC)
-Mayuriちゃんと一緒にどこかへ遊びに行ったりとかは。。。しないんですか? 凶真さんとMayuriちゃんは同じラボメンですし, 幼なじみだと聞いていますから, いつも一緒にいるのかと。。。ボクの勘違いでしたら, すみません。。。Ｐ.Ｓ.五月雨の素振り, 30回まで行けました。
+So, it's not like... you go everywhere with Mayuri-chan then? Since you and Mayuri-chan were fellow lab mems and I heard you were childhood friends, I thought... I'm sorry if I misunderstood... P.S. I did 30 practice swings with Samidare.
 <END2>
 
 #WRITE(PTR, $00002A04)
-ご挨拶
+Greetings
 <END2>
 
 #WRITE(PTR, $00002A08)
@@ -3953,11 +3954,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00002A0C)
-初メール! 昨日は\rsアドレス交換\reしてくれてありがと。\rsこっち\reじゃ友達なんていないからさ, けっこう嬉しいかも。ま, 控えめに, たまにこうして送ることにするよ。メールやったことないから\rs返信遅い\reけど, 笑って許して。
+This is Amane Suzuha. First mail! Thanks for \rsexchanging addresses\re with me yesterday. I don't have any friends \rshere\re, so I think it made me pretty happy. Well, I'll occasionally send you mails like this, with moderation. I haven't done mails before, so sorry for the \rsslow reply\re. It's okay to laugh at me.
 <END2>
 
 #WRITE(PTR, $00002A24)
-実は
+Actually
 <END2>
 
 #WRITE(PTR, $00002A28)
@@ -3965,11 +3966,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002A2C)
-実は岡部Rintaroに\rs一目惚れ\reしちゃったんだ。って, うそうそ（笑）。やっぱ人と人の繋がりこそ, \rs生きていく上で大切\reだと思うんだよねー。死活問題的な?
+Actually, Okabe Rintaro, you \rscaptivated me by first sight\re. lol jk, jk. I think that, after all, human relationships are \rsnecessary for human survival\re. Like, life or death, you know?
 <END2>
 
 #WRITE(PTR, $00002A44)
-内緒
+Secret
 <END2>
 
 #WRITE(PTR, $00002A48)
@@ -3977,11 +3978,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002A4C)
-内緒。どこだと思う? 当てたらどこへでも連れてってあげよう。（自転車で行ける範囲限定ね）精進して当ててみて。ちなみにノーヒント。
+Secret. Where do you think? If you get it right, I'll take you wherever. (Anywhere possible by bicycle that is) Just try and guess. By the way, no hints.
 <END2>
 
 #WRITE(PTR, $00002A64)
-そもそも
+In the first place
 <END2>
 
 #WRITE(PTR, $00002A68)
@@ -3989,11 +3990,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002A6C)
-そもそも携帯電話持ったのも\rs最近\reだし。東京来たのだってつい先日だよ。\rs電車の乗り方\reも不明でさぁ。仕方がないから\rs自転車\re買った。
+In the first place, I only got a cellular telephone \rsrecently\re. I also only arrived in Tokyo just the other day. I don't even know \rshow to ride the train\re. So I just bought a \rsbicycle\re instead.
 <END2>
 
 #WRITE(PTR, $00002A84)
-悪なの?
+You're evil?
 <END2>
 
 #WRITE(PTR, $00002A88)
@@ -4001,11 +4002,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002A8C)
-悪なの? 一目惚れって書いたけど冗談だからね? 岡部RintaroってもしかしてWoman好き?
+You're evil? I said I was captivated by first sight, but that was a joke, okay? Okabe Rintaro, are you by any chance a ladies' man?
 <END2>
 
 #WRITE(PTR, $00002AA4)
-処世術?
+Words of wisdom?
 <END2>
 
 #WRITE(PTR, $00002AA8)
@@ -4013,7 +4014,7 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002AAC)
-処世術ってわけじゃないよ。そもそも誰かを頼るのって\rs好きじゃない\reし。1人でできるもん, みたいな（笑） 誇り, なのかもね。
+They're not really words of wisdom or anything. To begin with, I \rsdon't like\re relying on others. I do things alone, or so it seems (lmao) I might be proud of that.
 <END2>
 
 #WRITE(PTR, $00002AC4)
