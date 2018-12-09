@@ -9737,51 +9737,51 @@ Faris' Dad
 <END2>
 
 #WRITE(PTR, $000058DC)
-【ラウンダーA】
+【Rounder A】
 <END2>
 
 #WRITE(PTR, $000058E0)
-襲撃者A
+Rounder A
 <END2>
 
 #WRITE(PTR, $000058E4)
-襲撃者A
+Rounder A
 <END2>
 
 #WRITE(PTR, $000058EC)
-【ラウンダーＢ】
+【Rounder B】
 <END2>
 
 #WRITE(PTR, $000058F0)
-襲撃者Ｂ
+Rounder B
 <END2>
 
 #WRITE(PTR, $000058F4)
-襲撃者Ｂ
+Rounder B
 <END2>
 
 #WRITE(PTR, $000058FC)
-【ラウンダーＣ】
+【Rounder C】
 <END2>
 
 #WRITE(PTR, $00005900)
-襲撃者Ｃ
+Rounder C
 <END2>
 
 #WRITE(PTR, $00005904)
-襲撃者Ｃ
+Rounder C
 <END2>
 
 #WRITE(PTR, $0000590C)
-【ラウンダーＤ】
+【Rounder D】
 <END2>
 
 #WRITE(PTR, $00005910)
-襲撃者Ｄ
+Rounder D
 <END2>
 
 #WRITE(PTR, $00005914)
-襲撃者Ｄ
+Rounder D
 <END2>
 
 #WRITE(PTR, $0000591C)
