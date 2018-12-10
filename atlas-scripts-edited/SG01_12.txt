@@ -390,11 +390,11 @@ After being silent for a while, Daru asks that question.
 <END>
 
 #WRITE(PTR, $0000186E)
-【Rintaro】Edison once said that "If there's no 1% inspiration, the 99% perspiration is wasted. That's why, inventor, be inspired!"
+【Rintaro】Edison once said that "If there's no 1％ inspiration, the 99％ perspiration is wasted. That's why, inventor, be inspired!"
 <END>
 
 #WRITE(PTR, $00001888)
-【Itaru】Wasn't it "Genius is 1% inspiration, 99% perspiration"?
+【Itaru】Wasn't it "Genius is 1％ inspiration, 99％ perspiration"?
 <END>
 
 #WRITE(PTR, $00001898)

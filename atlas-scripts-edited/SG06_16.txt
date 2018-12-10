@@ -1,0 +1,1562 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000039B8)
+
+#WRITE(PTR, $0000045C)
+I want to take her to the hospital, but I don't say it.
+<END>
+
+#WRITE(PTR, $0000046C)
+The time of Mayuri's death steadily approaches.
+<END>
+
+#WRITE(PTR, $0000047C)
+I can only ask Suzuha to bear with it.
+<END>
+
+#WRITE(PTR, $0000048C)
+So no passersby worry, I wrap a towel around her hand.
+<END>
+
+#WRITE(PTR, $000005A0)
+【Mayuri】Ah, Okarin, welcome home-. Suzu-san's with you too, huh-♪
+<END>
+
+#WRITE(PTR, $000005B0)
+When we get to the lab, Mayuri and Daru are there for some reason.
+<END>
+
+#WRITE(PTR, $000005C0)
+I thought I sent them home...!?
+<END>
+
+#WRITE(PTR, $000005D0)
+When I ask, Mayuri optimistically answers this.
+<END>
+
+#WRITE(PTR, $000005E0)
+【Mayuri】After all, we should celebrate Super Microwave Ophone-chan's completion-
+<END>
+
+#WRITE(PTR, $000005FA)
+【Mayuri】And so I went shopping with Daru-kun and came back-♪
+<END>
+
+#WRITE(PTR, $0000060A)
+She really can't read the atmosphere...
+<END>
+
+#WRITE(PTR, $0000061A)
+Kurisu, also with a stumped look on her face, whispers into my ear.
+<END>
+
+#WRITE(PTR, $000006EE)
+【Kurisu】Wh-what do we do?
+<END>
+
+#WRITE(PTR, $000006FE)
+【Rintaro】Make absolutely sure Mayuri doesn't find out.
+<END>
+
+#WRITE(PTR, $0000070E)
+Kurisu nods softly.
+<END>
+
+#WRITE(PTR, $0000071E)
+【Itaru】What are you guys whispering about?
+<END>
+
+#WRITE(PTR, $0000072E)
+【Kurisu】Ah, ummm...
+<END>
+
+#WRITE(PTR, $0000073E)
+【Rintaro】How many times do I have to say it? We won't celebrate!
+<END>
+
+#WRITE(PTR, $00000846)
+【Mayuri】Ehh-. Okarin, you're so unsociable-
+<END>
+
+#WRITE(PTR, $00000856)
+【Rintaro】That's not the issue.
+<END>
+
+#WRITE(PTR, $00000866)
+I glance at Suzuha.
+<END>
+
+#WRITE(PTR, $00000876)
+She's still depressed.
+<END>
+
+#WRITE(PTR, $00000886)
+【Mayuri】Suzu-san, you don't look good. What's wrong-?
+<END>
+
+#WRITE(PTR, $00000896)
+【Rintaro】Christina, Suzuha, and I have important matters to discuss. So you two, please leave.
+<END>
+
+#WRITE(PTR, $000008A6)
+【Mayuri】Mayushii wants to hear too-
+<END>
+
+#WRITE(PTR, $000008C0)
+【Itaru】No, Mayu-shi, I think you need to read the atmosphere.
+<END>
+
+#WRITE(PTR, $000008DA)
+【Mayuri】But... Suzu-san looks down. Mayushii's kind of worried about her...
+<END>
+
+#WRITE(PTR, $000008EA)
+【Suzuha】...Sorry.
+<END>
+
+#WRITE(PTR, $000009C6)
+Suzuha hangs her head while biting her lip.
+<END>
+
+#WRITE(PTR, $000009D6)
+I guess she feels responsible for Mayuri's death.
+<END>
+
+#WRITE(PTR, $000009E6)
+How is Suzuha related to Mayuri's death? I should find that out soon--
+<END>
+
+#WRITE(PTR, $000009F6)
+【Suzuha】I want Shiina Mayuri and Hashida Itaru to hear too. This talk concerns them too.
+<END>
+
+#WRITE(PTR, $00000A06)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000A16)
+If Suzuha says so, then I have no objections.
+<END>
+
+#WRITE(PTR, $00000A26)
+But I remind her not to let them know that Mayuri dies in a few hours.
+<END>
+
+#WRITE(PTR, $00000B42)
+Suzuha tells them about her true identity. That the satellite is a time machine. That she posted on @channel as John Titor. That she came from 2036.
+<END>
+
+#WRITE(PTR, $00000CD4)
+【Itaru】A future girl, wow-. Fascinating. Can I shake your hand?
+<END>
+
+#WRITE(PTR, $00000CE4)
+【Rintaro】Daru. We're not playing around here.
+<END>
+
+#WRITE(PTR, $00000CFE)
+【Mayuri】Suzu-san, what year were you born-?
+<END>
+
+#WRITE(PTR, $00000D0E)
+【Suzuha】2017
+<END>
+
+#WRITE(PTR, $00000D22)
+【Mayuri】That's in seven years-. You haven't been born yet but you're here-.
+<END2>
+
+#WRITE(PTR, $00000D3C)
+ Hmm, uhhhmmmm???
+<END>
+
+#WRITE(PTR, $00000D50)
+Let's leave the confused Mayuri aside.
+<END>
+
+#WRITE(PTR, $00000DA0)
+【Rintaro】So, Suzuha. Can you give us the details?
+<END>
+
+#WRITE(PTR, $00000DB0)
+【Suzuha】Well, what I posted as Titor is just about everything.
+<END>
+
+#WRITE(PTR, $00000DC0)
+【Suzuha】I came from future, 2036. In that era, SERN's ruling dystopia eradicated all strife, but also stole away all personal freedoms.
+<END>
+
+#WRITE(PTR, $00000E10)
+【Mayuri】Diss-tope-ear?
+<END>
+
+#WRITE(PTR, $00000E58)
+【Kurisu】An extremely regulated society. Totalitarianism.
+<END>
+
+#WRITE(PTR, $00000E68)
+【Kurisu】Even if Mayuri wants to eat a banana, she isn't allowed to if today isn't a banana eating day. If she does eat one then she's put in jail without trial. That sort of society.
+<END>
+
+#WRITE(PTR, $00000E82)
+【Mayuri】That's terrible-. Mayushii loves bananas...
+<END>
+
+#WRITE(PTR, $00000E92)
+Forget about bananas...
+<END>
+
+#WRITE(PTR, $00000EEA)
+【Suzuha】And I fight to free the world from SERN's rule as part of the <DICT>Resistance</DICT>.
+<END>
+
+#WRITE(PTR, $00000EFA)
+【Suzuha】The reason I time traveled to this era... is to change that "present"--
+<END>
+
+#WRITE(PTR, $00000F0A)
+【Suzuha】It's the future for you guys, I guess. To change the future.
+<END>
+
+#WRITE(PTR, $00000F1A)
+To change... the future...
+<END>
+
+#WRITE(PTR, $00000F2A)
+She doesn't look like she's joking.
+<END>
+
+#WRITE(PTR, $00000F7A)
+【Mayuri】So then, what about searching for your father-? Was that a lie...?
+<END>
+
+#WRITE(PTR, $00000F8A)
+【Suzuha】......
+<END>
+
+#WRITE(PTR, $00000F9A)
+Suzuha doesn't answer that.
+<END>
+
+#WRITE(PTR, $00000FAA)
+Meaning it was a lie?
+<END>
+
+#WRITE(PTR, $00000FF2)
+【Kurisu】SERN is a research institution, not a governing institution with political power. I complained about that to John Titor online many times.
+<END>
+
+#WRITE(PTR, $00001002)
+What...? Online...?
+<END>
+
+#WRITE(PTR, $00001012)
+【Rintaro】...ah, don't tell me, you're "KuriGohan and Kamehameha"!?
+<END>
+
+#WRITE(PTR, $0000102C)
+Kurisu turns away her sour reddened face.
+<END>
+
+#WRITE(PTR, $0000103C)
+【Kurisu】Titor named himself, so it wouldn't be fair unless I did too, right?
+<END>
+
+#WRITE(PTR, $0000104C)
+【Rintaro】In that case, I'll come clean too. I, using the name of Hououin Kyouma--
+<END>
+
+#WRITE(PTR, $000010D2)
+【Kurisu&Suzuha (K)】I know.
+<END>
+
+#WRITE(PTR, $000010E2)
+【Kurisu&Suzuha (S)】I know.
+<END>
+
+#WRITE(PTR, $00001136)
+【Mayuri】Ah, you harmonized-♪
+<END>
+
+#WRITE(PTR, $00001146)
+Suzuha put on a slightly disturbed face.
+<END>
+
+#WRITE(PTR, $00001156)
+I guess she didn't like harmonizing with Kurisu.
+<END>
+
+#WRITE(PTR, $00001166)
+She clears her throat and continues speaking.
+<END>
+
+#WRITE(PTR, $000011B6)
+【Suzuha】SERN's still a research institution in 2036.
+<END>
+
+#WRITE(PTR, $000011C6)
+【Suzuha】The one who rules the world is SERN's backing group, the Committee of 300.
+<END>
+
+#WRITE(PTR, $000011D6)
+【Rintaro】The Committee of 300... is real?
+<END>
+
+#WRITE(PTR, $000011E6)
+That name was in SERN's top secret documents.
+<END>
+
+#WRITE(PTR, $00001200)
+【Suzuha】When SERN successfully completed their time machine, they became the sole entity who could interfere with the fourth dimension.
+<END>
+
+#WRITE(PTR, $00001210)
+【Suzuha】As a result, they repainted the entire world order in just two years.
+<END>
+
+#WRITE(PTR, $00001220)
+To a normal person, it was just two years, but SERN most likely used the time machine to multiply that maybe dozens of times in order to obtain the world.
+<END>
+
+#WRITE(PTR, $0000123A)
+【Suzuha】With that said, Makise Kurisu.
+<END>
+
+#WRITE(PTR, $00001282)
+Suzuha glares at Kurisu.
+<END>
+
+#WRITE(PTR, $00001292)
+【Suzuha】In 2036, you're "apotheosized" as the Mother of the Time Machine.
+<END>
+
+#WRITE(PTR, $000012AC)
+【Kurisu】Apotheosized?
+<END>
+
+#WRITE(PTR, $000012BC)
+【Itaru】In Japanese, please.
+<END>
+
+#WRITE(PTR, $000012CC)
+Apotheosized... Like an apothecary? No, I don't think it's the same root word, so...?
+<END>
+
+#WRITE(PTR, $000012E6)
+【Suzuha】Apotheosized. As in revered, respected.
+<END>
+
+#WRITE(PTR, $000012F6)
+That's so hard to understand.
+<END>
+
+#WRITE(PTR, $00001306)
+She keeps using difficult vocabulary, but is that normal in 2036?
+<END>
+
+#WRITE(PTR, $00001320)
+【Kurisu】Respected? ...Eh!? I-I am!?
+<END>
+
+#WRITE(PTR, $00001330)
+【Suzuha】In 2010, you discovered history's first concept of time leaping, and afterwards, you contributed to SERN's time machine development. That's the Makise Kurisu I've heard about.
+<END>
+
+#WRITE(PTR, $00001340)
+Is that why you made her your sworn enemy?
+<END>
+
+#WRITE(PTR, $00001350)
+【Rintaro】Then that means I'm the "Father of the Time Machine", right?
+<END>
+
+#WRITE(PTR, $00001360)
+【Suzuha】Okabe Rintaro is treated as a terrorist. A fairly infamous one.
+<END>
+
+#WRITE(PTR, $00001370)
+【Rintaro】eh...
+<END>
+
+#WRITE(PTR, $00001380)
+Eh, seriously?
+<END>
+
+#WRITE(PTR, $00001390)
+I'm a terrorist!?
+<END>
+
+#WRITE(PTR, $000013AA)
+【Kurisu】I participated in SERN's time machine development? I don't believe that.
+<END>
+
+#WRITE(PTR, $000013BA)
+【Kurisu】SERN carried out human experimentation, you know? I have no intention of collaborating with such a disgrace to the scientific community.
+<END>
+
+#WRITE(PTR, $000013D4)
+【Suzuha】But that's how it is in the future.
+<END>
+
+#WRITE(PTR, $000013EE)
+【Kurisu】Did the future me say anything?
+<END>
+
+#WRITE(PTR, $000013FE)
+【Suzuha】We've never met. Furthermore, in 2036, you're already dea... passed away.
+<END>
+
+#WRITE(PTR, $00001418)
+【Kurisu】You just said something dreadful...
+<END>
+
+#WRITE(PTR, $00001428)
+【Kurisu】You mean I don't live past 50?
+<END>
+
+#WRITE(PTR, $00001442)
+【Suzuha】In my time, there are two types of people: ones who live long, and ones who suspiciously die young.
+<END>
+
+#WRITE(PTR, $00001452)
+【Suzuha】People who act against SERN are quickly erased.
+<END>
+
+#WRITE(PTR, $0000146C)
+【Kurisu】M-me too...?
+<END>
+
+#WRITE(PTR, $0000147C)
+Suzuha returns Kurisu's gaze. She doesn't have her usual scowl.
+<END>
+
+#WRITE(PTR, $00001496)
+【Suzuha】...Perhaps, you were being used by SERN. Maybe they took both of your parents hostage and forced you to research, for example.
+<END>
+
+#WRITE(PTR, $000014B0)
+【Kurisu】...No way. Mama... is in danger?
+<END>
+
+#WRITE(PTR, $000014CC)
+Kurisu's mother is in America. The scenario where SERN kidnaps her mother while Kurisu's in Japan isn't that unlikely.
+<END>
+
+#WRITE(PTR, $000014DC)
+I don't laugh it off as something impossible. After all, I saw Moeka kill Mayuri.
+<END>
+
+#WRITE(PTR, $000014EC)
+【Rintaro】Rounders...
+<END>
+
+#WRITE(PTR, $00001534)
+【Itaru】What's that?
+<END>
+
+#WRITE(PTR, $00001544)
+【Rintaro】SERN's mercenary force, or something like that.
+<END>
+
+#WRITE(PTR, $0000158C)
+Suzuha nods.
+<END>
+
+#WRITE(PTR, $0000159C)
+【Suzuha】On paper, they're just a technical investigation squad independent from SERN. In actuality, they're a "jack of all trades" who carry out villainous roles.
+<END>
+
+#WRITE(PTR, $000015AC)
+According to Moeka, they have two chief duties.
+<END>
+
+#WRITE(PTR, $000015BC)
+The retrieval of the IBN 5100, the only machine that can hack into SERN's hidden database.
+<END>
+
+#WRITE(PTR, $000015CC)
+And to crush the world's aspiring time machine researchers and force them to cooperate with SERN.
+<END>
+
+#WRITE(PTR, $000015DC)
+【Suzuha】So they exist in this era too, huh. I've always been fighting against the Rounders.
+<END>
+
+#WRITE(PTR, $000015F6)
+【Itaru】Villainous roles... d-don't tell me it's things like kidnapping and assassination...?
+<END>
+
+#WRITE(PTR, $00001610)
+【Suzuha】......
+<END>
+
+#WRITE(PTR, $00001620)
+Suzuha looks to me, asking whether she should answer or not.
+<END>
+
+#WRITE(PTR, $00001630)
+I shake my head left and right
+<END>
+
+#WRITE(PTR, $00001640)
+【Suzuha】They do those things in my era. I don't think they've gone that far currently.
+<END>
+
+#WRITE(PTR, $0000165A)
+Daru's obviously relieved.
+<END>
+
+#WRITE(PTR, $000016AA)
+【Kurisu】Hey, Amane-san. Just a while ago, you said that what you posted as John Titor was almost all true, didn't you?
+<END>
+
+#WRITE(PTR, $000016C4)
+【Suzuha】That's right.
+<END>
+
+#WRITE(PTR, $000016D4)
+【Kurisu】So you mean you understand the structure of the world? You wrote that it can be explained with the Everett-Wheeler model or the many-worlds interpretation.
+<END>
+
+#WRITE(PTR, $000016EE)
+【Suzuha】That was fake. Camouflage so that SERN wouldn't target me.
+<END>
+
+#WRITE(PTR, $000016FE)
+【Suzuha】If I mix one lie into the truth, then the bad apple spoils the barrel.
+<END>
+
+#WRITE(PTR, $0000170E)
+【Kurisu】So you don't understand it then?
+<END>
+
+#WRITE(PTR, $0000171E)
+【Suzuha】I do. The world's structure was clarified in 2036. It's not the many-worlds interpretation.
+<END>
+
+#WRITE(PTR, $00001738)
+【Kurisu】...Really? Tell me the details!
+<END>
+
+#WRITE(PTR, $00001748)
+【Rintaro】"Attractor Fields"...
+<END>
+
+#WRITE(PTR, $00001762)
+【Suzuha】Correct. I told Okabe Rintaro directly by mail.
+<END>
+
+#WRITE(PTR, $0000177C)
+【Kurisu】What sort of explanation is that?
+<END>
+
+#WRITE(PTR, $0000178C)
+【Suzuha】The world is made of world lines and "attractor fields".
+<END>
+
+#WRITE(PTR, $0000179C)
+Suzuha takes a red yarn ball out of Mayuri's costume sewing set placed on the table.
+<END>
+
+#WRITE(PTR, $000017AC)
+She holds one end of the yarn and drops the ball to the floor. She stretches out about a meter of the yarn in front of her face to show it to us.
+<END>
+
+#WRITE(PTR, $000017BC)
+【Suzuha】The world's structure is like "twisted yarn".
+<END>
+
+#WRITE(PTR, $0000182A)
+【Suzuha】Several possible worlds are superpositioned, always branching out infinitely.
+<END>
+
+#WRITE(PTR, $0000183A)
+【Suzuha】The entirety looks like one piece, but at the micro level, the world is organized like thin intertwined threads.
+<END>
+
+#WRITE(PTR, $0000184A)
+【Suzuha】And at the end, those fine threads converge into one. The paths are different, but the ends are the same.
+<END>
+
+#WRITE(PTR, $00001862)
+【Kurisu】Isn't that <DICT>determinism</DICT>?」
+<END>
+
+#WRITE(PTR, $00001872)
+【Suzuha】It might be close. But it's a little more rough.
+<END>
+
+#WRITE(PTR, $00001882)
+【Suzuha】It sort of cherrypicks from the many-worlds interpretation and the Copenhagen interpretation.
+<END>
+
+#WRITE(PTR, $00001892)
+【Rintaro】So, the divergences end the same, meaning there's only one world in the end?
+<END>
+
+#WRITE(PTR, $000018A2)
+【Suzuha】Exactly.
+<END>
+
+#WRITE(PTR, $000018B2)
+【Suzuha】And so, the bundle of world lines within the range of convergence make up an attractor field.
+<END>
+
+#WRITE(PTR, $000018C2)
+【Suzuha】There are also several attractor fields.
+<END>
+
+#WRITE(PTR, $000018D2)
+【Suzuha】This "twisted yarn" is Attractor Field α. In its range are α World Lines.
+<END>
+
+#WRITE(PTR, $000018E2)
+Suzuha indicates the yarn she's holding while cutting meter lengths of blue, yellow, and white yarn. She creates a multicolored string.
+<END>
+
+#WRITE(PTR, $000018F2)
+【Suzuha】Blue is Attractor Field β, yellow is γ, and white is δ.
+<END>
+
+#WRITE(PTR, $00001902)
+【Suzuha】Each has several of their respective β World Lines, γ World Lines, and δ World Lines. And there are hundreds of millions of these.
+<END>
+
+#WRITE(PTR, $00001912)
+She bundles them together and stretches them out again.
+<END>
+
+#WRITE(PTR, $00001922)
+The several multicolored yarns intertwine into one fat twisted yarn.
+<END>
+
+#WRITE(PTR, $00001932)
+【Suzuha】Several attractor fields are superpositioned like this.
+<END>
+
+#WRITE(PTR, $00001942)
+【Suzuha】In each attractor field, the converging result of events is different.
+<END>
+
+#WRITE(PTR, $00001952)
+【Suzuha】They don't interfere. Each remains independent.
+<END>
+
+#WRITE(PTR, $00001962)
+【Suzuha】There's only one if you trace it back to the origin. Attractor fields do converge at a very macro level, but that spans hundreds of years. It's best to think of them as large divergences.
+<END>
+
+#WRITE(PTR, $000019F2)
+【Itaru】Can you compare it to an eroge? Tell me, oh erotic one.
+<END>
+
+#WRITE(PTR, $00001A0C)
+【Kurisu】T-there's no erotic one here.
+<END>
+
+#WRITE(PTR, $00001A1C)
+【Rintaro】Nah, it is just like an eroge. Each heroine's route is an attractor field, and the small choices within are the individual world lines.
+<END>
+
+#WRITE(PTR, $00001A2C)
+【Rintaro】But at the end, they all enter the true route for the grand ending.
+<END>
+
+#WRITE(PTR, $00001A3C)
+【Itaru】The problem is if the common route is long or short. By the way, I'd chose the little sister character's attractor field.
+<END>
+
+#WRITE(PTR, $00001A4C)
+【Rintaro】Whatever.
+<END>
+
+#WRITE(PTR, $00001A66)
+【Kurisu】...These guys are no good. I need to do something quick.
+<END>
+
+#WRITE(PTR, $00001AB6)
+【Suzuha】Umm, I don't really understand those eroge things...
+<END>
+
+#WRITE(PTR, $00001AC6)
+【Kurisu】You don't have to take them seriously...
+<END>
+
+#WRITE(PTR, $00001AD6)
+Basically...
+<END>
+
+#WRITE(PTR, $00001AE6)
+The reason I can't save Mayuri no matter how much I struggle is because of the attractor field's special trait-- absolute convergence to a single result?
+<END>
+
+#WRITE(PTR, $00001AF6)
+Crap...
+<END>
+
+#WRITE(PTR, $00001B06)
+That means Mayuri really is being killed by the world...
+<END>
+
+#WRITE(PTR, $00001B16)
+【Itaru】But then, isn't it impossible to change the future? It'll converge in the end, right? No matter what you do, the result is the same.
+<END>
+
+#WRITE(PTR, $00001B26)
+That's right. That's why Mayuri gets killed no matter how many times I time leap.
+<END>
+
+#WRITE(PTR, $00001B40)
+【Suzuha】...We're going to escape outside the scope of this Attractor Field α we're in.
+<END>
+
+#WRITE(PTR, $00001B50)
+【Rintaro】Outside the scope...?
+<END>
+
+#WRITE(PTR, $00001B60)
+【Suzuha】Basically, we're going to leap to the β World Line in Attractor Field β.
+<END>
+
+#WRITE(PTR, $00001B7A)
+【Kurisu】We won't get interfered?
+<END>
+
+#WRITE(PTR, $00001B8A)
+【Suzuha】Attractor fields completely diverge. But if we go to the instant they diverge, then...
+<END>
+
+#WRITE(PTR, $00001B9A)
+【Kurisu】The instant they diverge... Is that now?
+<END>
+
+#WRITE(PTR, $00001BAA)
+【Suzuha】I was taught that a large crossroads in Divergence exists in 2010.
+<END>
+
+#WRITE(PTR, $00001BBA)
+【Suzuha】An earth-shattering divergence, on par with the ones in 2000 and 1991, occurs, causing branching on the attractor field level.
+<END>
+
+#WRITE(PTR, $00001C0A)
+【Mayuri】Umm, why 2000 and 1991-?
+<END>
+
+#WRITE(PTR, $00001C24)
+【Suzuha】Global scale incidents happened on both years.
+<END>
+
+#WRITE(PTR, $00001C34)
+【Mayuri】Incidents-?
+<END>
+
+#WRITE(PTR, $00001C44)
+【Rintaro】1991 was the collapse of the USSR, right? But what was in 2000...? If it were 2001, it would be the simultaneous terrorist attacks...
+<END>
+
+#WRITE(PTR, $00001C5E)
+【Suzuha】2000 had the Year 2000 problem.
+<END>
+
+#WRITE(PTR, $00001C6E)
+【Itaru】Haah? That wasn't as big a problem as it was hyped out to be, was it?
+<END>
+
+#WRITE(PTR, $00001C7E)
+【Suzuha】That's because the α World Line we're on is a "possible world where the Year 2000 problem didn't occur".
+<END>
+
+#WRITE(PTR, $00001C8E)
+So basically, does that mean there are other possible worlds where the Year 2000 problem did occur...?
+<END>
+
+#WRITE(PTR, $00001CA8)
+【Suzuha】And 2010.
+<END>
+
+#WRITE(PTR, $00001CC2)
+【Mayuri】Did a large event happen this year-?
+<END>
+
+#WRITE(PTR, $00001CD2)
+【Suzuha】This year's momentous event--
+<END>
+
+#WRITE(PTR, $00001CE2)
+Suzuha looks towards the development room.
+<END>
+
+#WRITE(PTR, $00001CF2)
+【Suzuha】Can it be anything other than history's first successful time machine?
+<END>
+
+#WRITE(PTR, $00001D0C)
+【Mayuri】Ah, I see-. That's true. Amaaazing.
+<END>
+
+#WRITE(PTR, $00001D5C)
+【Kurisu】Another question.
+<END>
+
+#WRITE(PTR, $00001D6C)
+Kurisu keeps plowing ahead.
+<END>
+
+#WRITE(PTR, $00001D7C)
+I guess this one of her scientist traits.
+<END>
+
+#WRITE(PTR, $00001D9E)
+【Kurisu】These superpositioned world lines aren't <DICT>parallel worlds</DICT> are they?
+<END>
+
+#WRITE(PTR, $00001DB8)
+【Suzuha】No. At the very end, they're just "possible worlds that exist simultaneously".
+<END>
+
+#WRITE(PTR, $00001DC8)
+【Kurisu】Then how do you observe the differences between world lines? Isn't that impossible without the perspective of a god?
+<END>
+
+#WRITE(PTR, $00001DD8)
+【Suzuha】That's usually true. But--
+<END>
+
+#WRITE(PTR, $00001DF2)
+Suzuha looks at me.
+<END>
+
+#WRITE(PTR, $00001E02)
+...Don't tell me!
+<END>
+
+#WRITE(PTR, $00001E12)
+【Rintaro】Reading Steiner!?
+<END>
+
+#WRITE(PTR, $00001E22)
+【Suzuha】Is that what you named it? Okabe Rintaro, you have the special ability to observe the passage of world lines. Correct?
+<END>
+
+#WRITE(PTR, $00001E32)
+【Rintaro】Yeah.
+<END>
+
+#WRITE(PTR, $00001E42)
+【Suzuha】That's the key.
+<END>
+
+#WRITE(PTR, $00001E52)
+【Suzuha】Your special ability is the key to release the world from the curse of SERN's rule.
+<END>
+
+#WRITE(PTR, $00001E62)
+【Suzuha】Right now, you are an existence rivaling god.
+<END>
+
+#WRITE(PTR, $00001E72)
+【Rintaro】...My ability
+<END>
+
+#WRITE(PTR, $00001E82)
+【Suzuha】Outside the scope of Attractor Field α-- If you reach the β World Line... the converging "result" changes too.
+<END>
+
+#WRITE(PTR, $00001E92)
+My body trembles.
+<END>
+
+#WRITE(PTR, $00001EA2)
+I almost roar from the excitement.
+<END>
+
+#WRITE(PTR, $00001EB2)
+【Rintaro】...Can she be saved?
+<END>
+
+#WRITE(PTR, $00001F02)
+Mayuri.
+<END>
+
+#WRITE(PTR, $00001F12)
+Can she be saved?
+<END>
+
+#WRITE(PTR, $00001F22)
+Suzuha nods clearly.
+<END>
+
+#WRITE(PTR, $00001F32)
+Then I just gotta do it.
+<END>
+
+#WRITE(PTR, $00001F42)
+This is the only path.
+<END>
+
+#WRITE(PTR, $00001F52)
+All I can do is take Suzuha's proposal.
+<END>
+
+#WRITE(PTR, $00001F62)
+【Kurisu】Wait a second.
+<END>
+
+#WRITE(PTR, $00001FE0)
+But Kurisu's a downer.
+<END>
+
+#WRITE(PTR, $00001FF0)
+【Kurisu】Is that really all true? Amane-san, did you possible mix in any of your delusions?
+<END>
+
+#WRITE(PTR, $0000200A)
+【Suzuha】Wh-what~!? I didn't mix in any delusions!
+<END>
+
+#WRITE(PTR, $00002024)
+【Kurisu】Calm down. I'm not trying to pick a fight.
+<END>
+
+#WRITE(PTR, $00002034)
+【Kurisu】But I have my doubts. In the first place, how did you know about Okabe's ability, and that Okabe and I were in Akihabara in 2010?
+<END>
+
+#WRITE(PTR, $0000204E)
+【Kurisu】Isn't that a little too detailed for someone born in 2017?
+<END>
+
+#WRITE(PTR, $0000205E)
+That's... true.
+<END>
+
+#WRITE(PTR, $0000206E)
+Everyone glances at Suzuha.
+<END>
+
+#WRITE(PTR, $00002088)
+【Suzuha】...That's what was written in Father's will.
+<END>
+
+#WRITE(PTR, $00002098)
+Will...?
+<END>
+
+#WRITE(PTR, $000020E8)
+【Mayuri】Will? What do you mean-?
+<END>
+
+#WRITE(PTR, $00002102)
+【Suzuha】I decided to time travel because I read Father's will.
+<END>
+
+#WRITE(PTR, $00002112)
+【Suzuha】Father was one of the founding members of the Resistance and studied time machines separately from SERN.
+<END>
+
+#WRITE(PTR, $00002122)
+【Suzuha】He studied to change the future.
+<END>
+
+#WRITE(PTR, $0000213C)
+【Suzuha】But... SERN killed Father too...
+<END>
+
+#WRITE(PTR, $0000214C)
+【Suzuha】That's why I'm here, to succeed Father's will.
+<END>
+
+#WRITE(PTR, $0000219C)
+【Kurisu】...I'm sorry.
+<END>
+
+#WRITE(PTR, $000021AC)
+【Suzuha】......
+<END>
+
+#WRITE(PTR, $000021BC)
+Suzuha doesn't look at Kurisu.
+<END>
+
+#WRITE(PTR, $000021CC)
+She still seems to have ill will.
+<END>
+
+#WRITE(PTR, $000021DC)
+Kurisu wouldn't actively cooperate with SERN. I know that, but I couldn't just tell Suzuha off after hearing her heroic past.
+<END>
+
+#WRITE(PTR, $000021EC)
+It might be an outburst of anger or scapegoating, but Suzuha really does see Kurisu as the main cause.
+<END>
+
+#WRITE(PTR, $000021FC)
+But if that's the case, why didn't the time traveler Suzuha kill that main cause, Kurisu?
+<END>
+
+#WRITE(PTR, $0000220C)
+Maybe she couldn't kill her.
+<END>
+
+#WRITE(PTR, $0000221C)
+The world converges.
+<END>
+
+#WRITE(PTR, $0000222C)
+No matter how much I struggle, Mayuri dies.
+<END>
+
+#WRITE(PTR, $0000223C)
+Similarly, no matter how much Suzuha struggles, she can't kill Kurisu...
+<END>
+
+#WRITE(PTR, $0000224C)
+Suzuha clears her throat as if wanting to change the subject.
+<END>
+
+#WRITE(PTR, $00002266)
+【Suzuha】Akihabara, 2010. The time machine created here accelerated SERN's own time machine development.
+<END>
+
+#WRITE(PTR, $00002276)
+【Suzuha】It's necessary to obstruct that to guide the course of history.
+<END>
+
+#WRITE(PTR, $000022C6)
+【Itaru】Obstruct? How?
+<END>
+
+#WRITE(PTR, $000022D6)
+【Rintaro】SERN has noticed us.
+<END>
+
+#WRITE(PTR, $000022E6)
+That's clear from Moeka's attack.
+<END>
+
+#WRITE(PTR, $00002300)
+【Suzuha】I believe the main cause is the mail data from the first time you guys used your time machine. That's what Father predicted.
+<END>
+
+#WRITE(PTR, $00002310)
+【Rintaro】Mail data...? It wasn't that they caught us hacking?
+<END>
+
+#WRITE(PTR, $00002320)
+【Itaru】Like I said, nobody can catch my hacking.
+<END>
+
+#WRITE(PTR, $00002370)
+【Kurisu】But, what mail data?
+<END>
+
+#WRITE(PTR, $000023C0)
+【Mayuri】Isn't it that thing-? The mail Okarin sent that said Chris-chan died-.
+<END>
+
+#WRITE(PTR, $000023D0)
+The mail I sent to Daru right after Doctor Nakabachi's conference, huh.
+<END>
+
+#WRITE(PTR, $000023E0)
+【Kurisu】Ahh, that...
+<END>
+
+#WRITE(PTR, $000023F0)
+Back then, we hadn't noticed that the Microwave Ophone (Temp) was a time machine though...
+<END>
+
+#WRITE(PTR, $00002440)
+【Suzuha】They probably caught that mail that crossed through time.
+<END>
+
+#WRITE(PTR, $00002450)
+【Rintaro】They already caught us back then?
+<END>
+
+#WRITE(PTR, $00002460)
+But now that I think about it, the first time I came in contact with Moeka was the day after I sent that mail.
+<END>
+
+#WRITE(PTR, $000024DE)
+【Itaru】We're swimming in the deep end, aren't we...
+<END>
+
+#WRITE(PTR, $000024F8)
+【Mayuri】Mayushii's good at the breaststroke-
+<END>
+
+#WRITE(PTR, $00002512)
+【Itaru】Alright, alright, do a sexy underwater M-shape pose.
+<END>
+
+#WRITE(PTR, $00002562)
+【Rintaro】But, just how did they catch us... Hundreds of millions of mails are sent around the world each day.
+<END>
+
+#WRITE(PTR, $0000257A)
+【Suzuha】SERN uses the <DICT>Echelon</DICT> network to globally gather information on time machines.
+<END>
+
+#WRITE(PTR, $0000258A)
+【Rintaro】Echelon, you say...!? That really exists...!?
+<END>
+
+#WRITE(PTR, $0000259A)
+This is unthinkable information for people who dabble in conspiracy theories, but it doesn't seem like the other lab mems understand the meaning of Echelon. I'm the only one surprised.
+<END>
+
+#WRITE(PTR, $000025B4)
+【Suzuha】You know, SERN's always observing everyone else's time travel research with Echelon's outstretched antennae.
+<END>
+
+#WRITE(PTR, $000025C4)
+Meaning if a mail that crosses through time exists, it wouldn't escape Echelon's sight.
+<END>
+
+#WRITE(PTR, $000025D4)
+【Suzuha】So you need to take the "first mail data" and delete it from SERN's computer.
+<END>
+
+#WRITE(PTR, $000025E4)
+【Suzuha】If you do that, then SERN won't notice you guys. The time machine won't be completed in 2034. On the contrary, time machine research itself will be at an impasse.
+<END>
+
+#WRITE(PTR, $000025F4)
+So basically, deleting that data will lead us to the possible world where SERN doesn't make a time machine, huh.
+<END>
+
+#WRITE(PTR, $0000263C)
+【Itaru】Hmm, but when we hacked SERN's database, there wasn't any data like that...
+<END>
+
+#WRITE(PTR, $00002656)
+【Suzuha】IBN 5100.
+<END>
+
+#WRITE(PTR, $00002670)
+【Itaru】Ohhh!!
+<END>
+
+#WRITE(PTR, $00002680)
+【Rintaro】I see! That database, constructed with IBN 5100s!
+<END>
+
+#WRITE(PTR, $00002690)
+【Suzuha】Inside that is probably Echelon's accumulated data.
+<END>
+
+#WRITE(PTR, $000026A0)
+That information is in there...
+<END>
+
+#WRITE(PTR, $000026B0)
+【Rintaro】Gh, Daru, why didn't we use the IBN 5100 earlier!?
+<END>
+
+#WRITE(PTR, $000026CA)
+【Itaru】But even if you say to use it, we don't have one in the first place.
+<END>
+
+#WRITE(PTR, $000026DA)
+【Rintaro】What are you talking about!? Didn't I get one!?
+<END>
+
+#WRITE(PTR, $000026F4)
+【Itaru】Huh?
+<END>
+
+#WRITE(PTR, $00002704)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002714)
+I see. That was before the world line changed.
+<END>
+
+#WRITE(PTR, $00002724)
+In this world line, I haven't obtained an IBN 5100...
+<END>
+
+#WRITE(PTR, $0000273E)
+【Suzuha】My role is to entrust an IBN 5100 to you guys.
+<END>
+
+#WRITE(PTR, $0000274E)
+【Rintaro】Do you have one!?
+<END>
+
+#WRITE(PTR, $0000275E)
+Suzuha shakes her head left and right.
+<END>
+
+#WRITE(PTR, $00002778)
+【Suzuha】I'm going to 1975 to obtain one.
+<END>
+
+#WRITE(PTR, $00002788)
+1975. The year the IBN 5100 went to market.
+<END>
+
+#WRITE(PTR, $00002798)
+I know because the other John Titor who appeared in 2000 also said his goal was to go to 1975 and obtain one.
+<END>
+
+#WRITE(PTR, $000027A8)
+I wonder if 2000 Titor was also Suzuha.
+<END>
+
+#WRITE(PTR, $000027B8)
+Anyway, as long as Suzuha gets an IBN 5100...
+<END>
+
+#WRITE(PTR, $000027C8)
+We'll diverge to a possible world where the time machine isn't made and SERN doesn't catch us--
+<END>
+
+#WRITE(PTR, $000027D8)
+We can leave the current Attractor Field α and go to the β World Line.
+<END>
+
+#WRITE(PTR, $000027E8)
+The world line where Mayuri doesn't die.
+<END>
+
+#WRITE(PTR, $000027F8)
+【Rintaro】Alright...! Let's strike while the iron's hot. Let's have Suzuha leap to 1975 immediately.
+<END>
+
+#WRITE(PTR, $00002812)
+【Suzuha】...I really want to, but...
+<END>
+
+#WRITE(PTR, $00002822)
+Suzuha apologetically hangs her head.
+<END>
+
+#WRITE(PTR, $00002832)
+A little bit of blood oozes out of her burnt hand onto the towel wrapped around it.
+<END>
+
+#WRITE(PTR, $00002842)
+She's hiding it from Mayuri and Daru, but I can see it clearly.
+<END>
+
+#WRITE(PTR, $00002852)
+It's painful just looking at it. Maybe we need to take her to a hospital immediately.
+<END>
+
+#WRITE(PTR, $00002862)
+【Rintaro】Your time machine's broken, huh...
+<END>
+
+#WRITE(PTR, $000028B2)
+【Kurisu】Can you fix it?
+<END>
+
+#WRITE(PTR, $000028C2)
+【Suzuha】...I can't. I just rode what Father created.
+<END>
+
+#WRITE(PTR, $000028D2)
+【Suzuha】As for the structure itself, I've memorized the manual completely, but...
+<END>
+
+#WRITE(PTR, $000028E2)
+Knowing the structure by the manual is completely different from touching it for yourself.
+<END>
+
+#WRITE(PTR, $000028F2)
+Having said that, it's not like a time machine from 2036 can be fixed with current technology.
+<END>
+
+#WRITE(PTR, $0000290C)
+【Kurisu】What about going back with the Time Leap Machine? To before Amane-san's time machine broke.
+<END>
+
+#WRITE(PTR, $0000295C)
+【Itaru】Wait, you're going to use the Time Leap Machine? Wasn't "Do not experiment" our Final Answer?
+<END>
+
+#WRITE(PTR, $0000296C)
+I still haven't told Daru I've time leaped.
+<END>
+
+#WRITE(PTR, $0000297C)
+Explaining is also a pain.
+<END>
+
+#WRITE(PTR, $0000298C)
+【Rintaro】We'll use it depending on the situation. So, Suzuha. Do you know when it broke?
+<END>
+
+#WRITE(PTR, $0000299C)
+【Suzuha】...No. It was probably late night rain from earlier. Since the machine's interior was flooded. Even though it's supposed to be airtight...
+<END>
+
+#WRITE(PTR, $000029AC)
+【Itaru】Don't you think it made a hole back when you made that showy crash?
+<END>
+
+#WRITE(PTR, $000029C6)
+【Suzuha】That wasn't a crash. The coordinate calculations were slightly off, so it just "appeared" there.
+<END>
+
+#WRITE(PTR, $000029D6)
+【Suzuha】That machine is quite unstable.
+<END>
+
+#WRITE(PTR, $000029E6)
+【Rintaro】So, what day did it rain?
+<END>
+
+#WRITE(PTR, $00002A36)
+【Kurisu】The morning of the 10th. It rained just before dawn.
+<END>
+
+#WRITE(PTR, $00002A46)
+The Time Leap Machine can only continuously leap back 48 hours, or 2 days.
+<END>
+
+#WRITE(PTR, $00002A56)
+And the Time Leap Machine was completed today, the 13th at 14 o'clock...
+<END>
+
+#WRITE(PTR, $00002A66)
+So no matter how much we try, we can only leap back to the 11th at 14 o'clock...
+<END>
+
+#WRITE(PTR, $00002A76)
+【Rintaro】No good, we can't get there with the Time Leap Machine...!
+<END>
+
+#WRITE(PTR, $00002A86)
+I thought we had a glimmer of hope...
+<END>
+
+#WRITE(PTR, $00002B04)
+【Itaru】I think we should try to fix it, though.
+<END>
+
+#WRITE(PTR, $00002B14)
+【Mayuri】That's right-. Since it's a time machine, time doesn't matter much, you know.
+<END>
+
+#WRITE(PTR, $00002B92)
+【Suzuha】......
+<END>
+
+#WRITE(PTR, $00002BA2)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00002BB2)
+Kurisu, Suzuha, and I say no more.
+<END>
+
+#WRITE(PTR, $00002BC2)
+Because we know.
+<END>
+
+#WRITE(PTR, $00002BD2)
+In less that two hours.
+<END>
+
+#WRITE(PTR, $00002BE2)
+Death will visit Mayuri.
+<END>
+
+#WRITE(PTR, $00002C04)
+It's already 5:30.
+<END>
+
+#WRITE(PTR, $00002C14)
+Mayuri's death is just two hours away.
+<END>
+
+#WRITE(PTR, $00002C24)
+If we sneak into Radio Kaikan now, we'll just barely make it.
+<END>
+
+#WRITE(PTR, $00002C34)
+More importantly--
+<END>
+
+#WRITE(PTR, $00002C44)
+Maybe I should time leap now to 14 o'clock on the 11th to make full use of two days.
+<END>
+
+#WRITE(PTR, $00002C54)
+【Rintaro】Everyone, you're hungry, right? You should be.
+<END>
+
+#WRITE(PTR, $00002CD6)
+【Itaru】What's this all of a sudden?
+<END>
+
+#WRITE(PTR, $00002CF0)
+【Mayuri】Mayushii's hungry-
+<END>
+
+#WRITE(PTR, $00002D00)
+As expected from a glutton.
+<END>
+
+#WRITE(PTR, $00002D10)
+I take a 10,000 yen bill out of my wallet.
+<END>
+
+#WRITE(PTR, $00002D20)
+【Rintaro】Mayuri, Daru. Go shopping for me. Once we eat, we can start working over our counter plans again.
+<END>
+
+#WRITE(PTR, $00002D3A)
+【Mayuri】Wawah. Okarin, what are we going to do with all this money-?
+<END>
+
+#WRITE(PTR, $00002D4A)
+【Rintaro】I'm telling you to buy stuff. Keep the change. Actually, just use it all.
+<END>
+
+#WRITE(PTR, $00002D5A)
+【Itaru】You can calmly hand over a 10,000 yen bill... wow, Okarin, you can pull of things we can't! That's mind numbing! I love youu!
+<END>
+
+#WRITE(PTR, $00002D76)
+With that said, Mayuri and Daru triumphantly leave, having been successfully bribed with 10,000 yen.
+<END>
+
+#WRITE(PTR, $00002D86)
+【Rintaro】Christina, and you, Titor
+<END>
+
+#WRITE(PTR, $00002DFC)
+【Suzuha】Titor? You mean me...?
+<END>
+
+#WRITE(PTR, $00002E0C)
+【Rintaro】Who else?
+<END>
+
+#WRITE(PTR, $00002E1C)
+【Suzuha】Why did you suddenly change the way you call me?
+<END>
+
+#WRITE(PTR, $00002E2C)
+【Rintaro】Because you are Titor.
+<END>
+
+#WRITE(PTR, $00002E3C)
+【Suzuha】Yeah, but...
+<END>
+
+#WRITE(PTR, $00002E56)
+【Kurisu】It's useless. Okabe rarely calls anyone's name correctly. Just give up.
+<END>
+
+#WRITE(PTR, $00002E70)
+【Suzuha】That reminds me, he used to call me something weird like "Working Warrior".
+<END>
+
+#WRITE(PTR, $00002E80)
+【Rintaro】Listen, you two. I'm going to time leap to the 11th at 14 o'clock.
+<END>
+
+#WRITE(PTR, $00002E90)
+【Rintaro】There, I'll have Titor explain herself again. Moreover, until this time... until the 13th at 17 o'clock, we will do repairs on the time machine.
+<END>
+
+#WRITE(PTR, $00002EA0)
+【Kurisu】You have a plan?
+<END>
+
+#WRITE(PTR, $00002EB0)
+【Rintaro】It's better than just struggling for two hours now. If we can't repair it, we can just keep repeating the same two days.
+<END>
+
+#WRITE(PTR, $00002ECA)
+【Suzuha】...I'm sorry.
+<END>
+
+#WRITE(PTR, $00002EDA)
+【Rintaro】Titor. You must absolutely get an IBN 5100 for us.
+<END>
+
+#WRITE(PTR, $00002EEA)
+【Rintaro】This isn't for you, nor for the future. To the end, you must never forget that this mission is to save Mayuri.
+<END>
+
+#WRITE(PTR, $00002EFA)
+【Rintaro】You may call me self-righteous if you want. But I--
+<END>
+
+#WRITE(PTR, $00002F0A)
+【Rintaro】Won't let anyone tell me what to do.
+<END>
+
+#WRITE(PTR, $00002F24)
+Kurisu and Suzuha give an encouraging nod in agreement.
+<END>
+
+#WRITE(PTR, $00002F34)
+【Rintaro】Alright. Commence Operations.
+<END>
+
+#WRITE(PTR, $00002F4E)
+【Kurisu】You're not going to name the operation?
+<END>
+
+#WRITE(PTR, $00002F5E)
+...Who cares about that?
+<END>
+
+#WRITE(PTR, $00002F6E)
+This isn't a game.
+<END>
+
+#WRITE(PTR, $00002F7E)
+Mayuri's life hangs in the balance. There's no time to screw around.
+<END>
+
+#WRITE(PTR, $00002F98)
+【Kurisu】You couldn't find a good Norse mythology themed name?
+<END>
+
+#WRITE(PTR, $00002FB2)
+【Suzuha】Why Norse mythology?
+<END>
+
+#WRITE(PTR, $00002FCC)
+【Kurisu】I don't think it has a deep meaning. Isn't it just because our little pretentious hipster bullshitter loves germane names?
+
+#WRITE(PTR, $00002FDC)
+【Suzuha】Now that you mention it, most of the operation names in the Resistance had germane names too. Whenever I asked, they told me "it's a tradition".
+<END>
+
+#WRITE(PTR, $00002FEC)
+【Kurisu】Pretentious hipster bullshit still exists 26 years from now, huh...
+<END>
+
+#WRITE(PTR, $00002FFC)
+【Rintaro】Cut the worthless chit chat!
+<END>
+
+#WRITE(PTR, $0000300C)
+Mayuri's life hangs in the balance.
+<END>
+
+#WRITE(PTR, $0000301C)
+This isn't the time for such an optimistic conversation!
+<END>
+
+#WRITE(PTR, $000030C2)
+With Kurisu and Suzuha's cooperation-- I leave the 42in Braun tube TV to Suzuha-- we activate the Time Leap Machine before Mayuri gets back.
+<END>
+
+#WRITE(PTR, $000035C2)
+TL10.PMF
+<FILEENDAD>
+

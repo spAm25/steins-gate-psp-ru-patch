@@ -1405,7 +1405,7 @@ Killed.
 <END>
 
 #WRITE(PTR, $00003C34)
-Like hell I can accept this absurd reality.%
+Like hell I can accept this absurd reality.
 <END>
 
 #WRITE(PTR, $00003C44)

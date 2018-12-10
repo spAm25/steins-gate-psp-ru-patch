@@ -26,7 +26,7 @@ It's past 2AM.
 <END>
 
 #WRITE(PTR, $00000386)
-Since the window is closed、 I can't hear any outside noise.
+Since the window is closed, I can't hear any outside noise.
 <END>
 
 #WRITE(PTR, $00000396)
@@ -1099,7 +1099,7 @@ If we believe in Titor's words, then the time machine won't be complete for anot
 <END>
 
 #WRITE(PTR, $00002006)
-【Kurisu】For example, there might be jellymen under the earth or in the void of space. There could be jellymen aside from the ones they found. Actually, I'm almost 100% sure of it.
+【Kurisu】For example, there might be jellymen under the earth or in the void of space. There could be jellymen aside from the ones they found. Actually, I'm almost 100％ sure of it.
 <END>
 
 #WRITE(PTR, $00002020)

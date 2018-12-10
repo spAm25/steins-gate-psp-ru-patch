@@ -414,7 +414,7 @@ Applause.
 <END>
 
 #WRITE(PTR, $00002122)
-【Rintaro】One of my abilities... "Complexion Reading is a Gentleman's Taste" reacted.%p
+【Rintaro】One of my abilities... "Complexion Reading is a Gentleman's Taste" reacted.
 <END>
 
 #WRITE(PTR, $00002132)

@@ -72,11 +72,11 @@ Acetylcholine levels in the hippocampus increase in animals when learning or rem
 <END2>
 
 #WRITE(PTR, $00000070)
-TODO
+A
 <END2>
 
 #WRITE(PTR, $00000072)
-A
+あ
 <END2>
 
 #WRITE(PTR, $00000074)

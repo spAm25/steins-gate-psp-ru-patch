@@ -1,0 +1,1295 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000036C2)
+
+#WRITE(PTR, $000007D4)
+Based on the information from the BBS replies last night-- no specifics on where it's sold though-- we searched shops around Akiba without anything in mind in particular.
+<END>
+
+#WRITE(PTR, $000007E4)
+Anime shops. Game shops. Otaku shops.
+<END>
+
+#WRITE(PTR, $000007F4)
+Commemoration shops for the Olympics and exhibitions.
+<END>
+
+#WRITE(PTR, $00000804)
+Local shops.
+<END>
+
+#WRITE(PTR, $00000814)
+I tried combing through shops that maniacs frequent, but couldn't find any pin badges with the same design as Suzuha's after all.
+<END>
+
+#WRITE(PTR, $00000824)
+While thinking it might be best to go all the way to Ikebukuro or Nakano, I head back to the lab when--
+<END>
+
+#WRITE(PTR, $000008C4)
+A street stand catches my eye.
+<END>
+
+#WRITE(PTR, $000008D4)
+Standing next to his goods on a folding table is a foreigner covered in tattoos who looks like he's free.
+<END>
+
+#WRITE(PTR, $000008E4)
+I guess that bro's the storekeeper.
+<END>
+
+#WRITE(PTR, $000008F4)
+This is the first time I've seen such a stylish street stand in Akiba. Normally, they just sell suspicious junk.
+<END>
+
+#WRITE(PTR, $00000996)
+I peek down at the street stand with nothing else to lose. Various accessories are lined up on the folding table. Including pin badges.
+<END>
+
+#WRITE(PTR, $000009A6)
+An unexpected coincidence. Don't tell me it's here...!?
+<END>
+
+#WRITE(PTR, $000009B6)
+I can't find the "OSHM***A 7010" logo among the displayed accessories, but just to make sure, let's ask the "Master".
+<END>
+
+#WRITE(PTR, $000009C6)
+Ummm... should I... use English?
+<END>
+
+#WRITE(PTR, $000009D6)
+Our eyes meet. He has beautiful baby blue eyes.
+<END>
+
+#WRITE(PTR, $000009E6)
+But I look away at once.
+<END>
+
+#WRITE(PTR, $000009F6)
+Gh. Don't look down on me.
+<END>
+
+#WRITE(PTR, $00000A06)
+If that's how it's gonna be, then let's just plow on through.
+<END>
+
+#WRITE(PTR, $00000A16)
+【Rintaro】HEY, MASTER. I AM MAD SCIENTIST. SO COOooL. SONUVABITCH!
+<END>
+
+#WRITE(PTR, $00000A26)
+【Master】Yes, what is it-?
+<END>
+
+#WRITE(PTR, $00000A36)
+He smiles, and even answers in Japanese.
+<END>
+
+#WRITE(PTR, $00000A46)
+He shows off his front teeth in a friendly manner.
+<END>
+
+#WRITE(PTR, $00000A56)
+It's sad that my provocation was completely ineffective...
+<END>
+
+#WRITE(PTR, $00000A66)
+【Rintaro】Umm, th-there's just something I want to ask.
+<END>
+
+#WRITE(PTR, $00000AB2)
+I take the photocopy of Suzuha's pin badge out of my pocket.
+<END>
+
+#WRITE(PTR, $00000AC2)
+【Rintaro】Does this look familiar?
+<END>
+
+#WRITE(PTR, $00000AD2)
+After Master stares at it for a while, he does an exaggerated gesture typical of westerners, shrugging his shoulders while shaking his head.
+<END>
+
+#WRITE(PTR, $00000AF2)
+【Rintaro】I want to know its source. Can you check it?
+<END>
+
+#WRITE(PTR, $00000B02)
+【Master】re... remember-, remember-? Hmmm, sorry, itsa little diff-cult, eh-
+<END>
+
+#WRITE(PTR, $00000B12)
+What is he saying?
+<END>
+
+#WRITE(PTR, $00000B22)
+【Master】By the way, where didja get this thang?
+<END>
+
+#WRITE(PTR, $00000B32)
+【Rintaro】That's what I want to know. I'll compensate you.
+<END>
+
+#WRITE(PTR, $00000B42)
+【Master】I sorry.
+<END>
+
+#WRITE(PTR, $00000B52)
+...He apologizes in strange Japanese.
+<END>
+
+#WRITE(PTR, $00000B62)
+So, obviously, there's no information in this stall either, huh...
+<END>
+
+#WRITE(PTR, $00000B72)
+For now, I give him my contact address and ask him to tell me if he finds out anything.
+<END>
+
+#WRITE(PTR, $00000B88)
+【Suzuha】Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $00000C68)
+Suzuha's standing a little bit away.
+<END>
+
+#WRITE(PTR, $00000C78)
+She's holding a drink. My favorite Dr Pepper... no, it's cola.
+<END>
+
+#WRITE(PTR, $00000C92)
+【Suzuha】Sup. Wanna drink?
+<END>
+
+#WRITE(PTR, $00000CA2)
+I accept it, lean on the roadside fence and quench my thirst.
+<END>
+
+#WRITE(PTR, $00000CB2)
+I had Suzuha go her own way, searching in Kanda, but when did she get here?
+<END>
+
+#WRITE(PTR, $00000CC2)
+【Rintaro】Results?
+<END>
+
+#WRITE(PTR, $00000CDC)
+【Suzuha】None.
+<END>
+
+#WRITE(PTR, $00000CEC)
+【Suzuha】More importantly, what's with that English back there?
+<END>
+
+#WRITE(PTR, $00000D06)
+【Suzuha】It was kinda dumb. "So cooool".
+<END>
+
+#WRITE(PTR, $00000D16)
+【Suzuha】Is that standard English in this era?
+<END>
+
+#WRITE(PTR, $00000D26)
+【Rintaro】Like hell it is.
+<END>
+
+#WRITE(PTR, $00000D40)
+【Suzuha】Is that so. So it's an Okabe Rintaro Original, huh. There's no travel abroad in my time, so I don't quite know.
+<END>
+
+#WRITE(PTR, $00000D50)
+【Rintaro】There's no travel abroad? You mean it's not that you haven't gone?
+<END>
+
+#WRITE(PTR, $00000D60)
+【Suzuha】Correct. Travel wasn't for amusement. Permission for passage is rarely given. So I haven't seen any foreigners until I came to this era.
+<END>
+
+#WRITE(PTR, $00000D70)
+No wars means isolation...?
+<END>
+
+#WRITE(PTR, $00000D80)
+No, maybe instead, the peoples and the nations took such measures to avoid confrontation.
+<END>
+
+#WRITE(PTR, $00000D90)
+...An invisible prison, so to speak. And the wardens are SERN and the Council of 300.
+<END>
+
+#WRITE(PTR, $00000DA0)
+Japan was an isolated nation in the olden days, with seldom international exchange.
+<END>
+
+#WRITE(PTR, $00000DB0)
+The international situation might have regressed several centuries.
+<END>
+
+#WRITE(PTR, $00000DC0)
+The absence of conflict is obviously a good thing, but...
+<END>
+
+#WRITE(PTR, $00000DD0)
+...let's stop thinking nostalgically about the future.
+<END>
+
+#WRITE(PTR, $00000DE0)
+More importantly, how do we break out of this stalemate?
+<END>
+
+#WRITE(PTR, $00000E3C)
+The sunlight burns my skin.
+<END>
+
+#WRITE(PTR, $00000E4C)
+It's almost like a steam bath.
+<END>
+
+#WRITE(PTR, $00000E5C)
+All this heat is annoying me.
+<END>
+
+#WRITE(PTR, $00000E6C)
+Just how eager a bastard is the sun?
+<END>
+
+#WRITE(PTR, $00000E7C)
+Shining in the center of the sky like he owns the damn place, not giving a fuck...
+<END>
+
+#WRITE(PTR, $00000E8C)
+Dammit. Why can't I find it...?
+<END>
+
+#WRITE(PTR, $00000E9C)
+But even if we don't find Suzuha's father, it's no skin off my back.
+<END>
+
+#WRITE(PTR, $00000EAC)
+If Daru can fix the time machine, then that settles everything.
+<END>
+
+#WRITE(PTR, $00000EBC)
+So why do I feel this much regret myself? I don't really know.
+<END>
+
+#WRITE(PTR, $00000ECC)
+Maybe I'm irritated at my own powerlessness.
+<END>
+
+#WRITE(PTR, $00000EDC)
+No matter how many times I try to save Mayuri, I can't.
+<END>
+
+#WRITE(PTR, $00000EEC)
+And now, I've left the time machine to Daru and the Time Leap Machine to Kurisu.
+<END>
+
+#WRITE(PTR, $00000EFC)
+I'm haughtily flapping my lips, yet I'm not helpful at all.
+<END>
+
+#WRITE(PTR, $00000F0C)
+Maybe that's why I want to at least settle whatever it is I can.
+<END>
+
+#WRITE(PTR, $00000F1C)
+【Rintaro】...Maybe this pin badge was made more recently. As in it hasn't been made yet.
+<END>
+
+#WRITE(PTR, $00000F4C)
+Next to me, Suzuha stretches wide with a refreshed smile.
+<END>
+
+#WRITE(PTR, $00000F5C)
+【Suzuha】...Maybe I'm not fated to meet Father after all. We've searched this much but it was no good. No good at all, huh~
+<END>
+
+#WRITE(PTR, $00000F72)
+She comes to me with such a trivial excuse.
+<END>
+
+#WRITE(PTR, $00000F82)
+And yet here I am, starting to hate myself because we can't find it...!
+<END>
+
+#WRITE(PTR, $00000F9E)
+【Rintaro】Are you giving up? We still have one more day!
+<END>
+
+#WRITE(PTR, $00000FB8)
+【Suzuha】Wh-why are you mad?
+<END>
+
+#WRITE(PTR, $00000FC8)
+【Rintaro】Everyone's trying their hardest for your sake. Don't you get it!?
+<END>
+
+#WRITE(PTR, $00000FD8)
+【Rintaro】I want to prioritize Mayuri over anything!
+<END>
+
+#WRITE(PTR, $00000FE8)
+【Rintaro】But you're still a lab mem, a comrade! If a comrade's in trouble, you'd want to save them. That's what Mayuri felt, and I agree. That's why I'm searching!
+<END>
+
+#WRITE(PTR, $00000FF8)
+【Rintaro】How can you be the first to give up!?
+<END>
+
+#WRITE(PTR, $00001012)
+【Suzuha】D-don't yell!
+<END>
+
+#WRITE(PTR, $00001022)
+【Rintaro】Don't get discouraged on me...!
+<END>
+
+#WRITE(PTR, $00001032)
+No good. I burst out in anger.
+<END>
+
+#WRITE(PTR, $00001042)
+I tell myself to calm down.
+<END>
+
+#WRITE(PTR, $00001052)
+This isn't the time to be quarreling like this.
+<END>
+
+#WRITE(PTR, $0000106C)
+【Suzuha】I'm sorry. But you know, don't you think you're talking from too high a perspective?
+<END>
+
+#WRITE(PTR, $0000107C)
+The surrounding passersby grin as they watch us.
+<END>
+
+#WRITE(PTR, $0000108C)
+I take a deep breath.
+<END>
+
+#WRITE(PTR, $0000109C)
+【Rintaro】...I'm sorry if I said too much.
+<END>
+
+#WRITE(PTR, $000010B6)
+【Suzuha】...
+<END>
+
+#WRITE(PTR, $000010C6)
+It's too awkward to make eye contact.
+<END>
+
+#WRITE(PTR, $000010D6)
+I pretend to be thinking and look around.
+<END>
+
+#WRITE(PTR, $000010E6)
+【Rintaro】...Well then, what shall we do from now?
+<END>
+
+#WRITE(PTR, $00001178)
+I wonder how the other lab mems are progressing.
+<END>
+
+#WRITE(PTR, $00001196)
+I'm especially concerned about Daru.
+<END>
+
+#WRITE(PTR, $000011B4)
+Depending on the situation, he might need some relief.
+<END>
+
+#WRITE(PTR, $000011D2)
+He's been working under the blazing sun, so maybe we should give him some refreshments.
+<END>
+
+#WRITE(PTR, $000011F0)
+And then Mayuri.
+<END>
+
+#WRITE(PTR, $0000120E)
+She's been working alone.
+<END>
+
+#WRITE(PTR, $0000122C)
+If I close my eyes, I can clearly see the scene of her death, which is enough to make me groan.
+<END>
+
+#WRITE(PTR, $0000124A)
+There's still 24 hours until that fateful time, but I'm still worried about her working alone after all.
+<END>
+
+#WRITE(PTR, $00001268)
+But currently, the only thing I can do is search for the pin badge after all.
+<END>
+
+#WRITE(PTR, $00001594)
+【Mayuri】Tutturu-♪ Mayushii here.
+<END>
+
+#WRITE(PTR, $000015B0)
+【Rintaro】Where are you now?
+<END>
+
+#WRITE(PTR, $000015CC)
+【Mayuri】Umm, in front of the station-
+<END>
+
+#WRITE(PTR, $000015E8)
+【Rintaro】Let's meet up. Don't move from there.
+<END>
+
+#WRITE(PTR, $00001604)
+【Mayuri】Okay. Understood-
+<END>
+
+#WRITE(PTR, $000016EA)
+I take Suzuha towards the station.
+<END>
+
+#WRITE(PTR, $00001808)
+When we get there, I hear Mayuri's voice.
+<END>
+
+#WRITE(PTR, $000018DC)
+【Mayuri】Plea-se, please-. Give us you cooperation please-
+<END>
+
+#WRITE(PTR, $000018EC)
+【Rintaro】What is she...?
+<END>
+
+#WRITE(PTR, $000018FC)
+【Mayuri】The other day, a kidnapping occurred-. We're searching for the culprit who had this pin badge-. Give us your cooperation please-.
+<END>
+
+#WRITE(PTR, $0000190C)
+Why is Mayuri passing out leaflets?
+<END>
+
+#WRITE(PTR, $0000191C)
+When I call out to her, Mayuri smiles and wipes the sweat off her brow with a handkerchief.
+<END>
+
+#WRITE(PTR, $00001A26)
+【Mayuri】Okarin, Suzu-san, you know, there's something I've been meaning to ask-
+<END>
+
+#WRITE(PTR, $00001A36)
+Something to ask?
+<END>
+
+#WRITE(PTR, $00001A46)
+【Mayuri】The "Barrel" in Mr. Barrel Titor. What exactly does it mean-?
+<END>
+
+#WRITE(PTR, $00001A56)
+That's abrupt...
+<END>
+
+#WRITE(PTR, $00001A66)
+【Rintaro】It's a name, so it doesn't have a meaning, does it?
+<END>
+
+#WRITE(PTR, $00001A80)
+【Mayuri】But, but, it's not his real name, right-?
+<END>
+
+#WRITE(PTR, $00001A90)
+【Suzuha】Right. It's a codename.
+<END>
+
+#WRITE(PTR, $00001AAA)
+【Mayuri】Why'd he go by Mr. Barrel Titor-? Suzu-san, why did you go by Mr. John-?
+<END>
+
+#WRITE(PTR, $00001ABA)
+【Suzuha】Since John's the most common name.
+<END>
+
+#WRITE(PTR, $00001ACA)
+【Mayuri】Mr. Barrel isn't common-?
+<END>
+
+#WRITE(PTR, $00001AE4)
+【Suzuha】Now that you mention it, no, it's not.
+<END>
+
+#WRITE(PTR, $00001AF4)
+So does that mean the codename has some meaning?
+<END>
+
+#WRITE(PTR, $00001B04)
+I thought that maybe Mayuri wrote that on the leaflets she's handing out, but--
+<END>
+
+#WRITE(PTR, $00001B14)
+She didn't write a word of it.
+<END>
+
+#WRITE(PTR, $00001C06)
+The Hammer of Justice upon kidnappers! The culprit has this pin badge! Your neighbors! People passing by! The culprit lurks near you!
+<END>
+
+#WRITE(PTR, $00001C16)
+If you've witnessed the culprit, or have any information, please contact the following address!
+<END>
+
+#WRITE(PTR, $00001C26)
+All of that was written in multicolored marker. Plus cute illustrations and a photo of Suzuha's pin badge.
+<END>
+
+#WRITE(PTR, $00001C36)
+The gap between Tte fanciness of the writing and illustrations and the sensationalism of the message is just cruel...
+<END>
+
+#WRITE(PTR, $00001C64)
+【Mayuri】Whaddya think of the leaflets? I think they're a masterpiece-
+<END>
+
+#WRITE(PTR, $00001C74)
+【Rintaro】What's this kidnapping stuff about?
+<END>
+
+#WRITE(PTR, $00001C8E)
+【Mayuri】That's Mayushii's idea. This way, everyone will think OH! I think.
+<END>
+
+#WRITE(PTR, $00001C9E)
+Mayuri looks triumphant.
+<END>
+
+#WRITE(PTR, $00001CAE)
+【Mayuri】It's a good strategy, dontcha think-? Umm, the operation name is "Mayushii's Overwhelming Leaflet Victory".
+<END>
+
+#WRITE(PTR, $00001CC8)
+【Suzuha】But you know, isn't a kidnapping too much of an exaggeration...?
+<END>
+
+#WRITE(PTR, $00001CD8)
+Yeah, it wouldn't be strange if the police caught on--
+<END>
+
+#WRITE(PTR, $00001CEE)
+【Policeman?】You three.
+<END>
+
+#WRITE(PTR, $00001D18)
+【Rintaro】!?
+<END>
+
+#WRITE(PTR, $00001D28)
+My heart freezes as if sprayed with liquid nitrogen.
+<END>
+
+#WRITE(PTR, $00001D38)
+I slowly turn around...
+<END>
+
+#WRITE(PTR, $00001D48)
+There stands a policeman with unfriendly eyes on a stern face, folding his arms.
+<END>
+
+#WRITE(PTR, $00001D58)
+Speak of the devil! Is this a coincidence?
+<END>
+
+#WRITE(PTR, $00001D68)
+【Policeman】What is this leaflet? Come to the station with me for a bit.
+<END>
+
+#WRITE(PTR, $00001D82)
+【Mayuri】Ehh-?
+<END>
+
+#WRITE(PTR, $00001D92)
+I thought we should run away, but that would make things worse.
+<END>
+
+#WRITE(PTR, $00001DA2)
+Suzuha recklessly tries to run away, but I grab her by the arm. We obediently accompany the policeman...
+<END>
+
+#WRITE(PTR, $00001ED2)
+After about an hour of interrogation at the police station, they release us without charges.
+<END>
+
+#WRITE(PTR, $00001F1A)
+Kurisu greets the three of us when we return to the lab dead tired.
+<END>
+
+#WRITE(PTR, $00001F2E)
+【Kurisu】Okabe, there's something I want to ask you, but could you find out what the Microwave Ophone uses instead of a lifter...?
+<END2>
+
+#WRITE(PTR, $00001F48)
+ Well, I know you won't, though.
+<END>
+
+#WRITE(PTR, $00001F5C)
+That's right, at this point in time, we hadn't discovered what that was.
+<END>
+
+#WRITE(PTR, $00001F6C)
+【Rintaro】I've already found that out. It's the 42in Braun tube TV downstairs.
+<END>
+
+#WRITE(PTR, $00001F86)
+【Kurisu】Eh, really? Basis?
+<END>
+
+#WRITE(PTR, $00001F96)
+【Rintaro】I've come here after time leaping several times. Understand the rest?
+<END>
+
+#WRITE(PTR, $00001FB0)
+【Kurisu】...I see. So that's it. Hmmm, I see.
+<END>
+
+#WRITE(PTR, $00001FC0)
+Kurisu returns to the development room while nodding "yes, yes". Is she convinced?
+<END>
+
+#WRITE(PTR, $00002010)
+【Mayuri】Okarin, Suzu-san, I'm sorry... Mayushii's getting in the way...
+<END>
+
+#WRITE(PTR, $00002020)
+I give the downhearted Mayuri some karaage to change the subject.
+<END>
+
+#WRITE(PTR, $0000203C)
+There's not much time left.
+<END>
+
+#WRITE(PTR, $0000204C)
+What else can we do before the time limit...
+<END>
+
+#WRITE(PTR, $000020BC)
+【Kurisu】Hallo-
+<END>
+
+#WRITE(PTR, $000020D8)
+【Rintaro】Assistant? It's me.
+<END>
+
+#WRITE(PTR, $000020F4)
+【Kurisu】Oh, did you get the wrong number?
+<END>
+
+#WRITE(PTR, $00002110)
+【Rintaro】What are you saying? It's me, Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $0000212C)
+【Kurisu】My name isn't Assistant. Also, your name isn't Hououin Kyouma either.
+<END>
+
+#WRITE(PTR, $00002148)
+【Rintaro】Then I'll call you this. KuriGohan and Kamehameha.
+<END>
+
+#WRITE(PTR, $00002170)
+【Kurisu】Bwah...!?
+<END>
+
+#WRITE(PTR, $0000218C)
+I hear rattling from the other side of the phone.
+<END>
+
+#WRITE(PTR, $000021A8)
+【Kurisu】H-how do you know that!?
+<END>
+
+#WRITE(PTR, $000021CC)
+【Rintaro】Before I time leaped, you confessed in tears. "I'm an @channeler, a <DICT>Nico Chuu</DICT>, and a camwhore who posts tits, but will you still accept me as your assistant?" and such.
+<END>
+
+#WRITE(PTR, $000021DC)
+【Rintaro】And of course, I replied-
+<END>
+
+#WRITE(PTR, $000021EC)
+【Rintaro】You may be an @channeler, a Nico Chuu, and a camwhore who posts tits, but that doesn't change the fact that you are a lab mem...
+<END>
+
+#WRITE(PTR, $000021FC)
+【Rintaro】...You may continue to be my assistant. So wipe your tears' and--
+<END>
+
+#WRITE(PTR, $00002218)
+【Kurisu】I'll start a VIP thread and disclose your damn personal information for cheap. If you don't want that, then stop your drivel.
+<END>
+
+#WRITE(PTR, $00002234)
+【Rintaro】...How's your progress?
+<END>
+
+#WRITE(PTR, $00002250)
+【Kurisu】Perfect. There's something I want to talk about.
+<END>
+
+#WRITE(PTR, $0000226C)
+We actually returned to the conversation smoothly.
+<END>
+
+#WRITE(PTR, $0000227C)
+【Rintaro】Then I'll come back to the lab.
+<END>
+
+#WRITE(PTR, $00002298)
+【Kurisu】OK. I'll be waiting.
+<END>
+
+#WRITE(PTR, $00002336)
+I take Suzuha back to the lab.
+<END>
+
+#WRITE(PTR, $0000249A)
+Kurisu greets us with a cold stare when we return to the lab.
+<END>
+
+#WRITE(PTR, $000024AA)
+【Kurisu】For your information, I don't post t...ti...
+<END>
+
+#WRITE(PTR, $000024C4)
+【Kurisu】I don't post my chest, okay!?
+<END>
+
+#WRITE(PTR, $000024D4)
+【Rintaro】That was just a joke. Don't drag it out forever.
+<END>
+
+#WRITE(PTR, $000024E4)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00002562)
+【Suzuha】I see. So Makise Kurisu was "KuriGohan and Kamehameha". The one who always opposed me as John Titor.
+<END>
+
+#WRITE(PTR, $0000257C)
+【Kurisu】...aren't you happy to have had an open discussion?
+<END>
+
+#WRITE(PTR, $0000258C)
+【Suzuha】I guess. It was kind of irritating, though.
+<END>
+
+#WRITE(PTR, $000025A6)
+【Kurisu】Heheheh
+<END>
+
+#WRITE(PTR, $000025C0)
+【Suzuha】Ahaha
+<END>
+
+#WRITE(PTR, $000025D0)
+Are these two still quarreling?
+<END>
+
+#WRITE(PTR, $000025E0)
+【Rintaro】By the way, under the name of Hououin Kyouma, I--
+<END>
+
+#WRITE(PTR, $00002606)
+【Kurisu&Suzuha (K)】We know.
+<END>
+
+#WRITE(PTR, $00002616)
+【Kurisu&Suzuha (S)】We know.
+<END>
+
+#WRITE(PTR, $0000262A)
+Gh, the same reaction again...!
+<END>
+
+#WRITE(PTR, $0000263A)
+Why are they only on the same note for stuff like this!?
+<END>
+
+#WRITE(PTR, $0000264A)
+I clear my throat and change the subject.
+<END>
+
+#WRITE(PTR, $0000265A)
+【Rintaro】So, what did you want to talk about? The Time Leap Machine?
+<END>
+
+#WRITE(PTR, $00002674)
+【Kurisu】I think you probably forgot, so I want to make sure just in case.
+<END>
+
+#WRITE(PTR, $00002688)
+【Kurisu】Have you looked for the lifter substitution?
+<END2>
+
+#WRITE(PTR, $000026A2)
+ ...you haven't, huh?
+<END>
+
+#WRITE(PTR, $000026B6)
+That's right, at this point in time, we hadn't discovered what that was.
+<END>
+
+#WRITE(PTR, $000026C6)
+【Rintaro】I've already found that out. It's the 42in Braun tube TV downstairs.
+<END>
+
+#WRITE(PTR, $000026E0)
+【Kurisu】Eh, really? Basis?
+<END>
+
+#WRITE(PTR, $000026F0)
+【Rintaro】I've come here after time leaping several times. Understand the rest?
+<END>
+
+#WRITE(PTR, $0000270A)
+【Kurisu】I see...
+<END>
+
+#WRITE(PTR, $0000271A)
+【Rintaro】...Sorry. For leaving everything to you.
+<END>
+
+#WRITE(PTR, $00002734)
+【Kurisu】What? Why are you acting so modest? It's disgusting.
+<END>
+
+#WRITE(PTR, $00002744)
+【Rintaro】Originally, you were against time machines. Then you made the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00002754)
+【Rintaro】I was thinking that maybe you didn't really want to do it.
+<END>
+
+#WRITE(PTR, $0000276E)
+【Kurisu】How rude.
+<END>
+
+#WRITE(PTR, $0000277E)
+Kurisu's mad.
+<END>
+
+#WRITE(PTR, $0000278E)
+【Kurisu】Haven't I said it a lot before? That I don't really deny time travel theory itself?
+<END>
+
+#WRITE(PTR, $000027A8)
+【Kurisu】I just can't believe people who unrealistically say it's possible.
+<END>
+
+#WRITE(PTR, $000027B8)
+While sighing, she keeps looking at my body.
+<END>
+
+#WRITE(PTR, $000027D2)
+【Kurisu】Besides, I can't deny it without experimental proof.
+<END>
+
+#WRITE(PTR, $000027E2)
+【Kurisu】It's upsetting to be called the "Mother of the Time Machine", though.
+<END>
+
+#WRITE(PTR, $000027F2)
+Suzuha softly shrugs her shoulders at those words.
+<END>
+
+#WRITE(PTR, $0000280C)
+【Kurisu】So, since you're sorry enough to apologize, you helped me out the first time?
+<END>
+
+#WRITE(PTR, $0000281C)
+【Rintaro】The first time?
+<END>
+
+#WRITE(PTR, $0000282C)
+【Kurisu】Today, before you time leaped, you wanted to help me out.
+<END>
+
+#WRITE(PTR, $0000283C)
+【Rintaro】Yeah. Daru and I supported you.
+<END>
+
+#WRITE(PTR, $00002856)
+【Kurisu】Then that's fine. It's too forced to do the same thing the second and third times, right?
+<END>
+
+#WRITE(PTR, $00002866)
+【Kurisu】And right now, it's more important to repair Amane-san's time machine and search for her father.
+<END>
+
+#WRITE(PTR, $00002880)
+【Suzuha】...I'm sorry.
+<END>
+
+#WRITE(PTR, $0000289A)
+【Kurisu】Don't apologize. That throws me off.
+<END>
+
+#WRITE(PTR, $000028AA)
+【Kurisu】Welp, I'm going to shut myself in for a bit more. You told me what replaces the lifter, so I can move right on ahead with work.
+<END>
+
+#WRITE(PTR, $000028C6)
+Kurisu waves her hand and enters the development room.
+<END>
+
+#WRITE(PTR, $000028D6)
+I better not disturb her.
+<END>
+
+#WRITE(PTR, $000028E6)
+My remaining time steadily decreases.
+<END>
+
+#WRITE(PTR, $000028F6)
+What else can we do before the time limit...
+<END>
+
+#WRITE(PTR, $00002966)
+【Itaru】Hoihoi
+<END>
+
+#WRITE(PTR, $00002982)
+【Rintaro】It's me. How are things?
+<END>
+
+#WRITE(PTR, $0000299E)
+【Itaru】...No matter how many times I hear that, I can't get over how abrupt it feels.
+<END>
+
+#WRITE(PTR, $000029BA)
+【Rintaro】I didn't ask about that. How are things going with the time machine?
+<END>
+
+#WRITE(PTR, $000029D6)
+【Itaru】If I had to say, I'm completely dried up!
+<END>
+
+#WRITE(PTR, $000029F2)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00002A0E)
+【Itaru】Hey, at least give me some reaction.
+<END>
+
+#WRITE(PTR, $00002A1E)
+【Itaru】Somehow or another, I found out what we need to do.
+<END>
+
+#WRITE(PTR, $00002A3A)
+【Rintaro】Really!?
+<END>
+
+#WRITE(PTR, $00002A56)
+【Itaru】I guess.
+<END>
+
+#WRITE(PTR, $00002A72)
+【Rintaro】Should I bring reinforcements?
+<END>
+
+#WRITE(PTR, $00002A8E)
+【Itaru】Mm, yeah, I guess. I want you to bring Amane-shi with you if you can.
+<END>
+
+#WRITE(PTR, $00002A9E)
+【Itaru】In the vacant Radio Kaikan rooftop, the two of us can forget our shame and take off our clothes. Haah haah
+<END>
+
+#WRITE(PTR, $00002ABA)
+【Rintaro】Dry up and die.
+<END>
+
+#WRITE(PTR, $00002AD6)
+【Itaru】But I refuse. How about you? Did you find the pin badge?
+<END>
+
+#WRITE(PTR, $00002AF2)
+【Rintaro】...No, we're still struggling.
+<END>
+
+#WRITE(PTR, $00002B0E)
+【Itaru】Nothing that seems like a clue?
+<END>
+
+#WRITE(PTR, $00002B2A)
+【Rintaro】Nah...
+<END>
+
+#WRITE(PTR, $00002B46)
+【Itaru】I see. How irritating...
+<END>
+
+#WRITE(PTR, $00002B62)
+【Rintaro】I plan to stick to it a bit more here. I'll head over in the evening.
+<END>
+
+#WRITE(PTR, $00002BF4)
+It looks like the pin badge search can only go on for the two hours until evening, and tomorrow morning.
+<END>
+
+#WRITE(PTR, $00002C04)
+The two day delay was shorter than expected.
+<END>
+
+#WRITE(PTR, $00002D24)
+And so, we decided to go on an expedition to Ikebukuro.
+<END>
+
+#WRITE(PTR, $00002D34)
+It would've been nice to visit home, but I don't have the time, and Suzuha's with me, so I passed.
+<END>
+
+#WRITE(PTR, $00002E5E)
+But in the end, nothing...
+<END>
+
+#WRITE(PTR, $00002E6E)
+With this lack of feedback, Suzuha and I exchanged fewer and fewer words.
+<END>
+
+#WRITE(PTR, $00002E7E)
+Our feet tired of walking and started to feel like pegs, so an air of futility drifted between us.
+<END>
+
+#WRITE(PTR, $00002E8E)
+This doesn't look good.
+<END>
+
+#WRITE(PTR, $00002E9E)
+【Rintaro】By the way...
+<END>
+
+#WRITE(PTR, $00002EE6)
+I try bringing up a conversation for a change of pace.
+<END>
+
+#WRITE(PTR, $00002EF6)
+In any case, she's a time traveler from 26 years in the future.
+<END>
+
+#WRITE(PTR, $00002F06)
+I should get her to talk about the future.
+<END>
+
+#WRITE(PTR, $00002F16)
+Kurisu was shocked when she learned she doesn't live past 44.
+<END>
+
+#WRITE(PTR, $00002F26)
+And I was told... that I become an infamous terrorist.
+<END>
+
+#WRITE(PTR, $00002F36)
+【Rintaro】Am I really infamous in 2036?
+<END>
+
+#WRITE(PTR, $00002F46)
+【Suzuha】As a terrorist.
+<END>
+
+#WRITE(PTR, $00002F56)
+【Rintaro】I see.
+<END>
+
+#WRITE(PTR, $00002F66)
+【Rintaro】So, exactly what sort of terrorist acts do I perform?
+<END>
+
+#WRITE(PTR, $00002F76)
+【Suzuha】You rebelled against SERN. You're actually one of the founding members of my Resistance. Just like my Father.
+<END>
+
+#WRITE(PTR, $00002F86)
+I found the Resistance...
+<END>
+
+#WRITE(PTR, $00002F96)
+Considering the current situation, it makes sense.
+<END>
+
+#WRITE(PTR, $00002FA6)
+2036, the time Suzuha lived.
+<END>
+
+#WRITE(PTR, $00002FB6)
+In other words, the 2036 that continues from the 2010 where Mayuri dies.
+<END>
+
+#WRITE(PTR, $00002FC6)
+And for some reason, Kurisu is arrested by SERN and forced to participate in time machine research.
+<END>
+
+#WRITE(PTR, $00002FD6)
+In that sort of future, there's no reason for me to not rebel against SERN.
+<END>
+
+#WRITE(PTR, $00002FE6)
+Rebellion against the system. Destruction of the ruling structures. Creation of chaos.
+<END>
+
+#WRITE(PTR, $00002FF6)
+Aren't those my ambitions as a self-styled mad scientist?
+<END>
+
+#WRITE(PTR, $00003006)
+【Rintaro】Stupid...
+<END>
+
+#WRITE(PTR, $00003020)
+【Suzuha】Stupid?
+<END>
+
+#WRITE(PTR, $00003030)
+【Rintaro】For me to not save Mayuri, and keep living carefree to the end, I can't believe... I'd do such pretentious hipster bullshit...
+<END>
+
+#WRITE(PTR, $0000304A)
+【Suzuha】But I think it's heroic to try to reclaim the world's freedom.
+<END>
+
+#WRITE(PTR, $0000305A)
+Suzuha said she's part of the Resistance I formed, right?
+<END>
+
+#WRITE(PTR, $0000306A)
+So does that mean she's my future subordinate?
+<END>
+
+#WRITE(PTR, $0000307A)
+【Rintaro】What sort of man was I?
+<END>
+
+#WRITE(PTR, $00003094)
+Suzuha's expression dims.
+<END>
+
+#WRITE(PTR, $000030A4)
+【Suzuha】...I already said we never met before, right?
+<END>
+
+#WRITE(PTR, $000030B4)
+【Rintaro】Is that so?
+<END>
+
+#WRITE(PTR, $000030C4)
+【Suzuha】Yeah... Actually, you were killed by SERN. In 2025.
+<END>
+
+#WRITE(PTR, $000030D4)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $000030E4)
+I was killed... huh?
+<END>
+
+#WRITE(PTR, $000030F4)
+By SERN, who mercilessly killed Mayuri.
+<END>
+
+#WRITE(PTR, $00003104)
+They probably felt no remorse for silencing a troublesome terrorist like me, huh...
+<END>
+
+#WRITE(PTR, $0000311E)
+【Suzuha】Maybe I should have told you sooner.
+<END>
+
+#WRITE(PTR, $0000312E)
+【Suzuha】Understand? If you don't change the future, you will die in 15 years.
+<END>
+
+#WRITE(PTR, $0000313E)
+【Suzuha】Shiina Mayuri won't be saved. You won't be saved. Makise Kurisu will be forced to cooperate with SERN. Disaster strikes every lab mem.
+<END>
+
+#WRITE(PTR, $0000314E)
+【Rintaro】What about Daru?
+<END>
+
+#WRITE(PTR, $00003168)
+【Suzuha】Umm, I've never heard his name. I have heard legends of a wizard class hacker, though.
+<END>
+
+#WRITE(PTR, $00003178)
+【Suzuha】I don't understand what wizard class means in the first place, though.
+<END>
+
+#WRITE(PTR, $00003188)
+Wizard class. I coined that term.
+<END>
+
+#WRITE(PTR, $00003198)
+Which means that in the future, maybe Daru goes deep undercover and obtainins a power equal to the gods of the net world.
+<END>
+
+#WRITE(PTR, $000031B2)
+【Suzuha】Anyway, from your guys' perspective, this future won't come, will it
+<END>
+
+#WRITE(PTR, $000031C2)
+【Suzuha】That's why I really need to obtain the IBN 5100 and change the future.
+<END>
+
+#WRITE(PTR, $000031D2)
+【Suzuha】Until I came to this era, you guys only existed in history. But now... you're my friends.
+<END>
+
+#WRITE(PTR, $000031EC)
+【Suzuha】I want to do something.
+<END>
+
+#WRITE(PTR, $000031FC)
+【Rintaro】...You're a big help.
+<END>
+
+#WRITE(PTR, $0000320C)
+【Rintaro】You are, now and forevermore, a lab mem.
+<END>
+
+#WRITE(PTR, $00003226)
+【Suzuha】Ahaha. Thank you.
+<END>
+
+#WRITE(PTR, $0000331A)
+--On the afternoon of the 13th, you can complete the Time Leap Machine without a doubt.
+<END>
+
+#WRITE(PTR, $0000332A)
+That's what I told Kurisu.
+<END>
+
+#WRITE(PTR, $0000333A)
+But I forgot to tell her about the 42in Braun Tube TV.
+<END>
+
+#WRITE(PTR, $00003396)
+I'm sure Kurisu will soon figure it out.
+<END>
+
+#WRITE(PTR, $000034E0)
+After sending a reply, I decide to keep up the pin badge search with Suzuha just a bit longer.
+<END>
+
+#WRITE(PTR, $000034F0)
+My remaining time steadily decreases.
+<END>
+
+#WRITE(PTR, $00003500)
+What else can we do before the time limit...
+<FILEEND2F>
+

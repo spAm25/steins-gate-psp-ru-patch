@@ -1,0 +1,547 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001FE8)
+
+#WRITE(PTR, $00000274)
+Where am I--?
+<END>
+
+#WRITE(PTR, $00000284)
+Who am I--?
+<END>
+
+#WRITE(PTR, $00000294)
+Memory. Consciousness. Vision. All cloudy.
+<END>
+
+#WRITE(PTR, $000002A4)
+Torrents of sound like ultrasonic waves roar from a speaker in the center of my brain.
+<END>
+
+#WRITE(PTR, $000002B4)
+【Rintaro】Ah, uuuwwwaaaahh--
+<END>
+
+#WRITE(PTR, $000002C4)
+My head hurts. Or should I say... behind my eyes?
+<END>
+
+#WRITE(PTR, $000002D4)
+As if hundreds of long needles keep stabbing through my brain.
+<END>
+
+#WRITE(PTR, $000002E4)
+Wait, can brains even feel pain?
+<END>
+
+#WRITE(PTR, $0000038E)
+<LINE>
+<LINE>
+<LINE>
+%LC...be!%LE
+<ENDPANEL>
+
+#WRITE(PTR, $00000442)
+【Rintaro】Aagh, waahhhh!!
+<END>
+
+#WRITE(PTR, $00000452)
+It's not just pain.
+<END>
+
+#WRITE(PTR, $00000462)
+Pain, shivering, itchiness.
+<END>
+
+#WRITE(PTR, $00000472)
+Like my whole body is on fire.
+<END>
+
+#WRITE(PTR, $0000051C)
+<LINE>
+<LINE>
+<LINE>
+%LC...kabe...!%LE
+<ENDPANEL>
+
+#WRITE(PTR, $000005D0)
+I want to take off my skull and tear out my brains.
+<END>
+
+#WRITE(PTR, $000005E0)
+I want to scrape out my soft brains with my fingers and suck on the goop.
+<END>
+
+#WRITE(PTR, $0000068A)
+<LINE>
+<LINE>
+<LINE>
+%LC...O...be...!%LE
+<ENDPANEL>
+
+#WRITE(PTR, $000006B2)
+My head's going crazy, driven by various impulses--
+<END>
+
+#WRITE(PTR, $000006C2)
+Who am I--?
+<END>
+
+#WRITE(PTR, $0000076C)
+<LINE>
+<LINE>
+<LINE>
+%LCHey, Okabe! What's wrong!?%LE
+<ENDPANEL>
+
+#WRITE(PTR, $00000794)
+【Rintaro】--!?
+<END>
+
+#WRITE(PTR, $0000080A)
+The blown off, gushy world.
+<END>
+
+#WRITE(PTR, $0000081A)
+Was instantly reborn.
+<END>
+
+#WRITE(PTR, $0000082A)
+My body convulses against my will, as if run through with electricity.
+<END>
+
+#WRITE(PTR, $0000083A)
+--I come back to my senses.
+<END>
+
+#WRITE(PTR, $0000084A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $0000085A)
+I'm in the lab development room.
+<END>
+
+#WRITE(PTR, $0000086A)
+I'm standing in front of the Microwave Ophone (Temp) with my phone to my ear.
+<END>
+
+#WRITE(PTR, $0000087A)
+No, it's not the Microwave Ophone (Temp). Since headgear is attached to it, it's the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $0000088A)
+It's hard to breathe.
+<END>
+
+#WRITE(PTR, $0000089A)
+I'm almost suffocating.
+<END>
+
+#WRITE(PTR, $000008AA)
+Give me oxygen.
+<END>
+
+#WRITE(PTR, $000008BA)
+Then I notice sounds like groaning coming out of my own throat.
+<END>
+
+#WRITE(PTR, $000008CA)
+【Rintaro】Ahhh--
+<END>
+
+#WRITE(PTR, $000008DA)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000008EA)
+I stop my voice and start breathing in deeply.
+<END>
+
+#WRITE(PTR, $000008FA)
+【Rintaro】...ckhaah, haahh, haahh, hah...
+<END>
+
+#WRITE(PTR, $0000090A)
+The insides of my throat feel like they're burning.
+<END>
+
+#WRITE(PTR, $0000091A)
+Almost going into a coughing fit, I desperately bring air into my lungs.
+<END>
+
+#WRITE(PTR, $00000936)
+I notice I'm drenched in sweat.
+<END>
+
+#WRITE(PTR, $00000946)
+The drops hanging off my forehead is annoying.
+<END>
+
+#WRITE(PTR, $00000956)
+I want to wipe it away.
+<END>
+
+#WRITE(PTR, $00000966)
+I try wiping it with the back of my right hand.
+<END>
+
+#WRITE(PTR, $00000976)
+...My right hand moves and wipes the sweat of my forehead.
+<END>
+
+#WRITE(PTR, $00000986)
+My body's senses are strange.
+<END>
+
+#WRITE(PTR, $00000996)
+Right now, my body feels one beat off from my will.
+<END>
+
+#WRITE(PTR, $000009A6)
+As if it's not my own body.
+<END>
+
+#WRITE(PTR, $000009B6)
+As if my nerves aren't communicating properly with my extremities.
+<END>
+
+#WRITE(PTR, $000009C6)
+I try blinking slowly.
+<END>
+
+#WRITE(PTR, $000009D6)
+It might just be my imagination.
+<END>
+
+#WRITE(PTR, $000009E6)
+Am I just tired?
+<END>
+
+#WRITE(PTR, $000009F6)
+Since I've been working long nights.
+<END>
+
+#WRITE(PTR, $00000A06)
+I timidly try to move my hand again.
+<END>
+
+#WRITE(PTR, $00000A16)
+It doesn't feel out of place this time.
+<END>
+
+#WRITE(PTR, $00000A26)
+This is my body.
+<END>
+
+#WRITE(PTR, $00000A36)
+【Kurisu】Okabe? You listening?
+<END>
+
+#WRITE(PTR, $00000A46)
+A familiar voice.
+<END>
+
+#WRITE(PTR, $00000A56)
+I slowly turn around.
+<END>
+
+#WRITE(PTR, $00000B30)
+There's Kurisu.
+<END>
+
+#WRITE(PTR, $00000B40)
+She gives me perplexed eyes.
+<END>
+
+#WRITE(PTR, $00000B5A)
+【Kurisu】What happened? You suddenly yelled.
+<END>
+
+#WRITE(PTR, $00000B6A)
+What's she talking about?
+<END>
+
+#WRITE(PTR, $00000B7A)
+【Kurisu】You feeling bad?
+<END>
+
+#WRITE(PTR, $00000B8A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000B9A)
+I try answering, but my voice didn't work too well.
+<END>
+
+#WRITE(PTR, $00000BAA)
+Even more bewildered, I clear my throat several times.
+<END>
+
+#WRITE(PTR, $00000BBA)
+【Rintaro】...No, no problems here.
+<END>
+
+#WRITE(PTR, $00000BD4)
+【Kurisu】I see. Then go out and prepare already. You're going shopping, aren't you?
+<END>
+
+#WRITE(PTR, $00000BE4)
+【Rintaro】...shopping?
+<END>
+
+#WRITE(PTR, $00000BFA)
+Shopping? For what...?
+<END>
+
+#WRITE(PTR, $00000C0A)
+I try groping around my memories--
+<END>
+
+#WRITE(PTR, $00000C1A)
+Like a chain reaction, several scenes, several words, several smells--
+<END>
+
+#WRITE(PTR, $00000C2A)
+Flash back into my mind.
+<END>
+
+#WRITE(PTR, $00000D28)
+【Kurisu】"Humans are temporal beings."
+<END>
+
+#WRITE(PTR, $00000E3A)
+【Mayuri】He's okay now.
+<END>
+
+#WRITE(PTR, $0000118A)
+【Kurisu】Are you okay with time leaping!? Are you!?
+<END>
+
+#WRITE(PTR, $00001254)
+【Rintaro】Ah, ah...
+<END>
+
+#WRITE(PTR, $00001264)
+I remember--
+<END>
+
+#WRITE(PTR, $00001274)
+I time leaped--
+<END>
+
+#WRITE(PTR, $00001360)
+【Kurisu】You'll remember your memories from the future.
+<END>
+
+#WRITE(PTR, $00001422)
+remember
+<END>
+
+#WRITE(PTR, $00001432)
+That's right! What am I lazing around for!?
+<END>
+
+#WRITE(PTR, $00001442)
+I--
+<END>
+
+#WRITE(PTR, $00001452)
+【Rintaro】Where is this...?
+<END>
+
+#WRITE(PTR, $0000146C)
+【Kurisu】Haah?
+<END>
+
+#WRITE(PTR, $0000147C)
+I grab Kurisu's shoulder and draw near.
+<END>
+
+#WRITE(PTR, $000014CC)
+【Rintaro】What time is it now!? What month? What Day? What time!?
+<END>
+
+#WRITE(PTR, $000014E6)
+【Kurisu】Hey, ouch...! Calm down...!
+<END>
+
+#WRITE(PTR, $000014F6)
+【Rintaro】How can I be calm!? Shopping? You told me to go shopping?
+<END>
+
+#WRITE(PTR, $00001506)
+The shopping from when?
+<END>
+
+#WRITE(PTR, $000015DA)
+Besides Kurisu, Daru is in the lounge.
+<END>
+
+#WRITE(PTR, $000015EA)
+He's sitting at his computer, staring here in wonder.
+<END>
+
+#WRITE(PTR, $000015FA)
+【Rintaro】Daru! What day is today!? What time is it!?
+<END>
+
+#WRITE(PTR, $0000160A)
+【Itaru】Uh, ummm, well, it's the 13th... a little past 5.
+<END>
+
+#WRITE(PTR, $0000161A)
+The 13th, past 5....
+<END>
+
+#WRITE(PTR, $000016A8)
+【Rintaro】...was it a success...?
+<END>
+
+#WRITE(PTR, $000016C6)
+During all that chaos, did I successfully time leap?
+<END>
+
+#WRITE(PTR, $000016E4)
+Did my memories really jump through time?
+<END>
+
+#WRITE(PTR, $00001702)
+So, has my consciousness infected my past memories?
+<END>
+
+#WRITE(PTR, $00001720)
+Or maybe was all of that chaos a dream?
+<END>
+
+#WRITE(PTR, $0000173E)
+I mean, that didn't seem real at all.
+<END>
+
+#WRITE(PTR, $0000175C)
+It seemed like something out of a Hollywood movie.
+<END>
+
+#WRITE(PTR, $0000177A)
+But the sight of Mayuri, bloody and collapsed, is burned into my mind.
+<END>
+
+#WRITE(PTR, $00001798)
+And the smell of blood.
+<END>
+
+#WRITE(PTR, $000017B6)
+And the memory of a gunshot.
+<END>
+
+#WRITE(PTR, $000017D4)
+And the sensation of headgear.
+<END>
+
+#WRITE(PTR, $000017F2)
+And the pain of getting shot in the arm.
+<END>
+
+#WRITE(PTR, $00001810)
+And Kurisu's screams. And Suzuha's vivid agility.
+<END>
+
+#WRITE(PTR, $0000182E)
+I clearly remember the chain of events.
+<END>
+
+#WRITE(PTR, $0000184C)
+I try touching my arm and my right ear.
+<END>
+
+#WRITE(PTR, $0000186A)
+No wounds. Nor pain.
+<END>
+
+#WRITE(PTR, $00001888)
+Was that all a dream?
+<END>
+
+#WRITE(PTR, $000018A6)
+I don't know.
+<END>
+
+#WRITE(PTR, $000018C4)
+I've never time leaped before.
+<END>
+
+#WRITE(PTR, $000018E2)
+Or should I say, I can't help but hope it was a dream.
+<END>
+
+#WRITE(PTR, $00001900)
+Such a future... is too much...
+<END>
+
+#WRITE(PTR, $0000191E)
+I'm about to cry when I recall Mayuri's last moments.
+<END>
+
+#WRITE(PTR, $0000193C)
+I strongly hold it back.
+<END>
+
+#WRITE(PTR, $0000195A)
+【Rintaro】...Where's Mayuri?
+<END>
+
+#WRITE(PTR, $00001A1A)
+I look about the lab.
+<END>
+
+#WRITE(PTR, $00001A38)
+Kurisu and Daru are here.
+<END>
+
+#WRITE(PTR, $00001A56)
+But I can't find Mayuri.
+<END>
+
+#WRITE(PTR, $00001A74)
+【Rintaro】Where is Mayuri!?
+<END>
+
+#WRITE(PTR, $00001A92)
+【Itaru】Where? Didn't she just say she was going to Luka-shi's place? Okarin, didn't you hear?
+<END>
+
+#WRITE(PTR, $00001AB0)
+That's right, Mayuri finished making Lukako's costume and told us she went off to persuade her. After that, the development council-- basically, Mayuri won't come back to the lab until the party starts.
+<END>
+
+#WRITE(PTR, $00001ACE)
+What do I do?
+<END>
+
+#WRITE(PTR, $00001AEC)
+What do I believe?
+<END>
+
+#WRITE(PTR, $00001B0A)
+That it was a dream?
+<END>
+
+#WRITE(PTR, $00001B28)
+Or that I time leaped?
+<END>
+
+#WRITE(PTR, $00001B46)
+If it were a dream, then I don't have to worry about anything.
+<END>
+
+#WRITE(PTR, $00001B64)
+If I time leaped, then I need to start acting immediately.
+<END>
+
+#WRITE(PTR, $00001B82)
+I--
+<FILEEND74>
+

@@ -782,7 +782,7 @@ It looks like she's about to say "DAMN!" or "OH MY GOD!" or "MOTHERFUCK!".
 <END>
 
 #WRITE(PTR, $0000799A)
-【Rintaro】Let's welcome Christina. No,  Resurrected One The Zombie.
+【Rintaro】Let's welcome Christina. No, Resurrected One The Zombie.
 <END>
 
 #WRITE(PTR, $000079B4)
@@ -1338,7 +1338,7 @@ That moment, it occurred to me.
 <END>
 
 #WRITE(PTR, $00008872)
-Just like Edison wanted, I got the 1% of inspiration. I am truly a genius!
+Just like Edison wanted, I got the 1％ of inspiration. I am truly a genius!
 <END>
 
 #WRITE(PTR, $00008882)

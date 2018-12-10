@@ -6,7 +6,7 @@
 #JMP($0000097A)
 
 #WRITE(PTR, $000001F8)
-After tediously wasting some time at MayQueen、 I leave daru and head back to the lab when--
+After tediously wasting some time at MayQueen, I leave daru and head back to the lab when--
 <END>
 
 #WRITE(PTR, $000002DA)

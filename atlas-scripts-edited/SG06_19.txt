@@ -1,0 +1,559 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001528)
+
+#WRITE(PTR, $000007DC)
+Radio Kaikan's rooftop is boiling hot even in the evening.
+<END>
+
+#WRITE(PTR, $000007EC)
+When I provide the time machine repairman Daru with the refreshing gift of Dr Pepper, his sweaty face looks downhearted.
+<END>
+
+#WRITE(PTR, $00000834)
+【Itaru】You're supposed to give me an ice cold zero calorie cola. Common sense, man...
+<END>
+
+#WRITE(PTR, $00000844)
+So he's a cola type of guy...
+<END>
+
+#WRITE(PTR, $00000854)
+No sense letting it go to waste. I drink the Dr Pepper myself.
+<END>
+
+#WRITE(PTR, $00000870)
+Daru and Suzuha have a one-on-one discussion about the time machine's structure, while Mayuri and I watch from a distance.
+<END>
+
+#WRITE(PTR, $000008B8)
+【Mayuri】Hey, hey, Okarin. That satellite was a time machine. What a surprise, huh-
+<END>
+
+#WRITE(PTR, $000008C8)
+【Rintaro】Yeah, sure was.
+<END>
+
+#WRITE(PTR, $000008D8)
+Speaking of Titor's time machine, I thought it was a car-- a 1970's Chevy-- so I didn't even suspect that it was the satellite.
+<END>
+
+#WRITE(PTR, $000008E8)
+You know what they say when you assume.
+<END>
+
+#WRITE(PTR, $000008F8)
+But if you think about it, an unidentified satellite falling from somewhere is blatantly suspicious.
+<END>
+
+#WRITE(PTR, $00000908)
+Titor's appearance on @channel was also almost right after the satellite fell.
+<END>
+
+#WRITE(PTR, $00000918)
+I'm disappointed in myself for not noticing.
+<END>
+
+#WRITE(PTR, $00000932)
+【Mayuri】It stuck into the building, but I'm glad that Suzu-san's safe-
+<END>
+
+#WRITE(PTR, $00000942)
+No, it's not like it crashed.
+<END>
+
+#WRITE(PTR, $00000952)
+Most likely, it appeared there.
+<END>
+
+#WRITE(PTR, $00000962)
+And then the surrounding wall scraped off.
+<END>
+
+#WRITE(PTR, $00000972)
+After all, the time machine isn't self-propelled. It doesn't fly.
+<END>
+
+#WRITE(PTR, $0000098C)
+【Mayuri】She said it's really hard to drive-
+<END>
+
+#WRITE(PTR, $0000099C)
+Suzuha said that, huh.
+<END>
+
+#WRITE(PTR, $000009AC)
+【Mayuri】If the gravitational whatchamacallit device gets the coordinates the slightest bit wrong, the whole time machine becomes a Jellyman and it goes all ploop ploop.
+<END>
+
+#WRITE(PTR, $000009BC)
+【Mayuri】And since that time machine isn't made by SERN, she said it's not all that stable.
+<END>
+
+#WRITE(PTR, $000009D6)
+【Mayuri】I'm worried about when she goes to 1975-...
+<END>
+
+#WRITE(PTR, $000009E6)
+【Mayuri】If it's a two seater, then I could go with her.
+<END>
+
+#WRITE(PTR, $000009F6)
+【Rintaro】What are you going to do if you go with her?
+<END>
+
+#WRITE(PTR, $00000A10)
+【Mayuri】Obviously- I'd hold Suzu-san's hand super tightly, and tell her that it's okay since Mayushii's here, cheering her on-
+<END>
+
+#WRITE(PTR, $00000A20)
+She'd actually be useless baggage.
+<END>
+
+#WRITE(PTR, $00000A3A)
+【Mayuri】Hey, hey, Okarin, does that time machine have a name, you think-?
+<END>
+
+#WRITE(PTR, $00000A4A)
+【Rintaro】A name, huh...
+<END>
+
+#WRITE(PTR, $00000A5A)
+I obviously want to know more about the time machine from the future, not just its name.
+<END>
+
+#WRITE(PTR, $00000A6A)
+Time permitting, I'd like to spend a whole day just asking Suzuha questions.
+<END>
+
+#WRITE(PTR, $00000A7A)
+I'm pretty certain John Titor's time machine had a model number.
+<END>
+
+#WRITE(PTR, $00000A8A)
+But the one John Titor I know who appeared in 2000 and Suzuha might not be one and the same.
+<END>
+
+#WRITE(PTR, $00000A9A)
+In this current world line, John Titor didn't appear in 2000.
+<END>
+
+#WRITE(PTR, $00000AAA)
+Though, there is the possibility that after Suzuha time travels to 1975, she'll drop by 2000.
+<END>
+
+#WRITE(PTR, $00000ABA)
+【Rintaro】If you're interested, then just ask Titor directly.
+<END>
+
+#WRITE(PTR, $00000AD4)
+【Mayuri】Ah, that's right-. Mayushii completely forgot. Ehhehe-
+<END>
+
+#WRITE(PTR, $00000B6C)
+And so, she optimistically rushes to Suzuha.
+<END>
+
+#WRITE(PTR, $00000C0E)
+She comes back quickly.
+<END>
+
+#WRITE(PTR, $00000C1E)
+【Mayuri】Yup. It has a name-
+<END>
+
+#WRITE(PTR, $00000C2E)
+【Rintaro】What sort of name?
+<END>
+
+#WRITE(PTR, $00000C48)
+【Mayuri】FG204 Something Something, she said.
+<END>
+
+#WRITE(PTR, $00000C58)
+Something Something...?
+<END>
+
+#WRITE(PTR, $00000C72)
+【Mayuri】Anyway, don't you think that Daru-kun and Suzu-san really match-?
+<END>
+
+#WRITE(PTR, $00000C82)
+【Rintaro】Haah?
+<END>
+
+#WRITE(PTR, $00000C92)
+Today, Mayuri's conversation's jumping all over the place...
+<END>
+
+#WRITE(PTR, $00000CA2)
+I look at Daru and Suzuha again.
+<END>
+
+#WRITE(PTR, $00000CB2)
+【Rintaro】They match...? You know, Daru's a Faris moe kind of guy.
+<END>
+
+#WRITE(PTR, $00000CC2)
+【Mayuri】Ah, I see-. Is that so?
+<END>
+
+#WRITE(PTR, $00000CD2)
+She tilts her head to the side.
+<END>
+
+#WRITE(PTR, $00000CE2)
+Good grief...
+<END>
+
+#WRITE(PTR, $00000CF2)
+Mayuri and I aren't of any use here, so I thought maybe we should leave it to them and restart the search for Suzuha's father and the pin badge, but Mayuri doesn't move at all.
+<END>
+
+#WRITE(PTR, $00000D02)
+We don't have any clues for either.
+<END>
+
+#WRITE(PTR, $00000D12)
+Maybe it was impossible to find them in just two days...
+<END>
+
+#WRITE(PTR, $00000D22)
+I don't want to think that. Just like I told Suzuha, I don't want to give up.
+<END>
+
+#WRITE(PTR, $00000D32)
+Besides, even if we don't find them, I can keep time leaping to repeat these two days until we finally find them.
+<END>
+
+#WRITE(PTR, $00000D42)
+【Rintaro】Oh yeah, Mayuri. What about your costume sewing?
+<END>
+
+#WRITE(PTR, $00000D52)
+There's only a few more days until ComiMa.
+<END>
+
+#WRITE(PTR, $00000D62)
+At this time, Mayuri should've been working overnight on making her costume, but there's no sign of that now.
+<END>
+
+#WRITE(PTR, $00000D7C)
+【Mayuri】Hm-? You know, I've already made two of them-. One for Kaede-chan and one for Fubuki-chan.
+<END>
+
+#WRITE(PTR, $00000D8C)
+【Rintaro】Weren't you going to have Lukako wear the third one?
+<END>
+
+#WRITE(PTR, $00000DA6)
+【Mayuri】Yeah, I was, but I couldn't persuade Luka-chan, so I gave up this time-
+<END>
+
+#WRITE(PTR, $00000DC0)
+【Mayuri】Heyhey, can Mayushii get a better look at the time machine?
+<END>
+
+#WRITE(PTR, $00000DD0)
+【Rintaro】Don't get in their way.
+<END>
+
+#WRITE(PTR, $00000DEA)
+【Mayuri】Okidokey♪
+<END>
+
+#WRITE(PTR, $00000E06)
+Mayuri replies energetically as she rushes over to the time machine.
+<END>
+
+#WRITE(PTR, $00000E16)
+Like it's a field trip...
+<END>
+
+#WRITE(PTR, $00000E26)
+I can clearly see the sunlight sloping as the sun sinks from the rooftops.
+<END>
+
+#WRITE(PTR, $00000E36)
+As the sunset fades into twilight, Suzuha stands beside me as if to change places with Mayuri. The setting sun stretches our shadows.
+<END>
+
+#WRITE(PTR, $00000E9C)
+【Suzuha】Hashida Itaru's amazing. With him working on the time machine at full speed, he said he might be able to fix it tomorrow if things go well.
+<END>
+
+#WRITE(PTR, $00000EAC)
+【Rintaro】Daru's ability is authentic.
+<END>
+
+#WRITE(PTR, $00000EBC)
+【Suzuha】Even though he looks unhealthy and lackluster.
+<END>
+
+#WRITE(PTR, $00000ECC)
+【Rintaro】Don't judge a book by its cover.
+<END>
+
+#WRITE(PTR, $00000EDC)
+【Suzuha】Yeah. I have a better impression now.
+<END>
+
+#WRITE(PTR, $00000EEC)
+【Suzuha】Umm... you know.
+<END>
+
+#WRITE(PTR, $00000EFC)
+【Suzuha】If I don't say it now, I won't ever have another opportunity, so I'll say it now.
+<END>
+
+#WRITE(PTR, $00000F0C)
+【Rintaro】What? Don't exaggerate.
+<END>
+
+#WRITE(PTR, $00000F1C)
+【Suzuha】I'm actually really grateful for you all.
+<END>
+
+#WRITE(PTR, $00000F2C)
+【Suzuha】When I fist came to this era, I didn't know anybody... It's completely different from my era where I did nothing but fight.
+<END>
+
+#WRITE(PTR, $00000F3C)
+【Suzuha】This era is a lot more peaceful, so peaceful it really frightened me.
+<END>
+
+#WRITE(PTR, $00000F4C)
+【Suzuha】But now I have friends... no, comrades, that I can expose all of myself to.
+<END>
+
+#WRITE(PTR, $00000F5C)
+【Suzuha】I met people who lived before I was born, and everyone's working so hard for my sake.
+<END>
+
+#WRITE(PTR, $00000F6C)
+【Suzuha】That makes me feel very strange... but also very happy, you know?
+<END>
+
+#WRITE(PTR, $00000F7C)
+【Suzuha】Those are my true feelings.
+<END>
+
+#WRITE(PTR, $00000F8C)
+For some reason, Suzuha has a very serious expression.
+<END>
+
+#WRITE(PTR, $00000F9C)
+I tried to talk, but Suzuha continues before I could.
+<END>
+
+#WRITE(PTR, $00000FAC)
+【Suzuha】I was able to come to this era and spend time with all of you. It was really fun.
+<END>
+
+#WRITE(PTR, $00000FBC)
+【Suzuha】Or rather, every single one of you was selfish, had weird habits, and was too dense... actually, I thought "what's with these guys?" at first.
+<END>
+
+#WRITE(PTR, $00000FCC)
+【Suzuha】But before I knew it, the times I spent with you all became fun.
+<END>
+
+#WRITE(PTR, $00000FDC)
+【Suzuha】In 2036, everyone's too peaceful. There aren't any fights. Did you know?
+<END>
+
+#WRITE(PTR, $00000FEC)
+【Rintaro】There's no way I could. I mean, I don't even live until 2036.
+<END>
+
+#WRITE(PTR, $00000FFC)
+【Suzuha】Ahh, that's right... Sorry.
+<END>
+
+#WRITE(PTR, $0000100C)
+【Suzuha】Anyway, there aren't any fights. Any disputes, from the micro to the macro level, have all completely disappeared.
+<END>
+
+#WRITE(PTR, $0000101C)
+【Suzuha】But instead, everyone has dead eyes like fish.
+<END>
+
+#WRITE(PTR, $0000102C)
+【Suzuha】Nobody has any aspirations. They just shuffle their feet forward.
+<END>
+
+#WRITE(PTR, $0000103C)
+【Suzuha】People do smile, but they don't get angry or sad.
+<END>
+
+#WRITE(PTR, $0000104C)
+【Suzuha】Nobody has any individuality. Everyone's like a robot.
+<END>
+
+#WRITE(PTR, $0000105C)
+【Suzuha】Just before, you got really mad at me, didn't you?
+<END>
+
+#WRITE(PTR, $0000106C)
+【Suzuha】Back then, it really surprised me. It was a big shock, but at the same time... I was really happy.
+<END>
+
+#WRITE(PTR, $0000107C)
+【Rintaro】You're an oddball.
+<END>
+
+#WRITE(PTR, $0000108C)
+【Suzuha】Ahaha. Certainly.
+<END>
+
+#WRITE(PTR, $0000109C)
+Suzuha looks to the time machine. Right next to it, Daru and Mayuri are having an optimistic conversation about something or another.
+<END>
+
+#WRITE(PTR, $000010AC)
+【Suzuha】Everyone in your lab is so lively... so radiant.
+<END>
+
+#WRITE(PTR, $000010BC)
+【Suzuha】Shiina Mayuri and Hashida Itaru... and Makise Kurisu. And you, too.
+<END>
+
+#WRITE(PTR, $000010CC)
+【Rintaro】...what foolishness.
+<END>
+
+#WRITE(PTR, $000010DC)
+There's nothing admirable about my lifestyle.
+<END>
+
+#WRITE(PTR, $000010EC)
+I'm always self-righteous even though I can't save Mayuri.
+<END>
+
+#WRITE(PTR, $000010FC)
+【Suzuha】I wanted to be like you guys.
+<END>
+
+#WRITE(PTR, $0000110C)
+【Rintaro】Well, I think you're more amazing.
+<END>
+
+#WRITE(PTR, $0000111C)
+【Suzuha】I think I'm happy to hear that.
+<END>
+
+#WRITE(PTR, $0000112C)
+【Suzuha】The reason I can work this hard is also because I met you guys.
+<END>
+
+#WRITE(PTR, $0000113C)
+【Suzuha】Being a lab mem for even just a little while... was great.
+<END>
+
+#WRITE(PTR, $0000114C)
+Another serious smile.
+<END>
+
+#WRITE(PTR, $0000115C)
+So serious she might cry at any moment.
+<END>
+
+#WRITE(PTR, $0000116C)
+So serious she might break at any moment.
+<END>
+
+#WRITE(PTR, $0000117C)
+That smile, was so fragile--
+<END>
+
+#WRITE(PTR, $00001210)
+【Suzuha】Being with you guys for even just a little while... was great.
+<END>
+
+#WRITE(PTR, $00001220)
+【Rintaro】...Suzuha?
+<END>
+
+#WRITE(PTR, $00001230)
+【Suzuha】Okabe Rintaro. I'm sure you'll change the future. You'll change it into a world, free like the present.
+<END>
+
+#WRITE(PTR, $00001240)
+【Rintaro】Hey, what's wrong? Why are you so sentimental?
+<END>
+
+#WRITE(PTR, $00001250)
+Does she not want to go to 1975?
+<END>
+
+#WRITE(PTR, $00001260)
+But I mean, with the time machine, can't she just come back afterwards?
+<END>
+
+#WRITE(PTR, $00001270)
+And then, I notice.
+<END>
+
+#WRITE(PTR, $00001280)
+...Ah, I see.
+<END>
+
+#WRITE(PTR, $00001290)
+If Suzuha were to get an IBN 5100 in 1975 and then come back here.
+<END>
+
+#WRITE(PTR, $000012A0)
+At that instant, just like the D-mail experiments,
+<END>
+
+#WRITE(PTR, $000012B0)
+The world line will change.
+<END>
+
+#WRITE(PTR, $000012C0)
+The future will be reorganized in accordance with the law of cause and effect.
+<END>
+
+#WRITE(PTR, $000012D0)
+Suzuha will never be able to return to her original 2036.
+<END>
+
+#WRITE(PTR, $000012E0)
+Even though she called it a cruel era.
+<END>
+
+#WRITE(PTR, $000012F0)
+That era was the era Suzuha had lived in.
+<END>
+
+#WRITE(PTR, $00001300)
+Suzuha probably has friends there too.
+<END>
+
+#WRITE(PTR, $00001310)
+The mementos left behind by her late father-- Barrel Titor-- are probably there too.
+<END>
+
+#WRITE(PTR, $00001320)
+If she changes the future, all those things will be lost to the Suzuha who changed the future.
+<END>
+
+#WRITE(PTR, $00001330)
+Of course she'd be sentimental.
+<END>
+
+#WRITE(PTR, $00001340)
+【Rintaro】If the time machine gets fixed, let's have the party again.
+<END>
+
+#WRITE(PTR, $0000135A)
+【Suzuha】...Yeah, thank you.
+<END>
+
+#WRITE(PTR, $0000136A)
+But the forced smile on Suzuha's face still doesn't disappear.
+<FILEEND2E>
+

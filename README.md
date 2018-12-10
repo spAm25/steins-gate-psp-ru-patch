@@ -13,7 +13,7 @@ This will be finished until the end of 2018. The active work will begin December
 #### What's done
 - **All** PSP cutscenes were replaced by the PC alternative, if such were available. During convertion from BK2 to PMF the karaoke subtitles were rendered where applicable. [PMF Demo video](https://youtu.be/Ajfok-Eup1w). [PMF Demo Screenshots](https://imgur.com/a/jLgQBn7). 27 changed cutscenes in total.
 - Backgrounds that are translated in sghd-patch were converted into TM2 and placebo-compressed into KLZ. [BG Demo Screenshots](https://imgur.com/a/WbzkVT0) 41 changed backgrounds in total.
-- Chapters: 1, 2, 3, 4, 5
+- Chapters: 1, 2, 3, 4, 5, 6
 - DICT is fully translated (all ingame tips).
 - Some text messages in DATA, but not entirely
 

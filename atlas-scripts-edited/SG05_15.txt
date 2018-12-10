@@ -502,7 +502,7 @@ Looks like Kurisu approves of the message of Cute is Justice.
 <END>
 
 #WRITE(PTR, $0000266A)
-【Mayuri】They're not panties so it's not embarrassing!'.
+【Mayuri】"They're not panties so it's not embarrassing!".
 <END>
 
 #WRITE(PTR, $00002684)

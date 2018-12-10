@@ -10,7 +10,7 @@ I spend the next 30 minutes sitting on my soles in punishment.
 <END>
 
 #WRITE(PTR, $00000200)
-Under Kurisu's constant surveillance、 I couldn't sit at ease.
+Under Kurisu's constant surveillance, I couldn't sit at ease.
 <END>
 
 #WRITE(PTR, $00000210)

@@ -731,7 +731,7 @@ Really? I doubt that it's that serious though.
 <END>
 
 #WRITE(PTR, $0000186C)
-【Kurisu】That means that even if something has a only a 0.000001% chance of happening it will never diverge from the original outcome. Sounds logical doesn't it?
+【Kurisu】That means that even if something has a only a 0.000001％ chance of happening it will never diverge from the original outcome. Sounds logical doesn't it?
 <END>
 
 #WRITE(PTR, $0000187C)

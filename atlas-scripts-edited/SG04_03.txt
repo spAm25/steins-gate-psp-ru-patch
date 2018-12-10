@@ -195,7 +195,7 @@ The contents of Mayuri's mail are simple enough.
 <ENDPANEL>
 
 #WRITE(PTR, $000014C6)
-Now we just pray that Mayuri will be inclined to choose cup oden.%
+Now we just pray that Mayuri will be inclined to choose cup oden.
 <END>
 
 #WRITE(PTR, $00001522)

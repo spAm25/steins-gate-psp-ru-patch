@@ -526,7 +526,7 @@ That's like a contortionist trick.
 <END>
 
 #WRITE(PTR, $00000DDE)
-【Kurisu】So then, the "lump of all the recipient's memories",  the nerve impulse signals, is emitted from the cellphone. With that, the memory overwrite is complete.
+【Kurisu】So then, the "lump of all the recipient's memories", the nerve impulse signals, is emitted from the cellphone. With that, the memory overwrite is complete.
 <END>
 
 #WRITE(PTR, $00000DEE)

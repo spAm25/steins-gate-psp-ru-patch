@@ -1,0 +1,139 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000008C0)
+
+#WRITE(PTR, $000002EC)
+【Mayuri】Tutturu-, Mayushii here.
+<END>
+
+#WRITE(PTR, $00000308)
+【Rintaro】Mayuri! Where are--
+<END>
+
+#WRITE(PTR, $00000324)
+【Mayuri】But I can't answer the phone right now.
+<END>
+
+#WRITE(PTR, $00000340)
+...An answering machine?
+<END>
+
+#WRITE(PTR, $0000035C)
+【Mayuri】Please leave your message after the beep-♪
+<END>
+
+#WRITE(PTR, $000003EE)
+【Rintaro】Mayuri! Contact me at once! Okay? At once!
+<END>
+
+#WRITE(PTR, $00000404)
+I yell just that and hang up.
+<END>
+
+#WRITE(PTR, $00000414)
+I look at my watch again.
+<END>
+
+#WRITE(PTR, $00000424)
+Past 5.
+<END>
+
+#WRITE(PTR, $00000434)
+Our gracious Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00000444)
+Thinking what would've happened without it makes me shiver.
+<END>
+
+#WRITE(PTR, $00000454)
+Just about three hours until Moeka kills Mayuri.
+<END>
+
+#WRITE(PTR, $00000464)
+It's okay.
+<END>
+
+#WRITE(PTR, $00000474)
+We have plenty of time to escape.
+<END>
+
+#WRITE(PTR, $00000514)
+For now, let's meet up with Mayuri and leave Akiba.
+<END>
+
+#WRITE(PTR, $00000524)
+We can go to Ikebukuro.
+<END>
+
+#WRITE(PTR, $00000534)
+No, wait, what if they track her to her home?
+<END>
+
+#WRITE(PTR, $00000544)
+Maybe we should take the Tsukuba Express and escape to Ibaraki.
+<END>
+
+#WRITE(PTR, $00000554)
+Or maybe take the Shinkansen from Tokyo Station?
+<END>
+
+#WRITE(PTR, $00000564)
+Anyway, we're fine as long as Moeka doesn't find her today.
+<END>
+
+#WRITE(PTR, $00000574)
+So first, I need to find Mayuri.
+<END>
+
+#WRITE(PTR, $000005EA)
+【Kurisu】Okabe? Your eyes are bloodshot. What's wrong?
+<END>
+
+#WRITE(PTR, $000005FA)
+Kurisu and Daru are looking at me with suspicious eyes.
+<END>
+
+#WRITE(PTR, $0000060A)
+【Rintaro】Both of you. Leave right now.
+<END>
+
+#WRITE(PTR, $00000624)
+【Kurisu】...What do you mean?
+<END>
+
+#WRITE(PTR, $00000634)
+I check my wallet.
+<END>
+
+#WRITE(PTR, $00000644)
+I only have about 9000 yen.
+<END>
+
+#WRITE(PTR, $00000654)
+I still have savings in the bank.
+<END>
+
+#WRITE(PTR, $00000664)
+If I withdraw everything, it's not enough for airfare...
+<END>
+
+#WRITE(PTR, $00000674)
+【Kurisu】What, more pretentious hipster bullshit?
+<END>
+
+#WRITE(PTR, $000006E2)
+Kurisu shrugs her shoulders in amazement. I don't have time to answer her.
+<END>
+
+#WRITE(PTR, $000006F2)
+I slip beside her and try rushing out the lab.
+<END>
+
+#WRITE(PTR, $00000702)
+【Kurisu】Okabe! Where are you going? Hey!
+<FILEEND50>
+

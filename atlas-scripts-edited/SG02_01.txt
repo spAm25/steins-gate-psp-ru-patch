@@ -636,7 +636,7 @@ Did his "prediction" concerning SERN come true?
 <END>
 
 #WRITE(PTR, $00001C1C)
-【Itaru】100% that it...
+【Itaru】100％ that it...
 <END2>
 
 #WRITE(PTR, $00001C36)

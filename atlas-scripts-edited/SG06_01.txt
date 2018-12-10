@@ -1,0 +1,355 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001678)
+
+#WRITE(PTR, $000007D4)
+%L1
+<END2>
+
+#WRITE(PTR, $000007DA)
+Chapter 6 【Metaphysics Necrosis】
+<END2>
+
+#WRITE(PTR, $000007E0)
+%L1
+<END2>
+
+#WRITE(PTR, $00000938)
+【Rintaro】Mayuri...
+<END>
+
+#WRITE(PTR, $00000948)
+【Rintaro】...Mayuri?
+<END>
+
+#WRITE(PTR, $00000AF4)
+No matter how much I call out her name.
+<END>
+
+#WRITE(PTR, $00000B6E)
+Mayuri won't answer.
+<END>
+
+#WRITE(PTR, $00000BE2)
+The cemetery.
+<END>
+
+#WRITE(PTR, $00000BF2)
+Mayuri stands still in front of a grave, gazing at the sky.
+<END>
+
+#WRITE(PTR, $00000C1C)
+Buried in that grave is Mayuri's grandmother.
+<END>
+
+#WRITE(PTR, $00000C2C)
+Mayuri was Granny's little girl since long ago.
+<END>
+
+#WRITE(PTR, $00000C3C)
+She was always with her Granny since her parents were always busy with work.
+<END>
+
+#WRITE(PTR, $00000D52)
+That Granny died when Mayuri was 11 years old.
+<END>
+
+#WRITE(PTR, $00000D62)
+I visited them often when I was little, so that death was very sad.
+<END>
+
+#WRITE(PTR, $00000D72)
+At the wake.
+<END>
+
+#WRITE(PTR, $00000D82)
+Though I had thought she'd be crying, Mayuri cried not a single tear.
+<END>
+
+#WRITE(PTR, $00000D92)
+She was vacantly gazing at her Granny's memorial portrait.
+<END>
+
+#WRITE(PTR, $00000DA2)
+More than half a year later--
+<END>
+
+#WRITE(PTR, $00000DB2)
+I already advanced to middle school, so Mayuri and I no longer commuted together.
+<END>
+
+#WRITE(PTR, $00000E06)
+But I'd still go to the cemetary on the way back, and Mayuri would always be standing there.
+<END>
+
+#WRITE(PTR, $00000E16)
+Mayuri would come to that grave every day, rain or shine.
+<END>
+
+#WRITE(PTR, $00000E26)
+And then she'd stand still, wordlessly gazing at the sky.
+<END>
+
+#WRITE(PTR, $00000E36)
+As if she could see her Granny in heaven.
+<END>
+
+#WRITE(PTR, $00000EBC)
+In her hands, an old pocket watch.
+<END>
+
+#WRITE(PTR, $00000ECC)
+A retro item unbefitting for Mayuri, who looked younger than her peers.
+<END>
+
+#WRITE(PTR, $00000EDC)
+That was her Granny's memento. Mayuri would always hold it when coming to this grave.
+<END>
+
+#WRITE(PTR, $00000EEC)
+【Rintaro】Mayuri?
+<END>
+
+#WRITE(PTR, $00000EFC)
+No matter how much I call out her name.
+<END>
+
+#WRITE(PTR, $00000F0C)
+Mayuri won't answer.
+<END>
+
+#WRITE(PTR, $00000F1C)
+Back then I thought Mayuri had something like aphasia.
+<END>
+
+#WRITE(PTR, $00000F2C)
+She didn't talk to me. She didn't talk to her parents either. She kept moping.
+<END>
+
+#WRITE(PTR, $00000F3C)
+I would always walk out to that grave and feel something like urgency.
+<END>
+
+#WRITE(PTR, $00000FAC)
+In the center of the lifeless cemetery, Mayuri would keep endlessly gazing at the sky.
+<END>
+
+#WRITE(PTR, $00000FC6)
+Whenever I saw her like that, I thought she might take off and fly to heaven--
+<END>
+
+#WRITE(PTR, $00000FD6)
+Mayuri was so bravely, and so earnestly looking up at the sky that I seriously thought that.
+<END>
+
+#WRITE(PTR, $00000FE6)
+And so that her Granny wouldn't take Mayuri away with her, I too would come to the cemetery.
+<END>
+
+#WRITE(PTR, $00001050)
+And I'd stand next to the skygazing Mayuri, calling her name.
+<END>
+
+#WRITE(PTR, $00001060)
+【Rintaro】Mayuri...?
+<END>
+
+#WRITE(PTR, $00001070)
+But, no matter how many times I'd call her, Mayuri wouldn't answer at all. She wouldn't stop looking at the sky.
+<END>
+
+#WRITE(PTR, $00001080)
+The only sounds resounding in the lonely cemetery were my cries of Mayuri.
+<END>
+
+#WRITE(PTR, $00001090)
+It was raining that day too.
+<END>
+
+#WRITE(PTR, $000010A0)
+Mayuri had a light blue umbrella.
+<END>
+
+#WRITE(PTR, $000010C2)
+In contrast to the umbrella's color, the sky was glazed gray, covered in clouds.
+<END>
+
+#WRITE(PTR, $000010F0)
+And after waiting a while, the rain stopped.
+<END>
+
+#WRITE(PTR, $00001100)
+Rays of light poured through the gaps in the rain clouds.
+<END>
+
+#WRITE(PTR, $00001110)
+Rembrandt lighting.
+<END>
+
+#WRITE(PTR, $00001120)
+Alternatively, the phenomenon also known as the Angel Ladder.
+<END>
+
+#WRITE(PTR, $00001130)
+Solemn, rays of wondrous light that would make anyone feel the presence of God, regardless of belief.
+<END>
+
+#WRITE(PTR, $00001140)
+And a strong wind blew.
+<END>
+
+#WRITE(PTR, $00001150)
+Mayuri's light blue umbrella fanned out, fluttered, and spun upwards.
+<END>
+
+#WRITE(PTR, $00001160)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $00001170)
+Mayuri, who had made no motion until then, solely looking up at the sky,
+<END>
+
+#WRITE(PTR, $00001180)
+Without looking at the umbrella,
+<END>
+
+#WRITE(PTR, $00001190)
+Turned to the light falling from the sky,
+<END>
+
+#WRITE(PTR, $000011A0)
+And slowly,
+<END>
+
+#WRITE(PTR, $000011B0)
+Very slowly,
+<END>
+
+#WRITE(PTR, $000011C0)
+Reached out her hand.
+<END>
+
+#WRITE(PTR, $000011D0)
+As if to grab onto the invisible ladder.
+<END>
+
+#WRITE(PTR, $000011E0)
+As if to be pulled up by her Granny.
+<END>
+
+#WRITE(PTR, $000011F0)
+Finally, she tiptoed.
+<END>
+
+#WRITE(PTR, $00001200)
+Looking from the side, I...
+<END>
+
+#WRITE(PTR, $00001210)
+Saw her floating away--
+<END>
+
+#WRITE(PTR, $00001220)
+That's how I felt.
+<END>
+
+#WRITE(PTR, $00001230)
+Impulsively, I grabbed Mayuri's outstretched hand, and embraced her.
+<END>
+
+#WRITE(PTR, $00001240)
+In retrospect, those were pitiful pretentious hipster bullshit thoughts, but at that time, I felt like Mayuri was really going to vanish.
+<END>
+
+#WRITE(PTR, $00001362)
+【Rintaro】I won't let you go anywhere...
+<END>
+
+#WRITE(PTR, $00001372)
+【Rintaro】I won't let you be taken away...
+<END>
+
+#WRITE(PTR, $00001382)
+I realized how embarrassing the words running out of my own mouth were,
+<END>
+
+#WRITE(PTR, $00001392)
+【Rintaro】M-Mayuri is my hostage. My sacrificial live test subject!
+<END>
+
+#WRITE(PTR, $000013A2)
+So to hide my embarrasment, I kept continuing the script.
+<END>
+
+#WRITE(PTR, $000013B2)
+Right before her Granny died.
+<END>
+
+#WRITE(PTR, $000013C2)
+Mayuri and I were obsessed with a tokusatsu show on TV.
+<END>
+
+#WRITE(PTR, $000013D2)
+I was proud of how well I impersonated the lines of that show's enemy boss, a mad scientist.
+<END>
+
+#WRITE(PTR, $000013E2)
+Once I started saying them, I just couldn't stop.
+<END>
+
+#WRITE(PTR, $000013F2)
+All I could do to hide the embarrassment was to cover it up with even more embarrassing words.
+<END>
+
+#WRITE(PTR, $00001402)
+【Rintaro】I-I won't let you run anywhere, okay? Hahah, fuhahaha!
+<END>
+
+#WRITE(PTR, $00001412)
+And when I did.
+<END>
+
+#WRITE(PTR, $00001422)
+Mayuri's body shook on my arm.
+<END>
+
+#WRITE(PTR, $00001432)
+【Mayuri】I see... sniff
+<END>
+
+#WRITE(PTR, $00001442)
+She whispered.
+<END>
+
+#WRITE(PTR, $00001452)
+For the first time in half a year, I heard Mayuri's voice.
+<END>
+
+#WRITE(PTR, $00001462)
+That voice was wet with tears.
+<END>
+
+#WRITE(PTR, $00001472)
+【Mayuri】Mayushii's a hostage, isn't she...
+<END>
+
+#WRITE(PTR, $00001482)
+【Mayuri】Then it can't be helped, huh. Ehehe...
+<END>
+
+#WRITE(PTR, $00001492)
+She smiled happily.
+<END>
+
+#WRITE(PTR, $000014A2)
+While dripping tears.
+<END>
+
+#WRITE(PTR, $000014B2)
+Mayuri buried her face in my chest--
+<FILEEND10>
+

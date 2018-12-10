@@ -50,7 +50,7 @@
 <END2>
 
 #WRITE(PTR, $00000026)
-%CF8FF8【Open The Steins Gate】 Ending%CE
+%CF8FF8【Open The Stein's Gate】 Ending%CE
 <END2>
 
 #WRITE(PTR, $000002E2)

@@ -474,20 +474,19 @@ I shake her paws off.
 <END>
 
 #WRITE(PTR, $00002D36)
-ふう、なんという魔眼の持ち主だ。
-<END>
-
-#WRITE(PTR, $00002DDA)
 Whew, she's the owner of such a demonic eye.
 <END>
 
-#WRITE(PTR, $00002E7E)
+#WRITE(PTR, $00002DDA)
 I barely escaped getting pulled in.
 <END>
 
+#WRITE(PTR, $00002E7E)
+You could say that it's because I'm Hououin Kyouma that I can escape demon eye curses.
+<END>
+
 #WRITE(PTR, $00002F22)
-【Rintaro】
-I don't intend to fight. I only came to talk to you.
+【Rintaro】I don't intend to fight. I only came to talk to you.
 <END>
 
 #WRITE(PTR, $00002FD0)

@@ -18,7 +18,7 @@ That's where I'm heading right now.
 <END>
 
 #WRITE(PTR, $00000218)
-Because it's currently summer holidays、 and due to the event at the Radio Building、 Akiba is very active right now.
+Because it's currently summer holidays, and due to the event at the Radio Building, Akiba is very active right now.
 <END>
 
 #WRITE(PTR, $00000228)
@@ -1087,7 +1087,7 @@ Why isn't it arriving?
 <END>
 
 #WRITE(PTR, $000029DC)
-We look at each others phone screens、 slightly disturbed.
+We look at each others phone screens, slightly disturbed.
 <END>
 
 #WRITE(PTR, $00002A4E)
