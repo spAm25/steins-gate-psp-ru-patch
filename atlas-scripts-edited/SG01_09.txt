@@ -451,11 +451,11 @@ I think I've seen this one somewhere...
 <END>
 
 #WRITE(PTR, $00000D0C)
-【Moeka】"IBN5100".
+【Moeka】"IBN 5100".
 <END>
 
 #WRITE(PTR, $00000D1C)
-IBN5100...
+IBN 5100...
 <END>
 
 #WRITE(PTR, $00000D2C)

@@ -1,0 +1,639 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001E20)
+
+#WRITE(PTR, $0000081A)
+When the butler guides me into the room, Faris is on the sofa, hugging her knees.
+<END>
+
+#WRITE(PTR, $0000082A)
+ She doesn't raise her face even when I approach.
+<END>
+
+#WRITE(PTR, $0000083A)
+【Rintaro】Faris, we finally got together. I have something to ask you.
+<END>
+
+#WRITE(PTR, $0000084A)
+【Faris】Hmmya~...
+<END>
+
+#WRITE(PTR, $0000085A)
+An exhausted expression.
+<END>
+
+#WRITE(PTR, $0000086A)
+A voice missing its core.
+<END>
+
+#WRITE(PTR, $0000087A)
+Not a particle of ambition or livelihood.
+<END>
+
+#WRITE(PTR, $0000088A)
+【Rintaro】What happened? You look down...
+<END>
+
+#WRITE(PTR, $0000089A)
+【Faris】...This can't be... happening to meow. Why did Faris have to lose nyan...
+<END>
+
+#WRITE(PTR, $000008AA)
+【Faris】...if only those guys... didn't use underpawed tricks on meow... They ganged up on Faris...
+<END>
+
+#WRITE(PTR, $000008BA)
+【Faris】I even promised I would absolutely win... Papa's probably disappointed in meow... I'm too afraid to show my face nya...
+<END>
+
+#WRITE(PTR, $000008CA)
+What is she saying?
+<END>
+
+#WRITE(PTR, $000008DA)
+No, wait.
+<END>
+
+#WRITE(PTR, $000008EA)
+It came to me.
+<END>
+
+#WRITE(PTR, $000008FA)
+After Faris fought in the RaiNet AB GrandChamp finals.
+<END>
+
+#WRITE(PTR, $0000090A)
+That unusual Gaia's whisper guy had just said former champ.
+<END>
+
+#WRITE(PTR, $0000091A)
+Judging by that, the reason Faris is so depressed is because she lost the match.
+<END>
+
+#WRITE(PTR, $0000092A)
+I feel bad for the depressed Faris, but I don't have time to deal with this.
+<END>
+
+#WRITE(PTR, $00000A00)
+【Rintaro】Faris, please listen!
+<END>
+
+#WRITE(PTR, $00000A10)
+Faris blinks repeatedly when I grab both her shoulders.
+<END>
+
+#WRITE(PTR, $00000A20)
+But those eyes were hazy, depressed by some weight.
+<END>
+
+#WRITE(PTR, $00000A30)
+【Rintaro】Earlier, you used the time machine we invented to send a D-mail. Do you remember that?
+<END>
+
+#WRITE(PTR, $00000A4A)
+【Faris】Hanya...?
+<END>
+
+#WRITE(PTR, $00000A5A)
+I tried to ask, but it was useless.
+<END>
+
+#WRITE(PTR, $00000A6A)
+Faris doesn't remember that fact after all.
+<END>
+
+#WRITE(PTR, $00000A7A)
+It's not like she forgot.
+<END>
+
+#WRITE(PTR, $00000A8A)
+From Faris' perspective, that fact never happened.
+<END>
+
+#WRITE(PTR, $00000A9A)
+Gh. Just how can I explain this?
+<END>
+
+#WRITE(PTR, $00000AAA)
+【Rintaro】Try thinking, for example, that originally, here in Akiba, there were tons of shops that sold moe anime and game goods.
+<END>
+
+#WRITE(PTR, $00000ABA)
+【Rintaro】And let's say, you used a time machine, and changed that Akiba into the electric town it is today. How would you do it?
+<END>
+
+#WRITE(PTR, $00000ACA)
+I know it's a really cryptic question.
+<END>
+
+#WRITE(PTR, $00000ADA)
+But all I had to ask.
+<END>
+
+#WRITE(PTR, $00000AFA)
+【Faris】...time machine
+<END>
+
+#WRITE(PTR, $00000B0A)
+Faris murmurs with a blank expression.
+<END>
+
+#WRITE(PTR, $00000B1A)
+【Faris】Time machine...
+<END>
+
+#WRITE(PTR, $00000B2A)
+She repeats the same phrase.
+<END>
+
+#WRITE(PTR, $00000B3A)
+The shine gradually returns to Faris' eyes.
+<END>
+
+#WRITE(PTR, $00000B4A)
+And then, as if she thought of something--
+<END>
+
+#WRITE(PTR, $00000BA6)
+【Faris】Kyouma...
+<END>
+
+#WRITE(PTR, $00000C0A)
+She flirtatiously leans on my chest.
+<END>
+
+#WRITE(PTR, $00000C1A)
+【Rintaro】Eh, wait...!? What...!?
+<END>
+
+#WRITE(PTR, $00000C2A)
+She smells good.
+<END>
+
+#WRITE(PTR, $00000C3A)
+Faris' cat ears tickle my nose.
+<END>
+
+#WRITE(PTR, $00000C4A)
+I went stiff not knowing what to do about her sudden action.
+<END>
+
+#WRITE(PTR, $00000C5A)
+Faris looked up at me.
+<END>
+
+#WRITE(PTR, $00000C6A)
+She looked sad for some reason.
+<END>
+
+#WRITE(PTR, $00000C7A)
+I was flustered seeing Faris' expression this close.
+<END>
+
+#WRITE(PTR, $00000C8A)
+【Faris】Is the time machine real nya?
+<END>
+
+#WRITE(PTR, $00000C9A)
+【Rintaro】...Yeah. For real.
+<END>
+
+#WRITE(PTR, $00000CAA)
+【Faris】......
+<END>
+
+#WRITE(PTR, $00000CBA)
+Faris stares at me even more.
+<END>
+
+#WRITE(PTR, $00000CCA)
+It felt as if she were peeking through my soul.
+<END>
+
+#WRITE(PTR, $00000CDA)
+【Faris】I believe nyan.
+<END>
+
+#WRITE(PTR, $00000CEA)
+When I think she got convinced way too quickly, she suddenly starts rubbing her temples and hiding her face.
+<END>
+
+#WRITE(PTR, $00000D10)
+【Faris】Ugh... ugh... whew... ugh, I seem to remember nya...
+<END>
+
+#WRITE(PTR, $00000D20)
+【Rintaro】Huh...?
+<END>
+
+#WRITE(PTR, $00000D30)
+【Faris】Faris feels like she's used that time machine nyan...
+<END>
+
+#WRITE(PTR, $00000D40)
+【Rintaro】Wha...!? Really!?
+<END>
+
+#WRITE(PTR, $00000D50)
+【Faris】Umm, Faris rode the time machine and went pewww and...
+<END>
+
+#WRITE(PTR, $00000D60)
+【Rintaro】What? But what you used was a D-mail that can be sent into the past, though...
+<END>
+
+#WRITE(PTR, $00000D70)
+【Faris】Nyanya! Right nya, I'm starting to remember more and more nya...
+<END>
+
+#WRITE(PTR, $00000D80)
+Then Faris holds her head, looking like she's about to cry.
+<END>
+
+#WRITE(PTR, $00000D90)
+【Faris】My head... hurts, nya...
+<END>
+
+#WRITE(PTR, $00000DA0)
+【Rintaro】What... does this mean...
+<END>
+
+#WRITE(PTR, $00000DB0)
+Does Faris also have the Reading Steiner ability?
+<END>
+
+#WRITE(PTR, $00000DC0)
+I don't know. I need to verify it, but how can I?
+<END>
+
+#WRITE(PTR, $00000DD0)
+Umm, calm down. Just calm down.
+<END>
+
+#WRITE(PTR, $00000DE0)
+Should I get in touch with Kurisu?
+<END>
+
+#WRITE(PTR, $00000DF0)
+Or...?
+<END>
+
+#WRITE(PTR, $00000E16)
+【Faris】Kyouma... Faris... Faris...
+<END>
+
+#WRITE(PTR, $00000E26)
+Faris sticks closer and closer to me.
+<END>
+
+#WRITE(PTR, $00000E36)
+I couldn't do anything but catch her warm, soft, slender body in my arms.
+<END>
+
+#WRITE(PTR, $00000E46)
+I need to get her to remember somehow.
+<END>
+
+#WRITE(PTR, $00000EA2)
+【Faris】My brains are turning to mush nya...
+<END>
+
+#WRITE(PTR, $00000EB2)
+【Rintaro】Hang in there!
+<END>
+
+#WRITE(PTR, $00000EC2)
+【Rintaro】Is there anything I can do...?
+<END>
+
+#WRITE(PTR, $00000EDC)
+【Faris】If I win...
+<END>
+
+#WRITE(PTR, $00000EEC)
+【Faris】If I win, I might remember nya...
+<END>
+
+#WRITE(PTR, $00000EFC)
+【Rintaro】What? Win, at what...?
+<END>
+
+#WRITE(PTR, $00000F16)
+【Faris】The Viral Attackers nyan. My opponents at todays match nya...
+<END>
+
+#WRITE(PTR, $00000F26)
+【Faris】But I lost because of their underpawed sabotage nya...
+<END>
+
+#WRITE(PTR, $00000F36)
+【Faris】Because of that, Faris' head is all mushy, so she can't remember her memories nya...
+<END>
+
+#WRITE(PTR, $00000F46)
+【Faris】Please nyan, Kyouma... Faris thinks if she wins the match, she'll remember everything nya...
+<END>
+
+#WRITE(PTR, $00000F56)
+【Faris】So let me use the time machine...
+<END>
+
+#WRITE(PTR, $00000F6C)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000F7C)
+【Rintaro】By the way, you're not acting, are you?
+<END>
+
+#WRITE(PTR, $00000FA2)
+【Faris】Wha-what are you talking about nya...?
+<END>
+
+#WRITE(PTR, $00000FB2)
+Don't tell me she just wants to use the time machine so she can win her RaiNet match?
+<END>
+
+#WRITE(PTR, $00000FC2)
+Considering how Faris usually acts, that's actually pretty likely.
+<END>
+
+#WRITE(PTR, $00000FD2)
+Since this girl's acting rivals that of minor demons.
+<END>
+
+#WRITE(PTR, $00000FEC)
+【Faris】Ugh, you're pawful...
+<END>
+
+#WRITE(PTR, $00000FFC)
+And Faris starts crying while clinging to my chest.
+<END>
+
+#WRITE(PTR, $0000100C)
+【Faris】Even though Faris is trying her bestest to remember for Kyouma...
+<END>
+
+#WRITE(PTR, $0000101C)
+【Faris】He called it acting, and hurt me nyan...
+<END>
+
+#WRITE(PTR, $0000102C)
+【Rintaro】Ah, no, sorry...
+<END>
+
+#WRITE(PTR, $0000103C)
+Large teardrops drip out from the corners of her eyes.
+<END>
+
+#WRITE(PTR, $0000104C)
+I completely shrink back at the sight of tears.
+<END>
+
+#WRITE(PTR, $0000105C)
+Mmmmm... I don't think she'd lie and cry.
+<END>
+
+#WRITE(PTR, $0000106C)
+But there really isn't a basis to remembering if she wins the RaiNet tournament...
+<END>
+
+#WRITE(PTR, $00001086)
+【Faris】Please nya...
+<END>
+
+#WRITE(PTR, $00001096)
+Faris whispers into my ear.
+<END>
+
+#WRITE(PTR, $000010A6)
+【Faris】Let Faris win nya~n...
+<END>
+
+#WRITE(PTR, $000010B6)
+Right after that, I feel something warm and wet on my ear lobe.
+<END>
+
+#WRITE(PTR, $000010C6)
+Faris play-bit me, sending electricity through my entire body.
+<END>
+
+#WRITE(PTR, $000010D6)
+【Rintaro】...! Wh-wait! I get it, I get it, okay!
+<END>
+
+#WRITE(PTR, $000010E6)
+Faris hurriedly lets go.
+<END>
+
+#WRITE(PTR, $000010F6)
+That was dangerous, I seriously almost jizzed in my pants...
+<END>
+
+#WRITE(PTR, $00001106)
+【Rintaro】O-Okay, Faris. We'll do what you say.
+<END>
+
+#WRITE(PTR, $00001120)
+【Faris】Really nyan!?
+<END>
+
+#WRITE(PTR, $00001130)
+【Rintaro】Yeah. Since I want you to remember no matter what.
+<END>
+
+#WRITE(PTR, $00001236)
+Faris tries to leap into my chest out of happiness, but I evade.
+<END>
+
+#WRITE(PTR, $00001246)
+She face dives into the sofa.
+<END>
+
+#WRITE(PTR, $0000128E)
+【Faris】Hnnya... why'd you dodge meow?
+<END>
+
+#WRITE(PTR, $0000129E)
+【Rintaro】No... You're being way too familiar.
+<END>
+
+#WRITE(PTR, $000012AE)
+I really am bad at dealing with Faris. I can't help but feel she's forcing me to follow her flow.
+<END>
+
+#WRITE(PTR, $000012BE)
+...I really am being cheated, arent' I?
+<END>
+
+#WRITE(PTR, $000012CE)
+I shake that doubt out by force.
+<END>
+
+#WRITE(PTR, $000012DE)
+I'll try anything if it could possibly yield results.
+<END>
+
+#WRITE(PTR, $000012EE)
+In that case, I should naturally be able to answer.
+<END>
+
+#WRITE(PTR, $000012FE)
+I desperately convince myself that, standing up tall.
+<END>
+
+#WRITE(PTR, $0000130E)
+【Rintaro】So after this, I'm going to leap to this morning and give you advice. Then you should be able to win. Is that okay?
+<END>
+
+#WRITE(PTR, $00001328)
+【Faris】We're not sending a mail nyan?
+<END>
+
+#WRITE(PTR, $00001338)
+【Rintaro】Our lab has already developed a device that allows you to time leap, sending your consciousness into the past.
+<END>
+
+#WRITE(PTR, $00001352)
+【Faris】Pawesome! So basically you can start a New Game nya?
+<END>
+
+#WRITE(PTR, $00001362)
+【Rintaro】Umm, yeah, that's it.
+<END>
+
+#WRITE(PTR, $00001372)
+Don't go along with her, I desperately convince myself.
+<END>
+
+#WRITE(PTR, $0000138C)
+【Faris】Then if Faris uses that and leaps to this morning, it will be the cat's meow.
+<END>
+
+#WRITE(PTR, $0000139C)
+【Rintaro】No.
+<END>
+
+#WRITE(PTR, $000013B6)
+【Faris】Nya!? Why not nyan?
+<END>
+
+#WRITE(PTR, $000013C6)
+【Rintaro】I don't want to let anyone besides me use the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $000013E0)
+【Faris】...Kyouma, that's meanya.
+<END>
+
+#WRITE(PTR, $000013F0)
+【Rintaro】...It's not something readily usable. It's dangerous.
+<END>
+
+#WRITE(PTR, $00001400)
+I haven't failed once so far, but it might not be that way next time.
+<END>
+
+#WRITE(PTR, $00001410)
+I remember Suzuha.
+<END>
+
+#WRITE(PTR, $00001420)
+I remember how she lost her memories for 24 years when she time traveled.
+<END>
+
+#WRITE(PTR, $00001430)
+That was a physical leap, using a feasible time machine, so its structure is different, but something similar could happen with the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00001440)
+That's to say nothing of how the Time Leap Machine was made under budget on a rushed schedule. It wouldn't be strange if it broke down.
+<END>
+
+#WRITE(PTR, $00001450)
+A breakdown, that is, the corruption of the time leaper's memories.
+<END>
+
+#WRITE(PTR, $00001460)
+And one more thing.
+<END>
+
+#WRITE(PTR, $00001470)
+I shouldn't let anyone else control modifications to the past.
+<END>
+
+#WRITE(PTR, $00001480)
+Nobody should warp the world any more than this.
+<END>
+
+#WRITE(PTR, $00001490)
+My most important target is, to the very end, to return to the world line that has the IBN 5100. Because when I get the IBN 5100, I can escape from this α World Line.
+<END>
+
+#WRITE(PTR, $000014A0)
+【Rintaro】I'm responsible for the changes to the past.
+<END>
+
+#WRITE(PTR, $000014B0)
+【Rintaro】Believe in me, Faris.
+<END>
+
+#WRITE(PTR, $000014C0)
+【Faris】...Okay nya.
+<END>
+
+#WRITE(PTR, $000016A4)
+TL15.PMF
+<END2>
+
+#WRITE(PTR, $00001A84)
+【Rintaro】...gh
+<END>
+
+#WRITE(PTR, $00001A94)
+I brace my wobbling feet.
+<END>
+
+#WRITE(PTR, $00001AA4)
+My watch comes into my newly recovered vision.
+<END>
+
+#WRITE(PTR, $00001AB4)
+10:38AM. Time leap successful.
+<END>
+
+#WRITE(PTR, $00001AC4)
+According to Faris, it seems she lost the match because the opposing team and their comrades had made clever, underhanded interferences during the competition.
+<END>
+
+#WRITE(PTR, $00001AD4)
+Faris told me how she planned to counter that. The plan was--
+<END>
+
+#WRITE(PTR, $00001BC8)
+【Faris】Bring Faris sunglasses and earplugs before the match nyan!
+<END>
+
+#WRITE(PTR, $00001BD8)
+【Faris】Then she can ignore the interference and win 100％ nya.
+<END>
+
+#WRITE(PTR, $00001C32)
+I wonder if that's true...
+<END>
+
+#WRITE(PTR, $00001C42)
+No, now's no time for hesitation.
+<END>
+
+#WRITE(PTR, $00001C52)
+I buy sunglasses and earplugs on the way to UPX.
+<END>
+
+#WRITE(PTR, $00001C62)
+Faris said she enters the assembly hall at 12.
+<FILEEND2C>
+

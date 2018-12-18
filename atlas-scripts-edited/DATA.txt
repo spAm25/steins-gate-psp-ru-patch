@@ -4018,7 +4018,7 @@ They're not really words of wisdom or anything. To begin with, I \rsdon't like\r
 <END2>
 
 #WRITE(PTR, $00002AC4)
-直接
+Directly
 <END2>
 
 #WRITE(PTR, $00002AC8)
@@ -4026,11 +4026,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002ACC)
-直接話せばいいじゃん, 話したかったらさ。電話やメールじゃ伝えたいことは全部伝わらないよ。岡部Rintaroとこうしてメールしてるのも実は乗り気じゃなかったり。アドレス要求したのはあたしだけど（笑）
+If you want to talk, you should just talk directly. You can't express everything you want to express with just a phone call or mail. I actually wasn't very eager to mail you like this, Okabe Rintaro. Even though I was the one who demanded your address (lmao)
 <END2>
 
 #WRITE(PTR, $00002AE4)
-あたしの
+I
 <END2>
 
 #WRITE(PTR, $00002AE8)
@@ -4038,11 +4038,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002AEC)
-あたしの住んでたところは電車が走ってなかったの。東京の電車は網の目みたいで, 驚愕だよ。
+The train didn't run through where I lived. I was astonished to see that Tokyo's train lines were like a net.
 <END2>
 
 #WRITE(PTR, $00002B04)
-シンプルイズベスト
+Simple is best
 <END2>
 
 #WRITE(PTR, $00002B08)
@@ -4050,11 +4050,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B0C)
-シンプルイズベストでしょ。自転車ってもう100年前から基本構造変わってないしね。あ, でも体力勝負は苦手。
+Simple is best, right? The bicycle's basic structure hasn't changed for over 100 years. Ah, but I'm not very good at trials of strength.
 <END2>
 
 #WRITE(PTR, $00002B24)
-お腹
+Hungry
 <END2>
 
 #WRITE(PTR, $00002B28)
@@ -4062,11 +4062,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B2C)
-お腹すいたー。今日も朝ごはん抜きだよ。でも手持ちのお金あんまりないしなぁ。ちなみに秋葉原で\rs虫とか雑草\reが採れそうなところってある? それらがあればあたしの\rsサバイバル術\reを駆使して, 飢えを凌ぐのに。
+So hungry-. I skipped breakfast today too. But I don't have much money on hand. By the way, are there any good places in Akihabara to get \rsinsects or weeds\re? If there are, then I can stave off starvation using my \rssurvival skills\re.
 <END2>
 
 #WRITE(PTR, $00002B44)
-Re:Re:お腹
+Re: Re: Hungry
 <END2>
 
 #WRITE(PTR, $00002B48)
@@ -4074,11 +4074,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B4C)
-調理法次第で, 案外美味しくなるよ。
+Depending on how you cook them, they can be surprisingly delicious.
 <END2>
 
 #WRITE(PTR, $00002B64)
-Re:Re:お腹
+Re: Re: Hungry
 <END2>
 
 #WRITE(PTR, $00002B68)
@@ -4086,11 +4086,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B6C)
-それは聞かないで（笑）
+You don't want to know (lmao)
 <END2>
 
 #WRITE(PTR, $00002B84)
-秋葉原って
+Akihabara's
 <END2>
 
 #WRITE(PTR, $00002B88)
@@ -4098,11 +4098,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002B8C)
-秋葉原って奇抜な街だねぇ。いろんな\rsWomanの子の絵\reとかがあちこちに。中には胸丸出しの絵もあったりして, かなりドキドキなんだけど。はっきり言って\rsカルチャーショック\reだよ。そして今の日本は\rs平和\reだなあとしみじみ思った。
+Akihabara's such an eccentric town, huh. There are so many different \rsdrawings of girls\re everywhere. Some of them even have their breasts fully exposed, which startled me. Clearly said, it was a \rsculture shock\re. And so I can earnestly think that current day Japan is so \rspeaceful\re.
 <END2>
 
 #WRITE(PTR, $00002BA4)
-なんか上から
+From above
 <END2>
 
 #WRITE(PTR, $00002BA8)
@@ -4110,11 +4110,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002BAC)
-なんか上から\rs楽しそうな声\reと, Womanの子の\rs悲鳴\reらしきものが。いったいなにをしているのかな? もしかして\rsいかがわしいこと\re? 東京は性にも放縦なの? 理解不能かも。
+From above, I've started hearing some \rshappy voices\re and girl's \rsscream\re, you know. Just what's going on? It's not \rssomething shady\re, is it? Tokyo also has a self-indulgent character? I don't understand at all.
 <END2>
 
 #WRITE(PTR, $00002BC4)
-暇すぎて
+Too much free time
 <END2>
 
 #WRITE(PTR, $00002BC8)
@@ -4122,11 +4122,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002BCC)
-\rs暇すぎ\reてやることないんだってば。\rs時給\reいいからできればもうちょっと続けたいし。あ, 仕事中に自転車磨きしてること, 店長に\rsばらさないで\reよ? クビになっちゃうから。岡部Rintaroにはあたしの気持ち理解してほしいなあ。
+But I have \rstoo much free time\re and not enough to do. The \rspay\re is good, so I'd like to keep working a little more, though. Ah, don't \rstattle\re to the manager that I've been polishing my bicycle during work, okay? I'd get fired. I want you to understand how I feel, Okabe Rintaro.
 <END2>
 
 #WRITE(PTR, $00002BE4)
-今, テレビで
+Now, on TV
 <END2>
 
 #WRITE(PTR, $00002BE8)
@@ -4134,11 +4134,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002BEC)
-今, テレビで格闘技の試合っぽいのがチラッと流れたんだけど, これなに? あたし興奮しちゃったよー。ねえねえ岡部Rintaro, これからちょっと\rs腕ひしぎ十字固め\reかけにいっていい?
+Now, on TV I caught a glimpse of a martial arts match, but what was that? That got me so excited-. Heyhey, Okabe Rintaro, can I try a little \rsstraight arm bar\re on you?
 <END2>
 
 #WRITE(PTR, $00002C04)
-あと
+After
 <END2>
 
 #WRITE(PTR, $00002C08)
@@ -4146,11 +4146,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C0C)
-あと2日したら, あたし\rsバイトやめる\reかも。店長には言わないでよ? 言ったらあたしごっちんされLukaら……。
+After two days, I might \rsquit my job\re. Don't tell the manager, okay? He'll kill me if you do...
 <END2>
 
 #WRITE(PTR, $00002C24)
-Re:Re:Policemanの
+Re: Re: Policeman
 <END2>
 
 #WRITE(PTR, $00002C28)
@@ -4158,11 +4158,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C2C)
-そっかー。ところで893ってなに? あとさ, 銃ってどこで手に入Luka知ってる? ちょっと興味あるんだよねー。
+I see-. By the way, what's 893? Also, do you know where to obtain a gun? I'm a little interested-.
 <END2>
 
 #WRITE(PTR, $00002C44)
-Re:Re:Nae
+Re: Re: Nae
 <END2>
 
 #WRITE(PTR, $00002C48)
@@ -4170,11 +4170,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C4C)
-Naeは岡部Rintaroのこと, 怖いって言ってたよ（笑） あたしはばっちり懐かれてるけどね。妹ができた感じで嬉しくて, ついつい構ってあげちゃってるなぁ。そして仕事さぼりの口実に（笑）
+Nae said you're scary (lmao). I've become attached to her, though. It makes me so happy that she's like my little sister, I unconsciously started looking after her. And she's my excuse to skip work (lmao)
 <END2>
 
 #WRITE(PTR, $00002C64)
-歴史
+History
 <END2>
 
 #WRITE(PTR, $00002C68)
@@ -4182,11 +4182,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C6C)
-歴史が代わる瞬間って, そのきっかけを作った当の本人でさえ, まったく気付いてないことなのさ。ｂｙあたし。
+The instant history changes, not even the person who instigated it himself realizes it.
 <END2>
 
 #WRITE(PTR, $00002C84)
-さっき仕事中
+Earlier when I was working
 <END2>
 
 #WRITE(PTR, $00002C88)
@@ -4194,11 +4194,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002C8C)
-さっき仕事中に寝てたら店長にゲンコツごっちん食らったよぅ。いってー。まあ自業自得だけどさ。
+Earlier when I was working, I fell asleep and the manager struck me with his fist. Owwie. Well, you reap what you sow.
 <END2>
 
 #WRITE(PTR, $00002CA4)
-自転車乗る
+Riding a bicycle
 <END2>
 
 #WRITE(PTR, $00002CA8)
@@ -4206,11 +4206,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002CAC)
-自転車乗るのが楽しいって言ったでしょ? でもおかげで筋肉痛なんだよねー。あたし, こう見えても\rs虚弱体質\reなんで。
+I've said that riding a bicycle is fun, right? But I got muscle pain from it-. I might look like this, but I have a \rsweak constitution\re.
 <END2>
 
 #WRITE(PTR, $00002CC4)
-Re:ロシア
+Re: Russia
 <END2>
 
 #WRITE(PTR, $00002CC8)
@@ -4218,11 +4218,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002CCC)
-ロシアならではのアイテム, か。マトリョーシカぐらいしか知らないよ。行ったことないし。
+Items unique to Russia, huh. I don't know any besides the Russian doll. I mean, I've never gone there.
 <END2>
 
 #WRITE(PTR, $00002CE4)
-自分を
+Oneself
 <END2>
 
 #WRITE(PTR, $00002CE8)
@@ -4230,11 +4230,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002CEC)
-自分を自分じゃないように見せかけるのは, 簡単なんだ。でも\rs偽りの自分\reは結局矛盾に満ちる。矛盾の存在はパラドックスであって成立しない。人は1人じゃ生きていけない。でも誰かと繋がりあうっていうこと。絆を構築するっていうこと。そういうことはしない方がいいって思ってたのに。あたしは君たちとこうして仲良くなれて, よかったのか悪かったのか。ううん, きっと, よかったんだよね。だからこそこうしてまだ, 父さんを探し続けていられるんだから。父さんの件で君たちに助けられて, そんな戯れ言を思ってみた。
+It's easy pretending not to be oneself. But one's \rsfalse self\re is after all, a contradiction. This contradictory existence paradoxically cannot come into existence. A lone person cannot survive alone. But to connect to someone. To build bonds. I had thought it would be better to do without those things. I don't know if it was good or if it was bad that I got along with you guys. No, I'm sure it was good. Because it's for that reason that I keep searching for Father. You guys helped with me with my father, that's what I thought.
 <END2>
 
 #WRITE(PTR, $00002D04)
-Re:Re:自分を
+Re: Re: Oneself
 <END2>
 
 #WRITE(PTR, $00002D08)
@@ -4242,11 +4242,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00002D0C)
-タイターの言葉を忘れないで。
+Don't forget Titor's words.
 <END2>
 
 #WRITE(PTR, $00002D24)
-土曜日の予定
+Plans for Saturday
 <END2>
 
 #WRITE(PTR, $00002D28)
@@ -4254,11 +4254,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00002D2C)
-明日は緊急ミーティングを行うため13時までにラボメンはラボに集合せよ。なおこの召集に対する拒否は許されない。必ず来るのだッ!
+We need to have an urgent meeting tomorrow, so all lab mems assemble in the lab by 1PM. This meeting is mandatory. Be sure to come!
 <END2>
 
 #WRITE(PTR, $00002D44)
-Re:質問
+Re: Question
 <END2>
 
 #WRITE(PTR, $00002D48)
@@ -4266,7 +4266,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00002D4C)
-リフターに代わるものは1階にある42型ブラウン管テレビだ。あれが点灯しているとMicrowave Ophone (Temp)の放電現象が起きる。だからなにも心配せず改良を進めるのだ。
+What acts in place of the lifter is the 42 type Braun Tube TV downstairs. When it's turned on, the Microwave Ophone (Temp)'s electrical discharge phenomenon occurs. So you can keep working on the improvements without any worry.
 <END2>
 
 #WRITE(PTR, $00002D64)
@@ -4280,7 +4280,7 @@ Daru
 <DUMMY>
 
 #WRITE(PTR, $00002D84)
-ヤバい
+In danger
 <END2>
 
 #WRITE(PTR, $00002D88)
@@ -4291,7 +4291,7 @@ Daru
 <DUMMY>
 
 #WRITE(PTR, $00002DA4)
-ヤバい
+In danger
 <END2>
 
 #WRITE(PTR, $00002DA8)
@@ -4299,11 +4299,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002DAC)
-牧瀬Kurisuが刺されたみたいだ。
+Seems like Makise Kurisu's been stabbed.
 <END2>
 
 #WRITE(PTR, $00002DC4)
-ヤバい
+In danger
 <END2>
 
 #WRITE(PTR, $00002DC8)
@@ -4311,11 +4311,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002DCC)
-牧瀬Kurisuが刺されたみたいだ。ヤバいかも。
+Seems like Makise Kurisu's been stabbed. Maybe in danger.
 <END2>
 
 #WRITE(PTR, $00002DE4)
-ヤバい
+In danger
 <END2>
 
 #WRITE(PTR, $00002DE8)
@@ -4323,11 +4323,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002DEC)
-牧瀬Kurisuが刺されたみたいだ。ヤバいかも。大丈夫かな。
+Seems like Makise Kurisu's been stabbed. Maybe in danger. Maybe okay.
 <END2>
 
 #WRITE(PTR, $00002E04)
-ヤバい
+In danger
 <END2>
 
 #WRITE(PTR, $00002E08)
@@ -4335,11 +4335,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002E0C)
-Makise Kurisu was stabbed by a man. Though I don't know who the man is. This is bad. I wonder if she's okay.
+Seems like Makise Kurisu's been stabbed by a man. Maybe in danger. Maybe okay.
 <END2>
 
 #WRITE(PTR, $00002E24)
-ヤバい
+In danger
 <END2>
 
 #WRITE(PTR, $00002E28)
@@ -4347,7 +4347,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002E2C)
-牧瀬Kurisuが男に刺されたみたいだ。男が誰かは知らないけどさ。ヤバいかも。大丈夫かな。
+Seems like Makise Kurisu's been stabbed by a man. Don't know who though. Maybe in danger. Maybe okay.
 <END2>
 
 #WRITE(PTR, $00002E44)
@@ -4361,7 +4361,7 @@ Daru
 <DUMMY>
 
 #WRITE(PTR, $00002E64)
-どこにいる?
+Where are you?
 <END2>
 
 #WRITE(PTR, $00002E68)
@@ -4369,7 +4369,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002E6C)
-今どこだ? Itaru急連絡をよこせ。緊急事態だ!
+Where are you now? Hurry up and contact me. It's an emergency!
 <END2>
 
 #WRITE(PTR, $00002E84)
@@ -4383,7 +4383,7 @@ Daru
 <DUMMY>
 
 #WRITE(PTR, $00002EA4)
-助け求む!
+I need your help!
 <END2>
 
 #WRITE(PTR, $00002EA8)
@@ -4394,7 +4394,7 @@ Daru
 <DUMMY>
 
 #WRITE(PTR, $00002EC4)
-助け求む!
+I need your help!
 <END2>
 
 #WRITE(PTR, $00002EC8)
@@ -4402,11 +4402,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002ECC)
-俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。
+Faris and I are currently hiding above "Ramen Tasaburou".
 <END2>
 
 #WRITE(PTR, $00002EE4)
-助け求む!
+I need your help!
 <END2>
 
 #WRITE(PTR, $00002EE8)
@@ -4414,11 +4414,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002EEC)
-俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。
+Faris and I are currently hiding above "Ramen Tasaburou". It's mostly empty with some sacks of wheat flour.
 <END2>
 
 #WRITE(PTR, $00002F04)
-助け求む!
+I need your help!
 <END2>
 
 #WRITE(PTR, $00002F08)
@@ -4426,11 +4426,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F0C)
-俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし, あまりに空漠としすぎていて身を隠すにも不適当だ。
+Faris and I are currently hiding above "Ramen Tasaburou". It's mostly empty with some sacks of wheat flour. Nothing that looks useful as a weapon, and nothing big enough to hide behind.
 <END2>
 
 #WRITE(PTR, $00002F24)
-助け求む!
+I need your help!
 <END2>
 
 #WRITE(PTR, $00002F28)
@@ -4438,11 +4438,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F2C)
-俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし, あまりに空漠としすぎていて身を隠すにも不適当だ。今, ヴァイラルアタッカーズどもに追いまわされている。
+Faris and I are currently hiding above "Ramen Tasaburou". It's mostly empty with some sacks of wheat flour. Nothing that looks useful as a weapon, and nothing big enough to hide behind. The Viral Attackers are chasing us.
 <END2>
 
 #WRITE(PTR, $00002F44)
-助け求む!
+I need your help!
 <END2>
 
 #WRITE(PTR, $00002F48)
@@ -4450,11 +4450,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F4C)
-俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし, あまりに空漠としすぎていて身を隠すにも不適当だ。今, ヴァイラルアタッカーズどもに追いまわされている。とても話を聞いてくれそうな雰囲気じゃないし, 1人で勝負するなら10人相手でも問題ないだろうが, こっちにはFarisがいLukaら無茶はできない。
+Faris and I are currently hiding above "Ramen Tasaburou". It's mostly empty with some sacks of wheat flour. Nothing that looks useful as a weapon, and nothing big enough to hide behind. The Viral Attackers are chasing us. It's not a place that seems like you can hear people talking. I wouldn't have a problem taking on one or ten guys, but Faris is here, so I can't just go crazy.
 <END2>
 
 #WRITE(PTR, $00002F64)
-助け求む!
+I need your help!
 <END2>
 
 #WRITE(PTR, $00002F68)
@@ -4462,11 +4462,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F6C)
-俺とFarisは, いま現在, “ラーメン太三郎”の上階に避難している。がらんどうな場所で, せいぜい小麦粉の袋が置いてあるぐらいの場所だ。武器になりそうなものはないし, あまりに空漠としすぎていて身を隠すにも不適当だ。今, ヴァイラルアタッカーズどもに追いまわされている。とても話を聞いてくれそうな雰囲気じゃないし, 1人で勝負するなら10人相手でも問題ないだろうが, こっちにはFarisがいLukaら無茶はできない。Daruよ, タクシーをここに呼びつけてくれ。
+Faris and I are currently hiding above "Ramen Tasaburou". It's mostly empty with some sacks of wheat flour. Nothing that looks useful as a weapon, and nothing big enough to hide behind. The Viral Attackers are chasing us. It's not a place that seems like you can hear people talking. I wouldn't have a problem taking on one or ten guys, but Faris is here, so I can't just go crazy. Daru, please call us a taxi.
 <END2>
 
 #WRITE(PTR, $00002F84)
-頼みがある
+Favor to ask
 <END2>
 
 #WRITE(PTR, $00002F88)
@@ -4474,11 +4474,11 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002F8C)
-大ビルの前にコインロッカーがあるだろう? 右下にある大きめのロッカーが使用中かどうか, 今すぐ確かめてきてくれないか。頼む。これはとても重要なことなんだ。
+There's a coin locker in front of the big building, right? In the lower-right, there's a bigger locker that might be in use. Could you check that for me? Please. This is very important.
 <END2>
 
 #WRITE(PTR, $00002FA4)
-明日決行する
+Start tomorrow
 <END2>
 
 #WRITE(PTR, $00002FA8)
@@ -4486,7 +4486,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002FAC)
-明日, SERNへのハッキングを行う。11時にラボに来てくれ
+Let's hack SERN tomorrow. Come to the lab at 11.
 <END2>
 
 #WRITE(PTR, $00002FC4)
@@ -4510,7 +4510,7 @@ Faris
 <DUMMY>
 
 #WRITE(PTR, $00003004)
-連絡をくれ!
+Please respond!
 <END2>
 
 #WRITE(PTR, $00003008)
@@ -4521,7 +4521,7 @@ Faris
 <DUMMY>
 
 #WRITE(PTR, $00003024)
-連絡をくれ!
+Please respond!
 <END2>
 
 #WRITE(PTR, $00003028)
@@ -4529,11 +4529,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000302C)
-岡部だ!
+It's Okabe!
 <END2>
 
 #WRITE(PTR, $00003044)
-連絡をくれ!
+Please respond!
 <END2>
 
 #WRITE(PTR, $00003048)
@@ -4541,11 +4541,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000304C)
-岡部だ! Itaru急連絡をくれ!
+It's Okabe! It's urgent! Contact me!
 <END2>
 
 #WRITE(PTR, $00003064)
-連絡をくれ!
+Please respond!
 <END2>
 
 #WRITE(PTR, $00003068)
@@ -4553,11 +4553,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000306C)
-岡部だ! Itaru急連絡をくれ! 時間がないんだ!
+It's Okabe! It's urgent! Contact me! There's no time!
 <END2>
 
 #WRITE(PTR, $00003084)
-連絡がほしい
+Please respond!
 <END2>
 
 #WRITE(PTR, $00003088)
@@ -4565,11 +4565,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000308C)
-Faris! 電話に出Luka返事をくれLukaしてくれ!
+Faris! Please answer the phone or respond!
 <END2>
 
 #WRITE(PTR, $000030A4)
-メールを見ていLuka?
+Did you see my mail?
 <END2>
 
 #WRITE(PTR, $000030A8)
@@ -4577,11 +4577,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000030AC)
-どうしてもお前に頼みたいことがあるんだ。
+There's something I need to ask of you no matter what.
 <END2>
 
 #WRITE(PTR, $000030C4)
-今どこだ!?
+Where are you!?
 <END2>
 
 #WRITE(PTR, $000030C8)
@@ -4589,7 +4589,7 @@ Faris
 <END2>
 
 #WRITE(PTR, $000030CC)
-今どこにいる? 岡部だ。凶真だ。返事をくれ!
+Where are you now? It's Okabe. It's Kyouma. Please answer me!
 <END2>
 
 #WRITE(PTR, $000030E4)
@@ -4600,7 +4600,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $000030EC)
-誘拐は冗談パパ愛してるまた会おうね
+jk about kidnapping ilu papa cu soon
 <END2>
 
 #WRITE(PTR, $00003104)
@@ -4614,7 +4614,7 @@ Mayuri
 <DUMMY>
 
 #WRITE(PTR, $00003124)
-さっき電話したか?
+Did you call me?
 <END2>
 
 #WRITE(PTR, $00003128)
@@ -4622,11 +4622,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000312C)
-なにか用事だったなら改めて電話かメールをしてくれ。
+If you need me, call me again or send a mail.
 <END2>
 
 #WRITE(PTR, $00003144)
-会場にいる
+At the halls
 <END2>
 
 #WRITE(PTR, $00003148)
@@ -4634,11 +4634,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000314C)
-俺もコミマ会場に来てみたから合流しよう。どこにいる?
+I'm also gonna try to go to the ComiMa halls, so let's meet up. Where are you?
 <END2>
 
 #WRITE(PTR, $00003164)
-返信くれ
+Please respond
 <END2>
 
 #WRITE(PTR, $00003168)
@@ -4646,7 +4646,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000316C)
-おーい, コスプレ会場にいるのか? それとも別の場所か? 返信をくれ。
+Hey, are you at the cosplay halls? Or are you at some other hall? Please respond.
 <END2>
 
 #WRITE(PTR, $00003184)
@@ -4660,7 +4660,7 @@ Shining Finger
 <DUMMY>
 
 #WRITE(PTR, $000031A4)
-Re:待ってます
+Re: Waiting
 <END2>
 
 #WRITE(PTR, $000031A8)
@@ -4671,7 +4671,7 @@ Shining Finger
 <DUMMY>
 
 #WRITE(PTR, $000031C4)
-Re:待ってます
+Re: Waiting
 <END2>
 
 #WRITE(PTR, $000031C8)
@@ -4679,11 +4679,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000031CC)
-IBN5100の噂は確かにあった。
+There certainly are rumors about the IBN 5100.
 <END2>
 
 #WRITE(PTR, $000031E4)
-Re:待ってます
+Re: Waiting
 <END2>
 
 #WRITE(PTR, $000031E8)
@@ -4691,11 +4691,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000031EC)
-IBN5100の噂は確かにあった。だがやはりかなり貴重なＰＣらしい。
+There certainly are rumors about the IBN 5100. But after all, it seems like a fairly valuable PC.
 <END2>
 
 #WRITE(PTR, $00003204)
-Re:待ってます
+Re: Waiting
 <END2>
 
 #WRITE(PTR, $00003208)
@@ -4703,11 +4703,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000320C)
-IBN5100の噂は確かにあった。だがやはりかなり貴重なＰＣらしい。ＰＣマニア数名が1ヶ月前に秋葉原じゅうを探し回ったが見つからなかった。
+There certainly are rumors about the IBN 5100. But after all, it seems like a fairly valuable PC. Several PC maniacs scoured Akihabara a month ago without finding any.
 <END2>
 
 #WRITE(PTR, $00003224)
-Re:待ってます
+Re: Waiting
 <END2>
 
 #WRITE(PTR, $00003228)
@@ -4715,11 +4715,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000322C)
-IBN5100の噂は確かにあった。だがやはりかなり貴重なＰＣらしい。ＰＣマニア数名が1ヶ月前に秋葉原じゅうを探し回ったが見つからなかった。都市伝説はデマだと証明された。
+There certainly are rumors about the IBN 5100. But after all, it seems like a fairly valuable PC. Several PC maniacs scoured Akihabara a month ago without finding any. Thus proving the urban legends were just rumors.
 <END2>
 
 #WRITE(PTR, $00003244)
-Re:待ってます
+Re: Waiting
 <END2>
 
 #WRITE(PTR, $00003248)
@@ -4727,9 +4727,9 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000324C)
-IBN5100の噂は確かにあった。だがやはりかなり貴重なＰＣらしい。ＰＣマニア数名が1ヶ月前に秋葉原じゅうを探し回ったが見つからなかった。都市伝説はデマだと証明された。\n
+There certainly are rumors about the IBN 5100. But after all, it seems like a fairly valuable PC. Several PC maniacs scoured Akihabara a month ago without finding any. Thus proving the urban legends were just rumors.\n
 \n
-エル・プサイ・コングルゥ。
+El Psy Congroo.
 <END2>
 
 #WRITE(PTR, $00003264)
@@ -4743,7 +4743,7 @@ Shining Finger
 <DUMMY>
 
 #WRITE(PTR, $00003284)
-電話求む
+Call me
 <END2>
 
 #WRITE(PTR, $00003288)
@@ -4755,7 +4755,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000032A4)
-Re:Re:電話求む
+Re: Re: Call me
 <END2>
 
 #WRITE(PTR, $000032A8)
@@ -4763,11 +4763,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000032AC)
-電話番号を教えろ。それとIBN5100についての, そちらの情報を求む。
+Tell me your phone number. And also, any IBN 5100 info you've got on your side.
 <END2>
 
 #WRITE(PTR, $000032C4)
-Re:Re:Re:Re:電話求む2
+Re: Re: Re: Re: Call me 2
 <END2>
 
 #WRITE(PTR, $000032C8)
@@ -4775,11 +4775,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000032CC)
-小刻みにメールを送ってくるのをやめろ。頼むから言いたいことはまとめて送ってくれ!
+Stop sending so many short mails. I'm asking you, please gather your thoughts and send them all at once!
 <END2>
 
 #WRITE(PTR, $000032E4)
-Re:迷惑だったら謝罪します
+Re: Sorry if it's a bother.
 <END2>
 
 #WRITE(PTR, $000032E8)
@@ -4787,11 +4787,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000032EC)
-分かればいいのだ。俺もIBN5100を探すことにした。これから互いに情報交換していこう。なお, このメールに対する返信は不要だ。
+As long as you understand. I'm also looking for an IBN 5100. Let's exchange information from now on. You don't need to reply to this mail.
 <END2>
 
 #WRITE(PTR, $00003304)
-Re:情報あった?
+Re: Got info?
 <END2>
 
 #WRITE(PTR, $00003308)
@@ -4799,11 +4799,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000330C)
-ブツは手に入れた。以上だ。
+I got the goods. Over.
 <END2>
 
 #WRITE(PTR, $00003324)
-Re:Re:Re:情報あった?
+Re: Re: Re: Got info?
 <END2>
 
 #WRITE(PTR, $00003328)
@@ -4811,11 +4811,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000332C)
-残念ながらオーナーは俺ではないから譲ることはできん。
+Sorry to say, but I'm not the owner, so I can't just give it to you.
 <END2>
 
 #WRITE(PTR, $00003344)
-Re:Re:Re:Re:Re:情報あった?
+Re: Re: Re: Re: Re: Got info?
 <END2>
 
 #WRITE(PTR, $00003348)
@@ -4826,7 +4826,7 @@ Shining Finger
 <DUMMY>
 
 #WRITE(PTR, $00003364)
-Re:Re:Re:Re:Re:情報あった?
+Re: Re: Re: Re: Re: Got info?
 <END2>
 
 #WRITE(PTR, $00003368)
@@ -4834,11 +4834,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000336C)
-貸すのもＮＧだ。見せるだけならＯＫだから我がラボを訪ねてこい。
+Borrowing is also No Good. If you just want a look, that's OK, so come over and visit our lab.
 <END2>
 
 #WRITE(PTR, $00003384)
-Re:Re:Re:Re:Re:情報あった?
+Re: Re: Re: Re: Re: Got info?
 <END2>
 
 #WRITE(PTR, $00003388)
@@ -4846,14 +4846,14 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000338C)
-貸すのもＮＧだ。見せるだけならＯＫだから我がラボを訪ねてこい。以下がラボの住所だ。\n
+Borrowing is also No Good. If you just want a look, that's OK, so come over and visit our lab. The lab's address is:\n
 \n
-千代田区外神田3－6－＃＃\n
-大檜山ビル2Ｆ
+Chiyoda-ku, Sotokanda 3-6-##\n
+Oohiyama Building 2F
 <END2>
 
 #WRITE(PTR, $000033A4)
-Re:言い忘れ
+Re: Forgot to say
 <END2>
 
 #WRITE(PTR, $000033A8)
@@ -4864,7 +4864,7 @@ Shining Finger
 <DUMMY>
 
 #WRITE(PTR, $000033C4)
-Re:言い忘れ
+Re: Forgot to say
 <END2>
 
 #WRITE(PTR, $000033C8)
@@ -4872,11 +4872,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000033CC)
-IBN5100は手に入れた。貸してやることはできないが, 見たければ我がラボに来るがいい。
+I got an IBN 5100. I can't lend it to you, but if you want to see it, then you can come to our lab.
 <END2>
 
 #WRITE(PTR, $000033E4)
-Re:言い忘れ
+Re: Forgot to say
 <END2>
 
 #WRITE(PTR, $000033E8)
@@ -4884,14 +4884,14 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $000033EC)
-IBN5100は手に入れた。貸してやることはできないが, 見たければ我がラボに来るがいい。以下がラボの住所だ。\n
+I got an IBN 5100. I can't lend it to you, but if you want to see it, then you can come to our lab. The lab's address is:\n
 \n
-千代田区外神田3－6－＃＃\n
-大檜山ビル2Ｆ
+Chiyoda-ku, Sotokanda 3-6-##\n
+Oohiyama Building 2F
 <END2>
 
 #WRITE(PTR, $00003404)
-Re:私も
+Re: I'm also
 <END2>
 
 #WRITE(PTR, $00003408)
@@ -4899,11 +4899,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000340C)
-よかろう。ラボメンナンバー005, Shining Fingerよ。今すぐラボに来るがいい。
+Indeed. Lab Member 005, Shining Finger! You may come to the lab immediately.
 <END2>
 
 #WRITE(PTR, $00003424)
-Itaru急確認
+Urgent Verification
 <END2>
 
 #WRITE(PTR, $00003428)
@@ -4911,11 +4911,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000342C)
-俺はIBN5100を手に入れた。知っていLuka?
+I got an IBN 5100. Did you know?
 <END2>
 
 #WRITE(PTR, $00003444)
-俺だ!
+It's me!
 <END2>
 
 #WRITE(PTR, $00003448)
@@ -4923,11 +4923,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000344C)
-メールを見たらすぐ連絡をくれ。
+If you see this mail, please reply immediately.
 <END2>
 
 #WRITE(PTR, $00003464)
-極秘
+Top Secret
 <END2>
 
 #WRITE(PTR, $00003468)
@@ -4935,11 +4935,11 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000346C)
-タイムマシンについて大事な話があLukaら2人だけで会いたい。ラジ館屋上に5時でどうだ? 絶対に1人で来てくれ。でないと話さないからな。
+There's something important about the time machine we need to talk about, so I want us to meet alone. How about we meet on the Radio Center rooftop at five? Absolutely come alone. We can't talk otherwise.
 <END2>
 
 #WRITE(PTR, $00003484)
-岡部だ
+It's Okabe
 <END2>
 
 #WRITE(PTR, $00003488)
@@ -4947,7 +4947,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000348C)
-今から会えないか? Itaru急話したいことがある。
+Can we meet now? I've got some urgent business.
 <END2>
 
 #WRITE(PTR, $000034A4)
@@ -4958,7 +4958,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $000034AC)
-IBN5100 捜索中止して待機絶対に動くな
+RetroPC search is canceled. Stand by
 <END2>
 
 #WRITE(PTR, $000034C4)
@@ -4979,7 +4979,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $000034EC)
-レトロPC
+RetroPC
 <END2>
 
 #WRITE(PTR, $00003504)
@@ -4990,7 +4990,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $0000350C)
-レトロPC捜索中止して待機
+RetroPC search is canceled.
 <END2>
 
 #WRITE(PTR, $00003524)
@@ -5001,7 +5001,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $0000352C)
-レトロPC捜索中止して待機絶対に動くな
+RetroPC search is canceled. Stand by
 <END2>
 
 #WRITE(PTR, $00003544)
@@ -5031,7 +5031,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $0000358C)
-機種変すべきすぐ品切れで手に入らない
+Change models now or they'll run out
 <END2>
 
 #WRITE(PTR, $000035A4)
@@ -5061,7 +5061,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $000035EC)
-GG01最高だよ今すぐ機種変しないと損だ
+GG01 rocks! Switch now or regret it
 <END2>
 
 #WRITE(PTR, $00003604)
@@ -5091,7 +5091,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $0000364C)
-機種変しろ!君の携帯は呪いで災厄呼ぶ
+Change now! Old phone cursed by evil
 <END2>
 
 #WRITE(PTR, $00003664)
@@ -5110,7 +5110,7 @@ future-gadget8@hardbank.ne.jp
 <DUMMY>
 
 #WRITE(PTR, $0000368C)
-神社に行くなこれは罠だ!ブツはない!
+Don't go to shrine! Trap! No goods!
 <END2>
 
 #WRITE(PTR, $000036A4)
@@ -5121,7 +5121,7 @@ future-gadget8@hardbank.ne.jp
 <END2>
 
 #WRITE(PTR, $000036AC)
-神社に行くなこれは罠だ!ブツはない!
+Don't go to shrine! Trap! No goods!
 <END2>
 
 #WRITE(PTR, $000036C4)
@@ -5132,7 +5132,7 @@ Microwave Ophone (Temp)
 <END2>
 
 #WRITE(PTR, $000036CC)
-021219343537ロト6で買え絶対当たる!
+021219343537Buy LOTO SIXsure to win!
 <END2>
 
 #WRITE(PTR, $000036E4)
@@ -5143,7 +5143,7 @@ Microwave Ophone (Temp)
 <END2>
 
 #WRITE(PTR, $000036EC)
-クリスの脅迫に屈せずSuzuhaを尾行せよ!
+Don’t listen to Cris, pursue Suzuha!
 <END2>
 
 #WRITE(PTR, $00003704)
@@ -5154,7 +5154,7 @@ Microwave Ophone (Temp)
 <END2>
 
 #WRITE(PTR, $0000370C)
-クリスの脅迫に屈せずSuzuhaを尾行せよ!
+Don’t listen to Cris, pursue Suzuha!
 <END2>
 
 #WRITE(PTR, $00003724)
@@ -5175,7 +5175,7 @@ Microwave Ophone (Temp)
 <END2>
 
 #WRITE(PTR, $0000374C)
-尾行は中止だ
+Cancel pursu
 <END2>
 
 #WRITE(PTR, $00003764)
@@ -5186,7 +5186,7 @@ Microwave Ophone (Temp)
 <END2>
 
 #WRITE(PTR, $0000376C)
-尾行は中止だ前のメールは
+Cancel pursuit. Last mai
 <END2>
 
 #WRITE(PTR, $00003784)
@@ -5197,7 +5197,7 @@ Microwave Ophone (Temp)
 <END2>
 
 #WRITE(PTR, $0000378C)
-尾行は中止だ前のメールはSERNの罠
+Cancel pursuit. Last mail=SERNs trap
 <END2>
 
 #WRITE(PTR, $000037A4)
@@ -9557,19 +9557,19 @@ Nae
 <END2>
 
 #WRITE(PTR, $000057EC)
-【4℃】
+【４℃】
 <END2>
 
 #WRITE(PTR, $000057F0)
-4℃
+４℃
 <END2>
 
 #WRITE(PTR, $000057F4)
-4℃
+４℃
 <END2>
 
 #WRITE(PTR, $000057FC)
-【4℃2】
+【４℃2】
 <END2>
 
 #WRITE(PTR, $00005800)
@@ -9581,7 +9581,7 @@ Nae
 <END2>
 
 #WRITE(PTR, $0000580C)
-【4℃3】
+【４℃3】
 <END2>
 
 #WRITE(PTR, $00005810)
@@ -9641,75 +9641,75 @@ Middle School Girl
 <END2>
 
 #WRITE(PTR, $0000585C)
-【ヴァイラルフリークスA】
+【Viral Attacker A】
 <END2>
 
 #WRITE(PTR, $00005860)
-ヴァイラルフリークスA
+Viral Attacker A
 <END2>
 
 #WRITE(PTR, $00005864)
-ヴァイラルA
+Viral A
 <END2>
 
 #WRITE(PTR, $0000586C)
-【ヴァイラルフリークスＢ】
+【Viral Attacker B】
 <END2>
 
 #WRITE(PTR, $00005870)
-ヴァイラルフリークスＢ
+Viral Attacker B
 <END2>
 
 #WRITE(PTR, $00005874)
-ヴァイラルＢ
+Viral B
 <END2>
 
 #WRITE(PTR, $0000587C)
-【ヴァイラルフリークスＣ】
+【Viral Attacker C】
 <END2>
 
 #WRITE(PTR, $00005880)
-ヴァイラルフリークスＣ
+Viral Attacker C
 <END2>
 
 #WRITE(PTR, $00005884)
-ヴァイラルＣ
+Viral C
 <END2>
 
 #WRITE(PTR, $0000588C)
-【ヴァイラルフリークスＤ】
+【Viral Attacker D】
 <END2>
 
 #WRITE(PTR, $00005890)
-ヴァイラルフリークスＤ
+Viral Attacker D
 <END2>
 
 #WRITE(PTR, $00005894)
-ヴァイラルＤ
+Viral D
 <END2>
 
 #WRITE(PTR, $0000589C)
-【ヴァイラルフリークスＥ】
+【Viral Attacker E】
 <END2>
 
 #WRITE(PTR, $000058A0)
-ヴァイラルフリークスＥ
+Viral Attacker E
 <END2>
 
 #WRITE(PTR, $000058A4)
-ヴァイラルＥ
+Viral E
 <END2>
 
 #WRITE(PTR, $000058AC)
-【ヴァイラルフリークスＦ】
+【Viral Attacker F】
 <END2>
 
 #WRITE(PTR, $000058B0)
-ヴァイラルフリークスＦ
+Viral Attacker F
 <END2>
 
 #WRITE(PTR, $000058B4)
-ヴァイラルＦ
+Viral F
 <END2>
 
 #WRITE(PTR, $000058BC)
@@ -9809,39 +9809,39 @@ Rounder D
 <END2>
 
 #WRITE(PTR, $0000593C)
-【観客A】
+【Spectator A】
 <END2>
 
 #WRITE(PTR, $00005940)
-観客A
+Spectator A
 <END2>
 
 #WRITE(PTR, $00005944)
-観客A
+Spectator A
 <END2>
 
 #WRITE(PTR, $0000594C)
-【観客Ｂ】
+【Spectator B】
 <END2>
 
 #WRITE(PTR, $00005950)
-観客Ｂ
+Spectator B
 <END2>
 
 #WRITE(PTR, $00005954)
-観客Ｂ
+Spectator B
 <END2>
 
 #WRITE(PTR, $0000595C)
-【観客Ｃ】
+【Spectator C】
 <END2>
 
 #WRITE(PTR, $00005960)
-観客Ｃ
+Spectator C
 <END2>
 
 #WRITE(PTR, $00005964)
-観客Ｃ
+Spectator C
 <END2>
 
 #WRITE(PTR, $0000596C)
@@ -9929,15 +9929,15 @@ Luka's Father
 <END2>
 
 #WRITE(PTR, $000059DC)
-【実況】
+【Announcer】
 <END2>
 
 #WRITE(PTR, $000059E0)
-実況
+Announcer
 <END2>
 
 #WRITE(PTR, $000059E4)
-実況
+Announcer
 <END2>
 
 #WRITE(PTR, $000059EC)
@@ -10169,7 +10169,7 @@ Kurisu
 <END2>
 
 #WRITE(PTR, $00005B1C)
-【4℃?】
+【４℃?】
 <END2>
 
 #WRITE(PTR, $00005B20)

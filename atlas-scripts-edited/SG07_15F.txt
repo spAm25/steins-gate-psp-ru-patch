@@ -1,0 +1,823 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001808)
+
+#WRITE(PTR, $000001E8)
+The warmth of Faris' hand suddenly disappeared from mine.
+<END>
+
+#WRITE(PTR, $000001F8)
+【Rintaro】Wha...!?
+<END>
+
+#WRITE(PTR, $00000214)
+The summer sun fills my disoriented vision.
+<END>
+
+#WRITE(PTR, $00000224)
+Next comes the noise of Akiba to fill my ears: crowd commotion and electronic shop theme songs.
+<END>
+
+#WRITE(PTR, $00000234)
+【Rintaro】This is...
+<END>
+
+#WRITE(PTR, $00000244)
+Sudden teleportation.
+<END>
+
+#WRITE(PTR, $00000254)
+I realized I was standing at Chuo Dori. Animate is in front of me.
+<END>
+
+#WRITE(PTR, $00000264)
+...animate!?
+<END>
+
+#WRITE(PTR, $00000274)
+I checked my surroundings.
+<END>
+
+#WRITE(PTR, $00000284)
+【Rintaro】All the moe shops... are coming back...
+<END>
+
+#WRITE(PTR, $00000294)
+The world line must have changed.
+<END>
+
+#WRITE(PTR, $000002A4)
+That was clear from the occurrence of Reading Steiner.
+<END>
+
+#WRITE(PTR, $000002B4)
+Faris is nowhere to be seen.
+<END>
+
+#WRITE(PTR, $000002C4)
+Just until now, we were standing right next to each other, holding hands, yet she vanished.
+<END>
+
+#WRITE(PTR, $000002D4)
+Did her very existence also disappear?
+<END>
+
+#WRITE(PTR, $000002E4)
+No freaking way.
+<END>
+
+#WRITE(PTR, $000002F4)
+I refuse to accept that.
+<END>
+
+#WRITE(PTR, $00000304)
+Did my fortune turn out good or bad?
+<END>
+
+#WRITE(PTR, $00000314)
+For now, I should examine this world line.
+<END>
+
+#WRITE(PTR, $00000444)
+When I visit the Tennouji residence, Tennouji Nae is there watching the house by herself.
+<END>
+
+#WRITE(PTR, $00000454)
+I ask her the big favor of letting me inside.
+<END>
+
+#WRITE(PTR, $00000464)
+There, the Divergence Meter was in good shape.
+<END>
+
+#WRITE(PTR, $000004B0)
+What's up... with this?
+<END>
+
+#WRITE(PTR, $000004C0)
+The first digit is blank.
+<END>
+
+#WRITE(PTR, $000004D0)
+It now reads .27349％.
+<END>
+
+#WRITE(PTR, $000004E0)
+Is it broken? Or is there some sort of reason?
+<END>
+
+#WRITE(PTR, $000004F0)
+Anyway, better make a note of this number on my phone.
+<END>
+
+#WRITE(PTR, $00000500)
+After I tore apart our memories with Suzuha, I checked to make sure that the numbers were all above 0.4％, so that means it went pretty low.
+<END>
+
+#WRITE(PTR, $00000510)
+But the biggest question is that missing 0.
+<END>
+
+#WRITE(PTR, $00000564)
+【Nae】Um... who, who are you? What do you need from us?
+<END>
+
+#WRITE(PTR, $00000574)
+Nae tries to hide herself behind the sliding door, firmly peering at what I'm doing.
+<END>
+
+#WRITE(PTR, $00000584)
+She's leaking an even bigger aura of fear than usual.
+<END>
+
+#WRITE(PTR, $00000594)
+I feel like I need to calm her down somehow or else she'll tattle on me to the manager later.
+<END>
+
+#WRITE(PTR, $000005A4)
+【Rintaro】Sorry for the sudden intrusion. But I'm done here.
+<END>
+
+#WRITE(PTR, $000005B4)
+【Rintaro】By the way, your old man showed me the way here.
+<END>
+
+#WRITE(PTR, $000005C4)
+Even after I tell her my excuse, she still looks like she's about to cry, and she still doesn't come any closer.
+<END>
+
+#WRITE(PTR, $000005D4)
+【Nae】Who... are you? Please, get out already... If you don't, I'll call the police. And my daddy's really, really strong.
+<END>
+
+#WRITE(PTR, $000005E4)
+【Rintaro】...?
+<END>
+
+#WRITE(PTR, $000005F4)
+What is this eerie feeling?
+<END>
+
+#WRITE(PTR, $00000604)
+【Rintaro】What do you mean, "Who are you?" How mean. We see each other occasionally.
+<END>
+
+#WRITE(PTR, $0000061E)
+【Nae】...?
+<END>
+
+#WRITE(PTR, $0000062E)
+【Rintaro】I rent out the second floor of your old man's shop, right? Did you forget?
+<END>
+
+#WRITE(PTR, $00000648)
+【Nae】D, Daddy, save me...
+<END>
+
+#WRITE(PTR, $00000658)
+【Rintaro】Nononono... wait a sec.
+<END>
+
+#WRITE(PTR, $00000668)
+【Nae】If you do bad things to me, I'll bite off my tongue and die...
+<END>
+
+#WRITE(PTR, $00000678)
+【Rintaro】Look, I won't, okay? More importantly, do you really not remember who I am?
+<END>
+
+#WRITE(PTR, $00000692)
+Nae frantically shakes her head.
+<END>
+
+#WRITE(PTR, $000006A2)
+【Rintaro】So, we've never met?
+<END>
+
+#WRITE(PTR, $000006B2)
+Now she nods deeply.
+<END>
+
+#WRITE(PTR, $000006C2)
+【Rintaro】...I'm... sorry about that. I know your old man.
+<END>
+
+#WRITE(PTR, $000006D2)
+【Rintaro】I'm done here, so I'll just leave.
+<END>
+
+#WRITE(PTR, $000006E2)
+Frantically forcing a smile to hide my confusion-- my innermost thoughts were terribly disturbed-- I leave the Tennouji residence.
+<END>
+
+#WRITE(PTR, $00000800)
+This is what I think of my situation.
+<END>
+
+#WRITE(PTR, $00000810)
+This is what I convinced myself on the way back to Akiba Station.
+<END>
+
+#WRITE(PTR, $00000820)
+I think a 0.2％ change is quite large.
+<END>
+
+#WRITE(PTR, $00000830)
+When I sacrificed Suzuha's memories, it only changed 0.07％, and I thought that was a dramatic change.
+<END>
+
+#WRITE(PTR, $00000840)
+It's not strange for there to be a large change in relationships.
+<END>
+
+#WRITE(PTR, $00000850)
+I probably don't know the majority of what events happened in the past.
+<END>
+
+#WRITE(PTR, $00000860)
+And besides that.
+<END>
+
+#WRITE(PTR, $00000870)
+...With the sole exception of Faris, all contacts have been cleared from my phone.
+<END>
+
+#WRITE(PTR, $00000880)
+To me, that was nothing but pure horror.
+<END>
+
+#WRITE(PTR, $00000890)
+To save Mayuri and Faris' dad, we made a past-changing wager. To have lost the existence of everyone in that wager except Faris is--
+<END>
+
+#WRITE(PTR, $000008A0)
+--Unbearable.
+<END>
+
+#WRITE(PTR, $000008B0)
+No, that can't be true. There's no way everyone got annihilated. I'm sure they still exist.
+<END>
+
+#WRITE(PTR, $000008C0)
+My phone's just broken is all. Yeah, that's probably it.
+<END>
+
+#WRITE(PTR, $000008D0)
+Inside of me, a contradiction is born.
+<END>
+
+#WRITE(PTR, $000008E0)
+This is what I think of my situation. Obviously, my circumstances have greatly changed.
+<END>
+
+#WRITE(PTR, $000008F0)
+But I don't want my relationships with the lab members to have changed in the slightest.
+<END>
+
+#WRITE(PTR, $00000900)
+I keep chanting this desire in my head like a whining child.
+<END>
+
+#WRITE(PTR, $000009A0)
+Mayuri, Daru, or Kurisu should normally be in the lab.
+<END>
+
+#WRITE(PTR, $000009B0)
+Once I get in, Mayuri should cheerily greet me, and the other two should greet me lazily.
+<END>
+
+#WRITE(PTR, $000009C0)
+I climb the stairs to the second floor wishing just that.
+<END>
+
+#WRITE(PTR, $000009D0)
+But then I realized how optimistic I had been.
+<END>
+
+#WRITE(PTR, $000009E0)
+The second floor had become a vacant room--
+<END>
+
+#WRITE(PTR, $000009F0)
+And obviously, the Time Leap Machine was nowhere to be found.
+<END>
+
+#WRITE(PTR, $00000B14)
+【Rintaro】So MayQueen... exists now?
+<END>
+
+#WRITE(PTR, $00000B24)
+I came to this shop first in my quest to find traces of the people I know.
+<END>
+
+#WRITE(PTR, $00000B34)
+It feels like it's been forever since I've seen that cat logo.
+<END>
+
+#WRITE(PTR, $00000B44)
+I take a gulp of air to catch my breath, and open the store door.
+<END>
+
+#WRITE(PTR, $00000BAC)
+【Mayuri&Faris (M)】Welcome homeow, Master♪
+<END>
+
+#WRITE(PTR, $00000BBC)
+【Mayuri&Faris (F)】Welcome homeow, Master♪
+<END>
+
+#WRITE(PTR, $00000BD0)
+【Rintaro】Faris, Mayuri...
+<END>
+
+#WRITE(PTR, $00000BE0)
+【Rintaro】Thank god...
+<END>
+
+#WRITE(PTR, $00000BF0)
+I feel relieved from the bottom of my heart seeing these two greet me.
+<END>
+
+#WRITE(PTR, $00000C00)
+These two didn't disappear.
+<END>
+
+#WRITE(PTR, $00000C10)
+They both work at this store exactly as I had remembered they did.
+<END>
+
+#WRITE(PTR, $00000CDE)
+【Mayuri】No, Master-. I'm actually Mayushii NyanNyan♪.
+<END>
+
+#WRITE(PTR, $00000CEE)
+Mayuri smiles at me while striking a catlike pose.
+<END>
+
+#WRITE(PTR, $00000D08)
+【Mayuri】You're Faris-chan's Duel Partner, aren't you?
+<END>
+
+#WRITE(PTR, $00000D18)
+She says that and turns around to Faris.
+<END>
+
+#WRITE(PTR, $00000D3E)
+【Mayuri】Faris-chan, by any chance, did you tell this guy Mayushii's real name?
+<END>
+
+#WRITE(PTR, $00000D58)
+【Faris】Hmmya? I don't remyember telling him~
+<END>
+
+#WRITE(PTR, $00000D72)
+【Faris】But I myean, you do call yourself Mayushii, so he just somehow guessed.
+<END>
+
+#WRITE(PTR, $00000D8C)
+【Mayuri】Oh, I see-. Ehhehe-
+<END>
+
+#WRITE(PTR, $00000D9C)
+【Rintaro】...?
+<END>
+
+#WRITE(PTR, $00000DAC)
+That eerie feeling again.
+<END>
+
+#WRITE(PTR, $00000DFC)
+【Faris】Kyouma, Kyouma,
+<END>
+
+#WRITE(PTR, $00000E0C)
+I lend Faris my ear when she calls me.
+<END>
+
+#WRITE(PTR, $00000E26)
+【Faris】Thanks for coming for meow. But I don't want you to act too boyfriendly in front of all the customers. Understand meow?
+<END>
+
+#WRITE(PTR, $00000E36)
+【Rintaro】Boyfriend...?
+<END>
+
+#WRITE(PTR, $00000E50)
+【Faris】Dummy! You can't say that, nya~! We can sweet talk all we want after work's over, so hold out until then, okay, nya?
+<END>
+
+#WRITE(PTR, $00000E60)
+【Rintaro】What are you talking about?
+<END>
+
+#WRITE(PTR, $00000E7A)
+【Faris】Nyanya? Hmm, so that's how it is nya. So you understood from the start, nya. That's Kyouma for you. Gets the job done quick, nyan.
+<END>
+
+#WRITE(PTR, $00000E94)
+【Mayuri】C'mon, Faris-chan, you shouldn't flirt in the store-
+<END>
+
+#WRITE(PTR, $00000EAE)
+【Faris】Nyahaha. What do you mean, Mayushii? I did nyo such thing, nya.
+<END>
+
+#WRITE(PTR, $00000EBE)
+【Rintaro】More importantly, Mayuri, do you know Daru or Kurisu?
+<END>
+
+#WRITE(PTR, $00000ED8)
+【Mayuri】...?
+<END>
+
+#WRITE(PTR, $00000EE8)
+Mayuri tilts her head with a dubious look.
+<END>
+
+#WRITE(PTR, $00000EF8)
+【Mayuri】Daru? Chris? Who could they be-?
+<END>
+
+#WRITE(PTR, $00000F08)
+...That eerie feeling wasn't my imagination.
+<END>
+
+#WRITE(PTR, $00000F18)
+Mayuri and Faris's words were weird.
+<END>
+
+#WRITE(PTR, $00000F28)
+In other words, my relationship with these two has also been delicately changed.
+<END>
+
+#WRITE(PTR, $00000F38)
+【Rintaro】Where's our laboratory?
+<END>
+
+#WRITE(PTR, $00000F48)
+【Mayuri】Laboratory?
+<END>
+
+#WRITE(PTR, $00000F62)
+【Faris】Lavatory!?
+<END>
+
+#WRITE(PTR, $00000F72)
+What the hell.
+<END>
+
+#WRITE(PTR, $00000F8C)
+Faris quickly pulls me by the ear.
+<END>
+
+#WRITE(PTR, $00000F9C)
+【Rintaro】Ow, owow, what're you doing!?
+<END>
+
+#WRITE(PTR, $00000FAC)
+【Faris】Kyoumaa. What's this about, nya? Don't tell meow you made plans to meet Mayuri in the lavatory?
+<END>
+
+#WRITE(PTR, $00000FBC)
+【Faris】Kyouma's such a pervert to do such immeowral things even though he's a minor.
+<END>
+
+#WRITE(PTR, $00000FCC)
+【Rintaro】Laboratory, not lavatory, drills-for-brains! Don't mix them up!
+<END>
+
+#WRITE(PTR, $00000FE6)
+【Faris】Laboratory? What do you mean by laboratory, nya?
+<END>
+
+#WRITE(PTR, $00000FF6)
+【Rintaro】Laboratory, as in, the Future Gadget Research Lab...
+<END>
+
+#WRITE(PTR, $00001006)
+【Rintaro】Mayuri, you know, don't you? About the Future Gadget Research Lab!
+<END>
+
+#WRITE(PTR, $00001020)
+【Mayuri】Hmmm, Mayushii doesn't really know. Sorry-
+<END>
+
+#WRITE(PTR, $00001030)
+She doesn't know... no way.
+<END>
+
+#WRITE(PTR, $0000104A)
+【Faris】Anyway, why have you only been talking to Mayushii neow? You flirting right in front of your girlfriend, nya?
+<END>
+
+#WRITE(PTR, $0000105A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $0000106A)
+Girlfriend. Faris is? Whose?
+<END>
+
+#WRITE(PTR, $0000107A)
+...Mine!?
+<END>
+
+#WRITE(PTR, $0000108A)
+【Faris】I'll have to ask that kind of Master to go home, nya. So what'll you do, nya?
+<END>
+
+#WRITE(PTR, $0000109A)
+【Rintaro】Ah, ahh, sorry...
+<END>
+
+#WRITE(PTR, $000010AA)
+I obediently apologize and ask to be seated.
+<END>
+
+#WRITE(PTR, $000010BA)
+And inside, at a table for two, sits Daru.
+<END>
+
+#WRITE(PTR, $00001196)
+His large body is shaking bit by bit. On closer look, he's fidgeting.
+<END>
+
+#WRITE(PTR, $000011A6)
+Moreover, why is he staring at me?
+<END>
+
+#WRITE(PTR, $000011B6)
+【Rintaro】Daru, so this is where you were.
+<END>
+
+#WRITE(PTR, $000011C6)
+I sit in front of Daru and take a breath.
+<END>
+
+#WRITE(PTR, $000011D6)
+I drink up my water in one gulp, quenching my thirst.
+<END>
+
+#WRITE(PTR, $000011E6)
+Daru doesn't try to hide his displeasure.
+<END>
+
+#WRITE(PTR, $000011F6)
+【Itaru】You, what are you to Faris-tan?
+<END>
+
+#WRITE(PTR, $00001206)
+【Rintaro】What?
+<END>
+
+#WRITE(PTR, $00001228)
+【Itaru】I think I've seen your face somewhere before. Where was that... Well, whatever, anyway, you're being way too familiar with Faris-tan, you know? A little cocky, are we? A <DICT>normalfag</DICT>? You're a normalfag, aren't you?
+<END>
+
+#WRITE(PTR, $00001238)
+【Rintaro】Woah, Daru. Just what are you...
+<END>
+
+#WRITE(PTR, $00001248)
+I start talking, but then shut up.
+<END>
+
+#WRITE(PTR, $00001258)
+If we take Mayuri and Faris for example, it's entirely possible that my relationship with Daru changed too.
+<END>
+
+#WRITE(PTR, $00001268)
+I try to ask in a roundabout way.
+<END>
+
+#WRITE(PTR, $00001278)
+【Rintaro】Is this our first meeting?
+<END>
+
+#WRITE(PTR, $00001292)
+【Itaru】Duh. This is your first time to this store, isn't it? As a regular customer here, I make sure to check other customers' faces.
+<END>
+
+#WRITE(PTR, $000012A2)
+【Rintaro】No, I'm pretty sure I come here enough, but--
+<END>
+
+#WRITE(PTR, $000012B2)
+【Itaru】This taste... is the taste of a liar.
+<END>
+
+#WRITE(PTR, $000012C2)
+【Rintaro】How can you tell without even licking me?
+<END>
+
+#WRITE(PTR, $000012DC)
+【Itaru】Annnyway, answer me. What are you to Faris-tan?
+<END>
+
+#WRITE(PTR, $000012EC)
+【Rintaro】I'm...
+<END>
+
+#WRITE(PTR, $000012FC)
+【Itaru】Should I ask more specifically? Well then, Question One~ What- is your name?
+<END>
+
+#WRITE(PTR, $0000130C)
+Why do I have to be cross-examined by Daru?
+<END>
+
+#WRITE(PTR, $0000131C)
+It's unpleasant, but I also don't want to anger him any more, so I'll answer him honestly.
+<END>
+
+#WRITE(PTR, $0000132C)
+Well, the problem is which name to call myself...
+<END>
+
+#WRITE(PTR, $0000133C)
+【Rintaro】Ho, Hououin Kyouma...
+<END>
+
+#WRITE(PTR, $00001356)
+【Itaru】Seriously!?
+<END>
+
+#WRITE(PTR, $00001366)
+Suddenly, Daru bends himself forward.
+<END>
+
+#WRITE(PTR, $00001376)
+He did a complete 180 and grabbed my hand with his eyes shining, making his previous displeasure seem like an act.
+<END>
+
+#WRITE(PTR, $00001390)
+【Itaru】Ahh, that's it, that's it. Yeah, yeah. That's right. Right on. I was sure I'd seen you before-!
+<END>
+
+#WRITE(PTR, $000013A0)
+【Itaru】You're Faris-tan's Duel Partner, Hououin-shi! Wow, how thoughtless of me!
+<END>
+
+#WRITE(PTR, $000013B0)
+【Itaru】It's an honor to meet you! I'm a big Faris-tan and Hououin-shi fan! I saw that last semifinal!
+<END>
+
+#WRITE(PTR, $000013C0)
+He forcibly shakes my hand.
+<END>
+
+#WRITE(PTR, $000013D0)
+Daru's hand is all damp and sweaty.
+<END>
+
+#WRITE(PTR, $000013E0)
+【Rintaro】Eh... hey, wait, Daru...?
+<END>
+
+#WRITE(PTR, $000013FA)
+【Itaru】Daru? How do you know my nickname?
+<END>
+
+#WRITE(PTR, $0000140A)
+【Rintaro】Ah, well...
+<END>
+
+#WRITE(PTR, $0000141A)
+I finally catch on to my situation.
+<END>
+
+#WRITE(PTR, $0000142A)
+If I assume that the lab is no more, that should explain a dozen things.
+<END>
+
+#WRITE(PTR, $0000143A)
+Mayuri and Daru don't know about me.
+<END>
+
+#WRITE(PTR, $0000144A)
+We haven't met.
+<END>
+
+#WRITE(PTR, $0000145A)
+We're not childhood friends.
+<END>
+
+#WRITE(PTR, $0000146A)
+We're not partners.
+<END>
+
+#WRITE(PTR, $0000147A)
+【Rintaro】I... see...
+<END>
+
+#WRITE(PTR, $0000148A)
+Our memories disappeared.
+<END>
+
+#WRITE(PTR, $0000149A)
+So is that... the outcome of the bet?
+<END>
+
+#WRITE(PTR, $000014AA)
+Is it my fate to live in this cruel mockery...?
+<END>
+
+#WRITE(PTR, $000014C4)
+【Itaru】Man, tomorrow's the long awaited finals, huh! Beat the shit out of those "Viral Attackers" for me.
+<END>
+
+#WRITE(PTR, $000014D4)
+【Rintaro】Finals...?
+<END>
+
+#WRITE(PTR, $000014E4)
+The name Viral Attackers means that it's about RaiNet Access Battlers, huh...
+<END>
+
+#WRITE(PTR, $000014F4)
+So does that mean that I'm partnering up with Faris and participating?
+<END>
+
+#WRITE(PTR, $00001504)
+But the finals should have finished yesterday.
+<END>
+
+#WRITE(PTR, $00001514)
+But in this world line, it's tomorrow?
+<END>
+
+#WRITE(PTR, $00001524)
+Let's confirm this with Faris later.
+<END>
+
+#WRITE(PTR, $00001534)
+Somehow or another, it looks like I'm her partner in both love and war.
+<END>
+
+#WRITE(PTR, $00001544)
+But more importantly, there's one other thing I need to check.
+<END>
+
+#WRITE(PTR, $00001554)
+【Rintaro】Hey, do you... know someone called Makise Kurisu?
+<END>
+
+#WRITE(PTR, $00001564)
+【Itaru】Ahh, eh, yeah, yeah, if I'm not mistaken, she's that genius girl whose thesis got published in that big academic journal.
+<END>
+
+#WRITE(PTR, $00001574)
+【Rintaro】Have you met her?
+<END>
+
+#WRITE(PTR, $00001584)
+【Itaru】She had a lecture before at ATF. I listened to it. She was quite the looker, oohehe.
+<END>
+
+#WRITE(PTR, $0000159E)
+【Itaru】So, what about her?
+<END>
+
+#WRITE(PTR, $000015AE)
+【Rintaro】No, nothing...
+<END>
+
+#WRITE(PTR, $000015CA)
+If the lab doesn't exist, then isn't it obvious he hasn't met with Kurisu?
+<END>
+
+#WRITE(PTR, $000015DA)
+I go limp in my chair.
+<END>
+
+#WRITE(PTR, $000015EA)
+Did I win the bet? Did I lose the bet?
+<END>
+
+#WRITE(PTR, $000015FA)
+I should know by tonight.
+<END>
+
+#WRITE(PTR, $0000160A)
+If things go as scheduled, Mayuri will die tonight.
+<END>
+
+#WRITE(PTR, $0000161A)
+Did our deep revision to the world line come out with good or bad fortune?
+<END>
+
+#WRITE(PTR, $0000162A)
+And also, is Faris' father still alive?
+<END>
+
+#WRITE(PTR, $0000163A)
+If both are saved, then I can accept the vanishing of our memories.
+<END>
+
+#WRITE(PTR, $0000164A)
+All I can do is accept it...
+<FILEEND28>
+

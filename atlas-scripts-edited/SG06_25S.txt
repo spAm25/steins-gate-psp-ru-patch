@@ -370,7 +370,7 @@ But she grabs my hand to detain me.
 <END>
 
 #WRITE(PTR, $000010AC)
-【Suzuha】I fail to obtain an IBN5100?
+【Suzuha】I fail to obtain an IBN 5100?
 <END>
 
 #WRITE(PTR, $000010BC)

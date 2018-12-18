@@ -6,7 +6,7 @@
 #JMP($000038D0)
 
 #WRITE(PTR, $00000A98)
-The sky was still a mix of indigo and orange、 but the sun had already set.
+The sky was still a mix of indigo and orange, but the sun had already set.
 <END>
 
 #WRITE(PTR, $00000AA8)

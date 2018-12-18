@@ -605,7 +605,7 @@ Are my memories wrong, or is it the memories of everyone else?
 <END>
 
 #WRITE(PTR, $000049BE)
-【Rintaro】Then, how about "IBN5100"?
+【Rintaro】Then, how about "IBN 5100"?
 <END>
 
 #WRITE(PTR, $000049D8)
@@ -625,7 +625,7 @@ Right. That's what John Titor wrote on @channel.
 <END>
 
 #WRITE(PTR, $00004A22)
-That's why he first went to the year 1975, got the IBN5100 and then time traveled to 1998.
+That's why he first went to the year 1975, got the IBN 5100 and then time traveled to 1998.
 <END>
 
 #WRITE(PTR, $00004A32)
@@ -645,11 +645,11 @@ That's why he first went to the year 1975, got the IBN5100 and then time travele
 <END>
 
 #WRITE(PTR, $00004A84)
-【Itaru】The "IBN PC" series released in 1981 were a big hit and much more popular than IBN5100.
+【Itaru】The "IBN PC" series released in 1981 were a big hit and much more popular than IBN 5100.
 <END>
 
 #WRITE(PTR, $00004A9C)
-【Itaru】Still, all the information I know about IBN5100 is from a <DICT>Wiki</DICT> on the internet.
+【Itaru】Still, all the information I know about IBN 5100 is from a <DICT>Wiki</DICT> on the internet.
 <END>
 
 #WRITE(PTR, $00004AAC)
@@ -673,7 +673,7 @@ That's why he first went to the year 1975, got the IBN5100 and then time travele
 <END>
 
 #WRITE(PTR, $00004B22)
-【Itaru】I dunno. There are lots of underground shops in Akiba, so it wouldn't be strange for the IBN5100 to be hidden in one of the more suspicious ones.
+【Itaru】I dunno. There are lots of underground shops in Akiba, so it wouldn't be strange for the IBN 5100 to be hidden in one of the more suspicious ones.
 <END>
 
 #WRITE(PTR, $00004B32)
@@ -725,7 +725,7 @@ The tension is completely different, as well. Does she have a split personality 
 <END>
 
 #WRITE(PTR, $0000511A)
-Hmm, I am talking with Daru about the IBN5100 right now, so I guess I should give her a response...
+Hmm, I am talking with Daru about the IBN 5100 right now, so I guess I should give her a response...
 <END>
 
 #WRITE(PTR, $00005138)
@@ -841,7 +841,7 @@ Once again, I look around and lean towards Daru.
 <END>
 
 #WRITE(PTR, $000058CA)
-【Rintaro】IBN5100 is the item which can trigger the end of the world, right?
+【Rintaro】IBN 5100 is the item which can trigger the end of the world, right?
 <END>
 
 #WRITE(PTR, $000058E4)

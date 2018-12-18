@@ -46,7 +46,7 @@ Kurisu had pushed me to change this ridiculous present.
 <END>
 
 #WRITE(PTR, $00000B12)
-And yet I thought it was a dream、 and ruined my chance.
+And yet I thought it was a dream, and ruined my chance.
 <END>
 
 #WRITE(PTR, $00000B22)
@@ -774,7 +774,7 @@ Right after my shout.
 <END>
 
 #WRITE(PTR, $00002BBA)
-Once again、 the world blows away--
+Once again, the world blows away--
 <END>
 
 #WRITE(PTR, $00002E20)

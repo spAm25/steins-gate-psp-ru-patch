@@ -1,0 +1,431 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001CF0)
+
+#WRITE(PTR, $000001E0)
+I sit on the bench in front of the building, confirming the absence of Suzuha's bicycle.
+<END>
+
+#WRITE(PTR, $0000035C)
+【Kurisu】What is it? You don't normally call my name normally.
+<END>
+
+#WRITE(PTR, $00000400)
+Kurisu says so and frowns.
+<END>
+
+#WRITE(PTR, $000004AE)
+【Kurisu】Japanese is weird.
+<END>
+
+#WRITE(PTR, $00000552)
+【Rintaro】...please help me.
+<END>
+
+#WRITE(PTR, $00000600)
+【Kurisu】...This is a shock.
+<END>
+
+#WRITE(PTR, $000006A4)
+【Kurisu】I never thought I'd hear those words from you. Do you have a fever?
+<END>
+
+#WRITE(PTR, $00000748)
+【Rintaro】Don't poke fun. I'm seriously consulting you.
+<END>
+
+#WRITE(PTR, $000007F6)
+【Kurisu】You time leaped, didn't you?
+<END>
+
+#WRITE(PTR, $0000089A)
+I nod.
+<END>
+
+#WRITE(PTR, $0000093E)
+【Rintaro】How much do you know?
+<END>
+
+#WRITE(PTR, $000009E2)
+【Kurisu】How much about what?
+<END>
+
+#WRITE(PTR, $00000A86)
+【Rintaro】That Suzuha was John Titor?
+<END>
+
+#WRITE(PTR, $00000B34)
+【Kurisu】Eh...
+<END>
+
+#WRITE(PTR, $00000BD8)
+Kurisu stares blankly.
+<END>
+
+#WRITE(PTR, $00000C7C)
+【Kurisu】I never thought of that.
+<END>
+
+#WRITE(PTR, $00000D32)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000D4A)
+When we stopped Suzuha from going to the time machine IRL meet on August 9, she decided to time travel on August 13.
+<END>
+
+#WRITE(PTR, $00000D5A)
+That event was most likely changed by my cancellation D-mail.
+<END>
+
+#WRITE(PTR, $00000D6A)
+Just what happened in this world line those four days?
+<END>
+
+#WRITE(PTR, $00000D7A)
+I don't know.
+<END>
+
+#WRITE(PTR, $00000D8A)
+【Rintaro】Have you finished the Time Leap Machine?
+<END>
+
+#WRITE(PTR, $00000DA4)
+【Kurisu】What are you talking about? I finished it yesterday after working all night.
+<END>
+
+#WRITE(PTR, $00000DB4)
+【Kurisu】Okabe, when did you leap from?
+<END>
+
+#WRITE(PTR, $00000DC4)
+【Rintaro】8PM tonight.
+<END>
+
+#WRITE(PTR, $00000DD4)
+In any case, it looks like I'll have to explain everything I've experienced again.
+<END>
+
+#WRITE(PTR, $0000104C)
+【Kurisu】Hmmm...
+<END>
+
+#WRITE(PTR, $0000105C)
+I talked about what I experienced, like Mayuri's death, about Suzuha, about Moeka, and a summary of what Suzuha told me about the world's structure.
+<END>
+
+#WRITE(PTR, $0000106C)
+Kurisu didn't particularly doubt anything.
+<END>
+
+#WRITE(PTR, $00001086)
+【Kurisu】So in other words, if you get back the IBN 5100... you win.
+<END>
+
+#WRITE(PTR, $00001096)
+That's the conclusion.
+<END>
+
+#WRITE(PTR, $000010B0)
+【Kurisu】This is just a guess, but--
+<END>
+
+#WRITE(PTR, $000010C0)
+【Kurisu】You should think about what Amane-san said the other way around.
+<END>
+
+#WRITE(PTR, $000010DA)
+【Kurisu】I think the critical point is when you get the IBN 5100 and erase the data from SERN.
+<END>
+
+#WRITE(PTR, $000010EA)
+【Kurisu】It's most likely at that instant you'll achieve Divergence over 1％.
+<END>
+
+#WRITE(PTR, $000010FA)
+【Rintaro】The problem is where the IBN 5100 is now.
+<END>
+
+#WRITE(PTR, $00001114)
+【Kurisu】You got the IBN 5100 once before. That is, if your memory isn't a delusion.
+<END>
+
+#WRITE(PTR, $0000112E)
+【Kurisu】If you can return to that world line, it'll inevitably come back, won't it?
+<END>
+
+#WRITE(PTR, $0000113E)
+【Rintaro】I see, so that's it...
+<END>
+
+#WRITE(PTR, $0000114E)
+【Rintaro】The IBN 5100 was inside the lab and then suddenly disappeared.
+<END>
+
+#WRITE(PTR, $00001168)
+【Kurisu】You made quite the ruckus about that earlier. Back then, I thought that Okabe had finally lost his distinction between delusions and reality. I silently muttered "oh god".
+<END>
+
+#WRITE(PTR, $00001178)
+【Rintaro】You Americanophile. What do you mean "oh god"? You trying to say Kurisu-chan is Christian?
+<END>
+
+#WRITE(PTR, $00001192)
+When I say that, Kurisu looks at me with disdain.
+<END>
+
+#WRITE(PTR, $000011A2)
+【Kurisu】Oh, why, you...
+<END>
+
+#WRITE(PTR, $000011B2)
+【Rintaro】...I regret saying it too.
+<END>
+
+#WRITE(PTR, $000011C2)
+This isn't the time for such worthless chatter.
+<END>
+
+#WRITE(PTR, $000011D2)
+【Rintaro】So, Christina... You want to say this, right?
+<END>
+
+#WRITE(PTR, $000011E2)
+【Rintaro】The distortions we made to the world, namely, all D-mails so far that changed the world line, need to be negated--
+<END>
+
+#WRITE(PTR, $000011F2)
+【Rintaro】Then we can return to the world line where I found the IBN 5100 at Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00001202)
+From what I've experienced so far, I'm confident that the IBN 5100's disappearance from the lab wasn't due to theft.
+<END>
+
+#WRITE(PTR, $00001212)
+At any rate, I've been lodging in the lab. Whenever I wasn't at the lab, another lab mem was. Someone was in the lab every hour of the day.
+<END>
+
+#WRITE(PTR, $00001222)
+It's physically impossible for someone to take away a retro PC that heavy without anyone noticing.
+<END>
+
+#WRITE(PTR, $00001232)
+So it's proper to think that a D-mail caused us to deviate from the world line where I found the IBN 5100 at Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $0000124C)
+【Kurisu】That's still a hypothesis. I only came to that conclusion based on your explanation.
+<END>
+
+#WRITE(PTR, $0000125C)
+【Kurisu】If you're mistaking your facts, deceiving me, or shooting off delusions, then this hypothesis is a failure.
+<END>
+
+#WRITE(PTR, $0000126C)
+This assistant of mine has no confidence in me at all.
+<END>
+
+#WRITE(PTR, $00001286)
+【Kurisu】You can't just blindly follow this hypothesis either.
+<END>
+
+#WRITE(PTR, $00001296)
+【Kurisu】You have some insurances, but if you're careless and get into 'checkmate'--
+<END>
+
+#WRITE(PTR, $000012A6)
+【Kurisu】You won't get a second chance to save Mayuri.
+<END>
+
+#WRITE(PTR, $000012B6)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000012C6)
+I know.
+<END>
+
+#WRITE(PTR, $000012D6)
+If I could, I'd like to ask for Suzuha's opinion too, but...
+<END>
+
+#WRITE(PTR, $000012E6)
+But in this world line, she traveled to 1975 on the night of August 9th. There's no way I can meet her now.
+<END>
+
+#WRITE(PTR, $00001300)
+【Kurisu】Why did the IBN 5100 disappear? Which remaining D-mail is the source of its disappearance?
+<END>
+
+#WRITE(PTR, $00001310)
+【Kurisu】Figure that out, and you're on your way to the solution.
+<END>
+
+#WRITE(PTR, $00001320)
+【Rintaro】What I don't understand is how we delayed the timing of Mayuri's death exactly 24 hours.
+<END>
+
+#WRITE(PTR, $0000133A)
+【Kurisu】That is interesting, huh. Maybe it's related to the change in Divergence.
+<END>
+
+#WRITE(PTR, $0000134A)
+【Kurisu】There's the possibility of the Butterfly Effect. In that case, any trivial source could produce a significantly deviant result.
+<END>
+
+#WRITE(PTR, $0000135A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001374)
+【Kurisu】Anyway, it's important to act with discretion. You shouldn't do anything careless.
+<END>
+
+#WRITE(PTR, $00001384)
+【Kurisu】For example, the most important danger is your own death.
+<END>
+
+#WRITE(PTR, $00001394)
+【Kurisu】You're probably the only one who can keep memories after crossing world lines. If you die, then consider Mayuri dead.
+<END>
+
+#WRITE(PTR, $000013AE)
+【Kurisu】...You must absolutely not die.
+<END>
+
+#WRITE(PTR, $000013BE)
+【Rintaro】...By any chance, are you worried for me?
+<END>
+
+#WRITE(PTR, $000013E0)
+【Kurisu】H, haah!? What's with that? <DICT>Whose benefit</DICT>?
+<END>
+
+#WRITE(PTR, $000013F0)
+【Kurisu】No way in hell. Don't misunderstand me.
+<END>
+
+#WRITE(PTR, $0000140A)
+【Kurisu】When I mentioned your death, I meant since you're a valuable subject is all. Yeah. That's all.
+<END>
+
+#WRITE(PTR, $0000141A)
+【Kurisu】That brain of yours, having accumulated memories spanning world lines and several time leaps is a precious sample that can rewrite the history of neuroscience...
+<END>
+
+#WRITE(PTR, $00001434)
+【Kurisu】I want to map out your brain and find out just what's going on in there.
+<END>
+
+#WRITE(PTR, $00001444)
+【Kurisu】So these successive experiments that keep coming really help me out. Because the Time Leap Machine is, so to speak, the fruit of my research--
+<END>
+
+#WRITE(PTR, $00001454)
+【Rintaro】Calm down.
+<END>
+
+#WRITE(PTR, $0000146E)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $0000147E)
+Kurisu turns away with a sour look.
+<END>
+
+#WRITE(PTR, $0000148E)
+This assistant of mine is so difficult.
+<END>
+
+#WRITE(PTR, $0000149E)
+Anyhow, to return to the world line where I get the IBN 5100 at Yanabayashi Shrine, I need to cancel all the D-mails we sent so far-- that's the hypothesis.
+<END>
+
+#WRITE(PTR, $000014AE)
+Theoretically speaking, there are no contradictions.
+<END>
+
+#WRITE(PTR, $000014BE)
+I don't have anything else besides Kurisu's explanation.
+<END>
+
+#WRITE(PTR, $000014CE)
+When I look at my watch, it's 6:42.
+<END>
+
+#WRITE(PTR, $000014DE)
+Moeka's attack is in one hour.
+<END>
+
+#WRITE(PTR, $000014EE)
+I decide to time leap once more.
+<END>
+
+#WRITE(PTR, $000014FE)
+To daytime on the 13th. Right after the Time Leap Machine is complete.
+<END>
+
+#WRITE(PTR, $0000150E)
+【Rintaro】Christina. I'll try out your plan.
+<END>
+
+#WRITE(PTR, $00001528)
+【Kurisu】Oh, okay.
+<END>
+
+#WRITE(PTR, $00001538)
+I take Kurisu's hand.
+<END>
+
+#WRITE(PTR, $00001548)
+And firmly grasp it.
+<END>
+
+#WRITE(PTR, $00001562)
+【Kurisu】Ah...
+<END>
+
+#WRITE(PTR, $00001572)
+【Rintaro】You've helped me out so many times. Sorry about that.
+<END>
+
+#WRITE(PTR, $00001582)
+【Kurisu】D-don't apologize, dummy. That throws me off...
+<END>
+
+#WRITE(PTR, $0000159C)
+【Kurisu】I-in the first place, I don't remember helping you out before at all. That just makes me the one angry at you. I don't get it...
+<END>
+
+#WRITE(PTR, $000015AC)
+Why's she the one getting mad? I just don't get it...
+<END>
+
+#WRITE(PTR, $000015C6)
+【Kurisu】I would remember if I could...
+<END>
+
+#WRITE(PTR, $000015DE)
+【Kurisu】Because then I could look at how pitiful you look and go <DICT>ha ha!</DICT>
+<END>
+
+#WRITE(PTR, $000015EE)
+【Rintaro】You really have an awful personality.
+<END>
+
+#WRITE(PTR, $00001608)
+【Kurisu】You're one to talk.
+<END>
+
+#WRITE(PTR, $00001724)
+Thus, I time leap 28 hours back.
+<END>
+
+#WRITE(PTR, $00001902)
+TL14.PMF
+<FILEENDA5>
+

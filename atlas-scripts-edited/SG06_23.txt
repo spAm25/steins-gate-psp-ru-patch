@@ -1382,7 +1382,7 @@ But, I am taking over Suzuha's will.
 <END>
 
 #WRITE(PTR, $00007ADA)
-For the sake of the dream you entrusted me.  Your wish to change the future.
+For the sake of the dream you entrusted me. Your wish to change the future.
 <END>
 
 #WRITE(PTR, $00007AEA)

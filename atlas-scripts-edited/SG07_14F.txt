@@ -1,0 +1,347 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001410)
+
+#WRITE(PTR, $00000478)
+Since Faris' father was also still at home, we settled down in the cafe at UPX.
+<END>
+
+#WRITE(PTR, $00000488)
+Faris ordered a sandwich.
+<END>
+
+#WRITE(PTR, $000004D0)
+【Faris】So, does Kyouma have another method in mind, nya?
+<END>
+
+#WRITE(PTR, $000004E0)
+【Rintaro】This is only a bet, but...
+<END>
+
+#WRITE(PTR, $000004F0)
+【Rintaro】We can change the contents of the D-mail you sent.
+<END>
+
+#WRITE(PTR, $00000500)
+【Faris】So, we're not going to cancel Faris' first prank mail, nya?
+<END>
+
+#WRITE(PTR, $00000510)
+【Rintaro】That's how it's gonna go.
+<END>
+
+#WRITE(PTR, $00000520)
+【Rintaro】We win as long as I get the IBN 5100 back. As long as that happens, we don't need to kill your dad--
+<END>
+
+#WRITE(PTR, $00000530)
+Right as I say that, the employee comes to us with our sandwich and drink.
+<END>
+
+#WRITE(PTR, $00000540)
+She's making a startled face at my words.
+<END>
+
+#WRITE(PTR, $00000550)
+【Rintaro】Uh, we're talking about a game...
+<END>
+
+#WRITE(PTR, $00000560)
+The employee forces a smile and heads back inside after my lame excuse.
+<END>
+
+#WRITE(PTR, $00000570)
+I turn back to Faris.
+<END>
+
+#WRITE(PTR, $00000580)
+【Rintaro】So, we can end things quickly if we change the D-mail's contents to something like this:
+<END>
+
+#WRITE(PTR, $00000590)
+【Rintaro】"Don't ever let go of the IBN 5100 until you pass it on to Okabe Rintaro".
+<END>
+
+#WRITE(PTR, $000005A0)
+I think we can only send the D-mail back 10 years at the most.
+<END>
+
+#WRITE(PTR, $000005B0)
+Because cell phone mail didn't become widespread until then.
+<END>
+
+#WRITE(PTR, $000005C0)
+Lukako's mom's pager was a special case, but even that was still limited to the 1990's.
+<END>
+
+#WRITE(PTR, $000005D0)
+So I think it would be impossible to tell Faris' dad in 1975 anything like buy a crapload of IBN 5100's and keep them until 2010.
+<END>
+
+#WRITE(PTR, $000005EA)
+【Faris】But, but, back then, Papa's company was down and he didn't have any money, nya
+<END>
+
+#WRITE(PTR, $000005FA)
+【Faris】I think there's nyothing you could say to stop him from selling the IBN 5100 if he needed money to save meow.
+<END>
+
+#WRITE(PTR, $0000060A)
+Faris says so with a troubled face and restlessly stuffs her cheeks with egg sandwich.
+<END>
+
+#WRITE(PTR, $0000061A)
+【Rintaro】That depends on how you write it, right? If you make it seem like it's related to the first D-mail, then your dad has to find another way.
+<END>
+
+#WRITE(PTR, $0000062A)
+【Rintaro】If he's a retro PC collector, then he should have plenty of other PCs he could sell, right?
+<END>
+
+#WRITE(PTR, $0000063A)
+【Faris】He wouldn't get enough money with those, nyan. Back then, the IBN 5100 was the only one people would pay outrageous prices for every neow and then.
+<END>
+
+#WRITE(PTR, $0000064A)
+【Rintaro】Then this is something only you can pull off.
+<END>
+
+#WRITE(PTR, $0000065A)
+【Rintaro】I'll say it again: this is only a bet.
+<END>
+
+#WRITE(PTR, $0000066A)
+And you might also call it an escape.
+<END>
+
+#WRITE(PTR, $0000067A)
+A bet to escape the same responsibilities as god.
+<END>
+
+#WRITE(PTR, $0000068A)
+【Rintaro】How much will the world line change? What will the new world line bring? I don't know the answers either.
+<END>
+
+#WRITE(PTR, $0000069A)
+【Rintaro】It may become a world where neither Mayuri nor your dad can be saved, but it may also be one where both can.
+<END>
+
+#WRITE(PTR, $000006AA)
+【Rintaro】I'm not confident either. But I can't leave things the way they are. I can't let Mayuri die. I can't let your dad die either.
+<END>
+
+#WRITE(PTR, $000006BA)
+It's a gamble. Sink or swim.
+<END>
+
+#WRITE(PTR, $000006CA)
+I'm asking Faris if she's okay with that even when two lives hang in the balance.
+<END>
+
+#WRITE(PTR, $000006DA)
+I don't want to have to do this.
+<END>
+
+#WRITE(PTR, $000006EA)
+But I couldn't think of any alternative.
+<END>
+
+#WRITE(PTR, $00000704)
+【Faris】If that's what Kyouma decided... then it's okay with meow too.
+<END>
+
+#WRITE(PTR, $00000714)
+【Rintaro】...Really?
+<END>
+
+#WRITE(PTR, $00000724)
+【Faris】I know that you're trying to save Papa, nyan.
+<END>
+
+#WRITE(PTR, $00000734)
+【Faris】So I want to give you my thanks, nyan.
+<END>
+
+#WRITE(PTR, $0000074E)
+【Faris】I'm really starting to fall in love with Kyouma neow.
+<END>
+
+#WRITE(PTR, $0000075E)
+【Rintaro】Don't, don't tease me.
+<END>
+
+#WRITE(PTR, $00000778)
+【Faris】But I'm not teasing you, nyan.
+<END>
+
+#WRITE(PTR, $00000788)
+Faris pouts her lips in a cute way.
+<END>
+
+#WRITE(PTR, $000007A2)
+【Faris】Does Kyouma hate women like meow...?
+<END>
+
+#WRITE(PTR, $000007B2)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000007C2)
+She peeps at my face with upturned eyes.
+<END>
+
+#WRITE(PTR, $000007D2)
+【Rintaro】Th, that's "MayQueen+Nyan⑯"'s number one popular maid for you, huh. She sure knows how to flatter her customers...
+<END>
+
+#WRITE(PTR, $000007EC)
+【Faris】...I don't like it when Kyouma dodges meow.
+<END>
+
+#WRITE(PTR, $000007FC)
+Now she's dropping her shoulders with a sad face.
+<END>
+
+#WRITE(PTR, $0000080C)
+Don't tell me that was a real confession.
+<END>
+
+#WRITE(PTR, $0000081C)
+Faris is cute.
+<END>
+
+#WRITE(PTR, $0000082C)
+My inner insecurities are also largely fading away.
+<END>
+
+#WRITE(PTR, $0000083C)
+I don't feel bad being told I'm loved.
+<END>
+
+#WRITE(PTR, $0000084C)
+I am a man after all. My heart would sway if such a cute girl were to confess to me.
+<END>
+
+#WRITE(PTR, $0000085C)
+But this talk is for times of peace.
+<END>
+
+#WRITE(PTR, $0000086C)
+Now isn't the time to think about such things.
+<END>
+
+#WRITE(PTR, $0000087C)
+【Rintaro】Faris... Join me in my gamble.
+<END>
+
+#WRITE(PTR, $0000088C)
+【Rintaro】It'll come out all right... believe me.
+<END>
+
+#WRITE(PTR, $0000089C)
+【Faris】You will never answer Faris' question, nya... sadfrog
+<END>
+
+#WRITE(PTR, $000008AC)
+Faris looks a little downhearted, but after a deep breath, she's smiling again.
+<END>
+
+#WRITE(PTR, $000008C6)
+【Faris】...Take meow with you, Kyouma. Let's send that D-mail, nya.
+<END>
+
+#WRITE(PTR, $000008D6)
+Our strategy is set.
+<END>
+
+#WRITE(PTR, $000008E6)
+Will we hit the jackpot or a land mine?
+<END>
+
+#WRITE(PTR, $000008F6)
+Not even God knows.
+<END>
+
+#WRITE(PTR, $00000A1A)
+When I take Faris with me to the lab, Daru weeps tears of joy at her safety.
+<END>
+
+#WRITE(PTR, $00000A2A)
+Mayuri talks intimately with her, but Kurisu just keeps reading with an unconcerned look.
+<END>
+
+#WRITE(PTR, $00000A3A)
+I told the three of them that I'd explain later-- though I don't know if we'd get the opportunity, seeing as we're changing the past-- and head with Faris straight to the experiment room.
+<END>
+
+#WRITE(PTR, $00000AE6)
+I already had Faris write the D-mail's contents.
+<END>
+
+#WRITE(PTR, $00000AF6)
+Faris' staged kidnapping ten years ago became a problem when her dad sold off the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000B06)
+This is a second threat mail written to prevent that.
+<END>
+
+#WRITE(PTR, $00000B16)
+Its time of arrival is one hour after the first D-mail.
+<END>
+
+#WRITE(PTR, $00000B26)
+I set the timer and give Faris a glance.
+<END>
+
+#WRITE(PTR, $00000B6E)
+【Rintaro】There's no turning back.
+<END>
+
+#WRITE(PTR, $00000B7E)
+【Faris】It would be purrfect if I could remember Kyouma even if the world line changes...
+<END>
+
+#WRITE(PTR, $00000B8E)
+I don't know how that will turn out either.
+<END>
+
+#WRITE(PTR, $00000B9E)
+This isn't like Suzuha's case where we returned the warped world line back to normal.
+<END>
+
+#WRITE(PTR, $00000BAE)
+We're warping it even more. I wouldn't be surprised if there are even more changes than the complete annihilation of moe shops from Akiba.
+<END>
+
+#WRITE(PTR, $00000BBE)
+【Rintaro】Even if you forget, I will remember.
+<END>
+
+#WRITE(PTR, $00000BD8)
+【Faris】Kyouma, I wannya hold hands.
+<END>
+
+#WRITE(PTR, $00000BE8)
+I hold Faris' hand just as she asked.
+<END>
+
+#WRITE(PTR, $00000BF8)
+I activate the Microwave.
+<END>
+
+#WRITE(PTR, $00000DE6)
+【Rintaro】Go for it, Faris.
+<END>
+
+#WRITE(PTR, $00000DF6)
+【Faris】Sending... nyan
+<END>
+
+#WRITE(PTR, $00000EA4)
+WD09.PMF
+<FILEENDAB>
+
