@@ -6,7 +6,7 @@
 #JMP($0000181E)
 
 #WRITE(PTR, $000001FC)
-After parting with Masseuse, I go to a PC shop with an intimate clerk to gather various information.
+After parting with Shining Finger, I go to a PC shop with an intimate clerk to gather various information.
 <END>
 
 #WRITE(PTR, $0000020C)
@@ -34,7 +34,7 @@ Instead of fussing over Akiba, hunting for one on a worldwide auction page seems
 <END>
 
 #WRITE(PTR, $0000026C)
-That reminds me, before I met with Masseuse, Mayuri made an unusual phone call.
+That reminds me, before I met with Shining Finger, Mayuri made an unusual phone call.
 <END>
 
 #WRITE(PTR, $0000027C)

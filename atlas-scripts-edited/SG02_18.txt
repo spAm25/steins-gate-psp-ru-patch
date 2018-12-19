@@ -182,7 +182,7 @@ She picks up the bottle off the floor, looking at me with a suspicious face.
 <END>
 
 #WRITE(PTR, $00000D4A)
-I need to send a reply to Masseuse.
+I need to send a reply to Shining Finger.
 <END>
 
 #WRITE(PTR, $00000D68)
@@ -206,7 +206,7 @@ I try to call out to Kurisu, but a reply mail soon comes.
 <END>
 
 #WRITE(PTR, $000012EC)
-Maybe Masseuse is holding her phone 24/7. Her reaction time is so short, I can't think of any other way.
+Maybe Shining Finger is holding her phone 24/7. Her reaction time is so short, I can't think of any other way.
 <END>
 
 #WRITE(PTR, $0000139C)

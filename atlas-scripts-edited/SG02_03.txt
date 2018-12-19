@@ -542,7 +542,7 @@ Lately, I've started to get fed up with the mail ringtone.
 <END>
 
 #WRITE(PTR, $0000241A)
-It's probably from that mail demon Masseuse.
+It's probably from that mail demon Shining Finger.
 <END>
 
 #WRITE(PTR, $0000242A)
@@ -834,7 +834,7 @@ I wonder Moeka's desperate to use that function too.
 <END>
 
 #WRITE(PTR, $00002A14)
-I don't think so. That Masseuse doesn't look like the type who would know about that sort of function.
+I don't think so. That Shining Finger doesn't look like the type who would know about that sort of function.
 <END>
 
 #WRITE(PTR, $00002A24)

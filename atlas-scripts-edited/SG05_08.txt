@@ -226,7 +226,7 @@ When I urge her, Kurisu's still sour face turns red.
 <END>
 
 #WRITE(PTR, $00001B92)
-【Rintaro】What!? So you mean you'd rather "<DICT>anchor</DICT>" on <DICT>VIP</DICT>!?
+【Rintaro】What!? So you mean you'd rather "<DICT>anchor</DICT>" on %B2SVIP%B2E!?
 <END>
 
 #WRITE(PTR, $00001BAC)

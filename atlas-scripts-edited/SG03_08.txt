@@ -81,7 +81,7 @@ I direct my answer towards the development room.
 <END>
 
 #WRITE(PTR, $000006D6)
-Once again, Masseuse does her thing, typing on her phone at high speed.
+Once again, Shining Finger does her thing, typing on her phone at high speed.
 <END>
 
 #WRITE(PTR, $00000778)
@@ -97,7 +97,7 @@ Troublesome woman.
 <END>
 
 #WRITE(PTR, $000008FA)
-It's probably just another worthless mail from Masseuse.
+It's probably just another worthless mail from Shining Finger.
 <END>
 
 #WRITE(PTR, $0000090A)
@@ -639,7 +639,7 @@ I grind my teeth and put my phone to my right ear.
 <END>
 
 #WRITE(PTR, $00001E9E)
-【Rintaro】If this is Steins;Gate's choice, then it's too much, isn't it? ...Hmph, don't worry. I'll have plenty of time to go to hell after the crusade.
+【Rintaro】If this is Steins;Gate's choice, then it's too much, isn't it? ...Hmph, don't worry. I'll have plenty of time to go to hell after the Operation "Ragnarok".
 <END>
 
 #WRITE(PTR, $00001EAE)

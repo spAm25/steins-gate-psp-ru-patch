@@ -2130,7 +2130,7 @@ sg-epk@jtk93.x29.jp
 <END2>
 
 #WRITE(PTR, $0000170C)
-This is the choice of Stein's Gate. El. Psy. Congroo.
+This is the choice of Steins;Gate. El. Psy. Congroo.
 <END2>
 
 #WRITE(PTR, $00001724)
@@ -5221,7 +5221,7 @@ Lukako
 <DUMMY>
 
 #WRITE(PTR, $000037E4)
-俺自身の選択だ
+This is my own choice.
 <END2>
 
 #WRITE(PTR, $000037E8)
@@ -5229,7 +5229,7 @@ Lukako
 <END2>
 
 #WRITE(PTR, $000037EC)
-これでよかったんだ。これは俺が選んだことで, お前が気に病む必要はない。
+I'm okay with this. This is what I chose, so there's no need for you to worry.
 <END2>
 
 #WRITE(PTR, $00003804)
@@ -5250,7 +5250,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000382C)
-・2015年, 第3次世界大戦勃発
+・2015, World War III breaks out.
 <END2>
 
 #WRITE(PTR, $00003844)
@@ -5261,8 +5261,8 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000384C)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.
 <END2>
 
 #WRITE(PTR, $00003864)
@@ -5273,9 +5273,9 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000386C)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.
 <END2>
 
 #WRITE(PTR, $00003884)
@@ -5286,10 +5286,10 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000388C)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.
 <END2>
 
 #WRITE(PTR, $000038A4)
@@ -5300,11 +5300,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000038AC)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.
 <END2>
 
 #WRITE(PTR, $000038C4)
@@ -5315,12 +5315,12 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000038CC)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。\n
-・1998年にアメリカで『幼い自分』や『まだ若い頃の両親』と会った
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.\n
+・In 1998, you went to America to meet your "young self" and your "parents from when you were young".
 <END2>
 
 #WRITE(PTR, $000038E4)
@@ -5331,13 +5331,13 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000038EC)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。\n
-・1998年にアメリカで『幼い自分』や『まだ若い頃の両親』と会った\n
-・軍人としてタイムトラベラーに志願した
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.\n
+・In 1998, you went to America to meet your "young self" and your "parents from when you were young".
+・You aspired to be a time traveler by being a soldier.
 <END2>
 
 #WRITE(PTR, $00003904)
@@ -5348,14 +5348,14 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000390C)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。\n
-・1998年にアメリカで『幼い自分』や『まだ若い頃の両親』と会った\n
-・軍人としてタイムトラベラーに志願した\n
-・アメリカ人
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.\n
+・In 1998, you went to America to meet your "young self" and your "parents from when you were young".
+・You aspired to be a time traveler by being a soldier.\n
+・You're American.
 <END2>
 
 #WRITE(PTR, $00003924)
@@ -5366,15 +5366,15 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000392C)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。\n
-・1998年にアメリカで『幼い自分』や『まだ若い頃の両親』と会った\n
-・軍人としてタイムトラベラーに志願した\n
-・アメリカ人\n
-これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.\n
+・In 1998, you went to America to meet your "young self" and your "parents from when you were young".
+・You aspired to be a time traveler by being a soldier.\n
+・You're American.\n
+This description is for the John Titor of 10 years ago. Why do you, the current John speak differently?
 <END2>
 
 #WRITE(PTR, $00003944)
@@ -5385,17 +5385,17 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000394C)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。\n
-・1998年にアメリカで『幼い自分』や『まだ若い頃の両親』と会った\n
-・軍人としてタイムトラベラーに志願した\n
-・アメリカ人\n
-これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。\n
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.\n
+・In 1998, you went to America to meet your "young self" and your "parents from when you were young".
+・You aspired to be a time traveler by being a soldier.\n
+・You're American.\n
+This description is for the John Titor of 10 years ago. Why do you, the current John speak differently?\n
 \n
-それと10年前のジョンはいくつか予言を残していて, 的中しているものとしていないものがあります。
+Also, most of your predictions from 10 years ago, save for a few, went unfulfilled.
 <END2>
 
 #WRITE(PTR, $00003964)
@@ -5406,17 +5406,17 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000396C)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。\n
-・1998年にアメリカで『幼い自分』や『まだ若い頃の両親』と会った\n
-・軍人としてタイムトラベラーに志願した\n
-・アメリカ人\n
-これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。\n
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.\n
+・In 1998, you went to America to meet your "young self" and your "parents from when you were young".
+・You aspired to be a time traveler by being a soldier.\n
+・You're American.\n
+This description is for the John Titor of 10 years ago. Why do you, the current John speak differently?\n
 \n
-それと10年前のジョンはいくつか予言を残していて, 的中しているものとしていないものがあります。ジョンが未来人ならば, なぜ予言は的中しなかったのですか?
+Also, most of your predictions from 10 years ago, save for a few, went unfulfilled. John, if you're from the future, then why didn't your predictions come true?
 <END2>
 
 #WRITE(PTR, $00003984)
@@ -5427,22 +5427,22 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000398C)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。\n
-・1998年にアメリカで『幼い自分』や『まだ若い頃の両親』と会った\n
-・軍人としてタイムトラベラーに志願した\n
-・アメリカ人\n
-これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。\n
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.\n
+・In 1998, you went to America to meet your "young self" and your "parents from when you were young".
+・You aspired to be a time traveler by being a soldier.\n
+・You're American.\n
+This description is for the John Titor of 10 years ago. Why do you, the current John speak differently?\n
 \n
-それと10年前のジョンはいくつか予言を残していて, 的中しているものとしていないものがあります。ジョンが未来人ならば, なぜ予言は的中しなかったのですか? \n
-納得のいく説明をお願いしたい。
+Also, most of your predictions from 10 years ago, save for a few, went unfulfilled. John, if you're from the future, then why didn't your predictions come true?\n
+I'd like to ask for a satisfactory explanation.
 <END2>
 
 #WRITE(PTR, $000039A4)
-突然のメールですいません
+Sorry for the sudden mail.
 <END2>
 
 #WRITE(PTR, $000039A8)
@@ -5450,22 +5450,22 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000039AC)
-・2015年, 第3次世界大戦勃発\n
-・2036年は核戦争によって地球は汚染されている\n
-・2036年からタイムトラベルしてきたのは1975年のIBN5100を入手するため\n
-・IBN5100には隠された機能がある。\n
-・それを知っているのはＩＢＮの一部の技術者のみ。\n
-・1998年にアメリカで『幼い自分』や『まだ若い頃の両親』と会った\n
-・軍人としてタイムトラベラーに志願した\n
-・アメリカ人\n
-これは10年前のジョンによる説明です。今のジョンの発言と違うのはなぜですか。\n
+・2015, World War III breaks out.\n
+・In 2036, the world is contaminated from nuclear warfare.\n
+・You time traveled from 2036 to 1975 to obtain an IBN 5100.\n
+・The IBN 5100 has a hidden ability.\n
+・The only people who knew that were some of IBN's engineers.\n
+・In 1998, you went to America to meet your "young self" and your "parents from when you were young".
+・You aspired to be a time traveler by being a soldier.\n
+・You're American.\n
+This description is for the John Titor of 10 years ago. Why do you, the current John speak differently?\n
 \n
-それと10年前のジョンはいくつか予言を残していて, 的中しているものとしていないものがあります。ジョンが未来人ならば, なぜ予言は的中しなかったのですか? \n
-納得のいく説明をお願いしたい。
+Also, most of your predictions from 10 years ago, save for a few, went unfulfilled. John, if you're from the future, then why didn't your predictions come true?\n
+I'd like to ask for a satisfactory explanation.
 <END2>
 
 #WRITE(PTR, $000039C4)
-Re:あなたは本物ですか?
+Re: Are you being honest?
 <END2>
 
 #WRITE(PTR, $000039C8)
@@ -5473,7 +5473,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000039CC)
-このプログラムコードがなにか分かりますか?
+Do you understand anything about this program code?
 <END2>
 
 #WRITE(PTR, $000039E4)
@@ -5487,7 +5487,7 @@ John Titor
 <DUMMY>
 
 #WRITE(PTR, $00003A04)
-聞きたいことがあります
+There's something I'd like to ask
 <END2>
 
 #WRITE(PTR, $00003A08)
@@ -5498,7 +5498,7 @@ John Titor
 <DUMMY>
 
 #WRITE(PTR, $00003A24)
-聞きたいことがあります
+There's something I'd like to ask
 <END2>
 
 #WRITE(PTR, $00003A28)
@@ -5506,11 +5506,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003A2C)
-IBN5100の件についてはありがとうございました。
+Thanks for the info about the IBN 5100.
 <END2>
 
 #WRITE(PTR, $00003A44)
-聞きたいことがあります
+There's something I'd like to ask
 <END2>
 
 #WRITE(PTR, $00003A48)
@@ -5518,11 +5518,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003A4C)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。
+Thanks for the info about the IBN 5100. This program code is from SERN's database.
 <END2>
 
 #WRITE(PTR, $00003A64)
-聞きたいことがあります
+There's something I'd like to ask
 <END2>
 
 #WRITE(PTR, $00003A68)
@@ -5530,11 +5530,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003A6C)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて, それとは別に, 私は過去へとメールを送るマシンの開発に成功したのですが, 
+Thanks for the info about the IBN 5100. This program code is from SERN's database. Well, besides that, I've successfully made a machine that sends mails into the past,
 <END2>
 
 #WRITE(PTR, $00003A84)
-聞きたいことがあります
+There's something I'd like to ask
 <END2>
 
 #WRITE(PTR, $00003A88)
@@ -5542,11 +5542,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003A8C)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて, それとは別に, 私は過去へとメールを送るマシンの開発に成功したのですが, 過去へとメールを送り, 過去が改変されたら, 世界線は変わってしまうのですか?
+Thanks for the info about the IBN 5100. This program code is from SERN's database. Well, besides that, I've successfully made a machine that sends mails into the past, but when we change the past by sending a mail back, does that change the world line?
 <END2>
 
 #WRITE(PTR, $00003AA4)
-聞きたいことがあります
+There's something I'd like to ask
 <END2>
 
 #WRITE(PTR, $00003AA8)
@@ -5554,11 +5554,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003AAC)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて, それとは別に, 私は過去へとメールを送るマシンの開発に成功したのですが, 過去へとメールを送り, 過去が改変されたら, 世界線は変わってしまうのですか? 一部の出来事が“なかったこと”になっていたのですが, 他になにか影響はありますか?
+Thanks for the info about the IBN 5100. This program code is from SERN's database. Well, besides that, I've successfully made a machine that sends mails into the past, but when we change the past by sending a mail back, does that change the world line? Some of the events are "undone", but does something else influence that?
 <END2>
 
 #WRITE(PTR, $00003AC4)
-聞きたいことがあります
+There's something I'd like to ask
 <END2>
 
 #WRITE(PTR, $00003AC8)
@@ -5566,11 +5566,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003ACC)
-IBN5100の件についてはありがとうございました。あのプログラムコードはSERNのデータベースです。さて, それとは別に, 私は過去へとメールを送るマシンの開発に成功したのですが, 過去へとメールを送り, 過去が改変されたら世界線は変わってしまうのですか? 一部の出来事が“なかったこと”になっていたのですが, 他になにか影響はありますか? 世界は多世界解釈によって成り立っていると貴方は言いましたが, その根拠を教えていただきたい。
+Thanks for the info about the IBN 5100. This program code is from SERN's database. Well, besides that, I've successfully made a machine that sends mails into the past, but when we change the past by sending a mail back, does that change the world line? Some of the events are "undone", but does something else influence that? You said that the world exists by the many-worlds interpretation, but I want you to tell me the basis of that.
 <END2>
 
 #WRITE(PTR, $00003AE4)
-Re:詳細を
+Re: Details
 <END2>
 
 #WRITE(PTR, $00003AE8)
@@ -5581,7 +5581,7 @@ John Titor
 <DUMMY>
 
 #WRITE(PTR, $00003B04)
-Re:詳細を
+Re: Details
 <END2>
 
 #WRITE(PTR, $00003B08)
@@ -5589,11 +5589,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B0C)
-メールを出したのは今日です。
+We sent a mail today.
 <END2>
 
 #WRITE(PTR, $00003B24)
-Re:詳細を
+Re: Details
 <END2>
 
 #WRITE(PTR, $00003B28)
@@ -5601,11 +5601,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B2C)
-メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。
+We sent a mail today. It was sent to 170 hours prior, that is, Tuesday of last week.
 <END2>
 
 #WRITE(PTR, $00003B44)
-Re:詳細を
+Re: Details
 <END2>
 
 #WRITE(PTR, $00003B48)
@@ -5613,11 +5613,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B4C)
-メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。
+We sent a mail today. It was sent to 170 hours prior, that is, Tuesday of last week. Its contents were the third class prize winning numbers for the Lotto6 chosen on Tuesday of last week.
 <END2>
 
 #WRITE(PTR, $00003B64)
-Re:詳細を
+Re: Details
 <END2>
 
 #WRITE(PTR, $00003B68)
@@ -5625,11 +5625,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B6C)
-メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後, 私の周囲でその話題についてともに考え, 見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。
+We sent a mail today. It was sent to 170 hours prior, that is, Tuesday of last week. Its contents were the third class prize winning numbers for the Lotto6 chosen on Tuesday of last week. Right after we sent the mail, everything in my surroundings concerning that subject was instantly deleted, including my partners' memories about even having sent the mail into the past.
 <END2>
 
 #WRITE(PTR, $00003B84)
-Re:詳細を
+Re: Details
 <END2>
 
 #WRITE(PTR, $00003B88)
@@ -5637,11 +5637,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003B8C)
-メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後, 私の周囲でその話題についてともに考え, 見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも, 過去へ送ったメールの存在が消えていました。
+We sent a mail today. It was sent to 170 hours prior, that is, Tuesday of last week. Its contents were the third class prize winning numbers for the Lotto6 chosen on Tuesday of last week. Right after we sent the mail, everything in my surroundings concerning that subject was instantly deleted, including my partners' memories about even having sent the mail into the past. The mail we sent into the past also disappeared from my cellphone's sent history.
 <END2>
 
 #WRITE(PTR, $00003BA4)
-Re:詳細を
+Re: Details
 <END2>
 
 #WRITE(PTR, $00003BA8)
@@ -5649,11 +5649,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003BAC)
-メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後, 私の周囲でその話題についてともに考え, 見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも, 過去へ送ったメールの存在が消えていました。メールは確かに170時間前へと送られ, 私ではなく私の友人がロト6のチケットを持っていました。
+We sent a mail today. It was sent to 170 hours prior, that is, Tuesday of last week. Its contents were the third class prize winning numbers for the Lotto6 chosen on Tuesday of last week. Right after we sent the mail, everything in my surroundings concerning that subject was instantly deleted, including my partners' memories about even having sent the mail into the past. The mail we sent into the past also disappeared from my cellphone's sent history. The mail certainly was sent back 170 hours, as not I, but my friend got a Lotto6 ticket.
 <END2>
 
 #WRITE(PTR, $00003BC4)
-Re:詳細を
+Re: Details
 <END2>
 
 #WRITE(PTR, $00003BC8)
@@ -5661,11 +5661,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003BCC)
-メールを出したのは今日です。170時間前, すなわち先週火曜日へと送信しました。内容は, 先週木曜日に抽選が行われたロト6という宝くじの3等当選番号です。メールを出した直後, 私の周囲でその話題についてともに考え, 見守っていた仲間たちの記憶から「過去へメールを送ったこと」が一瞬にしてすっぽりと抜け落ちてしまいました。私のケータイの送信履歴からも, 過去へ送ったメールの存在が消えていました。メールは確かに170時間前へと送られ, 私ではなく私の友人がロト6のチケットを持っていました。些細なミスで外れましたが, 当選番号と数字が1つ違うだけでした。
+We sent a mail today. It was sent to 170 hours prior, that is, Tuesday of last week. Its contents were the third class prize winning numbers for the Lotto6 chosen on Tuesday of last week. Right after we sent the mail, everything in my surroundings concerning that subject was instantly deleted, including my partners' memories about even having sent the mail into the past. The mail we sent into the past also disappeared from my cellphone's sent history. The mail certainly was sent back 170 hours, as not I, but my friend got a Lotto 6 ticket. It was slightly off though, since one of the numbers was wrong.
 <END2>
 
 #WRITE(PTR, $00003BE4)
-Re:興味深い
+Re: Very interesting
 <END2>
 
 #WRITE(PTR, $00003BE8)
@@ -5676,7 +5676,7 @@ John Titor
 <DUMMY>
 
 #WRITE(PTR, $00003C04)
-Re:興味深い
+Re: Very interesting
 <END2>
 
 #WRITE(PTR, $00003C08)
@@ -5684,11 +5684,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C0C)
-私には, 過去改変前の記憶が存在しています。
+I still have memories from before the past was changed.
 <END2>
 
 #WRITE(PTR, $00003C24)
-Re:興味深い
+Re: Very interesting
 <END2>
 
 #WRITE(PTR, $00003C28)
@@ -5696,11 +5696,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C2C)
-私には, 過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。
+I still have memories from before the past was changed. This is the truth. By the way, this is actually the second time this phenomenon has happened.
 <END2>
 
 #WRITE(PTR, $00003C44)
-Re:興味深い
+Re: Very interesting
 <END2>
 
 #WRITE(PTR, $00003C48)
@@ -5708,11 +5708,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C4C)
-私には, 過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて, 
+I still have memories from before the past was changed. This is the truth. By the way, this is actually the second time this phenomenon has happened. John, did you not experience something like
 <END2>
 
 #WRITE(PTR, $00003C64)
-Re:興味深い
+Re: Very interesting
 <END2>
 
 #WRITE(PTR, $00003C68)
@@ -5720,11 +5720,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C6C)
-私には, 過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて, このような体験はしたことはないのですか?
+I still have memories from before the past was changed. This is the truth. By the way, this is actually the second time this phenomenon has happened. John, did you not experience something like this when you time traveled back 26 years?
 <END2>
 
 #WRITE(PTR, $00003C84)
-Re:興味深い
+Re: Very interesting
 <END2>
 
 #WRITE(PTR, $00003C88)
@@ -5732,11 +5732,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003C8C)
-私には, 過去改変前の記憶が存在しています。これは事実です。ちなみに今回のような現象はすでに2度目です。ジョンはタイムトラベラーとして26年の時間を遡ってきて, このような体験はしたことはないのですか? それと世界線を私個人の意志によって（結果的に）変えたことについて, どのような影響が発生すると思いますか?
+I still have memories from before the past was changed. This is the truth. By the way, this is actually the second time this phenomenon has happened. John, did you not experience something like this when you time traveled back 26 years? Or do you think its occurrence is somehow influenced by how the world line changed by my individual will?
 <END2>
 
 #WRITE(PTR, $00003CA4)
-Re:記憶
+Re: Memory
 <END2>
 
 #WRITE(PTR, $00003CA8)
@@ -5747,7 +5747,7 @@ John Titor
 <DUMMY>
 
 #WRITE(PTR, $00003CC4)
-Re:記憶
+Re: Memory
 <END2>
 
 #WRITE(PTR, $00003CC8)
@@ -5755,11 +5755,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003CCC)
-ダイバージェンスの数値について, ジョンはどのように計測しているのですか?
+John, how do exactly do you measure divergence values?
 <END2>
 
 #WRITE(PTR, $00003CE4)
-Re:記憶
+Re: Memory
 <END2>
 
 #WRITE(PTR, $00003CE8)
@@ -5767,11 +5767,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003CEC)
-ダイバージェンスの数値について, ジョンはどのように計測しているのですか? そもそも, なにを基準にしているのですか?
+John, how do exactly do you measure divergence values? What are those numbers based off of in the first place?
 <END2>
 
 #WRITE(PTR, $00003D04)
-Re:多世界解釈の件
+Re: Explaining the many-worlds interpretation
 <END2>
 
 #WRITE(PTR, $00003D08)
@@ -5782,7 +5782,7 @@ John Titor
 <DUMMY>
 
 #WRITE(PTR, $00003D24)
-Re:多世界解釈の件
+Re: Explaining the many-worlds interpretation
 <END2>
 
 #WRITE(PTR, $00003D28)
@@ -5790,11 +5790,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003D2C)
-そのアトラクタフィールドについて, 詳細を教えてください。
+Please give me more details about those Attractor Fields.
 <END2>
 
 #WRITE(PTR, $00003D44)
-Re:多世界解釈の件
+Re: Explaining the many-worlds interpretation
 <END2>
 
 #WRITE(PTR, $00003D48)
@@ -5802,11 +5802,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003D4C)
-そのアトラクタフィールドについて, 詳細を教えてください。世界線を変えることへの影響もお答え願います。
+Please give me more details about those Attractor Fields. And how they affect the change of world lines.
 <END2>
 
 #WRITE(PTR, $00003D64)
-Re:収束観測
+Re: Observing convergence
 <END2>
 
 #WRITE(PTR, $00003D68)
@@ -5817,7 +5817,7 @@ John Titor
 <DUMMY>
 
 #WRITE(PTR, $00003D84)
-Re:収束観測
+Re: Observing convergence
 <END2>
 
 #WRITE(PTR, $00003D88)
@@ -5825,11 +5825,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003D8C)
-アトラクタフィールドの壁の先にはなにがある?
+What's beyond the Attractor Field wall?
 <END2>
 
 #WRITE(PTR, $00003DA4)
-Re:収束観測
+Re: Observing convergence
 <END2>
 
 #WRITE(PTR, $00003DA8)
@@ -5837,11 +5837,11 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003DAC)
-アトラクタフィールドの壁の先にはなにがある? 越えたらどうなると言うのですか?
+What's beyond the Attractor Field wall? What will happen if we cross it?
 <END2>
 
 #WRITE(PTR, $00003DC4)
-個人的な質問
+Personal question
 <END2>
 
 #WRITE(PTR, $00003DC8)
@@ -5849,7 +5849,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $00003DCC)
-あなたにはSuzuhaという名の娘がいないか? あるいはバレル・タイターという名を知らないか? もし心当たりがあるなら連絡をくれ。彼Womanが, あなたを探している。
+Do you have a daughter named Suzuha? Or, do you know someone named Barrel Titor? If you have an idea, contact me. She's looking for you.
 <END2>
 
 #WRITE(PTR, $00003DE4)
@@ -5874,7 +5874,7 @@ FBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFBFB
 <END2>
 
 #WRITE(PTR, $00003E24)
-Re:書いた?
+Re: Did you write it?
 <END2>
 
 #WRITE(PTR, $00003E28)
@@ -5882,11 +5882,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003E2C)
-俺は型にはまらない男なのだ。世の学者どものように論文に一喜一憂などしないッ!
+I am not a man who follows conventions. I won't obsess over theses like other scholars!
 <END2>
 
 #WRITE(PTR, $00003E44)
-Re:書いた?
+Re: Did you write it?
 <END2>
 
 #WRITE(PTR, $00003E48)
@@ -5894,11 +5894,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003E4C)
-俺はただのサイエンティストではない……。狂気のマッドサイエンティストだッ!
+I am not a mere scientist... I am an insane mad scientist!
 <END2>
 
 #WRITE(PTR, $00003E64)
-Re:書いた?
+Re: Did you write it?
 <END2>
 
 #WRITE(PTR, $00003E68)
@@ -5906,11 +5906,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003E6C)
-ならば見せてもらおう……お前の真の実力とやらを!
+Then show me... your true ability!
 <END2>
 
 #WRITE(PTR, $00003E84)
-Re:サイエンティスト??
+Re: Scientist??
 <END2>
 
 #WRITE(PTR, $00003E88)
@@ -5918,11 +5918,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003E8C)
-マッドの意味を知らないのならば教えておこう。すなわち『狂気』である。
+If you don't know what "mad" means in this context, I'll tell you. It's the "insane" definition.
 <END2>
 
 #WRITE(PTR, $00003EA4)
-Re:サイエンティスト??
+Re: Scientist??
 <END2>
 
 #WRITE(PTR, $00003EA8)
@@ -5930,11 +5930,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003EAC)
-フッ, オヤジギャグか……。
+Pfft, whats with the corny grampa joke...
 <END2>
 
 #WRITE(PTR, $00003EC4)
-Re:バッドサイエンティスト
+Re: Bad Scientist
 <END2>
 
 #WRITE(PTR, $00003EC8)
@@ -5942,11 +5942,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003ECC)
-ならば笑えないメリケンジョークか?
+Then how about an unfunny American joke?
 <END2>
 
 #WRITE(PTR, $00003EE4)
-Re:お願いしていい?
+Re: Can I ask you for something?
 <END2>
 
 #WRITE(PTR, $00003EE8)
@@ -5954,11 +5954,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003EEC)
-マイスプーンは持っていなかったか? なぜスプーンは持っているのにフォークは持っていないのだ? 間抜けか?
+Don't you have a "my spoon"? Why don't you have a fork even though you have a spoon? Are you stupid?
 <END2>
 
 #WRITE(PTR, $00003F04)
-Re:お願いしていい?
+Re: Can I ask you for something?
 <END2>
 
 #WRITE(PTR, $00003F08)
@@ -5966,11 +5966,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003F0C)
-Assistantはどれだけカップ麺が好きなのだ。小池さんと呼ぶぞ。
+My assistant really loves her cup noodles, huh. I'm gonna call you Koike-san.
 <END2>
 
 #WRITE(PTR, $00003F24)
-Re:Home Alone
+Re: Home Alone
 <END2>
 
 #WRITE(PTR, $00003F28)
@@ -5978,11 +5978,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003F2C)
-お前は部外者などではない。あえて言うならば, そう……ラボメンだッ!
+You are not an outsider. If I dare say it, yes... you are a lab mem!
 <END2>
 
 #WRITE(PTR, $00003F44)
-Re:Home Alone
+Re: Home Alone
 <END2>
 
 #WRITE(PTR, $00003F48)
@@ -5990,11 +5990,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003F4C)
-そんなにほしいならばどれでも1つ持って行くがいい。ただし代金はもらう。
+If you really want one, just take any. But you'll have to pay.
 <END2>
 
 #WRITE(PTR, $00003F64)
-Re:つまらん
+Re: So bored
 <END2>
 
 #WRITE(PTR, $00003F68)
@@ -6002,11 +6002,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003F6C)
-同意しよう。日本のマスコミは, すでに“機関”の手に落ちている。日本愚民化計画の道具へと成り下がっているのだ。
+I agree with you there. The Japanese media has already fallen into the hands of the "Organization". It's become nothing more than a tool in Operation Stupidify Japan.
 <END2>
 
 #WRITE(PTR, $00003F84)
-Re:つまらん
+Re: So bored
 <END2>
 
 #WRITE(PTR, $00003F88)
@@ -6014,11 +6014,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003F8C)
-気を付けろ。世界中のマスコミに“機関”の息がかかっている。夢中になっていると洗脳されるぞ。
+Be careful. The media around the world is already under the patronage of the "Organization". You'll get engrossed and brainwashed.
 <END2>
 
 #WRITE(PTR, $00003FA4)
-Re:えええ?
+Re: Ehhh?
 <END2>
 
 #WRITE(PTR, $00003FA8)
@@ -6026,11 +6026,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003FAC)
-ならばなぜ毎日のように律儀にラボに来ている? 俺は知っているぞ, お前が実はラボメンになれて嬉しくてしょうがないということをな!
+Then why do you keep coming to the lab each day? I understand, you are actually so happy to be a lab mem that you can't help it!
 <END2>
 
 #WRITE(PTR, $00003FC4)
-Re:未来ガジェット
+Re: Future Gadget
 <END2>
 
 #WRITE(PTR, $00003FC8)
@@ -6038,11 +6038,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003FCC)
-お前, やはり＠ちゃん（ｒｙ
+You really are an @channeler.
 <END2>
 
 #WRITE(PTR, $00003FE4)
-Re:湿度高杉
+Re: It' too humid
 <END2>
 
 #WRITE(PTR, $00003FE8)
@@ -6050,11 +6050,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $00003FEC)
-『天気改変装置』を俺が発明するまで我慢するのだな。
+You just have to deal with it until I come up with a "Weather Change Device".
 <END2>
 
 #WRITE(PTR, $00004004)
-Re:湿度高杉
+Re: It' too humid
 <END2>
 
 #WRITE(PTR, $00004008)
@@ -6062,11 +6062,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000400C)
-誤字か? いや, やはりクリスティーナ, お前は＠ちゃん（ｒｙ
+A typo? No, Cristina, you really are an @channeler.
 <END2>
 
 #WRITE(PTR, $00004024)
-Re:頼みがある
+Re: Favor to ask
 <END2>
 
 #WRITE(PTR, $00004028)
@@ -6074,11 +6074,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000402C)
-矛盾しているぞ。ついさっき, 『ゲンちゃんラーメン』が食べたいと言っていたのに。
+You're inconsistent. Just a while ago you said you wanted to eat "Gen-chan Ramen".
 <END2>
 
 #WRITE(PTR, $00004044)
-Re:ふじこ!
+Re: Fujiko!
 <END2>
 
 #WRITE(PTR, $00004048)
@@ -6086,11 +6086,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000404C)
-鳳凰院流ゴキブリ殲滅法を伝授してやる。潰せぇぇぇ――――っ!
+Initiate Hououin Style Cockroach Extermination Arts. Smaaaaaash-!
 <END2>
 
 #WRITE(PTR, $00004064)
-Re:じつと手を見る
+Re: Staring at my hand
 <END2>
 
 #WRITE(PTR, $00004068)
@@ -6098,11 +6098,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000406C)
-すべてはシュタインズゲートの選択なのだよ。エル・プサイ・コングルゥ。
+Everything is Steins;Gate's choice. El psy congroo.
 <END2>
 
 #WRITE(PTR, $00004084)
-Re:じつと手を見る
+Re: Staring at my hand
 <END2>
 
 #WRITE(PTR, $00004088)
@@ -6110,11 +6110,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000408C)
-ママが恋しくてたまらないのだな? ならば国際電話をかけるがいい!
+You missing your mommy? Then just make an international call!
 <END2>
 
 #WRITE(PTR, $000040A4)
-Re:ゴキ
+Re: Roach
 <END2>
 
 #WRITE(PTR, $000040A8)
@@ -6122,11 +6122,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000040AC)
-『萎えちゃん』とはずいぶん面白い名前のキャラだな。いったい何者だ?
+"Nae-chan" seems like a really interesting name. Who is that?
 <END2>
 
 #WRITE(PTR, $000040C4)
-Re:予定
+Re: Plans
 <END2>
 
 #WRITE(PTR, $000040C8)
@@ -6134,11 +6134,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000040CC)
-なにを浮かれているのだ! ラボメンとしての本分を忘れるな!
+What are you so happy about! Don't forget your duty as a lab mem!
 <END2>
 
 #WRITE(PTR, $000040E4)
-Re:予定
+Re: Plans
 <END2>
 
 #WRITE(PTR, $000040E8)
@@ -6146,11 +6146,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000040EC)
-別になんでも構わん。
+It doesn't really matter either way.
 <END2>
 
 #WRITE(PTR, $00004104)
-Re:鍵が(ﾉД`)
+Re: The key (ﾉД`)
 <END2>
 
 #WRITE(PTR, $00004108)
@@ -6158,11 +6158,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000410C)
-ドアの横の配電盤に隠してあLukaらそれを使え。
+Use the one hidden in the switchboard next to the door.
 <END2>
 
 #WRITE(PTR, $00004124)
-Re:鍵が(ﾉД`)
+Re: The key (ﾉД`)
 <END2>
 
 #WRITE(PTR, $00004128)
@@ -6170,11 +6170,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000412C)
-やめておけ。俺の部屋は腐海だ。一度足を踏み入れたら, もう……
+Quit it. My room is a dead sea. Take one step inside, and it's too late...
 <END2>
 
 #WRITE(PTR, $00004144)
-Re:( ﾟдﾟ )
+Re: ( ﾟдﾟ )
 <END2>
 
 #WRITE(PTR, $00004148)
@@ -6182,11 +6182,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000414C)
-お前の言う通りだ。俺は迂闊だった。甘く見ていた。
+It's just like you said. I was careless. I was too lax.
 <END2>
 
 #WRITE(PTR, $00004164)
-Re:( ﾟдﾟ )
+Re: ( ﾟдﾟ )
 <END2>
 
 #WRITE(PTR, $00004168)
@@ -6194,11 +6194,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000416C)
-失敗だったと思っている。すべて俺のせいだ。
+I think it was my mistake. It's all my fault.
 <END2>
 
 #WRITE(PTR, $00004184)
-Re:( ﾟдﾟ )
+Re: ( ﾟдﾟ )
 <END2>
 
 #WRITE(PTR, $00004188)
@@ -6206,11 +6206,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000418C)
-ゲロカエルんは“機関”の陰謀により去年爆発的に流行したカエルだ。
+Gero Froggy is a frog that got tremendously popular last year due to the "Organization" and its conspiracies.
 <END2>
 
 #WRITE(PTR, $000041A4)
-Re:( ﾟдﾟ )
+Re: ( ﾟдﾟ )
 <END2>
 
 #WRITE(PTR, $000041A8)
@@ -6218,11 +6218,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000041AC)
-か弱いWomanの子ですアピールなどいらない。俺はお前の剛胆さにずいぶん助けられている。
+I don't need any of your frail girl appeal. Your boldness has been helping me out a lot.
 <END2>
 
 #WRITE(PTR, $000041C4)
-Re:家
+Re: Home
 <END2>
 
 #WRITE(PTR, $000041C8)
@@ -6230,11 +6230,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000041CC)
-多少汚れていた方がいかにも研究所っぽいではないか。
+Doesn't being a little dirty make it seem more laboratory-like?
 <END2>
 
 #WRITE(PTR, $000041E4)
-Re:家
+Re: Home
 <END2>
 
 #WRITE(PTR, $000041E8)
@@ -6242,11 +6242,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000041EC)
-男を汚物扱いするとはな。よろしい, ならば戦争だ。
+You treat men like dirt, huh. Okay, then this means war.
 <END2>
 
 #WRITE(PTR, $00004204)
-Re:家
+Re: Home
 <END2>
 
 #WRITE(PTR, $00004208)
@@ -6254,11 +6254,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000420C)
-最近いろいろとフリーダムだな。以前はあれだけ隠そうとしていたのに。
+You've been expressing a lot of freedoms lately, huh. Even though you've been holding yourself back before.
 <END2>
 
 #WRITE(PTR, $00004224)
-Re:妄想ですね分かります
+Re: I get it, it's a delusion
 <END2>
 
 #WRITE(PTR, $00004228)
@@ -6266,11 +6266,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000422C)
-俺は一言も, 電子錠とかカードキーなどとは言っていないわけだが。どこからそんな単語が出てきた? いや……そうか, タイムリープによる影響か。
+I never said anything about electric locks or card keys though. Where'd that come from? Wait... Oh, I see, an effect of time leaping.
 <END2>
 
 #WRITE(PTR, $00004244)
-Re:妄想ですね分かります
+Re: I get it, it's a delusion
 <END2>
 
 #WRITE(PTR, $00004248)
@@ -6278,11 +6278,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000424C)
-金は確かに重要だ。お前が論文掲載で得た賞金を我がラボに提供してくれ。これは切実な願いだ。
+Money definitely is important. Sponsor our lab with your thesis publication money. This is an honest request.
 <END2>
 
 #WRITE(PTR, $00004264)
-Re:妄想ですね分かります
+Re: I get it, it's a delusion
 <END2>
 
 #WRITE(PTR, $00004268)
@@ -6290,11 +6290,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000426C)
-“現実”か……。お前にだけは, 本当のことを言おう。俺たちはSERNに狙われている。それが現実だ。お前の力も, 貸してほしい。
+"Reality", huh... Let me tell you truth, but keep it secret. SERN is targeting us. That's the truth. I need your help.
 <END2>
 
 #WRITE(PTR, $00004284)
-Re:貧弱言うな
+Re: Speaking about
 <END2>
 
 #WRITE(PTR, $00004288)
@@ -6302,11 +6302,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000428C)
-お前が貧弱かそうでないかの話か? だが単にお前が怖がりだとしか聞こえないが。もしかしてお化け屋敷もダメなタイプか?
+You're saying stuff about how you're not weak? But I've only heard stuff about you being a scaredy cat. Are you also the type that can't go to haunted houses?
 <END2>
 
 #WRITE(PTR, $000042A4)
-Re:貧弱言うな
+Re: Speaking about
 <END2>
 
 #WRITE(PTR, $000042A8)
@@ -6314,11 +6314,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000042AC)
-誰が貧弱と言った? そんな記憶はないぞ。タイムリープで時間が前後していLukaらな。あるいは『貧乳』とは, 言ったかもしれないがな。
+Who said you were weak? I don't remember anything like that. Since I just time leaped, I mean. Though I might have said "flat chested".
 <END2>
 
 #WRITE(PTR, $000042C4)
-Re:そう言えば
+Re: Speaking about
 <END2>
 
 #WRITE(PTR, $000042C8)
@@ -6326,11 +6326,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000042CC)
-そうか……。それがお前の性癖か。
+I see... Is that your true character?
 <END2>
 
 #WRITE(PTR, $000042E4)
-Re:そう言えば
+Re: Speaking about
 <END2>
 
 #WRITE(PTR, $000042E8)
@@ -6338,11 +6338,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000042EC)
-お前は徹夜しているんだから汗くさいはずだ。Daruはそれに興奮している恐れがある。今すぐラボに備え付けのシャワー室を使え。でないとどうなっても知らんぞーっ!
+You've been working all night so you should smell sweaty. I'm concerned if Daru might get excited over that. Use the lab's shower at once. I can't guarantee your safety otherwise-!
 <END2>
 
 #WRITE(PTR, $00004304)
-Re:ゴゴゴゴゴ
+Re: gogogogogo
 <END2>
 
 #WRITE(PTR, $00004308)
@@ -6350,11 +6350,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000430C)
-コーラを飲めばゲップが出るほど確実!
+If you drink cola, you're sure to burp!
 <END2>
 
 #WRITE(PTR, $00004324)
-Re:ゴゴゴゴゴ
+Re: gogogogogo
 <END2>
 
 #WRITE(PTR, $00004328)
@@ -6362,11 +6362,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000432C)
-てめーは俺を怒らせた。
+You- you're making me mad.
 <END2>
 
 #WRITE(PTR, $00004344)
-Re:証明して説明!
+Re: Explain yourself!
 <END2>
 
 #WRITE(PTR, $00004348)
@@ -6374,11 +6374,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000434C)
-他意はない。それ以上は聞くな。俺なりの, けじめの付け方だ。
+I don't have any hidden intention. Don't ask anything more. This is my way of showing integrity.
 <END2>
 
 #WRITE(PTR, $00004364)
-Re:連絡しろバカ!
+Re: Contact me, idiot!
 <END2>
 
 #WRITE(PTR, $00004368)
@@ -6386,11 +6386,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000436C)
-心配かけたな。こうしてメールを送ってくれたことには感謝している。俺には仲間がいてくれると実感した。
+Don't worry. Thanks for sending me mails like this. It makes me feel like my partners are really here for me.
 <END2>
 
 #WRITE(PTR, $00004384)
-Re:連絡しろバカ!
+Re: Contact me, idiot!
 <END2>
 
 #WRITE(PTR, $00004388)
@@ -6398,11 +6398,11 @@ Assistant
 <END2>
 
 #WRITE(PTR, $0000438C)
-心配かけたな。こうしてメールを送ってくれたことには感謝している。お前と青森行きの約束がある以上, 俺は死なない。だから案ずるな。
+Don't worry. Thanks for sending me mails like this. I won't die. Not until I've fulfilled my promise to go to Aomori with you. So don't fret.
 <END2>
 
 #WRITE(PTR, $000043A4)
-Re:今どこ?
+Re: Where are you now?
 <END2>
 
 #WRITE(PTR, $000043A8)
@@ -6410,7 +6410,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000043AC)
-1人にさせてくれ。空を見上げて考え中なのだ。
+Let me be alone. I'm looking up to the sky deep in thought.
 <END2>
 
 #WRITE(PTR, $000043C4)
@@ -9785,27 +9785,27 @@ Rounder D
 <END2>
 
 #WRITE(PTR, $0000591C)
-【ローアングラーA】
+【Low-Angler A】
 <END2>
 
 #WRITE(PTR, $00005920)
-ローアングラーA
+Low-Angler A
 <END2>
 
 #WRITE(PTR, $00005924)
-ローアングラーA
+Low-Angler A
 <END2>
 
 #WRITE(PTR, $0000592C)
-【ローアングラーＢ】
+【Low-Angler B】
 <END2>
 
 #WRITE(PTR, $00005930)
-ローアングラーＢ
+Low-Angler B
 <END2>
 
 #WRITE(PTR, $00005934)
-ローアングラーＢ
+Low-Angler B
 <END2>
 
 #WRITE(PTR, $0000593C)
@@ -9881,15 +9881,15 @@ PolicemanA
 <END2>
 
 #WRITE(PTR, $0000599C)
-【Premise Announcer】
+【Station Announcer】
 <END2>
 
 #WRITE(PTR, $000059A0)
-Premise Announcer
+Station Announcer
 <END2>
 
 #WRITE(PTR, $000059A4)
-Premise Announcer
+Station Announcer
 <END2>
 
 #WRITE(PTR, $000059AC)
@@ -9965,27 +9965,27 @@ Boy
 <END2>
 
 #WRITE(PTR, $00005A0C)
-【男性スタッフ】
+【Staff Member】
 <END2>
 
 #WRITE(PTR, $00005A10)
-男性スタッフ
+Staff Member
 <END2>
 
 #WRITE(PTR, $00005A14)
-男性スタッフ
+Staff Member
 <END2>
 
 #WRITE(PTR, $00005A1C)
-【中年Woman性】
+【Middle-aged Woman】
 <END2>
 
 #WRITE(PTR, $00005A20)
-西田
+Nishida
 <END2>
 
 #WRITE(PTR, $00005A24)
-西田
+Nishida
 <END2>
 
 #WRITE(PTR, $00005A2C)

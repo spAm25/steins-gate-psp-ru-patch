@@ -98,7 +98,7 @@ Daru's here. Mayuri's here. Kurisu's here.
 <END>
 
 #WRITE(PTR, $000004B2)
-【Rintaro】Where's the masseuse? Where'd she go?
+【Rintaro】Where's Shining Finger? Where'd she go?
 <END>
 
 #WRITE(PTR, $00000528)
@@ -106,7 +106,7 @@ When I ask, Daru and Kurisu, who were discussing something in front of the X6800
 <END>
 
 #WRITE(PTR, $000005C6)
-Ah....
+Ah...
 <END>
 
 #WRITE(PTR, $000005D6)
@@ -122,7 +122,7 @@ Same as yesterday.
 <END>
 
 #WRITE(PTR, $0000065A)
-【Kurisu】Misuse?
+【Kurisu】Shining Finger?
 <END>
 
 #WRITE(PTR, $00000674)

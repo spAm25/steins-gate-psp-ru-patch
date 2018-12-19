@@ -1,0 +1,655 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002378)
+
+#WRITE(PTR, $000007D0)
+The next day. Mayuri and Daru left for Ariake early in the morning.
+<END>
+
+#WRITE(PTR, $000007E0)
+I'm going to meet Lukako just like yesterday, tell her "Let's go meet with Mayuri", and take a train.
+<END>
+
+#WRITE(PTR, $000007F0)
+Today won't be a date with just the two of us.
+<END>
+
+#WRITE(PTR, $00000800)
+Because we don't have time, and I feel like I've already hurt her.
+<END>
+
+#WRITE(PTR, $00000810)
+And so the strategy I took was--
+<END>
+
+#WRITE(PTR, $00000948)
+When we leave the Kokusai-Tenjijo Station, Lukako stares in wonder at the scene spreading throughout her sight.
+<END>
+
+#WRITE(PTR, $00000958)
+People, people, people...
+<END>
+
+#WRITE(PTR, $00000968)
+People cover the land as far as the eye can see.
+<END>
+
+#WRITE(PTR, $00000978)
+ComiMa, the otaku festival.
+<END>
+
+#WRITE(PTR, $00000988)
+Since it's the first day, Big Sight is more crowded than usual.
+<END>
+
+#WRITE(PTR, $00000998)
+Correct, my strategy was to take Lukako out to ComiMa.
+<END>
+
+#WRITE(PTR, $000009A8)
+Of course, I didn't make her cosplay.
+<END>
+
+#WRITE(PTR, $000009B8)
+Lukako said it was embarrassing, and she wouldn't listen to Mayuri's persistent pestering.
+<END>
+
+#WRITE(PTR, $000009C8)
+I don't want to make Lukako do something she doesn't like either.
+<END>
+
+#WRITE(PTR, $000009D8)
+So, we just came to look.
+<END>
+
+#WRITE(PTR, $000009E8)
+Besides, if we join up with the ecstatic Mayuri and Daru on the grounds, then they can keep talking about this and that.
+<END>
+
+#WRITE(PTR, $000009F8)
+The conversation won't get paused like this.
+<END>
+
+#WRITE(PTR, $00000A08)
+"Rely on companions".
+<END>
+
+#WRITE(PTR, $00000A18)
+What wonderful words!
+<END>
+
+#WRITE(PTR, $00000A28)
+A ComiMa date. In some sense, I might have to bear the killing intent of the otaku heroes, but I don't really care what other people think of me.
+<END>
+
+#WRITE(PTR, $00000A38)
+And with that said, I head to the meeting place we decided beforehand, weaving through the crowd of people. Lukako also seems frantic fighting the mental battle.
+<END>
+
+#WRITE(PTR, $00000A80)
+【Mayuri】Tutturu-♪ Okari-n. Luka-cha-n
+<END>
+
+#WRITE(PTR, $00000A90)
+I see the petite Mayuri waving her hands widely.
+<END>
+
+#WRITE(PTR, $00000AA0)
+Mayuri meets up with us at the edge of the parking lot.
+<END>
+
+#WRITE(PTR, $00000AB0)
+There aren't as many people there.
+<END>
+
+#WRITE(PTR, $00000B58)
+【Mayuri】Welcome to ComiMa, Luka-chan.
+<END>
+
+#WRITE(PTR, $00000B68)
+【Luka】Y-yeah. It's my first time coming here, but it's amazing...
+<END>
+
+#WRITE(PTR, $00000B78)
+【Mayuri】Take it easy!
+<END>
+
+#WRITE(PTR, $00000B88)
+【Rintaro】Where's Daru?
+<END>
+
+#WRITE(PTR, $00000B98)
+【Mayuri】Well, Daru-kun's lined up to get promo goods, so he doesn't want to get out of line-
+<END>
+
+#WRITE(PTR, $00000BA8)
+【Mayuri】He said maybe he'll join us after he gets some spoils of war-
+<END>
+
+#WRITE(PTR, $00000BB8)
+So he won't join up with us until about an hour later, huh.
+<END>
+
+#WRITE(PTR, $00000BC8)
+Oh damn him, prioritizing himself.
+<END>
+
+#WRITE(PTR, $00000BD8)
+【Luka】......
+<END>
+
+#WRITE(PTR, $00000BE8)
+Lukako seemed nothing but overwhelmed, anxiously looking around.
+<END>
+
+#WRITE(PTR, $00000BF8)
+There really still is awkwardness between Lukako and me.
+<END>
+
+#WRITE(PTR, $00000C08)
+Maybe she's not be over what happened yesterday.
+<END>
+
+#WRITE(PTR, $00000C18)
+After all, even during the train ride, we haven't had any conversation.
+<END>
+
+#WRITE(PTR, $00000C28)
+I just don't understand why we became lovers if it's come to this.
+<END>
+
+#WRITE(PTR, $00000C38)
+It seems like Lukako and I talked more naturally and had more fun when we weren't lovers.
+<END>
+
+#WRITE(PTR, $00000C48)
+Was it a mistake to bring her to ComiMa?
+<END>
+
+#WRITE(PTR, $00000C58)
+But Lukako didn't refuse. Even when I told her we were going to ComiMa, she just obediently nodded.
+<END>
+
+#WRITE(PTR, $00000C68)
+【Mayuri】Mayushii will guide you through the grounds today-. Well, there are a lot of people, so we have to try not to be a bother.
+<END>
+
+#WRITE(PTR, $00000C78)
+【Mayuri】Let's go to the cosplay grounds first-, and then I guess we'll go inside-
+<END>
+
+#WRITE(PTR, $00000C88)
+Mayuri really is more ecstatic than usual.
+<END>
+
+#WRITE(PTR, $00000C98)
+She's clearly in good cheer.
+<END>
+
+#WRITE(PTR, $00000CA8)
+【Mayuri】Hey, hey, is there anything you guys want to see-?
+<END>
+
+#WRITE(PTR, $00000CB8)
+【Rintaro】...Lukako, is there anything you want to see?
+<END>
+
+#WRITE(PTR, $00000CC8)
+【Luka】Ah, no...
+<END>
+
+#WRITE(PTR, $00000CD8)
+Lukako shakes her head left and right.
+<END>
+
+#WRITE(PTR, $00000CE8)
+【Luka】I don't really know, so... if Okabe-san wants to see something, I'll go see it...
+<END>
+
+#WRITE(PTR, $00000CF8)
+【Rintaro】It's not like I'm really interested or anything.
+<END>
+
+#WRITE(PTR, $00000D08)
+【Luka】......
+<END>
+
+#WRITE(PTR, $00000D18)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000D28)
+Lukako's expression was unclear.
+<END>
+
+#WRITE(PTR, $00000D38)
+Crap, I shouldn't have answered like that...
+<END>
+
+#WRITE(PTR, $00000D48)
+【Mayuri】Heyhey, Luka-chan. If you come to the cosplay grounds, you'll definitely change your mind about cosplaying-
+<END>
+
+#WRITE(PTR, $00000D58)
+Mayuri talks happily to Lukako.
+<END>
+
+#WRITE(PTR, $00000D68)
+Relying on this optimistic girl who can't read the atmosphere was the right choice after all.
+<END>
+
+#WRITE(PTR, $00000D78)
+【Mayuri】It's not embarrassing at all, see? 'Cause everyone's having fun-
+<END>
+
+#WRITE(PTR, $00000D88)
+【Mayuri】I've told you about the cosplayers who wear Mayushii's costumes, Kaede-chan and Fubuki-chan, but I'll introduce you to them now-
+<END>
+
+#WRITE(PTR, $00000D98)
+【Mayuri】So, if you can, I want you to come tomorrow too-. Because then, I'd prepare costumes for Okarin and Luka-chan, too.
+<END>
+
+#WRITE(PTR, $00000ED8)
+【Mayuri】I think Okarin would look perfect as the protagonist in "<DICT>Code Jeass</DICT>", %B2SZerosum<%B2E-sama-
+<END>
+
+#WRITE(PTR, $00000EE8)
+【Mayuri】If Okarin does it too, Luka-chan can cosplay at ease, can't she-?
+<END>
+
+#WRITE(PTR, $00000EF8)
+【Mayuri】What do you think-? Mayushii thinks it's a good idea-
+<END>
+
+#WRITE(PTR, $00000F08)
+【Rintaro】Rejected.
+<END>
+
+#WRITE(PTR, $00000F18)
+【Luka】S-sorry...
+<END>
+
+#WRITE(PTR, $00001090)
+【Mayuri】Ehh-. No way...
+<END>
+
+#WRITE(PTR, $000010A0)
+When Lukako and I refuse, Mayuri drops both her shoulders in disappointment.
+<END>
+
+#WRITE(PTR, $000011C4)
+In the end, we got fed up with the amount of people, so Lukako and I left Ariake early.
+<END>
+
+#WRITE(PTR, $000011D4)
+We took the direct shuttle bus to Akiba that only runs during ComiMa, but it was so cramped inside, I thought I was gonna die.
+<END>
+
+#WRITE(PTR, $00001228)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001238)
+【Luka】......
+<END>
+
+#WRITE(PTR, $00001248)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001258)
+【Luka】......
+<END>
+
+#WRITE(PTR, $00001268)
+When we return to Akiba, Lukako and I are so tired we can't even move our mouths. My feet are so heavy I thought they turned to lead.
+<END>
+
+#WRITE(PTR, $00001278)
+I can't even hear the traffic's noise, the cicada's cries, or the sounds of cars and bikes.
+<END>
+
+#WRITE(PTR, $00001288)
+The two of us return to the shrine with shut mouthes like Spanish monks under vows of silence,
+<END>
+
+#WRITE(PTR, $000013E4)
+Lukako doesn't raise one complaint.
+<END>
+
+#WRITE(PTR, $000013F4)
+But it was obvious that taking her to ComiMa was a mistake.
+<END>
+
+#WRITE(PTR, $0000144A)
+Lukako's expression has been stiff ever since Mayuri showed us around the grounds.
+<END>
+
+#WRITE(PTR, $0000145A)
+Maybe she's still traumatized by otaku.
+<END>
+
+#WRITE(PTR, $00001508)
+I remember the first time I met Lukako.
+<END>
+
+#WRITE(PTR, $00001518)
+At that time, he was in a fight with otaku.
+<END>
+
+#WRITE(PTR, $00001528)
+So maybe they didn't leave a good impression.
+<END>
+
+#WRITE(PTR, $0000158C)
+We don't talk.
+<END>
+
+#WRITE(PTR, $0000159C)
+For a long time, we weren't alone, but packed like sardines. I can probably count the words I said directly to Lukako today on my fingers.
+<END>
+
+#WRITE(PTR, $000015AC)
+When we arrive at the shrine, our time as lovers will end.
+<END>
+
+#WRITE(PTR, $000015BC)
+So this is our last chance to talk like lovers do.
+<END>
+
+#WRITE(PTR, $000015CC)
+But I'm confused.
+<END>
+
+#WRITE(PTR, $000015DC)
+Just what should I talk about?
+<END>
+
+#WRITE(PTR, $000015EC)
+I tried looking for a topic we had in common.
+<END>
+
+#WRITE(PTR, $000015FC)
+About the demon sword, "Samidare".
+<END>
+
+#WRITE(PTR, $0000160C)
+About the "Seishin Zanma" style's swordmanship.
+<END>
+
+#WRITE(PTR, $0000161C)
+But those pretentious hipster bullshit topics are prohibited, acording to Kurisu and the manual.
+<END>
+
+#WRITE(PTR, $0000162C)
+So something else--
+<END>
+
+#WRITE(PTR, $0000163C)
+And then I realized.
+<END>
+
+#WRITE(PTR, $0000164C)
+That's all Lukako and I have in common.
+<END>
+
+#WRITE(PTR, $0000179E)
+Silence seeps through the shrine.
+<END>
+
+#WRITE(PTR, $000017AE)
+When we get here, I seem calm, but am not.
+<END>
+
+#WRITE(PTR, $000017BE)
+I safely escorted Lukako home.
+<END>
+
+#WRITE(PTR, $000017CE)
+Today is the day Mayuri is killed.
+<END>
+
+#WRITE(PTR, $000017DE)
+The time limit is within three hours.
+<END>
+
+#WRITE(PTR, $000017EE)
+So--
+<END>
+
+#WRITE(PTR, $000017FE)
+The temporary relationship between Lukako and me ends here.
+<END>
+
+#WRITE(PTR, $0000180E)
+Then I just need to Lukako to give me her mother's pager number.
+<END>
+
+#WRITE(PTR, $0000181E)
+But--
+<END>
+
+#WRITE(PTR, $0000182E)
+Is it really okay to let it end like this?
+<END>
+
+#WRITE(PTR, $0000183E)
+In the end, what have I done for Lukako?
+<END>
+
+#WRITE(PTR, $0000184E)
+I haven't done squat, have I?
+<END>
+
+#WRITE(PTR, $0000185E)
+Rather, haven't I done nothing but hurt her?
+<END>
+
+#WRITE(PTR, $00001878)
+【Luka】Ugh... hic...
+<END>
+
+#WRITE(PTR, $00001888)
+I got startled.
+<END>
+
+#WRITE(PTR, $00001898)
+Lukako sobs convulsively, cupping both hands over her mouth.
+<END>
+
+#WRITE(PTR, $000018A8)
+Tears overflow from her eyes.
+<END>
+
+#WRITE(PTR, $000018B8)
+【Rintaro】Lukako...
+<END>
+
+#WRITE(PTR, $000018C8)
+When I try coming closer out of concern, Lukako draws back.
+<END>
+
+#WRITE(PTR, $000018D8)
+【Luka】Uugh... ugg... sniff...
+<END>
+
+#WRITE(PTR, $000018E8)
+Lukako wipes the corners of her eyes, but the tears keep flowing, forming a glistening line down each cheek.
+<END>
+
+#WRITE(PTR, $000018F8)
+I was pushed into endless chaos.
+<END>
+
+#WRITE(PTR, $00001908)
+A girl is crying before my eyes.
+<END>
+
+#WRITE(PTR, $00001918)
+Even though I, as a man, can't leave that alone.
+<END>
+
+#WRITE(PTR, $00001928)
+I stand stock still, saying not a single word.
+<END>
+
+#WRITE(PTR, $00001938)
+The source of Lukako's tears is undoubtedly me.
+<END>
+
+#WRITE(PTR, $00001948)
+Even though it was only temporary, I still didn't treat her right as a girlfriend.
+<END>
+
+#WRITE(PTR, $00001958)
+And this is how it ends.
+<END>
+
+#WRITE(PTR, $00001968)
+It ends without either of us saying a word.
+<END>
+
+#WRITE(PTR, $00001978)
+Lukako--
+<END>
+
+#WRITE(PTR, $00001988)
+She--
+<END>
+
+#WRITE(PTR, $00001998)
+Was hurt, and started to cry, because of me.
+<END>
+
+#WRITE(PTR, $000019A8)
+And yet, Lukako--
+<END>
+
+#WRITE(PTR, $000019C2)
+【Luka】Th...ank you... very much...
+<END>
+
+#WRITE(PTR, $000019D2)
+Said that and bowed her head to me.
+<END>
+
+#WRITE(PTR, $000019E2)
+【Rintaro】Eh...?
+<END>
+
+#WRITE(PTR, $000019F2)
+On her face wet with tears were signs of lovely shyness.
+<END>
+
+#WRITE(PTR, $00001A02)
+【Luka】You being... my lover... sniff...
+<END>
+
+#WRITE(PTR, $00001A12)
+【Luka】Made me... really... happy...
+<END>
+
+#WRITE(PTR, $00001A22)
+That's a lie.
+<END>
+
+#WRITE(PTR, $00001A3C)
+【Luka】I'm... glad... I fell in love... with Okabe-san...
+<END>
+
+#WRITE(PTR, $00001A4C)
+Isn't that a lie?
+<END>
+
+#WRITE(PTR, $00001A5C)
+Lukako gently holds my hand to my surprise.
+<END>
+
+#WRITE(PTR, $00001A6C)
+A very warm hand.
+<END>
+
+#WRITE(PTR, $00001A7C)
+A very thin hand.
+<END>
+
+#WRITE(PTR, $00001A8C)
+Touching Lukako's hand.
+<END>
+
+#WRITE(PTR, $00001A9C)
+Touching Lukako's body.
+<END>
+
+#WRITE(PTR, $00001AAC)
+The first time since we became lovers.
+<END>
+
+#WRITE(PTR, $00001ABC)
+And also, the last time.
+<END>
+
+#WRITE(PTR, $00001ACC)
+Lukako places a memo pad in my hand.
+<END>
+
+#WRITE(PTR, $00001ADC)
+And then our hands part.
+<END>
+
+#WRITE(PTR, $00001AEC)
+She bows her head again.
+<END>
+
+#WRITE(PTR, $00001B06)
+【Luka】...Bye now.
+<END>
+
+#WRITE(PTR, $00001B22)
+Lukako turns her back to me, gradually walking towards the shrine office.
+<END>
+
+#WRITE(PTR, $00001B32)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001B42)
+I look at the memo pad.
+<END>
+
+#WRITE(PTR, $00001B52)
+A number was written there.
+<END>
+
+#WRITE(PTR, $00001B62)
+That's probably Lukako's mother's pager number.
+<END>
+
+#WRITE(PTR, $00001B72)
+She kept her promise.
+<END>
+
+#WRITE(PTR, $00001B82)
+But--
+<END>
+
+#WRITE(PTR, $00001B92)
+But, I can't.
+<END>
+
+#WRITE(PTR, $00001BA2)
+I can't let it end like this--
+<END>
+
+#WRITE(PTR, $00001CCE)
+I dash back to the lab with all my strength, disregard Kurisu, who was watching over, and decisively time leap--
+<END>
+
+#WRITE(PTR, $00001F8A)
+TL19.PMF
+<FILEENDA4>
+

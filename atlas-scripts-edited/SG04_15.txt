@@ -162,7 +162,7 @@ Well, whatever!
 <END>
 
 #WRITE(PTR, $00001024)
-I've got something to ask the masseuse!
+I've got something to ask the Shining Finger!
 <END>
 
 #WRITE(PTR, $00001040)
@@ -170,7 +170,7 @@ I rush up to her.
 <END>
 
 #WRITE(PTR, $000010B6)
-【Rintaro】Hey, masseuse!
+【Rintaro】Hey, Shining Finger!
 <END>
 
 #WRITE(PTR, $000010C6)
@@ -286,7 +286,7 @@ Or perhaps, an organized action by SERN?
 <END>
 
 #WRITE(PTR, $000013F8)
-【Rintaro】I'm sorry, Masseuse.
+【Rintaro】I'm sorry, Shining Finger.
 <END>
 
 #WRITE(PTR, $000014C4)

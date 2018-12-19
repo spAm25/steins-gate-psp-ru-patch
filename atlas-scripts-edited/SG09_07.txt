@@ -1,0 +1,1291 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00005434)
+
+#WRITE(PTR, $000001F4)
+Not a single soul is seen in midnight Akiba.
+<END>
+
+#WRITE(PTR, $00000204)
+It's so silent, it's eerie.
+<END>
+
+#WRITE(PTR, $00000214)
+Life readings are zero near the usual coin locker, too.
+<END>
+
+#WRITE(PTR, $00000224)
+I came here once before with Lukako...
+<END>
+
+#WRITE(PTR, $00000234)
+Just thinking about the size of the IBN 5100 makes it obvious it won't fit in the regular sized lockers.
+<END>
+
+#WRITE(PTR, $00000244)
+Basically, that means it could only be in one of the three larger lockers on the right.
+<END>
+
+#WRITE(PTR, $00000298)
+【Rintaro】Occupied...!
+<END>
+
+#WRITE(PTR, $000002A8)
+The bottom one of the three is occupied.
+<END>
+
+#WRITE(PTR, $000002B8)
+Is the IBN 5100 in here...?
+<END>
+
+#WRITE(PTR, $000002C8)
+Of course, I'm excited.
+<END>
+
+#WRITE(PTR, $000002D8)
+I've become far apart from you, my destined partner.
+<END>
+
+#WRITE(PTR, $000002E8)
+You've returned, separated by nothing but a thin locker door.
+<END>
+
+#WRITE(PTR, $000002F8)
+Is this... what love feels like?
+<END>
+
+#WRITE(PTR, $00000320)
+【Rintaro】...let's not go crazy.
+<END>
+
+#WRITE(PTR, $00000330)
+To hold back the rising tension, I think.
+<END>
+
+#WRITE(PTR, $00000340)
+Is the IBN 5100 really what's inside?
+<END>
+
+#WRITE(PTR, $00000350)
+I want to confirm that. I'm glad I got Moeka to tell me she placed the IBN 5100 somewhere in this locker beforehand.
+<END>
+
+#WRITE(PTR, $00000360)
+How about I try breaking the bar thingy on the locker door?
+<END>
+
+#WRITE(PTR, $00000370)
+If the IBN 5100 is inside as expected, and I steal it, what would happen to the world line?
+<END>
+
+#WRITE(PTR, $00000380)
+I mean, I can cancel the changes to the past with a D-mail.
+<END>
+
+#WRITE(PTR, $00000390)
+I think doing that is a necessary rite to return to the original world line.
+<END>
+
+#WRITE(PTR, $000003A0)
+But now that the IBN 5100 is this close, it feels like obtaining it's just too easy.
+<END>
+
+#WRITE(PTR, $000003B0)
+My decision to cancel Moeka's D-mail hasn't changed, but this method's already right before me.
+<END>
+
+#WRITE(PTR, $000003C0)
+Let's try it, just to make sure.
+<END>
+
+#WRITE(PTR, $000003E8)
+And so I go back to the lab, ignoring all the angry complaints and worried voices of the lab mems working overnight.
+<END>
+
+#WRITE(PTR, $000003F8)
+I then head to the development room, and take out a crowbar-like thing.
+<END>
+
+#WRITE(PTR, $00000408)
+In our lab's development room lies a heap of objects passed down to us from people all across town-- garbage, basically, so I easily had a crowbar-like thing prepared.
+<END>
+
+#WRITE(PTR, $00000418)
+I thrust the pointed tip of the crowbar-like thing into the crack of the locker door, putting in enough strength to force it open--
+<END>
+
+#WRITE(PTR, $0000047A)
+【Rintaro】...!?
+<END>
+
+#WRITE(PTR, $0000048A)
+Suddenly, a loud siren resounds all around me.
+<END>
+
+#WRITE(PTR, $0000049A)
+I look in surprise, and a patrol car's red alarm twinkles as it comes this way.
+<END>
+
+#WRITE(PTR, $000004AA)
+What bad timing...
+<END>
+
+#WRITE(PTR, $00000510)
+The police release me after about thirty minutes of scolding on the spot.
+<END>
+
+#WRITE(PTR, $00000520)
+When I come to the coin locker again and try to wrench it open, another patrol car appears, this time to take me to the police station.
+<END>
+
+#WRITE(PTR, $00000530)
+I'm stuck all night getting preached to in the investigation room. This is also the result of attractor field convergence.
+<END>
+
+#WRITE(PTR, $00000540)
+No matter what I do or how I do it, the world's really set on me not getting that IBN 5100.
+<END>
+
+#WRITE(PTR, $000005E0)
+I get them to call my father, and I'm finally released.
+<END>
+
+#WRITE(PTR, $000005F0)
+They didn't go so far as to arrest me, but the police, and my father, scolded me with a harsh tone.
+<END>
+
+#WRITE(PTR, $00000600)
+I admirably apologize on the outside.
+<END>
+
+#WRITE(PTR, $000006B4)
+I part with my father and head straight to Moeka's apartment.
+<END>
+
+#WRITE(PTR, $000006C4)
+I called her-- I took the chance to memorize her phone number yesterday-- but she wouldn't pick up at all.
+<END>
+
+#WRITE(PTR, $000006D4)
+I sent a mail to Daru.
+<END>
+
+#WRITE(PTR, $000006E4)
+I asked him to check if the coin locker was still occupied.
+<END>
+
+#WRITE(PTR, $00000784)
+The door is unlocked.
+<END>
+
+#WRITE(PTR, $00000794)
+Moeka is squatting in the corner as always, hugging her legs.
+<END>
+
+#WRITE(PTR, $000007DC)
+【Rintaro】You put the IBN 5100 in the bottom right coin locker, am I right?
+<END>
+
+#WRITE(PTR, $000007EC)
+【Moeka】...how?
+<END>
+
+#WRITE(PTR, $00000834)
+【Rintaro】There were only three lockers there big enough to fit an IBN 5100, and only the bottom one was in use.
+<END>
+
+#WRITE(PTR, $00000844)
+【Rintaro】If you put it in the bottom one, then that means that FB still hasn't picked up the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000854)
+【Rintaro】You know what that means?
+<END>
+
+#WRITE(PTR, $00000864)
+Moeka knits her brows.
+<END>
+
+#WRITE(PTR, $00000874)
+【Rintaro】It means that if you stay there, you can meet FB when she comes to pick it up.
+<END>
+
+#WRITE(PTR, $0000088E)
+【Moeka】...ah.
+<END>
+
+#WRITE(PTR, $0000089E)
+【Rintaro】You hadn't thought about that? You're a Rounder, yet you lack composure.
+<END>
+
+#WRITE(PTR, $000008AE)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $00000984)
+【Rintaro】I'm gonna try to keep a lookout. You?
+<END>
+
+#WRITE(PTR, $0000099E)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $000009AE)
+【Moeka】If you meet... what'll you do?
+<END>
+
+#WRITE(PTR, $000009BE)
+【Rintaro】Borrow FB's phone.
+<END>
+
+#WRITE(PTR, $000009CE)
+That's the best way to prevent Moeka from going to Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $000009E8)
+【Moeka】...I won't meet her. I'm not brave enough to meet her... I'll be disillusioned...
+<END>
+
+#WRITE(PTR, $000009F8)
+【Rintaro】Weren't you disillusioned long ago? You were never given any expectations from the start.
+<END>
+
+#WRITE(PTR, $00000A12)
+Moeka's face warps again.
+<END>
+
+#WRITE(PTR, $00000A22)
+My usage of only blunt words was not only because Moeka killed Mayuri, but also because I was getting irritated at Moeka's weakness.
+<END>
+
+#WRITE(PTR, $00000B56)
+Daru did just like I asked. The locker is still occupied.
+<END>
+
+#WRITE(PTR, $00000B66)
+I look around and check to make sure there are no patrol cars.
+<END>
+
+#WRITE(PTR, $00000B76)
+This time I won't wrench it open.
+<END>
+
+#WRITE(PTR, $00000B86)
+They'll definitely arrest me for a third offense.
+<END>
+
+#WRITE(PTR, $00000B96)
+I hide behind one of Daibiru's humongous pillars across the street, and begin the lookout.
+<END>
+
+#WRITE(PTR, $00000CB4)
+It's getting tiresome to stand.
+<END>
+
+#WRITE(PTR, $00000D60)
+I thought of borrowing a handheld game from Mayuri, but there's no point in observation if I'm going to distract myself.
+<END>
+
+#WRITE(PTR, $00000E04)
+But just standing is suffering. And I need to make sure I'm not conspicuous.
+<END>
+
+#WRITE(PTR, $00000EA8)
+If I keep standing in the same place, I might get noticed by surrounding eyes.
+<END>
+
+#WRITE(PTR, $00000F4C)
+I'm scared that a security guard might come and scold me.
+<END>
+
+#WRITE(PTR, $00000FF0)
+And now it's already near 7 o'clock.
+<END>
+
+#WRITE(PTR, $00001094)
+My legs have turned into pegs, so I squat and lean against the pillar when it becomes unbearable.
+<END>
+
+#WRITE(PTR, $00001138)
+So hungry...
+<END>
+
+#WRITE(PTR, $000011DC)
+My inner heart murmurs so while I stare at the coin locker nobody comes to use when--
+<END>
+
+#WRITE(PTR, $00001280)
+Somebody taps on my shoulder.
+<END>
+
+#WRITE(PTR, $00001324)
+FB!?
+<END>
+
+#WRITE(PTR, $000013C8)
+I almost jumped in a panic, but my legs felt like they were twisted and couldn't move.
+<END>
+
+#WRITE(PTR, $000014C2)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $00001566)
+Moeka hugs her knees and looks at me with cold eyes.
+<END>
+
+#WRITE(PTR, $0000160A)
+【Rintaro】Why... are you here?
+<END>
+
+#WRITE(PTR, $000016AE)
+【Moeka】...I'll keep a lookout too.
+<END>
+
+#WRITE(PTR, $0000175C)
+【Moeka】Can I...?
+<END>
+
+#WRITE(PTR, $00001800)
+【Rintaro】...Why'd you change your mind?
+<END>
+
+#WRITE(PTR, $000018A4)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $00001948)
+I stand up and dust off my clothes.
+<END>
+
+#WRITE(PTR, $000019EC)
+【Rintaro】You were comfortable with your "mail-only relationship" with FB. You used to be dependent on that moderate distance.
+<END>
+
+#WRITE(PTR, $00001A90)
+【Rintaro】So why did you plan to step forward now of all times?
+<END>
+
+#WRITE(PTR, $00001B3E)
+【Moeka】...at this rate
+<END>
+
+#WRITE(PTR, $00001BE2)
+Moeka puts her head on her knees, with a face still about to cry.
+<END>
+
+#WRITE(PTR, $00001C86)
+I've seen that expression once before, lit by the moon in that apartment.
+<END>
+
+#WRITE(PTR, $00001D2A)
+【Moeka】...if FB still won't contact me... my connection to the world...
+<END>
+
+#WRITE(PTR, $00001DCE)
+【Rintaro】It'll be broken off, huh.
+<END>
+
+#WRITE(PTR, $00001E72)
+Moeka faintly nods.
+<END>
+
+#WRITE(PTR, $00001F16)
+【Rintaro】You're so weak that you can't bear loneliness, yet just one word from FB and you'll mercilessly kill someone, huh.
+<END>
+
+#WRITE(PTR, $00001FBA)
+【Rintaro】You're just a typical cultist.
+<END>
+
+#WRITE(PTR, $0000205E)
+And FB abused this woman's weakness, and finally threw her out like tattered clothes.
+<END>
+
+#WRITE(PTR, $00002102)
+...How frustrating.
+<END>
+
+#WRITE(PTR, $000021A6)
+FB's vileness. Moeka's weakness.
+<END>
+
+#WRITE(PTR, $00002254)
+And then Moeka nervously presents a convenience store bag.
+<END>
+
+#WRITE(PTR, $000022F8)
+【Rintaro】What's this?
+<END>
+
+#WRITE(PTR, $0000239C)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $00002440)
+Moeka looks down without trying to answer.
+<END>
+
+#WRITE(PTR, $000024E4)
+I try fishing through the contents and--
+<END>
+
+#WRITE(PTR, $00002588)
+【Rintaro】Ohh! Milk cartons and anpan!
+<END>
+
+#WRITE(PTR, $0000262C)
+This stuff is perfect for keeping a lookout.
+<END>
+
+#WRITE(PTR, $000026D0)
+There's enough for two.
+<END>
+
+#WRITE(PTR, $000026DB)
+【Rintaro】So, do you want to join?
+<END>
+
+#WRITE(PTR, $00002822)
+Moeka nods.
+<END>
+
+#WRITE(PTR, $000028C6)
+【Rintaro】Alright, permission granted. Help me keep a lookout.
+<END>
+
+#WRITE(PTR, $0000297C)
+With two of us, we can take turns watching. It also makes us look less suspicious to people passing by.
+<END>
+
+#WRITE(PTR, $00002AB0)
+Since it's a lookout, we continue even past nightfall.
+<END>
+
+#WRITE(PTR, $00002AC0)
+We nap in one hour shifts, but I'm still tired and drowsy.
+<END>
+
+#WRITE(PTR, $00002AD0)
+On top of that, I don't have someone to talk to-- Moeka can't keep a conversation-- so I can't do anything to stave off boredom.
+<END>
+
+#WRITE(PTR, $00002AE0)
+In the morning, before the sun rose, I went back to the lab to shower, but Kurisu, who was working an all-nighter on the Time Leap Machine improvements, looked at me coldly.
+<END>
+
+#WRITE(PTR, $00002C22)
+It was past 1PM on the 13th when something changed.
+<END>
+
+#WRITE(PTR, $00002CC2)
+Someone appeared and opened the lower right locker-- the locker with the IBN 5100 in it.
+<END>
+
+#WRITE(PTR, $00002CD2)
+We immediately move to where we can't be found and peek at the situation.
+<END>
+
+#WRITE(PTR, $00002D72)
+That person was a lackluster middle-aged man.
+<END>
+
+#WRITE(PTR, $00002D82)
+He was wearing a new suit, but it seemed awfully unnatural.
+<END>
+
+#WRITE(PTR, $00002D92)
+It doesn't look like he's used to wearing it at all.
+<END>
+
+#WRITE(PTR, $00002DDA)
+【Rintaro】Is that FB...?
+<END>
+
+#WRITE(PTR, $00002DEA)
+Moeka strongly shakes her head.
+<END>
+
+#WRITE(PTR, $00002DFA)
+【Moeka】FB is a woman...
+<END>
+
+#WRITE(PTR, $00002E0A)
+【Rintaro】So... maybe it's someone hired to pick it up.
+<END>
+
+#WRITE(PTR, $00002E1A)
+Or it could be the locker's management company, here to retrieve it after its extended neglect.
+<END>
+
+#WRITE(PTR, $00002E2A)
+In that case, FB, Moeka, and I, are all terribly stupid.
+<END>
+
+#WRITE(PTR, $00002E3A)
+The man had the locker's key.
+<END>
+
+#WRITE(PTR, $00002E4A)
+After paying all of the additional fees with 100 yen coins, he takes the cardboard box with the IBN 5100 out of the locker.
+<END>
+
+#WRITE(PTR, $00002E5A)
+Thinking ahead, the man brought a push cart.
+<END>
+
+#WRITE(PTR, $00002E6A)
+After a bit of effort, he puts the IBN 5100 onto the push cart and begins walking.
+<END>
+
+#WRITE(PTR, $00002E7A)
+【Rintaro】Follow him!
+<END>
+
+#WRITE(PTR, $00002F28)
+The man heads straight for Akihabara Station.
+<END>
+
+#WRITE(PTR, $00002F38)
+Strangely, he calls out to a plump man standing in front of the ticket machine.
+<END>
+
+#WRITE(PTR, $00002F48)
+The plump man, wearing a T-shirt, really looks like an otaku. He doesn't seem to have anything in common with the first suited guy.
+<END>
+
+#WRITE(PTR, $00002F58)
+They transfer the IBN 5100's cardboard box onto the plump man's carry-on cart.
+<END>
+
+#WRITE(PTR, $00002F68)
+They exchange a few words and the plump man enters the station alone while the suited guy sees him off.
+<END>
+
+#WRITE(PTR, $00002F78)
+【Rintaro】Weird.
+<END>
+
+#WRITE(PTR, $00002F88)
+Is there a point to this transfer?
+<END>
+
+#WRITE(PTR, $00002F98)
+Is the plump man FB?
+<END>
+
+#WRITE(PTR, $00002FA8)
+The collector handed it off to the deliveryman?
+<END>
+
+#WRITE(PTR, $00002FB8)
+At any rate, if we keep chasing the IBN 5100, we'll eventually reach FB.
+<END>
+
+#WRITE(PTR, $00002FC8)
+Believing thus, we enter the station.
+<END>
+
+#WRITE(PTR, $000030F2)
+We take the Yamate Line along with the plump man.
+<END>
+
+#WRITE(PTR, $00003102)
+Not in the same car, but peeking from the next one.
+<END>
+
+#WRITE(PTR, $00003112)
+It's a weekday afternoon, so there aren't many passengers.
+<END>
+
+#WRITE(PTR, $00003122)
+We didn't see the man move for about 30 minutes.
+<END>
+
+#WRITE(PTR, $00003138)
+We arrive at Shinjuku Station.
+<END>
+
+#WRITE(PTR, $00003148)
+The number of passengers getting on and off instantly multiplies.
+<END>
+
+#WRITE(PTR, $00003190)
+【Moeka】He's getting off...!
+<END>
+
+#WRITE(PTR, $000031A0)
+Moeka mutters so while pulling my sleeve.
+<END>
+
+#WRITE(PTR, $000031B0)
+When I look, the plump man had slipped into the stream of departing passengers, and had gone through the door and onto the platform.
+<END>
+
+#WRITE(PTR, $0000321E)
+After getting delayed pushing through the stream of boarding passengers, we get down to the platform.
+<END>
+
+#WRITE(PTR, $0000323A)
+The man is leisurely walking on the platform.
+<END>
+
+#WRITE(PTR, $0000324A)
+The train closes its doors and slowly departs.
+<END>
+
+#WRITE(PTR, $0000325A)
+There truly are a lot of people in Shinjuku.
+<END>
+
+#WRITE(PTR, $0000326A)
+We close the distance and follow the man from right behind so we don't lose him.
+<END>
+
+#WRITE(PTR, $0000327A)
+Then we're surprised.
+<END>
+
+#WRITE(PTR, $0000328A)
+【Rintaro】Wha...!?
+<END>
+
+#WRITE(PTR, $0000329A)
+The man is empty-handed.
+<END>
+
+#WRITE(PTR, $000032AA)
+The carry-on cart is missing.
+<END>
+
+#WRITE(PTR, $000032BA)
+Eh? Why?
+<END>
+
+#WRITE(PTR, $000032CA)
+I thought we might have mistaken our man, but that wasn't it.
+<END>
+
+#WRITE(PTR, $000032DA)
+We saw him standing still on the train.
+<END>
+
+#WRITE(PTR, $000032EA)
+He definitely got off the train onto the platform here.
+<END>
+
+#WRITE(PTR, $000032FA)
+I'm certain he had the carry-on cart when the train arrived at Shinjuku.
+<END>
+
+#WRITE(PTR, $0000330A)
+So does that mean that he handed it off to someone in the chaos of boarding and departing people?
+<END>
+
+#WRITE(PTR, $0000331A)
+【Rintaro】Counter-tailing measures... huh?
+<END>
+
+#WRITE(PTR, $0000332A)
+What a clever ploy...
+<END>
+
+#WRITE(PTR, $0000351A)
+TL22.PMF
+<END2>
+
+#WRITE(PTR, $000038E2)
+I returned to the lab and time leapt an hour back.
+<END>
+
+#WRITE(PTR, $000038F2)
+Now I notice what happened on the train.
+<END>
+
+#WRITE(PTR, $00003902)
+It's bad manners to take out your phone inside the train, but I have no choice in this emergency.
+<END>
+
+#WRITE(PTR, $00003912)
+Looking at the train's display, it was right about when it left Otsuka, heading towards Ikebukuro.
+<END>
+
+#WRITE(PTR, $0000395A)
+Moeka's next to me, hiding her breath.
+<END>
+
+#WRITE(PTR, $0000396A)
+We peek into the next car, where the plump man stands.
+<END>
+
+#WRITE(PTR, $0000397A)
+【Rintaro】It starts at Shinjuku.
+<END>
+
+#WRITE(PTR, $0000398A)
+【Moeka】...?
+<END>
+
+#WRITE(PTR, $0000399A)
+【Rintaro】That guy's gonna get off, but he actually delivers the package to someone else.
+<END>
+
+#WRITE(PTR, $000039AA)
+【Rintaro】He got us good back then.
+<END>
+
+#WRITE(PTR, $000039C4)
+【Moeka】Back then...?
+<END>
+
+#WRITE(PTR, $000039D4)
+It looks like Moeka doesn't fully understand yet.
+<END>
+
+#WRITE(PTR, $000039E4)
+【Rintaro】I time leaped from one hour from now.
+<END>
+
+#WRITE(PTR, $000039F4)
+【Moeka】...time...leap
+<END>
+
+#WRITE(PTR, $00003A04)
+Moeka's eyes widen.
+<END>
+
+#WRITE(PTR, $00003A20)
+The train arrives at Shinjuku Station on schedule.
+<END>
+
+#WRITE(PTR, $00003A30)
+Just to make sure, I'll have Moeka get off at this station and follow the plump man.
+<END>
+
+#WRITE(PTR, $00003A40)
+I sneak over to the same car as the plump man.
+<END>
+
+#WRITE(PTR, $00003A50)
+He still has the carry-on cart with the IBN 5100.
+<END>
+
+#WRITE(PTR, $00003AC6)
+【Station Announcer】Shinjuku~, Shinjuku~
+<END>
+
+#WRITE(PTR, $00003AD6)
+Passengers spew out of the doors.
+<END>
+
+#WRITE(PTR, $00003AE6)
+So does the plump man, just like last time. But--
+<END>
+
+#WRITE(PTR, $00003AF6)
+【Rintaro】I knew it...!
+<END>
+
+#WRITE(PTR, $00003B06)
+He leaves the carry-on cart with the IBN 5100 inside the train.
+<END>
+
+#WRITE(PTR, $00003B16)
+And now passengers come in from Shinjuku.
+<END>
+
+#WRITE(PTR, $00003B26)
+Inside, the one who walks up to the abandoned carry-on cart is a woman in her 30s pushing a baby stroller.
+<END>
+
+#WRITE(PTR, $00003B36)
+But there's no baby.
+<END>
+
+#WRITE(PTR, $00003B46)
+The woman puts the carry-on cart onto the baby stroller as if it were natural.
+<END>
+
+#WRITE(PTR, $00003B56)
+After seeing that with my own eyes, I return to the neighboring car.
+<END>
+
+#WRITE(PTR, $00003B66)
+We have to follow carefully.
+<END>
+
+#WRITE(PTR, $00003B76)
+This attention to detail isn't normal.
+<END>
+
+#WRITE(PTR, $00003BCA)
+The train starts moving.
+<END>
+
+#WRITE(PTR, $00003BDA)
+I contact Moeka so we can regroup later.
+<END>
+
+#WRITE(PTR, $00003D02)
+After that, the goods swap hands one after the other, transferring around the stations that run through Tokyo like a web.
+<END>
+
+#WRITE(PTR, $00003D12)
+Yamate Line, Meguro Station → Nanboku Line, Nagata-cho Station → Yuraku-cho Line, Ikebukuro Station → Fukutoshin Line, Shinjuku-Sanchome Station → Toei Shinjuku Line, Kudanshita → Tozai Line, Kayabacho Station
+<END>
+
+#WRITE(PTR, $00003D22)
+Whenever they gave me the slip, I would time leap and resume the chase.
+<END>
+
+#WRITE(PTR, $00003D32)
+And finally, the courier and the goods got aboard the Hibiya Line, and after so many twists and turns, they unexpectedly returned to Akihabara Station.
+<END>
+
+#WRITE(PTR, $00003DD2)
+I recognize the last courier.
+<END>
+
+#WRITE(PTR, $00003DE2)
+He's one of the men involved with Moeka's attack on the lab.
+<END>
+
+#WRITE(PTR, $00003DF2)
+Dark skin and a crew cut. The one who first struck me with his gun.
+<END>
+
+#WRITE(PTR, $00003E02)
+The man easily carried the 25 kilo package out of the station and--
+<END>
+
+#WRITE(PTR, $00003E78)
+A car honks its horn.
+<END>
+
+#WRITE(PTR, $00003E88)
+Moeka and I immediately hide and peek at the situation.
+<END>
+
+#WRITE(PTR, $00003E98)
+A white station wagon parks in the roundabout in front of the station.
+<END>
+
+#WRITE(PTR, $00003EA8)
+The muscular man who hops out of the driver's seat is--
+<END>
+
+#WRITE(PTR, $00003EB8)
+【Rintaro】Eh...?
+<END>
+
+#WRITE(PTR, $00003F0C)
+A familiar face.
+<END>
+
+#WRITE(PTR, $00003F1C)
+I doubt my own eyes.
+<END>
+
+#WRITE(PTR, $00003F2C)
+I reorganize my muddled mind.
+<END>
+
+#WRITE(PTR, $00003F3C)
+That's... Tennouji Yuugo of the Braun Tube Workshop.
+<END>
+
+#WRITE(PTR, $00003F4C)
+AKA Mister Braun.
+<END>
+
+#WRITE(PTR, $00003F5C)
+Why...?
+<END>
+
+#WRITE(PTR, $00003F6C)
+Why is he...?
+<END>
+
+#WRITE(PTR, $00003F7C)
+Does this mean he's involved with FB, and the Rounders?
+<END>
+
+#WRITE(PTR, $00003F8C)
+You mean he's been doing shady business in addition to running the completely unprofitable Braun Tube Workshop...?
+<END>
+
+#WRITE(PTR, $00003F9C)
+I don't understand...
+<END>
+
+#WRITE(PTR, $00003FAC)
+I lost all understanding in one go.
+<END>
+
+#WRITE(PTR, $00003FBC)
+The man who set up shop downstairs from the lab.
+<END>
+
+#WRITE(PTR, $00003FCC)
+If he's got connections with the enemy...
+<END>
+
+#WRITE(PTR, $00003FDC)
+I shiver at the thought.
+<END>
+
+#WRITE(PTR, $00003FEC)
+No, wait, I'm still not sure he has connections.
+<END>
+
+#WRITE(PTR, $00003FFC)
+Manager might just be a mere courier.
+<END>
+
+#WRITE(PTR, $00004018)
+Still watching from a distance, we see Manager take the carry-on cart from the crew cut man, and load it into the backseat.
+<END>
+
+#WRITE(PTR, $00004028)
+And then he gets into the car alone, taking off towards Showa Dori.
+<END>
+
+#WRITE(PTR, $00004038)
+I couldn't do anything but stare dumbfounded.
+<END>
+
+#WRITE(PTR, $00004228)
+TL23.PMF
+<END2>
+
+#WRITE(PTR, $000045F0)
+I time leapt back to when we kept a lookout in front of the coin locker.
+<END>
+
+#WRITE(PTR, $00004600)
+The suited man hasn't appeared yet.
+<END>
+
+#WRITE(PTR, $00004610)
+I explain the current situation to Moeka, and go on ahead.
+<END>
+
+#WRITE(PTR, $0000466A)
+After wasting some time at Starbecks, I rent a car at a nearby rental shop.
+<END>
+
+#WRITE(PTR, $0000467A)
+Or so I say, but I don't have a license. Moeka's driving.
+<END>
+
+#WRITE(PTR, $0000468A)
+We go to the street in front of the roundabout, heading toward Showa Dori, and park in front of Yodobashi Camera. Now we wait.
+<END>
+
+#WRITE(PTR, $000046D2)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $000046E2)
+【Rintaro】Nervous?
+<END>
+
+#WRITE(PTR, $000046F2)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $00004702)
+【Rintaro】You're straining your shoulder too much. How much have you driven before?
+<END>
+
+#WRITE(PTR, $00004712)
+【Moeka】...license.
+<END>
+
+#WRITE(PTR, $00004722)
+【Rintaro】License? You mean you have nothing but a license? Oh come on... just don't crash.
+<END>
+
+#WRITE(PTR, $00004732)
+I was surprised Moeka had a license in the first place, but it seems like FB persuaded her to get one by telling her it's necessary for Rounder work.
+<END>
+
+#WRITE(PTR, $0000476A)
+Moeka's on standby in the car while I watch the roundabout up close.
+<END>
+
+#WRITE(PTR, $0000477A)
+The white station wagon's already stopped there.
+<END>
+
+#WRITE(PTR, $0000478A)
+Peeking inside from far away, I can definitely see Manager in the driver's seat.
+<END>
+
+#WRITE(PTR, $0000479A)
+Nobody else is riding.
+<END>
+
+#WRITE(PTR, $000047AA)
+The crew cut guy should come out right about after 5PM.
+<END>
+
+#WRITE(PTR, $000047D2)
+And just like I remembered, the crew cut guy comes out of the station, easily tugging along the carry-on cart.
+<END>
+
+#WRITE(PTR, $000047E2)
+He walks up to the Manager's white station wagon.
+<END>
+
+#WRITE(PTR, $000047F2)
+It feels kind of weird seeing the exact same scene from a different perspective.
+<END>
+
+#WRITE(PTR, $00004802)
+I hurry back into the car where Moeka waits.
+<END>
+
+#WRITE(PTR, $00004812)
+【Rintaro】He's coming!
+<END>
+
+#WRITE(PTR, $00004822)
+The IBN 5100's pickup station wagon zooms past us.
+<END>
+
+#WRITE(PTR, $00004832)
+It takes a left turn at the Showa Dori intersection, towards Okachimachi.
+<END>
+
+#WRITE(PTR, $00004842)
+Moeka smoothly sets the car in motion.
+<END>
+
+#WRITE(PTR, $000048A4)
+And the place we arrive at is Manager's house.
+<END>
+
+#WRITE(PTR, $000048B4)
+An old one-story house in Okachimachi.
+<END>
+
+#WRITE(PTR, $000048C4)
+The house where Hashida Suzu, where Suzuha, lived.
+<END>
+
+#WRITE(PTR, $000048D4)
+In front of the house was her old rusty MTB, as usual.
+<END>
+
+#WRITE(PTR, $000048E4)
+Manager brings the IBN 5100 into his house.
+<END>
+
+#WRITE(PTR, $000048F4)
+Stopping a little further down the road, we watch.
+<END>
+
+#WRITE(PTR, $0000493C)
+【Moeka】What... does this mean?
+<END>
+
+#WRITE(PTR, $0000494C)
+【Moeka】Where is FB...?
+<END>
+
+#WRITE(PTR, $0000495C)
+【Rintaro】The question is why did he bring it into that house. Is it for temporary storage, or could it be--
+<END>
+
+#WRITE(PTR, $0000496C)
+Manager, or someone Manager knows, might be FB...
+<END>
+
+#WRITE(PTR, $0000497C)
+But FB should be a woman.
+<END>
+
+#WRITE(PTR, $0000498C)
+Meaning Manager's wife-- Tennouji Nae's mother, whom I've never met before, could possibly be FB.
+<END>
+
+#WRITE(PTR, $0000499C)
+As a test, I have Moeka show me one of FB's mails.
+<END>
+
+#WRITE(PTR, $00004A56)
+She kept a lot of mails like this one.
+<END>
+
+#WRITE(PTR, $00004A70)
+【Moeka】M4 is my codname...
+<END>
+
+#WRITE(PTR, $00004A80)
+【Moeka】FB... came up with that for me too.
+<END>
+
+#WRITE(PTR, $00004A90)
+Moeka's a mailing machine, sending FB nearly 10 mails a day, yet FB wrote replies to each one.
+<END>
+
+#WRITE(PTR, $00004AA0)
+Normally, that would piss people off.
+<END>
+
+#WRITE(PTR, $00004AB0)
+With this in consideration, I can understand why Moeka would grow dependent on FB.
+<END>
+
+#WRITE(PTR, $00004AC0)
+【Rintaro】This time we're on lookout here, huh...
+<END>
+
+#WRITE(PTR, $00004AD0)
+I had Daru prepare an infrared CCD, and set it up wirelessly on the telephone pole in front of Manager's house.
+<END>
+
+#WRITE(PTR, $00004AE0)
+We observe in the car parked a little away.
+<END>
+
+#WRITE(PTR, $00004C06)
+As if nothing had happened, Manager left the next day on his scooter, returning upon nightfall.
+<END>
+
+#WRITE(PTR, $00004C16)
+We never saw his daughter, Nae, nor his wife I've never seen, take one step outside the house.
+<END>
+
+#WRITE(PTR, $00004D4C)
+It was the dawning of Sunday before movement began.
+<END>
+
+#WRITE(PTR, $00004D5C)
+Just a little before 3 in the morning, people suddenly gathered in front of Manager's house.
+<END>
+
+#WRITE(PTR, $00004D6C)
+I couldn't quite count since it was dark, but it was around six people.
+<END>
+
+#WRITE(PTR, $00004D7C)
+【Rintaro】That's...!
+<END>
+
+#WRITE(PTR, $00004D8C)
+I recognize those guys.
+<END>
+
+#WRITE(PTR, $00004DEE)
+They're the Rounder's men who attacked the lab with Moeka in other world lines.
+<END>
+
+#WRITE(PTR, $00004E42)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $00004E52)
+Moeka didn't show much of a reaction.
+<END>
+
+#WRITE(PTR, $00004E62)
+They should be acquaintances, so why...?
+<END>
+
+#WRITE(PTR, $00004E72)
+I tried asking, but she said she hasn't seen them.
+<END>
+
+#WRITE(PTR, $00004E82)
+In this world line, Moeka has been completely removed from the Rounders.
+<END>
+
+#WRITE(PTR, $00004E92)
+Are they done with her since they got their IBN 5100?
+<END>
+
+#WRITE(PTR, $00004F68)
+Manager comes out of his house.
+<END>
+
+#WRITE(PTR, $00004F78)
+He loads the IBN 5100 into the usual station wagon.
+<END>
+
+#WRITE(PTR, $00004F88)
+The six men also get into the car.
+<END>
+
+#WRITE(PTR, $00004F98)
+But Manager just sees them off.
+<END>
+
+#WRITE(PTR, $0000506E)
+【Moeka】Where to now...
+<END>
+
+#WRITE(PTR, $0000507E)
+I'm interested about Manager's story, but we're chasing the IBN 5100 now.
+<END>
+
+#WRITE(PTR, $0000508E)
+These guys will lead us to FB. That's why we chase the station wagon.
+<END>
+
+#WRITE(PTR, $000051B6)
+The car was headed to Narita International Airport, of all things.
+<END>
+
+#WRITE(PTR, $000051C6)
+The men go through boarding procedures, bringing the IBN 5100 aboard an airplane headed to France.
+<END>
+
+#WRITE(PTR, $000051D6)
+France.
+<END>
+
+#WRITE(PTR, $000051E6)
+In other words, the country where SERN is.
+<END>
+
+#WRITE(PTR, $000051F6)
+Meaning... what...?
+<END>
+
+#WRITE(PTR, $00005206)
+【Rintaro】Tennouji's wife might be FB.
+<END>
+
+#WRITE(PTR, $00005216)
+The person I still haven't seen.
+<END>
+
+#WRITE(PTR, $00005226)
+I've yet to meet her, so that means she's just that cautious of contact with others.
+<END>
+
+#WRITE(PTR, $00005236)
+When I think about the α World Line, Moeka's gang attacked on the night the Time Leap Machine was completed, as if they had timed it.
+<END>
+
+#WRITE(PTR, $00005246)
+It's no mystery when you consider that FB had a strong connection with Manager, whose shop is directly below.
+<END>
+
+#WRITE(PTR, $00005256)
+Since he was feeding her all of our information, it was almost like we were dancing in the palms of FB's hands.
+<END>
+
+#WRITE(PTR, $00005266)
+Returning to Akiba from Narita, I walk over towards Manager's house.
+<END>
+
+#WRITE(PTR, $00005276)
+But on the way, I got an angry call from Kurisu saying "Tell me what's happening", so I reluctantly had to meet up with her.
+<FILEEND07>
+

@@ -1,0 +1,395 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00000FC8)
+
+#WRITE(PTR, $000001DC)
+%L1
+<END2>
+
+#WRITE(PTR, $000001E2)
+Chapter 9 【Endless Apoptosis】
+<END2>
+
+#WRITE(PTR, $000001E8)
+%L1
+<END2>
+
+#WRITE(PTR, $00000328)
+--The feeling of another warm hand.
+<END>
+
+#WRITE(PTR, $00000338)
+Slips through my fingers with a strong sense of vertigo.
+<END>
+
+#WRITE(PTR, $0000047A)
+The shrine grounds are here, unchanged.
+<END>
+
+#WRITE(PTR, $0000048A)
+But I no longer feel her clinging to my body.
+<END>
+
+#WRITE(PTR, $0000049A)
+That feeling slowly slipped away.
+<END>
+
+#WRITE(PTR, $00000546)
+【Luka】...?
+<END>
+
+#WRITE(PTR, $00000556)
+Lukako is standing a little bit away from me, looking at me.
+<END>
+
+#WRITE(PTR, $00000566)
+As if seeing me off.
+<END>
+
+#WRITE(PTR, $00000576)
+No tears are on that face.
+<END>
+
+#WRITE(PTR, $00000586)
+A bewildered smile.
+<END>
+
+#WRITE(PTR, $00000596)
+My chest falls into an illusion about to burst.
+<END>
+
+#WRITE(PTR, $000005A6)
+Hold it back--
+<END>
+
+#WRITE(PTR, $000005B6)
+【Rintaro】Hey, Lukako.
+<END>
+
+#WRITE(PTR, $000005C6)
+【Luka】Yes?
+<END>
+
+#WRITE(PTR, $000005D6)
+【Rintaro】You're--
+<END>
+
+#WRITE(PTR, $000005E6)
+I hesitate for a moment.
+<END>
+
+#WRITE(PTR, $000005F6)
+But I make up my mind.
+<END>
+
+#WRITE(PTR, $00000606)
+【Rintaro】A guy, right?
+<END>
+
+#WRITE(PTR, $00000620)
+【Luka】Yes, I am, but...
+<END>
+
+#WRITE(PTR, $00000630)
+She was no longer there.
+<END>
+
+#WRITE(PTR, $00000640)
+But instead, he was.
+<END>
+
+#WRITE(PTR, $00000650)
+Cute facial features like a girl.
+<END>
+
+#WRITE(PTR, $00000660)
+Looks good in miko clothes.
+<END>
+
+#WRITE(PTR, $00000670)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00000680)
+I tightly bite my lip.
+<END>
+
+#WRITE(PTR, $00000690)
+Lukako went back to being a guy.
+<END>
+
+#WRITE(PTR, $000006A0)
+【Rintaro】Do you... like me?
+<END>
+
+#WRITE(PTR, $000006BA)
+【Luka】Eh, what's this all of a...
+<END>
+
+#WRITE(PTR, $000006CA)
+【Rintaro】...Do you like me?
+<END>
+
+#WRITE(PTR, $000006DA)
+【Luka】Ummm, well...
+<END>
+
+#WRITE(PTR, $000006EA)
+【Luka】I respect you...
+<END>
+
+#WRITE(PTR, $000006FA)
+Just what part of me is respectable? I'm not that sort of proper man.
+<END>
+
+#WRITE(PTR, $0000070A)
+But that's not what matters now.
+<END>
+
+#WRITE(PTR, $0000071A)
+Lukako's answer seemed clear, but wasn't.
+<END>
+
+#WRITE(PTR, $0000072A)
+He didn't say he liked me or he hated me.
+<END>
+
+#WRITE(PTR, $000007F2)
+【Luka】If I become a guy again... then I'll have to suppress my feelings for Okabe-san...
+<END>
+
+#WRITE(PTR, $0000084C)
+Even now, when he became a guy again, Lukako might still like me.
+<END>
+
+#WRITE(PTR, $0000085C)
+But he can't speak honestly about those feelings. No matter how much time flows.
+<END>
+
+#WRITE(PTR, $0000086C)
+And because Lukako has prepared himself for that, I can't trespass into his heart any more than this.
+<END>
+
+#WRITE(PTR, $0000087C)
+I might be running away.
+<END>
+
+#WRITE(PTR, $0000088C)
+Maybe I should trespass instead.
+<END>
+
+#WRITE(PTR, $0000089C)
+But I'm not that strong a man.
+<END>
+
+#WRITE(PTR, $000008AC)
+If I did trespass, then I might just end up hurting Lukako.
+<END>
+
+#WRITE(PTR, $000008BC)
+That's why I couldn't.
+<END>
+
+#WRITE(PTR, $000008CC)
+【Rintaro】Thanks. From now and forevermore, I want you to be my disciple... Is that okay?
+<END>
+
+#WRITE(PTR, $000008E6)
+【Luka】Eh, ah, yes, of course.
+<END>
+
+#WRITE(PTR, $00000940)
+I cast down my eyes, unable to look straight into Lukako's shy face.
+<END>
+
+#WRITE(PTR, $00000950)
+The world line changed.
+<END>
+
+#WRITE(PTR, $00000960)
+Lukako became a guy again.
+<END>
+
+#WRITE(PTR, $000009C0)
+In that case, the IBN 5100 should have returned to this shrine.
+<END>
+
+#WRITE(PTR, $000009D0)
+In the world line where Lukako was a girl, she was cleaning the storehouse and broke the IBN 5100.
+<END>
+
+#WRITE(PTR, $000009E0)
+But now, since Lukako became a guy again, he shouldn't have cleaned the storehouse, and he shouldn't have broken the IBN 5100.
+<END>
+
+#WRITE(PTR, $000009FC)
+Looking at the clock, it's 6:46 PM.
+<END>
+
+#WRITE(PTR, $00000A0C)
+Speaking from past experience, it's very likely that we avoided Mayuri's death for today since the world line changed. But just to prepare for the worst case, I should get back to the lab within the hour.
+<END>
+
+#WRITE(PTR, $00000A38)
+【Rintaro】Lukako, last year, do you remember breaking an old computer in the shrine storehouse?
+<END>
+
+#WRITE(PTR, $00000A52)
+【Luka】An old computer...? I don't think we had that, though.
+<END>
+
+#WRITE(PTR, $00000A62)
+【Luka】I don't really understand computers... I haven't played with them much.
+<END>
+
+#WRITE(PTR, $00000A72)
+When Lukako was a girl, she trembled when I asked her the same question.
+<END>
+
+#WRITE(PTR, $00000A82)
+And then she smiled as if to hide the worry and pain of not wanting to say I broke the computer.
+<END>
+
+#WRITE(PTR, $00000A92)
+But now he's not trembling.
+<END>
+
+#WRITE(PTR, $00000AA2)
+Lukako honestly doesn't know.
+<END>
+
+#WRITE(PTR, $00000AB2)
+【Rintaro】Go get your father for me.
+<END>
+
+#WRITE(PTR, $00000B16)
+I asked Lukako to fetch his father for me like always, so I could ask him whether or not the IBN 5100 was dedicated to the storehouse.
+<END>
+
+#WRITE(PTR, $00000B26)
+【Luka's Father】An old computer... Hmm, certainly, I do remember that.
+<END>
+
+#WRITE(PTR, $00000B40)
+【Luka's Father】I'll go check. Please wait a bit.
+<END>
+
+#WRITE(PTR, $00000B58)
+He says so, heading into the treasury in back, just like in the previous world line.
+<END>
+
+#WRITE(PTR, $00000B68)
+But in the previous world line, since Lukako secretly moved it, the IBN 5100 was no longer in the storehouse.
+<END>
+
+#WRITE(PTR, $00000B78)
+How will it turn out this time...
+<END>
+
+#WRITE(PTR, $00000BBC)
+Luka's Dad returns after about 10 minutes. His face was serious.
+<END>
+
+#WRITE(PTR, $00000BCC)
+I knew what to expect at that point.
+<END>
+
+#WRITE(PTR, $00000BDC)
+Even in this world line, I knew it--
+<END>
+
+#WRITE(PTR, $00000BEC)
+【Luka's Father】I couldn't find it. It's gone.
+<END>
+
+#WRITE(PTR, $00000BFC)
+I quickly peek at Lukako's face.
+<END>
+
+#WRITE(PTR, $00000C40)
+Blank. He doesn't seem to know anything.
+<END>
+
+#WRITE(PTR, $00000C50)
+Lukako is innocent. I'm sure of it.
+<END>
+
+#WRITE(PTR, $00000C68)
+【Luka's Father】The storehouse lock was broken. Someone might have taken it away.
+<END>
+
+#WRITE(PTR, $00000C78)
+【Rintaro】Taken it away...?
+<END>
+
+#WRITE(PTR, $00000C88)
+It didn't disappear, but was taken away?
+<END>
+
+#WRITE(PTR, $00000C98)
+So basically, a thief broke in!?
+<END>
+
+#WRITE(PTR, $00000CA8)
+【Luka's Father】There's evidence of a heavy object being dragged. That wasn't there at the end of the year cleaning, and the lock wasn't broken when I checked last month.
+<END>
+
+#WRITE(PTR, $00000CB8)
+【Luka's Father】I didn't think a thief would break in...
+<END>
+
+#WRITE(PTR, $00000D36)
+【Luka】So, we need to report it to the police...
+<END>
+
+#WRITE(PTR, $00000D46)
+I sigh a little while listening in on the Urushibara's discussion.
+<END>
+
+#WRITE(PTR, $00000D56)
+【Rintaro】There's no point if it's not in the storehouse...
+<END>
+
+#WRITE(PTR, $00000D66)
+It still won't come back.
+<END>
+
+#WRITE(PTR, $00000D76)
+There's only one, or maybe two D-mails left that I should cancel. Which one?
+<END>
+
+#WRITE(PTR, $00000D86)
+If I just cancel that one, I can get back the IBN 5100. That's how I feel.
+<END>
+
+#WRITE(PTR, $00000DA0)
+【Luka】Um, Okabe-san. I don't really understand, but... please stay careful.
+<END>
+
+#WRITE(PTR, $00000DB0)
+【Luka】Uh, I mean, you don't have to if your heart isn't in the right place.
+<END>
+
+#WRITE(PTR, $00000DCA)
+I made a bitter smile.
+<END>
+
+#WRITE(PTR, $00000DDA)
+Seeing Lukako frantically cheer me on is so adorable.
+<END>
+
+#WRITE(PTR, $00000DEA)
+But he's a guy.
+<END>
+
+#WRITE(PTR, $00000DFA)
+【Rintaro】You're using that phrase wrong, you know.
+<END>
+
+#WRITE(PTR, $00000E0A)
+I point that out and leave the shrine.
+<FILEEND08>
+

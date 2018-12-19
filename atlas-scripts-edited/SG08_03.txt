@@ -1,0 +1,479 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002B1E)
+
+#WRITE(PTR, $00000468)
+It's past 6PM when I get back to the lab.
+<END>
+
+#WRITE(PTR, $000004B0)
+【Mayuri】Tutturu-♪ Welcome homekarin.
+<END>
+
+#WRITE(PTR, $000004C0)
+There are two girls in the lab-- Mayuri and Kurisu.
+<END>
+
+#WRITE(PTR, $000004D0)
+【Rintaro】Just who is this "Karin"?
+<END>
+
+#WRITE(PTR, $000004EA)
+【Mayuri】Well, "welcome home" flows so well into "Okarin", doesn't it-? When you put them together, it's twice as delicious.
+<END>
+
+#WRITE(PTR, $000004FA)
+【Rintaro】It's not delicious.
+<END>
+
+#WRITE(PTR, $0000050A)
+【Mayuri】It's a greeting I can only use for Okarin, so why not-? Ehhehe-
+<END>
+
+#WRITE(PTR, $0000051A)
+【Rintaro】Where's Daru?
+<END>
+
+#WRITE(PTR, $00000534)
+【Mayuri】Hmm, probably at MayQueen, I guess-?
+<END>
+
+#WRITE(PTR, $00000544)
+【Rintaro】MayQueen...
+<END>
+
+#WRITE(PTR, $00000554)
+I see. So that shop's been revived, huh...
+<END>
+
+#WRITE(PTR, $00000564)
+Which means--
+<END>
+
+#WRITE(PTR, $00000574)
+【Rintaro】So when Faris said she had work, she meant at MayQueen, huh...
+<END>
+
+#WRITE(PTR, $00000584)
+【Rintaro】And you? You work there too, don't you?
+<END>
+
+#WRITE(PTR, $0000059E)
+【Mayuri】Course I do-. Why do you ask now of all times? You're weird, Okarin-
+<END>
+
+#WRITE(PTR, $000005B8)
+【Mayuri】Actually, Mayushii's on vacation to prepare for ComiMa tomorrow.
+<END>
+
+#WRITE(PTR, $000005C8)
+So that means... the distortion has been corrected, huh.
+<END>
+
+#WRITE(PTR, $000006AC)
+...When I have time, I should go to that store again. That's what I thought.
+<END>
+
+#WRITE(PTR, $00000752)
+Let's visit when Mayuri and Faris are working.
+<END>
+
+#WRITE(PTR, $00000762)
+Maybe I've taken a liking to that store's atmosphere, somehow or another.
+<END>
+
+#WRITE(PTR, $000007D2)
+Kurisu's reading a western book, as usual.
+<END>
+
+#WRITE(PTR, $000007E2)
+It's the usual book. It's pretty hefty, so it must take a long time to read.
+<END>
+
+#WRITE(PTR, $00000894)
+I enter the development room without calling out to Kurisu.
+<END>
+
+#WRITE(PTR, $000008A4)
+And there sits the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $000008B4)
+Today is Saturday, the 14th.
+<END>
+
+#WRITE(PTR, $000008C4)
+At first, Mayuri died on Friday the 13th.
+<END>
+
+#WRITE(PTR, $000008D4)
+The world line changed thanks to Suzuha, and Mayuri's death was delayed 24 hours, to Saturday, the 14th.
+<END>
+
+#WRITE(PTR, $000008E4)
+If you think with those guidelines, then Mayuri will be killed on Sunday, the 15th in this world line.
+<END>
+
+#WRITE(PTR, $000008F4)
+So, just to be safe, it's best I buy a few days' time with the Time Leap Machine to solve the problem with Lukako.
+<END>
+
+#WRITE(PTR, $00000904)
+I should time leap right away.
+<END>
+
+#WRITE(PTR, $00000914)
+Just before entering the lab, I peeked into the Braun Tube Workshop. The 42in Braun tube TV was on, so there's no problem there.
+<END>
+
+#WRITE(PTR, $00000986)
+But--
+<END>
+
+#WRITE(PTR, $000009A4)
+Will Mayuri really die on the 15th?
+<END>
+
+#WRITE(PTR, $000009C2)
+I don't have solid proof.
+<END>
+
+#WRITE(PTR, $000009E0)
+I might just be making an assumption.
+<END>
+
+#WRITE(PTR, $000009FE)
+Or maybe Mayuri dies today after all, in only two hours.
+<END>
+
+#WRITE(PTR, $00000A1C)
+Or maybe she'll survive today and get killed tomorrow.
+<END>
+
+#WRITE(PTR, $00000A3A)
+But what I wish for most, is that it won't be today or tomorrow: that Mayuri will never be killed.
+<END>
+
+#WRITE(PTR, $00000A58)
+What happens to Mayuri in this world line?
+<END>
+
+#WRITE(PTR, $00000A76)
+I can't think optimistically while I still haven't gotten the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000A94)
+But I want to make sure of what happens to Mayuri's fate in this world line.
+<END>
+
+#WRITE(PTR, $00000AB2)
+There's still a chance, however small, that she doesn't get killed.
+<END>
+
+#WRITE(PTR, $00000AD0)
+No, don't hesitate...!
+<END>
+
+#WRITE(PTR, $00000AEE)
+Hesitation could lead to an irreparable mistake.
+<END>
+
+#WRITE(PTR, $00000B0C)
+...I don't want to see Mayuri die again.
+<END>
+
+#WRITE(PTR, $00000B2A)
+It'll tear my heart apart.
+<END>
+
+#WRITE(PTR, $00000B48)
+It's too painful to see Mayuri's innocent smile end in a tragic death.
+<END>
+
+#WRITE(PTR, $00000B66)
+So I won't confirm Mayuri's death. I don't want to.
+<END>
+
+#WRITE(PTR, $00000B84)
+All I can do is assume the worst case scenario of death.
+<END>
+
+#WRITE(PTR, $00000BA2)
+We avoid Mayuri's death once I get back the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000BC0)
+No need for negligence until then.
+<END>
+
+#WRITE(PTR, $00000BDE)
+I need to time leap right at once--
+<END>
+
+#WRITE(PTR, $00000F60)
+【Kurisu】Okabe? What, why are you experimenting all by your--
+<END>
+
+#WRITE(PTR, $00000F70)
+When Kurisu starts talking, the discharge phenomenon has already started--
+<END>
+
+#WRITE(PTR, $00001322)
+TL16.PMF
+<END2>
+
+#WRITE(PTR, $000016F6)
+An unpleasant sound pierces my ears.
+<END>
+
+#WRITE(PTR, $00001706)
+My vision waves. My flesh and my soul feel momentarily separate.
+<END>
+
+#WRITE(PTR, $00001716)
+I grab my right wrist. I close my eyes, breathe deeper, and wait for my pulse to return to normal.
+<END>
+
+#WRITE(PTR, $00001726)
+I went back 57 hours with two time leaps.
+<END>
+
+#WRITE(PTR, $00001736)
+【Rintaro】Whew...
+<END>
+
+#WRITE(PTR, $00001746)
+After taking a deep breath, all that's left is a headache.
+<END>
+
+#WRITE(PTR, $00001756)
+I need to cancel Lukako's D-mail in this world line.
+<END>
+
+#WRITE(PTR, $00001766)
+Sitting down in a pipe chair, I try simulating what I should do in my brain.
+<END>
+
+#WRITE(PTR, $0000177A)
+...I have several chances to time leap.
+<END>
+
+#WRITE(PTR, $0000178A)
+I put away my phone while telling myself so.
+<END>
+
+#WRITE(PTR, $0000179A)
+I take a deep breath.
+<END>
+
+#WRITE(PTR, $000017AA)
+I don't want to sacrifice anyone else.
+<END>
+
+#WRITE(PTR, $000017BA)
+I know that's unreasonable, but I wanted to hope.
+<END>
+
+#WRITE(PTR, $000017CA)
+That in this world line, nothing happens.
+<END>
+
+#WRITE(PTR, $000017DA)
+That sort of pipe dream.
+<END>
+
+#WRITE(PTR, $00001906)
+Nothing happened on that day.
+<END>
+
+#WRITE(PTR, $00001916)
+Moeka's group didn't appear at the lab, and Mayuri didn't get wrapped up into an accident.
+<END>
+
+#WRITE(PTR, $00001926)
+In some sense, that was expected.
+<END>
+
+#WRITE(PTR, $00001936)
+The problem is tomorrow--
+<END>
+
+#WRITE(PTR, $00001A78)
+The next day.
+<END>
+
+#WRITE(PTR, $00001A88)
+7:30PM
+<END>
+
+#WRITE(PTR, $00001A98)
+I have the Time Leap Machine set for activation, with Monad Snake on hand, waiting for the fated time.
+<END>
+
+#WRITE(PTR, $00001AA8)
+As for turning on the 42in Braun tube TV, I bought a remote from a junk shop.
+<END>
+
+#WRITE(PTR, $00001AB8)
+Everything's ready in that regard too.
+<END>
+
+#WRITE(PTR, $00001AC8)
+Since ComiMa started today, Mayuri's been in Ariake since this morning.
+<END>
+
+#WRITE(PTR, $00001AD8)
+I told him not to come to the lab today, but Daru should be with her as a guard.
+<END>
+
+#WRITE(PTR, $00001AE8)
+So, even if Moeka's group does come, the chance Mayuri will be killed is low.
+<END>
+
+#WRITE(PTR, $00001AF8)
+In this world line, will the Rounders come? Will they not come?
+<END>
+
+#WRITE(PTR, $00001B08)
+Just how will things go--
+<END>
+
+#WRITE(PTR, $00001B18)
+7:35PM
+<END>
+
+#WRITE(PTR, $00001B28)
+The door wasn't kicked open.
+<END>
+
+#WRITE(PTR, $00001B38)
+Instead--
+<END>
+
+#WRITE(PTR, $00001C1C)
+I got a phone call from Daru.
+<END>
+
+#WRITE(PTR, $00001DD8)
+【Rintaro】Hello? Daru?
+<END>
+
+#WRITE(PTR, $00001DF4)
+【Itaru】Haa, ugh, guh, haah...
+<END>
+
+#WRITE(PTR, $00001E10)
+Something's wrong.
+<END>
+
+#WRITE(PTR, $00001E20)
+【Rintaro】Hey, what happened!? Daru!?
+<END>
+
+#WRITE(PTR, $00001E3C)
+【Itaru】I'm sor... strange guys came... and took Mayu-shi...
+<END>
+
+#WRITE(PTR, $00001E58)
+【Itaru】But it looks... like they... wanted... me...
+<END>
+
+#WRITE(PTR, $00001E68)
+【Itaru】I... ran... but instead, Mayu-shi...
+<END>
+
+#WRITE(PTR, $00001E78)
+【Itaru】Ooh, oohh, what do I do... Okarin... oooogh...
+<END>
+
+#WRITE(PTR, $00001EA0)
+The Rounders. They kidnapped her.
+<END>
+
+#WRITE(PTR, $00001EB0)
+And then they probably killed her mercilessly.
+<END>
+
+#WRITE(PTR, $00001EC0)
+Since, according to Moeka, Mayuri is unnecessary.
+<END>
+
+#WRITE(PTR, $00001ED0)
+I grind my teeth.
+<END>
+
+#WRITE(PTR, $00001EE0)
+No good after all.
+<END>
+
+#WRITE(PTR, $00001EF0)
+I still haven't avoided the irrational attack on Mayuri.
+<END>
+
+#WRITE(PTR, $00001F00)
+I toss Monad Snake onto the couch.
+<END>
+
+#WRITE(PTR, $00001F10)
+The preparations were a waste. Mayuri died somewhere else.
+<END>
+
+#WRITE(PTR, $00001FD6)
+I silently hang up, and walk to the development room.
+<END>
+
+#WRITE(PTR, $00001FE6)
+【Rintaro】I won't let you guys... kill Mayuri...!
+<END>
+
+#WRITE(PTR, $00001FF6)
+I activate the Time Leap Machine, sending my memories back to the past--
+<END>
+
+#WRITE(PTR, $000024FC)
+TL17.PMF
+<END2>
+
+#WRITE(PTR, $000028D0)
+An unpleasant sound pierces my ears.
+<END>
+
+#WRITE(PTR, $000028E0)
+My vision waves. My flesh and my soul feel momentarily separate.
+<END>
+
+#WRITE(PTR, $000028F0)
+I grab my right wrist. I close my eyes, breathe deeper, and wait for my pulse to return to normal.
+<END>
+
+#WRITE(PTR, $00002900)
+【Rintaro】Whew...
+<END>
+
+#WRITE(PTR, $00002910)
+After taking a deep breath, all that's left is a headache.
+<END>
+
+#WRITE(PTR, $00002920)
+I should have known.
+<END>
+
+#WRITE(PTR, $00002930)
+I didn't avoid Mayuri's death this time either.
+<END>
+
+#WRITE(PTR, $00002940)
+Changing the world line just delayed it 24 hours. That's all I needed to confirm.
+<END>
+
+#WRITE(PTR, $00002950)
+So I need to cancel Lukako's D-mail after all.
+<END>
+
+#WRITE(PTR, $00002960)
+Sitting down in a pipe chair, I try simulating what I should do in my brain.
+<FILEEND7A>
+

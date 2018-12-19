@@ -570,7 +570,7 @@ I take out my phone and put it to my ear.
 <END>
 
 #WRITE(PTR, $000031D4)
-【Rintaro】...Correct. This is my choice, and also Steins;Gate's choice. The crusade is near. ...El Psy Congroo.
+【Rintaro】...Correct. This is my choice, and also Steins;Gate's choice. Operation "Ragnarok" is near. ...El Psy Congroo.
 <END>
 
 #WRITE(PTR, $000031EA)

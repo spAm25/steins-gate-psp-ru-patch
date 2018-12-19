@@ -918,11 +918,11 @@ That's surely what the world has decided.
 <END>
 
 #WRITE(PTR, $00001A54)
-That's Steins Gate's choice.
+That's Steins;Gate's choice.
 <END>
 
 #WRITE(PTR, $00001A70)
-...What do you mean, Stein's Gate? You retarded?
+...What do you mean, Steins;Gate? You retarded?
 <END>
 
 #WRITE(PTR, $00001A80)

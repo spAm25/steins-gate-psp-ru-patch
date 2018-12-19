@@ -10,7 +10,8 @@
 <END2>
 
 #WRITE(PTR, $0000023A)
-Chapter 6 【Made in Complex】<END2>
+Chapter 7 【Made in Complex】
+<END2>
 
 #WRITE(PTR, $00000240)
 %L1

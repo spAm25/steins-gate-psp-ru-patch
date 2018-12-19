@@ -90,7 +90,7 @@ When the choices were to let her leak the time machine or to silence her by forc
 <END>
 
 #WRITE(PTR, $00001032)
-【Rintaro】Tch... I've gone too soft... Long ago, I would've already cut masseuse's life...
+【Rintaro】Tch... I've gone too soft... Long ago, I would've already cut Shining Finger's life...
 <END>
 
 #WRITE(PTR, $000010D6)
@@ -446,7 +446,7 @@ Moeka's tired of waiting.
 <END>
 
 #WRITE(PTR, $00003D5E)
-Ever since we told her the entire truth, this masseuse has been showing great interest in the time machine.
+Ever since we told her the entire truth, this Shining Finger has been showing great interest in the time machine.
 <END>
 
 #WRITE(PTR, $00003D6E)

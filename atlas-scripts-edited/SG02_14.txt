@@ -634,7 +634,7 @@ That's right. This isn't the time for carefree chatter.
 <END>
 
 #WRITE(PTR, $00003588)
-This is a decisive event for the crusade!
+This is a decisive event for the Operation "Ragnarok"!
 <END>
 
 #WRITE(PTR, $00003598)
@@ -726,7 +726,7 @@ I say monitor, but it's only about as big as a car GPS screen.
 <END>
 
 #WRITE(PTR, $0000381A)
-I compare it with the IBN 5100 image I got from Masseuse.
+I compare it with the IBN 5100 image I got from Shining Finger.
 <END>
 
 #WRITE(PTR, $0000382A)

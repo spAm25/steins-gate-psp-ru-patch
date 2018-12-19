@@ -1193,7 +1193,7 @@ Dust explosion.
 <END>
 
 #WRITE(PTR, $00003492)
-A chemical phenomenon used by guys like <DICT>MacDyver</DICT> or <DICT>Master Cheaton</DICT>.
+A chemical phenomenon used by guys like <DICT>MacDyver</DICT> or %B2SMaster Cheaton%B2E.
 <END>
 
 #WRITE(PTR, $000034A2)

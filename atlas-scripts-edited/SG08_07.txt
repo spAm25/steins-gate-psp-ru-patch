@@ -1,0 +1,491 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00003A62)
+
+#WRITE(PTR, $000007D0)
+We arranged to meet tomorrow morning, so I hurry up and leave the shrine.
+<END>
+
+#WRITE(PTR, $000007E0)
+I breathe a sigh of relief when only a few other people are passing over Manseibashi bridge.
+<END>
+
+#WRITE(PTR, $00000834)
+【Kurisu】So?
+<END>
+
+#WRITE(PTR, $00000844)
+Kurisu calls out while walking behind me.
+<END>
+
+#WRITE(PTR, $00000854)
+I had her wait outside the torii, but she was completely useless.
+<END>
+
+#WRITE(PTR, $00000864)
+【Kurisu】So in the end, you started going out with her? Well, I can kind of guess based on Urushibara-san's reaction.
+<END>
+
+#WRITE(PTR, $00000874)
+【Rintaro】You, you saw that!?
+<END>
+
+#WRITE(PTR, $0000088E)
+【Kurisu】You told me to watch it, didn't you?
+<END>
+
+#WRITE(PTR, $0000089E)
+Oh yeah...
+<END>
+
+#WRITE(PTR, $000008AE)
+In the end, she just stood there without being any use.
+<END>
+
+#WRITE(PTR, $000008BE)
+【Rintaro】...looks like we're going on a date tomorrow.
+<END>
+
+#WRITE(PTR, $000008D8)
+【Kurisu】Hmmm...
+<END>
+
+#WRITE(PTR, $000008E8)
+Kurisu makes a small nasal sound.
+<END>
+
+#WRITE(PTR, $000008F8)
+She hasn't looked my way for a while.
+<END>
+
+#WRITE(PTR, $00000908)
+【Kurisu】Our little insane mad scientist is dating a high school girl, huh. That's not insane at all.
+<END>
+
+#WRITE(PTR, $00000918)
+【Rintaro】Guh...
+<END>
+
+#WRITE(PTR, $00000928)
+Why that... Kurisu talks full of sarcasm...
+<END>
+
+#WRITE(PTR, $00000938)
+Let's ignore her and just go to the lab.
+<END>
+
+#WRITE(PTR, $00000954)
+But just as I quicken my pace, she grabs my shoulder, pulling me back.
+<END>
+
+#WRITE(PTR, $00000964)
+I almost fell backwards.
+<END>
+
+#WRITE(PTR, $000009AC)
+【Rintaro】What was that for!?
+<END>
+
+#WRITE(PTR, $000009BC)
+【Kurisu】Sorry. I was getting a little irritated, so it was hard to talk.
+<END>
+
+#WRITE(PTR, $000009CC)
+Kurisu didn't say what it was that irritated her.
+<END>
+
+#WRITE(PTR, $000009DC)
+Instead she rubbed both of her temples.
+<END>
+
+#WRITE(PTR, $000009EC)
+【Kurisu】You made this choice to save Mayuri. I'll change my way of thinking too.
+<END>
+
+#WRITE(PTR, $00000A06)
+【Kurisu】So, for your date tomorrow, do you have any plans?
+<END>
+
+#WRITE(PTR, $00000A16)
+Date plan.
+<END>
+
+#WRITE(PTR, $00000A26)
+I told Lukako I'd think about it until tomorrow.
+<END>
+
+#WRITE(PTR, $00000A36)
+I didn't say anything clear at all.
+<END>
+
+#WRITE(PTR, $00000A46)
+Even though it's for the sake of saving Mayuri, I can't help but feel uneasy about the whole thing...
+<END>
+
+#WRITE(PTR, $00000A60)
+【Kurisu】So, what?
+<END>
+
+#WRITE(PTR, $00000A70)
+Uh, let's cut through this with Hououin Kyouma...
+<END>
+
+#WRITE(PTR, $00000A80)
+【Rintaro】...Assistant of mine, let me tell you one thing.
+<END>
+
+#WRITE(PTR, $00000A90)
+【Rintaro】Born with the same IQ of 170 as Isaac Newton, I, Hououin Kyouma, am an insane mad scientist.
+<END>
+
+#WRITE(PTR, $00000AAA)
+【Kurisu】So?
+<END>
+
+#WRITE(PTR, $00000ABA)
+【Rintaro】Naturally, as a mad scientist, what interests me, more than women, is research, the destruction of the ruling structures manipulating the world from the shadows, and the creation of chaos--
+<END>
+
+#WRITE(PTR, $00000AD4)
+【Kurisu】You look like nothing but a virgin. It really seems li--
+<END>
+
+#WRITE(PTR, $00000AE4)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000AFE)
+【Kurisu】...Hah!?
+<END>
+
+#WRITE(PTR, $00000B18)
+【Kurisu】...P, pretend you didn't just hear that.
+<END>
+
+#WRITE(PTR, $00000B28)
+【Rintaro】Damn... you assistant...! You really dared to bluntly point out the truth...! I won't forgive you, ever!
+<END>
+
+#WRITE(PTR, $00000B42)
+【Kurisu】S-sorry...
+<END>
+
+#WRITE(PTR, $00000B52)
+【Rintaro】Anyway, what about you!? You have so much dating experience you can lecture me about it?
+<END>
+
+#WRITE(PTR, $00000B62)
+【Kurisu】Ugh...
+<END>
+
+#WRITE(PTR, $00000B72)
+Christina's face warps oddly for just a second, but I didn't miss it.
+<END>
+
+#WRITE(PTR, $00000B82)
+【Rintaro】Look at that! You've spent all your time on study and research, so you have zero experience, don't you!? You spent lonely youthful days in faraway America land, didn't you!? Ehh!?
+<END>
+
+#WRITE(PTR, $00000B9C)
+【Kurisu】Shut up! Is being a virgin so bad!?
+<END>
+
+#WRITE(PTR, $00000BAC)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000BC6)
+【Kurisu】...Hah!?
+<END>
+
+#WRITE(PTR, $00000BE0)
+【Kurisu】Ah... awhawha...
+<END>
+
+#WRITE(PTR, $00000BF0)
+【Rintaro】Screaming "virgin" in the middle of Akiba as an 18 year old genius girl... huh.
+<END>
+
+#WRITE(PTR, $00000C00)
+That's such a controversial statement it wouldn't be weird if it got picked up on various blogs.
+<END>
+
+#WRITE(PTR, $00000C10)
+Thankfully, it's early morning, but the few pedestrians still grin when they noticed Kurisu.
+<END>
+
+#WRITE(PTR, $00000C2A)
+【Kurisu】L-let's get out of here!
+<END>
+
+#WRITE(PTR, $00000C3A)
+Kurisu starts walking hurriedly.
+<END>
+
+#WRITE(PTR, $00000D9E)
+【Kurisu】What's important for a first date with a girl is to make a good impression.
+<END>
+
+#WRITE(PTR, $00000E70)
+【Kurisu】An unclean appearance is out of the question. A haircut is especially important. Long hair looks dirty, so it's No Good.
+<END>
+
+#WRITE(PTR, $00000F14)
+【Kurisu】As for clothes, you should wear something exactly the right size. In Akiba especially, it's trendy for young men to wear baggy clothes, but it looks sloppy, so it's not good.
+<END>
+
+#WRITE(PTR, $00000FB8)
+...So why exactly am I in a maid cafe, getting first date advice, from my younger assistant (who is also a girl)?
+<END>
+
+#WRITE(PTR, $0000105C)
+【Kurisu】On the first date, both parties can be nervous, so conversation tends to break. What's important is to play conversation catch.
+<END>
+
+#WRITE(PTR, $00001100)
+【Kurisu】One sided conversations aren't fun for the other person. Girls especially like to talk, so guys should listen and keep the conversation turning.
+<END>
+
+#WRITE(PTR, $000011A4)
+【Kurisu】Not just by listening, but throwing in appropriate responses is necessary. That'll make the girl think "He's really listening to me".
+<END>
+
+#WRITE(PTR, $00001252)
+【Kurisu】Basically everything you're not, Okabe.
+<END>
+
+#WRITE(PTR, $000012F6)
+【Kurisu】But for now, start with talking normally. Ah, that idiotic laughter of yours is obviously prohibited.
+<END>
+
+#WRITE(PTR, $000013A4)
+【Kurisu】You're not gentle with girls in the first place. You talk too pompously. You fire off nonsensical delusions.
+<END>
+
+#WRITE(PTR, $00001448)
+【Rintaro】Hey! You're just reading out of a dating manual book, so stop looking down on me, you American virgin, you!
+<END>
+
+#WRITE(PTR, $000014EC)
+Our class of romance illiterates is studying out of a dating manual book we just bought from a bookstore.
+<END>
+
+#WRITE(PTR, $0000159A)
+【Kurisu】Who're you calling an American virgin?
+<END>
+
+#WRITE(PTR, $0000163E)
+【Rintaro】Who else but you?
+<END>
+
+#WRITE(PTR, $000016EC)
+【Kurisu】Yeah, whatever, you virgin.
+<END>
+
+#WRITE(PTR, $00001790)
+【Kurisu】Do you know the saying "If a key opens many locks, it's a master key; if a lock is opened by many keys, it's a shitty lock"?
+<END>
+
+#WRITE(PTR, $00001834)
+【Rintaro】That's not a saying. That's more like a low level argument finisher.
+<END>
+
+#WRITE(PTR, $000018E2)
+【Kurisu】...true. It's kind of ineffective.
+<END>
+
+#WRITE(PTR, $00001990)
+【Kurisu】But this dating manual actually has some interesting things written.
+<END>
+
+#WRITE(PTR, $00001A34)
+Kurisu is flipping through the manual on top of the table.
+<END>
+
+#WRITE(PTR, $00001ADC)
+【Kurisu】Like "walk casually on the side of the road" or "It's prohibited for girls to bring out money".
+<END2>
+
+#WRITE(PTR, $00001AF6)
+ Okay? For your date tomorrow, you need to abide by all of these rules.
+<END>
+
+#WRITE(PTR, $00001B9E)
+I wonder if I really can be that careful...
+<END>
+
+#WRITE(PTR, $00001C4C)
+【Kurisu】Ummm, after that, there's... carry a clean handkerchief. When the girl goes to sit on a park bench, spread it out.
+<END>
+
+#WRITE(PTR, $00001CF0)
+【Rintaro】I'm not a caretaker.
+<END>
+
+#WRITE(PTR, $00001D9E)
+【Kurisu】That's what it says, so there's no helping it.
+<END>
+
+#WRITE(PTR, $00001E4C)
+【Kurisu】For meals, avoid standing soba stalls or fast food. Family restaurants are borderline. Anything else depends on your budget.
+<END>
+
+#WRITE(PTR, $00001EF0)
+【Rintaro】Family restaurants are borderline...
+<END>
+
+#WRITE(PTR, $00001F94)
+What family restaurants are there around Akiba...
+<END>
+
+#WRITE(PTR, $00002038)
+【Kurisu】Come to the meeting place at least 15 minutes beforehand. Tardiness prohibited.
+<END>
+
+#WRITE(PTR, $000020DC)
+【Rintaro】15 minutes beforehand...
+<END>
+
+#WRITE(PTR, $0000218A)
+【Kurisu】After that's a date course, huh. Movies, art galleries, strolling through town, and meals all seem safe.
+<END>
+
+#WRITE(PTR, $0000222E)
+【Rintaro】I see, that's unexpectedly simple.
+<END>
+
+#WRITE(PTR, $000022D2)
+【Rintaro】I was almost certain that a first date required going to a beautiful beach resort, exchanging your first kiss bathed in the light of the setting sun and stuff--
+<END>
+
+#WRITE(PTR, $00002380)
+【Kurisu】Ah, that's really romantic!
+<END>
+
+#WRITE(PTR, $0000242E)
+【Kurisu】...no, that's a wild virgin imagination. You've had too much manga and dramas.
+<END>
+
+#WRITE(PTR, $000024D2)
+【Rintaro】You too.
+<END>
+
+#WRITE(PTR, $00002576)
+【Kurisu】And your partner's a minor, so didn't you think it's filthy to bring her into a hotel?
+<END>
+
+#WRITE(PTR, $0000261A)
+【Rintaro】...no, I didn't
+<END>
+
+#WRITE(PTR, $000026BE)
+The day I do that... is the day I run full speed on the path to Uho!
+<END>
+
+#WRITE(PTR, $00002762)
+Not to mention how simple a girl Lukako is. If I brought her to a hotel, she'd probably faint from the shock.
+<END>
+
+#WRITE(PTR, $00002810)
+【Kurisu】Well, we're just about done. How was it? Was my lecture a little helpful?
+<END>
+
+#WRITE(PTR, $000028B4)
+【Rintaro】It wasn't your lecture but the manual's lecture, right?
+<END>
+
+#WRITE(PTR, $00002958)
+But strolling around town counts as a date, huh.
+<END>
+
+#WRITE(PTR, $000029FC)
+Then I don't have to waste money.
+<END>
+
+#WRITE(PTR, $00002B4E)
+【Faris】Nyanya? Kyouma, are you going on a date with someoneya?
+<END>
+
+#WRITE(PTR, $00002C02)
+Faris came to our table carrying drinks.
+<END>
+
+#WRITE(PTR, $00002CB0)
+【Faris】Thanks for waiting♪ I'll make your iced coffee nyan♪
+<END>
+
+#WRITE(PTR, $00002D54)
+As usual, she pours in milk and syrup right in front of me.
+<END>
+
+#WRITE(PTR, $00002E02)
+Kurisu looks on in great interest. Which reminds me, I guess this is her first time at a maid cafe.
+<END>
+
+#WRITE(PTR, $00002EB0)
+【Faris】Is your partner Mayushii nya?
+<END>
+
+#WRITE(PTR, $00002F54)
+While carefully stirring Kurisu's iced coffee with a straw, Faris asks such an ambiguous question.
+<END>
+
+#WRITE(PTR, $00002FF8)
+【Rintaro】Why'd you bring up Mayuri?
+<END>
+
+#WRITE(PTR, $000030A6)
+【Faris】Hmmya? Not her nya? Then...
+<END>
+
+#WRITE(PTR, $0000314A)
+Faris stares at Kurisu's face--
+<END>
+
+#WRITE(PTR, $000031F8)
+【Faris】Is it this girl nya?
+<END>
+
+#WRITE(PTR, $000032A6)
+【Kurisu】Hwehh...!
+<END>
+
+#WRITE(PTR, $0000334A)
+【Rintaro】No, this is my assistant.
+<END>
+
+#WRITE(PTR, $000033F8)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $0000349C)
+Kurisu and I quickly exchange glances. With mutual bloodthirst. As sharp as a sword's blade. I swear I saw sparks fly.
+<END>
+
+#WRITE(PTR, $0000354A)
+【Faris】Then, some other girl nya? Kyouma's making moves on too many girls, nya.
+<END>
+
+#WRITE(PTR, $000035EE)
+【Kurisu】Hoh... You're making moves on too many girls, huh.
+<END>
+
+#WRITE(PTR, $00003692)
+【Rintaro】What nonsense.
+<END>
+
+#WRITE(PTR, $00003736)
+No, well, I did hug Faris a while ago.
+<END>
+
+#WRITE(PTR, $000037DA)
+Or so I say, but when was that? I'm certain it was on the 14th, so when I time leaped to the 12th, that fact should've been undone...
+<END>
+
+#WRITE(PTR, $00003890)
+That's kinda lonely, isn't it...
+<FILEEND49>
+

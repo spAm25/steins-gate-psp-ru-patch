@@ -167,7 +167,7 @@ Don't tell me, is she...
 <END>
 
 #WRITE(PTR, $00001C22)
-【Rintaro】You do seem like you'll make a good comrade, Working Warrior. The day of crusade is upon us!
+【Rintaro】You do seem like you'll make a good comrade, Working Warrior. The day of Operation "Ragnarok" is upon us!
 <END>
 
 #WRITE(PTR, $00001CC6)

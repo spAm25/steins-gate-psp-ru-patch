@@ -642,7 +642,7 @@ That's the worldly wisdom I've learned in life so far.
 <END>
 
 #WRITE(PTR, $00001BC2)
-At any rate, Masseuse is shooting to her heart's content.
+At any rate, Shining Finger is shooting to her heart's content.
 <END>
 
 #WRITE(PTR, $00001BD2)

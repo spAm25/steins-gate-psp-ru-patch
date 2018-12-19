@@ -242,7 +242,7 @@ I say monitor, but it's only about as big as a car GPS screen.
 <END>
 
 #WRITE(PTR, $000012D4)
-I compare it with the IBN 5100 image I got from Masseuse.
+I compare it with the IBN 5100 image I got from Shining Finger.
 <END>
 
 #WRITE(PTR, $000012E4)

@@ -497,7 +497,7 @@ That's right.
 <END>
 
 #WRITE(PTR, $000046AA)
-After being confronted by the masseuse and the cat-girl, I almost forgot my real objective.
+After being confronted by the Shining Finger and the cat-girl, I almost forgot my real objective.
 <END>
 
 #WRITE(PTR, $000046F2)
@@ -789,7 +789,7 @@ No time lag!?
 <END>
 
 #WRITE(PTR, $0000569A)
-As expected of Glowing MasseuseShining Finger. The woman whose fingers move at the speed of light.
+As expected of Shining Finger. The woman whose fingers move at the speed of light.
 <END>
 
 #WRITE(PTR, $000056AA)

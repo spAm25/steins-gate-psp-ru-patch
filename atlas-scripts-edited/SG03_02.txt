@@ -1271,7 +1271,7 @@ Now that we've reproduced the discharge phenomenon, as well as D-mail, we should
 <END>
 
 #WRITE(PTR, $00005680)
-Masseuse is more qualified to type out mail, but since she's not a lab mem, I'll leave this role to Kurisu.
+Shining Finger is more qualified to type out mail, but since she's not a lab mem, I'll leave this role to Kurisu.
 <END>
 
 #WRITE(PTR, $0000569A)

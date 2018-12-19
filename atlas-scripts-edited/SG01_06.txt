@@ -214,7 +214,7 @@ With a blushing face, he's fidgeting as if he's gonna start crying.
 <END>
 
 #WRITE(PTR, $00000EEA)
-【Luka】Eh, uhmm... You're talking about the demon sword, SamidareSummer Rain, right?
+【Luka】Eh, uhmm... You're talking about the demon sword, "Samidare", right?
 <END>
 
 #WRITE(PTR, $00000EFA)
@@ -242,7 +242,7 @@ I ignore Mayuri's question.
 <END>
 
 #WRITE(PTR, $00000FC8)
-【Rintaro】So, Lukako. Do you use the "demon sword, Summer Rain", just like I told you to?
+【Rintaro】So, Lukako. Do you use the "demon sword, Samidare", just like I told you to?
 <END>
 
 #WRITE(PTR, $00000FE2)
@@ -254,7 +254,7 @@ I ignore Mayuri's question.
 <END>
 
 #WRITE(PTR, $00001002)
-"Demon sword, Summer Rain" is a fake blade, but that is because it is hiding it's true form from the world.
+"Demon sword, Samidare" is a fake blade, but that is because it is hiding it's true form from the world.
 <END>
 
 #WRITE(PTR, $00001012)
@@ -350,7 +350,7 @@ I, Hououin Kyouma, with the use of my <DICT>Mind Control</DICT>, taught Lukako a
 <END>
 
 #WRITE(PTR, $000013CA)
-The talk about "demon sword, Summer Rain" and so on, are linked to that.
+The talk about "demon sword, Samidare" and so on, are linked to that.
 <END>
 
 #WRITE(PTR, $000013DA)
@@ -450,7 +450,7 @@ That's why I came here instead of the Kanda Shrine.
 <END>
 
 #WRITE(PTR, $00001602)
-【Luka】Eh? The usual "thing" is... The "Summer Rain"?
+【Luka】Eh? The usual "thing" is... The "Samidare"?
 <END>
 
 #WRITE(PTR, $00001612)

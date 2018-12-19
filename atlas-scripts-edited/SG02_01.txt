@@ -252,7 +252,7 @@ Since yesterday, they've been sent at random.
 <END>
 
 #WRITE(PTR, $00000C12)
-They're all from "Glowing MasseuseShining Finger"-- the woman named Kiryuu Moeka.
+They're all from "Shining Finger"-- the woman named Kiryuu Moeka.
 <END>
 
 #WRITE(PTR, $00000C22)
@@ -268,7 +268,7 @@ With that said, this frequency is a little irritating.
 <END>
 
 #WRITE(PTR, $00000C52)
-Since Masseuse is a mail demon, I should've expected this. I was careless.
+Since Shining Finger is a mail demon, I should've expected this. I was careless.
 <END>
 
 #WRITE(PTR, $00000CFE)

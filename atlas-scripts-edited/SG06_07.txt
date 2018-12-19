@@ -74,11 +74,11 @@ I click my tongue thinking so, but I soon realize I'm mistaken.
 <END>
 
 #WRITE(PTR, $00000C3E)
-【Premise Announcer】Eh-, currently, operations of the Yamate, Keihin-Tohoku, and Sobu Lines are all suspended.
+【Station Announcer】Eh-, currently, operations of the Yamate, Keihin-Tohoku, and Sobu Lines are all suspended.
 <END>
 
 #WRITE(PTR, $00000C4E)
-【Premise Announcer】We sincerely apologize for any inconveniences to our busy passengers, and kindly ask for your cooperation--
+【Station Announcer】We sincerely apologize for any inconveniences to our busy passengers, and kindly ask for your cooperation--
 <END>
 
 #WRITE(PTR, $00000C5E)

@@ -1,0 +1,1199 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002E90)
+
+#WRITE(PTR, $000007DC)
+Tokyo Big Sight, when the day's already ended.
+<END>
+
+#WRITE(PTR, $000007EC)
+There are lingering heroes checking their spoils of war who have yet to make the odyssey home, but Ariake after ComiMa's opening day is silently still.
+<END>
+
+#WRITE(PTR, $000007FC)
+Almost as if the crowd Lukako and I saw at daytime was a lie.
+<END>
+
+#WRITE(PTR, $0000080C)
+ComiMa is open for three straight days starting today, but it already feels like the end of a festival.
+<END>
+
+#WRITE(PTR, $0000081C)
+Of course, this silence is just for the night. Tomorrow, people will once again fill this spacious promenade.
+<END>
+
+#WRITE(PTR, $0000082C)
+This spacious, dimly lit, promenade.
+<END>
+
+#WRITE(PTR, $0000083C)
+I stand there, firmly grasping at my own heart.
+<END>
+
+#WRITE(PTR, $0000084C)
+I'm unprepared, even at the appointed time.
+<END>
+
+#WRITE(PTR, $0000085C)
+Mayuri's death is coming in only a few dozen more minutes.
+<END>
+
+#WRITE(PTR, $0000086C)
+I want to be near her in her final moments.
+<END>
+
+#WRITE(PTR, $0000087C)
+I won't let her leave this world all alone by herself.
+<END>
+
+#WRITE(PTR, $0000088C)
+That's why I came here right after parting ways with Lukako.
+<END>
+
+#WRITE(PTR, $0000089C)
+Mayuri should still be Ariake somewhere.
+<END>
+
+#WRITE(PTR, $000008AC)
+I contacted both Mayuri and Daru by mail.
+<END>
+
+#WRITE(PTR, $000008BC)
+So, if they're still in Ariake, they would come here.
+<END>
+
+#WRITE(PTR, $0000095E)
+As soon as I say that, I get a mail.
+<END>
+
+#WRITE(PTR, $0000097C)
+But the name displayed was not the one I was expecting.
+<END>
+
+#WRITE(PTR, $00000A54)
+【Rintaro】Lukako...
+<END>
+
+#WRITE(PTR, $00000A64)
+What could that mail be talking about?
+<END>
+
+#WRITE(PTR, $00000A74)
+Even though it's not written, I know immediately.
+<END>
+
+#WRITE(PTR, $00000B0E)
+That's why I had to reply like this.
+<END>
+
+#WRITE(PTR, $00000BAC)
+"I'm okay with this. This is what I chose, so there's no need for you to worry".
+<END>
+
+#WRITE(PTR, $00000C78)
+Lukako might not stop blaming herself even though I sent her that mail.
+<END>
+
+#WRITE(PTR, $00000C88)
+I couldn't help but send it either way.
+<END>
+
+#WRITE(PTR, $00000C98)
+Because I also sent that mail to convince myself.
+<END>
+
+#WRITE(PTR, $00000CA8)
+Suddenly, I remember this morning.
+<END>
+
+#WRITE(PTR, $00000CB8)
+Early morning, Mayuri dropped by the lab before going to ComiMa.
+<END>
+
+#WRITE(PTR, $00000ECE)
+My field of vision was stained pure white after being in the dark.
+<END>
+
+#WRITE(PTR, $00000EDE)
+I squint my eyes through the fluorescent lamp's radiance and raise my head.
+<END>
+
+#WRITE(PTR, $00001040)
+【Mayuri】Ah, sorry, Okarin-. Did I wake you up?
+<END>
+
+#WRITE(PTR, $00001050)
+Mayuri walked into the lab tugging a carrying case.
+<END>
+
+#WRITE(PTR, $00001060)
+【Rintaro】No, I wasn't actually sleeping.
+<END>
+
+#WRITE(PTR, $00001070)
+At this point, I was up all night trying to solve the problem of how to handle my last date with Lukako.
+<END>
+
+#WRITE(PTR, $00001080)
+【Rintaro】You're pretty early, Mayuri.
+<END>
+
+#WRITE(PTR, $0000109A)
+【Mayuri】Actually, Mayushii's here to pick up her costumes.
+<END>
+
+#WRITE(PTR, $000010AA)
+【Mayuri】And breakfast, while we're at it.
+<END>
+
+#WRITE(PTR, $000010BA)
+Having said that, she takes out a sandwich and potato salad from the convenience store bag she's holding.
+<END>
+
+#WRITE(PTR, $000010CA)
+【Rintaro】Are you heading out... to ComiMa from here?
+<END>
+
+#WRITE(PTR, $000010E4)
+【Mayuri】Yeah♪ Actually, it looks like Daru-kun already left on the first bus-
+<END>
+
+#WRITE(PTR, $000010F4)
+【Rintaro】I see...
+<END>
+
+#WRITE(PTR, $0000110E)
+【Mayuri】Heyhey, Okarin. Where'd you go with Luka-chan yesterday-?
+<END>
+
+#WRITE(PTR, $0000111E)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001138)
+【Mayuri】Did you have a fun date? You know, Luka-chan hasn't replied to my mails since yesterday-
+<END>
+
+#WRITE(PTR, $00001148)
+【Rintaro】You mailed Lukako?
+<END>
+
+#WRITE(PTR, $00001158)
+【Mayuri】Yeah. Mayushii's a little worried, you know.
+<END>
+
+#WRITE(PTR, $00001168)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001178)
+Yesterday, Lukako burst into tears barely five minutes after we met up. Then we parted ways.
+<END>
+
+#WRITE(PTR, $00001188)
+That's why I couldn't give answer.
+<END>
+
+#WRITE(PTR, $000011A2)
+【Mayuri】By any chance, did you make Luka-chan cry again-? That would make Mayushii a sad panda...
+<END>
+
+#WRITE(PTR, $000011B2)
+【Rintaro】...sad panda?
+<END>
+
+#WRITE(PTR, $000011C2)
+【Mayuri】Sad panda. I mean, Luka-chan is Mayushii's friend, you know.
+<END>
+
+#WRITE(PTR, $000011D2)
+This day is Mayuri's last.
+<END>
+
+#WRITE(PTR, $000011E2)
+This day is also my last with Lukako.
+<END>
+
+#WRITE(PTR, $000011F2)
+Those thoughts float through my mind.
+<END>
+
+#WRITE(PTR, $00001202)
+Is it okay to end this while both Mayuri and Lukako are sad?
+<END>
+
+#WRITE(PTR, $00001212)
+End, huh...
+<END>
+
+#WRITE(PTR, $00001222)
+Just thinking about it makes me want to vomit.
+<END>
+
+#WRITE(PTR, $00001232)
+And then, I felt like relying on someone, and tried to have a strategy talk with Mayuri.
+<END>
+
+#WRITE(PTR, $00001242)
+【Rintaro】Are you going to be at ComiMa all day today?
+<END>
+
+#WRITE(PTR, $0000125C)
+【Mayuri】Eh? Yeah, but why-?
+<END>
+
+#WRITE(PTR, $0000126C)
+【Rintaro】Is it okay, if I take Lukako there?
+<END>
+
+#WRITE(PTR, $00001286)
+【Mayuri】Really? Of course it's okay-
+<END>
+
+#WRITE(PTR, $00001296)
+Mayuri smiles happily, takes some milk out of the refrigerator to wash down the sandwich, and enjoys her breakfast.
+<END>
+
+#WRITE(PTR, $000012A6)
+【Rintaro】How did it go when you asked Lukako to cosplay?
+<END>
+
+#WRITE(PTR, $000012C0)
+【Mayuri】Wellll. I couldn't convince her in the end-
+<END>
+
+#WRITE(PTR, $000012D0)
+【Mayuri】It wouldn't be good if we forced her to do it against her will and traumatized her.
+<END>
+
+#WRITE(PTR, $000012E0)
+So, basically, you gave up...
+<END>
+
+#WRITE(PTR, $000012FA)
+【Mayuri】But you know, it might be a good idea to bring Luka-chan to ComiMa-
+<END>
+
+#WRITE(PTR, $0000130A)
+【Mayuri】Maybe after experiencing the atmosphere there, Luka-chan might think "I wanna try that too", you think?
+<END>
+
+#WRITE(PTR, $0000131A)
+【Mayuri】And then maybe we could get her to cosplay at the next winter ComiMa.
+<END>
+
+#WRITE(PTR, $0000132A)
+【Rintaro】Maybe, maybe not.
+<END>
+
+#WRITE(PTR, $0000133A)
+【Mayuri】That would be nice, though-
+<END>
+
+#WRITE(PTR, $00001354)
+【Mayuri】Heyhey, will you really bring Luka-chan over today?
+<END>
+
+#WRITE(PTR, $00001364)
+【Rintaro】Yeah.
+<END>
+
+#WRITE(PTR, $00001374)
+【Mayuri】Will you come too and look at the costumes Mayuri made, Okarin?
+<END>
+
+#WRITE(PTR, $00001384)
+【Rintaro】That's how it's gonna be.
+<END>
+
+#WRITE(PTR, $0000139E)
+【Mayuri】I see♪ I'd be really happy if you two really do come!
+<END>
+
+#WRITE(PTR, $000013AE)
+Mayuri packs up the costumes into the carrying case.
+<END>
+
+#WRITE(PTR, $000013C8)
+【Mayuri】Well, gotta get going
+<END>
+
+#WRITE(PTR, $000013E2)
+【Mayuri】Be sure to come, okay? 'Cause I'll be waiting-. I'll do my best to guide you not just today, but tomorrow too.
+<END>
+
+#WRITE(PTR, $000013FE)
+I bite my teeth down hard.
+<END>
+
+#WRITE(PTR, $0000140E)
+Whether or not Mayuri gets to go tomorrow.
+<END>
+
+#WRITE(PTR, $0000141E)
+All depends on my actions.
+<END>
+
+#WRITE(PTR, $0000142E)
+That's the way I thought back then.
+<END>
+
+#WRITE(PTR, $0000143E)
+If I had handled this day as planned, my transient status as Lukako's lover would've ended.
+<END>
+
+#WRITE(PTR, $0000144E)
+Lukako would've returned to manhood.
+<END>
+
+#WRITE(PTR, $0000145E)
+Mayuri would uneventfully go to ComiMa tomorrow too.
+<END>
+
+#WRITE(PTR, $0000146E)
+Mayuri would be able to welcome tomorrow.
+<END>
+
+#WRITE(PTR, $00001542)
+【Mayuri】Okarin? Something wrong-?
+<END>
+
+#WRITE(PTR, $00001552)
+Mayuri tilts her head to look at me.
+<END>
+
+#WRITE(PTR, $00001562)
+Like always, she can sense my minute nuances.
+<END>
+
+#WRITE(PTR, $00001572)
+That's why I strain hard to plaster on a smile.
+<END>
+
+#WRITE(PTR, $00001582)
+And answer as Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00001592)
+【Rintaro】...Nothing's wrong. Just thinking a little on how to confront the "Organization" that controls the world.
+<END>
+
+#WRITE(PTR, $000015A2)
+【Rintaro】Let's meet in Ariake at noon.
+<END>
+
+#WRITE(PTR, $000015BC)
+【Mayuri】Okay. I'll be waiting.
+<END>
+
+#WRITE(PTR, $00001692)
+Giving that answer, Mayuri doesn't immediately leave.
+<END>
+
+#WRITE(PTR, $000016A2)
+She stands still in front of the door for a while.
+<END>
+
+#WRITE(PTR, $000016BC)
+【Mayuri】Mayushii's always here for you to talk to when you need me, okay?
+<END>
+
+#WRITE(PTR, $000016CC)
+【Rintaro】Mayuri...
+<END>
+
+#WRITE(PTR, $000016E6)
+【Mayuri】Ehhehe-. Then, I'm off-!
+<END>
+
+#WRITE(PTR, $00001786)
+Carrying case in hand, Mayuri cheerfully flies out like a white rabbit in Wonderland.
+<END>
+
+#WRITE(PTR, $00001796)
+The sound of her leaving footsteps eventually fades away.
+<END>
+
+#WRITE(PTR, $000017A6)
+I take a deep breath, left all alone.
+<END>
+
+#WRITE(PTR, $000018CE)
+The time limit was 13 hours after this point in time.
+<END>
+
+#WRITE(PTR, $000018DE)
+In those 13 hours, I was to change Lukako back into a guy.
+<END>
+
+#WRITE(PTR, $000018EE)
+I thought I had to change her back.
+<END>
+
+#WRITE(PTR, $000018FE)
+But now--
+<END>
+
+#WRITE(PTR, $00001A6C)
+【Mayuri】Okarin...
+<END>
+
+#WRITE(PTR, $00001A7C)
+A calling voice brings me back to my senses.
+<END>
+
+#WRITE(PTR, $00001A8C)
+Mayuri was all alone dragging around her carrying case.
+<END>
+
+#WRITE(PTR, $00001A9C)
+She's probably upset--
+<END>
+
+#WRITE(PTR, $00001AAC)
+Since I completely stood her up on our promise this morning.
+<END>
+
+#WRITE(PTR, $00001ABC)
+【Mayuri】You came! But... you're kinda late-
+<END>
+
+#WRITE(PTR, $00001AD6)
+【Mayuri】Even though Mayushii was waiting, all along...
+<END>
+
+#WRITE(PTR, $00001AE6)
+【Mayuri】It was really lonely...
+<END>
+
+#WRITE(PTR, $00001AF6)
+【Rintaro】Sorry.
+<END>
+
+#WRITE(PTR, $00001B06)
+I couldn't look Mayuri in the eye.
+<END>
+
+#WRITE(PTR, $00001B16)
+While Mayuri was lonely waiting for the no-show Lukako and me, I had made the worst possible decision for her.
+<END>
+
+#WRITE(PTR, $00001B26)
+Don't change Lukako back into a guy.
+<END>
+
+#WRITE(PTR, $00001B36)
+At the same time, that meant Don't save Mayuri.
+<END>
+
+#WRITE(PTR, $00001B46)
+No, let's not beat around the bush.
+<END>
+
+#WRITE(PTR, $00001B56)
+What I chose was to Let Mayuri die.
+<END>
+
+#WRITE(PTR, $00001B66)
+It's not like I didn't want to save her.
+<END>
+
+#WRITE(PTR, $00001B76)
+But at this rate, I--
+<END>
+
+#WRITE(PTR, $00001B90)
+【Mayuri】Where's Luka-chan-...?
+<END>
+
+#WRITE(PTR, $00001BA0)
+【Rintaro】She didn't come.
+<END>
+
+#WRITE(PTR, $00001BB0)
+【Mayuri】Did you make her cry again-?
+<END>
+
+#WRITE(PTR, $00001BC0)
+【Rintaro】No...
+<END>
+
+#WRITE(PTR, $00001BD0)
+I'm restless.
+<END>
+
+#WRITE(PTR, $00001BE0)
+I'm going to let Mayuri die. I feel like I need to be criticized.
+<END>
+
+#WRITE(PTR, $00001BF0)
+But of course, this optimistic childhood friend of mine doesn't intend to criticize me in the slightest.
+<END>
+
+#WRITE(PTR, $00001C00)
+This is my state of mind, in short.
+<END>
+
+#WRITE(PTR, $00001C10)
+Since I have a guilty conscience, Mayuri's words are like a sword straight through the heart.
+<END>
+
+#WRITE(PTR, $00001C20)
+But even then, I can't change the past anymore. I don't want to change it.
+<END>
+
+#WRITE(PTR, $00001C30)
+So, I have no other choice.
+<END>
+
+#WRITE(PTR, $00001C40)
+I have no choice but to accept the death this world so desires.
+<END>
+
+#WRITE(PTR, $00001C50)
+Normally, I would have had to face Mayuri's death whether I liked it or not; I wouldn't have been able to try and avoid it.
+<END>
+
+#WRITE(PTR, $00001C60)
+But, by chance, I had a power equal to God, so I could try again and again. I am special. Or rather, I should be thankful about being special.
+<END>
+
+#WRITE(PTR, $00001C7A)
+【Mayuri】Okarin...?
+<END>
+
+#WRITE(PTR, $00001C8A)
+It'll be bad if Mayuri senses my unrest.
+<END>
+
+#WRITE(PTR, $00001C9A)
+This girl can immediately see through my nuances.
+<END>
+
+#WRITE(PTR, $00001CAA)
+About 10 minutes left.
+<END>
+
+#WRITE(PTR, $00001CBA)
+Until that time, at the very least, I don't want to give Mayuri any worries.
+<END>
+
+#WRITE(PTR, $00001CCA)
+So I put on the mask of Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00001CDA)
+Like I did for Lukako just a while back.
+<END>
+
+#WRITE(PTR, $00001CEA)
+【Rintaro】Kk, kukuku, hwooohahaha! Don't fret, Mayuri! Things between Lukako and me are juuuuust peachy!
+<END>
+
+#WRITE(PTR, $00001CFA)
+【Rintaro】I am tied to that miko stationed at Akihabara by a strong bond. That's right, Lukako and I are connected by fate whether we like it or not!
+<END>
+
+#WRITE(PTR, $00001D0A)
+【Rintaro】And today, this genius I call myself, boasting of gray matter with an IQ of 170, has returned the smile to Lukako's face.
+<END>
+
+#WRITE(PTR, $00001D1A)
+【Rintaro】She even said so herself. That it was fun to be with me in our pursuit of knowledge!
+<END>
+
+#WRITE(PTR, $00001D2A)
+When these words leave my lips, I think I did it.
+<END>
+
+#WRITE(PTR, $00001D3A)
+With this, it looks like I stood up my promise with Mayuri to give Lukako a fun time, doesn't it?
+<END>
+
+#WRITE(PTR, $00001D4A)
+...Well, that's partly what happened.
+<END>
+
+#WRITE(PTR, $00001D5A)
+The other part isn't something I should tell Mayuri.
+<END>
+
+#WRITE(PTR, $00001D74)
+【Mayuri】Really? That's great-
+<END>
+
+#WRITE(PTR, $00001D84)
+Yet Mayuri still optimistically gives me a smile of relief.
+<END>
+
+#WRITE(PTR, $00001D94)
+【Mayuri】Then, Okarin and Luka-chan don't have anything to split up about, right-
+<END>
+
+#WRITE(PTR, $00001DA4)
+【Rintaro】Uh, yeah. We won't split up.
+<END>
+
+#WRITE(PTR, $00001DB4)
+Actually, Lukako and I have already stopped being lovers.
+<END>
+
+#WRITE(PTR, $00001DC4)
+Because that's what we agreed on.
+<END>
+
+#WRITE(PTR, $00001DD4)
+But I don't think it's necessary to tell her.
+<END>
+
+#WRITE(PTR, $00001DEE)
+【Mayuri】I see-. Then Mayushii can concentrate on ComiMa without any worries-
+<END>
+
+#WRITE(PTR, $00001DFE)
+【Rintaro】Mayuri, you're going to participate tomorrow too?
+<END>
+
+#WRITE(PTR, $00001E0E)
+【Mayuri】Yeppers. It lasts three days, you know-
+<END>
+
+#WRITE(PTR, $00001E1E)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001E2E)
+I shouldn't have asked.
+<END>
+
+#WRITE(PTR, $00001E3E)
+I secretly bite my lip.
+<END>
+
+#WRITE(PTR, $00001E4E)
+I become wary of my phone's clock.
+<END>
+
+#WRITE(PTR, $00001E5E)
+Last time I checked, it was about 7PM.
+<END>
+
+#WRITE(PTR, $00001E6E)
+But I don't have the guts to check again.
+<END>
+
+#WRITE(PTR, $00001E7E)
+I didn't want to see Mayuri's death clock tick down second by second.
+<END>
+
+#WRITE(PTR, $00001E98)
+【Mayuri】Daru-kun's late, huh-
+<END>
+
+#WRITE(PTR, $00001EA8)
+【Mayuri】You know, I called him a while ago, and he said he was still close by.
+<END>
+
+#WRITE(PTR, $00001EB8)
+【Rintaro】It doesn't really matter if you leave him.
+<END>
+
+#WRITE(PTR, $00001EC8)
+【Mayuri】Let's wait a little bit longer-
+<END>
+
+#WRITE(PTR, $00001ED8)
+If that's what Mayuri wants, then I won't stop her.
+<END>
+
+#WRITE(PTR, $00001EE8)
+Besides, I don't want Mayuri's last moments to be in a crowded train or bus, but rather, somewhere like here, where she can see the stars.
+<END>
+
+#WRITE(PTR, $00001EF8)
+...Not that I have the right to choose where she dies.
+<END>
+
+#WRITE(PTR, $00001F12)
+【Mayuri】Heyhey, do you think we can still somehow convince Luka-chan to cosplay?
+<END>
+
+#WRITE(PTR, $00001F22)
+【Mayuri】How should we persuade her, though?
+<END>
+
+#WRITE(PTR, $00001F32)
+Mayuri's mood is completely healed.
+<END>
+
+#WRITE(PTR, $00001F42)
+Why is she so happy?
+<END>
+
+#WRITE(PTR, $00001F52)
+Was there something pleasing to her somewhere in this long conversation?
+<END>
+
+#WRITE(PTR, $00001F62)
+Was it knowing that things were going well between me and Lukako?
+<END>
+
+#WRITE(PTR, $00001F72)
+Or, was it that I came here, even though I was this late?
+<END>
+
+#WRITE(PTR, $00001F82)
+I don't know.
+<END>
+
+#WRITE(PTR, $00001F92)
+I don't know, but looking at Mayuri's happy face conversely makes my heart tighten.
+<END>
+
+#WRITE(PTR, $00001FAC)
+【Mayuri】I think it would really fit Luka-chan if she cosplayed Kirari-chan-
+<END>
+
+#WRITE(PTR, $00001FBC)
+【Mayuri】Luka-chan is so cute, she makes Mayushii's heart throb, you know.
+<END>
+
+#WRITE(PTR, $00001FD6)
+【Mayuri】I want to spread the word of Luka-chan's cuteness to people all over the world, don't you, Okarin-?
+<END>
+
+#WRITE(PTR, $00001FE6)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002000)
+【Mayuri】Ah, or maybe you plan to keep Luka-chan all to yourself? But, you know, you shouldn't monopolize her. Even Mayushii want's to kyun kyun with Luka-chan-!
+<END>
+
+#WRITE(PTR, $00002010)
+【Rintaro】No, not really. You can do what you want. It's not like I can keep her all to myself.
+<END>
+
+#WRITE(PTR, $0000202A)
+【Mayuri】Ehhehe-. I seeee, that's great♪
+<END>
+
+#WRITE(PTR, $0000203A)
+【Mayuri】Anyway, there's also one more reason I want to get Luka-chan to cosplay.
+<END>
+
+#WRITE(PTR, $0000204A)
+Mayuri's awfully obsessed with Lukako today.
+<END>
+
+#WRITE(PTR, $0000205A)
+That's right, especially since these four days Lukako and I have gone out, Mayuri's topic of conversation seems to have always been about Lukako.
+<END>
+
+#WRITE(PTR, $0000206A)
+Even more so than before.
+<END>
+
+#WRITE(PTR, $00002084)
+【Mayuri】Luka-chan's usually a very obedient girl, right-? She rarely gives her own opinion.
+<END>
+
+#WRITE(PTR, $00002094)
+【Mayuri】When you cosplay, your "usual" self becomes "another" self.
+<END>
+
+#WRITE(PTR, $000020A4)
+【Mayuri】That's why I think that if Luka-chan cosplays once, even if it's embarrassing at first, she'll definitely find a new Luka-chan.
+<END>
+
+#WRITE(PTR, $000020BE)
+【Mayuri】And when that happens, she'll become more assertive than before, and maybe even dominate Okarin in the butt-. Ehhehe-
+<END>
+
+#WRITE(PTR, $000020CE)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000020DE)
+She's just being herself, thinking her weird thoughts.
+<END>
+
+#WRITE(PTR, $000020EE)
+But, I can't do anything about it if she speaks her mind now of all times--
+<END>
+
+#WRITE(PTR, $00002108)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $00002118)
+Suddenly, Mayuri sinks into silence.
+<END>
+
+#WRITE(PTR, $00002128)
+She lifts both hands high.
+<END>
+
+#WRITE(PTR, $00002138)
+She looks up at the night sky.
+<END>
+
+#WRITE(PTR, $00002148)
+She strains her back to catch the stars floating by.
+<END>
+
+#WRITE(PTR, $00002158)
+Stardust Shakehand.
+<END>
+
+#WRITE(PTR, $00002168)
+【Rintaro】Can you see the stars?
+<END>
+
+#WRITE(PTR, $00002178)
+【Mayuri】Yeah.
+<END>
+
+#WRITE(PTR, $00002188)
+You can see more stars clearly in Ariake than in Akiba.
+<END>
+
+#WRITE(PTR, $00002198)
+If Mayuri were to call out to the stars like this.
+<END>
+
+#WRITE(PTR, $000021A8)
+If she could blend into them and fade away.
+<END>
+
+#WRITE(PTR, $000021B8)
+Wouldn't that be just great?
+<END>
+
+#WRITE(PTR, $000021C8)
+Then the usual me would have seen Mayuri reaching her hand out to the sky like that, and pulled her back to earth.
+<END>
+
+#WRITE(PTR, $000021D8)
+But today, I didn't dare.
+<END>
+
+#WRITE(PTR, $000021E8)
+What does Mayuri think about whenever she reaches her hands out to the starry sky like this?
+<END>
+
+#WRITE(PTR, $000021F8)
+I've never asked her about it.
+<END>
+
+#WRITE(PTR, $00002208)
+I wonder if I could ask her now.
+<END>
+
+#WRITE(PTR, $00002218)
+【Rintaro】Hey, Mayuri--
+<END>
+
+#WRITE(PTR, $00002228)
+【Itaru】Hey- Okariin, Mayu-shi-!
+<END>
+
+#WRITE(PTR, $00002238)
+I see Daru calling to us while noisily running.
+<END>
+
+#WRITE(PTR, $00002252)
+【Mayuri】Ah, Daru-kuun. You're late-
+<END>
+
+#WRITE(PTR, $000022D0)
+【Itaru】Haa, hwoo, my bad, my bad. Man- confirming my spoils of war was such a timesink.
+<END>
+
+#WRITE(PTR, $000022E0)
+Daru's backpack is full to the brim, plus he's also holding onto about five paper bags depicting moe illustrations. Such zeal.
+<END>
+
+#WRITE(PTR, $000022FA)
+【Mayuri】Then, shall we?
+<END>
+
+#WRITE(PTR, $0000230A)
+Mayuri gets up to lead the way, and we start heading towards the train station.
+<END>
+
+#WRITE(PTR, $0000231A)
+The direct shuttle bus to Akiba has already ended its service.
+<END>
+
+#WRITE(PTR, $0000232A)
+【Itaru】It was so hot again today I thought I was gonna die-. How were the cosplay grounds?
+<END>
+
+#WRITE(PTR, $00002344)
+【Mayuri】The breeze felt great-
+<END>
+
+#WRITE(PTR, $0000235E)
+【Itaru】Well, it's not like Mayu-shi cosplayed herself, though.
+<END>
+
+#WRITE(PTR, $0000236E)
+【Itaru】Annnyway, when'd you get here, Okarin? Buy something?
+<END>
+
+#WRITE(PTR, $0000237E)
+【Rintaro】No.
+<END>
+
+#WRITE(PTR, $00002398)
+【Itaru】Huhhuh? Why so grim? What's with that face even though you're a normalfag with a girlfriend?
+<END>
+
+#WRITE(PTR, $000023A8)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000023B8)
+【Mayuri】Okarin? Is something wro--
+<END>
+
+#WRITE(PTR, $000023EA)
+Mayuri, who had raised a concerned voice towards me, had abruptly stopped speaking.
+<END>
+
+#WRITE(PTR, $000023FA)
+The carrying case she was holding fell to the ground with a thud.
+<END>
+
+#WRITE(PTR, $0000240A)
+【Mayuri】Ah, guh, uh...
+<END>
+
+#WRITE(PTR, $00002426)
+The time... had come--
+<END>
+
+#WRITE(PTR, $0000252C)
+Mayuri was pressing her hands to the center of her own chest.
+<END>
+
+#WRITE(PTR, $0000253C)
+Her face twisted in pain.
+<END>
+
+#WRITE(PTR, $000025AC)
+Slowly.
+<END>
+
+#WRITE(PTR, $000025C6)
+As if in slow motion, I saw it frame by frame.
+<END>
+
+#WRITE(PTR, $00002636)
+She tumbled down.
+<END>
+
+#WRITE(PTR, $00002650)
+All too suddenly.
+<END>
+
+#WRITE(PTR, $000026C0)
+That's why.
+<END>
+
+#WRITE(PTR, $000026DA)
+I couldn't catch her in my arms.
+<END>
+
+#WRITE(PTR, $000027CE)
+Mayuri fell there, powerless.
+<END>
+
+#WRITE(PTR, $000028A4)
+【Itaru】Mayu-shi...?
+<END>
+
+#WRITE(PTR, $000028B4)
+I stand stock still.
+<END>
+
+#WRITE(PTR, $000028C4)
+Suffocation. Even if she tried breathing, it seemed like no oxygen would reach her lungs.
+<END>
+
+#WRITE(PTR, $000028D4)
+Strangely, I felt no sorrow.
+<END>
+
+#WRITE(PTR, $000028E4)
+No, I felt guilt.
+<END>
+
+#WRITE(PTR, $000028F4)
+A death I anticipated.
+<END>
+
+#WRITE(PTR, $00002904)
+A death I could have prevented.
+<END>
+
+#WRITE(PTR, $00002914)
+I am the one... who killed Mayuri.
+<END>
+
+#WRITE(PTR, $0000292E)
+【Itaru】Mayu-shi! What's wrong!?
+<END>
+
+#WRITE(PTR, $0000293E)
+Daru tosses away his baggage and rushes to Mayuri.
+<END>
+
+#WRITE(PTR, $0000294E)
+He lifts her up and slaps her cheeks a bit.
+<END>
+
+#WRITE(PTR, $0000295E)
+I keep observing the scene as if it had nothing to do with me.
+<END>
+
+#WRITE(PTR, $00002978)
+【Itaru】She's... not breathing...
+<END>
+
+#WRITE(PTR, $00002988)
+【Itaru】Eh? What is this... what the hell is this...?
+<END>
+
+#WRITE(PTR, $000029A2)
+【Itaru】Okarin! Mayu-shi, there's something wrong with Mayu-shi!
+<END>
+
+#WRITE(PTR, $000029B2)
+【Rintaro】...She's dead.
+<END>
+
+#WRITE(PTR, $000029C2)
+What could be the cause?
+<END>
+
+#WRITE(PTR, $000029D2)
+A heart attack?
+<END>
+
+#WRITE(PTR, $000029E2)
+It's not like she was killed. That's a relief.
+<END>
+
+#WRITE(PTR, $000029F2)
+Mayuri died with an unsullied body.
+<END>
+
+#WRITE(PTR, $00002A02)
+【Itaru】She's dead... No, that can't be!? I mean, just now, she was talking like normal!
+<END>
+
+#WRITE(PTR, $00002A1C)
+【Itaru】Hey, Mayu-shi! Wake up! Where's the camera!? There's a hidden camera, right!? I'm on candid camera, aren't I!?
+<END>
+
+#WRITE(PTR, $00002A2C)
+【Rintaro】Daru...
+<END>
+
+#WRITE(PTR, $00002A3C)
+I put my hand on Daru's shoulder to calm him down.
+<END>
+
+#WRITE(PTR, $00002A4C)
+【Rintaro】Mayuri is dead.
+<END>
+
+#WRITE(PTR, $00002A5C)
+Daru starts to turn pale at my words.
+<END>
+
+#WRITE(PTR, $00002A6C)
+His lips tremble as he looks at Mayuri's face in disbelief.
+<END>
+
+#WRITE(PTR, $00002A7C)
+【Rintaro】Let's call an ambulance.
+<END>
+
+#WRITE(PTR, $00002A8C)
+【Itaru】Why did this happen...
+<END>
+
+#WRITE(PTR, $00002AA6)
+【Itaru】Anyway, how can you be so calm!?
+<END>
+
+#WRITE(PTR, $00002AB6)
+【Itaru】She's dead, you know! She's never coming back, you know! Don't you get it, Okarin!?
+<END>
+
+#WRITE(PTR, $00002AC6)
+【Rintaro】...I get it.
+<END>
+
+#WRITE(PTR, $00002AD6)
+【Itaru】No, you don't get it! Mayu-shi's not breathing! See!
+<END>
+
+#WRITE(PTR, $00002AE6)
+【Rintaro】I... let her die.
+<END>
+
+#WRITE(PTR, $00002B00)
+【Itaru】Haah...?
+<END>
+
+#WRITE(PTR, $00002BA2)
+I kneel beside Mayuri.
+<END>
+
+#WRITE(PTR, $00002BB2)
+【Rintaro】I couldn't save you, Mayuri.
+<END>
+
+#WRITE(PTR, $00002BC2)
+I reach out to Mayuri's body which moves not one bit.
+<END>
+
+#WRITE(PTR, $00002BD2)
+【Rintaro】No, that's not it. I didn't save you.
+<END>
+
+#WRITE(PTR, $00002BE2)
+Sorry, I mutter in my mind, and tightly embrace her.
+<END>
+
+#WRITE(PTR, $00002BF2)
+【Rintaro】Abandoned you. I. Abandoned you, Mayuri.
+<END>
+
+#WRITE(PTR, $00002C92)
+I look up to the starry sky, the same one seen through Mayuri's eyes.
+<END>
+
+#WRITE(PTR, $00002CA2)
+I shed... no tears.
+<END>
+
+#WRITE(PTR, $00002CB2)
+I might have gotten used to it.
+<END>
+
+#WRITE(PTR, $00002CC2)
+Or, maybe I was aware how I was unworthy to mourn for her.
+<END>
+
+#WRITE(PTR, $00002CD2)
+What filled my heart was emptiness.
+<FILEEND75>
+

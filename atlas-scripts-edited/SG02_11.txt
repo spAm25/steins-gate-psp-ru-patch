@@ -50,7 +50,7 @@ Umm, her name... her name was... Moe... Moekko? No... umm....
 <END>
 
 #WRITE(PTR, $00000B0C)
-【Rintaro】Masseuse!
+【Rintaro】Shining Finger!
 <END>
 
 #WRITE(PTR, $00000B1C)
@@ -102,7 +102,7 @@ But it was really only a moment.
 <END>
 
 #WRITE(PTR, $00000C1E)
-I don't remember Masseus' name, so I'm not one to talk, though.
+I don't remember Shining Finger's name, so I'm not one to talk, though.
 <END>
 
 #WRITE(PTR, $00000C2E)
@@ -110,7 +110,7 @@ I don't remember Masseus' name, so I'm not one to talk, though.
 <END>
 
 #WRITE(PTR, $00000C3E)
-Masseuse twitches upon hearing the word IBN 5100.
+Shining Finger twitches upon hearing the word IBN 5100.
 <END>
 
 #WRITE(PTR, $00000C4E)
@@ -162,7 +162,7 @@ Wouldn't it only take 5 seconds to say it verbally!?
 <END>
 
 #WRITE(PTR, $00000F1A)
-She's courteous when mailing, but the Masseuse in front of me is a lump of unsociability.
+She's courteous when mailing, but the Shining Finger in front of me is a lump of unsociability.
 <END>
 
 #WRITE(PTR, $00000F2A)
@@ -178,7 +178,7 @@ How she writes Funny meeting you here♪ without smiling at all makes me think s
 <END>
 
 #WRITE(PTR, $00000F60)
-Even when I ask her a question, Masseuse doesn't even respond--
+Even when I ask her a question, Shining Finger doesn't even respond--
 <END>
 
 #WRITE(PTR, $00001002)
@@ -202,7 +202,7 @@ Another mail.
 <END>
 
 #WRITE(PTR, $0000121C)
-Masseuse starts hanging her head more and more after I yelled. She buries her face into her knees.
+Shining Finger starts hanging her head more and more after I yelled. She buries her face into her knees.
 <END>
 
 #WRITE(PTR, $000012BE)
@@ -242,7 +242,7 @@ Holding the two Max Coffees, I return to Moeka.
 <END>
 
 #WRITE(PTR, $0000162C)
-Masseuse was standing.
+Shining Finger was standing.
 <END>
 
 #WRITE(PTR, $0000163C)
@@ -254,7 +254,7 @@ She just glances at me and breathes a sigh of relief.
 <END>
 
 #WRITE(PTR, $000016D8)
-I hand out a Max Coffee, which Masseuse timidly accepts.
+I hand out a Max Coffee, which Shining Finger timidly accepts.
 <END>
 
 #WRITE(PTR, $000016E8)
@@ -294,7 +294,7 @@ With that in consideration, I'm taken aback by my own thoughtlessness.
 <END>
 
 #WRITE(PTR, $00001806)
-So basically, Masseuse is afraid.
+So basically, Shining Finger is afraid.
 <END>
 
 #WRITE(PTR, $00001816)
@@ -414,7 +414,7 @@ Like she's just wasting her time.
 <END>
 
 #WRITE(PTR, $00001B54)
-That whatever write editorial company that ordered Masseuse to investigate must be incompetent.
+That whatever write editorial company that ordered Shining Finger to investigate must be incompetent.
 <END>
 
 #WRITE(PTR, $00001B64)

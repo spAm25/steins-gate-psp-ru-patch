@@ -1181,7 +1181,7 @@ I get off the chair and walk to Faris.
 <END>
 
 #WRITE(PTR, $00006558)
-There's the IBN 5100 image I got from Masseuse. I bring it up on my phone screen and show it to Faris.
+There's the IBN 5100 image I got from Shining Finger. I bring it up on my phone screen and show it to Faris.
 <END>
 
 #WRITE(PTR, $00006568)

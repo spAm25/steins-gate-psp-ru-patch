@@ -302,7 +302,7 @@ With this idea, it should be simple enough to tell whether the past changed or n
 <END>
 
 #WRITE(PTR, $00001548)
-Looks like these useless three have no objections to the superior masseuse's idea.
+Looks like these useless three have no objections to the superior Shining Finger's idea.
 <END>
 
 #WRITE(PTR, $0000159E)
@@ -346,15 +346,15 @@ Then that means 24-hour phone users are picky about even popular models.
 <END>
 
 #WRITE(PTR, $0000170E)
-【Rintaro】So, Masseuse.
+【Rintaro】So, Shining Finger.
 <END>
 
 #WRITE(PTR, $00001728)
-【Mayuri】Hey, hey, why do you call Moeka-san 'misuse'-?
+【Mayuri】Hey, hey, why do you call Moeka-san "Shining Finger"-?
 <END>
 
 #WRITE(PTR, $00001738)
-【Rintaro】...That's the name I dubbed Kiryuu Moeka's special ability. Kiryuu Moeka, from here on, you shall call yourself the Flash Masseuse, or in other words, Shining Finger.
+【Rintaro】...That's the name I dubbed Kiryuu Moeka's special ability. Kiryuu Moeka, from here on, you shall call yourself the Shining Finger.
 <END>
 
 #WRITE(PTR, $00001752)
@@ -370,7 +370,7 @@ Moeka expressionlessly shakes her head.
 <END>
 
 #WRITE(PTR, $0000178C)
-【Mayuri】It's cause Moeka-san is Moeka-san. And she's not a masseuse, she works at an editorial company....
+【Mayuri】It's cause Moeka-san is Moeka-san. And she's not Shining Finger, she works at an editorial company....
 <END>
 
 #WRITE(PTR, $000017A6)

@@ -94,7 +94,7 @@ But as a fellow lab mem, I can't just ignore her.
 <END>
 
 #WRITE(PTR, $00000D0C)
-【Rintaro】You, the masseuse! You seem pretty depressed, don't you!?
+【Rintaro】You, Shining Finger! You seem pretty depressed, don't you!?
 <END>
 
 #WRITE(PTR, $00000D1C)

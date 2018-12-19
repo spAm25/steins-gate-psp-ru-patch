@@ -715,7 +715,7 @@ That quickness is not something I could mimic.
 <END>
 
 #WRITE(PTR, $000015B6)
-I'll call her ability, "Glowing MasseuseShining Finger".
+I'll call her ability, "Shining Finger".
 <END>
 
 #WRITE(PTR, $000015C6)
@@ -819,7 +819,7 @@ Well, looks like I'll have to get her email address and send her a blank mail.
 <END>
 
 #WRITE(PTR, $00001922)
-She already told me her name, but I don't remember, so I decided to add her as 'Glowing Masseuse'.
+She already told me her name, but I don't remember, so I decided to add her as "Shining Finger".
 <END>
 
 #WRITE(PTR, $00001940)
@@ -847,7 +847,7 @@ And there should be no harm in giving her my true name.
 <END>
 
 #WRITE(PTR, $000019F4)
-I prepare a blank mail to the 'Glowing Masseuse' that I just added to my address list.
+I prepare a blank mail to the "Shining Finger" that I just added to my address list.
 <END>
 
 #WRITE(PTR, $00001BF8)
@@ -1035,7 +1035,7 @@ We talked about it just now, didn't we...
 <END>
 
 #WRITE(PTR, $00002542)
-The "Glowing Masseuse" leaves the location without any signs of satisfaction with the exchange and no proper goodbyes.
+The "Shining Finger" leaves the location without any signs of satisfaction with the exchange and no proper goodbyes.
 <END>
 
 #WRITE(PTR, $00002552)

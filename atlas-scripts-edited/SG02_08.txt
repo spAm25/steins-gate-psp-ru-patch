@@ -38,11 +38,11 @@ I'm reluctant to contact that mail demon, though...
 <END>
 
 #WRITE(PTR, $000002E4)
-Though I realize reluctance has no relevance when the outcome of the crusade is at stake.
+Though I realize reluctance has no relevance when the outcome of the Operation "Ragnarok" is at stake.
 <END>
 
 #WRITE(PTR, $00000472)
-I don't know Masseuse's phone number, so I decide to mail her for the time being.
+I don't know Shining Finger's phone number, so I decide to mail her for the time being.
 <END>
 
 #WRITE(PTR, $00000664)
@@ -98,7 +98,7 @@ Oh well. Should I reply?
 <END>
 
 #WRITE(PTR, $00000E9E)
-I don't know Masseuse's phone number, so I decide to mail her for the time being.
+I don't know Shining Finger's phone number, so I decide to mail her for the time being.
 <END>
 
 #WRITE(PTR, $00000F96)
@@ -418,7 +418,7 @@ Another mail.
 <END>
 
 #WRITE(PTR, $00001FA8)
-Damn Masseuse, I told her not to send so many brief mails, but she doesn't understand yet?
+Damn Shining Finger, I told her not to send so many brief mails, but she doesn't understand yet?
 <END>
 
 #WRITE(PTR, $00001FC6)
@@ -454,7 +454,7 @@ Hopefully I don't have to worry about any more mail attacks.
 <END>
 
 #WRITE(PTR, $0000222A)
-With that said, let's reply to Masseuse.
+With that said, let's reply to Shining Finger.
 <END>
 
 #WRITE(PTR, $000022B8)

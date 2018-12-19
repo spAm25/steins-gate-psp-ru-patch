@@ -306,7 +306,7 @@ Suzuha tilts her head.
 <END>
 
 #WRITE(PTR, $00002930)
-【Rintaro】Naturally, since I just revealed it now. the Final CrusadeRagnarok shall be initiated by me. For the purpose of the world's rebirth!
+【Rintaro】Naturally, since I just revealed it now. The Operation "Ragnarok" shall be initiated by me. For the purpose of the world's rebirth!
 <END>
 
 #WRITE(PTR, $00002952)
