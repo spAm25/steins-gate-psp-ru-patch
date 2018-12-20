@@ -1,0 +1,687 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000226E)
+
+#WRITE(PTR, $000009E0)
+It's surprisingly narrow inside.
+<END>
+
+#WRITE(PTR, $000009F0)
+I sit face to face with Suzuha in the cylindrical interior.
+<END>
+
+#WRITE(PTR, $00000A00)
+Almost like an amusement park attraction, like the teacup or a Ferris wheel gondola.
+<END>
+
+#WRITE(PTR, $00000A10)
+The circumference of the cylinder was slightly higher than the floor, suitable for sitting.
+<END>
+
+#WRITE(PTR, $00000A20)
+The number of buttons was astonishingly small.
+<END>
+
+#WRITE(PTR, $00000A30)
+I also saw the interior of α World Line Suzuha's time machine, but this one gives the impression of more refinement.
+<END>
+
+#WRITE(PTR, $00000A40)
+However, the current time machine's time display panel is the same as the α World Line's: black with red letters. Maybe that's just Daru's taste.
+<END>
+
+#WRITE(PTR, $00000AAE)
+【Suzuha】Give me your phone.
+<END>
+
+#WRITE(PTR, $00000AD2)
+I hand over my phone as asked, and for some reason, Suzuha opens up the hatch and chucks it outside.
+<END>
+
+#WRITE(PTR, $00000AE2)
+【Rintaro】H-hey!?
+<END>
+
+#WRITE(PTR, $00000AF2)
+【Suzuha】It's best you not bring it. It'll cause crosstalk.
+<END>
+
+#WRITE(PTR, $00000B02)
+...Crosstalk?
+<END>
+
+#WRITE(PTR, $00000B12)
+Oh, I see. Since we're going to July 28, there will be two of me, and, if I bring it, two of my phones.
+<END>
+
+#WRITE(PTR, $00000B22)
+Things could get troublesome if I got a call or something.
+<END>
+
+#WRITE(PTR, $00000B32)
+So time travelers really do need to be careful about what they bring into the past.
+<END>
+
+#WRITE(PTR, $00000B42)
+【Suzuha】Close the hatch.
+<END>
+
+#WRITE(PTR, $00000B52)
+I hear Mayuri and Daru's cheers from outside. Mayuri caught my phone.
+<END>
+
+#WRITE(PTR, $00000B62)
+I nod back to them one last time, and close the hatch.
+<END>
+
+#WRITE(PTR, $00000B72)
+We're wrapped in stillness.
+<END>
+
+#WRITE(PTR, $00000BE0)
+Suzuha is operating the time display panel.
+<END>
+
+#WRITE(PTR, $00000BF0)
+Our time travel destination is July 28, 2010 at 11:50.
+<END>
+
+#WRITE(PTR, $00000C00)
+【Suzuha】This time should be about right, huh?
+<END>
+
+#WRITE(PTR, $00000C10)
+【Rintaro】Isn't that cutting it a little close?
+<END>
+
+#WRITE(PTR, $00000C20)
+I remember Doctor Nakabachi's presentation began at 12.
+<END>
+
+#WRITE(PTR, $00000C30)
+【Suzuha】This time machine can't move physically.
+<END>
+
+#WRITE(PTR, $00000C40)
+【Rintaro】Meaning?
+<END>
+
+#WRITE(PTR, $00000C50)
+【Suzuha】Basically, if we were to time travel here from the Radio Kaikan's rooftop, no matter what time we travel to, we'll arrive at the same coordinates of the rooftop.
+<END>
+
+#WRITE(PTR, $00000C60)
+【Suzuha】Well, actually, there's a lot more complex calculations involved, but let's not get into that now.
+<END>
+
+#WRITE(PTR, $00000C70)
+【Suzuha】Anyway, that's how it is, so even though we can leap to the day before the presentation, it'll be bad if it gets canceled due to the commotion we make, right? That's why it's best to cut it close.
+<END>
+
+#WRITE(PTR, $00000C80)
+【Rintaro】I see...
+<END>
+
+#WRITE(PTR, $00000CEE)
+【Suzuha】Uncle, is this your first time time traveling?
+<END>
+
+#WRITE(PTR, $00000CFE)
+【Rintaro】First, stop calling me Uncle.
+<END>
+
+#WRITE(PTR, $00000D0E)
+【Rintaro】I've time leaped so much I'm sick of it, but this is my first time time traveling.
+<END>
+
+#WRITE(PTR, $00000D1E)
+【Rintaro】According to John Titor, you're subjected to a fairly large G-force, giving the sensation of being stretched out.
+<END>
+
+#WRITE(PTR, $00000D2E)
+【Suzuha】Yeah I wrote that.
+<END>
+
+#WRITE(PTR, $00000D3E)
+【Rintaro】The John Titor stuff?
+<END>
+
+#WRITE(PTR, $00000D4E)
+【Suzuha】Right. When I leapt to 2000.
+<END>
+
+#WRITE(PTR, $00000D5E)
+【Rintaro】I see...
+<END>
+
+#WRITE(PTR, $00000D6E)
+The past changed. Or, I should say, changed back.
+<END>
+
+#WRITE(PTR, $00000D7E)
+In the α World Line, I witnessed Titor's 2010 posts on @channel in real time.
+<END>
+
+#WRITE(PTR, $00000D8E)
+【Suzuha】Don't be so surprised, okay?
+<END>
+
+#WRITE(PTR, $00000D9E)
+These past few minutes, so much information has come into my head at once, it seems it's gonna blow.
+<END>
+
+#WRITE(PTR, $00000DAE)
+I no longer have the capacity to be surprised.
+<END>
+
+#WRITE(PTR, $00000DBE)
+【Suzuha】I'll explain this mission again, okay? Because we'll have no time to talk leisurely on the other side.
+<END>
+
+#WRITE(PTR, $00000DCE)
+【Suzuha】The objective is the avoidance of Makise Kurisu's death.
+<END>
+
+#WRITE(PTR, $00000F08)
+Ever since I returned to this world line, I've intentionally avoided news of Kurisu's incident.
+<END>
+
+#WRITE(PTR, $00000F18)
+I was afraid it would decide the result.
+<END>
+
+#WRITE(PTR, $00000F28)
+So at this point in time, I don't know who killed Kurisu. I don't know how or why she died. I don't know at all.
+<END>
+
+#WRITE(PTR, $00000F38)
+If I knew things would turn out like this, maybe I should have looked things up.
+<END>
+
+#WRITE(PTR, $00000F48)
+As soon as I asked myself this, I denied it.
+<END>
+
+#WRITE(PTR, $00000FEE)
+【Rintaro】...what about attractor field convergence?
+<END>
+
+#WRITE(PTR, $0000105C)
+【Suzuha】Didn't I say so already? That day is a turning point.
+<END>
+
+#WRITE(PTR, $0000106C)
+【Suzuha】The possibility of Makise Kurisu's death is roughly calculated as 50％.
+<END>
+
+#WRITE(PTR, $0000107C)
+【Rintaro】So, it won't converge?
+<END>
+
+#WRITE(PTR, $0000108C)
+【Suzuha】It may or may not. No, it probably will. But I'm sure there's a loophole somewhere. That loophole itself is the entrance to the "Steins;Gate".
+<END>
+
+#WRITE(PTR, $0000109C)
+So in the end, it's a game...
+<END>
+
+#WRITE(PTR, $0000110A)
+【Suzuha】And one piece of advice. Be careful of Doctor Nakabachi.
+<END>
+
+#WRITE(PTR, $0000111A)
+【Rintaro】What do you mean?
+<END>
+
+#WRITE(PTR, $0000112A)
+【Suzuha】I told you that in my 2036, World War III broke out, right?
+<END>
+
+#WRITE(PTR, $0000113A)
+【Suzuha】If you trace its cause to the source, you arrive at the "Nakabachi Thesis". Doctor Nakabachi wrote documents concerning the time machine.
+<END>
+
+#WRITE(PTR, $0000114A)
+【Rintaro】But that bastard just ripped his time travel theory off of John Titor...
+<END>
+
+#WRITE(PTR, $0000115A)
+...wait, John Titor is sitting here in front of me.
+<END>
+
+#WRITE(PTR, $0000116A)
+【Rintaro】Ah, so... what Titor posted on the net... was true?
+<END>
+
+#WRITE(PTR, $0000117A)
+【Suzuha】I mixed in some lies, so not many people listened to me at the time I posted it, but...
+<END>
+
+#WRITE(PTR, $0000118A)
+【Suzuha】I never thought it would be reevaluated 10 years later. It looks like he built his theory off of the one I wrote. It seems its level of completeness is high.
+<END>
+
+#WRITE(PTR, $0000119A)
+【Suzuha】Anyway, Doctor Nakabachi was there in the assembly hall where Makise Kurisu was killed, right? He should also be a key figure in large world line divergence.
+<END>
+
+#WRITE(PTR, $000011AA)
+That Doctor Nakabachi is...?
+<END>
+
+#WRITE(PTR, $000011BA)
+I thought he was just some suspicious old guy.
+<END>
+
+#WRITE(PTR, $000011CA)
+【Suzuha】...so, ready to go? Fasten your seatbelt.
+<END>
+
+#WRITE(PTR, $000011DA)
+Now that I look underneath me, I do indeed see something resembling a car seatbelt.
+<END>
+
+#WRITE(PTR, $000011EA)
+I wrap that around my waist, fixing my body to the seat.
+<END>
+
+#WRITE(PTR, $000011FA)
+【Rintaro】Does it shake a lot?
+<END>
+
+#WRITE(PTR, $0000120A)
+【Suzuha】It rarely -shakes-.
+<END>
+
+#WRITE(PTR, $0000121A)
+So that means it does stuff other than shake?
+<END>
+
+#WRITE(PTR, $0000122A)
+Woah, hold on, will I be okay...!?
+<END>
+
+#WRITE(PTR, $00001298)
+Suzuha bends forward and pushes a conspicuous yellow button on the bottom of the panel.
+<END>
+
+#WRITE(PTR, $000012B4)
+I can't see the outside, so I can't even tell if the time machine is moving at all.
+<END>
+
+#WRITE(PTR, $000012C4)
+【Suzuha】It's only three weeks, so it shouldn't take more than two or three minutes.
+<END>
+
+#WRITE(PTR, $000012D4)
+Suzuha fastens her own seatbelt and sighs.
+<END>
+
+#WRITE(PTR, $000012E4)
+【Suzuha】When I first leapt to 1975, it was six long hours with nothing to do and nothing I could do.
+<END>
+
+#WRITE(PTR, $000012F4)
+Time travelers have their own problems it seems.
+<END>
+
+#WRITE(PTR, $00001304)
+【Suzuha】It's only two or three minutes, so I won't put on an oxygen mask, but for the duration of the time travel, there won't be any oxygen.
+<END>
+
+#WRITE(PTR, $00001314)
+【Rintaro】You can put up with that!?
+<END>
+
+#WRITE(PTR, $00001374)
+【Suzuha】Here--
+<END>
+
+#WRITE(PTR, $00001384)
+Suzuha points to the center of the cylinder-- the space between me and her.
+<END>
+
+#WRITE(PTR, $00001394)
+【Suzuha】An air pocket forms. If you stick your head in there, you can breathe for about 10 minutes.
+<END>
+
+#WRITE(PTR, $000013A4)
+【Rintaro】Hey, for argument's sake, if we fail to save Kurisu... what happens?
+<END>
+
+#WRITE(PTR, $000013B4)
+【Suzuha】To be honest, we don't have much fuel. Barely enough fuel was put in in the first place. There's not even enough for me to get back to 2036.
+<END>
+
+#WRITE(PTR, $000013C4)
+【Suzuha】In other words, if we fail to change the world line, then I'm stuck in this era.
+<END>
+
+#WRITE(PTR, $000013D4)
+【Suzuha】Ah, but don't worry. If it's just going back and forth from August 20 and July 28, we can still do two round trips.
+<END>
+
+#WRITE(PTR, $000013E4)
+...Conversely, that means we only have two chances.
+<END>
+
+#WRITE(PTR, $000013F4)
+【Rintaro】If you don't have enough fuel, then how do you plan to get back to 2036?
+<END>
+
+#WRITE(PTR, $00001404)
+【Suzuha】I don't plan to go back. If we reach the "Steins;Gate", then I'd no longer have a reason to time travel, right?
+<END>
+
+#WRITE(PTR, $00001414)
+【Suzuha】Cause and effect will be reconfigured. The me sitting here will disappear, since I'd probably be living peacefully in 2036.
+<END>
+
+#WRITE(PTR, $00001424)
+【Suzuha】But that all depends on you, Uncle Okarin.
+<END>
+
+#WRITE(PTR, $00001434)
+Her tone is light, but her face is serious.
+<END>
+
+#WRITE(PTR, $00001444)
+...It's been so long since I've talked to her, but I just now noticed.
+<END>
+
+#WRITE(PTR, $00001454)
+The woman known as Suzuha acts without considering the consequences.
+<END>
+
+#WRITE(PTR, $00001658)
+At that moment, along with a sound like a burst of air, countless faint silver lights start floating throughout the cylinder.
+<END>
+
+#WRITE(PTR, $00001668)
+Just like insect scales. Or powder snow.
+<END>
+
+#WRITE(PTR, $00001678)
+The silver lights gradually change color.
+<END>
+
+#WRITE(PTR, $00001688)
+Violet. Blue. Green. Yellow. Orange. Red. Back to silver. Violet. Blue--
+<END>
+
+#WRITE(PTR, $00001698)
+Is this a rainbow?
+<END>
+
+#WRITE(PTR, $000016A8)
+I feel pressure throughout my whole body.
+<END>
+
+#WRITE(PTR, $000016B8)
+Similar to the sensation of going up in an elevator.
+<END>
+
+#WRITE(PTR, $000016C8)
+It's like the feeling of the elevator pulling you downwards, but the time machine pulls horizontally at my back instead.
+<END>
+
+#WRITE(PTR, $000016D8)
+The feeling of pressure gradually strengthens.
+<END>
+
+#WRITE(PTR, $000016E8)
+The sense of falling sideways. I've never experienced this before. It's so uncomfortable, I want to cry out.
+<END>
+
+#WRITE(PTR, $000016F8)
+The time machine doesn't shake.
+<END>
+
+#WRITE(PTR, $00001708)
+It's startlingly peaceful.
+<END>
+
+#WRITE(PTR, $00001718)
+Enough that I begin to question whether it's really moving at all.
+<END>
+
+#WRITE(PTR, $00001728)
+It was eerie.
+<END>
+
+#WRITE(PTR, $00001738)
+The pulling sensation grows even stronger.
+<END>
+
+#WRITE(PTR, $00001748)
+The feeling of pressure crushing my body starts to seem like an illusion.
+<END>
+
+#WRITE(PTR, $00001758)
+My own body, my own bones, start to creak.
+<END>
+
+#WRITE(PTR, $00001768)
+【Rintaro】Guh...uh...!
+<END>
+
+#WRITE(PTR, $00001778)
+This isn't on the same level as an elevator at all...!
+<END>
+
+#WRITE(PTR, $00001788)
+This is almost like when astronauts blast off into space in a space shuttle, isn't it...!?
+<END>
+
+#WRITE(PTR, $00001798)
+When I look at Suzuha, she has her eyes shut tight, bearing the pain.
+<END>
+
+#WRITE(PTR, $000017A8)
+Her back is pressed to the cylinder's outer wall, not letting go.
+<END>
+
+#WRITE(PTR, $000017B8)
+My vision distorts.
+<END>
+
+#WRITE(PTR, $000017C8)
+Within my distorting vision, the powder of light is still revolving colors like a rainbow.
+<END>
+
+#WRITE(PTR, $000017D8)
+Wondrous, and divine.
+<END>
+
+#WRITE(PTR, $000017E8)
+I'm still falling--
+<END>
+
+#WRITE(PTR, $000017F8)
+Horizontally? Into a space-time tunnel?
+<END>
+
+#WRITE(PTR, $00001808)
+Anyway, I'm falling--
+<END>
+
+#WRITE(PTR, $00001818)
+My body doesn't seem to work.
+<END>
+
+#WRITE(PTR, $000018F6)
+My field of vision suddenly turns pitch black.
+<END>
+
+#WRITE(PTR, $00001906)
+I shouted.
+<END>
+
+#WRITE(PTR, $00001916)
+My voice also falls behind my back, not even reaching my own ears.
+<END>
+
+#WRITE(PTR, $00001926)
+Gravity. There's an intense gravitational distortion behind my back.--
+<END>
+
+#WRITE(PTR, $00001936)
+I just keep falling towards it--
+<END>
+
+#WRITE(PTR, $00001CC8)
+The smell of ozone reaches my nose.
+<END>
+
+#WRITE(PTR, $00001CD8)
+My vision returns.
+<END>
+
+#WRITE(PTR, $00001CE8)
+Suzuha takes a deep breath and unfastens her seatbelt.
+<END>
+
+#WRITE(PTR, $00001CF8)
+【Suzuha】We're here.
+<END>
+
+#WRITE(PTR, $00001D08)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001D18)
+I try to catch my breath in gulps.
+<END>
+
+#WRITE(PTR, $00001D28)
+Did I really time travel just now?
+<END>
+
+#WRITE(PTR, $00001D38)
+July 28.
+<END>
+
+#WRITE(PTR, $00001D54)
+The day Kurisu and I first met.
+<END>
+
+#WRITE(PTR, $00001D64)
+The day I first sent a D-mail.
+<END>
+
+#WRITE(PTR, $00001D74)
+I've returned... to that fateful day...!
+<END>
+
+#WRITE(PTR, $00001D84)
+Suzuha takes out a digital watch.
+<END>
+
+#WRITE(PTR, $00001D94)
+Its design is extremely old.
+<END>
+
+#WRITE(PTR, $00001DA4)
+【Suzuha】I bought it in 1975. But it's only been used for three years.
+<END>
+
+#WRITE(PTR, $00001DB4)
+This is where an uninformed person would say "In Japanese plz".
+<END>
+
+#WRITE(PTR, $00001DC4)
+After spinning the dial to set it to the correct time, she hands it to me.
+<END>
+
+#WRITE(PTR, $00001DD4)
+The watch indicates 11:51.
+<END>
+
+#WRITE(PTR, $00001DE4)
+Nakabachi's presentation starts at 12.
+<END>
+
+#WRITE(PTR, $00001DF4)
+【Suzuha】We're going okay? Uncle Okarin, mark out Makise Kurisu, and obstruct whatever it is that kills her.
+<END>
+
+#WRITE(PTR, $00001E04)
+【Rintaro】What about you?
+<END>
+
+#WRITE(PTR, $00001E14)
+【Suzuha】I'll support you.
+<END>
+
+#WRITE(PTR, $00001E24)
+【Suzuha】This is related to why I took away your phone, but the Uncle Okarin of July 28 is also here. Meaning now, there exist two Okabe Rintaros in this world.
+<END>
+
+#WRITE(PTR, $00001E34)
+【Suzuha】Okay? You must absolutely avoid contacting yourself. You can't do that. You'll create a time paradox.
+<END>
+
+#WRITE(PTR, $00001E44)
+【Rintaro】But that's not what Titor said--
+<END>
+
+#WRITE(PTR, $00001E54)
+【Suzuha】That was just fake information.
+<END>
+
+#WRITE(PTR, $00001E64)
+Now that she mentions it, α World Line Suzuha said the stuff about the many worlds interpretation was also fake.
+<END>
+
+#WRITE(PTR, $00001E74)
+【Rintaro】...Understood.
+<END>
+
+#WRITE(PTR, $00001E84)
+【Suzuha】Then let's begin. When it's over, meet me at the time machine!
+<END>
+
+#WRITE(PTR, $00001EA0)
+Suzuha gives a hurried explanation, urging me to get out first.
+<END>
+
+#WRITE(PTR, $00001EB0)
+I open the hatch and reach outside--
+<END>
+
+#WRITE(PTR, $00001F24)
+I squeeze my way out.
+<END>
+
+#WRITE(PTR, $00001F6C)
+Suzuha crawls out after me and closes the hatch.
+<END>
+
+#WRITE(PTR, $00001F86)
+【Suzuha】Hide, Uncle! I'll distract them.
+<END>
+
+#WRITE(PTR, $00001FA2)
+Suzuha immediately runs to the fire door.
+<END>
+
+#WRITE(PTR, $00001FB2)
+And surprisingly takes out her gun, firing at the doorknob.
+<END>
+
+#WRITE(PTR, $00002028)
+With the lock destroyed, the door easily opens.
+<END>
+
+#WRITE(PTR, $00002038)
+Very soon, several people should be coming to the rooftop to detain me.
+<END>
+
+#WRITE(PTR, $00002048)
+I need to hide myself before that...!
+<FILEEND70>
+

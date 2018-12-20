@@ -330,8 +330,7 @@ A uniformed policeman who looks around 30 years old trots over and talks to us w
 <END>
 
 #WRITE(PTR, $00001146)
-【Policeman2】
-Policeman A?
+【Policeman2】Policeman A?
 <END>
 
 #WRITE(PTR, $00001156)
@@ -355,8 +354,7 @@ If it's like this then I'll just tell him to call up an ambulance to help the st
 <END>
 
 #WRITE(PTR, $000011A6)
-【Policeman2】
-Just what are you talking about?
+【Policeman2】Just what are you talking about?
 <END>
 
 #WRITE(PTR, $000011B6)

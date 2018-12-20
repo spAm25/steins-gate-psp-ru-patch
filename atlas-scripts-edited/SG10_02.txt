@@ -1,0 +1,1034 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000026F2)
+
+#WRITE(PTR, $000002E2)
+<LINE>
+<LINE>
+<LINE>
+%LCThe sky is blue.
+<ENDPANEL>
+
+#WRITE(PTR, $0000042C)
+I'm at the rooftop of Radio Kaikan after going back 56 hours with two time leaps.
+<END>
+
+#WRITE(PTR, $0000043C)
+Leaning against the wire fence, I stretch out my legs and look to the sky.
+<END>
+
+#WRITE(PTR, $00000450)
+I went back in time because I wanted time to think.
+<END>
+
+#WRITE(PTR, $00000460)
+The previous me spent these two days with his thoughts at a roadblock.
+<END>
+
+#WRITE(PTR, $00000470)
+But after confirming Mayuri's death, I'm no longer like that.
+<END>
+
+#WRITE(PTR, $00000480)
+I need to come to a conclusion before that time comes.
+<END>
+
+#WRITE(PTR, $00000490)
+There surely isn't a solution to this equation.
+<END>
+
+#WRITE(PTR, $000004A0)
+No matter which choice I take, someone gets sacrificed.
+<END>
+
+#WRITE(PTR, $000004B0)
+If you look at it with a utilitarian viewpoint, I should choose to crack SERN to prevent its dystopia.
+<END>
+
+#WRITE(PTR, $000004C0)
+But it's not that easy a solution...
+<END>
+
+#WRITE(PTR, $000004D0)
+I keep grasping at the possibility there's some other way.
+<END>
+
+#WRITE(PTR, $000005F0)
+Suzuha had said.
+<END>
+
+#WRITE(PTR, $00000600)
+This moment in 2010 is a huge turning point at the attractor field level.
+<END>
+
+#WRITE(PTR, $00000610)
+The moment I sent a D-mail conveying Kurisu's death. I think the turning point already started by then.
+<END>
+
+#WRITE(PTR, $00000620)
+When did the turning point start? I don't know for sure, but I think it was the moment we completed the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00000630)
+That was around the middle of July. Right after that, Daru and I deemed it a "failure".
+<END>
+
+#WRITE(PTR, $000006B0)
+Anyway, the moment Kurisu was killed that day, it became a huge turning point at the attractor field level.
+<END>
+
+#WRITE(PTR, $000006C0)
+If I think that day, Reading Steiner also activated when I sent that first D-mail that would become the beginning.
+<END>
+
+#WRITE(PTR, $000007AC)
+And then, every person and car flowing through Chuo Dori disappeared at once.
+<END>
+
+#WRITE(PTR, $000007BC)
+Mass disappearance.
+<END>
+
+#WRITE(PTR, $000007CC)
+It feels so long ago.
+<END>
+
+#WRITE(PTR, $000007DC)
+Now I can explain.
+<END>
+
+#WRITE(PTR, $000007EC)
+At that instant, I moved from the β World Line to the α World Line.
+<END>
+
+#WRITE(PTR, $0000085C)
+In that first β World Line, Suzuha didn't come riding on her time machine.
+<END>
+
+#WRITE(PTR, $0000086C)
+So Doctor Nakabachi's time machine presentation went by successfully, and shoppers kept flowing on the station square below.
+<END>
+
+#WRITE(PTR, $0000087C)
+But when I sent the D-mail, at least from my subjectivity, there was a huge change in world lines.
+<END>
+
+#WRITE(PTR, $00000960)
+In this world line I'm in now, Suzuha leapt from 2036, riding her time machine, piercing a large hole in Radio Kaikan and causing a commotion.
+<END>
+
+#WRITE(PTR, $00000970)
+Because the satellite-- which was actually a time machine-- crashed, Nakabachi's presentation was canceled, and the perimeter around Radio Kaikan was blockaded.
+<END>
+
+#WRITE(PTR, $00000980)
+Blockaded, meaning nobody was inside.
+<END>
+
+#WRITE(PTR, $00000990)
+When I was thrown into that situation around Radio Kaikan via world line change, it appeared as if several thousand people disappeared at once.
+<END>
+
+#WRITE(PTR, $00000A00)
+It was like a joke without a punchline.
+<END>
+
+#WRITE(PTR, $00000A10)
+The problem is the timing of when I sent the D-mail.
+<END>
+
+#WRITE(PTR, $00000AFC)
+When I moved to the α World Line, it was right after Kurisu had died.
+<END>
+
+#WRITE(PTR, $00000B0C)
+If I had sent it before Kurisu died, then I still might have been able to prevent the incident.
+<END>
+
+#WRITE(PTR, $00000B1C)
+But if that were the case, cause and effect wouldn't come to be.
+<END>
+
+#WRITE(PTR, $00000B2C)
+It's because I witnessed Kurisu dead that I even sent that mail.
+<END>
+
+#WRITE(PTR, $00000B3C)
+Who killed Kurisu in the first place?
+<END>
+
+#WRITE(PTR, $00000B4C)
+There's no doubt it wasn't suicide.
+<END>
+
+#WRITE(PTR, $00000BBC)
+If I could identify the culprit, and tell that culprit "Don't kill Kurisu" by sending a D-mail, would that prevent Kurisu's death?
+<END>
+
+#WRITE(PTR, $00000BCC)
+In the current world line, Kurisu isn't dead. That culprit hasn't killed her.
+<END>
+
+#WRITE(PTR, $00000BDC)
+So if I send that D-mail, it would have to be from the β World Line.
+<END>
+
+#WRITE(PTR, $00000BEC)
+...I don't have any confidence at all that that would go smoothly.
+<END>
+
+#WRITE(PTR, $00000CD8)
+Because I've already seen Mayuri die over and over.
+<END>
+
+#WRITE(PTR, $00000CE8)
+I've struggled time and time again to prevent that, but I experienced it end in vain each time.
+<END>
+
+#WRITE(PTR, $00000D58)
+I understand it all too well.
+<END>
+
+#WRITE(PTR, $00000D68)
+A death the world wishes for cannot be prevented.
+<END>
+
+#WRITE(PTR, $00000D78)
+I don't have any means to save Kurisu who died back then--
+<END>
+
+#WRITE(PTR, $00000DF4)
+【Kurisu】Ah, there he is.
+<END>
+
+#WRITE(PTR, $00000E04)
+Nobody should be here, yet I hear a woman's voice.
+<END>
+
+#WRITE(PTR, $00000E58)
+Kurisu opens the door and peeks her face outside.
+<END>
+
+#WRITE(PTR, $00000E68)
+Feeling indebtedness, I couldn't look Kurisu straight in the face.
+<END>
+
+#WRITE(PTR, $00000E78)
+【Kurisu】What are you doing here?
+<END>
+
+#WRITE(PTR, $00000E88)
+【Rintaro】...nothing.
+<END>
+
+#WRITE(PTR, $00000E98)
+【Rintaro】I really knew you were here.
+<END>
+
+#WRITE(PTR, $00000EA8)
+【Kurisu】Since you said you wanted to be alone. Probability-wise, I deduced that this was the most likely place you'd be.
+<END>
+
+#WRITE(PTR, $00000EB8)
+【Rintaro】So leave me alone then... You don't have to look for me. I'm not a lost little boy.
+<END>
+
+#WRITE(PTR, $00000ED2)
+【Kurisu】Wh, what's with that. Even though someone was worried enough to come searching for you...
+<END>
+
+#WRITE(PTR, $00000EEC)
+【Kurisu】Ah, no, I wasn't worried.
+<END>
+
+#WRITE(PTR, $00000EFC)
+Right after making herself flustered, Kurisu sighs deeply and puts on a serious expression.
+<END>
+
+#WRITE(PTR, $00000F16)
+【Kurisu】Even I thought of leaving you alone.
+<END>
+
+#WRITE(PTR, $00000F26)
+【Kurisu】But Okabe, the day before yesterday, you were somehow weird. Well, you're always weird, but I mean, more than usual.
+<END>
+
+#WRITE(PTR, $00000F36)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000F4E)
+【Kurisu】You look dejected as if you were eating crappy tasting <DICT>oatmeal</DICT>. Did something happen??
+<END>
+
+#WRITE(PTR, $00000F5E)
+【Rintaro】Nothing...
+<END>
+
+#WRITE(PTR, $00000F78)
+【Kurisu】So then, why did you cancel cracking SERN?
+<END>
+
+#WRITE(PTR, $00000F88)
+【Rintaro】But you even said cracking wasn't good, didn't you...
+<END>
+
+#WRITE(PTR, $00000FA2)
+【Kurisu】You're scared of setting off arrest flags, huh. I understand.
+<END>
+
+#WRITE(PTR, $00000FB2)
+【Rintaro】At least call it "awakening my Law-Abiding Spirit".
+<END>
+
+#WRITE(PTR, $00000FC2)
+【Kurisu】That's not like you at all. What happened to your usual self-righteousness? Even though you're the insane mad scientist, Hououin Kyouma--
+<END>
+
+#WRITE(PTR, $00000FD2)
+【Rintaro】I don't need shit like self-righteousness!
+<END>
+
+#WRITE(PTR, $00000FEC)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00000FFC)
+I raised my voice to a shout.
+<END>
+
+#WRITE(PTR, $0000100C)
+【Rintaro】Just this once, I don't need self-righteousness...
+<END>
+
+#WRITE(PTR, $0000101C)
+So far, I've forcibly sacrificed the memories of Suzuha, Faris, and Lukako.
+<END>
+
+#WRITE(PTR, $0000102C)
+By sacrificing them, I've certainly given those girls deep wounds. But even so, I justified it to myself by saying it was for the sake of preventing Mayuri's death, comparing the options against each other.
+<END>
+
+#WRITE(PTR, $0000103C)
+But now, I can't possibly compare...
+<END>
+
+#WRITE(PTR, $0000104C)
+【Rintaro】I'm faced with the decision of which friend to let die, so if I get self-righteous... would that make it any easier...
+<END>
+
+#WRITE(PTR, $00001066)
+【Kurisu】...What do you mean by "which friend to let die?"
+<END>
+
+#WRITE(PTR, $00001076)
+【Rintaro】Hey, Christina. I am, after all, just a student.
+<END>
+
+#WRITE(PTR, $00001086)
+【Rintaro】An insane mad scientist? Hououin Kyouma? All of that is just a delusion. A setting. Did you not notice?
+<END>
+
+#WRITE(PTR, $000010A0)
+【Kurisu】...No, I kind of noticed when we first met.
+<END>
+
+#WRITE(PTR, $000010B0)
+【Rintaro】When we first met... huh.
+<END>
+
+#WRITE(PTR, $000010C0)
+If, back then, I hadn't discovered Kurisu dead.
+<END>
+
+#WRITE(PTR, $000010D0)
+Let's imagine that assumption.
+<END>
+
+#WRITE(PTR, $000010E0)
+In that case, we wouldn't have had a big conversation when we met again at ATF.
+<END>
+
+#WRITE(PTR, $000010F0)
+Kurisu wouldn't get interested when I uttered You should be dead, and intrude on our lab.
+<END>
+
+#WRITE(PTR, $00001100)
+And then the Time Leap Machine wouldn't have been made, leaving me without the means to save Mayuri.
+<END>
+
+#WRITE(PTR, $00001110)
+Kurisu wouldn't have become our comrade.
+<END>
+
+#WRITE(PTR, $00001120)
+Kurisu wouldn't have made this close relationship with me.
+<END>
+
+#WRITE(PTR, $00001170)
+【Kurisu】Tell me, Okabe. What do you mean?
+<END>
+
+#WRITE(PTR, $00001180)
+I couldn't honestly return the look in Kurisu's pressing eyes.
+<END>
+
+#WRITE(PTR, $00001190)
+【Rintaro】...Do I have to tell you, no matter what?
+<END>
+
+#WRITE(PTR, $000011A0)
+【Kurisu】I gave you advice, didn't I?
+<END>
+
+#WRITE(PTR, $000011BA)
+【Kurisu】Don't restrain yourself now.
+<END>
+
+#WRITE(PTR, $000011CA)
+This isn't restraint.
+<END>
+
+#WRITE(PTR, $000011DA)
+【Rintaro】...then prepare yourself
+<END>
+
+#WRITE(PTR, $000011EA)
+【Rintaro】What I'm going to talk about now isn't for advice. It's the truth.
+<END>
+
+#WRITE(PTR, $000011FA)
+【Rintaro】For you, it could become... a death sentence.
+<END>
+
+#WRITE(PTR, $00001214)
+【Kurisu】...eh?
+<END>
+
+#WRITE(PTR, $00001224)
+Kurisu's voice sounded like faint.
+<END>
+
+#WRITE(PTR, $00001234)
+【Rintaro】I explained before, right? Once we crack SERN, we'll reach the β World Line where Mayuri doesn't die.
+<END>
+
+#WRITE(PTR, $00001244)
+【Kurisu】And 2036 doesn't become SERN's dystopia, but a free future in this rosy world line. That's how I heard it.
+<END>
+
+#WRITE(PTR, $00001254)
+【Rintaro】What do you mean rosy...
+<END>
+
+#WRITE(PTR, $00001264)
+【Rintaro】The first D-mail that became the origin. You should've already seen the contents.
+<END>
+
+#WRITE(PTR, $00001274)
+【Rintaro】In the β World Line, the contents of that mail "Actually occurred".
+<END>
+
+#WRITE(PTR, $0000128E)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $0000129E)
+Judging by how fast Kurisu gulped, she already understands.
+<END>
+
+#WRITE(PTR, $000012AE)
+The meaning of death sentence.
+<END>
+
+#WRITE(PTR, $000012BE)
+【Rintaro】In the β World Line, you--
+<END>
+
+#WRITE(PTR, $000012CE)
+【Rintaro】Died on July 28, Kurisu.
+<END>
+
+#WRITE(PTR, $000012DE)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $000012EE)
+【Rintaro】And, due to convergence according to Attractor Field Theory, nothing can be done to prevent that.
+<END>
+
+#WRITE(PTR, $000012FE)
+【Rintaro】In order to save Mayuri, I have no choice but to let you die...!
+<END>
+
+#WRITE(PTR, $0000130E)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00001330)
+Kurisu doesn't answer anything.
+<END>
+
+#WRITE(PTR, $00001340)
+What face is she making now?
+<END>
+
+#WRITE(PTR, $00001350)
+Timidly, I try peeking at her face.
+<END>
+
+#WRITE(PTR, $000013A4)
+Kurisu's eyes look distant.
+<END>
+
+#WRITE(PTR, $000013B4)
+Looking somewhere beyond the countless buildings.
+<END>
+
+#WRITE(PTR, $000013C4)
+Without the fear or pessimism of death.
+<END>
+
+#WRITE(PTR, $000013D4)
+As if taking a philosophical look.
+<END>
+
+#WRITE(PTR, $000013E4)
+She's always like that.
+<END>
+
+#WRITE(PTR, $000013F4)
+Calm no matter what.
+<END>
+
+#WRITE(PTR, $00001404)
+Not like someone younger than me at all.
+<END>
+
+#WRITE(PTR, $00001414)
+The wind blows, swinging her gentle, chestnut-colored hair.
+<END>
+
+#WRITE(PTR, $00001424)
+Kurisu weighs it down with her hand.
+<END>
+
+#WRITE(PTR, $00001434)
+【Kurisu】Hey, Okabe.
+<END>
+
+#WRITE(PTR, $00001444)
+【Kurisu】Just how authentic do you think attractor fields are?
+<END>
+
+#WRITE(PTR, $00001454)
+【Rintaro】Authentic?
+<END>
+
+#WRITE(PTR, $0000146E)
+【Kurisu】It's all secondhand info from John Titor--- from Amane-san, right?
+<END>
+
+#WRITE(PTR, $0000147E)
+【Kurisu】Though it seems standard in 2036.
+<END>
+
+#WRITE(PTR, $0000148E)
+【Kurisu】Just how properly do you think the researchers of that age proved their existence?
+<END>
+
+#WRITE(PTR, $0000149E)
+【Rintaro】You mean the theory may be incorrect? But I know for certain that convergence exists. I've experienced it firsthand.
+<END>
+
+#WRITE(PTR, $000014B8)
+【Kurisu】Even if convergence is correct,
+<END>
+
+#WRITE(PTR, $000014C8)
+【Kurisu】Then what about the superposition of the infinitely branching world lines?
+<END>
+
+#WRITE(PTR, $000014D8)
+【Rintaro】When I move world lines, the world is reorganized. From past to future.
+<END>
+
+#WRITE(PTR, $000014E8)
+【Kurisu】Isn't that just from your subjectivity, Okabe?
+<END>
+
+#WRITE(PTR, $00001502)
+【Kurisu】The me your brain recognizes will die when you go to the β World Line, right?
+<END>
+
+#WRITE(PTR, $00001512)
+【Kurisu】So basically, between the choices 'a world line where I die' and 'a world line where I don't die, ' your subjectivity chooses the former. However,
+<END>
+
+#WRITE(PTR, $0000152C)
+【Kurisu】The world your brain recognizes, and the world my brain recognizes could possibly be two different things, couldn't they?
+<END>
+
+#WRITE(PTR, $0000153C)
+Brains, huh...
+<END>
+
+#WRITE(PTR, $0000154C)
+I forgot her specialty was neuroscience.
+<END>
+
+#WRITE(PTR, $0000155C)
+【Rintaro】By different things, do you mean the world is divided?
+<END>
+
+#WRITE(PTR, $0000156C)
+【Kurisu】Divided, kind of like trains, maybe.
+<END>
+
+#WRITE(PTR, $0000157C)
+【Rintaro】Trains...?
+<END>
+
+#WRITE(PTR, $00001596)
+【Kurisu】Well, let me give you an easy example...
+<END>
+
+#WRITE(PTR, $000015A6)
+Kurisu takes out her phone and starts doing something with in.
+<END>
+
+#WRITE(PTR, $000015C0)
+【Kurisu】I checked the route map, but to go from Akihabara to Yokohama, which route should I take?
+<END>
+
+#WRITE(PTR, $000015D8)
+【Rintaro】You... were a <DICT>railfan</DICT>?
+<END>
+
+#WRITE(PTR, $000015F2)
+【Kurisu】No. It's an example, an example.
+<END>
+
+#WRITE(PTR, $0000160C)
+【Kurisu】You could choose to take the Yamate Line to Tokyo Station, and then from there, take the Tokaido Main Line.
+<END>
+
+#WRITE(PTR, $0000161C)
+Apparently coming up with an itinerary, Kurisu keeps talking while looking at her phone's screen.
+<END>
+
+#WRITE(PTR, $0000162C)
+【Kurisu】But I'll take the Yamate Line to Osaki, and then ride the Shonan-Shinjuku Line.
+<END>
+
+#WRITE(PTR, $00001646)
+【Kurisu】Then maybe another person--- Hashida-san, perhaps, might just suddenly ride the Keihin Tohoku Line from Akihabara.
+<END>
+
+#WRITE(PTR, $00001656)
+【Kurisu】Mayuri might ride the Shinkansen from Tokyo.
+<END>
+
+#WRITE(PTR, $00001666)
+【Kurisu】Okabe and I ride the same train until Tokyo Station, but from there, we ride different lines, still aiming at the same destination.
+<END>
+
+#WRITE(PTR, $00001676)
+【Rintaro】And that applies to the world? Are you claiming there are parallel worlds?
+<END>
+
+#WRITE(PTR, $00001690)
+【Kurisu】...occasionally, I too, have delusions.
+<END>
+
+#WRITE(PTR, $000016AA)
+【Kurisu】But who proved there's only one world?
+<END>
+
+#WRITE(PTR, $000016BA)
+【Rintaro】Suzuha said so, and my "Reading Steiner"...
+<END>
+
+#WRITE(PTR, $000016CA)
+【Kurisu】An unidentified time traveler, and an unexplainable special skill, huh.
+<END>
+
+#WRITE(PTR, $000016DA)
+【Rintaro】Suzuha's not unidentified...
+<END>
+
+#WRITE(PTR, $000016EA)
+【Kurisu】Nobody can prove whether she's Hashida's daughter or not. Nobody can prove she came from 2036, nor what she said about the dystopia. Not until 2036, that is.
+<END>
+
+#WRITE(PTR, $00001704)
+【Kurisu】In the first place, if Reading Steiner is correct, then the memories of each and every person are pulled by your subjectivity.
+<END>
+
+#WRITE(PTR, $00001714)
+【Kurisu】That's too unreasonable. If that were true, Okabe, then you'd literally be a god.
+<END>
+
+#WRITE(PTR, $0000172E)
+【Kurisu】But there are no gods in reality.
+<END>
+
+#WRITE(PTR, $0000173E)
+【Kurisu】The world doesn't revolve around you.
+<END>
+
+#WRITE(PTR, $00001758)
+【Kurisu】Your brain is just deluded like that.
+<END>
+
+#WRITE(PTR, $00001768)
+【Kurisu】If you say you are a god to this world, then at the same time, then I, who have the same brain capacity, am also a god to this world.
+<END>
+
+#WRITE(PTR, $00001778)
+【Rintaro】What do you want to say?
+<END>
+
+#WRITE(PTR, $00001792)
+【Kurisu】Let's say Okabe's subjectivity chooses "the world line where I die". My subjectivity doesn't necessarily choose "the world line where I die" as well.
+<END>
+
+#WRITE(PTR, $000017A2)
+【Kurisu】I understand that since my subjectivity exists here.
+<END>
+
+#WRITE(PTR, $000017B2)
+【Kurisu】Because this world line is already "the world line where I don't die".
+<END>
+
+#WRITE(PTR, $000017CC)
+【Kurisu】Even if your subjectivity goes to the β World Line, my subjectivity might be able to stay here.
+<END>
+
+#WRITE(PTR, $000017DC)
+【Kurisu】It's a matter of where the spirit lies. And I don't want you to just have your way with my spirit.
+<END>
+
+#WRITE(PTR, $000017EC)
+【Rintaro】A scientist wouldn't think such a fantasy theory like that.
+<END>
+
+#WRITE(PTR, $00001806)
+【Kurisu】But the likelihood isn't zero.
+<END>
+
+#WRITE(PTR, $00001820)
+【Kurisu】So there's no need for you to worry.
+<END>
+
+#WRITE(PTR, $00001830)
+Kurisu smiles with a grin.
+<END>
+
+#WRITE(PTR, $00001840)
+She was just given a death sentence, so how can she smile...?
+<END>
+
+#WRITE(PTR, $0000185A)
+【Kurisu】You're worried since you can't let me die, right?
+<END>
+
+#WRITE(PTR, $0000186A)
+【Kurisu】But with my hypothesis just now, I'll keep living in another possible world line.
+<END>
+
+#WRITE(PTR, $0000187A)
+【Kurisu】So, Okabe, there's no need for you to worry in the first place.
+<END>
+
+#WRITE(PTR, $0000188A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $0000189A)
+【Rintaro】A hypothesis is a hypothesis.
+<END>
+
+#WRITE(PTR, $000018B4)
+【Kurisu】Even Attractor Field Theory is just a hypothesis.
+<END>
+
+#WRITE(PTR, $000018C4)
+【Kurisu】Because it still hasn't been proved by anyone or anything. Even if it gets proven in 2036, we can't confirm that proof for now.
+<END>
+
+#WRITE(PTR, $000018DE)
+【Kurisu】If you think like that--
+<END>
+
+#WRITE(PTR, $000018EE)
+【Kurisu】The future's possibilities are endless.
+<END>
+
+#WRITE(PTR, $0000190A)
+Saying that much, Kurisu turns her back to me.
+<END>
+
+#WRITE(PTR, $0000191A)
+An armchair theory.
+<END>
+
+#WRITE(PTR, $0000192A)
+A daring armchair theory that could quite possibly deny everything I've done till this point.
+<END>
+
+#WRITE(PTR, $0000193A)
+How can Kurisu stay so calm even now?
+<END>
+
+#WRITE(PTR, $0000194A)
+Even though she's still an 18 year old girl.
+<END>
+
+#WRITE(PTR, $0000195A)
+【Kurisu】By the way, you don't have to worry. Okabe, if you did, it would really hurt my pride.
+<END>
+
+#WRITE(PTR, $00001A3A)
+【Rintaro】When you say it like that...
+<END>
+
+#WRITE(PTR, $00001A58)
+【Kurisu】You're phone's ringing, you know?
+<END>
+
+#WRITE(PTR, $00001A76)
+【Rintaro】Ah, yeah. It's Mayuri.
+<END>
+
+#WRITE(PTR, $00001A94)
+【Kurisu】Answer it. Why are you holding back for me?
+<END>
+
+#WRITE(PTR, $00001AB2)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001D4C)
+【Rintaro】...hello?
+<END>
+
+#WRITE(PTR, $00001D68)
+【Mayuri】Ah...
+<END>
+
+#WRITE(PTR, $00001D90)
+【Rintaro】Mayuri?
+<END>
+
+#WRITE(PTR, $00001DAC)
+【Mayuri】Yeah...
+<END>
+
+#WRITE(PTR, $00001DC8)
+Somehow Mayuri's face displayed on the LCD was missing its usual brightness.
+<END>
+
+#WRITE(PTR, $00001DD8)
+【Rintaro】What's wrong...?
+<END>
+
+#WRITE(PTR, $00001DF4)
+【Mayuri】You know, I heard from Daru-kun-... That something's wrong with Okarin.
+<END>
+
+#WRITE(PTR, $00001E04)
+【Mayuri】Mayushii was so preoccupied with ComiMa, she didn't really notice anything about Okarin, huh...
+<END>
+
+#WRITE(PTR, $00001E14)
+【Mayuri】Even though I usually notice right away when Okarin's not feeling good...
+<END>
+
+#WRITE(PTR, $00001E24)
+【Mayuri】Sorry.
+<END>
+
+#WRITE(PTR, $00001E40)
+Don't apologize...
+<END>
+
+#WRITE(PTR, $00001E50)
+You haven't done anything wrong.
+<END>
+
+#WRITE(PTR, $00001E76)
+【Mayuri】So, did something happen-?
+<END>
+
+#WRITE(PTR, $00001E92)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001EB8)
+【Mayuri】Okarin...?
+<END>
+
+#WRITE(PTR, $00001ED4)
+I can't say it.
+<END>
+
+#WRITE(PTR, $00001EE4)
+There's no way I can say it.
+<END>
+
+#WRITE(PTR, $00001EF4)
+I've always kept it a secret from Mayuri. I never told her anything.
+<END>
+
+#WRITE(PTR, $00001F04)
+【Rintaro】Nothing's wrong, at all.
+<END>
+
+#WRITE(PTR, $00001F20)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $00001F30)
+【Mayuri】I see-...
+<END>
+
+#WRITE(PTR, $00001F4A)
+【Mayuri】You know, before, you used to talk to Mayushii about a lot of things, right?
+<END>
+
+#WRITE(PTR, $00001F5A)
+【Mayuri】For example, uhh, the "Organization" has four leaders. Their names are Back Turkish, Virginian Burp, Balloon Drag Queen, and Wide-eye Gore, was it?
+<END>
+
+#WRITE(PTR, $00001F76)
+【Rintaro】...it's Black Tortoise, Vermilion Bird, Blue Dragon, and White Tiger.
+<END>
+
+#WRITE(PTR, $00001F9C)
+【Mayuri】Yeah, yeah, that-
+<END>
+
+#WRITE(PTR, $00001FAC)
+【Mayuri】You know, it was really fun talking to Okarin like that-
+<END>
+
+#WRITE(PTR, $00001FC6)
+【Mayuri】But...
+<END>
+
+#WRITE(PTR, $00001FD6)
+【Mayuri】Hey, Okarin. You know, if Mayushii... feels like a burden, just say so, okay?
+<END>
+
+#WRITE(PTR, $00001FF2)
+【Rintaro】Wha, that's...!
+<END>
+
+#WRITE(PTR, $00002018)
+【Mayuri】Ehhehe-. Well, I'll hang up for now. If you ever feel like talking to Mayushii about anything, just call okay?
+<END>
+
+#WRITE(PTR, $00002028)
+【Mayuri】Well, tutturu-♪
+<END>
+
+#WRITE(PTR, $0000209A)
+She hung up on me.
+<END>
+
+#WRITE(PTR, $000020E8)
+【Kurisu】What did Mayuri say?
+<END>
+
+#WRITE(PTR, $0000213A)
+The ringtone cut off while I hesitated.
+<END>
+
+#WRITE(PTR, $00002182)
+【Kurisu】How sissy of you. Frankly, I'm disappointed in you.
+<END>
+
+#WRITE(PTR, $00002192)
+【Rintaro】Are you saying it's okay if I kill you?
+<END>
+
+#WRITE(PTR, $000021A2)
+【Kurisu】Did you not hear what I just said?
+<END>
+
+#WRITE(PTR, $000021B2)
+【Rintaro】I heard, bu--
+<END>
+
+#WRITE(PTR, $00002254)
+This time a mail came.
+<END>
+
+#WRITE(PTR, $0000230C)
+I didn't want to argue with Kurisu any more, so I open my phone to break the conversation.
+<END>
+
+#WRITE(PTR, $0000242C)
+【Rintaro】How is she a "burden"...!? Don't just put yourself down, come on, dammit.
+<END>
+
+#WRITE(PTR, $0000243C)
+【Rintaro】She's never able to read the atmosphere, so why now of all times...!
+<END>
+
+#WRITE(PTR, $00002456)
+【Kurisu】A burden, huh...
+<END>
+
+#WRITE(PTR, $00002466)
+【Rintaro】I never felt Mayuri as a burden, not once...
+<END>
+
+#WRITE(PTR, $00002480)
+【Kurisu】Then you should tell her that clearly.
+<END>
+
+#WRITE(PTR, $00002490)
+It wasn't a good idea to hide everything from her after all.
+<END>
+
+#WRITE(PTR, $000024A0)
+It normally looks like she's not thinking anything, yet she still noticed my hesitation?
+<END>
+
+#WRITE(PTR, $000024B0)
+But, I still can't tell her the truth.
+<END>
+
+#WRITE(PTR, $000024CA)
+【Kurisu】Okabe.
+<END>
+
+#WRITE(PTR, $000024DA)
+Sighing as if amazed, Kurisu glares at me.
+<END>
+
+#WRITE(PTR, $000024EA)
+【Kurisu】The old you wouldn't have worried about anything.
+<END>
+
+#WRITE(PTR, $000024FA)
+【Kurisu】For now, you should go meet with Mayuri.
+<END>
+
+#WRITE(PTR, $00002514)
+【Kurisu】She's probably has a lot to think about.
+<END>
+
+#WRITE(PTR, $00002524)
+That's right. Even if I don't tell her the truth, I need to at least tell her something...
+<END>
+
+#WRITE(PTR, $00002534)
+I'll postpone the conclusion, and go to meet Mayuri.
+<FILEEND25>
+

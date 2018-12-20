@@ -30,15 +30,15 @@ The Radio Center, however, is still off limits... The entrances are closed by sh
 <END>
 
 #WRITE(PTR, $00000298)
-【Announcer】Were here in Akihabara, the day after the crash of the mysterious satellite-like object. There's a very large number of people gathered around the prohibited area.
+【Reporter】Were here in Akihabara, the day after the crash of the mysterious satellite-like object. There's a very large number of people gathered around the prohibited area.
 <END>
 
 #WRITE(PTR, $000002A8)
-【Announcer】The object cannot be removed until the people who are doing the investigation find out details about it, like what country it belongs to.
+【Reporter】The object cannot be removed until the people who are doing the investigation find out details about it, like what country it belongs to.
 <END>
 
 #WRITE(PTR, $000002B8)
-【Announcer】The police states that there's no danger of the object exploding, but regardless of that, the locals and the visiting shoppers alike are uneasy.
+【Reporter】The police states that there's no danger of the object exploding, but regardless of that, the locals and the visiting shoppers alike are uneasy.
 <END>
 
 #WRITE(PTR, $000002C8)

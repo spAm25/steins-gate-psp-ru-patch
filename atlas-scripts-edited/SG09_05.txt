@@ -214,7 +214,7 @@ I feel several strands fall out.
 <END>
 
 #WRITE(PTR, $00001A70)
-【Rintaro】Oof...
+【Rintaro】--
 <END>
 
 #WRITE(PTR, $00001AD4)

@@ -1,0 +1,974 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002BB6)
+
+#WRITE(PTR, $00000884)
+I'm dragged out of the time machine.
+<END>
+
+#WRITE(PTR, $00000894)
+I just crouch there, unable to stand.
+<END>
+
+#WRITE(PTR, $0000090A)
+【Itaru】Woah, you're already back! It hasn't even been a minute.
+<END>
+
+#WRITE(PTR, $00000924)
+【Mayuri】...Okarin?
+<END>
+
+#WRITE(PTR, $00000974)
+【Mayuri】Okarin!
+<END>
+
+#WRITE(PTR, $00000984)
+Mayuri rushes over to me.
+<END>
+
+#WRITE(PTR, $00000994)
+I peek at her concerned face.
+<END>
+
+#WRITE(PTR, $000009A4)
+But now, even that concern is annoying.
+<END>
+
+#WRITE(PTR, $000009B4)
+--Please don't talk to me.
+<END>
+
+#WRITE(PTR, $000009C4)
+--Please let me be alone.
+<END>
+
+#WRITE(PTR, $000009D4)
+【Itaru】Hey, Okarin, you're all bloody! What happened!?
+<END>
+
+#WRITE(PTR, $00000A54)
+【Suzuha】Dad, get a towel and some water, also some clothes! Get them now!
+<END>
+
+#WRITE(PTR, $00000A64)
+【Itaru】Eh? Eh? Please, explain what's going on!
+<END>
+
+#WRITE(PTR, $00000A74)
+【Suzuha】Just go already!
+<END>
+
+#WRITE(PTR, $00000A8E)
+【Itaru】Oh, okay!
+<END>
+
+#WRITE(PTR, $00000B0C)
+Daru rushes back inside the building.
+<END>
+
+#WRITE(PTR, $00000B1C)
+【Mayuri】Okarin, are you okay...? Hang in there... don't die...
+<END>
+
+#WRITE(PTR, $00000B6E)
+【Suzuha】It's okay. It's not like he's injured.
+<END>
+
+#WRITE(PTR, $00000B7E)
+Stop.
+<END>
+
+#WRITE(PTR, $00000B8E)
+Don't care about me.
+<END>
+
+#WRITE(PTR, $00000B9E)
+Please leave me alone.
+<END>
+
+#WRITE(PTR, $00000BAE)
+Save Kurisu? Please.
+<END>
+
+#WRITE(PTR, $00000BBE)
+Far from saving her, I took away her life with my own hands.
+<END>
+
+#WRITE(PTR, $00000C7C)
+Here, three weeks ago.
+<END>
+
+#WRITE(PTR, $00000D8A)
+I killed her.
+<END>
+
+#WRITE(PTR, $00000D9A)
+I murdered her.
+<END>
+
+#WRITE(PTR, $00000DFE)
+【Rintaro】It was useless... anything I do, useless...
+<END>
+
+#WRITE(PTR, $00000E0E)
+【Rintaro】Ha, haha... Everything has already been decided...
+<END>
+
+#WRITE(PTR, $00000E1E)
+【Rintaro】The same... as with Mayuri, the same...
+<END>
+
+#WRITE(PTR, $00000E2E)
+【Rintaro】No matter how much I struggle... the result will be the same...
+<END>
+
+#WRITE(PTR, $00000E3E)
+Since we have a time machine, shouldn't I time travel once more?
+<END>
+
+#WRITE(PTR, $00000E4E)
+No, it's not that simple.
+<END>
+
+#WRITE(PTR, $00000E5E)
+Just like what happened with Mayuri, no matter how many times I retry, it will all converge to the result Kurisu dies.
+<END>
+
+#WRITE(PTR, $00000E6E)
+Even if I acted prudently that time and threw away the knife, Kurisu would die for some other reason.
+<END>
+
+#WRITE(PTR, $00000F24)
+Will Nakabachi kill her?
+<END>
+
+#WRITE(PTR, $00000F34)
+Will I kill her with something other than the knife?
+<END>
+
+#WRITE(PTR, $00000F44)
+Will she bang her head on a wall and die of an accident?
+<END>
+
+#WRITE(PTR, $00000FA8)
+The means don't matter.
+<END>
+
+#WRITE(PTR, $00000FB8)
+The ends will always be the same.
+<END>
+
+#WRITE(PTR, $00000FC8)
+Whether I time leap or time travel, I can't change the result by going back to the past.
+<END>
+
+#WRITE(PTR, $00000FD8)
+We could possibly change the past by changing the divergence and going to another attractor field. But I don't know how to control that.
+<END>
+
+#WRITE(PTR, $00000FE8)
+Changing the past via D-mail is pure luck.
+<END>
+
+#WRITE(PTR, $00000FF8)
+There's no way to aim.
+<END>
+
+#WRITE(PTR, $00001008)
+So it's a waste.
+<END>
+
+#WRITE(PTR, $00001018)
+Even if I try every means at my disposal, it's all meaningless.
+<END>
+
+#WRITE(PTR, $00001028)
+【Rintaro】It's useless... It's all useless... Every single thing is useless...
+<END>
+
+#WRITE(PTR, $00001038)
+【Rintaro】I can't save Kurisu after all... Ha, haha, hahaha...
+<END>
+
+#WRITE(PTR, $00001048)
+【Rintaro】I get it... I get it... I expected it would turn out like this...
+<END>
+
+#WRITE(PTR, $00001058)
+【Rintaro】I'm already tired... I want to rest forever... So, that's enough...
+<END>
+
+#WRITE(PTR, $00001068)
+【Rintaro】Haha, ha...
+<END>
+
+#WRITE(PTR, $00001082)
+【Mayuri】Okarin!
+<END>
+
+#WRITE(PTR, $000010C2)
+Suddenly my cheek is struck.
+<END>
+
+#WRITE(PTR, $000010D2)
+A hot numbness spreads.
+<END>
+
+#WRITE(PTR, $000010E2)
+【Rintaro】What... are...?
+<END>
+
+#WRITE(PTR, $000010F2)
+This is the first time Mayuri has doen such a thing.
+<END>
+
+#WRITE(PTR, $00001102)
+I was so shocked, I came to my senses.
+<END>
+
+#WRITE(PTR, $00001128)
+【Mayuri】...
+<END>
+
+#WRITE(PTR, $00001138)
+Tears stream out of the eyes Mayuri is peeking at me with.
+<END>
+
+#WRITE(PTR, $00001148)
+Her small body gently embraces mine, drenched in Kurisu's blood.
+<END>
+
+#WRITE(PTR, $00001158)
+【Mayuri】Okarin... isn't the type to give up halfway...
+<END>
+
+#WRITE(PTR, $00001172)
+【Mayuri】Mayushii knows. You never, ever give up until the very end.
+<END>
+
+#WRITE(PTR, $00001330)
+【Mayuri】Do you remember? Every day, in front of Granny's grave, when Mayushii would mutter "Save me" in her heart--
+<END>
+
+#WRITE(PTR, $00001340)
+【Mayuri】Okarin would also come every day to meet Mayushii...
+<END>
+
+#WRITE(PTR, $00001350)
+【Mayuri】Even on rainy days or snowy days, you would never fail to come beside Mayushii, and keep calling out Mayushii's name...
+<END>
+
+#WRITE(PTR, $00001360)
+【Mayuri】You know, it's because Okarin was always there for Mayushii... that I was finally able to say farewell to Granny.
+<END>
+
+#WRITE(PTR, $0000145A)
+【Mayuri】So? That's why, Okarin, Mayushii doesn't quite understand, but you mustn't give up...
+<END>
+
+#WRITE(PTR, $0000146A)
+【Mayuri】I want you... to cheer up...
+<END>
+
+#WRITE(PTR, $0000147A)
+Mayuri's gentle warmth embraces me.
+<END>
+
+#WRITE(PTR, $0000148A)
+But no matter how much she clings to me, strength still doesn't return to my heart.
+<END>
+
+#WRITE(PTR, $0000149A)
+【Rintaro】But... I killed her...
+<END>
+
+#WRITE(PTR, $00001650)
+The person most important to me...
+<END>
+
+#WRITE(PTR, $00001660)
+The person who asked me to save her...
+<END>
+
+#WRITE(PTR, $00001670)
+【Rintaro】I... killed her...
+<END>
+
+#WRITE(PTR, $00001756)
+【Mayuri】Okarin...
+<END>
+
+#WRITE(PTR, $00001766)
+The knife I stabbed into Kurisu's chest.
+<END>
+
+#WRITE(PTR, $00001776)
+That cruel sensation still lingers in my hand.
+<END>
+
+#WRITE(PTR, $00001786)
+I look over Mayuri's shoulder, at my own hand.
+<END>
+
+#WRITE(PTR, $00001824)
+A hand stained blood red.
+<END>
+
+#WRITE(PTR, $00001834)
+A hand wet with Kurisu's blood.
+<END>
+
+#WRITE(PTR, $00001844)
+My fingertips shake, and do not stop.
+<END>
+
+#WRITE(PTR, $000018F6)
+My flowing tears blur that redness.
+<END>
+
+#WRITE(PTR, $00001906)
+My heart seems like it will burst from despair.
+<END>
+
+#WRITE(PTR, $00001916)
+Feelings of guilt crush my chest deep within.
+<END>
+
+#WRITE(PTR, $00001926)
+If Suzuha hadn't taken the knife away, I might have slit my own throat.
+<END>
+
+#WRITE(PTR, $00001936)
+This reality is too harsh...
+<END>
+
+#WRITE(PTR, $00001946)
+But this is retribution for obtaining and using a godlike ability to control the past.
+<END>
+
+#WRITE(PTR, $0000195E)
+It was wrong to use a <DICT>cheat code</DICT>, an ability unavailable to normal people-- a godlike ability.
+<END>
+
+#WRITE(PTR, $0000196E)
+Kurisu can't be saved.
+<END>
+
+#WRITE(PTR, $0000197E)
+That's been proven.
+<END>
+
+#WRITE(PTR, $0000198E)
+At the very least, I can't do it.
+<END>
+
+#WRITE(PTR, $0000199E)
+No matter how much Mayuri encourages me.
+<END>
+
+#WRITE(PTR, $000019AE)
+【Rintaro】It's useless...
+<END>
+
+#WRITE(PTR, $000019C8)
+【Suzuha】It's not useless.
+<END>
+
+#WRITE(PTR, $000019D8)
+Right after Suzuha murmurs this in a voice full of conviction.
+<END>
+
+#WRITE(PTR, $00001B0A)
+A familiar mail tone melody goes off close by.
+<END>
+
+#WRITE(PTR, $00001B1A)
+Mayuri takes out from her pocket my cell phone that she's been looking after.
+<END>
+
+#WRITE(PTR, $00001B34)
+【Mayuri】Okarin, a mail...
+<END>
+
+#WRITE(PTR, $00001B44)
+Mayuri gently puts the phone in my hand.
+<END>
+
+#WRITE(PTR, $00001B54)
+I didn't have any energy to look at the mail, but for some reason, Suzuha urges me to look at it with a gesture.
+<END>
+
+#WRITE(PTR, $00001BCA)
+I reluctantly open up the mail arrival screen.
+<END>
+
+#WRITE(PTR, $00001C94)
+What's this?
+<END>
+
+#WRITE(PTR, $00001CA4)
+Watch TV...?
+<END>
+
+#WRITE(PTR, $00001CB4)
+Nothing else is written.
+<END>
+
+#WRITE(PTR, $00001CC4)
+I've never seen the sender's address.
+<END>
+
+#WRITE(PTR, $00001CD4)
+A prank? Spam mail?
+<END>
+
+#WRITE(PTR, $00001CE4)
+Bewildered and not knowing who sent it, I casually look at the send time--
+<END>
+
+#WRITE(PTR, $00001CF4)
+I gasp.
+<END>
+
+#WRITE(PTR, $00001D04)
+The send time:
+<END>
+
+#WRITE(PTR, $00001DAE)
+<LINE>
+<LINE>
+<LINE>
+%LCAugust 21, 2025.
+<ENDPANEL>
+
+#WRITE(PTR, $00001DD6)
+【Rintaro】2025...?
+<END>
+
+#WRITE(PTR, $00001DE6)
+Eh? No way, then this is...
+<END>
+
+#WRITE(PTR, $00001DF6)
+I didn't think something was wrong or that it was a misrepresentation.
+<END>
+
+#WRITE(PTR, $00001E06)
+Because I already know this phenomenon.
+<END>
+
+#WRITE(PTR, $00001E16)
+【Rintaro】A D-mail...!?
+<END>
+
+#WRITE(PTR, $00001E26)
+I unintentionally look up at Suzuha's face.
+<END>
+
+#WRITE(PTR, $00001E76)
+Suzuha notices and peeks at my cell phone.
+<END>
+
+#WRITE(PTR, $00001E90)
+【Suzuha】Just like I heard...! It really reached...!
+<END>
+
+#WRITE(PTR, $00001EA0)
+Seeing her open her eyes in surprise, it seemed like she didn't know the details.
+<END>
+
+#WRITE(PTR, $00001EB0)
+Suzuha leapt from 2036. There's about an 11 year difference.
+<END>
+
+#WRITE(PTR, $00001EC0)
+Meaning this D-mail is unrelated to Suzuha?
+<END>
+
+#WRITE(PTR, $00001EDA)
+【Mayuri】What does it mean by watch TV-?
+<END>
+
+#WRITE(PTR, $00001EF4)
+【Suzuha】It says to watch it, doesn't it? It's trying to tell us something!
+<END>
+
+#WRITE(PTR, $00001F04)
+【Itaru】Heey, I bought the stuff!
+<END>
+
+#WRITE(PTR, $00001F14)
+Right on time, Daru came back, carrying a convience store bag.
+<END>
+
+#WRITE(PTR, $00001F30)
+My phone has 1 SEG capabilities. We can watch TV with that.
+<END>
+
+#WRITE(PTR, $00001F46)
+When we get a signal, what's shown is some foreign airport. Parked there is a jumbo jet.
+<END>
+
+#WRITE(PTR, $00001F56)
+On closer inspection, the plane's tail is burnt black.
+<END>
+
+#WRITE(PTR, $00001F66)
+The subtitle says Fire Accident on Russian Airplane.
+<END>
+
+#WRITE(PTR, $00001F76)
+【Reporter】A fire broke out mid flight on Russian Airline flight 801 from Narita to Moscow, Russian authorities have announced.
+<END>
+
+#WRITE(PTR, $00001F86)
+【Reporter】Russian Airline flight 801 departed Narita Airport at 11:05 Japan time, but just before arriving at Moscow, a fire broke out in the cargo hold.
+<END>
+
+#WRITE(PTR, $00001F96)
+【Reporter】The flight made an emergency landing in Domodedovo International Airport, and the passengers were evacuated. There were no casualties.
+<END>
+
+#WRITE(PTR, $00001FA6)
+【Reporter】On Russian Airline flight 801, where the incident occured, was a Japanese scientist who had declared emigration to Russia--
+<END>
+
+#WRITE(PTR, $00001FB6)
+The screen changed, and the camera cut to what appears to be inside the airport lobby.
+<END>
+
+#WRITE(PTR, $00001FC6)
+There I see a familiar face, and stop breathing.
+<END>
+
+#WRITE(PTR, $00002026)
+【Rintaro】Doctor... Nakabachi...!
+<END>
+
+#WRITE(PTR, $00002036)
+【Reporter】--Doctor Nakabachi, otherwise known as Makise Shouichi, earlier made these comments to the press.
+<END>
+
+#WRITE(PTR, $00002046)
+Emigration to Russia?
+<END>
+
+#WRITE(PTR, $00002056)
+Nakabachi is emigrating to Russia...?
+<END>
+
+#WRITE(PTR, $00002066)
+I don't think I've ever really heard the word emigration in Japan in this day and age.
+<END>
+
+#WRITE(PTR, $00002076)
+I mean, you can just go to Russia any time you want without bothering with that mess.
+<END>
+
+#WRITE(PTR, $00002086)
+Still unable to stand from the shock of killing Kurisu, I merely gaze at the TV as if watching a dream.
+<END>
+
+#WRITE(PTR, $00002096)
+【Nakabachi】I'm truly delighted to have been able to safely emigrate here to wonderful Russia. I deeply thank the Russian government for accepting me.
+<END>
+
+#WRITE(PTR, $000020A6)
+"--how was it inside the plane during the accident?" the subtitles read, in vertical writing on the right side of the screen.
+<END>
+
+#WRITE(PTR, $000020B6)
+【Nakabachi】Inside the plane, it smelled like something was burning, but I was completely calm. Some passengers were panicking, but I stayed quiet throughout.
+<END>
+
+#WRITE(PTR, $000020C6)
+Nakabachi responds with a face full of confidence.
+<END>
+
+#WRITE(PTR, $000020D6)
+He seems like a completely different man from the one who lost his temper against Kurisu on that day.
+<END>
+
+#WRITE(PTR, $000020E6)
+【Nakabachi】Send my compliments to the pilot for his safe landing. He is a hero, who saved not only me, but the historic thesis written by me.
+<END>
+
+#WRITE(PTR, $000020F6)
+The subtitles change to "--Is that thesis related to your current emigration?"
+<END>
+
+#WRITE(PTR, $00002106)
+Nakabachi makes an overemphasized nod.
+<END>
+
+#WRITE(PTR, $00002116)
+【Nakabachi】Indeed. If I were to lose this thesis, it would delay humanity's scientific growth by a hundred years.
+<END>
+
+#WRITE(PTR, $00002126)
+【Nakabachi】It's such a serious thesis that it will decide the fate of humanity's future! This is it!
+<END>
+
+#WRITE(PTR, $00002136)
+"--What's the thesis' contents?" read the subtitles.
+<END>
+
+#WRITE(PTR, $00002146)
+【Nakabachi】The thesis concerns humanity's first ever realization of time travel, understand!? Time travel! I, Doctor Nakabachi, am the first in the entire world to have successfully developed it!
+<END>
+
+#WRITE(PTR, $00002156)
+Nakabachi's tone gradually heats up.
+<END>
+
+#WRITE(PTR, $00002166)
+He starts talking directly to the camera.
+<END>
+
+#WRITE(PTR, $00002176)
+Moreover, instead of talking about the airplane accident, he's just promoting his research.
+<END>
+
+#WRITE(PTR, $00002186)
+And then what he shows to the camera, is that envelope--
+<END>
+
+#WRITE(PTR, $00002196)
+The document Kurisu put together about time travel.
+<END>
+
+#WRITE(PTR, $000021A6)
+【Nakabachi】In here! Packed in here are the dreams of humanity I have put together! Before long, I plan to announce it to the scientific society. Then, all of humanity will be in fear, and finally praise my name!
+<END>
+
+#WRITE(PTR, $000021B6)
+I wasn't worthy to criticize Nakabachi, who had abandoned Kurisu's stabbed body, and escaped with that envelope.
+<END>
+
+#WRITE(PTR, $000021C6)
+But at the same time, I recall from the back of my ears, the words Kurisu had said that enraged Nakabachi.
+<END>
+
+#WRITE(PTR, $000022A6)
+【Kurisu】You're stealing... my thesis? That was the last thing I thought you'd do--
+<END>
+
+#WRITE(PTR, $000022F0)
+Even though he was accused as so, Nakabachi was now claiming his deceased daughter's thesis as his own.
+<END>
+
+#WRITE(PTR, $00002300)
+Dead men tell no tales, is it...?
+<END>
+
+#WRITE(PTR, $00002310)
+I grind my teeth.
+<END>
+
+#WRITE(PTR, $00002320)
+【Nakabachi】I originally planned to put this envelope in my checked suitcase. But if I had, the thesis would have burned in the cargo hold, and that would be the end of humanity's dreams.
+<END>
+
+#WRITE(PTR, $00002330)
+【Nakabachi】However! As if God had declared "Let Doctor Nakabachi's greatness be known the world over", fate played a fortunate prank on me.
+<END>
+
+#WRITE(PTR, $00002340)
+Nakabachi aproaches the camera more and more, presenting the palm of his hand.
+<END>
+
+#WRITE(PTR, $00002350)
+【Nakabachi】The work of God is this! Because this was inside the envelope, it set off the checked baggage metal detector.
+<END>
+
+#WRITE(PTR, $00002360)
+【Nakabachi】I had to take the envelope out of the suitcase and bring it on board!
+<END>
+
+#WRITE(PTR, $00002370)
+【Nakabachi】Not too long ago, I called the pilot a hero, but the true hero who protected the dreams of humanity is this small figurine!
+<END>
+
+#WRITE(PTR, $00002380)
+What was placed on his hand.
+<END>
+
+#WRITE(PTR, $00002390)
+Was round lump of metal with a black luster.
+<END>
+
+#WRITE(PTR, $000023A0)
+Its size was no more than five centimeters.
+<END>
+
+#WRITE(PTR, $000023B0)
+【Mayuri】Ah-!
+<END>
+
+#WRITE(PTR, $000023C0)
+Beside me, Mayuri points at the LCD.
+<END>
+
+#WRITE(PTR, $000023D0)
+What was projected on the screen.
+<END>
+
+#WRITE(PTR, $000023E0)
+What Nakabachi was holding.
+<END>
+
+#WRITE(PTR, $000023F0)
+If you take a good look at it, it wasn't a mere lump of metal--
+<END>
+
+#WRITE(PTR, $0000243C)
+【Mayuri】It's that 'Metal Upa' I lost back then! Look, look, see? It has Mayushii's signature-
+<END>
+
+#WRITE(PTR, $0000244C)
+Upa is the mascot character of the card game RaiNet Access Battlers popular not just in Japan, but among children worldwide.
+<END>
+
+#WRITE(PTR, $0000245C)
+There's a "Upa" cushion placed in our lab. That was something Mayuri received from a regular customer at "MayQueen+Nyan⑯".
+<END>
+
+#WRITE(PTR, $0000246C)
+All over Akihabara, you can see them in capsule toys and on cell phone straps.
+<END>
+
+#WRITE(PTR, $0000247C)
+But among all of them, the Metal Upa is the most rare.
+<END>
+
+#WRITE(PTR, $0000248C)
+What Nakabachi was presenting to the camera on screen was that very same Metal Upa.
+<END>
+
+#WRITE(PTR, $0000249C)
+And on the butt of that "Metal Upa" written with cute characters in gaudy red magic marker was--
+<END>
+
+#WRITE(PTR, $000024AC)
+Mayushii's!
+<END>
+
+#WRITE(PTR, $000024BC)
+【Itaru】Geh, seriously!? Why does Nakabachi have that?
+<END>
+
+#WRITE(PTR, $000024CC)
+【Mayuri】I dropped it in the assembly hall during his presentation-. I searched for it, but gave up when I couldn't find it... So this old man had it-
+<END>
+
+#WRITE(PTR, $000024DC)
+【Mayuri】I can't go all the way to Russia to get it back-
+<END>
+
+#WRITE(PTR, $000024EC)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002580)
+Dumbfounded, I shut the screen.
+<END>
+
+#WRITE(PTR, $00002590)
+I'm getting goosebumps for some reason.
+<END>
+
+#WRITE(PTR, $000025A0)
+My body is shaking.
+<END>
+
+#WRITE(PTR, $000025B0)
+I notice the cause of the goosebumps.
+<END>
+
+#WRITE(PTR, $000025C0)
+【Rintaro】The Butterfly Effect...
+<END>
+
+#WRITE(PTR, $0000260C)
+In Akihabara, Tokyo, in the assembly hall at the presentation we went to three weeks ago...
+<END>
+
+#WRITE(PTR, $0000261C)
+That piddly little character strap Mayuri lost ended up deciding the fate of the Nakabachi Thesis that caused World War III.
+<END>
+
+#WRITE(PTR, $0000262C)
+In the end, it was that Metal Upa that protected the Nakabachi Thesis from the fire.
+<END>
+
+#WRITE(PTR, $0000264C)
+And consequently, the world ends up wrapped in World War III...
+<END>
+
+#WRITE(PTR, $000026E0)
+【Rintaro】Suzuha, did you... know this?
+<END>
+
+#WRITE(PTR, $000026FA)
+【Suzuha】......
+<END>
+
+#WRITE(PTR, $0000270A)
+Suzuha answers me with an apologetic look.
+<END>
+
+#WRITE(PTR, $0000271A)
+【Rintaro】That last D-mail from 2025... who sent it?
+<END>
+
+#WRITE(PTR, $0000272A)
+What it meant by Watch TV was clear from the news regarding Doctor Nakabachi.
+<END>
+
+#WRITE(PTR, $0000273A)
+【Suzuha】Sorry...
+<END>
+
+#WRITE(PTR, $0000274A)
+Suzuha apologizes with a meek face.
+<END>
+
+#WRITE(PTR, $0000275A)
+What does she mean, sorry?
+<END>
+
+#WRITE(PTR, $0000276A)
+What is she sorry for?
+<END>
+
+#WRITE(PTR, $00002784)
+【Suzuha】Sorry for not clearly explaining things.
+<END>
+
+#WRITE(PTR, $00002794)
+【Suzuha】But you know, Uncle Okarin told me that no matter what, we had to fail once at saving Makise Kurisu's life.
+<END>
+
+#WRITE(PTR, $000027A4)
+What the hell...
+<END>
+
+#WRITE(PTR, $000027B4)
+【Rintaro】I've... been tricked...?
+<END>
+
+#WRITE(PTR, $000027C4)
+【Suzuha】It's not like I meant to trick you. Apparently, it was necessary for the plan. That's what I was told.
+<END>
+
+#WRITE(PTR, $000027D4)
+Told... by whom?
+<END>
+
+#WRITE(PTR, $000027EE)
+【Suzuha】I'm sorry for giving you such a painful memory, Uncle Okarin.
+<END>
+
+#WRITE(PTR, $000027FE)
+【Rintaro】I don't understand. Explain...
+<END>
+
+#WRITE(PTR, $00002818)
+【Suzuha】No need.
+<END>
+
+#WRITE(PTR, $00002828)
+Suzuha points to the phone I'm clutching.
+<END>
+
+#WRITE(PTR, $00002838)
+【Suzuha】Listen and you'll understand.
+<END>
+
+#WRITE(PTR, $00002848)
+【Rintaro】Listen? ...to what?
+<END>
+
+#WRITE(PTR, $00002858)
+【Suzuha】It should "already" be in that phone.
+<END>
+
+#WRITE(PTR, $00002868)
+【Suzuha】A message from 2025 Uncle Okarin himself.
+<END>
+
+#WRITE(PTR, $00002878)
+【Rintaro】...eh?
+<END>
+
+#WRITE(PTR, $00002888)
+【Suzuha】A movie mail.
+<END>
+
+#WRITE(PTR, $000028FE)
+【Suzuha】Your phone received it, right?
+<END>
+
+#WRITE(PTR, $0000290E)
+【Rintaro】Ah...!
+<END>
+
+#WRITE(PTR, $0000291E)
+I certainly did receive it.
+<END>
+
+#WRITE(PTR, $0000292E)
+When was that?
+<END>
+
+#WRITE(PTR, $0000293E)
+July 28. That day.
+<END>
+
+#WRITE(PTR, $0000294E)
+Right after I first met Kurisu.
+<END>
+
+#WRITE(PTR, $0000295E)
+Right when I tried calling Mayuri, I received a mysterious movie mail.
+<END>
+
+#WRITE(PTR, $0000296E)
+The sender was an address I've never seen before.
+<END>
+
+#WRITE(PTR, $0000297E)
+Is she talking about that?
+<END>
+
+#WRITE(PTR, $0000298E)
+【Rintaro】But there was nothing in it. All there was was noise...
+<END>
+
+#WRITE(PTR, $000029A8)
+【Suzuha】If you try now--
+<END>
+
+#WRITE(PTR, $000029B8)
+Suzuhas lips twist into a grin.
+<END>
+
+#WRITE(PTR, $000029C8)
+【Suzuha】If you try now, after "failing once at saving Makise Kurisu's life"--
+<END>
+
+#WRITE(PTR, $000029D8)
+【Suzuha】You should be able to see it.
+<END>
+
+#WRITE(PTR, $000029E8)
+...are you're kidding me?
+<END>
+
+#WRITE(PTR, $000029F8)
+Is that even possible?
+<FILEEND42>
+

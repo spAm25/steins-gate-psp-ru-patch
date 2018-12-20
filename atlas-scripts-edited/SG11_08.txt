@@ -1,0 +1,1687 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000048C2)
+
+#WRITE(PTR, $000009D8)
+One month passed since then.
+<END>
+
+#WRITE(PTR, $000009E8)
+My wound was pretty deep and required surgery.
+<END>
+
+#WRITE(PTR, $000009F8)
+If the operation was just one hour late, I would have died from blood loss.
+<END>
+
+#WRITE(PTR, $00000A08)
+The doctor laughed as he told me this. It wasn't a laughing matter.
+<END>
+
+#WRITE(PTR, $00000A18)
+In the end, I stayed in the hospital for a month, and before I knew it, summer break was over, and it was fall.
+<END>
+
+#WRITE(PTR, $00000B00)
+I was locked up in the hospital, so I'm strangely excited to be walking about Akiba after so long.
+<END>
+
+#WRITE(PTR, $00000B10)
+I take a look around to see if Akiba's any different from how I remember it. But there's no sign of any drastic change.
+<END>
+
+#WRITE(PTR, $00000B20)
+It just seems like the tacky moe shops have increased.
+<END>
+
+#WRITE(PTR, $00000B30)
+--That might have happened.
+<END>
+
+#WRITE(PTR, $00000B40)
+With a bitter smile, I thrust my hand into my pocket.
+<END>
+
+#WRITE(PTR, $00000B5C)
+A jingling sound reverberates.
+<END>
+
+#WRITE(PTR, $00000BA8)
+Because inside, there's a total of 8 pin badges.
+<END>
+
+#WRITE(PTR, $00000BB8)
+It came from Suzuha from some world line.
+<END>
+
+#WRITE(PTR, $00000BC8)
+The Future Gadget Laboratory's pin badge that Suzuha brought from the future.
+<END>
+
+#WRITE(PTR, $00000BD8)
+Back then, we frantically searched Akiba for it.
+<END>
+
+#WRITE(PTR, $00000BE8)
+When I was hospitalized, I thought it was the perfect opportunity to ask Daru to make them.
+<END>
+
+#WRITE(PTR, $00000BF8)
+And of course, the one we asked was the usual shady western guy.
+<END>
+
+#WRITE(PTR, $00000C20)
+The final product is slightly different from what Suzuha had, but it's pretty well done.
+<END>
+
+#WRITE(PTR, $00000D72)
+I pass through Yanabayashi Shrine's arch and head to the grounds. There, in an iai pose with a Japanese sword, is a miko.
+<END>
+
+#WRITE(PTR, $00000D82)
+In the quiet, empty grounds, the miko carefully poses with the sword with closed eyes.
+<END>
+
+#WRITE(PTR, $00000D92)
+It felt dignified and divine.
+<END>
+
+#WRITE(PTR, $00000DA2)
+Moreover, the miko is a lovely girl who would catch the attention of 10 out of 10 people.
+<END>
+
+#WRITE(PTR, $00000DB2)
+But to be exact, that's not a miko, and that's not a Japanese sword.
+<END>
+
+#WRITE(PTR, $00000DC2)
+That's a fake 980 yen sword, and the one with features of a beautiful girl... is a guy.
+<END>
+
+#WRITE(PTR, $00000DDC)
+Lukako lifts his head when he notices my footsteps.
+<END>
+
+#WRITE(PTR, $00000DEC)
+【Luka】Ah, Okabe-san...!
+<END>
+
+#WRITE(PTR, $00000DFC)
+Our eyes meet, and Lukako rushes over in a hurry.
+<END>
+
+#WRITE(PTR, $00000E4C)
+His pupils are already wet and wavering.
+<END>
+
+#WRITE(PTR, $00000E5C)
+【Luka】Were you discharged today...?
+<END>
+
+#WRITE(PTR, $00000E6C)
+【Rintaro】Yeah. That's right.
+<END>
+
+#WRITE(PTR, $00000E7C)
+【Luka】No way... Sorry, I, didn't know anything about it...
+<END>
+
+#WRITE(PTR, $00000E8C)
+【Rintaro】Of course you didn't. 'Cause I didn't tell you.
+<END>
+
+#WRITE(PTR, $00000EA6)
+【Luka】But I'm glad you were discharged safely.... I'm... I'm so happy...
+<END>
+
+#WRITE(PTR, $00000EB6)
+And then he silently starts to cry.
+<END>
+
+#WRITE(PTR, $00000EC6)
+I sigh, my paternal instincts stimulated by that fleeting figure.
+<END>
+
+#WRITE(PTR, $00000ED6)
+【Rintaro】So I heard you were a natural at your cosplay debut. I hear you even have a fan club.
+<END>
+
+#WRITE(PTR, $00000EE6)
+【Luka】Au...
+<END>
+
+#WRITE(PTR, $00000EF6)
+After many years of Mayuri's persuasion, one day, near the end of summer break, Lukako finally gave in.
+<END>
+
+#WRITE(PTR, $00000F06)
+It wasn't in time for ComiMa, but at an early September cosplay event, he wore Mayuri's costume and made a striking cosplay debut.
+<END>
+
+#WRITE(PTR, $00000F16)
+And in a flash, it went viral all over the net.
+<END>
+
+#WRITE(PTR, $00000F26)
+Now if you look up pictures of Lukako on the net, you'll get a huge amount of hits.
+<END>
+
+#WRITE(PTR, $00000F36)
+He's being swarmed by fans, and since he's a so called "trap", it's not just men, but women too.
+<END>
+
+#WRITE(PTR, $00000F46)
+Mayuri told me each of these details about Lukako.
+<END>
+
+#WRITE(PTR, $00000F56)
+There are some things in this world you just can't understand.
+<END>
+
+#WRITE(PTR, $00000F70)
+【Luka】To be honest, I am so confused...
+<END>
+
+#WRITE(PTR, $00000F80)
+【Rintaro】But I still haven't seen you cosplay in the flesh.
+<END>
+
+#WRITE(PTR, $00000F90)
+【Luka】I, I just can't. If Okabe-san were to see, then I'd get so embarrassed, I'd die...
+<END>
+
+#WRITE(PTR, $00000FA0)
+【Rintaro】But you had fun, didn't you? That's what Mayuri said.
+<END>
+
+#WRITE(PTR, $00000FBA)
+【Luka】...yes
+<END>
+
+#WRITE(PTR, $00000FCA)
+【Rintaro】You've grown up. Lukako.
+<END>
+
+#WRITE(PTR, $00000FDA)
+He's accepted himself for what he is, and defeated his trauma.
+<END>
+
+#WRITE(PTR, $00000FEA)
+And he even had fun doing it.
+<END>
+
+#WRITE(PTR, $00001004)
+【Luka】Okabe-sa...I mean, Kyouma-san, it's all thanks to the "Seishin Zanma" style you taught me.
+<END>
+
+#WRITE(PTR, $00001014)
+【Luka】I've cleared my mind of all mundane thoughts.
+<END>
+
+#WRITE(PTR, $00001024)
+He's truly a brave disciple.
+<END>
+
+#WRITE(PTR, $00001034)
+【Rintaro】But you must still remain prepared. Your next goal is to inherit the true form of the "Seishin Zanma" style. When you master that, the sealed flames of evil burning within you will have nothing left to burn.
+<END>
+
+#WRITE(PTR, $00001044)
+【Rintaro】At that moment, the legend of Urushibara Luka, Stationed Miko of the Metropolis of Akihabara, begins!
+<END>
+
+#WRITE(PTR, $0000105E)
+【Luka】Eh, umm, what exactly will begin...?
+<END>
+
+#WRITE(PTR, $0000106E)
+【Rintaro】I shall tell you at the proper time.
+<END>
+
+#WRITE(PTR, $0000107E)
+I take out one of the pin badges from my pocket.
+<END>
+
+#WRITE(PTR, $0000108E)
+【Rintaro】Lab Member 006, Urushibara Luka. I grant this unto you.
+<END>
+
+#WRITE(PTR, $0000109E)
+Lukako nervously accepts the pin badge and tilts his head in confusion.
+<END>
+
+#WRITE(PTR, $000010AE)
+【Luka】Um, I... became a lab mem?
+<END>
+
+#WRITE(PTR, $000010BE)
+【Rintaro】That memory is from far beyond, or possibly back from your past life.
+<END>
+
+#WRITE(PTR, $000010CE)
+【Luka】P-past life...?
+<END>
+
+#WRITE(PTR, $000010DE)
+【Rintaro】Since the time you were born, you were already a lab mem. So be proud.
+<END>
+
+#WRITE(PTR, $000010EE)
+That wasn't an exaggeration, but the truth.
+<END>
+
+#WRITE(PTR, $000010FE)
+But it's okay even if I'm the only one who knows.
+<END>
+
+#WRITE(PTR, $0000110E)
+Lukako most likely doesn't remember.
+<END>
+
+#WRITE(PTR, $0000111E)
+【Luka】...
+<END>
+
+#WRITE(PTR, $0000112E)
+【Rintaro】You don't like it?
+<END>
+
+#WRITE(PTR, $00001148)
+【Luka】No, I'm just really happy... sniff
+<END>
+
+#WRITE(PTR, $00001158)
+He starts crying again.
+<END>
+
+#WRITE(PTR, $00001168)
+【Luka】I always... admired Kyouma-san's research lab members... I wanted to join you...
+<END>
+
+#WRITE(PTR, $00001178)
+【Luka】But I never had the courage to ask...
+<END>
+
+#WRITE(PTR, $00001188)
+【Luka】Thank you very much.
+<END>
+
+#WRITE(PTR, $00001198)
+He bows his head.
+<END>
+
+#WRITE(PTR, $00001266)
+【Rintaro】Only eight of those exist in the world, so it's precious. It's a magic item that will protect you from calamity.
+<END>
+
+#WRITE(PTR, $00001280)
+【Luka】Eh, really?
+<END>
+
+#WRITE(PTR, $00001290)
+No. I lied.
+<END>
+
+#WRITE(PTR, $000012A0)
+【Rintaro】So don't lose it.
+<END>
+
+#WRITE(PTR, $000012BA)
+【Luka】Okay.
+<END>
+
+#WRITE(PTR, $000012E2)
+Shyly nodding, Lukako looks happy.
+<END>
+
+#WRITE(PTR, $000012F2)
+...That expression makes me hnng again.
+<END>
+
+#WRITE(PTR, $00001450)
+【Faris】Welcome homeow. Master♪
+<END>
+
+#WRITE(PTR, $00001460)
+I pass through MayQueen's door for the first time in a while, and Faris suddenly greets me.
+<END>
+
+#WRITE(PTR, $0000147A)
+【Faris】Ah, Kyouma!
+<END>
+
+#WRITE(PTR, $000014CA)
+She suddenly links arms with me.
+<END>
+
+#WRITE(PTR, $000014DA)
+I get a little flustered when something soft touches my elbow, but instead I start sweating when I feel killing intent through the stares of Faris' fans.
+<END>
+
+#WRITE(PTR, $000014F4)
+【Faris】Were you discharged, nya?
+<END>
+
+#WRITE(PTR, $00001504)
+【Rintaro】Ah, yeah. I've been resurrected from the depths of hell.
+<END>
+
+#WRITE(PTR, $00001514)
+I pull myself away from Faris and take a deep breath.
+<END>
+
+#WRITE(PTR, $0000152E)
+【Faris】That's Hououin's blood for nya... You're not just bearing the name of the phoenix for show nya.
+<END>
+
+#WRITE(PTR, $0000153E)
+Just like always, this woman makes her own backstories for people.
+<END>
+
+#WRITE(PTR, $0000154E)
+For her to be the one in charge of Akihabara's redevelopment plan makes society seem a little irresponsible.
+<END>
+
+#WRITE(PTR, $00001568)
+【Faris】Mayushii's taking a cat nap from work today nya.
+<END>
+
+#WRITE(PTR, $00001578)
+【Rintaro】I know.
+<END>
+
+#WRITE(PTR, $00001588)
+I ask to be seated and order iced coffee.
+<END>
+
+#WRITE(PTR, $000015A2)
+【Faris】Oh, right, we decided to open up a second MayQueen location nya. And it's even right on Chuo Dori nyan. Purrfect huh? Purrfect huh?
+<END>
+
+#WRITE(PTR, $000015B2)
+【Rintaro】Is that so? Aren't you abusing your authority as the person in charge of redevelopment?
+<END>
+
+#WRITE(PTR, $000015C2)
+The recent explosion of moe shops is also, without a doubt, due to this girl's intentions. I think she's getting a little too cocky.
+<END>
+
+#WRITE(PTR, $000015DC)
+【Faris】Kyouma, this is a mission I must carry out nya.
+<END>
+
+#WRITE(PTR, $000015EC)
+【Faris】By amassing the power the power of moe right now on these Holy Grounds, we'll be ready for those guys' incoming offensive nya.
+<END>
+
+#WRITE(PTR, $000015FC)
+【Rintaro】What? Those guys are...? You mean they've already awakened while I was hospitalized?
+<END>
+
+#WRITE(PTR, $0000160C)
+【Faris】That's right nya. They abused the opportunity of Kyouma's absense nya.
+<END>
+
+#WRITE(PTR, $0000161C)
+【Faris】Will those guys "hatch" first, or will this town's "Maid of Embryo" be first? ...It's a race against timeow.
+<END>
+
+#WRITE(PTR, $00001636)
+【Faris】Faris also went to the RaiNet AB tournament and desperately endured the electrification of "Karma", but it really is tough alone nya.
+<END>
+
+#WRITE(PTR, $00001646)
+What does she mean by Karma.
+<END>
+
+#WRITE(PTR, $00001656)
+About a month ago, Faris went to the "RaiNet Access Battlers" tournament.
+<END>
+
+#WRITE(PTR, $00001666)
+Originally she was the one in charge of Akihabara's redevelopment. A high school girl. President of the company founded by her father, head of the Akiba family. A popular maid at a maid cafe.
+<END>
+
+#WRITE(PTR, $00001676)
+That's Faris, living with three to five trades at once.
+<END>
+
+#WRITE(PTR, $00001686)
+She should've been dreadfully busy, but in the end it looks like she just couldn't help herself.
+<END>
+
+#WRITE(PTR, $00001696)
+And she suddenly won at her first official tournament, so she was in some sense, an actress.
+<END>
+
+#WRITE(PTR, $000016A6)
+Faris seems even livelier than before.
+<END>
+
+#WRITE(PTR, $000016B6)
+Meaning she feels fullfilled by doing the things she likes to do.
+<END>
+
+#WRITE(PTR, $000016C6)
+【Faris】O insane mad scientist, please help nya. If those guys reach this town, everything will be defiled nya!
+<END>
+
+#WRITE(PTR, $000016D6)
+【Rintaro】I guess I have no choice. If it's come to this, then I too must "fulfill the contract".
+<END>
+
+#WRITE(PTR, $000016E6)
+【Rintaro】It's dangerous to go alone. Take this with you.
+<END>
+
+#WRITE(PTR, $00001700)
+【Faris】Nya?
+<END>
+
+#WRITE(PTR, $000017D4)
+I take a pin badge out of my pocket and present it to Faris.
+<END>
+
+#WRITE(PTR, $000017E4)
+【Faris】This is...! Kyouma, just when did you obtain "this"!?
+<END>
+
+#WRITE(PTR, $000017F4)
+【Rintaro】While I was hospitalized.
+<END>
+
+#WRITE(PTR, $0000180E)
+【Faris】So you've overcome the "Test of the Heart" then nya... Kyouma surely is a great man nya.
+<END>
+
+#WRITE(PTR, $0000181E)
+I don't really get what's going on, but I'll just vaguely nod for now.
+<END>
+
+#WRITE(PTR, $0000182E)
+【Rintaro】It's Lab Member 007's pin badge.
+<END>
+
+#WRITE(PTR, $0000183E)
+【Rintaro】Whenever you absolutely need me to save you, grasp that pin badge and repeat the incantation "La Yoda Staserra".
+<END>
+
+#WRITE(PTR, $00001866)
+Faris and I look each other in the face and smile.
+<END>
+
+#WRITE(PTR, $00001876)
+Then high five.
+<END>
+
+#WRITE(PTR, $00001890)
+【Faris】Thanks nya! The Future Gadget Laboratory is Akiba's hope nya.
+<END>
+
+#WRITE(PTR, $000018A0)
+【Faris】Can I come over next time to play nya?
+<END>
+
+#WRITE(PTR, $000018B0)
+【Rintaro】Yeah. Of course. Daru would be pleased too.
+<END>
+
+#WRITE(PTR, $000019CE)
+I return to the lab, and get startled to see an unexpected face there.
+<END>
+
+#WRITE(PTR, $00001AAA)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00001ABA)
+【Nae】...
+<END>
+
+#WRITE(PTR, $00001ACA)
+【Tennoji】Yo, Okabe. Ya outta the hospital already?
+<END>
+
+#WRITE(PTR, $00001ADA)
+【Rintaro】Uh, yeah...
+<END>
+
+#WRITE(PTR, $00001AEA)
+Tennouji Yuugo and Nae, father and daughter.
+<END>
+
+#WRITE(PTR, $00001AFA)
+And then, Kiryuu Moeka.
+<END>
+
+#WRITE(PTR, $00001B0A)
+The Rounder, FB, and his subordinate.
+<END>
+
+#WRITE(PTR, $00001B1A)
+The ones responsible for my severe pain and Mayuri's countless deaths.
+<END>
+
+#WRITE(PTR, $00001B2A)
+As usual, Nae hides behind her father when she sees me.
+<END>
+
+#WRITE(PTR, $00001B3A)
+【Tennoji】Oh yeah, let me introduce you.
+<END>
+
+#WRITE(PTR, $00001B4A)
+Manager points to Moeka with a jerk of his chin.
+<END>
+
+#WRITE(PTR, $00001B5A)
+【Tennoji】Starting today, this girl's gonna work part time at my place.
+<END>
+
+#WRITE(PTR, $00001B6A)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00001B7A)
+Moeka bows her head without saying anything.
+<END>
+
+#WRITE(PTR, $00001B8A)
+Her words are few like always, but she's not holding her phone any more, so I guess that's a little better.
+<END>
+
+#WRITE(PTR, $00001B9A)
+【Tennoji】She's as unsociable as she looks, but get along.
+<END>
+
+#WRITE(PTR, $00001BAA)
+【Rintaro】What do you mean "get along?" Shining Finger and I are acquaintances.
+<END>
+
+#WRITE(PTR, $00001BC4)
+【Tennoji】Shining Finger? Who's that?
+<END>
+
+#WRITE(PTR, $00001BD4)
+I point to Moeka.
+<END>
+
+#WRITE(PTR, $00001BE4)
+【Rintaro】Shining Finger. That's her special ability.
+<END>
+
+#WRITE(PTR, $00001BF4)
+Manager and Moeka completely ignore my words.
+<END>
+
+#WRITE(PTR, $00001C0E)
+【Moeka】...before, for my editorial work... he helped me search for an IBN 5100.
+<END>
+
+#WRITE(PTR, $00001C1E)
+She sent a thank you mail for that when I was in the hospital.
+<END>
+
+#WRITE(PTR, $00001C2E)
+And with that, I found out what our relationship is like here in the Steins;Gate.
+<END>
+
+#WRITE(PTR, $00001C48)
+【Tennoji】Ahh, you mean that phantom PC? Did you find it?
+<END>
+
+#WRITE(PTR, $00001C58)
+Moeka shakes her head.
+<END>
+
+#WRITE(PTR, $00001C68)
+【Tennoji】Well, it is like an urban legend after all.
+<END>
+
+#WRITE(PTR, $00001C78)
+【Rintaro】Moeka, why'd you decide to work part time at the Braun Tube Workshop?
+<END>
+
+#WRITE(PTR, $00001C88)
+Or perhaps, did the Manager reveal his true identity to her?
+<END>
+
+#WRITE(PTR, $00001C98)
+Moeka shouldn't know FB's true identity, though.
+<END>
+
+#WRITE(PTR, $00001CB2)
+【Nae】I brought her.
+<END>
+
+#WRITE(PTR, $00001CC2)
+Nae timidly speaks in a small voice.
+<END>
+
+#WRITE(PTR, $00001CD2)
+【Nae】And then I introduced her to Father.
+<END>
+
+#WRITE(PTR, $00001CE2)
+【Rintaro】I see... you're a matchmaker, huh.
+<END>
+
+#WRITE(PTR, $00001CFC)
+【Tennoji】You retarded? The only ones I love are Nae and the Braun Tube Workshop.
+<END>
+
+#WRITE(PTR, $00001D0C)
+【Nae】F-father...
+<END>
+
+#WRITE(PTR, $00001D26)
+【Tennoji】Also, Nae didn't actually bring her. More accurately, she nursed Nae after she got hurt, and she brought her all the way back here.
+<END>
+
+#WRITE(PTR, $00001D36)
+【Rintaro】I didn't know Moeka had such a gentle side...
+<END>
+
+#WRITE(PTR, $00001D46)
+【Tennoji】So, since she was unemployed, and to thank her for my daughter, we talked about her working at our place.
+<END>
+
+#WRITE(PTR, $00001D56)
+【Tennoji】I never thought our store would hire a part timer.
+<END>
+
+#WRITE(PTR, $00001D66)
+【Rintaro】Didn't you hire one just before?
+<END>
+
+#WRITE(PTR, $00001D80)
+【Tennoji】Haah? What are you talking about? We've never used part time work here.
+<END>
+
+#WRITE(PTR, $00001D90)
+Ahh, I see.
+<END>
+
+#WRITE(PTR, $00001DA0)
+Suzuha worked here in the α World Line-- it was the Suzuha that came from the future where SERN constructed a dystopia.
+<END>
+
+#WRITE(PTR, $00001DB0)
+Now in this world line, the future is different, so she didn't come; those days have been undone, huh.
+<END>
+
+#WRITE(PTR, $00001DC0)
+【Rintaro】Well, in that case, let's work hard, Moeka.
+<END>
+
+#WRITE(PTR, $00001DD0)
+A perfect opportunity. I take a pin badge out of my pocket and hand it to Moeka.
+<END>
+
+#WRITE(PTR, $00001DEA)
+【Moeka】...this is?
+<END>
+
+#WRITE(PTR, $00001E04)
+【Tennoji】Flirting all of a sudden, huh? Don't mess with my part timer.
+<END>
+
+#WRITE(PTR, $00001E14)
+【Rintaro】That pin badge is proof you're Lab Member 005. Come visit our lab on the second floor any time.
+<END>
+
+#WRITE(PTR, $00001E24)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00001E34)
+Moeka looks closely at the pin badge.
+<END>
+
+#WRITE(PTR, $00001E44)
+【Rintaro】But I won't help you look for an IBN 5100 again, okay?
+<END>
+
+#WRITE(PTR, $00001E5E)
+【Tennoji】What an unfriendly guy. Just help her.
+<END>
+
+#WRITE(PTR, $00001E6E)
+【Rintaro】I refuse. I'm a busy man.
+<END>
+
+#WRITE(PTR, $00001E7E)
+I'll pass grabbing the attention of the Rounders again.
+<END>
+
+#WRITE(PTR, $00001E8E)
+Besides, those three will be happier if they don't find it.
+<END>
+
+#WRITE(PTR, $00001EAA)
+I end the conversation with a shrug of the shoulders and head to the stairs.
+<END>
+
+#WRITE(PTR, $00001EBA)
+【Moeka】Okabe-kun.
+<END>
+
+#WRITE(PTR, $00001ECA)
+Moeka calls me to stop.
+<END>
+
+#WRITE(PTR, $00001F12)
+I look back and Moeka shows a smile, however faint.
+<END>
+
+#WRITE(PTR, $00001FE6)
+【Moeka】Thank you... for this.
+<END>
+
+#WRITE(PTR, $00001FF6)
+【Rintaro】...yeah.
+<END>
+
+#WRITE(PTR, $00002026)
+I don't hate them.
+<END>
+
+#WRITE(PTR, $00002036)
+I've already forgiven them.
+<END>
+
+#WRITE(PTR, $00002046)
+And since we've stopped studying time machines, we can just be good neighbors from now on.
+<END>
+
+#WRITE(PTR, $00002056)
+I have no intention to pry into their secret selves any more, and I don't think they'll stop me.
+<END>
+
+#WRITE(PTR, $00002066)
+It's all up to them.
+<END>
+
+#WRITE(PTR, $00002076)
+But--
+<END>
+
+#WRITE(PTR, $00002124)
+I feel like I helped alleviate Nae's grudge against Moeka.
+<END>
+
+#WRITE(PTR, $0000230C)
+I walk into the lab at the same time the microwave oven makes a casual chime.
+<END>
+
+#WRITE(PTR, $0000238C)
+【Mayuri】Ah, Okarin.
+<END>
+
+#WRITE(PTR, $0000239C)
+While taking her Juicy Karaage Number One out of the microwave, Mayuri smiles brightly.
+<END>
+
+#WRITE(PTR, $000023AC)
+【Mayuri】Tutturu-, Welcome homekarin♪
+<END>
+
+#WRITE(PTR, $000023BC)
+【Rintaro】Did you just combine "welcome home" and "Okarin"?
+<END>
+
+#WRITE(PTR, $000023D6)
+【Mayuri】Yup. I said it before, right-?
+<END>
+
+#WRITE(PTR, $000023E6)
+Then Mayuri holds out the steaming karaage.
+<END>
+
+#WRITE(PTR, $000023F6)
+【Mayuri】Want some too, Okarin-? I'll give you one to celebrate your discharge♪
+<END>
+
+#WRITE(PTR, $00002406)
+I accept the gift of karaage and stuff my cheeks.
+<END>
+
+#WRITE(PTR, $00002416)
+I don't know if it's because I've had nothing but crappy hospital food for a month, but it's so delicious I want to cry.
+<END>
+
+#WRITE(PTR, $00002426)
+【Rintaro】Where'd you get that microwave?
+<END>
+
+#WRITE(PTR, $00002436)
+We disassmbled the microwave we used for the Microwave Ophone (Temp) and threw it away.
+<END>
+
+#WRITE(PTR, $00002446)
+So I thought our lab was down a microwave.
+<END>
+
+#WRITE(PTR, $00002456)
+【Itaru】Ahh, I got it.
+<END>
+
+#WRITE(PTR, $00002512)
+Daru's rotundness suddenly pops out from the development room.
+<END>
+
+#WRITE(PTR, $00002522)
+Is he making some new Future Gadget?
+<END>
+
+#WRITE(PTR, $00002532)
+【Rintaro】Did you buy it?
+<END>
+
+#WRITE(PTR, $00002542)
+【Itaru】Obviously, I found it, durr. I went through the trouble of repairing it.
+<END>
+
+#WRITE(PTR, $00002552)
+【Mayuri】It's kinda old, but it still works fine.
+<END>
+
+#WRITE(PTR, $00002562)
+【Rintaro】That's our Supah Hakah. Please keep at it and make the next Future Gadget.
+<END>
+
+#WRITE(PTR, $0000257C)
+【Mayuri】Besides that, Okarin, Okarin, you're so mean-
+<END>
+
+#WRITE(PTR, $0000258C)
+Mayuri seems to have remembered something as she makes a pouty face.
+<END>
+
+#WRITE(PTR, $0000259C)
+【Mayuri】Why did you leave the hospital without even saying a word to Mayushii?
+<END>
+
+#WRITE(PTR, $000025AC)
+【Mayuri】Mayushii and Daru-kun went all the way to the hospital, but the nurse said you already left-
+<END>
+
+#WRITE(PTR, $000025BC)
+【Itaru】The nurse was such a sexy nurse. I should've gotten hospitalized instead of Okarin.
+<END>
+
+#WRITE(PTR, $000025CC)
+【Rintaro】Mayuri, do you mean you've become my guardian? That's quite a promotion. But don't get things wrong. You're my "guardee" to the end.
+<END>
+
+#WRITE(PTR, $000025E6)
+【Mayuri】I even helped you with your diaper-
+<END>
+
+#WRITE(PTR, $000025F6)
+【Rintaro】Uh...
+<END>
+
+#WRITE(PTR, $00002606)
+After the operation, I couldn't move my body, so my mother and Mayuri heroically nursed me.
+<END>
+
+#WRITE(PTR, $00002616)
+Even though it was her summer break, Mayuri would come to my hospital room every morning to take care of me.
+<END>
+
+#WRITE(PTR, $00002626)
+Honestly speaking, I'm thankful for this childhood friend of mine.
+<END>
+
+#WRITE(PTR, $00002636)
+This girl always spaces out and seems like she needs to be taken care of, but she's actually really strong.
+<END>
+
+#WRITE(PTR, $00002650)
+【Itaru】Your childhood friend high school girl helped you with your diaper... I'm jelly, for reals. What eroge is that from?
+<END>
+
+#WRITE(PTR, $00002660)
+Daru should seriously die once.
+<END>
+
+#WRITE(PTR, $00002670)
+I tap Mayuri's head.
+<END>
+
+#WRITE(PTR, $00002680)
+【Rintaro】Next time I'll buy you some Juicy Karaage Number One.
+<END>
+
+#WRITE(PTR, $0000269A)
+【Mayuri】Really? Thank you Okarin! It was worth it to help you after all-. Ehhehe-♪
+<END>
+
+#WRITE(PTR, $000026AA)
+Seeing the innocently happy Mayuri makes me breathe another sigh of relief.
+<END>
+
+#WRITE(PTR, $000026BA)
+Mayuri is living like this.
+<END>
+
+#WRITE(PTR, $000026CA)
+This short optimistic childhood friend of mine was killed over and over, right before my eyes.
+<END>
+
+#WRITE(PTR, $000026DA)
+The days I kept struggling to prevent that became undone, but they weren't futile.
+<END>
+
+#WRITE(PTR, $000026EA)
+If the same thing happens again, what will I do?
+<END>
+
+#WRITE(PTR, $000026FA)
+Will I just accept reality this time?
+<END>
+
+#WRITE(PTR, $0000270A)
+Or will I create another device to leap through time to save her?
+<END>
+
+#WRITE(PTR, $0000271A)
+I won't know until that time comes.
+<END>
+
+#WRITE(PTR, $0000272A)
+Nothing in the future has been decided.
+<END>
+
+#WRITE(PTR, $0000273A)
+In any case, Mayuri is here.
+<END>
+
+#WRITE(PTR, $0000274A)
+That means everything to me now.
+<END>
+
+#WRITE(PTR, $00002818)
+【Rintaro】Here, take these.
+<END>
+
+#WRITE(PTR, $00002828)
+I give Mayuri and Daru the Lab Member 002 and 003 pin badges.
+<END>
+
+#WRITE(PTR, $0000285A)
+【Mayuri】Wah-♪ So cute-
+<END>
+
+#WRITE(PTR, $00002874)
+【Itaru】Oh-, it's finally finished.
+<END>
+
+#WRITE(PTR, $00002884)
+Mayuri immediately pins the badge to her chest and spins to show it off.
+<END>
+
+#WRITE(PTR, $00002894)
+【Mayuri】I gotta wear this every day. 'Cause if I don't, I can't enter the lab-
+<END>
+
+#WRITE(PTR, $000028A4)
+Nobody really made that rule, but whatever.
+<END>
+
+#WRITE(PTR, $000028BE)
+【Mayuri】But Okarin. You know, ever since Mayushii saw the pin badge's design, there's just one thing I never understood.
+<END>
+
+#WRITE(PTR, $000028CE)
+【Rintaro】What's that?
+<END>
+
+#WRITE(PTR, $000028DE)
+【Mayuri】There's writing, right? It says "OSHMKUFA 2010".
+<END>
+
+#WRITE(PTR, $000028EE)
+【Mayuri】Okabe, Shiina, Hashida, and then Urushibara, Faris. I got those, right? But the remaining M, K, and A. Who are they-?
+<END>
+
+#WRITE(PTR, $000028FE)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $0000290E)
+M for Makise.
+<END>
+
+#WRITE(PTR, $0000291E)
+K for Kiryuu.
+<END>
+
+#WRITE(PTR, $0000292E)
+A for Amane.
+<END>
+
+#WRITE(PTR, $0000293E)
+But the current Mayuri wouldn't understand.
+<END>
+
+#WRITE(PTR, $0000294E)
+They were lab mems in the world line that disappeared and was undone.
+<END>
+
+#WRITE(PTR, $0000295E)
+But I don't tell that to Mayuri or Daru.
+<END>
+
+#WRITE(PTR, $0000296E)
+Especially who that last A is. They wouldn't believe me even if I told them.
+<END>
+
+#WRITE(PTR, $0000297E)
+I mean, it would be kind of irritating to tell Daru Somehow you make a daughter.
+<END>
+
+#WRITE(PTR, $0000298E)
+Anyway, since it's Daru, if he were to learn that truth--
+<END>
+
+#WRITE(PTR, $00002AD8)
+【Itaru】Who's the girl who becomes my wife? I personally hope she has a loli face with tiny breasts, blonde hair in twintails, a tsundere personality, and when she's in dere mode, she's a very dependent sexy girl. Uhe, uhehe
+<END>
+
+#WRITE(PTR, $00002AE8)
+--He'll undoubtedly start imagining something gross like that.
+<END>
+
+#WRITE(PTR, $00002DB4)
+Back then--
+<END>
+
+#WRITE(PTR, $00002DC4)
+While grasping my dying hand, Suzuha said
+<END>
+
+#WRITE(PTR, $00002DD4)
+【Suzuha】Once we reach there, I'll most likely disappear. I won't be able to thank you for our arrival at the "Steins;Gate".
+<END>
+
+#WRITE(PTR, $00002DE4)
+【Suzuha】So I'll thank you here.
+<END>
+
+#WRITE(PTR, $00002DF4)
+【Suzuha】Thank you, Uncle. ...Don't die. Live.
+<END>
+
+#WRITE(PTR, $00002E04)
+And right after we got back to August 21--
+<END>
+
+#WRITE(PTR, $00002E14)
+Right before my eyes, the time machine was enveloped in rainbow light, and disappeared.
+<END>
+
+#WRITE(PTR, $00002E24)
+Suzuha disappeared along with her last smile.
+<END>
+
+#WRITE(PTR, $00002E34)
+That was evidence.
+<END>
+
+#WRITE(PTR, $00002E44)
+Proof that I had reached the Steins;Gate.
+<END>
+
+#WRITE(PTR, $00002E54)
+So I shouldn't be sad that she disappeared.
+<END>
+
+#WRITE(PTR, $00002E64)
+【Suzuha】And, let's meet... seven years from now, okay?
+<END>
+
+#WRITE(PTR, $00002E74)
+I don't know what the future will bring. So, there is still a possibility that Daru will fail to get married, and Suzuha won't be born.
+<END>
+
+#WRITE(PTR, $00002E84)
+But still, I believe that we'll meet again in seven years.
+<END>
+
+#WRITE(PTR, $00002E94)
+And then, I will give her this pin badge.
+<END>
+
+#WRITE(PTR, $00002EA4)
+Until then, Lab Member 008 will be a missing number.
+<END>
+
+#WRITE(PTR, $00002EB4)
+So I'll keep this pin badge in a safe spot.
+<END>
+
+#WRITE(PTR, $0000308A)
+I aimlessly go out to town by myself.
+<END>
+
+#WRITE(PTR, $0000309A)
+Because I wanted to get a better look at the world line of the Steins;Gate.
+<END>
+
+#WRITE(PTR, $000030AA)
+But I can't find a single trace of any large deviations after all.
+<END>
+
+#WRITE(PTR, $000030BA)
+Before, when Faris' D-mail made all of the moe shops in Akiba disappear entirely, that was clear evidence the world had changed.
+<END>
+
+#WRITE(PTR, $0000312C)
+Feeling unsatisified, I look up to Radio Kaikan.
+<END>
+
+#WRITE(PTR, $0000313C)
+Obviously, there wasn't any hole, nor was there a satellite lodged in.
+<END>
+
+#WRITE(PTR, $0000314C)
+It's open today like usual.
+<END>
+
+#WRITE(PTR, $0000315C)
+When I arrived at this world line, right after seeing Suzuha disappear.
+<END>
+
+#WRITE(PTR, $0000316C)
+The first thing I asked Mayuri and Daru was Was there any recent murder incident at Radio Kaikan?
+<END>
+
+#WRITE(PTR, $0000317C)
+While panicking upon seeing me drenched in blood, they answered that no such incident had occured.
+<END>
+
+#WRITE(PTR, $0000318C)
+While waiting there for an ambulance, Daru lent me his shoulder and I saw it on my phone trough 1 SEG.
+<END>
+
+#WRITE(PTR, $0000319C)
+News that Doctor Nakabachi emigrated to Russia and during the flight, a fire broke out on the jumbo jet he was riding.
+<END>
+
+#WRITE(PTR, $000032BA)
+On the other side of the LCD, Nakabachi was terribly agitated.
+<END>
+
+#WRITE(PTR, $000032CA)
+His appearance of bloodshot eyes, splattering spit whenever he yelled, surprised me with its resemblance to his appearance in Radio Kaikan's passage.
+<END>
+
+#WRITE(PTR, $000032DA)
+To me, his unintelligible rambling was the sign of Operation "Skuld's" success.
+<END>
+
+#WRITE(PTR, $000032EA)
+【Nakabachi】Don't screw with me! Hey, don't screw with me! A fire!? Like that's even possible!
+<END>
+
+#WRITE(PTR, $000032FA)
+【Nakabachi】My important thesis deciding the future of humanity burned to a crisp! This is no time for a leisurely interview!
+<END>
+
+#WRITE(PTR, $0000330A)
+【Nakabachi】I won't forgive Russian Airlines! I'll murder every last one of the crew members!
+<END>
+
+#WRITE(PTR, $0000331A)
+【Nakabachi】Money isnt' the problem! I'll say it once, I'll say it again. My thesis, that will repaint history, burned to a crisp!
+<END>
+
+#WRITE(PTR, $0000332A)
+【Nakabachi】Dammit! Why did I put my suitcase in checked luggage!? This wouldn't have happened if I just carried it with me...!
+<END>
+
+#WRITE(PTR, $0000333A)
+The subtitle changed to "--What were the contents of that thesis?"
+<END>
+
+#WRITE(PTR, $0000334A)
+【Nakabachi】Time travel! The invention that can give you control over all of space-time, from past to present!
+<END>
+
+#WRITE(PTR, $0000335A)
+The screen immediately returned to the studio, where a female announcer continued.
+<END>
+
+#WRITE(PTR, $0000336A)
+【Reporter】--And he kept talking unintelligibly like that.
+<END>
+
+#WRITE(PTR, $0000337A)
+【Reporter】I repeat. Russian emigrant, Doctor Nakabachi, otherwise known as Makise Shouichi, upon arrival at Domodedovo International Airport in Moscow, was restrained by Russian authorities.
+<END>
+
+#WRITE(PTR, $0000338A)
+【Reporter】There is also talk of a Tokyo Metropolitan Police Department investigation over the July 28 Akihabara accident resulting in injury, with Makise as a suspect.
+<END>
+
+#WRITE(PTR, $000034A0)
+Now nobody will listen to Nakabachi.
+<END>
+
+#WRITE(PTR, $000034B0)
+For argument's sake, let's say even if Nakabachi still remembers the contents of the "Nakabachi Thesis", and writes down another thesis--
+<END>
+
+#WRITE(PTR, $000034C0)
+The being known as Makise Kurisu wouldn't allow it.
+<END>
+
+#WRITE(PTR, $000034D0)
+Since the scientific society undoubtedly trusts the daughter more than the fater, she has the ability to deter Nakabachi.
+<END>
+
+#WRITE(PTR, $000034E0)
+At the very least, World War III won't break out over the Nakabachi Thesis.
+<END>
+
+#WRITE(PTR, $00003556)
+I haven't met Kurisu.
+<END>
+
+#WRITE(PTR, $00003566)
+Apparently Kurisu reported that I was stabbed to the police, but currently, it doesn't seem the search for the missing victim has progressed any.
+<END>
+
+#WRITE(PTR, $00003576)
+I heard from Daru that no other murder cases occured at Radio Kaikan. And after doing some research, I couldn't find any deadly incidents in the Akiba area on that day.
+<END>
+
+#WRITE(PTR, $00003586)
+So, without a doubt, Kurisu is still alive, but I haven't contacted her nor gone to meet her.
+<END>
+
+#WRITE(PTR, $00003596)
+Currently, Kurisu and I have no relationship beyond exchanging a few words at Radio Kaikan. And I was hospitalized in the first place, so I couldn't go meet her even if I wanted to.
+<END>
+
+#WRITE(PTR, $000035A6)
+Kurisu said in August she'd go home to her mother's place in America.
+<END>
+
+#WRITE(PTR, $000035B6)
+She said that in the α World Line, but at any rate, she got horribly betrayed by her own father. She shouldn't have any reason to stay in Japan now.
+<END>
+
+#WRITE(PTR, $000035C6)
+I thrust my hand into my pocket.
+<END>
+
+#WRITE(PTR, $000035D6)
+Two pin badges remain there.
+<END>
+
+#WRITE(PTR, $000035E6)
+One of them is Lab Member 001's, or in other words, mine.
+<END>
+
+#WRITE(PTR, $000035F6)
+The remaining badge, for Lab Member 004, will most likely never reach her.
+<END>
+
+#WRITE(PTR, $00003606)
+But Kurisu lives.
+<END>
+
+#WRITE(PTR, $00003616)
+And that's enough for me.
+<END>
+
+#WRITE(PTR, $00003626)
+One time I sacrificed Kurisu's life.
+<END>
+
+#WRITE(PTR, $00003636)
+One time I stabbed Kurisu to death.
+<END>
+
+#WRITE(PTR, $00003646)
+But now, I was able to save Kurisu.
+<END>
+
+#WRITE(PTR, $00003656)
+Those three weeks I spent with Makise Kurisu.
+<END>
+
+#WRITE(PTR, $00003666)
+I, and only I, will remember them. I won't forget them.
+<END>
+
+#WRITE(PTR, $00003676)
+So, I don't need anything else, at all.
+<END>
+
+#WRITE(PTR, $00003686)
+--Right, Kurisu?
+<END>
+
+#WRITE(PTR, $00003696)
+I don't know how the future will turn out.
+<END>
+
+#WRITE(PTR, $000036A6)
+War might break out.
+<END>
+
+#WRITE(PTR, $000036B6)
+SERN might successfully develop their time machine and construct a dystopia unto the world.
+<END>
+
+#WRITE(PTR, $000036C6)
+But, at least, neither has been decided.
+<END>
+
+#WRITE(PTR, $000036D6)
+The future's creation starts now.
+<END>
+
+#WRITE(PTR, $000036E6)
+With not just me, not just Kurisu, but every single person.
+<END>
+
+#WRITE(PTR, $000036F6)
+--So watch, wherever in this wide world you may be.
+<END>
+
+#WRITE(PTR, $00003706)
+I fasten my own pin badge to my chest.
+<END>
+
+#WRITE(PTR, $00003716)
+I walk among the crowd of shoppers, staring straight forward--
+<END>
+
+#WRITE(PTR, $0000391A)
+【Rintaro】...eh?
+<END>
+
+#WRITE(PTR, $000039B0)
+I turn my head in surprise.
+<END>
+
+#WRITE(PTR, $000039C0)
+In my peripheral vision, I saw her.
+<END>
+
+#WRITE(PTR, $000039D0)
+Her. The one who shouldn't be here.
+<END>
+
+#WRITE(PTR, $000039E0)
+Her. Whose long hair flutterd as she passed by me.
+<END>
+
+#WRITE(PTR, $00003A3C)
+I stare at her back.
+<END>
+
+#WRITE(PTR, $00003A4C)
+I remember her back.
+<END>
+
+#WRITE(PTR, $00003A5C)
+Not just me.
+<END>
+
+#WRITE(PTR, $00003A6C)
+She too.
+<END>
+
+#WRITE(PTR, $00003A7C)
+Stops on the spot.
+<END>
+
+#WRITE(PTR, $00003A8C)
+Slowly, she finally turns her head towards me--
+<END>
+
+#WRITE(PTR, $00003B98)
+There she was.
+<END>
+
+#WRITE(PTR, $00003BA8)
+She, who should have gone back to America.
+<END>
+
+#WRITE(PTR, $00003BB8)
+She, who was merely my acquaintance.
+<END>
+
+#WRITE(PTR, $00003BC8)
+【Kurisu】I finally met you.
+<END>
+
+#WRITE(PTR, $00003BD8)
+That voice.
+<END>
+
+#WRITE(PTR, $00003BE8)
+That face.
+<END>
+
+#WRITE(PTR, $00003BF8)
+That hair.
+<END>
+
+#WRITE(PTR, $00003C08)
+Those eyes.
+<END>
+
+#WRITE(PTR, $00003C18)
+Makise Kurisu was there, the same as ever.
+<END>
+
+#WRITE(PTR, $00003C28)
+【Kurisu】I've been looking for you all this time.
+<END>
+
+#WRITE(PTR, $00003C38)
+【Kurisu】Ever since you saved me back then, always--
+<END>
+
+#WRITE(PTR, $00003C48)
+【Kurisu】I wanted to say at least one word of gratitude.
+<END>
+
+#WRITE(PTR, $00003C58)
+【Kurisu】I wanted to meet you, no matter what.
+<END>
+
+#WRITE(PTR, $00003C68)
+【Kurisu】Thank you, from the bottom of my heart.
+<END>
+
+#WRITE(PTR, $00003C78)
+【Kurisu】...It's good that you're safe.
+<END>
+
+#WRITE(PTR, $00003CEC)
+Moved to tears, Kurisu's figure was radiant.
+<END>
+
+#WRITE(PTR, $00003CFC)
+After being sealed for so long, her loveliness overflows all at once.
+<END>
+
+#WRITE(PTR, $00003D0C)
+I too, was so happy I wanted to cry.
+<END>
+
+#WRITE(PTR, $00003D1C)
+To hide my embarrassment, I put my phone to my right ear.
+<END>
+
+#WRITE(PTR, $00003D9A)
+【Rintaro】It's me. Why is she here? Even though my "Reading Steiner" didn't activate--
+<END>
+
+#WRITE(PTR, $00003DAA)
+【Rintaro】What!? Me, protect her!? Geez, don't just say things on your own like that.
+<END>
+
+#WRITE(PTR, $00003DBA)
+【Rintaro】Is that Steins;Gate's choice? El Psy Congroo.
+<END>
+
+#WRITE(PTR, $00003DDC)
+I close my phone.
+<END>
+
+#WRITE(PTR, $00003DEC)
+And clear my throat.
+<END>
+
+#WRITE(PTR, $00003DFC)
+I don't know what to say.
+<END>
+
+#WRITE(PTR, $00003E0C)
+Kurisu is still looking at me with fawning eyes.
+<END>
+
+#WRITE(PTR, $00003E1C)
+So I--
+<END>
+
+#WRITE(PTR, $00003E9A)
+【Rintaro】So we meet again, Christina--
+<END>
+
+#WRITE(PTR, $00003EBC)
+【Kurisu】No, how many times do I have to tell you, I'm not Christina or your assistant or--
+<END>
+
+#WRITE(PTR, $00003ECC)
+【Rintaro】...!?
+<END>
+
+#WRITE(PTR, $00003EDC)
+【Kurisu】Eh?
+<END>
+
+#WRITE(PTR, $00003EFE)
+Now I'm lost for words for sure.
+<END>
+
+#WRITE(PTR, $00003F0E)
+Why does the current Kurisu know that?
+<END>
+
+#WRITE(PTR, $00003F30)
+Those were words I had used to tease Kurisu--
+<END>
+
+#WRITE(PTR, $00003F40)
+And whenever I would call her those things, Kurisu would strongly deny me--
+<END>
+
+#WRITE(PTR, $00003F50)
+Those were two meaningless, yet familiar nicknames.
+<END>
+
+#WRITE(PTR, $00003F60)
+Names only I had called Kurisu.
+<END>
+
+#WRITE(PTR, $00003F70)
+Names that Kurisu would retort to only when I used them.
+<END>
+
+#WRITE(PTR, $00003F80)
+Names that I had yet to use that day we first met at Radio Kaikan.
+<END>
+
+#WRITE(PTR, $00003FA2)
+So there's no possible way.
+<END>
+
+#WRITE(PTR, $00003FB2)
+That the Kurisu before my eyes.
+<END>
+
+#WRITE(PTR, $00003FC2)
+That the Kurisu of this world line.
+<END>
+
+#WRITE(PTR, $0000409C)
+【Kurisu】Huh, I... Just now, words suddenly popped into my head...
+<END>
+
+#WRITE(PTR, $000040AC)
+【Kurisu】Why...?
+<END>
+
+#WRITE(PTR, $00004120)
+It seems Kurisu didn't understand why she muttered those words herself.
+<END>
+
+#WRITE(PTR, $00004130)
+She stares at me, bewildered.
+<END>
+
+#WRITE(PTR, $000041AE)
+That's why I notice.
+<END>
+
+#WRITE(PTR, $0000424A)
+Reading Steiner is something everyone has.
+<END>
+
+#WRITE(PTR, $00004300)
+The world line changes, reconstructing the past and future.
+<END>
+
+#WRITE(PTR, $000043B6)
+Memories accumulate.
+<END>
+
+#WRITE(PTR, $0000446C)
+Everyone just forgets, but when given the chance, perhaps they can remember.
+<END>
+
+#WRITE(PTR, $00004522)
+Those forgotten days of those three weeks.
+<END>
+
+#WRITE(PTR, $000045D8)
+The memories you and I had spun.
+<END>
+
+#WRITE(PTR, $000046B4)
+【Rintaro】Nice to see you, assistant of mine, Makise Kurisu... no, Christina.
+<END>
+
+#WRITE(PTR, $000046C4)
+I take Lab Member 004's pin out from my pocket.
+<END>
+
+#WRITE(PTR, $000046D4)
+Nobody knows the future.
+<END>
+
+#WRITE(PTR, $000046E4)
+That's why, just like this reunion, an infinite number of possibilities exists.
+<END>
+
+#WRITE(PTR, $000046F4)
+Holding back my tears, I gently hand the pin badge to Kurisu--
+<END>
+
+#WRITE(PTR, $00004704)
+【Rintaro】This is the Steins;Gate's choice.
+<FILEEND6C>
+

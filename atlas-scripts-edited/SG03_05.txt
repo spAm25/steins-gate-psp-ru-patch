@@ -218,7 +218,7 @@ But that doesn't matter right now.
 <END>
 
 #WRITE(PTR, $00001628)
-【Rintaro】Now, let's discuss Operation Norn of the Urd's experimental results.
+【Rintaro】Now, let's discuss Operation Urd's experimental results.
 <END>
 
 #WRITE(PTR, $0000164E)

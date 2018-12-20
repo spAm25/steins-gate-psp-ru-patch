@@ -34,11 +34,11 @@ I looked into it once before the summer holidays began but I forgot it.
 <END>
 
 #WRITE(PTR, $00000D14)
-【Announcer】An unidentified large object has crashed into a building in front of the Akihabara station.
+【Reporter】An unidentified large object has crashed into a building in front of the Akihabara station.
 <END>
 
 #WRITE(PTR, $00000DB8)
-【Announcer】Currently the area is restricted by the police and it's forbidden to go in front of the building but if you look at the object from a distance it resembles a space satellite!
+【Reporter】Currently the area is restricted by the police and it's forbidden to go in front of the building but if you look at the object from a distance it resembles a space satellite!
 <END>
 
 #WRITE(PTR, $00000E5C)

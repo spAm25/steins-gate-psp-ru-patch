@@ -1996,7 +1996,7 @@ John Titor
 <END2>
 
 #WRITE(PTR, $000015AC)
-Strictly speaking, it's a little misleading when I wrote that the world follows the Everett Wheeler model. More theories that were developed based off of it were popularized. In the two years following 2034, when the time machine was completed,discussion over world explanations progressed dramatically. In 2036, it was clarified that the world was constructed of things called "Attractor Fields," which describe the extent of world line convergence. This theory was originally hypothesized in 2020.
+Strictly speaking, it's a little misleading when I wrote that the world follows the Everett Wheeler model. More theories that were developed based off of it were popularized. In the two years following 2034, when the time machine was completed,discussion over world explanations progressed dramatically. In 2036, it was clarified that the world was constructed of things called "Attractor Fields", which describe the extent of world line convergence. This theory was originally hypothesized in 2020.
 <END2>
 
 #WRITE(PTR, $000015C4)
@@ -2190,7 +2190,7 @@ Assistant
 <END2>
 
 #WRITE(PTR, $000017AC)
-While you're out, can you buy me a fork? Because I want \rs"my fork."\re And some \rscup noodles\re for dinner too. There was something like "Gen-chan Ramen". That.
+While you're out, can you buy me a fork? Because I want \rs"my fork".\re And some \rscup noodles\re for dinner too. There was something like "Gen-chan Ramen". That.
 <END2>
 
 #WRITE(PTR, $000017C4)
@@ -6414,7 +6414,7 @@ Let me be alone. I'm looking up to the sky deep in thought.
 <END2>
 
 #WRITE(PTR, $000043C4)
-Re:決戦は目前ニャ
+Re: The decisive battle is close at hand nya
 <END2>
 
 #WRITE(PTR, $000043C8)
@@ -6422,11 +6422,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000043CC)
-なんのことだ? 俺を試すような真似はやめてもらおうか。
+What's this about? Will you quit testing me with that mockery?
 <END2>
 
 #WRITE(PTR, $000043E4)
-Re:決戦は目前ニャ
+Re: The decisive battle is close at hand nya
 <END2>
 
 #WRITE(PTR, $000043E8)
@@ -6434,11 +6434,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000043EC)
-そうか。あの星が見える人間, すなわち原罪具有者――プロトタイプ13の生まれ変わりは, 俺以外にもこのアキバに集まりつつあるというわけだな。
+I see. That means that the humans who can see those stars, in other words, the Holders of Original Sin-- those reborn of Prototype 13, other than myself, have begun to assemble here in Akiba.
 <END2>
 
 #WRITE(PTR, $00004404)
-Re:決戦は目前ニャ
+Re: The decisive battle is close at hand nya
 <END2>
 
 #WRITE(PTR, $00004408)
@@ -6446,11 +6446,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000440C)
-バカな。すでに目覚めているというのか。俺の計算より50年も早い。くっ, なんということだ……!
+Impossible. You mean it's already awakening? That's 50 years earlier than I predicted. Guh, what does this mean...!
 <END2>
 
 #WRITE(PTR, $00004424)
-Re:原罪レベル180％に上昇
+Re: Original Sin level rising to 180%
 <END2>
 
 #WRITE(PTR, $00004428)
@@ -6458,11 +6458,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000442C)
-アキバが“表”だと? 笑止。この街ははLuka数百年前から“裏”であり, それは今も変わらんよ。
+Akiba's a "center" you say? Absurd. This town was a "center" several hundred years ago, but that's changed now.
 <END2>
 
 #WRITE(PTR, $00004444)
-Re:原罪レベル180％に上昇
+Re: Original Sin level rising to 180%
 <END2>
 
 #WRITE(PTR, $00004448)
@@ -6470,11 +6470,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000444C)
-ヤツらの影に怯えてこそこそ隠れていろと? あまり俺を怒らせない方がいい。
+So we should cower and hide at the sight of their shadows instead? It's better to not make me mad.
 <END2>
 
 #WRITE(PTR, $00004464)
-Re:原罪レベル180％に上昇
+Re: Original Sin level rising to 180%
 <END2>
 
 #WRITE(PTR, $00004468)
@@ -6482,11 +6482,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000446C)
-“教会”はまだアレを諦めていなかったか。今さらカビの生えたメシアを復活させても世界は動かんよ。すでに信仰心は当時の17％まで低下してしまったのだ。
+Has the "Church" still not abandoned that? Even if they revive the Messiah who has now grown moldy, the world will still not move. Piety has already decreased 17% from those days.
 <END2>
 
 #WRITE(PTR, $00004484)
-Re:原罪レベル180％に上昇
+Re: Original Sin level rising to 180%
 <END2>
 
 #WRITE(PTR, $00004488)
@@ -6494,11 +6494,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000448C)
-貴様……なにを企んでいる?
+You... what are you scheming?
 <END2>
 
 #WRITE(PTR, $000044A4)
-Re:ＰＨAＮＴAＳＭ最高ニャ～♪
+Re: PHANTASM is the cat's meow~♪
 <END2>
 
 #WRITE(PTR, $000044A8)
@@ -6506,11 +6506,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000044AC)
-そのバンドのボーカル……なぜか強い共鳴を感じる。
+That band's vocalist... somehow I feel a strong resonance from her.
 <END2>
 
 #WRITE(PTR, $000044C4)
-Re:ＰＨAＮＴAＳＭ最高ニャ～♪
+Re: PHANTASM is the cat's meow~♪
 <END2>
 
 #WRITE(PTR, $000044C8)
@@ -6518,11 +6518,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000044CC)
-これも人類愚民化計画の一環か……。詳細を。
+Is this also part of Operation Humanity Stupidification... Details, please.
 <END2>
 
 #WRITE(PTR, $000044E4)
-Re:ＰＨAＮＴAＳＭ最高ニャ～♪
+Re: PHANTASM is the cat's meow~♪
 <END2>
 
 #WRITE(PTR, $000044E8)
@@ -6530,11 +6530,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000044EC)
-それなら識っている。“聖域”への導き。世界の滅びの詩。そうだろう?
+I know that at least. Directions to the "Holy Grounds". Poems of the world's ruin. Right?
 <END2>
 
 #WRITE(PTR, $00004504)
-Re:ボーカルは美少Woman
+Re: The vocalist is a beautiful girl
 <END2>
 
 #WRITE(PTR, $00004508)
@@ -6542,11 +6542,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000450C)
-カオスになる。終わりの無い痛みを抱えて。
+Become chaos. Bearing up an endless pain.
 <END2>
 
 #WRITE(PTR, $00004524)
-Re:ボーカルは美少Woman
+Re: The vocalist is a beautiful girl
 <END2>
 
 #WRITE(PTR, $00004528)
@@ -6554,11 +6554,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000452C)
-相手は死ぬのだな?
+"Kills them dead", right?
 <END2>
 
 #WRITE(PTR, $00004544)
-Re:ボーカルは美少Woman
+Re: The vocalist is a beautiful girl
 <END2>
 
 #WRITE(PTR, $00004548)
@@ -6566,11 +6566,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000454C)
-俗世間に汚されて文字通り堕天使となったか。惜しい魂を亡くしたな。
+Did society defile her and make her into a literal fallen angel? It's regrettable that her soul died.
 <END2>
 
 #WRITE(PTR, $00004564)
-Re:雷ネット2期ＯＰ
+Re: RaiNet OP 2
 <END2>
 
 #WRITE(PTR, $00004568)
@@ -6578,11 +6578,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000456C)
-そういえばMayuriもよく見ているな。Woman子高生までが夢中になるほどなのか?
+Now that you mention it, Mayuri watches that. It's even got high school girls in a daze?
 <END2>
 
 #WRITE(PTR, $00004584)
-Re:雷ネット2期ＯＰ
+Re: RaiNet OP 2
 <END2>
 
 #WRITE(PTR, $00004588)
@@ -6590,11 +6590,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000458C)
-あの地は, 神の怒りを買ったのだ……。
+That land... has provoked the wrath of god...
 <END2>
 
 #WRITE(PTR, $000045A4)
-Re:ＥｘAｃｔｒｙ（その通りでございます）
+Re: Exactamundo
 <END2>
 
 #WRITE(PTR, $000045A8)
@@ -6602,11 +6602,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000045AC)
-その詩の内容, 教えてもらおうか。拒否するなら, しかるべき手段に出るつもりだというのを忘れるな。
+Can you tell me the contents of those songs? If you refuse, don't forget I have ways of making you talk.
 <END2>
 
 #WRITE(PTR, $000045C4)
-Re:ＥｘAｃｔｒｙ（その通りでございます）
+Re: Exactamundo
 <END2>
 
 #WRITE(PTR, $000045C8)
@@ -6614,11 +6614,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000045CC)
-お前がそんな危険をおかす必要はない。だから今すぐ手を引け!
+There's no need to put yourself in such danger. So retreat immediately!
 <END2>
 
 #WRITE(PTR, $000045E4)
-Re:ＥｘAｃｔｒｙ（その通りでございます）
+Re: Exactamundo
 <END2>
 
 #WRITE(PTR, $000045E8)
@@ -6626,11 +6626,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000045EC)
-聖域は300年も前に失われた。求めても無駄だ。
+The Holy Grounds have been forgotten for 300 years. It's pointless to seek them.
 <END2>
 
 #WRITE(PTR, $00004604)
-Re:大いなる災いの予兆
+Re: Sign of increasing misfortune
 <END2>
 
 #WRITE(PTR, $00004608)
@@ -6638,11 +6638,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000460C)
-ネズミ……か。ネコ娘のくせにネズミが苦手とは。俺を失望させるなFaris・ニャンニャン!
+A rat... huh. What kind of catgirl is bad with rats? Don't you disappoint me like that, Faris NyanNyan!
 <END2>
 
 #WRITE(PTR, $00004624)
-Re:大いなる災いの予兆
+Re: Sign of increasing misfortune
 <END2>
 
 #WRITE(PTR, $00004628)
@@ -6650,11 +6650,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000462C)
-言っておくが, 俺は高いぜ?
+I can help you, but I'm not cheap you know?
 <END2>
 
 #WRITE(PTR, $00004644)
-Re:能力のこと
+Re: About abilities
 <END2>
 
 #WRITE(PTR, $00004648)
@@ -6662,11 +6662,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000464C)
-まさに半人半妖……ぜひお前を実験台として解剖したい。ダメだろうか?
+Surely you must be half human, half fairy... I want to take you back to the lab and experiment on you. Can I?
 <END2>
 
 #WRITE(PTR, $00004664)
-Re:能力のこと
+Re: About abilities
 <END2>
 
 #WRITE(PTR, $00004668)
@@ -6674,11 +6674,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000466C)
-あの喋りは鬱陶しいからよせ。
+Stop with that annoying talking habit.
 <END2>
 
 #WRITE(PTR, $00004684)
-Re:能力のこと
+Re: About abilities
 <END2>
 
 #WRITE(PTR, $00004688)
@@ -6686,11 +6686,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000468C)
-残念だったな。あの星ならば, すでにこのHououin Kyoumaが手に入れたぞ。フゥーハハハ!
+It was regrettable. That star is already in the hands of me, Hououink Kyouma. Fuuuhahaha!
 <END2>
 
 #WRITE(PTR, $000046A4)
-Re:大惨事ニャ……
+Re: Cat-astrophe nya...
 <END2>
 
 #WRITE(PTR, $000046A8)
@@ -6698,11 +6698,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000046AC)
-“だから”とはなんの話だ? いきなりなにを?
+What do you mean "that's why"? What is this all of a sudden?
 <END2>
 
 #WRITE(PTR, $000046C4)
-Re:Re:Re:8話
+Re: Re: Re: Ep 8
 <END2>
 
 #WRITE(PTR, $000046C8)
@@ -6710,11 +6710,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000046CC)
-8話? なんのことだ?
+Ep 8? What are you talking about?
 <END2>
 
 #WRITE(PTR, $000046E4)
-Re:コミマは
+Re: ComiMa
 <END2>
 
 #WRITE(PTR, $000046E8)
@@ -6722,11 +6722,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $000046EC)
-らしくないな。そんな状態では困る。お前にはIBN5100捜索を頑張ってもらわなければならないのだ。
+That's not like you. I'm in trouble if you're like that. Since I need you to persevere in your search for the IBN 5100.
 <END2>
 
 #WRITE(PTR, $00004704)
-Re:コミマは
+Re: ComiMa
 <END2>
 
 #WRITE(PTR, $00004708)
@@ -6734,11 +6734,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000470C)
-なにがあった?“機関”の攻撃を受けたのか!?
+What happened? Did you sustain an "Organization" attack!?
 <END2>
 
 #WRITE(PTR, $00004724)
-Re:コミマは
+Re: ComiMa
 <END2>
 
 #WRITE(PTR, $00004728)
@@ -6746,11 +6746,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000472C)
-いつもの悪ノリか? 俺を不安にさせるのはよせッ!
+Is it the usual evil? Don't psyche me out!
 <END2>
 
 #WRITE(PTR, $00004744)
-しっかりしろ
+Get a grip
 <END2>
 
 #WRITE(PTR, $00004748)
@@ -6758,11 +6758,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000474C)
-なんという厨二病ポエム…。構ってほしいならラボに来い。俺やMayuriが相手をしてやる。
+What a pretentious hipster bullshit poem... If you want someone to care about you, come to the lab. Mayuri and I are here for you.
 <END2>
 
 #WRITE(PTR, $00004764)
-Re:うーぱ…
+Re: Upa...
 <END2>
 
 #WRITE(PTR, $00004768)
@@ -6770,11 +6770,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000476C)
-気持ちは分かる。プレミアがついているほどなのだからな…。貴重なラボの資金がorz
+I know that feel. It even had a premium on it... Our precious lab funds.. orz
 <END2>
 
 #WRITE(PTR, $00004784)
-Re:うーぱ…
+Re: Upa...
 <END2>
 
 #WRITE(PTR, $00004788)
@@ -6782,11 +6782,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000478C)
-去年流行っていたアレか。Mayuriは興味ないのではなかったか?
+That thing that got popular last year, huh. You weren't interested in that, were you Mayuri?
 <END2>
 
 #WRITE(PTR, $000047A4)
-Re:資金にしちゃだめー＞＜
+Re: Don't trade it for funds-＞＜
 <END2>
 
 #WRITE(PTR, $000047A8)
@@ -6794,11 +6794,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000047AC)
-翔くんだとか言われてもさっぱりだ。俺はそんな下らないアニメなど見ないのだからな。
+I don't know who Kakeru-kun is at all. Because I don't watch that sort of worthless anime.
 <END2>
 
 #WRITE(PTR, $000047C4)
-Re:資金にしちゃだめー＞＜
+Re: Don't trade it for funds-＞＜
 <END2>
 
 #WRITE(PTR, $000047C8)
@@ -6806,11 +6806,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000047CC)
-いかにも。だがそのことは絶対に他言するな。あれは……俺の右腕に眠る忌まわしい怪物を封じるために必要だったのだ……!
+Indeed. But you must absolutely not reveal that to anyone else. That was... necessary to seal the abominable monster lying dormant in this right arm of mine...!
 <END2>
 
 #WRITE(PTR, $000047E4)
-Re:でぶっちょだけ
+Re: Just Fatty
 <END2>
 
 #WRITE(PTR, $000047E8)
@@ -6818,11 +6818,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000047EC)
-そもそもゲロカエルんは今でも発売されているのか?
+Do they even sell Gero Froggies anymore?
 <END2>
 
 #WRITE(PTR, $00004804)
-Re:でぶっちょだけ
+Re: Just Fatty
 <END2>
 
 #WRITE(PTR, $00004808)
@@ -6830,7 +6830,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000480C)
-体型だけだろう。ヤツの顔はむしろ（以下, 自主規制）
+Just their bodies, right? No comment on their faces.
 <END2>
 
 #WRITE(PTR, $00004824)
@@ -6842,7 +6842,7 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000482C)
-ヘソを曲げるな。今度, なんでも食べたいものをおごってやる。だから引き続き, 実験のためにバナナを買ってくるのだ!
+Don't get angry. Next time, I'll treat you to anything you want to eat. So keep buying more bananas for the sake of our experiments!
 <END2>
 
 #WRITE(PTR, $00004844)
@@ -6854,11 +6854,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000484C)
-そもそもお前は食べ過ぎなのだっ! 早くダイエットしろー! でないとどうなっても知らんぞーっ!
+You've been eating too much in the first place! Hurry up and go on a diet-! I don't know what'll happen if you don't-!
 <END2>
 
 #WRITE(PTR, $00004864)
-Re:8月だね～
+Re: It's August~
 <END2>
 
 #WRITE(PTR, $00004868)
@@ -6866,11 +6866,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000486C)
-ならばタコの入っていないたこ焼きを買ってくるのだ! あれこそItaru高の一品と言えよう。
+Then buy some takoyaki without octopus! You could say that's the supreme dish.
 <END2>
 
 #WRITE(PTR, $00004884)
-Re:8月だね～
+Re: It's August~
 <END2>
 
 #WRITE(PTR, $00004888)
@@ -6878,11 +6878,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000488C)
-そう言えば昔はよくMayuriと祭りに行ったな。あの頃の俺は『午後6時のスナイパー』と呼ばれ出店のおっちゃん達から畏れられていたものだ。
+Now that you mention it, we used to go to the festivals together, huh Mayuri. Back then, I was feared by the old men at the stand called "6PM Sniper".
 <END2>
 
 #WRITE(PTR, $000048A4)
-Re:そう言えば
+Re: That reminds me
 <END2>
 
 #WRITE(PTR, $000048A8)
@@ -6890,11 +6890,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000048AC)
-マッドサイエンティストに最もふさわしくない言葉を知っていLuka? それはすなわち『健康』であるッ!
+Do you know the word least suitable to a mad scientist? That is "healthy"!
 <END2>
 
 #WRITE(PTR, $000048C4)
-Re:がらすね
+Re: Rattsna
 <END2>
 
 #WRITE(PTR, $000048C8)
@@ -6902,11 +6902,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000048CC)
-がらすね? なんだそれは? 日本語でおｋ。
+Rattsna? What's that? Japanese plz.
 <END2>
 
 #WRITE(PTR, $000048E4)
-Re:にく
+Re: Meat
 <END2>
 
 #WRITE(PTR, $000048E8)
@@ -6914,11 +6914,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000048EC)
-話せば長くなるが, 簡単に言うとあれは中世ヨーロッパに伝わる禁断の儀式であり, 現代では謝肉祭として伝わっているものの元型だ。
+To make a long story short, that was basically a forbidden ceremony introduced to Europe in the Middle Ages, the predecessor of the modern carnival.
 <END2>
 
 #WRITE(PTR, $00004904)
-Re:神秘だね♪
+Re: How mysterious♪
 <END2>
 
 #WRITE(PTR, $00004908)
@@ -6926,11 +6926,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000490C)
-やめておけ。あれは, 素人にはオススメできない。諸刃の剣なのだ。
+Don't. That's not something an amateur could pull off. It's a double-edged sword.
 <END2>
 
 #WRITE(PTR, $00004924)
-Re:Maidさん歴
+Re: Maid experience
 <END2>
 
 #WRITE(PTR, $00004928)
@@ -6938,11 +6938,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000492C)
-腹ペコ少Womanとしては, バイトしなければ, 毎日の買い食いができず腹ペコで死んでしまうんですね。分かります。
+Starving girls need to work each day to buy and eat sweets or else they'll die of starvation. I understand.
 <END2>
 
 #WRITE(PTR, $00004944)
-Re:Maidさん歴
+Re: Maid experience
 <END2>
 
 #WRITE(PTR, $00004948)
@@ -6950,11 +6950,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000494C)
-3ヶ月でお祝い…だと? 中途半端だな。なぜお祝いするのか理解不能だ。さすがスイーツ脳だな。
+A three month's congratulatory gift... you say? How half-baked. I don't see how that deserves congratulations. That's sweets maniacs for you.
 <END2>
 
 #WRITE(PTR, $00004964)
-Re:Maidさん歴
+Re: Maid experience
 <END2>
 
 #WRITE(PTR, $00004968)
@@ -6962,11 +6962,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000496C)
-いまだにお前がMaid喫茶で働いているのが信じられん。自分からコスプレすることはこれまでもなかったのに。
+I still can't believe you're working at a maid caf?. I mean, up until now, you haven't even cosplayed for yourself.
 <END2>
 
 #WRITE(PTR, $00004984)
-Re:宝くじと言えば
+Re: Speaking about lotteries
 <END2>
 
 #WRITE(PTR, $00004988)
@@ -6974,11 +6974,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $0000498C)
-相変わらずアニメ雑誌を買い続けているのか。熱心なことだな。
+You just keep buying anime magazines like usual, huh? How enthusiastic.
 <END2>
 
 #WRITE(PTR, $000049A4)
-Re:宝くじと言えば
+Re: Speaking about lotteries
 <END2>
 
 #WRITE(PTR, $000049A8)
@@ -6986,11 +6986,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000049AC)
-セツリ……? 最新作のガンバムか? だとしたら俺は見ていないな。やはり無印こそ最高だろ。
+Setsuri...? Is that from the latest Gunbam? I haven't seen it then. The original is the best anyway.
 <END2>
 
 #WRITE(PTR, $000049C4)
-Re:宝くじと言えば
+Re: Speaking about lotteries
 <END2>
 
 #WRITE(PTR, $000049C8)
@@ -6998,11 +6998,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000049CC)
-Mayuriが声優オタだったとは初耳だな。
+I never knew Mayuri was a voice actor nerd.
 <END2>
 
 #WRITE(PTR, $000049E4)
-Re:お出かけですか? レレレ～
+Re: Going out? Lelele~
 <END2>
 
 #WRITE(PTR, $000049E8)
@@ -7010,11 +7010,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000049EC)
-待て。俺がいつガルガリ君を食べたいと言った?
+Wait. When did I say I wanted to eat Garugari-kun?
 <END2>
 
 #WRITE(PTR, $00004A04)
-Re:目撃しちゃったぁ!
+Re: I saw her!
 <END2>
 
 #WRITE(PTR, $00004A08)
@@ -7022,11 +7022,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A0C)
-待て。この前とはいつのことだ? ジョイさん? 誰だ?
+Wait. When was that? Joy-san? Who's that?
 <END2>
 
 #WRITE(PTR, $00004A24)
-Re:目撃しちゃったぁ!
+Re: I saw her!
 <END2>
 
 #WRITE(PTR, $00004A28)
@@ -7034,11 +7034,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A2C)
-いきなりなにを言っているんだ? ジョイさんとは何者だ? さては機関の刺客か――!?
+What are you saying so suddenly? Who is Joy-san? An assassin from the Organization-!?
 <END2>
 
 #WRITE(PTR, $00004A44)
-Re:戦国武将?
+Re: Sengoku Commander?
 <END2>
 
 #WRITE(PTR, $00004A48)
@@ -7046,11 +7046,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A4C)
-待て。なぜ俺が戦国武将のコスプレをするという流れになっている? メールの相手を間違っていないか?
+Wait. Why would I want to cosplay as a Sengoku Commander? Did you mail the wrong person?
 <END2>
 
 #WRITE(PTR, $00004A64)
-Re:戦国武将?
+Re: Sengoku Commander?
 <END2>
 
 #WRITE(PTR, $00004A68)
@@ -7058,11 +7058,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A6C)
-Mayuri……お前まさか, 俺を敵に売るつもりかーっ!?
+Mayuri... don't tell me, you plan to sell me out to the enemy-!?
 <END2>
 
 #WRITE(PTR, $00004A84)
-Re:Lukaちゃんのこと
+Re: About Luka-chan
 <END2>
 
 #WRITE(PTR, $00004A88)
@@ -7070,11 +7070,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004A8C)
-翔くんコスと言われても, 俺は雷ネットを見ていないからさっぱり分からん。
+I haven't seen RaiNet, so I don't even know what Kakeru-kun cosplay is.
 <END2>
 
 #WRITE(PTR, $00004AA4)
-Re:今日のうれしかったこと
+Re: What made me happy today
 <END2>
 
 #WRITE(PTR, $00004AA8)
@@ -7082,11 +7082,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004AAC)
-……その2人, 匂うな。いったい何者だ?
+...I don't know those two. Just who are they?
 <END2>
 
 #WRITE(PTR, $00004AC4)
-Re:今日のうれしかったこと
+Re: What made me happy today
 <END2>
 
 #WRITE(PTR, $00004AC8)
@@ -7094,11 +7094,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004ACC)
-Mayuriは本当にコス作りが好きだな。その情熱のきっかけについて聞かせてもらおうか。
+You really like making costumes, don't you, Mayuri. Maybe I should ask you for some of that enthusiasm.
 <END2>
 
 #WRITE(PTR, $00004AE4)
-Re:どこ行くの?
+Re: Where are you going?
 <END2>
 
 #WRITE(PTR, $00004AE8)
@@ -7106,11 +7106,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004AEC)
-俺とクリスティーナの関係は『博士とAssistant』である。それ以上でも以下でもない。
+My relationship with Cristina is that of "Professor and Assistant". Nothing more. Nothing less.
 <END2>
 
 #WRITE(PTR, $00004B04)
-Re:どこ行くの?
+Re: Where are you going?
 <END2>
 
 #WRITE(PTR, $00004B08)
@@ -7118,11 +7118,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004B0C)
-うらやましい? 俺とデートしたいのか?
+Jelly? You want to go on a date with me?
 <END2>
 
 #WRITE(PTR, $00004B24)
-Re:今日あわあわしたこと
+Re: Today's worry
 <END2>
 
 #WRITE(PTR, $00004B28)
@@ -7130,11 +7130,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004B2C)
-もしかして懐中時計のことか? そんな変なネーミングはよせと言ったはずだ。
+Are you talking about your pocket watch by any chance? I thought I told you to stop with that weird naming scheme of yours.
 <END2>
 
 #WRITE(PTR, $00004B44)
-Re:今日あわあわしたこと
+Re: Today's worry
 <END2>
 
 #WRITE(PTR, $00004B48)
@@ -7142,11 +7142,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004B4C)
-気を付けろ。お前のその隠れ奥義『無限の心音（アンリミテッドクロックワークス）』は, いわば諸刃の剣なのだから――
+Be careful. That hidden secret of yours, "Infinite Heartbeat" so to speak, is a double-edged sword--
 <END2>
 
 #WRITE(PTR, $00004B64)
-Re:今日あわあわしたこと
+Re: Today's worry
 <END2>
 
 #WRITE(PTR, $00004B68)
@@ -7154,11 +7154,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004B6C)
-お前はよくおばあちゃんに膝枕してもらって昼間から寝ていたよな。
+You used to spend your daytimes napping in your Granny's lap, didn't you?
 <END2>
 
 #WRITE(PTR, $00004B84)
-Re:ケンカしたんだって
+Re: They had a fight
 <END2>
 
 #WRITE(PTR, $00004B88)
@@ -7166,11 +7166,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004B8C)
-Mayuriは優しいWomanの子だからな……。
+That's because you're a gentle girl, Mayuri...
 <END2>
 
 #WRITE(PTR, $00004BA4)
-Re:ケンカしたんだって
+Re: They had a fight
 <END2>
 
 #WRITE(PTR, $00004BA8)
@@ -7178,11 +7178,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004BAC)
-そうだな。不思議だな。なぜ人は醜い感情をぶつけ合うのだろう。
+That's true. It is mysterious. Why do people show ugly emotions towards one another?
 <END2>
 
 #WRITE(PTR, $00004BC4)
-Re:ケンカしたんだって
+Re: They had a fight
 <END2>
 
 #WRITE(PTR, $00004BC8)
@@ -7190,11 +7190,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004BCC)
-Mayuriは色気より食い気だと思っていたｗ
+Mayuri, I think you put food before romance lol
 <END2>
 
 #WRITE(PTR, $00004BE4)
-Re:帰ってくる?
+Re: Are you coming back?
 <END2>
 
 #WRITE(PTR, $00004BE8)
@@ -7202,11 +7202,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004BEC)
-分からないが, なにも心配しなくていい。
+I don't know, but you don't have to worry about anything.
 <END2>
 
 #WRITE(PTR, $00004C04)
-Re:オリオン座
+Re: Orion
 <END2>
 
 #WRITE(PTR, $00004C08)
@@ -7214,11 +7214,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $00004C0C)
-ああ, 見ていたよ。昨夜は暇を持て余していたからな。だが, オリオン座ではないと思うぞ。あれは冬に見える星座だ。
+Yeah, I saw it. Since I've got too much free time at night. But I don't think that was Orion. That's a winter constellation.
 <END2>
 
 #WRITE(PTR, $00004C24)
-Re:昨日のことについてです
+Re: About what happened yesterday
 <END2>
 
 #WRITE(PTR, $00004C28)
@@ -7226,11 +7226,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004C2C)
-悪くはなかったが, 少しぎこちなさがあった。神に仕える身ならば, もっと堂々とした態度で臨むべきだな。今後は気を付けろ。
+It wasn't bad, just a little clumsy. If your body is made to serve god, then you should act more dignified, right? Be careful from now on.
 <END2>
 
 #WRITE(PTR, $00004C44)
-Re:昨日のことについてです
+Re: About what happened yesterday
 <END2>
 
 #WRITE(PTR, $00004C48)
@@ -7238,11 +7238,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004C4C)
-その儀式とやらに興味がある。詳しく教えてくれ。まさか, 今は失われた古代の禁断の奥義なのではないか?
+I'm interested in those ceremonies and such. Please explain in more detail. Don't tell me it's a long-lost ancient prohibited secret?
 <END2>
 
 #WRITE(PTR, $00004C64)
-Re:昨日のことについてです
+Re: About what happened yesterday
 <END2>
 
 #WRITE(PTR, $00004C68)
@@ -7250,11 +7250,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004C6C)
-案ずるな。お前のお祓いのおかげで, しばらくは落ち着くだろう。だがそれも所詮, 急場しのぎに過ぎない。もしまた戦いになったら……。いや, 機関が, 機関の奴らが来ないことを, 今は祈るしかない。
+Don't worry. Thanks to your exorcism, it's calmed down for a while. But after all, we're just staving of an emergency. If this becomes a struggle again... No, all we can do now is pray that the Organization, that the Organization's bastards don't come.
 <END2>
 
 #WRITE(PTR, $00004C84)
-Re:お務めについてです
+Re: About the religious services
 <END2>
 
 #WRITE(PTR, $00004C88)
@@ -7262,11 +7262,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004C8C)
-なに? 巫Woman舞と言えば天の岩戸伝説。まさかLukakoの父親め, 神の座を開こうと言うのか……! 駄目だ, まだ早すぎる!
+What? The ceremonial miko dance means the legend of Ama-no-Iwato. Don't tell me, o foolish father of Lukako, that you intend to open the seat of god...! No, it is far too early!
 <END2>
 
 #WRITE(PTR, $00004CA4)
-Re:前回のメールについてです
+Re: About that last mail
 <END2>
 
 #WRITE(PTR, $00004CA8)
@@ -7274,11 +7274,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004CAC)
-今はまだ知る必要はない。今はな。いずれシュタインズゲートの選択により, お前も必然的に知ることになるだろうから。
+It's not necessary for you to know now. Not now. At any rate, it may someday become necessary for you to know, all depending on Steins;Gate's choice.
 <END2>
 
 #WRITE(PTR, $00004CC4)
-Re:お菓子を作りました
+Re: I made sweets
 <END2>
 
 #WRITE(PTR, $00004CC8)
@@ -7286,11 +7286,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004CCC)
-ご苦労。差し入れは大歓迎だ。なんなら毎日食事を作りに来てくれても構わん。なんならMaid服も支給しよう。
+Thanks for the hard work. We warmly welcome your refreshments. I don't mind if you come make us meals every day if you want. Wear a maid uniform if you want.
 <END2>
 
 #WRITE(PTR, $00004CE4)
-Re:お菓子を作りました
+Re: I made sweets
 <END2>
 
 #WRITE(PTR, $00004CE8)
@@ -7298,11 +7298,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004CEC)
-お前は家族と仲がいいな。そもそも何人家族なのだ? DaruがLukakoについて「神社の娘なら双子の姉妹かどうか。それが重要だ」と言っていたが。
+You sure get along with your family. How many family members do you have anyway? Daru said that "since Lukako's a shrine girl, it's important for him to be a twin sister", though.
 <END2>
 
 #WRITE(PTR, $00004D04)
-Re:お菓子を作りました
+Re: I made sweets
 <END2>
 
 #WRITE(PTR, $00004D08)
@@ -7310,11 +7310,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004D0C)
-俺を頼るな。いいか, 覚えておけ。出会いはすなわち別れの始まりだ。俺は……機関のこともあるし腕のこともあLukaら, 長くは保たない。だから俺を頼ってはダメだ。
+Don't rely on me. Remember this, okay? Our meeting was the beginning of our parting. I... can't keep persevering against the Organization and against this arm for long. That's why you can't rely on me.
 <END2>
 
 #WRITE(PTR, $00004D24)
-Re:考えさせてください
+Re: Please let me think
 <END2>
 
 #WRITE(PTR, $00004D28)
@@ -7322,11 +7322,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004D2C)
-お前の本来の職業（クラス）は巫Womanだ。それをおろそかにしてはならない。今はそちらに専念しろ。もちろん, 五月雨の素振りも含めての話だ。
+Your original class is Miko. You must not neglect that. Devote yourself to that for now. Of course, that includes practice swinging Samidare.
 <END2>
 
 #WRITE(PTR, $00004D44)
-Re:考えさせてください
+Re: Please let me think
 <END2>
 
 #WRITE(PTR, $00004D48)
@@ -7334,11 +7334,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004D4C)
-本気にしなくていい。LukakoにMaidなどをさせたらDaruの鼻息が荒くなって色々とまずい事態になりそうだ……。忘れてくれ。
+You don't have to take it seriously. If I made you into a maid, Daru's breathing would get rough and it could turn into all sorts of trouble... Forget about it.
 <END2>
 
 #WRITE(PTR, $00004D64)
-Re:家族についてです
+Re: About my family members
 <END2>
 
 #WRITE(PTR, $00004D68)
@@ -7346,11 +7346,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004D6C)
-お前に姉がいたとはな。頻繁に柳林神社を訪れているが, 一度も会った試しがないな。
+So you had an older sister. I visit Yanagibayashi Shrine a lot, but I've never met her.
 <END2>
 
 #WRITE(PTR, $00004D84)
-Re:家族についてです
+Re: About my family members
 <END2>
 
 #WRITE(PTR, $00004D88)
@@ -7358,11 +7358,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004D8C)
-お前の料理の腕前はMayuriから聞いている。というかMayuriを指導してやってくれ。あいつはジャンクフードばかり食べている。
+I've heard about your cooking skill from Mayuri. Actually, please teach Mayuri. She doesn't eat anything but junk food.
 <END2>
 
 #WRITE(PTR, $00004DA4)
-Re:甘えていました
+Re: I've depended on you too much
 <END2>
 
 #WRITE(PTR, $00004DA8)
@@ -7370,11 +7370,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004DAC)
-その年頃なら誰でも経験することだから気にするな。大切なのは, 大事な人を守れなかったという悔いから生まれる, 決意であり覚悟なのだ……。
+Everyone experiences that at your age, so don't let it bother you. What's important is the determination, the resolution, born from the regret of not being able to protect those important to you...
 <END2>
 
 #WRITE(PTR, $00004DC4)
-Re:甘えていました
+Re: I've depended on you too much
 <END2>
 
 #WRITE(PTR, $00004DC8)
@@ -7382,11 +7382,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004DCC)
-馬鹿者! 20回は素振りのうちに入らん! せめて100回やってから頑張ったと胸を張れ!
+Fool! 20 times cannot be called practice! At least strive for 100 times with your chest puffed up in pride!
 <END2>
 
 #WRITE(PTR, $00004DE4)
-Re:姉についてです
+Re: About my older sister
 <END2>
 
 #WRITE(PTR, $00004DE8)
@@ -7394,11 +7394,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004DEC)
-詳しく聞かせてもらおう。あるいはそれは神代の頃より伝わる, 禁断の秘技である可能性ががが
+Please tell me in detail. Perhaps it was a forbidden secret technique handed down from the age of the gods or or or
 <END2>
 
 #WRITE(PTR, $00004E04)
-Re:姉についてです
+Re: About my older sister
 <END2>
 
 #WRITE(PTR, $00004E08)
@@ -7406,11 +7406,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E0C)
-まさか, 汚されてしまったのか!? だとしたら防人の巫Womanとしての力は失われてしまったかも……。
+Don't tell me he defiled you!? In that case, you may have lost your powers as a stationed miko...
 <END2>
 
 #WRITE(PTR, $00004E24)
-Re:カエルについてです
+Re: About frogs
 <END2>
 
 #WRITE(PTR, $00004E28)
@@ -7418,11 +7418,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E2C)
-去年渋谷のWoman子高生に流行った, あのキモカエルか。確か, やたらと種類が出ていたな。
+That gross frog that was popular among high school girls in Shibuya last year, huh. If I'm not mistaken, they came out with a random variety of them.
 <END2>
 
 #WRITE(PTR, $00004E44)
-Re:カエルについてです
+Re: About frogs
 <END2>
 
 #WRITE(PTR, $00004E48)
@@ -7430,11 +7430,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E4C)
-お前の父上とはこの前も会ったばかりだが, 実際の印象と, お前の話に出てくる父親の印象は, だいぶ違うな。いったいどっちが本当の姿なのだ?
+I only met your father recently, but my impression of him as a practical man seems a lot different from the impression I got from your story. Just which is his true form?
 <END2>
 
 #WRITE(PTR, $00004E64)
-Re:カエルについてです
+Re: About frogs
 <END2>
 
 #WRITE(PTR, $00004E68)
@@ -7442,11 +7442,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E6C)
-去年のゲロカエルんブームは, 機関による捏造, 世論誘導の可能性がある。気を付けろLukako。お前の父親がおかしくなったのはそのゲロカエルんが原因かもしれん……。
+The positive reviews that last year's Gero Froggy game got were potentially bought out by the Organization. Be careful, Lukako. The source of your father's strange behavior may be those Gero Froggies...
 <END2>
 
 #WRITE(PTR, $00004E84)
-Re:いい加減な人なんです。。。
+Re: He's irresponsible...
 <END2>
 
 #WRITE(PTR, $00004E88)
@@ -7454,11 +7454,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004E8C)
-それだ! そこにこそ, 15～20年前ぐらいに起きた, あの悲劇を紐解く鍵があるに違いない!
+That's it! There, without a doubt, lies the key to that tragedy that occurred 15 to 20 years ago!
 <END2>
 
 #WRITE(PTR, $00004EA4)
-Re:いい加減な人なんです。。。
+Re: He's irresponsible...
 <END2>
 
 #WRITE(PTR, $00004EA8)
@@ -7466,11 +7466,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004EAC)
-なぜウソだと言い切れる? お前の父上はなにか, 誰にも言えない深い心の闇を抱えているのかもしれん。
+Why did she declare it a lie? Your father may be embracing some darkness deep within his heart that he hides from everyone.
 <END2>
 
 #WRITE(PTR, $00004EC4)
-Re:いい加減な人なんです。。。
+Re: He's irresponsible...
 <END2>
 
 #WRITE(PTR, $00004EC8)
@@ -7478,11 +7478,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004ECC)
-Woman装がイヤならはっきりとそう言えばいい。お前の曖昧な態度が相手を増長させているのだ。現状を変えたいと思うなら今着ている巫Woman服を焼いてしまえ。
+If you don't like wearing female clothes, then you should say so clearly. Your ambiguous attitude only makes him grow impudent. If you want to change the status quo, then burn the miko clothes you are wearing now.
 <END2>
 
 #WRITE(PTR, $00004EE4)
-Re:巫Woman服についてです
+Re: About miko clothes
 <END2>
 
 #WRITE(PTR, $00004EE8)
@@ -7490,11 +7490,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004EEC)
-手遅れだ。もう諦めるしかない……。
+It's too late. You have no choice but to give up...
 <END2>
 
 #WRITE(PTR, $00004F04)
-Re:雷ネットの件です
+Re: About RaiNet
 <END2>
 
 #WRITE(PTR, $00004F08)
@@ -7502,11 +7502,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004F0C)
-Lukakoも雷ネット翔にはまったのか。俺の周囲の人間がどんどん雷ネット儲になっていくな。これほどの注目度……まさか裏で機関が!?
+So you got hooked onto RaiNet Kakeru too, Lukako. Everyone around me is starting to buy into this RaiNet craze. For it grab this much attention... don't tell me it's an Organization front!?
 <END2>
 
 #WRITE(PTR, $00004F24)
-Re:雷ネットの件です
+Re: About RaiNet
 <END2>
 
 #WRITE(PTR, $00004F28)
@@ -7514,11 +7514,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004F2C)
-だからLukakoはダメなのだ。お前は恋愛にうつつを抜かしている場合ではない。そんな暇があったら五月雨の素振りをしろ。
+That's why you're no good, Lukako. You can't waste your time with romance fluff. If you have that much free time, then practice swinging Samidare.
 <END2>
 
 #WRITE(PTR, $00004F44)
-Re:夏の予定についてです
+Re: About summer plans
 <END2>
 
 #WRITE(PTR, $00004F48)
@@ -7526,11 +7526,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004F4C)
-俺は行かない。あんな人混みでは, 背後から刺される危険すらあLukaらな。機関から追われる身としては, そのような場所に出向くことはできないのだ。
+I haven't gone. In crowds like that, there's always the danger of getting stabbed in the back. I can't go to those places because I'm being chased by the Organization.
 <END2>
 
 #WRITE(PTR, $00004F64)
-Re:夏の予定についてです
+Re: About summer plans
 <END2>
 
 #WRITE(PTR, $00004F68)
@@ -7538,11 +7538,11 @@ Lukako
 <END2>
 
 #WRITE(PTR, $00004F6C)
-祭りか……。Mayuriの予定は知らないが, 有明で行われる別の祭りの準備で忙しそうにしているのは確かだ。
+Festivals, huh... I don't know Mayuri's plans, but I do know she'll be busy preparing for a different sort of festival in Ariake.
 <END2>
 
 #WRITE(PTR, $00004F84)
-Re:ご挨拶
+Re: Greetings
 <END2>
 
 #WRITE(PTR, $00004F88)
@@ -7550,11 +7550,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00004F8C)
-否。お前の行為は交換と言うより, そう, アドレス要求だった。あまりの強引さに俺は敗北したのだ。
+No. What you did wasn't an exchange, but a demand. You defeated me by force.
 <END2>
 
 #WRITE(PTR, $00004FA4)
-Re:ご挨拶
+Re: Greetings
 <END2>
 
 #WRITE(PTR, $00004FA8)
@@ -7562,11 +7562,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00004FAC)
-実家はどこなのだ?
+Where's your old home?
 <END2>
 
 #WRITE(PTR, $00004FC4)
-Re:ご挨拶
+Re: Greetings
 <END2>
 
 #WRITE(PTR, $00004FC8)
@@ -7574,11 +7574,11 @@ Amane Suzuha
 <END2>
 
 #WRITE(PTR, $00004FCC)
-ケータイはあまり使わないのか?
+You haven't used a cell phone that much?
 <END2>
 
 #WRITE(PTR, $00004FE4)
-Re:実は
+Re: Actually
 <END2>
 
 #WRITE(PTR, $00004FE8)
@@ -7586,11 +7586,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $00004FEC)
-気持ちは分かる。善より悪に惹かれてしまうのはWomanのサガだろうからな。
+I know how you feel. The ladies are always attracted to evil more than good.
 <END2>
 
 #WRITE(PTR, $00005004)
-Re:実は
+Re: Actually
 <END2>
 
 #WRITE(PTR, $00005008)
@@ -7598,11 +7598,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000500C)
-それがお前の処世術か。苦労しているのだなWorking Warrior。
+Are those your words of wisdom? You sure have gone through troubles, haven't you, Working Warrior?
 <END2>
 
 #WRITE(PTR, $00005024)
-Re:そもそも
+Re: In the first place
 <END2>
 
 #WRITE(PTR, $00005028)
@@ -7610,11 +7610,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000502C)
-今どき, そんなレトロな生き方をしている若者がいたとは!
+How can you live such a retro life in this day and age, young lady!?
 <END2>
 
 #WRITE(PTR, $00005044)
-Re:そもそも
+Re: In the first place
 <END2>
 
 #WRITE(PTR, $00005048)
@@ -7622,11 +7622,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000504C)
-いくらなんでもそれはネタだろう? 釣られはせん。釣られはせんぞー!
+No matter what you say, that's gotta be a troll. You're trolling me, aren't you-!?
 <END2>
 
 #WRITE(PTR, $00005064)
-Re:そもそも
+Re: In the first place
 <END2>
 
 #WRITE(PTR, $00005068)
@@ -7634,11 +7634,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000506C)
-体力には自信があると?
+You're confident with your strength?
 <END2>
 
 #WRITE(PTR, $00005084)
-Re:処世術?
+Re: Words of wisdom?
 <END2>
 
 #WRITE(PTR, $00005088)
@@ -7646,11 +7646,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000508C)
-人と人の繋がりが大事なのに誰かを頼るのが好きじゃないというのは矛盾しているぞ。
+It's inconsistent to say that human relations are important but you don't like relying on others.
 <END2>
 
 #WRITE(PTR, $000050A4)
-Re:お腹
+Re: Hungry
 <END2>
 
 #WRITE(PTR, $000050A8)
@@ -7658,11 +7658,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $000050AC)
-ゲテモノ食いをするつもりか? 凄まじいな……。
+You plan on eating gross things? Hardcore...
 <END2>
 
 #WRITE(PTR, $000050C4)
-Re:お腹
+Re: Hungry
 <END2>
 
 #WRITE(PTR, $000050C8)
@@ -7670,11 +7670,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $000050CC)
-いったいどんな環境で育ってきたのだ?
+Just how were you raised?
 <END2>
 
 #WRITE(PTR, $000050E4)
-Re:秋葉原って
+Re: Akihabara's
 <END2>
 
 #WRITE(PTR, $000050E8)
@@ -7682,11 +7682,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $000050EC)
-残念ながらいまや萌えこそが混沌の趣都アキハバラの象徴なのだ。
+I'm sorry to say, but moe is the symbol of Akihabara, the chaotic capital.
 <END2>
 
 #WRITE(PTR, $00005104)
-Re:秋葉原って
+Re: Akihabara's
 <END2>
 
 #WRITE(PTR, $00005108)
@@ -7694,11 +7694,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000510C)
-確かになにも知らない人間から見たら度肝を抜かれるだろうな。
+Seeing that certainly is something that would shock someone who doesn't know any better.
 <END2>
 
 #WRITE(PTR, $00005124)
-Re:秋葉原って
+Re: Akihabara's
 <END2>
 
 #WRITE(PTR, $00005128)
@@ -7706,11 +7706,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000512C)
-同意しよう。これもすべて“機関”による日本愚民化計画の影響だ。
+I agree. This is also an effect of the "Organization's" Operation Stupidify Japan.
 <END2>
 
 #WRITE(PTR, $00005144)
-Re:なんか上から
+Re: From above
 <END2>
 
 #WRITE(PTR, $00005148)
@@ -7718,11 +7718,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000514C)
-お前もラボメンに入りたいのか? だが俺たちをバイトさぼりの口実にされそうな気がする。
+Do you want to become a lab mem too? But it kinda feels like you want to use us as an excuse to skip work.
 <END2>
 
 #WRITE(PTR, $00005164)
-Re:なんか上から
+Re: From above
 <END2>
 
 #WRITE(PTR, $00005168)
@@ -7730,11 +7730,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000516C)
-案ずるな。あれはWomanの子の悲鳴ではない。男の悲鳴だ。
+Don't worry. That wasn't a girl's scream. It was a guy's.
 <END2>
 
 #WRITE(PTR, $00005184)
-Re:なんか上から
+Re: From above
 <END2>
 
 #WRITE(PTR, $00005188)
@@ -7742,11 +7742,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000518C)
-どうやらWorking Warriorは実に想像力豊からしいな。いや, 妄想力と言うべきか。
+It seems like our Working Warrior is in tune with the power of imagination. Or, maybe I should say, the power of delusions.
 <END2>
 
 #WRITE(PTR, $000051A4)
-Re:暇すぎて
+Re: Too much free time
 <END2>
 
 #WRITE(PTR, $000051A8)
@@ -7754,11 +7754,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $000051AC)
-だってば, ではない。いきなりなんの話だ? バイトのことか?
+What do you mean "but"? What are you talking about so suddenly? Work?
 <END2>
 
 #WRITE(PTR, $000051C4)
-Re:暇すぎて
+Re: Too much free time
 <END2>
 
 #WRITE(PTR, $000051C8)
@@ -7766,11 +7766,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $000051CC)
-なに? ブラウン管工房は時給がいいのか? 9月からのバイト先候補に入れておくとしよう。
+What? The Braun Tube Workshop pays well? Maybe I'll apply for a part time job in September.
 <END2>
 
 #WRITE(PTR, $000051E4)
-Re:暇すぎて
+Re: Too much free time
 <END2>
 
 #WRITE(PTR, $000051E8)
@@ -7778,11 +7778,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $000051EC)
-ククク, お前は今, 致命的なミスを犯したぞWorking Warrior。この俺に弱点を自ら暴露してしまうとはな! このカード, いざというときのに使わせてもらう。
+Hehehe, you just made a fatal mistake, Working Warrior. You exposed your own weak spot to me! I'll be saving this trump card for the critical moment.
 <END2>
 
 #WRITE(PTR, $00005204)
-Re:今, テレビで
+Re: Now, on TV
 <END2>
 
 #WRITE(PTR, $00005208)
@@ -7790,11 +7790,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000520C)
-貴様, さてはコマンドサンボの使い手……やはり“機関”の刺客か!?
+Why you... you're also a command sambo user... are you an "Organization" assassin after all!?
 <END2>
 
 #WRITE(PTR, $00005224)
-Re:あと
+Re: After
 <END2>
 
 #WRITE(PTR, $00005228)
@@ -7802,11 +7802,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000522C)
-やめるのか? 早まるのはよせ。そんなことをすればミスターブラウンに殺されるぞ!
+Quitting? Don't be so hasty. You'll get killed by Mister Braun if you do that!
 <END2>
 
 #WRITE(PTR, $00005244)
-Re:自転車乗る
+Re: Riding a bicycle
 <END2>
 
 #WRITE(PTR, $00005248)
@@ -7814,11 +7814,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000524C)
-これはウソをついている味だぜ。
+This is the taste of a liar.
 <END2>
 
 #WRITE(PTR, $00005264)
-Re:自分を
+Re: Oneself
 <END2>
 
 #WRITE(PTR, $00005268)
@@ -7826,7 +7826,7 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $0000526C)
-いきなり恥ずかしいポエムを送りつけてきてどうした? 黒歴史でも作りたいのか?
+Why'd you send me this embarrassing poem all of a sudden? Do you want to make a dark history?
 <END2>
 
 #WRITE(PTR, $00005284)
@@ -7896,15 +7896,15 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $000054AC)
-壁紙1
+Wallpaper 1
 <END2>
 
 #WRITE(PTR, $000054B4)
-壁紙2
+Wallpaper 2
 <END2>
 
 #WRITE(PTR, $000054BC)
-壁紙3
+Wallpaper 3
 <END2>
 
 #WRITE(PTR, $000054C4)
@@ -7916,11 +7916,11 @@ Working Warrior
 <END2>
 
 #WRITE(PTR, $000054D4)
-うーぱ
+Upa
 <END2>
 
 #WRITE(PTR, $000054DC)
-メタルうーぱ
+Metal Upa
 <END2>
 
 #WRITE(PTR, $000054E4)
@@ -7996,394 +7996,703 @@ fake me
 <END2>
 
 #WRITE(PTR, $000055D8)
-雷ネット翔 ■アクセスＮｏ.1\n
-『噂のアイツはダメなヤツ!? 謎の転校生』\n
+RaiNet Kakeru ■ Access No. 1\n
+"The rumored guy is no good!? Mystery Transfer Student"\n
 \n
-ＮＹのネットカフェ。何者かがメールを打っている。\n
-『1時間後, 国防総省にサイバーテロ攻撃をしかける……』\n
+NY net cafe. Someone types a mail.\n
+"In an hour, start the cyber attack against the Department of Defense..."\n
 \n
-夢原翔（ユメハラ・カケル）, 改行小学校に転校して来たばかりの小学5年生。勉強も運動もそつなくこなすけれど特に目立つようなStudentではなかった。\n
+Yumehara Kakeru, a fifth grader who just recently transferred to\n
+Kaigyou Elementary. Flawless in study and sport, but doesn't\n
+particularly stand out.\n
 \n
-クラスメイトのキラリやタマルは, この学校の弱小なパソコン部に所属しており, 誰でもイイから人数を増やしたいという動機で, カケルに入部を迫る。\n
-しかしカケル自身はあまり乗り気ではなかった。\n
-\n
-【Kirari】\n
-「パソコンとかきっと苦手なのよ。しょうがないじゃない」\n
-\n
-そんなある日, パソコンの授業中。\n
-そこそこタッチタイプが速いタマルはカケルに自慢する。そんなタマルをたしなめながらも, キラリはパソコンやネットに関する知識の豊富さを披露した。\n
-\n
-【Tamaru】\n
-「おいおいキラリ, 見ろよ転校生のアイツ, 指1本でキーボード叩いてるぜー」\n
+His classmates, Kirari and Tamaru, are members of the school's\n
+small computer club, and try to get Kakeru to join with the\n
+reasoning that they need anybody to increase their numbers.\n
+But Kakeru wasn't personally interested.\n
 \n
 【Kirari】\n
-「ちょっとぉ, やめなさいよタマルったら。転校生なんだし, しょうがないでしょ」\n
+「He's probably not good with computers. It can't be helped.」\n
 \n
-パソコン室のキーボード上の1つ1つのキーを指でゆっくりと押しながら, そのキーストローク（キースイッチの深さ）を確認しているカケルの姿を見て, クラスの全員がカケルの腕前を見くびっていた。\n
-そのときだ。カケルのカバンの中でなにかがうなる。クラス中の注目を集める中, 小学生の間では持っているだけでも羨ましい, サブノートＰＣが出現した。しかもそれはなにやら不思議な形をしている。\n
+Then one day, during computer class.\n
+Quickly touch typing, Tamaru boasts to Kakeru. While rebuking\n
+Tamaru for that, Kirari shows off her abundant knowledge of\n
+computers and the internet.\n
 \n
 【Tamaru】\n
-「ウソだろーアイツ! 指1本のくせにサブノートかよー!」\n
+「Hey, Kirari, look at the transfer student. He's only using one finger\n
+to type-」\n
 \n
 【Kirari】\n
-「違うわタマル, よく見て, あのサブノートにはディスプレイがないわ」\n
+「Come on, stop that, Tamaru. He's just a transfer student, so he\n
+can't help it, can he?」\n
+\n
+Everyone in the class looked down on Kakeru's lack of ability\n
+when they saw him slowly press keys one by one, as if he were\n
+confirming each individual keystroke.\n
+\n
+It was that moment. Something groaned from within Kakeru's bag.\n
+Attracting everyone's attention, a sub notebook PC that would\n
+make anyone in school jealous appeared.\n
+Moreover, it had a unique shape.\n
 \n
 【Tamaru】\n
-「キ, キラリ～, あんなの見たことないよ～, スクリーンが出てきちゃったよ!」\n
+「This guy can't be for real! A sub notebook even though he types\n
+one-fingered!?」\n
 \n
-カケルのサブノートの中の『うーぱ』が, 長屋さんからの緊急メールを運んできた。メールによると, 驚くべきことに国防総省がハッキングを受けているらしい。\n
+【Kirari】\n
+「That's not it, Tamaru. Look, that sub notebook doesn't have a\n
+display」\n
 \n
-メールの内容を確認したカケルは目の色を変え, 動き自体もそれまでと一転し驚くほど素早いものへと変貌した。\n
-クラス中がきょとんとした面持ちに。特製サブノートからスクリーンだけを外し, そのキーボードを学校のパソコンに接続。\n
-緊急対策として学校のＰＣを使ってクラッカーの追跡を始めてしまったのである。猛烈な勢いでキーボードを操作し始めるカケルに驚く, キラリやタマルたち。\n
-カケルは世界中のサーバを経由することで身元を隠しているクラッカーの痕跡を追跡していた。トラップのウィルスなどを難なく退治して, 敵へ迫っていく。\n
-ＮＹのネットカフェ。モニタに, ウィンドウが開く。\n
-カケルが, ついに犯人を追いつめたのだ。犯人は, 世界中のあらゆるネットポリスやＣＩAよりも早く自分のパソコンに辿り着いた人物がいたことに驚き, カケルにチャットで話しかけてくる。\n
-犯人は《Ｊ》と名乗った。Ｊはウィルスを放つ。それはとても強力なシロモノで, 強制的に相手のパソコンをフリーズさせる力があった。\n
-だが, カケルは的確なワクチンをシュートして防ぎ, ジリジリと犯人の居場所へ近づいていく。場所がＮＹであるところまでは突き止めた。あともう少しで細かい住所まで特定できる……。\n
-Ｊは, カケルの実力に再度驚く。「まさか, これを使うはめになるとは……」と, 奇妙な形をしたＣＤ－ＲＯＭを取り出した。そのＣＤ－ＲＯＭから放たれたウィルスを, カケルには防ぐことができなかった。しかも, 謎のプログラムによる攻撃によって, ＰＣ教室の全てのパソコンが破壊されてしまう。\n
+【Tamaru】\n
+「Ki-Kirari~, I've never seen anything like that~, it's making a\n
+screen!」\n
 \n
-カケルの完敗であった――\n
-真っ赤な顔をして怒り出すパソコン教室の先生。そのとき放課後のベルが鳴る。悔しい思いをしながら, カケルはローラーシューズで長屋さんの元へ向かった。\n
+The "Upa" inside Kakeru's sub notebook carried an emergency\n
+mail from Nagaya-san. Written in the mail was the surprising news\n
+that the Department of Defense had been hacked.\n
 \n
-カケルという転校生が何者なのか知りたいキラリやタマルは, その後を追いかけた。\n
-長屋さんは, Ｊが使ったのはコンピュータウィルスの上を行くとても危険なモンスタープログラム『ヴァイオス』だと教えてくれる。\n
-誰がなんのために作ったのか分からない謎のモンスタープログラム。\n
-通常ウィルスの数千倍とも言われる強力な破壊力。そしてこの複製不能なモンスタープログラムは, 世界に9種類あり, 全てを手に入れたものはネットの世界を牛耳ることができるとも言われている――\n
-単なるネット内の伝説だと思われていたモンスタープログラム。しかしそれを使うハッカーが出現した。これは世界規模の非常事態だ。\n
+Upon confirming the contents of the mail, Kakeru's eye color\n
 \n
-「どうすればいいんだ?!」\n
-言い寄るカケルに, 長屋さんが派手なインプットカードを取り出した。\n
-「こちらも手をこまねいてるばかりではない。新しい雷ネットカードの開発が終わったところだ」\n
+changes, and his movements accelerate to a surprising rate.\n
+The entire class stared blankly. He removes the screen from the\n
+special sub notebook and connects the keyboard to a school\n
+computer.\n
+As emergency countermeasures, he uses the school computer to\n
+begin pursuit of the cracker. Kirari and Tamaru are astonished\n
+when Kakeru starts operating the keyboard with violent force.\n
+Kakeru pursues the traces of the cracker who hides his identity by\n
+using servers throughout the world. Easily exterminating trap\n
+viruses and such, he draws close to his opponent.\n
+NY net cafe. A window opens on the monitor.\n
+Kakeru finally corners the culprit. Faster than cyber police units\n
+throughout the world, and the CIA, Kakeru reaches the culprit's\n
+computer and accosts him through chat.\n
 \n
-新たな雷ネットカードとは, いったいなんなのか? そしてカケルの正体とは?\n
+The culprit called himself "J". J releases viruses. Those are\n
+powerful things, which have the power to force other people's\n
+computers to freeze.\n
+But Kakeru defends himself by shooting a precise vaccine, slowly\n
+approaching the culprit's whereabouts. The location was found to\n
+be somewhere in NY. After just a few moments, he'll have the\n
+specific address...\n
+J is surprised by Kakeru's ability again. "I never thought I'd have to\n
+use this..." he says as he takes out a strangely shaped CD-ROM.\n
+Kakeru could not defend against the virus released from that CD-\n
+ROM. Furthermore, all of the computers in the classroom are\n
+destroyed by that mystery program attack.\n
 \n
-その頃――\n
-ＮＹのネットカフェの扉が開き, 中から美少年が出てくる。\n
-「カケルか……面白いヤツだな」\n
-奇妙な形のＣＤ－ＲＯＭをしまいながら, 楽しそうに笑った。\n
+It was Kakeru's complete defeat--\n
+The computer room teacher's face reddens with rage. At that time,\n
+the school dismissal bell rings. While feeling regret, Kakeru\n
+rollerblades to where Nagaya-san is.\n
 \n
-その少年こそが, 過去に世界を震撼させた小学生ハッカー『Ｊ』だった――
+Kirari and Tamaru, wanting to know what sort of person Kakeru,\n
+the transfer student is, chase after him.\n
+Nagaya-san tells him that the computer virus J used is the very\n
+dangerous Monster Program "Vaios".\n
+\n
+The mystery Monster Programs made for an unknown purpose.\n
+\n
+Their destructive force is said to be thousands of times stronger\n
+than normal viruses. There are 9 types of these unreproducible\n
+Monster Programs. It is said that he who collects all of them can\n
+control the entire internet world--\n
+Simply put, this Monster Program is legendary on the internet.\n
+And a hacker has appeared who can use it.\n
+This is a global state of emergency.\n
+\n
+「What should we do!?」\n
+As Kakeru implores this, Nagaya-san takes out a gaudy-looking\n
+input card.\n
+「We're not just going to stand here and watch. We're just about\n
+finished developing a new RaiNet Card.」\n
+\n
+Just what is this new RaiNet Card?\n
+And what is Kakeru's true identity?\n
+\n
+Meanwhile--\n
+The NY net cafe's door opens, and out comes a pretty boy.\n
+「Kakeru, huh... what an interesting guy」\n
+While putting away a strangely shaped CD-ROM, he laughs like\n
+he's enjoying himself.\n
+\n
+That boy is the elementary hacker who shook the world in the past-\n
+"J"--\n
 <END2>
 
 #WRITE(PTR, $000055DC)
-雷ネット翔 ■アクセスＮｏ.2\n
-『そして未来へ! 雷ネット結成!』\n
+RaiNet Kakeru ■ Access No. 2\n
+"Now to the future! RaiNet Formation!"\n
 \n
-すっかり話に置いていかれていたキラリとタマルが声を上げる。\n
+Completely engrossed by the talk, Kirari and Tamaru raise their\n
+voices.\n
 \n
-「いったいカケルは何者なのか?」\n
+「Just what sort of person is Kakeru?」\n
 \n
-実はカケルは, ネットの秩序を守護する有志のネット・ガーディアンだった。\n
-キラリとタマルはそのカッコ良さに即座に仲間にしてくれと頼む。しかし犯罪者と戦うことになる可能性のある, その危険性を考えカケルはきっぱりと断った。\n
-そのとき, ネットゲームサーバが, 謎のハッカー『ビーズマン』によって攻撃されているという情報が入る。カケルはさっそく, 長屋さんが作ってくれた新しい雷ネットカードと, 特殊なブラウザ・アルファゲートを使って, 戦いを挑むことに。\n
+Kakeru was actually one who protects the order of the internet:\n
+A Net Guardian.\n
+Kirari and Tamaru wanted to tell their friends how cool that was.\n
+But Kakeru clearly forbade them due to the risk that he may have\n
+to fight with the culprit.\n
+At that time, they received news that the mystery hacker "Beesman"\n
+had attacked an online game server. Kakeru immediately challenges\n
+him using Nagaya-san's newly made RaiNet Card and the unique\n
+Browser Alpha Gate.\n
 \n
-初めて使う新しい雷ネットカード。カケルはそのハンデをものともせず, ブートスペルの打ち込みに成功。\n
-そして簡単にクラッカーに勝利すると思えたそのとき, ゲームサーバを完全に支配しているビーズマンは, ゲームプログラムのシステムそのものを書き換えることによって, カケルをゲームのループダンジョン奥深くへ閉じこめてきたのだ。\n
-ピンチに陥るカケル。\n
-そのときだ, なんとキラリとタマルもサイバーダイブして, ピンチのカケルを助けに来てくれたのだ!\n
-しかもなんと2人は, このゲームにとても詳しいという。それに, なによりもゲームプレイヤーたちが苦しめられているのが黙って見ていられなかったのだ。サーバを乗っ取り, ゲームプレイヤーを弄んだハッカーを絶対に許せなかったという2人の心意気に押され, 3人の共闘を決意するカケル。2人の素晴らしいアシストと, カケルのシュート能力によって, 見事ビーズマンを倒すことに成功したのだった。\n
+The first use of a new RaiNet Card. Even with that handicap,\n
+Kakeru successfully cast his Boot Spell.\n
+Just when Kakeru thought he had easily won against the cracker,\n
+Beesman, who had complete control of the game server, overwrites\n
+the game program system, sealing Kakeru deep within the game's\n
+loop dungeon.\n
+Kakeru is in danger.\n
+At that moment, somehow Kirari and Tamaru also Server Dive.\n
+They came to save Kakeru!\n
+Furthermore, these two are well versed in this game.\n
+As game players, they were in pain, and couldn't just silently\n
+watch. The two of them absolutely couldn't forgive the hacker who\n
+had taken over the server and toyed with the game players, and\n
+decided to join forces with Kakeru.\n
+With their magnificent assistance, and Kakeru's shoot ability,\n
+they successfully defeated Beesman.\n
 \n
-すると突然, モニターに見知らぬチャットウィンドウが開く。\n
-なんとそれは警視庁からの通信だった。\n
-「ひょっとして, ほめられるのかな?」と喜ぶカケルたちだったが……\n
-警察は, 3人に向かって言った――\n
+And when they did, suddenly an unknown chat window opens on\n
 \n
-「君たちを逮捕する!」
+It was a signal from the Tokyo Metropolitan Police Department.\n
+「By any chance, are they here to praise us?」they thought in\n
+delight, but...\n
+The police turned to them, and said--\n
+\n
+「You're under arrest!」\n
 <END2>
 
 #WRITE(PTR, $000055E0)
-雷ネット翔 ■アクセスＮｏ.3\n
-『ピーポーピーポー! ネットポリスの罠!』\n
+RaiNet Kakeru ■ Access No. 3\n
+"Pi-po-pi-po-! The Net Police Trap!"\n
 \n
-日本のネットポリスは, 手柄を立て続けるカケルを快く思ってはいなかった。そのため, 不正アクセス禁止法をたてに, カケルを脅してきたのだ。今回は罪には問わないが, 自重するようにと言い置いて, ビーズマンを捕まえた手柄を自分たちのものにしてしまったのである。\n
-「子供になにができる」と, バカにするネットポリスの中の1人レッド。怒るカケルたち。ハッキング能力では, 絶対に負けないつもりだった。\n
+Japan's Net Police did not think well of Kakeru, who had kept\n
+doing meritorious deeds. They threatened to persecute Kakeru\n
+under the Unauthorized Access laws. They didn't ask the crime this\n
+time, but left a message for them to restrain themselves, taking\n
+credit for Beesman's arrest.\n
+「What can children do?」ridiculed Red, a member of the Net Police.\n
+This angered Kakeru and the others. They had no intention to lose\n
+in hacking skill.\n
 \n
-と, そこへ「話はすべて聞いたよ!」と, ピーポー君のアイコンが出現。なんとそのピーポー君のアイコンが勝負を持ちかけてきた。\n
-ネット犯罪は凶悪化の一途を辿っている。少しでも戦力が欲しいのも事実。しかし, 能力のない子供に捜査を攪乱させるわけにはいかない。そこで, あるゲームをやってカケルたちの実力を試したいのだという。\n
-もし警視庁のサーバの最深部にいるピーポー君の元まで侵入することができたら, カケルたちの勝ち。それを防ぐことができたら, ネットポリスの勝ち。もしもカケルたちが勝ったら, ネットポリスと同等の逮捕特権をあげよう――ピーポー君はそう提案した。\n
-負けるハズがないとタカをくくったレッドは勝負を承諾。かくして, 警視庁のサーバを舞台にした, ハッキングバトルが行われることとなった。\n
+And then, saying「Listen to the whole story!」Pi-po-kun's icon\n
+made an appearance. Somehow, Pi-po-kun's icon was suggesting a\n
+contest.\n
+Cyber-crime wholeheartedly follows corruption. It's also a fact\n
+that they want even a little war potential. However, that's no\n
+reason to investigate powerless children. So, thus, he wanted to.\n
+have a game to test Kakeru and friends' ability.\n
+Kakeru and friends would win if they could infiltrate the deepest\n
+part of the Metropolitan Police Department's server where Pi-po-\n
+kun lies. If they could prevent that, it would be the Net Police's\n
+win. If Kakeru and friends won, they would be granted the arrest\n
+privileges equal to the Net Police-- This was Pi-po-kun's proposal.\n
+Thinking himself unbeatable, Red agreed to the contest.\n
+Thus, the Metropolitan Police Department's server became the stage\n
+for the hacking battle.\n
 \n
-しかし卑怯にも, レッドは警視庁サーバのポートをすべて閉鎖していた。ポートはいわば外部に開いた扉。つまり, 入り口のない建物に侵入しろと言っているのである。\n
-カケルたちは為す術をなくし, 途方にくれる。が, カケルにあるアイデアが浮かんだ。キラリ, タマルと一緒にローラーシューズで街を駆け抜けるカケル。\n
-2人の協力を受けて, カケルはなんと本物の警視庁ビル内への侵入に成功。特製のサブノートを警視庁内の公衆電話から接続し, 豊富な知識と, 見事なまでのテクニックでぐんぐんと深部へ。そしてついに目的のサーバへ侵入に成功する!\n
+But, in cowardice, Red closed every port to the server. Ports, are,\n
+so to speak, doors that open to the outside. In other words, it was\n
+like penetrating a building without entrances.\n
+Without a foundation, Kakeru and friends were at a loss. However,\n
+an idea floated to Kakeru. He would rollerblade through the town\n
+with Kirari and Tamaru.\n
+Receiving their cooperation, Kakeru successfully infiltrated the\n
+Department building. Attaching his sub notebook through their\n
+public phone, with abundant knowledge and splendid technique,\n
+he steadily heads to the depths, successfully reaching the server!\n
 \n
-カケルの勝ちを盛大に宣言するピーポー君。約束通り今後は警察からの全面バックアップを受けられることに。大喜びするカケルたち。しかし, レッドは「ピーポー君になんの権限があってそんなことをするんだ! こんなもの無効だ!」とゴネる。\n
-そのときだ, ピーポー君の前にウィンドウが開いた。ナントそこにいたのは警視総監。つまりピーポー君の正体は警視総監だったのだ!\n
-「凶悪なネット犯罪に立ち向かうには……彼らのような若い力が必要ではないのかね?」という言葉に, レッドはまったく反論できなかった。\n
+Pi-po-kun magnificently declares Kakeru's win. As promised, they\n
+later complete backing from the police. Kakeru and friends are\n
+overjoyed. However, Red protests「What authority does Pi-po-kun\n
+have to do that!? This is invalid!」\n
 \n
-かくして, 正式に警察にも認められた《雷ネットガーディアン》がここに誕生したのである!
+At that time, a window opened in front of Pi-po-kun. And there,\n
+within the window, was the Superintendent General. In other words,\n
+he was Pi-po-kun's true identity all along!\n
+When he said "Isn't youthful power like theirs necessary... to fight\n
+against cyber-crime?" Red was unable to object.\n
+\n
+And thus, the police sanctioned "RaiNet Guardians" were born!\n
 <END2>
 
 #WRITE(PTR, $000055E4)
-雷ネット翔 ■アクセスＮｏ.4\n
-『パソコン部部長カズマのプライド』\n
+RaiNet Kakeru ■ Access No. 4\n
+"Computer Club Head Kazuma's pride"\n
 \n
-カケルのパソコン部への入部を願うキラリとタマル。\n
-だがパソコン部の部長を務める4組の市月一馬（イチカワ・カズマ）は「カケルの実力を見てからじゃないと, 入部は認めない!」と言い出す。\n
-そこへ, 紫藤小学校のパソコンから挑戦状が届く。紫藤小とはタイピング技術を競う大会『タイピング・Masterズ』においてライバル関係にある学校だ。\n
-勝負を受けないワケにはいかない。紫藤小パソコン部部長『今ぴゅう太』とカズマのタイピング・バトルゲームが始まった。\n
-最初はカズマがグングンをスコアを伸ばし優勢に。しかし, 相手の見えないオンラインバトルであるのをいいことに, 追い詰められた紫藤小はウィルスプログラムを改行小のＰＣへ送り込み, タイピングの処理スピード自体を遅くするというズルイ裏技をしかけてくる。\n
-それに気づかないカズマはいよいよ劣勢に立たされてしまう。相手が汚いウィルスでインチキをしてきたことに気づいたカケルが交代すると言い出す。\n
+Kirari and Tamaru implored Kakeru to join the Computer Club.\n
+But the head of the Computer Club, Ichikawa Kazuma, from class\n
+4 said「Unless I see Kakeru's true skill, I won't recognize his entry\n
+to the club!」.\n
+And then, a written challenge appeared from Shidou Elementary's\n
+computer. Shidou is a rival school competing in the typing\n
+tournament "Typing Masters".\n
+There was no way they could turn down the challenge. And so the\n
+Typing Battle Game between Kazuma and the Shidou Computer\n
+Club Head, "Ima Pyuuta" began.\n
+At first, Kazuma was dominating with a steady score. However,\n
+his opponent, taking advantage of the fact that he cannot be seen in\n
+an online battle, underhandedly sends a virus program to Kaigyou\n
+Elementary's PC, slowing down its processing speed.\n
+\n
+And, without him noticing it at all, Kazuma starts losing. Kakeru,\n
+having noticed the opponent cheating with a dirty virus, suggests\n
+to switch places.\n
 \n
 【Kazuma】\n
-「改行小の名誉のかかったこの大事な戦いに, お前なんかと交代できるわけない」\n
+「The honor of Kaigyou Elementary hangs on this fight. I'm not just\n
+going to switch places with you.」\n
 \n
-と, それでも鼻息の荒いカズマ。しかし勝負はますますカズマ劣勢へ。\n
-ここでタマルやキラリからもカケルの起用に背中を押されるカズマ。クラス全員が息をのんで見守る壊滅的な状況の中, カケルへとバトンが渡される。\n
-もはやあきらめるカズマ。頭を下げ背中を向けてしまう。しかしカズマの背中の方から聞いたことのないようなタイピングの音が。\n
-まるで機械音のように鳴り響くその音に驚き振り向くカズマ。そこには神速級のタイピングテクで, イカサマをしている相手を正攻法で撃破していくカケルの姿が!\n
-そして見事勝利!\n
-カケルは, カズマから「うちのパソコン部に入部してくれ!」と抱きつかれるハメになるのだった。\n
+But, Kazuma was too proud. The match was gradually turning\n
+against him.\n
+At this point, Tamaru and Kirari start pressuring Kazuma to listen\n
+to Kakeru. The whole class holds their breath as the baton is\n
+passed to Kakeru during devastating circumstances.\n
+Kazuma has already given up. He bows his head and turns his back.\n
+But from behind his back, comes the sound of typing unlike any\n
+he's ever heard before.\n
+Kazuma looks back in surprise upon hearing a sound reverberate\n
+like a machine. There was the Kakeru, crushing the opponent with\n
+a frontal attack, typing with a godlike speed!\n
+And then a splendid victory!\n
+Kazuma clung onto Kakeru in an embrace, exclaiming「Please join\n
+our Computer Club!」.\n
 \n
-と, そこへ長屋さんから連絡が。インターネットバンクを狙った預金クラッキング事件が発生! 敵の名は世界的にも有名なネット系銀行強盗『ビショップ』! カケルたちに再び緊張が走る!
+And then Nagaya-san called. An online bank cracking incident had\n
+occurred! The enemy is the internationally renowned bank robber,\n
+"Bishop!" Tension once again runs through Kakeru and friends!\n
 <END2>
 
 #WRITE(PTR, $000055E8)
-雷ネット翔 ■アクセスＮｏ.5\n
-『ネットバンクハッカー, ビショップとの出会い』\n
+RaiNet Kakeru ■ Access No. 5\n
+"Encounter with Bishop, online bank hacker"\n
 \n
-ネット上に存在する銀行。今やそれ自体が常識になっていると言えるだろう。空中を飛び交うワイヤレス回線。ときには億単位のお金が動いている。\n
+Online banking has become common knowledge.\n
+Wireless transmissions occasionally\n
+transfer billions of currency units.\n
 \n
-今回の敵『ビショップ』は車を使って移動しながらクラッキングをしかけ, 位置情報を次々と偽装していくという, とても手強い相手だ。\n
-しかしカケルは敵の動き自体を次々と予測し, 徐々に追い詰めていく。移動する敵から距離を離さないように, カケルたちも敵同様ローラーシューズを履いて街中のホットスポット（無線ＬAＮ接続ができる場所）や公衆電話回線を使って移動していく!\n
-カケルの素速い超絶テクと的確な攻撃, そしてタマルたちとのチームワークによって, ビショップを追いつめることに成功した!\n
-苦境に陥ったビショップが最終手段として敵が使ったのは, ナント! 世界に9つしか存在しないと言われている幻のモンスター・プログラムの1つ『テリオス』だった!\n
-その理不尽な破壊能力に一時は優勢だったカケルたちも一気に厳しい立場に追いやられてしまう。テリオスを使って, 最後のとどめを刺しにくるビショップ。\n
-その凶悪なウィルスがカケルたちの目の前に迫る!\n
+The current enemy, "Bishop" is a tough\n
+opponent, cracking through mobile net\n
+while driving to mask his location.\n
+But Kakeru predicts his opponent's\n
+movements, one by one, gradually cornering\n
+him. In order to close the distance,\n
+Kakeru and friends don rollerblades, moving\n
+to hotspots and public phone lines in town!\n
+With Kakeru's quick technique and precise\n
+strikes, along with Tamaru's group's team-\n
+work, they successfully corner Bishop!\n
+Cornered, Bishop uses his last resort!\n
+One of the 9 existing phantom Monster\n
+Programs, "Terios!"\n
+Its irrational destruction ability instantly\n
+turns the tables on Kakeru. Using Terios,\n
+Bishop prepares the finishing blow.\n
+The vile virus approaches!\n
 \n
-カケル絶体絶命!! ――が, 彼らを庇うようにカケルのＰＣの中のなにかが飛び出したのだ!\n
+Checkmate for Kakeru!! --but then, as if\n
+to protect them, something flies out of...\n
 \n
-……なんとそれはカケルがかわいがっていたバーチャルペットのうーぱ!\n
-カケルたちの身代わりとして攻撃を受けてしまったうーぱ。\n
+...It's the virtual pet Upa that\n
+Kakeru cared for!\n
+Upa takes the hit in Kakeru's place.\n
 \n
-果たしてうーぱは無事なのか!?
+Will Upa be safe!?\n
 <END2>
 
 #WRITE(PTR, $000055EC)
-雷ネット翔 ■アクセスＮｏ.6\n
-『試練の先に, ウパウパ! うーぱの秘密』\n
+RaiNet Kakeru ■ Access No. 6\n
+"To the trial, upaupa! Upa's secret"\n
 \n
-モンスター級のウィルス攻撃をダイレクトに受けてしまったうーぱ。\n
-しかしなんとキズ1つ負っていなかった。しかもあろうことか, その攻撃自体を食べてしまったのだ。\n
-そんなうーぱの大活躍によって, ビショップ撃退に成功するカケル。おまけにビショップの使っていたモンスター・プログラム『テリオス』もあっさりとゲットしてしまう。\n
+Upa had taken a direct attack from the\n
+Monster-level virus.\n
+But he was left unscathed. And of all\n
+things, he ate the attack itself.\n
+Kakeru successfully countered Bishop with\n
+Upa's great efforts. Additionally, he\n
+got Bishop's Monster Program "Terios".\n
+But he didn't understand. Why could Upa\n
+eat such a strong Monster-level virus\n
+program?\n
 \n
-しかし分からない。うーぱはなぜ, あれだけ攻撃力のあるモンスター級のウィルスプログラムを食べてしまうことができたのか?\n
-長屋さんに聞いても分からなかった。だが, ネット上のどこかにいる謎のサイトMaster『サイバードラゴン』なら分かLukaもしれないとのこと。\n
-ありとあらゆるプログラムの知識を持つというサイバードラゴンは, ネット界のことをなんでも知っている長老のような存在であるらしい。\n
-さっそくサイバー・ドラゴンのサイトを探すことにしたカケルたち。\n
+Not even Nagaya-san knew. But the mystery\n
+Site Master "Cyber Dragon", might know.\n
 \n
-サイバードラゴンのサイトのＵＲＬをゲットするためには, どうやら『サイバードラゴンの試練』と呼ばれるネットゲームをクリアしなければならないらしい。\n
-試練として設定されたタイピングバトルや様々なウィルス攻撃は激しさを増していき, くじけそうになるカケルたち。\n
-しかし励まし合って懸命に進んでいく。そして苦労しながらも, カケルはサイバードラゴンのサイトＵＲＬをゲットすることに成功。サイトMaster・サイバードラゴンに会うことができた。\n
+Cyber Dragon, who had information about\n
+every program in existence, seemed like an\n
+elder who knew the entire net world.\n
+Kakeru and friends search for Cyber\n
+Dragon's site immediately.\n
 \n
-名前の通り, 老龍の姿をしているサイバードラゴンに驚きつつも, うーぱのプログラムを見てもらう。\n
-そして分かったことは, なんとうーぱもモンスタープログラムであるということ。\n
-うーぱ自身も危険な存在なのかと心配するキラリ。だが, サイバードラゴンは, 使う者の意志によって「凶器」にも, 大切なものを「守る力」にもなると教えてくれた。\n
-だが, そのうーぱをモンスタープログラムとして覚醒させるには, それなりの手段が必要だと言う。\n
-もしそれが分からないレベルであるならば, たとえ覚醒できたとしても使いこなすことは不可能。\n
-うーぱの覚醒方法がまったく分からないままサイバードラゴンの元を離れるカケルたち。\n
-凶悪なプログラムに打ち勝つため, カケルは, いつの日かうーぱのモンスター・プログラムとしての起動方法までたどりつくことを誓うのだった――\n
+In order to get the URL for Cyber Dragon's\n
+site, it seems they must clear the online\n
+game called "Cyber Dragon Trial".\n
+It was a typing battle with increasing\n
+viral attacks, wearing Kakeru down.\n
+But he keeps going with his friends'\n
+encouragement. After struggling, Kakeru\n
+successfully gets Cyber Dragon's URL.\n
+They were able to meet him.\n
 \n
-そんなモンスター・プログラムを持つスーパー小学生カケルたちの噂は, いつの間にか世界中に及んでいた。
+As his name suggests, his form is an elder\n
+dragon. He looks at Upa's program.\n
+And what he understood was that Upa was\n
+also a Monster Program.\n
+Kirari worries Upa is dangerous. But\n
+Cyber Dragon says a deadly weapon can be\n
+used to protect if the user wills it.\n
+But that also means it would be necessary\n
+to awaken Upa's inner Monster Program.\n
+But if Kakeru doesn't fully understand, the\n
+awakened form will be impossible to control.\n
+Without knowing how to awaken Upa, Kakeru\n
+and friends leave Cyber Dragon's site.\n
+To conquer vile programs, Kakeru vows to\n
+one day find Upa's Monster Program\n
+activation process--\n
+\n
+Before long, rumors spread around the world\n
+of Kakeru and friends, the super elementary...\n
 <END2>
 
 #WRITE(PTR, $000055F0)
-雷ネット翔 ■アクセスＮｏ.7\n
-『航空機史上世界初! 地上からのハイジャック!』\n
+RaiNet Kakeru ■ Access No. 7\n
+"First in aircraft history! Ground hijack!"\n
 \n
-アメリカで行われる世界タイピングMasterズのために, 日本からの選抜団がロスに集結することになった。\n
-日本代表の中には, これまでのいくつもの事件解決で一躍国民的有名人になってしまったカケルの姿もあった。\n
-セコンドとして同行を許されたタマルと, お嬢様パワーで自腹でついてくるキラリ。これからの楽しいロス旅行について話が弾んでいくのも束の間, 事件が起こる。\n
+To participate in the worldwide Typing Masters\n
+in America, Japan's team will go to LA.\n
+Among Japan's reps is Kakeru, who became an\n
+instant celebrity for solving numerous crimes.\n
+Tamaru accompanies as second, and Kirari pays\n
+her own way with her rich girl power. They\n
+were chatting when an incident occurred.\n
 \n
-3人の元へあわてた様子で客室乗務員がやってくる。なんと「このジャンボがハイジャックされた」というのだ。\n
-しかも犯人は同機には乗り合わせておらず, 地上からのＰＣ操作だけでジャンボのメインＣＰＵをジャックしたらしい。\n
-手動操縦に切り替えることさえできず, 操縦をハッカーの手に委ねるしかない状態で, 乗客276名を乗せた旅客機という名のコンピュータの塊はどんどん高度を落としていく。\n
-犯人は1つの爆薬を使うこともなく, 回線だけを使っていつでもジェットエンジンを停止, 墜落させることができるという, 今世紀初の『地上からのハイジャック』をしかけてきたのだ!\n
-犯人の狙いはモンスタープログラム『うーぱ』だ。サブノートを駆使して犯人のジャンボへの侵入経路を探るカケル。が, その経路がまったく見つからない。\n
-このジャンボへと繋ぐことのできる唯一の回線。それは厳重なパスワードで守られた管制塔からの専用回線のみであった\n
-。そのラインを中心に手がかりを探す……が見つからない。管制塔周辺にはあやしい動きがまったく見当たらないのだ。\n
-焦るカケルたち。\n
+The frantic cabin crew came to them. It\n
+seems that the jumbo jet has been hijacked.\n
+Moreover, the culprit was not onboard, but\n
+apparently hijacked the CPU from the ground.\n
+The crew could not switch to manual control,\n
+letting the hacker decrease the plane's\n
+altitude along with its 276 passengers.\n
+The culprit used not one explosive, but\n
+circuits to halt the jet engines, which\n
+would cause the plane to crash: this\n
+century's first "Ground Hijack!"\n
+He wanted the Monster Program "Upa".\n
+Kakeru infiltrates the jet with his sub notebook\n
+and tries to find the culprit's path, but can't.\n
+The only line that connects to the jet is\n
+the heavily password-protected control tower's.\n
+Searching for the core of that line... fails.\n
+There is no suspicious activity from the tower.\n
+Kakeru and friends grow impatient.\n
 \n
-旅客機が飛ぶような非常に高い高度では管制塔からの特殊な電波以外は届かないはずなのに。\n
-しかし様々な可能性を追求していくカケルに, この機へのもう1つの侵入経路が浮かぶ。それは人工衛星だった。\n
-「ビンゴ!」カケルの予感は的中した。海外との通信に利用するため, 地上に設置された基地局と衛星とを結ぶライン。\n
-犯人は衛星までの防御壁ファイヤーウォールを突破し, 衛星からこの旅客機のＣＰＵ端末へ接続しているのだ。これは人工衛星と旅客機を同時にジャックしているとも言える大事件だ。\n
-こうして犯人を探し当て, 追い詰めていくカケル。地球軌道上を周回する衛星を中心に, ロボグラム同士の初の宇宙戦が繰り広げられる。そしてあっけなく勝利。\n
-敵は頭はいいのだが, ロボグラムの操作つまりタイピングではカケルに到底及ばないレベルだったからだ。ＰＣ画面を通してとは言え, 初めて宇宙を見るカケルたち。\n
-それは乗っているジャンボジェットをまるでスペースシャトルと錯覚してしまうほどの美しさだった。宇宙を悠々と漂うジャンボ。カケルたちの目には美しい星々が輝いていた。\n
+Only special radio waves should have been able\n
+to reach the plane's height from the tower.\n
+But Kakeru considers other possibilities and\n
+thinks of one way: via satellite.\n
+"Bingo!" Kakeru was right. The ground base\n
+connected to the satellite by a foreign line.\n
+The culprit broke the satellite's firewall to\n
+connect to the plane CPU. Both a satellite\n
+and a plane were hijacked in this major\n
+incident.\n
+Kakeru figures this out and corners the\n
+culprit. The first war fought at the core of\n
+an orbiting satellite begins. A quick victory.\n
+The opponent was clever, but not enough to\n
+match Kakeru's operation. Kakeru and friends\n
+watch the first star war unfold on screen.\n
+The jumbo jet was almost as beautiful as a\n
+space shuttle. Floating in space. Stars\n
+shone in Kakeru's eyes.\n
 \n
-そしていよいよ, タイピングMaster世界大会が始まる。
+At last, the global Typing Masters begins.\n
 <END2>
 
 #WRITE(PTR, $000055F4)
-雷ネット翔 ■アクセスＮｏ.8\n
-『響けイナズマ! タイピングMasterの奥義!』\n
+RaiNet Kakeru ■ Access No. 8\n
+"Echo, Inazuma! Typing Masters' Secrets!"\n
 \n
-事件に遭遇しながらも, なんとか無事ロサンゼルス空港に到着したカケルたち。混み合う到着ターミナルを出ると, 大きな荷物を持った老婆を手伝うアメリカの若者に関心する3人。\n
+Despite the incident, they safely arrive at\n
+the LA airport. Exiting the crowded terminal,\n
+they express concern for an American youth\n
 \n
 【Tamaru】\n
-「へー, アメリカって国も結構良心的な人種なんだなー」\n
+「Heh, so Americans are fine people too-」\n
 \n
 【Kirari】\n
-「どこの国だって人を思いやる気持ちがあるのよ」\n
+「Considerate people live in every country.」\n
 \n
-空港からバスで30分。今回の会場であるロサンゼルス・コンベンションセンターに到着。\n
-熱気あふれるタイピングMasterの会場は, いかにも強者そろいの様相である。\n
-なにより驚いたのは, 参加者リストの中に世界的に有名なハッカーやクラッカーも名を連ねていること。\n
-彼らは逮捕する証拠をなにも残していないため, 指名手配などとは無縁なのだ。\n
-そしてその中には因縁の相手『Ｊ』の名も。もちろんお互いに顔を合わせたことはない。\n
+30 minutes from airport by bus. They arrive\n
+at the LA convention center.\n
+An aura of feverish competition spreads\n
+through the Typing Master grounds.\n
+Most surprisingly, the participant list\n
+includes world famous hackers and crackers.\n
+Since they leave no evidence, they evade\n
+wanted lists.\n
+And within is the name of the fated opponent,\n
+"J". They have not yet met personally.\n
 \n
 【Tamaru】\n
-「どんな悪党顔だろうなぁ?」\n
+「I bet he looks like a scoundrel.」\n
 \n
-会場での熾烈な戦いはインターネットを通して世界中に同時中継され, その注目度は今やオリンピックにも並ぶと言われ, 世界の視線が釘付けとなっている。\n
-そして大会もいよいよメインレースへ突入。大音量のスピーカーでノリノリの大会ＤＪがベスト8を発表していく。\n
-7番目にカケルのコール, そして最後に『Ｊ』の名が叫ばれる。その瞬間姿を現したその男の顔……それはなんと空港で老婆を助けていたあの感じのいい少年ではないか!\n
-驚く3人。いったい彼は何者なんだ? ちなみにカケル以外の日本代表選手はもう残っていない。レッドの部下, 日本のネットポリス代表も1回戦で敗退。レッドたちも悔しい思いで残るカケルを見守る。\n
-カケルのベスト8初戦の相手は, 音楽のリズムに乗ったダンシングタイプで華麗な技を見せる『ロストシェード』だ。\n
-が, カケルのタイピングスピードと確実さは, その比ではなく圧勝。\n
-いよいよベスト4へ進出。次の相手はアラビアの石油王の息子『インドラパンサー』だ。\n
-ヨガを利用した柔らかな動きはまるで関節がないかのような奇妙なもの。操るロボグラムも動きのパターンにつかみどころがなく苦戦する。\n
-しかしカケルが使った相手をフリーズさせるウィルスアタックで, その柔らかい動きごと封じることに成功。最後は氷のように固まった相手を指1本で軽く突いただけで粉々に。\n
+The battles are live-streamed worldwide on\n
+the internet, grasping the same attention\n
+as the Olympics.\n
+The tournament starts the main race. An\n
+energetic DJ announces the top 8. 7th\n
+called is Kakeru, and last is "J's" name.\n
+That last face... is the face of the boy who\n
+helped the lady in the airport!\n
+The 3 are shocked. Who is he? Also, Kakeru\n
+is the last Japanese rep remaining. Another\n
+one, Red's subordinate, lost first round.\n
+They can only watch over Kakeru.\n
+Kakeru's first best 8 opponent is the\n
+rhythmic Dancing Typist "Lost Shade",\n
+who was no match for Kakeru's speed and\n
+completely lost.\n
+Kakeru advances. His next opponent is\n
+"Indra Panther" son of an Arabian oil baron.\n
+Using limber yoga movements, he appeared\n
+jointless. It was a hard match since his\n
+movement patterns left no openings.\n
+But Kakeru used a freezing virus attack,\n
+sealing his opponent's moves. Finally, one\n
+light touch shattered him like ice.\n
 \n
-さぁいよいよ決勝だ! 相手は予想通り, あの謎の男『Ｊ』。\n
-果たして勝負の行方は……!?
+Now it's the finals! As expected, the\n
+opponent is that mysterios man "J".\n
+How will this match turn out...!?\n
 <END2>
 
 #WRITE(PTR, $000055F8)
-雷ネット翔 ■アクセスＮｏ.9\n
-『決戦! そして……始まり』\n
+RaiNet Kakeru ■ Access No. 9\n
+"Decisive battle! And... beginning"\n
 \n
-『Ｊ』の武器, それは忍術の「分身の術」とでも言うべきもの。そのすばやい動きはまるで腕が4本あるようにさえ見える。\n
-独学で学んだというそのタイピング方法は通称『クロスリッパー』と呼ばれる。Ｊ自身, アメリカのアンダーグラウンド界ではかなりの有名人で, このタイピングテクにあこがれてマネる人もいるほど。\n
-これは瞬間的に腕がクロスする, つまり十字架をモチーフにつけられた名前だ。\n
-もちろんカケルも独特の技を持っている。通称『サンダーグラディエイター』と呼ばれているもの。\n
-あまりのタイピングの速さに, 指とキーの間に摩擦が生じ, それぞれの指先から雷のような小さな微弱電流が発生。次第にそれは大きくなりまるで指先でイナズマを操っていLukaのように見えるのだ。\n
-2人の戦いは完全に互角。ファーストセットはカケルが, セカンドセットはＪがゲットし, 勝負はファイナルラウンドへ持ち込まれる。\n
-これが最後の勝負。真っ向勝負で火花がぶつかり合う壮絶なバトル。会場に設置された超大型ディスプレイパネルには2人の熱い戦いが映し出されている。息をのむ観客。\n
-しかしそんな熱い戦いも, 突然の停電によって中断してしまった。\n
-どうやら自然に起きたトラブルではないようだ。通常ならばＵＰＳ（無停電装置）が働き, マシンまで落ちてしまうことは考えられない。\n
-やむを得ず2人の戦いは一時休戦。騒然となる観客と焦る大会主催者。\n
-……そのとき, 会場中のすべてのディスプレイに怪しげなロゴマークが映し出され, 続いて1文字づつ, ゆっくりと文字が現れてきた。\n
+J's weapon could be called "Bunshin no\n
+jutsu". His quick motions gave the\n
+His self-taught typing method was\n
+nicknamed "Cross Ripper". J is fairly\n
+famous in America's underground world,\n
+and many imitate this style.\n
+It gets its name from the motif of crossing\n
+arms into a cruciform shape.\n
+Of course, Kakeru also has a unique skill,\n
+nicknamed "Thunder Gladiator".\n
+Enough typing speed causes friction\n
+between finger and key, bringing forth a small\n
+electric current like lightning from his\n
+fingertips, gradually building up.\n
+They were evenly matched. First set went\n
+to Kakeru, second to J: the match hinged\n
+on the final round.\n
+Final match. Sparks flew in this grand head-\n
+to-head fight. The struggle was projected\n
+onto large display panels. The audience\n
+held their breath. But the match was\n
+interrupted by a power outage.\n
+It wasn't normal trouble. Normally, the UPS\n
+(Uninterruptible Power Supply) would\n
+activate, and the machines would not fail.\n
+An inevitable, temporary truce. The sponsor\n
+gathered the confused audience.\n
+...Then, every display projected a\n
+suspicious logo, and words slowly\n
+appeared letter by letter.\n
 \n
-「I am a Monster. You are friend? ﾊﾊﾊﾊﾊﾊ」\n
+「I_am_a_Monster. _You_are_friend?\n
+hahahaha」\n
 \n
-不気味なメッセージとともに, なにやら小さな電流音が聞こえてくる。\n
+Along with the ominous message, tiny\n
+electronic sounds could be heard.\n
 \n
 【J】\n
-「どけ! カケル!」\n
+「Kakeru! Move!」\n
 \n
-突然カケルを突き飛ばすＪ。大会用ＰＣに接続されたカケル専用キーボードのケーブルを強引に外した。\n
-するとケーブルの接続されていたＵＳＢポートから火花が……。\n
-危うくショートから免れた, プレイヤーにとって命の次に大切とも言えるキーボード。どうやらカケルはＪによって救われたようである。\n
+J suddenly pushes Kakeru and forcibly unplugs\n
+Kakeru's keyboard from the tourney PC.\n
+As soon as he does, sparks fly from the\n
+USB port...\n
+His ever-important player keyboard\n
+narrowly avoids shorting. It seems like\n
+J saved Kakeru.\n
 \n
 【Kakeru】\n
-「あ, ありがとう」\n
+「Th-thanks」\n
 \n
 【J】\n
-「フッ, 礼にはおよばねーぜ。敵がいなくなったら勝負ができねーからな」\n
+「Hmph, don't thank me. I just can't have\n
+a match without an opponent.」\n
 \n
-そう言い残してＪは去っていく。\n
-大会は終了し, 同率優勝として2人にトロフィーが渡されることとなるが, Ｊはそれさえ受け取らず消えてしまった。\n
-もちろん, カケルも受け取りを拒否。こうして勝負は来年の次回大会まで持ち越されることになった。\n
+Leaving those words, J goes away.\n
+Though the finals over and wins equal, J\n
+disappeared without accepting their trophy.\n
+Of course, Kakeru also refused it. And so\n
+the match will be saved for next year.\n
 \n
-謎の少年Ｊ。その後, 実はこのＪも雷ネットのバッジを付ることになるとは, このときのカケルたちには知るよしもない。
+Mystery boy J. Kakeru and friends were\n
+unaware that after that, J also possessed\n
+a RaiNet badge.\n
 <END2>
 
 #WRITE(PTR, $000055FC)
-雷ネット翔 ■アクセスＮｏ.10\n
-『この子誰の子ネットの子? タマルの恋の物語』\n
+RaiNet Kakeru ■ Access No. 10\n
+“Whose girl is that girl? Tamaru's love story“\n
 \n
-今日も見事にクラッカーを退治したカケルたち。そんな中, タマルはネット上で1人のWomanの子に出会う。ひどく悲しい雰囲気を放つ少Woman・アユミのことが気になって仕方がないタマル。\n
-思い立って検索をかけ, アユミのサイトを見つけて遊びに行ったタマルは愕然とした。なんとサイトがメチャクチャに荒らされていたのだ。パスワードクラックによって, サイトを閉鎖することすらできないという悪質なものだった。\n
-調べてみると, ネット上に氾濫しているクラックツールを利用し, オモシロ半分にクラッキングするという低レベルの行為だった。不特定多数のスクリプトキディが暴れているのだ。\n
-怒ったタマルは, クラッキングツールを使用したキディたちに勝負を挑む。カケルの制止も聞かず, 闇雲に突っ込んでいってしまうタマル。\n
-おかげで危険な目にあうが, 持ち前のガッツで何度も挑み, ついにはキディたちを倒すことに成功。見事アユミのサイトも立ち直すことができた。\n
-タマルは, アユミに, もう安全になったことを伝えに行く。しかし, 傷ついたアユミの気持ちは戻らなかった。\n
-彼Womanは, ネットをすっかり怖いものだと思っており, もう二度とサイトなどやりたくないと言い出したのだ。タマルは, かける言葉を見つけられなかった。\n
+Kakeru and friends eliminate crackers again\n
+today. Tamaru meets the no. 1 girl on the\n
+net. He can't help but notice Ayumi, who\n
+gives off an awfully sad aura.\n
+Tamaru makes up his mind to find Ayumi's\n
+site and is shocked. It's been ravaged by\n
+trolls. Her password was cracked, so she\n
+can't even close the site.\n
+Investigating, he finds it was a low level\n
+prank by an unspecified amount of script\n
+kiddies using a cracking tool available\n
+Enraged, Tamaru challenges the kiddies to\n
+a match. Tamaru disregards Kakeru's\n
+warnings, recklessly plunging headfirst.\n
+As a result, he suffers danger, but\n
+perseveres, eventually beating the kiddies\n
+and restoring Ayumi's site.\n
+Tamaru goes to tell her it's safe now.\n
+But traumatized Ayumi is too scared of\n
+the net to restart her site, and doesn't\n
+return his feelings. Tamaru was at a loss\n
+for words.\n
 \n
-しかし――\n
-サイトが荒らされ, 傷ついたアユミのことを知った世界中の人たちから励ましのメールが届く。ネットの世界は, 剥き出しの悪意だけがあるわけではない。こんなに多くの無償の優しさだってあるのだ。\n
-サイトを再開することを決意するアユミ。と, ここでナント彼Womanも改行小のStudentだと分かる。\n
-一度, 会ってみることにする2人。ドキドキしながら待っているタマルの前に現れたのは, なんとBoyだった。ぶっちゃけた話, ネカマだったのだ。\n
+But--\n
+People around the world who knew the\n
+situation send encouraging mails to Ayumi.\n
+The internet is not just made of malice.\n
+There is also unconditional kindness.\n
+Ayumi decides to reopen her site. And they\n
+find out she also attends Kaigyou.\n
+The two of them meet once. Who appears in\n
+front of the nervously waiting Tamaru is\n
+a boy. Ayumi was a Guy In Real Life.\n
 \n
-かくしてタマルの恋（?）は, 見事に散ってしまったのでした。
+And thus, Tamaru's love(?) splendidly\n
+was in spite of myself.\n
 <END2>
 
 #WRITE(PTR, $00005600)
-雷ネット翔 ■アクセスＮｏ.11\n
-『プリンス オブＪ, 再び』\n
+RaiNet Kakeru ■ Access No. 11\n
+"Prince of J, again"\n
 \n
-Ｊによるサイバーテロ事件が再び勃発する。敵を追いつめるも, 逆に撃退されてしまうカケルたち。\n
-モンスタープログラム『ヴァイオス』でプログラムをフリーズさせられ, 手も足も出せないのだ。\n
-そんな状況の中, Ｊがカケルにボイスチャットを使って話しかけてくる。\n
+J starts another cyberterror incident.\n
+Kakeru chases but is repelled by the enemy.\n
+He and his friends are program frozen by\n
+the Monster Program "Vaios".\n
+With them in that state, J talks to Kakeru.\n
 \n
 【J】\n
-「カケルよ, お前はなぜ, 俺を止めようとする?」\n
+「Kakeru, why do you try to stop me?」\n
 \n
 【Kakeru】\n
-「お前こそなんでこんなことを! 人々が苦しむ姿がそんなに楽しいのかよ!」\n
+「Why are you doing this!? Is suffering\n
+really that fun for you!?」\n
 \n
-Ｊは, 自分の力を試したいからだと答える。\n
-絶対に入り込めないセキュリティ, 盗めないデータ……それを手にすることができれば, 自分の力を確かめることができる。カケルも自分の力を誇りたいから, ネットガーディアンをしているんじゃないのか?\n
-そんなことはないと, Ｊの言葉を否定するカケル。素直じゃないなと笑いながら, Ｊは去っていった。\n
-Ｊの言葉によって, 自分がどうしてネットガーディアンをしているのか, 迷い始めてしまうカケル。自分には, 父親ゆずりの天才的な知識とテクニックがあった。それを活かすために, ガーディアンをしている。ガーディアンになりたくて, 力を得たわけじゃない。\n
+J answered he was testing his own power.\n
+To see if he could break the unbreakable,\n
+steal the unstealable. Testing oneself...\n
+is that not also why Kakeru is a Net\n
+Guardian?\n
+Kakeru says that's not true. J leaves\n
+while saying Kakeru's not being honest.\n
+Kakeru begins to waver with J's words,\n
+wondering why he became a Net Guardian. He\n
+wanted to make use of his genius knowledge\n
+and technique handed down by his father.\n
+He didn't gain power to become a Guardian.\n
 \n
 【Kakeru】\n
-「僕も自分の力を試したくて, ガーディアンをしているだけじゃないのか……?」\n
+「Have I been a Guardian just to test my\n
+own power...?」\n
 \n
-悩み苦しむカケル。パソコンの前に座ることすら拒み始める自分の心。\n
+Kakeru is troubled. Sitting in front of his\n
+computer, he doubts his own heart.\n
 \n
-そんなカケルをよそに, Ｊの侵略は日本の交通機能を管轄する国土交通省のメインコンピュータへと及ぶ。\n
-日本のあちこちで交通事故が勃発。悲しいニュース速報が続くなか, それでも立ち上がれないカケル。\n
-その中で1つのニュースが目に入る。ある子供の父親の死。\n
-それはカケルの境遇にとてもよく似ているものであった。\n
+With Kakeru like that, J's invasion reaches\n
+the Japanese Traffic Ministry's main computer.\n
+Accidents happen all over. While tragic news-\n
+flashes continue, Kakeru is unable to stand.\n
+One report catches his eye. A father dies.\n
+The surroundings also look familiar.\n
 \n
-目覚めるカケル。再起を誓い雷ネットキーボードの前に。\n
-カケル VS Ｊ の戦いが再び始まった。
+Awakened, Kakeru turns to his keyboard.\n
+The war between Kakeru and J begins anew.\n
 <END2>
 
 #WRITE(PTR, $00005604)
-雷ネット翔 ■アクセスＮｏ.12\n
-『うーぱ覚醒』\n
+RaiNet Kakeru ■ Access No. 12\n
+"Upa Awakens"\n
 \n
-モンスタープログラムを次々と繰り出してくるＪ。\n
-戦意を取り戻したカケル。しかし, うーぱというモンスタープログラムを持ちながら, その効力も使用方法も分からない。\n
-劣勢が続く戦いの中で, カケルはあることに気づく。うーぱを覚醒するための方法……それは生前の父から聞いたある一言だった。\n
+J releases his monster program repeatedly.\n
+Kakeru's fighting spirit returns. But he\n
+knows not the effect nor usage of Upa's\n
+While outnumbered, Kakeru notices something.\n
+The way to awaken Upa... His father had\n
+said something about it.\n
 \n
-【カケル父】\n
-「手先のテクニックに溺れるな。本当の強さはカードにあるんだ」\n
+【Kakeru's Father】\n
+「Never sink to underhanded techniques.\n
+True strength is in the cards.」\n
 \n
-うーぱを覚醒させる方法, それは, うーぱ自身の本体プログラムすべてを雷ネットカードに閉じこめて, 攻撃系の雷ネットカードを作り出すこと。\n
-パソコンの外に出してしまうことで, うーぱの存在がアンインストール（死）してしまうと思っていたカケルにとって, この方法は賭けでもあった。そしてこのうーぱ覚醒作戦は見事に大成功!\n
-と同時にうーぱの力が, 想像以上に強大なものであったことに驚く。カケルの圧倒的な操作テクニックと, 覚醒したうーぱの力を持って, Ｊを辛くも倒すことができたカケルたちだったが, 一瞬の隙をつかれ逃げられてしまう。\n
-カケルのチャットウィンドウにＪから「楽しませてもらったよ」の文字。\n
-悔しがるカケルたち。なにもなかったかのように, かわいいデスクトップアクセサリーに戻るうーぱ。\n
+The way to awaken Upa is to seal the\n
+entirety of his program into a RaiNet Card,\n
+producing an attack card.\n
+Since taking Upa out of the computer\n
+means uninstalling (killing) him, Kakeru\n
+knows it's risky. But Operation Awaken\n
+Upa is a huge success!\n
+Upa's power increases beyond imagination.\n
+Kakeru's overwhelming technique and Upa's\n
+awakened power beat J, but he runs away\n
+with a moment's chance.\n
+J sends the words "That was fun" to\n
+Kakeru's chat window, angering them.\n
+As if nothing happened, Upa returns to\n
+a cute desktop accessory.\n
 \n
-すべてを見ていたサイバードラゴン。成長したカケルたちをほほえましく見つめている。\n
+Cyber Dragon saw it all. He looks at how\n
+they've grown, pleased.\n
 \n
 【Cyber Dragon】\n
-「がんばれ, カケル――」\n
+「Persevere, Kakeru--」\n
 \n
-惜しくもＪは逃してしまったが, サイバードラゴンは, カケルたちが確実に成長していることを実感していたのだ。彼の正体はいったい……!?
+Although J regrettably got away, Cyber\n
+Dragon felt that Kakeru and friends had\n
+grown. What is his true identity...!?\n
 <END2>
 
 #WRITE(PTR, $00005608)
-（次回予告）\n
+（Next Episode）\n
 \n
-ネットの世界を狙うハッカーたちは, まだまだたくさんいる。\n
-雷ネットの戦いは, 始まったばかりなのだ!\n
-僕たちは, 新たな決意を胸に, ネットの秩序を守るために駆け出す。\n
-大いなる, 未来へと向けて――!!!\n
+There are still many hackers aiming for the\n
+Net World.\n
+The RaiNet War has just begun!\n
+We, with a new will in our hearts, rush to\n
+protect the order of the net.\n
+To the vast future--!!!\n
 \n
-え, でもなにこの次回タイトル! Woman子小学生だって……!?\n
+Eh, but what's with this next title!? An\n
+elementary schoolgirl...!?\n
 \n
-雷ネット翔 ■アクセスＮｏ.13\n
-『伝説のWoman子小学生ハッカー, ウィル・チャイナ 来日!』\n
+RaiNet Kakeru ■ Access No. 13\n
+"Legendary elementary schoolgirl hacker, Will China, to Japan!"\n
 \n
 \n
-次回も, デュアルアクセス!
+Next time, Dual Access!\n
 <END2>
 
 #WRITE(PTR, $00005610)
@@ -8542,10 +8851,10 @@ fake me
 \n
 \T02所謂, 祖父のパラドックスと言うものですね。\n
 \T02しかしそれは発生しない事が証明されています。\n
-\T02計測した所, 私の居た世界線と比べて, \n
+\T02計測した所, 私の居た世界線と比べて,\n
 \T02この世界線は0.571024％の変動率になっています。\n
 \T02私の父が殺されれば世界線変動率はさらに歪むでしょう。\n
-\T02それは私の父が殺された世界と言う可能性を生みますが, \n
+\T02それは私の父が殺された世界と言う可能性を生みますが,\n
 \T02殺されなかった世界が無くなる訳ではありません。\n
 \n
 \T02SERNは素粒子物理学の研究機関です。\n
@@ -8840,7 +9149,7 @@ fake me
 \T02人々は自分の食べる物を自分で育てています。\n
 \T02世界中で経済活動は遮断され人は1日のほとんどの時間を農場で過ごします。\n
 \n
-\T02科学技術は間違いなく発展していますが, \n
+\T02科学技術は間違いなく発展していますが,\n
 \T02それが人々に提供される機会は少ないです。\n
 \n
 \T02ほとんどをSERNとその背後に居る委員会が牛耳っていLukaらです。\n
@@ -8973,7 +9282,7 @@ fake me
 \T02あなたとは一度, ゆっくりお話ししたいですね。\n
 \T02メールアドレスにご連絡を貰えれば返事を書きます。\n
 \n
-\T02勿論鳳凰院さん以外の方からも, \n
+\T02勿論鳳凰院さん以外の方からも,\n
 \T02まともなメールについてはお待ちしています。\n
 \T02今の所, 誹謗中傷のメールしか来ていませんので。\n
 \n
@@ -9261,11 +9570,11 @@ Rintaro
 <END2>
 
 #WRITE(PTR, $00005660)
-岡部
+Okabe
 <END2>
 
 #WRITE(PTR, $00005664)
-岡部
+Okabe
 <END2>
 
 #WRITE(PTR, $0000566C)
@@ -9285,11 +9594,11 @@ Kurisu
 <END2>
 
 #WRITE(PTR, $00005680)
-マキセと名乗ったWoman
+Girl named Makise
 <END2>
 
 #WRITE(PTR, $00005684)
-Woman
+Girl
 <END2>
 
 #WRITE(PTR, $0000568C)
@@ -9309,11 +9618,11 @@ Mayuri
 <END2>
 
 #WRITE(PTR, $000056A0)
-ガイダンス
+Guidance
 <END2>
 
 #WRITE(PTR, $000056A4)
-ガイダンス
+Guidance
 <END2>
 
 #WRITE(PTR, $000056AC)
@@ -9333,7 +9642,7 @@ Moeka
 <END2>
 
 #WRITE(PTR, $000056C0)
-盗撮Woman
+Voyeuristic Woman
 <END2>
 
 #WRITE(PTR, $000056C4)
@@ -9345,7 +9654,7 @@ Woman
 <END2>
 
 #WRITE(PTR, $000056D0)
-堂々と写真を撮るWoman
+Picture-taking Woman
 <END2>
 
 #WRITE(PTR, $000056D4)
@@ -9357,7 +9666,7 @@ Woman
 <END2>
 
 #WRITE(PTR, $000056E0)
-“機関”のスパイの可能性があるWoman
+Woman "Organization" Spy
 <END2>
 
 #WRITE(PTR, $000056E4)
@@ -9369,7 +9678,7 @@ Woman
 <END2>
 
 #WRITE(PTR, $000056F0)
-どうやらスパイじゃないらしいWoman
+Not A Spy Woman
 <END2>
 
 #WRITE(PTR, $000056F4)
@@ -9381,7 +9690,7 @@ Woman
 <END2>
 
 #WRITE(PTR, $00005700)
-ノーリアクションのWoman
+Unresponsive Woman
 <END2>
 
 #WRITE(PTR, $00005704)
@@ -9393,7 +9702,7 @@ Woman
 <END2>
 
 #WRITE(PTR, $00005710)
-なんの前触れもなく謝ったWoman
+Apologizing Woman
 <END2>
 
 #WRITE(PTR, $00005714)
@@ -9405,7 +9714,7 @@ Woman
 <END2>
 
 #WRITE(PTR, $00005720)
-写真を削除しようとしないWoman
+Privacy Invading Woman
 <END2>
 
 #WRITE(PTR, $00005724)
@@ -9417,7 +9726,7 @@ Woman
 <END2>
 
 #WRITE(PTR, $00005730)
-アキバ観光に来たらしいWoman
+Tourist Woman
 <END2>
 
 #WRITE(PTR, $00005734)
@@ -9429,7 +9738,7 @@ Woman
 <END2>
 
 #WRITE(PTR, $00005740)
-変なWoman
+Weird Woman
 <END2>
 
 #WRITE(PTR, $00005744)
@@ -9577,7 +9886,7 @@ Nae
 <END2>
 
 #WRITE(PTR, $00005804)
-男
+Man
 <END2>
 
 #WRITE(PTR, $0000580C)
@@ -9589,19 +9898,19 @@ Nae
 <END2>
 
 #WRITE(PTR, $00005814)
-男
+Man
 <END2>
 
 #WRITE(PTR, $0000581C)
-【Announcer】
+【Reporter】
 <END2>
 
 #WRITE(PTR, $00005820)
-Announcer
+Reporter
 <END2>
 
 #WRITE(PTR, $00005824)
-Announcer
+Reporter
 <END2>
 
 #WRITE(PTR, $0000582C)
@@ -9613,7 +9922,7 @@ Middle-aged Man
 <END2>
 
 #WRITE(PTR, $00005834)
-若い男
+Middle-aged Man
 <END2>
 
 #WRITE(PTR, $0000583C)
@@ -9625,7 +9934,7 @@ High School Girl
 <END2>
 
 #WRITE(PTR, $00005844)
-Woman子高生
+High School Girl
 <END2>
 
 #WRITE(PTR, $0000584C)
@@ -9637,7 +9946,7 @@ Middle School Girl
 <END2>
 
 #WRITE(PTR, $00005854)
-中年Woman性
+Middle School Girl
 <END2>
 
 #WRITE(PTR, $0000585C)
@@ -9873,11 +10182,11 @@ Policeman
 <END2>
 
 #WRITE(PTR, $00005990)
-PolicemanA
+Policeman A
 <END2>
 
 #WRITE(PTR, $00005994)
-PolicemanA
+Policeman A
 <END2>
 
 #WRITE(PTR, $0000599C)
@@ -10364,44 +10673,44 @@ Steins;Gate Boundary
 <DUMMY>
 
 #WRITE(PTR, $00005C8C)
-シナリオ初期化
+**Loading scenario
 <END2>
 
 #WRITE(PTR, $00005C90)
-シナリオ初期化
+**Loading Scenario
 <END2>
 
 #WRITE(PTR, $00005CA0)
 <DUMMY>
 
 #WRITE(PTR, $00005CA4)
-フローチャート
+**Flowchart
 <END2>
 
 #WRITE(PTR, $00005CA8)
-フローチャート
+**Flowchart
 <END2>
 
 #WRITE(PTR, $00005CB8)
 <DUMMY>
 
 #WRITE(PTR, $00005CBC)
-デバッグメニュー
+**Debug Menu
 <END2>
 
 #WRITE(PTR, $00005CC0)
-デバッグメニュー
+**Debug Menu
 <END2>
 
 #WRITE(PTR, $00005CD0)
 <DUMMY>
 
 #WRITE(PTR, $00005CD4)
-実験用
+**Experimental
 <END2>
 
 #WRITE(PTR, $00005CD8)
-実験用
+**Experimental
 <END2>
 
 #WRITE(PTR, $00006940)

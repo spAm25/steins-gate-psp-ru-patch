@@ -106,7 +106,7 @@ I decide to go channel surfing and see the usual topic on the news programs: the
 <END>
 
 #WRITE(PTR, $000008B4)
-【Announcer】Five days have passed in Akihabara since the satellite crash, but with the start of summer vacation season, crowds are gathering to get a glimpse of the satellite which was left as-is.
+【Reporter】Five days have passed in Akihabara since the satellite crash, but with the start of summer vacation season, crowds are gathering to get a glimpse of the satellite which was left as-is.
 <END>
 
 #WRITE(PTR, $00000960)
@@ -122,19 +122,19 @@ I decide to go channel surfing and see the usual topic on the news programs: the
 <END>
 
 #WRITE(PTR, $00000B4C)
-【Announcer】People like these have been rushing here from all over Japan.
+【Reporter】People like these have been rushing here from all over Japan.
 <END>
 
 #WRITE(PTR, $00000BF8)
-【Announcer】Also, in an interview earlier today, Michael Byrne, spokesman for <DICT>NASA</DICT>, America's aeronautics and space administration,
+【Reporter】Also, in an interview earlier today, Michael Byrne, spokesman for <DICT>NASA</DICT>, America's aeronautics and space administration,
 <END>
 
 #WRITE(PTR, $00000C9C)
-【Announcer】Suggested that a satellite had in fact not crashed in Japan, and that the crashed object was something else.
+【Reporter】Suggested that a satellite had in fact not crashed in Japan, and that the crashed object was something else.
 <END>
 
 #WRITE(PTR, $00000D40)
-【Announcer】The fallen satellite is currently under police investigation. No estimated removal time has been set.
+【Reporter】The fallen satellite is currently under police investigation. No estimated removal time has been set.
 <END>
 
 #WRITE(PTR, $00000DE4)
