@@ -6450,7 +6450,7 @@ Impossible. You mean it's already awakening? That's 50 years earlier than I pred
 <END2>
 
 #WRITE(PTR, $00004424)
-Re: Original Sin level rising to 180%
+Re: Original Sin level rising to 180％
 <END2>
 
 #WRITE(PTR, $00004428)
@@ -6462,7 +6462,7 @@ Akiba's a "center" you say? Absurd. This town was a "center" several hundred yea
 <END2>
 
 #WRITE(PTR, $00004444)
-Re: Original Sin level rising to 180%
+Re: Original Sin level rising to 180％
 <END2>
 
 #WRITE(PTR, $00004448)
@@ -6474,7 +6474,7 @@ So we should cower and hide at the sight of their shadows instead? It's better t
 <END2>
 
 #WRITE(PTR, $00004464)
-Re: Original Sin level rising to 180%
+Re: Original Sin level rising to 180％
 <END2>
 
 #WRITE(PTR, $00004468)
@@ -6482,11 +6482,11 @@ Faris
 <END2>
 
 #WRITE(PTR, $0000446C)
-Has the "Church" still not abandoned that? Even if they revive the Messiah who has now grown moldy, the world will still not move. Piety has already decreased 17% from those days.
+Has the "Church" still not abandoned that? Even if they revive the Messiah who has now grown moldy, the world will still not move. Piety has already decreased 17％ from those days.
 <END2>
 
 #WRITE(PTR, $00004484)
-Re: Original Sin level rising to 180%
+Re: Original Sin level rising to 180％
 <END2>
 
 #WRITE(PTR, $00004488)
@@ -8508,7 +8508,7 @@ gathered the confused audience.\n
 suspicious logo, and words slowly\n
 appeared letter by letter.\n
 \n
-「I_am_a_Monster. _You_are_friend?\n
+「I am a Monster. You are friend?\n
 hahahaha」\n
 \n
 Along with the ominous message, tiny\n
@@ -8676,7 +8676,7 @@ grown. What is his true identity...!?\n
 <END2>
 
 #WRITE(PTR, $00005608)
-（Next Episode）\n
+(Next Episode)\n
 \n
 There are still many hackers aiming for the\n
 Net World.\n
@@ -8696,859 +8696,852 @@ Next time, Dual Access!\n
 <END2>
 
 #WRITE(PTR, $00005610)
-\L294 名前:\c5JOHN TITOR\c0:2010/07/28(水) 20:11:45 ID:QA4nAofm0\n
+\L294 Name:\c5JOHN TITOR\c0:2010/07/28(Wed) 20:11:45 ID:QA4nAofm0\n
 \n
-\T02私が2036年から来た事を信じて貰わなくても別に構いません。\n
+\T02I don't mind even if you don't believe I came from the year 2036.\n
 \n
-\T02この世界線のみなさんはタイムマシンについて詳しく知りたい様ですね。\n
-\T02タイムマシンを開発したのは\c4SERN\c0です。\n
-\T02彼らは2034年にそれを完成させました。\n
-\n
-\n
-\L295 名前:\rs名無しの予言者さん\re:2010/07/28(水) 20:12:21 ID:LSpA4iZc0\n
-\n
-\T02タイムトラベラー（笑）\n
-\T02John Titor（笑）\n
+\T02It seems like everyone in this world line is interested about time machines, doesn't it?\n
+\T02The time machine was developed by \c4SERN\c0.\n
+\T02They completed it in 2034.\n
 \n
 \n
-\L296 名前:\rs栗悟飯とカメハメ波\re:2010/07/28(水) 20:15:08 ID:YhdIy4Ep0\n
+\L295 Name:\rsAnonymous\re:2010/07/28(Wed) 20:12:21 ID:LSpA4iZc0\n
 \n
-\T02タイムマシンについて\c4ｋｗｓｋ\c0\n
+\T02time traveler lol\n
+\T02john titor lol\n
 \n
 \n
-\L297 名前:\rs名無しの予言者さん\re:2010/07/28(水) 20:15:54 ID:mmPAFHOUO\n
+\L296 Name:\rsKuriGohan and Kamehameha\re:2010/07/28(Wed) 20:15:08 ID:YhdIy4Ep0\n
 \n
-\T02タイム・マシンって市販されてんの?\n
-\T02いくらで買える?\n
-\T021億ぐらい積むから持ってきてよ\n
+\T02\c4saucemoar\c0 on time machine\n
+\n
+\n
+\L297 Name:\rsAnonymous\re:2010/07/28(Wed) 20:15:54 ID:mmPAFHOUO\n
+\n
+\T02Do they sell time machines?\n
+\T02How much do they cost?\n
+\T02I've got about about a hundred million stockpiled.\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005614)
-\L343 名前:\c5JOHN TITOR\c0:2010/07/28(水) 20:47:42 ID:QA4nAofm0\n
+\L343 Name:\c5JOHN TITOR\c0:2010/07/28(Wed) 20:47:42 ID:QA4nAofm0\n
 \n
-\T02タイムマシンはSERNによって独占されています。\n
-\T02一般人も, 国家も, 企業も, 手に入れる事は出来ません。\n
-\T02彼らはそれを自身の利権の為だけに用いて, 世界に\c4ディストピア\c0をもたらしました。\n
-\T02争いは完全に消えましたが, それは偽りの平和に過ぎません。\n
+\T02SERN has a monopoly on time machines.\n
+\T02No ordinary person, nor nation, nor business can acquire one.\n
+\T02They only used them for their own self interests, bringing the world into a \c4dystopia\c0.\n
+\T02All conflicts disappeared, but that's only a false peace.\n
 \n
-\T02ｋｗｓｋとは何です?\n
-\n
-\n
-\L344 名前:\rs名無しの予言者さん\re:2010/07/28(水) 20:48:19 ID:3rwA/eS40\n
-\n
-\T02この時代になにをしにきた?\n
-\T02まさかアキバに人工衛星落としたのは藻前の仕業か!!1!1\n
+\T02What does "saucemoar" mean?\n
 \n
 \n
-\L345 名前:\rs名無しの予言者さん\re:2010/07/28(水) 20:48:37 ID:jCOZxGQvO\n
+\L344 Name:\rsAnonymous\re:2010/07/28(Wed) 20:48:19 ID:3rwA/eS40\n
 \n
-\T02ちょっと待ておまいら\n
-\T02タイターさんは＠ちゃんねる語が分からないんだ!\n
-\T02もっと分かりやすくきれいな日本語で書こうぜ\n
-\n
+\T02Why did you come to this time?\n
+\T02Don't tell me the Akiba satellite crash was your doing?!!1!1\n
 \n
 \n
-\T02性的な意味で\n
+\L345 Name:\rsAnonymous\re:2010/07/28(Wed) 20:48:37 ID:jCOZxGQvO\n
+\n
+\T02Wait a minute guyz.\n
+\T02Titor-san doesn't understand @channel lingo!\n
+\T02Let's write in clean, easier to understand Japanese, kay?\n
 \n
 \n
-\L346 名前:\rs名無しの予言者さん\re:2010/07/28(水) 20:50:00 ID:SKdZBt7h0\n
+\n
+\T02If you know what I mean.\n
+\n
+\n
+\L346 Name:\rsAnonymous\re:2010/07/28(Wed) 20:50:00 ID:SKdZBt7h0\n
 \n
 \T02\rs>>343\re\n
-\T02いいから酉付けろって言ってんだろカス\n
+\T02Just become a tripfag already.\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005618)
-\L476 名前:\c5JOHN TITOR\c0:2010/07/28(水) 22:07:41 ID:QA4nAofm0\n
+\L476 Name:\c5JOHN TITOR\c0:2010/07/28(Wed) 22:07:41 ID:QA4nAofm0\n
 \n
-\T02私は現在を（あなたがたから見れば未来ですね）変えるという崇高な使命の為にやって来ました。\n
-\T02SERNによって作られたディストピアを破壊し, 再び自由を手にする為です。\n
-\T02この時代はとても心地が良いですね。人々が自由を謳歌している。\n
+\T02I came here to fulfill the noble mission of changing my present (from your perspective, the future, I guess).\n
+\T02I came here to destroy the dystopia SERN has built, and once again obtain our freedom.\n
+\T02I feel very good about this era. People everywhere are enjoying their freedom.\n
 \n
-\T02けれどこの自由も, 僅か20年で失われてしまうという事を, みなさんは知らなければなりません。\n
+\T02But you will all lose that freedom in merely 20 short years. Everyone must become aware of this fact.\n
 \n
-\T02酉とは何でしょうか? 教えて頂ければ対応します。\n
-\n
-\n
-\L477 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:07:52 ID:woBqDu/kO\n
-\n
-\T02あんたはつまりSERNの手下ってことだろ?\n
-\T02タイムマシンはSERNが独占してるならそうなるよな\n
-\T02だったらSERNの作ったディストピアを破壊するなんて目的は矛盾してる\n
-\n
-\T02論 破 終 了\n
+\T02What's a tripfag? I'll be one if you tell me what it is.\n
 \n
 \n
-\L478 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:08:20 ID:0EmRpgw80\n
+\L477 Name:\rsAnonymous\re:2010/07/28(Wed) 22:07:52 ID:woBqDu/kO\n
 \n
-\T02ディストヒアってなんぞ?\n
+\T02So doesn't that make you SERN's underling?\n
+\T02If SERN has a monopoly on time machines, then you have to be.\n
+\T02Therefore, your objective to destroy SERN's dystopia is a contradiction.\n
 \n
-\n
-\L479 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:09:18 ID:4EfUbpVLO\n
-\n
-\T02国家はどうなってるわけ?\n
-\T02これからたった20年で今の枠組みが瓦解するとは思えん\n
-\T02特に中東のカオスっぷりをどうにかするのは\c4ガチ\c0で㍉\n
-\T02マンガの見すぎじゃね\n
+\T02Quod Erat Demonstrandum.\n
 \n
 \n
-\L480 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:11:06 ID:hXaIbr0U0\n
+\L478 Name:\rsAnonymous\re:2010/07/28(Wed) 22:08:20 ID:0EmRpgw80\n
 \n
-\T02タイター氏1人の都合で未来を変えるって? とんだ傲慢さだ。\n
-\T02ディストピアだっていーじゃん平和なんだろ\n
+\T02What's a dystopia?\n
+\n
+\n
+\L479 Name:\rsAnonymous\re:2010/07/28(Wed) 22:09:18 ID:4EfUbpVLO\n
+\n
+\T02So what happens to the country?\n
+\T02I don't think society can collapse in just 20 years.\n
+\T02Falling into chaos like in the middle east is\c4srsly\c0overused.\n
+\T02Especially in manga and stuff.\n
+\n
+\n
+\L480 Name:\rsAnonymous\re:2010/07/28(Wed) 22:11:06 ID:hXaIbr0U0\n
+\n
+\T02You plan on changing the future all by yourself, Mr. Titor? How arrogant.\n
+\T02I mean, if it's peaceful, who gives a shit about dystopia.\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $0000561C)
-\L523 名前:\c5JOHN TITOR\c0:2010/07/28(水) 22:43:19 ID:QA4nAofm0\n
+\L523 Name:\c5JOHN TITOR\c0:2010/07/28(Wed) 22:43:19 ID:QA4nAofm0\n
 \n
-\T02私のタイムマシンは, SERNの技術を盗んで作ったプロトタイプと言うべきでしょう。\n
-\T02あまり性能は良くありません。\n
+\T02I think I should call my time machine a prototype reverse-engineered from SERN technology.\n
+\T02It's not very efficient.\n
 \n
-\T022036年を例えるならば, 独裁者によって地球が支配されたようなものです。\n
-\T02独裁者は人々に対して完璧なる管理を行い, プライバシーは一切無く, 食べ物の量も住む場所も結婚する相手も自動的に決められます。\n
-\T02そして独裁者に逆らう者は容赦なく殺されます。裁判等も有りません。\n
-\n
-\n
-\L524 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:44:33 ID:JLrNSYyx0\n
-\n
-\T02映画で見たことあるけど, 過去を変えると未来が大きく変わるんですよ\n
-\T02なんの考えもなく自分の都合だけで今を変えて\n
-\T02未来がとんでもないことになったらどうするつもりですか\n
+\T02Relatively speaking, in 2036, the world is almost ruled like a dictatorship.\n
+\T02The dictatorship asserts complete dominance over the people, deciding what they will eat, where they will live, and whom they will marry, with no sense of privacy whatsoever.\n
+\T02And anybody who dares oppose the dictatorship is slaughtered. There are no trials.\n
 \n
 \n
-\L525 名前:\rs栗悟飯とカメハメ波\re:2010/07/28(水) 22:44:51 ID:hdIy4Epi0\n
+\L524 Name:\rsAnonymous\re:2010/07/28(Wed) 22:44:33 ID:JLrNSYyx0\n
 \n
-\T02え, なにそれSERN＝独裁者とか言いたいの?\n
-\T02SERNがどんな機関か知らんのか\c4ｗ\c0\n
-\n
-\n
-\L526 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:45:24 ID:QqJKWbsa0\n
-\n
-\T02それなんてディック?\n
+\T02I've only seen it in movies, but small changes in the past cause huge changes to the future\n
+\T02Just by your presence you changed the present,\n
+\T02so what'll you do if you make unexpected changes to the future?\n
 \n
 \n
-\L527 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:46:32 ID:DBCLLiEc0\n
+\L525 Name:\rsKuriGohan and Kamehameha\re:2010/07/28(Wed) 22:44:51 ID:hdIy4Epi0\n
 \n
-\T02こいつの父親特定しようぜ\n
-\T02で, それを殺しちゃえばはた迷惑なタイムトラベラー（笑）は生まれないだろ\n
+\T02>implying SERN = dictatorship\n
+\T02Do you even know what SERN is? \clol\c0\n
 \n
 \n
-\L528 名前:\rs名無しの予言者さん\re:2010/07/28(水) 22:47:41 ID:swA91YIrO\n
+\L526 Name:\rsAnonymous\re:2010/07/28(Wed) 22:45:24 ID:QqJKWbsa0\n
 \n
-\T02というかタイムトラベルしたとして過去の自分に会えるんですか?\n
-\T02会ったらどうなるんですか?\n
+\T02is this a troll?\n
+\n
+\n
+\L527 Name:\rsAnonymous\re:2010/07/28(Wed) 22:46:32 ID:DBCLLiEc0\n
+\n
+\T02if we find this faggot's dad and kill him\n
+\T02then this autist time traveler (lmao) won't be born in the first place amirite\n
+\n
+\n
+\L528 Name:\rsAnonymous\re:2010/07/28(Wed) 22:47:41 ID:swA91YIrO\n
+\n
+\T02Anyway, if you become a time traveler, could you go and meet up with your past self?\n
+\T02What would happen if you did?\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005620)
-\L689 名前:\c5JOHN TITOR\c0:2010/07/28(水) 23:31:58 ID:QA4nAofm0\n
+\L689 Name:\c5JOHN TITOR\c0:2010/07/28(Wed) 23:31:58 ID:QA4nAofm0\n
 \n
-\T02所謂, 祖父のパラドックスと言うものですね。\n
-\T02しかしそれは発生しない事が証明されています。\n
-\T02計測した所, 私の居た世界線と比べて,\n
-\T02この世界線は0.571024％の変動率になっています。\n
-\T02私の父が殺されれば世界線変動率はさらに歪むでしょう。\n
-\T02それは私の父が殺された世界と言う可能性を生みますが,\n
-\T02殺されなかった世界が無くなる訳ではありません。\n
+\T02You're talking about the so called Grandfather Paradox, huh.\n
+\T02That's been disproven.\n
+\T02This world line has a divergence of 0.571024％,\n
+\T02compared to the world line I came from.\n
+\T02Killing my father would warp the divergence of the world line.\n
+\T02It would create the possible world where my father is killed,\n
+\T02but it's not like it would erase the world where he isn't.\n
 \n
-\T02SERNは素粒子物理学の研究機関です。\n
-\T02それはこの時代も2036年も変わりません。\n
+\T02SERN is a particle physics research institution.\n
+\T02That hasn't changed in 2036.\n
 \n
-\T02勿論, 過去の自分に会う事は出来ます。\n
-\T02会ったとしても何も起こらないと言うのが2036年における主流の考え方です。\n
-\T02私は残念ながら過去の自分に会った事は有りません。\n
-\n
-\n
-\L690 名前:\rs名無しの予言者さん\re:2010/07/28(水) 23:32:29 ID:JBL5mm180\n
-\n
-\T02いいからおまいがタイムトラベラー（笑）だって証拠を出せよ\n
-\T02タイムマシンの画像\c4うｐ\c0で許してやる\n
+\T02You certainly can meet your past self.\n
+\T02The mainstream way of thinking in 2036 says that even if you do, nothing would happen.\n
+\T02I, however, haven't met my past self.\n
 \n
 \n
-\L691 名前:\rs名無しの予言者さん\re:2010/07/28(水) 23:33:10 ID:gzWW0UajO\n
+\L690 Name:\rsAnonymous\re:2010/07/28(Wed) 23:32:29 ID:JBL5mm180\n
 \n
-\T02もしかして多世界解釈っすか? マジパネェっす\n
+\T02if ur really a time traveler (lmao) then fucking prove it, faggot\n
+\T02\c4dump\c0 time machine pics or gtfo\n
 \n
 \n
-\L692 名前:\rs栗悟飯とカメハメ波\re:2010/07/28(水) 23:34:26 ID:hdIy4Ep10\n
+\L691 Name:\rsAnonymous\re:2010/07/28(Wed) 23:33:10 ID:gzWW0UajO\n
 \n
-\T02「素粒子物理学の研究機関」が世界征服を成し遂げた件についてｗ\n
+\T02the many-worlds interpretation? fascinating\n
+\n
+\n
+\L692 Name:\rsKuriGohan and Kamehameha\re:2010/07/28(Wed) 23:34:26 ID:hdIy4Ep10\n
+\n
+\T02What does a "particle physics research institution" have to do with world domination lol\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005624)
-\L711 名前:\c5JOHN TITOR\c0:2010/07/28(水) 23:49:26 ID:QA4nAsfn0\n
+\L711 Name:\c5JOHN TITOR\c0:2010/07/28(Wed) 23:49:26 ID:QA4nAsfn0\n
 \n
-\T02私は自分の存在について証明する気も有りません。\n
-\T02此処にこうして書き込んだのは, ちょっとした気紛れですので。\n
-\T02私は私の使命に基づいて, 粛々とすべき事をするだけです。\n
-\n
-\n
-\L712 名前:\rs名無しの予言者さん\re:2010/07/28(水) 23:49:45 ID:YmIvn94/0\n
-\n
-\T02世界線とは何ですか?\n
-\T02別の世界線の自分と会えますか?\n
-\T02会ったらどうなりますか?\n
+\T02I do not feel the need to prove my own existence.\n
+\T02After all, I am only posting on these messages on a whim.\n
+\T02I must stay silent due to my mission.\n
 \n
 \n
-\L713 名前:\rs名無しの予言者さん\re:2010/07/28(水) 23:50:36 ID:SKdZBth70\n
+\L712 Name:\rsAnonymous\re:2010/07/28(Wed) 23:49:45 ID:YmIvn94/0\n
+\n
+\T02What are "world lines?"\n
+\T02what would happen if you would meet yourself on another world line?\n
+\n
+\n
+\L713 Name:\rsAnonymous\re:2010/07/28(Wed) 23:50:36 ID:SKdZBth70\n
 \n
 \T02\rs>>476\re\n
 \n
-\T02遅レスだが酉＝トリップ\n
-\T02名前の後に＃パスワードで出せる\n
+\T02Late reply, but tripfag = poster with tripcode\n
+\T02Put #password after your name\n
 \n
 \n
-\L714 名前:\rs名無しの予言者さん\re:2010/07/28(水) 23:51:11 ID:DBCLLiE0\n
+\L714 Name:\rsAnonymous\re:2010/07/28(Wed) 23:51:11 ID:DBCLLiE0\n
 \n
-\T02逃げたｗ\n
+\T02lol backpedaling\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005628)
-\L807 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/29(木) 00:50:57 ID:4Co5c6io0\n
+\L807 Name:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/29(Thu) 00:50:57 ID:4Co5c6io0\n
 \n
-\T02世界線は, 無数に並行して流れる川のようなものです。\n
-\T02途中で幾つにも分岐していきます。\n
-\T02例えばあなたがこの掲示板に書き込みをしたかしなかったか程度では世界線変動率に変化は有りません。\n
-\T02しかしあなたが通り魔に殺された場合は世界線変動率が変化します。\n
-\T02と言っても, ほんの0.000002％程度でしょうけれど。\n
-\T02誤解しないよう追記しておくと, 人はそれだけ沢山居るという事です。\n
-\T02戦争や大きなテロ等が起きれば, その数値の幅も大きくなります。\n
+\T02World lines are like an infinite number of rivers flowing parallel.\n
+\T02Along the way, many of them diverge.\n
+\T02For example, whether or not you post on this message board has no effect on this world line's divergence.\n
+\T02But, if you were to be killed by a random attacker, then the world line's divergence would change.\n
+\T02However, it probably wouldn't change any more than about 0.000002％.\n
+\T02So that nobody misunderstands, I'd like to add that that means a human is only worth that much.\n
+\T02That value skyrockets in the face of war, major acts of terrorism, etc.\n
 \n
-\T02トリップについて教えて下さった方, ありがとう。\n
-\T02以後はこれを付ければ良いのですね。覚えておきます。\n
+\T02Thanks to whoever taught me about tripcodes.\n
+\T02It will be best for me to use this from now on. I'll remember it.\n
 \n
-\T02今日は少し疲れてしまったので, また後日。\n
-\T02みなさんとお話出来て楽しかったです。\n
+\T02I'm a little tired today, so let's save the rest for another day.\n
+\T02It's been fun talking to everybody.\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $0000562C)
-\L229 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/30(金) 17:36:29 ID:nE2bVz8A0\n
+\L229 Name:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/30(Fri) 17:36:29 ID:nE2bVz8A0\n
 \n
-\T02世界はエヴェレット・ホイーラーモデルで説明出来ます\n
-\T02詳しくはそちらを参照して下さい\n
+\T02The Everett Wheeler model is correct.\n
+\T02Refer to that for more details.\n
 \n
-\T02みなさんは時間の概念について固定観念に支配されているようです\n
-\T02時間は過去から未来へ一方向へ流れている訳では有りません\n
-\T02もっと正確に言うならば, 因果律は何が有っても矛盾を許さず結果の部分が改変された場合, それに伴う原因も破綻が無いよう改変されるのです\n
+\T02It seems like everyone has a fixed idea about the concept of time itself.\n
+\T02It's not like the flow of time is restricted to one-way traffic from past to future.\n
+\T02To be more accurate, the law of cause and effect doesn't allow any contradictions. In the case that the effect portion is changed, the accompanying cause is changed so it doesn't fail.\n
 \n
-\T02ダイバージェンスが変動する事を認識できる者が滅多に居ないのは, そう言う理由です\n
-\T02（ダイバージェンスとは, 世界線変動率の事を指します）\n
-\n
-\n
-\L230 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:36:47 ID:EwxU7IKuO\n
-\n
-\T02死ね詐欺師\n
-\T02証拠も出さないで何がタイムトラベラーだよカス\n
+\T02That's the reason why there are few people who can recognize the changes in divergence.\n
+\T02(Divergence being the ratio of divergence of the world line)\n
 \n
 \n
-\L231 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:37:21 ID:2BlkIGVAO\n
+\L230 Name:\rsAnonymous\re:2010/07/30(Fri) 17:36:47 ID:EwxU7IKuO\n
 \n
-\T02株価情報\c4ｐｌｚ\c0\n
-\T02もちろん知ってますよねタイムトラベラーなんですから\n
-\n
-\n
-\L232 名前:\rs栗悟飯とカメハメ波\re:2010/07/30(金) 17:37:50 ID:c4YGJQG0\n
-\n
-\T02ダイバージェンスとかいうものの変動を認識できないなら, なんでタイターは変動率の数値を観測できているんだ?\n
-\T02あ, そうか, タイムマシンにはそれを計測できる装置も載っているんですね分かりますｗｗｗｗｗ\n
-\n
-\T02あと, 研究機関だったSERNがいつの間にか世界を支配する統治機関に変貌した件について前から質問してるわけだが, いつ答えてくれるんですかねえジョンさんｗ\n
+\T02die poser.\n
+\T02you claim to be a time traveler without proof? Trash.\n
 \n
 \n
-\L233 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:38:18 ID:oPnJf03PO\n
+\L231 Name:\rsAnonymous\re:2010/07/30(Fri) 17:37:21 ID:2BlkIGVAO\n
 \n
-\T02話は聞かせてもらった! 人類は滅亡する!（AA略\n
-\n
-\n
-\L234 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:39:04 ID:zpCcZ/Db0\n
-\n
-\T02ネタにマジレス, かこわるいｗ\n
-\T02タイターなんて釣りネタだろ\n
+\T02stock price info \c4plz\c0\n
+\T02you know since you're a time traveler, right?\n
 \n
 \n
-\L235 名前:\rsHououin Kyouma\re:2010/07/30(金) 17:40:23 ID:VigrFpib0\n
+\L232 Name:\rsKuriGohan and Kamehameha\re:2010/07/30(Fri) 17:37:50 ID:c4YGJQG0\n
 \n
-\T02どいつもこいつもタイターに対する誹謗中傷ばかりで, まともに議論しようという気がないようだな。だから貴様らは屑なのだ!\n
+\T02If you can't recognize the changes in divergence, then how can you even quantify it, huh, Titor?\n
+\T02Oh, I know, you've got some magical device on board your time machine that measures it for you lololololol\n
 \n
-\T02時間が過去から未来へ流れているわけではないというなら, タイムマシンはぐっと身近な装置になるということだ未来から過去へ行くという行為が, 時空の『逆行』ではなくなるわけだからな\n
-\T02タイターの言うことにはうなずける部分がある\n
-\n
-\T02ところでタイターにSERNが今やっている実験についてもっと詳しく教えてもらいたい\n
+\T02Also, I've been asking you before how SERN went from researching particles to conquering worlds, but when will you answer me, Mr. John? lol\n
 \n
 \n
-\L236 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:41:31 ID:mHlPbPNPO\n
+\L233 Name:\rsAnonymous\re:2010/07/30(Fri) 17:38:18 ID:oPnJf03PO\n
 \n
-\T02秋の天皇賞の優勝馬教えて\n
-\T02全財産注ぎ込むんで\n
-\n
-\n
-\L237 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:41:35 ID:okqnDJCu0\n
-\n
-\T02エヴェレット・ホイーラーモデル＝多世界解釈\n
-\T02つまり世界はパラレルワールドってことね\n
+\T02Oh noes! Humanity is ruined! whathassciencedone.jpg\n
 \n
 \n
-\L238 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:42:22 ID:5mZEpBkKO\n
+\L234 Name:\rsAnonymous\re:2010/07/30(Fri) 17:39:04 ID:zpCcZ/Db0\n
 \n
-\T02つーかコテハンウザくね?\n
-\T02タイターよりHououin Kyoumaってヤツの方がウザい\n
-\n
-\n
-\L239 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:42:49 ID:NFnnAEedO\n
-\n
-\T02John Titorって名乗ってるくせに日本語ペラペラなのがもうね…\n
-\T02せめて英語で書き込んでくださいよリアリティ的な意味で\n
+\T02lol, newfags responding seriously to troll thread\n
+\T02This Titor guy's a shitty troll\n
 \n
 \n
-\T02どうせ英語なんて書けないんでしょうけど\n
+\L235 Name:\rsHououin Kyouma\re:2010/07/30(Fri) 17:40:23 ID:VigrFpib0\n
+\n
+\T02Every last one of you has done nothing but slander Titor without even a hint of attempting serious discussion, huh. That's why every last one of you is garbage!\n
+\n
+\T02If you say time doesn't have to flow from past to future, then that makes time machines a very familiar device. Because that means going from future to past isn't exactly the "reversal" of space time.\n
+\T02I can agree with some parts of what Titor said.\n
+\n
+\T02By the way, Titor, I'd like to ask you to explain SERN's current experiments in more detail.\n
 \n
 \n
-\L240 名前:\rs名無しの予言者さん\re:2010/07/30(金) 17:43:36 ID:ujdOuBNyO\n
+\L236 Name:\rsAnonymous\re:2010/07/30(Fri) 17:41:31 ID:mHlPbPNPO\n
 \n
-\T02タイムマシンがもし本当にあるなら, 私はタイターさんにお願いしたいことがあります。\n
-\T02去年, 母が渋谷の地震で亡くなりました。母が出かけるのを私が止めていれば, 死んだりすることはなかった。\n
-\T02だからタイムマシンを貸して下さい!\n
+\T02Tell me the winning horse of this fall's Tennou Shou\n
+\T02I'll invest my life savings\n
 \n
 \n
-\L241 名前:\rs栗悟飯とカメハメ波\re:2010/07/30(金) 17:44:40 ID:c4YGJQG0\n
+\L237 Name:\rsAnonymous\re:2010/07/30(Fri) 17:41:35 ID:okqnDJCu0\n
+\n
+\T02Everett Wheeler model = many-worlds interpretation\n
+\T02Basically, that means parallel worlds.\n
+\n
+\n
+\L238 Name:\rsAnonymous\re:2010/07/30(Fri) 17:42:22 ID:5mZEpBkKO\n
+\n
+\T02What's with all the annoying namefags?\n
+\T02This Hououin Kyouma faggot's more annoying than Titor.\n
+\n
+\n
+\L239 Name:\rsAnonymous\re:2010/07/30(Fri) 17:42:49 ID:NFnnAEedO\n
+\n
+\T02You call yourself John Titor and yet you're perfectly fluent in Japanese...\n
+\T02Writing in English would at least make it seem more realistic.\n
+\n
+\n
+\T02In any case, you can't write in English, can you?\n
+\n
+\n
+\L240 Name:\rsAnonymous\re:2010/07/30(Fri) 17:43:36 ID:ujdOuBNyO\n
+\n
+\T02If there really is such a thing as time machines, then there's a favor I'd like to ask of you, Mr. Titor.\n
+\T02My mom died last year in the earthquake that hit Shibuya. If I stop my mom from leaving, then I can undo her death.\n
+\T02So please, lend me your time machine!\n
+\n
+\n
+\L241 Name:\rsKuriGohan and Kamehameha\re:2010/07/30(Fri) 17:44:40 ID:c4YGJQG0\n
 \n
 \T02\rs>>235\re\n
 \n
-\T02理論もソースも出さないタイムトラベラー（笑）の言うこと信じちゃうおとこのひとって……\n
+\T02Guys who really believe this time traveler (lmao) who doesn't give theories or sauce are so...\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005630)
-\L311 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/30(金) 18:09:37 ID:nE2bVz8A0\n
+\L311 Name:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/30(Fri) 18:09:37 ID:nE2bVz8A0\n
 \n
-\T02時間は一方向には流れていないと言う事について, みなさんは特に何も感じなかったようですね。\n
-\T02それが固定観念に支配されている証拠です。\n
-\T02そしてその固定観念を破ろうとしないのは, 私の目から見るとかなり深刻です。\n
-\T02ディストピアが構築されてしまった理由が何となく分かったような気がします。\n
-\n
-\n
-\T02ダイバージェンスが変わるような大きな出来事が発生すると, その度に過去は因果律に沿って矛盾が無いよう再構成されます。\n
-\T02例えば今, この世界線が, とある重大な出来事が発生した事でダイバージェンスが大きく変動し, 世界線Ｂへ移ったとします。\n
-\T02世界線Ｂには, 残念ながらこの＠ちゃんねるというネット掲示板は存在していませんでした。\n
-\T02その場合, あなたがたの中に有る『＠ちゃんねるを見た。\n
-\T02書き込みをした』と言うこれまでの記憶は消去され, その時間に別の事をしていた記憶が構築されるのです。\n
-\n
-\T02これはつまり, 現在を変える事で過去も変わる事の証明です。\n
-\n
-\T02SERNについては昨日説明しました。あえて説明を付け加えるとするなら, 彼らの言う事を安易に信じてはならないと言う事です。\n
-\T02既に彼らはマイクロブラックホール生成に成功しています。\n
+\T02It seems nobody especially felt anything when I said that time does not flow in one direction.\n
+\T02That is evidence that people are stuck on a fixed idea.\n
+\T02And, as far as I see, not destroying that fixed idea could become a serious issue.\n
+\T02Somehow or another, it seems you understand the reason why the dystopia was constructed.\n
 \n
 \n
-\L312 名前:\rsHououin Kyouma\re:2010/07/30(金) 18:10:13 ID:VigrFpib0\n
+\T02Whenever a momentous incident occurs that would cause divergence to change, the past is reconstructed to prevent contradictions, in accordance to the law of cause and effect.\n
+\T02For example, if in this world line, a certain momentous incident were to occur, causing a significant change in divergence, we would be transferred to World Line B.\n
+\T02In this World Line B, this online bulletin board, @channel, unfortunately never came into existence.\n
+\T02In this case, all of your memories up until now of reading and posting on @channel would disappear.\n
+\T02They would be overwritten by memories of you doing something else.\n
 \n
-\T02>>栗悟飯とカメハメ波\n
+\T02This is, in short, proof that by changing the present, you change the past.\n
 \n
-\T02俺は知的好奇心を満たしたいだけだ\n
-\T02最初からウソだと決め込んでけんか腰になるより\n
-\T02例えそれがウソだろうが本当だろうがタイターの語ろうとしていることを聞いてから判断すればいいだけのこと\n
-\n
-\T02この俺, マッドサイエンティストHououin Kyoumaこそが近い将来タイターとコンタクトを取ってタイムマシンを手に入れてやる\n
-\n
-\T02そのとき俺は勝ち組になる。指をくわえてみているがいい, 下衆どもが!\n
-\n
-\n
-\L313 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:11:05 ID:pBgaGka90\n
-\n
-\T02いいから株価教えろっつってんだろふざけんなよ氏ね\n
-\T02それ教えない限り絶対信じねーからな!\n
+\T02I explained SERN's situation yesterday. If you want to supplement that explanation, then you have no choice but to believe what they say.\n
+\T02They have already succeeded at the creation of micro-black holes.\n
 \n
 \n
-\L314 名前:\rs栗悟飯とカメハメ波\re:2010/07/30(金) 18:12:07 ID:c4YGJQG0\n
+\L312 Name:\rsHououin Kyouma\re:2010/07/30(Fri) 18:10:13 ID:VigrFpib0\n
+\n
+\T02>>KuriGohan and Kamehameha\n
+\n
+\T02I only wish to quench my intellectual thirst.\n
+\T02Rather than getting belligerent assuming it's a hoax from the start,\n
+\T02I would prefer to make a sound decision on whether it's fact or fiction after I've heard what Titor has to say.\n
+\n
+\T02I myself, the mad scientist, Hououin Kyouma, will come in contact with Titor in the near future, and procure a time machine for myself.\n
+\n
+\T02And then I will be the last one laughing. Suck it, sleazebags!
+\n
+\n
+\n
+\L313 Name:\rsAnonymous\re:2010/07/30(Fri) 18:11:05 ID:pBgaGka90\n
+\n
+\T02Just tell me the stock prices already or f*ckin kill urself fgt\n
+\T02I don't believe you if you can't even tell me that!\n
+\n
+\n
+\L314 Name:\rsKuriGohan and Kamehameha\re:2010/07/30(Fri) 18:12:07 ID:c4YGJQG0\n
 \n
 \T02\rs>>311\re\n
 \n
-\T02それは世界が再構築されてるとは言わないだろボケが\n
-\T02人の脳内で記憶が調整されてるってことじゃねえか\n
-\T02全然違うわアホか\n
-\T02そもそも, いったい誰が67億もの人間の脳を同時に調整してくれるんだ?\n
-\T02自分自身が認識してそれをしてるのか?\n
+\T02But that's wrong, you fucking retard.\n
+\T02That's not reconstructing the world, you idiot, that's altering people's memories.\n
+\T02In the first place, who the hell can alter the memories of nearly 6.7 billion people?\n
+\T02Do you even realize how stupid that sounds?\n
 \n
-\T02少なくとも漏れにはそんな調整した覚えもされた覚えもないぞ\n
-\T02つーかそれのどこが多世界解釈なんだよ\n
-\T02もっと勉強しておいでｗ\n
+\T02At least eye don't remember anyone having that sort of alteration capability.\n
+\T02Do some more research lol.\n
 \n
 \n
 \n
-\T02マイクロブラックホール（笑）\n
+\T02micro black holes (lmao)\n
 \n
 \n
-\L315 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:12:36 ID:X59cEgxM0\n
+\L315 Name:\rsAnonymous\re:2010/07/30(Fri) 18:12:36 ID:X59cEgxM0\n
 \n
-\T02世界は滅びるの?\n
-\T02つまり改造バギーに乗ってヒャッハーできるってことだな!\n
-\T02ちょっと床屋行ってモヒカンにしてくる\n
-\T02トゲのついた肩パッドってどこで売ってる?\n
-\n
-\n
-\L316 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:12:54 ID:SWS6cCo2O\n
-\n
-\T02SERNのホムペ見てきたけど\n
-\T022009年から実験してるのな\n
-\T02ガチでブラックホール作ったのかな?\n
+\T02The world is ruined?\n
+\T02That means I can be a road warrior and ride a mod buggy, right!?\n
+\T02Lemme go to the barber's and get a mohawk.\n
+\T02Where can I buy a spiked shoulder pad?\n
 \n
 \n
-\L317 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:13:20 ID:/+o/wQf50\n
+\L316 Name:\rsAnonymous\re:2010/07/30(Fri) 18:12:54 ID:SWS6cCo2O\n
 \n
-\T02いったいなにが始まるんです?\n
-\n
-\n
-\L318 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:13:44 ID:upvTBIcuO\n
-\n
-\T02タイターさんもヒャッハーしてたのか!\n
-\T02くそっ, 萌えるじゃねえか!\n
+\T02I looked at SERN's homepage\n
+\T02They've been experimenting since 2009.\n
+\T02But did they srsly make black holes?\n
 \n
 \n
-\L319 名前:\rs名無しの予言者さん\re:2010/07/30(金) 18:14:10 ID:JqAkKre70\n
+\L317 Name:\rsAnonymous\re:2010/07/30(Fri) 18:13:20 ID:/+o/wQf50\n
 \n
-\T02脳こそが世界を作ってるとか言うつもりですか?\n
-\T02人類のすべての精神は枝であり大元の幹があるとか言い出すんですか?\n
-\T02世界系厨二病のオチに持っていきたいのか\n
-\T02ガッカリです未来に帰ってください\n
+\T02What the hell's gonna happen?\n
 \n
 \n
-\L320 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/30(金) 18:15:19 ID:nE2bVz8A0\n
+\L318 Name:\rsAnonymous\re:2010/07/30(Fri) 18:13:44 ID:upvTBIcuO\n
+\n
+\T02Did Mr. Titor also get a mohawk!?\n
+\T02Dayumm, ain't that moe!?\n
+\n
+\n
+\L319 Name:\rsAnonymous\re:2010/07/30(Fri) 18:14:10 ID:JqAkKre70\n
+\n
+\T02Are you implying our brains make the world?\n
+\T02Are you saying that every conscience of every human is a branch coming off some sort of trunk?\n
+\T02Trying to /thread with some pretentious hippie bullshit?\n
+\T02That's quite enough. gb2/2036/\n
+\n
+\n
+\L320 Name:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/30(Fri) 18:15:19 ID:nE2bVz8A0\n
 \n
 \T02\rs>>314\re\n
-\T02成る程, こうして番号を指定する事で返事とするのですね。\n
+\T02I see, so you're questioning how I've been designating numbers.\n
 \n
-\T02世界の再構築と\n
-\T02人の脳内での記憶の調整\n
+\T02Reconstruction of the world \n
+\T02and alteration of people's memories\n
 \n
-\T02私はどちらも同じ意味だと思っているのですが, 何故あなたは違うと思うのですか?\n
+\T02I think they're essentially the same thing, but why do you seem so intent on saying they're different?\n
 \n
-\T02世界線の変動を認識出来る人間は, 一部を除いて存在しません。\n
-\T02世界線が変わった時点で再構築は終了しているのです。\n
+\T02With a few exceptions, people who can recognize the change of world lines don't exist.\n
+\T02Reconstruction is over at the exact point the world line changes.\n
 \n
-\T02ヒャッハーとは何でしょうか?\n
+\T02What's a road warrior?\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005634)
-\L644 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/31(土) 07:14:31 ID:/p3RJYvh0\n
+\L644 Name:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/31(Sat) 07:14:31 ID:/p3RJYvh0\n
 \n
-\T022036年では今のような都会的な生活はされていません。\n
-\T02人々は自分の食べる物を自分で育てています。\n
-\T02世界中で経済活動は遮断され人は1日のほとんどの時間を農場で過ごします。\n
+\T02Urban life doesn't exist in 2036 as it does today.\n
+\T02People raise their own food to eat.\n
+\T02Commerce is quarantined worldwide, so people spend most hours of the day on the farm.\n
 \n
-\T02科学技術は間違いなく発展していますが,\n
-\T02それが人々に提供される機会は少ないです。\n
+\T02There are still scientific and technological advances,\n
+\T02but those are rarely offered to the general public.\n
 \n
-\T02ほとんどをSERNとその背後に居る委員会が牛耳っていLukaらです。\n
+\T02Because they're nearly all under the thumb of SERN and SERN's behind the scenes committee.\n
 \n
-\T02表面上はとても平和ですよ。\n
-\T022010年ほど殺伐としていませんしね。\n
-\n
-\n
-\L645 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:16:16 ID:g6w1DXfXO\n
-\n
-\T02戦争はまったく起きてないわけ?\n
-\T02中東のあの泥沼状態をどうやって解決したんだ?\n
+\T02It's ostensibly peaceful.\n
+\T02It's not as brutal as 2010.\n
 \n
 \n
-\L646 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:17:51 ID:pHlFyWLd0\n
+\L645 Name:\rsAnonymous\re:2010/07/31(Sat) 07:16:16 ID:g6w1DXfXO\n
 \n
-\T02平和なのになにが不満なんでしょうか\n
-\T02SERNって実はいいヤツらな予感\n
-\n
-\n
-\L647 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:19:43 ID:wiWDlbaJO\n
-\n
-\T02だってタイターってタイムマシンの技術をSERNからパクったんだろ?\n
-\T02その時点で犯罪者じゃん\n
-\T02どう見ても悪いのはタイター\n
-\T02テロリストは未来にｶｴﾚ!\n
+\T02It's not like there isn't any war, you know?\n
+\T02How do things turn out in the Middle East quagmire?\n
 \n
 \n
-\L648 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/31(土) 07:22:37 ID:/p3RJYvh0\n
+\L646 Name:\rsAnonymous\re:2010/07/31(Sat) 07:17:51 ID:pHlFyWLd0\n
 \n
-\T022036年の世界を治めているのはSERNなのです。\n
-\T02SERNは人々に様々な規制を設けています。\n
-\n
-\T02世界中の国が（あのアメリカさえも!）武装解除しました。\n
-\T02全ての軍隊は解体されました。\n
-\n
-\T02共産主義が復活し生活レベルが18世紀辺りまで戻ったと言えば分かるでしょうか。\n
-\T02そして今の所その社会システムは完璧に機能しています。\n
-\n
-\T0220世紀末に崩壊したシステムが何故全世界規模で完璧に機能しているのか。\n
-\T02みなさんは疑問に思いませんか?\n
-\T02それが, 私がタイムトラベルをして来た理由です。\n
-\n
-\T02はい, 私は確かにテロリストと言われてもやむを得ないかも知れません。\n
-\T02私は自分たちの事はレジスタンスと考えていますが, やっている事はテロ行為です。\n
-\T02私のような行動を取る人間や組織は少数ながら存在します。\n
+\T02You're dissatisfied even though there's peace.\n
+\T02I think SERN's pretty cool, collides particles and doesn't afraid of anything.\n
 \n
 \n
-\L649 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:25:46 ID:cW49DA1n0\n
+\L647 Name:\rsAnonymous\re:2010/07/31(Sat) 07:19:43 ID:wiWDlbaJO\n
 \n
-\T02それより多世界解釈の話をもっと詳しく知りたいわけだが\n
-\T022036年ではそれが証明されたわけだよね\n
-\T02いったいどうやって証明したの?\n
-\n
-\n
-\L650 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:29:38 ID:PbuGe/D9O\n
-\n
-\T02やっぱテロリストじゃん\n
-\T02何人殺したんだ? その犠牲者に俺の子供が含まれてたらどうするんだよ\n
-\T02マジでタイターの親を見つけ出して今のうちに殺しとくべきじゃね?\n
+\T02But this Titor guy ripped off time machine technology from SERN, didn't he?\n
+\T02Then he's a criminal.\n
+\T02No mater how you look at it, Titor's at fault. gb2/future/, terrorist scum!\n
 \n
 \n
-\L651 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:29:49 ID:jeCgYVj3O\n
+\L648 Name:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/31(Sat) 07:22:37 ID:/p3RJYvh0\n
 \n
-\T02だからさー\n
-\T02情報を小出しにしないでよ\n
+\T02The world's governing body in 2036 is SERN.\n
+\T02SERN established various regulations on humanity.\n
+\n
+\T02All nations throughout the world (Even America!) have been disarmed.\n
+\T02All armies have been dissolved.\n
+\n
+\T02Would you understand if I said communism was revived, bringing the standard of living back to the 18th century?\n
+\T02Except now, that social structure works flawlessly.\n
+\n
+\T02Don't you all have doubts about how the system which collapsed in the 20th Century could possibly work on a global scale?\n
+\T02That is my reason for time traveling here.\n
+\n
+\T02Yes, it might be true that I cannot deny being called a terrorist.\n
+\T02I think of ourselves as the Resistance, but what we are doing is undeniably terrorism.\n
+\T02There are people and organizations that take actions like mine.\n
 \n
 \n
-\L652 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:33:40 ID:zA+rEQvt0\n
+\L649 Name:\rsAnonymous\re:2010/07/31(Sat) 07:25:46 ID:cW49DA1n0\n
 \n
-\T02結局そういう思想の話に持っていくわけか\n
-\T02もしかして学生運動体験したおじいちゃんですか?\n
-\T02現実と妄想の区別が分からなくなってデンパ垂れ流してるだけということですね分かります\n
+\T02More importantly, I want to hear more about the many-worlds interpretation.\n
+\T02In 2036, it's been proven, right?\n
+\T02But just how did they prove it?\n
 \n
 \n
-\L653 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:37:22 ID:ihScEFBzO\n
+\L650 Name:\rsAnonymous\re:2010/07/31(Sat) 07:29:38 ID:PbuGe/D9O\n
 \n
-\T02\c4ネトウヨ\c0涙目ｗｗｗｗｗ\n
+\T02Knew he was a terrorist.\n
+\T02How many have you murdered? What if some of those victims are my kids?\n
+\T02I could srsly find the bastards who made the time machine and kill them, right?\n
+\n
+\n
+\L651 Name:\rsAnonymous\re:2010/07/31(Sat) 07:29:49 ID:jeCgYVj3O\n
+\n
+\T02So-\n
+\T02Don't just give small bits of info.\n
+\n
+\n
+\L652 Name:\rsAnonymous\re:2010/07/31(Sat) 07:33:40 ID:zA+rEQvt0\n
+\n
+\T02So, after all, you start talking about ideologies like that.\n
+\T02By any chance, are you a geezer who did a student rally?\n
+\T02And then you lost your ability to discern reality from delusions, and started spewing nonsense. I get it.\n
+\n
+\n
+\L653 Name:\rsAnonymous\re:2010/07/31(Sat) 07:37:22 ID:ihScEFBzO\n
+\n
+\T02delicious \c4netouyo\c0 tears lololololo\n
 \n
 \T02\rs>>649\re\n
-\T02SERNがタイムマシン使いまくってるらしいからそれで実験したんじゃね?\n
+\T02If SERN's been going crazy with their time machine use, then wouldn't it be through time machine experiments?\n
 \n
 \n
-\L654 名前:\rsHououin Kyouma\re:2010/07/31(土) 07:37:53 ID:m7YluS130\n
+\L654 Name:\rsHououin Kyouma\re:2010/07/31(Sat) 07:37:53 ID:m7YluS130\n
 \n
 \T02\rs>>650\re\n
 \n
-\T02それを言えばお前もタイターと同類ということになる\n
-\T02その覚悟ができているならやるがいい\n
+\T02Doing that would make you no better than Titor.\n
+\T02If you're prepared to do that, then go ahead.\n
 \n
-\T02タイターに聞きたいのだが\n
-\T02第3次世界大戦は起きたのか?\n
-\T02そもそもこの時代に現れた理由はなんだ?\n
-\T02IBN5100は手に入ったのか?\n
-\n
-\n
-\L655 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:39:57 ID:VZyBYXNK0\n
-\n
-\T02え, もしかしてJohn Titorって共産主義の工作員だったの?\n
-\T02今どきそんなの流行らないからやめとけって\n
+\T02Titor, I want to ask you,\n
+\T02but did World War III take place?\n
+\T02What was your reason for coming to this time in the first place?\n
+\T02Did you get an IBN 5100?\n
 \n
 \n
-\L656 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:44:05 ID:ra1fZGYk0\n
+\L655 Name:\rsAnonymous\re:2010/07/31(Sat) 07:39:57 ID:VZyBYXNK0\n
 \n
-\T02タイターもデンパだがそれ以上に鳳凰院がおかしなことになっててワロタ\n
-\n
-\n
-\L657 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:45:30 ID:a5B5vYtC0\n
-\n
-\T02第3次世界大戦（笑）\n
+\T02Eh, was John Titor a communist spy by any chance?\n
+\T02That's so out of fashion, so just quit it.\n
 \n
 \n
-\L658 名前:\rs名無しの予言者さん\re:2010/07/31(土) 07:48:44 ID:D8ksLazcO\n
+\L656 Name:\rsAnonymous\re:2010/07/31(Sat) 07:44:05 ID:ra1fZGYk0\n
 \n
-\T02IBN5100と言えばアキバで都市伝説になってたよね\n
+\T02Titor's spewing nonsense, but more than that, even Hououin's getting so weird I LOL'd\n
 \n
 \n
-\L659 名前:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/31(土) 07:50:00 ID:/p3RJYvh0\n
+\L657 Name:\rsAnonymous\re:2010/07/31(Sat) 07:45:30 ID:a5B5vYtC0\n
 \n
-\T02私がこの時代に来た目的は, 既に説明した通り未来を変える為です。\n
-\T02こうして掲示板に書き込んでいるのは警鐘を鳴らす為です。\n
-\T02ただおそらく世界線の収束によって無意味になるでしょうが。\n
-\T02けれど気付いてさえ貰えれば良いのです。\n
+\T02World War III (lmao)\n
+\n
+\n
+\L658 Name:\rsAnonymous\re:2010/07/31(Sat) 07:48:44 ID:D8ksLazcO\n
+\n
+\T02Speaking of the IBN 5100, isn't that an Akiba urban myth now?\n
+\n
+\n
+\L659 Name:\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/31(Sat) 07:50:00 ID:/p3RJYvh0\n
+\n
+\T02My objective for coming to this time is, as I've already explained, to change the future.\n
+\T02I'm posting on this bulletin board like this to sound the alarm.\n
+\T02Perhaps it won't have any meaning due to the convergence of world lines.\n
+\T02But it's okay if it works without anyone noticing.\n
 \n
 \n
 \T02\rs>>312\re\n
-\T02第3次世界大戦とは何の事でしょうか?\n
-\T02それもまたあなたが見たと言う別の世界線での私が言ったのですか?\n
+\T02What's this about World War III?\n
+\T02Could that also be something you've seen me saying a different world line?\n
 \n
-\T02あなたとは一度, ゆっくりお話ししたいですね。\n
-\T02メールアドレスにご連絡を貰えれば返事を書きます。\n
+\T02I would like to talk to you once at our own pace.\n
+\T02I'll write a reply if you give me your mail address.\n
 \n
-\T02勿論鳳凰院さん以外の方からも,\n
-\T02まともなメールについてはお待ちしています。\n
-\T02今の所, 誹謗中傷のメールしか来ていませんので。\n
+\T02Of course, if anyone else besides Hououin-san wants to mail me up front, I'll be waiting.\n
+\T02Because, as of now, I've only been getting hate mail.\n
 \n
-\T02改めて連絡先を明記しておきます。\n
+\T02Here's my contact address once more:\n
 \T02\rsjohn_titor@egweb.ne.jp\re\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005638)
-\L229 :\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/29(木) 15:04:29 ID:4Co5c6io0\n
+\L229 :\c5JOHN TITOR◆f8VuYnoyWU\c0:2010/07/29(Thu) 15:04:29 ID:4Co5c6io0\n
 \n
-\T04タイムマシンの仕組みについてみなさんは非常に興味が有るようですね。\n
-\T04勿論教えても構いませんよ。\n
-\T04ちなみに現代の技術では恐らく再現するのは不可能でしょう。\n
-\T04特に一部の機構については, SERNが2034年に完成させるまで待たなければなりません。\n
+\T04It seems everyone's interested in the time machine's structure.\n
+\T04I certainly don't mind telling you.\n
+\T04I mean, I think it's impossible to reproduce it with current technology anyway.\n
+\T04Especially one part, which SERN won't complete until 2034.\n
 \n
-\T04タイムトラベルは重力を変える事で行います。\n
-\T04基本的概念は双子のパラドックスを用いていると考えてもらえれば良いです。\n
-\T04しかしそれだけでは時間を逆行は出来ません。\n
-\n
-\n
-\L230 :\c5名無しの予言者さん\c0:2010/07/29(木) 15:05:04 ID:b6ohLRKPO\n
-\n
-\T04まだいたのかこの詐欺師\n
-\T04ウザいからさっさと消えろよ\n
+\T04Time travel works by altering gravity.\n
+\T04Basically, you can think of it as using the twin paradox.\n
+\T04But that alone isn't enough to reverse time.\n
 \n
 \n
-\L231 :\rs名無しの予言者さん\re:2010/07/29(木) 15:05:13 ID:K3Vie+Ed0\n
+\L230 :\c5Anonymous\c0:2010/07/29(Thu) 15:05:04 ID:b6ohLRKPO\n
 \n
-\T04重力を操る能力を持つ厨二病の人ですねわかります\n
-\n
-\n
-\L232 :\rs名無しの予言者さん\re:2010/07/29(木) 15:05:57 ID:twA9Im/8O\n
-\n
-\T04双子のパラドックスってウラシマ効果のことじゃないんですか?\n
-\T04あれって時間の進みがおそくなるだけで過去には行けなかったような\n
+\T04Still here faker?\n
+\T04ur annoying. Go away.\n
 \n
 \n
-\L233 :\rs名無しの予言者さん\re:2010/07/29(木) 15:06:11 ID:XCOl4WFG0\n
+\L231 :\rsAnonymous\re:2010/07/29(Thu) 15:05:13 ID:K3Vie+Ed0\n
 \n
-\T04タイムマシンの仕組みなんかどうでもいいから\n
-\T04株価情報教えろっつーの\n
-\n
-\n
-\L234 :\c5Hououin Kyouma\c0:2010/07/29(木) 15:06:39 ID:1Kz7Z7Sn0\n
-\n
-\T04\rs>>229\re\n
-\n
-\T04ティプラー・シリンダーとカー・ブラックホールを使っているのだろう?\n
-\T04やはり10年前に現れたときとまったく同じだな!\n
-\T04そしてお前が乗っているタイムマシンは1970年代製の\c4シボルエ\c0だ!\n
-\T04俺はすべて知っているぞ!\n
+\T04You're a pretentious hipster who can control gravity, I see.\n
 \n
 \n
-\L235 :\c5名無しの予言者さん\c0:2010/07/29(木) 15:07:01 ID:sjCZ8ysE0\n
+\L232 :\rsAnonymous\re:2010/07/29(Thu) 15:05:57 ID:twA9Im/8O\n
+\n
+\T04The twin paradox? Is that like the Rip Van Winkle effect?\n
+\T04That's just slowing time down, not reversing it.\n
+\n
+\n
+\L233 :\rsAnonymous\re:2010/07/29(Thu) 15:06:11 ID:XCOl4WFG0\n
+\n
+\T04Who gives a shit about the time machine's structure.\n
+\T04Gib me stock prices nao.\n
+\n
+\n
+\L234 :\c5Hououin Kyouma\c0:2010/07/29(Thu) 15:06:39 ID:1Kz7Z7Sn0\n
 \n
 \T04\rs>>229\re\n
 \n
-\T04私はホモですｱｯｰ!, まで読んだ\n
+\T04You use Tipler Cylinders and Kerr Black Holes, don't you?\n
+\T04Just like ten years ago!\n
+\T04And your time machine is a 1970 model \c4Chevy\c0!\n
+\T04I know all of it!\n
 \n
 \n
-\L236 :\rs名無しの予言者さん\re:2010/07/29(木) 15:07:23 ID:Lqjl70lsO\n
+\L235 :\c5Anonymous\c0:2010/07/29(Thu) 15:07:01 ID:sjCZ8ysE0\n
+\n
+\T04\rs>>229\re\n
+\n
+\T04Stopped reading at "I'm a faggot rape my face!"\n
+\n
+\n
+\L236 :\rsAnonymous\re:2010/07/29(Thu) 15:07:23 ID:Lqjl70lsO\n
 \n
 \T04\rs>>232\re\n
-\T04双子のパラドックスとウラシマ効果は違う物だろ常考\n
+\T04The twin paradox and the Rip Van Winkle effect are different things durr.\n
 \n
 \n
-\L237 :\rs名無しの予言者さん\re:2010/07/29(木) 15:07:50 ID:2xDTmiuLO\n
+\L237 :\rsAnonymous\re:2010/07/29(Thu) 15:07:50 ID:2xDTmiuLO\n
 \n
-\T04タイムトラベラー（笑）\n
-\T04John Titor（笑）\n
+\T04time traveler lol\n
+\T04john titor lol\n
 \n
 \n
-\L238 :\rs名無しの予言者さん\re:2010/07/29(木) 15:08:35 ID:5rtMan8S0\n
+\L238 :\rsAnonymous\re:2010/07/29(Thu) 15:08:35 ID:5rtMan8S0\n
 \n
 \T04\rs>>234\re\n
-\T04シボルエってアメ車だよな?\n
-\T04どうせならドイツ車とかにしろよベンベとかｗ\n
+\T04Chevy's an American car, right?\n
+\T04I'd rather go German with a BMW lol\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $0000563C)
-\L264 :\rs栗悟飯とカメハメ波\re:2010/07/29(木) 15:19:38 ID:0WM1H5LT0\n
+\L264 :\rsKuriGohan and Kamehameha\re:2010/07/29(Thu) 15:19:38 ID:0WM1H5LT0\n
 \n
 \T04\rs>>234\re\n
 \n
-\T04ティプラー・シリンダーってティプラー・マシンのことか?\n
-\T04アホかｗ\n
+\T04By Tipler cylinders, are you referring to the Tipler machine?\n
+\T04u retarded? lol\n
 \n
-\T04ティプラー・マシンは理論上「直径10ｋｍ, 長さ100ｋｍ, 太陽と同じ質量の円筒」を秒速2500回転させないとタイムマシンとして成立しないんだぞｗ\n
-\T04シボルエにそんなもん載ると思ってんのかよ\n
-\T04しかもティプラー・マシンはシリンダーが作られたときより過去へは移動できないし\n
+\T04The Tipler cylinder must theoretically be 10km in diameter, 1000km long, weigh as much as the sun and revolve 2500 times a second to be a time machine lol\n
+\T04How do you fit that onto a Chevy?\n
+\T04Also, the Tipler Machine even can't go back into the past further than it was made.\n
 \n
-\T04つーか妄想乙\n
-\T04誰もお前のチラ裏は聞いてない\n
-\T04タイターに答えてほしいわけだが\n
-\n
-\n
-\L265 :\c5JOHNTITOR◆f8VuYnoyWU\c0:2010/07/29(木) 15:20:29 ID:4Co5c6io0\n
-\n
-\T04これは驚きました。\n
-\T04私のタイムマシンは既にこの時代の人には知られていると言う事でしょうか?\n
-\T0410年前に現れた, と言うのは私の事ですか?\n
-\T04ならばHououin Kyoumaは別の世界線で私を見たと言う事だと思います。\n
-\T04少なくとも私はまだ2000年へは行っていません。\n
-\n
-\T04重要なのは回転するブラックホールにはティプラー・シリンダーと同じようにタイムトラベルの効果が有ると言う事です。\n
-\T04カー・ブラックホールについてはペンローズダイアグラムか, ティプラーの計算を見れば分かるはずです。\n
-\T04このカー・ブラックホールを2つ生成する事でタイムトラベルを行います。\n
+\T04Enough with your delusions\n
+\T04@channel is not your blog\n
+\T04I wanna see how Titor responds though\n
 \n
 \n
-\L266 :\rs名無しの予言者さん\re:2010/07/29(木) 15:21:06 ID:g0EVX39A0\n
+\L265 :\c5JOHNTITOR◆f8VuYnoyWU\c0:2010/07/29(Thu) 15:20:29 ID:4Co5c6io0\n
 \n
-\T04\c4日本語でおｋ\c0\n
+\T04This is a surprise.\n
+\T04Does this mean people of this age already know about my machine?\n
+\T04By ten years ago, you mean that's when I appeared??\n
+\T04Then I believe Hououin Kyouma saw me from another world line.\n
+\T04At least, I personally have not gone to the year 2000.\n
 \n
-\n
-\L267 :\c5名無しの予言者さん\c0:2010/07/29(木) 15:22:26 ID:gigiR1Hh0\n
-\n
-\T04タイターが10年前にも現れていたってマジ? ソースは?\n
-\n
-\n
-\L268 :\rs名無しの予言者さん\re:2010/07/29(木) 15:23:17 ID:K483z8/c0\n
-\n
-\T04カー・ブラックホールとかペンローズダイアとかってなんぞ?\n
-\T04おっぱいに例えて説明してエロい人!\n
+\T04What's fundamental for time travel is that the revolving black hole and Tipler cylinder agree.\n
+\T04You should be able to understand Kerr black holes by looking at the Penrose diagram or Tipler's calculations.\n
+\T04You can time travel by generating Kerr black hole pairs.\n
 \n
 \n
-\L269 :\rs名無しの予言者さん\re:2010/07/29(木) 15:24:22 ID:odGzF8qBO\n
+\L266 :\rsAnonymous\re:2010/07/29(Thu) 15:21:06 ID:g0EVX39A0\n
 \n
-\T04とりあえず千円やLukaらタイムマシンに乗せろ\n
-\T04これ以上はびた一文払う気はないからな!\n
+\T04\c4In Japanese plz\c0\n
 \n
 \n
-\L270 :\rs名無しの予言者さん\re:2010/07/29(木) 15:24:45 ID:0cc0yP/Q0\n
+\L267 :\c5Anonymous\c0:2010/07/29(Thu) 15:22:26 ID:gigiR1Hh0\n
+\n
+\T04Titor srsly came 10 years ago? Sauce?\n
+\n
+\n
+\L268 :\rsAnonymous\re:2010/07/29(Thu) 15:23:17 ID:K483z8/c0\n
+\n
+\T04Wtf are kerr black holes and penwhatever diagrams?\n
+\T04Explain using boobies oh erotic one!\n
+\n
+\n
+\L269 :\rsAnonymous\re:2010/07/29(Thu) 15:24:22 ID:odGzF8qBO\n
+\n
+\T04Anyway, I'll give you 1000 yen to ride your time machine.\n
+\T04Not a cent more!\n
+\n
+\n
+\L270 :\rsAnonymous\re:2010/07/29(Thu) 15:24:45 ID:0cc0yP/Q0\n
 \n
 \T04\rs>>268\re\n
 \n
-\T04鳳凰さんの妄想でしょｗ\n
-\T04マジパネエっす\n
+\T04Sauce is Houou-san's delusions lol\n
+\T04Real deal\n
 \n
 \n
-\L271 :\rs栗悟飯とカメハメ波\re:2010/07/29(木) 15:25:34 ID:0WM1H5LT0\n
+\L271 :\rsKuriGohan and Kamehameha\re:2010/07/29(Thu) 15:25:34 ID:0WM1H5LT0\n
 \n
-\T04ちょｗｗｗ否定しないのかよｗｗｗ\n
-\T04鳳凰院みたいなアホの話に乗っかるなんて\c4ｇｄｇｄ\c0の予感ｗ\n
+\T04lolololwuuut he didn't deny it lololol\n
+\T04_All aboard Hououin's crazy train, prepare for a \c4trainwreck\c0 lol\n
 \n
-\T04カー・ブラックホールでのタイムトラベルは確かに理論的に可能だけど問題がいくつか\n
+\T04Kerr black hole time travel is certainly theoretically possible, but\n
 \n
-\T041.どうやってブラックホールを回転させる? まさか自然に回転してるブラックホールが見つかるまで待つとか言うなよ?\n
+\T041. How do you get black holes to spin? Don't tell me you wait until you find them spinning naturally?\n
 \n
-\T042.カー・ブラックホール内のミクロ\c4特異点\c0をどうやって通過するつもりだ?\n
-\T04シボルエがそのすさまじい重力に耐えられるわけないぞ\n
-\n
-\n
-\L272 :\rs名無しの予言者さん\re:2010/07/29(木) 15:26:00 ID:jPm+uqabO\n
-\n
-\T04ジョンさんはなんで説明を小出しにしてるの? 馬鹿なの? 死ぬの?\n
+\T042. How do you pass through the hole's \c4singular point\c0?\n
+\T04There's no way a Chevy can withstand all that gravity.\n
 \n
 \n
-\L273 :\c5名無しの予言者さん\c0:2010/07/29(木) 15:26:08 ID:ZPjtoV5f0\n
+\L272 :\rsAnonymous\re:2010/07/29(Thu) 15:26:00 ID:jPm+uqabO\n
 \n
-\T04株価情報ﾏﾀﾞｰ?(・∀・ )っ/凵⌒☆ﾁﾝﾁﾝ\n
+\T04Why the short explanations, Mr. John? An idiot? Wanna die?\n
 \n
 \n
-\L274 :\c5Hououin Kyouma\c0:2010/07/29(木) 15:26:54 ID:1Kz7Z7Sn0\n
+\L273 :\c5Anonymous\c0:2010/07/29(Thu) 15:26:08 ID:ZPjtoV5f0\n
 \n
-\T04これは俺の妄想などではない\n
-\T04紛れもなく10年前にタイター自身が語ったことだ\n
-\T04本も出ている。神保町の古本屋を探してみろ\n
+\T04Still no stock prices?(・∀・ )っ/凵⌒☆ﾁﾝﾁﾝ\n
 \n
-\T04シボルエには重力を歪曲させる装置が載っているはずだ\n
-\T04それも10年前のタイターが言っていた\n
+\n
+\L274 :\c5Hououin Kyouma\c0:2010/07/29(Thu) 15:26:54 ID:1Kz7Z7Sn0\n
+\n
+\T04This isn't my delusion.\n
+\T04There's no doubt Titor himself spoke 10 years ago.\n
+\T04There was even a book. Look for it in Book Town.\n
+\n
+\T04His Chevy should have a gravity distortion unit.\n
+\T04The Titor 10 years ago said that too.\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005640)
-\L312 :\c5JOHNTITOR◆f8VuYnoyWU\c0:2010/07/29(木) 15:37:55 ID:4Co5c6io0\n
+\L312 :\c5JOHNTITOR◆f8VuYnoyWU\c0:2010/07/29(Thu) 15:37:55 ID:4Co5c6io0\n
 \n
-\T04はい, 重力歪曲装置は積まれています。\n
-\T04私のタイムマシンはSERN製ではなくそれを参考にした独自の物なので\n
-\T04この重力歪曲装置が若干不安定です。\n
+\T04Yes, I do have a gravity distortion unit.\n
+\T04My time machine is not SERN-made, but bootlegged, meaning this unit is a little unstable.\n
 \n
-\T04この装置によってミクロ特異点を発生させたり, 通過時の重力調整を行います。\n
-\T04ミクロ特異点に電子を注入する事でそれは可能です。\n
-\T04電子注入により特異点は超高速回転を始め局所重力正弦波が発生するのです。\n
-\T04私は専門家では無いですので, 仕組みについてはこれ以上は適切な説明が出来ません。\n
-\T04カー・ブラックホールは人工的に作る事が可能とだけ言っておきます。\n
+\T04his unit produces a micro singular point, regulating the gravity of passing time.\n
+\T04That's possible by injecting electrons into the singular point.\n
+\T04The singular point then rapidly rotates causing a local gravity sine wave.\n
+\T04I'm not a specialist, so I cannot explain the structure any further.\n
+\T04Let me just say that Kerr black holes can be manufactured.\n
 \n
-\T04SERNが2010年時点でブラックホール生成実験を行っている事についてはみなさんもご存じの筈です。\n
-\n
-\n
-\L313 :\rs名無しの予言者さん\re:2010/07/29(木) 15:38:28 ID:lofLpstvO\n
-\n
-\T04長文\c4ＵＺＥＥＥＥＥ\c0!!1!1!\n
+\T04I assume everyone's aware of SERN's current 2010 experiments on black hole creation.\n
 \n
 \n
-\L314 :\rs名無しの予言者さん\re:2010/07/29(木) 15:38:42 ID:C7QwgBSS0\n
+\L313 :\rsAnonymous\re:2010/07/29(Thu) 15:38:28 ID:lofLpstvO\n
 \n
-\T04さらっと不安定とか言ってるけどそれってヤバイんじゃない?\n
-\n
-\n
-\L315 :\c5名無しの予言者さん\c0:2010/07/29(木) 15:39:31 ID:BrrQolR00\n
-\n
-\T04おいおいブラックホールなんて作られたら地球呑み込んでｵﾜﾀ＼(^o^)／\n
-\T04タイターは全人類を虐殺するどころか地球そのものを宇宙から消し飛ばすつもりだ!\n
-\T04ふざけんな死ね!\n
+\T04\STFU\c0!!1!1!\n
 \n
 \n
-\L316 :\rs栗悟飯とカメハメ波\re:2010/07/29(木) 15:40:27 ID:0WM1H5LT0\n
+\L314 :\rsAnonymous\re:2010/07/29(Thu) 15:38:42 ID:C7QwgBSS0\n
 \n
-\T04説明しないんじゃなくて, 説明できないんだろｗ\n
+\T04Unstable? Isn't that dangerous?\n
 \n
-\T04移動先の指定はどうする? 地球は常に宇宙空間を動き続けてるんだぞ\n
 \n
-\T04ちなみにタイター＝鳳凰院説について提唱してみるｗ\n
+\L315 :\c5Anonymous\c0:2010/07/29(Thu) 15:39:31 ID:BrrQolR00\n
+\n
+\T04If you make a black hole, earth would be swallowed ＼(^o^)／\n
+\T04Titor wants to kill all mankind and scatter the earth across the universe too!\n
+\T04Just die faggot!\n
+\n
+\n
+\L316 :\rsKuriGohan and Kamehameha\re:2010/07/29(Thu) 15:40:27 ID:0WM1H5LT0\n
+\n
+\T04It's not that you won't explain, it's that you can't, huh lol.\n
+\n
+\T04How do you set the destination? Earth's always moving through space you know.\n
+\n
+\T04By the way, I propose the Titor = Hououin theory lol.\n
 \n
 \n
 <END2>
 
 #WRITE(PTR, $00005644)
-\L379 :\c5JOHNTITOR◆f8VuYnoyWU\c0:2010/07/29(木) 16:01:20 ID:4Co5c6io0\n
+\L379 :\c5JOHNTITOR◆f8VuYnoyWU\c0:2010/07/29(Thu) 16:01:20 ID:4Co5c6io0\n
 \n
-\T04移動先の指定はＶＧＬで行います\n
-\T04ＶAｌｕAｂｌｅ ＧｒAｖｉｔｙ Ｌｏｃｋシステム\n
-\T04日本語だと可変重力ロックシステムと言った所でしょうか\n
-\T04重力歪曲装置とセットになっている物です\n
-\T04これで到着予定先の局所重力を読み込み, ティプラー正弦波をその位置にロックするのです\n
-\T04地球の重力を捉えるので, 必ず地球が有る場所に到着出来ます\n
-\T044個のセシウム時計の光学システムを利用して計算している為, 誤差は極めて微少の物になります\n
-\n
-\n
-\L380 :\rs名無しの予言者さん\re:2010/07/29(木) 16:02:03 ID:OSrrA5ca0\n
-\n
-\T04法皇淫とかいう\c4コテハン\c0うぜえｗ\n
-\T04つーか10年前にもタイター現れたとか聞いてねーぞｗ\n
+\T04Destination setting uses VGL.\n
+\T04Variable Gravity Lock System.\n
+\T04It's set using the gravity distortion unit.\n
+\T04It's set to read the local gravity of the destination, locking the Tipler sine wave onto that location.\n
+\T04It's guaranteed to land on earth by perceiving its gravity.\n
+\T04It calculates with the optics systems of four cesium clocks, so its measurement error is infinitesimal.\n
 \n
 \n
-\L381 :\rs名無しの予言者さん\re:2010/07/29(木) 16:02:09 ID:YKFYUVjGO\n
+\L380 :\rsAnonymous\re:2010/07/29(Thu) 16:02:03 ID:OSrrA5ca0\n
 \n
-\T04てかタイターのうんこのせいで宇宙がヤバい\n
-\n
-\n
-\L382 :\c5Hououin Kyouma\c0:2010/07/29(木) 16:04:15 ID:1Kz7Z7Sn0\n
-\n
-\T04そうだ, そんなようなことが本にも書かれてあった気がする\n
-\n
-\T04だがこれでは結局のところ本の内容をコピペしているだけであって\n
-\T04タイターでなくても誰でもできることになるぞ\n
+\T04That Whore-owing \c4namefag\c0 needs to shut up lol\n
+\T04I never heard of any Titor from 10 years ago lol\n
 \n
 \n
-\L383 :\rs名無しの予言者さん\re:2010/07/29(木) 16:05:01 ID:yiNxM5tq0\n
+\L381 :\rsAnonymous\re:2010/07/29(Thu) 16:02:09 ID:YKFYUVjGO\n
 \n
-\T04ジョンたんは萌えキャラ。俺の嫁\n
-\T04異論は認める\n
+\T04So, the universe is deep in Titor's shit.\n
 \n
 \n
-\L384 :\rs栗悟飯とカメハメ波\re:2010/07/29(木) 16:05:41 ID:0WM1H5LT0\n
+\L382 :\c5Hououin Kyouma\c0:2010/07/29(Thu) 16:04:15 ID:1Kz7Z7Sn0\n
 \n
-\T04なんかどんどんガッカリ感が…\n
+\T04Right, I think something like that was written in the book.\n
 \n
-\T04結局はどれも具体的じゃないんだよな\n
-\T04頑張ってそれっぽく見せてるのは認めるが\n
-\T04漏れはごまかされないぞ\n
+\T04But in the end, all you've posted is copypasta from the book.\n
+\T04Not just Titor, but anyone could do that.\n
+\n
+\n
+\L383 :\rsAnonymous\re:2010/07/29(Thu) 16:05:01 ID:yiNxM5tq0\n
+\n
+\T04John-tan's so moe. Mai waifu\n
+\T04I recognize different opinions.\n
+\n
+\n
+\L384 :\rsKuriGohan and Kamehameha\re:2010/07/29(Thu) 16:05:41 ID:0WM1H5LT0\n
+\n
+\T04I'm feeling more and more disappointed...\n
+\n
+\T04Still nothing concrete.\n
+\T04I recognize your efforts, though.\n
+\T04Eye won't be deceived.\n
 \n
 \n
 <END2>
@@ -9882,7 +9875,7 @@ Nae
 <END2>
 
 #WRITE(PTR, $00005800)
-ガイアにもっと輝けとささやかれているっぽい男
+Whispering man
 <END2>
 
 #WRITE(PTR, $00005804)
@@ -9894,7 +9887,7 @@ Man
 <END2>
 
 #WRITE(PTR, $00005810)
-ガイアにもっと輝けとささやかれているっぽい10円ハゲの男
+Very Weird Whispering Man
 <END2>
 
 #WRITE(PTR, $00005814)
