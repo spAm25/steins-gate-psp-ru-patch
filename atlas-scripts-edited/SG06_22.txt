@@ -245,7 +245,7 @@ Mayuri sticks out her chest in confidence.
 【Suzuha】W-where?
 <END>
 
-#WRITE(PTR, $000012D3)
+#WRITE(PTR, $000012E0)
 Everyone besides Mayuri is stupidly looking about.
 <END>
 

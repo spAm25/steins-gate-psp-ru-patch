@@ -474,6 +474,12 @@ uint32_t BinFile::_FindPointerToAddress(uint32_t address)
     size_t i = (_pointerTable.size() > 0) ? (_pointerTable.back().address) : 0;
     for(; i < _section1.size(); i++)
     {
+        // Skip when on the odd address
+        if (i % 2 == 1)
+        {
+            continue;
+        }
+
         // Instantly quit if we are at the end of the Section 1
         if ((_psz == psz16b && i + 2 >= _section1.size()) ||
             (_psz == psz32b && i + 4 >= _section1.size()))
@@ -491,7 +497,7 @@ uint32_t BinFile::_FindPointerToAddress(uint32_t address)
         }
 
         // b2 and b1 are only checked when I have pointers with a size
-        //   of 23 bits
+        //   of 32 bits
         if (_psz == psz32b)
         {
             if(b2 != _section1[i + 2] && b1 != _section1[i + 3])

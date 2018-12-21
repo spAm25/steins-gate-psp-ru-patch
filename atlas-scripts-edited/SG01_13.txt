@@ -1438,7 +1438,7 @@ After doing so, I hear the sound of a door opening.
 <END>
 
 #WRITE(PTR, $00008B90)
-【Mayiru】I'm baack. Fwoo, I'm hungry~
+【Mayuri】I'm baack. Fwoo, I'm hungry~
 <END>
 
 #WRITE(PTR, $00008C3E)
@@ -1450,11 +1450,11 @@ Looks like she's done with her part-time job.
 <END>
 
 #WRITE(PTR, $00008C68)
-【Mayiru】Fried foo~d. Juicy Karaage Number One♪
+【Mayuri】Fried foo~d. Juicy Karaage Number One♪
 <END>
 
 #WRITE(PTR, $00008C82)
-【Mayiru】Okarin, did you buy the bananas? Hey, Okari~n?
+【Mayuri】Okarin, did you buy the bananas? Hey, Okari~n?
 <END>
 
 #WRITE(PTR, $00008D8A)
@@ -1462,7 +1462,7 @@ Looking inside the development room, she tilts her head.
 <END>
 
 #WRITE(PTR, $00008DA4)
-【Mayiru】Huhuh? A guest?
+【Mayuri】Huhuh? A guest?
 <END>
 
 #WRITE(PTR, $00008DB4)
@@ -1470,7 +1470,7 @@ After noticing Kurisu, Mayuri slightly bows her head while smiling.
 <END>
 
 #WRITE(PTR, $00008DCE)
-【Mayiru】I'm Mayushii. It's nice to meet you~
+【Mayuri】I'm Mayushii. It's nice to meet you~
 <END>
 
 #WRITE(PTR, $00008DDE)
@@ -1478,7 +1478,7 @@ After noticing Kurisu, Mayuri slightly bows her head while smiling.
 <END>
 
 #WRITE(PTR, $00008DEE)
-【Mayiru】Eh? Really? That's great! A girl Lab Mem.
+【Mayuri】Eh? Really? That's great! A girl Lab Mem.
 <END>
 
 #WRITE(PTR, $00008E0A)
@@ -1502,7 +1502,7 @@ After noticing Kurisu, Mayuri slightly bows her head while smiling.
 <END>
 
 #WRITE(PTR, $00008ECA)
-【Mayiru】You want to eat it? I can give one for each of you~
+【Mayuri】You want to eat it? I can give one for each of you~
 <END>
 
 #WRITE(PTR, $00008EDA)
@@ -1630,7 +1630,7 @@ That is really hard to stomach.
 <END>
 
 #WRITE(PTR, $000092FC)
-【Mayiru】Aah, Mayushii's bananas...
+【Mayuri】Aah, Mayushii's bananas...
 <END>
 
 #WRITE(PTR, $0000930C)
@@ -1638,7 +1638,7 @@ As we're doing this and that, Mayuri looks at the usual banana bunch with a face
 <END>
 
 #WRITE(PTR, $0000931C)
-【Mayiru】...Are now gelbanas.
+【Mayuri】...Are now gelbanas.
 <END>
 
 #WRITE(PTR, $00009364)
@@ -1646,7 +1646,7 @@ As we're doing this and that, Mayuri looks at the usual banana bunch with a face
 <END>
 
 #WRITE(PTR, $00009374)
-【Mayiru】But they were Mayushii's...
+【Mayuri】But they were Mayushii's...
 <END>
 
 #WRITE(PTR, $000093BC)
@@ -1662,11 +1662,11 @@ As we're doing this and that, Mayuri looks at the usual banana bunch with a face
 <END>
 
 #WRITE(PTR, $00009404)
-【Mayiru】C'mon now. Why are you always experimenting on Mayushii's food?
+【Mayuri】C'mon now. Why are you always experimenting on Mayushii's food?
 <END>
 
 #WRITE(PTR, $0000941E)
-【Mayiru】Ah, wait, are you experimenting on the Karaage, too?
+【Mayuri】Ah, wait, are you experimenting on the Karaage, too?
 <END>
 
 #WRITE(PTR, $00009438)
@@ -1694,7 +1694,7 @@ Mayuri puts her hand on the door--
 <END>
 
 #WRITE(PTR, $000094FE)
-【Mayiru】Huh?
+【Mayuri】Huh?
 <END>
 
 #WRITE(PTR, $0000950E)
@@ -1702,7 +1702,7 @@ While tilting her head, she opens it--
 <END>
 
 #WRITE(PTR, $00009706)
-【Mayiru】Wha-wha!
+【Mayuri】Wha-wha!
 <END>
 
 #WRITE(PTR, $00009716)
@@ -1762,7 +1762,7 @@ Mayuri strongly grabs my upper arm with her thin fingers.
 <END>
 
 #WRITE(PTR, $00009B8C)
-【Mayiru】O, Okarin? Ehmm, what just happened?
+【Mayuri】O, Okarin? Ehmm, what just happened?
 <END>
 
 #WRITE(PTR, $00009C80)
@@ -1778,7 +1778,7 @@ Mayuri looks very perplexed.
 <END>
 
 #WRITE(PTR, $00009CB0)
-【Mayiru】Nah... It doesn't hurt anywhere, so I think I'm okay.
+【Mayuri】Nah... It doesn't hurt anywhere, so I think I'm okay.
 <END>
 
 #WRITE(PTR, $00009CC0)
@@ -1898,7 +1898,7 @@ Due to the many years of saying them, I can now calm my heart and mind just by m
 <END>
 
 #WRITE(PTR, $0000A12E)
-【Mayiru】Eh?
+【Mayuri】Eh?
 <END>
 
 #WRITE(PTR, $0000A19C)
@@ -1910,7 +1910,7 @@ The microwave is on the floor, and the door is completely open.
 <END>
 
 #WRITE(PTR, $0000A1BC)
-【Mayiru】Aah, Mayushii's fried chicken is all black...
+【Mayuri】Aah, Mayushii's fried chicken is all black...
 <END>
 
 #WRITE(PTR, $0000A1CC)
@@ -1926,7 +1926,7 @@ Since she looks downhearted, I gently hit her shoulders to cheer her up.
 <END>
 
 #WRITE(PTR, $0000A2FA)
-【Mayiru】But I care about it, Christina-chan...
+【Mayuri】But I care about it, Christina-chan...
 <END>
 
 #WRITE(PTR, $0000A314)

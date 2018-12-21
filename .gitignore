@@ -7,3 +7,4 @@ patch-data
 topographer/build
 topographer/objects
 .fuse*
+DBG*

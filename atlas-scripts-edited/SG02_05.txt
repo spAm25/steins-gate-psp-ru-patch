@@ -381,7 +381,7 @@ In return, I take out her beef.
 And now the subject change is complete. Mayuri really eats up conversations about food. It's so easy to lead her on. Fuhahaha!
 <END>
 
-#WRITE(PTR, $00002751)
+#WRITE(PTR, $00002764)
 【Itaru】Soon... If I can just get the SQL table, I'll have more than enough passwords... gweheheh... don't underestimate me...
 <END>
 

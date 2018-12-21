@@ -6,13 +6,11 @@
 #JMP($00006766)
 
 #WRITE(PTR, $000007E8)
-【Mayuri&Faris (M)】
-Welcome home, my myaster.♪
+【Mayuri&Faris2 (M)】Welcome home, my myaster.♪
 <END>
 
 #WRITE(PTR, $000007F8)
-【Mayuri&Faris (F)】
-Welcome home, my myaster.♪
+【Mayuri&Faris2 (F)】Welcome home, my myaster.♪
 <END>
 
 #WRITE(PTR, $00000818)

@@ -445,7 +445,7 @@ This stuff is perfect for keeping a lookout.
 There's enough for two.
 <END>
 
-#WRITE(PTR, $000026DB)
+#WRITE(PTR, $00002774)
 【Rintaro】So, do you want to join?
 <END>
 

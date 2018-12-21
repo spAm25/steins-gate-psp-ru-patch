@@ -37,7 +37,7 @@ I felt it wasn't.
 【Mayuri】Hey, hey, the day after tomorrow is ComiMa, so do you think Luka-chan and Okarin could come as a cosplay couple-?
 <END>
 
-#WRITE(PTR, $000003E1)
+#WRITE(PTR, $0000045A)
 【Mayuri】I kinda want Okarin to persuade Luka-chan as her boyfriend-
 <END>
 

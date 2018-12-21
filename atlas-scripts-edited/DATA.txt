@@ -685,7 +685,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000080C)
-Okabe-san, I mailed you as soon as I could. My name is Kiryuu Moeka. I'm a 20 year old freelancer. I believe I mentioned I worked part time at a publishing company. Sorry for suddenly taking your picture. I didn't do it out of ill will. I needed some shots of Akihabara Town scenery for the publishing company, and indiscriminately took a picture without any particular target. Since the whole satellite thing happened, it actually was my ulterior motive to scoop out the right angle to shoot it, though (lmao). By the way, that picture I took was just a test, not the final shot. That's why I was just using the camera on my phone. Even if you weren't so franticly asking me to please delete it, it's not like I was really going to use it in an article.\n
+Okabe-san, I mailed you as soon as I could. My name is Kiryuu Moeka. I'm a 20 year old freelancer. I believe I mentioned I worked part time at a publishing company. Sorry for suddenly taking your picture. I needed some shots of Akihabara Town scenery for the publishing company, and indiscriminately took a picture without any particular target. Since the whole satellite thing happened, it actually was my ulterior motive to scoop out the right angle to shoot it, though (lmao). By the way, that picture I took was just a test, not the final shot. Even if you weren't so franticly asking me to please delete it, it's not like I was really going to use it in an article.\n
 \n
 Well, now for the real issue. I'm really sorry for rudely asking a favor like this, Okabe-kun, but it would be super neato if I could ask your acquaintance, the super hacker, about the urban legend. Actually, I don't really know much about the PC, the IBN 5100, like what sorta PC it could be or anything at all. (All I have to rely on is that picture I showed you, Okabe-kun. Ah, I'll attach the image) Be absolutely, positively sure to reply okay? Because I'll be waiting. If you could, I'd be super happy if you gave me your super hacker friend's address. I'll mail you again. It's okay to mail you again, right? If it's not, then just tell me, okeydokies♪? Moeka
 <END2>
@@ -699,7 +699,7 @@ Shining Finger
 <END2>
 
 #WRITE(PTR, $0000082C)
-Is that ture? It's a lie isn't it? I'll mail you again. Anyway, who's John Whatshisface? You mentioned something like that, didn't you, Okabe-kun? Does that Mr. John have an IBN 5100? Please reply. Moeka
+Is that true? It's a lie isn't it? I'll mail you again. Anyway, who's John Whatshisface? You mentioned something like that, didn't you, Okabe-kun? Does that Mr. John have an IBN 5100? Please reply. Moeka
 <END2>
 
 #WRITE(PTR, $00000844)
@@ -1834,13 +1834,10 @@ John Titor
 <END2>
 
 #WRITE(PTR, $0000140C)
-If what you wrote in your mail is all true, then it's very interesting indeed. Particularly concerning the IBN 5100's hidden ability, which I have not mentioned to anybody as of yet. I am indeed surprised at the fact that you know about it. However, I have not gone to the year 2000. Though, there is a possibility I may go there after this. There are three possibilities:\n
-\n
+If what you wrote in your mail is all true, then it's very interesting indeed. Particularly concerning the IBN 5100's hidden ability, which I have not mentioned to anybody as of yet. I am indeed surprised at the fact that you know about it. However, I have not gone to the year 2000. There are three possibilities:\n
 First, the possibility that the John Titor who appeared in 2000 is my future self. In other words, I who have returned to 2010, will go to 2000 from here, and write about the things you have told me. But that would cause an a chicken and egg paradox, wouldn't it.\n
-\n
 Second, it's all your delusion, or possibly, fabrication. But for the sake of serious discussion of your statements, let's leave this possibility behind.\n
-\n
-Third. There is a possibility that you saw something I wrote in a different world line. Basically, that means that 10 years ago, you existed in a different world line than the world line we're at now. However, that explanation brings out an impossibility. When the world line changes, every cause and effect is reconstructed from past to future in order to prevent paradoxes. That theory was proven in 2036. So, essentially, it's not expected for "memories of another world line" to ever remained unchanged. Not even for time travelers like me... Do you have any knowledge on this point?
+Third. There is a possibility that you saw something I wrote in a different world line. Basically, that means that 10 years ago, you existed in a different world line than the world line we're at now. However, when the world line changes, every cause and effect is reconstructed from past to future in order to prevent paradoxes. That theory was proven in 2036. So, essentially, it's not expected for "memories of another world line" to ever remained unchanged. Not even for time travelers like me... Do you have any knowledge on this point?
 <END2>
 
 #WRITE(PTR, $00001424)
@@ -4280,7 +4277,7 @@ Daru
 <DUMMY>
 
 #WRITE(PTR, $00002D84)
-In danger
+Trouble
 <END2>
 
 #WRITE(PTR, $00002D88)
@@ -4291,7 +4288,7 @@ Daru
 <DUMMY>
 
 #WRITE(PTR, $00002DA4)
-In danger
+Trouble
 <END2>
 
 #WRITE(PTR, $00002DA8)
@@ -4303,7 +4300,7 @@ Seems like Makise Kurisu's been stabbed.
 <END2>
 
 #WRITE(PTR, $00002DC4)
-In danger
+Trouble
 <END2>
 
 #WRITE(PTR, $00002DC8)
@@ -4315,7 +4312,7 @@ Seems like Makise Kurisu's been stabbed. Maybe in danger.
 <END2>
 
 #WRITE(PTR, $00002DE4)
-In danger
+Trouble
 <END2>
 
 #WRITE(PTR, $00002DE8)
@@ -4327,7 +4324,7 @@ Seems like Makise Kurisu's been stabbed. Maybe in danger. Maybe okay.
 <END2>
 
 #WRITE(PTR, $00002E04)
-In danger
+Trouble
 <END2>
 
 #WRITE(PTR, $00002E08)
@@ -4339,7 +4336,7 @@ Seems like Makise Kurisu's been stabbed by a man. Maybe in danger. Maybe okay.
 <END2>
 
 #WRITE(PTR, $00002E24)
-In danger
+Trouble
 <END2>
 
 #WRITE(PTR, $00002E28)
@@ -8791,7 +8788,7 @@ Next time, Dual Access!\n
 \n
 \T02So what happens to the country?\n
 \T02I don't think society can collapse in just 20 years.\n
-\T02Falling into chaos like in the middle east is\c4srsly\c0overused.\n
+\T02Falling into chaos like in the middle east is \c4srsly\c0 overused.\n
 \T02Especially in manga and stuff.\n
 \n
 \n

@@ -113,7 +113,7 @@ Perhaps, is she jealous of Kurisu's ability?
 Is competition brewing in the lab...?
 <END>
 
-#WRITE(PTR, $00000423)
+#WRITE(PTR, $0000049C)
 I sigh and walk up to the window.
 <END>
 

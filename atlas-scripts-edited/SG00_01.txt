@@ -2080,7 +2080,7 @@ Burdened by a slight amount of sentimentality I start inputting words into the p
 <END>
 
 #WRITE(PTR, $000066EA)
-"Makise Kurisu was stabbed by a man. Though I don't know who the man is. This is bad. I wonder if she's okay.""
+"Seems like Makise Kurisu's been stabbed by a man. Don't know who though. Maybe in danger. Maybe okay."
 <END>
 
 #WRITE(PTR, $000066FA)

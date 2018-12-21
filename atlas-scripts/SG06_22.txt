@@ -267,7 +267,7 @@ Wanna meet him-? You wanna meet him, dontcha-? So with that said, her father's h
 W-where?
 <END>
 
-#WRITE(PTR, $000012D3)
+#WRITE(PTR, $000012E0)
 Everyone besides Mayuri is stupidly looking about.
 <END>
 

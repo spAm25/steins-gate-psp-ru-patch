@@ -6,71 +6,71 @@
 #JMP($00000B64)
 
 #WRITE(PTR, $0000025E)
-俺はケータイを握ったまま、ソファにふんぞり返っていた。
+I recline on the sofa with phone in hand.
 <END>
 
 #WRITE(PTR, $0000026E)
-正面にあるテレビでは、夏の高校野球が放送されている。
+A high-school baseball game is broadcasted on TV.
 <END>
 
 #WRITE(PTR, $0000027E)
-高校名を見ただけで分かった。熊本と愛知の代表だ。
+I understood just by seeing the high schools' names. Kumamoto and Aichi.
 <END>
 
 #WRITE(PTR, $0000028E)
-脳がちくちくと痛む。
+A prickling pain runs through my brain.
 <END>
 
 #WRITE(PTR, $0000029E)
-耳鳴りもなかなかおさまらない。
+The buzzing in my ears won't calm down either.
 <END>
 
 #WRITE(PTR, $000002AE)
-タイムリープ直後のこの不快な気分だけは、なんとも耐えがたいものがある。
+It's hard to endure this unpleasant feeling right after time leaping.
 <END>
 
 #WRITE(PTR, $000002BE)
-時計を見ると１時４５分ぐらい。
+Looking at the clock, it's about 1:45.
 <END>
 
 #WRITE(PTR, $000002CE)
-この時間はなにをしていただろう。
+What was going on at this time?
 <END>
 
 #WRITE(PTR, $000002DE)
-紅莉栖のタイムリープマシンはあと１５分ほどで終わる。ほとんど佳境、最終調整に入っており、俺はもう特にやることもなかったはず。
+In about 15 minutes, Kurisu will finish with the Time Leap Machine. She's just starting the final touches, so I don't have anything in particular to do.
 <END>
 
 #WRITE(PTR, $000002EE)
-脳の痛みが引くと、今度は頭頂部がズキズキとし始めた。
+The pain in my brain pulls away. This time, the top of my head starts throbbing.
 <END>
 
 #WRITE(PTR, $000002FE)
-なぜだろう。
+Why?
 <END>
 
 #WRITE(PTR, $0000030E)
-ああ、そうか。この直前にブラウン管工房で一悶着あって、店長から脳天にゲンコツを喰らったのだった。
+Ah, that's right. Right before this, I got in a fight downstairs at the Braun Tube Workshop and Manager introduced his fist to my noggin.
 <END>
 
 #WRITE(PTR, $0000032A)
-まゆりがミシンを動かしてコスを作っている。
+Mayuri's at her sewing machine making her costume.
 <END>
 
 #WRITE(PTR, $0000033A)
-ダルはＰＣで萌え画像収集に余念がない。
+Daru's at his computer, single-mindedly gathering moe images.
 <END>
 
 #WRITE(PTR, $0000034A)
-紅莉栖は開発室でタイムリープマシンの調整中。
+Kurisu's in the development room adjusting the Time Leap Machine.
 <END>
 
 #WRITE(PTR, $0000035A)
-俺はまったく同じ姿勢のままで、１５分間待つことになった。
+I end up waiting for 15 minutes in the same position.
 <END>
 
 #WRITE(PTR, $00000410)
-それまでずっと談話室に響いていたミシンの音が、ふと途切れた。
+And then the sound of the sewing machine suddenly stops.
 <END>
 
 #WRITE(PTR, $00000420)
@@ -220,22 +220,18 @@ We're not going to go all out and celebrate its completion?
 
 #WRITE(PTR, $00000870)
 【倫太郎】
-「それも後日だ」
+That's also for another day.
 <END>
 
 #WRITE(PTR, $00000986)
-というわけでまゆりとダルはラボから追い払った。
+With that out of the way, I drive Mayuri and Daru out of the lab.
 <END>
 
 #WRITE(PTR, $00000996)
-まゆりには俺の充電器を貸しておいた。同じメーカー製だから共用ができるのだ。
+Mayuri borrows my phone charger since we use the same brand.
 <END>
 
 #WRITE(PTR, $000009A6)
-紅莉栖も帰ろうとしていたのを、こっそり引き留めた。
-<END>
-
-#WRITE(PTR, $00000ABB)
-4<DUMMY><DUMMY><DUMMY><DUMMY><DUMMY><DUMMY><END2>
-<DUMMY>
+Kurisu tries to go home too, but I secretly keep her back.
+<FILEEND82>
 
