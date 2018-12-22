@@ -1,37 +1,78 @@
-## Steins;Gate PSP English Patch, aka *topographer*
-This is a toolkit for disassembling Steins;Gate PSP version of the game. More specifically, it allows to extract all the game strings (dialogues, tips, UI elements). The goal with this is to make an English patch for the game. The extracted game strings are merged with available English translation and are formatted into a readable Atlas Script format. Those are then edited manually, since the merge of the game strings isn't perfect, and some things just have to be formatted manually.
+## Steins;Gate PSP English Patch
+![](https://haselloyance.github.io/0_SGPSPE/logo.jpg)
+*I am not going to lie, this worldline is decent enough. But this patch is going to make it better. El Psy Congroo.*
 
-Honestly, you shouldn't bother with how it works, because I already did (well, currently I'm still doing it) everything for you. Final scripts can be found in `atlas-scripts-edited` (not all of them are available right now). The final patch will be posted here once the work is done.
+Steins;Gate was released for PSP in 2011. This version of the game did not get much attention in the west, since it was only available only in Japanese. Until now. I present you the Steins;Gate PSP English Patch. Combined from bits and pieces of other translations for other platforms, it brings the English Steins;Gate experience to the PSP.
 
-#### ETA
-This will be finished until the end of 2018. I'll make multiple releases, for each of which there will be a choice of either PPF or xDelta methods of patching:
-- 0.9 Will contain the translated game, PMFs, backgrounds, DATA and DICT.
-- 1.0 Will add on the translated MENU, since that would require manual translation and isn't really a priority
-- THIS IS THE POINT WHERE PLAYTESTING WILL BE OF UTMOST IMPORTANCE
-- 1.x Will contain all the fixes after the playtesting (and will come around probably already in 2019)
+#### ✔️ Current version (v0.9)
+- Translated story scripts
+- Translated DICT (tips)
+- Translated phonebook
+- Translated phone messages/emails, backgrounds and songs
+- Translated backgrounds
+- Translated cutscenes\*
+\*This doesn't apply to `OPEN3.PMF`, since there is no available replacement from the PC version of the game.
 
-#### What's done
-- **All** PSP cutscenes were replaced by the PC alternative, if such were available. During convertion from BK2 to PMF the karaoke subtitles were rendered where applicable. [PMF Demo video](https://youtu.be/Ajfok-Eup1w). [PMF Demo Screenshots](https://imgur.com/a/jLgQBn7). 27 changed cutscenes in total.
-- Backgrounds that are translated in sghd-patch were converted into TM2 and placebo-compressed into KLZ. [BG Demo Screenshots](https://imgur.com/a/WbzkVT0) 41 changed backgrounds in total.
-- All text lines in all chapters. Finally
-- DICT, that is, all in-game tips
-- 99% of strings in DATA (messages, RaiNet plot, character names, @chan posts). There are some strings that are left in Japanese until I discover where they appear in the game.
+(pretend that each item on the list has "(where applicable)" after it)
 
-#### What's left to be done
-- Release 0.9 to testers. Acquire as many bug info as possible
-- Manually translate UI elements (DMENU, DMENU2, DMENU4, DMENU5, DMENU6)
-- Possible translate DBG files if they are needed (DBG00, DBG02, DBG03)
-- Fix translation bugs from testers' feedback
-- Release 1.0
-- Write detailed documentation and FAQ about this project (or make a video lmao)
+#### 🚩 Roadmap
+**v1.0.0:**
+- Translate UI elements
+- Translate phone menus
+- Change PSPMENU button UI language
+- Fix bugs and inconsistencies
+- Find a way to translate menu textures (Clear list, Movie/CG gallery, etc)
 
-#### Links to things and people in the order of their involvement/appearance:
-- Historical place of this patch: [GitHub](https://github.com/BASLQC/steins-gate-psp-patch), [wiki page](https://en.wikibooks.org/wiki/PSP/Steins_Gate_Translation)
-- Riku, the first person to make a PoC: [GBAtemp](https://gbatemp.net/members/riku.176570/)
-- Nysek, motivated me to continue the translation: [GitHub](https://github.com/Nysek/)
-- HoaiTrung97, more motivation straight from Japan: [GBAtemp](https://gbatemp.net/members/hoaitrung97.461220/)
-- ant08, the source of English translation: [Translation](http://tsuuun.blogspot.com/2012/01/happy-new-year-everyone-and-yeah-its.html), [Blog](http://tsuuun.blogspot.com/)
-- CommitteeOfZero, source of the subtitles for cutscenes, as well as translated backgrounds: [shgd-patch](https://github.com/CommitteeOfZero/sghd-patch), [GitHub](https://github.com/CommitteeOfZero), [Website](http://sonome.dareno.me/)
-- theryusui, help with decompressing/placebo-compressing KLZ files: [Tumblr](https://theryusui.tumblr.com/), [ROMhacking](https://www.romhacking.net/forum/index.php?action=profile;u=181)
+**v1.0.x:**
+- Fix bugs and inconsistencies
 
-yo, if I forgot someone, or if you want me change something about you here, just email me or create a github issue.
+#### 💿 ISO information
+Here are the MD5 hashes I ended up with:
+- Original ISO: `5ed76b04eac58b0e459bed06108eed74`
+- Patched ISO v0.9: `e633145a71669601aac23407df77fec0`
+
+If you don't have the same hashes before and/or after, then it most likely won't work for you.
+
+#### 🔨 Patching options
+**.exe** (recommended), created with [VPatch](https://www.tibed.net/vpatch/).
+1. Run Windows command prompt.
+2. Navigate using `cd` to the folder with the `Steins_Gate_PSP_English_Patch_vX.X.exe` inside it.
+3. Run `Steins_Gate_PSP_English_Patch_vX.X.exe <path_to_original_file> <patched_game.iso>`.
+4. The program will immediately throw you back into the command prompt. This is normal, it does all the work in the background. You can monitor its progress via Task Manager. Once it is done patching, the process will automatically terminate, leaving you with the ~1.2GB `<patched_game.iso>` file.
+
+**.xdelta** (will be dropped in the future, since it has unbelievably large patch file size).
+1. Get and run [Delta Patcher](https://www.romhacking.net/utilities/704/).
+2. Select the original ISO and the `Steins_Gate_PSP_English_Patch_vX.X.xdelta` file.
+3. Apply the patch.
+
+#### ❌ Bugs/Typos/Crashes
+There are plenty of each. That is exactly why there will be future patches with small bugfixes. You can contact me by using the means explained in the "[Contact](https://haselloyance.github.io/#contact)" section on my website. Or, specifically for this patch, the other way is to make a [new issue](https://github.com/HaselLoyance/steins-gate-psp-patch/issues).
+
+I kindly ask you to provide the conditions in which unexpected behavior occurs. Screenshots and references to story text are very welcome. Save data would be even better.
+
+#### 👀 People that made this work
+(In the order of their involvement in the project)
+- The original toolchain and information: [GitHub](https://github.com/BASLQC/steins-gate-psp-patch) and [BASLQC Wiki](https://en.wikibooks.org/wiki/PSP/Steins_Gate_Translation).
+- Riku, the first person to make a proof of concept and to develop a way to inject variable-length strings into the game. Consequently, the author of the above-mentioned toolchain. Their [GBAtemp](https://gbatemp.net/members/riku.176570/) profile and a [thread with related posts](https://gbatemp.net/threads/steins-gate-anyone-familiar-with-this-game-engine.346275/page-2#post-5065600).
+- Nysek, motivated me to continue work on my translation once I got the `.BIN` files decompiled/decompressed/extracted into Atlas scripts. Their [GitHub](https://github.com/Nysek/) profile.
+ - HoaiTrung97, more motivation for me straight from Japan. Shouted out this translation in one of their own projects. Their [GBAtemp](https://gbatemp.net/members/hoaitrung97.461220/) profile.
+- ant08, the source of the English translation. Unfortunately, I did not use their latest available version, since the links to all of them are dead. But hey, it still turned out very good. The [translation files](http://tsuuun.blogspot.com/2012/01/happy-new-year-everyone-and-yeah-its.html) I used and their [blog](http://tsuuun.blogspot.com/).
+- CommitteeOfZero, the source of the translated backgrounds, as well as translated/karaoke cutscenes. They have a thing on their [GitHub](https://github.com/CommitteeOfZero) called [sghd-patch](https://github.com/CommitteeOfZero/sghd-patch), which is an improvement over the stock Steam translation of the PC version. Check out their [website](http://sonome.dareno.me/) for more S;G-related projects.
+- theryusui, was of a huge help to me with the `.KLZ` compression/decompression. Practically they dug up their 5 year old version of the only decompressor in the entire world. Their [Tumblr](https://theryusui.tumblr.com/) and [Romhacking](https://www.romhacking.net/forum/index.php?action=profile;u=181) profile.
+
+#### 🎥 Video of how this patch was made
+Coming at some point in the near future
+
+#### 🖼️ Screenshots
+![](https://haselloyance.github.io/0_SGPSPE/pic1.jpg)
+![](https://haselloyance.github.io/0_SGPSPE/pic2.jpg)
+![](https://haselloyance.github.io/0_SGPSPE/pic3.jpg)
+![](https://haselloyance.github.io/0_SGPSPE/pic4.jpg)
+![](https://haselloyance.github.io/0_SGPSPE/pic5.jpg)
+![](https://haselloyance.github.io/0_SGPSPE/pic6.jpg)
+
+#### ⏬ Downloads
+Check [releases](https://github.com/HaselLoyance/steins-gate-psp-patch/releases).
+
+#### ☕ Maybe sponsor my coffee addiction?
+If you find my work interesting, then please feel free to sponsor my [coffee addiction](https://buymeacoff.ee/rwly8PutT) that is currently covered entirely by my ever-growing student loans.
