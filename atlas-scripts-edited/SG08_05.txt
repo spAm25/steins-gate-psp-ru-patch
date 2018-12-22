@@ -214,11 +214,11 @@ Ah, I see. No, that's exactly how it is, but...
 <END>
 
 #WRITE(PTR, $000006BE)
-【Kurisu】「ふむん。
+【Kurisu】Hmmm.
 <END2>
 
 #WRITE(PTR, $000006D8)
-Hmmm. So, conversely, if you just cancel the D-mails that activated "Reading Steiner", the IBN 5100 might come back to you.
+ So, conversely, if you just cancel the D-mails that activated "Reading Steiner", the IBN 5100 might come back to you.
 <END>
 
 #WRITE(PTR, $000006EC)

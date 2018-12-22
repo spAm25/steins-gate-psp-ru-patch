@@ -1531,6 +1531,7 @@ Mayuri's life hangs in the balance. There's no time to screw around.
 
 #WRITE(PTR, $00002FCC)
 【Kurisu】I don't think it has a deep meaning. Isn't it just because our little pretentious hipster bullshitter loves germane names?
+<END>
 
 #WRITE(PTR, $00002FDC)
 【Suzuha】Now that you mention it, most of the operation names in the Resistance had germane names too. Whenever I asked, they told me "it's a tradition".

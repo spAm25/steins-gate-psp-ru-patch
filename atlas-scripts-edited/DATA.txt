@@ -4296,7 +4296,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002DAC)
-Seems like Makise Kurisu's been stabbed.
+Someone stabbed Makise Kurisu.
 <END2>
 
 #WRITE(PTR, $00002DC4)
@@ -4308,7 +4308,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002DCC)
-Seems like Makise Kurisu's been stabbed. Maybe in danger.
+Someone stabbed Makise Kurisu. Looked bad.
 <END2>
 
 #WRITE(PTR, $00002DE4)
@@ -4320,7 +4320,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002DEC)
-Seems like Makise Kurisu's been stabbed. Maybe in danger. Maybe okay.
+Someone stabbed Makise Kurisu. Looked bad. Hope she's okay.
 <END2>
 
 #WRITE(PTR, $00002E04)
@@ -4332,7 +4332,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002E0C)
-Seems like Makise Kurisu's been stabbed by a man. Maybe in danger. Maybe okay.
+Someone stabbed Makise Kurisu. Don't know who. Looked bad. Hope she's okay.
 <END2>
 
 #WRITE(PTR, $00002E24)
@@ -4344,7 +4344,7 @@ Daru
 <END2>
 
 #WRITE(PTR, $00002E2C)
-Seems like Makise Kurisu's been stabbed by a man. Don't know who though. Maybe in danger. Maybe okay.
+Someone stabbed Makise Kurisu. Don't know what guy did it, though. Looked bad. Hope she's okay.
 <END2>
 
 #WRITE(PTR, $00002E44)
@@ -7905,11 +7905,11 @@ Wallpaper 3
 <END2>
 
 #WRITE(PTR, $000054C4)
-でぶっちょゲロカエルん
+Fatty Gero Froggy
 <END2>
 
 #WRITE(PTR, $000054CC)
-燃えろゲロカエルん
+Burning Gero Froggy
 <END2>
 
 #WRITE(PTR, $000054D4)
@@ -7921,31 +7921,31 @@ Metal Upa
 <END2>
 
 #WRITE(PTR, $000054E4)
-星来
+Seira
 <END2>
 
 #WRITE(PTR, $000054EC)
-星来覚醒後
+Seira After Awaking 
 <END2>
 
 #WRITE(PTR, $000054F4)
-ゲロカエルん
+Gero Froggy
 <END2>
 
 #WRITE(PTR, $000054FC)
-猫ゲロカエルん
+Cat Gero Froggy
 <END2>
 
 #WRITE(PTR, $00005504)
-牛ゲロカエルん
+Cow Gero Froggy
 <END2>
 
 #WRITE(PTR, $0000550C)
-ＦＥＳ
+FES
 <END2>
 
 #WRITE(PTR, $00005520)
-ＯＦＦ
+OFF
 <END2>
 
 #WRITE(PTR, $00005530)
@@ -7977,7 +7977,7 @@ GATE OF STEINER
 <END2>
 
 #WRITE(PTR, $000055A0)
-密教の首飾り
+The necklace of cabala
 <END2>
 
 #WRITE(PTR, $000055B0)
@@ -7989,7 +7989,7 @@ fake me
 <END2>
 
 #WRITE(PTR, $000055D0)
-罪過に契約の血を
+Give a deal the blood against the guilty
 <END2>
 
 #WRITE(PTR, $000055D8)

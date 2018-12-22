@@ -2080,11 +2080,11 @@ Burdened by a slight amount of sentimentality I start inputting words into the p
 <END>
 
 #WRITE(PTR, $000066EA)
-"Seems like Makise Kurisu's been stabbed by a man. Don't know who though. Maybe in danger. Maybe okay."
+"Someone stabbed Makise Kurisu. Don't know what guy did it, though. Looked bad. Hope she's okay."
 <END>
 
 #WRITE(PTR, $000066FA)
-I don't know the criminal's gender but for no reason I think that a man seems more realistic. It's just a guess though.
+I don't know the criminal's gender but for no reason I think that a guy seems more realistic. It's just a guess though.
 <END>
 
 #WRITE(PTR, $0000670A)

@@ -338,15 +338,15 @@ The mail is split in 3.
 <END>
 
 #WRITE(PTR, $00001ED4)
-The 1st one says 'Makise Kuris'
+The 1st one says "Someone stab"
 <END>
 
 #WRITE(PTR, $00001EE4)
-The 2nd one says 'u was stabbe'
+The 2nd one says "bed Makise K"
 <END>
 
 #WRITE(PTR, $00001EF4)
-The 3rd one says 'd by a man. Th'
+The 3rd one says "urisu. Don't"
 <END>
 
 #WRITE(PTR, $00001F04)

@@ -14,11 +14,11 @@
 <END2>
 
 #WRITE(PTR, $00000014)
-【Link of Corruption and Rebirth】 Ending
+【Link of Corruption】 Ending
 <END2>
 
 #WRITE(PTR, $00000016)
-【Irreversible Reboot】 Ending
+【Reversible Reboot】 Ending
 <END2>
 
 #WRITE(PTR, $00000018)
@@ -38,11 +38,11 @@
 <END2>
 
 #WRITE(PTR, $00000020)
-%CF8FF8【Link of Corruption and Rebirth】 Ending%CE
+%CF8FF8【Link of Corruption】 Ending%CE
 <END2>
 
 #WRITE(PTR, $00000022)
-%CF8FF8【Irreversible Reboot】 Ending%CE
+%CF8FF8【Reversible Reboot】 Ending%CE
 <END2>
 
 #WRITE(PTR, $00000024)
@@ -54,18 +54,18 @@
 <END2>
 
 #WRITE(PTR, $000002E2)
-EXTRA<LINE>%CFCFC8【CLEAR LIST】%CE<LINE>Now Accessable
+EXTRA<LINE>%CFCFC8【CLEAR LIST】%CE<LINE>Now Available
 <END2>
 
 #WRITE(PTR, $00000302)
-EXTRA<LINE>%CFCFC8【CG LIBRARY】%CE<LINE>Now Accessable
+EXTRA<LINE>%CFCFC8【CG LIBRARY】%CE<LINE>Now Available
 <END2>
 
 #WRITE(PTR, $00000322)
-EXTRA<LINE>%CFCFC8【SOUND LIBRARY】%CE<LINE>Now Accessable
+EXTRA<LINE>%CFCFC8【SOUND LIBRARY】%CE<LINE>Now Available
 <END2>
 
 #WRITE(PTR, $00000342)
-EXTRA<LINE>%CFCFC8【MOVIE LIBRARY】%CE<LINE>Now Accessable
+EXTRA<LINE>%CFCFC8【MOVIE LIBRARY】%CE<LINE>Now Available
 <FILEENDB6>
 

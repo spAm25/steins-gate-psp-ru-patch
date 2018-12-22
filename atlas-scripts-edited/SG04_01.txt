@@ -30,7 +30,7 @@ Chapter 4 【Chaos Theory Homeostasis】
 <LINE>
 %t052noun【Messiah】<LINE>
 %t052①In Christianity, a title for Jesus Christ.<LINE>
-%t052②One who brings salvation to mankind. Savior.LINE>
+%t052②One who brings salvation to mankind. Savior.<LINE>
 %t052③A person who serves as an escape from difficult situations.<LINE>
 %t052〈From Kojien Dictionary〉
 <ENDPANEL>
