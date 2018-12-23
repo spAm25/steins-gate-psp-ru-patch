@@ -2,7 +2,7 @@
 ![](https://haselloyance.github.io/0_SGPSPE/logo.jpg)
 *I am not going to lie, this worldline is decent enough. But this patch is going to make it better. El Psy Congroo.*
 
-Steins;Gate was released for PSP in 2011. This version of the game did not get much attention in the west, since it was only available only in Japanese. Until now. I present you the Steins;Gate PSP English Patch. Combined from bits and pieces of other translations for other platforms, it brings the English Steins;Gate experience to the PSP.
+Steins;Gate was released for PSP in 2011. This version of the game did not get much attention in the West, since it was available only in Japanese. Until now. I present you the Steins;Gate PSP English Patch. Combined from bits and pieces of other translations for other platforms, it brings the English Steins;Gate experience to the PSP.
 
 #### ✔️ Current version (v0.9)
 - Translated story scripts
