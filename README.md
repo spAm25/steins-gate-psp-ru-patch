@@ -17,6 +17,7 @@ Steins;Gate was released for PSP in 2011. This version of the game did not get m
 
 #### 🚩 Roadmap
 **v1.0.0:**
+- Fix all places where the text overflows from the text area (basically rebalance huge chunks of text). For now this "freezes" the game, but such places can be skipped by pressing "start" button once. You can check the backlog after the problematic place to see the full text. 
 - Translate UI elements
 - Translate phone menus
 - Change PSPMENU button UI language
