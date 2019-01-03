@@ -1529,7 +1529,7 @@ What's a time leap!? Moeka
 <END2>
 
 #WRITE(PTR, $000010E4)
-That’s
+That's
 <END2>
 
 #WRITE(PTR, $000010E8)
