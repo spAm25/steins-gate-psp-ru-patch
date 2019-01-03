@@ -386,11 +386,11 @@ Every time I was faced with Mayuri's death. What I thought was:
 <END>
 
 #WRITE(PTR, $000010F6)
-That was my calm analysis.
+That was my calm analysis. I would just mechanically confirm Mayuri's death, analyze what went wrong, listlessly think "Okay then, once more from the top".
 <END>
 
 #WRITE(PTR, $00001106)
-I would just mechanically confirm Mayuri's death, analyze what went wrong, listlessly think "Okay then, once more from the top", and press the game's reset button, doing everything over with a 26 hour Time Leap.
+Then I would press the game's reset button, doing everything over with a 26 hour Time Leap.
 <END>
 
 #WRITE(PTR, $00001116)
@@ -866,7 +866,7 @@ Kurisu is flustered for some reason.
 <END>
 
 #WRITE(PTR, $00002950)
-【Kurisu】If there's <DICT>ACTH</DICT> hypersecretion, and stochastic resonance occurs from gamma waves, we can assume that the Hilbert curve's Hausdorff dimension is ∞, that is, the asymptotic line can be measured with positron emission tomography...?
+【Kurisu】If there's <DICT>ACTH</DICT> hypersecretion, and stochastic resonance occurs from gamma waves, we can assume that the Hilbert curve's Hausdorff dimension is ∞...?
 <END>
 
 #WRITE(PTR, $00002960)

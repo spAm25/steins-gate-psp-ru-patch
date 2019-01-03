@@ -438,7 +438,7 @@ Data time travel... huh.
 <END>
 
 #WRITE(PTR, $0000199E)
-【Rintaro】Those guys are a heartless bunch who'd go so far as to do human experimentation. And behind the scenes, a powerful political power crossing through national framework has been rearing its head.
+【Rintaro】Those guys are a heartless bunch who'd go so far as to do human experimentation.
 <END>
 
 #WRITE(PTR, $000019AE)

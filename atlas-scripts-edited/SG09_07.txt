@@ -834,23 +834,23 @@ After that, the goods swap hands one after the other, transferring around the st
 <END>
 
 #WRITE(PTR, $00003D12)
-Yamate Line, Meguro Station → Nanboku Line, Nagata-cho Station → Yuraku-cho Line, Ikebukuro Station → Fukutoshin Line, Shinjuku-Sanchome Station → Toei Shinjuku Line, Kudanshita → Tozai Line, Kayabacho Station
+Yamate Line, Meguro Station → Nanboku Line, Nagata-cho Station → Yuraku-cho Line, Ikebukuro Station → Fukutoshin Line.
 <END>
 
 #WRITE(PTR, $00003D22)
-Whenever they gave me the slip, I would time leap and resume the chase.
+Shinjuku-Sanchome Station → Toei Shinjuku Line, Kudanshita → Tozai Line, Kayabacho Station.
 <END>
 
 #WRITE(PTR, $00003D32)
-And finally, the courier and the goods got aboard the Hibiya Line, and after so many twists and turns, they unexpectedly returned to Akihabara Station.
+Whenever they gave me the slip, I would time leap and resume the chase.
 <END>
 
 #WRITE(PTR, $00003DD2)
-I recognize the last courier.
+And finally, the courier and the goods got aboard the Hibiya Line, and after so many twists and turns, they unexpectedly returned to Akihabara Station.
 <END>
 
 #WRITE(PTR, $00003DE2)
-He's one of the men involved with Moeka's attack on the lab.
+I recognize the last courier. He's one of the men involved with Moeka's attack on the lab.
 <END>
 
 #WRITE(PTR, $00003DF2)

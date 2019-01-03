@@ -642,11 +642,11 @@ The several multicolored yarns intertwine into one fat twisted yarn.
 <END>
 
 #WRITE(PTR, $00001952)
-【Suzuha】They don't interfere. Each remains independent.
+【Suzuha】They don't interfere. Each remains independent. There's only one if you trace it back to the origin.
 <END>
 
 #WRITE(PTR, $00001962)
-【Suzuha】There's only one if you trace it back to the origin. Attractor fields do converge at a very macro level, but that spans hundreds of years. It's best to think of them as large divergences.
+【Suzuha】Attractor fields do converge at a very macro level, but that spans hundreds of years. It's best to think of them as large divergences.
 <END>
 
 #WRITE(PTR, $000019F2)
@@ -1106,7 +1106,7 @@ But now that I think about it, the first time I came in contact with Moeka was t
 <END>
 
 #WRITE(PTR, $0000259A)
-This is unthinkable information for people who dabble in conspiracy theories, but it doesn't seem like the other lab mems understand the meaning of Echelon. I'm the only one surprised.
+This is unthinkable information for people who dabble in conspiracy theories, but it doesn't seem like the other lab mems understand the meaning of Echelon.
 <END>
 
 #WRITE(PTR, $000025B4)

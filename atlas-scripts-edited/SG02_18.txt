@@ -603,7 +603,7 @@ Kurisu looks around inside the development room--
 <END>
 
 #WRITE(PTR, $0000339E)
-【Rintaro】You don't seem to know yet, so I'll tell you especially. These are our Future Gadget Laboratory's fruits of invention through scientific understanding, the glorious Future Gadgets!
+【Rintaro】You don't seem to know yet. These are our Future Gadget Laboratory's fruits of invention through scientific understanding, the glorious Future Gadgets!
 <END>
 
 #WRITE(PTR, $000033AE)
@@ -859,7 +859,7 @@ This assistant wholeheartedly wants to disprove the Microwave Ophone (Temp) = Ti
 <END>
 
 #WRITE(PTR, $000055C6)
-【Rintaro】After spending 120 seconds in the Microwave Ophone (Temp), the picked banana teleported back to the bunch, gelified. We should consider that it returned to its state 120 seconds ago.
+【Rintaro】After 120 seconds in the Microwave Ophone (Temp), the banana teleported back to the bunch, gelified. We should consider that it returned to its state 120 seconds ago.
 <END>
 
 #WRITE(PTR, $00005674)
@@ -895,11 +895,11 @@ Mayuri ate that Karaage that returned to its frozen state.
 <END>
 
 #WRITE(PTR, $00005B22)
-【Rintaro】After the discharge phenomenon occurred last time, we spent all night experimenting with cabbage, daikon, rice, konjac, melon pan, <DICT>GaruGari-kun</DICT>, and cup noodles. The results for all of them were "nothing happened".
+【Rintaro】After the last discharge phenomenon, we experimented with cabbage, daikon, rice, konjac, melon pan, <DICT>GaruGari-kun</DICT>, and cup noodles.
 <END>
 
 #WRITE(PTR, $00005B32)
-【Rintaro】That also applies to liquids. On that day, the experiment success rate changed 180 degrees before and after the discharge phenomenon.
+【Rintaro】The results for all of them were "nothing happened". That also applies to liquids. On that day, the experiment success rate took a turnabout.
 <END>
 
 #WRITE(PTR, $00005B42)

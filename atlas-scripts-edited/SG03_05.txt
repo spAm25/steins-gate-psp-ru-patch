@@ -226,11 +226,11 @@ But that doesn't matter right now.
 <END>
 
 #WRITE(PTR, $0000165E)
-【Rintaro】That reminds me, yesterday, because of a certain assistant, I was unable to announce the operation name, wasn't I? The serial D-mail experiments we performed from last night to today. Operation Urd consists of those--
+【Rintaro】Yesterday, because of a certain assistant, I was unable to announce the operation name. Operation Urd consists of serial D-mail--
 <END>
 
 #WRITE(PTR, $00001678)
-【Kurisu】The experiments had results
+【Kurisu】The experiments had results...
 <END>
 
 #WRITE(PTR, $00001688)
@@ -270,7 +270,7 @@ Mayuri's staring blankly with her mouth half open. Looks like she doesn't unders
 <END>
 
 #WRITE(PTR, $000017EE)
-The dozens of experimental mails we sent were received in three parts of 6 full width/12 half width letters each. And any text after the 18th-- for half width, the 36th-- would disappear.
+The dozens of experimental mails we sent were received in three parts of 12 half-width letters each. And any text after the 36th would disappear.
 <END>
 
 #WRITE(PTR, $000017FE)
@@ -374,7 +374,7 @@ Since Mayuri has a field of flowers for a brain, she doesn't even realize she's 
 <END>
 
 #WRITE(PTR, $00001AE8)
-【Kurisu】Perhaps it has the same problem as SERN's time machine. Since they can't fully control the lifter, they can't make the singular points perfectly naked, therefore limiting the sending capacity.
+【Kurisu】Perhaps it has the same problem as SERN's time machine. They can't make the singular points perfectly naked, therefore limiting the sending capacity.
 <END>
 
 #WRITE(PTR, $00001B02)
@@ -398,7 +398,7 @@ Thinking about data unit conversion is a really Daru thing to do.
 <END>
 
 #WRITE(PTR, $00001B70)
-【Kurisu】Sh-shut up. Lately, you don't see things measured in bytes, so I was just making sure....
+【Kurisu】Sh-shut up. Lately, you don't see things measured in bytes, so I was just making sure...
 <END>
 
 #WRITE(PTR, $00001B80)

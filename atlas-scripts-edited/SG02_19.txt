@@ -10,7 +10,7 @@ Now it's midnight.
 <END>
 
 #WRITE(PTR, $00000222)
-At 8 o'clock,the two of us silently ate cup noodles and warmed bananas-- Daru said he didn't want any-- and ever since then, we've been examining the Microwave Ophone (Temp).
+At 8 o'clock, the two of us silently ate cup noodles and warmed bananas and ever since then, we've been examining the Microwave Ophone (Temp).
 <END>
 
 #WRITE(PTR, $00000232)
@@ -42,15 +42,15 @@ Though, the trains might not be running at this time. She might not be able to g
 <END>
 
 #WRITE(PTR, $00000310)
-I want to tell her to go home before the last train, but...
+I want to tell her to go home before the last train, but... Don't tell me she plans to stay...!?
 <END>
 
 #WRITE(PTR, $00000320)
-Don't tell me she plans to stay...!?
+No girls have ever stayed over at the lab. Mayuri has a curfew, so she always goes back home to Ikebukuro.
 <END>
 
 #WRITE(PTR, $00000330)
-No girls have ever stayed over at the lab. Mayuri has a curfew, so she always goes back home to Ikebukuro. Daru and I frequently stay here, though. It's not an exaggeration to say we live here half the time.
+Daru and I frequently stay here, though. It's not an exaggeration to say that Daru and me live here half the time.
 <END>
 
 #WRITE(PTR, $000003DC)
@@ -175,7 +175,7 @@ She glares at the switchboard.
 <END>
 
 #WRITE(PTR, $00000F96)
-【Rintaro】Your father was originally a hero, but eventually, his body was stained with evil, and now he's an imperial leader wearing a black mask and a black cape, and he goes "koohhh heeeee" , right!? And in the future, you two are destined to fight and--
+【Rintaro】Your father was originally a hero, but now he's an imperial leader and he goes "koohhh heeeee", right!? And in the future, you two are destined to fight and--
 <END>
 
 #WRITE(PTR, $00000FA6)
@@ -506,7 +506,7 @@ Daru turns over the chair, allowing Kurisu to sit in front of the computer.
 <END>
 
 #WRITE(PTR, $00001B7E)
-【Kurisu】"The Z Program is a strictly confidential project spanning international borders, and, like electromagnetic wave study, has received recognition from the "Council of 300" as top priority research material."
+【Kurisu】"The Z Program is a confidential project across international borders, and has received recognition from the "Council of 300" as top priority research material."
 <END>
 
 #WRITE(PTR, $00001B8E)

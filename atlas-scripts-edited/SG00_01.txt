@@ -54,7 +54,7 @@ Tilting her head she calls my name.
 <END>
 
 #WRITE(PTR, $0000117A)
-Her facial expression holds the innocence of a middle school girl. She doesn't seem to understand that we're wading into enemy territory nor does she sense even a bit of the tension in the air.
+Her facial expression holds the innocence of a middle school girl. She doesn't understand that we're wading into enemy territory nor does she sense the tension in the air.
 <END>
 
 #WRITE(PTR, $00001190)
@@ -342,7 +342,7 @@ It's just like Mayuri says.
 <END>
 
 #WRITE(PTR, $00001C1C)
-I took a glimpse into the inner part of the assembly hall but I didn't see neither cameramen nor people that look like reporters not even one. When you consider that this is more like a presentation than a press conference.
+I took a glimpse into the inner part of the assembly hall but I didn't see neither cameramen nor people that look like reporters.
 <END>
 
 #WRITE(PTR, $00001C2C)
@@ -554,7 +554,7 @@ Obviously I will not find the answers by asking myself.
 <END>
 
 #WRITE(PTR, $00002672)
-While I'm hesitating on whether I should come closer to the mysterious object some people probably the staff of the Radio building and the press conference start to come here through the staircase.
+While I'm hesitating on whether I should come closer to the mysterious object the staff of the Radio building and the press conference start to come here.
 <END>
 
 #WRITE(PTR, $00002682)
@@ -1028,7 +1028,7 @@ Inside there was an article which said "Girl Genius Gives a Lecture in Akihabara
 <END>
 
 #WRITE(PTR, $00003AC4)
-This year's spring being only 17 she skipped several grades and graduated from an American university. On top of that her research was published in an American scientific magazine called "SCIENCE".
+This year being only 17 she skipped several grades and graduated from an American university. Moreover, her research was published in an American magazine called "SCIENCE".
 <END>
 
 #WRITE(PTR, $00003B36)
@@ -1504,7 +1504,7 @@ I do not have the alternative of leaving Mayuri behind.
 <END>
 
 #WRITE(PTR, $00004E74)
-This might be overprotective of me but I cannot have her leave my sight. She's like a little sister to me and when I ignore her there's the danger that she might wander off somewhere.
+This is overprotective of me but I cannot have her leave my sight. She's like a little sister to me and there's the danger that she might wander off somewhere.
 <END>
 
 #WRITE(PTR, $00004E84)

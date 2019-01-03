@@ -338,7 +338,7 @@ Well, looks like I have to give up on the particulars.
 <END>
 
 #WRITE(PTR, $00001312)
-【Rintaro】This shall become the first step in the war against the huge darkness manipulating the world from the shadows! The enemy is SERN! While they appear to be a global research institution, they are a wicked lot engaged in evil research!
+【Rintaro】This shall become the first step in the war against the darkness manipulating the world from the shadows! The enemy is SERN! They are a wicked lot engaged in evil research!
 <END>
 
 #WRITE(PTR, $00001330)

@@ -126,11 +126,11 @@ I'm terrified to have a genuine conspiracy before my eyes. So I don't quite unde
 <END>
 
 #WRITE(PTR, $0000059E)
-Kurisu points to part of the black and white photograph, her finger shaking slightly.
+Kurisu points to part of the black and white photograph, her finger shaking slightly. The corpse of a man who turned into a jellyman.
 <END>
 
 #WRITE(PTR, $000005FA)
-The corpse of a man who turned into a jellyman. At the top of his shoulder, perhaps printed on his clothes, you can see writing. It's fused onto the gelified body, but you can somehow manage to read it.
+At the top of his shoulder, perhaps printed on his clothes, you can see writing. It's fused onto the gelified body, but you can somehow manage to read it.
 <END>
 
 #WRITE(PTR, $00000652)
@@ -394,7 +394,7 @@ Kurisu ponders with an austere expression.
 <END>
 
 #WRITE(PTR, $00000E66)
-【Kurisu】It's a theoretical black hole predicted to exist. Its trait is the singular point that revolves in its core. It hasn't been proven to exist, and there's no way to prove it either, though.
+【Kurisu】It's a theoretical black hole predicted to exist. Its trait is the singular point that revolves in its core. It hasn't been proven to exist, and there's no way to prove it either.
 <END>
 
 #WRITE(PTR, $00000F04)
@@ -442,7 +442,7 @@ Kurisu silently shuts her eyes in thought.
 <END>
 
 #WRITE(PTR, $00001022)
-【Kurisu】The interior of a black hole doesn't have normal gravity. It's certainly possible that passing through there could allow time displacement, but there's no way a living human could pass through.
+【Kurisu】The interior of a black hole doesn't have normal gravity. It's possible that passing through it could allow time displacement, but there's no way a human could pass through.
 <END>
 
 #WRITE(PTR, $00001032)

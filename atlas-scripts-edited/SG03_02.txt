@@ -106,7 +106,7 @@ I decide to go channel surfing and see the usual topic on the news programs: the
 <END>
 
 #WRITE(PTR, $000008B4)
-【Reporter】Five days have passed in Akihabara since the satellite crash, but with the start of summer vacation season, crowds are gathering to get a glimpse of the satellite which was left as-is.
+【Reporter】Five days have passed in Akihabara since the satellite crash. The crowds are gathering to get a glimpse of the satellite which was left as-is.
 <END>
 
 #WRITE(PTR, $00000960)
@@ -1303,7 +1303,7 @@ Shining Finger is more qualified to type out mail, but since she's not a lab mem
 <END>
 
 #WRITE(PTR, $00005732)
-【Rintaro】Fuhahaha! Just leave opening and closing the microwave door to Hououin Kyouma! With the accuracy of God, the audacity of Asura, and the delicacy of handling women, shall I open and close this door!
+【Rintaro】Fuhahaha! Just leave opening and closing the microwave door to Hououin Kyouma! With the accuracy of God, the audacity of Asura, and the delicacy of handling women!
 <END>
 
 #WRITE(PTR, $0000574C)

@@ -38,11 +38,11 @@ By the way, about how Faris and I met despite MayQueen's nonexistence. Mayuri to
 <END>
 
 #WRITE(PTR, $000007EE)
-Mayuri and I accompanied Daru as he went to a small RaiNet AB tournament at a toy store in Ikebukuro, but he retired because of a stomach ache. Flustered, Mayuri and I ended up enlisting on the spur of the moment.
+Mayuri and I accompanied Daru as he went to a small RaiNet AB tournament at a toy store in Ikebukuro, but he retired because of a stomach ache.
 <END>
 
 #WRITE(PTR, $00000892)
-Our opponent was Faris.
+Flustered, Mayuri and I ended up enlisting on the spur of the moment. Our opponent was Faris.
 <END>
 
 #WRITE(PTR, $00000936)

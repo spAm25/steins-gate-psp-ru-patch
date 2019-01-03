@@ -66,7 +66,7 @@ Not half a month after it was established, Mayuri started staying here with an a
 <END>
 
 #WRITE(PTR, $000003A0)
-So from then until the start of Golden Week when I finally got Daru to change his mind by telling him the lab's a three minute walk from "MayQueen+Nyan⑯", nobody was in the lab except me and Mayuri.
+So from then until I finally got Daru to change his mind by telling him the lab's a three minute walk from "MayQueen+Nyan⑯", nobody was in the lab except me and Mayuri.
 <END>
 
 #WRITE(PTR, $000003B0)

@@ -234,7 +234,7 @@ When I urge her, Kurisu's still sour face turns red.
 <END>
 
 #WRITE(PTR, $00001BBC)
-【Rintaro】Well, whatever. I'll drop the topic so that you can concentrate on Time Leap Machine development. It's probably just a matter of time before the rest of the lab mems find the cat in the bag.
+【Rintaro】I'll drop the topic so that you can concentrate on Time Leap Machine development. It's just a matter of time before the rest of the lab mems find the cat in the bag.
 <END>
 
 #WRITE(PTR, $00001BD6)

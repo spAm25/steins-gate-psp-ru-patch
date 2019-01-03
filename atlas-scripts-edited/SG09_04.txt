@@ -1881,7 +1881,7 @@ But when she sees the magnitude of the shock to the door, the lady stares in won
 <END>
 
 #WRITE(PTR, $000071F8)
-I'm no longer holding the door back, so she could open it, but Moeka doesn't even seem to realize that. She's just so fixated on getting her phone back, she'd destroy her own door.
+I'm no longer holding the door, so she could open it, but Moeka doesn't realize that. She's just so fixated on getting to her phone, she'd destroy the door.
 <END>
 
 #WRITE(PTR, $00007208)

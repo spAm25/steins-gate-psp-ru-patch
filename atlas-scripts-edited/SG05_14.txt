@@ -206,11 +206,11 @@ I look at the improved Microwave Ophone (Temp) again.
 <END>
 
 #WRITE(PTR, $0000076A)
-The biggest improvement is the headgear attached to the X68000.
+The biggest improvement is the headgear attached to the X68000. It looks like some B-grade cyberpunk gimmick.
 <END>
 
 #WRITE(PTR, $0000077A)
-It looks like some B-grade cyberpunk gimmick. The pin jacks at the nape of the neck and the back of the head are unnecessary. The tip burying itself into the the skull is unnecessary.
+The pin jacks at the nape of the neck and the back of the head are unnecessary. The tip burying itself into the the skull is unnecessary.
 <END>
 
 #WRITE(PTR, $0000078A)
@@ -474,7 +474,7 @@ That's like a contortionist trick.
 <END>
 
 #WRITE(PTR, $00000CF2)
-【Kurisu】When the Time Leap Machine activates, the Kerr black hole effect breaks out, producing ring singularities at the same time. When the discharge phenomenon breaks out, the data the LHC compressed into 36 bytes + α returns--
+【Kurisu】When the Time Leap Machine activates, the Kerr black hole effect breaks out, producing ring singularities. Then the data the LHC compressed into 36 bytes + α returns--
 <END>
 
 #WRITE(PTR, $00000D10)
@@ -522,7 +522,7 @@ That's like a contortionist trick.
 <END>
 
 #WRITE(PTR, $00000DC0)
-【Kurisu】The area around the temple is placed near the frontal lobe and temporal lobe of the cerebrum, but like I said at first, the temporal lobe surrounds the hippocampus, where memories are stored.
+【Kurisu】The area around the temple is placed near the frontal lobe and temporal lobe. The temporal lobe surrounds the hippocampus, where memories are stored.
 <END>
 
 #WRITE(PTR, $00000DDE)
@@ -906,7 +906,7 @@ I'm the only one who recognizes that, though.
 <END>
 
 #WRITE(PTR, $0000181C)
-【Kurisu】If it's the many-worlds interpretation like Titor said, then the instant you time leap, the "possible" world line you forked off to and the original "possible" world line exist simultaneously.
+【Kurisu】If it's the many-worlds interpretation, then the instant you time leap, the "possible" world line you forked off to and the original "possible" world line exist simultaneously.
 <END>
 
 #WRITE(PTR, $0000182C)

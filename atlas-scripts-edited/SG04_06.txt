@@ -442,7 +442,7 @@ What's the cause for all traces of Moeka these four days after August 1 to disap
 <END>
 
 #WRITE(PTR, $0000139A)
-【Kurisu】According to Dr. Hawking's <DICT>chronology protection conjecture</DICT>, it's impossible to do things that can possibly cause time paradoxes in the first place.
+【Kurisu】According to Dr. Hawking's <DICT>chronology protection</DICT> conjecture, it's impossible to do things that can possibly cause time paradoxes.
 <END>
 
 #WRITE(PTR, $000013AA)
@@ -678,7 +678,7 @@ Mayuri peeks anxiously at my face. But I lightly push her aside.
 <END>
 
 #WRITE(PTR, $00001E88)
-【Rintaro】Tch, as long as I have this demon eye... the "Organization" will keep aiming for me...! It's the power to predict every world and age... but at the same time, it's a double-edged sword...!
+【Rintaro】Tch, as long as I have this demon eye... the "Organization" will keep aiming for me...! It's the power to predict every world and age...
 <END>
 
 #WRITE(PTR, $00001E98)

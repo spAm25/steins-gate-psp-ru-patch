@@ -238,7 +238,7 @@ The D-mail experiments so far have made that clear.
 <END>
 
 #WRITE(PTR, $00000E96)
-【Kurisu】Anyway, you can't control which possibilities you observe, so I don't know if the many worlds interpretation holds or not. But it's unreasonable to expect to arrive at the possibility where Mayuri doesn't die.
+【Kurisu】You can't control which possibilities you observe. It's unreasonable to expect to arrive at the possibility where Mayuri doesn't die.
 <END>
 
 #WRITE(PTR, $00000EA6)
@@ -414,7 +414,7 @@ That's true...
 <END>
 
 #WRITE(PTR, $000011C4)
-【Kurisu】You can do consecutive leaps. As long as the Time Leap Machine exists, that is. For example, if the Time Leap Machine doesn't break for ten years, then you could go back those ten years.
+【Kurisu】You can do consecutive leaps as long as the Time Leap Machine exists. If it doesn't break for ten years, then you could go back those ten years.
 <END>
 
 #WRITE(PTR, $000011D4)

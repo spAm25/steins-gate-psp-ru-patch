@@ -442,7 +442,7 @@ I ask them to protect her and tell several policemen the circumstances.
 <END>
 
 #WRITE(PTR, $000016EA)
-I desperately explain that Mayuri's going to be killed in a few hours, but they turned us away with the explanation that the police can't act without hard evidence that a stalker will cause damages.
+I desperately explain that Mayuri's going to be killed in a few hours, but they turned us away with the explanation that the police can't act without hard evidence.
 <END>
 
 #WRITE(PTR, $000016FA)

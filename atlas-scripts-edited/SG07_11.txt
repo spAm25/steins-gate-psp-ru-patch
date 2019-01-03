@@ -122,11 +122,11 @@ And they've surrounded us so we can't escape.
 <END>
 
 #WRITE(PTR, $00000B36)
-【４℃】By the way, your father's a guy who everyone in Akihabara knows, huh.
+【４℃】By the way, your father's a guy who everyone in Akihabara knows, huh. And so you pulled your connections at the RaiNet AB Grand Championships.
 <END>
 
 #WRITE(PTR, $00000B46)
-【４℃】And so you pulled your connections at the RaiNet AB Grand Championships so that the all the staff members would let you win. There are those sorts of rumors among RaiNetters, right?
+【４℃】Basically asking all the staff members to let you win. There are those sorts of rumors among RaiNetters, right?
 <END>
 
 #WRITE(PTR, $00000B56)

@@ -266,7 +266,7 @@ I take a deep breath while placing my hand to my brow and shaking my head lightl
 <END>
 
 #WRITE(PTR, $000029B8)
-【Rintaro】Scientific research knows not man nor woman. Correct? This lab is a sanctuary of scientific study. If you're going to speak of such vulgarities, then I'll have to ask you to please leave, Birthmark!
+【Rintaro】This lab is a sanctuary of scientific study. If you're going to speak of such vulgarities, then I'll have to ask you to please leave, Birthmark!
 <END>
 
 #WRITE(PTR, $000029C8)
@@ -719,11 +719,11 @@ I put my phone to my ear.
 <END>
 
 #WRITE(PTR, $0000428C)
-【Rintaro】...It's me. Things are getting a little dangerous. I, the dastardly mad scientist, Hououin Kyouma, have suffered a spiritual strike from the sisters: the birthmark girl and the optimistic girl.
+【Rintaro】...It's me. Things are getting a little dangerous. I, the mad scientist, Hououin Kyouma, have suffered a strike from the sisters: the birthmark girl and the optimistic girl.
 <END>
 
 #WRITE(PTR, $0000429C)
-【Rintaro】...Yeah, this is the highest class offensive ability I have experienced so far. I have come to realize that defenselessness itself is the strongest offense. ...Those girls seem increasingly serious. It's truly inexcusable.
+【Rintaro】...Yeah, this is the highest class offensive ability I have experienced so far. I have come to realize that defenselessness itself is the strongest offense.
 <END>
 
 #WRITE(PTR, $000042AC)

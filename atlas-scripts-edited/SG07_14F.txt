@@ -274,7 +274,7 @@ Mayuri talks intimately with her, but Kurisu just keeps reading with an unconcer
 <END>
 
 #WRITE(PTR, $00000A3A)
-I told the three of them that I'd explain later-- though I don't know if we'd get the opportunity, seeing as we're changing the past-- and head with Faris straight to the experiment room.
+I told the three of them that I'd explain later - though I don't know if we'd get the opportunity - and head with Faris straight to the experiment room.
 <END>
 
 #WRITE(PTR, $00000AE6)

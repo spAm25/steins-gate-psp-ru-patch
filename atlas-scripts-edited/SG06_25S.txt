@@ -710,15 +710,15 @@ To Kurisu.
 <END>
 
 #WRITE(PTR, $000019BE)
-I sent them each a handwritten letter.
+I sent them each a handwritten letter. I wonder if about now, they're all in an uproar at the lab.
 <END>
 
 #WRITE(PTR, $000019CE)
-I wonder if about now, they're all in an uproar at the lab.
+I also mailed letters to my parents, and my college friends, telling them to not look for me.
 <END>
 
 #WRITE(PTR, $000019DE)
-I also mailed letters to both my parents, and my college friends, telling them to not look for me. My parents will probably be sad. But this time, I'm not running away. I don't want to think I'm running away.
+My parents will be sad. But this time I'm not running away. I don't want to think I'm running away.
 <END>
 
 #WRITE(PTR, $00001AD0)

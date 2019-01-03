@@ -118,7 +118,7 @@ Am I just imagining that gleam in her eyes?
 <END>
 
 #WRITE(PTR, $000006EC)
-【Rintaro】Our Future Gadget Laboratory is in direct opposition of the dark organization that manipulates the world from the shadows, as we take action to destroy their ruling structure. Fuhahaha.
+【Rintaro】Our Future Gadget Laboratory is in opposition of the dark organization that controls the world from the shadows. We take action to destroy their ruling structure. Fuhahaha.
 <END>
 
 #WRITE(PTR, $000006FC)
@@ -226,7 +226,7 @@ Suzuha opens the Braun Tube Workshop door with a wry smile.
 <END>
 
 #WRITE(PTR, $000009C0)
-【Suzuha】I've got more free time than expected. I've gone outside 4 or 5 times today. I've been wondering if any customers would come, so I started to "perlustrate" the front of the store.
+【Suzuha】I've got more free time than expected. I've been wondering if any customers would come, so I started to "perlustrate" the front of the store.
 <END>
 
 #WRITE(PTR, $00000A5E)
@@ -326,11 +326,11 @@ That Manager occasionally disappears during business hours.
 <END>
 
 #WRITE(PTR, $00001470)
-I've asked him where he goes several times, but he'd always triumphantly answer I went to my beloved daughter's school to meet her or My beloved daughter caught a cold, so I nursed her.
+I've asked him where he goes, but he'd always answer "I went to my beloved daughter's school" or "My beloved daughter caught a cold, so I nursed her".
 <END>
 
 #WRITE(PTR, $00001514)
-Far from excessive care, he just dotes on her. I have no doubt that it's just annoying for his daughter. Anyway, just how irresponsible is he to neglect work to go meet his daughter?
+Far from excessive care, he just dotes on her. Anyway, just how irresponsible is he to neglect work to go meet his daughter?
 <END>
 
 #WRITE(PTR, $000015B8)

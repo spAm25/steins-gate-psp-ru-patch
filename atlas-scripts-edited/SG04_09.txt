@@ -70,7 +70,7 @@ And then after that, you would enter in numbers which would be displayed on the 
 <END>
 
 #WRITE(PTR, $00000792)
-Contemporary pagers in 1992 could still only send numbers. And since number display functions were also not yet implemented, the other person would automatically be unable to see your number.
+Pagers in 1992 could still only send numbers. And since number display functions were also not yet implemented, the other person would be unable to see your number.
 <END>
 
 #WRITE(PTR, $000007A2)
@@ -301,7 +301,7 @@ Now we just activate the Microwave Ophone (Temp) and have Lukako call.
 <END>
 
 #WRITE(PTR, $000020FC)
-The microwave timer is set to "154152#". With this, it'll reach around January 1, 1993. Measurement error is around 1~3 days, I guess. Leap year calculation's a pain, so I ignored it.
+The timer is set to "154152#". With this, it'll reach around January 1, 1993. Measurement error is around 1~3 days. Leap year calculation's a pain, so I ignored it.
 <END>
 
 #WRITE(PTR, $00002144)

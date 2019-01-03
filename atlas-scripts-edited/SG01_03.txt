@@ -6,7 +6,7 @@
 #JMP($00001AB2)
 
 #WRITE(PTR, $00000224)
-Upon opening the curtains in the middle of the Future Gadget Lab one can enter the heart of it - a super top secret research and development area which is off limits to unauthorized people.
+By opening the curtains in the middle of the Future Gadget Lab one can enter its heart - a super top secret research area which is off limits to unauthorized people.
 <END>
 
 #WRITE(PTR, $00000234)
@@ -50,11 +50,11 @@ I made it a rule for everyone to always wear it when in this room. It has ritual
 <END>
 
 #WRITE(PTR, $00000364)
-However Daru denies these customs of mine.
+However Daru denies these customs of mine. Apparently he doesn't want to go through the hassle of constantly taking it on and off.
 <END>
 
 #WRITE(PTR, $00000374)
-Apparently he doesn't want to go through the hassle of constantly taking it on and off. Even if he's interested in it he finds it too troublesome. Our generation is ridiculed because we have men like these among us.
+Even if he's interested in it he finds it too troublesome. Our generation is ridiculed because we have men like these among us.
 <END>
 
 #WRITE(PTR, $00000384)
@@ -95,7 +95,7 @@ Oh that? When you said "The plan" I thought it was something more important.
 <END>
 
 #WRITE(PTR, $000005AA)
-We went to the same high school together and now we're going to the same university. We have an undesired inseparable relationship. Though he only became a lab member about 2 months ago.
+We went to the same high school and now we're going to the same university. It's an undesired inseparable relationship, but he only became a lab member about 2 months ago.
 <END>
 
 #WRITE(PTR, $000005BA)
@@ -147,7 +147,7 @@ Though on the other hand the byproduct of this brainstorm was the successful cre
 <END>
 
 #WRITE(PTR, $000006E2)
-Most of these gadgets however are only accidents which were created without previous plans while we were in the middle of doing some researching. I guess you could call this <DICT>Serendipity</DICT>.
+Most of these gadgets are only accidents which were created without previous plans. I guess you could call this <DICT>Serendipity</DICT>.
 <END>
 
 #WRITE(PTR, $000006F2)
@@ -195,7 +195,7 @@ Now that I'm done looking through our past creations let's return to the problem
 <END>
 
 #WRITE(PTR, $000007F4)
-Due to it being completely tasteless I plan to change the name into something more refined thus the "(Temp)" part. By the way the one who gave it the "Microwave Ophone" name was not me but Mayuri.
+Due to it being tasteless I plan to change the name into something more refined, thus the "(Temp)" part. It was Mayuri who gave it the name "Microwave Ophone".
 <END>
 
 #WRITE(PTR, $00000804)
@@ -227,7 +227,7 @@ The "Microwave Ophone (Temp)" is a dream invention which allows remote control o
 <END>
 
 #WRITE(PTR, $00000874)
-Before leaving you can put food into the microwave and when you are close to coming back you can use your phone to remote control it and have the food warmed up and ready when you enter your home sweet home.
+Before leaving you can put food into the microwave. When you are close to coming back you can use your phone to remote control it and have the food warmed up when you enter your home.
 <END>
 
 #WRITE(PTR, $00000884)
@@ -527,11 +527,11 @@ The whole bunch is like that.
 <END>
 
 #WRITE(PTR, $000013F8)
-After Mayuri discovered that the Microwave Ophone (Temp) has a freezing function we made an experiment in which we tried to freeze a banana. For some reason the result was this weird thing.
+After Mayuri discovered that the Microwave Ophone (Temp) has a freezing function we made an experiment in which we tried to freeze a banana.
 <END>
 
 #WRITE(PTR, $00001408)
-We are becoming more and more confused about this.
+For some reason the result was this weird thing. We are becoming more and more confused about this.
 <END>
 
 #WRITE(PTR, $00001428)

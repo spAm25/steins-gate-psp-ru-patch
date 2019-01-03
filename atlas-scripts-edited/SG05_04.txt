@@ -198,7 +198,7 @@ No, maybe that yearning for her father's love was what gave birth to her genius.
 <END>
 
 #WRITE(PTR, $00000766)
-【Kurisu】I read the theses my father wrote, you know? They're not something an elementary student can possibly understand, but I examined them with all my life, desperately decoding them.
+【Kurisu】I read the theses my father wrote, you know? They're not something an elementary student can possibly understand, but I was desperately decoding them.
 <END>
 
 #WRITE(PTR, $00000776)

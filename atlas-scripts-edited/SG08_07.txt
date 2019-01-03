@@ -146,7 +146,7 @@ Uh, let's cut through this with Hououin Kyouma...
 <END>
 
 #WRITE(PTR, $00000ABA)
-【Rintaro】Naturally, as a mad scientist, what interests me, more than women, is research, the destruction of the ruling structures manipulating the world from the shadows, and the creation of chaos--
+【Rintaro】Naturally, as a mad scientist, what interests me more than women, is research, the destruction of the ruling structures, and the creation of chaos--
 <END>
 
 #WRITE(PTR, $00000AD4)
@@ -186,7 +186,7 @@ Christina's face warps oddly for just a second, but I didn't miss it.
 <END>
 
 #WRITE(PTR, $00000B82)
-【Rintaro】Look at that! You've spent all your time on study and research, so you have zero experience, don't you!? You spent lonely youthful days in faraway America land, didn't you!? Ehh!?
+【Rintaro】Look at you! You've spent all your time on study and research, so you have zero experience, don't you!? You spent lonely youthful days in America land! Ehh!?
 <END>
 
 #WRITE(PTR, $00000B9C)

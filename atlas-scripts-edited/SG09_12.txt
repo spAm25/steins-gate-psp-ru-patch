@@ -254,11 +254,11 @@ Mayuri isn't here, but that's more convenient.
 <END>
 
 #WRITE(PTR, $000027EA)
-【Rintaro】Using Echelon's cowardly electronic devices, they have stolen our classified information. Moreover, they plan to pillage our design, the time machine we developed which holds the dreams of mankind!
+【Rintaro】Using Echelon's cowardly electronic devices, they have stolen our classified information. Moreover, they plan to pillage our design, the time machine we developed!
 <END>
 
 #WRITE(PTR, $000027FA)
-【Rintaro】On the surface a research institution, underneath, aspiring for the seat of the ruler of space-time, they have carried out the cruel Jellyman experiments. Is now not the proper time to swing down the Hammer of Justice!?
+【Rintaro】On the surface a research institution, underneath, they have carried out the cruel Jellyman experiments. Isn't it time to swing down the Hammer of Justice!?
 <END>
 
 #WRITE(PTR, $0000280A)
@@ -266,7 +266,7 @@ Mayuri isn't here, but that's more convenient.
 <END>
 
 #WRITE(PTR, $0000281A)
-【Rintaro】When the sun sets upon the battlefield, the hidden structures that rule the world will finally crumble, and then be reconfigured! That's right, the chaos we wish upon the world will finally fall upon us!
+【Rintaro】When the sun sets upon the battlefield, the hidden structures that rule the world will finally crumble, and then be reconfigured!
 <END>
 
 #WRITE(PTR, $00002862)
@@ -550,7 +550,7 @@ Daru, squishing his large body behind the PC to work the wiring, wipes the sweat
 <END>
 
 #WRITE(PTR, $00003162)
-【Rintaro】Right. When I witnessed your death at Radio Kaikan, I sent Daru a D-mail explaining that. Daru just happened to be running an experiment on the Microwave Ophone (Temp), so the discharge phenom...en...on-
+【Rintaro】Right. I witnessed your death and sent Daru a D-mail. He just happened to be running an experiment on the Microwave Ophone (Temp), so the discharge phenom...en...on-
 <END>
 
 #WRITE(PTR, $0000324C)

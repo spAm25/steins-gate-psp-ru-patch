@@ -54,7 +54,7 @@ If the shops' geezers yell "Hey, kid! You're ten years too early for this!" and 
 <END>
 
 #WRITE(PTR, $000002D2)
-At present, the geezers don't seem like they'll yell at me. It's more like they're ignoring me. I feel broad-mindedness from them for allowing me to look without permission. Or maybe they're just annoyed at me.
+At present, the geezers don't seem like they'll yell at me. It's more like they're ignoring me. Or maybe they're just annoyed at me.
 <END>
 
 #WRITE(PTR, $000002E2)

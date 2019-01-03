@@ -602,7 +602,7 @@ So was that a dream or an illusion after all...?
 <END>
 
 #WRITE(PTR, $0000268C)
-【Rintaro】But it actually occurred. How can you deny what you saw with your own eyes? Are you saying theories are more correct than reality? Then just live out your whole life using sophistry and word play.
+【Rintaro】How can you deny what you saw with your own eyes? Are you saying theories are more correct than reality? Then just live out your life using sophistry and word play.
 <END>
 
 #WRITE(PTR, $0000269C)
@@ -978,7 +978,7 @@ I can clearly remember the smell of blood.
 <END>
 
 #WRITE(PTR, $000030B6)
-Well, that one time we talked was during the events of the illusion, so strictly speaking, at that point in time, the only information I had on the person named Makise Kurisu was that she had been published.
+That one time we talked was during the events of the illusion, so the only information I had on the person named Makise Kurisu was that she had been published.
 <END>
 
 #WRITE(PTR, $000030C6)

@@ -18,7 +18,7 @@ Not only the pedestrians.
 <END>
 
 #WRITE(PTR, $00000822)
-All the people in my field of vision have disappeared. This included the customers and employees of anime and electronics shops all the people eating in gyuudon chain stores and even the drivers along with their vehicles.
+This included the customers and employees of anime and electronics shops. The people eating in gyuudon chain stores, and even the drivers along with their vehicles.
 <END>
 
 #WRITE(PTR, $00000832)
@@ -210,15 +210,15 @@ Satellite...
 <END>
 
 #WRITE(PTR, $00000EDC)
-Before the beginning of Doctor Nakabachi's presentation there was a tremor similar to something caused by an explosion. The lock on the fire door to the roof was broken and surrounded by smoke and phosphoric light a satellite-shaped object was placed there.
+Before the beginning of Doctor Nakabachi's presentation there was a tremor similar to something caused by an explosion.
 <END>
 
 #WRITE(PTR, $00000EEC)
-Yes I surely saw that the object was 'placed'.
+The lock on the fire door to the roof was broken and surrounded by smoke and phosphoric light. A satellite-shaped object was placed there.
 <END>
 
 #WRITE(PTR, $00000EFC)
-However what I see now is completely different.
+Yes I surely saw that the object was "placed". However, what I see now is completely different.
 <END>
 
 #WRITE(PTR, $00000F0C)
@@ -453,7 +453,7 @@ Wondering if something happened Daru and Mayuri stare at me.
 <END>
 
 #WRITE(PTR, $000015C8)
-【Rintaro】Everything is being covered up by the Organization! If they can put pressure on the police then that means that they now hold this country in the palm of their hand... kuh how dreadful!
+【Rintaro】Everything is being covered up by the Organization! If they can put pressure on the police then they now hold this country in the palm of their hand... kuh how dreadful!
 <END>
 
 #WRITE(PTR, $000015D8)

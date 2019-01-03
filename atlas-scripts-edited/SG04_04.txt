@@ -163,11 +163,11 @@ Ignoring the danger to my body, it's not bad to have a means of making our grand
 <END>
 
 #WRITE(PTR, $00000998)
-But in that case, I'd rather choose a national newspaper or TV interviewer to cover the event rather than some shady, unknown editorial company. That way, it'll spread faster throughout Japan, nay, the world.
+But in that case, I'd rather choose a national newspaper or TV interviewer to cover the event rather than some shady, unknown editorial company.
 <END>
 
 #WRITE(PTR, $000009A8)
-Whichever way I choose, I don't feel like it's a good plan to use Moeka.
+That way, it'll spread faster throughout Japan, nay, the world. Whichever way I choose, I don't feel like it's a good plan to use Moeka.
 <END>
 
 #WRITE(PTR, $00000A8A)

@@ -30,6 +30,6 @@ Maybe she lost herself to her researcher urges.
 <END>
 
 #WRITE(PTR, $00000312)
-We found out various things, but we postpone the discussions for now, and have a meal. Daru and I leave the two girls to watch over the lab as we go shopping at the convenience store.
+We found out various things, but we postpone the discussions for now, and have a meal. Daru and I leave the two girls to watch over the lab as we go for groceries.
 <FILEEND61>
 

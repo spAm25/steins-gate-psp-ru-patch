@@ -934,7 +934,7 @@ When I look closely, her shoulders are shaking.
 <END>
 
 #WRITE(PTR, $000019EC)
-【Kurisu】No. That's absolutely illogical. That's not even an acceptable hypothesis. It's all groundless delusions. I just want to cut off the brain's ability to shoot out those good-for-nothing delusions.
+【Kurisu】No. That's absolutely illogical. That's not even an acceptable hypothesis. I just want to cut off the brain's ability to shoot out those good-for-nothing delusions.
 <END>
 
 #WRITE(PTR, $000019FC)

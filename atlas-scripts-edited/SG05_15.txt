@@ -678,7 +678,7 @@ But Mayuri's watching anxiously. I need to fulfill her request somehow or anothe
 <END>
 
 #WRITE(PTR, $00002D02)
-【Rintaro】Looks like neither of you guys wants to pull back, huh. Then fight each other to your heart's content. Fight, and fight, and fight to the bitter end! Then after that, share a manly handshake by the river and let friendship blossom!
+【Rintaro】Neither of you guys wants to pull back. Then fight each other to your heart's content. Then after that, share a manly handshake by the river and let friendship blossom!
 <END>
 
 #WRITE(PTR, $00002D12)

@@ -174,7 +174,7 @@ We haven't tested it out, so I'm not sure, though.
 <END>
 
 #WRITE(PTR, $0000129C)
-【Rintaro】Even if she does disappear, your memories one week ago and your current memories are continuous. Even if your memories are overwritten, nothing really happens to your memories before that week.
+【Rintaro】Even if she does disappear, your memories one week ago and your current memories are continuous.
 <END>
 
 #WRITE(PTR, $00001340)
@@ -350,7 +350,7 @@ If you sent your memories one week into the future, then that one week of future
 <END>
 
 #WRITE(PTR, $0000282C)
-【Rintaro】Also, just like how pagers became obsolete with the advent of cellphones, the cellphone may one day be replaced by some other new personal electronic device that explodes in popularity.
+【Rintaro】Also, just like how pagers became obsolete with the advent of cellphones, the cellphone may one day be replaced by some other new device.
 <END>
 
 #WRITE(PTR, $000028CA)
@@ -446,7 +446,7 @@ Mayuri's still talking about that.
 <END>
 
 #WRITE(PTR, $00002A8E)
-【Rintaro】Hehehe, I know that feeling. If you repeat elementary school with the knowledge you have now, you'll most likely get the top grades in school, and you'll easily handle your relationships too.
+【Rintaro】Hehehe, I know that feeling. If you repeat elementary school with the knowledge you have now, you'll most likely get the top grades in school.
 <END>
 
 #WRITE(PTR, $00002A9E)

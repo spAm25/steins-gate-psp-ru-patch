@@ -507,7 +507,7 @@ When we first discovered the abnormality of the Microwave Ophone (Temp), we look
 <END>
 
 #WRITE(PTR, $00000E60)
-【Kurisu】The microwaves generated are electromagnetic waves at a frequency of 2.45GHz. The microwave used in the Microwave Ophone is commercial grade, so its output is around 1500-2000W.
+【Kurisu】The generated waves are electromagnetic at a frequency of 2.45GHz. The microwave used in the Microwave Ophone outputs around 1500-2000W.
 <END>
 
 #WRITE(PTR, $00000E70)
@@ -515,7 +515,7 @@ When we first discovered the abnormality of the Microwave Ophone (Temp), we look
 <END>
 
 #WRITE(PTR, $00000E80)
-According to Kurisu, the problem with the Microwave Ophone (Temp) is that this microwave's electromagnetic waves, and the electromagnetic waves used in cellphone transmissions--
+According to Kurisu, the problem with the Microwave Ophone (Temp) is that its electromagnetic waves, and the electromagnetic waves used in cellphone transmissions--
 <END>
 
 #WRITE(PTR, $00000E90)
@@ -551,7 +551,7 @@ What happens when you fuse both of the waves?
 <END>
 
 #WRITE(PTR, $00000F18)
-【Kurisu】But hypothetically, if we think of the cellphone as a stepping stone, scattering the surrounding military-grade electromagnetic waves which can affect a vast range of hundreds of kilometers--
+【Kurisu】If we think of the cellphone as a stepping stone, scattering the surrounding electromagnetic waves which can affect a vast range of hundreds of kilometers--
 <END>
 
 #WRITE(PTR, $00000F28)
@@ -979,15 +979,15 @@ In the temporal lobe exists the parahippocampal gyrus, where all of a human's me
 <END>
 
 #WRITE(PTR, $00002060)
-But what exactly are memories?
+But what exactly are memories? Kurisu's thesis says that it's been analyzed from a neuroscientific perspective.
 <END>
 
 #WRITE(PTR, $00002070)
-Kurisu's thesis says that it's been analyzed from a neuroscientific perspective.
+All of the brain's functions manifest as electrical signals running through its neurons as nerve impulses.
 <END>
 
 #WRITE(PTR, $00002080)
-All of the brain's functions manifest as electrical signals running through its neurons as nerve impulses. That's why it can be said that even people's memories are engraved into the hippocampus by electrical signals.
+That's why it can be said that even people's memories are engraved into the hippocampus by electrical signals.
 <END>
 
 #WRITE(PTR, $00002090)
@@ -995,7 +995,7 @@ Kurisu analyzed how electrical signals corresponded to their counterpart memorie
 <END>
 
 #WRITE(PTR, $000020A0)
-The mechanism through which humans recall memories can be likened to a word association game. Even if the image to be recalled is broad and abstract, that seemingly becomes the key to finely detailing the image.
+The mechanism with which we recall memories is like a word association game. Even if the image to be recalled is broad, that becomes the key to finely detailing it.
 <END>
 
 #WRITE(PTR, $000020B0)
@@ -1003,11 +1003,11 @@ The mechanism through which humans recall memories can be likened to a word asso
 <END>
 
 #WRITE(PTR, $000020C0)
-Retrieval signals, which are necessary for memory recollection, seem to exist in an unexpectedly large number of varieties. Among hundreds of millions of nerve impulse patterns, thousands of signals are related to memory.
+Retrieval signals, which are necessary for memory recollection, seem to exist in an unexpectedly large number of varieties. Among hundreds of millions of nerve impulse patterns--
 <END>
 
 #WRITE(PTR, $000020D0)
-The analysis of all of those patterns was the result of Kurisu and her research team.
+--thousands of signals are related to memory. The analysis of all of those patterns was the result of Kurisu and her research team.
 <END>
 
 #WRITE(PTR, $000020E0)

@@ -234,7 +234,7 @@ Mayuri and Daru stare in wonder at my abrupt maniacal laughter.
 <END>
 
 #WRITE(PTR, $000012B8)
-【Rintaro】And thus, this great horizon upon which we have arrived, is the world in which our ambitions are made manifest! The structure of the world's control has been reset, and a future of chaos awaits!
+【Rintaro】And thus, this great horizon upon which we have arrived, is the world in which our ambitions are made manifest! The structure of the world's control has been reset!
 <END>
 
 #WRITE(PTR, $000012C8)

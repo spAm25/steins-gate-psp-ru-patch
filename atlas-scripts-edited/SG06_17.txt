@@ -798,7 +798,7 @@ Feels kind of weird.
 <END>
 
 #WRITE(PTR, $0000228A)
-【Suzuha】The only one who understand the mechanism is the maker himself. So if you want to know, you'll probably have to wait 11 years. If you do that, then he should figure it out himself.
+【Suzuha】The only one who understands the mechanism is the maker himself. You'll have to wait 11 years to know. If you do that, then he should figure it out himself.
 <END>
 
 #WRITE(PTR, $0000229A)
@@ -846,7 +846,7 @@ It just needs to be raised a mere 0.6％, so it seems simple enough.
 <END>
 
 #WRITE(PTR, $0000235E)
-But on the other hand, there are six digits after the decimal point. And when I consider that the meter doesn't have a tens place, I expect that raising the number is going to be difficult.
+Though there are six digits after the decimal point. Considering that the it doesn't have a tens place, I expect that raising the number is going to be hard.
 <END>
 
 #WRITE(PTR, $0000236E)

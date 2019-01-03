@@ -10,11 +10,11 @@ Part of the audience had already started forming a line in front of UPX an hour 
 <END>
 
 #WRITE(PTR, $000001FC)
-Since it's already the finals, I didn't think there would be many participants, but several casual players are participating in a general public tournament at the same time as, but unrelated to the finals.
+Since it's already the finals, I didn't think there would be many participants.
 <END>
 
 #WRITE(PTR, $0000020C)
-An appetizer, so to speak.
+But several casual players are participating in a general public tournament at the same time as, but unrelated to the finals.
 <END>
 
 #WRITE(PTR, $0000021C)
@@ -330,7 +330,7 @@ The tall man wrapped in matching black clothes walks up to us, grinning. Wheneve
 <END>
 
 #WRITE(PTR, $00003AB4)
-He dramatically takes off his sunglasses, revealing the face of that bald spot guy I got in trouble with before-- "six hours later" to be exact. If I'm not mistaken, he called himself ４℃ or something like that.
+He dramatically takes off his sunglasses, revealing the face of that bald spot guy I got in trouble with before. If I'm not mistaken, he called himself ４℃.
 <END>
 
 #WRITE(PTR, $00003BEC)
@@ -378,7 +378,7 @@ And he seems to hate Faris a lot, too.
 <END>
 
 #WRITE(PTR, $00004710)
-【４℃】The black cat is the sign of disaster. My black radiance will outshine your shadow, bringing about RaiNet's new generation. Women are already slaves to the living Rock Mind that is myself.
+【４℃】The black cat is the sign of disaster. My black radiance will outshine your shadow, bringing about RaiNet's new generation.
 <END>
 
 #WRITE(PTR, $00004732)

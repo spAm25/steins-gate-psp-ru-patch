@@ -617,7 +617,7 @@ Nakabachi makes an overemphasized nod.
 <END>
 
 #WRITE(PTR, $00002146)
-【Nakabachi】The thesis concerns humanity's first ever realization of time travel, understand!? Time travel! I, Doctor Nakabachi, am the first in the entire world to have successfully developed it!
+【Nakabachi】The thesis concerns humanity's first realization of time travel, understand!? I, Doctor Nakabachi, am the first in the entire world to have successfully developed it!
 <END>
 
 #WRITE(PTR, $00002156)
@@ -641,7 +641,7 @@ The document Kurisu put together about time travel.
 <END>
 
 #WRITE(PTR, $000021A6)
-【Nakabachi】In here! Packed in here are the dreams of humanity I have put together! Before long, I plan to announce it to the scientific society. Then, all of humanity will be in fear, and finally praise my name!
+【Nakabachi】Packed in here are the dreams of humanity! I plan to announce it to the scientific society. Then, all of humanity will be in fear, and praise my name!
 <END>
 
 #WRITE(PTR, $000021B6)

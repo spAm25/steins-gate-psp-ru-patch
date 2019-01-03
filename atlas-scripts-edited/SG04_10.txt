@@ -78,7 +78,7 @@ Mm, no good, you're thinking negatively.
 <END>
 
 #WRITE(PTR, $00001344)
-【Rintaro】That Microwave Ophone (Temp) will someday be improved so that humans may use it to send things not only into the past, but also towards the future. I'll improve it. No, I must improve it!
+【Rintaro】That Microwave Ophone (Temp) will someday be improved so that humans may use it to send things towards the future. I'll improve it. No, I must improve it!
 <END>
 
 #WRITE(PTR, $000013E8)
@@ -442,11 +442,11 @@ But SERN's Jellymanned subjects physically transferred way back to 1921...
 <END>
 
 #WRITE(PTR, $0000333A)
-The strict definition of time, similar to the question of where is self, is an eternal theme for humanity. Countless scholars of world renown have left this question unanswered. There's no way we can answer it.
+The strict definition of tim is an eternal theme for humanity. Countless scholars of world renown have left this question unanswered.
 <END>
 
 #WRITE(PTR, $0000334A)
-With that said--
+There's no way we can answer it. With that said--
 <END>
 
 #WRITE(PTR, $000033BA)

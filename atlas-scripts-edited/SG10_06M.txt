@@ -534,7 +534,7 @@ Mayuri waggles her head back and forth while biting her lip.
 <END>
 
 #WRITE(PTR, $000013B6)
-【Rintaro】...Are you disillusioned, Mayuri? Sorry, but I'm a man who's perfectly fine with sacrificing his comrades. Consequently, even if you say you don't want to go to the β world line, I don't intend to comply.
+【Rintaro】...Are you disillusioned, Mayuri? Sorry, but I'm a man who's perfectly fine with sacrificing his comrades.
 <END>
 
 #WRITE(PTR, $000013C6)

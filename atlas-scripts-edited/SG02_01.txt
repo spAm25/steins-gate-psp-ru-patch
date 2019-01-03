@@ -115,7 +115,7 @@ She never showed her face here again.
 <END>
 
 #WRITE(PTR, $000006E2)
-As for Mayuri, she was downhearted about her karaage and bananas, so she skipped her daily routine of making costumes and went home. She might be holding a grudge over food.
+Mayuri was downhearted about her karaage and bananas, so she skipped her daily routine of making costumes and went home. She might be holding a grudge over food.
 <END>
 
 #WRITE(PTR, $000006F2)
@@ -123,7 +123,7 @@ So, Daru and I are left in the lab.
 <END>
 
 #WRITE(PTR, $0000070E)
-Our enthusiasm shot through the roof once we learned that the Microwave Ophone (Temp) was hiding tremendous possibilities, and once we witnessed first-hand a mail sent back into the past.
+Our enthusiasm shot through the roof after we learned that the Microwave Ophone (Temp) was hiding such possibilities, and we witnessed a mail sent back into the past.
 <END>
 
 #WRITE(PTR, $0000071E)
@@ -540,7 +540,7 @@ He goes to the computer's My Pictures folder and opens a folder seriously called
 <END>
 
 #WRITE(PTR, $00001952)
-【Itaru】SERN is the world's largest particle physics research institution. It's popularly called the "European laboratory for particle physics", or the "European Organization for Nuclear Research".
+【Itaru】SERN is the world's largest particle physics research institution. It's popularly called the "European laboratory for particle physics".
 <END>
 
 #WRITE(PTR, $0000196E)
@@ -644,7 +644,7 @@ Did his "prediction" concerning SERN come true?
 <END>
 
 #WRITE(PTR, $00001C4A)
-【Itaru】Let's say mini-black holes were formed. Since the amount of energy would by extremely minuscule, the moment they're formed, they disappear. It's completely impossible for them to swallow the world.
+【Itaru】Assume mini-black holes are formed. The amount of energy would be extremely small, so the moment they're formed, they disappear. It's impossible for them to swallow the world.
 <END>
 
 #WRITE(PTR, $00001C5A)

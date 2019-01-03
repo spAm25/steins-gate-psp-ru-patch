@@ -206,7 +206,7 @@ Hmm, here's where I, as Lukako's master, ought to help out.
 <END>
 
 #WRITE(PTR, $00000EB8)
-【Rintaro】She sacrificed her sleeping time, her favorite banana nourishment time, and her juicy karaage number one warming time just so she could sew and sew and sew with her needle and thread, and her sewing machine.
+【Rintaro】She sacrificed her sleeping time, her banana nourishment time, and her juicy karaage number one warming time just so she could sew with her needle, thread, and her sewing machine.
 <END>
 
 #WRITE(PTR, $00000EC8)
@@ -574,7 +574,7 @@ Lukako puts his hands together in front of his waist and bends his head slightly
 <END>
 
 #WRITE(PTR, $00002906)
-His bashfully squirming appearance with wet, upturned eyes would make anyone who saw him either hnng and want to hug him real tight or smack him upside the head. It's that goddamn powerful.
+His squirming appearance with wet, upturned eyes would make anyone who saw him either hnng and want to hug him real tight. It's that goddamn powerful.
 <END>
 
 #WRITE(PTR, $00002916)

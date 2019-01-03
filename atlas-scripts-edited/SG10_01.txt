@@ -498,15 +498,15 @@ That last day.
 <END>
 
 #WRITE(PTR, $00002308)
-I go with Mayuri to the event grounds from morning till the end.
+I go with Mayuri to the event grounds from morning till the end. Though all I did was carry Mayuri's bags.
 <END>
 
 #WRITE(PTR, $00002318)
-Though all I did was carry Mayuri's bags.
+It's not really my thing, and the crowd was dreadful, so I just spaced out in the corner.
 <END>
 
 #WRITE(PTR, $00002328)
-It's not really my thing, and the crowd was dreadful, so I just spaced out in the corner. Occasionally, Mayuri and I would go back for food and drink, but otherwise, I spent the day alone.
+Occasionally, Mayuri and I would go back for food and drink, but otherwise, I spent the day alone.
 <END>
 
 #WRITE(PTR, $00002338)

@@ -38,7 +38,7 @@ Overwhelmed by surprise, I quickly face the direction of the voice...
 <END>
 
 #WRITE(PTR, $00000C0C)
-【Rintaro】The genius who had her article published in "SCIENCE"... The S woman who tortures men in front of an audience... And the one who holds the name of "The Resurrected One The Zombie"...
+【Rintaro】The genius who had her article published in "SCIENCE"... The woman who tortures men in front of an audience... And the one who holds the name of "The Zombie"...
 <END>
 
 #WRITE(PTR, $00000C1C)
@@ -666,7 +666,7 @@ It sounds like something from a Hollywood movie, so I thought it fits the atmosp
 <END>
 
 #WRITE(PTR, $000067CE)
-【Rintaro】I will have you write an oath in which you will promise to never expose our secrets to outsiders. If you break that promise, I will report to the "SCIENCE" magazine that you're a lewd pervert.
+【Rintaro】You will write me an oath in which you will promise to never expose our secrets. If you break that promise, I will report you to the "SCIENCE" magazine as a lewd pervert.
 <END>
 
 #WRITE(PTR, $0000687C)
@@ -842,11 +842,11 @@ She puts on an air of disappointment.
 <END>
 
 #WRITE(PTR, $00007B5C)
-In the end, I had to be the one to explain it all. When I tried to do my usual displays, she told me to "stop derailing", so I spoke about the Microwave Ophone's (Temp) and the banana's relationship without a shred of falsehood.
+In the end, I had to be the one to explain it all. When I tried to do my usual displays, she told me to "stop derailing".
 <END>
 
 #WRITE(PTR, $00007B6C)
-As expected of a genius, she didn't ask a single question.
+I spoke about the Microwave Ophone's (Temp) and the banana's relationship without a shred of falsehood. As expected of a genius, she didn't ask a single question.
 <END>
 
 #WRITE(PTR, $00007C1E)
@@ -1566,7 +1566,7 @@ As if not to miss any abnormality.
 <END>
 
 #WRITE(PTR, $0000917C)
-If these are the right conditions, then sending an email to my phone connected to the Microwave Ophone (Temp) would cause the time-stamp of that mail be the past, not the present.
+If the conditions are right, then sending an email to my phone connected to the Microwave Ophone (Temp) will cause the time-stamp of that mail to be the past.
 <END>
 
 #WRITE(PTR, $0000918C)
@@ -1946,11 +1946,11 @@ I throw an overpowering gaze at everyone.
 <END>
 
 #WRITE(PTR, $0000A398)
-This very moment will be recorded as the moment when the experiment of the century has succeeded, and mankind has advanced a huge step. This is a day which will create history.
+This very moment will be recorded as the moment when the experiment of the century has succeeded, and mankind has advanced a huge step.
 <END>
 
 #WRITE(PTR, $0000A3A8)
-These buffoons do not have the right to ruin that.
+This is a day which will create history. These buffoons do not have the right to ruin that.
 <END>
 
 #WRITE(PTR, $0000A3B8)

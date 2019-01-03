@@ -418,7 +418,7 @@ All seats inside are filled with male customers, so Mayuri would sit at an occup
 <END>
 
 #WRITE(PTR, $00002EBC)
-All of the Sanbists-- regular customers who love Sanbo-- would see Mayuri's appearance at Sanbo, and keep posting comments online like The goddess descends! or Goddess FTW!.
+All of the Sanbists - regular customers who love Sanbo - would see Mayuri's appearance at Sanbo, and keep posting comments online like "The goddess descends!"
 <END>
 
 #WRITE(PTR, $00002F7A)

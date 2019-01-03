@@ -142,7 +142,7 @@ Daru gulps down his saliva.
 <END>
 
 #WRITE(PTR, $000004EA)
-【Rintaro】If my guess is correct, the Microwave Ophone (Temp) has the potential to become a powerful weapon of mass destruction. If we were to use it for military purposes, we can rewrite the history of war. Kukuku.
+【Rintaro】The Microwave Ophone (Temp) has the potential to become a powerful weapon of mass destruction. We can rewrite the history of war. Kukuku.
 <END>
 
 #WRITE(PTR, $000004FA)

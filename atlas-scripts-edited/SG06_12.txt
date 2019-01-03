@@ -798,7 +798,7 @@ I don't have time to leisurely explain things.
 <END>
 
 #WRITE(PTR, $00001D04)
-Leaving the Time Leap Machine settings to Kurisu, I head downstairs to the Braun Tube Workshop, kick the door open, and turn on the 42in Braun tube TV. The Workshop door broke fairly easily.
+Leaving the Time Leap Machine settings to Kurisu, I head downstairs to the Braun Tube Workshop, kick the door open, and turn on the 42in Braun tube TV.
 <END>
 
 #WRITE(PTR, $00001D14)

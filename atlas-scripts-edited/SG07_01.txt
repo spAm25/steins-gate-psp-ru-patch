@@ -578,7 +578,7 @@ Because it's already over.
 <END>
 
 #WRITE(PTR, $000012D2)
-【Rintaro】For an insane mad scientist such as myself, there is no such thing as overwork. For these gray brain cells of mine, having an IQ of 170, are always cranking out perfect calculations.
+【Rintaro】For an insane mad scientist there is no such thing as overwork. For these brain cells of mine, having an IQ of 170, are always cranking out perfect calculations.
 <END>
 
 #WRITE(PTR, $000012EC)

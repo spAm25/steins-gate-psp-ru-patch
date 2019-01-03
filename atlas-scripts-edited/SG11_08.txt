@@ -226,7 +226,7 @@ He's truly a brave disciple.
 <END>
 
 #WRITE(PTR, $00001034)
-【Rintaro】But you must still remain prepared. Your next goal is to inherit the true form of the "Seishin Zanma" style. When you master that, the sealed flames of evil burning within you will have nothing left to burn.
+【Rintaro】Your next goal is to inherit the true form of the "Seishin Zanma". When you master that, the sealed flames of evil burning within you will have nothing left to burn.
 <END>
 
 #WRITE(PTR, $00001044)
@@ -442,7 +442,7 @@ About a month ago, Faris went to the "RaiNet Access Battlers" tournament.
 <END>
 
 #WRITE(PTR, $00001666)
-Originally she was the one in charge of Akihabara's redevelopment. A high school girl. President of the company founded by her father, head of the Akiba family. A popular maid at a maid cafe.
+Originally she was the one in charge of Akihabara's redevelopment. A high school girl. President of the company founded by her father. A popular maid at a maid cafe.
 <END>
 
 #WRITE(PTR, $00001676)
@@ -1090,7 +1090,7 @@ Anyway, since it's Daru, if he were to learn that truth--
 <END>
 
 #WRITE(PTR, $00002AD8)
-【Itaru】Who's the girl who becomes my wife? I personally hope she has a loli face with tiny breasts, blonde hair in twintails, a tsundere personality, and when she's in dere mode, she's a very dependent sexy girl. Uhe, uhehe
+【Itaru】Who's my future wife? I personally hope she has a loli face, a tsundere personality, and when she's dere, she's a very dependent sexy girl. Uhe, uhehe
 <END>
 
 #WRITE(PTR, $00002AE8)
@@ -1262,7 +1262,7 @@ The screen immediately returned to the studio, where a female announcer continue
 <END>
 
 #WRITE(PTR, $0000337A)
-【Reporter】I repeat. Russian emigrant, Doctor Nakabachi, otherwise known as Makise Shouichi, upon arrival at Domodedovo International Airport in Moscow, was restrained by Russian authorities.
+【Reporter】I repeat. Russian emigrant, Doctor Nakabachi, otherwise known as Makise Shouichi, upon arrival at airport in Moscow, was restrained by Russian authorities.
 <END>
 
 #WRITE(PTR, $0000338A)
@@ -1306,7 +1306,7 @@ So, without a doubt, Kurisu is still alive, but I haven't contacted her nor gone
 <END>
 
 #WRITE(PTR, $00003596)
-Currently, Kurisu and I have no relationship beyond exchanging a few words at Radio Kaikan. And I was hospitalized in the first place, so I couldn't go meet her even if I wanted to.
+Currently, Kurisu and I have no relationship beyond exchanging a few words at Radio Kaikan. And I was hospitalized, so I couldn't go meet her even if I wanted to.
 <END>
 
 #WRITE(PTR, $000035A6)

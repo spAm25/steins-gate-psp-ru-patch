@@ -146,7 +146,7 @@ When I returned to the lab, I set things up so I could time leap at any time, bu
 <END>
 
 #WRITE(PTR, $00000CAC)
-Mayuri, who just got back to the lab from ComiMa 30 minutes ago, and Kurisu, who was watching over the lab, finish eating their cup noodle dinner. Now Mayuri's lecturing about ComiMa.
+Mayuri, who just got back to the lab from ComiMa 30 minutes ago, and Kurisu, who was watching over the lab, finish eating their cup noodle dinner.
 <END>
 
 #WRITE(PTR, $00000CBC)
@@ -930,7 +930,7 @@ Three days have passed since then.
 <END>
 
 #WRITE(PTR, $000029EC)
-As a result of slowly moving back to the original world line, Mayuri's death somehow gets pushed back day by day. That meant Moeka's attack was getting pushed back day by day.
+As a result of slowly moving back to the original world line, Mayuri's death gets pushed back day by day. That meant Moeka's attack was getting pushed back day by day.
 <END>
 
 #WRITE(PTR, $000029FC)

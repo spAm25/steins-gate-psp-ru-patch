@@ -250,7 +250,7 @@ I might not get points if this keeps up so I think I'll have some restraint now.
 <END>
 
 #WRITE(PTR, $00000B64)
-【Kurisu】For example if a person was to go to the Haneda airport and boarded a plane heading towards Okinawa he upon arriving the destination would be about 1 hundred millionth part of a second in front of me in the future.
+【Kurisu】For example, if a person was to go to the airport and board a plane heading towards Okinawa, upon arrival they would be about 1 hundred millionth of a second in the future.
 <END>
 
 #WRITE(PTR, $00000B74)
@@ -266,7 +266,7 @@ What does that mean?
 <END>
 
 #WRITE(PTR, $00000BBE)
-【Kurisu】If he was to run for 24 hours the amount of time that would affect the surroundings would be 48 hours and that is something that we can call "leaping 1 day into the future" Hououin Kyouma-san.
+【Kurisu】If they were to run for 24 hours the effect on the surroundings would be 48 hours and can be called "leaping 1 day into the future" Hououin Kyouma-san.
 <END>
 
 #WRITE(PTR, $00000BCE)
@@ -386,7 +386,7 @@ But does something like that really exist?
 <END>
 
 #WRITE(PTR, $00000ED2)
-【Kurisu】Since it has extremely large mass it has the ability to distort space-time. If you were to attempt a full rotation within that distortion in the cosmic string you might rotate less than 360°
+【Kurisu】Since it has extremely large mass it has the ability to distort space-time. If you were to attempt a full rotation in the cosmic string you might rotate less than 360°
 <END>
 
 #WRITE(PTR, $00000FAC)
@@ -402,15 +402,15 @@ But does something like that really exist?
 <END>
 
 #WRITE(PTR, $00001062)
-【Kurisu】According to the theory of relativity the time of the cosmic string becomes slower than the time of the surroundings. Passing through the distorted angle deficit area would make the time passage which was originally 0 become negative.
+【Kurisu】According to the theory of relativity the time of the cosmic string becomes slower than the time of the surroundings. Passing through the distorted angle deficit area would make the time passage become negative.
 <END>
 
 #WRITE(PTR, $00001072)
-【Kurisu】Thus after the passage the direction in which time goes is the 'past'.
+【Kurisu】Thus after the passage the direction in which time goes is the "past". So with the use of 2 cosmic strings a space deficit jump can occur.
 <END>
 
 #WRITE(PTR, $00001082)
-【Kurisu】So with the use of 2 cosmic strings a space deficit jump can occur. If an object was to travel within that space deficit towards one location and then back to the original spot it would return at the same time at which it entered.
+【Kurisu】If an object was to travel within that space deficit towards one location and then back to the original spot it would return at the same time at which it entered.
 <END>
 
 #WRITE(PTR, $00001092)
@@ -426,7 +426,7 @@ But does something like that really exist?
 <END>
 
 #WRITE(PTR, $000010CA)
-【Kurisu】1: Cosmic strings 2 of them. Oh by the way they are hypothesized to only exist in the space where the universe was first formed so they might be a little hard to find.
+【Kurisu】1: Cosmic strings, 2 of them. And they are hypothesized to only exist in the space where the universe was first formed, so they might be a little hard to find.
 <END>
 
 #WRITE(PTR, $000010DA)
@@ -434,7 +434,7 @@ But does something like that really exist?
 <END>
 
 #WRITE(PTR, $0000110C)
-【Kurisu】Well I wonder what amount of energy would be sufficient to move a crevice the length of a galaxy at the speed of light... At the very least I'm pretty certain that it would be more than <DICT>1.21 jigowatts</DICT>
+【Kurisu】I wonder what amount of energy is required to move a crevice the length of a galaxy at the speed of light... I'm certain that it would be more than <DICT>1.21 jigowatts</DICT>.
 <END>
 
 #WRITE(PTR, $0000111C)
@@ -542,7 +542,7 @@ After saying that Kurisu opens her hand.
 <END>
 
 #WRITE(PTR, $00001454)
-【Kurisu】With the use of exotic matter the wormhole would be stabilized and allow the possibility of teleportation. However there's another step required if you want to use them for time travel.
+【Kurisu】With the use of exotic matter the wormhole would be stabilized and allow the possibility of teleportation. However there's another step required.
 <END>
 
 #WRITE(PTR, $0000146C)
@@ -723,7 +723,7 @@ Really? I doubt that it's that serious though.
 <END>
 
 #WRITE(PTR, $0000184C)
-【Kurisu】The appearance of a contradiction would mean the collapse of the principle of causality the crumble of the theory of relativity and even the breakdown of all the laws of physics.
+【Kurisu】Such contradiction would mean the collapse of the principle of causality, the crumble of the theory of relativity and even the breakdown of all the laws of physics.
 <END>
 
 #WRITE(PTR, $0000185C)

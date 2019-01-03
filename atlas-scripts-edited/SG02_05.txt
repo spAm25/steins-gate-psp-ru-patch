@@ -550,7 +550,7 @@ After a short meal break, Daru taps on his keyboard more nimbly than before.
 <END>
 
 #WRITE(PTR, $00002D72)
-【Itaru】In short, if the password belonged to a SERN server manager, then we could lick the entirety of SERN's body and see whatever we wanted, but if it's just an ordinary researcher's password, then we could only see its boobs, or something like that.
+【Itaru】If it's a server manager's password, then we could lick the entirety of SERN's body, but if it's an ordinary researcher, then we could only see its boobs.
 <END>
 
 #WRITE(PTR, $00002D82)
@@ -1127,7 +1127,7 @@ After that, Daru spends about 15 minutes fishing through the accelerator divisio
 <END>
 
 #WRITE(PTR, $00004098)
-【Itaru】Words like accelerator technical committee, and LHC project official came out, so I guess we should look for an ID from there. Maybe we can get more detailed information from them.
+【Itaru】Words like accelerator, technical committee, and LHC project official came out, so we should look for an ID from there. Maybe we can get more detailed information.
 <END>
 
 #WRITE(PTR, $000040A8)
@@ -1171,7 +1171,7 @@ Daru nods.
 <END>
 
 #WRITE(PTR, $00004170)
-【Itaru】That's not a cipher I've ever seen. It couldn't come into existence as a program in the first place. It just bothers me as to why they would have a database like that that nobody could see.
+【Itaru】That's not a cipher I've ever seen. It just bothers me as to why they would have a database that nobody could see.
 <END>
 
 #WRITE(PTR, $00004180)

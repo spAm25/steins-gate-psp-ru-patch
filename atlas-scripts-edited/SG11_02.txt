@@ -118,7 +118,7 @@ I remember Doctor Nakabachi's presentation began at 12.
 <END>
 
 #WRITE(PTR, $00000C70)
-【Suzuha】Anyway, that's how it is, so even though we can leap to the day before the presentation, it'll be bad if it gets canceled due to the commotion we make, right? That's why it's best to cut it close.
+【Suzuha】We can leap to the day before the presentation, it'll be bad if it gets canceled due to our actions, right? That's why it's best to cut it close.
 <END>
 
 #WRITE(PTR, $00000C80)

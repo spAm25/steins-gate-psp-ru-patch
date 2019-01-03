@@ -72,7 +72,7 @@ I'm not so gullible as to think he's telling the truth.
 <END>
 
 #WRITE(PTR, $000009F0)
-【Rintaro】I am the exact opposite of the messiah: the insane mad scientist, Hououin Kyouma, who has slipped through countless scenes of carnage, escaping the "Organization" for endless eternity!
+【Rintaro】I am the exact opposite of the messiah: the insane mad scientist, Hououin Kyouma, who has been escaping the "Organization" for endless eternity!
 <END>
 
 #WRITE(PTR, $00000A94)
@@ -308,7 +308,7 @@ He no longer doubts my word.
 <END>
 
 #WRITE(PTR, $000032D6)
-Daru told me he wanted to change the events of the "Faris Cup" held at "MayQueen+Nyan⑯" a few days ago. On that day, Daru got insta-killed by Faris in a RaiNet Access Battlers match.
+Daru told me he wanted to change the events of the "Faris Cup" held at "MayQueen+Nyan⑯". On that day, Daru got insta-killed by Faris in a RaiNet Access Battlers match.
 <END>
 
 #WRITE(PTR, $000033CC)

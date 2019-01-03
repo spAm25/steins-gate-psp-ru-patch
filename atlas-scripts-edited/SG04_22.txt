@@ -650,7 +650,7 @@ I sit down again in dejection.
 <END>
 
 #WRITE(PTR, $000022FE)
-【Rintaro】Don't you understand? I'm the observer-- in other words, the person who opens the box in the so-called "<DICT>Schrodinger's cat</DICT>" experiment in quantum mechanics, you know?
+【Rintaro】I'm the observer. In other words, the person who opens the box in the so-called "<DICT>Schrodinger's cat</DICT>" experiment in quantum mechanics.
 <END>
 
 #WRITE(PTR, $00002346)

@@ -114,11 +114,11 @@ There lies the world where Mayuri doesn't die.
 <END>
 
 #WRITE(PTR, $00000452)
-Spying on Mayuri's condition, I see her sitting down on the couch tightly straightening her spine, with her grandma's memento pocketwatch, "Pocketty~" to her ear. She's staying quiet with her eyes closed.
+Spying on Mayuri's condition, I see her sitting down on the couch tightly straightening her spine, with her grandma's memento pocketwatch, "Pocketty~" to her ear.
 <END>
 
 #WRITE(PTR, $00000462)
-Whenever Mayuri wants to calm down, she always listens to the sound of that pocketwatch.
+She's staying quiet with her eyes closed. Whenever Mayuri wants to calm down, she always listens to the sound of that pocketwatch.
 <END>
 
 #WRITE(PTR, $00000472)

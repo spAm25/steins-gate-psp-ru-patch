@@ -118,7 +118,7 @@ When we look up the structure of a Braun tube on the net, we find out something 
 <END>
 
 #WRITE(PTR, $0000061C)
-Braun tubes use an inner component called an "electron gun" to superheat electrons, or emit them through a high <DICT>electric field</DICT>, accelerate them, and converge them into a beam.
+Braun tubes use an "electron gun" to superheat electrons, or emit them through a high <DICT>electric field</DICT>, accelerate them, and converge them into a beam.
 <END>
 
 #WRITE(PTR, $0000062C)

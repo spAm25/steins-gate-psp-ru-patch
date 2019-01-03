@@ -514,7 +514,7 @@ But I can't find Mayuri.
 <END>
 
 #WRITE(PTR, $00001AB0)
-That's right, Mayuri finished making Lukako's costume and told us she went off to persuade her. After that, the development council-- basically, Mayuri won't come back to the lab until the party starts.
+Right, Mayuri finished making Lukako's costume and told us she went off to persuade her. Basically, Mayuri won't come back until the party.
 <END>
 
 #WRITE(PTR, $00001ACE)

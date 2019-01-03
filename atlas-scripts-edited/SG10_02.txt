@@ -309,7 +309,7 @@ So far, I've forcibly sacrificed the memories of Suzuha, Faris, and Lukako.
 <END>
 
 #WRITE(PTR, $0000102C)
-By sacrificing them, I've certainly given those girls deep wounds. But even so, I justified it to myself by saying it was for the sake of preventing Mayuri's death, comparing the options against each other.
+By sacrificing them, I've certainly given those girls deep wounds. But even so, I justified it to myself by saying it was for the sake of preventing Mayuri's death.
 <END>
 
 #WRITE(PTR, $0000103C)

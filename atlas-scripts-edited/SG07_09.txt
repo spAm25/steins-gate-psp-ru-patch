@@ -1170,7 +1170,7 @@ If it's come to this, all I can do is time leap again and get Faris to wear the 
 <END>
 
 #WRITE(PTR, $00007336)
-【４℃】The Black Revelations have been fulfilled. The pussy champ has fallen from grace to a former champ. We, the Viral Attackers, are raising the curtain to the highest, grandest, most sexy new generation and--
+【４℃】The Black Revelations have been fulfilled. The pussy champ has fallen from grace to a former champ. We, the Viral Attackers, are raising the curtain to the highest, grandest--
 <END>
 
 #WRITE(PTR, $00007400)

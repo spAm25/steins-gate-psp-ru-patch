@@ -54,7 +54,7 @@ Chapter 1 【Time Travel Paranoia】
 <END>
 
 #WRITE(PTR, $000003DE)
-【Rintaro】First our current location. This is the Future Gadget Laboratory located in Akihabara Tokyo. We usually just call it 'The Lab'. We aspire to reconstruct the ruling structure of the world.
+【Rintaro】This is the Future Gadget Laboratory located in Akihabara Tokyo. We usually just call it "The Lab". We aspire to reconstruct the ruling structure of the world.
 <END>
 
 #WRITE(PTR, $000003EE)
@@ -78,7 +78,7 @@ Chapter 1 【Time Travel Paranoia】
 <END>
 
 #WRITE(PTR, $0000043E)
-【Rintaro】Even though it's the age of LCD that shop still sells and handles CRT TVs. No matter how much of an electronics town Akihabara is the demand for those is next to none so the shop is deserted.
+【Rintaro】Even though it's the age of LCD that shop still sells and handles CRT TVs. The demand for those is next to none so the shop is deserted.
 <END>
 
 #WRITE(PTR, $0000044E)
@@ -139,7 +139,7 @@ However the Future Gadget Laboratory has a serious lack of capable staff but we 
 <END>
 
 #WRITE(PTR, $00000546)
-【Rintaro】Of course our top priority are future gadgets which could be used to fight the dark supremacy but many other inventions were created as byproducts of this research. Hell there are currently more of them than the actual inventions that we wanted.
+【Rintaro】Of course our top priority are future gadgets which could be used to fight the dark supremacy but many other inventions were created as byproducts of this research.
 <END>
 
 #WRITE(PTR, $00000556)
@@ -303,7 +303,7 @@ This one's also an otaku but not nearly as bad as Daru.
 <END>
 
 #WRITE(PTR, $00000B66)
-This nonchalant childhood friend of mine is in charge of making (female only) anime character cosplay for the Future Gadget Lab. Just like every other day she is doing that right now.
+This nonchalant childhood friend of mine is in charge of making anime character cosplay for the Future Gadget Lab. Just like every other day she is doing that right now.
 <END>
 
 #WRITE(PTR, $00000B76)
@@ -367,7 +367,7 @@ I don't care that Mayuri is useless. I'm fine with her just being here.
 <END>
 
 #WRITE(PTR, $00000EBE)
-I don't know if it's a bug or something else but the human-faced Alpaca inside the monitor shows no reaction even though I'm speaking to him with utmost effort. What an ungrateful bastard.
+I don't know if it's a bug but the human-faced Alpaca inside the monitor shows no reaction. What an ungrateful bastard.
 <END>
 
 #WRITE(PTR, $00000ECE)

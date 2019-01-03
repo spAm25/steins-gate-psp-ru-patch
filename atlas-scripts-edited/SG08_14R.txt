@@ -1010,7 +1010,7 @@ At present, it's never failed, but if something does happen, it might not be rev
 <END>
 
 #WRITE(PTR, $00001B6E)
-In SERN's time machine experiments, the test subjects turned into jellymen. Something like that may happen, and there's a significant possibility that her memories might break in the process.
+In SERN's time machine experiments, the test subjects turned into jellymen. Same may happen, and there's a chance that her memories break in the process.
 <END>
 
 #WRITE(PTR, $00001B7E)

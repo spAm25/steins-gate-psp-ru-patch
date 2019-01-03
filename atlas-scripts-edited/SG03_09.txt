@@ -6,7 +6,7 @@
 #JMP($000047A0)
 
 #WRITE(PTR, $00000A5C)
-【Rintaro】Tremble, right arm of mine... The contract compels you to comply to my command. Don the dark flames of prison. Fulfill my desire. The desire of destruction. Thus returning dust to dust, ashes to ashes--
+【Rintaro】Tremble, right arm of mine... Fulfill my desire. The desire of destruction. Thus returning dust to dust, ashes to ashes--
 <END>
 
 #WRITE(PTR, $00000A6C)

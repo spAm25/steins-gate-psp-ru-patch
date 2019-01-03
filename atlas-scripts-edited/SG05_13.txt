@@ -50,7 +50,7 @@ Geez. Looks like elementary students can't use proper Japanese.
 <END>
 
 #WRITE(PTR, $00000E94)
-【Rintaro】...Of all things, to strike at my brain, which holds the same value of a World Heritage site. Just how many hundreds of millions of neurons died in that single strike, dealing a huge blow to humanity's future?
+【Rintaro】...Of all things, to strike at my brain, which holds the same value of a World Heritage site. Just how many hundreds of millions of neurons died in that single strike?
 <END>
 
 #WRITE(PTR, $00000F42)

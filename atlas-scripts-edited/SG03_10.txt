@@ -158,7 +158,7 @@ Waves of commotion spread.
 <END>
 
 #WRITE(PTR, $00000BB8)
-【Rintaro】...First of all, don't forget that this is merely a verification experiment. All we need to do is check whether or not we can change the past. So it doesn't matter how trivial the change is.
+【Rintaro】...Firstly, don't forget that this is only a verification experiment. All we need to do is check if we can change the past. It doesn't matter how small the change is.
 <END>
 
 #WRITE(PTR, $00000BC8)
@@ -382,7 +382,7 @@ Tch, is everyone a hypocrite here?
 <END>
 
 #WRITE(PTR, $00002208)
-【Rintaro】I won't whitewash it. If we moved, we could experiment as much as we want without the fear of the muscular manager downstairs. If we had money, we could maintain our Future Gadget creation funds.
+【Rintaro】I won't whitewash it. If we moved, we could experiment as much as we want without the fear of the muscular manager downstairs.
 <END>
 
 #WRITE(PTR, $000022AC)
@@ -742,7 +742,7 @@ That was more money than I had expected, so my heart skipped a beat.
 <END>
 
 #WRITE(PTR, $00003788)
-【Rintaro】Don't you get it!? I'm being chased by the "Organization", you know. If we won 1st prize in the LOTO SIX, the media would cover the event, and then and there, our presence will be known.
+【Rintaro】Don't you get it!? I'm being chased by the "Organization". If we won 1st prize in the LOTO SIX, the media would cover the event, so our presence would be known.
 <END>
 
 #WRITE(PTR, $00003798)
@@ -778,7 +778,7 @@ The prospect of hogging 200 million yen certainly is appetizing.
 <END>
 
 #WRITE(PTR, $00003818)
-That amount of money is too big a change to the past. Just like Celeb Sev said just now, we can't ignore the Butterfly Effect. We should flap our butterfly wings as small as possible.
+That amount of money is too big a change to the past. Just like Celeb Sev said just now, we can't ignore the Butterfly Effect.
 <END>
 
 #WRITE(PTR, $00003828)

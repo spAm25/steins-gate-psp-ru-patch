@@ -230,7 +230,7 @@ Looking at the clock, it's 6:46 PM.
 <END>
 
 #WRITE(PTR, $00000A0C)
-Speaking from past experience, it's very likely that we avoided Mayuri's death for today since the world line changed. But just to prepare for the worst case, I should get back to the lab within the hour.
+It's likely that we avoided Mayuri's death for today. But to prepare for the worst case, I should get back to the lab within the hour.
 <END>
 
 #WRITE(PTR, $00000A38)

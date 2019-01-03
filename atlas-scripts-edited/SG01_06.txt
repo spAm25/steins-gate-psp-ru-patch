@@ -14,7 +14,7 @@ After the 2 time travel theories she introduced at the beginning, she explained 
 <END>
 
 #WRITE(PTR, $000007F8)
-Even though there were some blunders in the beginning, she gradually got used to it, and by the end it was an impressive lecture... To the extent that it made me doubt that she's an 18 year old first timer.
+There were some blunders in the beginning, but she got used to it, and by the end it was an impressive lecture... It made me doubt that she's an 18 year old first timer.
 <END>
 
 #WRITE(PTR, $00000808)
@@ -74,7 +74,7 @@ Regardless of that, wanting an exorcism after what I saw is something normal for
 <END>
 
 #WRITE(PTR, $00000950)
-Yanabayashi shrine can be found by entering the first side road after passing the Mansei Bridge. It's a small riverside Shinto shrine which doesn't really fit in with the surrounding buildings.
+Yanabayashi shrine can be found by entering the first side road after passing the Mansei Bridge. It's a small shrine which doesn't fit in with the surrounding buildings.
 <END>
 
 #WRITE(PTR, $00000960)

@@ -58,19 +58,19 @@ I'll cool off for about five minutes and then head over there.
 <END>
 
 #WRITE(PTR, $00000BD8)
-Certainly, at that time, Kurisu spoke out to me in the assembly hall, got fed up, and returned after going down this far. Then I called Mayuri, but couldn't connect, so in the end, I went back to the assembly hall.
+Certainly, at that time, Kurisu spoke out to me in the assembly hall, got fed up, and returned after going down this far.
 <END>
 
 #WRITE(PTR, $00000BE8)
-About what time was that?
+Then I called Mayuri, but couldn't connect, so in the end, I went back to the assembly hall.
 <END>
 
 #WRITE(PTR, $00000BF8)
-At any rate, if I just stay here, I'll bump into myself.
+About what time was that?
 <END>
 
 #WRITE(PTR, $00000C08)
-It's tough thinking about how to act so that my old self doesn't notice...
+At any rate, if I just stay here, I'll bump into myself. It's tough thinking about how to act so that my old self doesn't notice...
 <END>
 
 #WRITE(PTR, $00000C18)

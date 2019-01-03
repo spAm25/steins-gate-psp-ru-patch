@@ -226,15 +226,15 @@ Just what sort of delusion did this girl have?
 <END>
 
 #WRITE(PTR, $00001268)
-【Rintaro】I noticed. I have noticed. Your true nature.
+【Rintaro】I noticed. I have noticed. Your true nature. You're nothing but a mainstream woman who really gets into love talks...!
 <END>
 
 #WRITE(PTR, $00001278)
-【Rintaro】You're nothing but a mainstream woman who really gets into love talks...!
+【Rintaro】You're at the age where you like love talks and reading love stories, aren't you!?
 <END>
 
 #WRITE(PTR, $00001288)
-【Rintaro】You're at the age where you like love talks and reading love stories, aren't you!? Absurd! Neither I, Hououin Kyouma, nor our lab, wish for someone whose head is filled with such a flower garden!
+【Rintaro】Absurd! Neither I, Hououin Kyouma, nor our lab, wish for someone whose head is filled with such a flower garden!
 <END>
 
 #WRITE(PTR, $00001298)

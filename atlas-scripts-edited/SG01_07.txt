@@ -142,7 +142,7 @@ On the photo, there's an elementary school girl doing a peace sign while showing
 <END>
 
 #WRITE(PTR, $00000E5A)
-People who don't know the details might think that this muscleheaded middle-aged man is a perverted lolicon, but the girl in the photo is his real daughter. I think she's now in the 6th year of elementary school.
+People might think that this muscleheaded man is a perverted lolicon, but the girl in the photo is his daughter. I think she's now in the 6th year of elementary school.
 <END>
 
 #WRITE(PTR, $00000E6A)
@@ -486,7 +486,7 @@ Then, she looks at me.
 <END>
 
 #WRITE(PTR, $0000166A)
-【Rintaro】There are too many people who were targeted by the Organization just because they knew my name. Sara from America, Claudia from Italy, Simone from France... I can't put anyone else in danger.
+【Rintaro】Too many people were targeted by the Organization just because of my name. Sara from America, Claudia from Italy, Simone from France... I can't put anyone else in danger.
 <END>
 
 #WRITE(PTR, $000016B2)

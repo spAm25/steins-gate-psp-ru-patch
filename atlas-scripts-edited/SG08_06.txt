@@ -734,7 +734,7 @@ After more than five minutes, almost ten, I get back to the lab. Mayuri's eating
 <END>
 
 #WRITE(PTR, $00001D90)
-【Rintaro】The microwave oven works as the "knights" who inherited the ideals of the <DICT>Rosicruician Order</DICT> by producing %B2Salchemy%B2E. The sound of the chime is the brainwashing device but the chime itself actually doesn't have any meaning at all...
+【Rintaro】The microwave oven works as the "knights" who inherited the ideals of the <DICT>Rosicruician Order</DICT> by producing %B2Salchemy%B2E. The sound of the chime is the brainwashing device...
 <END>
 
 #WRITE(PTR, $00001DAA)

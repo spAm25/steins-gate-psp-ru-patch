@@ -58,7 +58,7 @@ They all seem to be going towards the Central Street which is still off limits.
 <END>
 
 #WRITE(PTR, $00001124)
-【Itaru】Even if I go there I won't be able to see it. And anyway I'm constantly monitoring the net for any news about it. The number of threads on @chan has already exceeded 100 and that's awesome!
+【Itaru】Even if I go there I won't be able to see it. And I'm constantly monitoring the net for any news about it. The number of threads on @chan has already exceeded 100!
 <END>
 
 #WRITE(PTR, $000011DA)
@@ -102,7 +102,7 @@ That will not shake my resolution. Even if no other lab members say it I will ke
 <END>
 
 #WRITE(PTR, $00001340)
-【Rintaro】What are you mean ridiculous? I have already transcended all the things in this world's nature and am constantly thinking about the limitless possibilities... Don't you dare call that ridiculous.
+【Rintaro】What do you mean ridiculous? I have already transcended everything in this world and am thinking about the infinite possibilities... Don't you dare call that ridiculous.
 <END>
 
 #WRITE(PTR, $0000135E)

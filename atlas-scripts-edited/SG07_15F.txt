@@ -574,7 +574,7 @@ Daru doesn't try to hide his displeasure.
 <END>
 
 #WRITE(PTR, $00001228)
-【Itaru】I think I've seen your face somewhere before. Where was that... Well, whatever, anyway, you're being way too familiar with Faris-tan, you know? A little cocky, are we? A <DICT>normalfag</DICT>? You're a normalfag, aren't you?
+【Itaru】I've seen your face somewhere. Well, whatever. You're being way too familiar with Faris-tan. A little cocky, are we? A <DICT>normalfag</DICT>? You're a normalfag, aren't you?
 <END>
 
 #WRITE(PTR, $00001238)
