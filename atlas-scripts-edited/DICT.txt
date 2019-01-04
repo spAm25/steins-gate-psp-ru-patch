@@ -4378,17 +4378,10 @@ Otaku
 <END2>
 
 #WRITE(PTR, $00001A58)
-(Fictional) A popular internet-themed manga serialized in LocoLoco Comics.<LINE>
-The third season of its TV anime series is currently being broadcast on ToTV to rave reviews.<LINE>
-It airs every week Sundays at 9AM.<LINE>
-On first glance, the series' atmosphere and character design make it appear aimed towards children. However, in actuality, it abandoned fantasy to depict heretofore unseen realistic themes, garnering appreciation from adults and children alike.<LINE>
-More and more children are learning information (and misinformation) about the internet through this anime to boast to their friends.<LINE>
-Because of this great influence, a portion of the intellectual world has begun to deem children more informed about the internet than adults. A movement has begun to call this generation of children "RaiNet Children".<LINE>
-Some politicians and organizations have strongly criticized the series for "encouraging children to become hikikomori" by idealizing boys and girls who cling to computers. However, a large majority of adults appreciated the series' lessons on "the possibilities of the internet, internet morality, copyright infringement, and confidentiality", eventually silencing the opposition.<LINE>
-And thus, RaiNet Kakeru grew to become the universally loved series it is today.<LINE>
-Although the series stirs intellectual curiosity through entertainment, it is not a simple educational program.<LINE>
-The viruses used by hackers, crackers, and cyberterrorists on the show, as well as other internet terminology, are given visual representations. The protagonist also brings out typing techniques to control programs shown on computer monitors as virtual robots.<LINE>
-The confrontations are visualized into easy to understand battles, with well-timed perspective changes depicting both the protagonist's techniques inside the computer, and his friends' teamwork outside the computer.
+(Fictional) A popular manga serialized in LocoLoco Comics. The third season of the anime adaptation is currently airing on ToTV.<LINE>
+Children are learning about the Internet through this anime. It has reached the point where some scholars claim that children are better informed than their parents with regard to Internet issues. People are even calling this new generation "RaiNet Children".<LINE>
+Some politicians and organizations have strongly criticized the series for "encouraging children to become hikikomori" by idealizing boys and girls who are obsessed with computers. However, a majority of adults praise the series for teaching children about the Internet, Internet morality, copyright infringement, and privacy protection.<LINE>
+The series is not merely an educational program. As Kakeru battles terrorists in cyberspace, his techniques are represented as virtual robots while his enemies' viruses take the form of monsters. This makes the confrontations easy to visualize, with well-timed perspective changes depicting both the protagonist's techniques inside the computer, and his friends' teamwork outside the computer.
 <END2>
 
 #WRITE(PTR, $00001A70)
