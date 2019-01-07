@@ -3199,7 +3199,7 @@ Other
 
 #WRITE(PTR, $00001338)
 An intracerebrally secreted neurotransmitter.<LINE>
-Properly called 4-[(1R)-2-amino-1-hydroxyethyl]benzene-1,2-diol.<LINE>
+Properly called 4-(2-amino-1-hydroxyethyl)benzene-1,2-diol.<LINE>
 Secreted in times of anger among others.
 <END2>
 
