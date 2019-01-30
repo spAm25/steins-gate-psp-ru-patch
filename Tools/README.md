@@ -20,4 +20,4 @@ Here is the list of tools that were of a good use in the translation process. Be
 \*This tool was made by RikuKH3, and there is no source code available. Also, in some cases the tool was shown to be unstable. Currently, I'm working on writing my own version based on Riku's work, which will be open source [here](https://github.com/HaselLoyance/criware-tools).
 
 \*\*No link available. Normally, you shouldn't even have this program, since it is proprietary software. But, I hope you know how to google properly:
-![](https://i.imgur.com/OYxb17x.png)
+
