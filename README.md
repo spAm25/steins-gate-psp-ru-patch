@@ -1,3 +1,2 @@
 ## Steins;Gate PSP Russian Patch
-
-Когда-нибудь я сяду и начну это делать...
+Тут я лениво пытаюсь адаптировать английский [перевод](https://github.com/HaselLoyance/steins-gate-psp-patch) сделанный HaselLoyance на русский язык.  
