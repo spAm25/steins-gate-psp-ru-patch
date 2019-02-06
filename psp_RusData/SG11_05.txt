@@ -1,0 +1,695 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000150A)
+
+#WRITE(PTR, $00000318)
+Half in doubt, I start working my phone.
+<END>
+
+#WRITE(PTR, $00000328)
+Just one saved movie mail.
+<END>
+
+#WRITE(PTR, $00000338)
+When I check the sender again, it's the same address as that D-mail earlier.
+<END>
+
+#WRITE(PTR, $00000348)
+Meaning it's the very same person. So basically... is owner of that address me in 15 years?
+<END>
+
+#WRITE(PTR, $00000358)
+Speaking of 2025, Suzuha told me that's the year I die.
+<END>
+
+#WRITE(PTR, $00000368)
+Right before dying, I sent this message to myself in 2010...
+<END>
+
+#WRITE(PTR, $000003E0)
+The "plan" to reach the unknown world line called the Steins;Gate.
+<END>
+
+#WRITE(PTR, $0000040A)
+Could the answer to that... be in this movie mail...?
+<END>
+
+#WRITE(PTR, $0000041A)
+Mayuri and Daru surround me, peeking over my shoulder.
+<END>
+
+#WRITE(PTR, $0000042A)
+I take a deep breath--
+<END>
+
+#WRITE(PTR, $0000043A)
+And press the play button with my wavering fingertip.
+<END>
+
+#WRITE(PTR, $00000624)
+What first appears on the screen is noise.
+<END>
+
+#WRITE(PTR, $00000634)
+Nothing changed after all.
+<END>
+
+#WRITE(PTR, $00000644)
+There's no message in this movie mail--
+<END>
+
+#WRITE(PTR, $000006FC)
+【Rintaro】...!?
+<END>
+
+#WRITE(PTR, $0000070C)
+Suddenly, the noise breaks, and I see someone's silhouette.
+<END>
+
+#WRITE(PTR, $00000728)
+Perhaps it was shot in a dimly lit area, but I can't clearly make out the person's face.
+<END>
+
+#WRITE(PTR, $00000738)
+Unkempt hair. Wearing a white robe. Are those the only traits?
+<END>
+
+#WRITE(PTR, $00000748)
+【Itaru】Is this guy Okarin in 15 years?
+<END>
+
+#WRITE(PTR, $00000758)
+【Mayuri】It probably is-. You know, he kinda feels like Okarin.
+<END>
+
+#WRITE(PTR, $00000768)
+Is that so.
+<END>
+
+#WRITE(PTR, $00000778)
+Is this guy really me...?
+<END>
+
+#WRITE(PTR, $00000788)
+On the other side of the phone's small screen is the world 15 years later.
+<END>
+
+#WRITE(PTR, $00000798)
+Even if you tell me that, I wouldn't believe it at all.
+<END>
+
+#WRITE(PTR, $000007A8)
+I can't believe I'm looking at my future self either.
+<END>
+
+#WRITE(PTR, $000007B8)
+【Rintaro2】Did you get the mail? Go watch the news on TV. If you already did, then just keep listening.
+<END>
+
+#WRITE(PTR, $000007C8)
+So that last mail was this guy after all...
+<END>
+
+#WRITE(PTR, $000007D8)
+This guy is me.
+<END>
+
+#WRITE(PTR, $000007E8)
+It doesn't feel real.
+<END>
+
+#WRITE(PTR, $000007F8)
+【Rintaro2】Nice to meet you. Me from 15 years ago.
+<END>
+
+#WRITE(PTR, $00000808)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000818)
+【Mayuri】Waah-, Okarin 15 years from now sounds so dandy-
+<END>
+
+#WRITE(PTR, $00000828)
+【Rintaro2】I'm sending this movie mail from 2025. It uses the same principle as D-mails.
+<END>
+
+#WRITE(PTR, $00000838)
+【Rintaro2】Upon reaching this β World Line, you dismantled the Microwave Ophone (Temp). Correct? But I... you will, in not even one year, turn back to time travel theory.
+<END>
+
+#WRITE(PTR, $00000848)
+【Rintaro2】And you'll stick to it for 14 years. That's where I am now.
+<END>
+
+#WRITE(PTR, $00000858)
+【Rintaro2】Along the way, I succeeded at making a device that surpasses the D-mail's limit of 36 bytes.
+<END>
+
+#WRITE(PTR, $00000868)
+【Rintaro2】The fact that you're listening to this movie mail means that you've failed to save Kurisu, doesn't it.
+<END>
+
+#WRITE(PTR, $00000878)
+【Rintaro2】Painful, isn't it? I know how you feel. After all, I am you after 15 years.
+<END>
+
+#WRITE(PTR, $00000888)
+【Rintaro2】That's right. I also failed.
+<END>
+
+#WRITE(PTR, $00000898)
+【Rintaro2】After I failed, 15 years have passed.
+<END>
+
+#WRITE(PTR, $000008A8)
+【Rintaro2】You do understand why I "made you fail", right?
+<END>
+
+#WRITE(PTR, $000008B8)
+【Rintaro2】It was necessary. Necessary for me to think through my "obsession" for these 15 years.
+<END>
+
+#WRITE(PTR, $000008C8)
+【Rintaro2】You tried to save Kurisu, and failed. You yourself killed Kurisu.
+<END>
+
+#WRITE(PTR, $000008D8)
+【Rintaro2】That bitterness. That guilt. They tied you to me, who completed this plan in 2025.
+<END>
+
+#WRITE(PTR, $000008E8)
+【Rintaro2】It's because of that "obsession" itself that I'm able to send you this movie mail.
+<END>
+
+#WRITE(PTR, $000008F8)
+【Rintaro2】Just as you know, the world converges due to attractor fields.
+<END>
+
+#WRITE(PTR, $00000908)
+【Rintaro2】Normally, if you just time traveled, you would be unable to save Kurisu.
+<END>
+
+#WRITE(PTR, $00000918)
+【Rintaro2】That's why you had to fail once, to create cause and effect. Preparatory measures.
+<END>
+
+#WRITE(PTR, $00000928)
+【Rintaro2】Because you failed, I've been doing nothing but studying for these past 15 years.
+<END>
+
+#WRITE(PTR, $00000938)
+【Rintaro2】Doctor Nakabachi started a worldwide controversy on time travel, and the world ran to war. All the while, I survived underground, continuing my own time travel research.
+<END>
+
+#WRITE(PTR, $00000948)
+【Rintaro2】The time machine Suzuha uses was created using my and Daru's research, but the basic theory was constructed by SERN--
+<END>
+
+#WRITE(PTR, $00000958)
+【Rintaro2】It was developed by Makise Kurisu in the world line you 'undid.'
+<END>
+
+#WRITE(PTR, $00000968)
+【Rintaro2】The model number is "Type C204". The C stands for "Christina". I think you understand what that means.
+<END>
+
+#WRITE(PTR, $00000978)
+【Rintaro2】Anyway, cause and effect has been established. Let's talk about the final stage of the plan.
+<END>
+
+#WRITE(PTR, $00000988)
+【Rintaro2】The plan to change Divergence and reach the unknown world line-- the "Steins;Gate".
+<END>
+
+#WRITE(PTR, $00000998)
+【Rintaro2】By the way, the one who named it the "Steins;Gate" was me. You of all people should understand why it's the "Steins;Gate".
+<END>
+
+#WRITE(PTR, $000009A8)
+【Rintaro2】"It doesn't really mean anything", right?
+<END>
+
+#WRITE(PTR, $000009B8)
+【Rintaro2】There are two requirements to reach that "Steins;Gate".
+<END>
+
+#WRITE(PTR, $000009C8)
+【Rintaro2】One is to save Makise Kurisu's life.
+<END>
+
+#WRITE(PTR, $000009D8)
+【Rintaro2】The other is to consign into oblivion the "Nakabachi Thesis" that Doctor Nakabachi brings to Russia.
+<END>
+
+#WRITE(PTR, $000009E8)
+【Rintaro2】But trying to change that past was pointless. That's what you should be thinking now. The world will "converge". That force didn't let you change the past. Correct?
+<END>
+
+#WRITE(PTR, $000009F8)
+【Rintaro2】But, without a doubt, there is a way.
+<END>
+
+#WRITE(PTR, $00000A08)
+【Rintaro2】You can save Kurisu.
+<END>
+
+#WRITE(PTR, $00000A18)
+【Rintaro2】Okay? Listen well.
+<END>
+
+#WRITE(PTR, $00000A28)
+【Rintaro2】On that day, July 28. "The first you" should've come to Doctor Nakabachi's presentation without knowing anything.
+<END>
+
+#WRITE(PTR, $00000A38)
+【Rintaro2】You must not "undo" what that "first you" saw himself.
+<END>
+
+#WRITE(PTR, $00000A48)
+【Rintaro2】Because that's the "decided past", the world line's "convergent result".
+<END>
+
+#WRITE(PTR, $00000A58)
+【Rintaro2】But--
+<END>
+
+#WRITE(PTR, $00000A68)
+【Rintaro2】You can "deceive".
+<END>
+
+#WRITE(PTR, $00000A78)
+【Rintaro2】You want to say "What does that mean?" don't you? Calm down. I'll explain now.
+<END>
+
+#WRITE(PTR, $00000A88)
+【Rintaro2】Whom you'll "deceive" is you yourself.
+<END>
+
+#WRITE(PTR, $00000A98)
+【Rintaro2】The "first you" witnessed Kurisu collapsed in a puddle of blood.
+<END>
+
+#WRITE(PTR, $00000AA8)
+【Rintaro2】If you hadn't seen it, then everything you've done until now, and everything I've done until now would become a time paradox, understand?
+<END>
+
+#WRITE(PTR, $00000AB8)
+【Rintaro2】Upon witnessing Kurisu's death, you sent a D-mail, which was intercepted by Echelon, which tipped off SERN.
+<END>
+
+#WRITE(PTR, $00000AC8)
+【Rintaro2】Remember what you experienced in the α World Line.
+<END>
+
+#WRITE(PTR, $00000AD8)
+【Rintaro2】All that happened there was Mayuri's death.
+<END>
+
+#WRITE(PTR, $00000AE8)
+【Rintaro2】You met again with the living Kurisu. You forcefully made her a lab mem, and together you made the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00000AF8)
+【Rintaro2】It was only three weeks, but for you, "that was the time you spent with the person named Makise Kurisu".
+<END>
+
+#WRITE(PTR, $00000B08)
+【Rintaro2】The you there now. The me here now. Neither of us is the Okabe Rintaro who only lived in this β World Line, where Kurisu died on July 28.
+<END>
+
+#WRITE(PTR, $00000B18)
+【Rintaro2】You remember--
+<END>
+
+#WRITE(PTR, $00000B28)
+【Rintaro2】Going to the α World Line--
+<END>
+
+#WRITE(PTR, $00000B38)
+【Rintaro2】Living with Kurisu--
+<END>
+
+#WRITE(PTR, $00000B48)
+【Rintaro2】Sacrificing many memories to save Mayuri--
+<END>
+
+#WRITE(PTR, $00000B58)
+【Rintaro2】But you still kept struggling for those three weeks. That's the sort of being you should be.
+<END>
+
+#WRITE(PTR, $00000B68)
+【Rintaro2】If you didn't see Kurisu collapsed in a puddle of blood in Radio Kaikan's dim passage--
+<END>
+
+#WRITE(PTR, $00000B78)
+【Rintaro2】You wouldn't have sent Daru a D-mail, and Echelon wouldn't have intercepted it.
+<END>
+
+#WRITE(PTR, $00000B88)
+【Rintaro2】You wouldn't have spoken strangely to Kurisu when you met her again afterwards--
+<END>
+
+#WRITE(PTR, $00000B98)
+【Rintaro2】Kurisu wouldn't have gotten interested in you.
+<END>
+
+#WRITE(PTR, $00000BA8)
+【Rintaro2】And then--
+<END>
+
+#WRITE(PTR, $00000BB8)
+【Rintaro2】You, wouldn't be standing there right now, thinking "I want to save Kurisu even if I have to time travel".
+<END>
+
+#WRITE(PTR, $00000BC8)
+【Rintaro2】The me in 2025 wouldn't have made the plan to reach the "Steins;Gate".
+<END>
+
+#WRITE(PTR, $00000BD8)
+【Rintaro2】The me in 2025 wouldn't have sent you this movie mail.
+<END>
+
+#WRITE(PTR, $00000BE8)
+【Rintaro2】Daru wouldn't have perfected the time machine in 2036.
+<END>
+
+#WRITE(PTR, $00000BF8)
+【Rintaro2】Suzuha wouldn't have appeared to you with her time machine.
+<END>
+
+#WRITE(PTR, $00000C08)
+【Rintaro2】You mustn't deny those mere three weeks you experienced "drifting through world lines".
+<END>
+
+#WRITE(PTR, $00000C18)
+【Rintaro2】You musn't "undo" them.
+<END>
+
+#WRITE(PTR, $00000C28)
+【Rintaro2】You are right there, having traveled through many world lines with the strong desire to save Kurisu.
+<END>
+
+#WRITE(PTR, $00000C38)
+【Rintaro2】I am right here, having spent my whole life until 2025 developing the time machine with the desire to save Kurisu.
+<END>
+
+#WRITE(PTR, $00000C48)
+【Rintaro2】Where you're standing right now is the arrival of the moment we wished for to save Kurisu...!
+<END>
+
+#WRITE(PTR, $00000C58)
+【Rintaro2】I, "who did not move a single world line", never arrived at that moment.
+<END>
+
+#WRITE(PTR, $00000C68)
+【Rintaro2】Everything that happens has a meaning.
+<END>
+
+#WRITE(PTR, $00000C78)
+【Rintaro2】The preparatory measures of my plan are complete. Everything else depends on you.
+<END>
+
+#WRITE(PTR, $00000C96)
+【Rintaro2】...Let me explain the summary of your last mission, <DICT>Operation "Skuld"</DICT>.
+<END>
+
+#WRITE(PTR, $00000CBC)
+【Rintaro2】Change the result, without changing the decided past.
+<END>
+
+#WRITE(PTR, $00000CCC)
+【Rintaro2】"Kurisu collapsed in a puddle of blood, observed by Okabe Rintaro". That past has been decided.
+<END>
+
+#WRITE(PTR, $00000CDC)
+【Rintaro2】But conversely, that means "that's all" that has been decided.
+<END>
+
+#WRITE(PTR, $00000CEC)
+【Rintaro2】Deceive the "first you".
+<END>
+
+#WRITE(PTR, $00000CFC)
+【Rintaro2】Deceive the world.
+<END>
+
+#WRITE(PTR, $00000D0C)
+【Rintaro2】That is the choice to arrive at the "Steins;Gate".
+<END>
+
+#WRITE(PTR, $00000D1C)
+【Rintaro2】I pray for your success, you insane mad scientist, you.
+<END>
+
+#WRITE(PTR, $00000D2C)
+【Rintaro2】El--
+<END>
+
+#WRITE(PTR, $00000D3C)
+【Rintaro2】Psy--
+<END>
+
+#WRITE(PTR, $00000D4C)
+【Rintaro2】Congroo.
+<END>
+
+#WRITE(PTR, $00000E66)
+With those final words, the movie mail ends.
+<END>
+
+#WRITE(PTR, $00000E76)
+Mayuri and Daru are dumbfounded-- or rather, bewildered without understanding anything-- and the atmosphere passes through my back.
+<END>
+
+#WRITE(PTR, $00000E86)
+But.
+<END>
+
+#WRITE(PTR, $00000E96)
+I.
+<END>
+
+#WRITE(PTR, $00000EA6)
+【Rintaro】Fu... huhuhu
+<END>
+
+#WRITE(PTR, $00000EB6)
+I wonder why.
+<END>
+
+#WRITE(PTR, $00000EC6)
+I start laughing spontaneously.
+<END>
+
+#WRITE(PTR, $00000ED6)
+Until just now, I was cursing my own thoughtlessness for having killed Kurisu myself.
+<END>
+
+#WRITE(PTR, $00000EE6)
+I was in despair over everything.
+<END>
+
+#WRITE(PTR, $00000EF6)
+And I'm laughing.
+<END>
+
+#WRITE(PTR, $00000F06)
+【Rintaro】Heheheh, hehhehheh...
+<END>
+
+#WRITE(PTR, $00000F16)
+Operation "Skuld", was it?
+<END>
+
+#WRITE(PTR, $00000F26)
+"El Psy Congroo" was it?
+<END>
+
+#WRITE(PTR, $00000F36)
+【Rintaro】What stupid things am I saying, even at the age of 33...?
+<END>
+
+#WRITE(PTR, $00000F46)
+【Rintaro】Deceive my first self, huh. Deceive the world, huh.
+<END>
+
+#WRITE(PTR, $00000F56)
+【Rintaro】That's such pretentious hipster bullshit...!
+<END>
+
+#WRITE(PTR, $00000F66)
+It really is pitiful.
+<END>
+
+#WRITE(PTR, $00000F76)
+I can't bear to watch.
+<END>
+
+#WRITE(PTR, $00000F86)
+But--
+<END>
+
+#WRITE(PTR, $00000F96)
+That way of thinking--
+<END>
+
+#WRITE(PTR, $00000FA6)
+I don't hate it.
+<END>
+
+#WRITE(PTR, $00000FCA)
+【Rintaro】All right, let's do this..! After all, this is Steins;Gate's choice!
+<END>
+
+#WRITE(PTR, $00000FDA)
+【Rintaro】I am the insane mad scientist, Hououin Kyouma! Deceiving the world is no trouble at all!
+<END>
+
+#WRITE(PTR, $00000FEA)
+【Rintaro】Changing the world is something I myself must do, after all!
+<END>
+
+#WRITE(PTR, $00000FFA)
+【Rintaro】Fuhahaha!
+<END>
+
+#WRITE(PTR, $00001014)
+【Itaru】Wah, he's been serious these past few days, and yet Okarin's back to his normal self again.
+<END>
+
+#WRITE(PTR, $0000102E)
+【Mayuri】But you know, you know, Mayushii likes this Okarin better-♪
+<END>
+
+#WRITE(PTR, $00001048)
+【Itaru】Well, that's true. If Okarin's not a weirdo, it throws me off too.
+<END>
+
+#WRITE(PTR, $00001062)
+【Mayuri】Hououin Kyouma saved Mayushii in the past too.
+<END>
+
+#WRITE(PTR, $00001072)
+【Mayuri】So I know that this time, he's sure to save Makise Kurisu-san too-
+<END>
+
+#WRITE(PTR, $00001082)
+【Itaru】But what exactly did that movie mail mean in the end? "Deceive the world" is too ambiguous a trap.
+<END>
+
+#WRITE(PTR, $0000109C)
+【Mayuri】Well that's, ummm well, Mayushii doesn't have a clue either...
+<END>
+
+#WRITE(PTR, $000010AC)
+【Rintaro】Heheheh, you two, you can't even understand that?
+<END>
+
+#WRITE(PTR, $000010BC)
+【Rintaro】The decided past is only "Makise Kurisu collapsed in a puddle of blood, and I witnessed that". Nothing more. Nothing less.
+<END>
+
+#WRITE(PTR, $000010CC)
+【Rintaro】All I saw was Kurisu "collapsed in a puddle of blood". Whether Kurisu was alive or dead--
+<END>
+
+#WRITE(PTR, $000010DC)
+【Rintaro】Was not part of my "observation".
+<END>
+
+#WRITE(PTR, $000010EC)
+Is that right? Me 15 years from now?
+<END>
+
+#WRITE(PTR, $00001106)
+【Mayuri】???
+<END>
+
+#WRITE(PTR, $00001116)
+Mayuri tilts her head to the explanation.
+<END>
+
+#WRITE(PTR, $00001126)
+【Rintaro】So basically, just think of the scene that time like this.
+<END>
+
+#WRITE(PTR, $00001136)
+【Rintaro】"Kurisu was laying on top of red splattered paint, knocked out".
+<END>
+
+#WRITE(PTR, $00001150)
+【Mayuri】Ehhh. Is that how it happened?
+<END>
+
+#WRITE(PTR, $00001160)
+Mayuri stares in admiration.
+<END>
+
+#WRITE(PTR, $00001170)
+I give up.
+<END>
+
+#WRITE(PTR, $0000118A)
+【Itaru】Wait, wait, hold it. The news reports on Makise Kurisu's incident were fairly clear--
+<END>
+
+#WRITE(PTR, $0000125E)
+【Suzuha】Now doesn't matter. The problem is what Uncle Okarin saw on that day, July 28.
+<END>
+
+#WRITE(PTR, $0000126E)
+【Itaru】Oh, really?
+<END>
+
+#WRITE(PTR, $0000127E)
+Yeah, really. And that's because the me standing here right now didn't just live in the β World Line from July 28 to today.
+<END>
+
+#WRITE(PTR, $0000128E)
+It's the me who traveled to the α World Line and back.
+<END>
+
+#WRITE(PTR, $0000129E)
+The result that happened in the β World Line during that time doesn't matter.
+<END>
+
+#WRITE(PTR, $000012AE)
+【Rintaro】So what I'm going to do is "reproduce just the scene" I saw on that day. In a way that Kurisu doesn't die.
+<END>
+
+#WRITE(PTR, $000012C8)
+【Suzuha】...And also, you should consign the "Nakabachi Thesis" to oblivion. Can you do it?
+<END>
+
+#WRITE(PTR, $000012D8)
+【Rintaro】Just who do you think you're talking to, Working Warrior?
+<END>
+
+#WRITE(PTR, $000012F2)
+【Suzuha】...Working Warrior?
+<END>
+
+#WRITE(PTR, $00001302)
+【Rintaro】I'll say it once more. I myself, am the insane mad scientist, Hououin Kyouma!
+<END>
+
+#WRITE(PTR, $00001312)
+Without minding my comrades' blank stares, I comb my hair back with a flair.
+<END>
+
+#WRITE(PTR, $00001322)
+【Rintaro】I can already see Operation "Skuld" inside of me.
+<END>
+
+#WRITE(PTR, $00001332)
+【Rintaro】But I need to prepare. Give me 30 minutes.
+<END>
+
+#WRITE(PTR, $0000134C)
+Suzuha's expression tightens, and she strongly nods.
+<FILEEND6E>
+

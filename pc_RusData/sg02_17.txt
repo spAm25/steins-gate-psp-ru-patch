@@ -1,0 +1,505 @@
+<PRE @box00>[text00010]
+Мы подошли к лаборатории, когда уже стемнело.
+
+Обычно путь от храма до лаборатории занимает 15 минут, но из-за частых привалов этот путь занял больше времени.
+
+</PRE>
+
+<PRE @box00>[text00020]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0093" mode="on">
+"Хааах... хааах... наконец-то, мы пришли..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1064" mode="on">
+"Да... спасибо за помощь... Ты... мой спаситель..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1065" mode="on">
+"Хааах, спасибо... огромное..."
+
+</PRE>
+
+<PRE @box00>[text00030]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0094" mode="on">
+"Ах, не стоит..."
+
+Рукако начинает ёрзать.
+
+</PRE>
+
+<PRE @box00>[text00040]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0095" mode="on">
+"Вы мой учитель, Феникс-сан, так что я счастлив... быть полезным вам."
+
+Он вытирает пот.
+
+Говоря эту фразу, он поворачивается ко мне с улыбкой.
+
+Так мило...
+
+</PRE>
+
+<PRE @box00>[text00050]
+Но он парень.
+
+</PRE>
+
+<PRE @box00>[text00060]
+Это очень разочаровывает!
+
+Я случайно прикусываю язык.
+
+</PRE>
+
+<PRE @box00>[text00070]
+Затем смотрю на второй этаж и вижу включённый свет.
+
+Итак, осталось лишь одно препятствие.
+
+</PRE>
+
+<PRE @box00>[text00080]
+Мы должны поднять IBN 5100 по узкой лестнице.
+
+Вдвоём с Рукако у нас не получится.
+
+Нужно звать подмогу.
+
+</PRE>
+
+<PRE @box00>[text00090]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1066" mode="on">
+"...Ко мне, мои слуги! И сейчас, в соответствии с вашими контрактами, помогите мне!"
+
+</PRE>
+
+<PRE @box00>[text00100]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0096" mode="on">
+"Ах, Кёма-сан?!"
+
+</PRE>
+
+<PRE @box00>[text00110]
+После моего крика на втором этаже открывается окно.
+
+И появляется лицо...
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0423" mode="on">
+"Чего ты так орешь?!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1067" mode="on">
+"М-м, я призвал ассистентку? Почему ты здесь?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0424" mode="on">
+"Кого ты назвал ассистенткой? Ты не ответил на звонок, и поэтому я уже битый час тебя жду."
+
+Звонок? Помнится, когда я шёл в храм, мне звонил кто-то.
+
+Так это была ассистентка?
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0237" mode="on">
+"Окарин, с возвращением. А? Рука-кун с тобой..."
+
+Маюри тоже появляется в окне.
+
+Рукако машет Маюри. И в этот момент дверь магазина мистера Брауна открывается.
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0122" mode="on">
+"Эй, Окабе Ринтаро. Если будешь так кричать, мой босс прибьёт тебя."
+
+Воин на Полставки
+
+Ну они мне и помогут.
+
+Жаль, что все они девушки, но да ладно.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1068" mode="on">
+"Призванные слуги, внемлите! Теперь наша секретная миссия начнется! Подойдите!"
+
+</PRE>
+
+<PRE @box00>[text00130]
+В соответствии с моим приказом, Маюри, ассистентка и Воин на Полставки подошли ко мне.
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0238" mode="on">
+"Что это?"
+
+Маюри заглядывает в коробку.
+
+</PRE>
+
+<PRE @box00>[text00150]
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0123" mode="on">
+"Это IBN 5100?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1069" mode="on">
+"Именно."
+
+</PRE>
+
+<PRE @box00>[text00160]
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0124" mode="on">
+"Не может быть?! Невероятно! Так держать, Окабе Ринтаро! Где? Где он был?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1070" mode="on">
+"В храме Янабаяши."
+
+</PRE>
+
+<PRE @box00>[text00170]
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0125" mode="on">
+"В храме Янабаяши? Это синтоистский храм?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1071" mode="on">
+"Да."
+
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0126" mode="on">
+"Почему он был в таком месте..."
+
+Она размышляет со сложным выражением лица.
+
+</PRE>
+
+<PRE @box00>[text00180]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0239" mode="on">
+"Теперь понятно, почему Рука-кун с тобой."
+
+</PRE>
+
+<PRE @box00>[text00190]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0097" mode="on">
+"Д-да..."
+
+</PRE>
+
+<PRE @box00>[text00200]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0425" mode="on">
+"Что это? О чём вы говорите?"
+
+</PRE>
+
+<PRE @box00>[text00210]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0098" mode="on">
+"Гм, об IBN... две тысячи... пять тысяч... как там дальше?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1072" mode="on">
+"Я нашёл IBN 5100."
+
+</PRE>
+
+<PRE @box00>[text00220]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0426" mode="on">
+"Ах, об этой штуке ты говорил вчера."
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0127" mode="on">
+"Ах!.."
+
+</PRE>
+
+<PRE @box00>[text00240]
+Сузуха почему-то удивилась, когда увидела лицо ассистентки.
+
+Затем она подходит вплотную к Курису.
+
+Прямо-таки противостояние.
+
+</PRE>
+
+<PRE @box00>[text00250]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0427" mode="on">
+"Ч-что?"
+
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0128" mode="on">
+"Макисе Курису?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0428" mode="on">
+"Да, но..."
+
+</PRE>
+
+<PRE @box00>[text00260]
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0129" mode="on">
+"..."
+
+Сузуха смотрит на Курису со страшной силой во взгляде.
+
+</PRE>
+
+<PRE @box00>[text00270]
+Курису отвечает таким же взглядом.
+
+Обстановка накалилась. Я чувствую витающее в воздухе напряжение.
+
+Я даже не могу заставить себя вмешаться.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0429" mode="on">
+"Что такое? Я тебе что-то сделала?"
+
+<voice name="Амане" class="VID_SUZ" src="voice/SUZ_0130" mode="on">
+"...Хмф."
+
+</PRE>
+
+<PRE @box00>[text00280]
+Сузуха отворачивается, и, не оглядываясь, возвращается в магазин.
+
+</PRE>
+
+<PRE @box00>[text00290]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0430" mode="on">
+"Кто это?"
+
+</PRE>
+
+<PRE @box00>[text00300]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0240" mode="on">
+"Ах, да-да. Ты знаешь, она работает неполный рабочий день в этом магазине. Её зовут Сузу-сан."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1073" mode="on">
+"Я знаю."
+
+Хотя про «Сузу-сан» я слышу впервые.
+
+</PRE>
+
+<PRE @box00>[text00310]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0241" mode="on">
+"Эх? Вот как?"
+
+</PRE>
+
+<PRE @box00>[text00320]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0431" mode="on">
+"Почему она так враждебна ко мне?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1074" mode="on">
+"Не знаю. Может, ты как-то разозлила её?"
+
+</PRE>
+
+<PRE @box00>[text00330]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0432" mode="on">
+"Я первый раз её вижу. Как грубо с её стороны."
+
+Мне захотелось напомнить Курису, что при нашей первой встрече она смотрела на меня точно так же. Но это было в иллюзии, так что я ничего не сказал.
+
+</PRE>
+
+<PRE @box00>[text00340]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1075" mode="on">
+"Итак, помогите мне. Нужно отнести эту коробку в лабораторию."
+
+</PRE>
+
+<PRE @box00>[text00350]
+Без Сузухи нас осталось четверо, но я думаю, мы справимся.
+
+</PRE>
+
+<PRE @box00>[text00360]
+Итак, мы занесли IBN 5100 в лабораторию. Дару, сидя за компьютером, ест чипсы.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1076" mode="on">
+"Чёрт возьми, почему ты не помог?!"
+
+</PRE>
+
+<PRE @box00>[text00370]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0361" mode="on">
+"Ну ты не звал меня..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1077" mode="on">
+"Я звал всех сотрудников лаборатории, разве нет?!"
+
+Дару не пришёл помогать, поэтому мне помогали только три девушки. То есть, две девушки и один парень.
+
+Маюри и Рукако явно не созданы для физического труда, а Курису только и делала, что жаловалась.
+
+</PRE>
+
+<PRE @box00>[text00380]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0433" mode="on">
+"Хаах, хаах, почему я... должна..."
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0242" mode="on">
+"Так устала..."
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0099" mode="on">
+"Я больше не могу..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1078" mode="on">
+"Вы трое, хорошо потрудились."
+
+Я оторвал три банана от грозди, лежавшей на столе, и распределил их между ними.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1079" mode="on">
+"Это моя благодарность за помощь. Ешьте, не стесняйтесь."
+
+</PRE>
+
+<PRE @box00>[text00390]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0100" mode="on">
+"Спасибо!.. Я так счастлив!.."
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0243" mode="on">
+"Но это Маюшины бананы..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1080" mode="on">
+"Кстати, Маюри. Это благодаря тебе я нашёл IBN 5100. Без твоей информации найти его было бы куда труднее."
+
+</PRE>
+
+<PRE @box00>[text00400]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0244" mode="on">
+"А? Эхе-хе-хе. Хорошо, что эта информация тебе помогла."
+
+Счастливо улыбаясь, Маюри кусает свой банан.
+
+</PRE>
+
+<PRE @box00>[text00410]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0434" mode="on">
+"Зачем тебе IBN 5100? Вчера ты говорил что-то про СЕРН."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1081" mode="on">
+"Тебе интересно, Кристина?"
+
+</PRE>
+
+<PRE @box00>[text00420]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0435" mode="on">
+"Я не Кристина, и мне не интересно. Мне всё равно, если не хочешь говорить."
+
+А по мне, она в лепешку разобьётся, чтобы узнать.
+
+То, как она смотрит на коробку, это доказывает.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1082" mode="on">
+"Этот компьютер необходим для войны против СЕРН."
+
+</PRE>
+
+<PRE @box00>[text00430]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0436" mode="on">
+"Войны?.. СЕРН — научно-исследовательское учреждение."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1083" mode="on">
+"Да, для видимости."
+
+</PRE>
+
+<PRE @box00>[text00440]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0437" mode="on">
+"...Что ты пытаешься сделать? В зависимости от ситуации я могу сдать тебя полиции."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1084" mode="on">
+"Хм, полиции? Неужели ты думаешь, что безумный сумасшедший учёный, вроде меня боится полицию? Я, которого вечно преследует «Организация»?"
+
+</PRE>
+
+<PRE @box00>[text00450]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0438" mode="on">
+"Не выпендривайся. Просто скажи, что собрался делать."
+
+Для ассистентки она много о себе возомнила.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1085" mode="on">
+"Мы поговорим об этом позже. Дару, когда ты сможешь использовать IBN 5100 для взлома СЕРН?"
+
+</PRE>
+
+<PRE @box00>[text00460]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0362" mode="on">
+"Хм, даже не знаю..."
+
+</PRE>
+
+<PRE @box00>[text00470]
+Говорил Дару, подключая IBN 5100 к розетке.
+
+Блок питания начинает шуметь.
+
+</PRE>
+
+<PRE @box00>[text00480]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0363" mode="on">
+"Ух ты, заработал."
+
+</PRE>
+
+<PRE @box00>[text00490]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0364" mode="on">
+"Во-первых, я должен узнать, как им пользоваться, да? Не хочу причинить этой машине боль."
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0365" mode="on">
+"Подготовка ко взлому может занять некоторое время. Я не смогу одновременно искать руководство к IBN 5100 и искать ID админа."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1086" mode="on">
+"Это неважно. Приоритет у поиска ID."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1087" mode="on">
+"Я хочу, чтобы ты привел IBN 5100 в рабочее состояние до конца месяца, если это возможно."
+
+</PRE>
+
+<PRE @box00>[text00500]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0366" mode="on">
+"В этом месяце осталось ещё 30 дней. Думаю, я успею."
+
+Это обнадёживает. Как и ожидалось от суперхаки.
+
+</PRE>
+
+<PRE @box00>[text00510]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0245" mode="on">
+"Ну мы тогда пойдём домой."
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0101" mode="on">
+"Гм, простите за вторжение."
+
+Закончив есть бананы, эти двое собираются уходить.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1088" mode="on">
+"Ооо, спасибо вам обоим. Вы очень сильно помогли."
+
+</PRE>
+
+<PRE @box00>[text00520]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0439" mode="on">
+"Ведёшь себя, как покровитель."
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0246" mode="on">
+"Крис-тян, ты не уходишь? А то мы бы проводили тебя до станции."
+
+</PRE>
+
+<PRE @box00>[text00530]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0440" mode="on">
+"Спасибо, но я пока не собираюсь уходить."
+
+</PRE>
+
+<PRE @box00>[text00540]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0247" mode="on">
+"Ясно. Ну тогда увидимся! Туттуру~♪"
+
+</PRE>
+
+<PRE @box00>[text00550]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0102" mode="on">
+"До свидания."
+
+</PRE>
+
+<PRE @box00>[text00560]
+Уходя, Маюри и Рукако машут руками.
+
+</PRE>
+

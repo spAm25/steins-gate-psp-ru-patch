@@ -1,0 +1,1443 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000046D4)
+
+#WRITE(PTR, $000007E6)
+The next day.
+<END>
+
+#WRITE(PTR, $000007F6)
+The lab gets an unusual guest.
+<END>
+
+#WRITE(PTR, $0000084A)
+【Luka】Pardon the intrusion....
+<END>
+
+#WRITE(PTR, $00000892)
+【Itaru】Oh, if it isn't Luka-shi.
+<END>
+
+#WRITE(PTR, $000008AC)
+【Luka】Hello, Hashida-san, Okabe-san....
+<END>
+
+#WRITE(PTR, $000008BC)
+【Rintaro】Lukako! You don't have the demon sword Samidare with you! What is the meaning of this!?
+<END>
+
+#WRITE(PTR, $000008DA)
+【Luka】Eh, eh,
+<END2>
+
+#WRITE(PTR, $000008F4)
+ eh...?
+<END>
+
+#WRITE(PTR, $00000910)
+【Rintaro】When I heard you were coming today, I even unsealed the treasured heirloom sword, "<DICT>Mistilteinn</DICT>"... I'm disappointed in you.
+<END>
+
+#WRITE(PTR, $00000920)
+Actually, I didn't know Lukako was coming.
+<END>
+
+#WRITE(PTR, $0000093A)
+【Luka】I'm sorry, umm, I'll go back and get it, so...
+<END>
+
+#WRITE(PTR, $000009DC)
+【Rintaro】No, that's okay. I guess we'll postpone Samidare and Mistilteinn's chance encounter again...
+<END>
+
+#WRITE(PTR, $000009EC)
+With a slightly bored face, I look at the blue sky out the window.
+<END>
+
+#WRITE(PTR, $000009FC)
+【Itaru】But a Japanese sword and a cursed sword of Norse mythology are so mismatched it would be chaotic. Anyway, Okarin, do you even have a fake metal sword?
+<END>
+
+#WRITE(PTR, $00000A0C)
+【Luka】What should I...
+<END>
+
+#WRITE(PTR, $00000AE2)
+【Rintaro】Lukako, though you are my disciple, you still lack seriousness.
+<END>
+
+#WRITE(PTR, $00000AF2)
+【Luka】I-I'm sorry...
+<END>
+
+#WRITE(PTR, $00000B02)
+【Rintaro】In this condition, it'll still take more time before you can become useful.
+<END>
+
+#WRITE(PTR, $00000B12)
+【Rintaro】So, if you are so inclined, would you like to join our lab?
+<END>
+
+#WRITE(PTR, $00000B2C)
+【Luka】Eh, me?
+<END>
+
+#WRITE(PTR, $00000B3C)
+Lukako looks blankly.
+<END>
+
+#WRITE(PTR, $00000B56)
+【Luka】But I'm thickheaded, and I'm not good at science or engineering... I'll probably just get in your way...
+<END>
+
+#WRITE(PTR, $00000B66)
+【Luka】But is that still okay?
+<END>
+
+#WRITE(PTR, $00000B76)
+【Rintaro】What, it's not like that's any different from Mayuri.
+<END>
+
+#WRITE(PTR, $00000BBE)
+【Mayuri】We'd warmly welcome Luka-kun-
+<END>
+
+#WRITE(PTR, $00000BD8)
+【Mayuri】But you know, if Luka-kun's gonna be a lab mem, then Mayushii has one condition for Okarin. Don't tease Luka-kun.
+<END>
+
+#WRITE(PTR, $00000BE8)
+As if to protect Lukako, Mayuri forces her way between us.
+<END>
+
+#WRITE(PTR, $00000BF8)
+Mayuri's the one who called Lukako here.
+<END>
+
+#WRITE(PTR, $00000C08)
+They're both classmates.
+<END>
+
+#WRITE(PTR, $00000C22)
+【Mayuri】And today, Luka-kun is Mayushii's guest-. He came for a fitting session, so you can't get in our way.
+<END>
+
+#WRITE(PTR, $00000C32)
+【Luka】But Mayuri-chan, I don't really plan to... cosplay... Um, can it really just be a fitting session?
+<END>
+
+#WRITE(PTR, $00000C4C)
+【Mayuri】Yup. We're just making sure the size matches-
+<END>
+
+#WRITE(PTR, $00000C5C)
+Looks like Mayuri invited him by force.
+<END>
+
+#WRITE(PTR, $00000C6C)
+Lukako always kept refusing, but there's no helping it when Mayuri wants this bishounen to cosplay.
+<END>
+
+#WRITE(PTR, $00000D74)
+【Mayuri】Tadah-♪
+<END>
+
+#WRITE(PTR, $00000D84)
+Mayuri immediately showcases the costume she made.
+<END>
+
+#WRITE(PTR, $00000D94)
+【Mayuri】Well, this is RaiNet's Kirari-chan-
+<END>
+
+#WRITE(PTR, $00000DA4)
+I might just be imagining things, but that doesn't look like a lot of cloth.
+<END>
+
+#WRITE(PTR, $00000DB4)
+I don't know if it's his first time seeing it, but Lukako just stares at the costume dumbfounded.
+<END>
+
+#WRITE(PTR, $00000DD4)
+【Mayuri】Anyway, I'd say it's about 70％ complete, but at this point, I want Luka-kun to try it on-♪
+<END>
+
+#WRITE(PTR, $00000DFA)
+【Luka】Try it on, here...? This?
+<END>
+
+#WRITE(PTR, $00000E0A)
+Lukako glances at Daru's and my faces and hangs his blushing head.
+<END>
+
+#WRITE(PTR, $00000E24)
+【Luka】I can't....
+<END>
+
+#WRITE(PTR, $00000E3E)
+【Mayuri】Please-....
+<END>
+
+#WRITE(PTR, $00000E4E)
+Hmm, here's where I, as Lukako's master, ought to help out.
+<END>
+
+#WRITE(PTR, $00000E5E)
+【Rintaro】O disciple of mine, clothing is one of the necessary components for self-reformation. By wearing that, you might grow. Try putting it on at once!
+<END>
+
+#WRITE(PTR, $00000E78)
+【Luka】Even you, Okabe-san... I just, can't wear something so embarrassing...!
+<END>
+
+#WRITE(PTR, $00000E88)
+【Rintaro】You can't do it because you're being too shy.
+<END>
+
+#WRITE(PTR, $00000E98)
+【Mayuri】That's right-. You know, I'm sure you'll be really cute-♪
+<END>
+
+#WRITE(PTR, $00000EA8)
+【Rintaro】Also, Mayuri worked very hard to make this costume so you could wear it.
+<END>
+
+#WRITE(PTR, $00000EB8)
+【Rintaro】She sacrificed her sleeping time, her banana nourishment time, and her juicy karaage number one warming time just so she could sew with her needle, thread, and her sewing machine.
+<END>
+
+#WRITE(PTR, $00000EC8)
+【Rintaro】You should reward that effort.
+<END>
+
+#WRITE(PTR, $00000EE2)
+【Luka】That's true, but...
+<END>
+
+#WRITE(PTR, $00000EF2)
+The good-natured Lukako lightly shakes at my words.
+<END>
+
+#WRITE(PTR, $00000F44)
+【Mayuri】Now, now, now-, Luka-kun, transform! Tra-nsfo-rm♪
+<END>
+
+#WRITE(PTR, $00000F6C)
+【Luka】Eh, wait a sec,
+<END2>
+
+#WRITE(PTR, $00000FFA)
+ wahhhhhhh-
+<END>
+
+#WRITE(PTR, $00001024)
+Mayuri forcibly grips Lukako's arm, dragging him to the changing room.
+<END>
+
+#WRITE(PTR, $00001034)
+【Mayuri】See-♪ Don't feel shy, now take off your clothes.
+<END>
+
+#WRITE(PTR, $00001044)
+【Luka】Wahh! Mayuri-chan, please don't touch there...! I get it! I'll change by myself! So please go...
+<END>
+
+#WRITE(PTR, $00001054)
+【Mayuri】But you know, there are some tricks to putting this on-. So Mayushii will teach you all the steps-♪
+<END>
+
+#WRITE(PTR, $00001064)
+【Luka】Hyeeehhh, please, don't undress me-...
+<END>
+
+#WRITE(PTR, $000010B4)
+【Itaru】It's so... <DICT>yuri</DICT>...
+<END>
+
+#WRITE(PTR, $000010C4)
+【Rintaro】No. That's not yuri. Since Lukako's a guy after all.
+<END>
+
+#WRITE(PTR, $000010DE)
+【Itaru】Then is it reverse rape!? Mwah-, that's downright criminal!
+<END>
+
+#WRITE(PTR, $000010EE)
+That's Mister pervert, demonstrating his specialty.
+<END>
+
+#WRITE(PTR, $0000111E)
+After a few minutes, Mayuri comes out first.
+<END>
+
+#WRITE(PTR, $0000112E)
+She looks satisfied.
+<END>
+
+#WRITE(PTR, $00001176)
+【Mayuri】Luka-kuun. Come on, don't be shy, come on out-
+<END>
+
+#WRITE(PTR, $00001186)
+Even when Mayuri calls him, Lukako doesn't make an appearance.
+<END>
+
+#WRITE(PTR, $000011A0)
+【Mayuri】Luka-kun-?
+<END>
+
+#WRITE(PTR, $000011B0)
+【Luka】......
+<END>
+
+#WRITE(PTR, $000011C0)
+Finally, a nervous Lukako comes out of the dressing room.
+<END>
+
+#WRITE(PTR, $0000122E)
+【Luka】...
+<END>
+
+#WRITE(PTR, $0000123E)
+Lukako looks like he's about to cry.
+<END>
+
+#WRITE(PTR, $0000124E)
+Or actually, his eyes are already teary.
+<END>
+
+#WRITE(PTR, $0000135A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $0000136A)
+I-isnt' that skirt a little too short?
+<END>
+
+#WRITE(PTR, $0000137A)
+Bare legs truly are attractive... wait, oh god, oh god!
+<END>
+
+#WRITE(PTR, $0000138A)
+I'm looking at a guy's legs! What the hell am I saying!?
+<END>
+
+#WRITE(PTR, $0000139A)
+Anyway, Lukako is Lukako, and his leg hairs are perfectly shaved, but I don't know exactly what that means.
+<END>
+
+#WRITE(PTR, $000014EC)
+【Mayuri】Waaahh, Mayushii's so moooved. Luka-kun finally wore it-
+<END>
+
+#WRITE(PTR, $000014FC)
+【Luka】...I-it's embarrassing... to wear female clothing even though I'm a guy...
+<END>
+
+#WRITE(PTR, $0000150C)
+【Mayuri】You know, "Cute is Justice"-♪
+<END>
+
+#WRITE(PTR, $0000151C)
+【Luka】I don't know what you mean...
+<END>
+
+#WRITE(PTR, $0000152C)
+【Itaru】As expected of Mayu-shi's work. There's mutual support between the clothes and the model.
+<END>
+
+#WRITE(PTR, $00001544)
+【Itaru】As far as 3D goes, I'm an advocate of the Faris-tan is the Strongest theory, but Luka-shi almost makes me wanna become a <DICT>low angler</DICT>.
+<END>
+
+#WRITE(PTR, $00001554)
+【Mayuri】Okarin, what are your thoughts-?
+<END>
+
+#WRITE(PTR, $00001600)
+【Rintaro】Ah, yeah, well...
+<END>
+
+#WRITE(PTR, $00001610)
+When urged to talk, I nod vaguely.
+<END>
+
+#WRITE(PTR, $00001620)
+I'm fascinated... but it's mortifying to admit that.
+<END>
+
+#WRITE(PTR, $00001630)
+Lukako is Lukako, yet Lukako is a man. Male. ♂.
+<END>
+
+#WRITE(PTR, $00001640)
+A man just shouldn't be fascinated by another man.
+<END>
+
+#WRITE(PTR, $00001650)
+I hurriedly take out my phone and put it to my right ear.
+<END>
+
+#WRITE(PTR, $00001660)
+【Rintaro】It's me. Now, I'm taking a huge spiritual strike. ...No, it's not the "Organization", but rather, the descendant of the miko stationed in this town... guh, oh no, my heart, is corroding...
+<END>
+
+#WRITE(PTR, $00001670)
+【Rintaro】No way, there were still, this many frontier guards in Akiba. ...Yeah, if I can awaken him, we should be able to minimize the "Organization's" corruption.
+<END>
+
+#WRITE(PTR, $00001680)
+【Rintaro】...I know, we can't hand over the town to those guys yet. This is Steins;Gate's choice... El Psy Congroo...
+<END>
+
+#WRITE(PTR, $00001690)
+After gasping wildly while putting away my phone, I turn back and smile at Lukako and the others who are staring blankly at me.
+<END>
+
+#WRITE(PTR, $0000173C)
+【Rintaro】Whew... Lukako. Foolish disciple of mine. From here on, face times of battle equipped with that costume and Samidare.
+<END>
+
+#WRITE(PTR, $0000174C)
+【Luka】Eh...
+<END>
+
+#WRITE(PTR, $0000175C)
+【Mayuri】Ehh-? Kirari-chan doesn't have a sword-. Instead, it would be perfect to have an Upa♪
+<END>
+
+#WRITE(PTR, $00001830)
+In a perfectly good mood, Mayuri has Lukako hold the Upa cushion.
+<END>
+
+#WRITE(PTR, $00001840)
+Looking like he doesn't understand what to do, Lukako holds it, his lips trembling even more.
+<END>
+
+#WRITE(PTR, $00001850)
+【Rintaro】The "Organization's" evil hand is already approaching here in Akiba.
+<END>
+
+#WRITE(PTR, $00001860)
+I pretend not to notice Lukako's current state as I keep warning him.
+<END>
+
+#WRITE(PTR, $00001870)
+【Rintaro】You are the frontier guard who protects this chaotic metropolis. O miko born of Yanabayashi Shrine, now is the time for you accomplish that duty...!
+<END>
+
+#WRITE(PTR, $00001880)
+【Rintaro】Understand, Lukako? That is the reason why I'm always strict with you. For you have the mission to protect this town!
+<END>
+
+#WRITE(PTR, $00001890)
+【Luka】Do I... really?
+<END>
+
+#WRITE(PTR, $000018A0)
+【Rintaro】You certainly do! Fuhahaha!
+<END>
+
+#WRITE(PTR, $00001938)
+【Kurisu】Can you stop that vulgar laughter? I can hear you clearly from outside. It's shameful.
+<END>
+
+#WRITE(PTR, $000019E4)
+Kurisu enters the lab as she says so.
+<END>
+
+#WRITE(PTR, $00001A88)
+She's coming here this late like she's an executive or something.
+<END>
+
+#WRITE(PTR, $00001C58)
+【Mayuri】Chris-chan, tutturu-♪
+<END>
+
+#WRITE(PTR, $00001CFC)
+【Rintaro】Mmgh!? You come here this late and dare insult me? Are you not my assistant!?
+<END>
+
+#WRITE(PTR, $00001DAA)
+【Kurisu】I'm not your assistant. Don't make me repeat myself.
+<END>
+
+#WRITE(PTR, $00001E58)
+【Kurisu】Anyway, to enjoy toying with such a weak and innocent girl... you're the worst. Don't you think?
+<END>
+
+#WRITE(PTR, $00001F3E)
+【Itaru】Toying with such a weak and innocent girl... you say?
+<END>
+
+#WRITE(PTR, $00001FEC)
+【Kurisu】Don't react to every little thing, pervert.
+<END>
+
+#WRITE(PTR, $0000209C)
+I see, so Christina doesn't know Lukako's a guy.
+<END>
+
+#WRITE(PTR, $00002140)
+Correcting every little thing is annoying, so I don't say anything.
+<END>
+
+#WRITE(PTR, $000021EE)
+【Kurisu】At any rate...
+<END>
+
+#WRITE(PTR, $00002292)
+【Rintaro】Christina. Please stop eying Lukako's entire body from bottom to top like that.
+<END>
+
+#WRITE(PTR, $00002344)
+【Kurisu】I-I wasn't doing that...
+<END>
+
+#WRITE(PTR, $000023E8)
+【Mayuri】Chris-chan, whaddya think, about this costume. It really suits Luka-kun, dontcha think-?
+<END>
+
+#WRITE(PTR, $00002496)
+【Kurisu】Hmmm, so is this that cosplay thing from Japanimation culture I've heard about?
+<END>
+
+#WRITE(PTR, $00002544)
+【Kurisu】It's very cute.
+<END>
+
+#WRITE(PTR, $000025F2)
+【Luka】C-c-cute, no way...
+<END>
+
+#WRITE(PTR, $00002696)
+Lukako's eyes get more and more wet.
+<END>
+
+#WRITE(PTR, $00002744)
+【Kurisu】Why are you so sad? You're very cute, so you should be more self-confident.
+<END>
+
+#WRITE(PTR, $00002804)
+【Luka】Uuugh...
+<END>
+
+#WRITE(PTR, $0000281C)
+Kurisu doesn't know, so she's not doing it intentionally, but I guess that makes things complicated for Lukako.
+<END>
+
+#WRITE(PTR, $0000282C)
+I guess I should change the topic for Lukako's sake. No matter what you try to hide, I am a mad scientist, and a very perceptive man.
+<END>
+
+#WRITE(PTR, $0000283C)
+【Rintaro】Hehehe...
+<END>
+
+#WRITE(PTR, $0000284C)
+I comb back my hair with my fingers.
+<END>
+
+#WRITE(PTR, $0000285C)
+【Rintaro】Lukako, let's hear your wish.
+<END>
+
+#WRITE(PTR, $0000287E)
+【Luka】Eh...?
+<END>
+
+#WRITE(PTR, $00002898)
+【Kurisu】That's a real hyper acrobatic way to lead a conversation.
+<END>
+
+#WRITE(PTR, $000028AC)
+【Rintaro】Listen, Lukako! Your thoughts will manifest. For Japan is the country of the soul of language. Power resides in every word that slips off your tongue!
+<END>
+
+#WRITE(PTR, $000028BC)
+【Rintaro】Now that you too have become a resident of the open otaku world, you should clearly state your wish.
+<END>
+
+#WRITE(PTR, $000028CC)
+【Rintaro】If you do, then the chaos of this earth will cause Steins;Gate's choice to back you up.
+<END>
+
+#WRITE(PTR, $000028E6)
+【Luka】Eh... my wish...?
+<END>
+
+#WRITE(PTR, $000028F6)
+Lukako puts his hands together in front of his waist and bends his head slightly to the side. His cheeks turn light pink.
+<END>
+
+#WRITE(PTR, $00002906)
+His squirming appearance with wet, upturned eyes would make anyone who saw him either hnng and want to hug him real tight. It's that goddamn powerful.
+<END>
+
+#WRITE(PTR, $00002916)
+【Luka】Well...
+<END>
+
+#WRITE(PTR, $00002926)
+【Luka】You won't laugh... if I tell you...?
+<END>
+
+#WRITE(PTR, $00002936)
+【Rintaro】There's nothing to be embarrassed about. Just proclaim it magnificently!
+<END>
+
+#WRITE(PTR, $00002950)
+【Kurisu】Well yeah, compared to the idiotic wish for chaos to whatever the world whatever, there isn't any embarrassing wish.
+<END>
+
+#WRITE(PTR, $00002960)
+【Rintaro】You, Assistant! You're letting us know you're the type to laugh at people's wishes, you know!
+<END>
+
+#WRITE(PTR, $0000297E)
+【Mayuri】Well, Mayushii's wish-, is to eat a smorgasbord of of yummy food, and to cover the lab with Upa goods, and to get Luka-kun to wear my costumes--
+<END>
+
+#WRITE(PTR, $0000298E)
+【Rintaro】I didn't ask you.
+<END>
+
+#WRITE(PTR, $000029B0)
+【Mayuri】Ehh-. Mayushii wants her wish to be backed by "<DICT>Shota</DICT> in za gate's" choice too-
+<END>
+
+#WRITE(PTR, $00002A06)
+【Itaru】Wait, Shota in za gate? That mistake is god tier.
+<END2>
+
+#WRITE(PTR, $00002A3C)
+ It's somehow... i-i-immoral, though.
+<END>
+
+#WRITE(PTR, $00002A68)
+Everyone ignores Daru, getting excited by himself.
+<END>
+
+#WRITE(PTR, $00002A78)
+Lukako puts his hands to his mouth and casts his eyes down.
+<END>
+
+#WRITE(PTR, $00002A88)
+The same appearance as a junior (female) confessing her feelings to her beloved senior (male) underneath a sakura tree.
+<END>
+
+#WRITE(PTR, $00002A98)
+Gh, stop the hnng! Stop hnnging!
+<END>
+
+#WRITE(PTR, $00002AB2)
+【Luka】I want... to become a girl...
+<END>
+
+#WRITE(PTR, $00002ACC)
+【Kurisu】What...?
+<END>
+
+#WRITE(PTR, $00002ADC)
+The first to look confused at that extreme wish is Kurisu.
+<END>
+
+#WRITE(PTR, $00002AEC)
+Well, that's only natural.
+<END>
+
+#WRITE(PTR, $00002AFC)
+Not even I expected that, so I accidentally swallowed my fuhahaha.
+<END>
+
+#WRITE(PTR, $00002B0C)
+【Luka】I don't really... like my own face...
+<END>
+
+#WRITE(PTR, $00002B1C)
+【Luka】So, if I became a girl, then... I always thought... that I could get a little more confident....
+<END>
+
+#WRITE(PTR, $00002B2C)
+So he has no confidence.
+<END>
+
+#WRITE(PTR, $00002BD2)
+He has the lightest skin out of everyone here.
+<END>
+
+#WRITE(PTR, $00002BE2)
+He has the fairest skin out of everyone.
+<END>
+
+#WRITE(PTR, $00002BF2)
+He is the most lovely out of everyone.
+<END>
+
+#WRITE(PTR, $00002C02)
+You could say that.
+<END>
+
+#WRITE(PTR, $00002C12)
+I'm well aware of the reason for all of this.
+<END>
+
+#WRITE(PTR, $00002C22)
+It's because he's a guy!
+<END>
+
+#WRITE(PTR, $00002D80)
+【Kurisu】Wait. Wait a second.
+<END>
+
+#WRITE(PTR, $00002D90)
+Kurisu starts rubbing her temples.
+<END>
+
+#WRITE(PTR, $00002DAA)
+【Kurisu】Umm, what did she say?
+<END>
+
+#WRITE(PTR, $00002DBA)
+【Rintaro】Hehehe, Assistant of mine, no, Christina!
+<END>
+
+#WRITE(PTR, $00002DD4)
+【Kurisu】I told you, I'm not Assistant, nor Christina.
+<END>
+
+#WRITE(PTR, $00002DE4)
+【Rintaro】You're making a decisive mistake!
+<END>
+
+#WRITE(PTR, $00002DFE)
+【Kurisu】Mistake?
+<END>
+
+#WRITE(PTR, $00002E0E)
+【Rintaro】Don't you understand, Christina? You don't, do you? And that's simply because your eyes are clouded over by wicked thoughts!
+<END>
+
+#WRITE(PTR, $00002E1E)
+【Kurisu】Wh-what do you mean?
+<END>
+
+#WRITE(PTR, $00002E2E)
+【Rintaro】Then allow me to tell you. You called Lukako here "a weak and innocent girl".
+<END>
+
+#WRITE(PTR, $00002E3E)
+【Rintaro】But he's not a girl at all. He's a guy...!
+<END>
+
+#WRITE(PTR, $00002E58)
+【Kurisu】That some sort of joke?
+<END>
+
+#WRITE(PTR, $00002E70)
+【Rintaro】It's not a joke, but the unshakable truth clearly specified in the <DICT>Akashic Record</DICT>! Fuhahaha!
+<END>
+
+#WRITE(PTR, $00002FE4)
+Kurisu looks at Daru and Mayuri's faces as if seeking help, but since both of them naturally know he's a guy, they nod with an I-know-how-it-is look.
+<END>
+
+#WRITE(PTR, $00002FF4)
+As for Lukako himself, he's just hanging his head in shame.
+<END>
+
+#WRITE(PTR, $00003004)
+【Kurisu】...Are you guys trolling me?
+<END>
+
+#WRITE(PTR, $00003014)
+【Rintaro】Eh?
+<END>
+
+#WRITE(PTR, $0000302E)
+【Itaru】Eh?
+<END>
+
+#WRITE(PTR, $00003048)
+【Kurisu】...Eh?
+<END>
+
+#WRITE(PTR, $00003058)
+As if taken aback, Kurisu diverts her eyes from me and approaches Lukako.
+<END>
+
+#WRITE(PTR, $00003162)
+【Kurisu】Urushibara-san, is what Okabe says true?
+<END>
+
+#WRITE(PTR, $00003172)
+【Luka】Y-yes...
+<END>
+
+#WRITE(PTR, $0000318C)
+【Luka】I... am a guy...
+<END>
+
+#WRITE(PTR, $000031A6)
+【Kurisu】N-no way. Such a cute kid can't be a boy--
+<END>
+
+#WRITE(PTR, $000031EE)
+【Itaru】No, it's the opposite. What you should say is "Such a cute kid can't be a girl".
+<END>
+
+#WRITE(PTR, $00003208)
+【Kurisu】That's not what I meant.
+<END>
+
+#WRITE(PTR, $00003218)
+By That's not what I meant, does that mean Kurisu knows the meaning of the phrase Such a cute kid can't be a girl?
+<END>
+
+#WRITE(PTR, $00003228)
+So she's an @channeler after all...
+<END>
+
+#WRITE(PTR, $00003242)
+【Rintaro】Lukako. You're fine just the way you are. Neither I, nor any of us, will deny you be you man or be you woman.
+<END>
+
+#WRITE(PTR, $0000325C)
+【Rintaro】At the same time, neither I, nor any of us, will deny your wish.
+<END>
+
+#WRITE(PTR, $00003276)
+【Itaru】Can you quit emphasizing with "nor any of us"?
+<END>
+
+#WRITE(PTR, $00003292)
+Unable to calm down after learning the truth, Kurisu starts palpating her own face and takes out a hand mirror to check her hair.
+<END>
+
+#WRITE(PTR, $000032A2)
+【Rintaro】No need to be hasty, Christina. Is it that much of a shock that there was always a man who was more womanly than you?
+<END>
+
+#WRITE(PTR, $000032B2)
+【Kurisu】I admit it... compared to her... I mean, him, I talk more rudely and my attitude is worse...
+<END>
+
+#WRITE(PTR, $000032C2)
+【Kurisu】This shock is on the level of a three day coma.
+<END>
+
+#WRITE(PTR, $000032D2)
+Anyhow, it looks like she's seriously depressed.
+<END>
+
+#WRITE(PTR, $0000331A)
+【Mayuri】Chris-chan's cute too-♪
+<END>
+
+#WRITE(PTR, $00003334)
+【Kurisu】I don't need your followup. It'll just make me more miserable.
+<END>
+
+#WRITE(PTR, $00003350)
+【Rintaro】Humans who can reflect on their own faults are those who can become stronger. Christina, you may one day become a splendid woman. You're still just young.
+<END>
+
+#WRITE(PTR, $0000336A)
+【Kurisu】I didn't ask you to preach me.
+<END>
+
+#WRITE(PTR, $0000337A)
+【Rintaro】I take it back! Those who don't reflect on their own faults are intolerant bastards!
+<END>
+
+#WRITE(PTR, $00003394)
+【Kurisu】Shut up. I don't want to hear it from you.
+<END>
+
+#WRITE(PTR, $000033AE)
+【Luka】Um, sorry... It's because I said something weird...
+<END>
+
+#WRITE(PTR, $000033BE)
+Lukako bows his head for some reason.
+<END>
+
+#WRITE(PTR, $000033CE)
+His eyes are already red.
+<END>
+
+#WRITE(PTR, $000033DE)
+With such a cute girl-- err, boy-- bowing his head with teary eyes, Kurisu and I can't say a thing.
+<END>
+
+#WRITE(PTR, $00003426)
+【Itaru】Whelp, better get my favorite digicam...
+<END>
+
+#WRITE(PTR, $00003440)
+【Kurisu】Don't try to sneak up a photo session, pervert!
+<END>
+
+#WRITE(PTR, $0000345A)
+【Itaru】Sensei, I want to be a low angler...
+<END>
+
+#WRITE(PTR, $0000346A)
+Even so, my whim of asking for Lukako's wish just for the sake of asking ended up with unexpected results.
+<END>
+
+#WRITE(PTR, $0000347A)
+So that's how Lukako thinks of himself...
+<END>
+
+#WRITE(PTR, $00003550)
+【Rintaro】But Lukako, just how serious are you about that wish of yours?
+<END>
+
+#WRITE(PTR, $00003560)
+If he can't choose a way to do it, then I think having a sex-change operation would be the fastest.
+<END>
+
+#WRITE(PTR, $00003570)
+Judging by how he looks now, postop Lukako could become a star in Shinjuku Ni-chome's LGBT community.
+<END>
+
+#WRITE(PTR, $00003580)
+No, screw that, he could even become a TV talent.
+<END>
+
+#WRITE(PTR, $0000359A)
+【Luka】For example, I've always wanted to go to sleep at night, and then wake up as a girl the next morning, or something like that.
+<END>
+
+#WRITE(PTR, $000035B4)
+【Luka】Ahaha, I dream too much... don't I?
+<END>
+
+#WRITE(PTR, $000035C4)
+Mmmnggh, stop it with those super shy puppy dog eyes!
+<END>
+
+#WRITE(PTR, $000035D4)
+Are you that chihuahua from a certain popular commercial!?
+<END>
+
+#WRITE(PTR, $0000361C)
+【Mayuri】Haauuw-, Luka-kun, you're so cute-♪
+<END>
+
+#WRITE(PTR, $00003664)
+【Kurisu】S-So cute...
+<END>
+
+#WRITE(PTR, $00003674)
+Looks like Kurisu's been struck by Lukako too.
+<END>
+
+#WRITE(PTR, $00003684)
+And in the middle of his high exposure cosplay session too.
+<END>
+
+#WRITE(PTR, $00003694)
+That attack can throw any opponent into the sea of moe. The opponent dies.
+<END>
+
+#WRITE(PTR, $000036A4)
+The scary part is that after being thrown into the sea of moe, the opponent will want to grant Lukako's wish at any cost.
+<END>
+
+#WRITE(PTR, $000036B4)
+But, as Lukako said, it really is difficult to find such a dreamy, maidenly way.
+<END>
+
+#WRITE(PTR, $000036C4)
+And then, Kurisu clears her throat.
+<END>
+
+#WRITE(PTR, $0000379A)
+【Kurisu】That reminds me of something I've heard once.
+<END>
+
+#WRITE(PTR, $000037E2)
+【Itaru】An explanation line for the win!
+<END>
+
+#WRITE(PTR, $000037F2)
+【Kurisu】Looks like there's a common saying that if you eat a lot of meat, you'll give birth to a boy, and if you eat a lot of vegetables, a girl.
+<END>
+
+#WRITE(PTR, $0000380A)
+【Itaru】Sauce? <DICT>Minmei Shobou</DICT>?
+<END>
+
+#WRITE(PTR, $00003824)
+【Kurisu】Saw it on the internet.
+<END>
+
+#WRITE(PTR, $0000383E)
+【Itaru】Y-you're replying like that, huh... well played...
+<END>
+
+#WRITE(PTR, $00003858)
+【Kurisu】Wh-what are you talking about?
+<END>
+
+#WRITE(PTR, $00003868)
+Quite a dubious common saying.
+<END>
+
+#WRITE(PTR, $000038B0)
+【Mayuri】Hehh~, I didn't know-. Then, Mayushii's mama and Chris-chan's mama ate a lot of vegetables, huh-
+<END>
+
+#WRITE(PTR, $000038C0)
+Only Mayuri's impressed.
+<END>
+
+#WRITE(PTR, $000038DA)
+【Mayuri】Mayushii only eats juicy karaage number one, so will her future child be a boy-?
+<END>
+
+#WRITE(PTR, $000038F4)
+【Mayuri】Hey, hey, do you think bananas count as vegetables-?
+<END>
+
+#WRITE(PTR, $00003904)
+Let's set aside Mayuri's serious affliction for now.
+<END>
+
+#WRITE(PTR, $00003914)
+【Rintaro】In that case, what about the primitive people who lived on hunting? If they naturally produced only men, then wouldn't the sex ratio balance be one-sided?
+<END>
+
+#WRITE(PTR, $00003924)
+【Rintaro】Then it would be doubtful that humanity prospered thus far.
+<END>
+
+#WRITE(PTR, $0000393E)
+【Kurisu】I never said it was correct.
+<END>
+
+#WRITE(PTR, $00003958)
+【Kurisu】I just remembered it. Don't snap at every little thing.
+<END>
+
+#WRITE(PTR, $00003968)
+【Rintaro】I didn't snap. Christina, feel like verifying that theory?
+<END>
+
+#WRITE(PTR, $00003982)
+【Kurisu】...What do you mean?
+<END>
+
+#WRITE(PTR, $00003992)
+【Rintaro】Remember. We have the Microwave Ophone (Temp) in our possession, do we not?
+<END>
+
+#WRITE(PTR, $000039B0)
+【Mayuri】Microwave Ophone-chan?
+<END2>
+
+#WRITE(PTR, $000039CA)
+ If we warm it up, we can tell if it's a boy or a girl-?
+<END>
+
+#WRITE(PTR, $000039DE)
+No way in hell.
+<END>
+
+#WRITE(PTR, $000039F8)
+【Kurisu】No, wait, ah, I see....
+<END>
+
+#WRITE(PTR, $00003A08)
+Looks like Kurisu's got it.
+<END>
+
+#WRITE(PTR, $00003A18)
+Her quick understanding means they don't call her a genius girl for nothing.
+<END>
+
+#WRITE(PTR, $00003A28)
+【Kurisu】We can send a D-mail back to when Urushibara-san's mother was pregnant, right?
+<END>
+
+#WRITE(PTR, $00003A38)
+【Rintaro】Indeed. Something like "Eat more vegetables"!
+<END>
+
+#WRITE(PTR, $00003A48)
+Lukako, who doesn't know what D-mails are, and Mayuri, who's naturally a dumb girl, tilt their heads in parallel.
+<END>
+
+#WRITE(PTR, $00003A58)
+【Rintaro】Don't you think it's worth a shot?
+<END>
+
+#WRITE(PTR, $00003A72)
+【Kurisu】Well...
+<END>
+
+#WRITE(PTR, $00003A82)
+【Rintaro】Don't try to smooth it over like a hypocrite now, Christina. I know, that you have the characteristics of a mad scientist, for you are an experiment-loving girl!
+<END>
+
+#WRITE(PTR, $00003A9C)
+【Kurisu】Who are you calling an experiment-loving girl!?
+<END>
+
+#WRITE(PTR, $00003AAC)
+【Rintaro】Am I wrong?
+<END>
+
+#WRITE(PTR, $00003AC6)
+【Kurisu】...N-no, you're not, but...
+<END>
+
+#WRITE(PTR, $00003AD6)
+It's decided!
+<END>
+
+#WRITE(PTR, $00003AE6)
+【Itaru】W-wait a sec. What are you going to do if the experiment's a success?
+<END>
+
+#WRITE(PTR, $00003AF6)
+【Rintaro】What do you mean?
+<END>
+
+#WRITE(PTR, $00003B06)
+【Itaru】I mean, if Luka-shi's sex seriously changes.
+<END>
+
+#WRITE(PTR, $00003B16)
+【Rintaro】That's Lukako's wish, isn't it?
+<END>
+
+#WRITE(PTR, $00003B26)
+【Itaru】Well, yeah, but...
+<END>
+
+#WRITE(PTR, $00003B36)
+【Itaru】If his sex does change, won't the history of the 16 years Luka-shi lived change too? That's what I mean.
+<END>
+
+#WRITE(PTR, $00003B46)
+【Itaru】Who's gonna take responsibility for that?
+<END>
+
+#WRITE(PTR, $00003B56)
+【Rintaro】Well...
+<END>
+
+#WRITE(PTR, $00003C2C)
+【Luka】Um, I'll... take responsibility...
+<END>
+
+#WRITE(PTR, $00003C3C)
+Lukako raises his hand timidly.
+<END>
+
+#WRITE(PTR, $00003C8E)
+【Itaru】Seriously?
+<END>
+
+#WRITE(PTR, $00003C9E)
+【Luka】Well, I don't really understand... but if we use this method, I might become a girl, right...?
+<END>
+
+#WRITE(PTR, $00003CB8)
+【Luka】Then, I want... to try.
+<END>
+
+#WRITE(PTR, $00003CC8)
+【Luka】Please, Master.
+<END>
+
+#WRITE(PTR, $00003CD8)
+He bows his head.
+<END>
+
+#WRITE(PTR, $00003CE8)
+【Rintaro】Mayuri, your opinion?
+<END>
+
+#WRITE(PTR, $00003D06)
+【Mayuri】Hmmm, if Luka-kun becomes a girl,
+<END2>
+
+#WRITE(PTR, $00003D20)
+ then next time I've gotta call her Luka-chan, right-
+<END>
+
+#WRITE(PTR, $00003D3E)
+【Mayuri】Will Luka-chan wear Mayushii's costumes?
+<END>
+
+#WRITE(PTR, $00003D58)
+【Luka】Eh, well that's another story...
+<END>
+
+#WRITE(PTR, $00003D68)
+At any rate, it doesn't look like Mayuri's got any particular objections.
+<END>
+
+#WRITE(PTR, $00003D82)
+【Rintaro】Then it's settled. In that case, Lukako, I appoint you with Lab Mem Number 006.
+<END>
+
+#WRITE(PTR, $00003D9C)
+【Luka】Eh...?
+<END>
+
+#WRITE(PTR, $00003DAC)
+【Rintaro】The Microwave Ophone (Temp) is our lab's most important secret matter. In order to use it, you must become a lab mem.
+<END>
+
+#WRITE(PTR, $00003DBC)
+【Luka】Ah, yes.
+<END>
+
+#WRITE(PTR, $00003DD6)
+【Luka】Umm, I actually... always wanted to be a member of this lab...
+<END>
+
+#WRITE(PTR, $00003DF0)
+【Mayuri】Really-? You should've just said so-
+<END>
+
+#WRITE(PTR, $00003E0A)
+【Luka】I didn't have the courage to say it... I said it before, but I don't understand a thing about engineering...
+<END>
+
+#WRITE(PTR, $00003E24)
+【Mayuri】You don't have to worry about those things. I mean, Mayuri doesn't get them at all, either.
+<END>
+
+#WRITE(PTR, $00003E34)
+That's not something to be so proud of, Mayuri...
+<END>
+
+#WRITE(PTR, $00003E44)
+【Rintaro】So, Lukako will be a lab mem from this point forth. Does anyone have an objection?
+<END>
+
+#WRITE(PTR, $00003E8C)
+【Kurisu】He-re.
+<END>
+
+#WRITE(PTR, $00003E9C)
+Kurisu raises her hand.
+<END>
+
+#WRITE(PTR, $00003EAC)
+【Kurisu】I want to give up Lab Mem Number 004 and give it to Urushibara-san instead.
+<END>
+
+#WRITE(PTR, $00003EBC)
+【Rintaro】Denied. Anyone else?
+<END>
+
+#WRITE(PTR, $00003ED6)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00003EE6)
+Mayuri and Daru said "Why 006 and not 005?" but I completely ignored them. Moeka will always be 005 in my heart.
+<END>
+
+#WRITE(PTR, $00003EF6)
+No other opinions emerged, so all members are in favor.
+<END>
+
+#WRITE(PTR, $00003F06)
+【Rintaro】Now then, Lukako will become lab mem number 006. Henceforth, pledge your allegiance to the lab, and devote all your strength to the lab's developments.
+<END>
+
+#WRITE(PTR, $00003F20)
+【Luka】Y-yes...! I'm so happy.
+<END>
+
+#WRITE(PTR, $00003F3C)
+【Rintaro】Now, with that said, let's begin the experiment immedia--
+<END>
+
+#WRITE(PTR, $00003F4C)
+...no, wait?
+<END>
+
+#WRITE(PTR, $00003F5C)
+Then I suddenly notice something and get instinctively worried.
+<END>
+
+#WRITE(PTR, $00003FA4)
+【Rintaro】Fiddlesticks...! Lukako, right now, you're 16, right?
+<END>
+
+#WRITE(PTR, $00003FBE)
+【Luka】Eh, yes...
+<END>
+
+#WRITE(PTR, $00003FCE)
+【Rintaro】So you were born in 1993...
+<END>
+
+#WRITE(PTR, $00004016)
+【Mayuri】That's right-. The same year as Mayushii. What about it-?
+<END>
+
+#WRITE(PTR, $00004030)
+In order to tell Lukako's mother to eat a lot of vegetables, we need to send a D-mail to ten months before Lukako's born, which means we have to send it to 1992.
+<END>
+
+#WRITE(PTR, $00004040)
+【Rintaro】When did cellphones become widespread in Japan!?
+<END>
+
+#WRITE(PTR, $000040CA)
+【Kurisu】Ah...
+<END>
+
+#WRITE(PTR, $000040DA)
+Looks like Kurisu and Daru realized it.
+<END>
+
+#WRITE(PTR, $000040F6)
+Daru immediately tries googling it--
+<END>
+
+#WRITE(PTR, $00004148)
+【Itaru】About '96. Mail function got implemented even later.
+<END>
+
+#WRITE(PTR, $00004158)
+【Rintaro】So basically, the year Lukako was born, cellphones hadn't become popularized.
+<END>
+
+#WRITE(PTR, $00004168)
+【Rintaro】Lukako's mother may not have had one. In that case, she might not have the means of receiving the mail!
+<END>
+
+#WRITE(PTR, $00004182)
+【Mayuri】Ah-, I seeeee.
+<END>
+
+#WRITE(PTR, $0000419C)
+【Luka】Eh...? We can't do it...?
+<END>
+
+#WRITE(PTR, $000041AC)
+I fold my arms in thought while watching Lukako's face darken.
+<END>
+
+#WRITE(PTR, $000041BC)
+The means of receiving the mail... An era where cellular telephones hadn't become widespread... Cellular telephones... Hmmm....
+<END>
+
+#WRITE(PTR, $000041CC)
+【Itaru】In that case, we could remodel it to send radio waves or something.
+<END>
+
+#WRITE(PTR, $000041E6)
+【Kurisu】What do you mean, radio waves?
+<END>
+
+#WRITE(PTR, $00004200)
+【Itaru】Only some dangerous people can receive them. Radio waves, or should I say, noise? You see it a lot in the spring.
+<END>
+
+#WRITE(PTR, $0000421A)
+【Kurisu】The only noise is in your head, right?
+<END>
+
+#WRITE(PTR, $00004234)
+【Itaru】It's fine-. It's OK to abuse me more-
+<END>
+
+#WRITE(PTR, $0000424E)
+【Mayuri】Then, then, couldn't you put a letter in a time capsule and bury it-?
+<END>
+
+#WRITE(PTR, $0000426C)
+【Kurisu】That won't go to the past, but the future.
+<END>
+
+#WRITE(PTR, $00004286)
+【Mayuri】I see-...
+<END>
+
+#WRITE(PTR, $000042A4)
+【Itaru】In that case, how about that thing, where Luka-shi gets struck by lightning! And that causes him to convert sexes!
+<END2>
+
+#WRITE(PTR, $000042BE)
+ Like in old comis and anime.
+<END>
+
+#WRITE(PTR, $000042DC)
+【Kurisu】There's no point to the experiment if we don't use a D-mail. Don't get derailed.
+<END>
+
+#WRITE(PTR, $000042F6)
+【Mayuri】Then, Mayushii's expecting a nice idea from Chris-chan.
+<END>
+
+#WRITE(PTR, $00004310)
+【Kurisu】M-me? I...
+<END>
+
+#WRITE(PTR, $0000432A)
+【Kurisu】That's right, we develop a rocket which exceeds the speed of light squared, then that immense speed would reverse the flow of time, or something...
+<END>
+
+#WRITE(PTR, $0000433A)
+【Itaru】Even you're forgetting about the Microwave Ophone, aren't you?
+<END>
+
+#WRITE(PTR, $0000434A)
+【Rintaro】Furthermore, you genius bitch, you just contradicted the Theory of Relativity.
+<END>
+
+#WRITE(PTR, $00004364)
+【Kurisu】It was just a joke. Don't take it seriously.
+<END>
+
+#WRITE(PTR, $00004374)
+【Rintaro】Geez, we can't use any of these things!
+<END>
+
+#WRITE(PTR, $0000438E)
+【Kurisu】Then, oh self-proclaimed insane mad scientist with gray brain cells of 170 IQ, Hououin-san. Tell us your genius plan.
+<END>
+
+#WRITE(PTR, $0000439E)
+【Rintaro】Hmm... The corners of my brain are flashing.
+<END>
+
+#WRITE(PTR, $000043B8)
+【Itaru】Flashing of the spirit.
+<END>
+
+#WRITE(PTR, $000043D4)
+This sensation... Yes, my natural mad scientist flashing is now about to explode...!
+<END>
+
+#WRITE(PTR, $000044CE)
+【Rintaro】I got it.
+<END>
+
+#WRITE(PTR, $000044DE)
+I silently mutter. All glances focus on me.
+<END>
+
+#WRITE(PTR, $000044EE)
+I grin broadly--
+<END>
+
+#WRITE(PTR, $00004506)
+【Rintaro】If there are no cellphones, then we just need to send it to a <DICT>pager</DICT>, right?
+<FILEEND5C>
+

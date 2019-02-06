@@ -1,0 +1,575 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000016DE)
+
+#WRITE(PTR, $00000204)
+When I returned to the lab about 2 hours later, Kurisu has already left.
+<END>
+
+#WRITE(PTR, $00000214)
+And in her place was a single mail.
+<END>
+
+#WRITE(PTR, $00000224)
+While sitting down on the sofa, drying my hair with a towel, I look towards the PC in the corner of the room.
+<END>
+
+#WRITE(PTR, $00000234)
+The IBN 5100 was already there connected to it, ready for whenever Daru was ready to start hacking.
+<END>
+
+#WRITE(PTR, $00000244)
+I already contacted Daru by mail.
+<END>
+
+#WRITE(PTR, $00000254)
+Hacking starts tomorrow at noon.
+<END>
+
+#WRITE(PTR, $00000264)
+When I said so to Daru, I drove myself into a corner, so that I couldn't turn back no matter how much I hesitated.
+<END>
+
+#WRITE(PTR, $00000274)
+I chose Mayuri.
+<END>
+
+#WRITE(PTR, $00000284)
+I will let Kurisu die.
+<END>
+
+#WRITE(PTR, $00000294)
+Showering didn't calm down the tightening of my heart.
+<END>
+
+#WRITE(PTR, $000002A4)
+Honestly speaking, I couldn't deny the feeling I was washing away Kurisu's words.
+<END>
+
+#WRITE(PTR, $000002B4)
+The fact that she's okay with this leaves a bad aftertaste.
+<END>
+
+#WRITE(PTR, $000002C4)
+Is she really... okay with this?
+<END>
+
+#WRITE(PTR, $00000346)
+【Mayuri】...is someone here-?
+<END>
+
+#WRITE(PTR, $0000041A)
+Mayuri opens the lab door and peeks her face in.
+<END>
+
+#WRITE(PTR, $00000434)
+When she sees me, she looks like she's about to burst into tears.
+<END>
+
+#WRITE(PTR, $00000444)
+But soon, she smiles.
+<END>
+
+#WRITE(PTR, $00000526)
+【Mayuri】It's Okarin?
+<END>
+
+#WRITE(PTR, $00000536)
+【Rintaro】What's up?
+<END>
+
+#WRITE(PTR, $00000546)
+【Mayuri】Oh, nothing. I just decided to come here. Ehhehe-♪
+<END>
+
+#WRITE(PTR, $00000556)
+I swallow my breath.
+<END>
+
+#WRITE(PTR, $00000566)
+Maybe I should explain the situation to Mayuri.
+<END>
+
+#WRITE(PTR, $00000576)
+But if I tell her, Mayuri will be sure to feel indebted.
+<END>
+
+#WRITE(PTR, $00000586)
+Mayuri doesn't really need to know in the first place.
+<END>
+
+#WRITE(PTR, $00000596)
+Things will be okay as long as we hack SERN and I reach the β World Line.
+<END>
+
+#WRITE(PTR, $00000662)
+【Mayuri】You know, lately, I've gotten fewer chances to speak with you, Okarin.
+<END>
+
+#WRITE(PTR, $00000672)
+【Mayuri】But I don't want to be a burden to Okarin either-
+<END>
+
+#WRITE(PTR, $000006FC)
+Shouldn't it be okay even if I end this without saying anything?
+<END>
+
+#WRITE(PTR, $0000070C)
+Shouldn't it be okay even if I don't tell Mayuri I'm sacrificing Kurisu for her sake?
+<END>
+
+#WRITE(PTR, $00000754)
+【Mayuri】Did you take a shower-?
+<END>
+
+#WRITE(PTR, $00000764)
+Mayuri wraps around behind the sofa, grabs the bathtowel on my head, and starts wiping my hair dry.
+<END>
+
+#WRITE(PTR, $0000077E)
+【Mayuri】Okarin, you smell good like shampoo-
+<END>
+
+#WRITE(PTR, $0000078E)
+Saying so, she buried her nose into my hair and started sniffing.
+<END>
+
+#WRITE(PTR, $0000079E)
+【Rintaro】Hey, stop that.
+<END>
+
+#WRITE(PTR, $000007AE)
+I tilt my head to escape.
+<END>
+
+#WRITE(PTR, $000007BE)
+Mayuri goes back work wiping my hair dry.
+<END>
+
+#WRITE(PTR, $000007D8)
+【Mayuri】Today... I didn't go to ComiMa...
+<END>
+
+#WRITE(PTR, $000007E8)
+【Rintaro】Hm? Why...?
+<END>
+
+#WRITE(PTR, $000007F8)
+【Mayuri】I was thinking about Okarin.
+<END>
+
+#WRITE(PTR, $00000808)
+【Mayuri】Whenever I remember Okarin's painful looking face, I can't enjoy ComiMa.
+<END>
+
+#WRITE(PTR, $00000818)
+【Mayuri】So, I went all the way to Ariake, but came back without participating-
+<END>
+
+#WRITE(PTR, $00000828)
+【Rintaro】I see... Sorry. For worrying you.
+<END>
+
+#WRITE(PTR, $00000838)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $00000848)
+I wonder if I should speak.
+<END>
+
+#WRITE(PTR, $00000858)
+Or rather, if I shouldn't let Mayuri know anything.
+<END>
+
+#WRITE(PTR, $00000920)
+【Mayuri】You know, lately, I've gotten fewer chances to speak with you, Okarin.
+<END>
+
+#WRITE(PTR, $00000930)
+【Mayuri】So, Mayushii might be getting a little lonely.
+<END>
+
+#WRITE(PTR, $0000098A)
+【Rintaro】Mayuri. If I said I was keeping a secret from you, what would you think?
+<END>
+
+#WRITE(PTR, $000009A4)
+【Mayuri】...You mean something surprising, like "Actually, Okarin and Chris-chan are going out"?
+<END>
+
+#WRITE(PTR, $000009B4)
+【Rintaro】Why would it be that...
+<END>
+
+#WRITE(PTR, $000009C4)
+【Mayuri】But Okarin and Chris-chan are getting along really well, you know? I think you two are meant for each other-
+<END>
+
+#WRITE(PTR, $000009D4)
+【Rintaro】...I'm not talking about anything like that.
+<END>
+
+#WRITE(PTR, $000009EE)
+【Mayuri】Ah, okay...
+<END>
+
+#WRITE(PTR, $000009FE)
+【Mayuri】I don't want you to tell me everything if you don't want to.
+<END>
+
+#WRITE(PTR, $00000A0E)
+【Mayuri】Since I'm a hostage, it's natural for me to not have a choice or to not be told anything.
+<END>
+
+#WRITE(PTR, $00000A1E)
+【Rintaro】I'm not talking about anything like that...!
+<END>
+
+#WRITE(PTR, $00000A38)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $00000A54)
+Mayuri's hand is separated from my head.
+<END>
+
+#WRITE(PTR, $00000A64)
+Wanting to know where it went, I look over my shoulder.
+<END>
+
+#WRITE(PTR, $00000B38)
+I took the hand of Mayuri standing there, using a little force.
+<END>
+
+#WRITE(PTR, $00000B48)
+【Mayuri】...Mayushii doesn't want to be a burden for Okarin.
+<END>
+
+#WRITE(PTR, $00000B58)
+Again.
+<END>
+
+#WRITE(PTR, $00000B68)
+【Mayuri】So I'll wait until Okarin's ready to tell me.
+<END>
+
+#WRITE(PTR, $00000B82)
+【Mayuri】I said the same thing yesterday, didn't I?
+<END>
+
+#WRITE(PTR, $00000B92)
+【Rintaro】I might not tell you your entire life, you know?
+<END>
+
+#WRITE(PTR, $00000BAC)
+【Mayuri】It would really bug me, but I guess it couldn't be helped then...
+<END>
+
+#WRITE(PTR, $00000BBC)
+【Rintaro】Even if what I'm hiding is related to you?
+<END>
+
+#WRITE(PTR, $00000BCC)
+【Mayuri】To Mayushii...?
+<END>
+
+#WRITE(PTR, $00000BDC)
+【Rintaro】I'm haven't told you because it could hurt you.
+<END>
+
+#WRITE(PTR, $00000BEC)
+【Mayuri】...Could that be why Okarin's been making that painful face?
+<END>
+
+#WRITE(PTR, $00000BFC)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000C16)
+【Mayuri】If that's the case, I want you to tell me.
+<END>
+
+#WRITE(PTR, $00000C26)
+【Mayuri】I don't want to see Okarin in pain.
+<END>
+
+#WRITE(PTR, $00000C36)
+【Rintaro】Even if it means you might get hurt?
+<END>
+
+#WRITE(PTR, $00000C46)
+And then, Mayuri gave me...
+<END>
+
+#WRITE(PTR, $00000C60)
+A gentle smile.
+<END>
+
+#WRITE(PTR, $00000C70)
+【Mayuri】Yep.
+<END>
+
+#WRITE(PTR, $00000C80)
+She nods without hesitation.
+<END>
+
+#WRITE(PTR, $00000C90)
+I was taken aback by that smile that showed no sign of malice.
+<END>
+
+#WRITE(PTR, $00000CAA)
+【Mayuri】I said so yesterday too. Mayushii doesn't want to be a burden for Okarin.
+<END>
+
+#WRITE(PTR, $00000CBA)
+【Mayuri】When Mayushii was sad because of what happened to Grandma, Okarin took Mayushi hostage, right-?
+<END>
+
+#WRITE(PTR, $00000CD4)
+【Mayuri】So Mayushii always thought she could lend her strength to Okarin whenever he was sad, you know?
+<END>
+
+#WRITE(PTR, $00000CE4)
+【Mayuri】Mayushii might not be of any use, though.
+<END>
+
+#WRITE(PTR, $00000CF4)
+Any use...
+<END>
+
+#WRITE(PTR, $00000DBC)
+That moment.
+<END>
+
+#WRITE(PTR, $00000DCC)
+I remembered.
+<END>
+
+#WRITE(PTR, $00000DDC)
+Mayuri's death tomorrow.
+<END>
+
+#WRITE(PTR, $00000DEC)
+The future I've been through once before.
+<END>
+
+#WRITE(PTR, $00000DFC)
+Mayuri's last words when she died protecting me--
+<END>
+
+#WRITE(PTR, $00000E0C)
+【Mayuri】Finally, Mayu... ...shii was...
+<END>
+
+#WRITE(PTR, $00000E1C)
+【Mayuri】usefull... to... Okarin...
+<END>
+
+#WRITE(PTR, $00000E76)
+So this... is what she meant...
+<END>
+
+#WRITE(PTR, $00000E90)
+【Mayuri】So, I don't want you to make a painful face again.
+<END>
+
+#WRITE(PTR, $00000EA0)
+【Rintaro】...understood.
+<END>
+
+#WRITE(PTR, $00000EB0)
+If she's going to say that much. If she's going to think about me that much.
+<END>
+
+#WRITE(PTR, $00000EC0)
+I'll tell her everything.
+<END>
+
+#WRITE(PTR, $00000F60)
+I let go of Mayuri's hand, and pat the sofa with a pomf.
+<END>
+
+#WRITE(PTR, $00000F70)
+【Rintaro】Sit down here.
+<END>
+
+#WRITE(PTR, $00000FB8)
+Mayuri does just as she's told, and sits next to me.
+<END>
+
+#WRITE(PTR, $00000FC8)
+【Mayuri】Umm, can I have some snacks?
+<END>
+
+#WRITE(PTR, $00000FD8)
+【Rintaro】You just can't read the atmosphere, can you?
+<END>
+
+#WRITE(PTR, $00000FF2)
+【Mayuri】That's true...
+<END>
+
+#WRITE(PTR, $00001002)
+Mayuri puts both hands on her lap, straightening herself up.
+<END>
+
+#WRITE(PTR, $00001012)
+【Mayuri】Then, go ahead-
+<END>
+
+#WRITE(PTR, $00001022)
+【Rintaro】...What I'm about to say is all true. It's related to the dreams you saw.
+<END>
+
+#WRITE(PTR, $00001032)
+【Rintaro】And, after this, I plan to sacrifice a comrade, for your sake.
+<END>
+
+#WRITE(PTR, $0000104C)
+【Mayuri】Eh... Okarin...?
+<END>
+
+#WRITE(PTR, $0000105C)
+When I see anxiety cloud Mayuri's face, I hold her chin with my fingers.
+<END>
+
+#WRITE(PTR, $0000106C)
+A switch inside of me was already flipped.
+<END>
+
+#WRITE(PTR, $0000107C)
+【Rintaro】Hehehe, hehhehhe, better give your sincere repentance. For the dreadful deeds of this insane mad scientist, Hououin Kyouma, are numerous! Fuuhahaha!
+<END>
+
+#WRITE(PTR, $000011A2)
+What's evil is all the inhuman deeds done by this mad scientist.
+<END>
+
+#WRITE(PTR, $000011B2)
+That's how I began to speak.
+<END>
+
+#WRITE(PTR, $000011C2)
+Starting with how Moeka and the Rounders first attacked the lab and how Mayuri was killed there.
+<END>
+
+#WRITE(PTR, $000011D2)
+I spoke about Suzuha, Faris, Lukako, and also about Moeka, FB, and Nae.
+<END>
+
+#WRITE(PTR, $000011E2)
+And then finally... I spoke about Kurisu.
+<END>
+
+#WRITE(PTR, $00001262)
+【Rintaro】In short, by sacrificing Makise Kurisu, I will begin a journey to a new world!
+<END>
+
+#WRITE(PTR, $00001272)
+The explanation was long and went off on many tangents.
+<END>
+
+#WRITE(PTR, $00001282)
+Furthermore, Mayuri wasn't used to this sort of conversation, so she kept eagerly asking question after question.
+<END>
+
+#WRITE(PTR, $00001292)
+Thanks to that, the conversation became quite long, and it got this late before I knew it.
+<END>
+
+#WRITE(PTR, $000012A2)
+【Rintaro】And that is my, Hououin Kyouma's magnificently devised plan, codename "World Chaotification"! Fuuhahaha!
+<END>
+
+#WRITE(PTR, $000012B2)
+Haah, finally, the explanation's over...
+<END>
+
+#WRITE(PTR, $00001306)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $00001316)
+Mayuri looked like she was about to cry.
+<END>
+
+#WRITE(PTR, $00001326)
+She was looking down, firmly clenching the hands placed on her lap.
+<END>
+
+#WRITE(PTR, $00001336)
+【Rintaro】...Why the long face?
+<END>
+
+#WRITE(PTR, $00001346)
+【Mayuri】...
+<END>
+
+#WRITE(PTR, $00001356)
+Mayuri waggles her head back and forth while biting her lip.
+<END>
+
+#WRITE(PTR, $00001366)
+【Mayuri】Both Okarin and Chris-chan, have been suffering, haven't you...
+<END>
+
+#WRITE(PTR, $00001376)
+【Mayuri】And yet Mayushii's been making costumes without a care...
+<END>
+
+#WRITE(PTR, $00001386)
+【Mayuri】Like a fool...!
+<END>
+
+#WRITE(PTR, $00001396)
+【Mayuri】Mayushii didn't know any of this...!
+<END>
+
+#WRITE(PTR, $000013A6)
+【Rintaro】You, you don't need to feel responsible. Because everything's going just as I planned.
+<END>
+
+#WRITE(PTR, $000013B6)
+【Rintaro】...Are you disillusioned, Mayuri? Sorry, but I'm a man who's perfectly fine with sacrificing his comrades.
+<END>
+
+#WRITE(PTR, $000013C6)
+【Rintaro】You'll be my hostage, and stay with me until the very end, you know. Kukuku!
+<END>
+
+#WRITE(PTR, $000013D6)
+【Rintaro】May chaos come to the world! This too is the Steins;Gate's choice!
+<END>
+
+#WRITE(PTR, $000013F2)
+But before that performance of mine could ripen, Mayuri softly stands up, and starts to leave the lab with unsteady feet.
+<END>
+
+#WRITE(PTR, $000014BE)
+Confused, I grab her wrist and detain her.
+<END>
+
+#WRITE(PTR, $000014CE)
+【Rintaro】H-hey, where are you going!?
+<END>
+
+#WRITE(PTR, $000014DE)
+【Mayuri】I need... to see Chris-chan...
+<END>
+
+#WRITE(PTR, $000014F8)
+【Mayuri】Please, Okarin. I want to see Chris-chan...
+<END>
+
+#WRITE(PTR, $00001508)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001518)
+I just couldn't refuse Mayuri's request as she clinged onto me.
+<FILEEND71>
+

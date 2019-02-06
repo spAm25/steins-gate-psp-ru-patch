@@ -1,0 +1,1072 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000065B2)
+
+#WRITE(PTR, $000002C6)
+【Kurisu】So?
+<END>
+
+#WRITE(PTR, $000002E4)
+【Rintaro】So, what?
+<END>
+
+#WRITE(PTR, $00000302)
+【Kurisu】I'm asking for an explanation. About the IBN 5100 and SERN.
+<END>
+
+#WRITE(PTR, $00000436)
+【Kurisu】Hey, Okabe.
+<END>
+
+#WRITE(PTR, $0000044C)
+【Rintaro】Ah...?
+<END>
+
+#WRITE(PTR, $0000045C)
+Kurisu glares at me as I check my mail.
+<END>
+
+#WRITE(PTR, $0000046C)
+【Rintaro】What did you say?
+<END>
+
+#WRITE(PTR, $00000486)
+【Kurisu】I-I said Okabe.
+<END>
+
+#WRITE(PTR, $00000496)
+【Rintaro】You said Okabe?
+<END>
+
+#WRITE(PTR, $00000574)
+I take one step towards Kurisu.
+<END>
+
+#WRITE(PTR, $000005C4)
+Kurisu takes a step back in response.
+<END>
+
+#WRITE(PTR, $0000060C)
+【Itaru】Okarin, time out, time out.
+<END>
+
+#WRITE(PTR, $000006AE)
+Daru tries to stop me with his hand, but I shake it off and approach even closer.
+<END>
+
+#WRITE(PTR, $000006BE)
+Kurisu doesn't step back any further. Without taking her eyes off me, she bites her lip hard, and grasps her hands into fists.
+<END>
+
+#WRITE(PTR, $000006CE)
+【Rintaro】Did you just say Okabe?
+<END>
+
+#WRITE(PTR, $000006DE)
+【Kurisu】...I did. Problem?
+<END>
+
+#WRITE(PTR, $000006EE)
+【Kurisu】I certainly am younger than you, but you do rudely call me things like Christina or Zombie, so I don't think I need to show you any respect, so--
+<END>
+
+#WRITE(PTR, $000006FE)
+【Rintaro】That's not it!
+<END>
+
+#WRITE(PTR, $00000818)
+【Kurisu】!!
+<END>
+
+#WRITE(PTR, $00000828)
+【Rintaro】I am not Okabe! I am Hououin Kyouma! How many times do I have to tell you, Christina!?
+<END>
+
+#WRITE(PTR, $00000842)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00000852)
+【Kurisu】...You're too blind to your own shortcomings, you know.
+<END>
+
+#WRITE(PTR, $00000862)
+【Rintaro】From now on, you should call me either Hououin, or possibly Kyouma.
+<END>
+
+#WRITE(PTR, $0000087C)
+【Kurisu】I refuse.
+<END>
+
+#WRITE(PTR, $00000898)
+Kurisu says so bluntly as she turns away.
+<END>
+
+#WRITE(PTR, $000008A8)
+Though I can see her eyes are moist...
+<END>
+
+#WRITE(PTR, $000008B8)
+【Rintaro】You're not crying, are you?
+<END>
+
+#WRITE(PTR, $00000900)
+【Kurisu】I'm not crying, idiot. It's not like I experienced the horror of a man approaching with an angry face, nor did I cry in relief when you said your stupid lines after that, okay!?
+<END>
+
+#WRITE(PTR, $00000924)
+She clicks her tongue and walks to the window.
+<END>
+
+#WRITE(PTR, $00000934)
+She starts gazing at the scenery fading into darkness outside.
+<END>
+
+#WRITE(PTR, $00000944)
+I see her wipe her eyes with the back of her hand. Seems like she was crying after all.
+<END>
+
+#WRITE(PTR, $00000A1A)
+【Rintaro】Daru, why is Assistant crying?
+<END>
+
+#WRITE(PTR, $00000A2A)
+【Itaru】Uh, she said so herself just now.
+<END>
+
+#WRITE(PTR, $00000A3A)
+【Rintaro】I just corrected how she got my name wrong.
+<END>
+
+#WRITE(PTR, $00000A54)
+【Itaru】Maybe she looks strong but she's unexpectedly weak. That would be pretty moe, though.
+<END>
+
+#WRITE(PTR, $00000A64)
+Well, whatever. Back to checking mail.
+<END>
+
+#WRITE(PTR, $00000AB8)
+But I'm thirsty from this hard day's work. So before that, I take out an unopened Dr Pepper from the fridge.
+<END>
+
+#WRITE(PTR, $00000B0C)
+【Kurisu】Hey, can I ask you something?
+<END>
+
+#WRITE(PTR, $00000B70)
+I lightly toss that Dr Pepper to Kurisu once she turns around.
+<END>
+
+#WRITE(PTR, $00000C40)
+【Kurisu】Kyah
+<END>
+
+#WRITE(PTR, $00000C5C)
+Kurisu tries to take it, but fails magnificently.
+<END>
+
+#WRITE(PTR, $00000CAC)
+She picks up the bottle off the floor, looking at me with a suspicious face.
+<END>
+
+#WRITE(PTR, $00000CBC)
+【Rintaro】Drink that, but wait a bit first.
+<END>
+
+#WRITE(PTR, $00000CCC)
+【Kurisu】..Thanks for your concern.
+<END>
+
+#WRITE(PTR, $00000D4A)
+I need to send a reply to Shining Finger.
+<END>
+
+#WRITE(PTR, $00000D68)
+In the end, she wasn't the least bit of help, but I really can't just stay silent.
+<END>
+
+#WRITE(PTR, $0000102A)
+"I got the goods. Over."
+<END>
+
+#WRITE(PTR, $0000108E)
+I write as concisely as possible and send it.
+<END>
+
+#WRITE(PTR, $0000113A)
+【Rintaro】Now then...
+<END>
+
+#WRITE(PTR, $000011DC)
+I try to call out to Kurisu, but a reply mail soon comes.
+<END>
+
+#WRITE(PTR, $000012EC)
+Maybe Shining Finger is holding her phone 24/7. Her reaction time is so short, I can't think of any other way.
+<END>
+
+#WRITE(PTR, $0000139C)
+Give it to her? What nonsense is that?
+<END>
+
+#WRITE(PTR, $0000142A)
+"Sorry to say, but I'm not the owner, so I can't just give it to you."
+<END>
+
+#WRITE(PTR, $00001536)
+I send that.
+<END>
+
+#WRITE(PTR, $000015D8)
+Another instant reply.
+<END>
+
+#WRITE(PTR, $000015F6)
+gununu....
+<END>
+
+#WRITE(PTR, $0000175A)
+If I lent it to her, she'd certainly just run off with it.
+<END>
+
+#WRITE(PTR, $0000176A)
+If I give her the IBN 5100, that's the end of it.
+<END>
+
+#WRITE(PTR, $0000177A)
+I can just smell it.
+<END>
+
+#WRITE(PTR, $000018A2)
+"Borrowing is also No Good. If you just want a look, that's OK, so come over and visit our lab."
+<END>
+
+#WRITE(PTR, $00001AB6)
+I send the mail after adding the lab's address. No more replies come.
+<END>
+
+#WRITE(PTR, $00001B04)
+【Rintaro】Sorry for the wait, Christina.
+<END>
+
+#WRITE(PTR, $00001B14)
+When I look up, Kurisu's about to drink the Dr Pepper.
+<END>
+
+#WRITE(PTR, $00001B24)
+【Rintaro】Hohh, so you drink Dr Pepper, Assistant?
+<END>
+
+#WRITE(PTR, $00001B3E)
+【Kurisu】I spent 7 years at its birthplace.
+<END>
+
+#WRITE(PTR, $00001B4E)
+【Rintaro】I see. You'll make a great drinking buddy.
+<END>
+
+#WRITE(PTR, $00001B68)
+【Kurisu】I'm a minor.
+<END>
+
+#WRITE(PTR, $00001B78)
+【Rintaro】That's not what I meant. I meant Dr Pepper drinking buddies.
+<END>
+
+#WRITE(PTR, $00001B92)
+【Kurisu】Is that it...?
+<END>
+
+#WRITE(PTR, $00001BA2)
+Kurisu shrugs her shoulders while drinking Dr Pepper, urging me to talk.
+<END>
+
+#WRITE(PTR, $00001C52)
+And so I explain how Daru and I started to hack SERN.
+<END>
+
+#WRITE(PTR, $00001C62)
+And how they've already successfully operated the LHC for 9 years.
+<END>
+
+#WRITE(PTR, $00001C72)
+And how they successfully created mini-black holes.
+<END>
+
+#WRITE(PTR, $00001C82)
+And how it looks like they're researching time travel theory.
+<END>
+
+#WRITE(PTR, $00001C92)
+And also how they haven't disclosed any of that to the world.
+<END>
+
+#WRITE(PTR, $00001CAC)
+Kurisu's expression grows more and more severe as she listens to the story.
+<END>
+
+#WRITE(PTR, $00001D10)
+【Kurisu】SERN certainly is strange... but how is the IBN 5100 related?
+<END>
+
+#WRITE(PTR, $00001D20)
+【Rintaro】SERN's database uses IBN 5100s.
+<END>
+
+#WRITE(PTR, $00001D30)
+【Kurisu】So?
+<END>
+
+#WRITE(PTR, $00001D44)
+【Rintaro】Then let's explain. My right arm, Supah Hakah, Mister Daru--
+<END>
+
+#WRITE(PTR, $00001D8C)
+【Itaru】It's not Supah Hakah. How many times have I said this?
+<END>
+
+#WRITE(PTR, $00001D9C)
+【Rintaro】Super Hacker Mister Daru, began hacking SERN.
+<END>
+
+#WRITE(PTR, $00001DB6)
+【Kurisu】Is that okay? You won't get caught?
+<END>
+
+#WRITE(PTR, $00001DD0)
+【Itaru】I wouldn't make a blunder like that.
+<END>
+
+#WRITE(PTR, $00001DE0)
+【Kurisu】No, that's not what I mean.
+<END>
+
+#WRITE(PTR, $00001DF0)
+【Rintaro】As a result, we found traces that those bastards are researching time travel theory with the LHC.
+<END>
+
+#WRITE(PTR, $00001E0A)
+【Kurisu】The LHC, huh...
+<END>
+
+#WRITE(PTR, $00001E24)
+【Itaru】Seriously. At any rate, I checked. Anyway, the LHC has actually been in operation for 9 years.
+<END>
+
+#WRITE(PTR, $00001E3E)
+【Kurisu】Eh, really!?
+<END>
+
+#WRITE(PTR, $00001E4E)
+【Rintaro】And they've successfully generated mini-black holes.
+<END>
+
+#WRITE(PTR, $00001E68)
+【Kurisu】No... way... Then why haven't they made an official announcement!?
+<END>
+
+#WRITE(PTR, $00001E78)
+【Rintaro】That's it. For some reason, those bastards won't announce any of it.
+<END>
+
+#WRITE(PTR, $00001E88)
+【Rintaro】Not that the LHC has been operating for 9 years, not that they've successfully created mini-black holes, nor that they're researching time travel theory.
+<END>
+
+#WRITE(PTR, $00001E98)
+【Rintaro】...Basically, there's something they're guilty about--
+<END>
+
+#WRITE(PTR, $00001EEA)
+I click my tongue when my mail ringtone gets in the way.
+<END>
+
+#WRITE(PTR, $00001EFA)
+I'll start over.
+<END>
+
+#WRITE(PTR, $00001F0A)
+【Rintaro】Basically, it's proof that SERN has something to be guilty about. Can't you just smell the conspiracy?
+<END>
+
+#WRITE(PTR, $00001F24)
+【Kurisu】I don't believe in conspiracies. But--
+<END>
+
+#WRITE(PTR, $00001F34)
+【Kurisu】If you can prove what you said is real, then I'd be surprised. That SERN is doing time travel theory...
+<END>
+
+#WRITE(PTR, $00001F4E)
+【Kurisu】Ah, but the IBN 5100? How is that related?
+<END>
+
+#WRITE(PTR, $00001F5E)
+【Rintaro】SERN's database uses--
+<END>
+
+#WRITE(PTR, $00001FB4)
+Another mail.
+<END>
+
+#WRITE(PTR, $00001FC4)
+There's only one person who can send them at this frequency.
+<END>
+
+#WRITE(PTR, $00001FD4)
+That mail demon! Didn't I tell her to hold back!?
+<END>
+
+#WRITE(PTR, $00001FE4)
+【Rintaro】Sorry. Daru, please continue the explanation.
+<END>
+
+#WRITE(PTR, $0000207A)
+Excusing myself, I open up my mail.
+<END>
+
+#WRITE(PTR, $00002138)
+It's a reply to the mail from earlier.
+<END>
+
+#WRITE(PTR, $000023DE)
+She's so impatient.
+<END>
+
+#WRITE(PTR, $00002426)
+Kurisu looks at me impatiently.
+<END>
+
+#WRITE(PTR, $00002436)
+Let's make the reply brief.
+<END>
+
+#WRITE(PTR, $00002682)
+"I got an IBN 5100. I can't lend it to you, but if you want to see it, then you can come to our lab."
+<END>
+
+#WRITE(PTR, $0000288E)
+I send the mail after adding the lab's address, and close my phone.
+<END>
+
+#WRITE(PTR, $00002904)
+【Rintaro】So, how much did you tell her?
+<END>
+
+#WRITE(PTR, $00002914)
+【Itaru】Up to the point where SERN's using IBN 5100s for their database.
+<END>
+
+#WRITE(PTR, $00002924)
+【Rintaro】So basically, what that means is--
+<END>
+
+#WRITE(PTR, $00002938)
+【Rintaro】The only way to decipher information on that database is to use an IBN 5100 too.
+<END>
+
+#WRITE(PTR, $00002952)
+【Kurisu】How do you know that?
+<END>
+
+#WRITE(PTR, $00002962)
+【Rintaro】Information from a certain source.
+<END>
+
+#WRITE(PTR, $00002972)
+I don't drop Titor's name. I have no doubt that this genius girl would just laugh if I did.
+<END>
+
+#WRITE(PTR, $00002982)
+Kurisu puts her finger to her lip, deep in thought.
+<END>
+
+#WRITE(PTR, $00002992)
+【Kurisu】Setting the IBN 5100 and such aside...
+<END>
+
+#WRITE(PTR, $000029AC)
+【Kurisu】I want to see proof that SERN's really doing that sort of research.
+<END>
+
+#WRITE(PTR, $000029BC)
+Certainly, we didn't get any definite proof of SERN's time travel theory research last time we hacked them.
+<END>
+
+#WRITE(PTR, $000029CC)
+【Rintaro】Daru. Would it take time to find the root password to SERN's server?
+<END>
+
+#WRITE(PTR, $00002A14)
+【Itaru】Actually, I was just thinking about doing that. It shouldn't take more than half a day, I guess?
+<END>
+
+#WRITE(PTR, $00002AC0)
+【Rintaro】And that's how it is.
+<END>
+
+#WRITE(PTR, $00002B64)
+【Kurisu】...I'll wait until then.
+<END>
+
+#WRITE(PTR, $00002C12)
+【Itaru】You'll wait? It's already getting dark. Why not go home for tonight and come back tomorrow morning?
+<END>
+
+#WRITE(PTR, $00002CC0)
+【Kurisu】
+No thanks. I'll wait. ...I want to know as soon as possible, even just a microsecond.
+<END>
+
+#WRITE(PTR, $00002D64)
+【Rintaro】Heheheh, that's the spirit. You're already fascinated by SERN's hidden conspiracies, and you can't help but want to know, huh?
+<END>
+
+#WRITE(PTR, $00002E08)
+【Kurisu】If what you guys are saying is true... This isn't something to joke about.
+<END>
+
+#WRITE(PTR, $00002EAC)
+【Kurisu】SERN is the world's top research institution, you know? If they're doing secret experiments without publishing their results...
+<END>
+
+#WRITE(PTR, $00002F50)
+【Kurisu】They're making fools of researchers the world over.
+<END>
+
+#WRITE(PTR, $00002FF4)
+【Kurisu】That's only if it's true, though.
+<END>
+
+#WRITE(PTR, $00003098)
+She emphasizes that again at the end.
+<END>
+
+#WRITE(PTR, $0000313C)
+Doesn't look like she believes us.
+<END>
+
+#WRITE(PTR, $000031F2)
+【Rintaro】So then, Daru. I'll leave it to you.
+<END>
+
+#WRITE(PTR, $0000328A)
+According to Daru's internet research, the IBN 5100 weighs 25 kilos, so for now, we leave it on the shelf in the development room.
+<END>
+
+#WRITE(PTR, $0000329A)
+We carry the cardboard box to the development room, half dragging it.
+<END>
+
+#WRITE(PTR, $000032AA)
+Kurisu follows.
+<END>
+
+#WRITE(PTR, $000032FA)
+【Kurisu】Can you show me the Microwave Ophone?
+<END>
+
+#WRITE(PTR, $0000330A)
+【Rintaro】All righty. Want to experiment?
+<END>
+
+#WRITE(PTR, $0000331A)
+【Kurisu】You haven't been able to reproduce it after that, right? The phenomenon of sending mail into the past.
+<END>
+
+#WRITE(PTR, $0000332A)
+【Kurisu】Did you find out the reason?
+<END>
+
+#WRITE(PTR, $0000333A)
+I could do nothing but shake my head.
+<END>
+
+#WRITE(PTR, $0000334A)
+【Kurisu】Let's test it a little.
+<END>
+
+#WRITE(PTR, $00003364)
+Kurisu looks around inside the development room--
+<END>
+
+#WRITE(PTR, $0000337E)
+【Kurisu】Man. It's full of junk here.
+<END>
+
+#WRITE(PTR, $0000338E)
+【Rintaro】It's not junk!
+<END>
+
+#WRITE(PTR, $0000339E)
+【Rintaro】You don't seem to know yet. These are our Future Gadget Laboratory's fruits of invention through scientific understanding, the glorious Future Gadgets!
+<END>
+
+#WRITE(PTR, $000033AE)
+【Rintaro】Stored here are Future Gadget Nos. 1-7, with the Microwave Ophone (Temp) numbered as Future Gadget No. 8.
+<END>
+
+#WRITE(PTR, $000033BE)
+【Kurisu】Future Gadgets, huh...
+<END>
+
+#WRITE(PTR, $00003494)
+Kurisu casually picks up Future Gadget No. 4: Monad Snake off of the shelf and stares at it.
+<END>
+
+#WRITE(PTR, $000034AE)
+【Kurisu】Hey. Isn't this... a weapon?
+<END>
+
+#WRITE(PTR, $000034BE)
+【Rintaro】Future Gadget No. 4: Monad Snake, built based off of a claymore land mine, is an instant humidifier.
+<END>
+
+#WRITE(PTR, $000034D8)
+【Kurisu】How confusing.
+<END>
+
+#WRITE(PTR, $000034E8)
+【Rintaro】If you insert water and turn the power on, in mere seconds, it spouts a large quantity of water.
+<END>
+
+#WRITE(PTR, $00003502)
+【Kurisu】So it is junk, huh.
+<END>
+
+#WRITE(PTR, $00003512)
+Kurisu sighs as she returns Monad Snake to the shelf.
+<END>
+
+#WRITE(PTR, $00003522)
+【Kurisu】I'm borrowing this.
+<END>
+
+#WRITE(PTR, $000035FC)
+Saying that, she takes a new white coat off the shelf, putting it on gallantly.
+<END>
+
+#WRITE(PTR, $0000360C)
+【Rintaro】Ohh--
+<END>
+
+#WRITE(PTR, $00003626)
+【Kurisu】White coats really put you at ease, huh-
+<END>
+
+#WRITE(PTR, $00003636)
+Taken over by deep emotion, I take Kurisu's hand. I grasp it firmly.
+<END>
+
+#WRITE(PTR, $0000368E)
+【Kurisu】Hey--!?
+<END>
+
+#WRITE(PTR, $0000369E)
+【Rintaro】Assistnat, you "understand", don't you!?
+<END>
+
+#WRITE(PTR, $000036B8)
+【Kurisu】U-understand what? Let go...
+<END>
+
+#WRITE(PTR, $000036C8)
+【Rintaro】White coats really are the uniform for research and development, aren't they!?
+<END>
+
+#WRITE(PTR, $000036D8)
+I told Daru over and over, but he wouldn't wear one.
+<END>
+
+#WRITE(PTR, $000036E8)
+But Assistant is different. She put it on before I even said anything!
+<END>
+
+#WRITE(PTR, $000036F8)
+【Rintaro】So I wasn't crazy after all. Christina, you're the best-- assistant.
+<END>
+
+#WRITE(PTR, $00003712)
+【Kurisu】You might be trying to praise me, but all I can think is that you're insulting me. Hey.
+<END>
+
+#WRITE(PTR, $000039C2)
+She shakes off my hand.
+<END>
+
+#WRITE(PTR, $000039D2)
+Kurisu turns away.
+<END>
+
+#WRITE(PTR, $000039E2)
+【Rintaro】I'm giving you that white coat as a present to commemorate your entry as a lab mem. Nobody's used it before, so don't worry about it.
+<END>
+
+#WRITE(PTR, $00003A8E)
+【Rintaro】Hm, or maybe, destiny decided long ago for you and that white coat to have a fateful encounter. Daru not wearing one was another inevitability. Everything is Steins--
+<END>
+
+#WRITE(PTR, $00003B6A)
+【Kurisu】Shut up so we can start the experiment.
+<END>
+
+#WRITE(PTR, $00003C0E)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00003D8A)
+Kurisu thrusts both hands into the white coat's pockets, slouching to look at the time machine now placed underneath the table.
+<END>
+
+#WRITE(PTR, $00003E2E)
+The previous experiment broke the table and even left a hole in the floor.
+<END>
+
+#WRITE(PTR, $00003ED2)
+There's the danger that will happen again if we successfully cause the discharge phenomenon, so unfortunately, we end up leaving the floor as it is.
+<END>
+
+#WRITE(PTR, $00003F80)
+【Kurisu】...So, you don't tamper with anything on the microwave?
+<END>
+
+#WRITE(PTR, $00004024)
+I point to the X68000 monitor. It's displaying a program.
+<END>
+
+#WRITE(PTR, $000040C8)
+【Rintaro】It's usually on terminal mode. It can change any settings. It can do "absurd" things to store-bought microwave ovens.
+<END>
+
+#WRITE(PTR, $0000416C)
+【Kurisu】How was it set when the discharge phenomenon occurred?
+<END>
+
+#WRITE(PTR, $00004210)
+【Rintaro】Nothing particular. It was at factory settings.
+<END>
+
+#WRITE(PTR, $000042BE)
+【Kurisu】Hmm.
+<END>
+
+#WRITE(PTR, $0000436C)
+【Kurisu】I'll take a banana.
+<END>
+
+#WRITE(PTR, $00004410)
+The bunch of bananas Kurisu picked up only has three bananas left.
+<END>
+
+#WRITE(PTR, $000044B4)
+【Rintaro】Those are Mayuri's.
+<END>
+
+#WRITE(PTR, $00004562)
+【Kurisu】Then I don't need your permission, huh. I'll go buy new bananas tomorrow.
+<END>
+
+#WRITE(PTR, $00004612)
+Kurisu takes one banana from the bunch, squats down, and places it inside the Microwave Ophone (Temp). She begins to type on her phone.
+<END>
+
+#WRITE(PTR, $000046FA)
+She puts the Microwave Ophone (Temp) into reverse rotation by remote control.
+<END>
+
+#WRITE(PTR, $000047AA)
+After 120 seconds, the chime rings casually.
+<END>
+
+#WRITE(PTR, $00004858)
+【Kurisu】...Nothing happened.
+<END>
+
+#WRITE(PTR, $000048FC)
+The banana's still in the microwave, non-gelified.
+<END>
+
+#WRITE(PTR, $000049AC)
+【Kurisu】Hot-
+<END>
+
+#WRITE(PTR, $00004A88)
+Kurisu screams as she tries to take out the banana, quickly drawing back her hand.
+<END>
+
+#WRITE(PTR, $00004B2C)
+She starts blowing on her fingers.
+<END>
+
+#WRITE(PTR, $00004BDA)
+【Kurisu】It warmed.
+<END>
+
+#WRITE(PTR, $00004C7E)
+【Rintaro】Meaning the microwave functioned normally, huh.
+<END>
+
+#WRITE(PTR, $00004D22)
+This disproves the freezing function easter egg Mayuri found. Though we understood that before.
+<END>
+
+#WRITE(PTR, $00004DDE)
+Undaunted, Kurisu throws in a new banana, once again starting reverse rotation for 120 seconds.
+<END>
+
+#WRITE(PTR, $00004E8E)
+But the second banana got warmed too.
+<END>
+
+#WRITE(PTR, $00004F32)
+We couldn't reproduce the gelification and teleportation phenomenon, much less send mail into the past.
+<END>
+
+#WRITE(PTR, $00004FD6)
+【Rintaro】What does this mean...
+<END>
+
+#WRITE(PTR, $00005140)
+【Kurisu】So what happened earlier was an irregularity after all, huh.
+<END>
+
+#WRITE(PTR, $000051E4)
+【Rintaro】I don't know if it's an irregularity or not, but we ought to investigate the cause.
+<END>
+
+#WRITE(PTR, $00005292)
+【Kurisu】I agree.
+<END>
+
+#WRITE(PTR, $00005336)
+We agree for once.
+<END>
+
+#WRITE(PTR, $000053DA)
+Though, Kurisu's and my motives are probably the exact opposite.
+<END>
+
+#WRITE(PTR, $0000547E)
+This assistant wholeheartedly wants to disprove the Microwave Ophone (Temp) = Time Machine theory.
+<END>
+
+#WRITE(PTR, $00005522)
+【Rintaro】In the previous experiment--
+<END>
+
+#WRITE(PTR, $000055C6)
+【Rintaro】After 120 seconds in the Microwave Ophone (Temp), the banana teleported back to the bunch, gelified. We should consider that it returned to its state 120 seconds ago.
+<END>
+
+#WRITE(PTR, $00005674)
+【Kurisu】Wrong. If it returned to its state 120 seconds ago, it wouldn't gelify.
+<END>
+
+#WRITE(PTR, $00005718)
+So basically, she wants to say that because it's gelified, it didn't return to its state 120 seconds ago.
+<END>
+
+#WRITE(PTR, $000057BC)
+【Rintaro】Karaage returned to its frozen state without gelifying.
+<END>
+
+#WRITE(PTR, $00005860)
+【Kurisu】That "returned to its frozen state without gelifying" logic is also dubious. It was frozen, but did you examine the possibility of gelification itself?
+<END>
+
+#WRITE(PTR, $00005904)
+I... didn't examine that....
+<END>
+
+#WRITE(PTR, $000059A8)
+Mayuri ate that Karaage that returned to its frozen state.
+<END>
+
+#WRITE(PTR, $00005A4C)
+【Rintaro】Salt didn't gelify.
+<END>
+
+#WRITE(PTR, $00005B02)
+【Kurisu】You mean nothing changed.
+<END>
+
+#WRITE(PTR, $00005B22)
+【Rintaro】After the last discharge phenomenon, we experimented with cabbage, daikon, rice, konjac, melon pan, <DICT>GaruGari-kun</DICT>, and cup noodles.
+<END>
+
+#WRITE(PTR, $00005B32)
+【Rintaro】The results for all of them were "nothing happened". That also applies to liquids. On that day, the experiment success rate took a turnabout.
+<END>
+
+#WRITE(PTR, $00005B42)
+【Rintaro】Before the discharge phenomenon, everything succeeded. After the discharge phenomenon, everything failed.
+<END>
+
+#WRITE(PTR, $00005B5C)
+【Kurisu】Did the microwave stockpile on electricity...?
+<END>
+
+#WRITE(PTR, $00005B76)
+【Kurisu】You said that gelified objects became fractal structured, right?
+<END>
+
+#WRITE(PTR, $00005B86)
+【Kurisu】Maybe salt's originally simple structure had an effect on that. Electricity might be related somehow...
+<END>
+
+#WRITE(PTR, $00005B96)
+【Rintaro】Here, we should think under the assumptions of time travel theory.
+<END>
+
+#WRITE(PTR, $00005BB0)
+【Kurisu】No. It's not good to think based on theory.
+<END>
+
+#WRITE(PTR, $00005BC0)
+【Rintaro】We've already had several successful experiments. You can't deny that.
+<END>
+
+#WRITE(PTR, $00005BDA)
+【Kurisu】I'm not especially concerned whether this thing is a time machine or not.
+<END>
+
+#WRITE(PTR, $00005BEA)
+【Kurisu】To begin with, it's impossible by definition for energy comparable to the big bang to spring forth from this tiny microwave.
+<END>
+
+#WRITE(PTR, $00005C04)
+Kurisu groans with a difficult face.
+<END>
+
+#WRITE(PTR, $00005C14)
+【Kurisu】The discharge phenomenon, and fractal restructuring. There should be a reason why we can't reproduce either.
+<END>
+
+#WRITE(PTR, $00005C24)
+【Kurisu】We haven't changed our methods. We haven't changed the settings. We haven't changed the experimental subjects either. Some changing condition other than that--
+<END>
+
+#WRITE(PTR, $00005C34)
+【Rintaro】Maybe it's who observes it.
+<END>
+
+#WRITE(PTR, $00005C4E)
+【Kurisu】What do you mean by that?
+<END>
+
+#WRITE(PTR, $00005C5E)
+【Rintaro】Quantum theory. The observer is an important element to the experiment.
+<END>
+
+#WRITE(PTR, $00005C78)
+【Kurisu】There were four of us here when the discharge phenomenon occurred. But before that, it occurred when Hashida-san was alone.
+<END>
+
+#WRITE(PTR, $00005C88)
+【Kurisu】For the fractal restructuring experiments, there were either two or three people.
+<END>
+
+#WRITE(PTR, $00005C98)
+【Kurisu】Both of us saw both phenomena.
+<END>
+
+#WRITE(PTR, $00005CA8)
+【Kurisu】So in other words, that condition shouldn't have changed.
+<END>
+
+#WRITE(PTR, $00005CB8)
+【Rintaro】In that case...
+<END>
+
+#WRITE(PTR, $00005CD2)
+【Kurisu】Hmmm....
+<END>
+
+#WRITE(PTR, $00005CE6)
+There should be some other condition.
+<END>
+
+#WRITE(PTR, $00005CF6)
+It's on the tip of my tongue.
+<END>
+
+#WRITE(PTR, $00005D12)
+Then I hear a rumbling sound from Kurisu's stomach.
+<END>
+
+#WRITE(PTR, $00005D2C)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00005D3C)
+【Rintaro】Hungry?
+<END>
+
+#WRITE(PTR, $00005D4C)
+【Kurisu】Sh-shut up. I haven't eaten anything since lunch.
+<END>
+
+#WRITE(PTR, $00005D68)
+Kurisu turns away as she looks at her watch.
+<END>
+
+#WRITE(PTR, $00005D78)
+【Kurisu】It's already 8?
+<END>
+
+#WRITE(PTR, $00005D88)
+【Rintaro】Just eat a banana. But only the two ones we just warmed. Enjoy the materials we used in the experiment.
+<END>
+
+#WRITE(PTR, $00005E34)
+【Rintaro】There's also our stock of cup noodles.
+<END>
+
+#WRITE(PTR, $00005F10)
+【Kurisu】...
+<END>
+
+#WRITE(PTR, $00005FB4)
+【Rintaro】Don't want any? Well, since you lived in America for so long, I guess you'd come to like fast food more--
+<END>
+
+#WRITE(PTR, $00006058)
+【Kurisu】Cup noodles.
+<END>
+
+#WRITE(PTR, $000060FC)
+【Rintaro】What?
+<END>
+
+#WRITE(PTR, $000061A0)
+【Kurisu】I'll have some cup noodles.
+<END>
+
+#WRITE(PTR, $00006244)
+【Rintaro】Cup noodles!?
+<END>
+
+#WRITE(PTR, $000062E8)
+【Kurisu】By the way, what flavors?
+<END>
+
+#WRITE(PTR, $0000639E)
+【Rintaro】There's soy sauce flavor and salt flavor.
+<END>
+
+#WRITE(PTR, $000063BA)
+【Kurisu】Salt.
+<END>
+
+#WRITE(PTR, $000063CA)
+She seems in the mood to eat.
+<END>
+
+#WRITE(PTR, $000063E4)
+【Kurisu】Also, do you have a fork?
+<FILEEND95>
+

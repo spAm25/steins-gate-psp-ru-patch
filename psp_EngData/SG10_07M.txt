@@ -1,0 +1,555 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001A16)
+
+#WRITE(PTR, $000007E4)
+I contacted Kurisu, and we arranged to meet on UDX's overpass half past 4 in the morning.
+<END>
+
+#WRITE(PTR, $000007F4)
+I was wondering why she wanted to meet so early in the morning, but I understood when I saw her.
+<END>
+
+#WRITE(PTR, $00000804)
+She was holding a large suitcase.
+<END>
+
+#WRITE(PTR, $0000084C)
+【Kurisu】Thanks for seeing me off.
+<END>
+
+#WRITE(PTR, $0000085C)
+She faces us and grins.
+<END>
+
+#WRITE(PTR, $0000086C)
+【Rintaro】What's that suitcase... Don't tell me...
+<END>
+
+#WRITE(PTR, $00000886)
+【Kurisu】Hm? Ah, yeah, it's what you think.
+<END>
+
+#WRITE(PTR, $00000896)
+【Rintaro】Are you going back home? To America?
+<END>
+
+#WRITE(PTR, $000008A6)
+Kurisu nods.
+<END>
+
+#WRITE(PTR, $000008BA)
+【Kurisu】I was originally supposed to go back in August,
+<END2>
+
+#WRITE(PTR, $000008D4)
+ but I got caught by a certain mad scientist,
+<END2>
+
+#WRITE(PTR, $000008EE)
+ and ended up staying longer than planned.
+<END>
+
+#WRITE(PTR, $00000902)
+【Kurisu】There's nothing more I can help you with anyway, and there's no point in just being a future trouble.
+<END>
+
+#WRITE(PTR, $00000912)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000922)
+I wonder if she's looking out for me.
+<END>
+
+#WRITE(PTR, $00000932)
+Or maybe she's fleeing the city alone to shake off her fears.
+<END>
+
+#WRITE(PTR, $00000942)
+It's not like I have a right to stop her, and even if I did, it wouldn't change anything.
+<END>
+
+#WRITE(PTR, $00000952)
+Today, I will commence cracking into SERN as planned, and move to the β World Line.
+<END>
+
+#WRITE(PTR, $00000962)
+I won't waver any longer.
+<END>
+
+#WRITE(PTR, $000009B0)
+Mayuri is at my side, looking down while standing stock still.
+<END>
+
+#WRITE(PTR, $000009C0)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $000009DA)
+【Kurisu】Mayuri, what's wrong? Are you feeling bad?
+<END>
+
+#WRITE(PTR, $000009EA)
+I gently push Mayuri from behind.
+<END>
+
+#WRITE(PTR, $00000A3A)
+【Rintaro】C'mon, Mayuri.
+<END>
+
+#WRITE(PTR, $00000A54)
+【Mayuri】...
+<END>
+
+#WRITE(PTR, $00000A64)
+And Mayuri takes just one step towards Kurisu.
+<END>
+
+#WRITE(PTR, $00000A74)
+She hesitates a little, but then immediately makes a mad dash towards Kurisu, and embraces her.
+<END>
+
+#WRITE(PTR, $00000BE2)
+【Mayuri】Chris-chan...!
+<END>
+
+#WRITE(PTR, $00000BF2)
+【Kurisu】Eh, wait, what's this all of a sudden...!?
+<END>
+
+#WRITE(PTR, $00000C02)
+【Mayuri】You know, Mayushii really doesn't want Chris-chan to be gone...
+<END>
+
+#WRITE(PTR, $00000C12)
+Kurisu, noticing Mayuri's tearful voice, asks me with her eyes. "Did you tell her?"
+<END>
+
+#WRITE(PTR, $00000C22)
+I silently nod.
+<END>
+
+#WRITE(PTR, $00000C32)
+【Mayuri】Don't disappear for Mayushii's sake, okay?
+<END>
+
+#WRITE(PTR, $00000C42)
+【Rintaro】Mayuri, you...
+<END>
+
+#WRITE(PTR, $00000C52)
+【Mayuri】Mayushii doesn't want to live so much that she'd sacrifice Chris-chan for it!
+<END>
+
+#WRITE(PTR, $00000C62)
+I expected Mayuri might say such.
+<END>
+
+#WRITE(PTR, $00000C72)
+That's why she needs to cope with our resolution here.
+<END>
+
+#WRITE(PTR, $00000C82)
+I feel bad for Kurisu. But even so, it's necessary to say this.
+<END>
+
+#WRITE(PTR, $00000C92)
+【Rintaro】This has to be done. I chose you, Mayuri. Your responsibility is "to be saved".
+<END>
+
+#WRITE(PTR, $00000CA2)
+I feel the pain of my heart breaking.
+<END>
+
+#WRITE(PTR, $00000CB2)
+I just said a horrible thing.
+<END>
+
+#WRITE(PTR, $00000CC2)
+【Rintaro】Kurisu and I exchanged a contract, that she'd abandon her life for your sake. If you just throw that away, calamity will strike this earth...!
+<END>
+
+#WRITE(PTR, $00000CD2)
+I tightly clench my fists.
+<END>
+
+#WRITE(PTR, $00000CE2)
+I franticly suppress my regret.
+<END>
+
+#WRITE(PTR, $00000CF2)
+【Rintaro】Don't put Kurisu's feelings to waste, Mayuri!
+<END>
+
+#WRITE(PTR, $00000D02)
+【Mayuri】But... but...
+<END>
+
+#WRITE(PTR, $00000D12)
+【Kurisu】Thanks, Mayuri.
+<END>
+
+#WRITE(PTR, $00000D22)
+Kurisu moves her hand to Mayuri's back, returning the hug.
+<END>
+
+#WRITE(PTR, $00000D32)
+【Kurisu】But I've already come to this conclusion deep inside, and I've already agreed.
+<END>
+
+#WRITE(PTR, $00000D42)
+【Kurisu】Did you know? That Okabe really loves you.
+<END>
+
+#WRITE(PTR, $00000D52)
+【Mayuri】Huhwha...?
+<END>
+
+#WRITE(PTR, $00000D62)
+【Rintaro】Wh, whawha, what are you saying...!?
+<END>
+
+#WRITE(PTR, $00000D72)
+【Kurisu】The truth, right?
+<END>
+
+#WRITE(PTR, $00000D82)
+She gives me a mischevious smirk.
+<END>
+
+#WRITE(PTR, $00000D92)
+【Kurisu】So, if you died, it would make Okabe very sad. You don't want to give Okabe that sort of memory, do you?
+<END>
+
+#WRITE(PTR, $00000DA2)
+【Mayuri】But... if Chris-chan's gone, it would make Mayushii sad...
+<END>
+
+#WRITE(PTR, $00000DB2)
+【Kurisu】Yeah, it's sad... that we won't be able to meet.
+<END>
+
+#WRITE(PTR, $00000DC2)
+【Kurisu】But anyway, I plan to to stay alive by going home to America.
+<END>
+
+#WRITE(PTR, $00000DD2)
+【Kurisu】So, even if I go to another world line, if you think of me being in America, it's not that big a difference.
+<END>
+
+#WRITE(PTR, $00000DE2)
+【Mayuri】That's not the problem! I don't want Chris-chan to disappear...!
+<END>
+
+#WRITE(PTR, $00000DF2)
+【Mayuri】Let's stop, okay? Don't make Chris-chan disappear...
+<END>
+
+#WRITE(PTR, $00000E8A)
+Kurisu separates from Mayuri and peers straight into her face.
+<END>
+
+#WRITE(PTR, $00000E9A)
+【Kurisu】You shouldn't trouble me or Okabe any further.
+<END>
+
+#WRITE(PTR, $00000EAA)
+A gentle tone, like when dealing with children.
+<END>
+
+#WRITE(PTR, $00000EBA)
+She lightly strikes the forehead of Mayuri's face about to cry.
+<END>
+
+#WRITE(PTR, $00000F08)
+【Kurisu】Okabe, you shouldn't ever let go of Mayuri again.
+<END>
+
+#WRITE(PTR, $00000F18)
+【Rintaro】...understood.
+<END>
+
+#WRITE(PTR, $00000F28)
+【Kurisu】Well then, I'm going.
+<END>
+
+#WRITE(PTR, $00000F42)
+【Kurisu】It's a relief to think that I'll never have to see Okabe's face again.
+<END>
+
+#WRITE(PTR, $00000F52)
+She mouths off that hurtful remark with a smile on her face.
+<END>
+
+#WRITE(PTR, $00000F6E)
+The gap between her bitterly bright attitude now, and her attitude yesterday when we embraced shivering in the dark, makes my heart feel hollow.
+<END>
+
+#WRITE(PTR, $00000F7E)
+I'm sorry--
+<END>
+
+#WRITE(PTR, $00000F8E)
+My words of apology remain nothing but echoes in my heart.
+<END>
+
+#WRITE(PTR, $00000FF0)
+【Mayuri】Chris-chan... don't go... please, don't go...!
+<END>
+
+#WRITE(PTR, $000010D0)
+【Kurisu】Don't follow me!
+<END>
+
+#WRITE(PTR, $000010E0)
+Kurisu, who had turned her back to Mayuri chasing her, threw out a harsh voice.
+<END>
+
+#WRITE(PTR, $000010F0)
+Mayuri twitches, and then stands still.
+<END>
+
+#WRITE(PTR, $00001100)
+【Kurisu】Don't show any sympathy. It'll just make us miserable.
+<END>
+
+#WRITE(PTR, $00001110)
+【Kurisu】This is what I decided. Nothing you can say will convince me otherwise.
+<END>
+
+#WRITE(PTR, $00001120)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $0000113A)
+【Kurisu】...goodbye.
+<END>
+
+#WRITE(PTR, $00001154)
+【Kurisu】Mayuri, promise me. That you'll find happiness.
+<END>
+
+#WRITE(PTR, $00001170)
+And then Kurisu left.
+<END>
+
+#WRITE(PTR, $00001180)
+This early morning Akihabara where the sun still hasn't risen.
+<END>
+
+#WRITE(PTR, $00001190)
+Disappearing on the first train, tugging along a suitcase all alone.
+<END>
+
+#WRITE(PTR, $00001266)
+Mayuri crumbled down on the spot, close to tears.
+<END>
+
+#WRITE(PTR, $00001276)
+I try to approach her, and hear a faint mutter.
+<END>
+
+#WRITE(PTR, $00001286)
+【Mayuri】I'm sorry... I'm sorry... I'm sorry...
+<END>
+
+#WRITE(PTR, $00001296)
+【Rintaro】You have nothing to apologize for. Everything was my decision.
+<END>
+
+#WRITE(PTR, $000012A6)
+【Rintaro】That Kurisu will disappear. That I won't save her.
+<END>
+
+#WRITE(PTR, $000012B6)
+【Rintaro】And... that chaos visit the world...
+<END>
+
+#WRITE(PTR, $000012C6)
+【Rintaro】You can't forgive me, can you Mayuri? Then hate me.
+<END>
+
+#WRITE(PTR, $000012D6)
+【Rintaro】But even then, you'll be with me until the end.
+<END>
+
+#WRITE(PTR, $000012E6)
+【Rintaro】I...
+<END>
+
+#WRITE(PTR, $000012F6)
+【Rintaro】I, for the sake of saving you, let Kurisu die.
+<END>
+
+#WRITE(PTR, $00001306)
+【Rintaro】So, no matter how much you hate me, my opinion will be the opposite...
+<END>
+
+#WRITE(PTR, $00001316)
+【Rintaro】I no longer plan on going... back...
+<END>
+
+#WRITE(PTR, $00001326)
+【Rintaro】Noone... can stop my ambition...
+<END>
+
+#WRITE(PTR, $000013C8)
+Mayuri slowly stands up.
+<END>
+
+#WRITE(PTR, $000013D8)
+And, just like she did to Kurisu.
+<END>
+
+#WRITE(PTR, $000013E8)
+She buries her face into my chest.
+<END>
+
+#WRITE(PTR, $00001430)
+【Mayuri】Sniff... Okarin...
+<END>
+
+#WRITE(PTR, $00001440)
+【Mayuri】I want to hear Okarin's real feelings...
+<END>
+
+#WRITE(PTR, $00001450)
+My real... feelings...?
+<END>
+
+#WRITE(PTR, $00001460)
+Mayuri looks straight up into my eyes.
+<END>
+
+#WRITE(PTR, $00001470)
+【Mayuri】I want to hear what's what Okarin is thinking inside, with honest words...
+<END>
+
+#WRITE(PTR, $00001480)
+【Mayuri】Because Mayushi... doesn't want to be a burden any longer...
+<END>
+
+#WRITE(PTR, $00001490)
+【Rintaro】You're not... there's no way you could ever be...!
+<END>
+
+#WRITE(PTR, $000014A0)
+【Rintaro】This is all for my ego. I just wanted to save you... I just don't want to lose you...
+<END>
+
+#WRITE(PTR, $000014BA)
+【Mayuri】Yeah... thank you, Okarin... thank you...
+<END>
+
+#WRITE(PTR, $000014CA)
+While trying with all her might to put a fleeting smile on her face wet with tears.
+<END>
+
+#WRITE(PTR, $000014DA)
+Mayuri once again buries her face into my chest.
+<END>
+
+#WRITE(PTR, $000014EA)
+【Mayuri】I've always seen... these scary dreams...
+<END>
+
+#WRITE(PTR, $000014FA)
+【Mayuri】But a cool Okarin would also appear in each of them...
+<END>
+
+#WRITE(PTR, $0000150A)
+【Mayuri】Those probably weren't dreams, were they...
+<END>
+
+#WRITE(PTR, $0000151A)
+【Mayuri】You always came to save Mayushii, didn't you...
+<END>
+
+#WRITE(PTR, $0000152A)
+【Mayuri】Hey, Okarin. You know, Mayushii...
+<END>
+
+#WRITE(PTR, $00001544)
+【Mayuri】Loves you...
+<END>
+
+#WRITE(PTR, $00001554)
+【Mayuri】Since Okarin is there for me, Mayushii can smile every day...
+<END>
+
+#WRITE(PTR, $00001564)
+【Mayuri】Can we be together from now on too...?
+<END>
+
+#WRITE(PTR, $00001574)
+【Rintaro】...obviously.
+<END>
+
+#WRITE(PTR, $00001584)
+Answering Mayuri, I hug her.
+<END>
+
+#WRITE(PTR, $00001594)
+【Rintaro】My answer to that's so obvious...
+<END>
+
+#WRITE(PTR, $000015A4)
+【Rintaro】I never want to be apart...
+<END>
+
+#WRITE(PTR, $000015BE)
+【Mayuri】Yeah...
+<END>
+
+#WRITE(PTR, $000015CE)
+【Mayuri】You know... Mayushii will find her happiness...
+<END>
+
+#WRITE(PTR, $000015DE)
+【Mayuri】Since I promised Chris-chan.
+<END>
+
+#WRITE(PTR, $000015EE)
+【Rintaro】Yeah.
+<END>
+
+#WRITE(PTR, $00001608)
+【Mayuri】Please help me find it...
+<END>
+
+#WRITE(PTR, $00001618)
+【Rintaro】Yeah.
+<END>
+
+#WRITE(PTR, $00001628)
+【Mayuri】Please don't leave me...
+<END>
+
+#WRITE(PTR, $00001638)
+【Rintaro】Yeah.
+<END>
+
+#WRITE(PTR, $00001648)
+【Mayuri】Please let me love you forever...
+<END>
+
+#WRITE(PTR, $00001658)
+【Rintaro】Yeah.
+<END>
+
+#WRITE(PTR, $00001838)
+The radiance of the sunrise pours out between the buildings.
+<END>
+
+#WRITE(PTR, $00001848)
+Daybreak.
+<END>
+
+#WRITE(PTR, $00001858)
+We, under the brightly lit sky, keep embracing each other's bodies, as if to confirm our respective existences.
+<FILEEND44>
+

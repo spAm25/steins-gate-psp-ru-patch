@@ -1,0 +1,292 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000181E)
+
+#WRITE(PTR, $000001FC)
+After parting with Shining Finger, I go to a PC shop with an intimate clerk to gather various information.
+<END>
+
+#WRITE(PTR, $0000020C)
+But naturally, that clerk didn't seem to know the IBN 5100's location either.
+<END>
+
+#WRITE(PTR, $0000021C)
+Apparently, about 10 years ago, many underground shops also had trouble finding the retro PC.
+<END>
+
+#WRITE(PTR, $0000022C)
+And with the recently booming moe business, those sorts of shops have dwindled.
+<END>
+
+#WRITE(PTR, $0000023C)
+So I can't say that Moeka's unreliable...
+<END>
+
+#WRITE(PTR, $0000024C)
+Because I'm puzzled too, and this is only my second day searching.
+<END>
+
+#WRITE(PTR, $0000025C)
+Instead of fussing over Akiba, hunting for one on a worldwide auction page seems more appealing, though that would take money and time.
+<END>
+
+#WRITE(PTR, $0000026C)
+That reminds me, before I met with Shining Finger, Mayuri made an unusual phone call.
+<END>
+
+#WRITE(PTR, $0000027C)
+It's rare for the listlessly drifting Mayuri to contact me herself. Rather, I'm usually the one to contact her.
+<END>
+
+#WRITE(PTR, $0000028C)
+I wonder what Mayuri was calling about.
+<END>
+
+#WRITE(PTR, $0000032E)
+Should I try calling back?
+<END>
+
+#WRITE(PTR, $0000034C)
+But where is Mayuri now?
+<END>
+
+#WRITE(PTR, $0000036A)
+She's not at work, is she?
+<END>
+
+#WRITE(PTR, $00000388)
+If she is, then it's possible I can't contact her...
+<END>
+
+#WRITE(PTR, $000006E8)
+【Mayuri】Tutturu-. Mayushii here.
+<END>
+
+#WRITE(PTR, $00000704)
+【Rintaro】It's me. How's the situation?
+<END>
+
+#WRITE(PTR, $0000072A)
+【Mayuri】Ah-, it's Okarin.
+<END>
+
+#WRITE(PTR, $00000744)
+【Mayuri】I just called you-
+<END>
+
+#WRITE(PTR, $00000760)
+【Rintaro】Yeah. Did something happen?
+<END>
+
+#WRITE(PTR, $00000786)
+【Mayuri】Well, try calling Daru-kun-
+<END>
+
+#WRITE(PTR, $000007A2)
+【Rintaro】Haah? What for?
+<END>
+
+#WRITE(PTR, $000007BE)
+【Mayuri】Daru-kun went to MayQueen today-. So, I want you to call him. You'll understand then.
+<END>
+
+#WRITE(PTR, $000007D8)
+【Mayuri】Well then-, bye-
+<END>
+
+#WRITE(PTR, $0000086A)
+【Rintaro】Wait! Hey, Mayuri! Hey!
+<END>
+
+#WRITE(PTR, $0000087A)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000890)
+She hung up.
+<END>
+
+#WRITE(PTR, $000008A0)
+Doesn't look like she wants to explain in detail.
+<END>
+
+#WRITE(PTR, $000008B0)
+Even if I called back, Mayuri would probably just say the same thing.
+<END>
+
+#WRITE(PTR, $00000922)
+Let's do as Mayuri said.
+<END>
+
+#WRITE(PTR, $00000C6A)
+Crap, I messed up.
+<END>
+
+#WRITE(PTR, $00000C8E)
+I called someone else.
+<END>
+
+#WRITE(PTR, $00000D24)
+【Itaru】
+Yes, yes-
+<END>
+
+#WRITE(PTR, $00000D40)
+【Rintaro】It's me. Report the situation.
+<END>
+
+#WRITE(PTR, $00000D5C)
+【Itaru】Oh, it's gotta be Okarin. Did you hear from Mayu-shi?
+<END>
+
+#WRITE(PTR, $00000D78)
+【Rintaro】No, I didn't hear anything.
+<END>
+
+#WRITE(PTR, $00000D94)
+【Itaru】Well, I'm at MayQueen right now.
+<END>
+
+#WRITE(PTR, $00000DA4)
+【Itaru】Mayu-shi did some investigation. Looks like Faris-tan knows about the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000DC0)
+【Rintaro】What...!? Faris!?
+<END>
+
+#WRITE(PTR, $00000DD0)
+Don't tell me that catgirl and the IBN 5100 are connected.
+<END>
+
+#WRITE(PTR, $00000DE0)
+That's unimaginable.
+<END>
+
+#WRITE(PTR, $00000DFC)
+【Itaru】I understand your doubt, but apparently there are a lot of retro PCs at her house.
+<END>
+
+#WRITE(PTR, $00000E18)
+That's some unexpected good news.
+<END>
+
+#WRITE(PTR, $00000E28)
+The tables have been turned, and now I'm close to my goal.
+<END>
+
+#WRITE(PTR, $00000E38)
+【Rintaro】This too is Steins;Gate's choice!
+<END>
+
+#WRITE(PTR, $00000E54)
+【Itaru】I don't get it.
+<END>
+
+#WRITE(PTR, $00000E70)
+【Rintaro】So, is Faris there?
+<END>
+
+#WRITE(PTR, $00000E8C)
+【Itaru】Of course. Today's the Faris Cup after all.
+<END>
+
+#WRITE(PTR, $00000EA8)
+Faris Cup?
+<END>
+
+#WRITE(PTR, $00000EB8)
+What's that? I think I remember hearing about it, but I never really paid it any attention.
+<END>
+
+#WRITE(PTR, $00000ED4)
+【Itaru】When I showed Faris-tan an image of the IBN 5100, she said she dedicated a similar PC to a shrine 10 years ago.
+<END>
+
+#WRITE(PTR, $00000EE4)
+【Itaru】Dunno if it's the same one, though.
+<END>
+
+#WRITE(PTR, $00000F00)
+【Rintaro】To... a shrine?
+<END>
+
+#WRITE(PTR, $00000F10)
+That's an unexpected combination.
+<END>
+
+#WRITE(PTR, $00000F20)
+PC and Shrine. Consumer electronics and ancient Shinto precincts.
+<END>
+
+#WRITE(PTR, $00000F30)
+They don't even seem tangentially related.
+<END>
+
+#WRITE(PTR, $00000F40)
+【Rintaro】Which shrine?
+<END>
+
+#WRITE(PTR, $00000F5C)
+【Itaru】Ah, I didn't ask. I'm really sorry.
+<END>
+
+#WRITE(PTR, $00000F78)
+【Rintaro】Whatever. It's not a bad hint.
+<END>
+
+#WRITE(PTR, $00000F88)
+The shrines in this area are Kanda Myojin and Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00000F98)
+I don't know if Faris resided in Akiba when she was little, but what I can do now is visit those two shrines.
+<END>
+
+#WRITE(PTR, $00000FB4)
+【Itaru】Well, I'm hanging up soon. The Faris Cup is about to begin.
+<END>
+
+#WRITE(PTR, $00000FD0)
+【Rintaro】I see. Daru, I'm sure you can do it. Be sure to win.
+<END>
+
+#WRITE(PTR, $00000FEC)
+【Itaru】Leave it to me.
+<END>
+
+#WRITE(PTR, $00001028)
+Anyway, what do you do at the Faris Cup?
+<END>
+
+#WRITE(PTR, $00001038)
+No, more importantly, the shrine.
+<END>
+
+#WRITE(PTR, $000010AE)
+Let's get in touch not by phone, but by mail.
+<END>
+
+#WRITE(PTR, $000014B2)
+I send a mail and get a reply in a matter of minutes.
+<END>
+
+#WRITE(PTR, $00001616)
+I guess that's enough.
+<END>
+
+#WRITE(PTR, $00001626)
+Anyway, try contacting Daru, she says?
+<END>
+
+#WRITE(PTR, $00001636)
+Just what could that mean?
+<END>
+
+#WRITE(PTR, $00001646)
+I don't understand Mayuri's intention at all, but for now, I'll try calling Daru.
+<FILEEND1F>
+

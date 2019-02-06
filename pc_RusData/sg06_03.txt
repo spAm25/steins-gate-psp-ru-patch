@@ -1,0 +1,543 @@
+<PRE @box00>[text00010]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2770" mode="on">
+"Эмх..."
+
+Я глубоко вздыхаю.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2771" mode="on">
+"Это, должно быть, был сон."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2772" mode="on">
+"Не может быть, чтобы что-то подобное случилось."
+
+
+Это был кошмар, вызванный беспокойством. И ничего больше.
+
+
+
+Этому нет другого логического объяснения.
+
+</PRE>
+
+<PRE @box00>[text00020]
+Я отчаянно пытался убедить себя, что это так.
+
+</PRE>
+
+<PRE @box00>[text00030]
+Единственное, что я знаю — это то, что скоро я поплачусь за свою глупость.
+
+</PRE>
+
+<PRE @box00>[text00040]
+Курису идёт в магазин одна. Я остаюсь в лаборатории вместе с Дару, ожидая возвращения Маюри.
+
+
+
+</PRE>
+
+<PRE @box00>[text00050]
+<voice name=" Маюри" class="VID_MAY" src="voice/MAY_0798" mode="on">
+"Туттуру~♪ Я вернулась!"
+
+</PRE>
+
+<PRE @box00>[text00060]
+Наивная улыбка.
+
+Маюри жива.
+
+С ней ничего не случится.
+
+</PRE>
+
+<PRE @box00>[text00070]
+Я волновался зря.
+
+Когда придёт Сузуха, начнётся наша вечеринка.
+
+</PRE>
+
+<PRE @box00>[text00080]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0799" mode="on">
+"Окарин, Окарин."
+
+</PRE>
+
+<PRE @box00>[text00090]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0800" mode="on">
+"Я позвала Фейрис-тян и Руку-тян, но они сказали, что не смогут присоединиться."
+
+Я уже слышал эти слова.
+
+</PRE>
+
+<PRE @box00>[text00100]
+<FONT incolor="#ff7080" outcolor="#000000">Дежавю</FONT>. Игра воображения.
+
+</PRE>
+
+<PRE @box00>[text00110]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2773" mode="on">
+"Ох. У них какие-то планы?"
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0801" mode="on">
+"У Фейрис-тян турнир по RaiNet."
+
+</PRE>
+
+<PRE @box00>[text00130]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0869" mode="on">
+"Блин, я должен был пойти поддержать её! Как неосмотрительно с моей стороны!"
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0802" mode="on">
+"А Рука-тян почему-то смутилась."
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1694" mode="on">
+"Может быть, она думает, что ты опять заставишь её носить твои костюмы."
+
+Всё прямо как в моём сне.
+
+Я никогда раньше не запоминал свои сны так чётко. Но сейчас я помню каждое произнесённое слово.
+
+
+</PRE>
+
+<PRE @box00>[text00150]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2774" mode="on">
+"Ты до сих пор не убедила её косплеить?"
+
+</PRE>
+
+<PRE @box00>[text00160]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0803" mode="on">
+"Она сказала, что это её смущает. Я постоянно ей твержу: «Милота есть Справедливость!», но она меня даже не слушает..."
+
+</PRE>
+
+<PRE @box00>[text00170]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1695" mode="on">
+"«Милота есть Справедливость»... так и говорят?"
+
+</PRE>
+
+<PRE @box00>[text00180]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0804" mode="on">
+"Крис-тян, ты тоже милая!"
+
+</PRE>
+
+<PRE @box00>[text00190]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1696" mode="on">
+"Аа? Ээ?"
+
+</PRE>
+
+<PRE @box00>[text00200]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0805" mode="on">
+"Эй, скоро будет ComiMa. Хочешь сходить?"
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0806" mode="on">
+"Я не могу сшить новый наряд, но у меня остался костюм Сейры после Пробуждения из Blood Tune, который я сделала в прошлом году. Думаю, по размеру как раз для тебя."
+
+</PRE>
+
+<PRE @box00>[text00210]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1697" mode="on">
+"Я? Косплеить?"
+
+</PRE>
+
+<PRE @box00>[text00220]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1698" mode="on">
+"Возможно, я немного и заинтересовалась."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1699" mode="on">
+"Но я отказываюсь делать это перед публикой."
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0807" mode="on">
+"Ты не обязана никому показываться, но, в конечном счёте, ты захочешь, чтобы все увидели. Демон косплея заставит тебя!"
+
+</PRE>
+
+<PRE @box00>[text00240]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0808" mode="on">
+"Так похоже на меня. Крис-тян, ты всегда носишь такую милую униформу. Из какой она школы?"
+
+
+</PRE>
+
+<PRE @box00>[text00250]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1700" mode="on">
+"А, эта?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1701" mode="on">
+"Я была в Ayamein в течение двух недель, а потом смоделировала этот наряд, взяв за образец их форму."
+
+</PRE>
+
+<PRE @box00>[text00260]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0809" mode="on">
+"О! У них действительно милая униформа, но ты делаешь её ещё милее! У тебя определённо есть задатки дизайнера♪"
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0810" mode="on">
+"Я принесу костюм завтра, хорошо? Ты примеришь его?"
+
+</PRE>
+
+<PRE @box00>[text00270]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1702" mode="on">
+"Конечно."
+
+
+</PRE>
+
+<PRE @box00>[text00280]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0870" mode="on">
+"Когда фотосессия?"
+
+</PRE>
+
+<PRE @box00>[text00290]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1703" mode="on">
+"Важно помнить, что ты всё тот же извращенец, Хашида."
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0871" mode="on">
+"Да ладно тебе, это же Сейра из Blood Tune! Там же есть «панморо»"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1704" mode="on">
+"Панморо?"
+
+</PRE>
+
+<PRE @box00>[text00300]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0872" mode="on">
+"Это значит, что трусики совсем обнажены!"
+
+</PRE>
+
+<PRE @box00>[text00310]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1705" mode="on">
+"Н-не может быть..."
+
+</PRE>
+
+<PRE @box00>[text00320]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0811" mode="on">
+"Всё в порядке♪"
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0812" mode="on">
+"Ты можешь этого не знать, но в прошлом году было популярно говорить..."
+
+</PRE>
+
+<PRE @box00>[text00330]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0813" mode="on">
+"«Это не трусики, так что нет ничего постыдного!»"
+
+</PRE>
+
+<PRE @box00>[text00340]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1706" mode="on">
+"Японии конец..."
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0814" mode="on">
+"Ну надень костюм, хорошо? Ты пообещала!"
+
+</PRE>
+
+<PRE @box00>[text00350]
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0344" mode="on">
+"Возможно, не стоит беспокоиться."
+
+</PRE>
+
+<PRE @box00>[text00360]
+Сузуха заговорила, её тон резок.
+
+Она снова сердито смотрит на Курису.
+
+Вдруг атмосфера в комнате изменяется.
+
+...Это я тоже помню.
+
+Я чувствую, что схожу с ума.
+
+</PRE>
+
+<PRE @box00>[text00370]
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0345" mode="on">
+"Ты напрашиваешься на неприятности, доверяя Макисе Курису."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1707" mode="on">
+"И что это значит?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1708" mode="on">
+"Я как раз хотела спросить. Что я тебе сделала?"
+
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0346" mode="on">
+"Не мне. Но я знаю обо всём, что ты натворила."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1709" mode="on">
+"И как это понимать? Я не делала ничего такого, за что меня можно винить."
+
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0347" mode="on">
+"Может и так. Но я знаю твою истинную сущность."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1710" mode="on">
+"Ого, ты можешь заглянуть мне в душу? Какая прогрессивная технология. Я бы очень хотела услышать, как она работает."
+
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0348" mode="on">
+"Это не наука. Это... предсказание."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1711" mode="on">
+"Тогда ты просто выдумываешь."
+
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0349" mode="on">
+"Я <i>знаю</i>⑰."
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0815" mode="on">
+"Окарин."
+
+Маюри цепляется за меня со слезами на глазах.
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0816" mode="on">
+"Останови их драку."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2775" mode="on">
+"..."
+
+Должен ли я послушать призыв Маюри? Так же, как я сделал во сне?
+
+Я знаю, что не смогу остановить их, может быть, тогда мне следует предоставить это самой Маюри?
+
+Я не знаю. Я не могу пошевелить ни мускулом.
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0817" mode="on">
+"Ничего себе…"
+
+Скорчив гримасу, Маюри встаёт между двумя девочками.
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0818" mode="on">
+"Эм, ребята? Маюши не нравится, когда вы ссоритесь. Давайте жить дружно, хорошо?"
+
+</PRE>
+
+<PRE @box00>[text00380]
+Дару приходит поболтать с Сузухой, и в лабораторию постепенно возвращается мир.
+
+Курису в комнате разработки, кому-то звонит. Возможно, своей матери в Америку.
+
+Я сижу на диване и смотрю телевизор, попивая Dr. Pepper.
+
+Но я не могу переключиться на то, что идёт на экране.
+
+Оно не идёт мне в голову.
+
+Маюри сидит рядом со мной.
+
+Она чистит банан и начинает его есть.
+
+</PRE>
+
+<PRE @box00>[text00390]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0819" mode="on">
+"Эй, Окарин."
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0820" mode="on">
+"В последние несколько недель это место так сильно ожило, хех?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2776" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text00400]
+Прекратите.
+
+Почему вы все говорите то же самое, что и в моём ужасном сне?
+
+Это был сон. Это должен был быть лишь сон.
+
+</PRE>
+
+<PRE @box00>[text00410]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0821" mode="on">
+"Это весело♪"
+
+Маюри счастливо улыбается, не замечая отсутствия моего ответа.
+
+</PRE>
+
+<PRE @box00>[text00420]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0822" mode="on">
+"Хм, теперь, когда нас 8, Маюши начала думать, что здесь немного тесно."
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0823" mode="on">
+"У нас, как минимум, не хватает стульев."
+
+</PRE>
+
+<PRE @box00>[text00430]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0824" mode="on">
+"Нам нужно купить новые. У тебя есть деньги, Окарин?"
+
+Я молча качаю головой.
+
+Почему-то я боюсь смотреть в лицо Маюри.
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0825" mode="on">
+"Думаю, мы можем использовать часть моей зарплаты."
+
+</PRE>
+
+<PRE @box00>[text00440]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0826" mode="on">
+"А ещё нам нужна новая микроволновка. Иначе я не смогу разогревать Сочную Курочку Номер Один."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2777" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text00450]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0827" mode="on">
+"Окарин... С тобой всё хорошо? Ты выглядишь не очень хорошо."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2778" mode="on">
+"Это ничего..."
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0828" mode="on">
+"Чувствуешь себя заболевшим? Тогда тебе нужно отдохнуть. Хочешь полежать? Ты можешь прилечь мне на колени, хорошо?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2779" mode="on">
+"Я не..."
+
+
+</PRE>
+
+<PRE @box00>[text00460]
+Прежде, чем я закончил, на экране появляется срочное сообщение.
+
+Субтитры говорят: "Из-за угрозы террористического акта перекрывают следующие линии: Яманотэ, Собу, Кэйхин-Тохоку."
+
+</PRE>
+
+<PRE @box00>[text00470]
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0350" mode="on">
+"Бомба?"
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0873" mode="on">
+"Кстати. Все эти линии проходят через Акибу. Как Маю-ши собирается ехать домой?"
+
+</PRE>
+
+<PRE @box00>[text00480]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0829" mode="on">
+"Ох, точно. Мне нужно позвонить домой."
+
+</PRE>
+
+<PRE @box00>[text00500]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2780" mode="on">
+"Нет... этого не может быть..."
+
+Это то же самое.
+
+Каждая произошедшая вещь — такая же.
+
+</PRE>
+
+<PRE @box00>[text00510]
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0351" mode="on">
+"Окабе Ринтаро. Мне нужно кое-что узнать."
+
+Это был сон.
+
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0352" mode="on">
+"Вы уже закончили Машину Прыжков во Времени, верно?"
+
+Это должен был быть лишь сон.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2781" mode="on">
+"..."
+
+Но если это был сон, тогда почему...
+
+</PRE>
+
+<PRE @box00>[text00520]
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0353" mode="on">
+"Ты слушаешь?"
+
+</PRE>
+
+<PRE @box00>[text00530]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0875" mode="on">
+"Эм, Машина для Прыжков во Времени завершена."
+
+</PRE>
+
+<PRE @box00>[text00540]
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0354" mode="on">
+"Ясно."
+
+<voice name="Сузуха" class="VID_SUZ" src="voice/SUZ_0355" mode="on">
+"Я только что вспомнила, что мне нужно кое-что сделать. Я ухожу."
+
+</PRE>
+
+<PRE @box00>[text00550]
+Сузуха покидает лабораторию, больше не сказав ни слова.
+
+</PRE>
+
+<PRE @box00>[text00560]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1713" mode="on">
+"Что с ней не так?"
+
+Она знает, что происходит?
+
+Ничего не случится. Плевать на мой сон.
+
+Независимо от того, как сильно я стараюсь убедить себя в этом, я не могу избавиться от леденящего страха, охватывающего моё сердце.
+
+
+</PRE>
+
+<PRE @box00>[text00570]
+Не могу дышать.
+
+Несмотря на то, что здесь жарко, моё тело дрожит.
+
+Я помню это чувство, оно тоже из сна.
+
+Разве я выбрал не то?
+
+Неужели я получил второй шанс лишь для того, чтобы потратить его впустую?
+
+Внезапно что-то мягкое обхватило мою руку.
+
+Я опускаю голову, чтобы увидеть Маюри, держащую мою руку, и замечаю беспокойство на её лице.
+
+Я рефлекторно поворачиваюсь к двери.
+
+Если это был не просто сон, то…
+
+</PRE>
+
+<PRE @box00>[text00580]
+В любую секунду...
+
+</PRE>
+
+

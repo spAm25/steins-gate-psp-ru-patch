@@ -1,0 +1,763 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002B0E)
+
+#WRITE(PTR, $00000226)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000236)
+Slight vertigo.
+<END>
+
+#WRITE(PTR, $00000246)
+As if my feet are off the ground.
+<END>
+
+#WRITE(PTR, $00000262)
+My vision blurs as if I had been thrown into the ocean.
+<END>
+
+#WRITE(PTR, $00000272)
+Everything in sight turned monochrome.
+<END>
+
+#WRITE(PTR, $00000282)
+Did the ground shake?
+<END>
+
+#WRITE(PTR, $00000292)
+Physiological feelings of fear.
+<END>
+
+#WRITE(PTR, $000002A2)
+Instinctive feelings of fear.
+<END>
+
+#WRITE(PTR, $000002B2)
+【Mayuri】Okarin? What's wrong-?
+<END>
+
+#WRITE(PTR, $000002C2)
+【Rintaro】...!
+<END>
+
+#WRITE(PTR, $000002D2)
+Mayuri's calling voice snaps me to my senses.
+<END>
+
+#WRITE(PTR, $000002E2)
+I notice that color has returned to the world.
+<END>
+
+#WRITE(PTR, $000002F2)
+What was that just now?
+<END>
+
+#WRITE(PTR, $0000033A)
+【Mayuri】Are you okay-?
+<END>
+
+#WRITE(PTR, $0000034A)
+Mayuri waves her hand in front of my face.
+<END>
+
+#WRITE(PTR, $0000045A)
+After blinking several times, I notice I'm standing stock still while gripping my phone.
+<END>
+
+#WRITE(PTR, $000004A0)
+My phone should be displaying "Mail Sent"-- or so I thought, but it didn't.
+<END>
+
+#WRITE(PTR, $000004B0)
+It's showing the normal standby display.
+<END>
+
+#WRITE(PTR, $000004C0)
+Something... feels wrong here.
+<END>
+
+#WRITE(PTR, $000004D0)
+Something is strange.
+<END>
+
+#WRITE(PTR, $000004E0)
+But just what is it?
+<END>
+
+#WRITE(PTR, $00000510)
+I look about my surroundings-- inside the lab.
+<END>
+
+#WRITE(PTR, $000005B2)
+...The Microwave Ophone (Temp) isn't operating.
+<END>
+
+#WRITE(PTR, $000005C2)
+When I sent the mail, the timer displayed 115.
+<END>
+
+#WRITE(PTR, $000005D2)
+In other words, it should've still been operating for about two more minutes.
+<END>
+
+#WRITE(PTR, $000005E2)
+Yet now, the Microwave Ophone (Temp) is silent.
+<END>
+
+#WRITE(PTR, $00000684)
+I observe my surroundings.
+<END>
+
+#WRITE(PTR, $00000694)
+Other things-- feel wrong.
+<END>
+
+#WRITE(PTR, $00000768)
+【Itaru】Hmmm....
+<END>
+
+#WRITE(PTR, $00000778)
+Until just a few seconds ago, Daru should've been sitting in front of the X68000 attached to the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00000788)
+But now he's sitting in front of the lounge computer.
+<END>
+
+#WRITE(PTR, $00000798)
+Did he teleport? At least, I don't remember seeing Daru getting up and moving to the lounge.
+<END>
+
+#WRITE(PTR, $000007E0)
+Kurisu's sitting cross-legged on the sofa, reading a massive technical book.
+<END>
+
+#WRITE(PTR, $000007F0)
+Even though she should've been in the development room too.
+<END>
+
+#WRITE(PTR, $000008C4)
+Moeka's standing still at the edge of the development room.
+<END>
+
+#WRITE(PTR, $000008D4)
+Nothing particularly different about her.
+<END>
+
+#WRITE(PTR, $0000091C)
+Mayuri's next to me, looking at me with her head tilted in wonder.
+<END>
+
+#WRITE(PTR, $0000092C)
+Something-- is wrong.
+<END>
+
+#WRITE(PTR, $00000948)
+【Rintaro】Mayuri, how long have I been standing here?
+<END>
+
+#WRITE(PTR, $00000958)
+【Mayuri】Eh? What do you mean-?
+<END>
+
+#WRITE(PTR, $00000968)
+【Rintaro】Doesn't matter. Just tell me.
+<END>
+
+#WRITE(PTR, $00000982)
+【Mayuri】Hm-, maybe 30 minutes or so, I guess-?
+<END>
+
+#WRITE(PTR, $00000992)
+【Rintaro】30 minutes...? Really?
+<END>
+
+#WRITE(PTR, $000009AC)
+【Mayuri】Yup. You suddenly ran over to Microwave Ophone-chan. You took out your phone and started going haaah haaah-.
+<END>
+
+#WRITE(PTR, $000009BC)
+【Itaru】Mayu-shi, say those words again.
+<END>
+
+#WRITE(PTR, $000009CC)
+Daru calls out from the lounge.
+<END>
+
+#WRITE(PTR, $000009E6)
+【Mayuri】Eh-? You started going haah haah-?
+<END>
+
+#WRITE(PTR, $000009F6)
+【Itaru】Repeat the haah haah part!
+<END>
+
+#WRITE(PTR, $00000A10)
+【Mayuri】Haah haah.
+<END>
+
+#WRITE(PTR, $00000A20)
+【Itaru】More sexy this time!
+<END>
+
+#WRITE(PTR, $00000A30)
+【Kurisu】Stop it, you PERVERT.
+<END>
+
+#WRITE(PTR, $00000B38)
+Rebuked by Kurisu, Daru pouts his lips.
+<END>
+
+#WRITE(PTR, $00000B48)
+How can these guys talk so normally at a time like this? Well, normally for them, anyway.
+<END>
+
+#WRITE(PTR, $00000B58)
+Just now, I sent a mail that may have changed the past, you know.
+<END>
+
+#WRITE(PTR, $00000B68)
+Are you not interested in the result?
+<END>
+
+#WRITE(PTR, $00000C68)
+【Rintaro】Th-that's right, the mail...
+<END>
+
+#WRITE(PTR, $00000C86)
+I try checking my mail on my phone.
+<END>
+
+#WRITE(PTR, $000012C6)
+【Rintaro】The mail arrived a week ago.
+<END>
+
+#WRITE(PTR, $0000130E)
+【Mayuri】Eh-? What's this about?
+<END>
+
+#WRITE(PTR, $0000131E)
+【Rintaro】The money? Did I win the LOTO SIX...?
+<END>
+
+#WRITE(PTR, $0000132E)
+I try searching my memories.
+<END>
+
+#WRITE(PTR, $0000133E)
+But I can't remember.
+<END>
+
+#WRITE(PTR, $0000134E)
+I have no memories of buying a ticket. No memories of winning 3rd place. Nothing.
+<END>
+
+#WRITE(PTR, $00001422)
+【Rintaro】Celeb sev over there, did I win 3rd place?
+<END>
+
+#WRITE(PTR, $00001446)
+【Kurisu】Don't call me celeb sev!
+<END2>
+
+#WRITE(PTR, $00001460)
+ Anyway, 3rd place of what?
+<END>
+
+#WRITE(PTR, $00001480)
+【Rintaro】...what?
+<END>
+
+#WRITE(PTR, $00001490)
+...Something's wrong again.
+<END>
+
+#WRITE(PTR, $00001566)
+I draw closer to Kurisu, lounging on the sofa.
+<END>
+
+#WRITE(PTR, $00001576)
+【Rintaro】What did you say just now!?
+<END>
+
+#WRITE(PTR, $00001590)
+【Kurisu】Huh, wh-what....
+<END>
+
+#WRITE(PTR, $000015A0)
+【Rintaro】What the hell did you say just now!?
+<END>
+
+#WRITE(PTR, $000015B0)
+When I raise my voice, Kurisu glares back at me.
+<END>
+
+#WRITE(PTR, $000015CA)
+【Kurisu】Something wrong? I asked what, and then you just--
+<END>
+
+#WRITE(PTR, $000015DA)
+【Rintaro】Not that! You said "3rd place of what", right!? 3rd place of LOTO SIX.
+<END>
+
+#WRITE(PTR, $000015F4)
+【Kurisu】Haah?
+<END>
+
+#WRITE(PTR, $00001604)
+Kurisu shows a puzzled look.
+<END>
+
+#WRITE(PTR, $00001614)
+It doesn't look like she's feigning ignorance or ridiculing me either.
+<END>
+
+#WRITE(PTR, $000016EA)
+【Rintaro】Daru, just now, I sent winning LOTO SIX numbers with the Microwave Ophone (Temp). Right?
+<END>
+
+#WRITE(PTR, $00001704)
+【Itaru】Ohh!!?
+<END>
+
+#WRITE(PTR, $00001714)
+Daru's eyes sparkle for some reason.
+<END>
+
+#WRITE(PTR, $00001724)
+【Itaru】I never thought of that! Could we change the past with D-mails to make us billionaires?
+<END>
+
+#WRITE(PTR, $00001738)
+【Itaru】I could buy all the computer parts I want!
+<END2>
+
+#WRITE(PTR, $00001752)
+ And go to MayQueen for all five meals of the day! I AM SO PUMPED UP!
+<END>
+
+#WRITE(PTR, $00001766)
+...Something's wrong.
+<END>
+
+#WRITE(PTR, $0000183A)
+【Rintaro】Mayuri, you'd be happy to have a truckload of bananas... right?
+<END>
+
+#WRITE(PTR, $00001858)
+【Mayuri】A truckload?
+<END2>
+
+#WRITE(PTR, $00001872)
+Who'd fill it up-?
+<END>
+
+#WRITE(PTR, $00001886)
+...Something's wrong.
+<END>
+
+#WRITE(PTR, $000018CE)
+I look at Moeka.
+<END>
+
+#WRITE(PTR, $000018DE)
+She's looking down, but she definitely looks confused.
+<END>
+
+#WRITE(PTR, $000018EE)
+【Rintaro】Wait, wait! Weren't we just about to bring Operation Urd to the second stage!?
+<END>
+
+#WRITE(PTR, $000019F6)
+【Kurisu】The second stage, you mean an experiment to see if the past can be changed, right?
+<END>
+
+#WRITE(PTR, $00001A06)
+【Rintaro】R-right! That's it!
+<END>
+
+#WRITE(PTR, $00001A20)
+【Itaru】Yeah, that's why we're all thinking.
+<END>
+
+#WRITE(PTR, $00001A30)
+【Rintaro】What...?
+<END>
+
+#WRITE(PTR, $00001A78)
+【Mayuri】About what to send, so we can tell if the past changed-
+<END>
+
+#WRITE(PTR, $00001A92)
+【Itaru】But Okarin, I must say, good job for your LOTO SIX idea.
+<END>
+
+#WRITE(PTR, $00001AAC)
+【Mayuri】But-, Mayushii thinks we shouldn't be so greedy for dough.
+<END>
+
+#WRITE(PTR, $00001AC6)
+【Mayuri】Ah, but when I say dough, I don't mean like for baking-
+<END>
+
+#WRITE(PTR, $00001AE0)
+【Kurisu】I think we all understand what you mean.
+<END>
+
+#WRITE(PTR, $00001AFA)
+【Mayuri】Really? That's great-. So, instead of being greedy, we should do something that would bring peace to the world-
+<END>
+
+#WRITE(PTR, $00001B14)
+【Mayuri】Like, if we gave everybody in the whole wide world an Upa cushion, I think everyone would be happy-♪
+<END>
+
+#WRITE(PTR, $00001B2E)
+【Itaru】The only ones who'd be happy would be little kids and Mayu-shi, durr.
+<END>
+
+#WRITE(PTR, $00001B3E)
+What? What are these guys saying?
+<END>
+
+#WRITE(PTR, $00001B4E)
+It's almost like the chain of events leading to "sending the winning LOTO SIX numbers to myself" became undone--
+<END>
+
+#WRITE(PTR, $00001C40)
+【Luka】Uh, umm, hello....
+<END>
+
+#WRITE(PTR, $00001C50)
+Slowly opening the entrance door, peeking his head inside, is Lukako.
+<END>
+
+#WRITE(PTR, $00001C60)
+【Mayuri】Ah, it's Luka-kun-. Welcome♪
+<END>
+
+#WRITE(PTR, $00001C7A)
+【Luka】Excuse me. Pardon the sudden intrusion....
+<END>
+
+#WRITE(PTR, $00001C8A)
+Lukako apologetically bows his head.
+<END>
+
+#WRITE(PTR, $00001DC6)
+Mayuri, Kurisu, and Daru go into welcome mode.
+<END>
+
+#WRITE(PTR, $00001E9A)
+Moeka... stares at her phone indifferently.
+<END>
+
+#WRITE(PTR, $00001EB6)
+But I'm not in any condition to greet Lukako.
+<END>
+
+#WRITE(PTR, $00001EC6)
+I can't stop sweating. And it's not because of the heat.
+<END>
+
+#WRITE(PTR, $00001ED6)
+I just don't know what's going on anymore.
+<END>
+
+#WRITE(PTR, $00001EE6)
+Doubts keep spinning around my head.
+<END>
+
+#WRITE(PTR, $00001FEE)
+【Mayuri】Luka-kun, did you get interested in wearing Mayushii's costumes-? That would make me happy-♪
+<END>
+
+#WRITE(PTR, $00002008)
+【Luka】Ah, no, that's not it....
+<END>
+
+#WRITE(PTR, $00002018)
+Lukako looks at me.
+<END>
+
+#WRITE(PTR, $00002028)
+He looks at me apologetically, as if he wants to say something.
+<END>
+
+#WRITE(PTR, $00002038)
+【Rintaro】...what is it?
+<END>
+
+#WRITE(PTR, $00002052)
+I try listening mechanically, with my head still blank.
+<END>
+
+#WRITE(PTR, $00002062)
+【Luka】Actually, Okabe-san... I mean, Kyouma-san, there's something I need to apologize for...
+<END>
+
+#WRITE(PTR, $00002072)
+Apologize...?
+<END>
+
+#WRITE(PTR, $00002082)
+About what?
+<END>
+
+#WRITE(PTR, $000020D2)
+Timidly, Lukako holds out--
+<END>
+
+#WRITE(PTR, $000020E2)
+【Rintaro】Ah...!
+<END>
+
+#WRITE(PTR, $0000212A)
+A LOTO SIX ticket.
+<END>
+
+#WRITE(PTR, $0000213A)
+And the numbers are the same as the ones in my D-mail...!
+<END>
+
+#WRITE(PTR, $0000214A)
+I reflexively grab Lukako by his slender wrist.
+<END>
+
+#WRITE(PTR, $00002166)
+【Rintaro】Lukako, where did you get this...!?
+<END>
+
+#WRITE(PTR, $00002180)
+【Luka】Ah, ugh, i-it hurts...
+<END>
+
+#WRITE(PTR, $000021C8)
+【Mayuri】Okarin, you can't pick on Luka-kun-
+<END>
+
+#WRITE(PTR, $000021D8)
+Mayuri gets between us.
+<END>
+
+#WRITE(PTR, $000021E8)
+I reluctantly let go.
+<END>
+
+#WRITE(PTR, $00002266)
+【Kurisu】Okabe, what's wrong with you? You've been weird for a while, you know?
+<END>
+
+#WRITE(PTR, $00002276)
+【Itaru】Did the heat get to him?
+<END>
+
+#WRITE(PTR, $000022C6)
+【Rintaro】Lukako, I'm sorry. But please, tell me. Where did you get that LOTO SIX ticket?
+<END>
+
+#WRITE(PTR, $000022D6)
+【Luka】Eh, um... Kyouma-san told me... the numbers...
+<END>
+
+#WRITE(PTR, $000022E6)
+【Rintaro】Told you...? I did?
+<END>
+
+#WRITE(PTR, $000022F6)
+Lukako nods with teary eyes.
+<END>
+
+#WRITE(PTR, $00002306)
+【Luka】Kyouma-san said "you might win, so try buying these numbers"...
+<END>
+
+#WRITE(PTR, $00002316)
+【Rintaro】...R-really? When was that!?
+<END>
+
+#WRITE(PTR, $00002326)
+【Luka】A week ago....
+<END>
+
+#WRITE(PTR, $000023C4)
+Aghhh, one week ago me, you dummy!
+<END>
+
+#WRITE(PTR, $000023D4)
+What kind of punch line is this!?
+<END>
+
+#WRITE(PTR, $000023E4)
+But the past certainly did change.
+<END>
+
+#WRITE(PTR, $000023F4)
+...Did it change?
+<END>
+
+#WRITE(PTR, $00002404)
+It seems like it changed, and at the same time, the "present" seems to have changed too--
+<END>
+
+#WRITE(PTR, $00002500)
+【Itaru】Eh, so then, did Luka-shi win the LOTO SIX?
+<END>
+
+#WRITE(PTR, $00002510)
+【Mayuri】Wah-, then, Okarin's an ESPER, huh-
+<END>
+
+#WRITE(PTR, $00002520)
+【Moeka】...
+<END>
+
+#WRITE(PTR, $00002570)
+【Kurisu】...Okabe, don't tell me... you sent the winning numbers with the Microwave Ophone?
+<END>
+
+#WRITE(PTR, $00002580)
+Kurisu asks.
+<END>
+
+#WRITE(PTR, $00002590)
+I'm perplexed.
+<END>
+
+#WRITE(PTR, $000025A0)
+【Rintaro】Why do you ask? You should've seen it too.
+<END>
+
+#WRITE(PTR, $000025BA)
+【Kurisu】Seen it...? Seen what?
+<END>
+
+#WRITE(PTR, $000025CA)
+The conversation's not connecting.
+<END>
+
+#WRITE(PTR, $000025DA)
+【Rintaro】...I sent. The 3rd place winning numbers. Just now. You were there too. After much deliberation, we decided to do it that way.
+<END>
+
+#WRITE(PTR, $000025EA)
+【Rintaro】Then the past changed... It changed.
+<END>
+
+#WRITE(PTR, $000025FA)
+I cast a glance at the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00002656)
+Proof.
+<END>
+
+#WRITE(PTR, $00002666)
+That completely unstylish, grotesque appliance, consisting of just a microwave oven hooked up to a cellphone, undeniably changed the past.
+<END>
+
+#WRITE(PTR, $00002676)
+We possess a power rivaling god...!
+<END>
+
+#WRITE(PTR, $00002686)
+Though, I don't know why everyone else completely forgot.
+<END>
+
+#WRITE(PTR, $000026E2)
+【Itaru】W-woah, more importantly, Luka-shi, how much did you win!?
+<END>
+
+#WRITE(PTR, $000026F2)
+【Rintaro】...700,000, right? 3rd place.
+<END>
+
+#WRITE(PTR, $00002702)
+I answer with conviction.
+<END>
+
+#WRITE(PTR, $00002712)
+But--
+<END>
+
+#WRITE(PTR, $0000275A)
+【Luka】No, umm...
+<END>
+
+#WRITE(PTR, $0000276A)
+Lukako begins fidgeting.
+<END>
+
+#WRITE(PTR, $0000277A)
+Something's strange about his behavior.
+<END>
+
+#WRITE(PTR, $00002794)
+【Luka】I'm really, sorry, Kyouma-san... Even though you told me something so amazing... I...
+<END>
+
+#WRITE(PTR, $000027AE)
+【Luka】Filled one of the numbers in wrong....
+<END>
+
+#WRITE(PTR, $000027BE)
+Huh...? Filled one of them wrong?
+<END>
+
+#WRITE(PTR, $000027CE)
+I stare at the numbers on the ticket shaking in Lukako's hands.
+<END>
+
+#WRITE(PTR, $0000281E)
+【Luka】Umm... well... if that '18' were a '19', then it would've been 3rd place... just like Kyouma-san said....
+<END>
+
+#WRITE(PTR, $00002838)
+【Itaru】Woahhh-, so close! And yet so far!
+<END>
+
+#WRITE(PTR, $00002854)
+That's right, I do believe there was a 19 in the winning numbers I looked up.
+<END>
+
+#WRITE(PTR, $00002864)
+I'll know if I check my phone's send history.
+<END>
+
+#WRITE(PTR, $000028A2)
+I take out my phone.
+<END>
+
+#WRITE(PTR, $000028C6)
+I view the send history.
+<END>
+
+#WRITE(PTR, $000028D6)
+【Rintaro】...Hm? Why? It's gone!
+<END>
+
+#WRITE(PTR, $000028EE)
+It's not here....
+<END>
+
+#WRITE(PTR, $00002904)
+There's no log data of the D-mail I just sent.
+<END>
+
+#WRITE(PTR, $00002914)
+Just like everyone else's memories.
+<END>
+
+#WRITE(PTR, $00002924)
+The mail should be there--
+<END>
+
+#WRITE(PTR, $00002934)
+But it's completely missing.
+<FILEEND60>
+

@@ -1,0 +1,551 @@
+<PRE @box00>[text00010]
+Я достал телефон Моэки из кармана.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4434" mode="on">
+"Я воспользуюсь твоим телефоном."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0384" mode="on">
+"..."
+
+Моэка медленно встала. Вытирая слёзы, она поправила одежду и волосы.
+
+С такого ракурса её волнистые волосы закрывают лицо, так что я не вижу его выражения.
+
+Она не реагирует на слова, которые я произнёс.
+
+</PRE>
+
+<PRE @box00>[text00020]
+Несмотря на то, что больше я её не держу, она не нападает и не пытается забрать телефон.
+
+</PRE>
+
+<PRE @box00>[text00030]
+Я открываю входящие в поисках D-мейла.
+
+
+</PRE>
+
+<PRE @box00>[text00040]
+Минуты через три я нашёл его.
+
+Три сообщения с номера Моэки, каждое по 12 знаков, отправлены 4 августа и получены 31 июля.
+
+
+
+
+"Старый компью" "тер лежит в хра" "ме Янабаяши."
+
+Как я и подозревал. Моэка изменила текст своего D-мейла, когда я на пару секунд отвернулся.
+
+Мне нужно просто отправить отменяющий D-мейл.
+
+</PRE>
+
+<PRE @box01>[text00050]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2383" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Окабе?!"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00060]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4435" mode="on">
+"Ты в лаборатории?"
+
+</PRE>
+
+<PRE @box01>[text00070]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2384" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Оох... Не пугай меня так... идиот..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00080]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4436" mode="on">
+"Что, ты беспокоилась обо мне?"
+
+</PRE>
+
+<PRE @box01>[text00090]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2385" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я-я имею в виду, ты же отправился на верную смерть. Я удивлена, что ты всё ещё жив!"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00100]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4437" mode="on">
+"Где ты сейчас?"
+
+</PRE>
+
+<PRE @box01>[text00110]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2386" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я в лаборатории."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4438" mode="on">
+"Настраивай машину. Я отправляю ещё один D-мейл."
+
+</PRE>
+
+<PRE @box01>[text00130]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2387" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Дата?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4439" mode="on">
+"...31 июля, 11 утра."
+
+</PRE>
+
+<PRE @box01>[text00150]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2388" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"11 часов 31-го..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00160]
+Пока Курису рассчитывает количество часов, я печатаю сообщение.
+
+Итак: «Не смей!», «Не ходи в храм!», «Это ловушка!»
+
+</PRE>
+
+<PRE @box00>[text00170]
+Сообщение адресовано Мобиловолновке (название временное).
+
+</PRE>
+
+<PRE @box01>[text00180]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2389" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Хорошо, всё готово."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00190]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4440" mode="on">
+"Отлично, активируй её."
+
+</PRE>
+
+<PRE @box01>[text00200]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2390" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Активировано."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00210]
+Я нажал на кнопку.
+
+</PRE>
+
+<PRE @box00>[text00220]
+Письмо отправляется.
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4441" mode="on">
+"..."
+
+В этот раз Считывающий Штейнер точно должен активироваться.
+
+Я уже приготовился к приближающемуся головокружению.
+
+</PRE>
+
+<PRE @box01>[text00240]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2391" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"...Итак?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00250]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4442" mode="on">
+"Ничего. Почему ничего не произошло?!"
+
+</PRE>
+
+<PRE @box01>[text00260]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2392" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Снова ошиблись?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00270]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4443" mode="on">
+"Нет, не может быть! Я ведь знаю содержимое того сообщения. Этот D-мейл должен был отменить его."
+
+
+Почему это не срабатывает?
+
+Что, чёрт тебя дери, не так в этот раз?
+
+</PRE>
+
+<PRE @box01>[text00280]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2393" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Что было написано в первом D-мейле?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00290]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4444" mode="on">
+"В нём говорилось о том, что IBN 5100 находится в храме Янабаяши. Я попытался отменить его, написав, что это ловушка, но это не сработало."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4445" mode="on">
+"Я попытаюсь перефразировать."
+
+</PRE>
+
+<PRE @box01>[text00300]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2394" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Подожди. Мы уже проходили через это, эксперимент с ЛОТО ШЕСТЬ, помнишь?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00310]
+Эксперимент с ЛОТО ШЕСТЬ...
+
+Я отправил себе победные номера, но я из прошлого не купил билет. Вместо этого он передал номера Рукако.
+
+</PRE>
+
+<PRE @box01>[text00320]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2395" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Человек, который получает D-мейл, сам решает, действовать в соответствии с ним или нет."</FONT>
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2396" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Кирю узнала, что IBN 5100 был в храме. Хотя отменяющее сообщение пришло, похоже, что она проигнорировала его и всё равно пошла в храм."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00330]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4446" mode="on">
+"Может быть, она не поверила отменяющему сообщению. Или, вероятно, она настолько прилежна, что решила проверить, даже если ей было сказано не делать этого."
+
+Я взглянул на Моэку.
+
+Она по-прежнему сидит с поникшей головой, но уже не плачет.
+
+Интересно, подслушивает ли она?
+
+</PRE>
+
+<PRE @box01>[text00340]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2397" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Проклятье. Даже после того, как она сама написала себе не идти в храм, она всё равно туда пошла..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00350]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4447" mode="on">
+"Нам нужно более убедительное сообщение. Что-нибудь, что помешает ей пойти в храм."
+
+</PRE>
+
+<PRE @box01>[text00360]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2398" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Например?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00370]
+В этом-то и проблема.
+
+Можно ли убедить её сообщением объёмом в 36 байт?
+
+Или нужно рассмотреть другие варианты?
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4448" mode="on">
+"Что если мы отправим сообщение мне 30го июля? Могу я обставить её и забрать его раньше?"
+
+</PRE>
+
+<PRE @box01>[text00380]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2399" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ты хоть знал тогда об IBN 5100?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00390]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4449" mode="on">
+"..."
+
+Когда же меня начал интересовать IBN 5100?
+
+Я не могу вспомнить.
+
+Хорошо. Этот вариант в пролёте. Тогда как же я могу убедить Моэку послушаться меня?
+
+В этот момент меня как током ударило.
+
+Две буквы.
+
+</PRE>
+
+<PRE @box00>[text00400]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4450" mode="on">
+"...ФБ."
+
+</PRE>
+
+<PRE @box01>[text00410]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2400" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Что?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00420]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4451" mode="on">
+"Босс Моэки. Она просто помешана на ФБ. Если сообщение придёт от ФБ, то она не задумываясь выполнит всё вне зависимости от содержания сообщения."
+
+</PRE>
+
+<PRE @box01>[text00430]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2401" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"У тебя есть телефон ФБ?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00440]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4452" mode="on">
+"Нет. Они даже не встречались. Мы не знаем и того, где он находится."
+
+</PRE>
+
+<PRE @box01>[text00450]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2402" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"В таком случае мы всё равно ничего не можем сделать."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00460]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4453" mode="on">
+"...Подожди немного."
+
+</PRE>
+
+<PRE @box01>[text00470]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2403" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Хочешь снова заставлять меня ждать? Хотя, я и так работала всю ночь, так что какая уже разница."</FONT>
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_2404" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Просто не делай ничего глупого, хорошо?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00480]
+Итак, даже несмотря на любопытные ответы Моэки, работы нам предстоит ещё много.
+
+Похоже, судьба действительно любит вставать у меня на пути.
+
+Отлично. Для того, чтобы покинуть эту мировую линию, я должен узнать личность и местонахождение ФБ.
+
+
+
+Я произнёс имя Моэки. Когда она наконец обратила на меня внимание, я бросил телефон ей на колени.
+
+Она подобрала его с удивлённым выражением лица.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4454" mode="on">
+"Похоже, сейчас мы ищем ФБ."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0385" mode="on">
+"..."
+
+Моэка получила свой телефон назад. Но она не смотрит на экран.
+
+Я глубоко вздохнул.
+
+Мне нужно добыть как можно больше информации об ФБ от неё.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4455" mode="on">
+"Как ты стала Раундером?"
+
+Честно говоря, мне это абсолютно безразлично.
+
+Я ненавижу себя за то, что должен находится здесь и разговаривать с этой женщиной. Женщиной, убившей Маюри.
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0386" mode="on">
+"..."
+
+Прижимая телефон к груди, Моэка подобрала очки и одела их.
+
+</PRE>
+
+<PRE @box00>[text00490]
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0387" mode="on">
+"Четыре года назад... Я пыталась... покончить с собой."
+
+Она говорит едва слышным шёпотом.
+
+На секунду я удивился, что она говорит, а не пишет.
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0388" mode="on">
+"У меня не было... надежды. Я хотела убежать... от всего."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4456" mode="on">
+"Почему?"
+
+</PRE>
+
+<PRE @box00>[text00500]
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0389" mode="on">
+"...Особой причины нет."
+
+Выражение её лица пусто и безжизненно, как и всегда.
+
+
+Но глаза за стекляшками очков покраснели от слёз.
+
+
+
+Это единственный след эмоций на её кукольном лице.
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0390" mode="on">
+"Маленькие вещи... множество маленьких причин... смешались."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0391" mode="on">
+"Я всегда была... такой."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4457" mode="on">
+"А твоя семья?"
+
+</PRE>
+
+<PRE @box00>[text00510]
+Моэка немного покачала головой.
+
+Полагаю, у неё никого нет.
+
+Я не стал спрашивать о том, были ли у неё родители. Это совсем не важно.
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0392" mode="on">
+"Я закрылась в комнате... приняла смертельную дозу снотворного."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0393" mode="on">
+"Но я почему-то не умерла."
+
+</PRE>
+
+<PRE @box00>[text00520]
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0394" mode="on">
+"После этого... Я получила сообщение."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0395" mode="on">
+"Там говорилось: "Набор Раундеров"... Оно было разослано сотням людей... Не только мне."
+
+...Разве это не спам?
+
+Неужели Раундеров действительно набирают вот так?
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0396" mode="on">
+"Ничто больше не имело значения... Так что, чисто из каприза... Я ответила."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0397" mode="on">
+"И тогда... ФБ связался со мной."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0398" mode="on">
+"С тех пор... Я следую... Указаниям ФБ."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4458" mode="on">
+"Ты всё это время находилась в Акибе?"
+
+</PRE>
+
+<PRE @box00>[text00530]
+Моэка качает головой.
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0399" mode="on">
+"Три месяца назад... Я была в Нагое. Перед этим... Йокогама. Перед этим..."
+
+Главной обязанностью Раундеров является добыча IBN 5100. Думаю, они путешествуют по всей Японии и добывают информацию об этих компьютерах.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4459" mode="on">
+"Сколько же IBN 5100 ты нашла за всё это время?"
+
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0400" mode="on">
+"Ни одного..."
+
+Нет результатов? Похоже, что СЕРН тратит много усилий, которые себя даже не окупают.
+
+Я снова глубоко вздохнул.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4460" mode="on">
+"И что теперь? Ты собираешься сидеть здесь, погрязая в отчаянии, пока через четыре дня не покончишь с собой?"
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0401" mode="on">
+"..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4461" mode="on">
+"Или ты хочешь восстать против судьбы?"
+
+</PRE>
+
+<PRE @box00>[text00540]
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0402" mode="on">
+"Восстать?"
+
+Несмотря на то, что я задал этот вопрос, я понимаю, что для неё «восстание» невозможно.
+
+В этой мировой линии её смерть предопределена.
+
+Она сейчас в той же ситуации, что и Маюри. Неважно, что она сделает, она умрёт.
+
+Я прекрасно это знал, но всё же задал ей этот вопрос.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4462" mode="on">
+"В любом случае, ФБ использовал тебя и бросил. Прими это. И спроси себя о том, что же ты будешь теперь делать."
+
+</PRE>
+
+<PRE @box00>[text00550]
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0403" mode="on">
+"..."
+
+Моэка смотрит в пол.
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0404" mode="on">
+"Даже если ФБ... воспользовался мной..."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0405" mode="on">
+"Это... было единственным... с чем я была связана."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0406" mode="on">
+"Это был первый раз... за всю мою жизнь... когда я была кому-то нужна."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0407" mode="on">
+"ФБ дал мне... цель."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0408" mode="on">
+"Чтобы защитить эту цель... Чтобы защитить ФБ..."
+
+<voice name="Моэка" class="VID_MOE" src="voice/MOE_0409" mode="on">
+"Я сделаю... всё."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4463" mode="on">
+"Ты безнадёжна."
+
+</PRE>
+
+<PRE @box00>[text00560]
+Я встал.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4464" mode="on">
+"Можешь погрязнуть в своей одержимости, мне всё равно. Твоя смерть уже предопределена."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_4465" mode="on">
+"Но я не собираюсь позволить судьбе двигаться именно так. Я восстану против неё."
+
+Неважно как, но я спасу Маюри.
+
+Осталось немного. Я не могу сдаться сейчас!
+
+</PRE>
+

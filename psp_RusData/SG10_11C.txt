@@ -1,0 +1,486 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001712)
+
+#WRITE(PTR, $0000028C)
+【Rintaro】...And without further ado, let us commence the final phase of Operation "Verthandi".
+<END>
+
+#WRITE(PTR, $0000029C)
+Mayuri and Daru look at me and nod.
+<END>
+
+#WRITE(PTR, $000002AC)
+Today's the last day of ComiMa, which Daru was originally looking forward to attending, but he prioritized this once I begged him.
+<END>
+
+#WRITE(PTR, $000002BC)
+I take a look around the lab.
+<END>
+
+#WRITE(PTR, $000002CC)
+Before I noticed, our lab mem count had returned to three.
+<END>
+
+#WRITE(PTR, $000002DC)
+In these past 20 days of turmoil, that number had at one point increased to eight.
+<END>
+
+#WRITE(PTR, $000002EC)
+All the memories of those days.
+<END>
+
+#WRITE(PTR, $000002FC)
+All the people we met those days.
+<END>
+
+#WRITE(PTR, $0000030C)
+I, for the sake of saving Mayuri, will make them never happen.
+<END>
+
+#WRITE(PTR, $0000031C)
+It is kind of lonely.
+<END>
+
+#WRITE(PTR, $0000032C)
+I do feel a little guilty.
+<END>
+
+#WRITE(PTR, $0000033C)
+I will engrave everything deep within my chest.
+<END>
+
+#WRITE(PTR, $0000034C)
+I will never forget. I must not forget. About these long yet short summer days.
+<END>
+
+#WRITE(PTR, $0000035C)
+Even still, I chose to return things to the start by erasing these memories.
+<END>
+
+#WRITE(PTR, $0000036C)
+It has nothing to do with the future Suzuha told us about.
+<END>
+
+#WRITE(PTR, $0000037C)
+As long as Mayuri will live, it's fine by me.
+<END>
+
+#WRITE(PTR, $0000038C)
+【Rintaro】Daru, please start.
+<END>
+
+#WRITE(PTR, $0000039C)
+【Itaru】...this is okay, right?
+<END>
+
+#WRITE(PTR, $000003AC)
+【Rintaro】...yeah.
+<END>
+
+#WRITE(PTR, $000003C6)
+【Itaru】Okey-dokey.
+<END>
+
+#WRITE(PTR, $000003E2)
+Daru begins tapping on the IBN 5100's keyboard.
+<END>
+
+#WRITE(PTR, $000003F2)
+This retromachine we had finally gotten back was already connected to Daru's favorite cutting-edge PC.
+<END>
+
+#WRITE(PTR, $00000402)
+If we use this, we can access SERN.
+<END>
+
+#WRITE(PTR, $00000412)
+We will trespass upon the database at the heart of SERN only accessible with an IBN 5100.
+<END>
+
+#WRITE(PTR, $00000422)
+Then we will locate the data of the First D-mail I sent to Daru on 28th of July, and erase it from Echelon's accumulated log.
+<END>
+
+#WRITE(PTR, $00000432)
+With this, I can access the β World Line.
+<END>
+
+#WRITE(PTR, $00000442)
+There lies the world where Mayuri doesn't die.
+<END>
+
+#WRITE(PTR, $00000452)
+Spying on Mayuri's condition, I see her sitting down on the couch tightly straightening her spine, with her grandma's memento pocketwatch, "Pocketty~" to her ear.
+<END>
+
+#WRITE(PTR, $00000462)
+She's staying quiet with her eyes closed. Whenever Mayuri wants to calm down, she always listens to the sound of that pocketwatch.
+<END>
+
+#WRITE(PTR, $00000472)
+I told Mayuri everything beforehand.
+<END>
+
+#WRITE(PTR, $00000482)
+It seems like she's prepared herself.
+<END>
+
+#WRITE(PTR, $00000492)
+I've been leaving the cracking to Daru, so there's no problem there.
+<END>
+
+#WRITE(PTR, $000004A2)
+I walk into the development room, having a little left to attend to.
+<END>
+
+#WRITE(PTR, $00000542)
+The Time Leap Machine is placed in the center of the room.
+<END>
+
+#WRITE(PTR, $00000552)
+Squatting down, I gently brush the face of the microwave with my fingertip.
+<END>
+
+#WRITE(PTR, $00000562)
+Cool to the touch.
+<END>
+
+#WRITE(PTR, $00000572)
+Ever since I had this, I've met irreplaceable partners, and I've hurt irreplaceable partners.
+<END>
+
+#WRITE(PTR, $00000582)
+But I don't want to blame the tool.
+<END>
+
+#WRITE(PTR, $00000592)
+Because everthing depends on how you use the tool.
+<END>
+
+#WRITE(PTR, $000005A2)
+It's also true that I've been saved by this thing.
+<END>
+
+#WRITE(PTR, $000005B2)
+But still.
+<END>
+
+#WRITE(PTR, $000005C2)
+...When everything's over, I'm going to destroy the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $000005D2)
+So that I never make the same mistakes again.
+<END>
+
+#WRITE(PTR, $000005E2)
+【Itaru】Okarin, I found it! It's seriously in there!
+<END>
+
+#WRITE(PTR, $000006B6)
+【Rintaro】It's in there? The D-mail I sent!?
+<END>
+
+#WRITE(PTR, $000006D0)
+【Itaru】It's in there good.
+<END>
+
+#WRITE(PTR, $000006E0)
+Daru points at a string of characters.
+<END>
+
+#WRITE(PTR, $000006F0)
+There I could clearly see my name and the text I wrote about Kurisu's death.
+<END>
+
+#WRITE(PTR, $00000700)
+Three lines total.
+<END>
+
+#WRITE(PTR, $00000710)
+Each only six characters of Japanese.
+<END>
+
+#WRITE(PTR, $00000720)
+SERN found out about us because this data was there.
+<END>
+
+#WRITE(PTR, $00000730)
+At FB's instruction, the Rounders, including Moeka, attacked.
+<END>
+
+#WRITE(PTR, $00000740)
+If what Suzuha said was true, then if we erased this data, we can escape from the α World Line where SERN dominates the future.
+<END>
+
+#WRITE(PTR, $00000750)
+Attractor Field β.
+<END>
+
+#WRITE(PTR, $00000760)
+The β World Line that converges to that range.
+<END>
+
+#WRITE(PTR, $00000770)
+There, the future where Mayuri dies in August 2010 doesn't come.
+<END>
+
+#WRITE(PTR, $000007B8)
+Before I noticed, Mayuri was also standing next to me, gazing at the monitor with great interest.
+<END>
+
+#WRITE(PTR, $000007C8)
+Her hand firmly grasps mine.
+<END>
+
+#WRITE(PTR, $000007E2)
+【Mayuri】Okarin...
+<END>
+
+#WRITE(PTR, $000007F2)
+【Rintaro】It's okay.
+<END>
+
+#WRITE(PTR, $00000802)
+Since she was making an anxious face, I pat her head with a pomf to calm her down.
+<END>
+
+#WRITE(PTR, $0000081C)
+【Itaru】I set it up so that pressing the enter key will erase the data.
+<END>
+
+#WRITE(PTR, $0000082C)
+Daru stood up, opening the seat up for me.
+<END>
+
+#WRITE(PTR, $0000083C)
+【Itaru】I leave that ceremonial act to Okarin.
+<END>
+
+#WRITE(PTR, $0000084C)
+I sit in the seat when he tells me that.
+<END>
+
+#WRITE(PTR, $0000085C)
+I gulp down my breath in front of the keyboard.
+<END>
+
+#WRITE(PTR, $000008BE)
+This time for sure.
+<END>
+
+#WRITE(PTR, $000008CE)
+This time for sure will bring an end to everything.
+<END>
+
+#WRITE(PTR, $000009AE)
+Kurisu's face floats through my mind.
+<END>
+
+#WRITE(PTR, $000009BE)
+I close my eyes and take a deep breath.
+<END>
+
+#WRITE(PTR, $00000A2A)
+...goodbye, Kurisu.
+<END>
+
+#WRITE(PTR, $00000A3A)
+I slowly raise my right hand.
+<END>
+
+#WRITE(PTR, $00000A4A)
+I tightly extend my index finger.
+<END>
+
+#WRITE(PTR, $00000B1A)
+【Rintaro】The time of triumph has come!
+<END>
+
+#WRITE(PTR, $00000B34)
+Upon my cry, Daru, standing next to me, is taken by surprise.
+<END>
+
+#WRITE(PTR, $00000B44)
+【Rintaro】I myself, without giving in to any conspiracy, have adhered to my own belief, fighting the "Ragnarok" to the bitter end!
+<END>
+
+#WRITE(PTR, $00000B54)
+【Rintaro】I give gratitude to my comrades, who fought alongside me, as my hands and feet for the sake this triumph!
+<END>
+
+#WRITE(PTR, $00000B6E)
+If I press this key.
+<END>
+
+#WRITE(PTR, $00000B7E)
+Kurisu will die.
+<END>
+
+#WRITE(PTR, $00000B8E)
+I firmly grasp at the shoulder of my coat.
+<END>
+
+#WRITE(PTR, $00000B9E)It's mended with a pink thread, with bumpy stitches.
+<END>
+
+#WRITE(PTR, $00000BAE)
+【Rintaro】The world we arive at- is the world I wished for!
+<END>
+
+#WRITE(PTR, $00000BBE)
+Mayuri's life. And also, Kurisu's death. That is what I wished for.
+<END>
+
+#WRITE(PTR, $00000BCE)
+I will never forget this truth. I must never forget.
+<END>
+
+#WRITE(PTR, $00000BDE)
+This is--
+<END>
+
+#WRITE(PTR, $00000BEE)
+【Rintaro】Everything is Steins;Gate's choice!
+<END>
+
+#WRITE(PTR, $00000BFE)
+This is my choice.
+<END>
+
+#WRITE(PTR, $00000C0E)
+【Rintaro】The world... shall be remade--!
+<END>
+
+#WRITE(PTR, $00000C76)
+I vigorously swing down my extended finger,
+<END>
+
+#WRITE(PTR, $00000D38)
+And at the same time, hear the sound of the lab door opening.
+<END>
+
+#WRITE(PTR, $00000D48)
+I cast but a fleeting glance in that direction.
+<END>
+
+#WRITE(PTR, $00000DA8)
+【Kurisu】--
+<END>
+
+#WRITE(PTR, $00000DB8)
+Right there... was Kurisu.
+<END>
+
+#WRITE(PTR, $00000DC8)
+Her face is flushed; was she running?
+<END>
+
+#WRITE(PTR, $00000DD8)
+Why could she be here?
+<END>
+
+#WRITE(PTR, $00000DE8)
+She should've gone to Narita.
+<END>
+
+#WRITE(PTR, $00000DF8)
+She even said she was going back to America.
+<END>
+
+#WRITE(PTR, $00000E08)
+Kurisu was looking at me.
+<END>
+
+#WRITE(PTR, $00000E18)
+With a face about to cry.
+<END>
+
+#WRITE(PTR, $00000E28)
+With a smile.
+<END>
+
+#WRITE(PTR, $00000E38)
+Did she come back for me?
+<END>
+
+#WRITE(PTR, $00000E48)
+--Since we didn't say goodbye.
+<END>
+
+#WRITE(PTR, $00000E58)
+If felt like Kurisu whispered something.
+<END>
+
+#WRITE(PTR, $00000E68)
+Immediately afterward, the finger I swung down struck the enter key.
+<END>
+
+#WRITE(PTR, $00000FB0)
+The world started to bend.
+<END>
+
+#WRITE(PTR, $00000FC0)
+The world was being reconfigured.
+<END>
+
+#WRITE(PTR, $00000FD0)
+My consciousness was slowly being compressed into the time warp.
+<END>
+
+#WRITE(PTR, $00000FE0)
+Reading Steiner activated.
+<END>
+
+#WRITE(PTR, $00000FF0)
+The Divergence was changing.
+<END>
+
+#WRITE(PTR, $0000101A)
+Kurisu's tearful face.
+<END>
+
+#WRITE(PTR, $0000103C)
+And Daru and Mayuri.
+<END>
+
+#WRITE(PTR, $0000104C)
+And the insides of the lab.
+<END>
+
+#WRITE(PTR, $000010BA)
+The distortion of everything sped up.
+<END>
+
+#WRITE(PTR, $000010CA)
+The color of everything faded away.
+<END>
+
+#WRITE(PTR, $000010DA)
+My consciousness separated from this world line.
+<END>
+
+#WRITE(PTR, $000010EA)
+At least, at the very end, I will burn into these eyes the image of Kurisu's face.
+<END>
+
+#WRITE(PTR, $000010FA)
+Waving my hand a little, I turn towards her--
+<END>
+
+#WRITE(PTR, $00001168)
+【Kurisu】Goodbye.
+<END>
+
+#WRITE(PTR, $00001178)
+【Kurisu】Okabe, I also--
+<END>
+
+#WRITE(PTR, $000011CE)
+WD14.PMF
+<FILEENDA2>
+

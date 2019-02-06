@@ -1,0 +1,4666 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001C42)
+
+#WRITE(PTR, $00000010)
+IBN
+<END2>
+
+#WRITE(PTR, $00000012)
+あ
+<END2>
+
+#WRITE(PTR, $00000014)
+<END2>
+
+#WRITE(PTR, $00000016)
+Other
+<END2>
+
+#WRITE(PTR, $00000018)
+(Fictional) An American computer company.<LINE>
+Not only do they develop and sell hardware and software, they also offer service and consultation to enterprises.<LINE>
+In recent years, they have made the latter their main focus.<LINE>
+They developed PC Operating Systems, hard disks, and floppy disks.
+<END2>
+
+#WRITE(PTR, $00000030)
+Akashic Records
+<END2>
+
+#WRITE(PTR, $00000032)
+あ
+<END2>
+
+#WRITE(PTR, $00000034)
+<END2>
+
+#WRITE(PTR, $00000036)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000038)
+The data bank in which every event in the whole universe from past to future is recorded.<LINE>
+The spiritual memories of humanity's collective consciousness itself.<LINE>
+Not shaped like a vinyl record.
+<END2>
+
+#WRITE(PTR, $00000050)
+Acetylcholine
+<END2>
+
+#WRITE(PTR, $00000052)
+あ
+<END2>
+
+#WRITE(PTR, $00000054)
+<END2>
+
+#WRITE(PTR, $00000056)
+Other
+<END2>
+
+#WRITE(PTR, $00000058)
+A neurotransmitter.<LINE>
+Acetylcholine levels in the hippocampus increase in animals when learning or remembering.
+<END2>
+
+#WRITE(PTR, $00000070)
+Uho!
+<END2>
+
+#WRITE(PTR, $00000072)
+あ
+<END2>
+
+#WRITE(PTR, $00000074)
+<END2>
+
+#WRITE(PTR, $00000076)
+Net
+<END2>
+
+#WRITE(PTR, $00000078)
+Reference to the line "Uho! Ii otoko!" [Woah! Hot guy!] from Kuso Miso Technique.
+<END2>
+
+#WRITE(PTR, $00000090)
+@channel
+<END2>
+
+#WRITE(PTR, $00000092)
+あ
+<END2>
+
+#WRITE(PTR, $00000094)
+<END2>
+
+#WRITE(PTR, $00000096)
+Net
+<END2>
+
+#WRITE(PTR, $00000098)
+(Fictional) The message board with the largest number of hits in Japan.<LINE>
+Its catchphrase is "From hacking to tonight's dinner". A wide variety of content is posted from underground topics to hot topics.
+<END2>
+
+#WRITE(PTR, $000000B0)
+Dumb girl
+<END2>
+
+#WRITE(PTR, $000000B2)
+あ
+<END2>
+
+#WRITE(PTR, $000000B4)
+<END2>
+
+#WRITE(PTR, $000000B6)
+Otaku
+<END2>
+
+#WRITE(PTR, $000000B8)
+A moe trait.<LINE>
+It denotes a character who is slightly dumb.<LINE>
+"Slightly" being the keyword; not full retard.<LINE>
+They fail by not thinking enough, and get scolded by those around them.<LINE>
+Not out of scorn, but because of their "cute factor".<LINE>
+Slightly different from a natural airhead.
+<END2>
+
+#WRITE(PTR, $000000D0)
+Ayamein
+<END2>
+
+#WRITE(PTR, $000000D2)
+あ
+<END2>
+
+#WRITE(PTR, $000000D4)
+<END2>
+
+#WRITE(PTR, $000000D6)
+Other
+<END2>
+
+#WRITE(PTR, $000000D8)
+(Fictional) Ayamein Women's Academy.<LINE>
+A private school for high-class girls in Kudanshita.<LINE>
+It has high academic performance, and is popular for foreign exchange students.
+<END2>
+
+#WRITE(PTR, $000000F0)
+Alpaca
+<END2>
+
+#WRITE(PTR, $000000F2)
+あ
+<END2>
+
+#WRITE(PTR, $000000F4)
+<END2>
+
+#WRITE(PTR, $000000F6)
+Other
+<END2>
+
+#WRITE(PTR, $000000F8)
+Related to the camel.<LINE>
+Body Weight: 50-55kg. Body Length: Around 2m. Habitat: Peru, Bolivia, Chile <LINE>
+Recently, many can even be found in America and New Zealand.<LINE>
+Unlike a camel, its back lacks a hump, and its entire body is covered in fluffy fur.<LINE>
+Due to its strangely long neck and its charming face, it has some popularity as an ugly-yet-cute animal.
+<END2>
+
+#WRITE(PTR, $00000110)
+Anchor
+<END2>
+
+#WRITE(PTR, $00000112)
+あ
+<END2>
+
+#WRITE(PTR, $00000114)
+<END2>
+
+#WRITE(PTR, $00000116)
+Net
+<END2>
+
+#WRITE(PTR, $00000118)
+Misspelling of Anchor.<LINE>
+To respond to a specified post number on a message board.<LINE>
+On @channel, it becomes ">>NUMBER".
+<END2>
+
+#WRITE(PTR, $00000130)
+Anzai-sensei
+<END2>
+
+#WRITE(PTR, $00000132)
+あ
+<END2>
+
+#WRITE(PTR, $00000134)
+<END2>
+
+#WRITE(PTR, $00000136)
+Net
+<END2>
+
+#WRITE(PTR, $00000138)
+An advisory teacher who appears in a certain manga.<LINE>
+On the internet, whenever one wants to express the longing desire to do something, one can parody a line from that manga: "Anzai-sensei, I want to ____".
+<END2>
+
+#WRITE(PTR, $00000150)
+Hater
+<END2>
+
+#WRITE(PTR, $00000152)
+あ
+<END2>
+
+#WRITE(PTR, $00000154)
+<END2>
+
+#WRITE(PTR, $00000156)
+Net
+<END2>
+
+#WRITE(PTR, $00000158)
+People who post negative comments about certain people or things on the internet.<LINE>
+They appear in places where fans of those people or things gather, and provoke them or post derogatory things.<LINE>
+It's not rare for them to cause emotional debate among the fans.
+<END2>
+
+#WRITE(PTR, $00000170)
+1.21 jigowatts
+<END2>
+
+#WRITE(PTR, $00000172)
+あ
+<END2>
+
+#WRITE(PTR, $00000174)
+<END2>
+
+#WRITE(PTR, $00000176)
+Other
+<END2>
+
+#WRITE(PTR, $00000178)
+Originates from a 1980s trilogy of Hollywood movies about time machines and time paradoxes.<LINE>
+In the first movie, the developer of the car-type time machine said the necessary power for time travel is "1.21 jigowatts".<LINE>
+In actuallity, the unit "jigowatt" doesn't exist.<LINE>
+The scriptwriter made a spelling mistake which was reproduced in the translation of the Japanese subtitles.
+<END2>
+
+#WRITE(PTR, $00000190)
+tl;dr
+<END2>
+
+#WRITE(PTR, $00000192)
+あ
+<END2>
+
+#WRITE(PTR, $00000194)
+<END2>
+
+#WRITE(PTR, $00000196)
+Net
+<END2>
+
+#WRITE(PTR, $00000198)
+An abreviation for "too long; didn't read". In this case, replace read with listen.
+<END2>
+
+#WRITE(PTR, $000001B0)
+The principle of causality
+<END2>
+
+#WRITE(PTR, $000001B2)
+あ
+<END2>
+
+#WRITE(PTR, $000001B4)
+<END2>
+
+#WRITE(PTR, $000001B6)
+Other
+<END2>
+
+#WRITE(PTR, $000001B8)
+The train of thought that says every event has a cause, and it is by that cause that an effect is produced.<LINE>
+The Theory of Relativity is based upon this train of thought.<LINE>
+However, phenomena on the micro level of quantum mechanics have confirmed that the principle of causality doesn't always apply.
+<END2>
+
+#WRITE(PTR, $000001D0)
+Wiki
+<END2>
+
+#WRITE(PTR, $000001D2)
+あ
+<END2>
+
+#WRITE(PTR, $000001D4)
+<END2>
+
+#WRITE(PTR, $000001D6)
+Net
+<END2>
+
+#WRITE(PTR, $000001D8)
+An online system for the creation and compilation of hypertext documents on a web server.
+<END2>
+
+#WRITE(PTR, $000001F0)
+Computer Conjurer
+<END2>
+
+#WRITE(PTR, $000001F2)
+あ
+<END2>
+
+#WRITE(PTR, $000001F4)
+<END2>
+
+#WRITE(PTR, $000001F6)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $000001F8)
+Rintaro's arbitrary coinage.<LINE>
+Anyway, it sort of means an amazing program, or something.
+<END2>
+
+#WRITE(PTR, $00000210)
+UZEEEEE
+<END2>
+
+#WRITE(PTR, $00000212)
+あ
+<END2>
+
+#WRITE(PTR, $00000214)
+<END2>
+
+#WRITE(PTR, $00000216)
+Net
+<END2>
+
+#WRITE(PTR, $00000218)
+Shut the fuck up.<LINE>
+You're annoying.
+<END2>
+
+#WRITE(PTR, $00000230)
+up
+<END2>
+
+#WRITE(PTR, $00000232)
+あ
+<END2>
+
+#WRITE(PTR, $00000234)
+<END2>
+
+#WRITE(PTR, $00000236)
+Net
+<END2>
+
+#WRITE(PTR, $00000238)
+Abbreviation for upload.
+<END2>
+
+#WRITE(PTR, $00000250)
+Urashima Effect
+<END2>
+
+#WRITE(PTR, $00000252)
+あ
+<END2>
+
+#WRITE(PTR, $00000254)
+<END2>
+
+#WRITE(PTR, $00000256)
+Science
+<END2>
+
+#WRITE(PTR, $00000258)
+A phenomenon originating from the fact that "reaching light speed causes the flow of time to slow down" according to the Theory of Relativity.<LINE>
+For example, a space ship traveling near light speed returns after a few years to a thousand year older earth.
+<END2>
+
+#WRITE(PTR, $00000270)
+Urd
+<END2>
+
+#WRITE(PTR, $00000272)
+あ
+<END2>
+
+#WRITE(PTR, $00000274)
+<END2>
+
+#WRITE(PTR, $00000276)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000278)
+The eldest sister of the three Norns (goddesses of fate) in Norse mythology.<LINE>
+The three sisters raise the world tree, Yggdrasil, from Urd's fountain which lays at its roots.<LINE>
+Urd is considered the Norn of the Past.
+<END2>
+
+#WRITE(PTR, $00000290)
+HTML
+<END2>
+
+#WRITE(PTR, $00000292)
+あ
+<END2>
+
+#WRITE(PTR, $00000294)
+<END2>
+
+#WRITE(PTR, $00000296)
+Net
+<END2>
+
+#WRITE(PTR, $00000298)
+"HyperText Markup Language".<LINE>
+A language used to describe web page documents.<LINE>
+Images, videos, sound, and hyperlinks can be embedded into the document.
+<END2>
+
+#WRITE(PTR, $000002B0)
+HTTP
+<END2>
+
+#WRITE(PTR, $000002B2)
+あ
+<END2>
+
+#WRITE(PTR, $000002B4)
+<END2>
+
+#WRITE(PTR, $000002B6)
+Net
+<END2>
+
+#WRITE(PTR, $000002B8)
+"HyperText Transfer Protocol".<LINE>
+The communication protocol used to transfer data like HTML between a browser and a web server.
+<END2>
+
+#WRITE(PTR, $000002D0)
+ACTH
+<END2>
+
+#WRITE(PTR, $000002D2)
+あ
+<END2>
+
+#WRITE(PTR, $000002D4)
+<END2>
+
+#WRITE(PTR, $000002D6)
+Other
+<END2>
+
+#WRITE(PTR, $000002D8)
+Adrenocorticotropic hormone.
+<END2>
+
+#WRITE(PTR, $000002F0)
+ATF
+<END2>
+
+#WRITE(PTR, $000002F2)
+あ
+<END2>
+
+#WRITE(PTR, $000002F4)
+<END2>
+
+#WRITE(PTR, $000002F6)
+Akihabara
+<END2>
+
+#WRITE(PTR, $000002F8)
+(Fictional) Short for "Akihabara Techno Forum".<LINE>
+Inside of Akihabara's Daibiru.<LINE>
+Irregularly holds special seminars and symposiums as a joint effort of several universities and research institutions.
+<END2>
+
+#WRITE(PTR, $00000310)
+APL
+<END2>
+
+#WRITE(PTR, $00000312)
+あ
+<END2>
+
+#WRITE(PTR, $00000314)
+<END2>
+
+#WRITE(PTR, $00000316)
+Other
+<END2>
+
+#WRITE(PTR, $00000318)
+Short for "A Programming Language".<LINE>
+A programming language introduced in 1964.
+<END2>
+
+#WRITE(PTR, $00000330)
+Babel Fish
+<END2>
+
+#WRITE(PTR, $00000332)
+あ
+<END2>
+
+#WRITE(PTR, $00000334)
+<END2>
+
+#WRITE(PTR, $00000336)
+Net
+<END2>
+
+#WRITE(PTR, $00000338)
+Nickname for a translation site.
+<END2>
+
+#WRITE(PTR, $00000350)
+Exa
+<END2>
+
+#WRITE(PTR, $00000352)
+あ
+<END2>
+
+#WRITE(PTR, $00000354)
+<END2>
+
+#WRITE(PTR, $00000356)
+Other
+<END2>
+
+#WRITE(PTR, $00000358)
+10⑮.<LINE>
+Kilo→Mega→Giga→Tera→Peta→Exa is the order of increasing capacity.<LINE>
+1 exa = 1 trillion x mega.
+<END2>
+
+#WRITE(PTR, $00000370)
+Echelon
+<END2>
+
+#WRITE(PTR, $00000372)
+あ
+<END2>
+
+#WRITE(PTR, $00000374)
+<END2>
+
+#WRITE(PTR, $00000376)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000378)
+An advanced military signals intelligence interception system centered in America, according to conspiracy theories.<LINE>
+It is said to be operated by America's National Security Agency(NSA).<LINE>
+However, American authorities have never publicly admitted to Echelon's existence, and no proof of its existence has been found.<LINE>
+Participating countries include America, the United Kingdom, Canada, Australia, and New Zealand, but not France.<LINE>
+As a third party, Japan can request the information from the domestic Echelon channel placed as collateral.<LINE>
+In Misawa Airbase, Aomori Prefecture, there is something nicknamed the "Elephant's Cage" which is rumored to be part of Echelon.<LINE>
+It is said to intercept, collect, and analyze a wide range of signals, from military grade to personal cellphone transmissions.
+<END2>
+
+#WRITE(PTR, $00000390)
+X-Ray
+<END2>
+
+#WRITE(PTR, $00000392)
+あ
+<END2>
+
+#WRITE(PTR, $00000394)
+<END2>
+
+#WRITE(PTR, $00000396)
+Other
+<END2>
+
+#WRITE(PTR, $00000398)
+An electromagnetic wave discovered by Wilhelm Rontgen in 1895.<LINE>
+Radioactive. Famous for its medical usage of diagnostic photography.
+<END2>
+
+#WRITE(PTR, $000003B0)
+X68000
+<END2>
+
+#WRITE(PTR, $000003B2)
+あ
+<END2>
+
+#WRITE(PTR, $000003B4)
+<END2>
+
+#WRITE(PTR, $000003B6)
+Other
+<END2>
+
+#WRITE(PTR, $000003B8)
+A 16 bit PC sold in Japan in 1987.<LINE>
+Its peculiar twin tower-shaped case was dubbed "Manhattan Shape".
+<END2>
+
+#WRITE(PTR, $000003D0)
+MI6
+<END2>
+
+#WRITE(PTR, $000003D2)
+あ
+<END2>
+
+#WRITE(PTR, $000003D4)
+<END2>
+
+#WRITE(PTR, $000003D6)
+Other
+<END2>
+
+#WRITE(PTR, $000003D8)
+The United Kingdom's Military Intelligence section 6.<LINE>
+In charge of the UK's secret intelligence activity.<LINE>
+However, its formal name is the Secret Intelligence Service (SIS). MI6 is the name of SIS's historic predecessor.
+<END2>
+
+#WRITE(PTR, $000003F0)
+LA
+<END2>
+
+#WRITE(PTR, $000003F2)
+あ
+<END2>
+
+#WRITE(PTR, $000003F4)
+<END2>
+
+#WRITE(PTR, $000003F6)
+Other
+<END2>
+
+#WRITE(PTR, $000003F8)
+Los Angeles.<LINE>
+A city in California state, on America's west coast.
+<END2>
+
+#WRITE(PTR, $00000410)
+Eldhrimnir
+<END2>
+
+#WRITE(PTR, $00000412)
+あ
+<END2>
+
+#WRITE(PTR, $00000414)
+<END2>
+
+#WRITE(PTR, $00000416)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000418)
+A large cauldron in Norse mythology.
+<END2>
+
+#WRITE(PTR, $00000430)
+Oatmeal
+<END2>
+
+#WRITE(PTR, $00000432)
+あ
+<END2>
+
+#WRITE(PTR, $00000434)
+<END2>
+
+#WRITE(PTR, $00000436)
+Other
+<END2>
+
+#WRITE(PTR, $00000438)
+A thin porridge-like cereal popular in America.<LINE>
+Often served for breakfast.
+<END2>
+
+#WRITE(PTR, $00000450)
+Otsu
+<END2>
+
+#WRITE(PTR, $00000452)
+あ
+<END2>
+
+#WRITE(PTR, $00000454)
+<END2>
+
+#WRITE(PTR, $00000456)
+Net
+<END2>
+
+#WRITE(PTR, $00000458)
+gj, good job. Both otsu and gj are often used sarcastically.
+<END2>
+
+#WRITE(PTR, $00000470)
+Odd-eyed
+<END2>
+
+#WRITE(PTR, $00000472)
+あ
+<END2>
+
+#WRITE(PTR, $00000474)
+<END2>
+
+#WRITE(PTR, $00000476)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000478)
+Heterochromia iridis, differing eye colors.<LINE>
+The left eye and the right eye don't match in color.<LINE>
+Appears in several characters in anime and manga.<LINE>
+There ususally isn't a reason for the character to be odd-eyed. It's mostly just a moe factor.
+<END2>
+
+#WRITE(PTR, $00000490)
+Canned oden
+<END2>
+
+#WRITE(PTR, $00000492)
+あ
+<END2>
+
+#WRITE(PTR, $00000494)
+<END2>
+
+#WRITE(PTR, $00000496)
+Akihabara
+<END2>
+
+#WRITE(PTR, $00000498)
+Several kinds of oden ingredients packaged like a canned drink.<LINE>
+After parts shops in Akihabara began selling it in vending machines, it gradually became a popular Akihabara specialty.
+<END2>
+
+#WRITE(PTR, $000004B0)
+Little missy
+<END2>
+
+#WRITE(PTR, $000004B2)
+あ
+<END2>
+
+#WRITE(PTR, $000004B4)
+<END2>
+
+#WRITE(PTR, $000004B6)
+Net
+<END2>
+
+#WRITE(PTR, $000004B8)
+A girl.
+<END2>
+
+#WRITE(PTR, $000004D0)
+Recommended
+<END2>
+
+#WRITE(PTR, $000004D2)
+あ
+<END2>
+
+#WRITE(PTR, $000004D4)
+<END2>
+
+#WRITE(PTR, $000004D6)
+Net
+<END2>
+
+#WRITE(PTR, $000004D8)
+Means recommendation, encouragement, invitation.
+<END2>
+
+#WRITE(PTR, $000004F0)
+Offline
+<END2>
+
+#WRITE(PTR, $000004F2)
+あ
+<END2>
+
+#WRITE(PTR, $000004F4)
+<END2>
+
+#WRITE(PTR, $000004F6)
+Net
+<END2>
+
+#WRITE(PTR, $000004F8)
+When people who met through chat or anonymous message board gather in the same place to meet directly.
+<END2>
+
+#WRITE(PTR, $00000510)
+orz
+<END2>
+
+#WRITE(PTR, $00000512)
+あ
+<END2>
+
+#WRITE(PTR, $00000514)
+<END2>
+
+#WRITE(PTR, $00000516)
+Net
+<END2>
+
+#WRITE(PTR, $00000518)
+An ideograph depicting a person on all fours.<LINE>
+'o' is the head, 'r' is the arms and torso, and 'z' is the feet.<LINE>
+Typically used to express despair, dejection or frustration.<LINE>
+Pronunciation isn't set. People may pronounce it as "ortz", "oars", "orse" or possibly "disappointed man genuflecting".
+<END2>
+
+#WRITE(PTR, $00000530)
+Nostalgiafag
+<END2>
+
+#WRITE(PTR, $00000532)
+か
+<END2>
+
+#WRITE(PTR, $00000534)
+<END2>
+
+#WRITE(PTR, $00000536)
+Net
+<END2>
+
+#WRITE(PTR, $00000538)
+An internet term referring to people who say that "Things were better back then. The present is no good", over-glorifying the past while dismissing everything else as worthless.<LINE>
+The kanji for chuu(kitchen) is a corruption of the chuu(middle) in middle schooler.<LINE>
+On the internet, chuu in this form is a derogatory term for people who act childishly like a middle schooler.<LINE>
+However, the meaning of the term gradually broadened: "XXchuu" now means "someone who unconditionally praises XX, denouncing everything else".
+<END2>
+
+#WRITE(PTR, $00000550)
+Hippocampus
+<END2>
+
+#WRITE(PTR, $00000552)
+か
+<END2>
+
+#WRITE(PTR, $00000554)
+<END2>
+
+#WRITE(PTR, $00000556)
+Other
+<END2>
+
+#WRITE(PTR, $00000558)
+A major component of the brain which governs memory and spatial navigation.
+<END2>
+
+#WRITE(PTR, $00000570)
+CA3
+<END2>
+
+#WRITE(PTR, $00000572)
+か
+<END2>
+
+#WRITE(PTR, $00000574)
+<END2>
+
+#WRITE(PTR, $00000576)
+Other
+<END2>
+
+#WRITE(PTR, $00000578)
+The hippocampus is divided into three histological sections: CA1, CA2, and CA3.<LINE>
+CA refers to the name given to the hippocampus by anatomist Garengeot in 1742, "cornu Ammonis" - horn of Amun.
+<END2>
+
+#WRITE(PTR, $00000590)
+Development council
+<END2>
+
+#WRITE(PTR, $00000592)
+か
+<END2>
+
+#WRITE(PTR, $00000594)
+<END2>
+
+#WRITE(PTR, $00000596)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000598)
+Just a party.
+<END2>
+
+#WRITE(PTR, $000005B0)
+Chaos Theory
+<END2>
+
+#WRITE(PTR, $000005B2)
+か
+<END2>
+
+#WRITE(PTR, $000005B4)
+<END2>
+
+#WRITE(PTR, $000005B6)
+Other
+<END2>
+
+#WRITE(PTR, $000005B8)
+The theory that states "even if something can be expressed in a simple formula, it is hard to perfectly predict its outcome."<LINE>
+However, this doesn't mean the result is random.<LINE>
+It means that even the slightest variation in initial conditions can cause a widely diverging outcome.<LINE>
+Furthermore, this theory doesn't apply to short term predictions.
+<END2>
+
+#WRITE(PTR, $000005D0)
+srsly
+<END2>
+
+#WRITE(PTR, $000005D2)
+か
+<END2>
+
+#WRITE(PTR, $000005D4)
+<END2>
+
+#WRITE(PTR, $000005D6)
+Other
+<END2>
+
+#WRITE(PTR, $000005D8)
+Means seriously, really, earnestly.
+<END2>
+
+#WRITE(PTR, $000005F0)
+Cut & Paste
+<END2>
+
+#WRITE(PTR, $000005F2)
+か
+<END2>
+
+#WRITE(PTR, $000005F4)
+<END2>
+
+#WRITE(PTR, $000005F6)
+Other
+<END2>
+
+#WRITE(PTR, $000005F8)
+To transfer.
+<END2>
+
+#WRITE(PTR, $00000610)
+Capsule Toys
+<END2>
+
+#WRITE(PTR, $00000612)
+か
+<END2>
+
+#WRITE(PTR, $00000614)
+<END2>
+
+#WRITE(PTR, $00000616)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000618)
+A vending machine where you insert a coin and turn a lever to receive one of various small toys enclosed in a capsule.<LINE>
+One cannot tell what the toy is before opening the capsule.<LINE>
+They are called by various names depending on the era, region, and maker, but the general term is capsule toy.
+<END2>
+
+#WRITE(PTR, $00000630)
+GaruGari-kun
+<END2>
+
+#WRITE(PTR, $00000632)
+か
+<END2>
+
+#WRITE(PTR, $00000634)
+<END2>
+
+#WRITE(PTR, $00000636)
+Other
+<END2>
+
+#WRITE(PTR, $00000638)
+(Fictional) Ice pop brand name.<LINE>
+Popular throughout the country. Can be bought at convenience stores and other places.<LINE>
+In addition to the standard soda flavor, over 50 varieties are sold, including cola, grape, and limited promotional flavors.<LINE>
+"Win" may be written on one part of the stick. A winning stick earns a free pop.<LINE>
+The chances of winning are rumored to be around 2％.
+<END2>
+
+#WRITE(PTR, $00000650)
+Gunbum
+<END2>
+
+#WRITE(PTR, $00000652)
+か
+<END2>
+
+#WRITE(PTR, $00000654)
+<END2>
+
+#WRITE(PTR, $00000656)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000658)
+(Fictional) Formally known as "Mobile Jacket Gunbam".<LINE>
+A glowing monumental work of robot anime in Japanese anime history.<LINE>
+The first series was broadcasted in the latter half of the 1970s.<LINE>
+Various sequels have been produced since then.
+<END2>
+
+#WRITE(PTR, $00000670)
+Organization
+<END2>
+
+#WRITE(PTR, $00000672)
+か
+<END2>
+
+#WRITE(PTR, $00000674)
+<END2>
+
+#WRITE(PTR, $00000676)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000678)
+The "Organization" is the "Organization". Nothing more. Nothing less.<LINE>
+Its formal name is something else, but just uttering that name is a death wish.<LINE>
+For that reason, all those who know of its existence call it nothing but the "Organization" out of fear.
+<END2>
+
+#WRITE(PTR, $00000690)
+Anthropomorphize
+<END2>
+
+#WRITE(PTR, $00000692)
+か
+<END2>
+
+#WRITE(PTR, $00000694)
+<END2>
+
+#WRITE(PTR, $00000696)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000698)
+To liken an animal or an object, or even any concept or phenomenon including countries or chemical elements, to a human character.<LINE>
+Illustration is a given.
+<END2>
+
+#WRITE(PTR, $000006B0)
+FTW
+<END2>
+
+#WRITE(PTR, $000006B2)
+か
+<END2>
+
+#WRITE(PTR, $000006B4)
+<END2>
+
+#WRITE(PTR, $000006B6)
+Net
+<END2>
+
+#WRITE(PTR, $000006B8)
+Internet slang indicating one's excitement that things are going satisfactorily.<LINE>
+Also abbreviated to ktkr.
+<END2>
+
+#WRITE(PTR, $000006D0)
+Que bom
+<END2>
+
+#WRITE(PTR, $000006D2)
+か
+<END2>
+
+#WRITE(PTR, $000006D4)
+<END2>
+
+#WRITE(PTR, $000006D6)
+Net
+<END2>
+
+#WRITE(PTR, $000006D8)
+A corruption of hope(kibou), Portuguese for "so good".<LINE>
+Lately becoming obsolete.
+<END2>
+
+#WRITE(PTR, $000006F0)
+98
+<END2>
+
+#WRITE(PTR, $000006F2)
+か
+<END2>
+
+#WRITE(PTR, $000006F4)
+<END2>
+
+#WRITE(PTR, $000006F6)
+Other
+<END2>
+
+#WRITE(PTR, $000006F8)
+The abreviation of a Japanese domestic PC series sold from the mid 1980s to the mid 1990s.<LINE>
+Sold so well that at one point, it was called the "national" computer.
+<END2>
+
+#WRITE(PTR, $00000710)
+Kirari-chan
+<END2>
+
+#WRITE(PTR, $00000712)
+か
+<END2>
+
+#WRITE(PTR, $00000714)
+<END2>
+
+#WRITE(PTR, $00000716)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000718)
+(Fictional) The heroine, so to speak, of "RaiNet Kakeru".<LINE>
+Her proper name is Nishimura Kirari, a 5th grade elementary schoolgirl.<LINE>
+Intelligent and athletic. She's also cute and gets a silver star for character.<LINE>
+Basically a perfect girl. Has a burning passion for fashion. Dislikes mushrooms.
+<END2>
+
+#WRITE(PTR, $00000730)
+King Burger
+<END2>
+
+#WRITE(PTR, $00000732)
+か
+<END2>
+
+#WRITE(PTR, $00000734)
+<END2>
+
+#WRITE(PTR, $00000736)
+Other
+<END2>
+
+#WRITE(PTR, $00000738)
+(Fictional) A famous fast food burger shop in America.<LINE>
+Only a few franchises are in Japan.
+<END2>
+
+#WRITE(PTR, $00000750)
+gdgd
+<END2>
+
+#WRITE(PTR, $00000752)
+か
+<END2>
+
+#WRITE(PTR, $00000754)
+<END2>
+
+#WRITE(PTR, $00000756)
+Net
+<END2>
+
+#WRITE(PTR, $00000758)
+Slang for a disastrous mess. Trainwrecks are often the result of miscommunication.
+<END2>
+
+#WRITE(PTR, $00000770)
+Cracking
+<END2>
+
+#WRITE(PTR, $00000772)
+か
+<END2>
+
+#WRITE(PTR, $00000774)
+<END2>
+
+#WRITE(PTR, $00000776)
+Net
+<END2>
+
+#WRITE(PTR, $00000778)
+Actions including illegal access to networked systems and data falsification.<LINE>
+Often confused with hacking, but hacking originally means the study and investigation of software.<LINE>
+On the other hand, cracking is a malicious illegal act.<LINE>
+The media usually means cracking when they use the word hacking.
+<END2>
+
+#WRITE(PTR, $00000790)
+Creutzfeld-Jakob disease
+<END2>
+
+#WRITE(PTR, $00000792)
+か
+<END2>
+
+#WRITE(PTR, $00000794)
+<END2>
+
+#WRITE(PTR, $00000796)
+Other
+<END2>
+
+#WRITE(PTR, $00000798)
+Refers to BSE (commonly known as mad cow disease), but strictly the case of human infection.<LINE>
+Early symptoms include memory loss, abnormal movements, personality changes, dementia, and muscle stiffness.<LINE>
+Worst-case scenario is general prostration for about 1-2 years or death by respiratory paralysis.
+<END2>
+
+#WRITE(PTR, $000007B0)
+kwsk
+<END2>
+
+#WRITE(PTR, $000007B2)
+か
+<END2>
+
+#WRITE(PTR, $000007B4)
+<END2>
+
+#WRITE(PTR, $000007B6)
+Net
+<END2>
+
+#WRITE(PTR, $000007B8)
+Short for "kuwashiku" or "in detail". Corruption of "sauce/more". Used when asking for the details.
+<END2>
+
+#WRITE(PTR, $000007D0)
+Determinism
+<END2>
+
+#WRITE(PTR, $000007D2)
+か
+<END2>
+
+#WRITE(PTR, $000007D4)
+<END2>
+
+#WRITE(PTR, $000007D6)
+Other
+<END2>
+
+#WRITE(PTR, $000007D8)
+The train of thought that says that every event is predetermined by previous events.<LINE>
+Thinking from a perspective of cause-and-effect, the future is "already" being determined by the present, just as the present is "already" determined by the past.<LINE>
+In other words, even though humans may think they're choosing their actions of their own will, in actuality, they are only tracing a determined path.<LINE>
+Those who make this claim often cite the thought experiment of "Laplace's Demon" as an example.<LINE>
+That is, for "an intellect which at a certain moment would know all forces that set nature in motion, and all positions of all items of which nature is composed... nothing would be uncertain and the future just like the past would be present before its eyes." --Pierre Simon Laplace
+<END2>
+
+#WRITE(PTR, $000007F0)
+Gero Froggy
+<END2>
+
+#WRITE(PTR, $000007F2)
+か
+<END2>
+
+#WRITE(PTR, $000007F4)
+<END2>
+
+#WRITE(PTR, $000007F6)
+Other
+<END2>
+
+#WRITE(PTR, $000007F8)
+(Fictional) A series of plush straps centered around an ugly-yet-cute frog character which became a tremendous fad among high school girls in Shibuya about a year ago.<LINE>
+Several of them could be seen strapped to cellphones and bags.<LINE>
+After the Shibuya Earthquake, the weekly series launches were canceled, and their popularity rapidly subsided.
+<END2>
+
+#WRITE(PTR, $00000810)
+Le petite mort
+<END2>
+
+#WRITE(PTR, $00000812)
+か
+<END2>
+
+#WRITE(PTR, $00000814)
+<END2>
+
+#WRITE(PTR, $00000816)
+Net
+<END2>
+
+#WRITE(PTR, $00000818)
+The condition where one's mind and body become exhausted, one becomes very composed, and becomes unable to sense any stimulus as a stimulus.<LINE>
+A phenomenon restricted to male physiology.<LINE>
+Entering this state is almost like an empty spiritual shell.<LINE>
+Also known as hyper sage time or saint time.
+<END2>
+
+#WRITE(PTR, $00000830)
+Ghost in the Ball
+<END2>
+
+#WRITE(PTR, $00000832)
+か
+<END2>
+
+#WRITE(PTR, $00000834)
+<END2>
+
+#WRITE(PTR, $00000836)
+Future Gadgets
+<END2>
+
+#WRITE(PTR, $00000838)
+Future Gadget No. 7.<LINE>
+An orb molded by taking out the screens of twelve 6in CRTs and arranging them into a sphere.<LINE>
+Several ultra-small C-MOS cameras are installed in the gaps between.<LINE>
+Each camera is arranged perfectly perpendicularly to its corresponding monitor on the opposite side of the sphere.<LINE>
+This arrangement puts optical camouflage engineering to practical use, manifesting almost like a polygon sphere model.<LINE>
+At present, it is appropriate to call it the highest masterpiece of the completed Future Gadgets, but its sheer size makes it difficult to store.<LINE>
+Its name is derived from the scifi manga "Ghost in the Husk", which has an anime movie adaptation.
+<END2>
+
+#WRITE(PTR, $00000850)
+Advent
+<END2>
+
+#WRITE(PTR, $00000852)
+か
+<END2>
+
+#WRITE(PTR, $00000854)
+<END2>
+
+#WRITE(PTR, $00000856)
+Net
+<END2>
+
+#WRITE(PTR, $00000858)
+On things like @channel, when a celebrity, or whomever is the topic of that thread, appears and exposes their true identity by posting.
+<END2>
+
+#WRITE(PTR, $00000870)
+Code Jeass
+<END2>
+
+#WRITE(PTR, $00000872)
+か
+<END2>
+
+#WRITE(PTR, $00000874)
+<END2>
+
+#WRITE(PTR, $00000876)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000878)
+(Fictional) A smash-hit TV anime series broadcast in 2006.<LINE>
+The story revolves around a boy who obtained a unique demon eye that can control people's hearts as he faces against enemies of epic proportions.
+<END2>
+
+#WRITE(PTR, $00000890)
+Cosplay
+<END2>
+
+#WRITE(PTR, $00000892)
+か
+<END2>
+
+#WRITE(PTR, $00000894)
+<END2>
+
+#WRITE(PTR, $00000896)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000898)
+An abbreviation of "costume play", to dress in a costume.<LINE>
+In Japan, cosplay refers to dressing up as characters from things like anime. People who cosplay are referred to as "cosplayers", which can be shortened to "layer".<LINE>
+Many people make their own costumes for cosplay.
+<END2>
+
+#WRITE(PTR, $000008B0)
+Don't Look This Way
+<END2>
+
+#WRITE(PTR, $000008B2)
+か
+<END2>
+
+#WRITE(PTR, $000008B4)
+<END2>
+
+#WRITE(PTR, $000008B6)
+Net
+<END2>
+
+#WRITE(PTR, $000008B8)
+It's almost an unwritten rule to say this retort when people or animals look at the camera in images uploaded to the internet.
+<END2>
+
+#WRITE(PTR, $000008D0)
+Kotehan
+<END2>
+
+#WRITE(PTR, $000008D2)
+か
+<END2>
+
+#WRITE(PTR, $000008D4)
+<END2>
+
+#WRITE(PTR, $000008D6)
+Net
+<END2>
+
+#WRITE(PTR, $000008D8)
+Short for "fixed(KOTEi) HANdle name".<LINE>
+Especially on @channel, very few people use names (if you post without entering anything into the name field, you post as "Anonymous").
+<END2>
+
+#WRITE(PTR, $000008F0)
+Copy & Paste
+<END2>
+
+#WRITE(PTR, $000008F2)
+か
+<END2>
+
+#WRITE(PTR, $000008F4)
+<END2>
+
+#WRITE(PTR, $000008F6)
+Other
+<END2>
+
+#WRITE(PTR, $000008F8)
+To duplicate.
+<END2>
+
+#WRITE(PTR, $00000910)
+Copenhagen interpretation
+<END2>
+
+#WRITE(PTR, $00000912)
+か
+<END2>
+
+#WRITE(PTR, $00000914)
+<END2>
+
+#WRITE(PTR, $00000916)
+Science
+<END2>
+
+#WRITE(PTR, $00000918)
+A quantum theory approach to explaining the Schrodinger's Cat thought experiment without Einstein's deterministic perspective.<LINE>
+It's thought that before the box is opened, the cat's condition is superpositioned between "living" and "dead".<LINE>
+The instant the box is opened and observed, the wave function collapses to either condition.<LINE>
+If the cat is alive upon opening the box, then the truth retroactively becomes "the cat was alive before the box was opened".<LINE>
+Conversely, if the cat is dead, the truth becomes "the cat was dead before the box was opened".<LINE>
+On the other hand, through the same quantum theory approach comes another interpretation-- by the many-worlds interpretation, the observer who observed the cat living inside the box, and the observer who observed the cat dead inside the box can be thought of as superpositioned and then diverging.<LINE>
+In current quantum theory, this Copenhagen interpretation is the standard school of thought.
+<END2>
+
+#WRITE(PTR, $00000930)
+ComiMa
+<END2>
+
+#WRITE(PTR, $00000932)
+か
+<END2>
+
+#WRITE(PTR, $00000934)
+<END2>
+
+#WRITE(PTR, $00000936)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000938)
+(Fictional) Comic Giga Market.<LINE>
+The otaku festival held in Ariake's Tokyo Big Sight.<LINE>
+The next Summer ComiMa will open on August 15 and continue for three days.
+<END2>
+
+#WRITE(PTR, $00000950)
+Reality Marble
+<END2>
+
+#WRITE(PTR, $00000952)
+か
+<END2>
+
+#WRITE(PTR, $00000954)
+<END2>
+
+#WRITE(PTR, $00000956)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000958)
+The name of a magecraft in which the user paints out their the world with their imagined landscape.<LINE>
+On the other hand, the term can be used even in ordinary conversation to refer to a couple flirting in public, immersed in their own world, not caring about the glances of others.
+<END2>
+
+#WRITE(PTR, $00000970)
+Too cute to be a girl
+<END2>
+
+#WRITE(PTR, $00000972)
+か
+<END2>
+
+#WRITE(PTR, $00000974)
+<END2>
+
+#WRITE(PTR, $00000976)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000978)
+It's an unwritten rule to say this expression when faced with a moe illustration of a character of either unspecified gender, or confirmed to be male, but definitely looks like a beatiful girl.<LINE>
+This expression is also used sarcastically to refer to a boyish looking girl.
+<END2>
+
+#WRITE(PTR, $00000990)
+Combo
+<END2>
+
+#WRITE(PTR, $00000992)
+か
+<END2>
+
+#WRITE(PTR, $00000994)
+<END2>
+
+#WRITE(PTR, $00000996)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000998)
+A gaming term.<LINE>
+Means a series of consecutive attacks, primarily in fighting games.<LINE>
+On the other hand, in ordinary conversations, can be used to refer to a combination of two or more actions.
+<END2>
+
+#WRITE(PTR, $000009B0)
+Soz
+<END2>
+
+#WRITE(PTR, $000009B2)
+さ
+<END2>
+
+#WRITE(PTR, $000009B4)
+<END2>
+
+#WRITE(PTR, $000009B6)
+Net
+<END2>
+
+#WRITE(PTR, $000009B8)
+A corruption of sorry/suimasen.<LINE>
+Often used as "Fuhihi www sa-sen www".<LINE>
+Although it's a word of apology, it's not used as it's meant; rather, it's used to provoke or ridicule in this case.
+<END2>
+
+#WRITE(PTR, $000009D0)
+Cyalume Saber
+<END2>
+
+#WRITE(PTR, $000009D2)
+さ
+<END2>
+
+#WRITE(PTR, $000009D4)
+<END2>
+
+#WRITE(PTR, $000009D6)
+Future Gadgets
+<END2>
+
+#WRITE(PTR, $000009D8)
+Future Gadget No. 6.<LINE>
+A red chemical glowstick with a handle attached allowing one to grip it like a sword. The implementation of the groundbreaking idea of luminescing blood.<LINE>
+Made possible not just with Future Gadget Laboratory hardware, but also with chemical knowledge!<LINE>
+The name is derived from "Spark Wars", an epic series of scifi Hollywood movies.
+<END2>
+
+#WRITE(PTR, $000009F0)
+Survival airsoft
+<END2>
+
+#WRITE(PTR, $000009F2)
+さ
+<END2>
+
+#WRITE(PTR, $000009F4)
+<END2>
+
+#WRITE(PTR, $000009F6)
+Other
+<END2>
+
+#WRITE(PTR, $000009F8)
+A mock gunfight game using air guns. Primarily played outside in the mountains.<LINE>
+Participants generally cover themselves in camouflaged clothes like soldiers.
+<END2>
+
+#WRITE(PTR, $00000A10)
+The Council of 300
+<END2>
+
+#WRITE(PTR, $00000A12)
+さ
+<END2>
+
+#WRITE(PTR, $00000A14)
+<END2>
+
+#WRITE(PTR, $00000A16)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000A18)
+A secret organization of only 300 people rumored to manipulate the world behind the scenes.<LINE>
+"Unseen Masters".<LINE>
+The Council of 300 is said to have influence over the royal families, intelligence agencies, banks, enterprises, police, and research institutions of every nation, as well as over secret societies told of in conspiracy theories.<LINE>
+However, its existence is nothing but a rumor.<LINE>
+One theory states that the Council of 300's ultimate goal is to establish a One World Government.<LINE>
+With the exception of the elites, the world's population will be reduced to one billion, and that remaining one billion will be controlled as slaves.
+<END2>
+
+#WRITE(PTR, $00000A30)
+CRT
+<END2>
+
+#WRITE(PTR, $00000A32)
+さ
+<END2>
+
+#WRITE(PTR, $00000A34)
+<END2>
+
+#WRITE(PTR, $00000A36)
+Other
+<END2>
+
+#WRITE(PTR, $00000A38)
+"Cathode Ray Tube".<LINE>
+A type of monitor.<LINE>
+Refers to Braun tubes.
+<END2>
+
+#WRITE(PTR, $00000A50)
+Chronology protection conjecture
+<END2>
+
+#WRITE(PTR, $00000A52)
+さ
+<END2>
+
+#WRITE(PTR, $00000A54)
+<END2>
+
+#WRITE(PTR, $00000A56)
+Science
+<END2>
+
+#WRITE(PTR, $00000A58)
+A hypothesis in quantum mechanics proposed by Stephen Hawking, stating that time travel is impossible.<LINE>
+Attempts at time travel are hindered by quantum effects.<LINE>
+If one must time travel, infinite "field energy" is necessary, but is impossible in the first place.<LINE>
+This is in other words, the principle of causality-- chronology is protected by quantum theory.
+<END2>
+
+#WRITE(PTR, $00000A70)
+Event Horizion
+<END2>
+
+#WRITE(PTR, $00000A72)
+さ
+<END2>
+
+#WRITE(PTR, $00000A74)
+<END2>
+
+#WRITE(PTR, $00000A76)
+Science
+<END2>
+
+#WRITE(PTR, $00000A78)
+Also known as the Schwarzchild surface.<LINE>
+The boundary where all information transmission becomes impossible.<LINE>
+Information transmission is light, which moves as an electromagnetic wave.<LINE>
+However, at the core of a black hole, strong gravity makes escape impossible even for light.<LINE>
+That boundary is the event horizon. No information that occurs within an event horizon can be observed from the outside.<LINE>
+The center of a black hole is pitch black because no light can escape from it.
+<END2>
+
+#WRITE(PTR, $00000A90)
+Death flag
+<END2>
+
+#WRITE(PTR, $00000A92)
+さ
+<END2>
+
+#WRITE(PTR, $00000A94)
+<END2>
+
+#WRITE(PTR, $00000A96)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000A98)
+Foreshadowing of death.<LINE>
+A computer game term.<LINE>
+A popular example is saying "Once the war's over, I'm gonna get married".
+<END2>
+
+#WRITE(PTR, $00000AB0)
+Chevy
+<END2>
+
+#WRITE(PTR, $00000AB2)
+さ
+<END2>
+
+#WRITE(PTR, $00000AB4)
+<END2>
+
+#WRITE(PTR, $00000AB6)
+Other
+<END2>
+
+#WRITE(PTR, $00000AB8)
+Brand's name of American car company.
+<END2>
+
+#WRITE(PTR, $00000AD0)
+Janet's Law
+<END2>
+
+#WRITE(PTR, $00000AD2)
+さ
+<END2>
+
+#WRITE(PTR, $00000AD4)
+<END2>
+
+#WRITE(PTR, $00000AD6)
+Other
+<END2>
+
+#WRITE(PTR, $00000AD8)
+A perspective on the passage of time proposed by psychologist Janet.<LINE>
+For some reason, as one ages, time seems to pass by more quickly.<LINE>
+For example, one year is one seventh of a 7 year old's life, while it's only one seventieth of a 70 year old's life.<LINE>
+By this reasoning, the subjective length of time is inversely proportional to age.
+<END2>
+
+#WRITE(PTR, $00000AF0)
+Dwellers
+<END2>
+
+#WRITE(PTR, $00000AF2)
+さ
+<END2>
+
+#WRITE(PTR, $00000AF4)
+<END2>
+
+#WRITE(PTR, $00000AF6)
+Net
+<END2>
+
+#WRITE(PTR, $00000AF8)
+People who make frequent use of the service in question.<LINE>
+Usually refers to people who post on anonymous internet message boards.
+<END2>
+
+#WRITE(PTR, $00000B10)
+Schrodinger's cat
+<END2>
+
+#WRITE(PTR, $00000B12)
+さ
+<END2>
+
+#WRITE(PTR, $00000B14)
+<END2>
+
+#WRITE(PTR, $00000B16)
+Science
+<END2>
+
+#WRITE(PTR, $00000B18)
+The most famous paradox in quantum theory.<LINE>
+A thought experiment proposed by physicist Erwin Schrodinger to repudiate quantum mechanics.<LINE>
+But currently, this paradox is being proven to not be a paradox.<LINE>
+Instead, it's being used as a widely accepted phenomenon that resembles a paradox in quantum mechanics, and is often referenced.<LINE>
+A cat is placed inside a box installed with a poisonous gas release system and radioactive radium.<LINE>
+If the radium emits an alpha particle, it sets off a sensor, releasing the poisonous gas and killing the cat.<LINE>
+Let's say radium has a 50％ chance of alpha particle emission in one hour.<LINE>
+After that hour, the moment one opens the box, the cat has a 1:1 likelihood of being alive or dead.<LINE>
+So how was the cat before the box was opened?<LINE>
+According to Einstein, even without observation, the cat was either alive or dead.
+<END2>
+
+#WRITE(PTR, $00000B30)
+Duh
+<END2>
+
+#WRITE(PTR, $00000B32)
+さ
+<END2>
+
+#WRITE(PTR, $00000B34)
+<END2>
+
+#WRITE(PTR, $00000B36)
+Net
+<END2>
+
+#WRITE(PTR, $00000B38)
+Internet slang.<LINE>
+Means "think with common sense".
+<END2>
+
+#WRITE(PTR, $00000B50)
+Particle Collider
+<END2>
+
+#WRITE(PTR, $00000B52)
+さ
+<END2>
+
+#WRITE(PTR, $00000B54)
+<END2>
+
+#WRITE(PTR, $00000B56)
+Science
+<END2>
+
+#WRITE(PTR, $00000B58)
+Experimental equipment that accelerates various charged particles into collision for the purpose of researching the resulting reactions.<LINE>
+The type of particle accelerated also determines the naming scheme of the equipment.<LINE>
+In recent years, most high energy accelerators have been synchrotrons - ring types.<LINE>
+Ring type accelerators require high costs for their large-scale construction, but they can perform the most efficient collision experiments.<LINE>
+The reason for the ring shape is because charged particles can be sent through an electromagnetic field to bend their tragectory through the Lorentz force.<LINE>
+The main synchrotrons, other than SERN's LHC, are located in the US, the UK, and Japan.
+<END2>
+
+#WRITE(PTR, $00000B70)
+Shota
+<END2>
+
+#WRITE(PTR, $00000B72)
+さ
+<END2>
+
+#WRITE(PTR, $00000B74)
+<END2>
+
+#WRITE(PTR, $00000B76)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000B78)
+A moe attribute.<LINE>
+A tender young boy or a young man with the outward appearance of one.<LINE>
+Primarily used for a female demographic.
+<END2>
+
+#WRITE(PTR, $00000B90)
+John Titor
+<END2>
+
+#WRITE(PTR, $00000B92)
+さ
+<END2>
+
+#WRITE(PTR, $00000B94)
+<END2>
+
+#WRITE(PTR, $00000B96)
+Other
+<END2>
+
+#WRITE(PTR, $00000B98)
+A time traveler allegedly from 2036 who appeared on an American internet message board in November 2000.<LINE>
+The internet went into an uproar, suddenly flooding the board with questions and doubts in a heated debate.<LINE>
+He called himself John Titor.<LINE>
+He also partially revealed pictures of his time machine and its control manual, as well as diagrams illustrating time machine mechanics.<LINE>
+Having come from the future, he disclosed information on near future events, time travel physics, history intervention, the multiverse, many-worlds, time lines, and world lines.<LINE>
+And then, four months after his appearance, he left a comment saying "I will be leaving this worldline shortly and this will be my final post" and disappeared.
+<END2>
+
+#WRITE(PTR, $00000BB0)
+Synchronicity
+<END2>
+
+#WRITE(PTR, $00000BB2)
+さ
+<END2>
+
+#WRITE(PTR, $00000BB4)
+<END2>
+
+#WRITE(PTR, $00000BB6)
+Other
+<END2>
+
+#WRITE(PTR, $00000BB8)
+A meaningful coincidence. Simultaneity. Simultaneous incidence.<LINE>
+When events that come to mind and events of reality coincide.<LINE>
+A concept regarding the determination of events, differing from the concept of causality.<LINE>
+The effect of synchronicity is defined as the occurrence of two "meaningfully related" events as they are pushed out of the order of space-time.<LINE>
+For example, "A vase fell and shattered, and at the same time, my grandmother died in the hospital," "speak of the devil and he doth appear," etc.<LINE>
+It is a very major phenomenon with countless examples all over the world.<LINE>
+Chances are nearly 100％ for any random person to have experienced it.<LINE>
+A concept advocated by Swiss psychologist Carl Jung (1875-1961).
+<END2>
+
+#WRITE(PTR, $00000BD0)
+Mainstream woman
+<END2>
+
+#WRITE(PTR, $00000BD2)
+さ
+<END2>
+
+#WRITE(PTR, $00000BD4)
+<END2>
+
+#WRITE(PTR, $00000BD6)
+Net
+<END2>
+
+#WRITE(PTR, $00000BD8)
+A derogatory term referring to women who are manipulated by fads and subscribe to a way of thinking incomprehensible to men.<LINE>
+However, it is often said that this phrase is intentionally used by men who want nothing to do with women.
+<END2>
+
+#WRITE(PTR, $00000BF0)
+Supa~ Hacka
+<END2>
+
+#WRITE(PTR, $00000BF2)
+さ
+<END2>
+
+#WRITE(PTR, $00000BF4)
+<END2>
+
+#WRITE(PTR, $00000BF6)
+Net
+<END2>
+
+#WRITE(PTR, $00000BF8)
+A tremendously skilled hacker.<LINE>
+Or at least someone claimed to be.<LINE>
+The threat "My friend's a hacker, so he can easily find out who you are" often appears during arguments on the internet, such as on anonymous message boards.<LINE>
+People ironically call the obviously nonexistent hacker a supah hakah.
+<END2>
+
+#WRITE(PTR, $00000C10)
+Skuld
+<END2>
+
+#WRITE(PTR, $00000C12)
+さ
+<END2>
+
+#WRITE(PTR, $00000C14)
+<END2>
+
+#WRITE(PTR, $00000C16)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000C18)
+The third sister of the three Norns (goddesses of fate) in Norse mythology.<LINE>
+The three sisters raise the world tree, Yggdrasil, from Urd's fountain which lays at its roots.<LINE>
+Skuld is considered the Norn of the Future. Also a valkyrie.
+<END2>
+
+#WRITE(PTR, $00000C30)
+Starbecks
+<END2>
+
+#WRITE(PTR, $00000C32)
+さ
+<END2>
+
+#WRITE(PTR, $00000C34)
+<END2>
+
+#WRITE(PTR, $00000C36)
+Other
+<END2>
+
+#WRITE(PTR, $00000C38)
+(Fictional) Coffeeshop chain.
+<END2>
+
+#WRITE(PTR, $00000C50)
+Stand
+<END2>
+
+#WRITE(PTR, $00000C52)
+さ
+<END2>
+
+#WRITE(PTR, $00000C54)
+<END2>
+
+#WRITE(PTR, $00000C56)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000C58)
+A fictional psychic ability appearing in a certain manga about bizarre adventures.<LINE>
+Those with the supernatural ability to use stands are called "stand users".
+<END2>
+
+#WRITE(PTR, $00000C70)
+Standalone
+<END2>
+
+#WRITE(PTR, $00000C72)
+さ
+<END2>
+
+#WRITE(PTR, $00000C74)
+<END2>
+
+#WRITE(PTR, $00000C76)
+Net
+<END2>
+
+#WRITE(PTR, $00000C78)
+Usage of a computer without connecting it to another computer or network.
+<END2>
+
+#WRITE(PTR, $00000C90)
+Slow food
+<END2>
+
+#WRITE(PTR, $00000C92)
+さ
+<END2>
+
+#WRITE(PTR, $00000C94)
+<END2>
+
+#WRITE(PTR, $00000C96)
+Other
+<END2>
+
+#WRITE(PTR, $00000C98)
+Instead of fast food or instant foods, cooking that takes up time, perhaps incorporating organic vegetables.
+<END2>
+
+#WRITE(PTR, $00000CB0)
+Elaborative rehearsal
+<END2>
+
+#WRITE(PTR, $00000CB2)
+さ
+<END2>
+
+#WRITE(PTR, $00000CB4)
+<END2>
+
+#WRITE(PTR, $00000CB6)
+Other
+<END2>
+
+#WRITE(PTR, $00000CB8)
+In memorization, the psychological action of transferring short-term memory into long-term memory.<LINE>
+One either attaches a meaning to the matter to be remembered, or relates the matter to some other familiar memory.
+<END2>
+
+#WRITE(PTR, $00000CD0)
+Smex
+<END2>
+
+#WRITE(PTR, $00000CD2)
+さ
+<END2>
+
+#WRITE(PTR, $00000CD4)
+<END2>
+
+#WRITE(PTR, $00000CD6)
+Net
+<END2>
+
+#WRITE(PTR, $00000CD8)
+Sex.
+<END2>
+
+#WRITE(PTR, $00000CF0)
+SERN
+<END2>
+
+#WRITE(PTR, $00000CF2)
+さ
+<END2>
+
+#WRITE(PTR, $00000CF4)
+<END2>
+
+#WRITE(PTR, $00000CF6)
+Science
+<END2>
+
+#WRITE(PTR, $00000CF8)
+(Fictional) A French acronym for "Societe Europen pour la Recherche Nucleaire", or "European Society for Nuclear Research".<LINE>
+The world's largest elementary particle physics laboratory located in the outskirts of Geneva on the Franco-Swiss border.<LINE>
+Has a bank, library, post office, and dorm on premise.<LINE>
+Researchers gather from 19 European countries and from around the world to perform experiments on elementary particle physics.<LINE>
+SERN employs several thousand officials.
+<END2>
+
+#WRITE(PTR, $00000D10)
+Serendipity
+<END2>
+
+#WRITE(PTR, $00000D12)
+さ
+<END2>
+
+#WRITE(PTR, $00000D14)
+<END2>
+
+#WRITE(PTR, $00000D16)
+Other
+<END2>
+
+#WRITE(PTR, $00000D18)
+The ability to discover valuable things when looking for a certain something else.<LINE>
+The microwave oven was invented by this serendipity.
+<END2>
+
+#WRITE(PTR, $00000D30)
+Zerosum
+<END2>
+
+#WRITE(PTR, $00000D32)
+さ
+<END2>
+
+#WRITE(PTR, $00000D34)
+<END2>
+
+#WRITE(PTR, $00000D36)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000D38)
+(Fictional) The protagonist of Code Jeass.<LINE>
+He is the "Young Noble of the Rebellion" who hides his identity behind a mask.
+<END2>
+
+#WRITE(PTR, $00000D50)
+Theory of Relativity
+<END2>
+
+#WRITE(PTR, $00000D52)
+さ
+<END2>
+
+#WRITE(PTR, $00000D54)
+<END2>
+
+#WRITE(PTR, $00000D56)
+Science
+<END2>
+
+#WRITE(PTR, $00000D58)
+Refers to both Einstein's special theory of relativity published in 1905, and his general theory of relativity published in 1916.<LINE>
+The famous E=mc^2 formula.<LINE>
+The special theory of relativity is explained as follows: "Objects cannot travel faster than the speed of light."<LINE>
+"As velocity approaches the speed of light, the passage of time slows down. Reach the speed of light and time stops."<LINE>
+"As velocity approaches the speed of light, length shrinks. Reach the speed of light and length becomes zero."<LINE>
+"As velocity approaches the speed of light, object mass increases. Reach the speed of light and mass becomes infinite."
+<END2>
+
+#WRITE(PTR, $00000D70)
+Phase transition
+<END2>
+
+#WRITE(PTR, $00000D72)
+さ
+<END2>
+
+#WRITE(PTR, $00000D74)
+<END2>
+
+#WRITE(PTR, $00000D76)
+Science
+<END2>
+
+#WRITE(PTR, $00000D78)
+The physical phenomenon where a substance changes from one phase to another by external conditions including temperature and pressure.<LINE>
+Varieties include solid-liquid-gas, ferromagnetic-paramagnetic and the vacuum phase transition.
+<END2>
+
+#WRITE(PTR, $00000D90)
+Sewing set
+<END2>
+
+#WRITE(PTR, $00000D92)
+さ
+<END2>
+
+#WRITE(PTR, $00000D94)
+<END2>
+
+#WRITE(PTR, $00000D96)
+Other
+<END2>
+
+#WRITE(PTR, $00000D98)
+Sewing set.
+<END2>
+
+#WRITE(PTR, $00000DB0)
+Sauce
+<END2>
+
+#WRITE(PTR, $00000DB2)
+さ
+<END2>
+
+#WRITE(PTR, $00000DB4)
+<END2>
+
+#WRITE(PTR, $00000DB6)
+Net
+<END2>
+
+#WRITE(PTR, $00000DB8)
+Exhibition origin, documents, historical records, news source.<LINE>
+Where the information was obtained.<LINE>
+Since misinformation and disinformation often appear on anonymous internet message boards, it is important to present your source to gain trust.
+<END2>
+
+#WRITE(PTR, $00000DD0)
+Elementary particle
+<END2>
+
+#WRITE(PTR, $00000DD2)
+さ
+<END2>
+
+#WRITE(PTR, $00000DD4)
+<END2>
+
+#WRITE(PTR, $00000DD6)
+Science
+<END2>
+
+#WRITE(PTR, $00000DD8)
+The smallest units upon which matter is formed.<LINE>
+However, they are not clearly defined.<LINE>
+Certain elementary particles have a corresponding anti-particle with opposite charge.
+<END2>
+
+#WRITE(PTR, $00000DF0)
+Terminal mode
+<END2>
+
+#WRITE(PTR, $00000DF2)
+た
+<END2>
+
+#WRITE(PTR, $00000DF4)
+<END2>
+
+#WRITE(PTR, $00000DF6)
+Other
+<END2>
+
+#WRITE(PTR, $00000DF8)
+Properly speaking, using another networked external computer terminal to operate a program that can not be run otherwise.
+<END2>
+
+#WRITE(PTR, $00000E10)
+Throw you in the slammer
+<END2>
+
+#WRITE(PTR, $00000E12)
+た
+<END2>
+
+#WRITE(PTR, $00000E14)
+<END2>
+
+#WRITE(PTR, $00000E16)
+Net
+<END2>
+
+#WRITE(PTR, $00000E18)
+To be arrested.
+<END2>
+
+#WRITE(PTR, $00000E30)
+Dynamite
+<END2>
+
+#WRITE(PTR, $00000E32)
+た
+<END2>
+
+#WRITE(PTR, $00000E34)
+<END2>
+
+#WRITE(PTR, $00000E36)
+Other
+<END2>
+
+#WRITE(PTR, $00000E38)
+A nitroglycerine explosive invented by Nobel in 1866.
+<END2>
+
+#WRITE(PTR, $00000E50)
+Daibiru
+<END2>
+
+#WRITE(PTR, $00000E52)
+た
+<END2>
+
+#WRITE(PTR, $00000E54)
+<END2>
+
+#WRITE(PTR, $00000E56)
+Akihabara
+<END2>
+
+#WRITE(PTR, $00000E58)
+(Fictional) A skyscraper with offices and a commerce center opened alongside UPX in 2003.<LINE>
+Connected to UPX by overpass.
+<END2>
+
+#WRITE(PTR, $00000E70)
+As fuck
+<END2>
+
+#WRITE(PTR, $00000E72)
+た
+<END2>
+
+#WRITE(PTR, $00000E74)
+<END2>
+
+#WRITE(PTR, $00000E76)
+Net
+<END2>
+
+#WRITE(PTR, $00000E78)
+Corruption of "(Price, etc) is way too high".
+<END2>
+
+#WRITE(PTR, $00000E90)
+Take-cop Camera
+<END2>
+
+#WRITE(PTR, $00000E92)
+た
+<END2>
+
+#WRITE(PTR, $00000E94)
+<END2>
+
+#WRITE(PTR, $00000E96)
+Future Gadgets
+<END2>
+
+#WRITE(PTR, $00000E98)
+Future Gadget No. 2.<LINE>
+A toy bamboo helicopter-style CCD camera.<LINE>
+A CCD camera is built into the bamboo helicopter's fulcrum, allowing it to record aerial footage unpowered.<LINE>
+However, the image is rotating with an extreme force, so you might get dizzy if you keep looking at it.<LINE>
+Name originates from "22 Emon".
+<END2>
+
+#WRITE(PTR, $00000EB0)
+Double meaning
+<END2>
+
+#WRITE(PTR, $00000EB2)
+た
+<END2>
+
+#WRITE(PTR, $00000EB4)
+<END2>
+
+#WRITE(PTR, $00000EB6)
+Other
+<END2>
+
+#WRITE(PTR, $00000EB8)
+When a phrase can deliberately mean something else.
+<END2>
+
+#WRITE(PTR, $00000ED0)
+Oh, you
+<END2>
+
+#WRITE(PTR, $00000ED2)
+た
+<END2>
+
+#WRITE(PTR, $00000ED4)
+<END2>
+
+#WRITE(PTR, $00000ED6)
+Net
+<END2>
+
+#WRITE(PTR, $00000ED8)
+Internet slang. Means "Who said something clever?".
+<END2>
+
+#WRITE(PTR, $00000EF0)
+Whose benefit
+<END2>
+
+#WRITE(PTR, $00000EF2)
+た
+<END2>
+
+#WRITE(PTR, $00000EF4)
+<END2>
+
+#WRITE(PTR, $00000EF6)
+Net
+<END2>
+
+#WRITE(PTR, $00000EF8)
+Short for "who benefits from this?". Used in a negative way. Internet slang.
+<END2>
+
+#WRITE(PTR, $00000F10)
+Cheat code
+<END2>
+
+#WRITE(PTR, $00000F12)
+た
+<END2>
+
+#WRITE(PTR, $00000F14)
+<END2>
+
+#WRITE(PTR, $00000F16)
+Other
+<END2>
+
+#WRITE(PTR, $00000F18)
+Computer game term.<LINE>
+Using modding toolkits to arbitrarily modify game data.<LINE>
+Recently, developers have intentionally made games with cheat modes.<LINE>
+One subset of cheat modes is known as "hidden commands".
+<END2>
+
+#WRITE(PTR, $00000F30)
+Chesire Cat
+<END2>
+
+#WRITE(PTR, $00000F32)
+た
+<END2>
+
+#WRITE(PTR, $00000F34)
+<END2>
+
+#WRITE(PTR, $00000F36)
+Other
+<END2>
+
+#WRITE(PTR, $00000F38)
+A fictional grinning cat in Lewis Carroll's "Alice in Wonderland".
+<END2>
+
+#WRITE(PTR, $00000F50)
+Pretentious lunatic
+<END2>
+
+#WRITE(PTR, $00000F52)
+た
+<END2>
+
+#WRITE(PTR, $00000F54)
+<END2>
+
+#WRITE(PTR, $00000F56)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00000F58)
+Second year middle school syndrome.<LINE>
+A humourous phrase referring to the slightly unique speech and behavioral mannerisms often seen in pubescent boys in Japan.<LINE>
+Also used as a derogatory term to refer to older people who still pitifully act like they're in puberty.<LINE>
+Pessimistic, antisocial, imaginary actions, trying too hard so as to not look like a child.<LINE>
+The one performing these actions does indeed think their actions are stylish, but adults see them as ridiculous.<LINE>
+Also categorized into Chuunibyou is the act of imagining an anime-like backstory for oneself, most notably the "Evil Third Eye".<LINE>
+Rintaro is a textbook example of this "Evil Third Eye."
+<END2>
+
+#WRITE(PTR, $00000F70)
+Superstring theory
+<END2>
+
+#WRITE(PTR, $00000F72)
+た
+<END2>
+
+#WRITE(PTR, $00000F74)
+<END2>
+
+#WRITE(PTR, $00000F76)
+Science
+<END2>
+
+#WRITE(PTR, $00000F78)
+A physical theory that models the ultimate composition of substances as "strings", and by the changes in those strings' vibrations, explains the many elementary particles.<LINE>
+This way of thining consists of 11 spatial dimensions, but that's impossible to prove experimentally.<LINE>
+Therefore, it's still just a hypothesis.<LINE>
+However, if this theory is proven, it is said that it can explain all phenomena from the birth and scope of the universe on the macro level, to elementary particles, like quarks, on the micro level.
+<END2>
+
+#WRITE(PTR, $00000F90)
+Troll
+<END2>
+
+#WRITE(PTR, $00000F92)
+た
+<END2>
+
+#WRITE(PTR, $00000F94)
+<END2>
+
+#WRITE(PTR, $00000F96)
+Net
+<END2>
+
+#WRITE(PTR, $00000F98)
+On anonymous message boards on the internet, to post provocative opinions or false information for the purpose of enjoying the sight of tricked people overreacting.
+<END2>
+
+#WRITE(PTR, $00000FB0)
+Tsundere
+<END2>
+
+#WRITE(PTR, $00000FB2)
+た
+<END2>
+
+#WRITE(PTR, $00000FB4)
+<END2>
+
+#WRITE(PTR, $00000FB6)
+Otaku
+<END2>
+
+#WRITE(PTR, $00000FB8)
+A heroine who is usually impertinent and aloof (tsuntsun), but when alone with her object of love, becomes fawning and spoony (deredere).<LINE>
+However, the definition is getting more vague recently.
+<END2>
+
+#WRITE(PTR, $00000FD0)
+Dystopia
+<END2>
+
+#WRITE(PTR, $00000FD2)
+た
+<END2>
+
+#WRITE(PTR, $00000FD4)
+<END2>
+
+#WRITE(PTR, $00000FD6)
+Other
+<END2>
+
+#WRITE(PTR, $00000FD8)
+A society that is the exact opposite of a utopia.<LINE>
+A completely controlled, regulated society, without a single privacy granted to the people, who are under 24 hour surveillance.
+<END2>
+
+#WRITE(PTR, $00000FF0)
+Tape drive
+<END2>
+
+#WRITE(PTR, $00000FF2)
+た
+<END2>
+
+#WRITE(PTR, $00000FF4)
+<END2>
+
+#WRITE(PTR, $00000FF6)
+Other
+<END2>
+
+#WRITE(PTR, $00000FF8)
+Large PCs in the 1970s didn't have CD-ROM drives or even floppy drives.<LINE>
+Tape drives which could read and write digital data on magnetic cassette tapes were the norm.
+<END2>
+
+#WRITE(PTR, $00001010)
+Deco phone
+<END2>
+
+#WRITE(PTR, $00001012)
+た
+<END2>
+
+#WRITE(PTR, $00001014)
+<END2>
+
+#WRITE(PTR, $00001016)
+Other
+<END2>
+
+#WRITE(PTR, $00001018)
+A cellphone with decorations on it.<LINE>
+Primarily popular among young women.<LINE>
+Swarovskis or rhinestones can be pasted on the phone's surface for decoration.
+<END2>
+
+#WRITE(PTR, $00001030)
+Deja Vu
+<END2>
+
+#WRITE(PTR, $00001032)
+た
+<END2>
+
+#WRITE(PTR, $00001034)
+<END2>
+
+#WRITE(PTR, $00001036)
+Other
+<END2>
+
+#WRITE(PTR, $00001038)
+The feeling of having experienced something before despite never having actually experienced it.<LINE>
+It doesn't feel like a mere illusion, but a very real "past experience" that couldn't be forgotten or mistaken for a dream.<LINE>
+However, when and where that "past experience" happened cannot be remembered, resulting in an intense feeling of strangeness.<LINE>
+The cause has yet to be explained. ne theory is that it is a physiological phenomenon caused by an anomaly of memory where "recollection" and "previous memory" desynchronize temporarily.<LINE>
+The cause is theorized to be convulsion-like spasms in the brain's parahippocampal gyrus, which is in charge of processing space and "familiar" sensations.
+<END2>
+
+#WRITE(PTR, $00001050)
+Railfan
+<END2>
+
+#WRITE(PTR, $00001052)
+た
+<END2>
+
+#WRITE(PTR, $00001054)
+<END2>
+
+#WRITE(PTR, $00001056)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001058)
+Short for "railroad fanatic/tetsudou otaku".
+<END2>
+
+#WRITE(PTR, $00001070)
+Electric field
+<END2>
+
+#WRITE(PTR, $00001072)
+た
+<END2>
+
+#WRITE(PTR, $00001074)
+<END2>
+
+#WRITE(PTR, $00001076)
+Science
+<END2>
+
+#WRITE(PTR, $00001078)
+The area where electric force takes effect.<LINE>
+For example, rubbing a balloon and putting it close to one's head causes one's hair to rise due to the influence of the resulting static electricity's electric field.
+<END2>
+
+#WRITE(PTR, $00001090)
+Electromagnetic wave
+<END2>
+
+#WRITE(PTR, $00001092)
+た
+<END2>
+
+#WRITE(PTR, $00001094)
+<END2>
+
+#WRITE(PTR, $00001096)
+Other
+<END2>
+
+#WRITE(PTR, $00001098)
+Waves that hold properties of both electricity and magnetism, first formally postulated by Maxwell in 1864.<LINE>
+The electric field and magnetic field mutually propagate each other, causing space itself to oscillate, becoming a wave as it propagates through its surroundings.<LINE>
+This is why it's called electromagnetic radiation.<LINE>
+Based on their frequency, EM waves are divided into radio waves, infrared light, visible light, ultraviolet light, X-rays, and gamma rays.<LINE>
+On the topic of the negative effects of electromagnetic waves on the human body, the World Health Organization (WHO) has announced that "research has not been able to provide support for a causal relationship", however, the lack of a relationship has also not been proven.
+<END2>
+
+#WRITE(PTR, $000010B0)
+Microwave
+<END2>
+
+#WRITE(PTR, $000010B2)
+た
+<END2>
+
+#WRITE(PTR, $000010B4)
+<END2>
+
+#WRITE(PTR, $000010B6)
+Other
+<END2>
+
+#WRITE(PTR, $000010B8)
+A consumer cooking appliance which warms water-containing foods via microwaves.<LINE>
+Originally called the Radarange.<LINE>
+Radar essentially refers to electromagnetic waves.<LINE>
+It all started when an radar transmission engineer accidentally discovered that electromagnetic waves could warm food.<LINE>
+Afterwards, research continued, and the consumer appliance version was launched in America in 1947. It uses electromagnetic waves at a frequency of 2.45Ghz.<LINE>
+Consumer grade output is around 500-1000 watts, and commercial grade output is around 1500-2000 watts.<LINE>
+This is a special frequency known as ISM Band, also used by WLAN.
+<END2>
+
+#WRITE(PTR, $000010D0)
+TouTele
+<END2>
+
+#WRITE(PTR, $000010D2)
+た
+<END2>
+
+#WRITE(PTR, $000010D4)
+<END2>
+
+#WRITE(PTR, $000010D6)
+Other
+<END2>
+
+#WRITE(PTR, $000010D8)
+(Fictional) Touto (Tokyo) TV. Channel 12 in Tokyo.<LINE>
+Places more emphasis on anime compared to other commercial broadcasting companies. Seen as the most intimate TV station to otaku.<LINE>
+When a grave incident or accident occurs, all other channels cut to special report programs.<LINE>
+ToTV is the only channel that indifferently continues with its normal programming, giving rise to the joke "If ToTV cuts to a special report program, apocalypse is nigh."
+<END2>
+
+#WRITE(PTR, $000010F0)
+Troll
+<END2>
+
+#WRITE(PTR, $000010F2)
+た
+<END2>
+
+#WRITE(PTR, $000010F4)
+<END2>
+
+#WRITE(PTR, $000010F6)
+Net
+<END2>
+
+#WRITE(PTR, $000010F8)
+An antisocial person.<LINE>
+Someone who lacks common sense.
+<END2>
+
+#WRITE(PTR, $00001110)
+Gravitational Singularity
+<END2>
+
+#WRITE(PTR, $00001112)
+た
+<END2>
+
+#WRITE(PTR, $00001114)
+<END2>
+
+#WRITE(PTR, $00001116)
+Science
+<END2>
+
+#WRITE(PTR, $00001118)
+In this case, refers to gravitational singularities in astrophysics.<LINE>
+They refer to spots where gravity reaches infinity, but they are purely theoretical.<LINE>
+Since it is impossible to observe the interior of a singularity in the first place, their existence cannot be proven either.<LINE>
+A black hole's singularity is a "point" formed by the gravitational collapse of a dying star.<LINE>
+For example, consider a star millions of kilometers in diameter.<LINE>
+Now consider that entire star compressed into this period.
+<END2>
+
+#WRITE(PTR, $00001130)
+Naked Singularity
+<END2>
+
+#WRITE(PTR, $00001132)
+た
+<END2>
+
+#WRITE(PTR, $00001134)
+<END2>
+
+#WRITE(PTR, $00001136)
+Science
+<END2>
+
+#WRITE(PTR, $00001138)
+Singularity refers to "place of infinite gravity".<LINE>
+Since singularities are usually concealed by an event horizon, they cannot be observed from the outside.<LINE>
+A naked singularity refers to a singularity with its event horizon removed, allowing it to be observed.<LINE>
+Modern physics (The Theory of Relativity) is unable to explain the details of a singularity's "infinite gravity".
+<END2>
+
+#WRITE(PTR, $00001150)
+Dr Pepper
+<END2>
+
+#WRITE(PTR, $00001152)
+た
+<END2>
+
+#WRITE(PTR, $00001154)
+<END2>
+
+#WRITE(PTR, $00001156)
+Other
+<END2>
+
+#WRITE(PTR, $00001158)
+Rintaro's favorite carbonated drink.
+<END2>
+
+#WRITE(PTR, $00001170)
+Dr Pepperian
+<END2>
+
+#WRITE(PTR, $00001172)
+た
+<END2>
+
+#WRITE(PTR, $00001174)
+<END2>
+
+#WRITE(PTR, $00001176)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00001178)
+Means somebody who loves Dr Pepper beyond all else.<LINE>
+Coined by Okarin.
+<END2>
+
+#WRITE(PTR, $00001190)
+DOS
+<END2>
+
+#WRITE(PTR, $00001192)
+た
+<END2>
+
+#WRITE(PTR, $00001194)
+<END2>
+
+#WRITE(PTR, $00001196)
+Other
+<END2>
+
+#WRITE(PTR, $00001198)
+Properly, "MS-DOS". The popular name of a 16 bit OS (Operating System).
+<END2>
+
+#WRITE(PTR, $000011B0)
+Inside people
+<END2>
+
+#WRITE(PTR, $000011B2)
+な
+<END2>
+
+#WRITE(PTR, $000011B4)
+<END2>
+
+#WRITE(PTR, $000011B6)
+Net
+<END2>
+
+#WRITE(PTR, $000011B8)
+In its most common usage, refers to voice actors of anime characters and the like.<LINE>
+Can also refer to business or organization officials.<LINE>
+It is said that the term originates from "It's not like there's a person inside!" from a certain manga.
+<END2>
+
+#WRITE(PTR, $000011D0)
+NASA
+<END2>
+
+#WRITE(PTR, $000011D2)
+な
+<END2>
+
+#WRITE(PTR, $000011D4)
+<END2>
+
+#WRITE(PTR, $000011D6)
+Other
+<END2>
+
+#WRITE(PTR, $000011D8)
+America's National Aeronautics and Space Administration.
+<END2>
+
+#WRITE(PTR, $000011F0)
+Nico chu
+<END2>
+
+#WRITE(PTR, $000011F2)
+な
+<END2>
+
+#WRITE(PTR, $000011F4)
+<END2>
+
+#WRITE(PTR, $000011F6)
+Net
+<END2>
+
+#WRITE(PTR, $000011F8)
+People who often use the massive video uploading site, Nico Niya Douga.<LINE>
+Especially used among @channelers as an insult to Nico Niya Douga users.
+<END2>
+
+#WRITE(PTR, $00001210)
+3DPD
+<END2>
+
+#WRITE(PTR, $00001212)
+な
+<END2>
+
+#WRITE(PTR, $00001214)
+<END2>
+
+#WRITE(PTR, $00001216)
+Net
+<END2>
+
+#WRITE(PTR, $00001218)
+3DPD is an abbreviation for "3D Pig Disgusting".<LINE>
+In other words, Non-3DPD Porn would be illustrated porn.
+<END2>
+
+#WRITE(PTR, $00001230)
+2D Girls
+<END2>
+
+#WRITE(PTR, $00001232)
+な
+<END2>
+
+#WRITE(PTR, $00001234)
+<END2>
+
+#WRITE(PTR, $00001236)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001238)
+Refers to anime characters.
+<END2>
+
+#WRITE(PTR, $00001250)
+Year 2000 Problem
+<END2>
+
+#WRITE(PTR, $00001252)
+な
+<END2>
+
+#WRITE(PTR, $00001254)
+<END2>
+
+#WRITE(PTR, $00001256)
+Other
+<END2>
+
+#WRITE(PTR, $00001258)
+The problem that could have been possibly caused by old computers once the year 2000 would come.<LINE>
+In order to save memory space on old computers, years were almost always abbreviated to the final two digits.<LINE>
+Because of that, once 1999 changed to 2000, the last two digits would change from 99 to 00.<LINE>
+If its programming didn't anticipate that change, the computer could erroneously assume the year was 1900.<LINE>
+It was hypothesized that the computers used in the realms of the military, finance, and utilities would malfunction and cause the worst-case scenario.<LINE>
+To address this issue, counter-measures were taken in the mid 1990s to manually update every program.<LINE>
+As a result of this counter measure, the Year 2000 Problem ended as nothing but needless fear.
+<END2>
+
+#WRITE(PTR, $00001270)
+In Japanese plz
+<END2>
+
+#WRITE(PTR, $00001272)
+な
+<END2>
+
+#WRITE(PTR, $00001274)
+<END2>
+
+#WRITE(PTR, $00001276)
+Net
+<END2>
+
+#WRITE(PTR, $00001278)
+A teasing phrase used on online message boards to tell an incomprehensible poster to "please post comprehensibly".
+<END2>
+
+#WRITE(PTR, $00001290)
+New Gene Incident
+<END2>
+
+#WRITE(PTR, $00001292)
+な
+<END2>
+
+#WRITE(PTR, $00001294)
+<END2>
+
+#WRITE(PTR, $00001296)
+Other
+<END2>
+
+#WRITE(PTR, $00001298)
+(Fictional) The popular name for the outbreak of bizarre serial murders that happened in Shibuya about a year ago.<LINE>
+A total of 14 people died in all 7 incidents.<LINE>
+The methods of murder were entirely unorthodox, causing an unforseen craze among Shibuyan youth.<LINE>
+The mass media dubbed this "New Generation Madness" and sensationalized it.<LINE>
+A 25-year-old man was arrested as the culprit, but passed away in the Shibuya Earthquake immediately afterwards.<LINE>
+To this day, rumors remain on the internet that he was not the true culprit.
+<END2>
+
+#WRITE(PTR, $000012B0)
+Pussies
+<END2>
+
+#WRITE(PTR, $000012B2)
+な
+<END2>
+
+#WRITE(PTR, $000012B4)
+<END2>
+
+#WRITE(PTR, $000012B6)
+Net
+<END2>
+
+#WRITE(PTR, $000012B8)
+A replacement of the "n" in "kitten" ("ne" in "neko") with the similar looking "h" ("nu").<LINE>
+The replacement has no real meaning, but it's popular to say "kitteh" on @channel and Nico Niya Douga.<LINE>
+Online videos and images of cute cats are sure to be popular.
+<END2>
+
+#WRITE(PTR, $000012D0)
+What is love?
+<END2>
+
+#WRITE(PTR, $000012D2)
+な
+<END2>
+
+#WRITE(PTR, $000012D4)
+<END2>
+
+#WRITE(PTR, $000012D6)
+Net
+<END2>
+
+#WRITE(PTR, $000012D8)
+Lyrics to Haddaway's song, "What is Love?". When someone asks "What is Love?", the answer is always "Baby don't hurt me."
+<END2>
+
+#WRITE(PTR, $000012F0)
+Neteyo
+<END2>
+
+#WRITE(PTR, $000012F2)
+な
+<END2>
+
+#WRITE(PTR, $000012F4)
+<END2>
+
+#WRITE(PTR, $000012F6)
+Net
+<END2>
+
+#WRITE(PTR, $000012F8)
+Short for "netto uyoku" or "Internet right-winger".
+<END2>
+
+#WRITE(PTR, $00001310)
+Neuroscience
+<END2>
+
+#WRITE(PTR, $00001312)
+な
+<END2>
+
+#WRITE(PTR, $00001314)
+<END2>
+
+#WRITE(PTR, $00001316)
+Science
+<END2>
+
+#WRITE(PTR, $00001318)
+The research field of the nervous system.<LINE>
+The study of the brain from a wide-ranging approach including biology, genetics, medicine, psychology, and electrical engineering.
+<END2>
+
+#WRITE(PTR, $00001330)
+Noradrenaline
+<END2>
+
+#WRITE(PTR, $00001332)
+な
+<END2>
+
+#WRITE(PTR, $00001334)
+<END2>
+
+#WRITE(PTR, $00001336)
+Other
+<END2>
+
+#WRITE(PTR, $00001338)
+An intracerebrally secreted neurotransmitter.<LINE>
+Properly called 4-(2-amino-1-hydroxyethyl)benzene-1,2-diol.<LINE>
+Secreted in times of anger among others.
+<END2>
+
+#WRITE(PTR, $00001350)
+This
+<END2>
+
+#WRITE(PTR, $00001352)
+は
+<END2>
+
+#WRITE(PTR, $00001354)
+<END2>
+
+#WRITE(PTR, $00001356)
+Net
+<END2>
+
+#WRITE(PTR, $00001358)
+Short for "quoted for truth". Internet slang.
+<END2>
+
+#WRITE(PTR, $00001370)
+Wave function
+<END2>
+
+#WRITE(PTR, $00001372)
+は
+<END2>
+
+#WRITE(PTR, $00001374)
+<END2>
+
+#WRITE(PTR, $00001376)
+Science
+<END2>
+
+#WRITE(PTR, $00001378)
+In quantum theory, a function representing quantum state.<LINE>
+The wave's velocity exceeds that o light.<LINE>
+Its existence is unproven.
+<END2>
+
+#WRITE(PTR, $00001390)
+Rosicruician Order
+<END2>
+
+#WRITE(PTR, $00001392)
+は
+<END2>
+
+#WRITE(PTR, $00001394)
+<END2>
+
+#WRITE(PTR, $00001396)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00001398)
+A secret society founded in 17th century Germany by Christian Rosenkreuz.<LINE>
+Rosenkreuz was supposedly a practitioner of alchemy and black magic.
+<END2>
+
+#WRITE(PTR, $000013B0)
+PTSD
+<END2>
+
+#WRITE(PTR, $000013B2)
+は
+<END2>
+
+#WRITE(PTR, $000013B4)
+<END2>
+
+#WRITE(PTR, $000013B6)
+Other
+<END2>
+
+#WRITE(PTR, $000013B8)
+Short for post-traumatic stress disorder.<LINE>
+From DSM-IV (The fourth edition of the Diagnostic and Statistical Manual of Mental Disorders published by the American Psychiactric Association in 1994): A mental disorder inducing various stress symptoms, caused by the shock of an accident, disaster, or crime.<LINE>
+Symptoms include emotional instability, insomnia, confusion, and flashback memories.<LINE>
+Diagnose if symptoms continue for over a month.
+<END2>
+
+#WRITE(PTR, $000013D0)
+Pizza ota
+<END2>
+
+#WRITE(PTR, $000013D2)
+は
+<END2>
+
+#WRITE(PTR, $000013D4)
+<END2>
+
+#WRITE(PTR, $000013D6)
+Otaku
+<END2>
+
+#WRITE(PTR, $000013D8)
+An otaku who is fat on pizza.<LINE>
+On an anonymous online message board, someone had posted "Go grab a pizza, fatass" as an insult to a fat person.<LINE>
+That phrase exploded in popularity on the internet.<LINE>
+"Pizza ota" gives the nuanced connotation of an otaku with metabolic syndrome who lazes around at home alone all day eating pizza while watching anime.
+<END2>
+
+#WRITE(PTR, $000013F0)
+Bit Particle Gun
+<END2>
+
+#WRITE(PTR, $000013F2)
+は
+<END2>
+
+#WRITE(PTR, $000013F4)
+<END2>
+
+#WRITE(PTR, $000013F6)
+Future Gadgets
+<END2>
+
+#WRITE(PTR, $000013F8)
+Future Gadget No. 1.<LINE>
+The first glorius Future Gadget invention, a toy ray gun with a TV remote jammed inside.<LINE>
+You can change channels by pointing it at the TV and pulling the trigger.<LINE>
+However, the only supported button is Channel+.<LINE>
+No other buttons, like Volume Control are usable. To turn the TV on, you must manually flip the switch on the TV.<LINE>
+Its name originates from the monumental work in the history of Japanese robot anime, "Mobile Jacket Gunbam".
+<END2>
+
+#WRITE(PTR, $00001410)
+VIP
+<END2>
+
+#WRITE(PTR, $00001412)
+は
+<END2>
+
+#WRITE(PTR, $00001414)
+<END2>
+
+#WRITE(PTR, $00001416)
+Net
+<END2>
+
+#WRITE(PTR, $00001418)
+@channel's "Newsflash VIP Board".<LINE>
+Though it's called "newsflash", it's currently mostly made of idle chat threads.
+<END2>
+
+#WRITE(PTR, $00001430)
+Final Answer
+<END2>
+
+#WRITE(PTR, $00001432)
+は
+<END2>
+
+#WRITE(PTR, $00001434)
+<END2>
+
+#WRITE(PTR, $00001436)
+Net
+<END2>
+
+#WRITE(PTR, $00001438)
+Abbreviated as FA in Japanese.<LINE>
+Used in the question "Is that your final answer?".<LINE>
+Internet slang.<LINE>
+Originates from a popular quiz show with contestants who want to be millionaires.
+<END2>
+
+#WRITE(PTR, $00001450)
+Fermat’s last theorem
+<END2>
+
+#WRITE(PTR, $00001452)
+は
+<END2>
+
+#WRITE(PTR, $00001454)
+<END2>
+
+#WRITE(PTR, $00001456)
+Other
+<END2>
+
+#WRITE(PTR, $00001458)
+A mathematical theorem stating that "For any integer n greater than 2, no three integers X, Y, and Z exist so that X^n＋Y^n＝Z^n." The theorem went unsolved for nearly 360 years, but it was finally proven in 1995.
+<END2>
+
+#WRITE(PTR, $00001470)
+Ha ha!
+<END2>
+
+#WRITE(PTR, $00001472)
+は
+<END2>
+
+#WRITE(PTR, $00001474)
+<END2>
+
+#WRITE(PTR, $00001476)
+Net
+<END2>
+
+#WRITE(PTR, $00001478)
+Internet slang used for contempt.<LINE>
+Used with a sneering smily face pointing its finger.
+<END2>
+
+#WRITE(PTR, $00001490)
+Main Weaponry Shop
+<END2>
+
+#WRITE(PTR, $00001492)
+は
+<END2>
+
+#WRITE(PTR, $00001494)
+<END2>
+
+#WRITE(PTR, $00001496)
+Akihabara
+<END2>
+
+#WRITE(PTR, $00001498)
+(Fictional) One of several replica weapons shops in Akihabara.<LINE>
+Their products include Japanese Sengoku period swords, European Middle Age swords, and knight armor.
+<END2>
+
+#WRITE(PTR, $000014B0)
+Fujoshi
+<END2>
+
+#WRITE(PTR, $000014B2)
+は
+<END2>
+
+#WRITE(PTR, $000014B4)
+<END2>
+
+#WRITE(PTR, $000014B6)
+Otaku
+<END2>
+
+#WRITE(PTR, $000014B8)
+Primarily refers to women who enjoy things like anime, games, and doujinshi depicting homosexual romance between men ("yaoi" so to speak).<LINE>
+Does not apply to mere female otaku.
+<END2>
+
+#WRITE(PTR, $000014D0)
+Flag
+<END2>
+
+#WRITE(PTR, $000014D2)
+は
+<END2>
+
+#WRITE(PTR, $000014D4)
+<END2>
+
+#WRITE(PTR, $000014D6)
+Otaku
+<END2>
+
+#WRITE(PTR, $000014D8)
+Computer game term.<LINE>
+Refers to foreshadowing, but in this case includes the particular meaning of a "promised pattern".<LINE>
+The phrasing "XX Flag" means "a switch for XX to happen in the future".<LINE>
+Death Flags and Romance Flags are the representative examples.
+<END2>
+
+#WRITE(PTR, $000014F0)
+Fractal structure
+<END2>
+
+#WRITE(PTR, $000014F2)
+は
+<END2>
+
+#WRITE(PTR, $000014F4)
+<END2>
+
+#WRITE(PTR, $000014F6)
+Other
+<END2>
+
+#WRITE(PTR, $000014F8)
+Means a super-simple structure, or a figure demonstrating self-similarity.<LINE>
+A general concept in geometry. An infitesimal portion of a fractal bares similarity to its whole.<LINE>
+Take snowflake crystalization for example. One corner of the crystal is the same as its whole.<LINE>
+Another example is the length of a coastline measured with different length rulers. The smaller the ruler, the longer the length.
+<END2>
+
+#WRITE(PTR, $00001510)
+Placebo Effect
+<END2>
+
+#WRITE(PTR, $00001512)
+は
+<END2>
+
+#WRITE(PTR, $00001514)
+<END2>
+
+#WRITE(PTR, $00001516)
+Other
+<END2>
+
+#WRITE(PTR, $00001518)
+A sham or simulated medical intervention.<LINE>
+A placebo is something that seems like medicine, but has no medical effect.<LINE>
+When taken by a patient who believes it to be medicine, it gives them psychological stability.<LINE>
+Despite placebos having no medical effect, there are cases where a patient's condition improves.
+<END2>
+
+#WRITE(PTR, $00001530)
+Blood Tune
+<END2>
+
+#WRITE(PTR, $00001532)
+は
+<END2>
+
+#WRITE(PTR, $00001534)
+<END2>
+
+#WRITE(PTR, $00001536)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001538)
+(Fictional) The TV anime, "Blood Tune: THE ANIMATION".<LINE>
+Originally a comic, got an anime adaptation last year as part of a mixed-media project.<LINE>
+26 episodes were broadcast, gathering great attention from anime fans.<LINE>
+The numerous figures of the main heroine, "Seira Orgel", became especially popular.
+<END2>
+
+#WRITE(PTR, $00001550)
+plz
+<END2>
+
+#WRITE(PTR, $00001552)
+は
+<END2>
+
+#WRITE(PTR, $00001554)
+<END2>
+
+#WRITE(PTR, $00001556)
+Net
+<END2>
+
+#WRITE(PTR, $00001558)
+Short for "please".
+<END2>
+
+#WRITE(PTR, $00001570)
+Furepara
+<END2>
+
+#WRITE(PTR, $00001572)
+は
+<END2>
+
+#WRITE(PTR, $00001574)
+<END2>
+
+#WRITE(PTR, $00001576)
+Net
+<END2>
+
+#WRITE(PTR, $00001578)
+(Fictional) An especially popular website for SNS service.<LINE>
+SNS is short for Social Network Service.<LINE>
+As a community website, its invitation and registration systems take various forms.<LINE>
+Its construction allows users to easily communicate online.
+<END2>
+
+#WRITE(PTR, $00001590)
+Hund's law
+<END2>
+
+#WRITE(PTR, $00001592)
+は
+<END2>
+
+#WRITE(PTR, $00001594)
+<END2>
+
+#WRITE(PTR, $00001596)
+Science
+<END2>
+
+#WRITE(PTR, $00001598)
+Rule governing the placement of an atom's electrons.<LINE>
+Orbitals of the same energy are each filled with one electron of the same spin before any are filled with a second.
+<END2>
+
+#WRITE(PTR, $000015B0)
+Parallel worlds
+<END2>
+
+#WRITE(PTR, $000015B2)
+は
+<END2>
+
+#WRITE(PTR, $000015B4)
+<END2>
+
+#WRITE(PTR, $000015B6)
+Other
+<END2>
+
+#WRITE(PTR, $000015B8)
+A coexisting universe in separate time-space.<LINE>
+There are also cases where parallel worlds have the exact same dimensions as our world, or even sometimes the same people or objects.
+<END2>
+
+#WRITE(PTR, $000015D0)
+BASIC
+<END2>
+
+#WRITE(PTR, $000015D2)
+は
+<END2>
+
+#WRITE(PTR, $000015D4)
+<END2>
+
+#WRITE(PTR, $000015D6)
+Other
+<END2>
+
+#WRITE(PTR, $000015D8)
+Short for "Beginner's All purpose Symbolic Instruciton Code".<LINE>
+A beginner's programming language frequently used in the 1970s.
+<END2>
+
+#WRITE(PTR, $000015F0)
+β Endorphins
+<END2>
+
+#WRITE(PTR, $000015F2)
+は
+<END2>
+
+#WRITE(PTR, $000015F4)
+<END2>
+
+#WRITE(PTR, $000015F6)
+Other
+<END2>
+
+#WRITE(PTR, $000015F8)
+A neurotransmitter secreted by the brain.<LINE>
+Also called an endogenous opioid.<LINE>
+Effectively suppresses pain and stress, producing euphoria.<LINE>
+The effect known in marathons as "runner's high" can be explained by the secretion of these β endorphins
+<END2>
+
+#WRITE(PTR, $00001610)
+Penicillin
+<END2>
+
+#WRITE(PTR, $00001612)
+は
+<END2>
+
+#WRITE(PTR, $00001614)
+<END2>
+
+#WRITE(PTR, $00001616)
+Other
+<END2>
+
+#WRITE(PTR, $00001618)
+The world's first antibiotic.<LINE>
+Discovered in 1929.
+<END2>
+
+#WRITE(PTR, $00001630)
+Verthandi
+<END2>
+
+#WRITE(PTR, $00001632)
+は
+<END2>
+
+#WRITE(PTR, $00001634)
+<END2>
+
+#WRITE(PTR, $00001636)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00001638)
+The second sister of the three Norns (goddesses of fate) in Norse mythology.<LINE>
+The three sisters raise the world tree, Yggdrasil, from Urd's fountain which lays at its roots.<LINE>
+Urd is considered the Norn of the Present.<LINE>
+Popularized in Japan by a certain Goddess! manga.
+<END2>
+
+#WRITE(PTR, $00001650)
+Stock transformation scene
+<END2>
+
+#WRITE(PTR, $00001652)
+は
+<END2>
+
+#WRITE(PTR, $00001654)
+<END2>
+
+#WRITE(PTR, $00001656)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001658)
+Refers to the transformation sequences in morphing hero and magical girl anime, as well as their direction.<LINE>
+Since stock transformation scenes are used in nearly every episode of TV anime series, their animation direction is done independently in advance.<LINE>
+As a result, the production quality is often higher than that of the rest of the anime.
+<END2>
+
+#WRITE(PTR, $00001670)
+An editing company
+<END2>
+
+#WRITE(PTR, $00001672)
+は
+<END2>
+
+#WRITE(PTR, $00001674)
+<END2>
+
+#WRITE(PTR, $00001676)
+Other
+<END2>
+
+#WRITE(PTR, $00001678)
+Abbreviated in Japanese.<LINE>
+Contracted for design and editorial work from various publishers.
+<END2>
+
+#WRITE(PTR, $00001690)
+Pager
+<END2>
+
+#WRITE(PTR, $00001692)
+は
+<END2>
+
+#WRITE(PTR, $00001694)
+<END2>
+
+#WRITE(PTR, $00001696)
+Other
+<END2>
+
+#WRITE(PTR, $00001698)
+A system used to send signals to a small-sized receiver. Also the popular name for that small receiver.<LINE>
+Service in Japan started around 1968.<LINE>
+Support for sending text data was added in the 1990s, gaining explosive popularity among high school girls.<LINE>
+However, that popularity soon died upon the entry of cellphones, and in 2007, pager service was terminated.
+<END2>
+
+#WRITE(PTR, $000016B0)
+Mall
+<END2>
+
+#WRITE(PTR, $000016B2)
+は
+<END2>
+
+#WRITE(PTR, $000016B4)
+<END2>
+
+#WRITE(PTR, $000016B6)
+Other
+<END2>
+
+#WRITE(PTR, $000016B8)
+Literally "Pedestrian Paradise".<LINE>
+An area where automobile traffic is prohibited.
+<END2>
+
+#WRITE(PTR, $000016D0)
+White hole
+<END2>
+
+#WRITE(PTR, $000016D2)
+は
+<END2>
+
+#WRITE(PTR, $000016D4)
+<END2>
+
+#WRITE(PTR, $000016D6)
+Science
+<END2>
+
+#WRITE(PTR, $000016D8)
+The reverse of a black hole.<LINE>
+While nothing can escape a black hole, everything is released from a white hole.<LINE>
+Their existence is hinted at theoreticaly, but actual proof is impossible.<LINE>
+They have never been observed.
+<END2>
+
+#WRITE(PTR, $000016F0)
+Mindorz
+<END2>
+
+#WRITE(PTR, $000016F2)
+ま
+<END2>
+
+#WRITE(PTR, $000016F4)
+<END2>
+
+#WRITE(PTR, $000016F6)
+Net
+<END2>
+
+#WRITE(PTR, $000016F8)
+(Fictional) A computer OS (Operating System). Boasts top share in the world.
+<END2>
+
+#WRITE(PTR, $00001710)
+Mind control
+<END2>
+
+#WRITE(PTR, $00001712)
+ま
+<END2>
+
+#WRITE(PTR, $00001714)
+<END2>
+
+#WRITE(PTR, $00001716)
+Other
+<END2>
+
+#WRITE(PTR, $00001718)
+The art of leading people to believe they made a choice out of free will, but in actuality, guide them to a predetermined outcome.<LINE>
+Unlike brainwashing, the subject does not believe they are being compelled.<LINE>
+An example of one type of mind control is where a roadside palm reader creates an atmosphere where their target can't refuse an invitation to a cult.
+<END2>
+
+#WRITE(PTR, $00001730)
+Demon mod
+<END2>
+
+#WRITE(PTR, $00001732)
+ま
+<END2>
+
+#WRITE(PTR, $00001734)
+<END2>
+
+#WRITE(PTR, $00001736)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001738)
+In its actual meaning, refers to taking something like a bishoujo figure and forcibly removing clothes not intended to be removed; a nudity modification.<LINE>
+However, the term can also refer to the forciful modification of other objects to do things they're not intended to.<LINE>
+Demon mod does not apply to "cast off" figures, where the clothing parts are intended to be removed.
+<END2>
+
+#WRITE(PTR, $00001750)
+MacDyver
+<END2>
+
+#WRITE(PTR, $00001752)
+ま
+<END2>
+
+#WRITE(PTR, $00001754)
+<END2>
+
+#WRITE(PTR, $00001756)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001758)
+(Fictional) Shown in Japan as "Adventure Lover MacDyver".<LINE>
+A popular TV drama that aired in America for seven years starting 1985.<LINE>
+The protagonist, MacDyver, would use everyday objects and his wealth of knowledge to escape from crises.
+<END2>
+
+#WRITE(PTR, $00001770)
+McD
+<END2>
+
+#WRITE(PTR, $00001772)
+ま
+<END2>
+
+#WRITE(PTR, $00001774)
+<END2>
+
+#WRITE(PTR, $00001776)
+Other
+<END2>
+
+#WRITE(PTR, $00001778)
+(Fictional) A fast food restaurant chain boasting top market share.<LINE>
+A hamburger shop originating in America.
+<END2>
+
+#WRITE(PTR, $00001790)
+Magnetron
+<END2>
+
+#WRITE(PTR, $00001792)
+ま
+<END2>
+
+#WRITE(PTR, $00001794)
+<END2>
+
+#WRITE(PTR, $00001796)
+Other
+<END2>
+
+#WRITE(PTR, $00001798)
+A type of vacuum tube.<LINE>
+Used in microwave ovens and radar.<LINE>
+Produces a strong microwave.
+<END2>
+
+#WRITE(PTR, $000017B0)
+Master Cheaton
+<END2>
+
+#WRITE(PTR, $000017B2)
+ま
+<END2>
+
+#WRITE(PTR, $000017B4)
+<END2>
+
+#WRITE(PTR, $000017B6)
+Otaku
+<END2>
+
+#WRITE(PTR, $000017B8)
+(Fictional) A popular Japanese comic serialized for six years starting 1988.<LINE>
+Follows the activities of the protagonist, who is an archeologist, and a survival instructor, and an insurance investigator.
+<END2>
+
+#WRITE(PTR, $000017D0)
+Once again I made something stupid
+<END2>
+
+#WRITE(PTR, $000017D2)
+ま
+<END2>
+
+#WRITE(PTR, $000017D4)
+<END2>
+
+#WRITE(PTR, $000017D6)
+Future Gadgets
+<END2>
+
+#WRITE(PTR, $000017D8)
+Future Gadget No. 5.<LINE>
+The Future Gadget of dreams formed by the union of a dryer and a vacuum.<LINE>
+The dryer is operated using the exhaust of the vacuum.<LINE>
+Its name is derived from the phantom thief anime, "Lupants the Third".
+<END2>
+
+#WRITE(PTR, $000017F0)
+True Name
+<END2>
+
+#WRITE(PTR, $000017F2)
+ま
+<END2>
+
+#WRITE(PTR, $000017F4)
+<END2>
+
+#WRITE(PTR, $000017F6)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $000017F8)
+The name revealing one's true essence.<LINE>
+Soul name.
+<END2>
+
+#WRITE(PTR, $00001810)
+Shit sucks
+<END2>
+
+#WRITE(PTR, $00001812)
+ま
+<END2>
+
+#WRITE(PTR, $00001814)
+<END2>
+
+#WRITE(PTR, $00001816)
+Net
+<END2>
+
+#WRITE(PTR, $00001818)
+A corruption of "shit sucks"/"mendokusai".
+<END2>
+
+#WRITE(PTR, $00001830)
+Miko Miko Overdrive
+<END2>
+
+#WRITE(PTR, $00001832)
+ま
+<END2>
+
+#WRITE(PTR, $00001834)
+<END2>
+
+#WRITE(PTR, $00001836)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001838)
+(Fictional) A bishoujo transformation anime with five miko girls as the protagonists.<LINE>
+Its main target audience is elementary schoolgirls, and by no means men in their teens to 20s.
+<END2>
+
+#WRITE(PTR, $00001850)
+Mistilteinn
+<END2>
+
+#WRITE(PTR, $00001852)
+ま
+<END2>
+
+#WRITE(PTR, $00001854)
+<END2>
+
+#WRITE(PTR, $00001856)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00001858)
+A legendary sword in Norse mythology.<LINE>
+A mistletoe transfigured into a sword.<LINE>
+Stole away the life of the undying god Baldr, instigating the final war of the gods.
+<END2>
+
+#WRITE(PTR, $00001870)
+MewTube
+<END2>
+
+#WRITE(PTR, $00001872)
+ま
+<END2>
+
+#WRITE(PTR, $00001874)
+<END2>
+
+#WRITE(PTR, $00001876)
+Net
+<END2>
+
+#WRITE(PTR, $00001878)
+(Fictional) An internet video sharing service in America.
+<END2>
+
+#WRITE(PTR, $00001890)
+Mili-ota
+<END2>
+
+#WRITE(PTR, $00001892)
+ま
+<END2>
+
+#WRITE(PTR, $00001894)
+<END2>
+
+#WRITE(PTR, $00001896)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001898)
+Short for "military otaku".<LINE>
+People with heavy interest in military affairs.
+<END2>
+
+#WRITE(PTR, $000018B0)
+ms
+<END2>
+
+#WRITE(PTR, $000018B2)
+ま
+<END2>
+
+#WRITE(PTR, $000018B4)
+<END2>
+
+#WRITE(PTR, $000018B6)
+Other
+<END2>
+
+#WRITE(PTR, $000018B8)
+0.001 seconds.
+<END2>
+
+#WRITE(PTR, $000018D0)
+Minmei Shobou
+<END2>
+
+#WRITE(PTR, $000018D2)
+ま
+<END2>
+
+#WRITE(PTR, $000018D4)
+<END2>
+
+#WRITE(PTR, $000018D6)
+Otaku
+<END2>
+
+#WRITE(PTR, $000018D8)
+A fictional publisher from a certain manga.<LINE>
+They mainly publish various writings about the competitions (which of course are fictional).<LINE>
+"Quoting" Minmei Shobou does indeed seem to give credibility to information.
+<END2>
+
+#WRITE(PTR, $000018F0)
+Maid cafe
+<END2>
+
+#WRITE(PTR, $000018F2)
+ま
+<END2>
+
+#WRITE(PTR, $000018F4)
+<END2>
+
+#WRITE(PTR, $000018F6)
+Otaku
+<END2>
+
+#WRITE(PTR, $000018F8)
+A type of cafe which began to pop up all over the heart of Akihabara in the 2000s.<LINE>
+The employees are essentially all female and wear maid cosplay outfits.<LINE>
+They occasionally greet the customers by saying "Welcome home, Master."<LINE>
+Patrons can talk to the employees and play games with them, but the store's product is food, not sex.
+<END2>
+
+#WRITE(PTR, $00001910)
+Jelly
+<END2>
+
+#WRITE(PTR, $00001912)
+ま
+<END2>
+
+#WRITE(PTR, $00001914)
+<END2>
+
+#WRITE(PTR, $00001916)
+Net
+<END2>
+
+#WRITE(PTR, $00001918)
+Jelly, corruption of jealous.
+<END2>
+
+#WRITE(PTR, $00001930)
+Media Scrum
+<END2>
+
+#WRITE(PTR, $00001932)
+ま
+<END2>
+
+#WRITE(PTR, $00001934)
+<END2>
+
+#WRITE(PTR, $00001936)
+Other
+<END2>
+
+#WRITE(PTR, $00001938)
+When television stations and newspaper companies exert their right to freedom of the press during disasters and events with high social interest by flooding the house of a related individual.<LINE>
+These sudden attacks are a great invasion of privacy and can inflict mental and emotional stress on the related individual.
+<END2>
+
+#WRITE(PTR, $00001950)
+Menger's sponge
+<END2>
+
+#WRITE(PTR, $00001952)
+ま
+<END2>
+
+#WRITE(PTR, $00001954)
+<END2>
+
+#WRITE(PTR, $00001956)
+Other
+<END2>
+
+#WRITE(PTR, $00001958)
+An example of fractal structure.<LINE>
+Holes are cut in all six sides of a cube with the following rules:<LINE>
+1. Cut a square from the center with 1/9 the area of the face.<LINE>
+2. Each of the 8 squares surrounding that hole has 1/9 of the square cut out of its respective center.<LINE>
+3. This repeats infinitely.<LINE>
+The Sponge's surface area approaches infinity while its volume approaches zero.
+<END2>
+
+#WRITE(PTR, $00001970)
+Moad Snake
+<END2>
+
+#WRITE(PTR, $00001972)
+ま
+<END2>
+
+#WRITE(PTR, $00001974)
+<END2>
+
+#WRITE(PTR, $00001976)
+Future Gadgets
+<END2>
+
+#WRITE(PTR, $00001978)
+Future Gadget No. 4.<LINE>
+An instant super-humidifier.<LINE>
+Boils a large volume of water with countless electric heating coils, spewing a tremendous amount of steam.<LINE>
+Though it can only be used continuously for a few seconds, it instantaneously humidifies a room up to six tatami mats (about 12 square meters).<LINE>
+It's the spitting image of a claymore land mine, appealing to the hearts of mili ota.<LINE>
+Its name is derived from the stealth action game, "Metal Moa Solid: Rising".
+<END2>
+
+#WRITE(PTR, $00001990)
+Could this be "ORAORA"?
+<END2>
+
+#WRITE(PTR, $00001992)
+ま
+<END2>
+
+#WRITE(PTR, $00001994)
+<END2>
+
+#WRITE(PTR, $00001996)
+Future Gadgets
+<END2>
+
+#WRITE(PTR, $00001998)
+Future Gadget No. 3.<LINE>
+A lie detector based on thumb perspiration.<LINE>
+Though it might be more appropriate to call it a sweat detector, you gotta admit it's a pretty clever invention.<LINE>
+Its name is derived from the cult classic manga, "JuJu's Bizarre Adventure".
+<END2>
+
+#WRITE(PTR, $000019B0)
+Problem video
+<END2>
+
+#WRITE(PTR, $000019B2)
+ま
+<END2>
+
+#WRITE(PTR, $000019B4)
+<END2>
+
+#WRITE(PTR, $000019B6)
+Net
+<END2>
+
+#WRITE(PTR, $000019B8)
+A CG mockup video of an LHC-generated mini black hole engulfing the earth and annihilating. Became worldwide news when it was uploaded to MewTube.
+<END2>
+
+#WRITE(PTR, $000019D0)
+UPX
+<END2>
+
+#WRITE(PTR, $000019D2)
+や
+<END2>
+
+#WRITE(PTR, $000019D4)
+<END2>
+
+#WRITE(PTR, $000019D6)
+Akihabara
+<END2>
+
+#WRITE(PTR, $000019D8)
+(Fictional) Akihabara's UPX building. Read as "you pee eks".
+<END2>
+
+#WRITE(PTR, $000019F0)
+Yuri
+<END2>
+
+#WRITE(PTR, $000019F2)
+や
+<END2>
+
+#WRITE(PTR, $000019F4)
+<END2>
+
+#WRITE(PTR, $000019F6)
+Otaku
+<END2>
+
+#WRITE(PTR, $000019F8)
+Homosexual romance between women.
+<END2>
+
+#WRITE(PTR, $00001A10)
+4th Dimension
+<END2>
+
+#WRITE(PTR, $00001A12)
+や
+<END2>
+
+#WRITE(PTR, $00001A14)
+<END2>
+
+#WRITE(PTR, $00001A16)
+Science
+<END2>
+
+#WRITE(PTR, $00001A18)
+In this case refers to four dimensional spacetime.<LINE>
+The fourth dimension of "time" is added to the three spatial dimensions of "width, length, and height".
+<END2>
+
+#WRITE(PTR, $00001A30)
+Cup ramen
+<END2>
+
+#WRITE(PTR, $00001A32)
+や
+<END2>
+
+#WRITE(PTR, $00001A34)
+<END2>
+
+#WRITE(PTR, $00001A36)
+Akihabara
+<END2>
+
+#WRITE(PTR, $00001A38)
+Ramen packaged in a can like a canned drink just like canned oden. Sold in vending machines.<LINE>
+Unlike regular ramen, the noodles use konjac.
+<END2>
+
+#WRITE(PTR, $00001A50)
+RaiNet Kakeru
+<END2>
+
+#WRITE(PTR, $00001A52)
+や
+<END2>
+
+#WRITE(PTR, $00001A54)
+<END2>
+
+#WRITE(PTR, $00001A56)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001A58)
+(Fictional) A popular manga serialized in LocoLoco Comics. The third season of the anime adaptation is currently airing on ToTV.<LINE>
+Children are learning about the Internet through this anime. It has reached the point where some scholars claim that children are better informed than their parents with regard to Internet issues. People are even calling this new generation "RaiNet Children".<LINE>
+Some politicians and organizations have strongly criticized the series for "encouraging children to become hikikomori" by idealizing boys and girls who are obsessed with computers. However, a majority of adults praise the series for teaching children about the Internet, Internet morality, copyright infringement, and privacy protection.<LINE>
+The series is not merely an educational program. As Kakeru battles terrorists in cyberspace, his techniques are represented as virtual robots while his enemies' viruses take the form of monsters. This makes the confrontations easy to visualize, with well-timed perspective changes depicting both the protagonist's techniques inside the computer, and his friends' teamwork outside the computer.
+<END2>
+
+#WRITE(PTR, $00001A70)
+Ragnarok
+<END2>
+
+#WRITE(PTR, $00001A72)
+や
+<END2>
+
+#WRITE(PTR, $00001A74)
+<END2>
+
+#WRITE(PTR, $00001A76)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00001A78)
+In Norse Mythology, the final war of the gods.<LINE>
+"Twilight of the Gods"
+<END2>
+
+#WRITE(PTR, $00001A90)
+Light novel
+<END2>
+
+#WRITE(PTR, $00001A92)
+や
+<END2>
+
+#WRITE(PTR, $00001A94)
+<END2>
+
+#WRITE(PTR, $00001A96)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001A98)
+Illustrated novels targeted primarily for teenage boys.<LINE>
+Often have illustrations of lovely maidens on the covers.<LINE>
+Usually have more illustrations than conventional novels.<LINE>?
+Stories range from scifi to fantasy, but in recent years, more and more fundamentally revolve around middle or high school aged boys meeting beautiful girls their age and getting involved with extraordinary circumstances.
+<END2>
+
+#WRITE(PTR, $00001AB0)
+Normalfag
+<END2>
+
+#WRITE(PTR, $00001AB2)
+や
+<END2>
+
+#WRITE(PTR, $00001AB4)
+<END2>
+
+#WRITE(PTR, $00001AB6)
+Net
+<END2>
+
+#WRITE(PTR, $00001AB8)
+People who flaunt their flourishing fulfillment in the normal, real world.<LINE>
+Examples include "I have many friends", "I have a girlfriend", "I work hard at club activities", "I party every night", "I'm not interested in 2D", and "I vacationed abroad this summer".
+<END2>
+
+#WRITE(PTR, $00001AD0)
+Quantum teleportation
+<END2>
+
+#WRITE(PTR, $00001AD2)
+や
+<END2>
+
+#WRITE(PTR, $00001AD4)
+<END2>
+
+#WRITE(PTR, $00001AD6)
+Science
+<END2>
+
+#WRITE(PTR, $00001AD8)
+Does not refer to actual teleportation.<LINE>
+In 2004, Japanese researchers made their first successful "complete quantum leap experiment".<LINE>
+Suppose we have twin particles(photons in this case), A and B. Since they are twins, they have the property of symmetry; if one is spinning face up, the other is spinning face down.<LINE>
+Meaning observation of either A or B allows one to know the status of both without observing the other one. This is called entanglement.<LINE>
+The state of an elementary particle(photon) cannot be confirmed until observed.<LINE>
+Several states overlap; the state is "undetermined" until observation.<LINE>
+We can use entanglement, and attach Data C, the information we want to teleport, to Photon A with the observation equipment. By observing this entangled state, that is, "AC", we can be assured that no matter how far away B is, we can decide its state as "BC".<LINE>
+(At this point, B has not been observed) Afterwards, once we send Photon AC's information from A's observation equipment to B's observation equipment through traditional transmissions, observing Photon B changes it to "Photon BC".<LINE>
+This process is called quantum teleportation because Data C actually teleports. However, since one step requires using traditional information transmission, it is impossible for the information to exceed the speed of light.<LINE>
+Finally, Photon BC's "teleported" Data C is actually a copy of Photon AC's Data C. The whereabouts of the original Photon C become unknown.<LINE>
+This point differentiates quantum teleportation from actual teleportation.
+<END2>
+
+#WRITE(PTR, $00001AF0)
+Louise-chan
+<END2>
+
+#WRITE(PTR, $00001AF2)
+や
+<END2>
+
+#WRITE(PTR, $00001AF4)
+<END2>
+
+#WRITE(PTR, $00001AF6)
+Otaku
+<END2>
+
+#WRITE(PTR, $00001AF8)
+(Fictional) The main heroine of the anime "The Familiar of Ten".<LINE>
+Tsundere.<LINE>
+Her voice actress is called the Tsundere Queen, Sugimiya Rie (Nicknamed Sugyuu).
+<END2>
+
+#WRITE(PTR, $00001B10)
+Laegjarn
+<END2>
+
+#WRITE(PTR, $00001B12)
+や
+<END2>
+
+#WRITE(PTR, $00001B14)
+<END2>
+
+#WRITE(PTR, $00001B16)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00001B18)
+In Norse mythology, the gigantic chest protected by 9 locks. Houses the cursed sword, Laevateinn.
+<END2>
+
+#WRITE(PTR, $00001B30)
+Resistance
+<END2>
+
+#WRITE(PTR, $00001B32)
+や
+<END2>
+
+#WRITE(PTR, $00001B34)
+<END2>
+
+#WRITE(PTR, $00001B36)
+Other
+<END2>
+
+#WRITE(PTR, $00001B38)
+The armed act of rebellion against an entity such as the government using illegal means.<LINE>
+Also refers to the people who participate in such acts.<LINE>
+Differentiated by terrorism by a thin line.
+<END2>
+
+#WRITE(PTR, $00001B50)
+Alchemy
+<END2>
+
+#WRITE(PTR, $00001B52)
+や
+<END2>
+
+#WRITE(PTR, $00001B54)
+<END2>
+
+#WRITE(PTR, $00001B56)
+Conspiracy
+<END2>
+
+#WRITE(PTR, $00001B58)
+In fiction and conspiracy theories, refers to the art of transmuting any material into something else, using human bodies or souls as catalysts.<LINE>
+Equivalent exchange is essential.<LINE>
+European alchemists in the middle ages attempted to use chemical processes to purify precious metals.<LINE>
+Their techniques and results became what is now modern chemistry.
+<END2>
+
+#WRITE(PTR, $00001B70)
+Low angler
+<END2>
+
+#WRITE(PTR, $00001B72)
+や
+<END2>
+
+#WRITE(PTR, $00001B74)
+<END2>
+
+#WRITE(PTR, $00001B76)
+Akihabara
+<END2>
+
+#WRITE(PTR, $00001B78)
+In Akihabara, Chuo Dori opens up as a pedestrian zone.<LINE>
+During that time, various female cosplayers and idols hold photo shoots on the road.<LINE>
+Many otaku come to these events holding cameras.<LINE>
+The ones that photograph the women from a low angle are called low anglers.
+<END2>
+
+#WRITE(PTR, $00001B90)
+LOTO SIX
+<END2>
+
+#WRITE(PTR, $00001B92)
+や
+<END2>
+
+#WRITE(PTR, $00001B94)
+<END2>
+
+#WRITE(PTR, $00001B96)
+Other
+<END2>
+
+#WRITE(PTR, $00001B98)
+A lottery where you buy a sheet printed with the numbers 01 to 43 and choose six.<LINE>
+Winning numbers are announced every week.<LINE>
+If nobody wins, the prize carries over to the next week, so the prize amount varies with time.
+<END2>
+
+#WRITE(PTR, $00001BB0)
+Lobotomy
+<END2>
+
+#WRITE(PTR, $00001BB2)
+や
+<END2>
+
+#WRITE(PTR, $00001BB4)
+<END2>
+
+#WRITE(PTR, $00001BB6)
+Other
+<END2>
+
+#WRITE(PTR, $00001BB8)
+A surgical brain treatment for mental disorders.<LINE>
+A small hole is made into the skull, and the frontal lobe is cut with a long scalpel.<LINE>
+There are cases where this technique has cured mental disorders, enough to earn the developer a Nobel prize.<LINE>
+However, the technique has also caused serious mental side effects and loss of humanity.
+<END2>
+
+#WRITE(PTR, $00001BD0)
+World Wide Web
+<END2>
+
+#WRITE(PTR, $00001BD2)
+わ
+<END2>
+
+#WRITE(PTR, $00001BD4)
+<END2>
+
+#WRITE(PTR, $00001BD6)
+Net
+<END2>
+
+#WRITE(PTR, $00001BD8)
+Abbreviated as WWW.<LINE>
+Also simply called the "web".<LINE>
+The standardized document system used on the internet.
+<END2>
+
+#WRITE(PTR, $00001BF0)
+lol
+<END2>
+
+#WRITE(PTR, $00001BF2)
+わ
+<END2>
+
+#WRITE(PTR, $00001BF4)
+<END2>
+
+#WRITE(PTR, $00001BF6)
+Net
+<END2>
+
+#WRITE(PTR, $00001BF8)
+Lots of laughter.<LINE>
+On anonymous online message boards, repeating lol's denotes the level of laughter, and is used in scorn.
+<FILEENDA0>
+

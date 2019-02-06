@@ -1,0 +1,612 @@
+<PRE @box00>[text00010]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1219" mode="on">
+"Хммм..."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1220" mode="on">
+"Исчезновение IBN 5100 может быть следствием изменения прошлого, верно?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2031" mode="on">
+"О! Значит, ты мне поверила!"
+
+</PRE>
+
+<PRE @box00>[text00020]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1221" mode="on">
+"Но с моей точки зрения, все D-мейлы, посланные нами, имели довольно безобидное содержание."
+
+</PRE>
+
+<PRE @box00>[text00030]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0518" mode="on">
+"Мм, мы послали то письмо, когда поняли, что Мобиловолновка является машиной времени, да?"
+
+</PRE>
+
+<PRE @box00>[text00040]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0697" mode="on">
+"С текстом «Окарин извращенец»."
+
+</PRE>
+
+<PRE @box00>[text00050]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1222" mode="on">
+"Затем, во время экспериментов, я посылала десятки на телефон Окабе. Но их содержание было незначительно, так что я не думаю, что они изменили прошлое."
+
+</PRE>
+
+<PRE @box00>[text00060]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0698" mode="on">
+"Я посылал два. С инструкциями по победе в матче против Фейрис."
+
+</PRE>
+
+<PRE @box00>[text00070]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1223" mode="on">
+"Было ещё одно. Первое письмо, отправленное Окабе, говорящее о моей смерти."
+
+</PRE>
+
+<PRE @box00>[text00080]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2032" mode="on">
+"Но, с моей точки зрения, мы посылали ещё несколько."
+
+</PRE>
+
+<PRE @box00>[text00090]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0519" mode="on">
+"Ты имеешь в виду номера ЛОТО ШЕСТЬ? И как Рука-тян купила билет с этими цифрами, но не выиграла?"
+
+</PRE>
+
+<PRE @box00>[text00100]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1224" mode="on">
+"Но никто, кроме Окабе, не знает, что он его посылал."
+
+</PRE>
+
+<PRE @box00>[text00110]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2033" mode="on">
+"Но я клянусь, что я показывал вам письмо. Оно было среди полученных сообщений в моём телефоне."
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0699" mode="on">
+"Мы были так близки."
+
+</PRE>
+
+<PRE @box00>[text00130]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0520" mode="on">
+"Это всё?"
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2034" mode="on">
+"Нет. Не всё. Моэка и Рукако отправили по одному D-мейлу."
+
+</PRE>
+
+<PRE @box00>[text00150]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1225" mode="on">
+"О, да. Но Окабе единственный, кто об этом знает. Хашида, Маюри-сан и я ничего об этом не слышали."
+
+</PRE>
+
+<PRE @box00>[text00160]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0521" mode="on">
+"Уууу... У Маюши в голове всё перемешалось..."
+
+</PRE>
+
+<PRE @box00>[text00170]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2035" mode="on">
+"Я уже сказал вам, ребята. Только моя память сохраняется после изменения прошлого."
+
+</PRE>
+
+<PRE @box00>[text00180]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1226" mode="on">
+"И когда, с твоей точки зрения, исчез IBN 5100? Когда вы недавно обсуждали его? До какого момента времени ты помнишь его находящимся в лаборатории?"
+
+</PRE>
+
+<PRE @box00>[text00190]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2036" mode="on">
+"Это..."
+
+</PRE>
+
+<PRE @box00>[text00200]
+Я приложил указательный палец ко лбу и начал искать информацию в своей памяти.
+
+</PRE>
+
+<PRE @box00>[text00210]
+IBN 5100... IBN 5100...
+
+</PRE>
+
+<PRE @box00>[text00220]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2037" mode="on">
+"Я уверен, что... 3 августа. Точно помню, что он был в лаборатории до третьего августа."
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1227" mode="on">
+"Уверен?"
+
+</PRE>
+
+<PRE @box00>[text00240]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2038" mode="on">
+"Э... Будем считать, что уверен."
+
+</PRE>
+
+<PRE @box00>[text00250]
+Столько всего произошло, и в моей голове теперь путаница.
+
+Хм, давайте попробуем сформулировать условия, в которых я достал IBN 5100.
+
+Я узнал, что Фейрис хорошо информирована об IBN 5100 как маньяк-коллекционер ретро-ПК.
+
+Девять лет назад Фейрис отдала IBN 5100 в храм Янабаяши на хранение. После беседы с Рукако и его отцом я блистательно отыскал свою цель.
+
+По крайней мере, я помню, что Фейрис и Рукако должны иметь какое-то отношение к IBN.
+
+Было бы странно, если бы я не помнил.
+
+</PRE>
+
+<PRE @box00>[text00260]
+Давайте попробуем им позвонить.
+
+</PRE>
+
+<PRE @box00>[text00270]
+Сначала Рукако.
+
+</PRE>
+
+<PRE @box01>[text00280]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0177" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Да. Окабе-сан, привет."</FONT>
+
+</PRE>
+
+<PRE @box01>[text00290]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0178" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Эм... П-пожалуйста, забудьте о нём..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00300]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2039" mode="on">
+"Хм? О чём?"
+
+</PRE>
+
+<PRE @box01>[text00310]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0179" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"О моём... косплее..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00320]
+А, ты об этом?
+
+Рукако просто смущается без причины.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2040" mode="on">
+"Что важнее, я хочу спросить об IBN 5100."
+
+</PRE>
+
+<PRE @box01>[text00330]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0180" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Э... айбим... пять?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00340]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2041" mode="on">
+"IBN 5100. Кто-то отдал на хранение в ваш храм старый компьютер примерно девять лет назад. Знаешь об этом?"
+
+</PRE>
+
+<PRE @box01>[text00350]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0181" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"..."</FONT>
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0182" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Д-да."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00360]
+Он помнит! Рукако действительно помнит!
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2042" mode="on">
+"Совсем недавно я приходил в храм и искал его, верно? И потом твой отец разрешил мне его одолжить. Правильно?"
+
+</PRE>
+
+<PRE @box01>[text00370]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0183" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Э..?"</FONT>
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0184" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Но это..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00380]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2043" mode="on">
+"...Я ошибаюсь?"
+
+</PRE>
+
+<PRE @box01>[text00390]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0185" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я не помню ничего подобного..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00400]
+Что?
+
+Ещё один результат изменения прошлого?
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2044" mode="on">
+"IBN 5100 точно был в храме, да? Он ещё там?"
+
+</PRE>
+
+<PRE @box01>[text00410]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0186" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Нет... Я не знаю. Не знаю никаких подробностей..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00420]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2045" mode="on">
+"Где ты сейчас? Твой отец рядом?"
+
+</PRE>
+
+<PRE @box01>[text00430]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0187" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"...Нет."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00440]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2046" mode="on">
+"...Ясно. Я понял. Извини за внезапный звонок."
+
+</PRE>
+
+<PRE @box01>[text00450]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0188" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Н-ничего. Извини, что не могу помочь..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00460]
+IBN 5100 действительно был в храме. Это факт.
+
+И Рукако знал это.
+
+Нужно проверить, там ли он сейчас.
+
+</PRE>
+
+<PRE @box00>[text00470]
+Может быть, IBN вернулся в храм?
+
+Неужели этот здоровенный древний ПК отрастил ноги и ускакал обратно?
+
+</PRE>
+
+<PRE @box00>[text00480]
+Это просто нелепо.
+
+</PRE>
+
+<PRE @box00>[text00490]
+Но ведь гельбанан телепортировался из микроволновки обратно в комнату.
+
+Моэка также мгновенно переместилась из лаборатории в неизвестное место.
+
+Учитывая эти факты, можно предположить, что IBN 5100 телепортировался похожим способом. Думаю, потом стоит это проверить.
+
+</PRE>
+
+<PRE @box00>[text00500]
+Теперь Фейрис.
+
+Кстати, я не сказал Фейрис свой номер телефона. Она знает только адрес моей почты.
+
+Так как, если я позвоню Фейрис, я буду вовлечён в её постоянный хаос.
+
+С учетом сказанного...
+
+Передо мной только один возможный маршрут.
+
+</PRE>
+
+<PRE @box00>[text00510]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2047" mode="on">
+"Маюри, я хочу связаться с Фейрис."
+
+</PRE>
+
+<PRE @box00>[text00520]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0522" mode="on">
+"Кхех~?"
+
+Маюри ест эклер.
+
+Похоже, она положила несколько в холодильник, пока я не видел.
+
+</PRE>
+
+<PRE @box00>[text00530]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0523" mode="on">
+"Окарин, хочешь один? Они восхитительны♪"
+
+</PRE>
+
+<PRE @box00>[text00540]
+Я вижу, что Курису и Дару тоже едят.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2048" mode="on">
+"Вы все слишком беззаботны! У нас в лаборатории происходят необьяснимые вещи!"
+
+</PRE>
+
+<PRE @box00>[text00550]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1228" mode="on">
+"Может, у Окабе просто едет крыша. Не вижу смысла в панике."
+
+Нет-нет. Не может быть, однозначно не может быть!
+
+</PRE>
+
+<PRE @box00>[text00560]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0524" mode="on">
+"Тебе зачем-то нужна Фейрис-тян? Она сегодня в кафе?"
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0700" mode="on">
+"У Фейрис-тан сегодня выходной."
+
+</PRE>
+
+<PRE @box00>[text00570]
+Отлично, Дару. Ты знаешь режим работы Фейрис лучше, чем Маюри, её коллега.
+
+Он должен быть удостоен звания Преследователь Фейрис.
+
+</PRE>
+
+<PRE @box00>[text00580]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2049" mode="on">
+"Маюри, ты ведь знаешь её номер телефона? Я хочу ей позвонить."
+
+</PRE>
+
+<PRE @box00>[text00590]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0525" mode="on">
+"Ага. Хорошо!"
+
+Маюри достаёт свой телефон и делает вызов.
+
+Через некоторое время на лице Маюри появляется улыбка.
+
+</PRE>
+
+<PRE @box00>[text00600]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0526" mode="on">
+"А, Фейрис-тян? Добрый день~ня♪ Это Маюши, нян♪"
+
+</PRE>
+
+<PRE @box00>[text00610]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1229" mode="on">
+"Ня, нян..?"
+
+Ах, точно. Курису впервые слышит, как Маюри говорит по-НянНянски.
+
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0527" mode="on">
+"Извини, что беспокою в выходной. Эм, Окарин сказал, что он хочет с тобой поговорить. Передать ему трубку?"
+
+</PRE>
+
+<PRE @box00>[text00620]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0528" mode="on">
+"Ээ? Окарин — это Окарин~!"
+
+</PRE>
+
+<PRE @box00>[text00630]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0529" mode="on">
+"...Хм~? Кёма? Кто такой Кёма~?"
+
+О чём они, вообще?
+
+Кстати, Фейрис единственная, кто называет меня моим настоящим именем, Хооин Кёма. Я ей благодарен, но по-прежнему не знаю, как с ней общаться.
+
+</PRE>
+
+<PRE @box00>[text00640]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0530" mode="on">
+"Ну, просто поговори с ним, ладно~?"
+
+</PRE>
+
+<PRE @box00>[text00650]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0531" mode="on">
+"Держи, Окарин."
+
+</PRE>
+
+<PRE @box00>[text00660]
+Я беру телефон Маюри.
+
+На ЖК экране я вижу лицо Фейрис, украшенное кошачьими ушками, несмотря на то, что у неё выходной.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2050" mode="on">
+"Это я. Хооин Кёма."
+
+</PRE>
+
+<PRE @box01>[text00670]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0109" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Няо♪ Не так часто Кёме что-то от меня нужно, ня."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00680]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2051" mode="on">
+"Я хочу кое-что спросить."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2052" mode="on">
+"Давным-давно, ты отдала IBN 5100 на хранение в храм Янабаяши. Я прав?"
+
+</PRE>
+
+<PRE @box01>[text00690]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0110" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Нян."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00700]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2053" mode="on">
+"Что? Что это твоё «нян» означает, ня?"
+
+Дерьмо, я начал говорить, как она.
+
+Курису хохочет. Похоже, она меня услышала.
+
+</PRE>
+
+<PRE @box01>[text00710]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0111" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Это знячит, что ты прав, ня. Однако я только недавно узнала, что это был IBN 5100, ня."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00720]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2054" mode="on">
+"Что? Почему недавно?"
+
+</PRE>
+
+<PRE @box01>[text00730]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0112" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Дару-нян рассказал мне, ня."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00740]
+Вот оно что...
+
+Во всяком случае, IBN 5100 однозначно был в Янабаяши, и Фейрис это знала.
+
+Значит, IBN 5100 исчез из лаборатории позже?
+
+Нет, Курису и остальные потеряли воспоминания о том, что я принёс в лабораторию. Так что я рассматриваю два варианта.
+
+Первый. Я посетил храм, но не получил IBN 5100. Тогда он ещё там.
+
+Второй. Прежде, чем я посетил храм, кто-то переместил IBN 5100.
+
+Похоже, мне всё-таки придётся идти в храм, чтобы проверить.
+
+</PRE>
+
+<PRE @box01>[text00750]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0113" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Так что насчёт этого ретро-ПК, ня?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00760]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2055" mode="on">
+"А, ничего..."
+
+Кажется, Фейрис была ретро-ПК-маньяком.
+
+Нужно просто убедиться.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2056" mode="on">
+"Что ещё ты знаешь об IBN 5100? Это очень редкий ПК."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2057" mode="on">
+"У тебя ведь много источников информации в Акибе, верно? Не могла бы ты поискать IBN 5100?"
+
+Нам нужно просто найти один экземпляр. Неважно, из храма или откуда-то ещё.
+
+</PRE>
+
+<PRE @box01>[text00770]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0114" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Хмня..."</FONT>
+
+</PRE>
+
+<PRE @box01>[text00780]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0115" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я могу поискать, но на определённых условиях, ня."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00790]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2058" mode="on">
+"Условия?"
+
+Неужели она пытается заключить сделку?
+
+Неожиданно.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2059" mode="on">
+"...Я слушаю."
+
+</PRE>
+
+<PRE @box01>[text00800]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0116" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Тогда я хочу, чтобы ты зашёл домой к Фейрис, ня."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00810]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2060" mode="on">
+"Где находится твой дом?"
+
+Я спешно готовлю блокнот и записываю адрес.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2061" mode="on">
+"А, так ты живёшь в Акибе."
+
+Тогда это займёт не так много времени. Судя по адресу, дом прямо перед станцией.
+
+</PRE>
+
+<PRE @box01>[text00820]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0117" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я буду ждать, нян♪"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00830]
+Я возвращаю телефон Маюри и поднимаюсь с дивана.
+
+Я направляюсь в дом Фейрис и собираюсь заглянуть по пути в храм Янабаяши.
+
+</PRE>
+

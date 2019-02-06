@@ -1,0 +1,885 @@
+<PRE @box00>[text00010]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2264" mode="on">
+"Внимание, разъясняю суть Операции <FONT incolor="#ff7080" outcolor="#000000">Андхримнир</FONT>."
+
+</PRE>
+
+<PRE @box00>[text00020]
+Передо мной сотрудники Маюри, Курису и Рукако.
+
+</PRE>
+
+<PRE @box00>[text00030]
+Похоже, Фейрис и Моэка сейчас заняты, потому я не стал их беспокоить.
+
+</PRE>
+
+<PRE @box00>[text00040]
+Дару отписал мне, мол, я сегодня занят, так что давайте без меня.
+
+</PRE>
+
+<PRE @box00>[text00050]
+Я был готов к тому, что Рукако отклонит моё приглашение, но, похоже, её появление означает, что она простила мне тот инцидент с домогательством. Пока что.
+
+</PRE>
+
+<PRE @box00>[text00060]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2265" mode="on">
+"Я хочу, чтобы вы купили продукты для вечеринки."
+
+</PRE>
+
+<PRE @box00>[text00070]
+Я уже рассказал сотрудникам о вчерашнем разговоре с Сузухой.
+
+</PRE>
+
+<PRE @box00>[text00080]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1274" mode="on">
+"А ты сам что будешь делать?"
+
+</PRE>
+
+<PRE @box00>[text00090]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2266" mode="on">
+"Я? Я намерен преследовать Воина на Полставки и детально доложить о ситуации."
+
+</PRE>
+
+<PRE @box00>[text00100]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1275" mode="on">
+"Прекрати, это нехорошо. Просто оставь её наедине с отцом."
+
+</PRE>
+
+<PRE @box00>[text00110]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2267" mode="on">
+"Хе-хе-хех, не стоит кидаться на каждую мелочь, Кристина. Ты не понимаешь той вещи, что называют человеческой психикой."
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2268" mode="on">
+"В таких случаях люди уходят в отказ просто потому, что собираются достичь желаемого любой ценой!"
+
+</PRE>
+
+<PRE @box00>[text00130]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1276" mode="on">
+"Ты слишком уверен в собственной правоте."
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2269" mode="on">
+"А главное, Кристина. Вы с Воином на Полставки сейчас на ножах. Твой такт в данной ситуации делает тебя лицемером!"
+
+</PRE>
+
+<PRE @box00>[text00150]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1277" mode="on">
+"Ты бесчеловечен."
+
+</PRE>
+
+<PRE @box00>[text00160]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0605" mode="on">
+"Правда! Я тоже считаю, что это плохая идея."
+
+</PRE>
+
+<PRE @box00>[text00170]
+Даже во время стратегического совещания Маюри продолжает шить костюм.
+
+</PRE>
+
+<PRE @box00>[text00180]
+Рукако ещё не решила, участвовать ей или нет, однако фанатизму Маюри это не помеха.
+
+</PRE>
+
+<PRE @box00>[text00190]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0606" mode="on">
+"Важнее всего, что вне зависимости от исхода мы должны организовать для неё тёплый приём. Если это наша цель, то Маюши с радостью отправится за продуктами."
+
+</PRE>
+
+<PRE @box00>[text00200]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0201" mode="on">
+"Но... эм... Вообще-то я даже ни разу не встречалась с Сузухой-сан..."
+
+</PRE>
+
+<PRE @box00>[text00210]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0607" mode="on">
+"Сузу-сан очень хорошая. Рука-тян тоже с ней поладит."
+
+</PRE>
+
+<PRE @box00>[text00220]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1278" mode="on">
+"... Очень хорошая..."
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2270" mode="on">
+"Итак, я пускаюсь в погоню..."
+
+</PRE>
+
+<PRE @box00>[text00240]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1279" mode="on">
+"Я же сказала, нельзя!"
+
+</PRE>
+
+<PRE @box00>[text00250]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2271" mode="on">
+"Кх! Ассистент, знай своё место и прекрати мне указывать!.."
+
+</PRE>
+
+<PRE @box00>[text00260]
+В итоге, она не допустила преследования.
+
+</PRE>
+
+<PRE @box00>[text00270]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1280" mode="on">
+"Я бы попросту не согласилась, если бы ты сбежал."
+
+</PRE>
+
+<PRE @box00>[text00280]
+Для того, чтобы убедить Курису присоединиться к вечеринке, мне пришлось помочь с покупками. И убежать я не могу.
+
+</PRE>
+
+<PRE @box00>[text00290]
+Чёрт бы тебя побрал...
+
+</PRE>
+
+<PRE @box00>[text00300]
+Чёрт. Курису. В последнее время она всё больше и больше похожа на классного старосту.
+
+</PRE>
+
+<PRE @box00>[text00310]
+Такими темпами она вполне может завладеть всей лабой.
+
+
+</PRE>
+
+<PRE @box00>[text00320]
+Шок. Может, именно об этом предупреждала Сузуха?
+
+</PRE>
+
+<PRE @box00>[text00330]
+...Н-да.
+
+</PRE>
+
+<PRE @box00>[text00340]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1281" mode="on">
+"Знаешь..."
+
+</PRE>
+
+<PRE @box00>[text00350]
+Курису почёсывает щёку, слегка понурив голову.
+
+</PRE>
+
+<PRE @box00>[text00360]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1282" mode="on">
+"Было бы здорово, если бы мы смогли найти отца Амане-сан."
+
+</PRE>
+
+<PRE @box00>[text00370]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2272" mode="on">
+"Ага."
+
+</PRE>
+
+<PRE @box00>[text00380]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1283" mode="on">
+"Думаю, я бы даже ей позавидовала."
+
+</PRE>
+
+<PRE @box00>[text00390]
+Точно. У Курису ведь тоже проблемы с отцом.
+
+</PRE>
+
+<PRE @box00>[text00400]
+Думаю, она сочувствует Сузухе.
+
+</PRE>
+
+<PRE @box00>[text00410]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1284" mode="on">
+"Эй, Окабе..."
+
+</PRE>
+
+<PRE @box00>[text00420]
+Она хочет что-то сказать, но, похоже, ей довольно неловко.
+
+</PRE>
+
+<PRE @box00>[text00430]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1285" mode="on">
+"О том, что произошло. Я извиняюсь."
+
+</PRE>
+
+<PRE @box00>[text00440]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2273" mode="on">
+"Произошло?"
+
+</PRE>
+
+<PRE @box00>[text00450]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1286" mode="on">
+"Я ошибочно предположила, что ты домогался до Урушибары-сан и вдарила тебе книгой."
+
+</PRE>
+
+<PRE @box00>[text00460]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1287" mode="on">
+"Тогда я не подумала об этом, но, похоже, ты был серьёзен."
+
+</PRE>
+
+<PRE @box00>[text00470]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1288" mode="on">
+"И тем не менее, я действовала импульсивно, даже не подумав тебя выслушать..."
+
+</PRE>
+
+<PRE @box00>[text00480]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2274" mode="on">
+"Забудь. Вне зависимости от моих намерений, я обидел Рукако."
+
+</PRE>
+
+<PRE @box00>[text00490]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1289" mode="on">
+"И чтобы удостовериться. Ты ведь правда не извращенец, верно?"
+
+</PRE>
+
+<PRE @box00>[text00500]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2275" mode="on">
+"Удостовериться, твою мать! Ты точно пытаешься извиниться?"
+
+</PRE>
+
+<PRE @box00>[text00510]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1290" mode="on">
+"Просто я не хочу, чтобы ты использовал эксперименты в качестве оправдания для подобных действий. Я ведь пока тоже в это втянута."
+
+</PRE>
+
+<PRE @box00>[text00520]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2276" mode="on">
+"Не смотри на меня свысока."
+
+</PRE>
+
+<PRE @box00>[text00530]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2277" mode="on">
+"Для меня друзья — богатство."
+
+</PRE>
+
+<PRE @box00>[text00540]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2278" mode="on">
+"Я — безумный учёный с IQ 170, но я вполне осознаю, что существует предел тому, чего я могу достичь в одиночку."
+
+</PRE>
+
+<PRE @box00>[text00550]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2279" mode="on">
+"Даже Мобиловолновка (название временное) не продвинулась бы так далеко, не будь со мной тебя и Дару."
+
+</PRE>
+
+<PRE @box00>[text00560]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1291" mode="on">
+"Окабе..."
+
+</PRE>
+
+<PRE @box00>[text00570]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2280" mode="on">
+"Я LabMem №001, основатель лабы."
+
+</PRE>
+
+<PRE @box00>[text00580]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2281" mode="on">
+"Если мои товарищи в беде, я спешу им на помощь. Я бы никогда даже не подумал совершить поступок, способный навредить моим товарищам."
+
+</PRE>
+
+<PRE @box00>[text00590]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1292" mode="on">
+"Пфф..."
+
+</PRE>
+
+<PRE @box00>[text00600]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2282" mode="on">
+"Чего смешного?"
+
+</PRE>
+
+<PRE @box00>[text00610]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1293" mode="on">
+"Чунибьё во всей своей красе. Звучит довольно жалко."
+
+</PRE>
+
+<PRE @box00>[text00620]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2283" mode="on">
+"Хм..."
+
+</PRE>
+
+<PRE @box00>[text00630]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1294" mode="on">
+"Но это не так уж и плохо."
+
+</PRE>
+
+<PRE @box00>[text00640]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1295" mode="on">
+"Исследовательские институты, которые я посещала в Америке, собирали талантливых людей со всего света. Это было ужасно."
+
+</PRE>
+
+<PRE @box00>[text00650]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1296" mode="on">
+"Гордость каждого хлещет через край, ведь все считают <I>себя</i>⑰ лучшими. Я часто видела, как люди вставляют друг другу палки в колёса и просто обмениваются оскорблениями. Там это в порядке вещей."
+
+</PRE>
+
+<PRE @box00>[text00660]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1297" mode="on">
+"Когда мою работу опубликовали в журнале «Science», все местные старики начали ворчать и жаловаться."
+
+</PRE>
+
+<PRE @box00>[text00670]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1298" mode="on">
+"А когда я вернулась сюда по программе обмена студентами, мои одноклассники боялись со мной разговаривать."
+
+</PRE>
+
+<PRE @box00>[text00680]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1299" mode="on">
+"В сравнении с Америкой у вас детская лаборатория... Зато очень уютная."
+
+</PRE>
+
+<PRE @box00>[text00690]
+...Похоже, у каждого свои проблемы.
+
+</PRE>
+
+<PRE @box00>[text00700]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1300" mode="on">
+"А теперь Окабе серьёзно волнуется об Амане-сан. Я ценю это в тебе."
+
+</PRE>
+
+<PRE @box00>[text00710]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1301" mode="on">
+"А-а, н-но я тебя не хвалю, понял?"
+
+</PRE>
+
+<PRE @box00>[text00720]
+По каким-то причинам она смутилась и покраснела.
+
+</PRE>
+
+<PRE @box00>[text00730]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1302" mode="on">
+"Но я почему-то об этом подумала, или..."
+
+</PRE>
+
+<PRE @box00>[text00740]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2284" mode="on">
+"... В конце концов, может быть..."
+
+</PRE>
+
+<PRE @box00>[text00750]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1303" mode="on">
+"Э?"
+
+</PRE>
+
+<PRE @box00>[text00760]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2285" mode="on">
+"Может быть, я просто хотел завести друзей."
+
+</PRE>
+
+<PRE @box00>[text00770]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1304" mode="on">
+"Окабе..."
+
+</PRE>
+
+<PRE @box00>[text00780]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2286" mode="on">
+"В любом случае, не так много людей я могу назвать друзьями."
+
+</PRE>
+
+<PRE @box00>[text00790]
+Я — безумный учёный, путешествующий по миру. Враг всем окружающим!
+
+</PRE>
+
+<PRE @box00>[text00800]
+Это тоже очередной злой план, разработанный моим коварным разумом! Муаха-ха-ха!
+
+</PRE>
+
+<PRE @box00>[text00810]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1305" mode="on">
+"Я... ммм... считаю тебя важным товарищем."
+
+</PRE>
+
+<PRE @box00>[text00820]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2287" mode="on">
+"...Что?"
+
+</PRE>
+
+<PRE @box00>[text00830]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1306" mode="on">
+"Ты ведь тоже сказал так раньше, правда? Что я для тебя важный товарищ."
+
+</PRE>
+
+<PRE @box00>[text00840]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1307" mode="on">
+"Я была очень... счастлива, или... эмм..."
+
+</PRE>
+
+<PRE @box00>[text00850]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2288" mode="on">
+"У тебя жар?"
+
+</PRE>
+
+<PRE @box00>[text00860]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1308" mode="on">
+"Нет!"
+
+</PRE>
+
+<PRE @box00>[text00870]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1309" mode="on">
+"Какого хрена? Даже моё мнение о тебе уже начинало улучшаться! Неважно! Идиот!"
+
+</PRE>
+
+<PRE @box00>[text00880]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1310" mode="on">
+"Действительно идиот..."
+
+</PRE>
+
+<PRE @box00>[text00890]
+Курису распрямила плечи и быстрыми шагами ушла вперёд.
+
+</PRE>
+
+<PRE @box00>[text00900]
+Я поспешил за ней, чувствуя некоторую растерянность.
+
+</PRE>
+
+<PRE @box00>[text00910]
+Эта девчонка. Она что-то затевает?
+
+</PRE>
+
+<PRE @box00>[text00920]
+Может быть, она действительно планирует захватить лабу...
+
+</PRE>
+
+<PRE @box00>[text00930]
+Или нет, может быть, она пытается обмануть меня, так как ей не нравится, что мы устраиваем вечеринку для Сузухи, её заклятого врага.
+
+</PRE>
+
+<PRE @box00>[text00940]
+Ха! Я не попадусь на твои ассистентские уловки!
+
+</PRE>
+
+<PRE @box00>[text00950]
+Так, давай подумаем о чём-нибудь другом.
+
+</PRE>
+
+<PRE @box00>[text00960]
+Давай подумаем о сегодняшней Тайной Вечере, операции Андхримнир.
+
+</PRE>
+
+<PRE @box00>[text00970]
+Тайная вечеря — это наша вечеринка для Сузухи.
+
+</PRE>
+
+<PRE @box00>[text00980]
+В случае, если она воссоединится с отцом, мы просто празднуем. Другими словами, это будет её последний ужин в Токио.
+
+</PRE>
+
+<PRE @box00>[text00990]
+В любом случае...
+
+</PRE>
+
+<PRE @box00>[text01000]
+Если же она не встретит отца, то мы будем держать её в качестве испытуемого.
+
+</PRE>
+
+<PRE @box00>[text01010]
+Чтобы получить экспериментальные данные касательно D-мейла, нам придётся пойти на некоторые жертвы.
+
+</PRE>
+
+<PRE @box00>[text01020]
+Так как в этом случае мы собираемся изменить прошлое с помощью D-мейла, это будет последний ужин перед изменением.
+
+</PRE>
+
+<PRE @box00>[text01030]
+Бюджет лаборатории — в основном мои карманные деньги — довольно скуден, но иногда мы можем позволить себе провести вечеринку.
+
+</PRE>
+
+<PRE @box00>[text01040]
+Я не надеялся на удобный проект с низким риском и высокой отдачей.
+
+</PRE>
+
+<PRE @box00>[text01050]
+Большой риск — большая награда. Моя гордость безумного учёного.
+
+</PRE>
+
+<PRE @box00>[text01060]
+Хе-хе-хе, я уже могу представить лицо плачущей в отчаянии Сузухи!
+
+</PRE>
+
+<PRE @box00>[text01070]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1311" mode="on">
+"Хм? Вон там, это случаем не..."
+
+</PRE>
+
+<PRE @box00>[text01080]
+Там, куда показала Курису, я вижу Дару, выходящего из Йодобаши-Камера.
+
+</PRE>
+
+<PRE @box00>[text01090]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2289" mode="on">
+"Попался, Дару!"
+
+</PRE>
+
+<PRE @box00>[text01100]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0756" mode="on">
+"Э? А..."
+
+</PRE>
+
+<PRE @box00>[text01110]
+Я схватил его за загривок, чтобы он не убежал.
+
+</PRE>
+
+<PRE @box00>[text01120]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2290" mode="on">
+"Почему ты не откликнулся на мой призыв?"
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0757" mode="on">
+"Я же сказал, у меня дела..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2291" mode="on">
+"Что?"
+
+</PRE>
+
+<PRE @box00>[text01130]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0758" mode="on">
+"Оффлайн-встреча..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2292" mode="on">
+"Непростительно."
+
+</PRE>
+
+<PRE @box00>[text01140]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0759" mode="on">
+"Подожди, послушай..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2293" mode="on">
+"Оффлайн-встреча или вечеринка с домашней едой, приготовленной сотрудницами нашей лаборатории. Что ты выбираешь?"
+
+</PRE>
+
+<PRE @box00>[text01150]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0760" mode="on">
+"Домашняя... кухня..?"
+
+</PRE>
+
+<PRE @box00>[text01160]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0761" mode="on">
+"O-один вопрос. Там будет Фейрис?"
+
+</PRE>
+
+<PRE @box00>[text01170]
+Не дожидаясь ответа Курису, я шепчу Дару.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2294" mode="on">
+"Разумеется. Фейрис ведь тоже LabMem. Хе-хе-хе."
+
+</PRE>
+
+<PRE @box00>[text01180]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0762" mode="on">
+"Чёрт! Ну почему всё в одно и то же время! Отложили бы лучше до завтра..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2295" mode="on">
+"Ну что? Время решать. Твой выбор?"
+
+</PRE>
+
+<PRE @box00>[text01190]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0763" mode="on">
+"Я хочу отведать домашней кухни Фейрис..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2296" mode="on">
+"Если ты пропускаешь оффлайн-встречу, то всё решено."
+
+</PRE>
+
+<PRE @box00>[text01200]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0764" mode="on">
+"Я не пойду. Я не пойду на встречуууу!"
+
+Дару сдаётся слишком уж быстро.
+
+</PRE>
+
+<PRE @box00>[text01210]
+Когда мы вернулись в лабораторию, Маюри и Рукако уже начинали подготовку.
+
+</PRE>
+
+<PRE @box00>[text01220]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0608" mode="on">
+"Хмм? Дару-кун тоже здесь?"
+
+</PRE>
+
+<PRE @box00>[text01230]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0765" mode="on">
+"А что Фейрис? Где она?"
+
+</PRE>
+
+<PRE @box00>[text01240]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1312" mode="on">
+"Хашида. Тебя обманули."
+
+</PRE>
+
+<PRE @box00>[text01250]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0609" mode="on">
+"Фейрис-тян сказала, что не может прийти."
+
+</PRE>
+
+<PRE @box00>[text01260]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0766" mode="on">
+"Погоди, серьёзно?! Эй, Окарин! Что за хрень? Это не смешно!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2297" mode="on">
+"Я тебе всё объясню при первой же возможности."
+
+</PRE>
+
+<PRE @box00>[text01270]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0767" mode="on">
+"Ты просто издеваешься! Это была долгожданная встреча машины времени..."
+
+</PRE>
+
+<PRE @box00>[text01280]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1313" mode="on">
+"Встреча машины времени? Это, вообще, что?"
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0768" mode="on">
+"Это оффлайн-встреча форума, посвящённого научной фантастике, на который я часто захожу."
+
+</PRE>
+
+<PRE @box00>[text01290]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0769" mode="on">
+"Они даже планировали пригласить авторов лучших статей. Я тебя не прощу, Окарин. Никогда."
+
+</PRE>
+
+<PRE @box00>[text01300]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2298" mode="on">
+"Гх! Почему ты сразу не сказал? Я бы тоже сходил на такую встречу!"
+
+И вдруг я ощутил странный запах.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2299" mode="on">
+"...Кто-нибудь ещё чувствует этот запах?"
+
+</PRE>
+
+<PRE @box00>[text01310]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1314" mode="on">
+"Запах?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2300" mode="on">
+"Кто-то что-то закоротил?"
+
+</PRE>
+
+<PRE @box00>[text01320]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0202" mode="on">
+"И-извините..."
+
+Рукако за что-то извиняется.
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0203" mode="on">
+"Думаю... Возможно, это запах чего-то, приготовленного Маюри..."
+
+Что... она сказала?..
+
+Это запах <I>пищи</i>⑰?!
+
+</PRE>
+
+<PRE @box00>[text01330]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1315" mode="on">
+"Я тоже помогу."
+
+</PRE>
+
+<PRE @box00>[text01340]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0204" mode="on">
+"Хорошо, тогда разогрей эти яйца."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1316" mode="on">
+"Хм? Могу я воспользоваться Мобиловолновкой?"
+
+</PRE>
+
+<PRE @box00>[text01350]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0205" mode="on">
+"Н-нет, не надо! Если греть сырые яйца в микроволновке, они взрываются!.."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1317" mode="on">
+"Мы вытащили дверцу, так что проблем быть не должно, правда?"
+
+</PRE>
+
+<PRE @box00>[text01360]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0610" mode="on">
+"Чик, чик, чик, ч-ч-чик, чик, чик..."
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0206" mode="on">
+"М-Маюри-тян, опасно его так держать!.."
+
+Похоже, она вырезает фигурки произвольной формы.
+
+</PRE>
+
+<PRE @box00>[text01370]
+Мы с Дару переглянулись.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2301" mode="on">
+"Может быть, нам тоже стоит помочь... Вообще-то, может даже стоит убрать этих девушек из кухни."
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0770" mode="on">
+"А это не одно и то же?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2302" mode="on">
+"У меня кружится голова. Мне не нравится эта реальность."
+
+</PRE>
+
+<PRE @box00>[text01380]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0771" mode="on">
+"Окарин, я никогда не забуду это. Никогда."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2303" mode="on">
+"Честно говоря, мне жаль, правда. Но, Дару, пожалуйста, будь со мной до конца."
+
+</PRE>
+
+<PRE @box00>[text01390]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0772" mode="on">
+"Закажу пиццу в качестве плана Б."
+
+</PRE>
+
+<PRE @box00>[text01400]
+Нехорошо... Очень нехорошо.
+
+Количество пепла в моих лёгких удваивается, утраивается, учетверяется.
+
+Их тройная атака за какой-то час вызвала в лаборатории пандемию пятой степени!..
+
+</PRE>
+
+<PRE @box00>[text01410]
+Я достаю телефон и подношу его к уху.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2304" mode="on">
+"... Это я. Похоже, они пробудили злого бога. Если я не выйду на связь в течение часа... передайте моим родителям... что я их люблю."
+
+</PRE>
+
+<PRE @box00>[text01420]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0773" mode="on">
+"Окарин, это <FONT incolor="#ff7080" outcolor="#000000">флаг смерти</FONT>..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2305" mode="on">
+"Неужели... это выбор Врат Штейна? Эль Псай Конгру..."
+
+</PRE>
+

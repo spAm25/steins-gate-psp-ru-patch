@@ -1,0 +1,71 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000006D2)
+
+#WRITE(PTR, $00000212)
+The next day. I decide to go around the parts shops.
+<END>
+
+#WRITE(PTR, $00000222)
+Yesterday, after parting with Kurisu, I walked around looking at the shops throughout Akiba until dark, but to no result.
+<END>
+
+#WRITE(PTR, $00000232)
+I expected obtaining the IBN 5100 would be fairly difficult. It already feels tedious.
+<END>
+
+#WRITE(PTR, $00000242)
+【Rintaro】Uuummm....
+<END>
+
+#WRITE(PTR, $00000252)
+Radio Center's narrow passage. Lined up on the left and right are small parts shops.
+<END>
+
+#WRITE(PTR, $00000262)
+Here are the old vestiges of the bygone Electric Town, Akiba's conscience, so to speak.
+<END>
+
+#WRITE(PTR, $00000272)
+Light otaku who like anime or large appliances don't readily set foot here.
+<END>
+
+#WRITE(PTR, $00000282)
+It's like a holy ground were only true maniacs can enter.
+<END>
+
+#WRITE(PTR, $00000292)
+By the way, I'm not too well-acquainted with parts either...
+<END>
+
+#WRITE(PTR, $000002A2)
+Furthermore, the parts shops only sell parts, so it's not like there would be a large retro PC laying around here. I didn't consider that.
+<END>
+
+#WRITE(PTR, $000002B2)
+And yet I've still been rummaging through the lined up parts in excitement.
+<END>
+
+#WRITE(PTR, $000002C2)
+If the shops' geezers yell "Hey, kid! You're ten years too early for this!" and I'd have no choice but to run.
+<END>
+
+#WRITE(PTR, $000002D2)
+At present, the geezers don't seem like they'll yell at me. It's more like they're ignoring me. Or maybe they're just annoyed at me.
+<END>
+
+#WRITE(PTR, $000002E2)
+Hiding that excitement, I examine each store with dignity, but I can't find hide nor hair of the IBN 5100.
+<END>
+
+#WRITE(PTR, $000003BC)
+The shop geezer glares at me at the sound of my phone.
+<END>
+
+#WRITE(PTR, $000003DA)
+I force a smile and rush outside.
+<FILEEND9A>
+

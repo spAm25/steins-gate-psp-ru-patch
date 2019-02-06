@@ -1,0 +1,1063 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002DDA)
+
+#WRITE(PTR, $00000478)
+The vibration of ultrasonic waves violates my eardrums.
+<END>
+
+#WRITE(PTR, $00000488)
+I'm in the lab development room when I calm down.
+<END>
+
+#WRITE(PTR, $00000498)
+It's before 5 o'clock.
+<END>
+
+#WRITE(PTR, $000004A8)
+A little more than two hours until Mayuri dies.
+<END>
+
+#WRITE(PTR, $00000548)
+The Time Leap Machine is in front of me.
+<END>
+
+#WRITE(PTR, $00000558)
+Moeka's goal is to restrain us. And to retrieve this.
+<END>
+
+#WRITE(PTR, $00000568)
+If only we never had this Microwave Ophone (Temp) in the first place.
+<END>
+
+#WRITE(PTR, $00000578)
+If only we never sent a D-mail.
+<END>
+
+#WRITE(PTR, $00000588)
+Then that absurd future would never have happened.
+<END>
+
+#WRITE(PTR, $00000598)
+Would anything change if I broke it?
+<END>
+
+#WRITE(PTR, $000005A8)
+I lift up a pipe chair as if levitating it.
+<END>
+
+#WRITE(PTR, $000005B8)
+I'm about to swing it down on this infernal machine--
+<END>
+
+#WRITE(PTR, $000005C8)
+【Kurisu】Okabe, what are you doing!?
+<END>
+
+#WRITE(PTR, $000005D8)
+Kurisu grabs my arm.
+<END>
+
+#WRITE(PTR, $000006AC)
+【Kurisu】Just now, were you trying to break it?
+<END>
+
+#WRITE(PTR, $000006BC)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000006D6)
+【Kurisu】Even if you don't break anything...
+<END>
+
+#WRITE(PTR, $000006E6)
+【Kurisu】We won't time leap. Since that's what we decided, it's fine like that, right?
+<END>
+
+#WRITE(PTR, $000006F6)
+【Kurisu】Anyway, put the chair down.
+<END>
+
+#WRITE(PTR, $00000706)
+I slowly put down the chair.
+<END>
+
+#WRITE(PTR, $00000716)
+It's not that I'm obeying Kurisu.
+<END>
+
+#WRITE(PTR, $00000726)
+It's that it's frightening to think what would happen after I break it.
+<END>
+
+#WRITE(PTR, $00000736)
+This thing is to blame.
+<END>
+
+#WRITE(PTR, $00000746)
+But on the other hand, it's because of it that I could return here to the time where Mayuri is alive.
+<END>
+
+#WRITE(PTR, $00000756)
+If I lose this device, I can never start over again.
+<END>
+
+#WRITE(PTR, $00000766)
+It's that fear that caused me to stop...
+<END>
+
+#WRITE(PTR, $00000780)
+【Kurisu】You look pale. What's wrong?
+<END>
+
+#WRITE(PTR, $00000790)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000007A0)
+【Kurisu】Are you listening?
+<END>
+
+#WRITE(PTR, $000007B0)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $000007CA)
+【Kurisu】Ah, wait!
+<END>
+
+#WRITE(PTR, $000007DA)
+I rush out of the lab since it's annoying to get involved with Kurisu.
+<END>
+
+#WRITE(PTR, $00000A14)
+I don't really have a place in mind to run to.
+<END>
+
+#WRITE(PTR, $00000A24)
+Walking on unsteady feet amongst the crowded Akiba streets, I surely have a dead look on my face.
+<END>
+
+#WRITE(PTR, $00000A34)
+In the end, I get fed up with the crowd in front of the station, and escape to a pedestrian path.
+<END>
+
+#WRITE(PTR, $00000A44)
+I squat down on the bridge.
+<END>
+
+#WRITE(PTR, $00000B58)
+A electronic ad displays a goth punk band promo along with today's forecast.
+<END>
+
+#WRITE(PTR, $00000B68)
+That's when I first notice that today's Friday the 13th.
+<END>
+
+#WRITE(PTR, $00000C14)
+Is there no way to overcome this day of nightmares... without Mayuri's death?
+<END>
+
+#WRITE(PTR, $00000C24)
+It's already 5:30.
+<END>
+
+#WRITE(PTR, $00000C34)
+The time of Mayuri's death comes ever-closer.
+<END>
+
+#WRITE(PTR, $00000C44)
+The lights around Akihabara Station begin to light up as day turns to night.
+<END>
+
+#WRITE(PTR, $00000C54)
+Even in the new Retro Electric Town Akiba, the station's style hasn't changed.
+<END>
+
+#WRITE(PTR, $00000C64)
+I feel the evil of comfort.
+<END>
+
+#WRITE(PTR, $00000C74)
+Couples appear here and there.
+<END>
+
+#WRITE(PTR, $00000C84)
+They gaze at the completely uninteresting scenery below without tiring of embracing each other's bodies.
+<END>
+
+#WRITE(PTR, $00000D34)
+The bridge I'm sitting on has become a date spot for couples.
+<END>
+
+#WRITE(PTR, $00000D44)
+Why am I at a date spot...
+<END>
+
+#WRITE(PTR, $00000D54)
+Mayuri's about to die.
+<END>
+
+#WRITE(PTR, $00000DB4)
+【Kurisu】You, <DICT>troll</DICT> man sitting on the ground there.
+<END>
+
+#WRITE(PTR, $00000DC4)
+...troll?
+<END>
+
+#WRITE(PTR, $00000E3C)
+I lift my head and see Kurisu standing there.
+<END>
+
+#WRITE(PTR, $00000E4C)
+【Kurisu】You suddenly rushed out. So this is where you were.
+<END>
+
+#WRITE(PTR, $00000E5C)
+【Rintaro】...Hey, Christina.
+<END>
+
+#WRITE(PTR, $00000E6C)
+【Kurisu】What?
+<END>
+
+#WRITE(PTR, $00000E7C)
+【Rintaro】What time is it now?
+<END>
+
+#WRITE(PTR, $00000E8C)
+【Kurisu】It's 5:35
+<END>
+
+#WRITE(PTR, $00000E9C)
+【Kurisu】Hey. If you have the free time to go trolling here, then come shopping with me.
+<END>
+
+#WRITE(PTR, $00000EAC)
+Shopping...
+<END>
+
+#WRITE(PTR, $00000EBC)
+Oh yeah, that's right.
+<END>
+
+#WRITE(PTR, $00000ECC)
+Preparations for the party.
+<END>
+
+#WRITE(PTR, $00000EDC)
+At first, I went shopping with this girl at the UPX supermarket.
+<END>
+
+#WRITE(PTR, $00000EEC)
+And at about the same time as now, we had a similar conversation on this bridge.
+<END>
+
+#WRITE(PTR, $00000EFC)
+It feels like so long ago now.
+<END>
+
+#WRITE(PTR, $00000F0C)
+Back then, I had no idea of the events following shortly.
+<END>
+
+#WRITE(PTR, $00000F1C)
+【Kurisu】So? Will you go shopping or not?
+<END>
+
+#WRITE(PTR, $00000F2C)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000F3C)
+I sigh deeply.
+<END>
+
+#WRITE(PTR, $00000F4C)
+I don't think my time leap actions so far are wrong.
+<END>
+
+#WRITE(PTR, $00000F5C)
+But--
+<END>
+
+#WRITE(PTR, $00000F6C)
+【Rintaro】Kurisu.
+<END>
+
+#WRITE(PTR, $00000F7C)
+While I hang my head.
+<END>
+
+#WRITE(PTR, $00000F8C)
+【Kurisu】...That's the first time you've said my name right.
+<END>
+
+#WRITE(PTR, $00000F9C)
+While Kurisu stands up straight.
+<END>
+
+#WRITE(PTR, $00000FAC)
+【Rintaro】...help me.
+<END>
+
+#WRITE(PTR, $00000FBC)
+Alone, I can't save Mayuri.
+<END>
+
+#WRITE(PTR, $00000FCC)
+Alone, I have limits.
+<END>
+
+#WRITE(PTR, $00000FDC)
+I've realized that.
+<END>
+
+#WRITE(PTR, $00000FEC)
+I've noticed it, but there's still meaning to me repeating the same time over and over.
+<END>
+
+#WRITE(PTR, $00000FFC)
+Tasting the same pain over and over. Receiving the same wounds over and over.
+<END>
+
+#WRITE(PTR, $0000100C)
+Because of those experiences, I've quit being alone.
+<END>
+
+#WRITE(PTR, $0000101C)
+【Rintaro】Help me...
+<END>
+
+#WRITE(PTR, $0000102C)
+【Kurisu】Talk.
+<END>
+
+#WRITE(PTR, $0000103C)
+【Kurisu】I know you time leaped.
+<END>
+
+#WRITE(PTR, $0000104C)
+【Rintaro】What...?
+<END>
+
+#WRITE(PTR, $000010CC)
+I look up in surprise.
+<END>
+
+#WRITE(PTR, $000010DC)
+Without making eye contact, Kurisu leans on the guard rail with a sour look.
+<END>
+
+#WRITE(PTR, $000010EC)
+Her glance is turned to the plaza seen in close field under the bridge.
+<END>
+
+#WRITE(PTR, $00001106)
+【Kurisu】I thought you got a phone call from somebody and then you suddenly changed.
+<END>
+
+#WRITE(PTR, $00001116)
+【Kurisu】You can't deceive my eye.
+<END>
+
+#WRITE(PTR, $00001126)
+【Rintaro】...I came from three hours later.
+<END>
+
+#WRITE(PTR, $00001136)
+【Kurisu】What happened?
+<END>
+
+#WRITE(PTR, $00001146)
+【Rintaro】...Mayuri was killed.
+<END>
+
+#WRITE(PTR, $00001156)
+My nose pricks again and I put strength into my brow to hold back the tears.
+<END>
+
+#WRITE(PTR, $00001166)
+Then I explain about SERN. About Moeka. And how Kurisu deftly put the Time Leap Machine into operation.
+<END>
+
+#WRITE(PTR, $00001176)
+About how I've leaped five or six times already. And about how the world wishes for Mayuri's death, so no matter how I try, I can't evade it.
+<END>
+
+#WRITE(PTR, $00001186)
+I kept talking on and on for about 30 minutes.
+<END>
+
+#WRITE(PTR, $00001196)
+Kurisu didn't interject very often.
+<END>
+
+#WRITE(PTR, $000011A6)
+【Rintaro】...Everything is my fault.
+<END>
+
+#WRITE(PTR, $000011B6)
+By talking to Kurisu, I was able to sort everything I've done, and everything I've seen.
+<END>
+
+#WRITE(PTR, $000011C6)
+【Rintaro】I shouldn't have had Daru hack into SERN.
+<END>
+
+#WRITE(PTR, $000011D6)
+【Rintaro】I shouldn't have suggested making a time machine.
+<END>
+
+#WRITE(PTR, $000011E6)
+【Rintaro】I shouldn't have let Moeka become a lab mem.
+<END>
+
+#WRITE(PTR, $000011F6)
+【Rintaro】Mayuri's death is all my fault...
+<END>
+
+#WRITE(PTR, $00001206)
+That's why I shouldered everything alone.
+<END>
+
+#WRITE(PTR, $00001216)
+I had decided to definitely save Mayuri without giving a single complaint.
+<END>
+
+#WRITE(PTR, $00001226)
+But my heart was quickly broken--
+<END>
+
+#WRITE(PTR, $00001240)
+【Kurisu】If something that terrible happens, then what are you doing spacing out here?
+<END>
+
+#WRITE(PTR, $00001250)
+Kurisu put on a haughty tone.
+<END>
+
+#WRITE(PTR, $00001260)
+As if she were looking at the usual me.
+<END>
+
+#WRITE(PTR, $00001270)
+【Rintaro】...Because I just don't know anymore.
+<END>
+
+#WRITE(PTR, $00001280)
+【Kurisu】What don't know what?
+<END>
+
+#WRITE(PTR, $00001290)
+【Rintaro】How to save Mayuri.
+<END>
+
+#WRITE(PTR, $000012AA)
+【Kurisu】Based on what you said, the chronology protection conjecture is true, huh.
+<END>
+
+#WRITE(PTR, $000012BA)
+【Rintaro】No matter what I do, or how I do it, Mayuri ends up dead...
+<END>
+
+#WRITE(PTR, $000012D4)
+【Kurisu】That's why you've kept on time leaping, huh...
+<END>
+
+#WRITE(PTR, $000012E4)
+【Kurisu】It's not like the Time Leap Machine has been proven absolutely safe beyond theory.
+<END>
+
+#WRITE(PTR, $000012F4)
+As usual, Kurisu mutters without looking at me.
+<END>
+
+#WRITE(PTR, $0000130E)
+【Kurisu】You may have safely succeeded up till now, but repeated use may have an effect.
+<END>
+
+#WRITE(PTR, $0000131E)
+【Kurisu】You may have gone outside the ring of time, that is, the law of cause and effect.
+<END>
+
+#WRITE(PTR, $0000132E)
+【Kurisu】You're risking that great a danger. You need to realize that.
+<END>
+
+#WRITE(PTR, $0000133E)
+【Rintaro】What does it mean to go outside the law of cause and effect?
+<END>
+
+#WRITE(PTR, $00001358)
+【Kurisu】It's in a lot of Sci-Fi novels, right? Endlessly wandering in a closed loop of time. You won't age for all eternity, but you'll never leave the same day for all eternity either.
+<END>
+
+#WRITE(PTR, $00001368)
+【Kurisu】In the worst case, you may become "nonexistent".
+<END>
+
+#WRITE(PTR, $00001378)
+Nonexistent...?
+<END>
+
+#WRITE(PTR, $00001392)
+【Kurisu】Erasure of existence. The 18 to 19 years of your life will become something that nobody "ever knew".
+<END>
+
+#WRITE(PTR, $000013A2)
+【Kurisu】Leaping through time is that dangerous.
+<END>
+
+#WRITE(PTR, $000013B2)
+【Rintaro】"Humans are temporal beings."
+<END>
+
+#WRITE(PTR, $000013CC)
+Kurisu loses her breath.
+<END>
+
+#WRITE(PTR, $000013E6)
+【Kurisu】...Heidegger, huh. I was thinking of that quote too.
+<END>
+
+#WRITE(PTR, $000013F6)
+【Rintaro】I learned that quote from you.
+<END>
+
+#WRITE(PTR, $00001406)
+【Kurisu】When?
+<END>
+
+#WRITE(PTR, $00001416)
+【Rintaro】I've time leaped several times.
+<END>
+
+#WRITE(PTR, $00001426)
+【Kurisu】Oh, I see.
+<END>
+
+#WRITE(PTR, $00001518)
+Then Kurisu squats next to me while glaring.
+<END>
+
+#WRITE(PTR, $00001528)
+【Kurisu】If what you said is true, then I want to save Mayuri too.
+<END>
+
+#WRITE(PTR, $00001538)
+【Kurisu】But as someone involved with the Time Leap Machine's production, I can't recommend you use it that many times.
+<END>
+
+#WRITE(PTR, $00001548)
+【Kurisu】Will you still struggle despite that?
+<END>
+
+#WRITE(PTR, $00001558)
+【Rintaro】...I
+<END>
+
+#WRITE(PTR, $00001568)
+Alone, it's impossible...
+<END>
+
+#WRITE(PTR, $00001578)
+I know it's impossible.
+<END>
+
+#WRITE(PTR, $00001588)
+【Rintaro】That's why I'm asking you for help...
+<END>
+
+#WRITE(PTR, $00001598)
+【Rintaro】To struggle. To save Mayuri. I can't do it alone, but if I have your cooperation, we might be able to do something. I want to believe we can do something.
+<END>
+
+#WRITE(PTR, $000015A8)
+【Rintaro】Lend me your strength...
+<END>
+
+#WRITE(PTR, $000015B8)
+Kurisu sighs.
+<END>
+
+#WRITE(PTR, $000015DE)
+【Kurisu】You're overworking yourself, idiot...
+<END>
+
+#WRITE(PTR, $000015EE)
+【Kurisu】You know, it won't be strange if you broke...
+<END>
+
+#WRITE(PTR, $000015FE)
+Unbelievably, she sounded worried.
+<END>
+
+#WRITE(PTR, $00001618)
+She looks at me dearly, but then quickly turns away as if embarrassed.
+<END>
+
+#WRITE(PTR, $00001628)
+【Kurisu】I'll cooperate.
+<END>
+
+#WRITE(PTR, $0000165A)
+【Kurisu】Because Mayuri's an important friend, a lab mem.
+<END>
+
+#WRITE(PTR, $0000166A)
+【Kurisu】And besides that, I don't want... to see you in so much pain...
+<END>
+
+#WRITE(PTR, $0000167A)
+【Rintaro】Sorry...
+<END>
+
+#WRITE(PTR, $00001694)
+【Kurisu】Don't apologize.
+<END>
+
+#WRITE(PTR, $000016A4)
+【Kurisu】Okabe, you gave me advice about my father before, right? You really helped me out back then.
+<END>
+
+#WRITE(PTR, $000016BE)
+【Kurisu】That's why this time, I'll be your strength.
+<END>
+
+#WRITE(PTR, $000016CE)
+【Kurisu】...I want to be your strength.
+<END>
+
+#WRITE(PTR, $000016DE)
+【Kurisu】With that said, let's go together all the way to Aomori.
+<END>
+
+#WRITE(PTR, $000016EE)
+She says that with a wry smile.
+<END>
+
+#WRITE(PTR, $000016FE)
+A wry smile filled with gentleness, devoid of malice.
+<END>
+
+#WRITE(PTR, $0000170E)
+The kind you'd use to admonish naughty kids.
+<END>
+
+#WRITE(PTR, $0000171E)
+【Kurisu】You feel like time leaping anyway, right? You are an insane mad scientist after all. You always live in self-righteousness.
+<END>
+
+#WRITE(PTR, $0000172E)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001748)
+【Kurisu】Hey. That's where you answer "Of course, fuhahaha" or something.
+<END>
+
+#WRITE(PTR, $00001758)
+【Rintaro】That's right...
+<END>
+
+#WRITE(PTR, $00001768)
+【Kurisu】Not in the mood, huh...
+<END>
+
+#WRITE(PTR, $00001778)
+What Kurisu said is the truth.
+<END>
+
+#WRITE(PTR, $00001788)
+I'd do anything to save Mayuri.
+<END>
+
+#WRITE(PTR, $000017A6)
+【Kurisu】But it's not like I'm cooperating for you or anything.
+<END>
+
+#WRITE(PTR, $000017B6)
+【Kurisu】It's all for Mayuri.
+<END>
+
+#WRITE(PTR, $000017C6)
+【Rintaro】Yeah, of course.
+<END>
+
+#WRITE(PTR, $000017E0)
+【Kurisu】That, and it looks like I can get good data off of you as a test subject.
+<END>
+
+#WRITE(PTR, $000017F0)
+【Rintaro】So basically, you approve of SERN's human experimentation?
+<END>
+
+#WRITE(PTR, $00001800)
+【Kurisu】Not at all.
+<END>
+
+#WRITE(PTR, $00001810)
+【Rintaro】How so?
+<END>
+
+#WRITE(PTR, $0000182A)
+【Kurisu】Because you're the test subject.
+<END>
+
+#WRITE(PTR, $0000183A)
+【Kurisu】Mad scientists are perfectly fine with self-experimentation, right? I mean, that's pretty mad.
+<END>
+
+#WRITE(PTR, $0000184A)
+【Rintaro】That's right...
+<END>
+
+#WRITE(PTR, $0000185A)
+I'm no longer afraid to time leap.
+<END>
+
+#WRITE(PTR, $0000186A)
+I'll do anything to save Mayuri.
+<END>
+
+#WRITE(PTR, $00001884)
+【Kurisu】I-I'm just kidding. Don't take it seriously.
+<END>
+
+#WRITE(PTR, $0000193E)
+Kurisu stands up and looks at her watch.
+<END>
+
+#WRITE(PTR, $00001986)
+【Kurisu】Alright, there's not much time, so instead of rushing, you should polish up a more deliberate counter plan.
+<END>
+
+#WRITE(PTR, $00001996)
+【Rintaro】Meaning?
+<END>
+
+#WRITE(PTR, $000019BC)
+【Kurisu】Right now, leap to an even earlier time.
+<END>
+
+#WRITE(PTR, $000019CC)
+【Kurisu】Then explain the situation to me again.
+<END>
+
+#WRITE(PTR, $000019DC)
+Kurisu's certainly right. Polishing up a counter plan is necessary.
+<END>
+
+#WRITE(PTR, $000019EC)
+The result of all my random actions so far is that not a single attempt turned out smoothly.
+<END>
+
+#WRITE(PTR, $000019FC)
+If I come more properly prepared, that result might change.
+<END>
+
+#WRITE(PTR, $00001A16)
+【Kurisu】Let's go.
+<END>
+
+#WRITE(PTR, $00001A26)
+Kurisu stretches out her hand.
+<END>
+
+#WRITE(PTR, $00001A36)
+I grasp it and pull myself up.
+<END>
+
+#WRITE(PTR, $00001B66)
+Mayuri and Daru had already returned to the lab. Suzuha also came. But Kurisu and I told them we forgot to do the shopping and asked to postpone the party.
+<END>
+
+#WRITE(PTR, $00001B76)
+I had to bribe them with some pocket money to stop their complaining, though.
+<END>
+
+#WRITE(PTR, $00001BBE)
+【Kurisu】Mayuri's obviously out, but why not talk to Hashida?
+<END>
+
+#WRITE(PTR, $00001BCE)
+【Rintaro】I'll talk to him if it becomes necessary.
+<END>
+
+#WRITE(PTR, $00001BDE)
+For now, it's not.
+<END>
+
+#WRITE(PTR, $00001BEE)
+I don't have time to leisurely explain things.
+<END>
+
+#WRITE(PTR, $00001D04)
+Leaving the Time Leap Machine settings to Kurisu, I head downstairs to the Braun Tube Workshop, kick the door open, and turn on the 42in Braun tube TV.
+<END>
+
+#WRITE(PTR, $00001D14)
+I might get reported to the police, but I'll probably time leap before they can arrest me.
+<END>
+
+#WRITE(PTR, $00001E66)
+When I return to the lab, Kurisu looks amazed.
+<END>
+
+#WRITE(PTR, $00001E7E)
+【Kurisu】They'll <DICT>throw you in the slammer</DICT> for breaking and entering.
+<END>
+
+#WRITE(PTR, $00001E8E)
+【Rintaro】If I just return to the past, then that just now will be undone.
+<END>
+
+#WRITE(PTR, $00001E9E)
+Kurisu hands me the headgear and I put it on.
+<END>
+
+#WRITE(PTR, $00001EB8)
+【Kurisu】I see. That's how it looks from your subjectivity.
+<END>
+
+#WRITE(PTR, $00001EC8)
+【Kurisu】What'll my subjectivity be like? What happens here after you leap?
+<END>
+
+#WRITE(PTR, $00001ED8)
+【Rintaro】...You'll get that data shortly.
+<END>
+
+#WRITE(PTR, $00001F7A)
+My memories are sent to the past. I know that from the time leaping I've done so far.
+<END>
+
+#WRITE(PTR, $00001F8A)
+So what about the body left behind?
+<END>
+
+#WRITE(PTR, $00001F9A)
+Most likely, if time keeps flowing, the present will be reconstructed.
+<END>
+
+#WRITE(PTR, $00001FAA)
+But if the many worlds interpretation holds, then after I leave, this world will continue as if nothing happened.
+<END>
+
+#WRITE(PTR, $00001FBA)
+I used to be really interested in the truth of the world's structure, but now I don't really care.
+<END>
+
+#WRITE(PTR, $00001FCA)
+As long as I can save Mayuri.
+<END>
+
+#WRITE(PTR, $00001FDA)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00001FEA)
+Kurisu's fingers stop typing on the keyboard.
+<END>
+
+#WRITE(PTR, $00001FFA)
+【Rintaro】What's wrong?
+<END>
+
+#WRITE(PTR, $000020D0)
+【Kurisu】Ah, nothing. I was thinking and got caught in a loop.
+<END>
+
+#WRITE(PTR, $000020E0)
+【Rintaro】It might turn out like D-mails.
+<END>
+
+#WRITE(PTR, $000020F0)
+With D-mails, the instant they're sent into the past, the present world changes.
+<END>
+
+#WRITE(PTR, $00002100)
+And aside from me, with my special ability, Reading Steiner, nobody recognizes the changes in the world.
+<END>
+
+#WRITE(PTR, $00002110)
+【Kurisu】That would be comforting, yet vexing.
+<END>
+
+#WRITE(PTR, $00002120)
+【Rintaro】Because then you couldn't collect data?
+<END>
+
+#WRITE(PTR, $00002130)
+【Kurisu】Exactly.
+<END>
+
+#WRITE(PTR, $00002140)
+Kurisu nods and begins tinkering with the settings again.
+<END>
+
+#WRITE(PTR, $00002150)
+【Kurisu】I set the destination to 5 hours ago. Basically, around 1:40.
+<END>
+
+#WRITE(PTR, $00002160)
+【Kurisu】Remember? I complete the Time Leap Machine after 2.
+<END>
+
+#WRITE(PTR, $00002170)
+Is that right?
+<END>
+
+#WRITE(PTR, $00002180)
+For Kurisu, that happened only five hours ago, but for me, having repeated the same time over and over, 2 o'clock was several hundred hours ago.
+<END>
+
+#WRITE(PTR, $0000219A)
+【Kurisu】Nobody likes men who are loose with time.
+<END>
+
+#WRITE(PTR, $000021B4)
+【Kurisu】Show some respect. I keep a close eye on time, so I remember quite well what happened at what time.
+<END>
+
+#WRITE(PTR, $000021C4)
+Finished with the keyboard, Kurisu turns to me.
+<END>
+
+#WRITE(PTR, $000021DE)
+【Kurisu】Okay, Okabe? If you're going to use the Time Leap Machine, at least remember this.
+<END>
+
+#WRITE(PTR, $000021EE)
+【Kurisu】You must never relinquish your phone. It's your lifeline. Your location marker.
+<END>
+
+#WRITE(PTR, $000021FE)
+【Kurisu】As long as you do that, you can leap to any time you want.
+<END>
+
+#WRITE(PTR, $00002218)
+【Kurisu】But if you relinquish your phone and someone else uses it--
+<END>
+
+#WRITE(PTR, $00002228)
+If someone else uses it, then my memories would overwrite their brain. I don't want to think of what happens next.
+<END>
+
+#WRITE(PTR, $00002238)
+【Kurisu】Or if it runs out of battery--
+<END>
+
+#WRITE(PTR, $00002248)
+If it runs out of battery, then I can't time leap to that time.
+<END>
+
+#WRITE(PTR, $00002258)
+If it's destroyed, then I just need to change models and keep that number, but I can't use it for the hours it takes to do that.
+<END>
+
+#WRITE(PTR, $00002268)
+【Kurisu】Then the time leap will fail.
+<END>
+
+#WRITE(PTR, $00002282)
+【Kurisu】So you must absolutely not relinquish your phone.
+<END>
+
+#WRITE(PTR, $00002292)
+【Rintaro】Roger.
+<END>
+
+#WRITE(PTR, $000022A2)
+【Kurisu】After time leaping to daytime today, and until 2 when I complete the machine, you don't have to do anything in particular.
+<END>
+
+#WRITE(PTR, $000022B2)
+【Kurisu】If I don't finish this, that'll surely cause a great change in the flow of time.
+<END>
+
+#WRITE(PTR, $000022CC)
+【Kurisu】Right after I finish, declare we won't experiment and disband all members.
+<END>
+
+#WRITE(PTR, $000022DC)
+【Kurisu】Then just call out to me. If you say you came from the future, I'll probably believe you.
+<END>
+
+#WRITE(PTR, $000022EC)
+【Rintaro】How do you know?
+<END>
+
+#WRITE(PTR, $00002306)
+【Kurisu】I know myself the best.
+<END>
+
+#WRITE(PTR, $00002316)
+Kurisu grins faintly and stand up after she's done typing.
+<END>
+
+#WRITE(PTR, $000023EC)
+【Kurisu】I'm the one who improved the Microwave Ophone into the Time Leap Machine in the first place, aren't I?
+<END>
+
+#WRITE(PTR, $000023FC)
+【Kurisu】Earlier, when you said you time leaped, it meant to me that my theory wasn't wrong. I was happy it succeeded. Without a doubt.
+<END>
+
+#WRITE(PTR, $0000240C)
+I see...
+<END>
+
+#WRITE(PTR, $00002426)
+【Kurisu】Let's decide a keyword, just to make sure.
+<END>
+
+#WRITE(PTR, $00002436)
+【Kurisu】What I want the most right now is "My Fork".
+<END>
+
+#WRITE(PTR, $00002446)
+【Rintaro】Wha...t...?
+<END>
+
+#WRITE(PTR, $00002460)
+【Kurisu】Nothing, it doesn't really mean anything.
+<END>
+
+#WRITE(PTR, $00002470)
+【Rintaro】You want My Fork?
+<END>
+
+#WRITE(PTR, $00002480)
+【Kurisu】Because I already have My Spoon... wait, don't mind that.
+<END>
+
+#WRITE(PTR, $00002490)
+【Kurisu】Okay, okay, everything's ready. You can go when ready.
+<END>
+
+#WRITE(PTR, $000024A0)
+I nod, and without any hesitation, call the Microwave Ophone (Temp)'s number.
+<END>
+
+#WRITE(PTR, $000026E0)
+【Kurisu】Be careful.
+<END>
+
+#WRITE(PTR, $000026F0)
+【Kurisu】I'm always on your side.
+<END>
+
+#WRITE(PTR, $00002700)
+Kurisu lightly touches my shoulder and lets go.
+<END>
+
+#WRITE(PTR, $000029E4)
+TL09.PMF
+<FILEENDA7>
+

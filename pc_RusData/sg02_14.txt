@@ -1,0 +1,1330 @@
+<PRE @box00>[text00010]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0934" mode="on">
+"Кто это?"
+
+</PRE>
+
+<PRE @box01>[text00020]
+<voice name="???" class="VID_CRS" src="voice/CRS_0322" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00030]
+Что? Я ничего не слышу. Кто-то ошибся?
+
+Нет, наверное...
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0935" mode="on">
+"Ты из «Организации», верно? Это предупреждение? Хотите, чтобы я перестал копать под СЕРН?"
+
+</PRE>
+
+<PRE @box01>[text00040]
+<voice name="???" class="VID_CRS" src="voice/CRS_0323" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Хаа?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00050]
+Эм? Это женский голос.
+
+Кроме того, она не ответила на мои вопросы.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0936" mode="on">
+"Ты не из «Организации»?"
+
+</PRE>
+
+<PRE @box01>[text00060]
+<voice name="???" class="VID_CRS" src="voice/CRS_0324" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"...Нет. Это Макисе."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00070]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0937" mode="on">
+"Макисе..."
+
+Кто..?
+
+Этот голос кажется знакомым...
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0938" mode="on">
+"Извините, но я не помню. Скажите, где мы встречались. Париж? Лондон?"
+
+</PRE>
+
+<PRE @box01>[text00080]
+<voice name="Женщина, назвавшаяся Макисе" class="VID_CRS" src="voice/CRS_0325" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"В Акихабаре. И мы встречались вчера."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00090]
+Вчера?
+
+Макисе... Макисе...
+
+</PRE>
+
+<PRE @box00>[text00100]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0939" mode="on">
+"А, моя ассистентка!"
+
+</PRE>
+
+<PRE @box01>[text00110]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0326" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я не твоя ассистентка! Я Макисе Курису!"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0940" mode="on">
+"Если не скажешь «Кристина», я не смогу узнать тебя."
+
+</PRE>
+
+<PRE @box01>[text00130]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0327" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я не Кристина. Сколько раз тебе повторять?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0941" mode="on">
+"Раздражена, как и всегда."
+
+</PRE>
+
+<PRE @box01>[text00150]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0328" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"А кто в этом виноват? Кто?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00160]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0942" mode="on">
+"Подожди, откуда ты знаешь мой номер?"
+
+Это необычно... Курису всё-таки может быть шпионом...
+
+</PRE>
+
+<PRE @box01>[text00170]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0329" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Хашида-сан сказал его мне."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00180]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0943" mode="on">
+"О, как скучно. Итак, что тебе надо, ассистентка?"
+
+</PRE>
+
+<PRE @box01>[text00190]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0330" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я же сказала, я не твоя ассистентка..."</FONT>
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0331" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Хаа, впрочем глупо возражать. Где ты?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00200]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0944" mode="on">
+"Я иду в храм Янабаяши."
+
+</PRE>
+
+<PRE @box01>[text00210]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0332" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ах, ясно. Пока."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00220]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0945" mode="on">
+"..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0946" mode="on">
+"А? Ха?! Что это было?! Она ненавидит меня?! Правда ненавидит?!"
+
+</PRE>
+
+<PRE @box00>[text00230]
+Как ты смеешь смотреть на меня свысока?
+
+При следующей встрече нужно быть осторожней.
+
+Её работа была опубликована в «Science», в конце концов.
+
+</PRE>
+
+<PRE @box00>[text00240]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0333" mode="on">
+"..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0947" mode="on">
+"...Тебя опубликовали в «Science», и что с того?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0334" mode="on">
+"С чего это ты вдруг?"
+
+Ассистентка стоит перед храмом.
+
+И устало смотрит на меня.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0948" mode="on">
+"Что это был за звонок?"
+
+</PRE>
+
+<PRE @box00>[text00250]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0335" mode="on">
+"Я лишь спросила, где ты. Ты сказал, что идешь сюда, и я тоже пришла."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0949" mode="on">
+"Тебя никто не звал."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0336" mode="on">
+"Я тоже такого не помню."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0950" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text00260]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0337" mode="on">
+"..."
+
+Почему она всегда надутая?
+
+</PRE>
+
+<PRE @box00>[text00270]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0951" mode="on">
+"Зачем ты захотела встретиться?"
+
+</PRE>
+
+<PRE @box00>[text00280]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0338" mode="on">
+"Не потому, что я <I>хотела</i>⑰ встретиться или что-то такое. Не пойми меня неправильно."
+
+</PRE>
+
+<PRE @box00>[text00290]
+Она просто готовится сказать оскорбление.
+
+</PRE>
+
+<PRE @box00>[text00300]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0339" mode="on">
+"...Твои вчерашние слова не выходят у меня из головы."
+
+</PRE>
+
+<PRE @box00>[text00310]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0952" mode="on">
+"Какие слова?"
+
+</PRE>
+
+<PRE @box00>[text00320]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0340" mode="on">
+"Про IBN 5100. И СЕРН."
+
+</PRE>
+
+<PRE @box00>[text00330]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0953" mode="on">
+"Так значит, ты шпион не «Организации», а СЕРН?! Ты пришла убить меня, да?! Так я и думал. Потому что у тебя лицо убийцы!"
+
+</PRE>
+
+<PRE @box00>[text00340]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0341" mode="on">
+"Моё лицо? Как грубо!"
+
+</PRE>
+
+<PRE @box00>[text00350]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0342" mode="on">
+"Ты можешь успокоиться? Почему ты всё время маешься дурью? Ты совсем не похож на взрослого, в отличие от меня."
+
+</PRE>
+
+<PRE @box00>[text00360]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0954" mode="on">
+"Успокойся, да..? Хм, ты не понимаешь. Я постоянно подвергаюсь опасности. Вся моя жизнь проходит в бегах."
+
+</PRE>
+
+<PRE @box00>[text00370]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0343" mode="on">
+"Эх, я и слова из этого бреда не понимаю."
+
+</PRE>
+
+<PRE @box00>[text00380]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0955" mode="on">
+"Так ты хочешь драться?"
+
+</PRE>
+
+<PRE @box00>[text00390]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0344" mode="on">
+"Мне просто интересно, как IBN 5100 и СЕРН связаны."
+
+</PRE>
+
+<PRE @box00>[text00400]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0956" mode="on">
+"То есть, это значит, что тебе интересны исследования СЕРН машины времени? Только честно."
+
+</PRE>
+
+<PRE @box00>[text00410]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0345" mode="on">
+"За-заткнись. Машины времени мне совсем не интересны."
+
+</PRE>
+
+<PRE @box00>[text00420]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0346" mode="on">
+"Так ты нашёл IBN 5100?"
+
+</PRE>
+
+<PRE @box00>[text00430]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0957" mode="on">
+"Здесь ты найдешь ответ на свой вопрос."
+
+</PRE>
+
+<PRE @box00>[text00440]
+Курису посмотрела на тории Янабаяши.
+
+</PRE>
+
+<PRE @box00>[text00450]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0347" mode="on">
+"В храме?"
+
+</PRE>
+
+<PRE @box00>[text00460]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0958" mode="on">
+"Верно."
+
+</PRE>
+
+<PRE @box00>[text00470]
+Затем из одного из зданий храма появляется красивая девушка, то есть — парень, одетый, как служительница храма. В руке у него метла.
+
+</PRE>
+
+<PRE @box00>[text00480]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0031" mode="on">
+"Ах, Ока... Кёма-сан, здравствуйте."
+
+</PRE>
+
+<PRE @box00>[text00490]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0959" mode="on">
+"...Рукако, почему он не у тебя?"
+
+</PRE>
+
+<PRE @box00>[text00500]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0032" mode="on">
+"Эмм, Вы говорите о «Демоническом Мече Самидаре»?"
+
+</PRE>
+
+<PRE @box00>[text00510]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0960" mode="on">
+"Мне кажется, я говорил тебе носить его с собой всё время!"
+
+</PRE>
+
+<PRE @box00>[text00520]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0033" mode="on">
+"Извините, но он мешается, когда я убираюсь..."
+
+</PRE>
+
+<PRE @box00>[text00530]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0961" mode="on">
+"И что ты сделаешь, если на тебя нападут во время уборки? Никто не придёт тебя спасать."
+
+</PRE>
+
+<PRE @box00>[text00540]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0034" mode="on">
+"Д-действительно... Впредь я буду осторожнее."
+
+</PRE>
+
+<PRE @box00>[text00550]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0348" mode="on">
+"Эй. О чём вы двое говорите?"
+
+</PRE>
+
+<PRE @box00>[text00560]
+Наконец заметив Курису, Рукако посмотрел на меня с недоумением.
+
+</PRE>
+
+<PRE @box00>[text00570]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0035" mode="on">
+"Эх, гм... кто это может быть..?"
+
+</PRE>
+
+<PRE @box00>[text00580]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0962" mode="on">
+"Моя ассистентка."
+
+</PRE>
+
+<PRE @box00>[text00590]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0349" mode="on">
+"Нет же! И что это за странное введение?"
+
+</PRE>
+
+<PRE @box00>[text00600]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0963" mode="on">
+"Я лишь сказал правду, Кристина."
+
+</PRE>
+
+<PRE @box00>[text00610]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0036" mode="on">
+"Она н-н-не японка..?"
+
+</PRE>
+
+<PRE @box00>[text00620]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0350" mode="on">
+"Японка."
+
+</PRE>
+
+<PRE @box00>[text00630]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0964" mode="on">
+"Сейчас важнее другое, Рукако. Мне нужно поговорить с твоим отцом..."
+
+</PRE>
+
+<PRE @box00>[text00640]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0351" mode="on">
+"Подожди! Представь меня! Правильно!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0965" mode="on">
+"Хочешь, чтобы тебя представили? Правильно?"
+
+</PRE>
+
+<PRE @box00>[text00650]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0352" mode="on">
+"Было бы странно, если бы я <i>не</i>⑰ хотела."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0966" mode="on">
+"Я пришёл сюда не знакомить тебя с Рукако!"
+
+</PRE>
+
+<PRE @box00>[text00660]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0353" mode="on">
+"Это займёт не больше десяти секунд, почему ты упёрся?"
+
+</PRE>
+
+<PRE @box00>[text00670]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0037" mode="on">
+"Гм... почему вы..."
+
+Рукако растерян. Видимо, он не понимает, почему мы ссоримся.
+
+</PRE>
+
+<PRE @box00>[text00680]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0967" mode="on">
+"Это Макисе Курису... Моя ассистентка."
+
+</PRE>
+
+<PRE @box00>[text00690]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0354" mode="on">
+"Да мне всё равно. Ассистентка или кто, ха..."
+
+</PRE>
+
+<PRE @box00>[text00700]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0038" mode="on">
+"Приятно познакомиться, Макисе-сан. Урушибара Рука."
+
+</PRE>
+
+<PRE @box00>[text00710]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0355" mode="on">
+"Приятно познакомиться. Сколько Вам лет?"
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0039" mode="on">
+"17."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0356" mode="on">
+"На год младше меня..."
+
+</PRE>
+
+<PRE @box00>[text00720]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0040" mode="on">
+"Э, это так? Макисе-сан, вы выглядите как взрослая, и не похоже, что Вы всего на год старше..."
+
+</PRE>
+
+<PRE @box00>[text00730]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0968" mode="on">
+"Другими словами, ты выглядишь старой."
+
+</PRE>
+
+<PRE @box00>[text00740]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0357" mode="on">
+"..."
+
+Она угрюмо смотрит на меня.
+
+</PRE>
+
+<PRE @box00>[text00750]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0041" mode="on">
+"Нет, вовсе нет, умм, я хочу сказать, что вы очень красивы!.."
+
+</PRE>
+
+<PRE @box00>[text00760]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0358" mode="on">
+"Спасибо. Ты тоже."
+
+</PRE>
+
+<PRE @box00>[text00770]
+Но он парень. Не думаю, что нужно говорить об этом ассистентке.
+
+Если она узнает правду, то уедет в Америку от шока.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0969" mode="on">
+"Мы закончили с этой глупой официальностью?"
+
+</PRE>
+
+<PRE @box00>[text00780]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0359" mode="on">
+"Я устала от твоего нытья."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0970" mode="on">
+"Рукако, мне нужно поговорить с твоим отцом. Ты можешь позвать его?"
+
+</PRE>
+
+<PRE @box00>[text00790]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0042" mode="on">
+"Да, могу, но о чём вы хотите с ним поговорить..?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0971" mode="on">
+"О важном деле, определяющем будущее человечества."
+
+</PRE>
+
+<PRE @box00>[text00800]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0043" mode="on">
+"Будущее!.."
+
+</PRE>
+
+<PRE @box00>[text00810]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0360" mode="on">
+"Человечества?"
+
+</PRE>
+
+<PRE @box00>[text00820]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0044" mode="on">
+"Я-я сейчас же позову его."
+
+</PRE>
+
+<PRE @box00>[text00830]
+Рукако убегает в храм.
+
+Он верит всему, что я говорю.
+
+В отличии от мятежной ассистентки, с ним легко общаться.
+
+</PRE>
+
+<PRE @box00>[text00840]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0361" mode="on">
+"Апчхи!"
+
+</PRE>
+
+<PRE @box00>[text00850]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0362" mode="on">
+"О, нет, я простудилась..?"
+
+Курису слишком занята, чтобы ругать меня.
+
+</PRE>
+
+<PRE @box00>[text00860]
+Вскоре появляется отец Рукако.
+
+Рукако очень взволнован. Он практически тащит своего отца.
+
+</PRE>
+
+<PRE @box00>[text00870a]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0045" mode="on">
+"Отец, поторопись!.."
+
+</PRE>
+
+<PRE @box00>[text00870b]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0000" mode="on">
+"Не так быстро. Не гони меня, а то я упаду..."
+
+</PRE>
+
+<PRE @box00>[text00880a]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0046" mode="on">
+"Но будущее человечества зависит от этого..."
+
+</PRE>
+
+<PRE @box00>[text00880b]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0001" mode="on">
+"О, вот оно что. Дело действительно серьёзное."
+
+Я видел его отца несколько раз.
+
+Он хороший человек. Вот только он неправильно вырастил Рукако.
+
+Этот отец обожает своего сына.
+
+Интересно, Рукако носит такую одежду по просьбе отца? Может, его отец — извращенец? Нет, я не хочу издеваться над обычаями синтоизма.
+
+</PRE>
+
+<PRE @box00>[text00890]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0002" mode="on">
+"Ах, Хооин-кун. Давно не виделись. Спасибо за заботу о Рукако."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0972" mode="on">
+"Ничего. Это честь для меня."
+
+</PRE>
+
+<PRE @box00>[text00900a]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0363" mode="on">
+"...Его зовут не Хооин, а Окабе."
+
+</PRE>
+
+<PRE @box00>[text00900b]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0003" mode="on">
+"Э, это так?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0973" mode="on">
+"Ассистентка! Ты только всё усложняешь, помолчи!"
+
+</PRE>
+
+<PRE @box00>[text00910]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0364" mode="on">
+"Разве я не просто сказала правду?"
+
+Чёрт, зачем она вообще сюда приехала?
+
+</PRE>
+
+<PRE @box00>[text00930]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0004" mode="on">
+"Рука сказал, что его имя — Хооин-кун, и я поверил, но, ммм, может Рука просто обманул меня. Ха-ха-ха!"
+
+</PRE>
+
+<PRE @box00>[text00940]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0047" mode="on">
+"Ах, отец, вовсе нет, Окабе-сан — его настоящее имя, а Хооин — это... уммм..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0974" mode="on">
+"Я Хооин."
+
+</PRE>
+
+<PRE @box00>[text00950]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0365" mode="on">
+"Окабе Ринтаро — имя, которое тебе дали родители, не так ли? Ты отрицаешь это?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0975" mode="on">
+"Просто помолчи, Зомби!"
+
+</PRE>
+
+<PRE @box00>[text00960]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0366" mode="on">
+"Ты кого назвал зомби?!"
+
+</PRE>
+
+<PRE @box00>[text00970]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0005" mode="on">
+"Ха-ха-ха, здорово, что вы так ладите."
+
+Отец Рукако смотрит на Курису.
+
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0006" mode="on">
+"Ты тоже подруга Руки? Пожалуйста, поладь и с Рукой."
+
+</PRE>
+
+<PRE @box00>[text00980]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0367" mode="on">
+"Эх, я..."
+
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0007" mode="on">
+"Этот ребенок очень нежный, как вы видите."
+
+</PRE>
+
+<PRE @box00>[text00990]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0048" mode="on">
+"О-отец, не надо..."
+
+</PRE>
+
+<PRE @box00>[text01000]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0368" mode="on">
+"..."
+
+У Курису плаксивое выражение лица.
+
+Что случилось? Её так волнует, что её назвали подругой Рукако, хотя это не так?
+
+</PRE>
+
+<PRE @box00>[text01010]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0369" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text01020]
+Заметив мой взгляд, Курису быстро отворачивается.
+
+</PRE>
+
+<PRE @box00>[text01030]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0008" mode="on">
+"Итак, Хооин-кун. Ты что-то хотел?"
+
+</PRE>
+
+<PRE @box00>[text01040]
+Это верно. Сейчас не время для болтовни.
+
+Решающее событие, как никак.
+
+Будущее человечества и всё такое.
+
+Итак...
+
+Я объясняю отцу Руки, насколько сильно мне нужен драгоценный компьютер, IBN 5100.
+
+Кроме того, я спрашиваю, пожертвовали ли этот ПК в храм Янабаяши.
+
+</PRE>
+
+<PRE @box00>[text01050a]
+Конечно же, я не сказал ни о том, что мы собираемся взломать СЕРН с его помощью, ни о машине времени.
+
+</PRE>
+
+<PRE @box00>[text01050b]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0009" mode="on">
+"Не знаю, уместно ли слово «пожертвовали»..."
+
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0010" mode="on">
+"Но у нас безусловно есть старый компьютер, который отдали храму около 9 лет назад."
+
+</PRE>
+
+<PRE @box00>[text01060]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0976" mode="on">
+"Э..."
+
+Я потерял дар речи.
+
+Не может быть, он здесь..?
+
+</PRE>
+
+<PRE @box00>[text01070]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0977" mode="on">
+"Это он! Без сомнений, он!"
+
+</PRE>
+
+<PRE @box00>[text01080]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0011" mode="on">
+"Подожди немного. Я сейчас его принесу."
+
+</PRE>
+
+<PRE @box00>[text01090]
+Отец Рукако вернулся через 10 минут.
+
+В руках он несёт большую коробку, а его лицо красного цвета.
+
+Идёт он раскачиваясь. Надеюсь, он не упадёт.
+
+</PRE>
+
+<PRE @box00>[text01100]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0012" mode="on">
+"Ох, его трудно было найти. Полагаю, это он."
+
+Отец Рукако ставит коробку на землю и после глубоко вздыхает.
+
+Неужели он настолько тяжёлый?
+
+Я благодарю его и заглядываю внутрь.
+
+</PRE>
+
+<PRE @box00>[text01110]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0978" mode="on">
+"Это IBN 5100!.."
+
+Внутри ящика лежит компьютер с интегрированным в него монитором.
+
+Я говорю «монитор», но он очень маленький. Как у GPS-навигатора.
+
+Я сравниваю компьютер с изображением IBN 5100, которое мне прислала Моэка.
+
+Компьютер очень похож.
+
+</PRE>
+
+<PRE @box00>[text01120]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0049" mode="on">
+"Ах, пожалуйста, посмотрите сюда."
+
+</PRE>
+
+<PRE @box00>[text01130]
+Рукако указывает на логотип, расположенный между <FONT incolor="#ff7080" outcolor="#000000">ленточным накопителем</FONT> и монитором.
+
+Он гласит: «IBN 5100 Portable Computer».
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0979" mode="on">
+"Муаха-ха, МУАХА-ХА-ХА-ХА! Наконец, я нашёл городскую легенду Акихабары!"
+
+</PRE>
+
+<PRE @box00>[text01140]
+Это тот самый компьютер!
+
+И в хорошем состоянии. На нём только тонкий слой пыли.
+
+Однако, чтобы удостовериться, что он работает, нужно его включить.
+
+Теперь проблема заключается в следующем: одолжат ли мне его или нет.
+
+</PRE>
+
+<PRE @box00>[text01150]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0980" mode="on">
+"Урушибара-ши. Я спрошу прямо:"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0981" mode="on">
+"Могу я одолжить его?"
+
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0013" mode="on">
+"Конечно."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0982" mode="on">
+"Так просто?!"
+
+Для жрецов в порядке вещей раздавать пожертвованные вещи людям?
+
+Не слышал ничего подобного. Поэтому я ожидал отказа.
+
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0014" mode="on">
+"Когда мне его отдали, владелец сказал:"
+
+</PRE>
+
+<PRE @box00>[text01170a]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0015" mode="on">
+"Если появится молодой человек, которому будет нужен этот компьютер, отдайте его."
+
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0016" mode="on">
+"Я не думал, что это когда-нибудь произойдёт. На самом деле, я даже забыл об этом, пока не появились эти слухи."
+
+</PRE>
+
+<PRE @box00>[text01170b]
+<voice name="Отец Рукако" class="VID_RUP" src="voice/URP_0017" mode="on">
+"Поэтому, я отдам его тебе, Хооин-кун. Но когда закончишь, пожалуйста, верни его, хорошо?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0983" mode="on">
+"Да, большое спасибо!"
+
+</PRE>
+
+<PRE @box00>[text01190]
+Низко кланяясь, про себя я усмехался.
+
+Хе-хе-хе, я не могу удержаться от смеха. Дела идут так гладко. Словно кто-то всё заранее приготовил для меня.
+
+И теперь все самые сокровенные тайны СЕРН почти раскрыты.
+
+Мы обнаружим их злобные исследования и, возможно, найдём какую-нибудь информацию про машину времени.
+
+И тогда я создам её раньше них и попаду в историю!
+
+</PRE>
+
+<PRE @box00>[text01200]
+Ну а теперь нужно отнести IBN 5100 в лабораторию.
+
+Но, к сожалению, у меня нет автомобиля для его транспортировки. У меня даже прав нет.
+
+У ассистентки — тоже.
+
+</PRE>
+
+<PRE @box00>[text01210]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0984" mode="on">
+"В Америке, кажется, получают права в 16 лет, верно? У тебя их всё ещё нет?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0370" mode="on">
+"А что, это проблема? Там я занималась только исследованиями."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0985" mode="on">
+"Ты впустую тратишь свою молодость."
+
+</PRE>
+
+<PRE @box00>[text01220]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0371" mode="on">
+"Смотря на тебя, я так не думаю. Думаю, что трачу её с большей пользой, чем ты."
+
+Чёртова ассистентка. Задела за живое.
+
+</PRE>
+
+<PRE @box00>[text01230]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0050" mode="on">
+"Мм, гм, ссориться плохо..."
+
+Рукако опять растерян.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0986" mode="on">
+"Рукако, сегодня ты спас нас всех. Поблагодари своего отца ещё раз от меня."
+
+Отец Рукако уже вернулся в храм.
+
+Рукако кивает на мои слова.
+
+</PRE>
+
+<PRE @box00>[text01240]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0372" mode="on">
+"Ваш отец — прекрасный человек."
+
+</PRE>
+
+<PRE @box00>[text01250]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0051" mode="on">
+"Э..?"
+
+Рукако и я впали в ступор от таких слов ассистентки.
+
+</PRE>
+
+<PRE @box00>[text01260]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0052" mode="on">
+"М-мой отец ж-женат... п-п-прелюбодеяние... это плохо!.."
+
+</PRE>
+
+<PRE @box00>[text01270]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0373" mode="on">
+"А..?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0987" mode="on">
+"Всё ясно, ассистентка. Тебе нравятся зрелые мужчины."
+
+</PRE>
+
+<PRE @box00>[text01280]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0374" mode="on">
+"Эй, подожди! Поймите меня правильно, вы двое. Я не это имела в виду!"
+
+</PRE>
+
+<PRE @box00>[text01290]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0053" mode="on">
+"Я-я не отдам Вам моего отца..."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0375" mode="on">
+"П-пожалуйста, не плачь..."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0376" mode="on">
+"Я имела в виду, что вы с отцом хорошо ладите, и я завидую. Вот и всё."
+
+</PRE>
+
+<PRE @box00>[text01300]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0054" mode="on">
+"Э, а, вот как... Простите за странное недоразумение!.. Так грубо с моей стороны!.."
+
+</PRE>
+
+<PRE @box00>[text01310]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0377" mode="on">
+"Перестаньте плакать. Мы уже во всём разобрались, значит, всё в порядке."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0988" mode="on">
+"...Но в глубине души у тебя есть чувства к отцу Рукако."
+
+</PRE>
+
+<PRE @box00>[text01320]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0378" mode="on">
+"Умри."
+
+</PRE>
+
+<PRE @box00>[text01330]
+Кристина отворачивается.
+
+Я останавливаю себя. Если разозлить её сильнее, это может привести к насилию.
+
+</PRE>
+
+<PRE @box00>[text01340]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0989" mode="on">
+"Рукако, не забудь упражняться с Самидаре."
+
+</PRE>
+
+<PRE @box00>[text01350]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0055" mode="on">
+"Х-хорошо. Я буду стараться... Умм, Эль Псай Конгали..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0990" mode="on">
+"Конгру! Не забывай это."
+
+</PRE>
+
+<PRE @box00>[text01360]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0056" mode="on">
+"Извините!.."
+
+</PRE>
+
+<PRE @box00>[text01370]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0379" mode="on">
+"Эй, разве не жестоко так запугивать девушек?"
+
+Нет, не думаю.
+
+</PRE>
+
+<PRE @box00>[text01380]
+Потому что Рукако — парень.
+
+</PRE>
+
+<PRE @box00>[text01390]
+Игнорируя реплику Кристины, я поднимаю коробку с IBN 5100.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0991" mode="on">
+"Хм... Гах, тяжёлый!"
+
+</PRE>
+
+<PRE @box00>[text01400]
+И я должен сам тащить его весь этот путь до лаборатории?
+
+Я ставлю коробку с IBN 5100 внутри на землю.
+
+Теперь понятно, почему лицо отца Рукако было красным.
+
+</PRE>
+
+<PRE @box00>[text01410]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0057" mode="on">
+"Он правда тяжёлый..?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0380" mode="on">
+"Какой слабак. Это всего лишь большой ЭЛТ-монитор."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0992" mode="on">
+"Тогда почему бы тебе не поднять его? Ты поймёшь, что я прав."
+
+</PRE>
+
+<PRE @box00>[text01420]
+Курису вздыхает, берёт двумя руками коробку, напрягает все силы...
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0381" mode="on">
+"Вгх!.."
+
+</PRE>
+
+<PRE @box00>[text01430]
+Даже не подняв его на сантиметр, Курису сдается.
+
+</PRE>
+
+<PRE @box00>[text01440]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0382" mode="on">
+"...И правда тяжёлый."
+
+В замешательстве, она краснеет.
+
+Похоже, у неё сильно развит дух соперничества.
+
+</PRE>
+
+<PRE @box00>[text01450]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0383" mode="on">
+"Он весит не меньше 30 кг, да?"
+
+</PRE>
+
+<PRE @box00>[text01460]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0384" mode="on">
+"Может нам позаимствовать тележку? Урушибара-сан, у вас есть такие в храме?"
+
+</PRE>
+
+<PRE @box00>[text01470]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0058" mode="on">
+"Умм, есть одна, но она сломана... Извините."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0385" mode="on">
+"Ясно. Может, где-нибудь в другом месте..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0993" mode="on">
+"Нет, нам не нужна тележка."
+
+</PRE>
+
+<PRE @box00>[text01480]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0386" mode="on">
+"Тогда как ты собираешься нести компьютер? От твоей захудалой лаборатории до храма 10 минут ходьбы."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0994" mode="on">
+"Для одного человека — это слишком тяжело, но для двоих — другое дело. Мы просто понесём его вместе. Ты же моя ассистентка, верно?"
+
+</PRE>
+
+<PRE @box00>[text01490]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0387" mode="on">
+"Так это причина..?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0388" mode="on">
+"Ну если бы мы оба понесли его, то справились бы."
+
+</PRE>
+
+<PRE @box00>[text01500]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0389" mode="on">
+"Но я отказываюсь."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0995" mode="on">
+"...Что?"
+
+</PRE>
+
+<PRE @box00>[text01510]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0390" mode="on">
+"Я-я сказала «нет»."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0996" mode="on">
+"Разве ты не сказала «фэйл»?"
+
+</PRE>
+
+<PRE @box00>[text01520]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0391" mode="on">
+"З-заткнись. Я сказала «нет»."
+
+...Неужели она сидит на @channel?
+
+</PRE>
+
+<PRE @box00>[text01530]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0392" mode="on">
+"Сначала ты сделал меня членом лаборатории, чтобы «использовать мои знания». А из этого вытекает следующее: «Я не буду таскать тяжести»."
+
+</PRE>
+
+<PRE @box00>[text01540]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0997" mode="on">
+"Я понял. Ничего не поделаешь... Тогда я сам постараюсь его донести, но..."
+
+</PRE>
+
+<PRE @box00>[text01550]
+Я взглянул на Рукако.
+
+</PRE>
+
+<PRE @box00>[text01560]
+Он дёрнулся, заметив мой взгляд, и с плаксивым лицом Рукако поднимает руку.
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0059" mode="on">
+"Хм, т-тогда, я..."
+
+</PRE>
+
+<PRE @box00>[text01570]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0393" mode="on">
+"А? Урушибара-сан? Всё хорошо?"
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0060" mode="on">
+"Да, я-я помогу."
+
+</PRE>
+
+<PRE @box00>[text01580]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0998" mode="on">
+"Нет, Рукако. Я не должен заставлять тебя помогать. Я справлюсь сам."
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0061" mode="on">
+"Нет... не справитесь. Пожалуйста, не упрямьтесь. Я хочу быть полезным для Окабе-сана."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0999" mode="on">
+"Нет, я сам."
+
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0062" mode="on">
+"Я-я помогу."
+
+</PRE>
+
+<PRE @box00>[text01590]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0394" mode="on">
+"Т-тогда, ммм... я тоже."
+
+</PRE>
+
+<PRE @box00>[text01600]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1000" mode="on">
+"Пожалуйста, всеми силами."
+
+</PRE>
+
+<PRE @box00>[text01610]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0395" mode="on">
+"А? Ч-чт?!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1001" mode="on">
+"Муаха-ха-ха! Разве ты не знаешь, Кристина? Это называется «Развод по-японски»!"
+
+</PRE>
+
+<PRE @box00>[text01620]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0396" mode="on">
+"Ты подлый..."
+
+</PRE>
+
+<PRE @box00>[text01630]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1002" mode="on">
+"Рукако, спасибо за поддержку! Теперь ассистентка поможет мне с компьютером, и вдвоём мы справимся. Спасибо за беспокойство."
+
+</PRE>
+
+<PRE @box00>[text01640]
+<voice name="Рукако" class="VID_RUK" src="voice/RUK_0063" mode="on">
+"А, хорошо... если так оно и есть, то..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1003" mode="on">
+"Теперь, ассистентка! Поскольку ты хочешь помочь добровольно, то я не посмею тебе отказать. Давай, хватай коробку!"
+
+</PRE>
+
+<PRE @box00>[text01650]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0397" mode="on">
+"...Хорошо-хорошо."
+
+</PRE>
+
+<PRE @box00>[text01660]
+Вместе с Курису мы поднимаем коробку.
+
+Так куда легче.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0398" mode="on">
+"Почему мы должны быть лицом к лицу?"
+
+Мы держим коробку таким образом, что смотрим друг на друга.
+
+По-другому держать его невозможно, так что ничего не поделаешь.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1004" mode="on">
+"Просто пойдём."
+
+</PRE>
+
+<PRE @box00>[text01670]
+Я начинаю идти.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0399" mode="on">
+"Эй, подожди-подожди! Подожди!"
+
+</PRE>
+
+<PRE @box00>[text01680]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1005" mode="on">
+"Ты слишком шумная."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0400" mode="on">
+"Не иди вперёд. Потому что мне придётся пятиться. Двигайся боком."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1006" mode="on">
+"Просто иди уже, ассистентка."
+
+</PRE>
+
+<PRE @box00>[text01690]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0401" mode="on">
+"Эй, послушай, пожалуйста, послушай! Мне неудобно пятиться!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1007" mode="on">
+"Если ты моя ассистентка, ты сможешь так идти."
+
+</PRE>
+
+<PRE @box00>[text01700]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0402" mode="on">
+"Спасибо за веру в меня. Но это уж слишком! Я прошу тебя идти боком! Нет, я говорю тебе идти боком! Боком! Я же упаду!"
+
+</PRE>
+

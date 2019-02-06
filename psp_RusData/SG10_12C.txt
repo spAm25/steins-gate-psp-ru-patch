@@ -1,0 +1,643 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002776)
+
+#WRITE(PTR, $000007E0)
+My field of vision spins around me.
+<END>
+
+#WRITE(PTR, $000007F0)
+The rotation gradually slows.
+<END>
+
+#WRITE(PTR, $00000800)
+Color returns to the world.
+<END>
+
+#WRITE(PTR, $0000081C)
+The lab entrance.
+<END>
+
+#WRITE(PTR, $000009BC)
+She should have been standing there.
+<END>
+
+#WRITE(PTR, $000009CC)
+My assistant... Christina, Makise Kurisu.
+<END>
+
+#WRITE(PTR, $00000AB4)
+Her figure disappeared like a phantom.
+<END>
+
+#WRITE(PTR, $00000AC4)
+Nobody's there now.
+<END>
+
+#WRITE(PTR, $00000AD4)
+I look around the room.
+<END>
+
+#WRITE(PTR, $00000B1C)
+Daru is standing next to me.
+<END>
+
+#WRITE(PTR, $00000BF0)
+Behind me is Mayuri.
+<END>
+
+#WRITE(PTR, $00000C00)
+I don't see anything especially different throughout the room.
+<END>
+
+#WRITE(PTR, $00000C10)
+Rather, it looks like nothing has changed.
+<END>
+
+#WRITE(PTR, $00000C20)
+I gently touch the shoulder of my coat.
+<END>
+
+#WRITE(PTR, $00000C30)
+There, Kurisu had sewn up the torn seam.
+<END>
+
+#WRITE(PTR, $00000C40)
+But--
+<END>
+
+#WRITE(PTR, $00000C50)
+It's gone.
+<END>
+
+#WRITE(PTR, $00000C60)
+My clothes are not torn.
+<END>
+
+#WRITE(PTR, $00000C70)
+The bumpy stitches sewn in the dark have disappeared.
+<END>
+
+#WRITE(PTR, $00000C80)
+There's no trace of the clearly mismatched pink thread either.
+<END>
+
+#WRITE(PTR, $00000C90)
+I stand up, and head to the development room.
+<END>
+
+#WRITE(PTR, $00000CFE)
+The Time Leap Machine placed under the table.
+<END>
+
+#WRITE(PTR, $00000D0E)
+No...
+<END>
+
+#WRITE(PTR, $00000D1E)
+I noticed.
+<END>
+
+#WRITE(PTR, $00000D2E)
+What was there wasn't the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00000D3E)
+It was the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $00000D4E)
+Only Kurisu's improved parts had disappeared.
+<END>
+
+#WRITE(PTR, $00000D5E)
+Completely gone--
+<END>
+
+#WRITE(PTR, $00000EF6)
+Only the traces of the 20 days Makise Kurisu spent in the lab.
+<END>
+
+#WRITE(PTR, $00000F06)
+Every trace she had left behind.
+<END>
+
+#WRITE(PTR, $00000F16)
+Disappear from the earth.
+<END>
+
+#WRITE(PTR, $00000FF8)
+Had disappeared.
+<END>
+
+#WRITE(PTR, $00001008)
+They were nowhere to be found.
+<END>
+
+#WRITE(PTR, $00001018)
+Nowhere, except in my memories.
+<END>
+
+#WRITE(PTR, $00001120)
+Mayuri and Daru were looking at me.
+<END>
+
+#WRITE(PTR, $00001130)
+【Rintaro】...Say, who was Lab Member 004 again?
+<END>
+
+#WRITE(PTR, $00001140)
+I couldn't help but ask.
+<END>
+
+#WRITE(PTR, $00001150)
+Even though I knew it was pointless.
+<END>
+
+#WRITE(PTR, $0000116E)
+But just as I expected, both of them were confused.
+<END>
+
+#WRITE(PTR, $0000117E)
+【Mayuri】Okarin, the lab doesn't have 004 people, right-?
+<END>
+
+#WRITE(PTR, $0000118E)
+【Itaru】Or could it be an unrevealed, hidden member? I'm okay as long as it's a little girl.
+<END>
+
+#WRITE(PTR, $0000119E)
+【Rintaro】...No
+<END>
+
+#WRITE(PTR, $000011AE)
+Even though I knew it would be like this.
+<END>
+
+#WRITE(PTR, $000011BE)
+The fact that they forgot her existence is very saddening. Very frightening.
+<END>
+
+#WRITE(PTR, $000011CE)
+In this world, the only person who knows Lab Member 004, Makise Kurisu, is me alone.
+<END>
+
+#WRITE(PTR, $000011DE)
+So I won't forget.
+<END>
+
+#WRITE(PTR, $000011EE)
+I alone will live with the memory of Makise Kurisu ever engraved upon my heart.
+<END>
+
+#WRITE(PTR, $000011FE)
+...Now, to proclaim our triumph.
+<END>
+
+#WRITE(PTR, $0000120E)
+Even though I can't make the final checks yet.
+<END>
+
+#WRITE(PTR, $0000121E)
+Even though I had to make many sacrifices.
+<END>
+
+#WRITE(PTR, $0000122E)
+Even so, I won this fight.
+<END>
+
+#WRITE(PTR, $0000123E)
+Because I was able to save Mayuri.
+<END>
+
+#WRITE(PTR, $0000124E)
+【Rintaro】Fu, fufu, fuuuhahaha!
+<END>
+
+#WRITE(PTR, $0000126C)
+Mayuri and Daru stare in wonder at my abrupt maniacal laughter.
+<END>
+
+#WRITE(PTR, $00001288)
+【Rintaro】Here and now, the outcome of the Final Crusade"Ragnarok" has been decided!
+<END>
+
+#WRITE(PTR, $00001298)
+【Rintaro】I myself, the insane mad scientist, Hououin Kyouma, having an IQ of 170, rivaling that of Einstein, have opposed every attack by the "Organization", as well as by SERN--
+<END>
+
+#WRITE(PTR, $000012A8)
+【Rintaro】And have manipulated space-time itself for a complete triumph! I surely am an existence equal to god!
+<END>
+
+#WRITE(PTR, $000012B8)
+【Rintaro】And thus, this great horizon upon which we have arrived, is the world in which our ambitions are made manifest! The structure of the world's control has been reset!
+<END>
+
+#WRITE(PTR, $000012C8)
+【Rintaro】This too, is Steins--
+<END>
+
+#WRITE(PTR, $000012D8)
+【Mayuri】Okarin.
+<END>
+
+#WRITE(PTR, $0000134E)
+And suddenly Mayuri, thinking something, gently embraced me.
+<END>
+
+#WRITE(PTR, $0000135E)
+Without knowing why, I froze.
+<END>
+
+#WRITE(PTR, $0000136E)
+Daru was also looking blankly.
+<END>
+
+#WRITE(PTR, $00001388)
+Mayuri looks up at my face.
+<END>
+
+#WRITE(PTR, $00001398)
+A gentle, calming smile.
+<END>
+
+#WRITE(PTR, $000013A8)
+【Mayuri】It's okay now.
+<END>
+
+#WRITE(PTR, $000013B8)
+【Rintaro】Wha... what are you saying? I was magnificently proclaiming our triumph--
+<END>
+
+#WRITE(PTR, $000013D2)
+【Mayuri】But... Okarin, your face looks like you're about to cry...
+<END>
+
+#WRITE(PTR, $000013E2)
+【Rintaro】...!
+<END>
+
+#WRITE(PTR, $000013F2)
+【Mayuri】Don't overdo it, okay? I said it before, right? Mayushii doesn't want to be a burden for Okarin.
+<END>
+
+#WRITE(PTR, $0000140C)
+【Mayuri】You don't have to... use that tone any more, okay?
+<END>
+
+#WRITE(PTR, $0000141C)
+【Mayuri】If you're in pain, you can go back to normal, and let Okarin say what's on his mind, okay?
+<END>
+
+#WRITE(PTR, $0000142C)
+【Rintaro】I... am...
+<END>
+
+#WRITE(PTR, $0000143C)
+【Mayuri】You don't have to worry about Mayushii any more.
+<END>
+
+#WRITE(PTR, $00001456)
+【Mayuri】Because Mayushii is fine.
+<END>
+
+#WRITE(PTR, $00001466)
+【Mayuri】It's okay for Okarin to cry if Okarin wants to, okay?
+<END>
+
+#WRITE(PTR, $00001480)
+【Mayuri】I don't know what happened, but...
+<END>
+
+#WRITE(PTR, $00001490)
+【Mayuri】It's okay to cry, okay?
+<END>
+
+#WRITE(PTR, $000014A0)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $000014B0)
+Rattling.
+<END>
+
+#WRITE(PTR, $000014C0)
+The mask I was frantically wearing until then, had cracked, and crumbled.
+<END>
+
+#WRITE(PTR, $000014D0)
+To me, Mayuri is the person I need to protect. The person, like a little sister, that I need to save no matter what.
+<END>
+
+#WRITE(PTR, $000014E0)
+In order to save Mayuri, I steeled my mind until this point.
+<END>
+
+#WRITE(PTR, $000014F0)
+I kept plunging forward single-mindedly.
+<END>
+
+#WRITE(PTR, $00001500)
+I even sacrificed the woman I loved.
+<END>
+
+#WRITE(PTR, $00001510)
+But now.
+<END>
+
+#WRITE(PTR, $00001520)
+With Mayuri's words, I finally realized.
+<END>
+
+#WRITE(PTR, $00001530)
+That I was now free from the pressure.
+<END>
+
+#WRITE(PTR, $00001540)
+When I think that Mayuri won't die any more.
+<END>
+
+#WRITE(PTR, $00001550)
+Kurisu's face floats through my mind again.
+<END>
+
+#WRITE(PTR, $000015CC)
+The warmth of Kurisu's body.
+<END>
+
+#WRITE(PTR, $00001644)
+The softness of Kurisu's lips.
+<END>
+
+#WRITE(PTR, $00001814)
+The weight of Kurisu's words.
+<END>
+
+#WRITE(PTR, $00001824)
+One by one, I recall each of them.
+<END>
+
+#WRITE(PTR, $00001834)
+I can't bear it anymore.
+<END>
+
+#WRITE(PTR, $0000184E)
+【Itaru】Hey, Okarin, you seriously crying?
+<END>
+
+#WRITE(PTR, $00001946)
+My field of vision blurs.
+<END>
+
+#WRITE(PTR, $00001956)
+My tears start overflowing.
+<END>
+
+#WRITE(PTR, $00001966)
+【Rintaro】I... I...
+<END>
+
+#WRITE(PTR, $00001976)
+Various feelings puddle inside my head and get out of control.
+<END>
+
+#WRITE(PTR, $00001986)
+The sadness of no longer being able to meet Kurisu pains my heart.
+<END>
+
+#WRITE(PTR, $00001996)
+I can't hold back my sobs.
+<END>
+
+#WRITE(PTR, $000019A6)
+I can't stop my tears.
+<END>
+
+#WRITE(PTR, $000019B6)
+The world where Mayuri doesn't die.
+<END>
+
+#WRITE(PTR, $000019C6)
+This world I kept searching for--
+<END>
+
+#WRITE(PTR, $00001A68)
+is a world where an irreplaceable comrade, and my most important person, doesn't exist.
+<END>
+
+#WRITE(PTR, $00001A78)
+This is too much...
+<END>
+
+#WRITE(PTR, $00001A88)
+This is too cruel...
+<END>
+
+#WRITE(PTR, $00001B32)
+Why Kurisu, of all things...
+<END>
+
+#WRITE(PTR, $00001B42)
+Why did I have to chose between the two...
+<END>
+
+#WRITE(PTR, $00001B52)
+Why did you give me that choice...
+<END>
+
+#WRITE(PTR, $00001BFC)
+Why did Kurisu show me that smile...
+<END>
+
+#WRITE(PTR, $00001C0C)
+Why...!
+<END>
+
+#WRITE(PTR, $00001C68)
+I cling to Mayuri.
+<END>
+
+#WRITE(PTR, $00001C78)
+While she gently brushes through my hair.
+<END>
+
+#WRITE(PTR, $00001CE0)
+I cry out loud.
+<END>
+
+#WRITE(PTR, $00001E38)
+Three days passed since then, and Mayuri did not die.
+<END>
+
+#WRITE(PTR, $00001E48)
+Moeka and the Rounders didn't attack, and the Braun Tube Workshop manager was only leisurely showing no sign of movement.
+<END>
+
+#WRITE(PTR, $00001E58)
+With the lab at peace, Daru would come and go to "MayQueen+Nyan⑯" as usual, and Mayuri would come up with plans for her costumes for next ComiMa.
+<END>
+
+#WRITE(PTR, $00001E68)
+I was the only one left powerless with a gaping hole in my heart, spending my days absent-mindedly.
+<END>
+
+#WRITE(PTR, $00001F40)
+【Rintaro】Phew. This is the end, huh.
+<END>
+
+#WRITE(PTR, $00001F50)
+The dumpster next to the lab.
+<END>
+
+#WRITE(PTR, $00001F60)
+We throw out the garbage there, and take a breather.
+<END>
+
+#WRITE(PTR, $00001F70)
+Yesterday, I finally gained confidence that Mayuri wouldn't die.
+<END>
+
+#WRITE(PTR, $00001F80)
+That's why I decided to dismantle the Microwave Ophone (Temp) and the IBN 5100 at the start of the day.
+<END>
+
+#WRITE(PTR, $00001FF6)
+【Itaru】Haah, what a waste. We could've made a fortune if we sold the IBN 5100.
+<END>
+
+#WRITE(PTR, $00002006)
+【Mayuri】More importantly, now the lab doesn't have a microwave-
+<END>
+
+#WRITE(PTR, $00002016)
+【Mayuri】Now Mayushii can't eat any more Juicy Karaage Number One...
+<END>
+
+#WRITE(PTR, $00002026)
+【Rintaro】If it's just a microwave you want, we can get another one.
+<END>
+
+#WRITE(PTR, $00002036)
+As for the Microwave Ophone (Temp), it's no longer needed.
+<END>
+
+#WRITE(PTR, $00002046)
+The miraculous time machine made from coincidence upon coincidence.
+<END>
+
+#WRITE(PTR, $00002056)
+It was by this machine that I met Kurisu.
+<END>
+
+#WRITE(PTR, $00002066)
+But it was also by this machine that I hurt many people
+<END>
+
+#WRITE(PTR, $00002076)
+...So I won't use this machine again. I don't think I should use it.
+<END>
+
+#WRITE(PTR, $00002086)
+So that the insane mad scientist, Hououin Kyouma, ruler of time and space, can die.
+<END>
+
+#WRITE(PTR, $00002096)
+He needs to die along with the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $000020A6)
+Kurisu also said it once.
+<END>
+
+#WRITE(PTR, $000021A2)
+【Kurisu】I don't want to deny what I've done so far. For example, even if they're only my mistakes, they're still a part of me now.
+<END>
+
+#WRITE(PTR, $000021FC)
+I gaze again upon Future Gadget No. 8, which had been turned to scrap.
+<END>
+
+#WRITE(PTR, $0000220C)
+We can no longer bring it back to its original form. We shouldn't be able to turn this back into the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $0000221C)
+D-mails and Time Leaps are powers too great for human hands.
+<END>
+
+#WRITE(PTR, $0000222C)
+I can't rely on this machine any more.
+<END>
+
+#WRITE(PTR, $0000223C)
+Though nothing in the future is guaranteed.
+<END>
+
+#WRITE(PTR, $0000224C)
+Though I may die tomorrow.
+<END>
+
+#WRITE(PTR, $0000225C)
+Living originally wasn't something you could do over again anyway.
+<END>
+
+#WRITE(PTR, $0000226C)
+This is fine.
+<END>
+
+#WRITE(PTR, $0000227C)
+Hey, wouldn't you say so, Kurisu--
+<END>
+
+#WRITE(PTR, $000022EA)
+I look up at the sky, and even though it's daytime, I see just one star twinkling.
+<END>
+
+#WRITE(PTR, $000022FA)
+Maybe it's Venus.
+<END>
+
+#WRITE(PTR, $0000230A)
+Then I suddenly remembered.
+<END>
+
+#WRITE(PTR, $000023D6)
+【Kurisu】You can go even into the past right now. Peek at the sky at night with a telescope. You can see light from tens of thousands of years ago, can't you?
+<END>
+
+#WRITE(PTR, $00002418)
+While we were casually spending our time, we came close to time travel.
+<END>
+
+#WRITE(PTR, $00002428)
+Kurisu said so.
+<END>
+
+#WRITE(PTR, $00002438)
+Each word.
+<END>
+
+#WRITE(PTR, $00002448)
+I slowly engrave into my mind.
+<END>
+
+#WRITE(PTR, $00002458)
+So that, while I still live,
+<END>
+
+#WRITE(PTR, $00002468)
+They will never fall out of memory--
+<END>
+
+#WRITE(PTR, $000025A6)
+END_CRS.PMF
+<END2>
+
+#WRITE(PTR, $0000268E)
+END_FAKE.PMF
+<FILEENDA1>
+

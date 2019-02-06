@@ -1,0 +1,793 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002412)
+
+#WRITE(PTR, $000001F6)
+I feel the scenery warp.
+<END>
+
+#WRITE(PTR, $00000206)
+The floor shakes.
+<END>
+
+#WRITE(PTR, $00000216)
+No, is the ground shaking?
+<END>
+
+#WRITE(PTR, $00000226)
+Am I shaking?
+<END>
+
+#WRITE(PTR, $00000236)
+The images in my line of vision double and triple as they disperse--
+<END>
+
+#WRITE(PTR, $00000246)
+They lose their color again--
+<END>
+
+#WRITE(PTR, $0000026E)
+【Rintaro】--!!?
+<END>
+
+#WRITE(PTR, $0000027E)
+I'm hit by an unseen impact, and my feet stagger.
+<END>
+
+#WRITE(PTR, $0000028E)
+I stand still, preparing for another impact as I try to recall this sensation.
+<END>
+
+#WRITE(PTR, $0000029E)
+I've felt this sensation before.
+<END>
+
+#WRITE(PTR, $000002AE)
+Tremors as if the world itself is shaking, more intense than when we sent the D-mails yesterday.
+<END>
+
+#WRITE(PTR, $000002BE)
+That's it, this sensation--
+<END>
+
+#WRITE(PTR, $000002CE)
+Is the same as the mass disappearance phenomenon.
+<END>
+
+#WRITE(PTR, $000002EE)
+The impacts stop.
+<END>
+
+#WRITE(PTR, $000002FE)
+I loosen the tension in my body and observe my surroundings.
+<END>
+
+#WRITE(PTR, $0000030E)
+Did the past change?
+<END>
+
+#WRITE(PTR, $0000031E)
+No need to ask. I'm sure of it.
+<END>
+
+#WRITE(PTR, $0000032E)
+The past changed.
+<END>
+
+#WRITE(PTR, $0000033E)
+That bizarre sensation is proof of it.
+<END>
+
+#WRITE(PTR, $0000034E)
+I look around the room.
+<END>
+
+#WRITE(PTR, $000003F0)
+The Microwave Ophone (Temp), which should have about 90 seconds left on its timer, is not in operation.
+<END>
+
+#WRITE(PTR, $00000492)
+Daru's here. Mayuri's here. Kurisu's here.
+<END>
+
+#WRITE(PTR, $000004A2)
+...Where's Moeka?
+<END>
+
+#WRITE(PTR, $000004B2)
+【Rintaro】Where's Shining Finger? Where'd she go?
+<END>
+
+#WRITE(PTR, $00000528)
+When I ask, Daru and Kurisu, who were discussing something in front of the X68000, look at me dubiously.
+<END>
+
+#WRITE(PTR, $000005C6)
+Ah...
+<END>
+
+#WRITE(PTR, $000005D6)
+Again.
+<END>
+
+#WRITE(PTR, $000005E6)
+This uncomfortable atmosphere.
+<END>
+
+#WRITE(PTR, $000005F6)
+Same as yesterday.
+<END>
+
+#WRITE(PTR, $0000065A)
+【Kurisu】Shining Finger?
+<END>
+
+#WRITE(PTR, $00000674)
+【Itaru】Okarin. Japanese please.
+<END>
+
+#WRITE(PTR, $000006EA)
+I leave the development room, look around the lounge, behind the sofa, in the dressing room, the bathroom, and the shower room. I look down the window to the street below.
+<END>
+
+#WRITE(PTR, $000006FA)
+But Moeka's nowhere to be found.
+<END>
+
+#WRITE(PTR, $0000070A)
+She disappeared.... She vanished....
+<END>
+
+#WRITE(PTR, $0000071A)
+This can't be....
+<END>
+
+#WRITE(PTR, $000007B6)
+I desperately convinced myself that that phenomenon was a dream, or a phantom.
+<END>
+
+#WRITE(PTR, $000007C6)
+The same thing happened again....
+<END>
+
+#WRITE(PTR, $000007D6)
+Does this mean Moeka disappeared because I made her experiment?
+<END>
+
+#WRITE(PTR, $000007E6)
+Why did she disappear!?
+<END>
+
+#WRITE(PTR, $000007F6)
+What does it mean to disappear!?
+<END>
+
+#WRITE(PTR, $00000806)
+Did I undo her entire existence!?
+<END>
+
+#WRITE(PTR, $00000816)
+Or did she get blown off into the valley between dimensions!?
+<END>
+
+#WRITE(PTR, $00000826)
+I start shivering for fear of my own mistakes.
+<END>
+
+#WRITE(PTR, $000008FC)
+Confused, Mayuri draws closer while eating a banana.
+<END>
+
+#WRITE(PTR, $0000090C)
+I grab her shoulders and shake her.
+<END>
+
+#WRITE(PTR, $00000926)
+【Rintaro】Where's Kiryuu Moeka? She was here just now, wasn't she!?
+<END>
+
+#WRITE(PTR, $00000936)
+【Mayuri】Nn~~ah~~?
+<END>
+
+#WRITE(PTR, $00000946)
+【Mayuri】Wh~o~o~?
+<END>
+
+#WRITE(PTR, $00000956)
+【Rintaro】Kiryuu Moeka!
+<END>
+
+#WRITE(PTR, $00000A5E)
+Daru and Kurisu also ask with their glances.
+<END>
+
+#WRITE(PTR, $00000A6E)
+【Itaru】Who's that?
+<END>
+
+#WRITE(PTR, $00000A7E)
+【Kurisu】Never heard of her.
+<END>
+
+#WRITE(PTR, $00000A8E)
+【Rintaro】...No way.
+<END>
+
+#WRITE(PTR, $00000A9E)
+So I erased Moeka's existence after all....
+<END>
+
+#WRITE(PTR, $00000AAE)
+Wait, did I really?
+<END>
+
+#WRITE(PTR, $00000ABE)
+I don't want to accept it.
+<END>
+
+#WRITE(PTR, $00000ACE)
+I won't accept the fact that I killed her!
+<END>
+
+#WRITE(PTR, $00000AE8)
+【Kurisu】Okabe, again?
+<END>
+
+#WRITE(PTR, $00000AF8)
+【Rintaro】What do you mean, "again"?
+<END>
+
+#WRITE(PTR, $00000B08)
+【Kurisu】Something like this happened yesterday. You remembered something we didn't. Uh, what was it again....
+<END>
+
+#WRITE(PTR, $00000B22)
+【Kurisu】Oh yeah, "Reading Steiner".
+<END>
+
+#WRITE(PTR, $00000BC0)
+I certainly did give that name to this phenomenon-- or, ability.
+<END>
+
+#WRITE(PTR, $00000BD0)
+When the past changes the world line, people's memories are reconstructed to match that world line. I just thought of that possibility.
+<END>
+
+#WRITE(PTR, $00000BE0)
+And if that's true, then how come only my memories continue even in the world line after the past changed?
+<END>
+
+#WRITE(PTR, $00000BF0)
+The answer to that may be the demon eye, Reading Steiner.
+<END>
+
+#WRITE(PTR, $00000C00)
+Looks like Kurisu remembers the name I gave in yesterday's explanation.
+<END>
+
+#WRITE(PTR, $00000C10)
+To tell the truth, I only think of that ability as a suitable explanation.
+<END>
+
+#WRITE(PTR, $00000C20)
+But now that Moeka has disappeared, I now want to believe that the demon eye is real.
+<END>
+
+#WRITE(PTR, $00000C30)
+Their memories. Only their memories of Moeka have disappeared!
+<END>
+
+#WRITE(PTR, $00000C40)
+Only I remember because of Reading Steiner.
+<END>
+
+#WRITE(PTR, $00000C50)
+That's definitely it!
+<END>
+
+#WRITE(PTR, $00000D30)
+Anyway, I need to contact Moeka. I want to make sure I didn't erase her very existence.
+<END>
+
+#WRITE(PTR, $00000D74)
+But I don't know her phone number.
+<END>
+
+#WRITE(PTR, $00000DB0)
+Now, in this world line and at this time, I've only contacted her by mail.
+<END>
+
+#WRITE(PTR, $00000F60)
+I send her a message saying If you see this mail, please reply immediately.
+<END>
+
+#WRITE(PTR, $00000F76)
+Now all I can do is wait for her reply.
+<END>
+
+#WRITE(PTR, $00000F86)
+Please, reply....
+<END>
+
+#WRITE(PTR, $00000FCE)
+【Mayuri】Okarin, are you okay? Your face is ghastly pale-
+<END>
+
+#WRITE(PTR, $00000FDE)
+【Rintaro】Ah, yeah, I've okay....
+<END>
+
+#WRITE(PTR, $00000FEE)
+My mental state is not okay, but I'm desperately feigning calmness since I don't want to recognize that Moeka's existence disappeared.
+<END>
+
+#WRITE(PTR, $000010C2)
+【Rintaro】...Assistant, how much do you remember about the current experiment?
+<END>
+
+#WRITE(PTR, $000010D2)
+【Kurisu】I don't even remember experimenting.
+<END>
+
+#WRITE(PTR, $000010E2)
+【Kurisu】You sent a D-mail just now, didn't you?
+<END>
+
+#WRITE(PTR, $000010F2)
+【Rintaro】...Yeah.
+<END>
+
+#WRITE(PTR, $00001102)
+【Rintaro】But things are different from yesterday. I didn't send the D-mail. Kiryuu Moeka did.
+<END>
+
+#WRITE(PTR, $000011A0)
+And the perpetrator disappeared from the room like smoke.
+<END>
+
+#WRITE(PTR, $000011B0)
+She shouldn't have had time to walk out.
+<END>
+
+#WRITE(PTR, $000011C0)
+Which reminds me, yesterday, with the LOTO SIX experiment, Daru teleported from the development room to the lounge....
+<END>
+
+#WRITE(PTR, $000011D0)
+So I shouldn't think that she disappeared, but rather, she instantly moved somewhere.
+<END>
+
+#WRITE(PTR, $000011E0)
+I hope that's it....
+<END>
+
+#WRITE(PTR, $000011F0)
+I couldn't calm down while waiting for Moeka's response, so I check my phone's history for the mails Moeka and I exchanged.
+<END>
+
+#WRITE(PTR, $00001200)
+That's strange.
+<END>
+
+#WRITE(PTR, $00001210)
+The mails from that mail demon remain up until the one I received on July 31 at 12:43.
+<END>
+
+#WRITE(PTR, $00001220)
+But the mails I received from Moeka after that time.
+<END>
+
+#WRITE(PTR, $00001230)
+The dozens of mails I should've received from that woman are nowhere to be found.
+<END>
+
+#WRITE(PTR, $00001240)
+Even the existence of those mails disappered.
+<END>
+
+#WRITE(PTR, $00001250)
+The D-mail to cancel the phone model exchange. Its arrival date was July 31.
+<END>
+
+#WRITE(PTR, $00001260)
+A time paradox occurred, and at the same time Moeka received the D-mail, her existence disappeared--
+<END>
+
+#WRITE(PTR, $00001270)
+I shiver once I notice that that line of thought has no contradictions.
+<END>
+
+#WRITE(PTR, $00001280)
+No way.
+<END>
+
+#WRITE(PTR, $00001290)
+That can't be.
+<END>
+
+#WRITE(PTR, $000012A0)
+I mean, her D-mail was something as harmless as don't change phone models you know?
+<END>
+
+#WRITE(PTR, $000012B0)
+So then, what's the cause?
+<END>
+
+#WRITE(PTR, $000012C0)
+What's the cause for all traces of Moeka these four days after August 1 to disappear...?
+<END>
+
+#WRITE(PTR, $00001324)
+【Rintaro】Christina. Let's say a D-mail caused a time paradox. What would happen?
+<END>
+
+#WRITE(PTR, $0000133E)
+【Kurisu】...I don't know. Not a single person has yet experienced a time paradox after all.
+<END>
+
+#WRITE(PTR, $0000134E)
+【Rintaro】But before, didn't you say something like the world would disappear?
+<END>
+
+#WRITE(PTR, $00001368)
+【Kurisu】I only said that that was only a theory.
+<END>
+
+#WRITE(PTR, $00001382)
+【Kurisu】Perhaps nothing happens, and like a certain movie, history gets amended to accommodate the paradox.
+<END>
+
+#WRITE(PTR, $0000139A)
+【Kurisu】According to Dr. Hawking's <DICT>chronology protection</DICT> conjecture, it's impossible to do things that can possibly cause time paradoxes.
+<END>
+
+#WRITE(PTR, $000013AA)
+So is everything just a hypothesis....
+<END>
+
+#WRITE(PTR, $0000147E)
+【Mayuri】You know, Mayushii doesn't get it-
+<END>
+
+#WRITE(PTR, $00001498)
+【Mayuri】Since Mayushii and Okarin and everyone can talk like this, I think that paradox hasn't happened-
+<END>
+
+#WRITE(PTR, $000014B2)
+【Mayuri】Mayushii doesn't know that Moeka-san person, but I'm sure she's okay too♪
+<END>
+
+#WRITE(PTR, $000014FA)
+【Itaru】That's Mayushii for you. A cute dumb girl.
+<END>
+
+#WRITE(PTR, $00001514)
+【Mayuri】Ehh-? Mayushii's not a dumb girl.
+<END>
+
+#WRITE(PTR, $000015B2)
+Right now, I hate how Mayuri and Daru can have such a carefree conversation.
+<END>
+
+#WRITE(PTR, $000015C2)
+They don't realize the gravity of the situation.
+<END>
+
+#WRITE(PTR, $000015DE)
+Even though a person's existence may have disappeared from the world...!
+<END>
+
+#WRITE(PTR, $000015EE)
+In fact, if Moeka really did vanish, then at the same time, that means that our creation, the Microwave Ophone (Temp) is also responsible for that mass disappearance phenomenon.
+<END>
+
+#WRITE(PTR, $000015FE)
+I blew out the existences of that many humans--
+<END>
+
+#WRITE(PTR, $0000160E)
+I didn't want to think such frightening things, so I desperately shake my head.
+<END>
+
+#WRITE(PTR, $00001704)
+【Rintaro】...!
+<END>
+
+#WRITE(PTR, $00001722)
+A mail! From Moeka!?
+<END>
+
+#WRITE(PTR, $00001740)
+I check the mail with hope.
+<END>
+
+#WRITE(PTR, $000018E8)
+【Rintaro】...Ha, haha.
+<END>
+
+#WRITE(PTR, $000018F8)
+My body goes limp from the relief...
+<END>
+
+#WRITE(PTR, $00001908)
+Her reply came. It came.
+<END>
+
+#WRITE(PTR, $00001918)
+Moeka still exists in this world.
+<END>
+
+#WRITE(PTR, $00001928)
+She didn't disappear.
+<END>
+
+#WRITE(PTR, $0000193E)
+Knowing that made my impatience, my tension, and my fears all wash away.
+<END>
+
+#WRITE(PTR, $0000194E)
+I'm moved to tears. Not because I was worried for Moeka, but because I had avoided the fearful situation of being responsible for erasing someone's existence.
+<END>
+
+#WRITE(PTR, $000019AA)
+【Kurisu】Explain what happened, Okabe.
+<END>
+
+#WRITE(PTR, $00001A12)
+Urged by Kurisu, I explain everything that just happened.
+<END>
+
+#WRITE(PTR, $00001AB4)
+【Kurisu】Hmmm.
+<END>
+
+#WRITE(PTR, $00001ACE)
+【Kurisu】...I don't think it's unnatural for Kiryuu Whatsherface-san to have disappeared from this place if you consider the law of cause and effect.
+<END>
+
+#WRITE(PTR, $00001ADE)
+【Rintaro】What do you mean?
+<END>
+
+#WRITE(PTR, $00001AEE)
+【Kurisu】I don't know the details, but when the past changed, Kiryuu-san's actions these past four days since July 31 changed ever so slightly this time.
+<END>
+
+#WRITE(PTR, $00001AFE)
+【Kurisu】As a result, circumstances were reconfigured so that Moeka-san didn't come to the lab...
+<END>
+
+#WRITE(PTR, $00001B0E)
+So that's why it looked like she teleported?
+<END>
+
+#WRITE(PTR, $00001B1E)
+It looks like the phenomenon with gel-banas, but it's not, I guess.
+<END>
+
+#WRITE(PTR, $00001B2E)
+Moeka didn't become a Jellyman after all.
+<END>
+
+#WRITE(PTR, $00001B48)
+【Itaru】Is that even possible?
+<END>
+
+#WRITE(PTR, $00001B62)
+【Kurisu】I didn't say that. If the fact that the D-mail was sent is erased, then it becomes a paradox of who sent that D-mail...
+<END>
+
+#WRITE(PTR, $00001B7C)
+【Kurisu】And there's one other thing that happened to Okabe that I don't understand.
+<END>
+
+#WRITE(PTR, $00001B96)
+【Rintaro】What?
+<END>
+
+#WRITE(PTR, $00001BA6)
+【Kurisu】Reading Steiner.
+<END>
+
+#WRITE(PTR, $00001BC0)
+【Kurisu】By the way, you should quit with that coinage since it's embarrassing.
+<END>
+
+#WRITE(PTR, $00001BD0)
+【Rintaro】Hmph, I didn't ask for your opinion.
+<END>
+
+#WRITE(PTR, $00001BE0)
+I'm finally able to joke again with her again.
+<END>
+
+#WRITE(PTR, $00001BF0)
+Well, maybe Kurisu wasn't joking.
+<END>
+
+#WRITE(PTR, $00001C00)
+But it's none of her business.
+<END>
+
+#WRITE(PTR, $00001C1A)
+【Kurisu】With your explanation, you weren't the one to receive the D-mail either. Yet how come only you remember what happened before the world line changed?
+<END>
+
+#WRITE(PTR, $00001C34)
+【Kurisu】But, isn't this just your delusion?
+<END>
+
+#WRITE(PTR, $00001C4E)
+【Itaru】A brain waifu. I understand.
+<END>
+
+#WRITE(PTR, $00001C5E)
+【Rintaro】No you don't. Don't lump me into your pervert gentleman club.
+<END>
+
+#WRITE(PTR, $00001C78)
+【Kurisu】This Kiryuu-san didn't exist in the first place. Or possibly, Kiryuu Whatsherface-san does exist, but the fact that she sent a D-mail was a delusion--
+<END>
+
+#WRITE(PTR, $00001C88)
+【Rintaro】Gwaaaah!
+<END>
+
+#WRITE(PTR, $00001CA2)
+【Kurisu】...eh?
+<END>
+
+#WRITE(PTR, $00001D44)
+I hold down my left eye and crouch on the spot.
+<END>
+
+#WRITE(PTR, $00001D54)
+【Rintaro】Ugh, ggh... my left eye, this demon eye, Reading Steiner, aches...!
+<END>
+
+#WRITE(PTR, $00001D9C)
+【Mayuri】O-Okarin, are you okay...?
+<END>
+
+#WRITE(PTR, $00001DAC)
+Mayuri peeks anxiously at my face. But I lightly push her aside.
+<END>
+
+#WRITE(PTR, $00001DBC)
+【Rintaro】No, Mayuri, d-don't come close... Right now, I might end up... hurting you...!
+<END>
+
+#WRITE(PTR, $00001DCC)
+【Mayuri】But Okarin, you look like you're in pain...
+<END>
+
+#WRITE(PTR, $00001E14)
+【Itaru】...He's trolling, right?
+<END>
+
+#WRITE(PTR, $00001E5C)
+【Kurisu】Y-yeah...
+<END>
+
+#WRITE(PTR, $00001E78)
+【Rintaro】I-I'm okay.... This aching is normal... it'll end soon...!
+<END>
+
+#WRITE(PTR, $00001E88)
+【Rintaro】Tch, as long as I have this demon eye... the "Organization" will keep aiming for me...! It's the power to predict every world and age...
+<END>
+
+#WRITE(PTR, $00001E98)
+【Rintaro】I... because of this all-world and all-age seeing demon eye... have gone outside the law of cause and effect as a human...
+<END>
+
+#WRITE(PTR, $00001EA8)
+【Rintaro】But, even still, I swear... to protect at least this lab... so, oh demon eye, please calm down...
+<END>
+
+#WRITE(PTR, $00001EB8)
+I grind my teeth while on all fours.
+<END>
+
+#WRITE(PTR, $00001EC8)
+And then I take a deep breath, gradually removing my hand from my left eye.
+<END>
+
+#WRITE(PTR, $00001ED8)
+Mayuri rubs my back.
+<END>
+
+#WRITE(PTR, $00001EE8)
+【Mayuri】Okarin? Does it hurt?
+<END>
+
+#WRITE(PTR, $00001EF8)
+【Rintaro】No... I'm okay now.
+<END>
+
+#WRITE(PTR, $00001F9A)
+I stand up. Then I send Kurisu a sharp glance.
+<END>
+
+#WRITE(PTR, $00001FE2)
+【Kurisu】W-what? That was just an act, right?
+<END>
+
+#WRITE(PTR, $00001FF2)
+【Rintaro】Christina. You are wrong.
+<END>
+
+#WRITE(PTR, $00002002)
+I quietly complain.
+<END>
+
+#WRITE(PTR, $00002012)
+【Rintaro】It's already been proven with our experiments up until now...
+<END>
+
+#WRITE(PTR, $00002022)
+【Rintaro】That I...
+<END>
+
+#WRITE(PTR, $00002032)
+【Rintaro】That my Reading Steiner is genuine!
+<END>
+
+#WRITE(PTR, $0000204C)
+【Kurisu】Yeah, yeah, pretentious hipster bullshit, whatever.
+<END>
+
+#WRITE(PTR, $00002094)
+【Itaru】Eh?
+<END>
+
+#WRITE(PTR, $000020DC)
+【Mayuri】Hm?
+<END>
+
+#WRITE(PTR, $000020F6)
+【Kurisu】Ah...
+<END>
+
+#WRITE(PTR, $00002106)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002120)
+【Kurisu】Wh-why are you all staring at me? No looking!
+<END>
+
+#WRITE(PTR, $0000213C)
+Now I wanted to avoid Kurisu's deep questioning.
+<END>
+
+#WRITE(PTR, $0000214C)
+I was like that when Titor called me the Messiah too, though.
+<END>
+
+#WRITE(PTR, $00002204)
+<LINE>
+<LINE>
+<LINE>
+%LCIs my power really genuine...?
+<ENDPANEL>
+
+#WRITE(PTR, $00002214)
+<LINE>
+<LINE>
+<LINE>
+%LCThen in that case, is it something outrageous...?
+<ENDPANEL>
+
+#WRITE(PTR, $00002244)
+An unknown, dormant power.
+<END>
+
+#WRITE(PTR, $00002254)
+I'm taken aback by its existence.
+<FILEEND5D>
+

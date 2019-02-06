@@ -1,0 +1,269 @@
+<PRE @box01>[text00010]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1230" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Алло."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00020]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2149" mode="on">
+"Это я. Доложи о ситуации."
+
+</PRE>
+
+<PRE @box01>[text00030]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1231" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"..."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00040]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2150" mode="on">
+"Она повесила трубку!"
+
+</PRE>
+
+<PRE @box00>[text00050]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0725" mode="on">
+"Конечно повесила. Наверное, единственными, кто способен выдержать манеру общения Окарина по телефону — это Маю-ши и я, так ведь?"
+
+</PRE>
+
+<PRE @box00>[text00060]
+Давайте попробуем позвонить ещё раз!..
+
+</PRE>
+
+<PRE @box01>[text00070]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1232" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Алло."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00080]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2151" mode="on">
+"Это Хооин Кёма. Не вешай трубку."
+
+</PRE>
+
+<PRE @box01>[text00090]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1233" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"О, это Окабе. Я была уверена, что это телефонный розыгрыш."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00100]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2152" mode="on">
+"При звонке же показывается мой номер, не так ли?!"
+
+</PRE>
+
+<PRE @box01>[text00110]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1234" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ты вдруг сказал что-то столь неоднозначное, что я испугалась и повесила трубку."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2153" mode="on">
+"Получается, ты хотела сказать, что боишься моего, Хооина Кёмы, истинного безумия, а? В таком случае я думаю, это не может сост..."
+
+</PRE>
+
+<PRE @box00>[text00130]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2154" mode="on">
+"Она снова бросила трубку! Опять!"
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0726" mode="on">
+"Как я уже неоднократно говорил, никто, кроме нас, не имеет достаточно сноровки, чтобы разговаривать с Окарином..."
+
+</PRE>
+
+<PRE @box00>[text00150]
+Раздражённый, я повторно набираю телефонный номер.
+
+</PRE>
+
+<PRE @box01>[text00160]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1235" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Алло."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00170]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2155" mode="on">
+"Это Окабе Ринтаро, извини пожалуйста, но не могла бы ты немного повозиться с настройкой Мобиловолновки (название временное)?"
+
+</PRE>
+
+<PRE @box01>[text00180]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1236" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Мог бы сразу так и сказать?"</FONT>
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1237" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Хмм... но ты ведь собираешься использовать Мобиловолновку? Я не хочу, чтобы владелец мастерской, мистер Браун, снова разозлился."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00190]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2156" mode="on">
+"Всё для драгоценного опыта. Понимаешь, ассистентка? Мистер Браун разозлится, но эта небольшая жертва приведёт мечту человечества, машину времени, к завершению."
+
+</PRE>
+
+<PRE @box01>[text00200]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1238" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Знаешь, ты действительно безответственный."</FONT>
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1239" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"...Итак? Что я должна сделать?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00210]
+Я говорю ей почтовый адрес отца Фейрис.
+
+И я прошу её установить таймер.
+
+</PRE>
+
+<PRE @box01>[text00220]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1240" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ладно, это всё."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2157" mode="on">
+"Отлично, спасибо. Подожди немного."
+
+</PRE>
+
+<PRE @box00>[text00240]
+Я обращаюсь к Фейрис.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2158" mode="on">
+"Ты уже написала то, что хочешь отправить?"
+
+Я уже сказал Фейрис почтовый адрес телефона Мобиловолновки (название временное).
+
+</PRE>
+
+<PRE @box00>[text00250]
+В ответ на мой вопрос, Фейрис кивает.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2159" mode="on">
+"Что ты пишешь? То, что может изменить прошлое, ведь так?"
+
+</PRE>
+
+<PRE @box00>[text00260]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0159" mode="on">
+"Н-ну это..."
+
+Что? Что это за внезапная катастрофа? Её обычная жизнерадостность будто испарилась...
+
+</PRE>
+
+<PRE @box00>[text00270]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0160" mode="on">
+"Э-это смущает, ня! Профессиональная тайна, нян!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2160" mode="on">
+"Секрет? Чёрт возьми, это наука! Если ты не покажешь то, что написала, мы не сможем проверить экспериментальные данные!"
+
+</PRE>
+
+<PRE @box00>[text00280]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0161" mode="on">
+"О чём ты говоришь, ня?! Это не эксперимент, это условие переговоров! Фейрис использует машину времени не для эксперимента, а для себя, ня!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2161" mode="on">
+"Это несправедливо!"
+
+</PRE>
+
+<PRE @box00>[text00290]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0727" mode="on">
+"Окарин не из тех, кто говорит такое."
+
+Гх, Дару, ничтожество, ты на стороне Фейрис?!
+
+Ты, соблазнённый суперхака!
+
+Фейрис заслоняет собой свой телефон.
+
+Похоже, она не планирует его показывать до самого конца.
+
+Мы что, должны остановить эксперимент?
+
+</PRE>
+
+<PRE @box01>[text00300]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1241" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Эй, Окабе. Как долго я буду ждать?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00310]
+С другой стороны телефона назревает недовольство Курису.
+
+Проклятье, к чему вся эта спешка?!
+
+</PRE>
+
+<PRE @box00>[text00320]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0563" mode="on">
+"Окарин, знаешь, это, наверное, что-то личное, так что я не думаю, что стоит в это вмешиваться..."
+
+Ч-что..? Даже Маюри на стороне Фейрис?
+
+Она говорила то же самое и в случае с Моэкой.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2162" mode="on">
+"Мгарх..."
+
+Это нехорошо.
+
+Я думал, что Фейрис пляшет под мою дудку, но выходит, что я подстраиваюсь под её игру?!
+
+</PRE>
+
+<PRE @box01>[text00330]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1242" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Окабе? Если ты не собираешься ничего отправлять, я бросаю трубку, ладно?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00340]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2163" mode="on">
+"П-подожди!.. Хорошо, активировать... Мобиловолновку (название временное)..."
+
+Чёрт возьми, я спасовал перед девушкой-кошкой!
+
+</PRE>
+
+<PRE @box01>[text00350]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1243" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Разряд начался."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00360]
+Я киваю Фейрис после получения доклада от Курису.
+
+</PRE>
+
+<PRE @box00>[text00370]
+Фейрис опускает палец на кнопку отправить и...
+
+</PRE>
+
+<PRE @box00>[text00380]
+<voice name="Фейрис" class="VID_FEI" src="voice/FEI_0162" mode="on">
+"Нажимай, ня!"
+
+</PRE>
+

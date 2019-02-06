@@ -1,0 +1,631 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001156)
+
+#WRITE(PTR, $00000228)
+So, the next day.
+<END>
+
+#WRITE(PTR, $00000238)
+I'm strolling Akiba with Lukako.
+<END>
+
+#WRITE(PTR, $00000248)
+【Luka】So... where shall we go next?
+<END>
+
+#WRITE(PTR, $00000258)
+Event 1, walk off the family restaurant food, complete. I took care of the bill, and we came out into the heat again.
+<END>
+
+#WRITE(PTR, $00000268)
+I had the entire date planned out in my head.
+<END>
+
+#WRITE(PTR, $00000278)
+What we should do next is--
+<END>
+
+#WRITE(PTR, $00000288)
+【Rintaro】How 'bout-- How about we stroll through town?
+<END>
+
+#WRITE(PTR, $000002A2)
+【Luka】Eh, ah, okay.
+<END>
+
+#WRITE(PTR, $000002B2)
+Akiba was crowded. Naturally, since it's Friday on Obon holiday.
+<END>
+
+#WRITE(PTR, $000002C2)
+I try to choose streets that are as empty as possible, so naturally we end up just using back alleys.
+<END>
+
+#WRITE(PTR, $000002D2)
+I guess we'll meet our quota if we walk a round trip to Ueno.
+<END>
+
+#WRITE(PTR, $000002EE)
+I walk quickly.
+<END>
+
+#WRITE(PTR, $000002FE)
+【Luka】......
+<END>
+
+#WRITE(PTR, $0000030E)
+But the conversation doesn't continue at all.
+<END>
+
+#WRITE(PTR, $0000031E)
+I tried to follow the guide's advice and be a good listener, but Lukako's silent like this by nature. She doesn't really start talking on her own.
+<END>
+
+#WRITE(PTR, $0000032E)
+So, even at the family restaurant, the words we exchanged were mostly just things like "It's crowded today", "It's delicious", and "It was delicious".
+<END>
+
+#WRITE(PTR, $0000033E)
+And I think the choice to just wander around might have been a mistake.
+<END>
+
+#WRITE(PTR, $0000034E)
+Especially since we ended up in a residential area with no interesting scenery whatsoever.
+<END>
+
+#WRITE(PTR, $0000035E)
+【Luka】Um... Okabe-san.
+<END>
+
+#WRITE(PTR, $0000036E)
+Lukako called walking a little behind me.
+<END>
+
+#WRITE(PTR, $0000037E)
+【Rintaro】What is it?
+<END>
+
+#WRITE(PTR, $0000038E)
+I stop and turn around.
+<END>
+
+#WRITE(PTR, $000003D6)
+Lukako catches up, and we start walking together again.
+<END>
+
+#WRITE(PTR, $000003E6)
+【Luka】...do you remember?
+<END>
+
+#WRITE(PTR, $000003F6)
+【Luka】About the first time you and I met.
+<END>
+
+#WRITE(PTR, $00000406)
+【Rintaro】--yeah
+<END>
+
+#WRITE(PTR, $00000416)
+Or so I say, but what I remember is meeting the guy Lukako, not the girl one...
+<END>
+
+#WRITE(PTR, $00000462)
+That was on Golden Week in May.
+<END>
+
+#WRITE(PTR, $00000472)
+While walking around Akiba collecting materials for the new Future Gadget, I saw Lukako in his miko garb, surrounded by some cameramen.
+<END>
+
+#WRITE(PTR, $00000482)
+【Luka】P-please stop... I can't...
+<END>
+
+#WRITE(PTR, $000004DE)
+【Low-Angler A】P-please, let me take just one photo.
+<END>
+
+#WRITE(PTR, $000004EE)
+【Low-Angler B】That cosplay is really moe. I've never seen a miko cosplayer before.
+<END>
+
+#WRITE(PTR, $000004FE)
+【Luka】Th-this... isn't cosplay...
+<END>
+
+#WRITE(PTR, $0000050E)
+【Low-Angler A】If you could make a cute pose, I'd be su-super happy.
+<END>
+
+#WRITE(PTR, $00000526)
+【Low-Angler B】Ah, then do that, you know, that thing that Megumi-tan does in "<DICT>Miko Miko Overdrive</DICT>".
+<END>
+
+#WRITE(PTR, $00000536)
+【Low-Angler A】That's it-! That'd be the best! You know Megumi-tan, right? Can you do it for us?
+<END>
+
+#WRITE(PTR, $00000546)
+【Luka】I, I don't know, sorry...
+<END>
+
+#WRITE(PTR, $00000556)
+【Low-Angler B】What's wrong? If you come to Akiba in cosplay, that means you want people to take your picture, right? So nothing should be wrong, right?
+<END>
+
+#WRITE(PTR, $00000566)
+【Low-Angler A】That's right. Or are you denying us because we're disgusting?
+<END>
+
+#WRITE(PTR, $00000576)
+【Luka】No, that's not it, this, isn't cosplay...
+<END>
+
+#WRITE(PTR, $00000586)
+To be honest, the miko garb fascinated me.
+<END>
+
+#WRITE(PTR, $00000596)
+Because a miko is a sacred existence, the occupation chosen to serve god.
+<END>
+
+#WRITE(PTR, $000005A6)
+I've heard recently that college students are doing it for money, but I don't accept that imitation.
+<END>
+
+#WRITE(PTR, $000005B6)
+And, demanding to photograph the sacred miko is an act defiling god. I cried out, unwilling to let that pass.
+<END>
+
+#WRITE(PTR, $000005C6)
+【Rintaro】You cameramen over there!
+<END>
+
+#WRITE(PTR, $000005D6)
+【Low-Angler A】Eh?
+<END>
+
+#WRITE(PTR, $000005E6)
+【Low-Angler B】Wh-who are you...
+<END>
+
+#WRITE(PTR, $000005F6)
+【Rintaro】Pff, who am I, you ask? The name's Hououin Kyouma. The owner of the gray braincells of god incarnate, the insane mad scientist visiting chaos upon the world. Fuhahaha!
+<END>
+
+#WRITE(PTR, $00000606)
+【Low-Angler A】Wh-what is this guy?
+<END>
+
+#WRITE(PTR, $00000616)
+【Low-Angler B】A madman.
+<END>
+
+#WRITE(PTR, $00000626)
+【Rintaro】Stop right there. That miko doesn't like it, does she?
+<END>
+
+#WRITE(PTR, $00000636)
+【Low-Angler A】Hey, you some sorta pretentious hipster?
+<END>
+
+#WRITE(PTR, $0000064E)
+【Low-Angler B】You trying to be cool and save a girl for <DICT>smex</DICT> in return? Your ulterior motive's obvious. You're just a troll.
+<END>
+
+#WRITE(PTR, $0000065E)
+【Rintaro】No, you are the trolls. The two of you are stalking this frail girl, and you're even trying to get her to take perverted pictures. Have you thrown away your otaku pride?
+<END>
+
+#WRITE(PTR, $0000066E)
+【Luka】No, um, I'm...
+<END>
+
+#WRITE(PTR, $0000067E)
+【Rintaro】A cameraman who scares a sacred miko is no cameraman at all! He's nothing but a pervert! You guys are unqualified to tread the holy grounds of Akiba!
+<END>
+
+#WRITE(PTR, $0000068E)
+【Low-Angler A】Wh-what!? Everyone's aiming for low-angle shots of cute 3D girls, right?
+<END>
+
+#WRITE(PTR, $0000069E)
+【Low-Angler B】You're talking so highly for a mere amateur. When you cosplay in Akiba, you can't complain even if you get photographed indiscriminately, you know? Seriously.
+<END>
+
+#WRITE(PTR, $000006AE)
+【Luka】N-no... I... I'm...
+<END>
+
+#WRITE(PTR, $000006BE)
+【Luka】A guy...!
+<END>
+
+#WRITE(PTR, $000006CE)
+Our mouthes dropped to the floor at those abrupt words.
+<END>
+
+#WRITE(PTR, $000006DE)
+【Luka】So... there's no point... in photographing me...
+<END>
+
+#WRITE(PTR, $000006EE)
+Lukako murmured sadly.
+<END>
+
+#WRITE(PTR, $000006FE)
+【Low-Angler A】Eh, srsly?
+<END>
+
+#WRITE(PTR, $0000070E)
+【Low-Angler B】That's a lie, such a cute kid can't possibly be a guy--
+<END>
+
+#WRITE(PTR, $0000071E)
+【Luka】I am... a guy. I even have... an Adam's apple.
+<END>
+
+#WRITE(PTR, $0000072E)
+Lukako lifted his chin a bit, exposing his pale neck.
+<END>
+
+#WRITE(PTR, $0000073E)
+That gesture was really sexy, but...
+<END>
+
+#WRITE(PTR, $0000074E)
+There certainly was a protrusion on his neck.
+<END>
+
+#WRITE(PTR, $0000075E)
+【Low-Angler A】Then, you've got one down there, too?
+<END>
+
+#WRITE(PTR, $0000076E)
+【Luka】......
+<END>
+
+#WRITE(PTR, $0000077E)
+Lukako nodded without as if he had no other choice.
+<END>
+
+#WRITE(PTR, $0000078E)
+He was already crying at that point.
+<END>
+
+#WRITE(PTR, $0000079E)
+So were the cameramen.
+<END>
+
+#WRITE(PTR, $000007AE)
+【Low-Angler B】Wh-what the hell? That's so misleading!
+<END>
+
+#WRITE(PTR, $000007BE)
+【Low-Angler A】You're wearing miko garb even though you're a guy, you're a madman...
+<END>
+
+#WRITE(PTR, $000007CE)
+【Low-Angler B】I'm glad I didn't take a picture-. I feel tricked.
+<END>
+
+#WRITE(PTR, $0000082A)
+They left while mumbling complaints.
+<END>
+
+#WRITE(PTR, $0000083A)
+Those bastards really don't understand a thing about otaku culture--
+<END>
+
+#WRITE(PTR, $0000084A)
+And then I was amazed.
+<END>
+
+#WRITE(PTR, $0000085A)
+If I were Daru, I probably would've said something like this.
+<END>
+
+#WRITE(PTR, $0000086A)
+There's no way such a cute kid can be a girl!
+<END>
+
+#WRITE(PTR, $0000087A)
+"Heh, so you're a trap. They really do exist".
+<END>
+
+#WRITE(PTR, $0000088A)
+Those guys needed to take a lesson from Daru.
+<END>
+
+#WRITE(PTR, $0000089A)
+【Luka】Um, thank you, very much...
+<END>
+
+#WRITE(PTR, $000008AA)
+【Rintaro】Hm? Ah, it was nothing.
+<END>
+
+#WRITE(PTR, $000008BA)
+【Luka】But you're disappointed to save a guy like me, aren't you...
+<END>
+
+#WRITE(PTR, $000008CA)
+【Luka】I'm sorry I didn't live up to your expectations...
+<END>
+
+#WRITE(PTR, $000008DA)
+【Rintaro】...What's your name?
+<END>
+
+#WRITE(PTR, $000008F4)
+【Luka】Eh? Urushibara... Luka.
+<END>
+
+#WRITE(PTR, $00000904)
+【Rintaro】Why are you apologizing?
+<END>
+
+#WRITE(PTR, $0000091E)
+【Luka】I mean... I have a face like this, even though I'm a guy...
+<END>
+
+#WRITE(PTR, $0000092E)
+【Rintaro】That doesn't matter.
+<END>
+
+#WRITE(PTR, $00000948)
+【Luka】...!?
+<END>
+
+#WRITE(PTR, $00000958)
+【Rintaro】It doesn't matter if you're a guy or a girl. But I don't like that inferiority complex of yours.
+<END>
+
+#WRITE(PTR, $00000968)
+【Luka】Eh? Eh...?
+<END>
+
+#WRITE(PTR, $00000978)
+【Rintaro】Come with me! I'll give you something good! As long as you have that item, you can gain courage. You should also realize the existence of true power sleeping inside you.
+<END>
+
+#WRITE(PTR, $00000988)
+【Luka】Eh? Ehhh?
+<END>
+
+#WRITE(PTR, $00000998)
+【Rintaro】What's wrong? Don't you... desire power?
+<END>
+
+#WRITE(PTR, $000009B2)
+【Luka】No, umm... p-power?
+<END>
+
+#WRITE(PTR, $000009C2)
+【Rintaro】That's right... I will bestow power unto you. So, seek it. Desire it. The power. Seek your own personal power so that you won't lose to cameramen...!
+<END>
+
+#WRITE(PTR, $00000A42)
+【Luka】And then after that, we went to the "Armory Head Branch" and you bought me "Samidare"... I didn't expect that.
+<END>
+
+#WRITE(PTR, $00000A52)
+【Rintaro】Ah, no...
+<END>
+
+#WRITE(PTR, $00000A62)
+Well, I didn't expect him to come with me.
+<END>
+
+#WRITE(PTR, $00000A72)
+But I acknowledged that Lukako had hopes.
+<END>
+
+#WRITE(PTR, $00000A82)
+That's why I gave him the 980 yen (tax included) demon sword.
+<END>
+
+#WRITE(PTR, $00000A92)
+And afterwards, Lukako and I went through intense training, developing the "Seishin Zanma" style.
+<END>
+
+#WRITE(PTR, $00000AA2)
+Mmm. When I remember it now, my speech and conduct were really pathetic...
+<END>
+
+#WRITE(PTR, $00000AB2)
+So much I want to hide my face.
+<END>
+
+#WRITE(PTR, $00000ACC)
+【Luka】It really surprised me, but... but back then, when you said 'That doesn't matter'... it really made me happy.
+<END>
+
+#WRITE(PTR, $00000ADC)
+【Luka】It's strange, huh. Those words really moved me...
+<END>
+
+#WRITE(PTR, $00000AEC)
+Then Lukako's cheeks turn rosy in shyness.
+<END>
+
+#WRITE(PTR, $00000AFC)
+Her shyness is outstandingly dangerous, as usual.
+<END>
+
+#WRITE(PTR, $00000B16)
+【Luka】But, ever since you said those words...
+<END>
+
+#WRITE(PTR, $00000B26)
+【Luka】I've liked you...
+<END>
+
+#WRITE(PTR, $00000B36)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000B90)
+Wait a sec.
+<END>
+
+#WRITE(PTR, $00000BA0)
+Wait just a minute.
+<END>
+
+#WRITE(PTR, $00000BB0)
+Wait just an eternity.
+<END>
+
+#WRITE(PTR, $00000BC0)
+Eh, srsly?
+<END>
+
+#WRITE(PTR, $00000BD0)
+Did she seriously say that just now?
+<END>
+
+#WRITE(PTR, $00000BE0)
+Then, doesn't that mean Lukako was a guy back then?
+<END>
+
+#WRITE(PTR, $00000BF0)
+Meaning I made the guy Lukako fall in love with me?
+<END>
+
+#WRITE(PTR, $00000C00)
+The thought evaporates all at once.
+<END>
+
+#WRITE(PTR, $00000C10)
+Uho!
+<END>
+
+#WRITE(PTR, $00000D4C)
+Seeing her off all the way to the shrine, I'm worn out. Physically. Mentally.
+<END>
+
+#WRITE(PTR, $00000D5C)
+In the end, we spent four hours walking. We went all the way to Ueno Park and back, so that was tiring.
+<END>
+
+#WRITE(PTR, $00000D6C)
+But I was more mentally tired.
+<END>
+
+#WRITE(PTR, $00000D7C)
+In the end, we didn't talk much.
+<END>
+
+#WRITE(PTR, $00000D8C)
+We just walked.
+<END>
+
+#WRITE(PTR, $00000DD4)
+【Luka】Today... was really fun.
+<END>
+
+#WRITE(PTR, $00000DE4)
+【Rintaro】Ah, really...?
+<END>
+
+#WRITE(PTR, $00000DF4)
+She just probably said that out of consideration.
+<END>
+
+#WRITE(PTR, $00000E04)
+Lukako tried hard to say it, but I understood clearly.
+<END>
+
+#WRITE(PTR, $00000E14)
+When I thought about when Lukako fell in love with me, my thoughts kept spinning into a loop, so I couldn't play conversation catch with her.
+<END>
+
+#WRITE(PTR, $00000E24)
+The manual was also quite useless.
+<END>
+
+#WRITE(PTR, $00000E34)
+In this world line, Lukako was a girl from the beginning, so Lukako's and my "memories of when we first met" might be inconsistent".
+<END>
+
+#WRITE(PTR, $00000E44)
+Even thinking that, I still can't wipe away how out of place Lukako's words feel.
+<END>
+
+#WRITE(PTR, $00000E5E)
+【Luka】So, well... um...
+<END>
+
+#WRITE(PTR, $00000E6E)
+Lukako fidgets with a small voice.
+<END>
+
+#WRITE(PTR, $00000E7E)
+【Rintaro】Wh... What is it?
+<END>
+
+#WRITE(PTR, $00000E8E)
+【Luka】Well... tomorrow, too...
+<END>
+
+#WRITE(PTR, $00000E9E)
+【Rintaro】Ah...eh?
+<END>
+
+#WRITE(PTR, $00000EAE)
+Basically, she wants to go on a date tomorrow too?
+<END>
+
+#WRITE(PTR, $00000EBE)
+I, I guess so. I mean, we're lovers, and we're going out, and going out means favoring each other, and it's summer break right now, so it's natural to go on a date every day...
+<END>
+
+#WRITE(PTR, $00000ECE)
+【Luka】Tomorrow too, I want to be... with Okabe-san.
+<END>
+
+#WRITE(PTR, $00000EDE)
+【Rintaro】Th-thanks...
+<END>
+
+#WRITE(PTR, $00000EF8)
+【Luka】Can I...
+<END>
+
+#WRITE(PTR, $00000F08)
+【Rintaro】It's not that you can't. Yes. Of course.
+<END>
+
+#WRITE(PTR, $00000F22)
+【Luka】Thank goodness...
+<END>
+
+#WRITE(PTR, $00000F32)
+Lukako's soaked in emotion by herself again.
+<END>
+
+#WRITE(PTR, $00000F42)
+Seeing her like this makes incomprehensible feelings well up in me too...
+<END>
+
+#WRITE(PTR, $00000F5C)
+【Luka】Well, see you tomorrow...
+<END>
+
+#WRITE(PTR, $00000F78)
+A huge weight is suddenly put on my shoulders.
+<END>
+
+#WRITE(PTR, $00000F88)
+A date tomorrow too...
+<END>
+
+#WRITE(PTR, $00000F98)
+Tomorrow too...
+<FILEEND78>
+

@@ -1,0 +1,591 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00004D2E)
+
+#WRITE(PTR, $000001EC)
+Part of the audience had already started forming a line in front of UPX an hour and a half before opening.
+<END>
+
+#WRITE(PTR, $000001FC)
+Since it's already the finals, I didn't think there would be many participants.
+<END>
+
+#WRITE(PTR, $0000020C)
+But several casual players are participating in a general public tournament at the same time as, but unrelated to the finals.
+<END>
+
+#WRITE(PTR, $0000021C)
+The participants gathering at the hall enter through a different entrance than the spectators.
+<END>
+
+#WRITE(PTR, $0000022C)
+I'm at the participant entrance, waiting for Faris to make her appearance.
+<END>
+
+#WRITE(PTR, $00000302)
+After about 15 minutes, Faris appears.
+<END>
+
+#WRITE(PTR, $00000312)
+She lives right next door, with less than a three minute walk, so she has a pretty flexible schedule.
+<END>
+
+#WRITE(PTR, $000003FA)
+By the way, she's already in her cat ear equipment and MayQueen maid clothes.
+<END>
+
+#WRITE(PTR, $0000049E)
+It feels strange for her to wear that uniform even though that store doesn't exist in this world line.
+<END>
+
+#WRITE(PTR, $0000054C)
+Faris sees my face and opens her eyes wide in surprise.
+<END>
+
+#WRITE(PTR, $000005F0)
+【Faris】Kyouma, what are you doing here nya?
+<END>
+
+#WRITE(PTR, $00000694)
+【Rintaro】I wanted to meet you so I waited here.
+<END>
+
+#WRITE(PTR, $00000740)
+【Faris】Hanya!?
+<END2>
+
+#WRITE(PTR, $0000075A)
+ Y-you're not going to confess your love for meow? If you confess before such an important match, I'll be in trouble nya~n
+<END>
+
+#WRITE(PTR, $00000802)
+【Rintaro】Wh-why would I? Don't misunderstand. No way.
+<END>
+
+#WRITE(PTR, $000008B0)
+【Faris】...Kyouma's not in the mood today nya. Usually you'd talk back more nya.
+<END>
+
+#WRITE(PTR, $00000954)
+I have no time to be Hououin Kyouma now.
+<END>
+
+#WRITE(PTR, $000009F8)
+【Faris】This decisive battle has me nervous, so I want to liven up nyan.
+<END>
+
+#WRITE(PTR, $00000A9C)
+She doesn't look nervous.
+<END>
+
+#WRITE(PTR, $00000B40)
+【Rintaro】Just listen, Faris! This is important for your victory.
+<END>
+
+#WRITE(PTR, $00000BEE)
+【Faris】Important? But Kyouma, you don't know the RaiNet rules at all, do ya nya?
+<END>
+
+#WRITE(PTR, $00000C92)
+【Rintaro】No, it's not a problem with the rules.
+<END>
+
+#WRITE(PTR, $00000D36)
+【Faris】Then, what is it nya~?
+<END>
+
+#WRITE(PTR, $00000DDA)
+She looks into my face with suspicious eyes.
+<END>
+
+#WRITE(PTR, $00000E7E)
+I better give her the stuff before I screw up.
+<END>
+
+#WRITE(PTR, $00000F22)
+【Rintaro】Take these with you.
+<END>
+
+#WRITE(PTR, $00000FC6)
+I try handing over the sunglasses and earplugs I bought on the way here.
+<END>
+
+#WRITE(PTR, $0000106A)
+But Faris draws her ands back as if on guard.
+<END>
+
+#WRITE(PTR, $00001118)
+【Faris】Kyouma... that's kinda gross nya...
+<END>
+
+#WRITE(PTR, $000011BC)
+How rude!
+<END>
+
+#WRITE(PTR, $00001260)
+【Faris】Normally, for presents, you give more pleasing things--
+<END>
+
+#WRITE(PTR, $00001304)
+【Rintaro】That's not it. These are your counter-interference measures.
+<END>
+
+#WRITE(PTR, $000013B2)
+【Faris】Nya?
+<END>
+
+#WRITE(PTR, $00001456)
+【Rintaro】Okay, listen. I came... from the future.
+<END>
+
+#WRITE(PTR, $00001504)
+【Faris】I know nya.
+<END>
+
+#WRITE(PTR, $000015A8)
+【Rintaro】What...!?
+<END>
+
+#WRITE(PTR, $0000164C)
+She knows? What does that mean!?
+<END>
+
+#WRITE(PTR, $000016F0)
+Why...!?
+<END>
+
+#WRITE(PTR, $0000179E)
+【Faris】By the way, Faris came from space nya.
+<END>
+
+#WRITE(PTR, $00001842)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000018E6)
+I shouldn't forget I'm dealing with Faris Nyannyan...
+<END>
+
+#WRITE(PTR, $0000198A)
+【Rintaro】This isn't a joke! I actually leapt here from 6 this evening!
+<END>
+
+#WRITE(PTR, $00001A2E)
+【Rintaro】I know the outcome of today's RaiNet Grand Championship final.
+<END>
+
+#WRITE(PTR, $00001ADC)
+【Faris】You don't have to tell meow. Overwhelming victory for Faris--
+<END>
+
+#WRITE(PTR, $00001B80)
+【Rintaro】Nope.
+<END>
+
+#WRITE(PTR, $00001C24)
+【Rintaro】You lost.
+<END>
+
+#WRITE(PTR, $00001CD8)
+【Faris】Nyau~
+<END>
+
+#WRITE(PTR, $00001D7C)
+Faris pointed her lips at my words.
+<END>
+
+#WRITE(PTR, $00001E20)
+【Rintaro】But that was because of the enemy team's interference. So to protect you, I brought you these sunglasses and earplugs--
+<END>
+
+#WRITE(PTR, $00001EC4)
+I desperately tried to convince her, but Faris just hung her head, making it hard to read her expression--
+<END>
+
+#WRITE(PTR, $00001F68)
+【Rintaro】Are you listening!?
+<END>
+
+#WRITE(PTR, $0000204C)
+I grab Faris' slender shoulder, and she starts shaking.
+<END>
+
+#WRITE(PTR, $000020F0)
+【Rintaro】Faris...?
+<END>
+
+#WRITE(PTR, $000021A0)
+【Faris】Unyaaaaa
+<END>
+
+#WRITE(PTR, $00002244)
+【Faris】Kyouma you meow meanie!
+<END>
+
+#WRITE(PTR, $000022E8)
+And she suddenly exploded!
+<END>
+
+#WRITE(PTR, $00002396)
+【Faris】Today is a very important match for Faris! How dare you say she loses nya! You're being mean to Faris! Are you a Viral Attackers' spy nya!?
+<END>
+
+#WRITE(PTR, $0000243A)
+【Rintaro】N-no, look, you didn't lose because of ability but--
+<END>
+
+#WRITE(PTR, $000024E8)
+【Faris】Hmya! Not listening nya-!
+<END>
+
+#WRITE(PTR, $0000287E)
+【Rintaro】Hgg...!
+<END>
+
+#WRITE(PTR, $0000292E)
+After kicking me in the shin, Faris turns around and points up her nose.
+<END>
+
+#WRITE(PTR, $000029D2)
+Damn you catgirl! You're not listening now of all times...!?
+<END>
+
+#WRITE(PTR, $00002AAE)
+【Rintaro】W-wait! Wait I say!
+<END>
+
+#WRITE(PTR, $00002B52)
+【Rintaro】I'm in trouble unless you win!
+<END>
+
+#WRITE(PTR, $00002C00)
+【Faris】Like Faris said, she can't lose nya!
+<END>
+
+#WRITE(PTR, $00002CA4)
+【Faris】And I don't wannya wear those ugly glasses nya! Faris is always cute, so she can't let down all her fans, nya!
+<END>
+
+#WRITE(PTR, $00002D48)
+Crap, she's getting angry at me.
+<END>
+
+#WRITE(PTR, $00002DF8)
+Faris shakes me off, rushing to the participant entrance.
+<END>
+
+#WRITE(PTR, $00002E9C)
+I'm not a participant, so it's over if she goes in there.
+<END>
+
+#WRITE(PTR, $00002F78)
+【Rintaro】Please hear me out until the end!
+<END>
+
+#WRITE(PTR, $0000301C)
+Bearing the pain in my shin, I force my way in front of Faris and stand in her way.
+<END>
+
+#WRITE(PTR, $000030C0)
+【Rintaro】Faris, please. Mayuri's life depends on it...!
+<END>
+
+#WRITE(PTR, $0000316E)
+【Faris】Someone! Someone come nya! Help meow!
+<END>
+
+#WRITE(PTR, $00003212)
+Faris suddenly raises her voice.
+<END>
+
+#WRITE(PTR, $000032B6)
+She grabs the attention of the surrounding participants and spectators. Even staff members are gathering.
+<END>
+
+#WRITE(PTR, $0000335A)
+Geh... Crap, I can't talk about time machines or Mayuri's life with this much attention around us.
+<END>
+
+#WRITE(PTR, $000033FE)
+But unless I can get Faris to hear me out here, it'll be impossible to change the past.
+<END>
+
+#WRITE(PTR, $00003576)
+How should I overcome this...
+<END>
+
+#WRITE(PTR, $000036B4)
+【４℃?】Why, you seem pretty free, dontcha, Champion?
+<END>
+
+#WRITE(PTR, $000037F6)
+That smug voice resounds.
+<END>
+
+#WRITE(PTR, $00003972)
+The tall man wrapped in matching black clothes walks up to us, grinning. Whenever he takes a step, all of the silver accessories he's wearing start to jingle.
+<END>
+
+#WRITE(PTR, $00003AB4)
+He dramatically takes off his sunglasses, revealing the face of that bald spot guy I got in trouble with before. If I'm not mistaken, he called himself ４℃.
+<END>
+
+#WRITE(PTR, $00003BEC)
+【４℃】Heh. I am the black peacock of the RaiNetter realm who swooped down upon the street.
+<END>
+
+#WRITE(PTR, $00003D24)
+【４℃】My name's ４℃. The number 4 and ℃ as in "Celsius. 4℃". The leader of the Viral Attackers.
+<END>
+
+#WRITE(PTR, $00003E5C)
+【Faris】Viral Attackers...
+<END>
+
+#WRITE(PTR, $00003F94)
+Hm? Viral Attackers. I think I've heard that name somewhere before...
+<END>
+
+#WRITE(PTR, $000040CC)
+That's right! Faris' opponents for this match are the Viral Attackers!
+<END>
+
+#WRITE(PTR, $00004204)
+This troublesome man's picking a fight.
+<END>
+
+#WRITE(PTR, $0000433C)
+He's a dangerous character who suddenly headbutted me just a while ago.
+<END>
+
+#WRITE(PTR, $00004474)
+And he seems to hate Faris a lot, too.
+<END>
+
+#WRITE(PTR, $0000462A)
+【４℃】Seriously, you disappoint me, Champion.
+<END>
+
+#WRITE(PTR, $000046E8)
+【４℃】You flirt with the system, but that's just noise to my heart. And yet here you are before the match, soaking in the corrupted love of that bungling man.
+<END>
+
+#WRITE(PTR, $00004700)
+【４℃】That white fur of the Siamese cat you pretend to be: with this duel today, I'll dye it jet black. Gaia has thus whispered.
+<END>
+
+#WRITE(PTR, $00004710)
+【４℃】The black cat is the sign of disaster. My black radiance will outshine your shadow, bringing about RaiNet's new generation.
+<END>
+
+#WRITE(PTR, $00004732)
+Damn, this guy can talk. About what, I don't know, though.
+<END>
+
+#WRITE(PTR, $00004742)
+Faris seems to be thinking the same thing.
+<END>
+
+#WRITE(PTR, $00004756)
+【Faris】Why is everyone in Faris' way nya? I need it quiet so I can concentrate nya!
+<END>
+
+#WRITE(PTR, $00004772)
+Saying that, she quickly tries to enter the hall.
+<END>
+
+#WRITE(PTR, $00004782)
+I grab her hand to detain her.
+<END>
+
+#WRITE(PTR, $000047C6)
+【Rintaro】Faris, I told you to wait!
+<END>
+
+#WRITE(PTR, $000047D6)
+【Faris】Let go nya-!
+<END>
+
+#WRITE(PTR, $000047E6)
+【Rintaro】Please, listen to what I'm saying--
+<END>
+
+#WRITE(PTR, $00004836)
+【４℃】Hey, wait! Don't you disregard the man closest to the truth of RaiNet.
+<END>
+
+#WRITE(PTR, $00004846)
+【Rintaro】No, we don't need you, so don't look this way.
+<END>
+
+#WRITE(PTR, $00004856)
+【４℃】The hell you say...! Don't you know I am the black nobleman of the RaiNet realm!?
+<END>
+
+#WRITE(PTR, $00004866)
+【Rintaro】Weren't you the black peacock of the RaiNet realm? You're contradicting yourself, you know.
+<END>
+
+#WRITE(PTR, $00004876)
+【４℃】I am the black peacock nobleman. 'Cause black is the symbol of RaiNet.
+<END>
+
+#WRITE(PTR, $00004886)
+The promotional posters all have a blue and white motif. At least, it doesn't look like black is the image color.
+<END>
+
+#WRITE(PTR, $00004896)
+【Rintaro】What, so you just like to say black?
+<END>
+
+#WRITE(PTR, $000048A6)
+【４℃】You dumbass. Before the final duel, I'm going to dye that pussy black.
+<END>
+
+#WRITE(PTR, $000048C4)
+4℃ starts chasing her with an angry look.
+<END>
+
+#WRITE(PTR, $000048D4)
+But I'm the angry one. Mayuri's life hangs in the balance, so I don't want him to interfere.
+<END>
+
+#WRITE(PTR, $000048E4)
+Faris won't listen to me at all either.
+<END>
+
+#WRITE(PTR, $000048F4)
+I'm about to explode from all this frustation.
+<END>
+
+#WRITE(PTR, $00004904)
+How should I drive this guy away...
+<END>
+
+#WRITE(PTR, $00004914)
+After a little consideration, I decide to face him as Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00004924)
+【４℃】Do you know what'll happen if you touch me? Dry ice can burn skin--
+<END>
+
+#WRITE(PTR, $00004934)
+【Rintaro】That's not burning, but frostbite.
+<END>
+
+#WRITE(PTR, $00004944)
+【４℃】Wha--!?
+<END>
+
+#WRITE(PTR, $00004954)
+【Rintaro】I'm telling you to not meddle with Faris!
+<END>
+
+#WRITE(PTR, $00004964)
+【Rintaro】If you're gonna do poetry, write on the back of a leaflet!
+<END>
+
+#WRITE(PTR, $00004974)
+I hear giggles from all around.
+<END>
+
+#WRITE(PTR, $0000498E)
+【４℃】Hehhehhehheh, they're laughing at you, you corrupt pussy's l'amant!
+<END>
+
+#WRITE(PTR, $0000499E)
+What the hell is l'amant...
+<END>
+
+#WRITE(PTR, $000049AE)
+【Rintaro】But that's wrong. They're laughing at you, you balding peacock.
+<END>
+
+#WRITE(PTR, $000049C8)
+【４℃】Wha, now, you just shook my mind... You, how do you know about my untouchable black spot...!? I've never even told anyone about it...
+<END>
+
+#WRITE(PTR, $000049D8)
+4℃'s face turns red.
+<END>
+
+#WRITE(PTR, $000049E8)
+【Rintaro】Fear not, ４°F. For I am an insane mad scientist, and time leaper. The man who gazes at everything, Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $000049F8)
+【４℃】It's not "４°F", it's "４℃"!
+<END>
+
+#WRITE(PTR, $00004A08)
+【４℃】I won't forgive... I won't forgive any of you. Because you put on pitiful pretentious names and summoned my garden, the black HELL...!
+<END>
+
+#WRITE(PTR, $00004A34)
+While threatening us, he puts his sunglasses on and leaves.
+<END>
+
+#WRITE(PTR, $00004A44)
+That's a little payback for headbutting me.
+<END>
+
+#WRITE(PTR, $00004A8C)
+【Faris】Kyouma, just now, how did you see through 4℃'s weak point nyan? Nobody knew that information nya.
+<END>
+
+#WRITE(PTR, $00004A9C)
+【Rintaro】Didn't I say so? That I came from the future?
+<END>
+
+#WRITE(PTR, $00004AAC)
+【Faris】Ah...
+<END>
+
+#WRITE(PTR, $00004ABC)
+【Rintaro】More importantly, please, Faris. I want you to take them. It's okay if you just take them.
+<END>
+
+#WRITE(PTR, $00004AD6)
+【Faris】...b-but. I can't believe that Faris loses nya.
+<END>
+
+#WRITE(PTR, $00004AE6)
+【Rintaro】You're superior in terms of ability. But you heard him talk. They're obvious trolls.
+<END>
+
+#WRITE(PTR, $00004AF6)
+【Rintaro】They would do anything it takes for them to win.
+<END>
+
+#WRITE(PTR, $00004B06)
+【Faris】If you say that much...
+<END>
+
+#WRITE(PTR, $00004B16)
+Looks like my desperation paid off.
+<END>
+
+#WRITE(PTR, $00004B26)
+Faris reluctantly accepts the two items I present to her.
+<END>
+
+#WRITE(PTR, $00004B36)
+Of course, she doesn't take them out of the bag, though.
+<END>
+
+#WRITE(PTR, $00004B50)
+【Faris】I'm really just holding onto them nyan. Is that okay nya?
+<END>
+
+#WRITE(PTR, $00004B60)
+【Rintaro】Yeah, they'll be absolutely necessary for the finals, so don't let go of them.
+<END>
+
+#WRITE(PTR, $00004B70)
+It looks like I got her to do it, even if she didn't like it.
+<FILEEND7D>
+

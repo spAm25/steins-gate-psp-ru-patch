@@ -1,0 +1,567 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000022DA)
+
+#WRITE(PTR, $000007D6)
+I'm standing in pitch-black emptiness.
+<END>
+
+#WRITE(PTR, $000007E6)
+When did I come here? I don't remember.
+<END>
+
+#WRITE(PTR, $000007F6)
+My body doesn't move.
+<END>
+
+#WRITE(PTR, $00000806)
+My body doesn't feel.
+<END>
+
+#WRITE(PTR, $00000816)
+Nothing is seen.
+<END>
+
+#WRITE(PTR, $00000826)
+Nothing is.
+<END>
+
+#WRITE(PTR, $000008D0)
+<LINE>
+<LINE>
+<LINE>
+%LCIt's not that nothing is.
+<ENDPANEL>
+
+#WRITE(PTR, $000008F8)
+A voice resounds.
+<END>
+
+#WRITE(PTR, $00000908)
+As if whispering near me.
+<END>
+
+#WRITE(PTR, $00000918)
+As if screaming far away.
+<END>
+
+#WRITE(PTR, $00000928)
+As if dozens of people around me called at once.
+<END>
+
+#WRITE(PTR, $00000938)
+--Where... is this?
+<END>
+
+#WRITE(PTR, $000009E2)
+<LINE>
+<LINE>
+<LINE>
+%LCThis is--
+<ENDPANEL>
+
+#WRITE(PTR, $000009F2)
+<LINE>
+<LINE>
+<LINE>
+%LCBeyond the event horizon.
+<ENDPANEL>
+
+#WRITE(PTR, $00000A02)
+<LINE>
+<LINE>
+<LINE>
+%LCWhere time and space switch places.
+<ENDPANEL>
+
+#WRITE(PTR, $00000A2A)
+Immediately afterward--
+<END>
+
+#WRITE(PTR, $00000C50)
+A panoramic view appears.
+<END>
+
+#WRITE(PTR, $00000C60)
+Stars coat the heavens.
+<END>
+
+#WRITE(PTR, $00000C70)
+A star ocean.
+<END>
+
+#WRITE(PTR, $00000C80)
+I sigh at the beauty.
+<END>
+
+#WRITE(PTR, $00000C90)
+However, one point of space lacks stars.
+<END>
+
+#WRITE(PTR, $00000CA0)
+I notice that point.
+<END>
+
+#WRITE(PTR, $00000CB0)
+I stare.
+<END>
+
+#WRITE(PTR, $00000CC0)
+My body starts to fall.
+<END>
+
+#WRITE(PTR, $00000CD0)
+Falling, through the stars--
+<END>
+
+#WRITE(PTR, $00000CE0)
+No, that's wrong.
+<END>
+
+#WRITE(PTR, $00000CF0)
+I'm not falling.
+<END>
+
+#WRITE(PTR, $00000D00)
+Inside the stars is perfect dark distortion. Not even light can escape.
+<END>
+
+#WRITE(PTR, $00000D10)
+I'm being pulled inside--
+<END>
+
+#WRITE(PTR, $00000E50)
+My consciousness instantly exceeds the speed of light.
+<END>
+
+#WRITE(PTR, $00000E60)
+Countless stars instantly vanish behind my back.
+<END>
+
+#WRITE(PTR, $00000E70)
+The luminous point in my vision rapidly disappears.
+<END>
+
+#WRITE(PTR, $00000E80)
+Everything except for me gets blown back.
+<END>
+
+#WRITE(PTR, $00000E90)
+Reason screams absurdity.
+<END>
+
+#WRITE(PTR, $00000EA0)
+Physical displacement cannot exceed the speed of light.
+<END>
+
+#WRITE(PTR, $00000EB0)
+That contradicts the theory of relativity.
+<END>
+
+#WRITE(PTR, $00000F5A)
+<LINE>
+<LINE>
+<LINE>
+%LCYou aren't moving.
+<ENDPANEL>
+
+#WRITE(PTR, $00000F82)
+The voice, again.
+<END>
+
+#WRITE(PTR, $00000F92)
+The voice overtakes my faster-than-light consciousness, lying in wait at my destination.
+<END>
+
+#WRITE(PTR, $00000FA2)
+Why do I hear Christina's voice?
+<END>
+
+#WRITE(PTR, $0000104C)
+<LINE>
+<LINE>
+<LINE>
+%LCYou aren't moving.
+<ENDPANEL>
+
+#WRITE(PTR, $00001074)
+The same words.
+<END>
+
+#WRITE(PTR, $0000111E)
+<LINE>
+<LINE>
+<LINE>
+%t112I thought I told you.%n%t112Here, space and time%n%t112switch places--
+<ENDPANEL>
+
+#WRITE(PTR, $0000112E)
+<LINE>
+<LINE>
+<LINE>
+%LCYou can't move through space.
+<ENDPANEL>
+
+#WRITE(PTR, $0000113E)
+<LINE>
+<LINE>
+<LINE>
+%LCYour time is endlessly stretching.
+<ENDPANEL>
+
+#WRITE(PTR, $00001166)
+I accelerate.
+<END>
+
+#WRITE(PTR, $00001176)
+And feel like choking.
+<END>
+
+#WRITE(PTR, $00001186)
+As if my entire body is under pressure.
+<END>
+
+#WRITE(PTR, $00001230)
+<LINE>
+<LINE>
+<LINE>
+%LCOne second for you. An eternity for me.
+<ENDPANEL>
+
+#WRITE(PTR, $00001240)
+<LINE>
+<LINE>
+<LINE>
+%LCObserving from a distance,<LINE>
+I see you as a still object.
+<ENDPANEL>
+
+#WRITE(PTR, $00001268)
+I fall.
+<END>
+
+#WRITE(PTR, $00001278)
+I'm pulled.
+<END>
+
+#WRITE(PTR, $00001288)
+To the depths of the dark.
+<END>
+
+#WRITE(PTR, $00001298)
+Or to the end of space.
+<END>
+
+#WRITE(PTR, $000012A8)
+But even beyond the speed of lite, I'll never reach it.
+<END>
+
+#WRITE(PTR, $000012B8)
+Am I looping?
+<END>
+
+#WRITE(PTR, $000012C8)
+No, that's wrong.
+<END>
+
+#WRITE(PTR, $000012D8)
+Is the "end" escaping?
+<END>
+
+#WRITE(PTR, $000012E8)
+That's wrong too.
+<END>
+
+#WRITE(PTR, $000012F8)
+Stretching.
+<END>
+
+#WRITE(PTR, $00001308)
+What is?
+<END>
+
+#WRITE(PTR, $00001318)
+Space is?
+<END>
+
+#WRITE(PTR, $00001328)
+I am?
+<END>
+
+#WRITE(PTR, $000013D2)
+<LINE>
+<LINE>
+<LINE>
+%LCYou mustn't look back.
+<ENDPANEL>
+
+#WRITE(PTR, $000013E2)
+<LINE>
+<LINE>
+<LINE>
+%LCEternity is not infinite.
+<ENDPANEL>
+
+#WRITE(PTR, $000013F2)
+<LINE>
+<LINE>
+<LINE>
+%LCTime towards eternity stretches--
+<ENDPANEL>
+
+#WRITE(PTR, $00001402)
+<LINE>
+<LINE>
+<LINE>
+%LCYet its end exists--
+<ENDPANEL>
+
+#WRITE(PTR, $0000142A)
+Something approaches.
+<END>
+
+#WRITE(PTR, $0000143A)
+Approaches slowly.
+<END>
+
+#WRITE(PTR, $0000144A)
+In complete contrast to the disappearing surrounding stars.
+<END>
+
+#WRITE(PTR, $0000145A)
+Is it really approaching?
+<END>
+
+#WRITE(PTR, $0000146A)
+Is it not stopped?
+<END>
+
+#WRITE(PTR, $0000147A)
+Its slowness gives it that illusion.
+<END>
+
+#WRITE(PTR, $0000148A)
+I don't recognize what it is.
+<END>
+
+#WRITE(PTR, $0000149A)
+But it is "something".
+<END>
+
+#WRITE(PTR, $000014AA)
+But I don't know what that "something" is.
+<END>
+
+#WRITE(PTR, $00001554)
+<LINE>
+<LINE>
+<LINE>
+%LCEvent horizon--
+<ENDPANEL>
+
+#WRITE(PTR, $0000157C)
+I try to reach that "something".
+<END>
+
+#WRITE(PTR, $0000158C)
+But my hand won't move.
+<END>
+
+#WRITE(PTR, $00001636)
+<LINE>
+<LINE>
+<LINE>
+%LCYou mustn't look back.
+<ENDPANEL>
+
+#WRITE(PTR, $00001646)
+<LINE>
+<LINE>
+<LINE>
+%t052Because you extend to there,%n%t052having been stretched one second to an eternity.
+<ENDPANEL>
+
+#WRITE(PTR, $0000166E)
+I seem to be stopped.
+<END>
+
+#WRITE(PTR, $0000167E)
+While seemingly stopped, I continue falling.
+<END>
+
+#WRITE(PTR, $0000168E)
+Not a complete stop.
+<END>
+
+#WRITE(PTR, $0000169E)
+Infinite progression to a stop.
+<END>
+
+#WRITE(PTR, $000016AE)
+After a second, when will I arrive?
+<END>
+
+#WRITE(PTR, $00001758)
+<LINE>
+<LINE>
+<LINE>
+%LCTime and space are switching places
+<ENDPANEL>
+
+#WRITE(PTR, $00001780)
+One second, my perception keeps stretching.
+<END>
+
+#WRITE(PTR, $00001790)
+One second, after a perceived second, becomes 0.1 seconds.
+<END>
+
+#WRITE(PTR, $000017A0)
+0.1 seconds, after a perceived second, becomes 0.01 seconds.
+<END>
+
+#WRITE(PTR, $000017B0)
+0.01 seconds, after a perceived second, becomes 0.001 seconds.
+<END>
+
+#WRITE(PTR, $000017C0)
+0.0001 seconds.
+<END>
+
+#WRITE(PTR, $000017D0)
+0.00001 seconds.
+<END>
+
+#WRITE(PTR, $000017E0)
+0.000001 seconds.
+<END>
+
+#WRITE(PTR, $000017F0)
+0.0000001 seconds.
+<END>
+
+#WRITE(PTR, $00001800)
+0.00000001 seconds.
+<END>
+
+#WRITE(PTR, $00001810)
+0.000000001 seconds.
+<END>
+
+#WRITE(PTR, $00001820)
+When will I arrive?
+<END>
+
+#WRITE(PTR, $00001830)
+Gradually, time shortens.
+<END>
+
+#WRITE(PTR, $00001840)
+Gradually, my senses lengthen.
+<END>
+
+#WRITE(PTR, $000018EA)
+<LINE>
+<LINE>
+<LINE>
+%LCFace forward, struggle on.
+<ENDPANEL>
+
+#WRITE(PTR, $00001912)
+An illusion that we'll never arrive at "zero".
+<END>
+
+#WRITE(PTR, $000019BC)
+<LINE>
+<LINE>
+<LINE>
+%LCTo the Demon Lord's Gate.
+<ENDPANEL>
+
+#WRITE(PTR, $000019E4)
+Abrupt, humorous words.
+<END>
+
+#WRITE(PTR, $000019F4)
+The Demon Lord's Gate.
+<END>
+
+#WRITE(PTR, $00001A9E)
+<LINE>
+<LINE>
+<LINE>
+%LCYou don't have the key
+<ENDPANEL>
+
+#WRITE(PTR, $00001AAE)
+<LINE>
+<LINE>
+<LINE>
+%LCSo, you can't pry it open--
+<ENDPANEL>
+
+#WRITE(PTR, $00001AD6)
+I try to shout.
+<END>
+
+#WRITE(PTR, $00001AE6)
+But my mouth won't move.
+<END>
+
+#WRITE(PTR, $00001AF6)
+I mustn't look back.
+<END>
+
+#WRITE(PTR, $00001BA0)
+<LINE>
+<LINE>
+<LINE>
+%LCYou're captured by the Demon Lord's underlings.
+<ENDPANEL>
+
+#WRITE(PTR, $00001EA2)
+Pictures from the Jellyman's Report flicker through my brain.
+<END>
+
+#WRITE(PTR, $00001EB2)
+My body--
+<END>
+
+#WRITE(PTR, $00001F7C)
+<LINE>
+<LINE>
+<LINE>
+%LCYou mustn't look back.
+<ENDPANEL>
+
+#WRITE(PTR, $00001FA4)
+I want to look back.
+<END>
+
+#WRITE(PTR, $00001FB4)
+I want to go back.
+<END>
+
+#WRITE(PTR, $00001FE4)
+I can't look back.
+<END>
+
+#WRITE(PTR, $00001FF4)
+I can't go back.
+<END>
+
+#WRITE(PTR, $00002024)
+Towards "something".
+<END>
+
+#WRITE(PTR, $00002034)
+Towards the future of becoming a jellyman.
+<END>
+
+#WRITE(PTR, $00002044)
+While stopped for an eternity--
+<FILEEND93>
+

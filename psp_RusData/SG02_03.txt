@@ -1,0 +1,867 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002C52)
+
+#WRITE(PTR, $000001FC)
+【Suzuha?】Wassu-p
+<END>
+
+#WRITE(PTR, $0000020C)
+While arguing arguing on the internet, I hear the voice of an unfamiliar woman.
+<END>
+
+#WRITE(PTR, $000002EC)
+The entryway door opens, and the woman timidly peeks inside.
+<END>
+
+#WRITE(PTR, $000002FC)
+A familiar face.
+<END>
+
+#WRITE(PTR, $0000030C)
+I'm pretty certain she's from yesterday, at the Braun Tube Workshop--
+<END>
+
+#WRITE(PTR, $00000326)
+【Suzuha3】Greetings-. I'm from the Braun Tube Workshop.
+<END>
+
+#WRITE(PTR, $00000336)
+When our eyes meet, the I love Braun tubes woman smiles.
+<END>
+
+#WRITE(PTR, $00000350)
+【Suzuha3】The TV you sent in for repairs has been fixed. Will you come pick it up?
+<END>
+
+#WRITE(PTR, $000003AC)
+Daru's tapping gets even faster.
+<END>
+
+#WRITE(PTR, $000003BC)
+Looks like he's at the climax, so it would be a bad idea to disturb him by talking.
+<END>
+
+#WRITE(PTR, $000003EC)
+I nod to the woman and hurry out.
+<END>
+
+#WRITE(PTR, $0000053E)
+【Suzuha3】Why are you being sneaky?
+<END>
+
+#WRITE(PTR, $0000054E)
+Umm, what was this chick's name again?
+<END>
+
+#WRITE(PTR, $0000055E)
+I think it was something like Aruma or Amore.
+<END>
+
+#WRITE(PTR, $0000056E)
+...Oh right, it's Amane. Amane Suzuha.
+<END>
+
+#WRITE(PTR, $0000057E)
+【Rintaro】Right now, our partner, the genius, is in the middle of executing an important mission. I don't want to bother him.
+<END>
+
+#WRITE(PTR, $00000598)
+【Suzuha】Hmmm. What is it you guys do?
+<END>
+
+#WRITE(PTR, $000005A8)
+【Rintaro】I thought I told you before. That you could also get involved in danger if you step into our secrets.
+<END>
+
+#WRITE(PTR, $000005B8)
+【Suzuha】You're called the Future Gadget Laboratory, right?
+<END>
+
+#WRITE(PTR, $000005C8)
+【Rintaro】H-how do you know? I don't remember telling you. Don't tell me, are you an "Organization" spy--!?
+<END>
+
+#WRITE(PTR, $000005EC)
+I immediately take the praying mantis stance and raise my guard.
+<END>
+
+#WRITE(PTR, $00000634)
+But Suzuha just stares blankly.
+<END>
+
+#WRITE(PTR, $00000644)
+【Suzuha】It was written on your mailbox.
+<END>
+
+#WRITE(PTR, $0000065C)
+【Rintaro】...I-I see.
+<END>
+
+#WRITE(PTR, $0000066C)
+I lower my guard. She's too damn misleading.
+<END>
+
+#WRITE(PTR, $0000067C)
+【Rintaro】N-now that you know, it's not like you can unknow. Let me explain briefly. But you can't tell anyone else.
+<END>
+
+#WRITE(PTR, $000006CC)
+Suzuha nods firmly.
+<END>
+
+#WRITE(PTR, $000006DC)
+Am I just imagining that gleam in her eyes?
+<END>
+
+#WRITE(PTR, $000006EC)
+【Rintaro】Our Future Gadget Laboratory is in opposition of the dark organization that controls the world from the shadows. We take action to destroy their ruling structure. Fuhahaha.
+<END>
+
+#WRITE(PTR, $000006FC)
+【Suzuha】Heehhh~
+<END>
+
+#WRITE(PTR, $0000070C)
+【Suzuha】By "dark organization", you mean SERN?
+<END>
+
+#WRITE(PTR, $0000071C)
+【Rintaro】...!?
+<END>
+
+#WRITE(PTR, $0000072C)
+【Rintaro】Y-yes, but...
+<END>
+
+#WRITE(PTR, $00000740)
+【Suzuha】Ohh! So it is them?
+<END2>
+
+#WRITE(PTR, $0000075A)
+ Those guys really are a contemptible lot, aren't they~
+<END>
+
+#WRITE(PTR, $0000076E)
+She's nodding to herself with an I-know-how-it-is look for some reason.
+<END>
+
+#WRITE(PTR, $0000077E)
+And contemptible...? I thought I was the only one who used difficult words like that on a day to day basis.
+<END>
+
+#WRITE(PTR, $0000078E)
+【Rintaro】Why do you know we're hacking SERN right now!?
+<END>
+
+#WRITE(PTR, $000007A8)
+【Suzuha】Eh? You're hacking? Now?
+<END>
+
+#WRITE(PTR, $000007B8)
+Oh crap, I spoke too much.
+<END>
+
+#WRITE(PTR, $000007C8)
+【Rintaro】Just answer my question. Why do you know our relation to SERN!?
+<END>
+
+#WRITE(PTR, $000007E2)
+【Suzuha】Ah-, umm, that's...
+<END>
+
+#WRITE(PTR, $000007FC)
+【Suzuha】Wellllll, ahahah, actually, during the day, I overheard you. If I stand here, I can hear you from the window.
+<END>
+
+#WRITE(PTR, $0000080C)
+Window....
+<END>
+
+#WRITE(PTR, $0000081C)
+It certainly was left open, and Daru and I were talking loudly.
+<END>
+
+#WRITE(PTR, $0000082C)
+But can we really be heard?
+<END>
+
+#WRITE(PTR, $0000089A)
+I look up to the second floor.
+<END>
+
+#WRITE(PTR, $000008AA)
+The window's still fully open, but I can't hear a thing.
+<END>
+
+#WRITE(PTR, $000008BA)
+Seems like Daru's working silently.
+<END>
+
+#WRITE(PTR, $00000928)
+I look down.
+<END>
+
+#WRITE(PTR, $00000938)
+There's an unfamiliar bicycle parked next to the Braun Tube Workshop entrance.
+<END>
+
+#WRITE(PTR, $00000948)
+A so-called MTB mountain bike. Its frame is sparkly, its tires mostly clean. It's probably new.
+<END>
+
+#WRITE(PTR, $00000958)
+It looks pretty fast, but whose is it?
+<END>
+
+#WRITE(PTR, $000009A0)
+【Suzuha】I began working here since yesterday, but--
+<END>
+
+#WRITE(PTR, $000009B0)
+Suzuha opens the Braun Tube Workshop door with a wry smile.
+<END>
+
+#WRITE(PTR, $000009C0)
+【Suzuha】I've got more free time than expected. I've been wondering if any customers would come, so I started to "perlustrate" the front of the store.
+<END>
+
+#WRITE(PTR, $00000A5E)
+Perlustrate?
+<END>
+
+#WRITE(PTR, $00000A6E)
+Her casual usage of an unfamiliar word left me unable to understand its meaning.
+<END>
+
+#WRITE(PTR, $00000A7E)
+I try to find the etymology in my mind.
+<END>
+
+#WRITE(PTR, $00000A8E)
+Perlustrate... per-luster... per as in perfect... thorough lightening... to bring thoroughly to light...
+<END>
+
+#WRITE(PTR, $00000A9E)
+So, like surveying!?
+<END>
+
+#WRITE(PTR, $00000AAE)
+Is this woman some sort of conquistador!?
+<END>
+
+#WRITE(PTR, $00000B80)
+I follow Suzuha into the store.
+<END>
+
+#WRITE(PTR, $00000BC8)
+【Suzuha】So that's when I heard you guys talking from the second floor.
+<END>
+
+#WRITE(PTR, $00000BD8)
+【Suzuha】I got interested and looked it up online. You know SERN's dark rumors perfectly.
+<END>
+
+#WRITE(PTR, $00000BE8)
+Gh. We were careless.
+<END>
+
+#WRITE(PTR, $00000BF8)
+From now on, it looks like we need to close that window shut whenever we don't want anything to leak outside.
+<END>
+
+#WRITE(PTR, $00000C08)
+But if we do that, the lab will turn into a scorching hell.
+<END>
+
+#WRITE(PTR, $00000C18)
+Mmmm, I'm at a loss now.
+<END>
+
+#WRITE(PTR, $00000CC4)
+【Rintaro】...A-anyway, you absolutely cannot tell anyone else.
+<END>
+
+#WRITE(PTR, $00000D68)
+Or else black suited westerners will raid us at full force.
+<END>
+
+#WRITE(PTR, $00000E16)
+【Suzuha】Ah, yeah, yeah. I understand. I'm actually tight lipped, so leave it to me.
+<END>
+
+#WRITE(PTR, $00000EBA)
+Suzuha grins as she strikes her chest in confidence.
+<END>
+
+#WRITE(PTR, $00000FBC)
+The Braun Tube Workshop interior is quiet.
+<END>
+
+#WRITE(PTR, $00001060)
+The usual gigantic Braun tube TV's not on.
+<END>
+
+#WRITE(PTR, $00001104)
+Mister Braun's not here either.
+<END>
+
+#WRITE(PTR, $000011E0)
+【Rintaro】Where's Manager?
+<END>
+
+#WRITE(PTR, $00001284)
+【Suzuha】Just now, after he finished repairing your TV, he left.
+<END>
+
+#WRITE(PTR, $00001328)
+It's probably related to the usual small woodland creature.
+<END>
+
+#WRITE(PTR, $000013CC)
+That Manager occasionally disappears during business hours.
+<END>
+
+#WRITE(PTR, $00001470)
+I've asked him where he goes, but he'd always answer "I went to my beloved daughter's school" or "My beloved daughter caught a cold, so I nursed her".
+<END>
+
+#WRITE(PTR, $00001514)
+Far from excessive care, he just dotes on her. Anyway, just how irresponsible is he to neglect work to go meet his daughter?
+<END>
+
+#WRITE(PTR, $000015B8)
+Whenever he's been away from the shop, he'd put a sign on the door saying Back Soon. But now Suzuha's tending the store.
+<END>
+
+#WRITE(PTR, $0000165C)
+【Suzuha】Sooo, here's the fixed TV.
+<END>
+
+#WRITE(PTR, $00001700)
+Suzuha lightly taps the top of the TV placed on the counter.
+<END>
+
+#WRITE(PTR, $000017A4)
+【Suzuha】He said to charge 1000 yen.
+<END>
+
+#WRITE(PTR, $00001848)
+Damn Manager. You gave it to us so you could charge repair fees?
+<END>
+
+#WRITE(PTR, $000018EC)
+Reluctantly, I take a bill out of my wallet and hand it to Suzuha.
+<END>
+
+#WRITE(PTR, $00001990)
+She takes out a receipt apparently written out beforehand.
+<END>
+
+#WRITE(PTR, $00001A3E)
+【Suzuha】Thanks for the patronage. Well, just take it away.
+<END>
+
+#WRITE(PTR, $00001AE2)
+【Rintaro】Don't tell me, by myself?
+<END>
+
+#WRITE(PTR, $00001B90)
+【Suzuha】Eh? What else? Didn't you bring it here alone?
+<END>
+
+#WRITE(PTR, $00001C34)
+Woman, don't you know it takes 10 times more effort to go up the stairs than down? How hard do you think it is to oppose gravity!?
+<END>
+
+#WRITE(PTR, $00001CE2)
+【Suzuha】I can help you, but, oh I see. We're already in the age where women do physical labor too.
+<END>
+
+#WRITE(PTR, $00001D86)
+She mutters.
+<END>
+
+#WRITE(PTR, $00001E2A)
+Tch. Sure is sarcastic of her.
+<END>
+
+#WRITE(PTR, $00001ECE)
+【Rintaro】Hmph. I don't remember anyone asking for your help. Actually, getting help from a girl like you would just hurt my pride.
+<END>
+
+#WRITE(PTR, $00001F7C)
+【Suzuha】Ohh-
+<END>
+
+#WRITE(PTR, $00002020)
+Applause.
+<END>
+
+#WRITE(PTR, $000020E0)
+【Suzuha】That was manly of you. I might've fallen for you.
+<END>
+
+#WRITE(PTR, $000020F8)
+【Rintaro】Hmph, you think you can trick me? You're lying, aren't you?
+<END>
+
+#WRITE(PTR, $00002112)
+【Suzuha】Eh? What makes you think that?
+<END>
+
+#WRITE(PTR, $00002122)
+【Rintaro】One of my abilities... "Complexion Reading is a Gentleman's Taste" reacted.
+<END>
+
+#WRITE(PTR, $00002132)
+【Suzuha】A-Ability?
+<END>
+
+#WRITE(PTR, $00002142)
+This ability allows one to see through the opponent's lies. The bodies of liars appear to glow red. The opponent dies.
+<END>
+
+#WRITE(PTR, $00002152)
+Suzuha's eyes pop, but she eventually clears her throat to smooth everything out.
+<END>
+
+#WRITE(PTR, $00002162)
+【Suzuha】Is that a psychic ability?
+<END>
+
+#WRITE(PTR, $00002172)
+When I nod, she whispers into my ear.
+<END>
+
+#WRITE(PTR, $000021C2)
+【Suzuha】Hey, people with abilities like you do, are there many others?
+<END>
+
+#WRITE(PTR, $000021D2)
+...This girl's Japanese just sounds weird.
+<END>
+
+#WRITE(PTR, $000021E2)
+【Rintaro】There's no way there could be. For I am special!
+<END>
+
+#WRITE(PTR, $000021F2)
+I bend my chest as skyward as humanly possible as a display of my majesty.
+<END>
+
+#WRITE(PTR, $00002242)
+【Suzuha】I-I see. So there aren't many then? That was a surprise-. But for them to exist now is amazing. Maybe they diminished because of SERN after all....
+<END>
+
+#WRITE(PTR, $00002252)
+After muttering some ambiguities to herself, she finally nods in understanding.
+<END>
+
+#WRITE(PTR, $00002262)
+【Suzuha】But you know, when you're fighting someone, is there any point in seeing their lies?
+<END>
+
+#WRITE(PTR, $0000227C)
+【Suzuha】You'd think that abilities like accurate sniping at 1km range or identifying the efficiency of your opponent's limbs would be more useful.
+<END>
+
+#WRITE(PTR, $00002298)
+What is she saying? Is she a <DICT>survival airsoft</DICT> ota?
+<END>
+
+#WRITE(PTR, $000022A8)
+No, wait. Don't tell me...!
+<END>
+
+#WRITE(PTR, $000022B8)
+【Rintaro】You... you're an "Organization" hitman, aren't you? You're called by the codename "Miss Gorgo" aren't you? Who hired you!?
+<END>
+
+#WRITE(PTR, $000022D2)
+【Suzuha】No, nobody hired me. Wait, what's Gorgo?
+<END>
+
+#WRITE(PTR, $000022E2)
+She's trying to gloss things over with an insincere smile.
+<END>
+
+#WRITE(PTR, $000022F2)
+Her confusion is suspicious.
+<END>
+
+#WRITE(PTR, $00002302)
+That reminds me, when we first met yesterday, it felt like she said some awfully dangerous things.
+<END>
+
+#WRITE(PTR, $0000231C)
+【Suzuha】By the way, do you have other abilities?
+<END>
+
+#WRITE(PTR, $0000232C)
+【Rintaro】Even if I did, there's no way in hell I'd tell a hitman hired to kill me.
+<END>
+
+#WRITE(PTR, $0000233C)
+【Suzuha】I'm not going to kill you.
+<END>
+
+#WRITE(PTR, $0000234C)
+【Rintaro】To tell others of my abilities is to commit suicide. My powers are concealed. Using them without the opponent knowing is the way to obtain their maximum effectiveness.
+<END>
+
+#WRITE(PTR, $00002366)
+【Suzuha】Stingy.
+<END>
+
+#WRITE(PTR, $00002376)
+【Rintaro】Say what you want.
+<END>
+
+#WRITE(PTR, $00002386)
+Burning tension runs between Suzuha and me.
+<END>
+
+#WRITE(PTR, $00002396)
+Our glances cross, scattering invisible sparks.
+<END>
+
+#WRITE(PTR, $000023DE)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $000023FA)
+And then a mail comes to break up the stare down. I vigilantly separate from Suzuha.
+<END>
+
+#WRITE(PTR, $0000240A)
+Lately, I've started to get fed up with the mail ringtone.
+<END>
+
+#WRITE(PTR, $0000241A)
+It's probably from that mail demon Shining Finger.
+<END>
+
+#WRITE(PTR, $0000242A)
+I can tell even without checking.
+<END>
+
+#WRITE(PTR, $0000243A)
+Tch, it's starting to get irritating.
+<END>
+
+#WRITE(PTR, $0000244A)
+She's got some stalker qualities.
+<END>
+
+#WRITE(PTR, $0000245A)
+Maybe I shouldn't have given my address to this bipolar lady.
+<END>
+
+#WRITE(PTR, $000024A2)
+When I look at Suzuha, she's laying on the counter.
+<END>
+
+#WRITE(PTR, $000024B2)
+She's playing with something in her hand.
+<END>
+
+#WRITE(PTR, $000024C2)
+A pin badge?
+<END>
+
+#WRITE(PTR, $000024D2)
+Anyway, how can she be this lazy on her second day?
+<END>
+
+#WRITE(PTR, $000024E2)
+So her liking Braun tubes was a lie after all, huh.
+<END>
+
+#WRITE(PTR, $000024FC)
+【Suzuha】You look kind of sullen. Did you get a death notification?
+<END>
+
+#WRITE(PTR, $0000250C)
+【Rintaro】Haah?
+<END>
+
+#WRITE(PTR, $00002526)
+【Suzuha】...J-just an example.
+<END>
+
+#WRITE(PTR, $00002536)
+Normally, you don't use death notifications as examples, do you?
+<END>
+
+#WRITE(PTR, $00002546)
+How can she use that example with a straight face?
+<END>
+
+#WRITE(PTR, $00002556)
+Anyway, what's a death notification? Does that even exist?
+<END>
+
+#WRITE(PTR, $00002570)
+【Suzuha】Umm, I was asking if you got some unpleasant news.
+<END>
+
+#WRITE(PTR, $00002580)
+【Rintaro】...Something like that.
+<END>
+
+#WRITE(PTR, $00002590)
+This woman's speech mannerisms are unstable.
+<END>
+
+#WRITE(PTR, $000025A0)
+I guess I really shouldn't let my guard down.
+<END>
+
+#WRITE(PTR, $000025B0)
+【Rintaro】There's a woman with a reckless obsession for the retro PC called the IBN 5100.
+<END>
+
+#WRITE(PTR, $00002606)
+When I say that, Suzuha jerks upright.
+<END>
+
+#WRITE(PTR, $00002616)
+【Suzuha】IBN 5100...?
+<END>
+
+#WRITE(PTR, $00002626)
+【Rintaro】Do you know about it?
+<END>
+
+#WRITE(PTR, $0000264C)
+【Suzuha】Ahh, yeah.
+<END>
+
+#WRITE(PTR, $0000265C)
+【Rintaro】I see. So the IBN 5100's urban legend is famous, huh.
+<END>
+
+#WRITE(PTR, $0000266C)
+Maybe there's an unexpectedly large amount of female otaku with interest in that retro PC.
+<END>
+
+#WRITE(PTR, $00002686)
+【Suzuha】Y-yeah, that's it. You know about it from the urban legend. How much do you know about it?
+<END>
+
+#WRITE(PTR, $00002696)
+【Rintaro】I actually tried hunting around for the IBN 5100, but in the end, I came to the conclusion that it's not in Akiba.
+<END>
+
+#WRITE(PTR, $000026A6)
+【Suzuha】...I see. Well, that's true.
+<END>
+
+#WRITE(PTR, $000026B6)
+【Rintaro】You sound like you know something.
+<END>
+
+#WRITE(PTR, $000026D0)
+【Suzuha】Eh? Well, I kinda know it, but kinda don't, I guess.
+<END>
+
+#WRITE(PTR, $000026EA)
+【Suzuha】I don't know, but a distant acquaintance of mine does, and I asked them about it a little or something. Ahah, ahahah.
+<END>
+
+#WRITE(PTR, $000026FA)
+Another insincere smile.
+<END>
+
+#WRITE(PTR, $0000270A)
+I'm starting to think that this woman is actually pretty clumsy.
+<END>
+
+#WRITE(PTR, $0000271A)
+It seems like she's lying whenever she puts on that insincere smile.
+<END>
+
+#WRITE(PTR, $0000272A)
+【Suzuha】...
+<END>
+
+#WRITE(PTR, $0000273A)
+Sure enough, Suzuha freezes her smile without answering.
+<END>
+
+#WRITE(PTR, $0000274A)
+【Rintaro】Just what... are you--
+<END>
+
+#WRITE(PTR, $0000279A)
+【Suzuha】Haaahh
+<END>
+
+#WRITE(PTR, $000027AA)
+With a silent sigh, Suzuha falls back onto the counter.
+<END>
+
+#WRITE(PTR, $000027BA)
+She looks up at me in that posture.
+<END>
+
+#WRITE(PTR, $000027CA)
+【Suzuha】I was thinking of giving you a bunch- of interesting information on the IBN 5100-
+<END>
+
+#WRITE(PTR, $000027DA)
+【Suzuha】But when you look at me with those eyes, I don't feel like it anymore.
+<END>
+
+#WRITE(PTR, $000027EA)
+【Rintaro】I don't have any interest in the IBN 5100 in the first place.
+<END>
+
+#WRITE(PTR, $000027FA)
+I'm more concerned with SERN right now.
+<END>
+
+#WRITE(PTR, $0000280A)
+Because settling Akiba's urban legend won't do anything about the world's ruling structures.
+<END>
+
+#WRITE(PTR, $0000281A)
+【Rintaro】You don't have a shred of credibility. I wouldn't know if that interesting information is true or not.
+<END>
+
+#WRITE(PTR, $00002834)
+【Suzuha】Uwah-. You'd go so far as to say that? Well, I certainly am acting suspicious.
+<END>
+
+#WRITE(PTR, $0000284E)
+【Suzuha】Then, I won't tell you, but I'll give you a hint.
+<END>
+
+#WRITE(PTR, $00002868)
+【Suzuha】And then you'll get irritated when you think you know it but don't and writhe in agony.
+<END>
+
+#WRITE(PTR, $00002882)
+【Suzuha】Actually, the IBN 5100 has a hidden function.
+<END>
+
+#WRITE(PTR, $00002892)
+Hidden function....
+<END>
+
+#WRITE(PTR, $000028A2)
+That reminds me, the John Titor I remember from 2000 said something like that, I think.
+<END>
+
+#WRITE(PTR, $000028B2)
+I try searching through my memories.
+<END>
+
+#WRITE(PTR, $000028C2)
+【Rintaro】I'm pretty sure the IBN 5100 can do something or another with a proprietary programming language.
+<END>
+
+#WRITE(PTR, $000028DC)
+【Suzuha】No way!? How do you know!? How, how!?
+<END>
+
+#WRITE(PTR, $000028EC)
+It was just a faint memory, but it looks like I hit the mark.
+<END>
+
+#WRITE(PTR, $000028FC)
+I grin.
+<END>
+
+#WRITE(PTR, $0000290C)
+【Rintaro】Ability name, "Reflexive Response Size Hang" ...I can read your heart of hearts.
+<END>
+
+#WRITE(PTR, $00002926)
+【Suzuha】What, that's not fair-!
+<END>
+
+#WRITE(PTR, $00002936)
+Suzuha covers her face with her hands for some reason.
+<END>
+
+#WRITE(PTR, $00002946)
+She just looks this way through the gaps between her fingers.
+<END>
+
+#WRITE(PTR, $00002956)
+Even if you do that, you can't escape my ability. And then the opponent dies.
+<END>
+
+#WRITE(PTR, $00002966)
+【Rintaro】I see through everything, Amane Suzuha. Prepare yourself.
+<END>
+
+#WRITE(PTR, $00002980)
+【Suzuha】Kuuh
+<END>
+
+#WRITE(PTR, $0000299A)
+【Suzuha】Anyway, the IBN 5100 has a hidden function!
+<END>
+
+#WRITE(PTR, $000029B4)
+【Suzuha】It can also decipher IBN's proprietary programming language, written before <DICT>APL</DICT> and %B2SBASIC%B2E became widespread. Isn't that surprising?
+<END>
+
+#WRITE(PTR, $000029C4)
+I finally remember the details after Suzuha's explanation.
+<END>
+
+#WRITE(PTR, $000029D4)
+I'm fairly certain that Titor said something like that. And then right after Titor's prediction, an IBN engineer officially admitted to that function's existence.
+<END>
+
+#WRITE(PTR, $000029E4)
+【Suzuha】Now it's a dead programming language only decipherable with IBN 5100s, you know?
+<END>
+
+#WRITE(PTR, $000029F4)
+Titor's goal for time traveling to 1975 was to obtain an IBN 5100 for that function.
+<END>
+
+#WRITE(PTR, $00002A04)
+I wonder Moeka's desperate to use that function too.
+<END>
+
+#WRITE(PTR, $00002A14)
+I don't think so. That Shining Finger doesn't look like the type who would know about that sort of function.
+<END>
+
+#WRITE(PTR, $00002A24)
+【Suzuha】That's why the IBN 5100 is a super rare PC.
+<END>
+
+#WRITE(PTR, $00002A34)
+Suzuha says so while dropping her glance to the pin badge in her hand.
+<END>
+
+#WRITE(PTR, $00002A44)
+She rolls it around in her hand.
+<END>
+
+#WRITE(PTR, $00002A54)
+Looks like that's a habit of hers.
+<END>
+
+#WRITE(PTR, $00002A64)
+...The IBN 5100, huh. If I can obtain one, I might be able to sell it high.
+<END>
+
+#WRITE(PTR, $00002A74)
+Searching for it might be an option to increase our research funds.
+<END>
+
+#WRITE(PTR, $00002A84)
+But SERN is a higher priority right now.
+<FILEEND66>
+

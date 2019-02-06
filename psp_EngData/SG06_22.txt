@@ -1,0 +1,991 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002D7C)
+
+#WRITE(PTR, $00000804)
+Under the clear blue sky.
+<END>
+
+#WRITE(PTR, $00000814)
+The time machine regains function thanks to Daru's skill.
+<END>
+
+#WRITE(PTR, $00000824)
+Mayuri and I help drain the on board water.
+<END>
+
+#WRITE(PTR, $000008C4)
+Though, it's still sticking out of Radio Kaikan's wall.
+<END>
+
+#WRITE(PTR, $0000099A)
+Daru looks over that satellite-looking machine with a satisfied look.
+<END>
+
+#WRITE(PTR, $00000AA4)
+Mayuri is merrymaking. Kurisu rushed over here after completing the Time Leap Machine, with a relieved look on her face.
+<END>
+
+#WRITE(PTR, $00000B7A)
+Suzuha's forcibly attaching her beloved MTB to the satellite-like body. It seems like she really likes that MTB and intends to bring it with her to 1975.
+<END>
+
+#WRITE(PTR, $00000B8A)
+Kurisu was worried if that might cause a time paradox.
+<END>
+
+#WRITE(PTR, $00000C2C)
+My heart's not clear.
+<END>
+
+#WRITE(PTR, $00000C3C)
+Should I let Suzuha leave like this?
+<END>
+
+#WRITE(PTR, $00000C4C)
+That way of thinking is extremely conceited.
+<END>
+
+#WRITE(PTR, $00000C5C)
+Suzuha doesn't belong in this era in the first place, and if she gives the answer I don't especially want to stay in this era, then I won't have any reason to detain her.
+<END>
+
+#WRITE(PTR, $00000C6C)
+Suzuha finishes fastening her MTB and smiles calmly.
+<END>
+
+#WRITE(PTR, $00000C7C)
+It's not her serious smile from yesterday.
+<END>
+
+#WRITE(PTR, $00000C8C)
+No startup test is performed.
+<END>
+
+#WRITE(PTR, $00000C9C)
+Because activating it would be too conspicuous.
+<END>
+
+#WRITE(PTR, $00000CAC)
+So we're just going to wing it. There's no need to worry since we have the Time Leap Machine for insurance.
+<END>
+
+#WRITE(PTR, $00000CBC)
+If she has any regrets--
+<END>
+
+#WRITE(PTR, $00000CCC)
+It would be that we couldn't find her father.
+<END>
+
+#WRITE(PTR, $00000D14)
+【Suzuha】Everyone, thank you, really. I don't know how to thank you enough...
+<END>
+
+#WRITE(PTR, $00000DC0)
+【Mayuri】Don't forget about us-
+<END>
+
+#WRITE(PTR, $00000DD0)
+【Itaru】If you want to thank me, then let's make out.
+<END>
+
+#WRITE(PTR, $00000DEA)
+【Kurisu】Control yourself, pervert.
+<END>
+
+#WRITE(PTR, $00000DFA)
+Everyone encourages Suzuha in their own way and taps her on the shoulder.
+<END>
+
+#WRITE(PTR, $00000E4A)
+【Suzuha】Oh right. Take this.
+<END>
+
+#WRITE(PTR, $00000E96)
+Suzuha takes out her pin badge.
+<END>
+
+#WRITE(PTR, $00000EA6)
+Her father's memento with the strange writing OSHM***A 7010.
+<END>
+
+#WRITE(PTR, $00000EB6)
+In the end, we couldn't decipher that writing...
+<END>
+
+#WRITE(PTR, $00000EC6)
+【Suzuha】Okabe Rintaro. I'll give this to you. You can just place it somewhere in that lab.
+<END>
+
+#WRITE(PTR, $00000ED6)
+【Rintaro】You...
+<END>
+
+#WRITE(PTR, $00000EE6)
+So Suzuha has lingering attachment to this era after all...?
+<END>
+
+#WRITE(PTR, $00000EF6)
+Does she want to leave it behind?
+<END>
+
+#WRITE(PTR, $00000F06)
+Does she want to leave behind the proof that the girl named Amane Suzuha lived in this era?
+<END>
+
+#WRITE(PTR, $00000F16)
+【Itaru】About the pin badge...
+<END>
+
+#WRITE(PTR, $00000F98)
+Daru timidly opens his mouth.
+<END>
+
+#WRITE(PTR, $00000FA8)
+【Itaru】What do you say we make duplicates for all the lab mems? As the lab mem' testiment.
+<END>
+
+#WRITE(PTR, $00000FC2)
+【Mayuri】Wah-. That might be really good-
+<END>
+
+#WRITE(PTR, $00001040)
+【Kurisu】That's oddly thoughtful of you.
+<END>
+
+#WRITE(PTR, $00001050)
+【Suzuha】Ahaha, somehow, if you use it like that, it kind of embarrasses me.
+<END>
+
+#WRITE(PTR, $00001060)
+【Itaru】Anyway, we already took a picture of it, so keep that badge, Amane-shi. It's your old man's precious memento, right?
+<END>
+
+#WRITE(PTR, $0000107A)
+【Suzuha】Yeah... I'll do that.
+<END>
+
+#WRITE(PTR, $0000108A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000010A6)
+I don't say anything.
+<END>
+
+#WRITE(PTR, $000010B6)
+I had detained Suzuha.
+<END>
+
+#WRITE(PTR, $000010C6)
+But because of that, I couldn't save Mayuri.
+<END>
+
+#WRITE(PTR, $000010D6)
+I--
+<END>
+
+#WRITE(PTR, $00001124)
+【Mayuri】Hey, he-y! Dahdahdahda-h. Mayushii's has an important announcement to make-
+<END>
+
+#WRITE(PTR, $00001134)
+Mayuri raises her hand, raising her voice in even higher spirits than before.
+<END>
+
+#WRITE(PTR, $00001144)
+I thought she was just being overly optimistic since she doesn't know about the time machine's one way limitation, but I'm interested in that important announcement.
+<END>
+
+#WRITE(PTR, $00001154)
+Just what is it?
+<END>
+
+#WRITE(PTR, $00001164)
+Don't tell me, did Mayuri find out... her fate to die in a few hours?
+<END>
+
+#WRITE(PTR, $00001174)
+I quickly glance at Kurisu, but she just seems as confused as I am.
+<END>
+
+#WRITE(PTR, $00001184)
+So, that important announcement...?
+<END>
+
+#WRITE(PTR, $00001194)
+【Mayuri】Actually, Mayushii found Suzu-san's father!
+<END>
+
+#WRITE(PTR, $00001240)
+【Rintaro】Huh?
+<END>
+
+#WRITE(PTR, $00001250)
+【Suzuha】Eh!?
+<END>
+
+#WRITE(PTR, $00001260)
+【Itaru】Seriously!?
+<END>
+
+#WRITE(PTR, $000012B0)
+Mayuri sticks out her chest in confidence.
+<END>
+
+#WRITE(PTR, $000012C0)
+【Mayuri】Wanna meet him-? You wanna meet him, dontcha-? So with that said, her father's here with us today-
+<END>
+
+#WRITE(PTR, $000012D0)
+【Suzuha】W-where?
+<END>
+
+#WRITE(PTR, $000012E0)
+Everyone besides Mayuri is stupidly looking about.
+<END>
+
+#WRITE(PTR, $000012F0)
+The dreary Radio Kaikan event space. Nobody's here besides us.
+<END>
+
+#WRITE(PTR, $00001300)
+Wait, is he hiding at the entrance?
+<END>
+
+#WRITE(PTR, $0000131A)
+【Mayuri】So now-, allow me to announce. Suzu-san's father--
+<END>
+
+#WRITE(PTR, $0000132A)
+【Mayuri】Drrrrrrrrrrrr
+<END>
+
+#WRITE(PTR, $0000133A)
+【Itaru】Whoa, self drum roll!?
+<END>
+
+#WRITE(PTR, $00001354)
+【Mayuri】Tadidah! Suzu-san's father--
+<END>
+
+#WRITE(PTR, $00001364)
+Ending her oral drum froll, Mayuri grins at Suzuha and--
+<END>
+
+#WRITE(PTR, $0000137E)
+【Mayuri】Is Daru-kun!
+<END>
+
+#WRITE(PTR, $0000138E)
+She points at Daru with a snap.
+<END>
+
+#WRITE(PTR, $000013B6)
+Everybody's mouthes drop.
+<END>
+
+#WRITE(PTR, $000013C6)
+After awkward silence comes awkward laughter.
+<END>
+
+#WRITE(PTR, $0000140E)
+【Kurisu】That logic is unacceptable as a joke. It's impossible for this pervert to get married in the first place.
+<END>
+
+#WRITE(PTR, $00001456)
+【Itaru】Hey, that's kind of hurtful, you know...?
+<END>
+
+#WRITE(PTR, $00001466)
+【Rintaro】No, I completely agree with Christina. It's been decided that when Daru reaches age 30, he will class change into a wizard.
+<END>
+
+#WRITE(PTR, $00001476)
+【Itaru】Be nicer, yous guys. But it's the truth, so I can't object...
+<END>
+
+#WRITE(PTR, $00001516)
+Heartbroken, Daru finally collapses on all fours.
+<END>
+
+#WRITE(PTR, $00001526)
+Suzuha herself gives a troubled reaction.
+<END>
+
+#WRITE(PTR, $000015A4)
+【Suzuha】Hmm, my Father wasn't this fat in the first place, you know?
+<END>
+
+#WRITE(PTR, $000015BE)
+【Mayuri】Geez. You're all so mean to Daru-kun.
+<END>
+
+#WRITE(PTR, $000016A0)
+【Itaru】Uha, Mayu-shi's the only one to stand up for me. You're an angel. So will you fall in love with me?
+<END>
+
+#WRITE(PTR, $000016BA)
+【Mayuri】Nope.
+<END>
+
+#WRITE(PTR, $0000176A)
+Daru, rejected with one word.
+<END>
+
+#WRITE(PTR, $0000177A)
+【Mayuri】You know, by Mayushii's reasoning, Daru-kun abso-lutely must be Suzu-san's father-
+<END>
+
+#WRITE(PTR, $000017C2)
+【Kurisu】So tell us. How can you prove it?
+<END>
+
+#WRITE(PTR, $000017E4)
+【Mayuri】You know, I've always been thinking about the writing on the pin badge-
+<END>
+
+#WRITE(PTR, $000017FE)
+【Mayuri】And so, after staring at it, I noticed the 7 in the "7010" is a little bit weird.
+<END>
+
+#WRITE(PTR, $0000180E)
+【Mayuri】This isn't a 7, it's a 2. It's just missing the bottom line.
+<END>
+
+#WRITE(PTR, $0000185E)
+【Suzuha】Eh, really?
+<END>
+
+#WRITE(PTR, $000018AA)
+Suzuha stares at the pin badge's writing again.
+<END>
+
+#WRITE(PTR, $000018BA)
+【Suzuha】It's so small, I can't tell...
+<END>
+
+#WRITE(PTR, $000018CA)
+【Mayuri】If you magnify the picture, you'll notice-
+<END>
+
+#WRITE(PTR, $000018DA)
+【Kurisu】2010? As in, AD? That's this year, isn't it!?
+<END>
+
+#WRITE(PTR, $000018EA)
+【Rintaro】Then, what do the first letters mean?
+<END>
+
+#WRITE(PTR, $000018FA)
+OSHM***A 7010
+<END>
+
+#WRITE(PTR, $0000190A)
+That's what's written on the pin badge.
+<END>
+
+#WRITE(PTR, $0000191A)
+【Mayuri】It's simple-
+<END>
+
+#WRITE(PTR, $0000192A)
+【Mayuri】Okabe, Shiina, Hashida, Makise. Lastly, Amane.
+<END>
+
+#WRITE(PTR, $0000193A)
+【Itaru】Wait...
+<END>
+
+#WRITE(PTR, $0000194A)
+That was an unexpected blind spot since it was so simple.
+<END>
+
+#WRITE(PTR, $0000195A)
+【Itaru】It's the lab mem's initials!
+<END>
+
+#WRITE(PTR, $0000196A)
+【Mayuri】So I was thinking about why 2010, when I remembered it's the year of the lab mems.
+<END>
+
+#WRITE(PTR, $0000197A)
+I don't really get what the year of the lab mems is, though.
+<END>
+
+#WRITE(PTR, $0000198A)
+【Mayuri】The Future Gadget Laboratory was founded this year.
+<END>
+
+#WRITE(PTR, $0000199A)
+【Suzuha】So that's what it is...
+<END>
+
+#WRITE(PTR, $00001A24)
+【Mayuri】And you know? Whenever Suzu-san would talk about the future, stories of Okarin and Chris-chan would pop out, but there wasn't a single story about Daru-kun, right?
+<END>
+
+#WRITE(PTR, $00001A34)
+【Itaru】There weren't any about Mayu-shi either.
+<END>
+
+#WRITE(PTR, $00001A44)
+Daru's obvious question startles me.
+<END>
+
+#WRITE(PTR, $00001A5E)
+【Mayuri】That's because Mayushii's a lab mem, but she didn't make a time machine, and she doesn't like fighting.
+<END>
+
+#WRITE(PTR, $00001A6E)
+...That's not it. The reason there aren't any stories of Mayuri is because she dies in a few hours. Knowing that fact, Kurisu and I, as well as Suzuha, say nothing.
+<END>
+
+#WRITE(PTR, $00001A7E)
+【Mayuri】But you know, Daru-kun is a supah hakah, and Okarin's right hand man, and together they made Microwave Ophone-chan, so I thought it was strange he never came up.
+<END>
+
+#WRITE(PTR, $00001ACE)
+【Kurisu】His name never came up, meaning he falsified his name, huh.
+<END>
+
+#WRITE(PTR, $00001AE8)
+【Mayuri】The people who founded Suzu-san's Resistance included Okarin and Mr. Barrel Titor, right?
+<END>
+
+#WRITE(PTR, $00001B02)
+【Mayuri】And he was someone in Akiba in 2010.
+<END>
+
+#WRITE(PTR, $00001B12)
+【Mayuri】And he independently studied time machines.
+<END>
+
+#WRITE(PTR, $00001B22)
+【Mayuri】And Okabe's "Reading Spaghetti"--
+<END>
+
+#WRITE(PTR, $00001B32)
+【Rintaro】"Reading Steiner".
+<END>
+
+#WRITE(PTR, $00001B42)
+【Mayuri】And he knows about that thing.
+<END>
+
+#WRITE(PTR, $00001B5C)
+【Mayuri】So, doesn't that fit Daru-kun perfectly?
+<END>
+
+#WRITE(PTR, $00001B6C)
+【Kurisu】Certainly
+<END>
+
+#WRITE(PTR, $00001B86)
+【Mayuri】Also, do you remember about the day Suzu-san tried to meet her father?
+<END>
+
+#WRITE(PTR, $00001B96)
+【Mayuri】She thought if she went to the time machine offline meet, she could meet her him, right-?
+<END>
+
+#WRITE(PTR, $00001BA6)
+We understood that since we tailed her.
+<END>
+
+#WRITE(PTR, $00001BB6)
+【Mayuri】By the way, Daru-kun tried to go there too, right-?
+<END>
+
+#WRITE(PTR, $00001C06)
+【Itaru】That was a seriously important offline meet for Japanese SF history... Well, it was lucky that we also got to tail Amane-shi though...
+<END>
+
+#WRITE(PTR, $00001C22)
+I don't remember that time.
+<END>
+
+#WRITE(PTR, $00001C32)
+Because the world line changed via D-mail.
+<END>
+
+#WRITE(PTR, $00001C42)
+This is the curse of "Reading Steiner" so to say.
+<END>
+
+#WRITE(PTR, $00001C52)
+My memories before the change continue afterwards, so conversely, I have no memories of past events after the world line changes.
+<END>
+
+#WRITE(PTR, $00001CF6)
+【Suzuha】I heard about that offline meet from Father. I only faintly remember it from childhood, but anyway, I thought I could meet him if I went there.
+<END>
+
+#WRITE(PTR, $00001D06)
+【Itaru】So, since we met at that meet, does that settle it?
+<END>
+
+#WRITE(PTR, $00001D20)
+【Suzuha】Hmmm, I wonder. At that point, maybe I couldn't recognize Hashida Itaru as Father.
+<END>
+
+#WRITE(PTR, $00001D30)
+But that increases the circumstantial evidence that Daru is her father.
+<END>
+
+#WRITE(PTR, $00001D4A)
+【Mayuri】Also, the time machine's name. She said it was something like FG204 Something Something, umm, what was it?
+<END>
+
+#WRITE(PTR, $00001D64)
+【Suzuha】FG204 2nd EDITION ver. 2.31
+<END>
+
+#WRITE(PTR, $00001D74)
+【Rintaro】Ugh, th-that naming sense, it's Daru's no doubt!
+<END>
+
+#WRITE(PTR, $00001D8E)
+【Mayuri】And I think that FG definitely stands for Future Gadget-
+<END>
+
+#WRITE(PTR, $00001D9E)
+So in other words, this time machine, is Future Gadget No. 204...!?
+<END>
+
+#WRITE(PTR, $00001DAE)
+【Mayuri】Lastly, the name. I think Mr. Barrel Titor can be nobody else but Daru-kun-
+<END>
+
+#WRITE(PTR, $00001DFE)
+【Kurisu】That reminds me, last night, Mayuri asked me "What's barrel in Japanese?".
+<END>
+
+#WRITE(PTR, $00001E46)
+【Mayuri】Barrel means "taru" doesn't it? Chris-chan?
+<END>
+
+#WRITE(PTR, $00001E56)
+Kurisu nods.
+<END>
+
+#WRITE(PTR, $00001E66)
+【Rintaro】...taru... Daru!?
+<END>
+
+#WRITE(PTR, $00001EB6)
+【Suzuha】A-a pun!?
+<END>
+
+#WRITE(PTR, $00001ED0)
+【Mayuri】So, so, Suzu-san. Say "Hashida Itaru" ten times fast-
+<END>
+
+#WRITE(PTR, $00001EE0)
+【Suzuha】Wh-why?
+<END>
+
+#WRITE(PTR, $00001EF0)
+【Mayuri】You'll know if you say it-. Ehhehe-
+<END>
+
+#WRITE(PTR, $00001F0A)
+【Suzuha】HashidaItaruHashidaItaruHashidaItaruHashidaItaruHashidaItaruHashidaItaruHashidaItaruHashidaItaruHashidaItaruHashidaItaru
+<END>
+
+#WRITE(PTR, $00001F24)
+【Mayuri】Just now, didn't you hear "Ditor"?
+<END>
+
+#WRITE(PTR, $00001F74)
+【Kurisu】I did.
+<END>
+
+#WRITE(PTR, $00001F84)
+【Mayuri】Hashidaitaru. Hashi-daita-ru. Hashi-Ditor-ru. Hashi-Titor-ru.
+<END>
+
+#WRITE(PTR, $00001FDA)
+【Itaru】Really...?
+<END>
+
+#WRITE(PTR, $00001FF4)
+【Mayuri】Yeah, really♪
+<END>
+
+#WRITE(PTR, $00002004)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002020)
+I-I can't believe it...
+<END>
+
+#WRITE(PTR, $00002030)
+With all this circumstantial evidence, I really can't just deny it.
+<END>
+
+#WRITE(PTR, $00002040)
+Everyone's jaw drops for a different reason this time, comparing Daru and Suzuha's looks.
+<END>
+
+#WRITE(PTR, $000020B6)
+【Mayuri】I think they really look like father and daughter-♪
+<END>
+
+#WRITE(PTR, $000020CE)
+【Kurisu】That might be the <DICT>Placebo Effect</DICT>. When you mention it, they do kinda look alike.
+<END>
+
+#WRITE(PTR, $000020DE)
+【Rintaro】Quite the achievement. Great Detective Shiina Mayuri.
+<END>
+
+#WRITE(PTR, $000020F8)
+【Mayuri】Eh? Detective? Ehhehe-, that's the first time anyone's said that-
+<END>
+
+#WRITE(PTR, $00002108)
+This girl seems like she's airheaded, but maybe she's unexpectedly perceptive.
+<END>
+
+#WRITE(PTR, $00002186)
+【Itaru】Ah, augh... D-daughter...? Amane-shi is my daughter...?
+<END>
+
+#WRITE(PTR, $00002196)
+Daru squints his eyes and points at Suzuha while flapping his lips like a goldfish out of the tank.
+<END>
+
+#WRITE(PTR, $000021BC)
+【Suzuha】...Father.
+<END>
+
+#WRITE(PTR, $000021CC)
+【Itaru】A, aa, at times like these, call me "Papa".
+<END>
+
+#WRITE(PTR, $000021DC)
+【Kurisu】At times like these, stop being a perv...
+<END>
+
+#WRITE(PTR, $000021EC)
+【Suzuha】Father...
+<END>
+
+#WRITE(PTR, $00002244)
+Suzuha tries to hold back her tears, but couldn't.
+<END>
+
+#WRITE(PTR, $00002254)
+The tears fell from her eyes.
+<END>
+
+#WRITE(PTR, $0000226E)
+【Itaru】......
+<END>
+
+#WRITE(PTR, $0000227E)
+Daru also looks at that crying face and becomes seriously quiet.
+<END>
+
+#WRITE(PTR, $0000228E)
+【Suzuha】I came... So I could meet you, Father... I came riding on the time machine you made...
+<END>
+
+#WRITE(PTR, $0000229E)
+【Itaru】...yeah.
+<END>
+
+#WRITE(PTR, $000022AE)
+【Suzuha】I'll be sure to accomplish what you tried to do, father...
+<END>
+
+#WRITE(PTR, $000022BE)
+【Itaru】...yeah.
+<END>
+
+#WRITE(PTR, $000022CE)
+【Suzuha】So I want you to watch.
+<END>
+
+#WRITE(PTR, $000022E8)
+【Itaru】I'll watch. I absolutely will.
+<END>
+
+#WRITE(PTR, $000022F8)
+Suzuha walks up to Daru and quietly hugs him.
+<END>
+
+#WRITE(PTR, $00002308)
+Daru awkwardly, but firmly, catches her in his arms.
+<END>
+
+#WRITE(PTR, $00002318)
+A strange father and daughter reunion, across time.
+<END>
+
+#WRITE(PTR, $00002328)
+I thought it was good, from the bottom of my heart.
+<END>
+
+#WRITE(PTR, $0000234A)
+【Itaru】B-by the way, was your mother cute? If she's short with a loli face but huge boobs, then <DICT>que bom</DICT>--
+<END>
+
+#WRITE(PTR, $00002364)
+【Suzuha】Ahaha. That's a secret.
+<END>
+
+#WRITE(PTR, $000023B4)
+Suzuha separates from Daru and smiles again.
+<END>
+
+#WRITE(PTR, $000023C4)
+【Suzuha】Well then. With this, all my regrets for this world line are completely cut away.
+<END>
+
+#WRITE(PTR, $000023DE)
+【Suzuha】...I should get going.
+<END>
+
+#WRITE(PTR, $000023EE)
+【Rintaro】Wh-wait...! You're going already? Don't you have a lot to talk to your father about?
+<END>
+
+#WRITE(PTR, $000023FE)
+--What the hell am I doing?
+<END>
+
+#WRITE(PTR, $0000240E)
+I silently click my tongue at myself while detaining Suzuha.
+<END>
+
+#WRITE(PTR, $0000241E)
+Even if I detain her here, Suzuha won't stay, will she?
+<END>
+
+#WRITE(PTR, $0000242E)
+It'll be troublesome if she does, since Mayuri's life depends on her leaving.
+<END>
+
+#WRITE(PTR, $0000243E)
+So why am I trying to detain Suzuha...
+<END>
+
+#WRITE(PTR, $0000244E)
+【Suzuha】I'm okay. I'll be sure to get an IBN 5100.
+<END>
+
+#WRITE(PTR, $00002468)
+While saying that, she shows us a dignified face.
+<END>
+
+#WRITE(PTR, $00002478)
+【Suzuha】Changing the future is up to you guys. I'll be sure to deliver the package here to Akihabara. Then I'll leave the rest to you all.
+<END>
+
+#WRITE(PTR, $00002488)
+【Suzuha】...Please. I want to change the future.
+<END>
+
+#WRITE(PTR, $00002498)
+...Nobody answers that.
+<END>
+
+#WRITE(PTR, $000024A8)
+Nobody says anything, or even nods.
+<END>
+
+#WRITE(PTR, $000024B8)
+But Suzuha definitely got the message.
+<END>
+
+#WRITE(PTR, $000024C8)
+Everything Suzuha entrusted to us. Her will. Her mission. As if swearing to protect them to the end, we tighten our expressions.
+<END>
+
+#WRITE(PTR, $000024D8)
+The future Suzuha warned us of.
+<END>
+
+#WRITE(PTR, $000024E8)
+That isn't the future we wish for.
+<END>
+
+#WRITE(PTR, $000024F8)
+That's probably the very reason Daru and I form the Resistance.
+<END>
+
+#WRITE(PTR, $00002508)
+That's why this time.
+<END>
+
+#WRITE(PTR, $00002518)
+So Mayuri won't die. So Kurisu won't be used by SERN.
+<END>
+
+#WRITE(PTR, $00002528)
+So Daru can be with Suzuha as a normal father, we must change the future.
+<END>
+
+#WRITE(PTR, $00002542)
+【Suzuha】Well then, let's meet in 35 years. Ah, for you guys, maybe a few hours, huh. Ahaha.
+<END>
+
+#WRITE(PTR, $00002552)
+【Suzuha】Ah, oh yeah. When the time machine jumps through time, it lets off terrific ultraviolet rays, so you better not look directly at it.
+<END>
+
+#WRITE(PTR, $0000256E)
+With that final warning, Suzuha boards the time machine, quickly closing the hatch after waving her hand. Her figure disappears.
+<END>
+
+#WRITE(PTR, $0000257E)
+The machine soon activates.
+<END>
+
+#WRITE(PTR, $0000258E)
+The revolving lights attached underneath the fuselage light up.
+<END>
+
+#WRITE(PTR, $00002602)
+A shrill alarm starts ringing.
+<END>
+
+#WRITE(PTR, $00002612)
+Nothing comes out except sound.
+<END>
+
+#WRITE(PTR, $00002622)
+It's quieter than you'd think.
+<END>
+
+#WRITE(PTR, $00002632)
+The people walking underneath the building start cheering and screaming at the abnormality of the satellite. Everyone looks up and points.
+<END>
+
+#WRITE(PTR, $000026D4)
+I notice I got a mail from Suzuha and hurriedly open my phone.
+<END>
+
+#WRITE(PTR, $00002838)
+That "goodbye"--
+<END>
+
+#WRITE(PTR, $00002848)
+The same single word parting message as before.
+<END>
+
+#WRITE(PTR, $00002858)
+Yet that word holds a completely different meaning than the one before. Almost like it's a different word.
+<END>
+
+#WRITE(PTR, $00002918)
+Right after that, the air surrounding the time machine seems to mush and warp.
+<END>
+
+#WRITE(PTR, $00002928)
+A cocoon of light appears, enveloping the fuselage.
+<END>
+
+#WRITE(PTR, $00002938)
+I squint my eyes at the brilliance--
+<END>
+
+#WRITE(PTR, $00002948)
+【Rintaro】Suzuha...
+<END>
+
+#WRITE(PTR, $00002958)
+We can no longer meet her.
+<END>
+
+#WRITE(PTR, $00002968)
+No, maybe we can.
+<END>
+
+#WRITE(PTR, $00002978)
+We're no doubt going to meet each other again.
+<END>
+
+#WRITE(PTR, $00002988)
+But between us is an immense wall of time.
+<END>
+
+#WRITE(PTR, $00002998)
+No matter how much we pray.
+<END>
+
+#WRITE(PTR, $000029A8)
+No matter how much we wish.
+<END>
+
+#WRITE(PTR, $000029B8)
+No matter how much we shout.
+<END>
+
+#WRITE(PTR, $000029C8)
+When we meet again, she won't be the girl I knew.
+<END>
+
+#WRITE(PTR, $000029D8)
+Unexpectedly, Daru takes one step into the light.
+<END>
+
+#WRITE(PTR, $000029E8)
+【Itaru】...Su, Susu, Suzuha!
+<END>
+
+#WRITE(PTR, $000029F8)
+【Itaru】Be sure to meet us again!
+<END>
+
+#WRITE(PTR, $00002A08)
+【Itaru】I'll do my best until then! I, I hate my meager vocabulary for not knowing any other way to say it, though!
+<END>
+
+#WRITE(PTR, $00002A18)
+【Itaru】Anyway, I'll do my best... So Suzuha, do your best too!
+<END>
+
+#WRITE(PTR, $00002A28)
+Those words probably won't reach her.
+<END>
+
+#WRITE(PTR, $00002A38)
+Within that brightness, all I can do is block the light with my hands.
+<END>
+
+#WRITE(PTR, $00002A48)
+While shining particles fall, the cocoon slowly, slowly comes undone--
+<END>
+
+#WRITE(PTR, $00002B6E)
+And then before I notice it, the fuselage as large as a dump truck disappears without a trace, leaving just a hole in Radio Kaikan's wall.
+<END>
+
+#WRITE(PTR, $00002B7E)
+Peeking through it, I can see Akihabara Station below.
+<END>
+
+#WRITE(PTR, $00002B8E)
+I can smell ozone due to the discharge of static electricity.
+<END>
+
+#WRITE(PTR, $00002B9E)
+The atmosphere undulates in waves as if increasing in density.
+<END>
+
+#WRITE(PTR, $00002BAE)
+For a short while, we silently stand in the summer breeze.
+<END>
+
+#WRITE(PTR, $00002BBE)
+As if the wind were fate itself.
+<FILEEND0D>
+

@@ -1,0 +1,35 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000006BE)
+
+#WRITE(PTR, $00000202)
+Afterwards, the D-mail experiment-- its codename is Operation <DICT>"Urd"</DICT>, but I lost the opportunity to announce it-- continues for two hours.
+<END>
+
+#WRITE(PTR, $00000212)
+During that time, every D-mail went back in time without a single failure.
+<END>
+
+#WRITE(PTR, $00000222)
+We're all hungry, and except for Mayuri, everyone stayed up all night, so we take a break.
+<END>
+
+#WRITE(PTR, $000002B8)
+【Kurisu】Please, rest. I'm gonna have a go at it a little longer.
+<END>
+
+#WRITE(PTR, $000002F2)
+She was used to be so against time machines, but now Kurisu's eyes are red and she's still enthusiastic.
+<END>
+
+#WRITE(PTR, $00000302)
+Maybe she lost herself to her researcher urges.
+<END>
+
+#WRITE(PTR, $00000312)
+We found out various things, but we postpone the discussions for now, and have a meal. Daru and I leave the two girls to watch over the lab as we go for groceries.
+<FILEEND61>
+

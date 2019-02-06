@@ -1,0 +1,555 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001ED4)
+
+#WRITE(PTR, $00000252)
+Leaping really is instantaneous.
+<END>
+
+#WRITE(PTR, $00000262)
+Titor said something like a 10 year jump takes an hour.
+<END>
+
+#WRITE(PTR, $00000272)
+A 10 year jump--
+<END>
+
+#WRITE(PTR, $0000028E)
+Right now, I have no use for that.
+<END>
+
+#WRITE(PTR, $0000029E)
+Furthermore, Kurisu said that time leaping that long an interval could cause mental disorders due to the gap in personality and memory.
+<END>
+
+#WRITE(PTR, $000002E6)
+【Mayuri】Juicy Karaage Number One♪
+<END>
+
+#WRITE(PTR, $000002F6)
+Mayuri's singing her own song, not eating Juicy Karaage Number One, but some Karaage-kun she bought at the convenience store.
+<END>
+
+#WRITE(PTR, $00000306)
+Since she can't warm it up in the microwave, which is now a dedicated part of the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00000316)
+...I was right to come back five hours.
+<END>
+
+#WRITE(PTR, $00000326)
+Mayuri's still in the lab.
+<END>
+
+#WRITE(PTR, $00000336)
+But just what exactly was that earlier?
+<END>
+
+#WRITE(PTR, $00000346)
+I bite my lip at the bitter thoughts.
+<END>
+
+#WRITE(PTR, $00000432)
+Mayuri died again.
+<END>
+
+#WRITE(PTR, $00000442)
+At Shin-Ochanomizu Station, a place completely unrelated to the lab or to the explosion.
+<END>
+
+#WRITE(PTR, $00000452)
+Tennouji Nae pushed her.
+<END>
+
+#WRITE(PTR, $00000462)
+She was run over by the train and torn to shreds.
+<END>
+
+#WRITE(PTR, $00000508)
+Don't tell me that kid is a SERN conspirator?
+<END>
+
+#WRITE(PTR, $00000518)
+No, those were a the actions of a normal little girl.
+<END>
+
+#WRITE(PTR, $00000528)
+Nae has a habit of happily jumping to Mayuri whenever she sees her.
+<END>
+
+#WRITE(PTR, $00000598)
+But just what was with that timing?
+<END>
+
+#WRITE(PTR, $000005A8)
+I don't know--
+<END>
+
+#WRITE(PTR, $000005B8)
+I sense malice.
+<END>
+
+#WRITE(PTR, $000005C8)
+Whose malice?
+<END>
+
+#WRITE(PTR, $000005D8)
+If I have to say... then maybe it's a prank of fate.
+<END>
+
+#WRITE(PTR, $000005E8)
+But still, I've returned again, so I need to start acting immediately.
+<END>
+
+#WRITE(PTR, $000005F8)
+I'll definitely save Mayuri. Since I can time leap, that's I can and must save her.
+<END>
+
+#WRITE(PTR, $0000072C)
+This time we take a taxi from Chuo Dori.
+<END>
+
+#WRITE(PTR, $0000073C)
+This isn't the time to be thrifty.
+<END>
+
+#WRITE(PTR, $0000074C)
+Mayuri doesn't complain this time either.
+<END>
+
+#WRITE(PTR, $0000075C)
+I considered going back to her family in Ikebukuro, but Moeka's group might be lurking around their house. What are they doing now? I don't have a grasp on that pattern.
+<END>
+
+#WRITE(PTR, $0000076C)
+So I decided to go to Shinagawa.
+<END>
+
+#WRITE(PTR, $0000077C)
+But--
+<END>
+
+#WRITE(PTR, $000007CE)
+The roads are abnormally crowded.
+<END>
+
+#WRITE(PTR, $000007DE)
+The driver said it's never been this crowded before.
+<END>
+
+#WRITE(PTR, $000007EE)
+I thought that the road might even be closed.
+<END>
+
+#WRITE(PTR, $000007FE)
+We escaped from Akiba, but we can't reach Shinagawa.
+<END>
+
+#WRITE(PTR, $0000080E)
+I thought of going getting off halfway and taking a train, but I decide not to once I remember what happened at Shin-Ochanomizu Station.
+<END>
+
+#WRITE(PTR, $0000081E)
+Nothing but bad feelings about this.
+<END>
+
+#WRITE(PTR, $0000082E)
+Thinking that this congestion could've been caused by Moeka's group, I keep looking around the car's circumference. So much that Mayuri warned me that my eyes look scary-.
+<END>
+
+#WRITE(PTR, $00000888)
+Three hours pass.
+<END>
+
+#WRITE(PTR, $00000898)
+The cars still don't move.
+<END>
+
+#WRITE(PTR, $000008A8)
+According to the conversation between our driver and another driver I overheard, it seems like there's a large scale inspection ahead.
+<END>
+
+#WRITE(PTR, $000008B8)
+Furthermore, it doesn't seem like it's led by police, and some fight going on there, and such.
+<END>
+
+#WRITE(PTR, $000008C8)
+Even more unluckily, this road has already been closed off, and all remaining cars are being detoured.
+<END>
+
+#WRITE(PTR, $000008D8)
+Incidentally, including our taxi, there's only 100 cars, but the inspection has been at a standstill for three hours--
+<END>
+
+#WRITE(PTR, $000008E8)
+Stuff like that.
+<END>
+
+#WRITE(PTR, $000008F8)
+I can't believe this. I don't think it's a coincidence.
+<END>
+
+#WRITE(PTR, $00000908)
+Once again, I feel the malice of a prank of fate.
+<END>
+
+#WRITE(PTR, $00000918)
+Can I not save Mayuri this time either?
+<END>
+
+#WRITE(PTR, $00000928)
+At this rate, we should've gotten off the taxi instead of waiting for it to move.
+<END>
+
+#WRITE(PTR, $00000938)
+No, it's still not too late.
+<END>
+
+#WRITE(PTR, $00000948)
+I should pay the driver and get off at once--
+<END>
+
+#WRITE(PTR, $000009C4)
+Just as that thought passes my mind, a silhouette bangs on the window from outside.
+<END>
+
+#WRITE(PTR, $000009D4)
+Even though it's congested and the taxi is stopped in the middle of the road.
+<END>
+
+#WRITE(PTR, $000009E4)
+No, he's not just banging it, he opens the door and barges into the back seat with Mayuri and me.
+<END>
+
+#WRITE(PTR, $00000A00)
+【Mayuri】Eh...
+<END>
+
+#WRITE(PTR, $00000A10)
+In the man's hand, a blade.
+<END>
+
+#WRITE(PTR, $00000A20)
+He's an assassin!
+<END>
+
+#WRITE(PTR, $00000A30)
+【Rintaro】Run, Mayuri--
+<END>
+
+#WRITE(PTR, $00000A40)
+Before I can finish, the man gags Mayuri's mouth with his large hand.
+<END>
+
+#WRITE(PTR, $00000A50)
+Trying to escape somehow, I try opening the door.
+<END>
+
+#WRITE(PTR, $00000A60)
+But it won't open. The taxi is locked so that it can't be opened from the rear seat.
+<END>
+
+#WRITE(PTR, $00000B52)
+【Mayuri】...ugh
+<END>
+
+#WRITE(PTR, $00000B62)
+Mayuri opens her eyes wide.
+<END>
+
+#WRITE(PTR, $00000B72)
+Her body twitches.
+<END>
+
+#WRITE(PTR, $00000B82)
+【Rintaro】What--
+<END>
+
+#WRITE(PTR, $00000B92)
+In the narrow car. An unthinkable scene.
+<END>
+
+#WRITE(PTR, $00000BA8)
+I hurriedly avert my gaze.
+<END>
+
+#WRITE(PTR, $00000BB8)
+The man's knife pierced deep into Mayuri's chest.
+<END>
+
+#WRITE(PTR, $00000BC8)
+A red spot stains her clothes.
+<END>
+
+#WRITE(PTR, $00000C70)
+【Rintaro】Ah, ah...
+<END>
+
+#WRITE(PTR, $00000C80)
+【Rounder D】Don't speak, Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $00000C9C)
+Another man gets into the passenger seat.
+<END>
+
+#WRITE(PTR, $00000CAC)
+He points a gun at the driver and says something in a small voice.
+<END>
+
+#WRITE(PTR, $00000CBC)
+Strength drains from Mayuri's body.
+<END>
+
+#WRITE(PTR, $00000CCC)
+Her eyes slowly close.
+<END>
+
+#WRITE(PTR, $00000CDC)
+Lines of tears stream from the corners of her eyes.
+<END>
+
+#WRITE(PTR, $00000CEC)
+All of that, before my eyes.
+<END>
+
+#WRITE(PTR, $00000CFC)
+At a distance where I can feel her last breath.
+<END>
+
+#WRITE(PTR, $00000D0C)
+She was killed again--
+<END>
+
+#WRITE(PTR, $00000D1C)
+Why.
+<END>
+
+#WRITE(PTR, $00000D2C)
+Why!?
+<END>
+
+#WRITE(PTR, $00000D3C)
+Why can't I save her!?
+<END>
+
+#WRITE(PTR, $00000D4C)
+Why won't you let me save her!?
+<END>
+
+#WRITE(PTR, $00000D5C)
+Who's the one who wants to kill Mayuri?
+<END>
+
+#WRITE(PTR, $00000D6C)
+Moeka? SERN?
+<END>
+
+#WRITE(PTR, $00000D7C)
+Or--
+<END>
+
+#WRITE(PTR, $00000D8C)
+Does the world itself wish for Mayuri's death?
+<END>
+
+#WRITE(PTR, $00000D9C)
+I won't accept that...!
+<END>
+
+#WRITE(PTR, $00000DAC)
+I clench my teeth hard.
+<END>
+
+#WRITE(PTR, $00000DBC)
+I headbutt the man who stabbed her to death in the nose.
+<END>
+
+#WRITE(PTR, $00000DCC)
+【Rounder D】Guh...!
+<END>
+
+#WRITE(PTR, $00000DDC)
+【Rintaro】Open the door!
+<END>
+
+#WRITE(PTR, $00000DEC)
+I shout to the driver.
+<END>
+
+#WRITE(PTR, $00000F24)
+I crawl out of the taxi and escape, weaving through the cars.
+<END>
+
+#WRITE(PTR, $00000F34)
+After running back to the lab for several hours, luckily the Time Leap Machine is still there.
+<END>
+
+#WRITE(PTR, $00000F44)
+I'll leap through time again--
+<END>
+
+#WRITE(PTR, $0000110C)
+TL06.PMF
+<END2>
+
+#WRITE(PTR, $00001472)
+--Maybe it's impossible to run away with Mayuri.
+<END>
+
+#WRITE(PTR, $00001482)
+After going back six hours, I grab my head and bite my lip.
+<END>
+
+#WRITE(PTR, $00001492)
+I feel like I've hit a dead end.
+<END>
+
+#WRITE(PTR, $000014A2)
+I can't save Mayuri.
+<END>
+
+#WRITE(PTR, $000014B2)
+How should I save her?
+<END>
+
+#WRITE(PTR, $000014C2)
+--Running away might be impossible.
+<END>
+
+#WRITE(PTR, $000014D2)
+【Rintaro】Like hell it's impossible! I'll definitely save her!
+<END>
+
+#WRITE(PTR, $0000151A)
+【Mayuri】Whatcha talking about-?
+<END>
+
+#WRITE(PTR, $0000152A)
+Mayuri just stares blankly.
+<END>
+
+#WRITE(PTR, $000016CA)
+I take Mayuri and dash to the police station.
+<END>
+
+#WRITE(PTR, $000016DA)
+I ask them to protect her and tell several policemen the circumstances.
+<END>
+
+#WRITE(PTR, $000016EA)
+I desperately explain that Mayuri's going to be killed in a few hours, but they turned us away with the explanation that the police can't act without hard evidence.
+<END>
+
+#WRITE(PTR, $000016FA)
+Six hours pass since we left the police station, and in the end, we're left with no choices but to keep running.
+<END>
+
+#WRITE(PTR, $0000170A)
+It would be great if everything was just a series of unfortunate events.
+<END>
+
+#WRITE(PTR, $0000171A)
+Because then we could have second tries at charging Shin-Ochanomizu Station or Shinagawa.
+<END>
+
+#WRITE(PTR, $0000172A)
+But I don't have the courage to walk about the streets of Akiba now.
+<END>
+
+#WRITE(PTR, $0000173A)
+At the end of the day, the number of paths we can take are reduced.
+<END>
+
+#WRITE(PTR, $00001756)
+Now I'm afraid to ride subways and taxis.
+<END>
+
+#WRITE(PTR, $00001766)
+If we ride those, or rather, try to ride them, Mayuri will die--
+<END>
+
+#WRITE(PTR, $00001776)
+That image sticks to my mind.
+<END>
+
+#WRITE(PTR, $00001786)
+What am I doing?
+<END>
+
+#WRITE(PTR, $00001796)
+In these past dozens of hours, I've seen Mayuri die several times.
+<END>
+
+#WRITE(PTR, $000017A6)
+I don't want to see Mayuri's pitiful figure any more.
+<END>
+
+#WRITE(PTR, $00001838)
+We take refuge in Yodobashi Camera.
+<END>
+
+#WRITE(PTR, $00001848)
+I thought we could keep hiding there.
+<END>
+
+#WRITE(PTR, $00001858)
+But after seven hours, the explosion happens in front of the station.
+<END>
+
+#WRITE(PTR, $00001868)
+Yodobashi goes into chaos.
+<END>
+
+#WRITE(PTR, $00001878)
+Several policemen appear to start evacuation.
+<END>
+
+#WRITE(PTR, $00001888)
+Anyone who doesn't comply is mistaken for a terrorist and shot.
+<END>
+
+#WRITE(PTR, $00001898)
+Impossible.
+<END>
+
+#WRITE(PTR, $000018A8)
+This isn't America.
+<END>
+
+#WRITE(PTR, $000018B8)
+It's not normal for Japan's police to shoot guns without any warning shots.
+<END>
+
+#WRITE(PTR, $000018C8)
+Mayuri died.
+<END>
+
+#WRITE(PTR, $000018D8)
+Quickly.
+<END>
+
+#WRITE(PTR, $000018E8)
+She got hit by a policeman's bullet.
+<END>
+
+#WRITE(PTR, $000018F8)
+It doesn't matter if they were real policemen or disguised SERN assassins.
+<END>
+
+#WRITE(PTR, $00001908)
+I was convinced.
+<END>
+
+#WRITE(PTR, $00001918)
+The world itself is killing Mayuri.
+<END>
+
+#WRITE(PTR, $00001AE6)
+TL07.PMF
+<FILEENDAE>
+

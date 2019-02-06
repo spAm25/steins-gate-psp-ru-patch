@@ -1,0 +1,378 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002508)
+
+#WRITE(PTR, $00000202)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000212)
+Slowly being pulled into vertigo, I let out a long breath from the back of my throat.
+<END>
+
+#WRITE(PTR, $00000232)
+Alright, world. Show your transfigured self before me...!
+<END>
+
+#WRITE(PTR, $00000242)
+I say that, but in the end, I don't know what sort of mail Faris sent.
+<END>
+
+#WRITE(PTR, $00000252)
+I'm still at Faris' home.
+<END>
+
+#WRITE(PTR, $00000262)
+I'm standing by the window. If I look down, an expansive view of Akiba greets me.
+<END>
+
+#WRITE(PTR, $00000272)
+I look around the room.
+<END>
+
+#WRITE(PTR, $000003C2)
+【Itaru】Alright then, Card Open.
+<END>
+
+#WRITE(PTR, $000003DC)
+【Mayuri】Awawa-, another Virus Card?
+<END>
+
+#WRITE(PTR, $000003F6)
+【Faris】You're still too nyaive♪
+<END>
+
+#WRITE(PTR, $00000410)
+【Mayuri】Hawww... You took three Link Cards, right? And we took three Virus Cards, right?
+<END>
+
+#WRITE(PTR, $0000042A)
+【Mayuri】Mayushii's driven into a corner...
+<END>
+
+#WRITE(PTR, $000004C8)
+What are these guys doing?
+<END>
+
+#WRITE(PTR, $000004D8)
+The three of them are sitting around a table, taking turns moving things placed on top.
+<END>
+
+#WRITE(PTR, $00000546)
+【Itaru】We still have a Terminal Card. We can seriously turn the tables next turn.
+<END>
+
+#WRITE(PTR, $00000560)
+【Faris】Nyahuhu~♪ It's way too late for a reversal now nya. Faris is going to use the Terminal Card, "Virus Checker" now, nya.
+<END>
+
+#WRITE(PTR, $0000057A)
+【Faris】So, which card is Mayushii's last Virus Card nya~?
+<END>
+
+#WRITE(PTR, $00000644)
+【Mayuri】Auwww~
+<END>
+
+#WRITE(PTR, $000006F2)
+【Itaru】Fascinating, Faris-tan.
+<END>
+
+#WRITE(PTR, $000007A0)
+【Mayuri】H-hey, could you wait one... no, two or three turns nya-? Can nyu-?
+<END>
+
+#WRITE(PTR, $0000084E)
+【Faris】Nyaha♪ Not even if you mimic Faris nyan.
+<END>
+
+#WRITE(PTR, $000008FC)
+【Mayuri】No way-
+<END>
+
+#WRITE(PTR, $000009AA)
+Mayuri puts her fingers to both her eyes as if to mime tears.
+<END>
+
+#WRITE(PTR, $00000A4E)
+Anyway, it looks like they're playing RaiNet Access Battlers.
+<END>
+
+#WRITE(PTR, $00000AF2)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000C36)
+I'm the only one in the world whose memories continue before and after the D-mail was sent.
+<END>
+
+#WRITE(PTR, $00000CDA)
+Reading Steiner unquestionably activated.
+<END>
+
+#WRITE(PTR, $00000D7E)
+So basically, Faris' D-mail caused the world to change.
+<END>
+
+#WRITE(PTR, $00000E22)
+In that case, the reason why the three of them are now nonchalantly playing a card game, despite being on guard an instant ago, is also due to the past changing.
+<END>
+
+#WRITE(PTR, $00000EC6)
+And then the fact that Faris sent a D-mail disappeared...
+<END>
+
+#WRITE(PTR, $00000F6A)
+Most likely, even if I took a look at Faris' phone, the corresponding D-mail won't be in her sent mail history.
+<END>
+
+#WRITE(PTR, $0000100E)
+Even if I interrupt her card game and demand Faris tell me what sort of mail she sent, she couldn't answer. Because the very fact that she sent it had become undone.
+<END>
+
+#WRITE(PTR, $000010B2)
+The only trace would be in the recipient's phone-- namely, Faris' father's phone 10 years ago.
+<END>
+
+#WRITE(PTR, $00001156)
+But that 10 year old mail data was most likely erased long ago. So I don't think we can check.
+<END>
+
+#WRITE(PTR, $000011FA)
+Therefore, I can only find out the world's changes myself.
+<END>
+
+#WRITE(PTR, $0000129E)
+Now, let's begin the search for differences--
+<END>
+
+#WRITE(PTR, $000013B2)
+【Mayuri】Hawhoo~ Faris-chan really is strong, huh-
+<END>
+
+#WRITE(PTR, $000013D4)
+【Faris】Mayushii started out great too nya. You have the potential nya.
+<END>
+
+#WRITE(PTR, $000013E4)
+【Faris】But there's no way the defending champion can lose in a field game nyan!
+<END>
+
+#WRITE(PTR, $000013FE)
+【Faris】I also promised to Papa that I'd win this tournament nya! I won't lose to anyone until that day nyan!
+<END>
+
+#WRITE(PTR, $00001418)
+【Mayuri】Papa?
+<END>
+
+#WRITE(PTR, $00001428)
+Faris nods happily.
+<END>
+
+#WRITE(PTR, $00001446)
+【Faris】Papa said that if Faris won, he'd absolutely make time off work to congratulate me nyan.
+<END>
+
+#WRITE(PTR, $00001460)
+【Itaru】I want to congratulate you at full force too, but are you open that night?
+<END>
+
+#WRITE(PTR, $0000147A)
+【Faris】That night, Papa and I are eating alone nya.
+<END>
+
+#WRITE(PTR, $00001494)
+【Itaru】Oh, I see...
+<END>
+
+#WRITE(PTR, $000014AE)
+【Mayuri】You know, for the finals, everyone at the lab should come cheer-
+<END>
+
+#WRITE(PTR, $000014C8)
+【Faris】Thank nyu-♪
+<END>
+
+#WRITE(PTR, $000014E2)
+【Itaru】Isn't your final opponent the "Viral Attackers" duo?
+<END>
+
+#WRITE(PTR, $000014F2)
+【Itaru】They've been under the radar, and yet they defeated Faris-tan's rivals, "Idiyona".
+<END>
+
+#WRITE(PTR, $0000150C)
+【Itaru】Each of Faris-tan and Idiyona's duels are god tier, so I was looking forward to it.
+<END>
+
+#WRITE(PTR, $00001526)
+【Faris】I haven't seen any other RaiNetter matches, but are the Viral Attackers really that strong nya?
+<END>
+
+#WRITE(PTR, $00001540)
+【Itaru】Well, they're not a threat to Faris-tan. Faris-tan is the strongest. Faris-tan is god!
+<END>
+
+#WRITE(PTR, $0000155A)
+【Faris】Nyaww~n♪ It's embarrassing to praise me that much nya~
+<END>
+
+#WRITE(PTR, $0000156A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $0000161A)
+Listening to their conversation gives me an indescribable bad feeling.
+<END>
+
+#WRITE(PTR, $000016CC)
+<LINE>
+<LINE>
+<LINE>
+%LCSOMETHING IS STRANGE.
+<ENDPANEL>
+
+#WRITE(PTR, $000016FC)
+An voice whispers from deep within, deeper than reason.
+<END>
+
+#WRITE(PTR, $0000170C)
+After ruminating on the current conversation, I soon realize the meaning of my discomfort.
+<END>
+
+#WRITE(PTR, $0000171C)
+Faris shouldn't have gone to any official RaiNet Access Battlers tournaments so far.
+<END>
+
+#WRITE(PTR, $0000172C)
+And yet she's about to compete in the -tournament finals-.
+<END>
+
+#WRITE(PTR, $0000173C)
+Which means she's won matches up to the semifinals.
+<END>
+
+#WRITE(PTR, $0000174C)
+So does that mean Faris' change to the past was so that she could go to RaiNet tournaments?
+<END>
+
+#WRITE(PTR, $0000175C)
+Considering her recipient was her father, maybe he was strict and originally prohibited her from going to tournaments...
+<END>
+
+#WRITE(PTR, $0000176C)
+I see. That seems possible.
+<END>
+
+#WRITE(PTR, $0000177C)
+But is that something sending a D-mail can change?
+<END>
+
+#WRITE(PTR, $0000178C)
+Faris is still 17 years old, so even if she participates in tournaments now, it's not late at all.
+<END>
+
+#WRITE(PTR, $0000179C)
+If there were an age limit to RaiNet tournaments, it would be a different story...
+<END>
+
+#WRITE(PTR, $0000185C)
+Or maybe it's just that everyone has their own morals?
+<END>
+
+#WRITE(PTR, $000019F4)
+At that moment, someone knocks on the door.
+<END>
+
+#WRITE(PTR, $00001AF0)
+The door opens halfway and an aging man appears.
+<END>
+
+#WRITE(PTR, $00001B94)
+It's not that real butler.
+<END>
+
+#WRITE(PTR, $00001C38)
+【Faris' Dad】Excuse me. Rumiho, do you have a minute?
+<END>
+
+#WRITE(PTR, $00001CDC)
+【Faris】Ah, Papa.
+<END>
+
+#WRITE(PTR, $00001DC6)
+Faris quickly gets up and leaves the room.
+<END>
+
+#WRITE(PTR, $00001F30)
+【Itaru】Gwah, Faris-tan's father... Shouldn't we greet him?
+<END>
+
+#WRITE(PTR, $0000200C)
+【Mayuri】Faris-chan's dad is a company president, right-? Amazing-
+<END>
+
+#WRITE(PTR, $000020C2)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002112)
+Faris soon returns.
+<END>
+
+#WRITE(PTR, $00002122)
+Then she turns to us, apologetically putting her hands together.
+<END>
+
+#WRITE(PTR, $00002132)
+【Faris】Apawlogies! Faris has to go out with Papa nya.
+<END>
+
+#WRITE(PTR, $0000214C)
+【Mayuri】Well then-, this is bye bye for us, then-
+<END>
+
+#WRITE(PTR, $00002166)
+【Itaru】Ehh-? Faris-tan, what about my match? Didn't you promise you'd lecture me about RaiNet in detail?
+<END>
+
+#WRITE(PTR, $00002180)
+【Faris】I don't think anyone promised that, nya?
+<END>
+
+#WRITE(PTR, $0000219A)
+【Itaru】Ehh, yeah you did...
+<END>
+
+#WRITE(PTR, $000021B4)
+【Mayuri】Daru-kun, you shouldn't trouble Faris-chan like that-
+<END>
+
+#WRITE(PTR, $000021CE)
+【Mayuri】Come on, Okarin, let's go home-?
+<END>
+
+#WRITE(PTR, $000021DE)
+【Rintaro】Yeah.
+<END>
+
+#WRITE(PTR, $000021F8)
+【Faris】Now that you mention it, Kyouma's been quiet nya. What's wrong nyan?
+<END>
+
+#WRITE(PTR, $00002208)
+【Rintaro】Nothing. I was just satisfied with looking down on Akiba from above.
+<END>
+
+#WRITE(PTR, $0000222A)
+【Itaru】That's Okarin for you... Ambiguous...
+<END>
+
+#WRITE(PTR, $0000234A)
+We go with Faris to the entryway, and her dad and the butler see us off. Her dandy dad tells us to come visit again.
+<FILEEND8B>
+

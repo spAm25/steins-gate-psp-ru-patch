@@ -1,0 +1,947 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00003446)
+
+#WRITE(PTR, $00000878)
+I diligently did my laundry at a laundromat in the morning, so when I return to the lab just past noon, Daru, Mayuri, and Kurisu are all assembled.
+<END>
+
+#WRITE(PTR, $000009B6)
+【Rintaro】Thanks for coming out here even though it's Saturday. You are all great lab mems of inquisitive minds.
+<END>
+
+#WRITE(PTR, $000009D0)
+【Kurisu】Yeah...
+<END>
+
+#WRITE(PTR, $000009E0)
+Kurisu sighs deeply.
+<END>
+
+#WRITE(PTR, $000009F0)
+【Kurisu】I can't believe it's the height of summer, but instead of going on vacation, I'm stuck in this sauna talking with a bunch of pervert creeps.
+<END>
+
+#WRITE(PTR, $00000A0A)
+【Kurisu】Where did I go wrong...
+<END>
+
+#WRITE(PTR, $00000A1A)
+She's really giving us a verbal beatdown.
+<END>
+
+#WRITE(PTR, $00000A2A)
+【Rintaro】Wipe your tears, you experiment loving girl without a single friend.
+<END>
+
+#WRITE(PTR, $00000A44)
+【Kurisu】I, I wasn't crying!
+<END>
+
+#WRITE(PTR, $00000A5E)
+【Kurisu】Anyway, you're the one who mailed me to come here, right?
+<END>
+
+#WRITE(PTR, $00000A6E)
+【Rintaro】Indeed, it was I. But the one who faithfully abided by that mail and punctually arrived at the lab, was you.
+<END>
+
+#WRITE(PTR, $00000A7E)
+【Mayuri】You know, Chris-chan is actually a very obedient and diligent girl. That's what Mayushii thinks♪
+<END>
+
+#WRITE(PTR, $00000A96)
+Mayuri smiles and murmurs as she eats some nuggets from <DICT>McD's</DICT>.
+<END>
+
+#WRITE(PTR, $00000AA6)
+【Mayuri】Mayushii thinks Chris-chan is so adorable like that.
+<END>
+
+#WRITE(PTR, $00000AC0)
+【Kurisu】Eh, wha...!?
+<END>
+
+#WRITE(PTR, $00000ADA)
+【Kurisu】How can this girl say something like that while eating a nugget...
+<END>
+
+#WRITE(PTR, $00000AEA)
+It's not something to be worried about. That's just how Mayuri is.
+<END>
+
+#WRITE(PTR, $00000AFA)
+I've been with her for a long time, so I'm used to it.
+<END>
+
+#WRITE(PTR, $00000B12)
+【Itaru】A yuri <DICT>flag</DICT>, huh. I get it.
+<END>
+
+#WRITE(PTR, $00000B2C)
+【Kurisu】Please unget it.
+<END>
+
+#WRITE(PTR, $00000B3C)
+【Mayuri】Here, Chris-chan, I'll give you a nugget, okay?
+<END>
+
+#WRITE(PTR, $00000B4C)
+【Kurisu】Th-thanks...
+<END>
+
+#WRITE(PTR, $00000C64)
+While listening to the heartwarming conversation, I place my laundry on the table, when--
+<END>
+
+#WRITE(PTR, $00000C7E)
+【Kurisu】Don't put that there. That's filthy.
+<END>
+
+#WRITE(PTR, $00000D9A)
+【Rintaro】I just washed them!
+<END>
+
+#WRITE(PTR, $00000DB4)
+【Kurisu】Like I care. You lack delicacy if you can just put your laundry with your underwear in magnificent display right in front of a girl your age.
+<END>
+
+#WRITE(PTR, $00000DC4)
+【Rintaro】If you're that interested in my underwear, then just say so.
+<END>
+
+#WRITE(PTR, $00000DDE)
+【Kurisu】Wh-wha...!
+<END>
+
+#WRITE(PTR, $00000DEE)
+【Kurisu】I'm not interested at all...!
+<END>
+
+#WRITE(PTR, $00000DFE)
+【Mayuri】Now, now, you two-. No more saying underwear, underwear-. Mayushii's trying to eat here, okay-?
+<END>
+
+#WRITE(PTR, $00000E0E)
+【Itaru】You say that, but you're still putting nuggets to your mouth...
+<END>
+
+#WRITE(PTR, $00000E1E)
+【Rintaro】Don't interrupt me!
+<END>
+
+#WRITE(PTR, $00000E80)
+I have to put my laundry in the changing room.
+<END>
+
+#WRITE(PTR, $00000F56)
+【Rintaro】I talked to Daru yesterday, but I noticed something about the results of our serial experiments!
+<END>
+
+#WRITE(PTR, $00000F66)
+【Rintaro】D-mails have too much of an uncertain factor. As a result, they have no guarantee.
+<END>
+
+#WRITE(PTR, $00000F80)
+【Kurisu】There's no helping it, right? After all, you are entrusting the result to how the receiving party responds.
+<END>
+
+#WRITE(PTR, $00000F90)
+【Kurisu】But conversely, if you can psychoanalyze the other party's character, you might be able to better manipulate them.
+<END>
+
+#WRITE(PTR, $00000FAA)
+【Kurisu】With that psychological element in mind, it might be impossible for Hououin Kyoumunderwear, though.
+<END>
+
+#WRITE(PTR, $00000FBA)
+【Itaru】Makise-shi, do you just want to say underwear?
+<END>
+
+#WRITE(PTR, $00000FCA)
+【Rintaro】Putting underwear aside, it's a fact that D-mails still feel like a gamble.
+<END>
+
+#WRITE(PTR, $00000FDA)
+I want more certainty so I can expose the conspiracies of the Organization and SERN, guiding chaos to the world.
+<END>
+
+#WRITE(PTR, $00000FEA)
+【Rintaro】And that, ladies and gentlemen gathered here today, is the fact of the matter. The topic of today's round table conference is--
+<END>
+
+#WRITE(PTR, $0000104E)
+【Itaru】It's become another unexpected round table.
+<END>
+
+#WRITE(PTR, $0000105E)
+【Kurisu】If you want a round-table conference that much, at least go buy a round table.
+<END>
+
+#WRITE(PTR, $0000106E)
+【Mayuri】That's not it, Chris-chan. You know, Okarin said it before, but the round table exists in everyone's hearts-
+<END>
+
+#WRITE(PTR, $0000107E)
+【Kurisu】Mayuri-san, you're really a pure girl... But you shouldn't take everything Okabe says seriously.
+<END>
+
+#WRITE(PTR, $0000108E)
+【Mayuri】Really-?
+<END>
+
+#WRITE(PTR, $0000109E)
+【Rintaro】The definition of a round table doesn't matter now. More importantly, the topic--
+<END>
+
+#WRITE(PTR, $000010AE)
+【Rintaro】Is that, instead of using D-mails, I want to explore for a solution to physical time travel like SERN.
+<END>
+
+#WRITE(PTR, $00001172)
+【Kurisu】Don't be ridiculous.
+<END>
+
+#WRITE(PTR, $00001182)
+Prompt answer.
+<END>
+
+#WRITE(PTR, $00001192)
+And she's glaring at me even sharper than she did during the whole underwear thing.
+<END>
+
+#WRITE(PTR, $000011A2)
+【Kurisu】SERN's been using such large-scale equipment, for more than nine years, and yet they still haven't succeeded, you know?
+<END>
+
+#WRITE(PTR, $000011B2)
+【Kurisu】It's not something we can possibly hope to do.
+<END>
+
+#WRITE(PTR, $000011CC)
+【Mayuri】You'll become a GelOkarin-. Ehhehe-
+<END>
+
+#WRITE(PTR, $000011EE)
+【Itaru】Doesn't that sound like <DICT>Gero Froggy</DICT>? Why'd they get popular, anyway?
+<END>
+
+#WRITE(PTR, $00001208)
+【Kurisu】No, this isn't a laughing matter...
+<END>
+
+#WRITE(PTR, $00001218)
+【Rintaro】Isn't it too early to give up? Haven't we already succeeded with D-mail, a first in all of human history?
+<END>
+
+#WRITE(PTR, $00001232)
+【Itaru】But we're not the first. SERN did it before us, right?
+<END>
+
+#WRITE(PTR, $00001296)
+【Rintaro】Human history's first time-crossing mail. We who have achieved it know not the meaning of the word "impossible"!
+<END>
+
+#WRITE(PTR, $000012A6)
+【Kurisu】Such baseless confidence. Anyway, wasn't it just a coincidence that you could use D-mail?
+<END>
+
+#WRITE(PTR, $000012B6)
+【Kurisu】We still haven't figured out what replaces the lifter.
+<END>
+
+#WRITE(PTR, $000012C6)
+【Rintaro】Don't we just need to figure it out?
+<END>
+
+#WRITE(PTR, $0000138A)
+【Kurisu】It's all useless.
+<END>
+
+#WRITE(PTR, $0000139A)
+【Kurisu】How do you deal with a problem that not even SERN can figure out?
+<END>
+
+#WRITE(PTR, $000013AA)
+【Kurisu】If you can't set the local field, then you won't know where you'll leap to.
+<END>
+
+#WRITE(PTR, $000013C4)
+【Itaru】I'll pass on leaping into the nothingness of space.
+<END>
+
+#WRITE(PTR, $000013D4)
+Local field setting certainly is a troubling problem.
+<END>
+
+#WRITE(PTR, $000013E4)
+If you can't tell where you'll leap, there's no meaning to time travel at all.
+<END>
+
+#WRITE(PTR, $00001448)
+【Rintaro】No, wait a sec.
+<END>
+
+#WRITE(PTR, $00001458)
+【Rintaro】D-mails don't have local field settings. Yet they still arrive at their destinations properly. How do you explain that?
+<END>
+
+#WRITE(PTR, $00001468)
+【Kurisu】...Now that you mention it...
+<END>
+
+#WRITE(PTR, $00001478)
+【Itaru】Doesn't it arrive properly since you set the mail address?
+<END>
+
+#WRITE(PTR, $00001488)
+【Kurisu】Is that so...? I don't think a phone signal can be received from millions of kilometers away, though.
+<END>
+
+#WRITE(PTR, $00001498)
+【Mayuri】Mayushii thinks that maybe the signals are somewhere that can't be reached-
+<END>
+
+#WRITE(PTR, $0000151A)
+I stare at my phone.
+<END>
+
+#WRITE(PTR, $00001598)
+【Rintaro】Or maybe cellphones already have black holes and <DICT>white hole</DICT>.
+<END>
+
+#WRITE(PTR, $000015A8)
+【Kurisu】You shouldn't speculate. You have zero basis for that.
+<END>
+
+#WRITE(PTR, $000015B8)
+【Rintaro】Is it possible that it forms a wormhole?
+<END>
+
+#WRITE(PTR, $000015C8)
+【Kurisu】No wormholes have ever been confirmed to exist.
+<END>
+
+#WRITE(PTR, $000015D8)
+I groan.
+<END>
+
+#WRITE(PTR, $000015E8)
+Kurisu and Daru say no more about this inexplicable situation.
+<END>
+
+#WRITE(PTR, $000015F8)
+Only Mayuri smiles. No doubt she doesn't understand and is just smiling for now.
+<END>
+
+#WRITE(PTR, $00001608)
+【Rintaro】In any case, the cold, hard truth is that D-mails arrive in the past. We're leading SERN in that regard.
+<END>
+
+#WRITE(PTR, $00001618)
+【Rintaro】Now, for time travel, could we possibly apply the same mechanism as D-mails?
+<END>
+
+#WRITE(PTR, $00001628)
+【Itaru】But with D-mails, you can only send 36 bytes + α of data.
+<END>
+
+#WRITE(PTR, $00001638)
+【Itaru】It's seriously impossible to just roll up a person and physically transfer them.
+<END>
+
+#WRITE(PTR, $00001648)
+SERN's probably having a hard time with that too.
+<END>
+
+#WRITE(PTR, $0000170C)
+【Kurisu】If you want to become GelOkarin, I'm not stopping you.
+<END>
+
+#WRITE(PTR, $00001726)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000017C4)
+I get goosebumps when I recall the tragic fate of the researchers in the Jellyman's Report.
+<END>
+
+#WRITE(PTR, $000017D4)
+The ring singularity of a Kerr black hole. Super gravitational space-time distortion.
+<END>
+
+#WRITE(PTR, $000017E4)
+If you can adjust the volume of electron injection from the lifter, you might be able to make the ring singularities naked.
+<END>
+
+#WRITE(PTR, $000017F4)
+But that adjustment is such a challenge that even SERN is having a hard time with it. Even if we do locate the lifter's replacement, it's not a problem we can solve quickly.
+<END>
+
+#WRITE(PTR, $00001804)
+Meaning that at present, we can only send a mere 35 bytes+α of data.
+<END>
+
+#WRITE(PTR, $00001814)
+I wonder what size a human body is.
+<END>
+
+#WRITE(PTR, $0000182C)
+I've got a feeling it's no less than an <DICT>exa</DICT> byte...
+<END>
+
+#WRITE(PTR, $0000189A)
+【Kurisu】It's best if we don't think about physical transfer for now. Even just data time travel is an amazing feat, so we should just be patient with that.
+<END>
+
+#WRITE(PTR, $000018AA)
+Data time travel... huh.
+<END>
+
+#WRITE(PTR, $0000190E)
+【Rintaro】That's a backwards utterance unthinkable for researchers who seek the truth of the world.
+<END>
+
+#WRITE(PTR, $0000191E)
+【Kurisu】I'm telling you to know your limits.
+<END>
+
+#WRITE(PTR, $0000192E)
+【Kurisu】If you're going to seek the truth, you need to have the appropriate brains, equipment, and funding.
+<END>
+
+#WRITE(PTR, $0000193E)
+【Kurisu】With such an impoverished circle, your high ambitions don't mean much.
+<END>
+
+#WRITE(PTR, $0000194E)
+【Kurisu】I thought about it before, but we should bring the Microwave Ophone to a proper research institution and entrust it to a specialist.
+<END>
+
+#WRITE(PTR, $0000195E)
+【Kurisu】Since SERN is keeping their time machine research top secret, if we just make an official announcement, it'll be helpful for the future of mankind.
+<END>
+
+#WRITE(PTR, $0000196E)
+【Rintaro】...If we make an official announcement, the "Organization's" guys will become aware of my existence.
+<END>
+
+#WRITE(PTR, $0000197E)
+【Kurisu】You know...! I'm speaking seriously here. This isn't the time for jok--
+<END>
+
+#WRITE(PTR, $0000198E)
+【Rintaro】And we've also hacked SERN.
+<END>
+
+#WRITE(PTR, $0000199E)
+【Rintaro】Those guys are a heartless bunch who'd go so far as to do human experimentation.
+<END>
+
+#WRITE(PTR, $000019AE)
+【Rintaro】If we officially announce the Microwave Ophone (Temp), we might be erased.
+<END>
+
+#WRITE(PTR, $00001A72)
+【Kurisu】...Are you watching too many movies?
+<END>
+
+#WRITE(PTR, $00001A82)
+【Rintaro】The name "Committee of 300" appeared in actual SERN documents.
+<END>
+
+#WRITE(PTR, $00001A9C)
+【Kurisu】Yeah, but...
+<END>
+
+#WRITE(PTR, $00001AAC)
+Kurisu's tone of voice weakens.
+<END>
+
+#WRITE(PTR, $00001ABC)
+【Mayuri】Mayushii's kinda scared-...
+<END>
+
+#WRITE(PTR, $00001ACC)
+【Itaru】If our hacking got found out, then we'd seriously get erased. I didn't make any mistakes that would give us away, though.
+<END>
+
+#WRITE(PTR, $00001ADC)
+【Rintaro】Also, this is the most important problem, but--
+<END>
+
+#WRITE(PTR, $00001AEC)
+I lower my voice, and look seriously at their three faces.
+<END>
+
+#WRITE(PTR, $00001B50)
+【Rintaro】If we make an official announcement, we won't be able to send D-mails as we please anymore, right!?
+<END>
+
+#WRITE(PTR, $00001B60)
+【Kurisu】Why, you...
+<END>
+
+#WRITE(PTR, $00001B70)
+【Rintaro】Fuhahaha! Like hell I'd give up such a device of dreams so easily!
+<END>
+
+#WRITE(PTR, $00001B80)
+【Rintaro】I am Hououin Kyouma! The insane mad scientist who rules space-time! What I wish for, yes, is chaos...!
+<END>
+
+#WRITE(PTR, $00001B90)
+【Kurisu】This guy's hopeless. If I don't do something soon...
+<END>
+
+#WRITE(PTR, $00001C8C)
+【Itaru】Eh?
+<END>
+
+#WRITE(PTR, $00001C9C)
+【Rintaro】Hm?
+<END>
+
+#WRITE(PTR, $00001CAC)
+【Mayuri】Hwe?
+<END>
+
+#WRITE(PTR, $00001CC6)
+【Kurisu】Ah...
+<END>
+
+#WRITE(PTR, $00001CD6)
+Everything instantly freezes.
+<END>
+
+#WRITE(PTR, $00001CE6)
+【Rintaro】Christina, are you an @channe--
+<END>
+
+#WRITE(PTR, $00001D12)
+【Kurisu】Shutup don't say any more that's not it okay!
+<END>
+
+#WRITE(PTR, $00001D2C)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001D3C)
+Kurisu gives me her sharpest dagger eyes yet.
+<END>
+
+#WRITE(PTR, $00001D4C)
+So cold my spine freezes.
+<END>
+
+#WRITE(PTR, $00001D5C)
+I nod and swallow my words.
+<END>
+
+#WRITE(PTR, $00001DCA)
+【Rintaro】Th-that reminds me, Daru. Did you make any progress on hacking into SERN?
+<END>
+
+#WRITE(PTR, $00001DE6)
+He did say it would take a little time to learn IBN 5100 use, though.
+<END>
+
+#WRITE(PTR, $00001DF6)
+I confirmed that Daru came to the lab every day, doing something with his computer.
+<END>
+
+#WRITE(PTR, $00001E06)
+His monitor was always displaying a program, and he would keep checking on it and tamper with it.
+<END>
+
+#WRITE(PTR, $00001E16)
+【Itaru】Yeah, right now I'm fishing through tons of SERN's data.
+<END>
+
+#WRITE(PTR, $00001E26)
+【Itaru】Even if I translated and read them all, it would take years. Whenever I found something important, I transferred it to Makise-shi though.
+<END>
+
+#WRITE(PTR, $00001E36)
+【Itaru】Well, basically, it's not something I can do.
+<END>
+
+#WRITE(PTR, $00001E46)
+【Itaru】Now I've got SERN in the palm of my hand.
+<END>
+
+#WRITE(PTR, $00001E56)
+【Rintaro】I'm completely grateful that you're my ally.
+<END>
+
+#WRITE(PTR, $00001E66)
+Your weakness to seduction is your one fly in the ointment, though.
+<END>
+
+#WRITE(PTR, $00001E76)
+【Rintaro】So, Christina. Your report on the translation situation.
+<END>
+
+#WRITE(PTR, $00001E86)
+【Kurisu】...Can you quit it with your theatrical speech? That's kind of vexing.
+<END>
+
+#WRITE(PTR, $00001F82)
+【Mayuri】Vex☆
+<END>
+
+#WRITE(PTR, $00001F92)
+For some reason, Mayuri takes a cute, idol-like pose and smiles.
+<END>
+
+#WRITE(PTR, $00001FA2)
+【Mayuri】Chris-chan, you know, I'll tell you something as Okarin's childhood friend-, you get used to Okarin's way of talking♪
+<END>
+
+#WRITE(PTR, $00001FB2)
+【Kurisu】I just hope that doesn't take ten years...
+<END>
+
+#WRITE(PTR, $00001FC2)
+【Rintaro】So, you mean you want to stay with me for ten years? In other words, to work in this lab for the rest of your life--
+<END>
+
+#WRITE(PTR, $00001FD2)
+【Kurisu】Sarcasm, man. Sarcasm.
+<END>
+
+#WRITE(PTR, $00001FE2)
+【Rintaro】...I-I see.
+<END>
+
+#WRITE(PTR, $0000204A)
+【Rintaro】So, report quickly, Christina. If you don't, then I'll call you a "channer"--
+<END>
+
+#WRITE(PTR, $000020DE)
+【Kurisu】I said that's not it, right?
+<END>
+
+#WRITE(PTR, $000020EE)
+She's scowling again. My spine chills again.
+<END>
+
+#WRITE(PTR, $00002156)
+【Kurisu】I did try to do some translation, but at present, no new information on time machines.
+<END>
+
+#WRITE(PTR, $00002166)
+【Kurisu】SERN really is struggling to come up with a solution.
+<END>
+
+#WRITE(PTR, $00002176)
+Maybe they'll have to wait another 24 years like Titor said.
+<END>
+
+#WRITE(PTR, $00002186)
+【Rintaro】Daru, any other results?
+<END>
+
+#WRITE(PTR, $00002196)
+【Itaru】Not a result, but it looks like SERN's in the middle of experimenting, so the LHC's at full operation.
+<END>
+
+#WRITE(PTR, $000021A6)
+【Itaru】I'm trying to see if I can cut in and maybe secretly use it.
+<END>
+
+#WRITE(PTR, $000021B6)
+【Kurisu】No way...?
+<END>
+
+#WRITE(PTR, $000021C6)
+Kurisu's stunned.
+<END>
+
+#WRITE(PTR, $000021D6)
+Well, I'm surprised too.
+<END>
+
+#WRITE(PTR, $000021E6)
+【Mayuri】Isn't that amazing-?
+<END>
+
+#WRITE(PTR, $000021F6)
+【Kurisu】It's not amazing. It's downright outrageous...
+<END>
+
+#WRITE(PTR, $00002206)
+【Kurisu】Supah hakah, you don't afraid of anything...!
+<END>
+
+#WRITE(PTR, $00002302)
+【Rintaro】Hey, Christina. You doing that on purpose?
+<END>
+
+#WRITE(PTR, $0000231C)
+【Kurisu】Ugh... d-doing what?
+<END>
+
+#WRITE(PTR, $0000233A)
+So she is an @channeler. No doubt about it.
+<END>
+
+#WRITE(PTR, $000023A2)
+【Itaru】But, well, it does seem like we can use it, but we don't have much use for it.
+<END>
+
+#WRITE(PTR, $000023B2)
+【Rintaro】The strategy's going well, huh. When do we enter the third stage?
+<END>
+
+#WRITE(PTR, $000023C2)
+【Itaru】What's the third stage?
+<END>
+
+#WRITE(PTR, $000023D2)
+【Rintaro】SERN's top secret, forbidden domain. Obviously, we're going to open up the darkness hidden inside.
+<END>
+
+#WRITE(PTR, $000023E2)
+【Itaru】In Japanese please.
+<END>
+
+#WRITE(PTR, $000023F2)
+【Rintaro】There's a database constructed of IBN 5100's, right? I'm asking if you've already commenced hacking there.
+<END>
+
+#WRITE(PTR, $00002402)
+Daru frowns at my words.
+<END>
+
+#WRITE(PTR, $00002412)
+【Itaru】Yeah, I said that was impossible.
+<END>
+
+#WRITE(PTR, $00002438)
+【Rintaro】Can't you do something as long as we have the IBN 5100!?
+<END>
+
+#WRITE(PTR, $00002448)
+【Itaru】I could. But conversely speaking, that's exactly why I can't.
+<END>
+
+#WRITE(PTR, $0000250C)
+【Rintaro】Hmm...?
+<END>
+
+#WRITE(PTR, $000025BC)
+This feeling again.
+<END>
+
+#WRITE(PTR, $000025CC)
+The conversation isn't lining up.
+<END>
+
+#WRITE(PTR, $00002630)
+【Rintaro】I got an IBN 5100, didn't I? You haven't touched it yet?
+<END>
+
+#WRITE(PTR, $0000264A)
+【Itaru】Huh? You got one? When?
+<END>
+
+#WRITE(PTR, $0000265A)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $0000266A)
+Puzzled, I look at Kurisu and Mayuri.
+<END>
+
+#WRITE(PTR, $0000267A)
+Mayuri tilts her head with a puzzled look, like always.
+<END>
+
+#WRITE(PTR, $0000268A)
+Kurisu meets my glance and shrugs her shoulders.
+<END>
+
+#WRITE(PTR, $000026A4)
+【Kurisu】I never heard that you got one.
+<END>
+
+#WRITE(PTR, $000026BE)
+【Rintaro】Impossible...!
+<END>
+
+#WRITE(PTR, $000026CE)
+That just can't be!
+<END>
+
+#WRITE(PTR, $00002744)
+I step into the development room.
+<END>
+
+#WRITE(PTR, $00002754)
+The IBN 5100 I borrowed from Yanabayashi Shrine should be on the shelf inside. It's in a cardboard box, and it weighs 25kg, a weight hard to carry by a single person--
+<END>
+
+#WRITE(PTR, $00002764)
+【Rintaro】...it's gone.
+<END>
+
+#WRITE(PTR, $00002774)
+It doesn't exist where I thought I left it.
+<END>
+
+#WRITE(PTR, $000028B0)
+【Rintaro】...IBN 5100! I placed you right here. Where did you disappear to!?
+<END>
+
+#WRITE(PTR, $000028C0)
+Everyone looks at me in surprise.
+<END>
+
+#WRITE(PTR, $000028D0)
+【Rintaro】What's with those pigeon-potshot-with-peashooter faces!? The legendary PC dedicated at Yanabayashi Shrine!! You guys know about it, right!?
+<END>
+
+#WRITE(PTR, $000028E0)
+【Mayuri】I don't know about it-?
+<END>
+
+#WRITE(PTR, $000028FA)
+【Itaru】Dedicated at Yanabayashi Shrine? That's retarded.
+<END>
+
+#WRITE(PTR, $00002914)
+【Kurisu】You sure you didn't hallucinate? It's hot these days.
+<END>
+
+#WRITE(PTR, $00002924)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000029C6)
+I sink into helplessness like quicksand.
+<END>
+
+#WRITE(PTR, $000029D6)
+Without the IBN 5100, we can't hack that database!
+<END>
+
+#WRITE(PTR, $00002A74)
+Just who did it? Who took it?
+<END>
+
+#WRITE(PTR, $00002A84)
+The Organization? SERN?
+<END>
+
+#WRITE(PTR, $00002A94)
+SERN is a possibility. Maybe they noticed our hacking and stole the IBN 5100 from the lab.
+<END>
+
+#WRITE(PTR, $00002AA4)
+No, no, no.
+<END>
+
+#WRITE(PTR, $00002AB4)
+Even if they could steal the IBN 5100 from the lab, they can't steal Mayuri and Daru's memories of it...!
+<END>
+
+#WRITE(PTR, $00002AC4)
+Just what happened...?
+<END>
+
+#WRITE(PTR, $00002B8A)
+Kiryuu Moeka.
+<END>
+
+#WRITE(PTR, $00002BA8)
+Maybe I should check Moeka right this instant.
+<END>
+
+#WRITE(PTR, $00002BC6)
+Someone besides Moeka could have taken it away....
+<END>
+
+#WRITE(PTR, $00002BE4)
+I try considering that possibility.
+<END>
+
+#WRITE(PTR, $00002C02)
+And the only name I could come up with--
+<END>
+
+#WRITE(PTR, $00002C20)
+【Rintaro】Don't tell me, John Titor!?
+<END>
+
+#WRITE(PTR, $00002C3E)
+【Rintaro】That's it, Titor's objective was to obtain an IBN 5100! I've already contacted him several times. But how did he get my personal information!?
+<END>
+
+#WRITE(PTR, $00002F16)
+I sent that mail to Moeka.
+<END>
+
+#WRITE(PTR, $00002F26)
+I don't know if I'll get a response.
+<END>
+
+#WRITE(PTR, $00002F36)
+Why am I sending her a mail like this in the first place...?
+<END>
+
+#WRITE(PTR, $00002F46)
+The reason's obvious.
+<END>
+
+#WRITE(PTR, $00002F56)
+I want to test that woman.
+<END>
+
+#WRITE(PTR, $00002F66)
+If it's an inside crime, then Moeka's the most suspicious one with her strange attachment to the IBN 5100.
+<END>
+
+#WRITE(PTR, $00002F76)
+I wait a while, but no reply comes.
+<END>
+
+#WRITE(PTR, $00002F86)
+Anyway, even if Moeka were the culprit, she wouldn't honestly admit it.
+<END>
+
+#WRITE(PTR, $00002FCE)
+【Kurisu】Calm down.
+<END>
+
+#WRITE(PTR, $00002FE8)
+【Kurisu】You don't have to arrange your thoughts, just slowly say whatever comes to mind. You can organize your thoughts later.
+<END>
+
+#WRITE(PTR, $00002FF8)
+【Rintaro】Ah, ahhh...
+<END>
+
+#WRITE(PTR, $00003008)
+I wipe of my sweat with a handkerchief, and explain fundamental knowledge on the IBN 5100 and how I came to obtain one.
+<END>
+
+#WRITE(PTR, $0000301C)
+When I groan if I should send a mail, Kurisu chides me to calm down.
+<END>
+
+#WRITE(PTR, $0000302C)
+To be chided by a younger high school girl... you dare make a fool of Hououin Kyouma...!
+<END>
+
+#WRITE(PTR, $0000303C)
+Halfway serious, I explain fundamental knowledge on the IBN 5100 and how I came to obtain one.
+<END>
+
+#WRITE(PTR, $000030DE)
+During that time, I also send Moeka a confirmation mail.
+<FILEEND5B>
+

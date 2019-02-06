@@ -1,0 +1,347 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001234)
+
+#WRITE(PTR, $00000204)
+【Rintaro】--
+<END>
+
+#WRITE(PTR, $00000214)
+I jerk awake on top of the sofa.
+<END>
+
+#WRITE(PTR, $00000224)
+My entire body is wet with sweat.
+<END>
+
+#WRITE(PTR, $0000023C)
+【Rintaro】...A dream.
+<END>
+
+#WRITE(PTR, $0000025E)
+Apparently, I fell asleep during the day.
+<END>
+
+#WRITE(PTR, $0000026E)
+What a bad dream.
+<END>
+
+#WRITE(PTR, $0000027E)
+I guess I'm feeling like this because of that threat mail.
+<END>
+
+#WRITE(PTR, $0000028E)
+But even if it were a dream, I won't accept being saved by Mayuri.
+<END>
+
+#WRITE(PTR, $0000029E)
+Because I'm the one who should save Mayuri.
+<END>
+
+#WRITE(PTR, $000002AE)
+It's more suitable that way.
+<END>
+
+#WRITE(PTR, $000002BE)
+It's not like Mayuri can make such troublesome conversation in the first place.
+<END>
+
+#WRITE(PTR, $000002CE)
+I try searching for Mayuri.
+<END>
+
+#WRITE(PTR, $000002DE)
+Of course, she's in this room.
+<END>
+
+#WRITE(PTR, $00000384)
+She's sitting down flat in front of the TV.
+<END>
+
+#WRITE(PTR, $00000394)
+The TV's showing a DVD video of RaiNet Kakeru.
+<END>
+
+#WRITE(PTR, $000003A4)
+Upa is riding on the shoulder of the protagonist, Kakeru, making an ambiguous cry for some reason or another.
+<END>
+
+#WRITE(PTR, $000003B4)
+【Mayuri】Haah-, Mayushii wants to make friends with Upa too-
+<END>
+
+#WRITE(PTR, $000003C4)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000003D4)
+This airheaded optimistic girl is my object of protection after all; that dream was wrong. I'm convinced.
+<END>
+
+#WRITE(PTR, $0000056E)
+I chug down a Dr Pepper and check my phone mail.
+<END>
+
+#WRITE(PTR, $0000057E)
+But nothing especially new came.
+<END>
+
+#WRITE(PTR, $00000594)
+Several hours ago, I sent Titor a private mail just to make sure.
+<END>
+
+#WRITE(PTR, $000005A4)
+Of course, the subject was Suzuha. But he hasn't replied yet.
+<END>
+
+#WRITE(PTR, $0000067E)
+Daru and the others obviously didn't recognize the fact that I sent myself a D-mail to the past.
+<END>
+
+#WRITE(PTR, $0000069C)
+Instead, I refresh my memory of our party for Suzuha last night and pleasantly look back at the party I never attended.
+<END>
+
+#WRITE(PTR, $000006BA)
+...wait, is that my phone ringing?
+<END>
+
+#WRITE(PTR, $000006D8)
+Ugh...
+<END>
+
+#WRITE(PTR, $000006F6)
+One look at the displayed name makes me want to groan.
+<END>
+
+#WRITE(PTR, $00000714)
+It's Faris.
+<END>
+
+#WRITE(PTR, $00000732)
+I've said it many times, but I'm just not good with that catgirl.
+<END>
+
+#WRITE(PTR, $00000750)
+She always bewilders me with her words.
+<END>
+
+#WRITE(PTR, $0000076E)
+My instincts tell me not to answer the phone.
+<END>
+
+#WRITE(PTR, $00000A10)
+【Rintaro】It's Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00000A2C)
+【Faris】Nyao~n♪ It's Faris, nyan.
+<END>
+
+#WRITE(PTR, $00000A54)
+【Rintaro】Oh, it's you, Akiha Rumiho.
+<END>
+
+#WRITE(PTR, $00000A7A)
+【Faris】Nya? Who are you talking about nya?
+<END>
+
+#WRITE(PTR, $00000A96)
+Hm? But Faris' real name should be Akiha Rumiho.
+<END>
+
+#WRITE(PTR, $00000AA6)
+Gh, don't tell me, is this an effect of changing the past...?
+<END>
+
+#WRITE(PTR, $00000ACC)
+【Faris】Faris is Faris nya. I don't have any names other than that nya.
+<END>
+
+#WRITE(PTR, $00000AE8)
+【Rintaro】Yeah, yeah, sure. Your true name is Faris. My apologies.
+<END>
+
+#WRITE(PTR, $00000AF8)
+My surprise subsided. That's the sort of girl Faris is.
+<END>
+
+#WRITE(PTR, $00000B08)
+【Rintaro】And?
+<END>
+
+#WRITE(PTR, $00000B18)
+Getting a call from Faris might mean there's some progress in her getting that IBN 5100 for us.
+<END>
+
+#WRITE(PTR, $00000B28)
+But--
+<END>
+
+#WRITE(PTR, $00000B4E)
+【Faris】Kyouma's acting too conspicuously nya. The encircling net has already been spread nya.
+<END>
+
+#WRITE(PTR, $00000B6A)
+【Rintaro】Haah...?
+<END>
+
+#WRITE(PTR, $00000B7A)
+More of Faris' signature bullshit?
+<END>
+
+#WRITE(PTR, $00000BA0)
+【Faris】The Four Heavenly Kings have begun to move nya. It's too late to escape nyan.
+<END>
+
+#WRITE(PTR, $00000BBC)
+【Rintaro】Hehehe, I see. But don't believe that the Four Heavenly Kings can stop me. Akiba will turn to a sea of blood...
+<END>
+
+#WRITE(PTR, $00000BE2)
+【Faris】After the Four Heavenly Kings is the Under Big Four nya. After that, the Eight Heads, and the Black Angel Troupe also wait nya.
+<END>
+
+#WRITE(PTR, $00000BFE)
+【Rintaro】Th-there's that many!? They've inflated their group too much...
+<END>
+
+#WRITE(PTR, $00000C24)
+【Faris】It means they're just that serious nya... Kyouma, I'm sorry, but this is checkmate nyan.
+<END>
+
+#WRITE(PTR, $00000C40)
+【Rintaro】No, it's not over yet. As long... as I have -that-, I can turn the tides...!
+<END>
+
+#WRITE(PTR, $00000C50)
+【Rintaro】Have you yet to find information on the IBN 5100!?
+<END>
+
+#WRITE(PTR, $00000C76)
+【Faris】Nya~. Apawlogies. I gathered up information around the world, but still couldn't find it nya...
+<END>
+
+#WRITE(PTR, $00000C92)
+What, so she doesn't have any progress...?
+<END>
+
+#WRITE(PTR, $00000CA2)
+【Rintaro】Please hurry. I don't have any time left...
+<END>
+
+#WRITE(PTR, $00000CC8)
+【Faris】I knyow! When Faris finds it, she'll tell you nya. Kyouma, until then... don't die nyan.
+<END>
+
+#WRITE(PTR, $00000CE4)
+【Rintaro】Yeah, like hell I can die... El Psy Co--
+<END>
+
+#WRITE(PTR, $00000D7C)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000D8C)
+She hung up before I could finish.
+<END>
+
+#WRITE(PTR, $00000D9C)
+Dammit. That's why I hate talking to Faris.
+<END>
+
+#WRITE(PTR, $00000DB8)
+Well, let's just leave that aside.
+<END>
+
+#WRITE(PTR, $00000DCC)
+Anyway, even though I think I should answer it, my hand acts contrary to reason and refuses to move.
+<END>
+
+#WRITE(PTR, $00000E1A)
+My phone quiets down.
+<END>
+
+#WRITE(PTR, $00000E2A)
+I wipe the sweat off my brow in relief.
+<END>
+
+#WRITE(PTR, $00000E46)
+And, now Mayuri's phone rings.
+<END>
+
+#WRITE(PTR, $00000EF2)
+【Mayuri】Tutturu-, Mayushii here.
+<END>
+
+#WRITE(PTR, $00000F02)
+【Mayuri】Ah, Faris-chan. Good mornyan♪
+<END>
+
+#WRITE(PTR, $00000F1E)
+I twitch when I hear that name.
+<END>
+
+#WRITE(PTR, $00000F62)
+I make eye contact with Mayuri.
+<END>
+
+#WRITE(PTR, $00000F72)
+【Mayuri】Kyoumah? Ahh-, you mean Okarin-? Yup, he's here, wanna talk to him-?
+<END>
+
+#WRITE(PTR, $00000F82)
+I make an X with my hands and shake my head left and right.
+<END>
+
+#WRITE(PTR, $00000F9C)
+【Mayuri】Hmmhuh? Well-, it looks like he won't answer.
+<END>
+
+#WRITE(PTR, $00000FB6)
+【Mayuri】...yup. ...mmhmm.
+<END>
+
+#WRITE(PTR, $00000FD0)
+【Mayuri】Understood-. I'll tell him-. Byebye♪
+<END>
+
+#WRITE(PTR, $00000FF2)
+After Mayuri hangs up, I gallantly walk up to her.
+<END>
+
+#WRITE(PTR, $00001002)
+【Rintaro】Hm, thanks for taking the message, O Mayuri. What did Faris want?
+<END>
+
+#WRITE(PTR, $00001012)
+【Mayuri】Well, she said that the Four Heavenly Kings have assembled in Akiba, so be careful.
+<END>
+
+#WRITE(PTR, $00001022)
+What are the Four Heavenly Kings?
+<END>
+
+#WRITE(PTR, $00001032)
+No, there's no need to worry about it.
+<END>
+
+#WRITE(PTR, $00001042)
+It's just one of Faris' usual practical jokes.
+<END>
+
+#WRITE(PTR, $00001052)
+【Rintaro】Don't tell me that's all?
+<END>
+
+#WRITE(PTR, $00001062)
+【Mayuri】Nope. She also said she still hasn't found the IBN 5100. She said if she does find it, she'll contact you nyan.
+<END>
+
+#WRITE(PTR, $00001072)
+I see...
+<FILEEND13>
+

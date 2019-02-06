@@ -1,0 +1,1435 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000A3AA)
+
+#WRITE(PTR, $000003C4)
+We don't have time to indulge in sentimentality.
+<END>
+
+#WRITE(PTR, $000003D4)
+In just about an hour and a half, Moeka's group is going to attack the lab.
+<END>
+
+#WRITE(PTR, $000003E4)
+Before then, we need to retrieve the IBN 5100 that Suzuha leapt back to 1975 to obtain.
+<END>
+
+#WRITE(PTR, $000003F4)
+The circumference of Radio Kaikan is in chaos because of the time machine's light emanating disappearance, so it was easy to slip out.
+<END>
+
+#WRITE(PTR, $00000404)
+Suzuha said let's meet in 35 years.
+<END>
+
+#WRITE(PTR, $00000414)
+Most likely, the 54 year old Suzuha saw the current ruckus and realized her younger self had traveled to 1975. In that case, she'll come to the lab with the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000424)
+That's how things will go.
+<END>
+
+#WRITE(PTR, $000004C4)
+We couldn't find a middle aged lady anywhere near the lab.
+<END>
+
+#WRITE(PTR, $000004D4)
+It seems Suzuha hasn't come yet.
+<END>
+
+#WRITE(PTR, $000005A8)
+【Kurisu】Haah, whoo... whoo... ahh, so tough...
+<END>
+
+#WRITE(PTR, $000005B8)
+Kurisu's breath is short.
+<END>
+
+#WRITE(PTR, $000005C8)
+In contrast, Mayuri's calmly eating a banana.
+<END>
+
+#WRITE(PTR, $000005D8)
+The red numbers happen to fall into my line of sight.
+<END>
+
+#WRITE(PTR, $00000624)
+The displayed value is 0.337187％.
+<END>
+
+#WRITE(PTR, $00000634)
+...Divergence hasn't changed.
+<END>
+
+#WRITE(PTR, $00000644)
+That's expected since I didn't feel Reading Steiner at all.
+<END>
+
+#WRITE(PTR, $00000664)
+Let's think again.
+<END>
+
+#WRITE(PTR, $00000674)
+It seemed like Divergence would've changed the instant Suzuha obtained an IBN 5100 in 1975.
+<END>
+
+#WRITE(PTR, $00000684)
+Or maybe the timing of the value change is different than what I thought.
+<END>
+
+#WRITE(PTR, $00000694)
+Maybe it's the instant Suzuha hands me the IBN 5100?
+<END>
+
+#WRITE(PTR, $000006A4)
+Maybe it's the instant we hack SERN again and delete the mail data with our new IBN 5100?
+<END>
+
+#WRITE(PTR, $000006B4)
+At any rate, all we can do is wait for the now 54 year old Suzuha to bring us the IBN 5100.
+<END>
+
+#WRITE(PTR, $000006FC)
+【Itaru】By now, Suzuha's turned 54, right?
+<END>
+
+#WRITE(PTR, $0000070C)
+Daru, who had been hyperventilating a while ago, whispered such as his breathing calmed down.
+<END>
+
+#WRITE(PTR, $0000071C)
+【Itaru】My daughter is more than 30 years older than me, I don't know if I want to see that or not. Feels weird man.
+<END>
+
+#WRITE(PTR, $00000764)
+【Kurisu】On the contrary, it wouldn't be weird if she married and had grandchildren. Since she's 54.
+<END>
+
+#WRITE(PTR, $00000774)
+【Itaru】S-so basically, I could have great-grandchildren at this age? I don't know how I should feel...
+<END>
+
+#WRITE(PTR, $000007C4)
+【Mayuri】I think you should pretend to be a great-grandpa-.
+<END>
+
+#WRITE(PTR, $000007D4)
+【Itaru】Please, don't call me a great-grandpa...
+<END>
+
+#WRITE(PTR, $000007E4)
+While they have such idle chatter--
+<END>
+
+#WRITE(PTR, $00000812)
+The sound of knocking resounds from the door.
+<END>
+
+#WRITE(PTR, $00000822)
+54 year old Suzuha came to visit!
+<END>
+
+#WRITE(PTR, $00000832)
+I look at everyone's faces, half in expectation, half in anxiety, and open the door.
+<END>
+
+#WRITE(PTR, $00000842)
+Standing there is--
+<END>
+
+#WRITE(PTR, $0000092E)
+【Tennoji】Oh, Okabe.
+<END>
+
+#WRITE(PTR, $0000093E)
+A muscular middle age guy, completely different from an old woman.
+<END>
+
+#WRITE(PTR, $0000094E)
+Disappointed mood drifts about everyone.
+<END>
+
+#WRITE(PTR, $0000095E)
+【Rintaro】Oh, it's you...
+<END>
+
+#WRITE(PTR, $0000096E)
+【Tennoji】Hey, have you seen my part timer?
+<END>
+
+#WRITE(PTR, $0000097E)
+Manager peeks around inside the room.
+<END>
+
+#WRITE(PTR, $00000A86)
+【Mayuri】If you're looking for Suzu-san, she went 35 years--
+<END>
+
+#WRITE(PTR, $00000AA0)
+【Kurisu】Shaddup, Mayuri!
+<END>
+
+#WRITE(PTR, $00000AB0)
+Kurisu blocks Mayuri's mouth.
+<END>
+
+#WRITE(PTR, $00000B84)
+【Tennoji】You know anything? Where'd that girl go?
+<END>
+
+#WRITE(PTR, $00000B94)
+【Tennoji】She's been taking these past few days off, and I don't know when she's going to work next. She won't even answer her phone.
+<END>
+
+#WRITE(PTR, $00000BA4)
+Honestly speaking, we don't have time to talk to Manager.
+<END>
+
+#WRITE(PTR, $00000BB4)
+【Rintaro】She said she went back to her old home. I guess she's not coming back here.
+<END>
+
+#WRITE(PTR, $00000BCE)
+【Tennoji】Whaat? Is that so?
+<END>
+
+#WRITE(PTR, $00000BDE)
+【Tennoji】That brat... She didn't say a word to me, her employer...
+<END>
+
+#WRITE(PTR, $00000BEE)
+The future changed--
+<END>
+
+#WRITE(PTR, $00000BFE)
+That's what I think.
+<END>
+
+#WRITE(PTR, $00000C0E)
+At this day and time, Manager has yet to come visit our lab.
+<END>
+
+#WRITE(PTR, $00000C1E)
+It might be related to Suzuha's trip to 1975. I think it's a good sign.
+<END>
+
+#WRITE(PTR, $00000C2E)
+Now, as long as the attractor field doesn't amend history--
+<END>
+
+#WRITE(PTR, $00000C3E)
+Manager gives up looking around the room and turns to me.
+<END>
+
+#WRITE(PTR, $00000C58)
+【Tennoji】Well, whatever. The reason I'm visiting, Okabe, is because I have business with you.
+<END>
+
+#WRITE(PTR, $00000C68)
+【Rintaro】...with me?
+<END>
+
+#WRITE(PTR, $00000C78)
+Manager puts on a serious face as he hands me an envelope.
+<END>
+
+#WRITE(PTR, $00000C88)
+It's addressed to Okabe Rintaro so, me.
+<END>
+
+#WRITE(PTR, $00000C98)
+But there's no stamp, nor postmark.
+<END>
+
+#WRITE(PTR, $00000CA8)
+The name "Hashida Suzu" is written on the back.
+<END>
+
+#WRITE(PTR, $00000CB8)
+【Rintaro】What's this?
+<END>
+
+#WRITE(PTR, $00000CC8)
+【Tennoji】A letter from the person who I was indebted to. She asked me to give this to you today.
+<END>
+
+#WRITE(PTR, $00000CD8)
+【Rintaro】Eh...? Who's... it from?
+<END>
+
+#WRITE(PTR, $00000CE8)
+【Tennoji】I'd like to ask you that. How are you related to Suzu-san?
+<END>
+
+#WRITE(PTR, $00000CF8)
+Suzu-san.
+<END>
+
+#WRITE(PTR, $00000D08)
+I'm taken aback when Manager pronounces that name.
+<END>
+
+#WRITE(PTR, $00000D18)
+"Hashida Suzu"
+<END>
+
+#WRITE(PTR, $00000D28)
+If I look closely, isn't that surname the same as Daru's Hashida?
+<END>
+
+#WRITE(PTR, $00000D38)
+【Rintaro】Where is this woman now?
+<END>
+
+#WRITE(PTR, $00000D52)
+【Tennoji】Wha? No, she passed away ten years ago.
+<END>
+
+#WRITE(PTR, $00000D62)
+【Rintaro】Passed away...!?
+<END>
+
+#WRITE(PTR, $00000D72)
+She passed away...!?
+<END>
+
+#WRITE(PTR, $00000D82)
+I lose all hope.
+<END>
+
+#WRITE(PTR, $00000D92)
+【Rintaro】...How old was she?
+<END>
+
+#WRITE(PTR, $00000DA2)
+【Tennoji】Not more than 50.
+<END>
+
+#WRITE(PTR, $00000DB2)
+The age matches perfectly.
+<END>
+
+#WRITE(PTR, $00000DC2)
+【Rintaro】Thank you so much for passing this over, Mister Braun!
+<END>
+
+#WRITE(PTR, $00000ECA)
+【Mayuri】Eh? Eh? Could this be, from Suzu-san?
+<END>
+
+#WRITE(PTR, $00000EDA)
+【Itaru】Seriously? Why did Manager have it?
+<END>
+
+#WRITE(PTR, $00000EEA)
+Manager looks at our suspicious reaction faces.
+<END>
+
+#WRITE(PTR, $00000EFA)
+Since it's impossible for him to understand, he thanks us and leaves.
+<END>
+
+#WRITE(PTR, $00000F0A)
+I impatiently break the seal and examine the envelopes contents.
+<END>
+
+#WRITE(PTR, $00000F1A)
+Inside is a letter written in not quite legible writing.
+<END>
+
+#WRITE(PTR, $00000F2A)
+The handwriting is unstable, as if her hand were shaking.
+<END>
+
+#WRITE(PTR, $00000F3A)
+Everyone stares holes into the letter's contents.
+<END>
+
+#WRITE(PTR, $00001126)
+【Suzuha】To Okabe Rintaro
+<END>
+
+#WRITE(PTR, $00001278)
+【Suzuha】it's been a long time. It's Amane Suzuha. Hashida Titor's girl.
+<END>
+
+#WRITE(PTR, $000013D4)
+【Suzuha】For you, it might just have been a few hours ago.
+<END>
+
+#WRITE(PTR, $00001530)
+【Suzuha】Right now, it's AD 2000, June 13th.
+<END>
+
+#WRITE(PTR, $0000168C)
+【Suzuha】Meaning it's about 10 years before you'll read this.
+<END>
+
+#WRITE(PTR, $000017A6)
+【Suzuha】I'll just write the conclusion.
+<END>
+
+#WRITE(PTR, $000018C6)
+【Suzuha】Failedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailedfailed
+<END>
+
+#WRITE(PTR, $000019F0)
+【Suzuha】I failedfailedfailedfailedfailedfailedfailedfailedfailedfailed I failedfailed
+<END>
+
+#WRITE(PTR, $00001B4C)
+【Suzuha】Right now, it's AD 2000, June 14th.
+<END>
+
+#WRITE(PTR, $00001CA8)
+【Suzuha】It's about 9 years and 10 months before you'll read this.
+<END>
+
+#WRITE(PTR, $00001DC2)
+【Suzuha】I failed.
+<END>
+
+#WRITE(PTR, $00001F14)
+【Suzuha】I remembered I was me just a year ago.
+<END>
+
+#WRITE(PTR, $00002070)
+【Suzuha】The day the Great King of Terror came from the sky.
+<END>
+
+#WRITE(PTR, $000021CC)
+【Suzuha】Stupidstupid what's the Great King of Terror he should have come down from the sky.
+<END>
+
+#WRITE(PTR, $00002328)
+【Suzuha】For these 24 years, I had lost my memories.
+<END>
+
+#WRITE(PTR, $00002484)
+【Suzuha】All I could remember was my name.
+<END>
+
+#WRITE(PTR, $00002640)
+【Suzuha】I remembered just a year ago.
+<END>
+
+#WRITE(PTR, $0000279C)
+【Suzuha】The day the Great King of Terror was said to come down but didn't.
+<END>
+
+#WRITE(PTR, $000028F8)
+【Suzuha】The Great King of Terror's nowhere to be found, but I want to die.
+<END>
+
+#WRITE(PTR, $00002A22)
+【Suzuha】The imperfectly repaired time machine malfunctioned and when I leapt to 1975, I couldn't remember anything.
+<END>
+
+#WRITE(PTR, $00002A4C)
+【Suzuha】When I remembered it, my mind went blank and I didn't know what to do and I got institutionalized.
+<END>
+
+#WRITE(PTR, $00002B76)
+【Suzuha】Now I'm living alone, but that's as the brand new person, Hashida Suzu, living an ordinary life. Last year I remembered my mission as Amane Suzuha that I had completely forgotten.
+<END>
+
+#WRITE(PTR, $00002CA0)
+【Suzuha】FailedFailedFailedFailedFailedFailedFailedFailedFailedI fail.
+<END>
+
+#WRITE(PTR, $00002DCA)
+【Suzuha】For some reason, the time travel went badly Father's repair was incomplete but it's not Father's fault, it's my fault.
+<END>
+
+#WRITE(PTR, $00002EF4)
+【Suzuha】I should've leapt directly to 1975 I shouldn't have stopped over at 2010 I shouldn't have been so selfish now the future won't change.
+<END>
+
+#WRITE(PTR, $00003050)
+【Suzuha】I couldn't get an IBN 5100.
+<END>
+
+#WRITE(PTR, $0000316A)
+【Suzuha】I'm sorry.
+<END>
+
+#WRITE(PTR, $0000327A)
+【Suzuha】I'm so sorry.
+<END>
+
+#WRITE(PTR, $000033CC)
+【Suzuha】Why did I live this long?
+<END>
+
+#WRITE(PTR, $00003588)
+【Suzuha】I forgot my mission, and just lived carefree.
+<END>
+
+#WRITE(PTR, $000036E4)
+【Suzuha】This life was meaningless.
+<END>
+
+#WRITE(PTR, $00003840)
+【Suzuha】Meaningless. Meaningless. Meaningless.
+<END>
+
+#WRITE(PTR, $0000395A)
+【Suzuha】It's bad that I remembered.
+<END>
+
+#WRITE(PTR, $00003A6A)
+【Suzuha】It's good that I remembered.
+<END>
+
+#WRITE(PTR, $00003BBC)
+【Suzuha】It's good that I could apologize to you.
+<END>
+
+#WRITE(PTR, $00003D18)
+【Suzuha】ForgivemeForgivemeForgivemeForgivemeForgivemeForgiveme
+<END>
+
+#WRITE(PTR, $00003E74)
+【Suzuha】My plan failed.
+<END>
+
+#WRITE(PTR, $00003FD0)
+【Suzuha】I kept thinking about the cause for this entire year.
+<END>
+
+#WRITE(PTR, $000040EA)
+【Suzuha】Then I figured it out.
+<END>
+
+#WRITE(PTR, $0000420A)
+【Suzuha】If I didn't hesitate just one day to leap to 1975, this wouldn't have happened.
+<END>
+
+#WRITE(PTR, $00004324)
+【Suzuha】Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $00004444)
+【Suzuha】After that time machine offline meet, I tried to leap to 1975 but you detained me.
+<END>
+
+#WRITE(PTR, $000045A0)
+【Suzuha】I was really happy about that, but detaining me there was where it all failed.
+<END>
+
+#WRITE(PTR, $000046CA)
+【Suzuha】I should have leaped on that day. I shouldn't have missed that day.
+<END>
+
+#WRITE(PTR, $000047F4)
+【Suzuha】Since you detained me, the time machine broke from the rain that night.
+<END>
+
+#WRITE(PTR, $0000497E)
+【Suzuha】If I could turn back time, I wouldn't have let myself get detained that day.
+<END>
+
+#WRITE(PTR, $00004ADA)
+【Suzuha】Because then I could've gotten you guys the IBN 5100.
+<END>
+
+#WRITE(PTR, $00004BF4)
+【Suzuha】I could fulfill my mission.
+<END>
+
+#WRITE(PTR, $00004D04)
+【Suzuha】I want to fulfill my mission.
+<END>
+
+#WRITE(PTR, $00004E14)
+【Suzuha】Because I promised Father.
+<END>
+
+#WRITE(PTR, $00004F24)
+【Suzuha】Because it was Father's will.
+<END>
+
+#WRITE(PTR, $00005076)
+【Suzuha】Because I want to change the future.
+<END>
+
+#WRITE(PTR, $00005190)
+【Suzuha】I'm sorry.
+<END>
+
+#WRITE(PTR, $000052A0)
+【Suzuha】I'm sorry.
+<END>
+
+#WRITE(PTR, $000053BA)
+【Suzuha】I'm sorry.
+<END>
+
+#WRITE(PTR, $0000550C)
+【Suzuha】This life was meaningless.
+<END>
+
+#WRITE(PTR, $000055EC)
+Putting more strength into my grip, I inadvertently start crumpling the letter.
+<END>
+
+#WRITE(PTR, $000055FC)
+What's with this letter filled with despair...
+<END>
+
+#WRITE(PTR, $00005618)
+She said she failed? She said she lost her memories?
+<END>
+
+#WRITE(PTR, $00005628)
+She said the time machine wasn't properly fixed?
+<END>
+
+#WRITE(PTR, $00005638)
+She said she couldn't get the IBN 5100?
+<END>
+
+#WRITE(PTR, $00005648)
+She said her life was meaningless...?
+<END>
+
+#WRITE(PTR, $00005658)
+This... this is...
+<END>
+
+#WRITE(PTR, $00005668)
+All of the other members were speechless.
+<END>
+
+#WRITE(PTR, $000056B0)
+Especially Daru, whose face had turned pale, as if his previous excitement was a lie.
+<END>
+
+#WRITE(PTR, $000056C0)
+【Rintaro】Daru, didn't you... fix the time machine...?
+<END>
+
+#WRITE(PTR, $000056D0)
+【Itaru】It-It should've been fixed... It should've, but... I mean, that was my first time repairing a time machine... I might've overlooked something...
+<END>
+
+#WRITE(PTR, $000056E0)
+【Rintaro】Overlooked!? Because of that, your daughter lost her memories for 24 years, you know!?
+<END>
+
+#WRITE(PTR, $000056F0)
+【Itaru】It-it's not like I meant to overlook it...!
+<END>
+
+#WRITE(PTR, $00005738)
+【Kurisu】That's right. Calm down, you two. Hashida did everything he could. You're misplacing your anger.
+<END>
+
+#WRITE(PTR, $00005748)
+【Rintaro】How can you be so calm?
+<END>
+
+#WRITE(PTR, $00005758)
+【Kurisu】That's how I am. Sorry about that. Just calm down.
+<END>
+
+#WRITE(PTR, $00005768)
+【Rintaro】Gh...
+<END>
+
+#WRITE(PTR, $00005784)
+I understand. I understand that Daru did nothing wrong.
+<END>
+
+#WRITE(PTR, $00005794)
+But, this end is just too much...!
+<END>
+
+#WRITE(PTR, $000057EE)
+Just what was Suzuha feeling when she wrote this letter?
+<END>
+
+#WRITE(PTR, $000057FE)
+With wavering writing, wretchedness.
+<END>
+
+#WRITE(PTR, $0000580E)
+With a smile, longing.
+<END>
+
+#WRITE(PTR, $0000581E)
+But that was beyond her power.
+<END>
+
+#WRITE(PTR, $0000582E)
+10 years ago, Suzuha breathed her last breath.
+<END>
+
+#WRITE(PTR, $0000583E)
+...Why did she pass away?
+<END>
+
+#WRITE(PTR, $0000584E)
+Don't tell me...
+<END>
+
+#WRITE(PTR, $0000585E)
+Unpleasant thoughts cross my head.
+<END>
+
+#WRITE(PTR, $0000587E)
+That's right, Manager might know the circumstances.
+<END>
+
+#WRITE(PTR, $0000591E)
+I rush to the window and peek at the street below.
+<END>
+
+#WRITE(PTR, $0000592E)
+With perfect timing, Manager was closing up shop, just about to lock the workshop door.
+<END>
+
+#WRITE(PTR, $00005A4C)
+【Rintaro】Mister Braun!
+<END>
+
+#WRITE(PTR, $00005A5C)
+I rush downstairs as I call him.
+<END>
+
+#WRITE(PTR, $00005AA4)
+【Tennoji】Oh, Okabe. That Radio Kaikan satellite disappeared. Everyone's in an uproar.
+<END>
+
+#WRITE(PTR, $00005AB4)
+So it's already spread to the news, huh?
+<END>
+
+#WRITE(PTR, $00005AC4)
+【Rintaro】More importantly... please, tell me...
+<END>
+
+#WRITE(PTR, $00005AD4)
+【Tennoji】Hm? What?
+<END>
+
+#WRITE(PTR, $00005AE4)
+【Rintaro】Hashida Suzu-san... how did she die?
+<END>
+
+#WRITE(PTR, $00005AFE)
+【Tennoji】...Why do you want to know?
+<END>
+
+#WRITE(PTR, $00005B0E)
+Manager glares with sharp eyes.
+<END>
+
+#WRITE(PTR, $00005B1E)
+I take that glare straight on.
+<END>
+
+#WRITE(PTR, $00005B2E)
+【Rintaro】I... knew nothing about her death, until now.
+<END>
+
+#WRITE(PTR, $00005B3E)
+【Rintaro】I need, to know about her last moments. That's what I feel. I must. I need to engrave her last moments... into my heart...
+<END>
+
+#WRITE(PTR, $00005B4E)
+【Tennoji】...It doesn't look like you're just curious.
+<END>
+
+#WRITE(PTR, $00005B5E)
+【Tennoji】But, let me ask you one more time. How are you related to Suzu-san?
+<END>
+
+#WRITE(PTR, $00005B6E)
+【Rintaro】...An old, acquaintance.
+<END>
+
+#WRITE(PTR, $00005B7E)
+That's all I could answer.
+<END>
+
+#WRITE(PTR, $00005B8E)
+【Rintaro】She's a very old acquaintance, but I still clearly remember the fleeting time I spend with her...
+<END>
+
+#WRITE(PTR, $00005B9E)
+【Rintaro】So tell me... please...
+<END>
+
+#WRITE(PTR, $00005BAE)
+【Tennoji】I don't really want to say it though... Listen closely to what I'm about to say. Okay?
+<END>
+
+#WRITE(PTR, $00005BBE)
+I timidly nod.
+<END>
+
+#WRITE(PTR, $00005BCE)
+And the truth he tells me--
+<END>
+
+#WRITE(PTR, $00005BE8)
+【Tennoji】Suicide.
+<END>
+
+#WRITE(PTR, $00005C34)
+I jerk.
+<END>
+
+#WRITE(PTR, $00005C44)
+I crumble to my knees.
+<END>
+
+#WRITE(PTR, $00005C54)
+Suicide.
+<END>
+
+#WRITE(PTR, $00005C64)
+That word weighs heavily on my heart, almost breaking it.
+<END>
+
+#WRITE(PTR, $00005C74)
+【Tennoji】At home, she hung herself. I was the first discoverer.
+<END>
+
+#WRITE(PTR, $00005C84)
+This life was meaningless.
+<END>
+
+#WRITE(PTR, $00005C94)
+The last words of despair written in that letter.
+<END>
+
+#WRITE(PTR, $00005CA4)
+What that meant was a too cruel end without any salvation.
+<END>
+
+#WRITE(PTR, $00005CBE)
+【Tennoji】About a year before that, she was quite mentally unstable. Until then, she was a bright, gentle woman, though.
+<END>
+
+#WRITE(PTR, $00005CCE)
+【Tennoji】I lodged at her house...
+<END>
+
+#WRITE(PTR, $00005CDE)
+【Tennoji】Suzu-san had no relatives, and not many people came to her funeral. She was lonely...
+<END>
+
+#WRITE(PTR, $00005CEE)
+【Tennoji】Suzu-san handed me that letter a week before she died. She told me to give it to a young man named Okabe Rintaro today in 2010.
+<END>
+
+#WRITE(PTR, $00005CFE)
+【Tennoji】I thought Suzu-san might have had precognition. Once you moved in upstairs.
+<END>
+
+#WRITE(PTR, $00005D0E)
+That's enough.
+<END>
+
+#WRITE(PTR, $00005D1E)
+Just stop already.
+<END>
+
+#WRITE(PTR, $00005D2E)
+I try to stand up.
+<END>
+
+#WRITE(PTR, $00005D3E)
+I stumble without any strength in my legs.
+<END>
+
+#WRITE(PTR, $00005D4E)
+And then a small body supports my shoulder.
+<END>
+
+#WRITE(PTR, $00005D96)
+【Mayuri】Okarin, are you okay-?
+<END>
+
+#WRITE(PTR, $00005DB6)
+It was Mayuri.
+<END>
+
+#WRITE(PTR, $00005DC6)
+She's overdoing herself even though she has no strength.
+<END>
+
+#WRITE(PTR, $00005DD6)
+I wonder if Mayuri heard the story too.
+<END>
+
+#WRITE(PTR, $00005DE6)
+Her eyes are moist.
+<END>
+
+#WRITE(PTR, $00005DF6)
+But, even though her lips are wavering, she carries herself firmly.
+<END>
+
+#WRITE(PTR, $00005E06)
+Mayuri and I lightly bow to Manager and return to the lab.
+<END>
+
+#WRITE(PTR, $00005F2A)
+When we get back, Daru's in front of his computer at his wits' end.
+<END>
+
+#WRITE(PTR, $00005F72)
+Kurisu is standing while watching the news on TV.
+<END>
+
+#WRITE(PTR, $00005F82)
+The excited reporter is in front of Radio Kaikan.
+<END>
+
+#WRITE(PTR, $00005F92)
+The disappearance of the satellite became huge news.
+<END>
+
+#WRITE(PTR, $00005FA2)
+Nobody says anything.
+<END>
+
+#WRITE(PTR, $00005FB2)
+Only the sounds of the TV resound.
+<END>
+
+#WRITE(PTR, $00005FC2)
+I look on top of the table again.
+<END>
+
+#WRITE(PTR, $00006016)
+The Divergence Meter Suzuha left from the future. No matter how many times I look at it, its number stays at 0.337187％.
+<END>
+
+#WRITE(PTR, $00006026)
+What went wrong?
+<END>
+
+#WRITE(PTR, $00006036)
+I can't go back 10 years with the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00006046)
+That's why it's regrettably impossible to do anything about Suzuha's death.
+<END>
+
+#WRITE(PTR, $00006056)
+I shouldn't have let her go to 1975 after all.
+<END>
+
+#WRITE(PTR, $00006066)
+Then this tragedy wouldn't have happened.
+<END>
+
+#WRITE(PTR, $00006086)
+But--
+<END>
+
+#WRITE(PTR, $00006096)
+I compare the alternative again.
+<END>
+
+#WRITE(PTR, $000060A6)
+If Suzuha doesn't leap to 1975, Mayuri can't be saved.
+<END>
+
+#WRITE(PTR, $000060B6)
+If I time leap 2 days back again, could Daru fix it properly this time?
+<END>
+
+#WRITE(PTR, $000060C6)
+Is it possible to have it perfectly repaired?
+<END>
+
+#WRITE(PTR, $000060D6)
+Daru certainly is a supah hakah and an excellent man.
+<END>
+
+#WRITE(PTR, $000060E6)
+And that time machine was built by Daru himself 26 years in the future.
+<END>
+
+#WRITE(PTR, $000060F6)
+But at the same time.
+<END>
+
+#WRITE(PTR, $00006106)
+It's something that he can't make without those 26 years of accumulated knowledge-- including information from SERN's completed time machine.
+<END>
+
+#WRITE(PTR, $00006116)
+Maybe it's unreasonable to expect the current 19 year old Daru to perfectly repair it in just two days.
+<END>
+
+#WRITE(PTR, $00006126)
+In that case, can I have Daru use the Time Leap Machine and endlessly repeat those two days until he perfectly repairs it?
+<END>
+
+#WRITE(PTR, $00006136)
+No. In the end, nothing will physically change those two days.
+<END>
+
+#WRITE(PTR, $0000624C)
+I fall down onto the sofa and bury my face into my hands.
+<END>
+
+#WRITE(PTR, $0000625C)
+Mayuri sits next to me, gently rubbing my back.
+<END>
+
+#WRITE(PTR, $0000626C)
+I was thankful for her feelings.
+<END>
+
+#WRITE(PTR, $0000627C)
+This was written in Suzuha's letter:
+<END>
+
+#WRITE(PTR, $000062D6)
+"If I could turn back time, I wouldn't have let myself get detained that day".
+<END>
+
+#WRITE(PTR, $000062E6)
+...the D-mail I sent.
+<END>
+
+#WRITE(PTR, $000062F6)
+Is that the cause?
+<END>
+
+#WRITE(PTR, $00006316)
+I sent that D-mail to myself, and as a result, we followed Suzuha.
+<END>
+
+#WRITE(PTR, $00006326)
+When she couldn't meet her father, she tried to leap to 1975 that day, but we followed her and canceled that, so she stayed in 2010 for four more days.
+<END>
+
+#WRITE(PTR, $00006336)
+But during that time, the time machine was broken by a thunderstorm.
+<END>
+
+#WRITE(PTR, $00006346)
+If I didn't pursue Suzuha.
+<END>
+
+#WRITE(PTR, $00006356)
+If I didn't send that D-mail.
+<END>
+
+#WRITE(PTR, $00006366)
+Suzuha would have safely gone to 1975 in her unbroken time machine.
+<END>
+
+#WRITE(PTR, $00006376)
+So basically, if I "cancel" that D-mail--
+<END>
+
+#WRITE(PTR, $00006386)
+But, is that okay?
+<END>
+
+#WRITE(PTR, $00006396)
+If we don't detain Suzuha, isn't that the same as undoing the four days we spent together?
+<END>
+
+#WRITE(PTR, $000063F0)
+That Suzuha and I wandered around searching for the pin badge.
+<END>
+
+#WRITE(PTR, $00006496)
+That Suzuha said she was thankful for being a lab mem.
+<END>
+
+#WRITE(PTR, $0000653C)
+That Suzuha reunited with her father, Daru.
+<END>
+
+#WRITE(PTR, $0000655C)
+Canceling the D-mail means erasing all of those facts.
+<END>
+
+#WRITE(PTR, $0000656C)
+I--
+<END>
+
+#WRITE(PTR, $0000657C)
+What should I do?
+<END>
+
+#WRITE(PTR, $000066B2)
+An urgent newsflash resounds from the TV.
+<END>
+
+#WRITE(PTR, $000066C2)
+I raise my face in surprise.
+<END>
+
+#WRITE(PTR, $000066D2)
+The subtitles read Terrorist Bomb Threat Suspends Yamate, Sobu, Keihin-Tohoku Lines.
+<END>
+
+#WRITE(PTR, $000066E2)
+So I don't have any time to think...
+<END>
+
+#WRITE(PTR, $000066F2)
+If I don't hurry, Moeka's going to attack here.
+<END>
+
+#WRITE(PTR, $00006702)
+I don't have any time to hesitate.
+<END>
+
+#WRITE(PTR, $00006818)
+I rush out of the lab, kick down the closed Braun Tube Workshop's door, and turn on the 42in Braun tube TV.
+<END>
+
+#WRITE(PTR, $00006936)
+I return to the lab and face the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $0000697E)
+【Kurisu】Okabe, what are you doing!?
+<END>
+
+#WRITE(PTR, $0000698E)
+Kurisu anxiously watches over my actions.
+<END>
+
+#WRITE(PTR, $0000699E)
+【Rintaro】I need to do something. We can't just leave things as they are...!
+<END>
+
+#WRITE(PTR, $000069AE)
+【Kurisu】Okabe...
+<END>
+
+#WRITE(PTR, $000069F6)
+【Mayuri】Okarin, you can't overdo yourself...
+<END>
+
+#WRITE(PTR, $00006A06)
+Don't stop me.
+<END>
+
+#WRITE(PTR, $00006A16)
+Please don't stop me.
+<END>
+
+#WRITE(PTR, $00006A26)
+I have two options.
+<END>
+
+#WRITE(PTR, $00006A36)
+The D-mail I sent to myself to pursue Suzuha. I can send another mail to myself to cancel it.
+<END>
+
+#WRITE(PTR, $00006A46)
+Or I could time leap and prevent Suzuha from time traveling.
+<END>
+
+#WRITE(PTR, $00006A56)
+No, no need to hesitate.
+<END>
+
+#WRITE(PTR, $00006A66)
+I can't hesitate.
+<END>
+
+#WRITE(PTR, $00006A76)
+Hesitation is unforgivable.
+<END>
+
+#WRITE(PTR, $00006AA0)
+There's only one option I can take.
+<END>
+
+#WRITE(PTR, $00006BAA)
+Cancel pursu
+<END>
+
+#WRITE(PTR, $00006C48)
+it. Last mai
+<END>
+
+#WRITE(PTR, $00006CE6)
+l=SERNs trap
+<END>
+
+#WRITE(PTR, $00006CF6)
+I type that into the mail input screen.
+<END>
+
+#WRITE(PTR, $00006D06)
+With this, the me back then should cancel the pursuit.
+<END>
+
+#WRITE(PTR, $00006D58)
+【Rintaro】Kurisu. You have a special skill of remembering dates accurately, right?
+<END>
+
+#WRITE(PTR, $00006D72)
+【Kurisu】Eh? Ehh, I guess.
+<END>
+
+#WRITE(PTR, $00006D82)
+【Rintaro】When did we hold Suzuha's encouragement meeting?
+<END>
+
+#WRITE(PTR, $00006D9C)
+【Kurisu】Four days ago. August 9th.
+<END>
+
+#WRITE(PTR, $00006DAC)
+【Mayuri】Okarin, are you sending a D-mail-? But if you do that, everything's going to disappear, right?
+<END>
+
+#WRITE(PTR, $00006DC8)
+That I walked around Tokyo with Suzuha looking for the pin badge.
+<END>
+
+#WRITE(PTR, $00006DD8)
+And the memories Suzuha told us about.
+<END>
+
+#WRITE(PTR, $00006DE8)
+And the father and daughter reunion derived from Mayuri's detective work.
+<END>
+
+#WRITE(PTR, $00006DF8)
+All of that will disappear.
+<END>
+
+#WRITE(PTR, $00006E08)
+I know. I know that all very well.
+<END>
+
+#WRITE(PTR, $00006E18)
+But this is the only thing I can do.
+<END>
+
+#WRITE(PTR, $00006E28)
+I set the microwave timer to 120 hours ago.
+<END>
+
+#WRITE(PTR, $00006E38)
+With this, I can send the mail to just a few hours after I got the first mail to pursue Suzuha.
+<END>
+
+#WRITE(PTR, $00006EAA)
+Then I just need to send the mail.
+<END>
+
+#WRITE(PTR, $00006ED0)
+My goal is to save Mayuri.
+<END>
+
+#WRITE(PTR, $00006EF6)
+I don't care what I have to sacrifice, if it's all for the cause.
+<END>
+
+#WRITE(PTR, $00006F1C)
+I've time leaped here countless times; all for the cause.
+<END>
+
+#WRITE(PTR, $00006F42)
+Our memories with Suzuha will disappear. Our relationship with her will be torn apart.
+<END>
+
+#WRITE(PTR, $00006F68)
+Send the D-mail...!
+<END>
+
+#WRITE(PTR, $00006F8E)
+Just press the Send button...!
+<END>
+
+#WRITE(PTR, $00006FB4)
+Then you'll undo Suzuha's 25 years of isolation. You'll save Mayuri too.
+<END>
+
+#WRITE(PTR, $00006FDA)
+This is the right thing.
+<END>
+
+#WRITE(PTR, $00007000)
+This is.
+<END>
+
+#WRITE(PTR, $00007026)
+The right thing.
+<END>
+
+#WRITE(PTR, $0000704C)
+...or is it?
+<END>
+
+#WRITE(PTR, $00007072)
+Is erasing Suzuha's memories really the right thing?
+<END>
+
+#WRITE(PTR, $00007098)
+Or is it just running away from reality?
+<END>
+
+#WRITE(PTR, $000070BE)
+Shouldn't I examine other options, like calling up the Microwave Ophone (Temp) and time leaping again?
+<END>
+
+#WRITE(PTR, $000070E4)
+Which one is best?
+<END>
+
+#WRITE(PTR, $0000710A)
+Which one is right?
+<END>
+
+#WRITE(PTR, $00007130)
+Not good, I'm starting to hesitiate.
+<END>
+
+#WRITE(PTR, $00007156)
+This is no time for hesitation!
+<END>
+
+#WRITE(PTR, $0000717C)
+I can't find an answer.
+<END>
+
+#WRITE(PTR, $000071A2)
+But I need to reach a conclusion.
+<END>
+
+#WRITE(PTR, $000071C8)
+I--
+<END>
+
+#WRITE(PTR, $000073E2)
+I started up the microwave.
+<END>
+
+#WRITE(PTR, $000075D0)
+The electrical discharge phenomenom starts immediately.
+<END>
+
+#WRITE(PTR, $000075E0)
+I place my thumb.
+<END>
+
+#WRITE(PTR, $000075F0)
+On the Send button--
+<END>
+
+#WRITE(PTR, $00007638)
+【Mayuri】Is this okay!?
+<END>
+
+#WRITE(PTR, $00007648)
+【Mayuri】Our memories with Suzu-san... will all disappear, you know-? Is that really okay-?
+<END>
+
+#WRITE(PTR, $00007658)
+Mayuri appeals to me while in tears.
+<END>
+
+#WRITE(PTR, $00007668)
+In my mind, I recall many of my memories with Suzuha.
+<END>
+
+#WRITE(PTR, $0000775E)
+【Suzuha】Being with you guys for even just a little while... was great.
+<END>
+
+#WRITE(PTR, $000077F4)
+【Suzuha】I'll be sure to accomplish what you tried to do, father...
+<END>
+
+#WRITE(PTR, $00007820)
+【Suzuha】Well then, let's meet in 35 years. Ah, for you guys, maybe a few hours, huh. Ahaha.
+<END>
+
+#WRITE(PTR, $0000784C)
+【Suzuha】...Please. I want to change the future.
+<END>
+
+#WRITE(PTR, $00007A9A)
+I'm erasing everything.
+<END>
+
+#WRITE(PTR, $00007AAA)
+I won't ask for forgiveness.
+<END>
+
+#WRITE(PTR, $00007ABA)
+This is, after all, for the sake of saving Mayuri.
+<END>
+
+#WRITE(PTR, $00007ACA)
+But, I am taking over Suzuha's will.
+<END>
+
+#WRITE(PTR, $00007ADA)
+For the sake of the dream you entrusted me. Your wish to change the future.
+<END>
+
+#WRITE(PTR, $00007AEA)
+That's why I'm erasing our memories with you--
+<END>
+
+#WRITE(PTR, $00007BE6)
+WD07.PMF
+<END2>
+
+#WRITE(PTR, $0000802A)
+I can't...
+<END>
+
+#WRITE(PTR, $0000803A)
+I can't send.
+<END>
+
+#WRITE(PTR, $0000804A)
+I can't send this D-mail...
+<END>
+
+#WRITE(PTR, $0000805A)
+Instead, I impulsively don the headgear.
+<END>
+
+#WRITE(PTR, $0000806A)
+ I set the Microwave Ophone (Temp)'s timer to the time leap limit of 48 hours.
+<END>
+
+#WRITE(PTR, $0000807A)
+I just configure the Time Leap Machine to transfer to my cellphone.
+<END>
+
+#WRITE(PTR, $000082DC)
+【Kurisu】Do you have a plan?
+<END>
+
+#WRITE(PTR, $000082EC)
+Kurisu asks, but I ignored her.
+<END>
+
+#WRITE(PTR, $000083FE)
+I bite down on my lip while pressing the Call button--
+<END>
+
+#WRITE(PTR, $0000873C)
+TL12.PMF
+<FILEENDAC>
+

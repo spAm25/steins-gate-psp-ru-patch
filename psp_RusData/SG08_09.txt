@@ -1,0 +1,463 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00002DDC)
+
+#WRITE(PTR, $00000254)
+【Mayuri】Ah, tutturu-. Welcome homekarin.
+<END>
+
+#WRITE(PTR, $00000264)
+【Itaru】Die, normalfag.
+<END>
+
+#WRITE(PTR, $00000274)
+When I come back to the lab, I'm greeted by Mayuri's smiling face, and Daru's gaze filled with pure anger.
+<END>
+
+#WRITE(PTR, $00000296)
+【Itaru】Who would've thought that our pretentious hipster Okarin would get a girlfriend? I'm not even <DICT>jelly</DICT>...
+<END>
+
+#WRITE(PTR, $000002A6)
+【Mayuri】How'd your date with Luka-chan go-?
+<END>
+
+#WRITE(PTR, $000002B6)
+【Rintaro】Well, it was sort of... a Stage Clear, I guess.
+<END>
+
+#WRITE(PTR, $000002C6)
+I felt it wasn't.
+<END>
+
+#WRITE(PTR, $000003B6)
+【Mayuri】Hey, hey, the day after tomorrow is ComiMa, so do you think Luka-chan and Okarin could come as a cosplay couple-?
+<END>
+
+#WRITE(PTR, $0000045A)
+【Mayuri】I kinda want Okarin to persuade Luka-chan as her boyfriend-
+<END>
+
+#WRITE(PTR, $000004FE)
+【Mayuri】No matter how many times Mayushii asks, she never once said OK. To cosplay.
+<END>
+
+#WRITE(PTR, $000005AC)
+【Mayuri】But if lovey-dovey Okarin asks her, then I'm sure she'll say OK-
+<END>
+
+#WRITE(PTR, $00000650)
+【Rintaro】I refuse.
+<END>
+
+#WRITE(PTR, $000006FE)
+【Mayuri】Eh-? Why-?
+<END>
+
+#WRITE(PTR, $000007A2)
+Because ComiMa is on the 15th.
+<END>
+
+#WRITE(PTR, $00000846)
+Mayuri's death is on the night of the 15th.
+<END>
+
+#WRITE(PTR, $000008EA)
+Just how would our faces look if we cosplayed at ComiMa on such a day...
+<END>
+
+#WRITE(PTR, $0000098E)
+【Rintaro】To be honest, I don't understand at all how dates can be fun.
+<END>
+
+#WRITE(PTR, $00000A3C)
+【Itaru】Geh!? Okarin, you, those words you said make you the enemy of virgin gentlemen the world over! Apologize! Apologize to the virgins!
+<END>
+
+#WRITE(PTR, $00000AE0)
+【Rintaro】Just think about it. All you do is fuss over your partner, take a boring walk together, eat, and go home.
+<END>
+
+#WRITE(PTR, $00000B84)
+【Rintaro】So? What's fun about that?
+<END>
+
+#WRITE(PTR, $00000C32)
+【Mayuri】...Okarin. If you say that, it'll make Luka-chan sad-
+<END>
+
+#WRITE(PTR, $00000CD6)
+Mayuri says that with an unusually serious expression.
+<END>
+
+#WRITE(PTR, $00000D7A)
+【Mayuri】Just being with the one she likes... is a girl's happiness, you know? That alone is enough, you know?
+<END>
+
+#WRITE(PTR, $00000E28)
+【Mayuri】Is it not like that for boys...?
+<END>
+
+#WRITE(PTR, $00000ECC)
+【Mayuri】Then... that makes Mayushii lonely.
+<END>
+
+#WRITE(PTR, $00000F70)
+I don't really get how that makes Mayuri lonely, though...
+<END>
+
+#WRITE(PTR, $0000101E)
+【Itaru】Okarin's in the minority. Anyway, dates have tons of erotic events.
+<END>
+
+#WRITE(PTR, $000010C2)
+【Rintaro】You're a real dunce, huh.
+<END>
+
+#WRITE(PTR, $00001170)
+【Itaru】What are you talking about!? Holding hands and stuff, that's seriously erotic, right? When you're linking arms and her boob hits your elbow, isn't that just too erotic!?
+<END>
+
+#WRITE(PTR, $0000121E)
+【Itaru】And then at the end of the date, you kiss, right!? Goddammit! You stupid normalfag!
+<END>
+
+#WRITE(PTR, $000012C2)
+【Rintaro】You play too much eroge.
+<END>
+
+#WRITE(PTR, $00001370)
+【Mayuri】Hey, hey. When did Luka-chan fall in love with Okarin-?
+<END>
+
+#WRITE(PTR, $00001414)
+【Rintaro】When? Well...
+<END>
+
+#WRITE(PTR, $000015AA)
+【Luka】It really surprised me, but... but back then, when you said "That doesn't matter"... it really made me happy.
+<END>
+
+#WRITE(PTR, $0000166A)
+【Luka】Ever since you said those words...
+<END>
+
+#WRITE(PTR, $0000170E)
+【Luka】I've liked you...
+<END>
+
+#WRITE(PTR, $00001810)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000018B4)
+I try remembering again.
+<END>
+
+#WRITE(PTR, $00001958)
+Something still feels off.
+<END>
+
+#WRITE(PTR, $000019FC)
+Something's strange.
+<END>
+
+#WRITE(PTR, $00001AA0)
+My words: "That doesn't matter".
+<END>
+
+#WRITE(PTR, $00001B44)
+Didn't I say those words with the assumption that Lukako is a guy?
+<END>
+
+#WRITE(PTR, $00001BE8)
+【Rintaro】...Right, that's right. Weird.
+<END>
+
+#WRITE(PTR, $00001C8C)
+I finally notice what felt out of place.
+<END>
+
+#WRITE(PTR, $00001D30)
+In this world line where Lukako is a girl, why would Lukako remember what I said back then?
+<END>
+
+#WRITE(PTR, $00001DD4)
+Then I suddenly remember what happened with Faris.
+<END>
+
+#WRITE(PTR, $00001F64)
+【Faris】...I remember nya!
+<END>
+
+#WRITE(PTR, $00002024)
+【Faris】The wish Faris granted was--
+<END>
+
+#WRITE(PTR, $000020C8)
+【Faris】...to revive Papa who died 10 years ago nya.
+<END>
+
+#WRITE(PTR, $000021BE)
+I see. Faris remembered her memories from before she changed the past, before she sent the D-mail, didn't she?
+<END>
+
+#WRITE(PTR, $00002262)
+Then does that mean that Lukako remembered the past-- before she changed genders?
+<END>
+
+#WRITE(PTR, $00002306)
+That would explain everything.
+<END>
+
+#WRITE(PTR, $000023AA)
+But--
+<END>
+
+#WRITE(PTR, $0000244E)
+She has that memory, yet she said she liked me for it, so then...
+<END>
+
+#WRITE(PTR, $000024F2)
+Did Lukako like me even when he was a guy...?
+<END>
+
+#WRITE(PTR, $000025A8)
+It looks like I need to confirm this.
+<END>
+
+#WRITE(PTR, $000026FC)
+The next morning.
+<END>
+
+#WRITE(PTR, $0000270C)
+I head to the shrine to meet with Lukako.
+<END>
+
+#WRITE(PTR, $00002754)
+Lukako was already in the grounds, waiting. When she sees me, she smiles and waves her hand.
+<END>
+
+#WRITE(PTR, $00002764)
+Mmmm, cruelly cute as always.
+<END>
+
+#WRITE(PTR, $0000277E)
+【Luka】Good morning.
+<END>
+
+#WRITE(PTR, $0000278E)
+【Rintaro】Ahh, yeah.
+<END>
+
+#WRITE(PTR, $0000279E)
+【Luka】Where are we going... today?
+<END>
+
+#WRITE(PTR, $000027AE)
+【Rintaro】More importantly, Lukako.
+<END>
+
+#WRITE(PTR, $000027BE)
+【Luka】Yes?
+<END>
+
+#WRITE(PTR, $000027CE)
+I make up my mind and just throw out the question.
+<END>
+
+#WRITE(PTR, $000027DE)
+【Rintaro】Do you still have any memories of when you were a guy?
+<END>
+
+#WRITE(PTR, $000027F8)
+【Luka】...
+<END>
+
+#WRITE(PTR, $00002808)
+Lukako twitches for a moment.
+<END>
+
+#WRITE(PTR, $00002818)
+And then hangs her head.
+<END>
+
+#WRITE(PTR, $00002828)
+【Luka】N-no, I don't...
+<END>
+
+#WRITE(PTR, $00002838)
+【Rintaro】Really?
+<END>
+
+#WRITE(PTR, $00002848)
+I try asking, but Lukako stiffly nods.
+<END>
+
+#WRITE(PTR, $00002858)
+If I put out a firm attitude, I can make her talk.
+<END>
+
+#WRITE(PTR, $00002868)
+But the contents of the manual burn inside my head.
+<END>
+
+#WRITE(PTR, $00002878)
+Doing things that make the girl sad is absolutely no good! You might get dumped!
+<END>
+
+#WRITE(PTR, $00002888)
+If I get dumped, then what will happen to our 4-day lover agreement?
+<END>
+
+#WRITE(PTR, $00002898)
+If it's invalidated, then Lukako might not go back to being a guy.
+<END>
+
+#WRITE(PTR, $000028A8)
+...No, Lukako's not that sort of jerk.
+<END>
+
+#WRITE(PTR, $000028B8)
+Mayuri's life hangs in the balance, so I'm sure that no matter what I say, she'll go back.
+<END>
+
+#WRITE(PTR, $000028C8)
+That way of thinking is kind of naive, isn't it?
+<END>
+
+#WRITE(PTR, $000028D8)
+But most importantly--
+<END>
+
+#WRITE(PTR, $000028E8)
+Although I'm doing this to save Mayuri, it's not like I can just trample over Lukako's pure maidenly heart.
+<END>
+
+#WRITE(PTR, $000028F8)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002912)
+【Luka】......
+<END>
+
+#WRITE(PTR, $00002922)
+Lukako, and I.
+<END>
+
+#WRITE(PTR, $00002932)
+Are unable to weave any words.
+<END>
+
+#WRITE(PTR, $00002942)
+Mutual distrust? Suspicion? Discomfort?
+<END>
+
+#WRITE(PTR, $00002952)
+If I say something--
+<END>
+
+#WRITE(PTR, $00002962)
+If I just say something--
+<END>
+
+#WRITE(PTR, $00002972)
+Our temporary relationship feels like it could break at any moment.
+<END>
+
+#WRITE(PTR, $00002982)
+A suffocating silence surrounds us.
+<END>
+
+#WRITE(PTR, $00002992)
+【Luka】...I'm sorry.
+<END>
+
+#WRITE(PTR, $000029A2)
+【Luka】Let's cancel... today's date...
+<END>
+
+#WRITE(PTR, $000029BE)
+Lukako bows her head and goes back into the shrine office.
+<END>
+
+#WRITE(PTR, $000029CE)
+I feel guilty that I hurt her.
+<END>
+
+#WRITE(PTR, $000029DE)
+And at the same time, I'm relieved at my unpleasant feelings.
+<END>
+
+#WRITE(PTR, $00002B16)
+Without returning to the lab, I stand on the bridge in front of the station, blankly watching the stream of people.
+<END>
+
+#WRITE(PTR, $00002B26)
+Faris might be visiting the lab.
+<END>
+
+#WRITE(PTR, $00002B36)
+Because, right after I came to this world line, Faris was at the lab today.
+<END>
+
+#WRITE(PTR, $00002B46)
+Since my actions shouldn't have influenced Mayuri's, she should've called Faris over to look at her cosplays.
+<END>
+
+#WRITE(PTR, $00002B56)
+I don't want to see anybody right now.
+<END>
+
+#WRITE(PTR, $00002B66)
+I suffer alone, on the overpass.
+<END>
+
+#WRITE(PTR, $00002B76)
+In the end, no matter how much I use my brain, I can't think of a good idea.
+<END>
+
+#WRITE(PTR, $00002B86)
+Lukako said "If we become temporary lovers, then I'm okay with going back to being a guy". I've stayed faithful to that, so--
+<END>
+
+#WRITE(PTR, $00002B96)
+Faithful? How?
+<END>
+
+#WRITE(PTR, $00002BA6)
+I just made a huge mistake back there.
+<END>
+
+#WRITE(PTR, $00002BB6)
+I've done nothing but make Lukako sad.
+<END>
+
+#WRITE(PTR, $00002BC6)
+Tomorrow...
+<END>
+
+#WRITE(PTR, $00002BD6)
+Tomorrow is the 15th. The same day ComiMa opens; the same day Mayuri dies.
+<END>
+
+#WRITE(PTR, $00002BE6)
+At the very least, I need to make our relationship last until that evening.
+<END>
+
+#WRITE(PTR, $00002BF6)
+Tomorrow is the end.
+<END>
+
+#WRITE(PTR, $00002C06)
+But I'm not confident I can give Lukako a fun time as a lover.
+<END>
+
+#WRITE(PTR, $00002C16)
+Alright. Instead of fussing over a date, I'll just try something that won't make Lukako sad.
+<FILEEND77>
+

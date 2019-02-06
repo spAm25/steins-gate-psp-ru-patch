@@ -1,0 +1,297 @@
+<PRE @box00>[text00010]
+Расставшись с Моэкой, я пошёл в ПК-магазин, чтобы расспросить продавца об IBN 5100.
+
+Но продавец, похоже, не знает, где IBN 5100.
+
+Около 10 лет назад в подпольных магазинах можно было найти старые компьютеры.
+
+Но после недавнего бума моэ количество таких магазинов сократилось.
+
+Значит, пока я не смогу сказать Моэке что-то новое...
+
+Потому что я тоже не знаю, где искать, хотя ищу всего второй день.
+
+Интернет-аукцион кажется более перспективным, чем вся эта суета с поиском в Акихабаре.
+
+Я почему-то вспомнил тот звонок Маюри перед тем, как я встретился с Моэкой.
+
+Маюри редко сама звонит мне. Обычно я звоню ей.
+
+Интересно, зачем она звонила?
+
+</PRE>
+
+<PRE @box00>[text00020]
+Может, позвонить ей?
+
+</PRE>
+
+<PRE @box00>[text00030]
+Но где она сейчас?
+
+</PRE>
+
+<PRE @box00>[text00040]
+Она, кажется, на работе.
+
+</PRE>
+
+<PRE @box00>[text00050]
+Если так, то, наверное, ей некогда отвечать на звонки...
+
+</PRE>
+
+<PRE @box01>[text00060]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0224" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Туттуру~♪ Маюши слушает."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00070]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0920" mode="on">
+"Это я. Как обстановка?"
+
+</PRE>
+
+<PRE @box01>[text00080]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0225" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ах, это Окарин!"</FONT>
+
+</PRE>
+
+<PRE @box01>[text00090]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0226" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я только что звонила тебе!.."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00100]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0921" mode="on">
+"Да. Что-то произошло?"
+
+</PRE>
+
+<PRE @box01>[text00110]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0227" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ну позвони Дару-куну."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0922" mode="on">
+"Ха? Зачем?"
+
+</PRE>
+
+<PRE @box01>[text00130]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0228" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Дару-кун пошёл MayQueen. И я хочу, чтобы ты ему позвонил. Потом поймёшь."</FONT>
+
+</PRE>
+
+<PRE @box01>[text00140]
+<voice name="Маюри" class="VID_MAY" src="voice/MAY_0229" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ну пока!"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00150]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0923" mode="on">
+"Подожди! Эй, Маюри! Эй!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0924" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text00160]
+Она положила трубку.
+
+Не похоже, что она собиралась мне что-то объяснять.
+
+Даже если я перезвоню, Маюри наверняка снова скажет позвонить Дару.
+
+</PRE>
+
+<PRE @box00>[text00170]
+Ну хорошо, так и сделаю.
+
+</PRE>
+
+<PRE @box00>[text00180]
+"Вот чёрт."
+
+</PRE>
+
+<PRE @box00>[text00190]
+Я позвонил кому-то другому.
+
+</PRE>
+
+<PRE @box01>[text00200]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0343" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Слушаю."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00210]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0925" mode="on">
+"Это я. Доложи обстановку."
+
+</PRE>
+
+<PRE @box01>[text00220]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0344" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ох, так и знал, что это ты, Окарин. Маю-ши тебе рассказала?"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0926" mode="on">
+"Нет, ничего не рассказала."
+
+</PRE>
+
+<PRE @box01>[text00240]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0345" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ну, я сейчас в MayQueen."</FONT>
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0346" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Маю-ши кое-что раскопала. Похоже, Фейрис-тан знает об IBN 5100."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00250]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0927" mode="on">
+"Что?!.. Фейрис?!"
+
+Только не говорите, что она и IBN 5100 связаны.
+
+Я даже не могу этого представить.
+
+</PRE>
+
+<PRE @box01>[text00260]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0347" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я понимаю, почему ты сомневаешься, но у неё дома целая куча старых компьютеров."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00270]
+Неожиданные хорошие новости.
+
+Теперь я ближе к своей цели.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0928" mode="on">
+"И это тоже выбор Врат Штейна!"
+
+</PRE>
+
+<PRE @box01>[text00280]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0348" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Я ничего не понял."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00290]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0929" mode="on">
+"Итак, Фейрис там?"
+
+</PRE>
+
+<PRE @box01>[text00300]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0349" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Конечно. Сегодня же «Кубок Фейрис»."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00310]
+"Кубок Фейрис"?
+
+Что это? Кажется, я слышал что-то об этом, но не уделил внимания.
+
+</PRE>
+
+<PRE @box01>[text00320]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0350" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Когда я показал Фейрис изображение IBN 5100, она сказала, что пожертвовала такой ПК в храм около 10-ти лет назад. Хотя я не уверен, что это тот же самый комп."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00330]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0930" mode="on">
+"В... храм?"
+
+Неожиданное сочетание.
+
+Компьютер и храм. Бытовая электроника и древний синтоизм.
+
+Они даже косвенно не связаны.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0931" mode="on">
+"В какой храм?"
+
+</PRE>
+
+<PRE @box01>[text00340]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0351" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ах, я не спросил. Прости."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00350]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0932" mode="on">
+"Ну ладно. Хоть какая-то подсказка."
+
+Если говорить о храмах Акибы, то это Канда Мёдзин и храм Янабаяши.
+
+Я не знаю, в каком из храмов находится компьютер, значит, придётся посетить их оба.
+
+</PRE>
+
+<PRE @box01>[text00360]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0352" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Ну, я вешаю трубку. «Кубок Фейрис» вот-вот начнётся."</FONT>
+
+</PRE>
+
+<PRE @box00>[text00370]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_0933" mode="on">
+"Ясно. Дару, я уверен, ты сможешь победить."
+
+</PRE>
+
+<PRE @box01>[text00380]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0353" mode="on">
+<FONT incolor="#000000" outcolor="#DDDDDD">"Предоставь это мне!"</FONT>
+
+</PRE>
+
+<PRE @box00>[text00390]
+И зачем тебе вообще этот «Кубок Фейрис»?
+
+Ну ладно. Сейчас надо сосредоточиться на храмах.
+
+</PRE>
+
+<PRE @box00>[text00400]
+Тогда я не буду звонить, а напишу письмо.
+
+</PRE>
+
+<PRE @box00>[text00410]
+Я отправляю его и получаю ответ через несколько минут.
+
+</PRE>
+
+<PRE @box00>[text00420]
+Полагаю, этого достаточно.
+
+Почему она просит связаться с Дару?
+
+Что бы это значило?
+
+Я не понимаю, чего хочет Маюри, но всё равно звоню Дару.
+
+</PRE>
+

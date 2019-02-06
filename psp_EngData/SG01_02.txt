@@ -1,0 +1,491 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001874)
+
+#WRITE(PTR, $000007F2)
+【Rintaro】Gone...
+<END>
+
+#WRITE(PTR, $00000802)
+After I left the Radio Center I witnessed a strange phenomenon in which every person walking down the streets of Akiba "vanished" right in front of my eyes.
+<END>
+
+#WRITE(PTR, $00000812)
+Not only the pedestrians.
+<END>
+
+#WRITE(PTR, $00000822)
+This included the customers and employees of anime and electronics shops. The people eating in gyuudon chain stores, and even the drivers along with their vehicles.
+<END>
+
+#WRITE(PTR, $00000832)
+It was nothing but an instant.
+<END>
+
+#WRITE(PTR, $00000842)
+The phenomenon happened in the blink of an eye.
+<END>
+
+#WRITE(PTR, $00000852)
+What remained was a completely empty midday Akiba.
+<END>
+
+#WRITE(PTR, $00000862)
+In this town where I am all alone the only thing I can hear is the original BGM of a consumer electronics shop - a plain and simple melody.
+<END>
+
+#WRITE(PTR, $00000872)
+Even though it is hot enough to make it look like the asphalt is wobbling the sight in front of me makes me feel somewhat cold.
+<END>
+
+#WRITE(PTR, $00000882)
+I just stand there completely aghast.
+<END>
+
+#WRITE(PTR, $00000892)
+【Mayuri】What's wrong?
+<END>
+
+#WRITE(PTR, $000008A2)
+Upon hearing a voice from behind me I finally get a grip.
+<END>
+
+#WRITE(PTR, $00000936)
+Mayuri didn't disappear.
+<END>
+
+#WRITE(PTR, $00000946)
+She's right there.
+<END>
+
+#WRITE(PTR, $00000956)
+However she's giving me a curious look.
+<END>
+
+#WRITE(PTR, $00000966)
+【Rintaro】Just now the p-people vanished right!?
+<END>
+
+#WRITE(PTR, $00000980)
+【Mayuri】???
+<END>
+
+#WRITE(PTR, $00000990)
+【Rintaro】They just vanished right!? In front of our very eyes!
+<END>
+
+#WRITE(PTR, $000009A0)
+After finally recovering from the shock and entering a state of mind that allows me to think rationally I start panicking.
+<END>
+
+#WRITE(PTR, $000009B0)
+That's why I rush over to Mayuri grab her slender shoulders and roughly shake her.
+<END>
+
+#WRITE(PTR, $00000A00)
+【Rintaro】Did you see it too!? You did didn't you!?
+<END>
+
+#WRITE(PTR, $00000A1A)
+【Mayuri】Nnnnn... huuuhhhh?
+<END>
+
+#WRITE(PTR, $00000A2A)
+Due to my shaking Mayuri's head is jerkingly swinging back and forth.
+<END>
+
+#WRITE(PTR, $00000A3A)
+【Mayuri】Iiii diiidnnn't seeeee.
+<END>
+
+#WRITE(PTR, $00000A4A)
+【Rintaro】You... Didn't see it?
+<END>
+
+#WRITE(PTR, $00000B1C)
+I stop the shaking and look at her straight in the eyes.
+<END>
+
+#WRITE(PTR, $00000B2C)
+With those two beads that are as clear as marble Mayuri returns my gaze.
+<END>
+
+#WRITE(PTR, $00000B3C)
+【Rintaro】You didn't see it? How could you not see it? I mean until just now thousands of people were walking here!
+<END>
+
+#WRITE(PTR, $00000B56)
+【Mayuri】They were?
+<END>
+
+#WRITE(PTR, $00000B66)
+【Rintaro】Even the salesmen have disappeared! There's no way something like this can happen!
+<END>
+
+#WRITE(PTR, $00000B76)
+【Mayuri】Hmm... I think it just can't be helped.
+<END>
+
+#WRITE(PTR, $00000B86)
+What do you mean it can't be helped?
+<END>
+
+#WRITE(PTR, $00000B9A)
+【Mayuri】Anyway there were no people here from the start...
+<END2>
+
+#WRITE(PTR, $00000BB4)
+Ah that’s right! Okarin saw an illusion.
+<END>
+
+#WRITE(PTR, $00000BC8)
+【Mayuri】It's probably because of this heat. Tutturu~♪
+<END>
+
+#WRITE(PTR, $00000BD8)
+...Why is she smiling under such circumstances?
+<END>
+
+#WRITE(PTR, $00000BE8)
+I always knew that she was weird but does she actually need a few screws tightened?
+<END>
+
+#WRITE(PTR, $00000CC2)
+Anyway it looks like I can't rely on her right now.
+<END>
+
+#WRITE(PTR, $00000CD2)
+Completely at a loss for words I look up.
+<END>
+
+#WRITE(PTR, $00000CE2)
+Between the buildings I can see a perfectly clear blue summer sky.
+<END>
+
+#WRITE(PTR, $00000CF2)
+And of course the source of the intense sunlight - the Sun.
+<END>
+
+#WRITE(PTR, $00000D02)
+Without thinking it I look at the top of the Radio Center that we have just left.
+<END>
+
+#WRITE(PTR, $00000DE8)
+A giant machine-like object resembling a satellite is crashed into it.
+<END>
+
+#WRITE(PTR, $00000DF8)
+There just a few minutes ago Makise Kurisu was stabbed.
+<END>
+
+#WRITE(PTR, $00000E08)
+I wonder what became of her.
+<END>
+
+#WRITE(PTR, $00000E18)
+Did someone at least call an ambulance?
+<END>
+
+#WRITE(PTR, $00000E28)
+Before the mass disappearance I kept hearing an echo of a siren but now there's nothing.
+<END>
+
+#WRITE(PTR, $00000E38)
+Makise Kurisu is probably still lying in that narrow hallway covered in blood and all alone.
+<END>
+
+#WRITE(PTR, $00000E48)
+No more importantly--
+<END>
+
+#WRITE(PTR, $00000EBC)
+【Rintaro】...Anyway what the hell is that satellite?
+<END>
+
+#WRITE(PTR, $00000ECC)
+Satellite...
+<END>
+
+#WRITE(PTR, $00000EDC)
+Before the beginning of Doctor Nakabachi's presentation there was a tremor similar to something caused by an explosion.
+<END>
+
+#WRITE(PTR, $00000EEC)
+The lock on the fire door to the roof was broken and surrounded by smoke and phosphoric light. A satellite-shaped object was placed there.
+<END>
+
+#WRITE(PTR, $00000EFC)
+Yes I surely saw that the object was "placed". However, what I see now is completely different.
+<END>
+
+#WRITE(PTR, $00000F0C)
+Some of the building's wall is destroyed and the object is pierced into it.
+<END>
+
+#WRITE(PTR, $00000F1C)
+The part where it's stuck is definitely the event space where Doctor Nakabachi's interview was held.
+<END>
+
+#WRITE(PTR, $00000F2C)
+The space satellite broke through the atmosphere and without burning up crashed into Akiba.'
+<END>
+
+#WRITE(PTR, $00000F3C)
+Anyone would think that upon seeing this spectacle.
+<END>
+
+#WRITE(PTR, $00000F4C)
+However--
+<END>
+
+#WRITE(PTR, $00000F5C)
+When exactly did this happen?
+<END>
+
+#WRITE(PTR, $00000FB8)
+【Rintaro】Mayuri that satellite...
+<END>
+
+#WRITE(PTR, $00000FD2)
+【Mayuri】Yep it sure was surprising.
+<END>
+
+#WRITE(PTR, $00000FE2)
+【Rintaro】Surprising? What do you mean?
+<END>
+
+#WRITE(PTR, $00000FFC)
+【Mayuri】The dreadful "BAM" sound that it made.
+<END>
+
+#WRITE(PTR, $0000100C)
+A dreadful sound...
+<END>
+
+#WRITE(PTR, $0000101C)
+Surely there was a sound.
+<END>
+
+#WRITE(PTR, $0000102C)
+However the one I heard certainly wasn't "BAM".
+<END>
+
+#WRITE(PTR, $0000103C)
+It was a sound which resembled tremors.
+<END>
+
+#WRITE(PTR, $0000104C)
+Like the ones you hear during an earthquake.
+<END>
+
+#WRITE(PTR, $0000105C)
+【Rintaro】Did that space satellite fell down here?
+<END>
+
+#WRITE(PTR, $00001076)
+【Mayuri】Are there any aliens riding that? Did they finally come to visit us?
+<END>
+
+#WRITE(PTR, $00001086)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001096)
+Am I Going crazy?
+<END>
+
+#WRITE(PTR, $000010A6)
+What I saw and what Mayuri saw doesn't match at all.
+<END>
+
+#WRITE(PTR, $000010B6)
+Under attack by a barrage of unexplainable things I begin to doubt what is real and what is an illusion.
+<END>
+
+#WRITE(PTR, $000010C6)
+【Policeman】You over there!
+<END>
+
+#WRITE(PTR, $000010E0)
+A third person appeared out of nowhere.
+<END>
+
+#WRITE(PTR, $000010F0)
+A uniformed policeman who looks around 30 years old trots over and talks to us with a face filled with tension.
+<END>
+
+#WRITE(PTR, $00001100)
+【Policeman】What are you doing here? Right now this place is off-limits. Please leave immediately.
+<END>
+
+#WRITE(PTR, $0000111A)
+【Mayuri】Sorry~
+<END>
+
+#WRITE(PTR, $00001136)
+【Rintaro】Besides that Mr Uniformed Policeman for now I'll call you Policeman A but there's one thing I'd like to ask you!
+<END>
+
+#WRITE(PTR, $00001146)
+【Policeman2】Policeman A?
+<END>
+
+#WRITE(PTR, $00001156)
+【Rintaro】Right here right now thousands of pedestrians have disappeared! You saw that right!?
+<END>
+
+#WRITE(PTR, $00001166)
+【Policeman2】I didn't. Now please leave.
+<END>
+
+#WRITE(PTR, $00001176)
+This guy didn't see it too?
+<END>
+
+#WRITE(PTR, $00001186)
+Little by little I lose confidence in the credibility of my memories.
+<END>
+
+#WRITE(PTR, $00001196)
+If it's like this then I'll just tell him to call up an ambulance to help the stabbed girl named Makise Kurisu.
+<END>
+
+#WRITE(PTR, $000011A6)
+【Policeman2】Just what are you talking about?
+<END>
+
+#WRITE(PTR, $000011B6)
+The policeman spits out of disgust and strongly grabs the upper part of my arm.
+<END>
+
+#WRITE(PTR, $000011C6)
+And makes a clear declaration.
+<END>
+
+#WRITE(PTR, $00001270)
+<LINE>
+<LINE>
+<LINE>
+%LC"There is no stabbed girl at all!"
+<ENDPANEL>
+
+#WRITE(PTR, $00001298)
+No stabbed girl? Why does he say it so confidently?
+<END>
+
+#WRITE(PTR, $000012A8)
+While I'm still trying to arrange the situation I'm in the policeman forcefully takes me away.
+<END>
+
+#WRITE(PTR, $00001310)
+...After that the policeman escorted us up to <DICT>UPX</DICT> and released us there.
+<END>
+
+#WRITE(PTR, $00001320)
+AROUND UPX THERE ARE ACTUAL PEOPLE.
+<END>
+
+#WRITE(PTR, $00001330)
+Or more like they're everywhere.
+<END>
+
+#WRITE(PTR, $00001340)
+Just like Policeman A said the Central Street is closed off by the police and no one is allowed there.
+<END>
+
+#WRITE(PTR, $0000146E)
+After that we headed back to the lab and arrived just now.
+<END>
+
+#WRITE(PTR, $0000147E)
+I'm in a state of complete confusion.
+<END>
+
+#WRITE(PTR, $0000148E)
+I have doubts about whether or not this whole hour since the beginning of Doctor Nakabachi's presentation is reality.
+<END>
+
+#WRITE(PTR, $0000149E)
+So I do a quick check on the news and the net.
+<END>
+
+#WRITE(PTR, $000014AE)
+Certainly the news about a mysterious object that crashed into the Radio Center is the current hot topic.
+<END>
+
+#WRITE(PTR, $000014C6)
+Even in such an early afternoon all the Tokyo-based key stations - even <DICT>TouTele</DICT> - are replaced by special news programs which are broadcasting the state of Akiba.
+<END>
+
+#WRITE(PTR, $000014D6)
+Happily the crash didn't cause any victims. Regardless of that the Central Street is still closed off.
+<END>
+
+#WRITE(PTR, $000014E6)
+Apparently the front of Akihabara station is completely crowded by the media and curious onlookers.
+<END>
+
+#WRITE(PTR, $000014F6)
+Nobody is bringing up the subject of thousands of people disappearing or Makise Kurisu getting stabbed.
+<END>
+
+#WRITE(PTR, $00001506)
+This is truly mysterious.
+<END>
+
+#WRITE(PTR, $00001516)
+Mystery?
+<END>
+
+#WRITE(PTR, $00001526)
+【Rintaro】Heh so that's how it is...!
+<END>
+
+#WRITE(PTR, $00001536)
+I put on a wry smile and vigorously stand up from the couch.
+<END>
+
+#WRITE(PTR, $000015AC)
+Wondering if something happened Daru and Mayuri stare at me.
+<END>
+
+#WRITE(PTR, $000015C8)
+【Rintaro】Everything is being covered up by the Organization! If they can put pressure on the police then they now hold this country in the palm of their hand... kuh how dreadful!
+<END>
+
+#WRITE(PTR, $000015D8)
+【Rintaro】However I am not that easily fooled... Someday I will expose these vile acts and put an end to their ruling structure...!
+<END>
+
+#WRITE(PTR, $000015F0)
+Satisfied with my own conclusion I take out a <DICT>Dr Pepper</DICT> PET bottle and drink some of it.
+<END>
+
+#WRITE(PTR, $00001600)
+This lab doesn't have an air conditioner. The only means for us to stay cool is that little electric fan on the table.
+<END>
+
+#WRITE(PTR, $00001610)
+That's why I'm not being reserved in gulping down a cold drink.
+<END>
+
+#WRITE(PTR, $00001620)
+【Rintaro】As usual Dr Pepper is extremely delicious after a hard thinking session.
+<END>
+
+#WRITE(PTR, $00001696)
+【Itaru】Cola is better isn't it?
+<END>
+
+#WRITE(PTR, $000016A6)
+【Mayuri】
+Okarin rea~lly likes Mr Dr Pepper.
+<END>
+
+#WRITE(PTR, $000016B6)
+【Rintaro】Those who do not comprehend the greatness of this intellectual beverage lose 5 minutes of their life! Fwahahaha!
+<FILEEND98>
+

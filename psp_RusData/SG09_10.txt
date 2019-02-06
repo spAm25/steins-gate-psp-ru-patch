@@ -1,0 +1,1195 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00003354)
+
+#WRITE(PTR, $0000091A)
+【Kurisu】...I see. It was the manager.
+<END>
+
+#WRITE(PTR, $0000092A)
+After bringing Moeka to her apartment, I explained the circumstances to Kurisu.
+<END>
+
+#WRITE(PTR, $0000093A)
+How Manager was FB, and how he unexpectedly took his own life.
+<END>
+
+#WRITE(PTR, $0000094A)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $0000095A)
+Moeka sank to the floor upon entering. She didn't say a word on the way back.
+<END>
+
+#WRITE(PTR, $00000976)
+She's probably putting up with what Manager-- what FB told her.
+<END>
+
+#WRITE(PTR, $00000986)
+FB himself clearly told her that she had been cut down.
+<END>
+
+#WRITE(PTR, $00000996)
+She might not ever recover from being completely denied by the object of dependence she had trusted.
+<END>
+
+#WRITE(PTR, $000009A6)
+But--
+<END>
+
+#WRITE(PTR, $000009B6)
+But in the end, were Manager's words complete denial?
+<END>
+
+#WRITE(PTR, $000009C6)
+I wasn't quite convinced. Something felt off back then.
+<END>
+
+#WRITE(PTR, $000009D6)
+Rounders who have done their duty are all disposed, without exception.
+<END>
+
+#WRITE(PTR, $000009E6)
+FB said so.
+<END>
+
+#WRITE(PTR, $000009F6)
+In that case, why wasn't Moeka killed...?
+<END>
+
+#WRITE(PTR, $00000AC2)
+【Rintaro】Hey, Moeka...
+<END>
+
+#WRITE(PTR, $00000AD2)
+【Rintaro】It's possible... that FB did what he did so that you might live.
+<END>
+
+#WRITE(PTR, $00000AE2)
+【Rintaro】Maybe he didn't throw you away--
+<END>
+
+#WRITE(PTR, $00000AF2)
+【Rintaro】He pushed you away so that you might live.
+<END>
+
+#WRITE(PTR, $00000B02)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $00000B76)
+That's just a convenient perspective for Moeka and me.
+<END>
+
+#WRITE(PTR, $00000B86)
+We can't ever know FB's true intention, can we?
+<END>
+
+#WRITE(PTR, $00000B96)
+But that's what I want to think.
+<END>
+
+#WRITE(PTR, $00000BA6)
+That's how I was moved.
+<END>
+
+#WRITE(PTR, $00000BB6)
+And that's certainly where Moeka belongs.
+<END>
+
+#WRITE(PTR, $00000BC6)
+That's what I want to think.
+<END>
+
+#WRITE(PTR, $00000BD6)
+So why--
+<END>
+
+#WRITE(PTR, $00000BE6)
+Why am I looking for words to comfort Moeka?
+<END>
+
+#WRITE(PTR, $00000BF6)
+Maybe I'm just soft.
+<END>
+
+#WRITE(PTR, $00000C50)
+【Kurisu】Okabe. You should send the D-mail right away.
+<END>
+
+#WRITE(PTR, $00000C60)
+Kurisu says so with a stern face.
+<END>
+
+#WRITE(PTR, $00000C70)
+【Kurisu】If you run away now, you could get caught up in all sorts of trouble.
+<END>
+
+#WRITE(PTR, $00000C80)
+Kurisu's pondering what I'm pondering.
+<END>
+
+#WRITE(PTR, $00000C9A)
+【Kurisu】Your goal is to save Mayuri, not to exact revenge on SERN.
+<END>
+
+#WRITE(PTR, $00000CAA)
+【Kurisu】...sacrifices are being made because of our Time Leap Machine. It's unpleasant.
+<END>
+
+#WRITE(PTR, $00000CBA)
+【Rintaro】...yeah. That's true.
+<END>
+
+#WRITE(PTR, $00000CCA)
+I've gotten FB's cellphone. There's no point in lingering in this world line any longer.
+<END>
+
+#WRITE(PTR, $00000CDA)
+The police will soon find out about Manager's death.
+<END>
+
+#WRITE(PTR, $00000CEA)
+And then the first people to be suspected would be me, Moeka, and then Kurisu, since we all were there.
+<END>
+
+#WRITE(PTR, $00000CFA)
+I should send the D-mail immediately and change the world line.
+<END>
+
+#WRITE(PTR, $00000D0A)
+Then the present will be reorganized.
+<END>
+
+#WRITE(PTR, $00000D1A)
+Manager will probably not have died, and Moeka wouldn't have broken contact with FB.
+<END>
+
+#WRITE(PTR, $00000D2A)
+And the IBN 5100 should return to me this time for sure.
+<END>
+
+#WRITE(PTR, $00000D3A)
+I should just think about Mayuri.
+<END>
+
+#WRITE(PTR, $00000D4A)
+【Rintaro】Do you think Daru's still in the lab?
+<END>
+
+#WRITE(PTR, $00000D64)
+【Kurisu】I'll try calling.
+<END>
+
+#WRITE(PTR, $00000D80)
+The D-mail we send should be the same thing we sent before from Moeka's phone.
+<END>
+
+#WRITE(PTR, $00000D90)
+What's different this time is that we'll send it from FB's address instead of Moeka's.
+<END>
+
+#WRITE(PTR, $00000DA0)
+Then it'll become an order from FB.
+<END>
+
+#WRITE(PTR, $00000DB0)
+Since Moeka's dependent on FB, she'll believe unconditionally.
+<END>
+
+#WRITE(PTR, $00000DC0)
+The thought of abusing Moeka's personality itself makes me sick.
+<END>
+
+#WRITE(PTR, $00000DD0)
+That makes me no different from FB.
+<END>
+
+#WRITE(PTR, $00000E18)
+【Kurisu】He said he'll be there in five minutes.
+<END>
+
+#WRITE(PTR, $00000E28)
+So we wait until then, huh.
+<END>
+
+#WRITE(PTR, $00000E42)
+【Kurisu】Hey. Something bugged me back there at Manager's house.
+<END>
+
+#WRITE(PTR, $00000E52)
+After closing her phone, Kurisu peeks at Moeka and lowers her voice.
+<END>
+
+#WRITE(PTR, $00000E62)
+【Kurisu】When I was watching outside, I heard a gunshot.
+<END>
+
+#WRITE(PTR, $00000E72)
+【Kurisu】Then right after that, I... saw her.
+<END>
+
+#WRITE(PTR, $00000E94)
+【Rintaro】Saw... her...?
+<END>
+
+#WRITE(PTR, $00000EA4)
+I dare ask again.
+<END>
+
+#WRITE(PTR, $00000EB4)
+Even though I should understand who she meant by "her".
+<END>
+
+#WRITE(PTR, $00000ECE)
+【Kurisu】Nae-chan.
+<END>
+
+#WRITE(PTR, $00000EDE)
+【Kurisu】...She ran out the back door.
+<END>
+
+#WRITE(PTR, $00000EEE)
+【Kurisu】When I called her to stop... our eyes met.
+<END>
+
+#WRITE(PTR, $00000EFE)
+Kurisu bites her lip.
+<END>
+
+#WRITE(PTR, $00000F0E)
+Right after she heard a gunshot
+<END>
+
+#WRITE(PTR, $00000F1E)
+If that's true, then--
+<END>
+
+#WRITE(PTR, $00000F2E)
+She saw the instant her father died, and then ran away--
+<END>
+
+#WRITE(PTR, $00000FB6)
+【Rintaro&Kurisu (R)】--!?
+<END>
+
+#WRITE(PTR, $00000FC6)
+【Rintaro&Kurisu (K)】--!?
+<END>
+
+#WRITE(PTR, $00000FE6)
+Someone knocked on the door.
+<END>
+
+#WRITE(PTR, $00000FF6)
+Someone came.
+<END>
+
+#WRITE(PTR, $00001006)
+Who?
+<END>
+
+#WRITE(PTR, $000010D6)
+Moeka, crouching at the entryway, slowly lifts her head.
+<END>
+
+#WRITE(PTR, $000010E6)
+I've got a bad feeling about this.
+<END>
+
+#WRITE(PTR, $000010F6)
+The perfect timing.
+<END>
+
+#WRITE(PTR, $00001106)
+Is this fate?
+<END>
+
+#WRITE(PTR, $00001116)
+The world has recognized that Kiryuu Moeka will die today.
+<END>
+
+#WRITE(PTR, $00001126)
+Is this fate?
+<END>
+
+#WRITE(PTR, $00001136)
+Moeka reaches for the doorknob.
+<END>
+
+#WRITE(PTR, $00001146)
+【Rintaro】Stop, don't open it--
+<END>
+
+#WRITE(PTR, $00001156)
+I try to stop her.
+<END>
+
+#WRITE(PTR, $00001166)
+But Moeka was already turning the doorknob.
+<END>
+
+#WRITE(PTR, $00001182)
+The door slowly opens.
+<END>
+
+#WRITE(PTR, $00001192)
+Standing there is..
+<END>
+
+#WRITE(PTR, $000011DA)
+【Nae】...Good afternoon.
+<END>
+
+#WRITE(PTR, $000011EA)
+An innocent greeting.
+<END>
+
+#WRITE(PTR, $000011FA)
+A child's voice. A familiar voice.
+<END>
+
+#WRITE(PTR, $0000120A)
+It's not afternoon. It's still morning.
+<END>
+
+#WRITE(PTR, $0000121A)
+So it's "good morning", not "good afternoon".
+<END>
+
+#WRITE(PTR, $0000122A)
+Wait, that's not the problem.
+<END>
+
+#WRITE(PTR, $0000123A)
+Why is she here?
+<END>
+
+#WRITE(PTR, $0000124A)
+Why does she know this place?
+<END>
+
+#WRITE(PTR, $0000125A)
+How did she get here?
+<END>
+
+#WRITE(PTR, $0000126A)
+Why did she come here--?
+<END>
+
+#WRITE(PTR, $0000127A)
+"ran away"
+<END>
+
+#WRITE(PTR, $0000128A)
+"eyes met"
+<END>
+
+#WRITE(PTR, $0000129A)
+"right after hearing a gunshot--"
+<END>
+
+#WRITE(PTR, $00001468)
+【Nae】...
+<END>
+
+#WRITE(PTR, $00001478)
+【Moeka】Ugh...
+<END>
+
+#WRITE(PTR, $00001488)
+Nae disappears behind Moeka's back.
+<END>
+
+#WRITE(PTR, $00001528)
+And like a marionette with its strings cut, Moeka falls to her knees--
+<END>
+
+#WRITE(PTR, $0000154E)
+【Nae】Aha...
+<END>
+
+#WRITE(PTR, $0000155E)
+An innocent laugh.
+<END>
+
+#WRITE(PTR, $0000156E)
+【Nae】Ahaha...
+<END>
+
+#WRITE(PTR, $0000157E)
+Hands dyed with blood.
+<END>
+
+#WRITE(PTR, $0000158E)
+【Nae】Ahahaha...
+<END>
+
+#WRITE(PTR, $0000159E)
+A knife in her grip.
+<END>
+
+#WRITE(PTR, $000015AE)
+【Kurisu】You're... kidding...
+<END>
+
+#WRITE(PTR, $000015C8)
+【Nae】I'm not kidding.
+<END>
+
+#WRITE(PTR, $000015D8)
+Nae's lips twist audaciously.
+<END>
+
+#WRITE(PTR, $000015E8)
+Her glance pierces me, filled with hatred unlike a child.
+<END>
+
+#WRITE(PTR, $000015F8)
+【Nae】I won't forgive you.
+<END>
+
+#WRITE(PTR, $00001608)
+Goosebumps all over.
+<END>
+
+#WRITE(PTR, $00001618)
+I don't understand why.
+<END>
+
+#WRITE(PTR, $00001628)
+I don't understand, but this child in front of me doesn't feel like a child at all.
+<END>
+
+#WRITE(PTR, $00001638)
+【Nae】You all drove Daddy to death.
+<END>
+
+#WRITE(PTR, $00001648)
+【Nae】I won't ever forgive you.
+<END>
+
+#WRITE(PTR, $00001658)
+【Nae】I won't forgive you until I kill you with my own hands.
+<END>
+
+#WRITE(PTR, $00001668)
+Kurisu and I.
+<END>
+
+#WRITE(PTR, $00001678)
+Are just overwhelmed.
+<END>
+
+#WRITE(PTR, $00001688)
+And couldn't move.
+<END>
+
+#WRITE(PTR, $00001698)
+【Nae】Okabe Rintaro.
+<END>
+
+#WRITE(PTR, $000016A8)
+She startles me.
+<END>
+
+#WRITE(PTR, $000016B8)
+Chills run through my back as if caressed by a cold hand.
+<END>
+
+#WRITE(PTR, $000016C8)
+【Nae】In fifteen years, I'll kill you. Please wait in terror until then.
+<END>
+
+#WRITE(PTR, $000016E2)
+【Nae】Aha, ahaha.
+<END>
+
+#WRITE(PTR, $00001756)
+Nae keeps laughing as she throws away the knife and leaves the place.
+<END>
+
+#WRITE(PTR, $00001766)
+Her small body quickly leaves my sight.
+<END>
+
+#WRITE(PTR, $00001776)
+I hear the sound of her gleefully running down the staircase-- tap tap tap.
+<END>
+
+#WRITE(PTR, $00001786)
+Before long, they stop.
+<END>
+
+#WRITE(PTR, $000017CE)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000017DE)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $000017EE)
+【Rintaro】What, the hell... was that? A demon? Was she... possessed?
+<END>
+
+#WRITE(PTR, $000017FE)
+My fingers are still trembling.
+<END>
+
+#WRITE(PTR, $0000180E)
+My body really won't listen to what I say.
+<END>
+
+#WRITE(PTR, $0000181E)
+【Rintaro】No, mo-more importantly, Moeka...
+<END>
+
+#WRITE(PTR, $0000182E)
+Moeka's clothes are dyed red.
+<END>
+
+#WRITE(PTR, $0000183E)
+Blood. Moeka was stabbed.
+<END>
+
+#WRITE(PTR, $00001858)
+【Kurisu】Calm down...!
+<END>
+
+#WRITE(PTR, $00001868)
+Kurisu yells for me to come to my senses, and then gets her phone out.
+<END>
+
+#WRITE(PTR, $00001878)
+【Kurisu】Check Kiryuu-san's condition! I'll call an ambulance...
+<END>
+
+#WRITE(PTR, $00001892)
+【Kurisu】Ah, wait. Wait...
+<END>
+
+#WRITE(PTR, $000018A2)
+【Kurisu】Maybe you should send the D-mail before that.
+<END>
+
+#WRITE(PTR, $000018B2)
+Kurisu's calm even in these circumstances.
+<END>
+
+#WRITE(PTR, $000018C2)
+That calmness irritates me a little.
+<END>
+
+#WRITE(PTR, $000018D2)
+No, wait, Kurisu's right.
+<END>
+
+#WRITE(PTR, $000018E2)
+If I send the D-mail, this world line will be undone.
+<END>
+
+#WRITE(PTR, $000018F2)
+I know that, but I still rush over to Moeka.
+<END>
+
+#WRITE(PTR, $00001968)
+When I lift her, her chest is already bloody.
+<END>
+
+#WRITE(PTR, $00001978)
+【Rintaro】Moeka...!
+<END>
+
+#WRITE(PTR, $00001988)
+She is the enemy.
+<END>
+
+#WRITE(PTR, $00001998)
+【Rintaro】Hang in there! Hey!
+<END>
+
+#WRITE(PTR, $000019A8)
+She is the enemy, who killed Mayuri over and over.
+<END>
+
+#WRITE(PTR, $000019B8)
+【Rintaro】Can you hear me!? Moeka!
+<END>
+
+#WRITE(PTR, $000019C8)
+I won't show her any sympathy.
+<END>
+
+#WRITE(PTR, $000019D8)
+I won't forgive her for killing Mayuri.
+<END>
+
+#WRITE(PTR, $000019E8)
+And yet I can't help but call out to her.
+<END>
+
+#WRITE(PTR, $000019F8)
+Because, in a sense, she's a victim too.
+<END>
+
+#WRITE(PTR, $00001A50)
+Moeka slowly opens her eyes.
+<END>
+
+#WRITE(PTR, $00001A60)
+Those eyes have already lost their luminance.
+<END>
+
+#WRITE(PTR, $00001A70)
+【Moeka】...I...ed...our...
+<END>
+
+#WRITE(PTR, $00001A80)
+She starts muttering something in a hoarse voice.
+<END>
+
+#WRITE(PTR, $00001ACC)
+I put my ear close to her lips.
+<END>
+
+#WRITE(PTR, $00001ADC)
+【Moeka】...I...killed...
+<END>
+
+#WRITE(PTR, $00001AEC)
+【Moeka】...the...one...important...
+<END>
+
+#WRITE(PTR, $00001AFC)
+【Moeka】To you... so...
+<END>
+
+#WRITE(PTR, $00001B0C)
+Right. You did. Many times.
+<END>
+
+#WRITE(PTR, $00001B1C)
+Not in this world line. But in others.
+<END>
+
+#WRITE(PTR, $00001B2C)
+【Moeka】This is... punishment...
+<END>
+
+#WRITE(PTR, $00001B3C)
+That's the fate the world chose.
+<END>
+
+#WRITE(PTR, $00001B4C)
+【Moeka】I'm...sorry...
+<END>
+
+#WRITE(PTR, $00001B5C)
+【Moeka】I'm so...rry...
+<END>
+
+#WRITE(PTR, $00001B7C)
+I silently grasp Moeka's hand.
+<END>
+
+#WRITE(PTR, $00001B8C)
+But Moeka doesn't grasp back. She no longer has the strength.
+<END>
+
+#WRITE(PTR, $00001BB2)
+【Moeka】I had... nothing... but... FB...
+<END>
+
+#WRITE(PTR, $00001BC2)
+【Moeka】The only...place...where I... belong...
+<END>
+
+#WRITE(PTR, $00001BD2)
+【Moeka】To protect it... I killed...
+<END>
+
+#WRITE(PTR, $00001BE2)
+【Moeka】It's natural... to bear a grudge...
+<END>
+
+#WRITE(PTR, $00001BF2)
+【Moeka】I'm...so...rry...
+<END>
+
+#WRITE(PTR, $00001C02)
+【Rintaro】I forgive you.
+<END>
+
+#WRITE(PTR, $00001C12)
+Before I noticed, that's what I answered.
+<END>
+
+#WRITE(PTR, $00001C22)
+In the first place, she hasn't killed Mayuri in this world line.
+<END>
+
+#WRITE(PTR, $00001C32)
+Even if she were to kill her, that would happen tomorrow.
+<END>
+
+#WRITE(PTR, $00001C42)
+So the Moeka, here and now, has nothing to apologize for.
+<END>
+
+#WRITE(PTR, $00001C52)
+And yet, at the very end, she keeps apologizing.
+<END>
+
+#WRITE(PTR, $00001C62)
+That's why I had to answer.
+<END>
+
+#WRITE(PTR, $00001C72)
+【Rintaro】I forgive you.
+<END>
+
+#WRITE(PTR, $00001C82)
+Those were surely fantasy words.
+<END>
+
+#WRITE(PTR, $00001C92)
+That I'd forgive Moeka.
+<END>
+
+#WRITE(PTR, $00001CA2)
+That Moeka would perish here.
+<END>
+
+#WRITE(PTR, $00001CB2)
+Nae probably holds a grudge against Moeka and me.
+<END>
+
+#WRITE(PTR, $00001CC2)
+Did I really forgive her, or was that a lie just for here?
+<END>
+
+#WRITE(PTR, $00001CD2)
+I don't know myself.
+<END>
+
+#WRITE(PTR, $00001CE2)
+But even so, didn't Kurisu say it earlier?
+<END>
+
+#WRITE(PTR, $00001CF2)
+That my goal is to save Mayuri, not to exact revenge.
+<END>
+
+#WRITE(PTR, $00001D02)
+That's why, at least for here--
+<END>
+
+#WRITE(PTR, $00001D12)
+【Rintaro】You are forgiven.
+<END>
+
+#WRITE(PTR, $00001D22)
+【Moeka】......
+<END>
+
+#WRITE(PTR, $00001D44)
+As if relieved, Moeka faintly loosens her expression.
+<END>
+
+#WRITE(PTR, $00001D54)
+And slowly closes her eyes.
+<END>
+
+#WRITE(PTR, $00001D8A)
+Teardrops start streaming.
+<END>
+
+#WRITE(PTR, $00001D9A)
+Moeka's hand slips from my grasp.
+<END>
+
+#WRITE(PTR, $00001DAA)
+...she's no longer breathing.
+<END>
+
+#WRITE(PTR, $00001DBA)
+I bite my lip, laying Moeka down on top of the tatami mat.
+<END>
+
+#WRITE(PTR, $00001DCA)
+I place that purple phone in her hands.
+<END>
+
+#WRITE(PTR, $00001E2E)
+【Kurisu】...Okabe.
+<END>
+
+#WRITE(PTR, $00001E3E)
+Kurisu timidly calls out to me.
+<END>
+
+#WRITE(PTR, $00001E4E)
+【Kurisu】I think you should send the D-mail.
+<END>
+
+#WRITE(PTR, $00001E5E)
+【Kurisu】Everything's already set.
+<END>
+
+#WRITE(PTR, $00001E6E)
+【Rintaro】Yeah...
+<END>
+
+#WRITE(PTR, $00001E7E)
+Even if Moeka's dead. Even if FB is dead.
+<END>
+
+#WRITE(PTR, $00001E8E)
+We haven't avoided Mayuri's death.
+<END>
+
+#WRITE(PTR, $00001E9E)
+Because the world wishes for it.
+<END>
+
+#WRITE(PTR, $00001EAE)
+【Rintaro】Hey, Christina.
+<END>
+
+#WRITE(PTR, $00001EBE)
+【Rintaro】By sending the D-mail and changing Divergence, do you think Moeka will be alive there? Or do you think she'll stay dead?
+<END>
+
+#WRITE(PTR, $00001ED8)
+【Kurisu】If you consider the Attractor Field Theory you told me about...
+<END>
+
+#WRITE(PTR, $00001EE8)
+【Kurisu】If Divergence exceeds 1％, then the likelihood she'll live is higher.
+<END>
+
+#WRITE(PTR, $00001F02)
+【Kurisu】...Sorry. I can't help but talk inconsiderately like that.
+<END>
+
+#WRITE(PTR, $00001F12)
+【Rintaro】No, it's fine.
+<END>
+
+#WRITE(PTR, $00001F22)
+I stand up.
+<END>
+
+#WRITE(PTR, $00001F32)
+Moeka's blood clings onto my hands.
+<END>
+
+#WRITE(PTR, $00001F42)
+Even if I wipe it with a tissue, it won't come off.
+<END>
+
+#WRITE(PTR, $00001F66)
+I give up and take out FB's phone.
+<END>
+
+#WRITE(PTR, $00001F76)
+And nod to Kurisu.
+<END>
+
+#WRITE(PTR, $00001F92)
+Kurisu calls Daru at the lab to activate the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $0000200C)
+I take one last look at Moeka's lying body.
+<END>
+
+#WRITE(PTR, $00002032)
+I fully realize the dreadful mystery of cause and effect.
+<END>
+
+#WRITE(PTR, $00002058)
+At first, Mayuri was killed by Moeka.
+<END>
+
+#WRITE(PTR, $0000207E)
+But now, Moeka died first, while Mayuri still lives.
+<END>
+
+#WRITE(PTR, $000020A4)
+The result of changing the past with the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $000020CA)
+Moeka. If you're going to apologize for a sin you didn't commit.
+<END>
+
+#WRITE(PTR, $000020F0)
+Then I need to apologize as well.
+<END>
+
+#WRITE(PTR, $00002116)
+Because I am the one responsible for warping the laws of cause and effect.
+<END>
+
+#WRITE(PTR, $0000213C)
+...Am I the one responsible for warping Tennouji Nae's cause and effect?
+<END>
+
+#WRITE(PTR, $00002162)
+That innocent little girl's life was derailed.
+<END>
+
+#WRITE(PTR, $00002188)
+That little girl would innocently follow Mayuri and Suzuha.
+<END>
+
+#WRITE(PTR, $000021AE)
+Is it okay to just leave her alone like this?
+<END>
+
+#WRITE(PTR, $000021D4)
+Of course, if I send a D-mail now, this world line will be undone.
+<END>
+
+#WRITE(PTR, $000021FA)
+Basically, Tennouji Nae's derailed cause and effect will be vanished away.
+<END>
+
+#WRITE(PTR, $00002220)
+It's useless to just worry about it.
+<END>
+
+#WRITE(PTR, $00002246)
+I should just think about Mayuri.
+<END>
+
+#WRITE(PTR, $0000226C)
+I shouldn't burden myself with any more problems.
+<END>
+
+#WRITE(PTR, $00002292)
+...Is this really okay?
+<END>
+
+#WRITE(PTR, $00002420)
+No. That's not what I should do.
+<END>
+
+#WRITE(PTR, $00002430)
+I'm sending the D-mail.
+<END>
+
+#WRITE(PTR, $00002440)
+That's all I should be doing...
+<END>
+
+#WRITE(PTR, $00002450)
+Will I let this wavering move my fingers differently from my will?
+<END>
+
+#WRITE(PTR, $00002460)
+Now, there's only one thing I should do...!
+<END>
+
+#WRITE(PTR, $00002470)
+And yet...!
+<END>
+
+#WRITE(PTR, $0000257E)
+WD11.PMF
+<END2>
+
+#WRITE(PTR, $00002978)
+The world distorts limply.
+<END>
+
+#WRITE(PTR, $00002988)
+When the distortion corrects itself, Kurisu and Moeka's body disappear.
+<END>
+
+#WRITE(PTR, $00002998)
+What I'm gripping is my own phone; FB's phone disappeared.
+<END>
+
+#WRITE(PTR, $000029A8)
+So did Moeka's blood from my hand.
+<END>
+
+#WRITE(PTR, $000029B8)
+So did the bloody knife tossed from the entranceway.
+<END>
+
+#WRITE(PTR, $000029C8)
+Everything was undone.
+<END>
+
+#WRITE(PTR, $000029D8)
+--Why am I in this room, then?
+<END>
+
+#WRITE(PTR, $000029E8)
+I think that question.
+<END>
+
+#WRITE(PTR, $000029F8)
+There are two bottles of Dr Pepper on the coffee table.
+<END>
+
+#WRITE(PTR, $00002A08)
+Both are open.
+<END>
+
+#WRITE(PTR, $00002A18)
+One of them's mostly empty, but the other one's the opposite, with only about 10％ gone.
+<END>
+
+#WRITE(PTR, $00002A8E)
+I'm taken aback.
+<END>
+
+#WRITE(PTR, $00002A9E)
+I hear the sound of flushing.
+<END>
+
+#WRITE(PTR, $00002AE6)
+Finally, Moeka comes out of the bathroom, expressionless.
+<END>
+
+#WRITE(PTR, $00002AF6)
+【Rintaro】...You're alive.
+<END>
+
+#WRITE(PTR, $00002B06)
+【Moeka】......?
+<END>
+
+#WRITE(PTR, $00002B56)
+Moeka sits down on the tatami mat, not questioning why I'm here.
+<END>
+
+#WRITE(PTR, $00002B66)
+She takes out the usual purple bodied phone and begins a mail.
+<END>
+
+#WRITE(PTR, $00002B76)
+It feels like forever since I've seen her flash-speed typing.
+<END>
+
+#WRITE(PTR, $00002C04)
+What's that mail?
+<END>
+
+#WRITE(PTR, $00002C14)
+It's almost like how we were talking about the IBN 5100 a little while ago, isn't it?
+<END>
+
+#WRITE(PTR, $00002C24)
+...So is that what this is about?
+<END>
+
+#WRITE(PTR, $00002C3A)
+【Rintaro】Unnecessary? Who said?
+<END>
+
+#WRITE(PTR, $00002D34)
+【Rintaro】Your superior? FB?
+<END>
+
+#WRITE(PTR, $00002D4E)
+【Moeka】...!
+<END>
+
+#WRITE(PTR, $00002DD0)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002DE0)
+So FB is alive.
+<END>
+
+#WRITE(PTR, $00002E02)
+I feel relief, and at the same time, impending doom.
+<END>
+
+#WRITE(PTR, $00002E12)
+Obviously, since the defeated enemy revived.
+<END>
+
+#WRITE(PTR, $00002E22)
+But there's no point in telling Moeka anything more.
+<END>
+
+#WRITE(PTR, $00002E32)
+Did FB put a stop to the Rounder's duty of IBN 5100 retrieval?
+<END>
+
+#WRITE(PTR, $00002F22)
+【Tennoji】Doing your duty sets you up for "disposal". So we're more like livestock than dogs.
+<END>
+
+#WRITE(PTR, $00002F7C)
+I play back that man's last words in my head.
+<END>
+
+#WRITE(PTR, $00002F8C)
+He put a stop to it so that she wouldn't be disposed.
+<END>
+
+#WRITE(PTR, $00002F9C)
+But I don't think that will prevent FB and Moeka's deaths.
+<END>
+
+#WRITE(PTR, $00002FAC)
+If the world wishes for their deaths, then they cannot escape...
+<END>
+
+#WRITE(PTR, $0000309C)
+【Nae】I won't forgive you until I kill you with my own hands.
+<END>
+
+#WRITE(PTR, $000030F6)
+I close my ears.
+<END>
+
+#WRITE(PTR, $00003106)
+I can't get that innocent yet hateful voice out of my head.
+<END>
+
+#WRITE(PTR, $00003116)
+In that world line, I sparked the flames of homicidal revenge in such a young little girl.
+<END>
+
+#WRITE(PTR, $00003126)
+I bite my lip hard.
+<END>
+
+#WRITE(PTR, $00003136)
+That world line has already been undone.
+<END>
+
+#WRITE(PTR, $00003146)
+But how do things turn out in this new world line?
+<END>
+
+#WRITE(PTR, $00003156)
+No, there's no point in thinking about it.
+<END>
+
+#WRITE(PTR, $00003166)
+If things go as I expect, the IBN 5100 should already have returned to me.
+<END>
+
+#WRITE(PTR, $00003176)
+In that case--
+<END>
+
+#WRITE(PTR, $00003186)
+There's nothing that I need to stay in this world line for.
+<FILEEND05>
+

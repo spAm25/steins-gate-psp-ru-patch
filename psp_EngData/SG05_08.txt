@@ -1,0 +1,271 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001E38)
+
+#WRITE(PTR, $000001EC)
+Mayuri and I parted at the station because she promised to go deliver a new costume to Fubuki-chan-♪.
+<END>
+
+#WRITE(PTR, $000001FC)
+Returning to the lab with our purchases in hand, I see a surprising-- yet somehow expected-- scene.
+<END>
+
+#WRITE(PTR, $0000029E)
+【Kurisu】Ah...
+<END>
+
+#WRITE(PTR, $000002AE)
+Kurisu's at the lab's PC.
+<END>
+
+#WRITE(PTR, $000002BE)
+In a panic, she closes an opened window.
+<END>
+
+#WRITE(PTR, $0000036A)
+【Kurisu】H-hey. At least knock when you enter.
+<END>
+
+#WRITE(PTR, $0000040E)
+【Rintaro】This isn't your private room. Also, the enemy could attack at any time, so what idiot would give away their presence with a knock?
+<END>
+
+#WRITE(PTR, $000004B2)
+【Kurisu】What idiot would think that any sort of enemy could attack, huh?
+<END>
+
+#WRITE(PTR, $00000556)
+【Rintaro】So, Christina. What were you looking at as you skipping out on your duties?
+<END>
+
+#WRITE(PTR, $000005FA)
+I can somewhat guess. Or, actually, I saw it for a moment when I came in.
+<END>
+
+#WRITE(PTR, $0000069E)
+【Kurisu】R-research materials.
+<END>
+
+#WRITE(PTR, $00000742)
+Looks like she plans on feigning ignorance to the end.
+<END>
+
+#WRITE(PTR, $00000826)
+I place my bags in front of the computer.
+<END>
+
+#WRITE(PTR, $000008CA)
+【Kurisu】Hey, d-don't come here-
+<END>
+
+#WRITE(PTR, $0000096E)
+I slip through Kurisu's blocking arms and restore the minimized window.
+<END>
+
+#WRITE(PTR, $00000A70)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00000B14)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00000BB8)
+【Kurisu】Y-you got a problem with that?
+<END>
+
+#WRITE(PTR, $00000C5C)
+【Rintaro】...pbfft
+<END>
+
+#WRITE(PTR, $00000D58)
+【Kurisu】Hey! What's with that "Ah-, this is awful, yeah, yeah, rofl rofl" kind of laughter!?
+<END>
+
+#WRITE(PTR, $00000DFC)
+【Rintaro】Chill out, Christina. I mean, @channeler Chris!
+<END>
+
+#WRITE(PTR, $00000EAA)
+【Kurisu】Don't call me that...
+<END>
+
+#WRITE(PTR, $00000F4E)
+【Rintaro】Hehehe, I've already noticed. Right, I noticed long ago, that you are a pure @channeler!
+<END>
+
+#WRITE(PTR, $00000FF2)
+【Rintaro】I know even if you try to hide it. You reek of the intense scent of an @channeler...!
+<END>
+
+#WRITE(PTR, $000010A0)
+【Kurisu】How rude! Every day, I make sure to apply perfume so that my scent isn't strong!
+<END>
+
+#WRITE(PTR, $00001144)
+【Rintaro】Dumbass. That's not what I meant. What I'm talking about is on the soul level.
+<END>
+
+#WRITE(PTR, $000011E8)
+【Kurisu】Soul... How's that at all specific? Define it for me.
+<END>
+
+#WRITE(PTR, $0000128C)
+【Rintaro】What, you gonna use it as reference so you don't get found out next time?
+<END>
+
+#WRITE(PTR, $00001330)
+【Kurisu】Sh-shut up... Just tell me already.
+<END>
+
+#WRITE(PTR, $000013D4)
+【Rintaro】Fuck the specifics. Every so often, you mutter @channel memes.
+<END>
+
+#WRITE(PTR, $00001482)
+【Kurisu】...feels bad man.
+<END>
+
+#WRITE(PTR, $00001526)
+【Rintaro】That was an @channel meme too.
+<END>
+
+#WRITE(PTR, $000015D4)
+【Kurisu】Ugh...
+<END>
+
+#WRITE(PTR, $00001678)
+【Rintaro】You really are stained to the soul level. And since we have another lab member who uses @channel speak in real life, he excited your soul.
+<END>
+
+#WRITE(PTR, $0000171C)
+【Kurisu】Oh yeah, it's Hashida's fault that I've been influenced.
+<END>
+
+#WRITE(PTR, $000017C0)
+【Rintaro】But it's so cute how you tried to hide it, @channeler Chris.
+<END>
+
+#WRITE(PTR, $0000186E)
+【Kurisu】DON'T CALL ME THAT.
+<END>
+
+#WRITE(PTR, $00001912)
+She's really glaring at me.
+<END>
+
+#WRITE(PTR, $000019B6)
+She's making me believe that looks could kill.
+<END>
+
+#WRITE(PTR, $00001A6C)
+Does this girl not have a sense of humor? I need to be careful next time.
+<END>
+
+#WRITE(PTR, $00001A84)
+【Rintaro】But I don't understand. You were raised in America, so how are you so familiar with @channel?
+<END>
+
+#WRITE(PTR, $00001A94)
+【Kurisu】You can browse @chan even from America. Understand the rest?
+<END>
+
+#WRITE(PTR, $00001AA4)
+【Rintaro】So that's it, huh. In an English-only environment, you yearned for Japanese. But of all things, you chose @chan.
+<END>
+
+#WRITE(PTR, $00001AB4)
+I mean, all of the pseudo-intellectuals appearing on the media seem to equate @channel to bathroom scribbles.
+<END>
+
+#WRITE(PTR, $00001AC4)
+【Kurisu】It's a little awkward, but it was the place with the most Japanese "atmosphere" to it.
+<END>
+
+#WRITE(PTR, $00001ADE)
+【Kurisu】More importantly, I have a favor to ask.
+<END>
+
+#WRITE(PTR, $00001AEE)
+【Rintaro】A favor?
+<END>
+
+#WRITE(PTR, $00001AFE)
+Kurisu turns away and mumbles something.
+<END>
+
+#WRITE(PTR, $00001B0E)
+But her voice was too small, so I couldn't hear her quite well.
+<END>
+
+#WRITE(PTR, $00001B1E)
+【Rintaro】Just clearly say what you want to say.
+<END>
+
+#WRITE(PTR, $00001B2E)
+When I urge her, Kurisu's still sour face turns red.
+<END>
+
+#WRITE(PTR, $00001B3E)
+【Kurisu】Don't tell anyone else about this.
+<END>
+
+#WRITE(PTR, $00001B4E)
+【Rintaro】You're that desperate to leave them in the dark? Daru's in the same boat with you, and since Mayuri's also an ota, she has a deep understanding of @channel. I visit often too.
+<END>
+
+#WRITE(PTR, $00001B5E)
+【Rintaro】There's nothing to be embarrassed about! You should boldly write "Browsing @channel" in the hobby field of your resume or profile!
+<END>
+
+#WRITE(PTR, $00001B78)
+【Kurisu】Like I'd write that, dummy!
+<END>
+
+#WRITE(PTR, $00001B92)
+【Rintaro】What!? So you mean you'd rather "<DICT>anchor</DICT>" on %B2SVIP%B2E!?
+<END>
+
+#WRITE(PTR, $00001BAC)
+【Kurisu】Gh, I hate myself for understanding those words...!
+<END>
+
+#WRITE(PTR, $00001BBC)
+【Rintaro】I'll drop the topic so that you can concentrate on Time Leap Machine development. It's just a matter of time before the rest of the lab mems find the cat in the bag.
+<END>
+
+#WRITE(PTR, $00001BD6)
+【Kurisu】...I don't need your concern. Everyone in university was older than I. I was the youngest in the laboratory, yet I was the one who wrote the thesis.
+<END>
+
+#WRITE(PTR, $00001BE6)
+【Kurisu】I excel at worldly wisdom. Don't take me lightly.
+<END>
+
+#WRITE(PTR, $00001BFE)
+【Rintaro】...<DICT>What is love?</DICT>
+<END>
+
+#WRITE(PTR, $00001C18)
+【Kurisu】Baby don't hurt me.
+<END>
+
+#WRITE(PTR, $00001C32)
+【Kurisu】Aw crap....
+<END>
+
+#WRITE(PTR, $00001C56)
+Kurisu's face gets redder and redder, and then she genuflects on the spot in defeat. <DICT>orz</DICT>.
+<END>
+
+#WRITE(PTR, $00001C66)
+This girl's a pretty severe @channeler. Pure, too.
+<END>
+
+#WRITE(PTR, $00001C76)
+At least, I don't think she excels at worldly wisdom.
+<FILEEND85>
+

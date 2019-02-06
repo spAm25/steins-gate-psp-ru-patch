@@ -1,0 +1,411 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001186)
+
+#WRITE(PTR, $000001F4)
+When we get to the front of the lab, the day's already dark.
+<END>
+
+#WRITE(PTR, $00000204)
+Normally it takes less than 15 minutes, but since Kurisu kept complaining to take breaks, it ended up taking more than twice that time.
+<END>
+
+#WRITE(PTR, $0000024C)
+【Kurisu】Haah, we finally made it... I'm tired-...
+<END>
+
+#WRITE(PTR, $0000025C)
+【Rintaro】If you didn't complain so much about everything, we would've gotten here sooner.
+<END>
+
+#WRITE(PTR, $00000276)
+【Kurisu】Right back at you. You said "let's take a break" five times along the way.
+<END>
+
+#WRITE(PTR, $00000286)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00000296)
+【Rintaro】That's because I wasn't feeling well....
+<END>
+
+#WRITE(PTR, $000002B0)
+【Kurisu】Is something wrong?
+<END>
+
+#WRITE(PTR, $000002C0)
+【Rintaro】Yeah... occasionally, my right arm aches... And when it does, dark destructive impulses overcome my heart--
+<END>
+
+#WRITE(PTR, $000002DA)
+【Kurisu】Shaddup, be quiet, or I'll extract your right arm's peripheral nerves out by the roots.
+<END>
+
+#WRITE(PTR, $000002EA)
+Heeeeee. What a bizarre train of thought!
+<END>
+
+#WRITE(PTR, $00000302)
+Extracting peripheral nerves would be like last year's <DICT>New Gene Incidents</DICT>, wouldn't it!?
+<END>
+
+#WRITE(PTR, $00000312)
+With that said, I shut up.
+<END>
+
+#WRITE(PTR, $0000032E)
+The final barrier to bringing the IBN 5100 into the lab awaits.
+<END>
+
+#WRITE(PTR, $0000039C)
+We have to ascend this rickety building's narrow staircase.
+<END>
+
+#WRITE(PTR, $000003AC)
+【Kurisu】Shouldn't you call people to help?
+<END>
+
+#WRITE(PTR, $000003BC)
+【Rintaro】Th-that's true....
+<END>
+
+#WRITE(PTR, $00000414)
+Looking up from outside, the lab's lights are turned on.
+<END>
+
+#WRITE(PTR, $000004E8)
+【Suzuha】Huh?
+<END>
+
+#WRITE(PTR, $000004F8)
+Working Warrior appears from the Braun Tube Workshop with perfect timing.
+<END>
+
+#WRITE(PTR, $00000508)
+【Suzuha】If it isn't Okabe Rintaro. What are you carrying?
+<END>
+
+#WRITE(PTR, $00000518)
+【Rintaro】Hmph, you want to know? Then I'll tell you!
+<END>
+
+#WRITE(PTR, $00000560)
+【Kurisu】Wait, if you're just going to stand and talk, shouldn't we put the box down first?
+<END>
+
+#WRITE(PTR, $00000570)
+【Rintaro】Ah, ahh, no, we don't really need to stand and talk.
+<END>
+
+#WRITE(PTR, $000005C0)
+【Suzuha】So, what is that?
+<END>
+
+#WRITE(PTR, $000005D0)
+【Rintaro】If I said it was the IBN 5100... what would you do?
+<END>
+
+#WRITE(PTR, $000005EA)
+【Suzuha】No way!? Amazing! So you got one! Way to go, Okabe Rintaro!
+<END>
+
+#WRITE(PTR, $000005FA)
+I wish she'd stop calling me by my full name.
+<END>
+
+#WRITE(PTR, $0000060A)
+If you're going to do that, then at least use Hououin Kyouma.
+<END>
+
+#WRITE(PTR, $00000624)
+【Suzuha】Where? Where was it?
+<END>
+
+#WRITE(PTR, $00000634)
+【Kurisu】Ugh, it's heavy...
+<END>
+
+#WRITE(PTR, $00000644)
+Kurisu starts giving in.
+<END>
+
+#WRITE(PTR, $00000654)
+Well, I'm about at my limit too.
+<END>
+
+#WRITE(PTR, $00000664)
+【Rintaro】Let's put it down for now!
+<END>
+
+#WRITE(PTR, $00000688)
+Kurisu and I place it on the ground gently, so as to not damage the contents.
+<END>
+
+#WRITE(PTR, $000006D0)
+【Kurisu】Haah...
+<END>
+
+#WRITE(PTR, $00000718)
+【Suzuha】So, where was it?
+<END>
+
+#WRITE(PTR, $00000728)
+【Rintaro】Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00000742)
+【Suzuha】Yanbayashishrine? By shrine, you mean like a Shinto god's shrine?
+<END>
+
+#WRITE(PTR, $00000752)
+【Rintaro】Yeah.
+<END>
+
+#WRITE(PTR, $00000762)
+【Suzuha】Why was it over there...
+<END>
+
+#WRITE(PTR, $00000772)
+Then, suddenly, Suzuha looks towards Kurisu.
+<END>
+
+#WRITE(PTR, $00000792)
+【Suzuha】Ah...!
+<END>
+
+#WRITE(PTR, $000007A2)
+She gasps, and then approaches close enough to Kurisu she could feel her breath.
+<END>
+
+#WRITE(PTR, $000008B8)
+【Kurisu】W-what is it?
+<END>
+
+#WRITE(PTR, $000008C8)
+【Suzuha】Makise Kurisu?
+<END>
+
+#WRITE(PTR, $000008D8)
+【Kurisu】Yes, but...
+<END>
+
+#WRITE(PTR, $000008F2)
+【Suzuha】...
+<END>
+
+#WRITE(PTR, $00000902)
+For some reason, she stares at Kurisu with a frightful force.
+<END>
+
+#WRITE(PTR, $0000091C)
+Kurisu squints as if to oppose it.
+<END>
+
+#WRITE(PTR, $0000092C)
+Wh-what's with this tension....
+<END>
+
+#WRITE(PTR, $0000093C)
+I really can't force myself into this.
+<END>
+
+#WRITE(PTR, $00000956)
+【Kurisu】What is it? Did I do something to you?
+<END>
+
+#WRITE(PTR, $000009C4)
+【Suzuha】...Hmph.
+<END>
+
+#WRITE(PTR, $000009D4)
+Suzuha turns away, and without looking back to us, draws back into the Braun Tube Workshop.
+<END>
+
+#WRITE(PTR, $00000A1C)
+【Kurisu】Who was that just now?
+<END>
+
+#WRITE(PTR, $00000A2C)
+Kurisu turns her remaining anger at me.
+<END>
+
+#WRITE(PTR, $00000A3C)
+【Rintaro】The part-timer at the first floor's Braun Tube Workshop...
+<END>
+
+#WRITE(PTR, $00000A56)
+【Kurisu】Why was she glaring at me?
+<END>
+
+#WRITE(PTR, $00000A66)
+【Rintaro】I-I dunno. Did you do something to make her angry?
+<END>
+
+#WRITE(PTR, $00000A80)
+【Kurisu】That's the first time I ever met her. How rude of her.
+<END>
+
+#WRITE(PTR, $00000A90)
+I thought about reminding Kurisu that she suddenly glared at me at our first meeting, but that was an illusion, so I didn't.
+<END>
+
+#WRITE(PTR, $00000BC0)
+I get Daru and Mayuri out of the lab to help us, and the four of us carry the IBN 5100.
+<END>
+
+#WRITE(PTR, $00000BD0)
+【Rintaro】Good work, everyone. With this, we can fight.
+<END>
+
+#WRITE(PTR, $00000C18)
+【Kurisu】Who are you fighting?
+<END>
+
+#WRITE(PTR, $00000C28)
+【Rintaro】SERN, and the ruling structures that control the world.
+<END>
+
+#WRITE(PTR, $00000C38)
+【Kurisu】You really seem happy.
+<END>
+
+#WRITE(PTR, $00000C48)
+【Rintaro】Happy? I never asked for this. Who do you think I am? I'm an insane mad scientist, you know?
+<END>
+
+#WRITE(PTR, $00000C58)
+【Rintaro】What I want to obtain is chaos. The time machine for that purpose. Fuuhahaha!
+<END>
+
+#WRITE(PTR, $00000C7A)
+【Kurisu】I'm sorry, say that again. You really are a junkie, hypersecreting <DICT>β endorphins</DICT>, aren't you?
+<END>
+
+#WRITE(PTR, $00000CC2)
+【Mayuri】Okarin, Okarin, I always say it's bad to do bad things, don't I-?
+<END>
+
+#WRITE(PTR, $00000D0A)
+【Itaru】But, wow. You seriously found one. You can calmly do what none of us can. Fucking miracles--
+<END>
+
+#WRITE(PTR, $00000D24)
+【Kurisu】How do they work?
+<END>
+
+#WRITE(PTR, $00000D3E)
+【Itaru】...Eh?
+<END>
+
+#WRITE(PTR, $00000D4E)
+【Rintaro】Eh?
+<END>
+
+#WRITE(PTR, $00000D68)
+【Kurisu】Eh...?
+<END>
+
+#WRITE(PTR, $00000D78)
+For a moment, the four of us are silent.
+<END>
+
+#WRITE(PTR, $00000D92)
+【Mayuri】He was able to find it because of Mayushii's help-
+<END>
+
+#WRITE(PTR, $00000DB0)
+Not reading the atmosphere, Mayuri puffs her chest out in pride.
+<END>
+
+#WRITE(PTR, $00000DC0)
+I don't overlook Kurisu's gasp of surprise.
+<END>
+
+#WRITE(PTR, $00000DDA)
+【Mayuri】Without Mayushii's info-, Okarin would still be lost and confused on the streets of Akiba.
+<END>
+
+#WRITE(PTR, $00000DEA)
+【Rintaro】Yeah, it's just as Mayuri said. She did well this time.
+<END>
+
+#WRITE(PTR, $00000E04)
+【Mayuri】Ehhehe-. With that said-, Mayushii has to go home soon-
+<END>
+
+#WRITE(PTR, $00000E14)
+【Mayuri】What about you, Chris-chan-? Wanna come with me?
+<END>
+
+#WRITE(PTR, $00000E2E)
+【Kurisu】Thanks, But I'm staying her a while longer.
+<END>
+
+#WRITE(PTR, $00000E3E)
+Looks like Kurisu's interested in the IBN 5100 and SERN after all.
+<END>
+
+#WRITE(PTR, $00000E4E)
+Which reminds me, I haven't told her the details yet.
+<END>
+
+#WRITE(PTR, $00000E68)
+【Mayuri】I see-. But you should go home soon so you won't be late, you know-?
+<END>
+
+#WRITE(PTR, $00000E82)
+【Mayuri】Well then, see you tomorrow-. Tutturu-♪
+<END>
+
+#WRITE(PTR, $00000E9E)
+Mayuri waves her hand as she leaves.
+<END>
+
+#WRITE(PTR, $00000EAE)
+【Rintaro】Now then, Daru. When do you think we can use the IBN 5100 to hack SERN?
+<END>
+
+#WRITE(PTR, $00000EC8)
+【Itaru】Hmm-, well-
+<END>
+
+#WRITE(PTR, $00000EE4)
+Daru talks while plugging the IBN 5100's power adapter into the wall.
+<END>
+
+#WRITE(PTR, $00000EF4)
+The power supply makes a noisy sound when it's turned on.
+<END>
+
+#WRITE(PTR, $00000F3C)
+【Itaru】Wow-, it turned on properly.
+<END>
+
+#WRITE(PTR, $00000F56)
+【Itaru】First, I need to learn how to use this thing, right? In the first place, it looks like hooking it up is going to be a pain.
+<END>
+
+#WRITE(PTR, $00000F66)
+【Itaru】It might take some time. It's impossible to do it at the same time as I search for the server's root ID.
+<END>
+
+#WRITE(PTR, $00000F76)
+【Rintaro】Doesn't matter. Prioritize the ID search.
+<END>
+
+#WRITE(PTR, $00000F86)
+【Rintaro】If possible, I'd like you to get the IBN 5100 ready to use this month, though.
+<END>
+
+#WRITE(PTR, $00000FA0)
+【Itaru】There's still 30 days left this month. It really won't take until next month.
+<END>
+
+#WRITE(PTR, $00000FB0)
+That's actually reassuring. As expected of the supah hakah.
+<FILEEND1E>
+

@@ -1,0 +1,1521 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00006FA8)
+
+#WRITE(PTR, $000009E8)
+【Rintaro】Hello. It's me.
+<END>
+
+#WRITE(PTR, $00000A0E)
+【Mayuri】Tutturu-♪ Maushii here.
+<END>
+
+#WRITE(PTR, $00000A2A)
+【Rintaro】I thought I told you not to contact me by direct line. We could be tapped.
+<END>
+
+#WRITE(PTR, $00000A50)
+【Mayuri】Huhwha?
+<END>
+
+#WRITE(PTR, $00000A6C)
+【Rintaro】I'm telling you to not be so careless. So, what's the situation over there?
+<END>
+
+#WRITE(PTR, $00000A92)
+【Mayuri】Okarin, Okarin, you know, Mayushii can't follow what you're saying at all-
+<END>
+
+#WRITE(PTR, $00000AAE)
+【Rintaro】Basically, what do you need?
+<END>
+
+#WRITE(PTR, $00000AD4)
+【Mayuri】That's hard to understand-
+<END>
+
+#WRITE(PTR, $00000AEE)
+【Mayuri】Hey, hey, where are you now-?
+<END>
+
+#WRITE(PTR, $00000B0A)
+【Rintaro】Campaign conducting.
+<END>
+
+#WRITE(PTR, $00000B26)
+【Mayuri】Camping kid hugging?
+<END>
+
+#WRITE(PTR, $00000B42)
+【Rintaro】Campaign conducting! I'm looking for an IBN 5100!
+<END>
+
+#WRITE(PTR, $00000B68)
+【Mayuri】Ehhehe-. I see, so that's it-. But, but- Mayushii heard something amazing.
+<END>
+
+#WRITE(PTR, $00000B78)
+【Mayuri】Wanna hear?
+<END>
+
+#WRITE(PTR, $00000B94)
+【Rintaro】If it's valuable information, tell me.
+<END>
+
+#WRITE(PTR, $00000BBA)
+【Mayuri】Well then, come to MayQueen-. I'll be waiting-
+<END>
+
+#WRITE(PTR, $00000C4C)
+【Rintaro】Hey, talk on the phone, hey, Mayuri!
+<END>
+
+#WRITE(PTR, $00000C5C)
+【Rintaro】Why do I have to go all the way to MayQueen...
+<END>
+
+#WRITE(PTR, $00000C72)
+Or so I say, but it's less than a 10 minute walk.
+<END>
+
+#WRITE(PTR, $00000C82)
+Whatever, I haven't had lunch, so I guess I'll go stop by to eat too.
+<END>
+
+#WRITE(PTR, $00000DCE)
+Outside MayQueen's storefront, there's a handwritten sign that says "Today's the Faris Cup, nyan♪"
+<END>
+
+#WRITE(PTR, $00000DDE)
+I stare at the sign completely confused as to what that means when--
+<END>
+
+#WRITE(PTR, $00000DEE)
+【Mayuri】Ah, Okarin.
+<END>
+
+#WRITE(PTR, $00000DFE)
+Maid outfit Mayuri trodds along this way.
+<END>
+
+#WRITE(PTR, $00000E0E)
+She's holding a convenience store bag.
+<END>
+
+#WRITE(PTR, $00000E56)
+【Mayuri】Mayushii went to the convenience store during noon break.
+<END>
+
+#WRITE(PTR, $00000E66)
+Then Mayuri takes out her pocket watch, "Pocketty~". She checks the time.
+<END>
+
+#WRITE(PTR, $00000E76)
+【Mayuri】Well, I said break, but it looks like there's only five minutes left-
+<END>
+
+#WRITE(PTR, $00000FE8)
+Mayuri squats next to the stairs.
+<END>
+
+#WRITE(PTR, $0000108C)
+【Rintaro】Good work. So, what was that amazing thing you heard?
+<END>
+
+#WRITE(PTR, $00001130)
+【Mayuri】Before that, food, food.
+<END>
+
+#WRITE(PTR, $000011D4)
+She takes out some Karaage-kun out of the convenience store bag while speaking.
+<END>
+
+#WRITE(PTR, $00001278)
+The aroma of the karaage stirs my appetite.
+<END>
+
+#WRITE(PTR, $0000131C)
+【Rintaro】Let me have one.
+<END>
+
+#WRITE(PTR, $000013C0)
+【Mayuri】Okay-
+<END>
+
+#WRITE(PTR, $000014A4)
+She stabs one piece of karaage with a toothpick and hands it to me.
+<END>
+
+#WRITE(PTR, $00001548)
+【Mayuri】Here you go-♪
+<END>
+
+#WRITE(PTR, $000015EC)
+【Rintaro】You're even doing that in front of the store. Your maid consciousness is insuficient.
+<END>
+
+#WRITE(PTR, $0000169A)
+【Mayuri】Consciousness?
+<END>
+
+#WRITE(PTR, $0000173E)
+【Rintaro】Here, you're not Shiina Mayuri, but Mayushii NyanNyan.
+<END>
+
+#WRITE(PTR, $000017E2)
+【Rintaro】And yet, here you are in front of the store, going "here, ahh♪" to me. All of the masters who visit this store are going to see that as an act of treason.
+<END>
+
+#WRITE(PTR, $00001890)
+【Mayuri】I see-. You know, Mayushii didn't think so deeply about it-
+<END>
+
+#WRITE(PTR, $00001934)
+So with that said, I take the karaage off the toothpick by hand and throw it into my mouth.
+<END>
+
+#WRITE(PTR, $000019D8)
+Mmm, delicious. Not as good as Juicy Karaage Number One, though.
+<END>
+
+#WRITE(PTR, $00001ABC)
+【Rintaro】So, what was that amazing thing you heard?
+<END>
+
+#WRITE(PTR, $00001B60)
+I ask the same question one more time.
+<END>
+
+#WRITE(PTR, $00001C0E)
+【Mayuri】Ah, yeah yeah. You know, it's about the IBN 5100.
+<END>
+
+#WRITE(PTR, $00001CB2)
+【Rintaro】Don't tell me you got a clue!? I see, so it was at MayQueen!? That was such a blind spot! I've been so blind.
+<END>
+
+#WRITE(PTR, $00001D60)
+【Mayuri】That's not it-. There's no way.
+<END>
+
+#WRITE(PTR, $00001E04)
+Tch, giving me false hope....
+<END>
+
+#WRITE(PTR, $00001EB2)
+Mayuri has a triumphant look on her face, but I don't see where this is going at all.
+<END>
+
+#WRITE(PTR, $00001F56)
+【Mayuri】You know, Mayushii was thinking of the IBN 5100 during work, and asked everyone in the store-
+<END>
+
+#WRITE(PTR, $00001FFA)
+【Mayuri】First I asked Makky-chan, but Makky-chan said she's not good at PCs.
+<END>
+
+#WRITE(PTR, $0000209E)
+【Mayuri】And then RisaRisa-chan only knows about the latest PCs, and she's even a machead-
+<END>
+
+#WRITE(PTR, $00002142)
+【Rintaro】Mayuri, just get to the point. Your troubles don't really matter.
+<END>
+
+#WRITE(PTR, $000021F8)
+【Mayuri】Hm-? Umm, basically-,
+<END2>
+
+#WRITE(PTR, $00002212)
+ it looks like Faris-chan knows-
+<END>
+
+#WRITE(PTR, $000022BA)
+【Rintaro】Wh-what!? Is that true!?
+<END>
+
+#WRITE(PTR, $0000235E)
+【Mayuri】Yup. You know, she's a retro PC maniac-
+<END>
+
+#WRITE(PTR, $00002402)
+【Rintaro】Faris is...
+<END>
+
+#WRITE(PTR, $000024A6)
+That woman's difficult, so I don't really want to meet with her if at all possible...
+<END>
+
+#WRITE(PTR, $0000255C)
+But I'm really desperate for information.
+<END>
+
+#WRITE(PTR, $0000259A)
+I take out my phone and put it to my ear.
+<END>
+
+#WRITE(PTR, $000025AA)
+【Rintaro】It's me. Looks like we've got a clue on the IBN 5100. ...Yeah, don't be surprised. It's Faris NyanNyan.
+<END>
+
+#WRITE(PTR, $000025BA)
+【Rintaro】That catgirl is well-acquainted with retro PCs. We should consider there to be another side to this.
+<END>
+
+#WRITE(PTR, $000025CA)
+【Rintaro】...Hmph, you're as rough a taskmaster as ever. Understood, I'll go meet her right now.
+<END>
+
+#WRITE(PTR, $000025DA)
+【Rintaro】If you don't hear from me by 8PM today, then forget about me and commence the strike on MayQueen.
+<END>
+
+#WRITE(PTR, $000025EA)
+【Rintaro】Everything is Steins;Gate's choice.... El Psy Congroo.
+<END>
+
+#WRITE(PTR, $00002648)
+I put away my phone, pick up another piece of karaage, and look up into MayQueen's window.
+<END>
+
+#WRITE(PTR, $00002658)
+【Mayuri】Ahh-! I didn't say I'd give you 2 pieces of karaage-
+<END>
+
+#WRITE(PTR, $0000272E)
+【Rintaro】Mayuri, well done! I'll use your information to the fullest!
+<END>
+
+#WRITE(PTR, $00002748)
+【Mayuri】Karaage...
+<END>
+
+#WRITE(PTR, $00002758)
+【Rintaro】By the way, what's that Faris Cup that signboard's talking about?
+<END>
+
+#WRITE(PTR, $00002772)
+【Mayuri】Karaage~...
+<END>
+
+#WRITE(PTR, $00002782)
+Depressed, Mayuri keeps stuffing her cheeks with karaage.
+<END>
+
+#WRITE(PTR, $00002792)
+Come on, it was just two.
+<END>
+
+#WRITE(PTR, $000027A2)
+【Rintaro】Can't be helped, huh. I'm a little anxious at the insufficient information, but I'll still commence the break in.
+<END>
+
+#WRITE(PTR, $000027B2)
+【Rintaro】Mayuri, wait here. If I don't return within an hour, go home immediately. Understood?
+<END>
+
+#WRITE(PTR, $000027CC)
+【Mayuri】Mayushii has work right after this, so that's impossible-
+<END>
+
+#WRITE(PTR, $000027DC)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $000027EC)
+L-let's leave Mayuri alone to eat her karaage for now, and break in...
+<END>
+
+#WRITE(PTR, $00002954)
+【Faris】Welcome homeow, Master♪
+<END>
+
+#WRITE(PTR, $00002964)
+When I enter the store, it's fully occupied, unlike usual.
+<END>
+
+#WRITE(PTR, $0000297E)
+【Faris】Nyanya~♪ Is Kyouma participating too nya?
+<END>
+
+#WRITE(PTR, $00002998)
+【Faris】Today is the Faris Cup nya!
+<END>
+
+#WRITE(PTR, $000029A8)
+Doesn't look like Faris plans to explain what that is.
+<END>
+
+#WRITE(PTR, $000029D2)
+I take my phone out again.
+<END>
+
+#WRITE(PTR, $000029E2)
+【Rintaro】It's me. There's something I'd like you to confirm. Concerning the Faris Cup.
+<END>
+
+#WRITE(PTR, $000029F2)
+【Rintaro】...What!? The slaughterhouse battle royale where the winner gets to use Faris however he pleases!?
+<END>
+
+#WRITE(PTR, $00002A0C)
+【Rintaro】...It seems like I've come to an outrageous place. ...No, no problem. I'll show you I can survive. ...Using any means necessary. El Psy Congroo.
+<END>
+
+#WRITE(PTR, $00002A22)
+I put away my phone and turn to Faris.
+<END>
+
+#WRITE(PTR, $00002A32)
+【Rintaro】The Faris Cup is a battle royale, right?
+<END>
+
+#WRITE(PTR, $00002A4C)
+【Faris】No, nya. It's a slaughterhouse battle royale where the winner gets to make Faris his slave, nya.
+<END>
+
+#WRITE(PTR, $00002A5C)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00002A76)
+【Faris】Ahh, everyone, you can't nya. Killing each other over Faris? You can't nya! Stop it already nya~!
+<END>
+
+#WRITE(PTR, $00002A86)
+Faris is moved to tears as she bends her body languishingly, shaking her head left and right.
+<END>
+
+#WRITE(PTR, $00002A96)
+That's some pretty good acting, but of course, there's not a single person in the act of killing in the store.
+<END>
+
+#WRITE(PTR, $00002ABC)
+【Faris】Kyouma, please, nya. Stop everyone nya.
+<END>
+
+#WRITE(PTR, $00002ACC)
+【Rintaro】Don't worry. Without me having to stop them, everyone's sitting silently in their seats.
+<END>
+
+#WRITE(PTR, $00002ADC)
+Nevertheless, the atmosphere here is different. It's somehow bloodthirsty.
+<END>
+
+#WRITE(PTR, $00002AEC)
+【Rintaro】No, seriously, what's the Faris Cup?
+<END>
+
+#WRITE(PTR, $00002B3C)
+【Faris】A contest with Faris nya. Faris goes at it everyone at the same time nyan. Those who please Faris get a reward nya.
+<END>
+
+#WRITE(PTR, $00002B4C)
+I gulp and peek at Faris' face.
+<END>
+
+#WRITE(PTR, $00002B5C)
+【Rintaro】Fari, are you... serious...!
+<END>
+
+#WRITE(PTR, $00002B6C)
+To go at it with all these men at the same time. She's insane.
+<END>
+
+#WRITE(PTR, $00002B86)
+Then Faris suddenly grins.
+<END>
+
+#WRITE(PTR, $00002B96)
+A double tooth peeks out from her charming red lips--
+<END>
+
+#WRITE(PTR, $00002BE6)
+【Faris】...At this rate, everyone's going to give Faris a bad time, nya.
+<END>
+
+#WRITE(PTR, $00002BF6)
+Faris approaches me.
+<END>
+
+#WRITE(PTR, $00002C06)
+Her slender fingers touch my arm.
+<END>
+
+#WRITE(PTR, $00002C16)
+Her caresses give me goosebumps.
+<END>
+
+#WRITE(PTR, $00002C30)
+【Faris】Kyouma, save Faris nya...
+<END>
+
+#WRITE(PTR, $00002C40)
+I can't take my eyes off of Faris. I've been entranced.
+<END>
+
+#WRITE(PTR, $00002C50)
+This loli girl has the devilish power to pull in men--
+<END>
+
+#WRITE(PTR, $00002C60)
+【Rintaro】I refuse!
+<END>
+
+#WRITE(PTR, $00002C7A)
+【Faris】NyaNya!?
+<END>
+
+#WRITE(PTR, $00002C8A)
+I shake her paws off.
+<END>
+
+#WRITE(PTR, $00002D36)
+Whew, she's the owner of such a demonic eye.
+<END>
+
+#WRITE(PTR, $00002DDA)
+I barely escaped getting pulled in.
+<END>
+
+#WRITE(PTR, $00002E7E)
+You could say that it's because I'm Hououin Kyouma that I can escape demon eye curses.
+<END>
+
+#WRITE(PTR, $00002F22)
+【Rintaro】I don't intend to fight. I only came to talk to you.
+<END>
+
+#WRITE(PTR, $00002FD0)
+【Faris】If you're not going to participate, I apawlogize, but I'll have to ask you to leave, nya.
+<END>
+
+#WRITE(PTR, $00003074)
+【Rintaro】You're trying to send the master home as a maid?
+<END>
+
+#WRITE(PTR, $00003122)
+【Faris】Today, Faris is the organizer of the Faris Cup nyan. Only participants can enter the shop nya.
+<END>
+
+#WRITE(PTR, $000031C6)
+【Rintaro】I only need to talk for two minutes. The IBN--
+<END>
+
+#WRITE(PTR, $00003274)
+【Faris】Can't hear nya~n
+<END>
+
+#WRITE(PTR, $00003318)
+Faris forces her ears shut. And by ears, I mean her real ones, not her cat ears.
+<END>
+
+#WRITE(PTR, $000033BC)
+Then she laughs a mischievous laugh.
+<END>
+
+#WRITE(PTR, $0000346A)
+【Faris】If Kyouma wants to talk with Faris, he has no choice but to participate in the Faris Cup nyan.
+<END>
+
+#WRITE(PTR, $0000350E)
+【Rintaro】...That's dirty.
+<END>
+
+#WRITE(PTR, $000035B2)
+【Faris】So, what'll it be nyan? If you don't fight, you wont' survive nyan.
+<END>
+
+#WRITE(PTR, $00003656)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $000036FA)
+Use any method to obtain information. That's the mission currently assigned to me.
+<END>
+
+#WRITE(PTR, $0000379E)
+I have to do it...! No matter what lies ahead!
+<END>
+
+#WRITE(PTR, $00003842)
+【Rintaro】I've got no choice. I'll accept that challenge. However--
+<END>
+
+#WRITE(PTR, $00003A3E)
+I thrust my finger at the tip of Faris' nose.
+<END>
+
+#WRITE(PTR, $00003AE2)
+【Rintaro】If I face you, you'll tell me everything you know!
+<END>
+
+#WRITE(PTR, $00003B90)
+【Faris】NyaNya? It doesn't really matter, but...
+<END>
+
+#WRITE(PTR, $00003CE4)
+【Faris】Well, then, Master, let me guide you nyannyan♪
+<END>
+
+#WRITE(PTR, $00003D88)
+She sticks a nameplate with numbers written on it onto my chest.
+<END>
+
+#WRITE(PTR, $00003E2C)
+The number 28 is written on it in round, girly numbers.
+<END>
+
+#WRITE(PTR, $00003F2E)
+Guided by Faris, I cautiously walk into the back of the store, finally learning what the guests are doing.
+<END>
+
+#WRITE(PTR, $00003FD2)
+Everyone's engrossed in the card game placed on every table.
+<END>
+
+#WRITE(PTR, $00004076)
+And then I remembered. Faris said before that she was doing a RaiNet AccessBattlers tournament. That tournament's title is the Faris Cup. If you win, you get to eat Faris' home cooking or something.
+<END>
+
+#WRITE(PTR, $0000411A)
+Tch, Faris successfully tricked me.
+<END>
+
+#WRITE(PTR, $000041BE)
+The hell does she mean by "save Faris nya"?
+<END>
+
+#WRITE(PTR, $00004262)
+...These guys are really in it to win it.
+<END>
+
+#WRITE(PTR, $000043CC)
+【Itaru】Huh, Okarin, why are you here? You don't do RaiNet.
+<END>
+
+#WRITE(PTR, $00004470)
+【Rintaro】Wha, Daru!?
+<END>
+
+#WRITE(PTR, $00004514)
+【Rintaro】What are you doing here!? What about SERN!?
+<END>
+
+#WRITE(PTR, $000045C2)
+【Itaru】Let me rest today... you should treat me better after two consecutive all nighters, durr.
+<END>
+
+#WRITE(PTR, $00004666)
+【Rintaro】Tch, SERN's rule over the world grows ever more, and yet you're so carefree...
+<END>
+
+#WRITE(PTR, $0000470A)
+【Itaru】But Okarin, you're here carefree too.
+<END>
+
+#WRITE(PTR, $000047AE)
+【Rintaro】I came here for an unrelated matter and got rolled up into this. I'm not interested in RaiNet nor Faris' home cooking.
+<END>
+
+#WRITE(PTR, $00004852)
+Just as I say that, I feel glares from every customer.
+<END>
+
+#WRITE(PTR, $000048F6)
+I sense bloodthirst.
+<END>
+
+#WRITE(PTR, $0000499A)
+Now that I think about it, the Faris Cup is the tournament Faris organized, so in other words, only Faris fans would come, making me the away team.
+<END>
+
+#WRITE(PTR, $00004A3E)
+Tch, so I'm surrounded by enemies, huh?
+<END>
+
+#WRITE(PTR, $00004AE2)
+But I've got to do this.
+<END>
+
+#WRITE(PTR, $00004B86)
+This too is for the sake of obtaining an IBN 5100.
+<END>
+
+#WRITE(PTR, $00004C2A)
+Obtain information using any means necessary.
+<END>
+
+#WRITE(PTR, $00004D72)
+With that said, I sit next to Daru and softly whisper to him.
+<END>
+
+#WRITE(PTR, $00004D8A)
+【Rintaro】Daru, Operation Sigma.
+<END>
+
+#WRITE(PTR, $00004D9A)
+【Itaru】What's that?
+<END>
+
+#WRITE(PTR, $00004DAA)
+【Rintaro】I'm saying we should cooperate. If we team up, we'll be the strongest, right?
+<END>
+
+#WRITE(PTR, $00004DC4)
+【Itaru】We won't. Actually, you'll just weaken me. Okarin, you're still just a beginner as a RaiNetter.
+<END>
+
+#WRITE(PTR, $00004DD4)
+【Rintaro】To me, you're my right arm. As long as I've got you as my partner, I'm no longer afraid.
+<END>
+
+#WRITE(PTR, $00004DE4)
+Daru shows his white teeth in a grin.
+<END>
+
+#WRITE(PTR, $00004DFE)
+【Itaru】But I refuse. I don't want you to drag me down.
+<END>
+
+#WRITE(PTR, $00004E0E)
+【Rintaro】You still call yourself a comrade!?
+<END>
+
+#WRITE(PTR, $00004E1E)
+【Itaru】In this case, we're enemies.
+<END>
+
+#WRITE(PTR, $00004E2E)
+【Rintaro】Y-you traitor... Why do you think I sent you into this store as a spy...?
+<END>
+
+#WRITE(PTR, $00004E48)
+【Itaru】You didn't send me. I'm such a genuine, enthusiastic Faris-tan fan that I check her blog every day--
+<END>
+
+#WRITE(PTR, $00004F66)
+Then, suddenly the store's lights dim.
+<END>
+
+#WRITE(PTR, $00004F8A)
+A song starts playing.
+<END>
+
+#WRITE(PTR, $00004F9A)
+A somewhat solemn melody, with a coquettish female vocalist.
+<END>
+
+#WRITE(PTR, $00004FAA)
+I've heard that song a lot recently. I'm pretty sure it's RaiNet Kakeru's theme song.
+<END>
+
+#WRITE(PTR, $000050EC)
+【Faris】Everynya~n♪ Thanks for waiting nyan! Presently, we're beginning the noon portion of the Faris Cup nya~!
+<END>
+
+#WRITE(PTR, $000050FC)
+Bathed in the spotlight, Faris begins to MC.
+<END>
+
+#WRITE(PTR, $0000510C)
+The previously peaceful audience instantly explodes in excitement.
+<END>
+
+#WRITE(PTR, $0000511C)
+Everyone stands up, raising their fists in the air as they shout in unison.
+<END>
+
+#WRITE(PTR, $00005136)
+【Faris】Thank nyu, thank nyu
+<END>
+
+#WRITE(PTR, $0000514C)
+Responding to the shouts of joy with a majestic wave of her hand, she clears her throat.
+<END>
+
+#WRITE(PTR, $00005166)
+【Faris】The rules are simple. Faris will face off everyone in RaiNet alone nya.
+<END>
+
+#WRITE(PTR, $00005180)
+【Faris】Faris will keep at it and face even up to 10 people at once, nyan.
+<END>
+
+#WRITE(PTR, $0000519A)
+【Faris】By the way, as a reward for anyone who can defeat Faris, Faris will give her home cooking nya~
+<END>
+
+#WRITE(PTR, $000051B4)
+【Faris】Now then, everyone, enjoy the contest~
+<END>
+
+#WRITE(PTR, $000052DC)
+The order of Faris' matches are determined by drawing lots.
+<END>
+
+#WRITE(PTR, $000052EC)
+Seems like 28 people including me are participating in the noon portion.
+<END>
+
+#WRITE(PTR, $000052FC)
+Faris will face 10 people at the same time, so she divides us into three rounds.
+<END>
+
+#WRITE(PTR, $0000530C)
+I'm in the third round.
+<END>
+
+#WRITE(PTR, $0000543E)
+【Itaru】Gwah... Faris is strong...
+<END>
+
+#WRITE(PTR, $0000544E)
+Daru, who was in the first round, was insta killed by Faris.
+<END>
+
+#WRITE(PTR, $0000545E)
+Though he said I'd be a burden, he was actually quite weak.
+<END>
+
+#WRITE(PTR, $0000546E)
+No, maybe it's that Faris is too strong.
+<END>
+
+#WRITE(PTR, $0000547E)
+RaiNet AccessBattlers is close to shogi.
+<END>
+
+#WRITE(PTR, $0000548E)
+There's a special board where you use shogi-like pieces to compete.
+<END>
+
+#WRITE(PTR, $0000549E)
+There seems to be some fairly complicated rules, but the point of the game is to penetrate your opponent's encampment with whichever of your pieces are stronger.
+<END>
+
+#WRITE(PTR, $000054AE)
+Faris is doing that against 10 people at once.
+<END>
+
+#WRITE(PTR, $000054BE)
+She's moving to each of those 10 people's tables one by one, taking one move at a time.
+<END>
+
+#WRITE(PTR, $000054CE)
+They say that Go and Shogi are multifaceted. The same goes for this game.
+<END>
+
+#WRITE(PTR, $000054DE)
+To be skillful at this game, you need to be multifaceted.
+<END>
+
+#WRITE(PTR, $000054EE)
+It looks like Faris is considerably skilled, just like Daru said before.
+<END>
+
+#WRITE(PTR, $00005582)
+With that said, all 10 of the round 1 participants are annihilated within 15 minutes.
+<END>
+
+#WRITE(PTR, $00005592)
+【Faris】Nyahuhu~♪ I'd like it if you all tried a little harder nyan.
+<END>
+
+#WRITE(PTR, $000055A2)
+Damn Faris. Don't get so cocky.
+<END>
+
+#WRITE(PTR, $000055B2)
+I lean my back to the wall and silently watch the round 2 matches.
+<END>
+
+#WRITE(PTR, $00005688)
+【Mayuri】Faris-chan sure is strong, huh-
+<END>
+
+#WRITE(PTR, $00005698)
+Returning from her break, Mayushii carries drinks as she whispers.
+<END>
+
+#WRITE(PTR, $000056B2)
+【Mayuri】Mayushii's not good at RaiNet at all, so I'm really jealous-
+<END>
+
+#WRITE(PTR, $000056C2)
+【Rintaro】What'll you do if you get strong?
+<END>
+
+#WRITE(PTR, $000056DC)
+【Mayuri】Eh-, Okarin, did you know? Right now, RaiNet AccessBattlers isn't just popular in Akiba, but it's a worldwide blend-?
+<END>
+
+#WRITE(PTR, $000056EC)
+Blend...? Like coffee?
+<END>
+
+#WRITE(PTR, $000056FC)
+【Rintaro】You mean brand?
+<END>
+
+#WRITE(PTR, $00005716)
+【Mayuri】Yeah, that. So if you get strong, you're sure to be the hero to all the little kids-♪
+<END>
+
+#WRITE(PTR, $00005726)
+【Rintaro】Hero, huh.... That doesn't sound bad.
+<END>
+
+#WRITE(PTR, $00005740)
+【Mayuri】Also, Upa is so cute too-♪
+<END>
+
+#WRITE(PTR, $00005750)
+As everyone knows, Upa is RaiNet's mascot character.
+<END>
+
+#WRITE(PTR, $00005760)
+His popularity now exceeds that of the electric yellow rat.
+<END>
+
+#WRITE(PTR, $00005770)
+【Rintaro】Wait. That line of argument is strange. Being strong at RaiNet is unrelated to Upa's cuteness.
+<END>
+
+#WRITE(PTR, $00005780)
+But to Mayuri, they are related.
+<END>
+
+#WRITE(PTR, $00005790)
+Meaning her objective is the limited Upa plush toy they give out for participation in official tournaments.
+<END>
+
+#WRITE(PTR, $000057A0)
+Only in your dreams can you become the strongest with such impure intentions, Mayuri.
+<END>
+
+#WRITE(PTR, $000057BA)
+【Mayuri】Faris-chan's so busy she can't go to official tournaments, but I think she definitely has worldwide top level skill-
+<END>
+
+#WRITE(PTR, $00005890)
+In that case, these commoners participating in the Faris Cup aren't a suitable match.
+<END>
+
+#WRITE(PTR, $000058A0)
+Just as I thought, round 2 ends the same as round 1.
+<END>
+
+#WRITE(PTR, $000058B0)
+Nobody's even close to Faris.
+<END>
+
+#WRITE(PTR, $000058C0)
+An overwhelming difference in ability.
+<END>
+
+#WRITE(PTR, $000058D0)
+Her level's too high.
+<END>
+
+#WRITE(PTR, $000058EA)
+【Faris】NyanNyan. Apawlogies, evernyan~. But Faris thinks it's rude to go easy in RaiNet nyan...
+<END>
+
+#WRITE(PTR, $000058FA)
+【Faris】And what Faris wants is a serious match nyan.
+<END>
+
+#WRITE(PTR, $00005942)
+【Itaru】Gwohh, Faris-tan, fascinating. I can't win. I didn't win...
+<END>
+
+#WRITE(PTR, $00005952)
+A thick mood of defeat has already spread across the challengers. All of them are genuflecting with their heads hung.
+<END>
+
+#WRITE(PTR, $00005A30)
+【Rintaro】Hmph... tough luck, you guys.
+<END>
+
+#WRITE(PTR, $00005A40)
+I slowly step forward in front of everyone.
+<END>
+
+#WRITE(PTR, $00005B16)
+I nonchalantly accept Faris' dubious glance.
+<END>
+
+#WRITE(PTR, $00005B26)
+【Rintaro】But we've been saving the best for last.
+<END>
+
+#WRITE(PTR, $00005B36)
+【Rintaro】Daru, allow me to show you. The true gentleman's art of war.
+<END>
+
+#WRITE(PTR, $00005B7E)
+【Itaru】Okarin, don't tell me you've got a plan...?
+<END>
+
+#WRITE(PTR, $00005B8E)
+【Rintaro】Hmph. Indeed I do. Let's leave the operation name as "Sweet Side".
+<END>
+
+#WRITE(PTR, $00005B9E)
+A loud "ohh-" echoes from the surroundings.
+<END>
+
+#WRITE(PTR, $00005BAE)
+The ones cruelly defeated by Faris, and the other 7 round 3 participants entrust their hopes onto me.
+<END>
+
+#WRITE(PTR, $00005C60)
+<LINE>
+<LINE>
+<LINE>
+%LCAvenge us--
+<ENDPANEL>
+
+#WRITE(PTR, $00005C90)
+I've felt the cries of their hearts so much that it hurts.
+<END>
+
+#WRITE(PTR, $00005CA0)
+At first, they were all enemies. But now, before the high mountain known as Faris, our hearts are one.
+<END>
+
+#WRITE(PTR, $00005CBA)
+【Faris】Is Kyouma confident nya?
+<END>
+
+#WRITE(PTR, $00005CCA)
+【Rintaro】...The tears of the fallen twenty... shall not be in vain.
+<END>
+
+#WRITE(PTR, $00005CDA)
+【Rintaro】Faris, do you remember our promise? Once this match is over, I'll have you tell me everything you know.
+<END>
+
+#WRITE(PTR, $00005CEA)
+【Itaru】Amazing! Okarin feels like he's going to win at the get go!
+<END>
+
+#WRITE(PTR, $00005D32)
+【Mayuri】Okarin, go for it-♪
+<END>
+
+#WRITE(PTR, $00005D42)
+The crowd goes wild.
+<END>
+
+#WRITE(PTR, $00005D52)
+They've got high expectations for me.
+<END>
+
+#WRITE(PTR, $00005EB8)
+I slowly go to the table with the board placed on it.
+<END>
+
+#WRITE(PTR, $00005EC8)
+【Rintaro】Five minutes. The match will be decided before then.
+<END>
+
+#WRITE(PTR, $00005EE2)
+【Faris】Well then, round 3, start nya~♪ RaiNet AccesssBattlers- duel access!
+<END>
+
+#WRITE(PTR, $00005F9C)
+【Rintaro】I lost.
+<END>
+
+#WRITE(PTR, $00005FAC)
+Not even five minutes from the start.
+<END>
+
+#WRITE(PTR, $00005FC8)
+【Itaru】Okarin's weak! Too weak!
+<END>
+
+#WRITE(PTR, $00005FD8)
+Obviously! I've never done RaiNet AccessBattlers before!
+<END>
+
+#WRITE(PTR, $00005FE8)
+There's no way I can win if I don't even know the rules!
+<END>
+
+#WRITE(PTR, $00005FF8)
+By the way, not just me, but all 8 of the round 3 contestants faced total destruction.
+<END>
+
+#WRITE(PTR, $00006008)
+And thus, the 28 VS 1 war ended with Faris' complete victory.
+<END>
+
+#WRITE(PTR, $00006022)
+【Mayuri】Mayushii is disappointed....
+<END>
+
+#WRITE(PTR, $0000603C)
+【Itaru】So in the end that was all a bluff!? What was Operation "Sweet Side" supposed to be!?
+<END>
+
+#WRITE(PTR, $00006056)
+【Faris】It was almost like Kyouma committed suicide nya.
+<END>
+
+#WRITE(PTR, $00006070)
+【Itaru】Eh, don't tell me...
+<END>
+
+#WRITE(PTR, $00006080)
+【Rintaro】Fuhahaha! Yes, it's exactly what you're thinking!
+<END>
+
+#WRITE(PTR, $000061E6)
+I make an daunting pose on top of the chair, looking around the losers in the store.
+<END>
+
+#WRITE(PTR, $000061F6)
+Why, it's as if everyone's making a miserable face!
+<END>
+
+#WRITE(PTR, $00006206)
+【Rintaro】Operation "Sweet Side" was, in other words, a suicide attack!
+<END>
+
+#WRITE(PTR, $00006220)
+【Itaru】So it's a pun in every respect. Thank you very much.
+<END>
+
+#WRITE(PTR, $00006230)
+Since I don't know the rules, that's all I could do.
+<END>
+
+#WRITE(PTR, $0000624A)
+【Faris】But why is Kyouma so proud even though he lost nya?
+<END>
+
+#WRITE(PTR, $0000625A)
+【Rintaro】Heheheh, have you still not figured it out, Faris NyanNyan!? Wining and losing made no difference to me in this battle.
+<END>
+
+#WRITE(PTR, $00006274)
+【Faris】What do you mean, nya?
+<END>
+
+#WRITE(PTR, $00006284)
+【Rintaro】Do you remember the conditions I presented to you?
+<END>
+
+#WRITE(PTR, $0000629E)
+【Faris】Hmmya~ umm, if Faris lost, then she'd tell you everything--
+<END>
+
+#WRITE(PTR, $000062AE)
+【Rintaro】Wrong. That's not it, Faris. What I said was this:
+<END>
+
+#WRITE(PTR, $000062BE)
+【Rintaro】"If I face you, you'll tell me everything you know!". "If I face you". Understand, Faris?
+<END>
+
+#WRITE(PTR, $000062CE)
+【Rintaro】Not once did I say "If I win against you"!
+<END>
+
+#WRITE(PTR, $000062DE)
+【Rintaro】This operation was possible because it was me. Everyone here was lured with the prospect of Faris' home cooking, obsessed with winning.
+<END>
+
+#WRITE(PTR, $000062EE)
+【Rintaro】But I was different. I'm not interested in Faris' home cooking at all. That difference in motivation is what allowed this failure mission to succeed!
+<END>
+
+#WRITE(PTR, $000062FE)
+【Rintaro】Heheheh, fuhahahaha, fuuhahaha!
+<END>
+
+#WRITE(PTR, $0000631C)
+My loud laughter echoes through the store.
+<END>
+
+#WRITE(PTR, $0000632C)
+Everyone has their mouth half open, dumbfounded.
+<END>
+
+#WRITE(PTR, $0000633C)
+Mayuri alone applauded for me.
+<END>
+
+#WRITE(PTR, $0000634C)
+【Mayuri】Wah-. Okarin, amazing-
+<END>
+
+#WRITE(PTR, $0000635C)
+【Itaru】Th-that's dirty...
+<END>
+
+#WRITE(PTR, $0000636C)
+【Rintaro】Call it an intellectual strategy! That is the core of Operation "Sweet Side"!
+<END>
+
+#WRITE(PTR, $0000650E)
+I get off the chair and walk to Faris.
+<END>
+
+#WRITE(PTR, $0000651E)
+【Rintaro】Now, Faris. Answer me. Where is the IBN 5100!
+<END>
+
+#WRITE(PTR, $00006538)
+【Faris】Nya? IBN 5100...?
+<END>
+
+#WRITE(PTR, $00006548)
+【Rintaro】Don't play dumb. I have information from a reliable source.
+<END>
+
+#WRITE(PTR, $00006558)
+There's the IBN 5100 image I got from Shining Finger. I bring it up on my phone screen and show it to Faris.
+<END>
+
+#WRITE(PTR, $00006568)
+【Rintaro】Without a doubt, you know about the IBN 5100.
+<END>
+
+#WRITE(PTR, $00006582)
+【Faris】Nnya-, I don't know even if you tell me such a troublesome name nya. Though, I think I remyember seeing that PC in the photo somewhere before...
+<END>
+
+#WRITE(PTR, $00006592)
+【Rintaro】Wh, what does this mean? You're well-acquainted with retro PCs, aren't you!? That's what Mayuri said!
+<END>
+
+#WRITE(PTR, $000065DA)
+【Itaru】Wah, you divulged your source....
+<END>
+
+#WRITE(PTR, $00006622)
+【Mayuri】Yuppers. Mayushii is a reliable source-
+<END>
+
+#WRITE(PTR, $00006640)
+【Faris】I'm not that well-acquainted nya. My Papa collected them, so even now, there are tons of them in storage at home, though.
+<END>
+
+#WRITE(PTR, $00006650)
+【Rintaro】So in other words, the IBN 5100 sleeps there, right!? So, show me the way there right now!
+<END>
+
+#WRITE(PTR, $0000666A)
+【Faris】I can't nya.
+<END>
+
+#WRITE(PTR, $00006684)
+【Rintaro】What!? Why not!?
+<END>
+
+#WRITE(PTR, $00006694)
+Then Faris puts on a bewitching smile.
+<END>
+
+#WRITE(PTR, $000066A4)
+【Faris】Because Faris House is consecrated ground nya.
+<END>
+
+#WRITE(PTR, $000066B4)
+Faris House... huh.
+<END>
+
+#WRITE(PTR, $000066C4)
+【Faris】The only ones who may enter are the cat eared daughters of Faris House, those who pursue the knowledge of the miko nya.
+<END>
+
+#WRITE(PTR, $000066D4)
+【Faris】So basically, nobody except Faris can enter nya. If you try to force your way in... you'll grow dog ears nya!
+<END>
+
+#WRITE(PTR, $000066E4)
+【Rintaro】Like hell you will! What do you mean, dog ears!?
+<END>
+
+#WRITE(PTR, $000066FE)
+【Faris】I-it's true, nya... Faris doesn't lie nya...
+<END>
+
+#WRITE(PTR, $0000670E)
+At once, the frightened catgirl makes a crying gesture.
+<END>
+
+#WRITE(PTR, $0000671E)
+That gesture stirs up the bloodthirst that had become still. It starts swirling around me.
+<END>
+
+#WRITE(PTR, $0000672E)
+I noticed it too late.
+<END>
+
+#WRITE(PTR, $0000673E)
+I'm already surrounded by Faris fans.
+<END>
+
+#WRITE(PTR, $0000674E)
+27 of them.
+<END>
+
+#WRITE(PTR, $0000675E)
+【Rintaro】Tch, Faris, you coward... using your believers against an ally...
+<END>
+
+#WRITE(PTR, $00006778)
+【Faris】Faris is only telling the truth nya~...
+<END>
+
+#WRITE(PTR, $00006788)
+The defeated lot is now being completely manipulated by Faris, grumbling something or another at me.
+<END>
+
+#WRITE(PTR, $0000683E)
+%t240"Don't make Faris cry."
+<LINE>
+<END2>
+
+#WRITE(PTR, $0000684E)
+%t060"I'll never forgive you. Never."
+<LINE>
+<END2>
+
+#WRITE(PTR, $0000685E)
+%t210"Faris is mai waifu."
+<LINE>
+<END2>
+
+#WRITE(PTR, $0000686E)
+%t090"Don't deny the cat ears."
+<LINE>
+<END2>
+
+#WRITE(PTR, $0000687E)
+%t030I want to chew on those cat ears."
+<LINE>
+<END2>
+
+#WRITE(PTR, $0000688E)
+%t120"Faris-tan hahhh hahhh"
+<LINE>
+<END2>
+
+#WRITE(PTR, $0000689E)
+%t000"I want to kneel down and lick Faris' feet."
+<LINE>
+<END2>
+
+#WRITE(PTR, $000068AE)
+%t180"I'd rather be stepped on."
+<ENDPANEL>
+
+#WRITE(PTR, $000068E2)
+Ugh... these guys are serious...
+<END>
+
+#WRITE(PTR, $000068F2)
+I planned to use any means necessary to gather information, but...
+<END>
+
+#WRITE(PTR, $00006902)
+I'm at a great disadvantage against this overwhelming pressure.
+<END>
+
+#WRITE(PTR, $00006912)
+To say nothing about my low affinity with Faris.
+<END>
+
+#WRITE(PTR, $00006922)
+At this rate, I might be converted into the Faris cult.
+<END>
+
+#WRITE(PTR, $00006932)
+Tch... what should I do...!
+<END>
+
+#WRITE(PTR, $0000694A)
+【Rintaro】Gwaahhh
+<END>
+
+#WRITE(PTR, $000069EE)
+I raise a strange voice while grabbing my right wrist with my left hand.
+<END>
+
+#WRITE(PTR, $000069FE)
+【Rintaro】Dammit, n-not now... don't awaken...!
+<END>
+
+#WRITE(PTR, $00006A0E)
+My right hand trembles.
+<END>
+
+#WRITE(PTR, $00006A1E)
+I show agony on my face as I desperately hold back the trembling.
+<END>
+
+#WRITE(PTR, $00006A38)
+【Faris】Kyouma! Don't tell me, "RAS"? the RaiNet Anti System is...! That's why you were so bad at RaiNet, nya...
+<END>
+
+#WRITE(PTR, $00006A48)
+What the hell is that backstory? Of course not!
+<END>
+
+#WRITE(PTR, $00006AB6)
+I ignore Faris's words and totter over towards the store exist. All of the believers who were surrounding me until then suddenly open a path.
+<END>
+
+#WRITE(PTR, $00006AC6)
+It felt as if everyone was giving me cold stares, but I don't have the time to check to make sure.
+<END>
+
+#WRITE(PTR, $00006AD6)
+Nearly collapsing, I roll out of the store.
+<END>
+
+#WRITE(PTR, $00006B5A)
+【Rintaro】Damn, I couldn't get anything in the end, huh...
+<END>
+
+#WRITE(PTR, $00006B6A)
+I click my tongue as I slowly go down the stairs.
+<END>
+
+#WRITE(PTR, $00006B7A)
+The throbbing in my right arm settles as soon as I leave the store.
+<END>
+
+#WRITE(PTR, $00006B8A)
+I guess I'll ask Daru or Mayuri about Faris some other day...
+<END>
+
+#WRITE(PTR, $00006B9A)
+It seems like all my fatigue came out at once.
+<END>
+
+#WRITE(PTR, $00006BAA)
+Also, it's so hot it's almost boiling today. The sun's getting even stronger as we enter August.
+<END>
+
+#WRITE(PTR, $00006BBA)
+Fed up with it, I wipe the sweat of my brow.
+<END>
+
+#WRITE(PTR, $00006BCA)
+【Mayuri】Okari-n!
+<END>
+
+#WRITE(PTR, $00006BDA)
+Mayuri chases after me.
+<END>
+
+#WRITE(PTR, $00006BEA)
+She's smiling as she waves, but her speed is clearly faster than mine.
+<END>
+
+#WRITE(PTR, $00006C3E)
+【Rintaro】What happened. Did the Faris Cup already end?
+<END>
+
+#WRITE(PTR, $00006C4E)
+【Mayuri】Noo. Well, it just ended. After that, I had chat time with Faris-chan.
+<END>
+
+#WRITE(PTR, $00006C68)
+【Mayuri】More importantly, about that IBN 5100. I showed Faris the picture once more and tried asking her-
+<END>
+
+#WRITE(PTR, $00006C78)
+【Rintaro】Good work, Mayuri! Completely different from a certain useless supah hakah! So?
+<END>
+
+#WRITE(PTR, $00006C88)
+【Mayuri】Faris said it might've been around the time she was in elementary school.
+<END>
+
+#WRITE(PTR, $00006CA2)
+【Mayuri】On a cold autumn day, while Faris-chan was shivering from the cold, her butler Kuroki-san came to help--
+<END>
+
+#WRITE(PTR, $00006CB2)
+【Rintaro】Your introduction's too long! Please, just get to the point!
+<END>
+
+#WRITE(PTR, $00006CCC)
+【Mayuri】Umm, so basically, she dedicated one of her father's retro PCs from his collection to a shrine-. And she said it looked like that PC-
+<END>
+
+#WRITE(PTR, $00006CDC)
+【Rintaro】To... a shrine?
+<END>
+
+#WRITE(PTR, $00006CEC)
+That's an unexpected combination.
+<END>
+
+#WRITE(PTR, $00006CFC)
+PC and Shrine. Consumer electronics and ancient Shinto precincts.
+<END>
+
+#WRITE(PTR, $00006D0C)
+They don't even seem tangentially related.
+<END>
+
+#WRITE(PTR, $00006D1C)
+【Rintaro】Which shrine?
+<END>
+
+#WRITE(PTR, $00006D2C)
+Mayuri tilts her head at my question.
+<END>
+
+#WRITE(PTR, $00006D46)
+【Mayuri】Dunno? Where could it be-?
+<END>
+
+#WRITE(PTR, $00006D56)
+You didn't ask Faris...?
+<END>
+
+#WRITE(PTR, $00006D66)
+【Rintaro】Whatever. It's not a bad hint.
+<END>
+
+#WRITE(PTR, $00006D76)
+The shrines in Akiba are Kanda Myojin and Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00006D86)
+I don't know if Faris resided in Akiba when she was little, but what I can do now is visit those two shrines.
+<END>
+
+#WRITE(PTR, $00006D96)
+【Rintaro】Alright, Mayuri, keep up the good work on your espionage.
+<END>
+
+#WRITE(PTR, $00006DB0)
+【Mayuri】S P N hodge?
+<END>
+
+#WRITE(PTR, $00006DC0)
+【Rintaro】If you don't get it, it doesn't matter. Bye.
+<END>
+
+#WRITE(PTR, $00006DDA)
+【Mayuri】Yup. Okarin, bye bye♪
+<END>
+
+#WRITE(PTR, $00006DEA)
+Mayuri slipped out of work, yet she keeps waving her hand to see me off until I can't see her anymore.
+<FILEEND64>
+

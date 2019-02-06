@@ -1,0 +1,327 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00001790)
+
+#WRITE(PTR, $000007E0)
+【Rintaro】...So?
+<END>
+
+#WRITE(PTR, $000007F0)
+While walking, I murmur with an unpleasant thought.
+<END>
+
+#WRITE(PTR, $00000906)
+【Rintaro】Why are you guys tagging along?
+<END>
+
+#WRITE(PTR, $00000916)
+Behind my back, Mayuri and Daru are following as if it's natural.
+<END>
+
+#WRITE(PTR, $00000926)
+By the way, Kurisu's watching over the lab.
+<END>
+
+#WRITE(PTR, $00000936)
+【Mayuri】Come on, Mayushii's never gone over to Faris-chan's house to play.
+<END>
+
+#WRITE(PTR, $00000946)
+【Mayuri】I thought I'd like to visit once-. Ehhehe-♪
+<END>
+
+#WRITE(PTR, $00000956)
+【Itaru】I mean, Faris-tan's private stuff... I can't help but be interested, durr.
+<END>
+
+#WRITE(PTR, $00000966)
+Taking along this Faris Stalker might be bad, in various ways...
+<END>
+
+#WRITE(PTR, $00000976)
+Whatever. If Faris absolutely refuses, then we can just drive him away from her house. Nothing else matters if I can just get Faris to search for an IBN 5100.
+<END>
+
+#WRITE(PTR, $00000986)
+And then, all goes well and the IBN 5100's at Yanabayashi shrine, then that becomes unnecessary.
+<END>
+
+#WRITE(PTR, $00000AAE)
+I tried going to the shrine, but Lukako wasn't there.
+<END>
+
+#WRITE(PTR, $00000ABE)
+I guess he was out when he answered the phone earlier.
+<END>
+
+#WRITE(PTR, $00000ACE)
+It's unavoidable, so I go to the humble shrine office to the side and press the intercom button. Luka Papa comes out.
+<END>
+
+#WRITE(PTR, $00000B12)
+When I try asking him whether the IBN 5100 was dedicated to Yanabayashi Shrine, he answers it certainly was.
+<END>
+
+#WRITE(PTR, $00000B22)
+But now that he looked for it, he said he couldn't find it anywhere.
+<END>
+
+#WRITE(PTR, $00000B32)
+Luka Papa tilted his head wondering why it was gone.
+<END>
+
+#WRITE(PTR, $00000B42)
+I asked if he lent me the IBN 5100 before, but he lost the memory of that fact itself.
+<END>
+
+#WRITE(PTR, $00000C58)
+Just what's going on...?
+<END>
+
+#WRITE(PTR, $00000C68)
+I stay deep in thought after leaving Yanabayashi Shrine for Faris' house.
+<END>
+
+#WRITE(PTR, $00000D06)
+The IBN 5100 suddenly disappeared.
+<END>
+
+#WRITE(PTR, $00000D16)
+Even though it was in the lab just a few days ago.
+<END>
+
+#WRITE(PTR, $00000D26)
+Also, the IBN 5100 disappeared from Yanabayashi Shrine.
+<END>
+
+#WRITE(PTR, $00000D36)
+As if god were playing a prank on me as I searched for it.
+<END>
+
+#WRITE(PTR, $00000D46)
+It certainly seems like it's being influenced by the past changes via D-mail.
+<END>
+
+#WRITE(PTR, $00000D56)
+I can only begin to imagine what influenced it and how.
+<END>
+
+#WRITE(PTR, $00000DBA)
+At any rate, it looks like we'll have to rely on Faris.
+<END>
+
+#WRITE(PTR, $00000EDE)
+Since it's the weekend, the front of Akiba station looks crowded.
+<END>
+
+#WRITE(PTR, $00000EEE)
+Employees in maid and sailor uniform cosplay are diligently distributing fliers.
+<END>
+
+#WRITE(PTR, $00000EFE)
+I appreciate your efforts in this shitty heat.
+<END>
+
+#WRITE(PTR, $00000F0E)
+【Rintaro】Mmm...?
+<END>
+
+#WRITE(PTR, $00000F1E)
+After walking while increasing my melanin pigmentation, I suddenly stop.
+<END>
+
+#WRITE(PTR, $00000F66)
+【Mayuri】What's wrong-?
+<END>
+
+#WRITE(PTR, $00000FB8)
+I catch sight of a woman squatting on the side of the rode, hugging her knees and clacking on her phone.
+<END>
+
+#WRITE(PTR, $00000FD4)
+That's got to be Lab Mem Number 005. No, what is she now?
+<END>
+
+#WRITE(PTR, $00000FE4)
+All memories of Moeka have vanished from Mayuri and Daru's brains.
+<END>
+
+#WRITE(PTR, $00000FF4)
+Does that mean they won't welcome her as a lab mem?
+<END>
+
+#WRITE(PTR, $00001004)
+Well, whatever!
+<END>
+
+#WRITE(PTR, $00001014)
+【Rintaro】What luck!
+<END>
+
+#WRITE(PTR, $00001024)
+I've got something to ask the Shining Finger!
+<END>
+
+#WRITE(PTR, $00001040)
+I rush up to her.
+<END>
+
+#WRITE(PTR, $000010B6)
+【Rintaro】Hey, Shining Finger!
+<END>
+
+#WRITE(PTR, $000010C6)
+I try calling her, but she's stuck in her own little world, not reacting a bit.
+<END>
+
+#WRITE(PTR, $000010D6)
+【Moeka】Eye bee em... eye bee em... eye bee em...
+<END>
+
+#WRITE(PTR, $000010E6)
+【Moeka】GoneGoneGone... why is it gone... why isn't it anywhere... is it really in this town... don't tell me it's already...?
+<END>
+
+#WRITE(PTR, $000010F6)
+【Rintaro】Are you listening? Shining Finger!
+<END>
+
+#WRITE(PTR, $00001106)
+【Moeka】...It should be... should be somewhere... has to... FB said so...
+<END>
+
+#WRITE(PTR, $00001116)
+No reaction.
+<END>
+
+#WRITE(PTR, $00001126)
+【Rintaro】Kiryuu Moeka!
+<END>
+
+#WRITE(PTR, $00001136)
+Moeka stops muttering.
+<END>
+
+#WRITE(PTR, $0000118A)
+She finally looks up-- No, actually, she just looks at my feet.
+<END>
+
+#WRITE(PTR, $0000119A)
+【Moeka】...Okabe-kun?
+<END>
+
+#WRITE(PTR, $000011AA)
+【Rintaro】You. Did you take the IBN 5100 from the lab?
+<END>
+
+#WRITE(PTR, $000011BA)
+Behind my back, Mayuri and Daru are tilting their heads in puzzlement, but I ignore them.
+<END>
+
+#WRITE(PTR, $000011CA)
+【Rintaro】I don't want to accuse you. Since you're a comrade. But you did display an unhealthy attachment to that computer.
+<END>
+
+#WRITE(PTR, $000011DA)
+【Rintaro】So? Did you do it or not?
+<END>
+
+#WRITE(PTR, $000011EA)
+【Moeka】Did you find an IBN 5100...?
+<END>
+
+#WRITE(PTR, $000011FA)
+【Rintaro】I found one, but it went missing.
+<END>
+
+#WRITE(PTR, $0000124E)
+【Moeka】Missing...?
+<END>
+
+#WRITE(PTR, $0000125E)
+【Rintaro】Don't worry. I won't report your actions to the police. As long as you return it, that is.
+<END>
+
+#WRITE(PTR, $0000126E)
+【Moeka】...?
+<END>
+
+#WRITE(PTR, $0000127E)
+The ever-expresionless Moeka puts on a rare bewildered face.
+<END>
+
+#WRITE(PTR, $0000128E)
+【Rintaro】Do you... not know?
+<END>
+
+#WRITE(PTR, $0000129E)
+Moeka faintly shakes her head.
+<END>
+
+#WRITE(PTR, $00001314)
+Then she hangs her head and begins operating her phone at high speed.
+<END>
+
+#WRITE(PTR, $000013A2)
+She really... doesn't know?
+<END>
+
+#WRITE(PTR, $000013B2)
+If it's an inside job, then I thought Moeka was suspicious, but...
+<END>
+
+#WRITE(PTR, $000013C2)
+The IBN 5100 disappeared from Yanabayashi shrine, meaning that it's actually unnatural for Moeka to be the culprit.
+<END>
+
+#WRITE(PTR, $000013D2)
+So it's an influence of the D-mail after all...?
+<END>
+
+#WRITE(PTR, $000013E2)
+Or perhaps, an organized action by SERN?
+<END>
+
+#WRITE(PTR, $000013F8)
+【Rintaro】I'm sorry, Shining Finger.
+<END>
+
+#WRITE(PTR, $000014C4)
+I squat in front of Moeka and bow my head.
+<END>
+
+#WRITE(PTR, $000014D4)
+【Rintaro】I suspected you, a lab mem, and a comrade...!
+<END>
+
+#WRITE(PTR, $000014E4)
+【Rintaro】I'm the worst sort of man. I don't mind if you strike me.
+<END>
+
+#WRITE(PTR, $000014F4)
+【Rintaro】But I want you to know this one thing. ...Since the Organization has been hunting for my life, I've grown unable to trust anyone...
+<END>
+
+#WRITE(PTR, $0000150E)
+I ridicule myself with a bored feeling.
+<END>
+
+#WRITE(PTR, $0000151E)
+【Rintaro】Once I suspect something, everything else looks suspicious... No matter how many comrades amass before me, I always feel alone... I'm ridiculous, aren't I...
+<END>
+
+#WRITE(PTR, $000015AC)
+【Rintaro】D-did you just ignore my entire speech...?
+<END>
+
+#WRITE(PTR, $000015C2)
+【Itaru】Annnyway, Okarin. You just started drama on the streets of Akiba. Has the heat gotten to you?
+<END>
+
+#WRITE(PTR, $000015D2)
+【Rintaro】......
+<FILEEND8D>
+

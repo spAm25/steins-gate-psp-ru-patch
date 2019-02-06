@@ -1,0 +1,831 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($000037DA)
+
+#WRITE(PTR, $00000AE2)
+--The clear after the storm.
+<END>
+
+#WRITE(PTR, $00000BB4)
+【Itaru】Hwahhhh~
+<END>
+
+#WRITE(PTR, $00000BCE)
+【Mayuri】......
+<END>
+
+#WRITE(PTR, $00000BDE)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00000BEE)
+【Luka】......
+<END>
+
+#WRITE(PTR, $00000BFE)
+【Rintaro】...Late.
+<END>
+
+#WRITE(PTR, $00000C0E)
+The sun has already set.
+<END>
+
+#WRITE(PTR, $00000C1E)
+The food lined up on the table-- none of it subtle in appearance-- has already grown cold.
+<END>
+
+#WRITE(PTR, $00000C48)
+I open my phone to check the current time.
+<END>
+
+#WRITE(PTR, $00000C58)
+Time is time. The high school girl trio needs to head back soon.
+<END>
+
+#WRITE(PTR, $00000C6E)
+Was Suzuha able to meet her father?
+<END>
+
+#WRITE(PTR, $00000C7E)
+Parents and children reunited after a long time might have a lot to talk about.
+<END>
+
+#WRITE(PTR, $00000D26)
+【Rintaro】...!
+<END>
+
+#WRITE(PTR, $00000D36)
+Only one word was in Suzuha's mail.
+<END>
+
+#WRITE(PTR, $00000D52)
+Did she not meet her father in that condition...!
+<END>
+
+#WRITE(PTR, $00000D62)
+And then, did she leave town all alone!?
+<END>
+
+#WRITE(PTR, $00000D78)
+【Rintaro】That's unacceptable for Hououin Kyouma...! For she is a test subject!
+<END>
+
+#WRITE(PTR, $00000D94)
+I fly out of the lab.
+<END>
+
+#WRITE(PTR, $00000EC4)
+I don't know where Suzuha is.
+<END>
+
+#WRITE(PTR, $00000ED4)
+I don't know, so for now, I can only go to the station.
+<END>
+
+#WRITE(PTR, $00000EE4)
+If she's going to leave town, then she should be using public transportation.
+<END>
+
+#WRITE(PTR, $00000EF4)
+If she uses the Hibiya line, then I've struck out...
+<END>
+
+#WRITE(PTR, $00000F04)
+But if she's going to Tokyo Station or Ueno Station, then she'll definitely pass through here.
+<END>
+
+#WRITE(PTR, $00000F14)
+I carefully look around the Akiba Station area where the crowd has thinned.
+<END>
+
+#WRITE(PTR, $00000F24)
+Where. Where is she...?
+<END>
+
+#WRITE(PTR, $00000F52)
+After about thirty minutes, following the people funneling into the station.
+<END>
+
+#WRITE(PTR, $00000F62)
+【Rintaro】...!
+<END>
+
+#WRITE(PTR, $00000F72)
+My vision suddenly focuses on a single point.
+<END>
+
+#WRITE(PTR, $00000F82)
+One silhouette, walking towards Chuo Dori.
+<END>
+
+#WRITE(PTR, $00000FE4)
+None other than Suzuha, hanging her head and tottering along.
+<END>
+
+#WRITE(PTR, $00000FF4)
+On closer look, she's wiping her eyes with the backs of her hands.
+<END>
+
+#WRITE(PTR, $00001004)
+Is she crying...?
+<END>
+
+#WRITE(PTR, $00001014)
+I don't see anyone walking together with Suzuha.
+<END>
+
+#WRITE(PTR, $00001024)
+Seems she couldn't meet her father after all.
+<END>
+
+#WRITE(PTR, $00001034)
+【Rintaro】You, the Working Warrior!
+<END>
+
+#WRITE(PTR, $00001094)
+Suzuha raises her head in surprise when I rush over, calling to her.
+<END>
+
+#WRITE(PTR, $000010A4)
+She reveals her weeping face.
+<END>
+
+#WRITE(PTR, $000010B4)
+Our lines of sight cross-- no, they didn't connect.
+<END>
+
+#WRITE(PTR, $000010E8)
+Suzuha turns around and runs away from me.
+<END>
+
+#WRITE(PTR, $000010F8)
+【Rintaro】Wait!
+<END>
+
+#WRITE(PTR, $00001108)
+Exposed to surrounding suspicious eyes, I chase after Suzuha.
+<END>
+
+#WRITE(PTR, $000011A6)
+I lost her--
+<END>
+
+#WRITE(PTR, $00001244)
+Damn--
+<END>
+
+#WRITE(PTR, $000012E2)
+Just where--
+<END>
+
+#WRITE(PTR, $00001380)
+Or rather--
+<END>
+
+#WRITE(PTR, $0000141E)
+Why am I running around so desperately--
+<END>
+
+#WRITE(PTR, $000014BC)
+Do I have the animalistic trait to chase things that run away?
+<END>
+
+#WRITE(PTR, $000014CC)
+Am I stupid? I'm not a wild predator...!
+<END>
+
+#WRITE(PTR, $000014DC)
+If Suzuha ran away, then shouldn't I just leave her be?
+<END>
+
+#WRITE(PTR, $000014EC)
+It's not like we're that close to begin with.
+<END>
+
+#WRITE(PTR, $00001592)
+【Suzuha】...You really are a good guy.
+<END>
+
+#WRITE(PTR, $000015AC)
+【Suzuha】You might've... taken a load off my back.
+<END>
+
+#WRITE(PTR, $000015FA)
+But Suzuha was all alone here in Akiba Town.
+<END>
+
+#WRITE(PTR, $0000160A)
+Maybe I'm the only one she talked to about her father.
+<END>
+
+#WRITE(PTR, $0000161A)
+Then in that case, more than just listening--
+<END>
+
+#WRITE(PTR, $0000162A)
+More than just being relied upon--
+<END>
+
+#WRITE(PTR, $0000163A)
+I feel like I should at least do whatever it is I can.
+<END>
+
+#WRITE(PTR, $00001800)
+【Rintaro】...!?
+<END>
+
+#WRITE(PTR, $00001810)
+Just now, I think I saw someone from behind who looked like Suzuha...?
+<END>
+
+#WRITE(PTR, $00001820)
+But I've reached my limit.
+<END>
+
+#WRITE(PTR, $00001830)
+Just running to the station stopped my feet from lack of oxygen.
+<END>
+
+#WRITE(PTR, $00001840)
+With my hands on my knees, I keep gasping for air.
+<END>
+
+#WRITE(PTR, $00001850)
+My breath grows irregular.
+<END>
+
+#WRITE(PTR, $00001860)
+My lungs sting.
+<END>
+
+#WRITE(PTR, $00001870)
+My sides throb in pain.
+<END>
+
+#WRITE(PTR, $00001880)
+I took a lap around the station, but couldn't find Suzuha in the end.
+<END>
+
+#WRITE(PTR, $00001890)
+I guess this is also Steins;Gate's choice.
+<END>
+
+#WRITE(PTR, $000018A0)
+While taking a rest, I look up to the night sky. The satellite remains unchanged in Radio Kaikan's crumbled wall.
+<END>
+
+#WRITE(PTR, $000018B0)
+I wipe the sweat off my brow, turn right, and head back to the lab.
+<END>
+
+#WRITE(PTR, $00001ABC)
+【Mayuri】Okarin, did you meet with Suzu-san-?
+<END>
+
+#WRITE(PTR, $00001ACC)
+Everyone's still at the lab.
+<END>
+
+#WRITE(PTR, $00001ADC)
+【Rintaro】It's already late. Go home, everyone.
+<END>
+
+#WRITE(PTR, $00001AEC)
+【Luka】But...
+<END>
+
+#WRITE(PTR, $00001B06)
+【Kurisu】What happened in the end?
+<END>
+
+#WRITE(PTR, $00001B20)
+【Itaru】Yeah. Don't decide things by yourself.
+<END>
+
+#WRITE(PTR, $00001B30)
+【Rintaro】Suzuha ran away from me... It seems like she couldn't meet her father.
+<END>
+
+#WRITE(PTR, $00001B4A)
+【Mayuri】I see-...
+<END>
+
+#WRITE(PTR, $00001B5A)
+Depression sinks through the room.
+<END>
+
+#WRITE(PTR, $00001B6A)
+Everyone falls silent with sad expressions.
+<END>
+
+#WRITE(PTR, $00001B7A)
+【Rintaro】Hehh, heheheh...
+<END>
+
+#WRITE(PTR, $00001B94)
+I begin to laugh.
+<END>
+
+#WRITE(PTR, $00001BA4)
+【Rintaro】Heheheh, fuhahaha!
+<END>
+
+#WRITE(PTR, $00001BBE)
+【Luka】O-Okabe-san...? What's wrong? Are you okay?
+<END>
+
+#WRITE(PTR, $00001BD8)
+【Kurisu】Didn't he just run too much and deprive his brain of oxygen?
+<END>
+
+#WRITE(PTR, $00001BF2)
+【Itaru】Okarin... you're disgrossting.
+<END>
+
+#WRITE(PTR, $00001C02)
+【Rintaro】Heheh, no, it's just rich that you all are so depressed...!
+<END>
+
+#WRITE(PTR, $00001C1C)
+【Rintaro】Every last one of you is depressed.
+<END>
+
+#WRITE(PTR, $00001C2C)
+【Rintaro】For times like these, don't we have "that"!?
+<END>
+
+#WRITE(PTR, $00001C3C)
+With a snap, I point behind the curtain to the development room.
+<END>
+
+#WRITE(PTR, $00001C56)
+【Kurisu】Going to use a D-mail?
+<END>
+
+#WRITE(PTR, $00001C70)
+【Itaru】But the Microwave Ophone's discharge phenomenon won't occur at this hour, will it?
+<END>
+
+#WRITE(PTR, $00001C80)
+【Rintaro】If it won't, then let's send it tomorrow.
+<END>
+
+#WRITE(PTR, $00001C90)
+D-mails jump over time.
+<END>
+
+#WRITE(PTR, $00001CA0)
+Send time doesn't matter. Received time does.
+<END>
+
+#WRITE(PTR, $00001CB0)
+【Mayuri】What are you sending, and to whom-?
+<END>
+
+#WRITE(PTR, $00001CC0)
+【Rintaro】To myself this afternoon. The contents--
+<END>
+
+#WRITE(PTR, $00001CD0)
+I smile a grin of victory.
+<END>
+
+#WRITE(PTR, $00001CE0)
+【Rintaro】Don't give in to Christina's threats. Pursue the Working Warrior.
+<END>
+
+#WRITE(PTR, $00001CF0)
+If I do that, then I won't lose her for sure.
+<END>
+
+#WRITE(PTR, $00001D00)
+And then, we can have Suzuha experiment as a test subject...!
+<END>
+
+#WRITE(PTR, $00001D28)
+I suddenly hear the sound of rain.
+<END>
+
+#WRITE(PTR, $00001D38)
+When I look out the window, rain has started to fall.
+<END>
+
+#WRITE(PTR, $00001E72)
+Just like Daru said, the discharge phenomenon didn't occur that day, so we couldn't send a D-mail after all.
+<END>
+
+#WRITE(PTR, $00001E8A)
+The rain strengthened over time, eventually becoming a thunderstorm.
+<END>
+
+#WRITE(PTR, $00001FF8)
+The next day.
+<END>
+
+#WRITE(PTR, $00002008)
+The sky cleared up as if yesterday's rain were a lie.
+<END>
+
+#WRITE(PTR, $00002082)
+I keep looking down the window to see how things are going at the Braun Tube Workshop, but daytime comes without Suzuha appearing.
+<END>
+
+#WRITE(PTR, $00002092)
+She's probably long gone from Akiba by now.
+<END>
+
+#WRITE(PTR, $000020A2)
+Heheheh, don't underestimate us, Working Warrior.
+<END>
+
+#WRITE(PTR, $000020B2)
+You must fight as my piece in Ragnarok. You won't get away with independent action.
+<END>
+
+#WRITE(PTR, $0000213C)
+At the strike of 12, I activate the Microwave Ophone (Temp).
+<END>
+
+#WRITE(PTR, $0000214C)
+The destination is my phone, yesterday around 16 o'clock.
+<END>
+
+#WRITE(PTR, $0000235C)
+The discharge phenomenon steadily occurs
+<END>
+
+#WRITE(PTR, $0000236C)
+The floor shakes violently.
+<END>
+
+#WRITE(PTR, $000023DC)
+While squinting through the glare, I send the mail--
+<END>
+
+#WRITE(PTR, $00002534)
+WD06.
+<END2>
+
+#WRITE(PTR, $00002936)
+My brain pool shakes violently; my vision flickers.
+<END>
+
+#WRITE(PTR, $00002946)
+Those sensations soon pass, to be replaced with warmth throughout my body, and pulsation in my ears.
+<END>
+
+#WRITE(PTR, $00002956)
+I blink slowly.
+<END>
+
+#WRITE(PTR, $00002976)
+Reading Steiner activated again.
+<END>
+
+#WRITE(PTR, $00002986)
+So I'm convinced. That we successfully secured Suzuha.
+<END>
+
+#WRITE(PTR, $00002A9C)
+I hurry down the stairs.
+<END>
+
+#WRITE(PTR, $00002BBA)
+In front of the building.
+<END>
+
+#WRITE(PTR, $00002BCA)
+I confirm the presence of that which should be there.
+<END>
+
+#WRITE(PTR, $00002C6C)
+An MTB, polished to a glitter.
+<END>
+
+#WRITE(PTR, $00002C7C)
+ And on the bench next to that bicycle,
+<END>
+
+#WRITE(PTR, $00002C8C)
+Looking up to the sparkling summer sky--
+<END>
+
+#WRITE(PTR, $00002D02)
+Sits Amane Suzuha.
+<END>
+
+#WRITE(PTR, $00002D12)
+【Rintaro】...Good morning, Working Warrior.
+<END>
+
+#WRITE(PTR, $00002D22)
+I try to remain calm as I call to her.
+<END>
+
+#WRITE(PTR, $00002D76)
+【Suzuha】Sup.
+<END>
+
+#WRITE(PTR, $00002D86)
+Her very Daru-esque,
+<END>
+
+#WRITE(PTR, $00002D96)
+Usual greeting.
+<END>
+
+#WRITE(PTR, $00002DA6)
+【Rintaro】Playing hooky?
+<END>
+
+#WRITE(PTR, $00002DC0)
+【Suzuha】Come on, no customers come.
+<END>
+
+#WRITE(PTR, $00002DDA)
+【Suzuha】And besides, we were partying all night upstairs.
+<END>
+
+#WRITE(PTR, $00002DEA)
+【Suzuha】I'm really sleepy.
+<END>
+
+#WRITE(PTR, $00002DFA)
+【Rintaro】Partying all night...? Who was?
+<END>
+
+#WRITE(PTR, $00002E14)
+【Suzuha】Okabe Rintaro, did you drink too much yesterday?
+<END>
+
+#WRITE(PTR, $00002E2E)
+【Suzuha】You're drunk, huh. That's no good for a minor.
+<END>
+
+#WRITE(PTR, $00002E3E)
+As a result of branching from a world line where we failed to detain Suzuha to a world where we succeeded, yesterday's events changed.
+<END>
+
+#WRITE(PTR, $00002E4E)
+【Rintaro】Last night, you couldn't meet your father, so we had the Last Supper to make you into a test subject. Correct?
+<END>
+
+#WRITE(PTR, $00002E5E)
+【Suzuha】Ahaha. Yeah, yeah. Yesterday, you did say something like that.
+<END>
+
+#WRITE(PTR, $00002E78)
+【Suzuha】Thank you for all you did yesterday.
+<END>
+
+#WRITE(PTR, $00002E88)
+【Rintaro】...I don't really remember it that well, but how did we secure you?
+<END>
+
+#WRITE(PTR, $00002EA2)
+【Suzuha】Don't tell me you really drank too much yesterday?
+<END>
+
+#WRITE(PTR, $00002EB2)
+【Rintaro】Just tell me.
+<END>
+
+#WRITE(PTR, $00002EC2)
+【Suzuha】Well, I was going to go home from the time machine offline meet when--
+<END>
+
+#WRITE(PTR, $00002ED2)
+【Rintaro】Woah, wait a second. Time machine offline meet!?
+<END>
+
+#WRITE(PTR, $00002EE2)
+【Suzuha】Yup.
+<END>
+
+#WRITE(PTR, $00002EF2)
+That's the same offline meet that Daru was going to, right...?
+<END>
+
+#WRITE(PTR, $00002F02)
+【Rintaro】Was that the place your father could've appeared at?
+<END>
+
+#WRITE(PTR, $00002F1C)
+【Suzuha】I said so yesterday, didn't I?
+<END>
+
+#WRITE(PTR, $00002F2C)
+【Rintaro】So, you were going home and then?
+<END>
+
+#WRITE(PTR, $00002F46)
+【Suzuha】Suddenly, you and Hashida Itaru, and Shiina Mayuri as well, appeared--
+<END>
+
+#WRITE(PTR, $00002F60)
+【Suzuha】And took me to the lab. And they all lived happily ever after.
+<END>
+
+#WRITE(PTR, $00002F70)
+So basically, the events of the pursuit operation went by gloriously.
+<END>
+
+#WRITE(PTR, $00002F80)
+I can't help but smile at how smoothly things went.
+<END>
+
+#WRITE(PTR, $00002F90)
+【Suzuha】Yesterday sure was fun, huh.
+<END>
+
+#WRITE(PTR, $00002FA0)
+Suzuha murmurs earnestly as she looks back up at the blue sky.
+<END>
+
+#WRITE(PTR, $00002FBA)
+【Suzuha】It would've been more fun if Makise Kurisu weren't around. The apple pie she made was murderous.
+<END>
+
+#WRITE(PTR, $00002FCA)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00002FE4)
+【Suzuha】But Urushibara Luka's curry was first-rate.
+<END>
+
+#WRITE(PTR, $00002FFE)
+【Suzuha】Your lab, doesn't it seem like an, umm, club? That sorta place is kinda good.
+<END>
+
+#WRITE(PTR, $0000300E)
+【Suzuha】Everyone gets along, and it's always fun...
+<END>
+
+#WRITE(PTR, $00003028)
+【Suzuha】That's the first time I've ever had so much fun in my life.
+<END>
+
+#WRITE(PTR, $000030D8)
+Hmm. Looks like Suzuha spent a pretty dark childhood.
+<END>
+
+#WRITE(PTR, $000030E8)
+Maybe she was a bullied child.
+<END>
+
+#WRITE(PTR, $000030F8)
+Maybe that has something to do with the disappearance of her father.
+<END>
+
+#WRITE(PTR, $0000315C)
+【Rintaro】Working Warrior. Just as promised, I'll have you become a test subject.
+<END>
+
+#WRITE(PTR, $00003176)
+【Suzuha】...But I've already told you, I don't know Father's mail address.
+<END>
+
+#WRITE(PTR, $00003186)
+【Rintaro】Then we'll have to postpone the experiment until you find out.
+<END>
+
+#WRITE(PTR, $00003196)
+【Rintaro】By the way, the Microwave Ophone (Temp) used in the experiment is our lab's top secret item, so we'll have you become a lab mem to prevent information leaks to the outside.
+<END>
+
+#WRITE(PTR, $000031A6)
+【Suzuha】Lab mem?
+<END>
+
+#WRITE(PTR, $000031B6)
+【Rintaro】Short for laboratory member. People awarded a lab mem number are in other words, the lab's comrades.
+<END>
+
+#WRITE(PTR, $000031D0)
+【Suzuha】...Is it okay?
+<END>
+
+#WRITE(PTR, $000031E0)
+【Rintaro】You're getting it whether you like it or not. From today forth, you are Lab Mem Number 008!
+<END>
+
+#WRITE(PTR, $000031FC)
+Informed with such gravitas, Suzuha hangs her head while squatting.
+<END>
+
+#WRITE(PTR, $0000320C)
+She sniffles once.
+<END>
+
+#WRITE(PTR, $00003254)
+Then she lifts her face, revealing a smile.
+<END>
+
+#WRITE(PTR, $00003264)
+【Suzuha】I can't help it, so I'll be a test subject.
+<END>
+
+#WRITE(PTR, $00003274)
+【Rintaro】...You don't want to go home anymore?
+<END>
+
+#WRITE(PTR, $00003284)
+【Suzuha】Nope. I'll try my best to search for Father a little more.
+<END>
+
+#WRITE(PTR, $00003294)
+【Rintaro】You are a lab mem starting today. If there's anything you need, we'll help.
+<END>
+
+#WRITE(PTR, $000032A4)
+【Rintaro】By the way, do you have any clues about your father?
+<END>
+
+#WRITE(PTR, $000032BE)
+Suzuha hesitates a little--
+<END>
+
+#WRITE(PTR, $00003392)
+And then stands up, turning to me.
+<END>
+
+#WRITE(PTR, $000033A2)
+She whispers with a serious expression.
+<END>
+
+#WRITE(PTR, $000033B2)
+【Suzuha】My father calls himself "Titor".
+<END>
+
+#WRITE(PTR, $000033C2)
+【Rintaro】Wait, Titor, as in -that- Titor!?
+<END>
+
+#WRITE(PTR, $000033DC)
+【Suzuha】You know about him? Right now, he might be using a different codename, though...
+<END>
+
+#WRITE(PTR, $000033EC)
+I don't just know about him. For the past several weeks, he's been on @channel, hasn't he!?
+<END>
+
+#WRITE(PTR, $000033FC)
+I open up a relevant @channel thread on my phone, and show it to Suzuha.
+<END>
+
+#WRITE(PTR, $0000340C)
+【Rintaro】Look! Someone named John Titor is posting, isn't he!?
+<END>
+
+#WRITE(PTR, $0000345C)
+Suzuha stares at the screen.
+<END>
+
+#WRITE(PTR, $0000346C)
+【Rintaro】This solves the puzzle! Your father is on @channel!
+<END>
+
+#WRITE(PTR, $00003486)
+【Suzuha】Ahh, umm, you're right...
+<END>
+
+#WRITE(PTR, $00003496)
+【Rintaro】...eh, hey. What's with that indifferent reaction?
+<END>
+
+#WRITE(PTR, $000034B0)
+【Suzuha】No....It's not this person.
+<END>
+
+#WRITE(PTR, $000034C0)
+【Rintaro】How do you know? Just now, you said your father called himself Titor, didn't you!?
+<END>
+
+#WRITE(PTR, $000034D0)
+【Suzuha】I would know. Anyway, this Titor isn't Father.
+<END>
+
+#WRITE(PTR, $000034E0)
+That's a roundabout way to say it.
+<END>
+
+#WRITE(PTR, $000034F0)
+It's almost like she knows who this John Titor is--
+<END>
+
+#WRITE(PTR, $00003500)
+As if to answer my inner doubts, Suzuha continues.
+<END>
+
+#WRITE(PTR, $00003510)
+【Suzuha】He's not John. The name my father used is--
+<END>
+
+#WRITE(PTR, $000035F6)
+【Suzuha】Barrel Titor.
+<FILEEND57>
+

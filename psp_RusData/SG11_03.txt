@@ -1,0 +1,2074 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00006786)
+
+#WRITE(PTR, $00000B08)
+It was at a hair's breadth...
+<END>
+
+#WRITE(PTR, $00000B18)
+I nearly bumped into myself at the 8th floor landing.
+<END>
+
+#WRITE(PTR, $00000B28)
+Running down the stairs to the 7th floor, I heard footsteps running behind me the other way. Those were no doubt mine. It was a near miss.
+<END>
+
+#WRITE(PTR, $00000B38)
+Very carefully, I descend to the 4th floor, and catch my breath.
+<END>
+
+#WRITE(PTR, $00000B48)
+I take a look around, but there's nobody I need to be wary of.
+<END>
+
+#WRITE(PTR, $00000B58)
+I wonder how things went with Suzuha. I'm worried, but for now I need to focus on myself.
+<END>
+
+#WRITE(PTR, $00000B68)
+And on what I must do.
+<END>
+
+#WRITE(PTR, $00000B78)
+That is, the prevention of Kurisu's death.
+<END>
+
+#WRITE(PTR, $00000B88)
+In about 30 minutes from now, Kurisu was killed right after Nakabachi's presentation ended.
+<END>
+
+#WRITE(PTR, $00000B98)
+I know the scene of the murder. The passage of the 8th floor. Deeper than the event assembly hall, where barely anybody would go.
+<END>
+
+#WRITE(PTR, $00000BA8)
+I don't know who Kurisu's murderer is.
+<END>
+
+#WRITE(PTR, $00000BB8)
+So rather than make awkward, conspicuous movements, I should just wait at the scene.
+<END>
+
+#WRITE(PTR, $00000BC8)
+I'll cool off for about five minutes and then head over there.
+<END>
+
+#WRITE(PTR, $00000BD8)
+Certainly, at that time, Kurisu spoke out to me in the assembly hall, got fed up, and returned after going down this far.
+<END>
+
+#WRITE(PTR, $00000BE8)
+Then I called Mayuri, but couldn't connect, so in the end, I went back to the assembly hall.
+<END>
+
+#WRITE(PTR, $00000BF8)
+About what time was that?
+<END>
+
+#WRITE(PTR, $00000C08)
+At any rate, if I just stay here, I'll bump into myself. It's tough thinking about how to act so that my old self doesn't notice...
+<END>
+
+#WRITE(PTR, $00000C18)
+When I thrust Suzuha's watch into my pocket to put up with my depression--
+<END>
+
+#WRITE(PTR, $00000C32)
+【Kurisu?】Excuse me.
+<END>
+
+#WRITE(PTR, $00000CA4)
+【Rintaro】!?
+<END>
+
+#WRITE(PTR, $00000CB4)
+Suddenly someone calls out to me.
+<END>
+
+#WRITE(PTR, $00000CC4)
+And that someone is--
+<END>
+
+#WRITE(PTR, $00000D6A)
+【Rintaro】Kurisu...!
+<END>
+
+#WRITE(PTR, $00000D7A)
+【Kurisu】...do I know you?
+<END>
+
+#WRITE(PTR, $00000D8A)
+【Rintaro】No...
+<END>
+
+#WRITE(PTR, $00000D9A)
+【Kurisu】You just came down here from the rooftop, didn't you?
+<END>
+
+#WRITE(PTR, $00000DAA)
+A look of challenge in her face.
+<END>
+
+#WRITE(PTR, $00000DBA)
+An intellectual aura emanating from her every pore.
+<END>
+
+#WRITE(PTR, $00000DCA)
+I never thought I'd see her face again.
+<END>
+
+#WRITE(PTR, $00000DDA)
+I never thought I'd hear her voice again.
+<END>
+
+#WRITE(PTR, $00000DEA)
+But now.
+<END>
+
+#WRITE(PTR, $00000DFA)
+The one more important to me than anyone else is right before my eyes.
+<END>
+
+#WRITE(PTR, $00000EBE)
+Tears come close to welling up.
+<END>
+
+#WRITE(PTR, $00000ECE)
+I want to embrace her right now.
+<END>
+
+#WRITE(PTR, $00000F92)
+But I swallow down my overflowing feelings.
+<END>
+
+#WRITE(PTR, $00000FA2)
+This Kurisu still doesn't know me.
+<END>
+
+#WRITE(PTR, $00000FB2)
+Don't forget this is our first meeting.
+<END>
+
+#WRITE(PTR, $00000FCC)
+【Kurisu】I heard a strange sound from the rooftop, and it felt like the whole building shook. Do you think there's a connection?
+<END>
+
+#WRITE(PTR, $00000FDC)
+【Kurisu】Just what happened? Did Doctor Nakabachi prepare... no he didn't say anything did he?
+<END>
+
+#WRITE(PTR, $00000FEC)
+Gah. Of all things, to be spotted by Kurisu...!
+<END>
+
+#WRITE(PTR, $00000FFC)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $0000100C)
+I couldn't think of how to answer her.
+<END>
+
+#WRITE(PTR, $0000101C)
+More importantly, if I were to exchange words with her, I wouldn't be able to hold back my overflowing feelings.
+<END>
+
+#WRITE(PTR, $000011B8)
+When we cracked SERN.
+<END>
+
+#WRITE(PTR, $000011C8)
+Kurisu returned to the lab and showed me her last fleeting smile. That smile floats through my mind.
+<END>
+
+#WRITE(PTR, $000012F2)
+【Kurisu】Are you listening? You're sweating really bad you know.
+<END>
+
+#WRITE(PTR, $00001302)
+Kurisu cross examines me with suspicious eyes.
+<END>
+
+#WRITE(PTR, $00001312)
+What would happen if I took Kurisu outside the building right now?
+<END>
+
+#WRITE(PTR, $00001322)
+Would the Divergence change without Kurisu getting killed?
+<END>
+
+#WRITE(PTR, $0000142C)
+I recall all the times that Mayuri died and I kept time leaping to save her.
+<END>
+
+#WRITE(PTR, $0000148E)
+And each of those times ended in vain.
+<END>
+
+#WRITE(PTR, $000014F0)
+I was unable to save Mayuri even once.
+<END>
+
+#WRITE(PTR, $0000155A)
+No matter what I did, the world would kill Mayuri.
+<END>
+
+#WRITE(PTR, $00001636)
+Wouldn't it be the same with Kurisu?
+<END>
+
+#WRITE(PTR, $00001646)
+Should I even try it?
+<END>
+
+#WRITE(PTR, $00001696)
+I timidly reach out to Kurisu--
+<END>
+
+#WRITE(PTR, $000016B0)
+【Kurisu】Hey, what is it?
+<END>
+
+#WRITE(PTR, $00001700)
+Kurisu takes a step away from me in surprise.
+<END>
+
+#WRITE(PTR, $00001710)
+She stiffens her body, while embracing an A4 envelope before her chest.
+<END>
+
+#WRITE(PTR, $00001720)
+My first encounter with Kurisu. Even though I know that, I still can't shake the feeling we're old friends. Now that I think about it, taking her away from here would be difficult.
+<END>
+
+#WRITE(PTR, $00001730)
+It's unthinkable that Kurisu would just tag along with someone as suspicious as me, who just ran down from the off limits rooftop.
+<END>
+
+#WRITE(PTR, $00001740)
+It would be impossible to take her away.
+<END>
+
+#WRITE(PTR, $00001750)
+I really should just wait at the scene of the murder.
+<END>
+
+#WRITE(PTR, $00001760)
+I grind my teeth and try to leave here, ignoring Kurisu.
+<END>
+
+#WRITE(PTR, $00001802)
+【Kurisu】Please answer my question.
+<END>
+
+#WRITE(PTR, $00001812)
+She pursues me.
+<END>
+
+#WRITE(PTR, $00001822)
+Why is she this desperate to ascertain my identity?
+<END>
+
+#WRITE(PTR, $00001832)
+Well, I certainly am suspicious.
+<END>
+
+#WRITE(PTR, $00001842)
+Is she just curious?
+<END>
+
+#WRITE(PTR, $00001852)
+She even called out to me without bringing anyone else.
+<END>
+
+#WRITE(PTR, $00001862)
+I reluctantly halt, and look Kurisu straight in the eyes.
+<END>
+
+#WRITE(PTR, $00001872)
+【Kurisu】...Answer me.
+<END>
+
+#WRITE(PTR, $00001882)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $00001892)
+【Rintaro】I'm trying--
+<END>
+
+#WRITE(PTR, $0000193C)
+<LINE>
+<LINE>
+<LINE>
+%LC"I'm trying to save you..."
+<ENDPANEL>
+
+#WRITE(PTR, $00001964)
+I start speaking but can't get the words out.
+<END>
+
+#WRITE(PTR, $00001974)
+Can I even save her?
+<END>
+
+#WRITE(PTR, $00001984)
+I'm not confident.
+<END>
+
+#WRITE(PTR, $00001994)
+Because I'm powerless against the merciless world's convergence.
+<END>
+
+#WRITE(PTR, $000019A4)
+【Kurisu】You're trying to what?
+<END>
+
+#WRITE(PTR, $000019B4)
+【Rintaro】......
+<END>
+
+#WRITE(PTR, $000019C4)
+I shake my head and run away, taking Kurisu by surprise.
+<END>
+
+#WRITE(PTR, $000019DE)
+【Kurisu】Ah, wait! Hold it right there!
+<END>
+
+#WRITE(PTR, $00001B0E)
+When I return to the 8th floor, the presentation had already started.
+<END>
+
+#WRITE(PTR, $00001B1E)
+I peek into the assembly hall to check things out without going inside.
+<END>
+
+#WRITE(PTR, $00001B2E)
+【Rintaro】It doesn't matter who I am! More importantly, what's with that time machine theory you just talked about!?
+<END>
+
+#WRITE(PTR, $00001B3E)
+Someone in the audience is complaining to Doctor Nakabachi in a large voice.
+<END>
+
+#WRITE(PTR, $00001B4E)
+That someone was me.
+<END>
+
+#WRITE(PTR, $00001BFC)
+Which reminds me, I had complained that Doctor Nakabachi's speech was ripped off of Titor's time machine.
+<END>
+
+#WRITE(PTR, $00001C0C)
+I never knew I looked like such a dumbass.
+<END>
+
+#WRITE(PTR, $00001C1C)
+【Nakabachi】So-someone, get rid of that man.
+<END>
+
+#WRITE(PTR, $00001C2C)
+Nakabachi replies with the mic.
+<END>
+
+#WRITE(PTR, $00001C3C)
+Staff members start gathering around my chair.
+<END>
+
+#WRITE(PTR, $00001C4C)
+Seeing this unfold from the outside makes me feel embarrassed for myself.
+<END>
+
+#WRITE(PTR, $00001D62)
+Before Kurisu gets back, I leave the assembly hall and head deeper into the dim passage.
+<END>
+
+#WRITE(PTR, $00001E80)
+I flashback to the scene of Kurisu collapsed in a puddle of blood deep in this passage.
+<END>
+
+#WRITE(PTR, $00001F0C)
+In about 20 minutes, the same thing is going to happen here.
+<END>
+
+#WRITE(PTR, $00001F1C)
+I need to do something to prevent that.
+<END>
+
+#WRITE(PTR, $00001F2C)
+...I need to. I must.
+<END>
+
+#WRITE(PTR, $00001F3C)
+In the middle of the passage are some junk, some toolboxes, and some cardboard boxes, perfect for hiding. I slide into that covering.
+<END>
+
+#WRITE(PTR, $00001F4C)
+Now all I have to do is wait here until Kurisu comes.
+<END>
+
+#WRITE(PTR, $00001F5C)
+I quickly regret not carrying anything to protect myself.
+<END>
+
+#WRITE(PTR, $00001F6C)
+I just wasn't thinking enough, coming here empty handed.
+<END>
+
+#WRITE(PTR, $00001F7C)
+Kurisu collapsed in a puddle of blood.
+<END>
+
+#WRITE(PTR, $00001F8C)
+In other words, the murderer's lethal weapon is something that causes bleeding, and since I didn't hear a gunshot, I can probably narrow things down to something with a blade.
+<END>
+
+#WRITE(PTR, $00001F9C)
+In that case, being empty handed is not very promising.
+<END>
+
+#WRITE(PTR, $00001FAC)
+Should I look for something that could be used as a weapon now?
+<END>
+
+#WRITE(PTR, $00001FBC)
+I still have about 20 minutes.
+<END>
+
+#WRITE(PTR, $00001FCC)
+But it would be bad if I made unwise actions and got caught by someone.
+<END>
+
+#WRITE(PTR, $00001FDC)
+I might just be too cautious, but this is my only chance to prevent Kurisu's death. I don't want to make any unnecessary actions until that moment.
+<END>
+
+#WRITE(PTR, $00001FEC)
+My heart started pounding back there when Kurisu just talked to me.
+<END>
+
+#WRITE(PTR, $00001FFC)
+It went way too well, but I thought it was a miracle.
+<END>
+
+#WRITE(PTR, $0000200C)
+【Rintaro】...haah
+<END>
+
+#WRITE(PTR, $0000201C)
+I curl up in the darkness and subdue my breath, all tense.
+<END>
+
+#WRITE(PTR, $0000202C)
+Furthermore, not a single person passes through this passage.
+<END>
+
+#WRITE(PTR, $0000203C)
+I can faintly hear Nakabachi's voice through the mic far away, but that's it.
+<END>
+
+#WRITE(PTR, $0000204C)
+This stillness increases my tension.
+<END>
+
+#WRITE(PTR, $0000205C)
+Moreover, it's hot, perhaps because the air conditioning isn't functioning.
+<END>
+
+#WRITE(PTR, $0000206C)
+It hasn't even been a minute since I hid myself, but my entire body is already drenched in sweat.
+<END>
+
+#WRITE(PTR, $0000207C)
+The sweat dripping off my brow falls down with a plop, staining the floor.
+<END>
+
+#WRITE(PTR, $0000208C)
+I step on that stain and erase it with my shoe.
+<END>
+
+#WRITE(PTR, $0000209C)
+Anyway, let's wait.
+<END>
+
+#WRITE(PTR, $000020AC)
+All I can do is wait...
+<END>
+
+#WRITE(PTR, $000021D0)
+I keep subduing my breath, for who knows how long.
+<END>
+
+#WRITE(PTR, $000021E0)
+From far away I can hear the sporadic sound of applause.
+<END>
+
+#WRITE(PTR, $000021F0)
+I look at the watch and it's 12:26.
+<END>
+
+#WRITE(PTR, $00002200)
+Is the presentation over?
+<END>
+
+#WRITE(PTR, $00002210)
+Right as I peek my head out of the covering--
+<END>
+
+#WRITE(PTR, $00002286)
+The sound of one person's footsteps approaches.
+<END>
+
+#WRITE(PTR, $00002296)
+I promptly draw my head back in.
+<END>
+
+#WRITE(PTR, $000022A6)
+My heart beats fast.
+<END>
+
+#WRITE(PTR, $000022B6)
+Someone came.
+<END>
+
+#WRITE(PTR, $000022C6)
+Someone's walking through this passage.
+<END>
+
+#WRITE(PTR, $000022D6)
+Who? Kurisu's murderer?
+<END>
+
+#WRITE(PTR, $000022E6)
+I clench my teeth, trying to drive away my tension.
+<END>
+
+#WRITE(PTR, $000022F6)
+I pray I won't be found.
+<END>
+
+#WRITE(PTR, $00002306)
+And finally, the footsteps pass right by where I'm hidden.
+<END>
+
+#WRITE(PTR, $00002316)
+Moving only my eyes, I peek at who this person could be.
+<END>
+
+#WRITE(PTR, $0000236A)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $0000237A)
+Kurisu...?
+<END>
+
+#WRITE(PTR, $0000238A)
+Nobody else was there.
+<END>
+
+#WRITE(PTR, $0000239A)
+I didn't expect Kurisu to appear.
+<END>
+
+#WRITE(PTR, $000023AA)
+But just what is Kurisu's purpose in this Employees Only passage?
+<END>
+
+#WRITE(PTR, $000023BA)
+If I think calmly, something feels out of place.
+<END>
+
+#WRITE(PTR, $000023CA)
+Why was Kurisu killed in a passage that most people wouldn't approach?
+<END>
+
+#WRITE(PTR, $000023DA)
+Subduing my breath, I try to find out Kurisu's circumstances.
+<END>
+
+#WRITE(PTR, $0000242A)
+About five meters away--
+<END>
+
+#WRITE(PTR, $0000243A)
+Kurisu stops at about the middle of the passage and leans on the wall.
+<END>
+
+#WRITE(PTR, $00002454)
+She's holding a large A4 envelope. She peeks inside and faintly smiles.
+<END>
+
+#WRITE(PTR, $00002464)
+Why's she smiling now?
+<END>
+
+#WRITE(PTR, $00002474)
+It's unusual for Kurisu to smile like that.
+<END>
+
+#WRITE(PTR, $00002484)
+After all, it's her style to glare at other people with a sour look.
+<END>
+
+#WRITE(PTR, $00002494)
+Envelope...
+<END>
+
+#WRITE(PTR, $000024A4)
+Just what is that envelope...?
+<END>
+
+#WRITE(PTR, $000024B4)
+That reminds me, when Kurisu talked to me during Nakabachi's presentation, I'm pretty sure she was holding that envelope.
+<END>
+
+#WRITE(PTR, $000024C4)
+Was that thing there when I discovered her murdered body?
+<END>
+
+#WRITE(PTR, $000024D4)
+I don't remember seeing it...
+<END>
+
+#WRITE(PTR, $000024E4)
+Kurisu peeked into that envelope, but I can't see what's inside since she hasn't taken it out.
+<END>
+
+#WRITE(PTR, $000024F4)
+What's inside?
+<END>
+
+#WRITE(PTR, $00002504)
+What would make Kurisu smile... I can't think of anything.
+<END>
+
+#WRITE(PTR, $0000251E)
+Kurisu's been standing stock still for a while.
+<END>
+
+#WRITE(PTR, $0000252E)
+She's hanging her head, and her long hair hides her face, so I can't tell what her expression is.
+<END>
+
+#WRITE(PTR, $0000253E)
+Is she waiting for someone?
+<END>
+
+#WRITE(PTR, $0000254E)
+Whom?
+<END>
+
+#WRITE(PTR, $0000255E)
+Just whom could she be waiting for in a place like this where nobody goes?
+<END>
+
+#WRITE(PTR, $000025D4)
+And then, another set of footsteps approaches.
+<END>
+
+#WRITE(PTR, $000025E4)
+I can't tell what sort of person it is from where I'm hiding.
+<END>
+
+#WRITE(PTR, $000025F4)
+But I'm confident. Considering the timing, this newcomer must be the one who killed Kurisu...!
+<END>
+
+#WRITE(PTR, $0000260E)
+And to prove it, Kurisu raises her head, and upon recognizing that person, lifts her back off of the wall and faintly loosens her expression.
+<END>
+
+#WRITE(PTR, $0000261E)
+The footsteps come even closer.
+<END>
+
+#WRITE(PTR, $0000262E)
+Who is it? Who could it be?
+<END>
+
+#WRITE(PTR, $0000263E)
+【Kurisu】...I have something to talk about.
+<END>
+
+#WRITE(PTR, $0000264E)
+Kurisu gently starts talking.
+<END>
+
+#WRITE(PTR, $0000265E)
+Footsteps pass right beside me.
+<END>
+
+#WRITE(PTR, $0000266E)
+I'm so tense I can't move a muscle.
+<END>
+
+#WRITE(PTR, $0000267E)
+A silhouette finally appears in my field of vision.
+<END>
+
+#WRITE(PTR, $000026A0)
+And it's--
+<END>
+
+#WRITE(PTR, $000026F4)
+【Nakabachi】......
+<END>
+
+#WRITE(PTR, $00002704)
+【Rintaro】...!?
+<END>
+
+#WRITE(PTR, $00002714)
+I immediately cover my mouth with my hand to stop my voice from coming out.
+<END>
+
+#WRITE(PTR, $00002724)
+What?
+<END>
+
+#WRITE(PTR, $00002734)
+Doctor Nakabachi?
+<END>
+
+#WRITE(PTR, $00002744)
+Kurisu and Doctor Nakabachi know each other? They're acquaintances?
+<END>
+
+#WRITE(PTR, $00002800)
+【Suzuha】And one piece of advice. Be careful of Doctor Nakabachi.
+<END>
+
+#WRITE(PTR, $000028E2)
+...now that you mention it.
+<END>
+
+#WRITE(PTR, $000028F2)
+I never thought about it, but isn't it weird that Kurisu would go to Doctor Nakabachi's time machine announcement in the first place?
+<END>
+
+#WRITE(PTR, $00002902)
+Why would a genius girl who even got published in a scientific journal in America come all the way to Japan to attend some suspicious self-proclaimed inventor's presentation?
+<END>
+
+#WRITE(PTR, $00002912)
+Only about 15 people came out of curiosity or to ridicule. Not even one member of the press came.
+<END>
+
+#WRITE(PTR, $00002AFA)
+Moreover, Kurisu was so negative about time machines.
+<END>
+
+#WRITE(PTR, $00002B0A)
+It was obvious from her lecture at ATF.
+<END>
+
+#WRITE(PTR, $00002C5E)
+There's no way Kurisu came for Nakabachi's announcement itself.
+<END>
+
+#WRITE(PTR, $00002C6E)
+Then the reason she's here is obvious.
+<END>
+
+#WRITE(PTR, $00002C7E)
+She didn't come to see the presentation.
+<END>
+
+#WRITE(PTR, $00002C8E)
+Her goal was something else.
+<END>
+
+#WRITE(PTR, $00002C9E)
+But just what is the connection?
+<END>
+
+#WRITE(PTR, $00002CAE)
+I can't think of any tangents...
+<END>
+
+#WRITE(PTR, $00002CBE)
+...No way.
+<END>
+
+#WRITE(PTR, $00002CCE)
+【Nakabachi】......
+<END>
+
+#WRITE(PTR, $00002CDE)
+【Kurisu】Are you listening? Papa.
+<END>
+
+#WRITE(PTR, $00002CEE)
+...with that word, I understood everything.
+<END>
+
+#WRITE(PTR, $00002CFE)
+Parent and child.
+<END>
+
+#WRITE(PTR, $00002D0E)
+The father Kurisu was always worrying about.
+<END>
+
+#WRITE(PTR, $00002D1E)
+Who should be living in Aomori without talking to her for seven years.
+<END>
+
+#WRITE(PTR, $00002D2E)
+That father is... Nakabachi...
+<END>
+
+#WRITE(PTR, $00002D3E)
+Kurisu did say her father was a physicist.
+<END>
+
+#WRITE(PTR, $00002D4E)
+And Nakabachi certainly is a physicist. Though he's been shunned from the scientific society.
+<END>
+
+#WRITE(PTR, $00002D5E)
+...wait a sec.
+<END>
+
+#WRITE(PTR, $00002D6E)
+So, basically, the one who killed Kurisu... is Nakabachi?
+<END>
+
+#WRITE(PTR, $00002D7E)
+He, the father, killed his own daughter?
+<END>
+
+#WRITE(PTR, $00002D8E)
+Or is someone else lying in wait?
+<END>
+
+#WRITE(PTR, $00002D9E)
+Doubt.
+<END>
+
+#WRITE(PTR, $00002DAE)
+If I were fully convinced that Nakabachi is the culprit, then I'd jump out right now.
+<END>
+
+#WRITE(PTR, $00002DBE)
+Maybe I should just wait and see for a bit...
+<END>
+
+#WRITE(PTR, $00002DD8)
+【Nakabachi】What's that?
+<END>
+
+#WRITE(PTR, $00002DF2)
+【Kurisu】Papa, I heard you were going to hold a time machine presentation.
+<END>
+
+#WRITE(PTR, $00002E02)
+【Kurisu】So I thought about it too. About whether or not a time machine could be made.
+<END>
+
+#WRITE(PTR, $00002E12)
+A time machine thesis... by Kurisu!?
+<END>
+
+#WRITE(PTR, $00002E22)
+Even though she was so against time machines in her ATF lecture!
+<END>
+
+#WRITE(PTR, $00002E32)
+No, wait, she was more against the Microwave Ophone (Temp)...
+<END>
+
+#WRITE(PTR, $00002E42)
+...I forgot Kurisu was tsundere.
+<END>
+
+#WRITE(PTR, $00002E5C)
+【Kurisu】Papa, I want you to read it and tell me your opinion.
+<END>
+
+#WRITE(PTR, $00002E6C)
+【Kurisu】Then we can adjust it based on that and turn it in to the scientific society.
+<END>
+
+#WRITE(PTR, $00002E7C)
+【Kurisu】I don't know if they'll listen, but I do have acquaintances with "Science" magazine.
+<END>
+
+#WRITE(PTR, $00002E8C)
+Nakabachi takes the document and starts reading with a sour look.
+<END>
+
+#WRITE(PTR, $00002EA6)
+【Nakabachi】......
+<END>
+
+#WRITE(PTR, $00002EB6)
+So that's what it was.
+<END>
+
+#WRITE(PTR, $00002EC6)
+I'm relieved the contents weren't something dangerous, like narcotics or a gun.
+<END>
+
+#WRITE(PTR, $00002ED6)
+But at the same time, I start thinking several questions.
+<END>
+
+#WRITE(PTR, $00002EE6)
+What if that thesis Kurisu wrote is the Nakabachi Thesis itself...?
+<END>
+
+#WRITE(PTR, $00002EF6)
+The cause of World War III.
+<END>
+
+#WRITE(PTR, $00002F06)
+The document explaining the time machine.
+<END>
+
+#WRITE(PTR, $00002F16)
+The document that caused the deaths of 5.7 billion people.
+<END>
+
+#WRITE(PTR, $00003006)
+【Suzuha】The fire was sparked by development competition between the EU and Russia. When America butted in, things got even more out of control.
+<END>
+
+#WRITE(PTR, $000030F0)
+So is that why?
+<END>
+
+#WRITE(PTR, $00003100)
+Is that why saving Kurisu will cause a great change in divergence?
+<END>
+
+#WRITE(PTR, $00003110)
+I get it now...
+<END>
+
+#WRITE(PTR, $00003120)
+Everything wasn't a coincidence, but an inevitability.
+<END>
+
+#WRITE(PTR, $00003130)
+Nakabachi has been restlessly turning the pages of the document.
+<END>
+
+#WRITE(PTR, $00003140)
+He silently keeps reading without trying to hide his frustration.
+<END>
+
+#WRITE(PTR, $00003150)
+It looks like he's skimming over it really quickly, but--
+<END>
+
+#WRITE(PTR, $0000316A)
+【Nakabachi】Who told you to write this?
+<END>
+
+#WRITE(PTR, $00003184)
+【Kurisu】...nobody told me to, but...
+<END>
+
+#WRITE(PTR, $00003194)
+【Kurisu】Papa, you contacted me after seven years, and told me to come to your presentation, right? That was my opportunity.
+<END>
+
+#WRITE(PTR, $000031A4)
+【Kurisu】I thought that maybe if I tried to put together a thesis, I could somehow make it.
+<END>
+
+#WRITE(PTR, $000031BE)
+【Kurisu】And then maybe if the thesis gets recognized, we can have our revenge on the scientific society that exiled Papa--
+<END>
+
+#WRITE(PTR, $000031D8)
+【Nakabachi】I wasn't exiled!
+<END>
+
+#WRITE(PTR, $000031F2)
+Kurisu cowered when Nakabachi suddenly shrieked with an angry voice.
+<END>
+
+#WRITE(PTR, $00003202)
+【Nakabachi】Those incompetent colleagues of mine were just jealous of my superiority. They were disgusted of me and gave up on me!
+<END>
+
+#WRITE(PTR, $0000321C)
+【Kurisu】Please don't yell...
+<END>
+
+#WRITE(PTR, $0000322C)
+Acting like a spoiled child as if to provoke the ashamed Kurisu, Nakabachi goes back to reading the thesis.
+<END>
+
+#WRITE(PTR, $00003246)
+【Kurisu】You read really fast, huh, Papa. Just like the old days.
+<END>
+
+#WRITE(PTR, $00003256)
+Nakabachi ignores even Kurisu's embracing words.
+<END>
+
+#WRITE(PTR, $00003270)
+【Nakabachi】...The contents aren't bad.
+<END>
+
+#WRITE(PTR, $0000328A)
+【Kurisu】Really?
+<END>
+
+#WRITE(PTR, $0000329A)
+【Kurisu】If you want, papa, we can put a joint signature on this thesis--
+<END>
+
+#WRITE(PTR, $000032AA)
+【Nakabachi】Don't submit it to the scientific society. I'll keep a hold of it.
+<END>
+
+#WRITE(PTR, $000032C4)
+【Kurisu】...what do you mean?
+<END>
+
+#WRITE(PTR, $000032DE)
+【Nakabachi】"What do you mean", you say? You don't get it!? I mean you shouldn't get so cocky just because you got a low level thesis published in "Science" Magazine!
+<END>
+
+#WRITE(PTR, $000032F8)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $00003308)
+【Nakabachi】What's that? How dare you show that face to your own father!
+<END>
+
+#WRITE(PTR, $00003322)
+【Kurisu】I'm sorry...
+<END>
+
+#WRITE(PTR, $00003332)
+Awkward silence.
+<END>
+
+#WRITE(PTR, $00003342)
+I don't feel the friendliness between parent and child from these two.
+<END>
+
+#WRITE(PTR, $00003352)
+What I feel is distance.
+<END>
+
+#WRITE(PTR, $00003362)
+Kurisu looks especially frantic.
+<END>
+
+#WRITE(PTR, $0000337C)
+【Kurisu】Hey. It's been so long since we last met, so there's a lot I want to talk about, but Papa, you're living in Aomori now, aren't you?
+<END>
+
+#WRITE(PTR, $0000338C)
+She tries too hard to speak cheerfully, but Kurisu's facial expression is already stiff.
+<END>
+
+#WRITE(PTR, $0000339C)
+I remember how she said her relationship with her father was poor.
+<END>
+
+#WRITE(PTR, $00003492)
+【Kurisu】My father hates me, doesn't he...
+<END>
+
+#WRITE(PTR, $000034A2)
+She muttered lonesomely.
+<END>
+
+#WRITE(PTR, $0000358C)
+【Nakabachi】Go back.
+<END>
+
+#WRITE(PTR, $000035A6)
+【Kurisu】Eh...
+<END>
+
+#WRITE(PTR, $000035B6)
+【Nakabachi】Just go back to America already. I don't want to see your face again.
+<END>
+
+#WRITE(PTR, $000035C6)
+【Kurisu】But--
+<END>
+
+#WRITE(PTR, $000035E0)
+【Nakabachi】What do you mean you want to hear my opinion!? What do you mean joint signatures!? That isn't what you think in the slightest, is it!?
+<END>
+
+#WRITE(PTR, $000035F0)
+That was an inferiority complex on the level of a child.
+<END>
+
+#WRITE(PTR, $00003600)
+【Nakabachi】Are you pitying me!? Do you despise me!? Even though you're my daughter!
+<END>
+
+#WRITE(PTR, $0000361A)
+【Kurisu】Wh-what are you talking about? Calm down--
+<END>
+
+#WRITE(PTR, $0000362A)
+【Nakabachi】I'm perfectly calm! Don't tell me what to do!
+<END>
+
+#WRITE(PTR, $0000363A)
+Things are getting strange.
+<END>
+
+#WRITE(PTR, $0000364A)
+It's just about time for Kurisu to get killed.
+<END>
+
+#WRITE(PTR, $0000365A)
+So Nakabachi's the culprit after all, huh.
+<END>
+
+#WRITE(PTR, $0000366A)
+Even though he's really her father...!?
+<END>
+
+#WRITE(PTR, $0000367A)
+【Nakabachi】I'll tell you why I called you here today. I triumphed! I was going to flaunt the greatness of my research!
+<END>
+
+#WRITE(PTR, $0000368A)
+【Nakabachi】I was going to show you just how despairingly far apart we are!
+<END>
+
+#WRITE(PTR, $0000369A)
+【Nakabachi】And yet, everything was in vain because of that damned punk! I know you saw me and laughed at me! Just how far will you go to ridicule your own father!?
+<END>
+
+#WRITE(PTR, $000036AA)
+【Kurisu】I didn't laugh at--
+<END>
+
+#WRITE(PTR, $000036C4)
+【Nakabachi】Do you want my opinion on this thesis? I'll tell you right now.
+<END>
+
+#WRITE(PTR, $000036D4)
+Nakabachi keeps talking without listening to a word of Kurisu's objections.
+<END>
+
+#WRITE(PTR, $000036E4)
+【Nakabachi】I will publish this thesis with my name. That is all.
+<END>
+
+#WRITE(PTR, $000036FE)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $0000370E)
+【Kurisu】...Papa, don't tell me... you're stealing it?
+<END>
+
+#WRITE(PTR, $00003728)
+【Nakabachi】...What did you say?
+<END>
+
+#WRITE(PTR, $00003738)
+【Kurisu】You're stealing... my thesis? That was the last thing I thought you'd do--
+<END>
+
+#WRITE(PTR, $00003906)
+【Kurisu】--
+<END>
+
+#WRITE(PTR, $00003920)
+Nakabachi raises his hand.
+<END>
+
+#WRITE(PTR, $00003930)
+And strikes Kurisu's cheek.
+<END>
+
+#WRITE(PTR, $00003940)
+Wh-what do I...!?
+<END>
+
+#WRITE(PTR, $00003950)
+What do I do...
+<END>
+
+#WRITE(PTR, $00003960)
+【Nakabachi】Who do you think you're talking to!?
+<END>
+
+#WRITE(PTR, $00003C5A)
+Tossing away the thesis, Nakabachi grabs at Kurisu.
+<END>
+
+#WRITE(PTR, $00003C6A)
+He grabs a hold of her slender neck with both hands.
+<END>
+
+#WRITE(PTR, $00003C7A)
+Strangled, Kurisu's face warps in pain.
+<END>
+
+#WRITE(PTR, $00003C8A)
+【Kurisu】Ah, uuh...
+<END>
+
+#WRITE(PTR, $00003C9A)
+【Nakabachi】You think you understand how I feel!? Why do you think you're so superior!? I detest you...! I hate your very existence!
+<END>
+
+#WRITE(PTR, $00003CAA)
+【Nakabachi】Nobody in this world is superior to me! Understand!? It's a disgrace! There's no reason for a daughter to be superior to her father!
+<END>
+
+#WRITE(PTR, $00003CBA)
+【Nakabachi】So I stayed away from you! I couldn't stand the thought of you being my daughter!
+<END>
+
+#WRITE(PTR, $00003CCA)
+【Nakabachi】Because of you... because of you...!
+<END>
+
+#WRITE(PTR, $00003CDA)
+His reasoning's all a mess! That's nothing but scapegoating isn't it!?
+<END>
+
+#WRITE(PTR, $00003CEA)
+There's no point to keep watching and waiting.
+<END>
+
+#WRITE(PTR, $00003CFA)
+I know who the culprit is for sure.
+<END>
+
+#WRITE(PTR, $00003D0A)
+I rush out from my covering.
+<END>
+
+#WRITE(PTR, $00003D1A)
+【Rintaro】Stop!
+<END>
+
+#WRITE(PTR, $00003D2A)
+【Nakabachi】...!?
+<END>
+
+#WRITE(PTR, $00003E92)
+I ram him in the shoulder.
+<END>
+
+#WRITE(PTR, $00003EA2)
+Nakabachi's hand is separated from Kurisu's neck.
+<END>
+
+#WRITE(PTR, $00003EB2)
+【Kurisu】Guh, gah hoh gah hoh gah hoh...
+<END>
+
+#WRITE(PTR, $00003EC2)
+【Nakabachi】Wh-what's with you!?
+<END>
+
+#WRITE(PTR, $00003ED2)
+【Rintaro】I won't let you kill Kurisu...!
+<END>
+
+#WRITE(PTR, $00003EE2)
+I'm saving Kurisu.
+<END>
+
+#WRITE(PTR, $00003EF2)
+If I save her now, the future will change.
+<END>
+
+#WRITE(PTR, $00003F02)
+Even a weakling like me can pin down an old man like this.
+<END>
+
+#WRITE(PTR, $00003F12)
+And then if Suzuha calls the police--
+<END>
+
+#WRITE(PTR, $00004016)
+Kurisu's tragic figure floats through my mind.
+<END>
+
+#WRITE(PTR, $00004026)
+No. It won't turn out like that--!
+<END>
+
+#WRITE(PTR, $00004036)
+Nakabachi pushes himself up from the wall, meeting my eyes.
+<END>
+
+#WRITE(PTR, $00004046)
+His eyes fill with rage upon seeing my face.
+<END>
+
+#WRITE(PTR, $00004060)
+【Nakabachi】You're... the one from before...!
+<END>
+
+#WRITE(PTR, $00004070)
+【Nakabachi】Because of you... my presentation was a failure!
+<END>
+
+#WRITE(PTR, $00004080)
+Before...?
+<END>
+
+#WRITE(PTR, $00004090)
+Oh right, back then-- I picked a fight during the presentation-- since I'm the same person, it wouldn't be weird if Nakabachi got the wrong idea.
+<END>
+
+#WRITE(PTR, $000040A0)
+【Nakabachi】How dare you show your face to me again...! You... all of you are just getting in my way...!
+<END>
+
+#WRITE(PTR, $000040B0)
+【Nakabachi】You're in cohoots with Kurisu aren't you!? That's it, that's it isn't it!?
+<END>
+
+#WRITE(PTR, $000040C0)
+This guy... really has an obsessive persecution complex, doesn't he?
+<END>
+
+#WRITE(PTR, $000040D0)
+【Nakabachi】I won't... let you brats... have your way...!
+<END>
+
+#WRITE(PTR, $000040E0)
+Nakabachi glares at me with bloodshot eyes, taking something out of his pocket.
+<END>
+
+#WRITE(PTR, $000040F0)
+At first, I couldn't tell what it was.
+<END>
+
+#WRITE(PTR, $00004100)
+It gleams in the dim light.
+<END>
+
+#WRITE(PTR, $00004110)
+A knife...
+<END>
+
+#WRITE(PTR, $00004120)
+Its blade was about 20cm long.
+<END>
+
+#WRITE(PTR, $00004130)
+I couldn't help but wince at its cold radiance.
+<END>
+
+#WRITE(PTR, $00004140)
+Why is he even carrying something like that?
+<END>
+
+#WRITE(PTR, $00004150)
+Has this old man gone senile...!?
+<END>
+
+#WRITE(PTR, $00004160)
+Does he plan to stab Kurisu to death with that knife?
+<END>
+
+#WRITE(PTR, $00004170)
+I won't let him...
+<END>
+
+#WRITE(PTR, $0000420C)
+Dammit!
+<END>
+
+#WRITE(PTR, $0000421C)
+Why is my brain so fixated on that scene!?
+<END>
+
+#WRITE(PTR, $0000422C)
+【Nakabachi】Don't you ridicule me!
+<END>
+
+#WRITE(PTR, $0000427C)
+Nakabachi charges in with no sign of hesitation whatsoever.
+<END>
+
+#WRITE(PTR, $0000428C)
+He raises his knife hand up high--
+<END>
+
+#WRITE(PTR, $000042EA)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $000042FA)
+I instictively dodge back.
+<END>
+
+#WRITE(PTR, $0000430A)
+I barely dodged that swing, but Nakabachi draws even closer.
+<END>
+
+#WRITE(PTR, $0000431A)
+I was so scared of the sight of the old man, full of rage, hair disheveled, that I wanted to scream.
+<END>
+
+#WRITE(PTR, $0000432A)
+I'll be killed--
+<END>
+
+#WRITE(PTR, $0000433A)
+No, no need to fear!
+<END>
+
+#WRITE(PTR, $0000434A)
+I won't die.
+<END>
+
+#WRITE(PTR, $0000435A)
+--That "past" should've already been decided!
+<END>
+
+#WRITE(PTR, $0000436A)
+Though, if I think about it, that's really self-contradictory.
+<END>
+
+#WRITE(PTR, $0000437A)
+If that past is already decided, then I can't save Kurisu.
+<END>
+
+#WRITE(PTR, $0000438A)
+I shake off that thought.
+<END>
+
+#WRITE(PTR, $0000439A)
+Anyway, for now, just think about saving Kurisu!
+<END>
+
+#WRITE(PTR, $000043AA)
+【Nakabachi】Apologiiiiize!
+<END>
+
+#WRITE(PTR, $000043BA)
+【Rintaro】Gh--
+<END>
+
+#WRITE(PTR, $000043CA)
+I close my fearful eyes and reluctantly stop backstepping.
+<END>
+
+#WRITE(PTR, $000043DA)
+Instead, I take one step forward--
+<END>
+
+#WRITE(PTR, $00004498)
+I knock down Nakabachi's arm.
+<END>
+
+#WRITE(PTR, $000045B2)
+Easier than expected, the knife falls out of Nakabachi's hand onto the floor.
+<END>
+
+#WRITE(PTR, $000045C2)
+I jump to it at once and pick it up.
+<END>
+
+#WRITE(PTR, $00004638)
+【Kurisu】Stop it, Papa!
+<END>
+
+#WRITE(PTR, $00004648)
+【Nakabachi】Don't tell me what to do!
+<END>
+
+#WRITE(PTR, $00004658)
+I look up in surprise.
+<END>
+
+#WRITE(PTR, $00004668)
+Nakabachi had taken a screwdriver out of the toolbox left in the passage.
+<END>
+
+#WRITE(PTR, $00004678)
+Kurisu tried to stop her father, but was defenselessly stepping up to him.
+<END>
+
+#WRITE(PTR, $00004688)
+Stop, don't go any closer! The one he was going to kill wasn't me, but you, Kurisu!
+<END>
+
+#WRITE(PTR, $00004698)
+Even though I took away his knife, it was meaningless...!
+<END>
+
+#WRITE(PTR, $000046A8)
+A screwdriver can become a murder weapon if you pierce with all your might.
+<END>
+
+#WRITE(PTR, $000046B8)
+【Rintaro】Kurisu, run away!
+<END>
+
+#WRITE(PTR, $000046C8)
+Kurisu glances at me at the sound of my voice,
+<END>
+
+#WRITE(PTR, $000046D8)
+But she doesn't move from there.
+<END>
+
+#WRITE(PTR, $000046E8)
+Why... why won't you run away...!?
+<END>
+
+#WRITE(PTR, $000046F8)
+【Kurisu】Papa... stop this foolishness.
+<END>
+
+#WRITE(PTR, $00004708)
+【Nakabachi】What do you understand... what do you understand... what...!?
+<END>
+
+#WRITE(PTR, $00004718)
+Nakabachi has lost us.
+<END>
+
+#WRITE(PTR, $00004728)
+There's nothing more we can say. Our words won't reach him.
+<END>
+
+#WRITE(PTR, $00004738)
+【Nakabachi】If only you, if only you were gone!
+<END>
+
+#WRITE(PTR, $00004748)
+Nakabachi turns to Kurisu, brandishing the screwdriver.
+<END>
+
+#WRITE(PTR, $00004758)
+Kurisu still does not run away.
+<END>
+
+#WRITE(PTR, $00004876)
+【Kurisu】Tch...!
+<END>
+
+#WRITE(PTR, $00004892)
+Blood splatters from the arm Kurisu used to guard her face.
+<END>
+
+#WRITE(PTR, $000048A2)
+It's useless. I can't save her at this rate.
+<END>
+
+#WRITE(PTR, $000048B2)
+I firmly grasp the knife in my hands.
+<END>
+
+#WRITE(PTR, $000048C2)
+Kurisu won't die if I kill Nakabachi.
+<END>
+
+#WRITE(PTR, $0000494E)
+This noise again...!
+<END>
+
+#WRITE(PTR, $0000495E)
+Don't get in my way...!
+<END>
+
+#WRITE(PTR, $0000496E)
+I won't be tied to that past!
+<END>
+
+#WRITE(PTR, $0000497E)
+I need to do this. To save Kurisu, to change the future--
+<END>
+
+#WRITE(PTR, $0000498E)
+【Rintaro】Nakabachii!
+<END>
+
+#WRITE(PTR, $000049D6)
+I thrust the knife towards Nakabachi who is still exerting madness towards Kurisu.
+<END>
+
+#WRITE(PTR, $000049E6)
+【Kurisu】No!
+<END>
+
+#WRITE(PTR, $00004C28)
+My hand... feels resistance... through the knife.
+<END>
+
+#WRITE(PTR, $00004C38)
+The resistance of gouging flesh all the way to the bone.
+<END>
+
+#WRITE(PTR, $00004C48)
+It's unexpectedly hard.
+<END>
+
+#WRITE(PTR, $00004C58)
+But it's pulsating.
+<END>
+
+#WRITE(PTR, $00004C68)
+The blade piercing my living opposite doesn't stay still.
+<END>
+
+#WRITE(PTR, $00004C78)
+Matching my opposite's breathing, it faintly sways.
+<END>
+
+#WRITE(PTR, $00004D62)
+I--
+<END>
+
+#WRITE(PTR, $00004E4C)
+Stabbed--
+<END>
+
+#WRITE(PTR, $00004F36)
+【Kurisu】Ah... guh...!
+<END>
+
+#WRITE(PTR, $00005164)
+The one I stabbed--
+<END>
+
+#WRITE(PTR, $00005174)
+【Rintaro】wh...y...
+<END>
+
+#WRITE(PTR, $00005184)
+I couldn't believe it.
+<END>
+
+#WRITE(PTR, $00005194)
+What happened?
+<END>
+
+#WRITE(PTR, $000051A4)
+I went to stab Nakabachi.
+<END>
+
+#WRITE(PTR, $000051B4)
+The blade should've reached his back any second now.
+<END>
+
+#WRITE(PTR, $000051C4)
+wh...y...
+<END>
+
+#WRITE(PTR, $000052E0)
+And yet, as if to protect Nakabachi, Kurisu forced her way between us...
+<END>
+
+#WRITE(PTR, $000052F0)
+【Rintaro】Why...
+<END>
+
+#WRITE(PTR, $00005300)
+Kurisu's body loses strength, and leans on my shoulder.
+<END>
+
+#WRITE(PTR, $00005310)
+【Nakabachi】Ha, hahaha, hahahaha! A fitting end for you fools, hahahaha!
+<END>
+
+#WRITE(PTR, $00005386)
+Raising an insane laugh, Nakabachi picks up the thesis he dropped a while ago, and runs to the elevator deep inside the passage.
+<END>
+
+#WRITE(PTR, $00005396)
+I couldn't chase him.
+<END>
+
+#WRITE(PTR, $000053A6)
+Even though I understood what just happened, I couldn't move one step.
+<END>
+
+#WRITE(PTR, $0000544C)
+What... a cruel joke...
+<END>
+
+#WRITE(PTR, $0000545C)
+What killed her.
+<END>
+
+#WRITE(PTR, $0000546C)
+What killed Makise Kurisu was--
+<END>
+
+#WRITE(PTR, $0000548C)
+【Kurisu】I'm... sorry...
+<END>
+
+#WRITE(PTR, $0000549C)
+Kurisu whispers with a fading voice.
+<END>
+
+#WRITE(PTR, $00005512)
+Bodily fluids run from the knife onto my hands.
+<END>
+
+#WRITE(PTR, $00005522)
+Warm.
+<END>
+
+#WRITE(PTR, $00005532)
+Red blood.
+<END>
+
+#WRITE(PTR, $00005542)
+Kurisu's red blood.
+<END>
+
+#WRITE(PTR, $00005552)
+Gushing out from her wound.
+<END>
+
+#WRITE(PTR, $00005562)
+It feels warm, but is by no means hot.
+<END>
+
+#WRITE(PTR, $00005572)
+And yet, it felt hot enough to burn my hands.
+<END>
+
+#WRITE(PTR, $00005582)
+I try to pull out the knife.
+<END>
+
+#WRITE(PTR, $00005592)
+If I pull it out, and treat it, then maybe I can still save her.
+<END>
+
+#WRITE(PTR, $000055A2)
+But.
+<END>
+
+#WRITE(PTR, $000055B2)
+My own hands felt as if they had become petrified like a statue.
+<END>
+
+#WRITE(PTR, $000055C2)
+They wouldn't move.
+<END>
+
+#WRITE(PTR, $000055D2)
+No matter how much strength I put into them.
+<END>
+
+#WRITE(PTR, $000055E2)
+Not my arms. Not my fingers. Not even a twitch.
+<END>
+
+#WRITE(PTR, $000055F2)
+My muscles wouldn't accept the orders from my brain.
+<END>
+
+#WRITE(PTR, $00005668)
+【Kurisu】Haah... haah... ooh... ooh...
+<END>
+
+#WRITE(PTR, $00005678)
+Kurisu's breath gradually grows rough.
+<END>
+
+#WRITE(PTR, $00005688)
+Kurisu is suffering.
+<END>
+
+#WRITE(PTR, $00005698)
+It's not supposed to be like this.
+<END>
+
+#WRITE(PTR, $000056A8)
+It wasn't supposed to be like this.
+<END>
+
+#WRITE(PTR, $0000571A)
+Why won't my hands move?
+<END>
+
+#WRITE(PTR, $0000572A)
+Even though I want to pull the knife out and ease her pain.
+<END>
+
+#WRITE(PTR, $0000573A)
+My own body doesn't even feel like it's mine.
+<END>
+
+#WRITE(PTR, $000057AC)
+Kurisu's leaning body starts shaking as if going into convulsions.
+<END>
+
+#WRITE(PTR, $000057BC)
+That shaking makes me imagine Kurisu's pain.
+<END>
+
+#WRITE(PTR, $000057CC)
+I want to cry.
+<END>
+
+#WRITE(PTR, $00005842)
+【Rintaro】Why...
+<END>
+
+#WRITE(PTR, $00005852)
+In the end, all I could do was mutter that.
+<END>
+
+#WRITE(PTR, $00005862)
+【Kurisu】Because... he's still... my father.
+<END>
+
+#WRITE(PTR, $00005872)
+【Kurisu】I always... wanted... him... to accept me...
+<END>
+
+#WRITE(PTR, $00005882)
+【Kurisu】I wanted... Papa... to accept me... so I always studied...
+<END>
+
+#WRITE(PTR, $00005892)
+【Kurisu】But... now, I understand...
+<END>
+
+#WRITE(PTR, $000058A2)
+【Kurisu】Papa... didn't want... to accept... me...
+<END>
+
+#WRITE(PTR, $000058B2)
+【Kurisu】I'm such... an idiot...
+<END>
+
+#WRITE(PTR, $000058C2)
+【Kurisu】But still... why... did I... protect... Papa... I wonder...
+<END>
+
+#WRITE(PTR, $000058D2)
+【Kurisu】I'm... sorry... to get a stranger... like you, involved...
+<END>
+
+#WRITE(PTR, $000058E2)
+【Kurisu】Uuhh... it, hurts...
+<END>
+
+#WRITE(PTR, $000058F2)
+【Kurisu】Hey... am... I going... to die...?
+<END>
+
+#WRITE(PTR, $00005902)
+【Kurisu】...I don't want... to die...
+<END>
+
+#WRITE(PTR, $00005912)
+【Kurisu】I don't want... it to end... like this...
+<END>
+
+#WRITE(PTR, $00005922)
+That voice becomes more and more delicate.
+<END>
+
+#WRITE(PTR, $00005932)
+Don't die. Please, don't die on me...
+<END>
+
+#WRITE(PTR, $00005942)
+No matter how much I pray.
+<END>
+
+#WRITE(PTR, $00005952)
+【Kurisu】Save... me...
+<END>
+
+#WRITE(PTR, $00005962)
+【Kurisu】Sa...ve...
+<END>
+
+#WRITE(PTR, $00005972)
+【Kurisu】......
+<END>
+
+#WRITE(PTR, $000059E8)
+All strength... leaves that body.
+<END>
+
+#WRITE(PTR, $000059F8)
+I no longer hear... any breathing.
+<END>
+
+#WRITE(PTR, $00005A08)
+And even still, her blood flowing from her wound is still hot.
+<END>
+
+#WRITE(PTR, $00005A5C)
+Killed her--
+<END>
+
+#WRITE(PTR, $00005A6C)
+I killed her--
+<END>
+
+#WRITE(PTR, $00005A7C)
+The one who killed Kurisu--
+<END>
+
+#WRITE(PTR, $00005AAA)
+Is me--
+<END>
+
+#WRITE(PTR, $00005ABA)
+【Rintaro】Ah... ah...
+<END>
+
+#WRITE(PTR, $00005BD0)
+【Rintaro】AAAAAAHHHHHHHHHHH----!
+<END>
+
+#WRITE(PTR, $00005BE0)
+While screaming.
+<END>
+
+#WRITE(PTR, $00005C7E)
+Another me looks down from above.
+<END>
+
+#WRITE(PTR, $00005C8E)
+While hearing my own voice resounding, ahh, so that's it, my heart mutters.
+<END>
+
+#WRITE(PTR, $00005C9E)
+I noticed, that on that day, the voice I heard, was mine.
+<END>
+
+#WRITE(PTR, $00005E56)
+【Suzuha】Uncle Okarin!
+<END>
+
+#WRITE(PTR, $00005E66)
+Someone is pulling on my shoulder.
+<END>
+
+#WRITE(PTR, $00005E76)
+【Suzuha】...Stand up! Uncle!
+<END>
+
+#WRITE(PTR, $00005E86)
+My body is being dragged.
+<END>
+
+#WRITE(PTR, $00005E96)
+At that moment, the knife I was tightly grasping, came out of Kurisu's chest.
+<END>
+
+#WRITE(PTR, $00005EA6)
+Even more blood flows out.
+<END>
+
+#WRITE(PTR, $00005EB6)
+It still has body warmth.
+<END>
+
+#WRITE(PTR, $00005EC6)
+【Rintaro】Kurisu... open... your eyes... wake up...
+<END>
+
+#WRITE(PTR, $00005ED6)
+【Suzuha】Keep it together, Uncle!
+<END>
+
+#WRITE(PTR, $00005EE6)
+【Suzuha】If we don't leave right now, people will come!
+<END>
+
+#WRITE(PTR, $00005EF6)
+【Rintaro】I'm sorry... I didn't mean... to kill you... I tried... to save you...
+<END>
+
+#WRITE(PTR, $00005F06)
+【Rintaro】Why... did this...
+<END>
+
+#WRITE(PTR, $00005F16)
+Someone puts my shoulder to theirs.
+<END>
+
+#WRITE(PTR, $00005F26)
+I have no energy to resist.
+<END>
+
+#WRITE(PTR, $00005F36)
+While I'm being dragged, feelings of regret and guilt revolve around my head.
+<END>
+
+#WRITE(PTR, $00005F46)
+I killed... Kurisu... twice...
+<END>
+
+#WRITE(PTR, $0000629A)
+【Suzuha】hhup!
+<END>
+
+#WRITE(PTR, $000062AA)
+【Suzuha】Haah... haah... anyway, gotta go back...
+<END>
+
+#WRITE(PTR, $000062C6)
+【Suzuha】Uncle, you can't give up yet.
+<END>
+
+#WRITE(PTR, $000062D6)
+【Suzuha】It's still okay. Everything will surely be okay.
+<END>
+
+#WRITE(PTR, $000062F2)
+【Suzuha】Hold on tight!
+<END>
+
+#WRITE(PTR, $000064EC)
+I feel my body being strongly pushed.
+<END>
+
+#WRITE(PTR, $000064FC)
+The knife is snatched from my hand.
+<END>
+
+#WRITE(PTR, $0000650C)
+Each stiff finger is forcibly opened, almost torn off.
+<END>
+
+#WRITE(PTR, $0000651C)
+I couldn't save her after all.
+<END>
+
+#WRITE(PTR, $0000652C)
+Far from saving her--
+<END>
+
+#WRITE(PTR, $0000653C)
+World line convergence, made me, kill Kurisu.
+<END>
+
+#WRITE(PTR, $0000654C)
+The past had been "decided".
+<END>
+
+#WRITE(PTR, $0000655C)
+It was impossible to change it from the beginning--
+<FILEEND6F>
+

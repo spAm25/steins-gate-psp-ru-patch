@@ -1,0 +1,671 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($00003C06)
+
+#WRITE(PTR, $00000468)
+When I get back to the lab, I first peek inside the Braun Tube Workshop storefront.
+<END>
+
+#WRITE(PTR, $0000053C)
+On the other side of the glass, I can see the light from the 42in Braun tube TV.
+<END>
+
+#WRITE(PTR, $0000054C)
+FB-- Manager is seemingly free, reading a sports newspaper.
+<END>
+
+#WRITE(PTR, $0000055C)
+FB is alive after all.
+<END>
+
+#WRITE(PTR, $0000056C)
+Which means that his daughter, Nae, no longer has a reason to hate.
+<END>
+
+#WRITE(PTR, $000006BE)
+Nobody's in the lab except Kurisu.
+<END>
+
+#WRITE(PTR, $0000076A)
+【Rintaro】Have you been to Kiryuu Moeka's apartment?
+<END>
+
+#WRITE(PTR, $00000818)
+【Kurisu】...haah?
+<END>
+
+#WRITE(PTR, $000008BC)
+Kurisu twists her neck while browsing @channel on the computer.
+<END>
+
+#WRITE(PTR, $0000096A)
+【Kurisu】Moeka-san's apartment? Me? I haven't gone there.
+<END>
+
+#WRITE(PTR, $00000A0E)
+【Rintaro】Oh, okay.
+<END>
+
+#WRITE(PTR, $00000AB2)
+【Kurisu】Why do you ask?
+<END>
+
+#WRITE(PTR, $00000B56)
+【Rintaro】No, if you haven't gone, that's fine.
+<END>
+
+#WRITE(PTR, $00000C96)
+Then I cross the lounge and head straight for the development room.
+<END>
+
+#WRITE(PTR, $00000D3A)
+The time leap machine sits in the middle of the room.
+<END>
+
+#WRITE(PTR, $00000DDE)
+When I take a sidelong glance at the shelves--
+<END>
+
+#WRITE(PTR, $00000E82)
+【Rintaro】It's there...
+<END>
+
+#WRITE(PTR, $00000F26)
+A large, familiar cardboard box.
+<END>
+
+#WRITE(PTR, $00001070)
+I wasn't wrong after all.
+<END>
+
+#WRITE(PTR, $00001114)
+What's inside is the IBN 5100.
+<END>
+
+#WRITE(PTR, $000011B8)
+The retro PC stolen by a twist of fate, has finally returned...!
+<END>
+
+#WRITE(PTR, $0000125C)
+It was a long fight, but with this, it's finally over.
+<END>
+
+#WRITE(PTR, $00001300)
+I carry it out.
+<END>
+
+#WRITE(PTR, $000013A4)
+We can avoid Mayuri's death...!
+<END>
+
+#WRITE(PTR, $00001460)
+【Rintaro】Daru! Supah Hakah-! Supah Hakah, c'mon!
+<END>
+
+#WRITE(PTR, $00001504)
+I can't contain my excitement.
+<END>
+
+#WRITE(PTR, $000015A8)
+And then I quickly lose that feeling.
+<END>
+
+#WRITE(PTR, $00001652)
+【Kurisu】Hashida isn't here.
+<END>
+
+#WRITE(PTR, $000016F6)
+【Kurisu】He said he went to ComiMa, didn't he?
+<END>
+
+#WRITE(PTR, $0000179A)
+Is that so...
+<END>
+
+#WRITE(PTR, $0000183E)
+In that case, he won't come back to the lab until nighttime.
+<END>
+
+#WRITE(PTR, $000018F4)
+I just can't wait.
+<END>
+
+#WRITE(PTR, $00001910)
+And so I use the Time Leap Machine to go back to a time when Daru's around.
+<END>
+
+#WRITE(PTR, $00001E10)
+TL25.PMF
+<END2>
+
+#WRITE(PTR, $000021B2)
+The world's distortion rectifies itself, and Daru's in front of his computer, sleepily playing an eroge.
+<END>
+
+#WRITE(PTR, $000021C2)
+Kurisu's dozing off on the sofa. She probably just got done with her all-night work on the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $000021D2)
+Mayuri wasn't around. She probably went to Lukako's to convince him to cosplay.
+<END>
+
+#WRITE(PTR, $000021E2)
+【Rintaro】Daru! Christina!
+<END>
+
+#WRITE(PTR, $000022B6)
+When I call, Kurisu's body shakes and she opens her eyes.
+<END>
+
+#WRITE(PTR, $000022C6)
+【Rintaro】It is time to put Operation "Verthandi" into its final phase!
+<END>
+
+#WRITE(PTR, $000022D6)
+The two of them stare blankly at my sonorous declaration.
+<END>
+
+#WRITE(PTR, $000022E6)
+It seems my colleagues don't quite understand.
+<END>
+
+#WRITE(PTR, $000022F6)
+【Rintaro】Daru, the IBN 5100!
+<END>
+
+#WRITE(PTR, $000023CA)
+【Itaru】...so?
+<END>
+
+#WRITE(PTR, $000023DA)
+【Rintaro】Don't "so" me! We have an IBN 5100!
+<END>
+
+#WRITE(PTR, $000023EA)
+【Itaru】Well yeah, we do. You brought it, Okarin.
+<END>
+
+#WRITE(PTR, $000023FA)
+【Rintaro】Correct, I brought it. From Yanabayashi Shrine!
+<END>
+
+#WRITE(PTR, $0000240A)
+【Itaru】...Okarin, aren't you awfully chipper today?
+<END>
+
+#WRITE(PTR, $000024DE)
+【Kurisu】Just let me sleep a little...
+<END>
+
+#WRITE(PTR, $000024EE)
+Kurisu rubs her eyes and mutters without any ambition.
+<END>
+
+#WRITE(PTR, $000024FE)
+【Kurisu】Cause I stayed up all night...
+<END>
+
+#WRITE(PTR, $000025D2)
+【Rintaro】Daru, one question, but have you studied how to use the IBN 5100?
+<END>
+
+#WRITE(PTR, $000025EC)
+【Itaru】Huh? Well, a little bit.
+<END>
+
+#WRITE(PTR, $000025FC)
+【Itaru】Even though I'm so busy preparing for ComiMa. Aren't I just great? I'm on a level that I'd get knighted if I were English.
+<END>
+
+#WRITE(PTR, $0000260C)
+【Rintaro】Then from now on, let us call you Sir Supah Hakah.
+<END>
+
+#WRITE(PTR, $00002626)
+【Itaru】But I refuse.
+<END>
+
+#WRITE(PTR, $000026FA)
+【Kurisu】Cut out the trivial talk. You're giving me a headache...
+<END>
+
+#WRITE(PTR, $0000270A)
+If Daru's learned how to use it, then we can start hacking SERN immediately, can't we?
+<END>
+
+#WRITE(PTR, $000027AA)
+【Rintaro】An announcment to all lab mems!
+<END>
+
+#WRITE(PTR, $000027BA)
+Mayuri isn't here, but that's more convenient.
+<END>
+
+#WRITE(PTR, $000027CA)
+【Rintaro】The long war has finally reached its decisive battle! In other words, the Operation "Ragnarok" has begun!
+<END>
+
+#WRITE(PTR, $000027DA)
+【Rintaro】The main outline of our strategy is to go into the top secret data hidden in the depths of SERN's headquarters, crack into it with the IBN 5100, and destroy it!
+<END>
+
+#WRITE(PTR, $000027EA)
+【Rintaro】Using Echelon's cowardly electronic devices, they have stolen our classified information. Moreover, they plan to pillage our design, the time machine we developed!
+<END>
+
+#WRITE(PTR, $000027FA)
+【Rintaro】On the surface a research institution, underneath, they have carried out the cruel Jellyman experiments. Isn't it time to swing down the Hammer of Justice!?
+<END>
+
+#WRITE(PTR, $0000280A)
+【Rintaro】And so we will firmly engrave into their eyes the visage of he who truly is the ruler of space-time!
+<END>
+
+#WRITE(PTR, $0000281A)
+【Rintaro】When the sun sets upon the battlefield, the hidden structures that rule the world will finally crumble, and then be reconfigured!
+<END>
+
+#WRITE(PTR, $00002862)
+【Kurisu】Agh, shut up...
+<END>
+
+#WRITE(PTR, $00002872)
+Kurisu gets fed up and rises from the sofa.
+<END>
+
+#WRITE(PTR, $00002882)
+【Kurisu】Just what are you talking about?
+<END>
+
+#WRITE(PTR, $000028CA)
+【Itaru】Nobody knows what goes on in the darkness of Okarin's heart...
+<END>
+
+#WRITE(PTR, $000028DA)
+【Kurisu】To begin with, weren't you supposed to be an insane mad scientist in your backstory? Then why are you talking about the Hammer of Justice?
+<END>
+
+#WRITE(PTR, $000028F4)
+【Itaru】He just got caught up in the heat of the moment, right? Maybe he's reconsidering now.
+<END>
+
+#WRITE(PTR, $00002904)
+【Rintaro】You guys! Stop complaining and prepare!
+<END>
+
+#WRITE(PTR, $00002914)
+【Itaru】Prepare for what?
+<END>
+
+#WRITE(PTR, $00002924)
+【Rintaro】I just said what! Cracking SERN!
+<END>
+
+#WRITE(PTR, $0000293E)
+【Kurisu】I don't think cracking is good.
+<END>
+
+#WRITE(PTR, $0000294E)
+【Rintaro】Wh, what's with that honor student remark...! You a class chairman!?
+<END>
+
+#WRITE(PTR, $0000295E)
+【Kurisu】Do you want to get caught?
+<END>
+
+#WRITE(PTR, $0000296E)
+【Rintaro】That's not the broblem...!
+<END>
+
+#WRITE(PTR, $0000297E)
+I grind my teeth.
+<END>
+
+#WRITE(PTR, $0000298E)
+I look Kurisu in the eye with a serious look.
+<END>
+
+#WRITE(PTR, $0000299E)
+【Rintaro】I've been fighting up to this point just to reach this Turning Point...!
+<END>
+
+#WRITE(PTR, $000029AE)
+【Rintaro】This time for sure, I will break to the α World Line and save Mayuri. I won't let anyone get in my way. For sure...!
+<END>
+
+#WRITE(PTR, $000029CC)
+【Kurisu】Okabe...
+<END>
+
+#WRITE(PTR, $000029DC)
+【Itaru】You-you're too desperate...
+<END>
+
+#WRITE(PTR, $000029EC)
+I am desperate.
+<END>
+
+#WRITE(PTR, $000029FC)
+From an objective perspective, it hasn't been half an hour since the Time Leap Machine was completed.
+<END>
+
+#WRITE(PTR, $00002A0C)
+But in my subjective time, many days have already passed.
+<END>
+
+#WRITE(PTR, $00002B2A)
+【Rintaro】Please...!
+<END>
+
+#WRITE(PTR, $00002B3A)
+I bow deeply to the two of them.
+<END>
+
+#WRITE(PTR, $00002B4A)
+【Rintaro】Please hear me out...
+<END>
+
+#WRITE(PTR, $00002B5A)
+If I don't, Mayuri will die again.
+<END>
+
+#WRITE(PTR, $00002B6A)
+And then in 26 years, the world will become ruled by SERN's dystopia.
+<END>
+
+#WRITE(PTR, $00002B7A)
+Suzuha's efforts to cross through time will have come to nothing.
+<END>
+
+#WRITE(PTR, $00002CAA)
+And then Daru taps my shoulder.
+<END>
+
+#WRITE(PTR, $00002CBA)
+He smiles broadly, thrusting his thumb upwards.
+<END>
+
+#WRITE(PTR, $00002CCA)
+【Itaru】It-it's not like I'm cracking for you or anything, okay!?
+<END>
+
+#WRITE(PTR, $00002CE4)
+【Kurisu】...this is terrible.
+<END>
+
+#WRITE(PTR, $00002CF4)
+Without thinking, I burst out laughing.
+<END>
+
+#WRITE(PTR, $00002D04)
+Our Sir Supah Hakah (Tsundere) really is reliable.
+<END>
+
+#WRITE(PTR, $00002EA0)
+While Daru wires his PC and the IBN 5100, I explain the circumstances to both of them.
+<END>
+
+#WRITE(PTR, $00002EB0)
+【Rintaro】Basically, the origin of everything was the first D-mail I sent to Daru.
+<END>
+
+#WRITE(PTR, $00002EC0)
+【Rintaro】Since it got logged in SERN's Echelon, the Rounders targeted us.
+<END>
+
+#WRITE(PTR, $00002ED0)
+【Rintaro】As a result, they kill Mayuri, carry us off to SERN, and steal the Time Leap Machine.
+<END>
+
+#WRITE(PTR, $00002EE0)
+After several years, Daru and I escape our confinement and form the resistance which Suzuha becomes a member of.
+<END>
+
+#WRITE(PTR, $00002EF0)
+【Rintaro】It was useless no matter how many times I tried. The world, in accordance with Attractor Field Theory, converged to the same result.
+<END>
+
+#WRITE(PTR, $00002F08)
+【Itaru】If that was all Okarin's delusion, I think he'd make a great <DICT>light novel</DICT>.
+<END>
+
+#WRITE(PTR, $00002F18)
+【Rintaro】It's the truth. All of it.
+<END>
+
+#WRITE(PTR, $00002F28)
+【Rintaro】To avoid Mayuri's death--
+<END>
+
+#WRITE(PTR, $00002F38)
+And to free Suzuha's future from SERN--
+<END>
+
+#WRITE(PTR, $00002F48)
+【Rintaro】We need to escape from the α World Line. We need to "cancel" all of the warped events so far. I think it's possible.
+<END>
+
+#WRITE(PTR, $00002F58)
+【Rintaro】Basically, what we should aim for is where we were before I sent Daru the first D-mail: the β World Line.
+<END>
+
+#WRITE(PTR, $00002F68)
+【Rintaro】To reach there, we need to take Echelon's stored data of the first d-mail, and erase it from SERN's database.
+<END>
+
+#WRITE(PTR, $00002F78)
+Standard Divergence is over 1％.
+<END>
+
+#WRITE(PTR, $00002F88)
+Now, if we erase the mail data from SERN's computer, we'll surely achieve that number.
+<END>
+
+#WRITE(PTR, $00002F98)
+The existence of just one mail data.
+<END>
+
+#WRITE(PTR, $00002FA8)
+That trifling difference becomes a dramatic influence in the future via the Butterfly Effect.
+<END>
+
+#WRITE(PTR, $00002FC2)
+【Kurisu】Interesting.
+<END>
+
+#WRITE(PTR, $00002FD2)
+Kurisu mutters while sipping her hot coffee.
+<END>
+
+#WRITE(PTR, $00002FE2)
+It seems she's already gotten over her drowsiness.
+<END>
+
+#WRITE(PTR, $00002FF2)
+【Itaru】You believe it, Makise-shi?
+<END>
+
+#WRITE(PTR, $00003002)
+【Kurisu】As a hypothesis. I'd like objective data if possible, but that's obviously unreasonable.
+<END>
+
+#WRITE(PTR, $00003012)
+【Rintaro】Relax. The Time Leap Machine you improved for us was excellent.
+<END>
+
+#WRITE(PTR, $0000302C)
+【Kurisu】Of, of course it was.
+<END>
+
+#WRITE(PTR, $0000303C)
+She didn't deny it, but that's just like Kurisu.
+<END>
+
+#WRITE(PTR, $00003056)
+【Kurisu】And you already planned to hack with the IBN 5100 in the first place.
+<END>
+
+#WRITE(PTR, $00003066)
+【Kurisu】Anyway, go access it, and if the mail data exists, then that's proof what you said is true.
+<END>
+
+#WRITE(PTR, $00003076)
+【Itaru】So basically, "Don't think, feel", huh? I get it.
+<END>
+
+#WRITE(PTR, $00003090)
+【Kurisu】No, it might be the opposite.
+<END>
+
+#WRITE(PTR, $000030A0)
+【Rintaro】It should be "Don't think, just do".
+<END>
+
+#WRITE(PTR, $000030B0)
+Daru, squishing his large body behind the PC to work the wiring, wipes the sweat off his head and sits in the chair.
+<END>
+
+#WRITE(PTR, $000030F8)
+【Itaru】Finished the bridging. I need to tinker with the settings a little, but we should be up and running in about 10 minutes.
+<END>
+
+#WRITE(PTR, $00003108)
+【Rintaro】Alright.
+<END>
+
+#WRITE(PTR, $00003122)
+【Kurisu】At any rate, the first D-mail that became the source, huh...
+<END>
+
+#WRITE(PTR, $00003132)
+【Kurisu】It's that isn't it? What you showed me at ATF.
+<END>
+
+#WRITE(PTR, $0000314C)
+【Kurisu】That I died or something.
+<END>
+
+#WRITE(PTR, $00003162)
+【Rintaro】Right. I witnessed your death and sent Daru a D-mail. He just happened to be running an experiment on the Microwave Ophone (Temp), so the discharge phenom...en...on-
+<END>
+
+#WRITE(PTR, $0000324C)
+Halfway through talking.
+<END>
+
+#WRITE(PTR, $000032E8)
+For some reason, I was at a loss for words.
+<END>
+
+#WRITE(PTR, $00003384)
+Now, I felt like I had overlooked something very serious.
+<END>
+
+#WRITE(PTR, $00003394)
+That feeling suddenly brought anxiety to my heart.
+<END>
+
+#WRITE(PTR, $000033A4)
+I try playing back the conversation through my head.
+<END>
+
+#WRITE(PTR, $000033B4)
+--"cancel" all of the warped events so far.
+<END>
+
+#WRITE(PTR, $000033C4)
+--the origin of everything was the first D-mail I sent to Daru.
+<END>
+
+#WRITE(PTR, $00003460)
+--That I died or something.
+<END>
+
+#WRITE(PTR, $00003470)
+--where we were before I sent Daru the first D-mail: the β World Line.
+<END>
+
+#WRITE(PTR, $00003576)
+【Rintaro】...
+<END>
+
+#WRITE(PTR, $00003586)
+It felt like a cold hand had its grip around my heart.
+<END>
+
+#WRITE(PTR, $00003596)
+Attacked by that illusion, I look at Kurisu in fear.
+<END>
+
+#WRITE(PTR, $00003676)
+Our eyes meet.
+<END>
+
+#WRITE(PTR, $00003686)
+That sharp look of defiance from when we first met is no longer there.
+<END>
+
+#WRITE(PTR, $00003696)
+What was overflowing now was the gentle, yet burning radiance of a heart on a quest.
+<END>
+
+#WRITE(PTR, $000036B0)
+【Kurisu】...what?
+<END>
+
+#WRITE(PTR, $000036C0)
+...that's right. I had. Overlooked. An important fact.
+<END>
+
+#WRITE(PTR, $000036D0)
+The world line I aimed at to save Mayuri.
+<END>
+
+#WRITE(PTR, $000036E0)
+The world line Suzuha longed for to change the future.
+<END>
+
+#WRITE(PTR, $000036F0)
+The world line I'll finally reach at the end of this long struggle.
+<END>
+
+#WRITE(PTR, $00003806)
+In that world line, Mayuri doesn't die.
+<END>
+
+#WRITE(PTR, $00003822)
+In that world line, SERN doesn't form a dystopia.
+<END>
+
+#WRITE(PTR, $0000392E)
+<LINE>
+<LINE>
+<LINE>
+%LCAnd--
+<ENDPANEL>
+
+#WRITE(PTR, $0000394A)
+<LINE>
+<LINE>
+<LINE>
+%LCIn that world line--
+<ENDPANEL>
+
+#WRITE(PTR, $00003966)
+<LINE>
+<LINE>
+<LINE>
+%LCOn the 8th floor of Radio Kaikan--
+<ENDPANEL>
+
+#WRITE(PTR, $00003A30)
+<LINE>
+<LINE>
+<LINE>
+%LCMakise Kurisu died.
+<FILEEND00>
+

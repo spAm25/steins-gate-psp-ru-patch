@@ -1,0 +1,1319 @@
+#VAR(Table, TABLE)
+#ADDTBL("encoding.tbl", Table)
+#ACTIVETBL(Table)
+#VAR(PTR, CUSTOMPOINTER)
+#CREATEPTR(PTR, "LINEAR", 0, 16)
+#JMP($0000785A)
+
+#WRITE(PTR, $000001F4)
+RaiNet Kakeru's theme song plays throughout the hall, signaling the start of the finals.
+<END>
+
+#WRITE(PTR, $00000204)
+A certain kind of solemn atmosphere.
+<END>
+
+#WRITE(PTR, $00000214)
+The tension of the crowd peaks as its voltage reaches a climax.
+<END>
+
+#WRITE(PTR, $00000240)
+【Announcer】Thanks for waiting, everyone! Very soon, we will start the finals and see once and for all, who is the RaiNet Access Battlers Grand Champion!
+<END>
+
+#WRITE(PTR, $00000250)
+【Announcer】These two teams are about to clash-!
+<END>
+
+#WRITE(PTR, $00000260)
+【Announcer】First is our queen, last tournament's defending champion! The "Moe Maid in Cat"!
+<END>
+
+#WRITE(PTR, $00000270)
+【Announcer】Fariiiiis! Nyaaaaannyaan!
+<END>
+
+#WRITE(PTR, $00000358)
+Faris makes her entrance, greeted by loud cheering.
+<END>
+
+#WRITE(PTR, $00000368)
+She courteously smiles and waves her hands to the audience.
+<END>
+
+#WRITE(PTR, $00000378)
+Her popularity is a perfect fit for a queen.
+<END>
+
+#WRITE(PTR, $00000388)
+By the way, she's not wearing the sunglasses I gave her.
+<END>
+
+#WRITE(PTR, $000004C6)
+【Announcer】Facing her, the dark horse appearing this year like a comet, the dark peacock!
+<END>
+
+#WRITE(PTR, $00000624)
+【Announcer】The ones who won their first matches despite troubles like no-show opponents, the "Black Absolute Zero"!
+<END>
+
+#WRITE(PTR, $0000075C)
+【Announcer】The Viraaaaal! Attackeeeeers!
+<END>
+
+#WRITE(PTR, $0000096C)
+The Viral Attackers consist of ４℃ and some short guy with the same black fashion fetish.
+<END>
+
+#WRITE(PTR, $00000AA4)
+I couldn't see them as anything other than trolls you'd find in Ikebukuro.
+<END>
+
+#WRITE(PTR, $00000BDC)
+I sit within the excited audience, bewildered at the atmosphere.
+<END>
+
+#WRITE(PTR, $00000D14)
+Sitting next to me, Daru taps my shoulder.
+<END>
+
+#WRITE(PTR, $00000EEA)
+【Itaru】Okarin, cheer for Faris-tan too-!
+<END>
+
+#WRITE(PTR, $00001022)
+【Rintaro】yeah...
+<END>
+
+#WRITE(PTR, $00001166)
+Disregarding my anxiety, Daru stands up, stretches out his body, and waves his hands.
+<END>
+
+#WRITE(PTR, $0000129E)
+【Spectator A】Faris-ta-n!
+<END>
+
+#WRITE(PTR, $000013D6)
+【Spectator B】Fari-s! I love you-!
+<END>
+
+#WRITE(PTR, $0000150E)
+【Spectator C】Moe moe-!
+<END>
+
+#WRITE(PTR, $00001646)
+Several cameras flash around Faris.
+<END>
+
+#WRITE(PTR, $0000184A)
+【Faris】Everyone-, I'm gonna give it my all today, so cheer me on, nya-n♪
+<END>
+
+#WRITE(PTR, $00001982)
+Faris' voice resounds around the hall through the mic.
+<END>
+
+#WRITE(PTR, $00001ABA)
+It looks like they gave the winning RaiNetters mics so that the entire audience could hear what they say. By the way, the opponents, the Viral Attackers also have mics.
+<END>
+
+#WRITE(PTR, $00001BFC)
+【Faris】Ehehehe. Service shot nyan♪
+<END>
+
+#WRITE(PTR, $00001D34)
+Faris gives an impish smile as she poses like a gravure idol, turning to the audience.
+<END>
+
+#WRITE(PTR, $00001FD8)
+Whoooooooooooooooooooooooooah-!
+<END>
+
+#WRITE(PTR, $00002110)
+The entire hall shakes in commotion.
+<END>
+
+#WRITE(PTR, $00002248)
+Faris' popularity is overwhelming.
+<END>
+
+#WRITE(PTR, $000023B8)
+【Itaru】It came-! It's here! Faris! It's me-! Marry me-!
+<END>
+
+#WRITE(PTR, $000024F0)
+I've completely lost Daru.
+<END>
+
+#WRITE(PTR, $00002634)
+I wonder if Faris will be alright.
+<END>
+
+#WRITE(PTR, $0000276C)
+Though, based on that fanservice, it looks like she's fine.
+<END>
+
+#WRITE(PTR, $000028A4)
+I call out to Daru once the cheering settles down.
+<END>
+
+#WRITE(PTR, $00002A14)
+【Rintaro】Hey, how come Faris is all alone yet there are two Viral Attackers?
+<END>
+
+#WRITE(PTR, $00002B56)
+【Itaru】Wait, Okarin, you don't know that?
+<END>
+
+#WRITE(PTR, $00002C8E)
+I'm not quite familiar with the rules to RaiNet Access Battlers. I had Daru teach me the rules before the finals started, but that was just the basics.
+<END>
+
+#WRITE(PTR, $00002DD0)
+【Itaru】The championship's originally a two man tag-team battle. But since nobody's worthy to be Faris-tan's duel partner, she goes alone.
+<END>
+
+#WRITE(PTR, $00002F08)
+【Itaru】There's an obvious advantage with two people, but it's so cool she won the winter championships despite that, isn't it? That's what's so mind-numbingly attractive about her-
+<END>
+
+#WRITE(PTR, $00003040)
+【Rintaro】These Viral Attackers, what sort of team are they?
+<END>
+
+#WRITE(PTR, $00003182)
+【Itaru】Ummm. I don't know all the details, but it seems they're a pretty aggressive team.
+<END>
+
+#WRITE(PTR, $000032BA)
+【Itaru】But more than that, I hear suspicious rumors about them.
+<END>
+
+#WRITE(PTR, $000033F2)
+【Itaru】They have a lot of followers. They don't mind using those followers to interfere with their opponents during duels.
+<END>
+
+#WRITE(PTR, $00003534)
+【Itaru】About half the teams they faced in the championships did not finish.
+<END>
+
+#WRITE(PTR, $0000366C)
+【Itaru】Not just that, it's also said that they frequently appear in Akiba and Ikebukuro to hunt down otaku.
+<END>
+
+#WRITE(PTR, $000037A4)
+【Itaru】Anyway, they're really hated among RaiNetters.
+<END>
+
+#WRITE(PTR, $000038DC)
+【Rintaro】Why haven't those guys been disqualified?
+<END>
+
+#WRITE(PTR, $00003A1E)
+【Itaru】Well, that's 'cause there's no evidence. Since RaiNetters are mostly kids and ota. When threatened by such black guys, they get scared and say nothing.
+<END>
+
+#WRITE(PTR, $00003B62)
+The Viral Attackers, huh...
+<END>
+
+#WRITE(PTR, $00003C9A)
+Faris said she lost because of their interference.
+<END>
+
+#WRITE(PTR, $00003DE4)
+But if she has the sunglasses and earplugs I gave her, she should be able to win.
+<END>
+
+#WRITE(PTR, $00003EA2)
+And if she wins, she said that she might remember the D-mail she sent.
+<END>
+
+#WRITE(PTR, $00003F46)
+I'll be in trouble if Faris doesn't win.
+<END>
+
+#WRITE(PTR, $00003FEA)
+Because Mayuri's life depends on it.
+<END>
+
+#WRITE(PTR, $0000408E)
+Please-- Faris!
+<END>
+
+#WRITE(PTR, $00004208)
+Heralded by thunderous cheers, Faris rises to the stage.
+<END>
+
+#WRITE(PTR, $000042EA)
+Her opponent is ４℃ of course.
+<END>
+
+#WRITE(PTR, $0000438E)
+He faces Faris on the other side of the Circuit Mat.
+<END>
+
+#WRITE(PTR, $000044C6)
+【Rintaro】How do you fight as a two-man tag team?
+<END>
+
+#WRITE(PTR, $0000456A)
+【Itaru】In a word, consultation. It's harder for the opponent to read pieces moved by two minds.
+<END>
+
+#WRITE(PTR, $0000460E)
+Meaning the partner is completely a support role, huh.
+<END>
+
+#WRITE(PTR, $000046BC)
+【Itaru】Well, don't worry. Since it's Faris-tan, she can instantly beat the daylights outta these trolls.
+<END>
+
+#WRITE(PTR, $0000477E)
+【Announcer】Both parties, are you ready?
+<END>
+
+#WRITE(PTR, $00004822)
+The referee gathers Faris and the Viral twosome for the coin toss to decide the first turn.
+<END>
+
+#WRITE(PTR, $000048C6)
+【Announcer】And now, for the RaiNet Access Battlers Grand Championship Finals--
+<END>
+
+#WRITE(PTR, $0000496A)
+-For one moment, the noisy assembly hall was wrapped in silence--
+<END>
+
+#WRITE(PTR, $00004A0E)
+Everyone held their breath in anticipation--
+<END>
+
+#WRITE(PTR, $00004AB2)
+【Announcer】Duel Access!
+<END>
+
+#WRITE(PTR, $00004B62)
+The shout to commence the game.
+<END>
+
+#WRITE(PTR, $00004C06)
+Cheers shake the floor immediately following.
+<END>
+
+#WRITE(PTR, $00004D5C)
+First up is Faris.
+<END>
+
+#WRITE(PTR, $00004E00)
+The huge monitor hanging from the ceiling displayed the Circuit Mat-- the thing that looks like a chessboard.
+<END>
+
+#WRITE(PTR, $00004EA4)
+All of the cards glittered and sparkled.
+<END>
+
+#WRITE(PTR, $00004F48)
+The monitor was oriented so that you could see what was written on the cards.
+<END>
+
+#WRITE(PTR, $00004FEC)
+But you couldn't decipher the contents of the cards from the image on the monitor.
+<END>
+
+#WRITE(PTR, $00005090)
+According to Daru's explanation, the most important thing for RaiNet Access Battlers is psychological tactics, like reading your opponent's hand.
+<END>
+
+#WRITE(PTR, $00005134)
+You have 4 Link Cards and 4 Virus Cards, for a total of 8 cards in your hand.
+<END>
+
+#WRITE(PTR, $000051D8)
+The victory conditions are complex, but in short, you win if you get 4 Link Cards or if your opponent takes 4 Virus Cards.
+<END>
+
+#WRITE(PTR, $0000527C)
+As soon as the game startsy, you try to see through what sort of card your opponent uses.
+<END>
+
+#WRITE(PTR, $00005320)
+Then you read the placement of their cards, and shift the game to your advantage.
+<END>
+
+#WRITE(PTR, $000053C4)
+So whether you attack or defend, you need to be cautious about how you use each card in your hand.
+<END>
+
+#WRITE(PTR, $00005468)
+Meaning the purpose of Duel Partners is to make it hard for the opponent to read your thoughts.
+<END>
+
+#WRITE(PTR, $0000550C)
+Each time a Link Card or a Virus Card gets opened, and each time a card passes the area called the Server, the assembly hall is nearly swept up in a tsunami.
+<END>
+
+#WRITE(PTR, $000055B0)
+Thinking about it this way, I understand how amazing Faris must be to become champion despite fighting alone.
+<END>
+
+#WRITE(PTR, $00005654)
+The audience watches, holding their breath at attention.
+<END>
+
+#WRITE(PTR, $000056F8)
+I don't really know this game, but if I had to say, then it looks like the Viral guys are attacking.
+<END>
+
+#WRITE(PTR, $00005830)
+【Rintaro】What sort of strategy does Faris use...?
+<END>
+
+#WRITE(PTR, $000058D4)
+【Itaru】Faris-tan is a slow starter I guess. She spends the first half stressing the importance of reading her opponent's cards, so she's pretty careful.
+<END>
+
+#WRITE(PTR, $00005978)
+【Itaru】And instead, she suddenly reverses things at endgame.
+<END>
+
+#WRITE(PTR, $00005A1C)
+【Itaru】Looks like she's using that strategy now too, huh?
+<END>
+
+#WRITE(PTR, $00005B20)
+But contrary to Daru's expectations, Faris charges onto enemy grounds with the Line Boost card.
+<END>
+
+#WRITE(PTR, $00005BC4)
+The Virals oppose, undaunted.
+<END>
+
+#WRITE(PTR, $00005C68)
+They mutually restrain each other with the Line Boost equipment card.
+<END>
+
+#WRITE(PTR, $00005D0C)
+The first one to move was unexpectedly Faris.
+<END>
+
+#WRITE(PTR, $00005DB0)
+She snatched the unprepared Virals' card using the Line Boost equipment card.
+<END>
+
+#WRITE(PTR, $00005EFA)
+【Itaru】Now, what's it gonna be...
+<END>
+
+#WRITE(PTR, $00005F12)
+She won't know if the card she snatched was a Link Card or a Virus Card unless she opens it.
+<END>
+
+#WRITE(PTR, $00005F22)
+The card Faris snatched is--
+<END>
+
+#WRITE(PTR, $00005F48)
+【Itaru】Uggeh-!
+<END>
+
+#WRITE(PTR, $00005F58)
+【Rintaro】What happened!?
+<END>
+
+#WRITE(PTR, $00005F68)
+【Itaru】Of all things, she took a Virus Card...
+<END>
+
+#WRITE(PTR, $00005F82)
+【Itaru】It's unusual for Faris-tan to attack from the beginning. Maybe she changed her strategy for the finals to be cautious enough for the Virals.
+<END>
+
+#WRITE(PTR, $00006032)
+【４℃】Pff, looks like our pussy champ is frightened of the heavy rock wings of me, the black peacock. I can see your impatience.
+<END>
+
+#WRITE(PTR, $00006042)
+【４℃】Your cowardly pussy shivering is clearly reflected on my fallen angel eyes.
+<END>
+
+#WRITE(PTR, $00006052)
+【４℃】You made it look like you changed your strategy, but that was a fake. My elegant evil heart whispers so.
+<END>
+
+#WRITE(PTR, $00006062)
+【４℃】I've done my research on you, Pussy. You don't attack at the beginning. You think cautiously.
+<END>
+
+#WRITE(PTR, $00006072)
+【４℃】You can't shock my mind when I already understand all that.
+<END>
+
+#WRITE(PTR, $00006082)
+【４℃】Just now, that isolated card you attacked with is no doubt a Virus Card. You're thinking it would be lucky if I took it. Right?
+<END>
+
+#WRITE(PTR, $00006092)
+【Faris】......
+<END>
+
+#WRITE(PTR, $000060A2)
+【４℃】This black nobleman felt a red alarm, awakening wild instinct. So you suddenly changed strategies, tempting our blackness, huh?
+<END>
+
+#WRITE(PTR, $000060B2)
+【４℃】But it's too late. Such tricks without a fragment of elegance won't stain our blackness.
+<END>
+
+#WRITE(PTR, $000060C2)
+【４℃】And that is because the Viral Attackers are Black Justice. The usurpers of RaiNet. The rebellion against this fickle assembly hall"Sanctuary".
+<END>
+
+#WRITE(PTR, $00006170)
+【Rintaro】At any rate, he really talks, huh...
+<END>
+
+#WRITE(PTR, $00006180)
+And completely unintelligibly at that.
+<END>
+
+#WRITE(PTR, $00006190)
+【Itaru】Virals shaddap...
+<END>
+
+#WRITE(PTR, $000061A0)
+The luminance Faris had when giving the audience service shots had disappeared. No reaction at all to ４℃'s unabashed provocation.
+<END>
+
+#WRITE(PTR, $000061BA)
+【Itaru】But putting that sort of pressure on your opponent is also pretty important in RaiNet.
+<END>
+
+#WRITE(PTR, $000061CA)
+【Itaru】How much does your opponent shake? You can use that to read the placement of their cards.
+<END>
+
+#WRITE(PTR, $000061DA)
+【Rintaro】...This is an unexpectedly bloodthirsty game, isn't it?
+<END>
+
+#WRITE(PTR, $000061EA)
+【Itaru】Actually, RaiNet is more popular with adults than kids. Even the anime is designed for kids, but the story's going down a pretty hard route.
+<END>
+
+#WRITE(PTR, $00006204)
+【Itaru】And Kirari-chan is super erotic.
+<END>
+
+#WRITE(PTR, $00006214)
+Like I'd know, you perv.
+<END>
+
+#WRITE(PTR, $00006284)
+Not more than three minutes has passed since the start of the duel, and Faris is already grimacing.
+<END>
+
+#WRITE(PTR, $00006294)
+And she's shaking her body left and right as if she doesn't like something.
+<END>
+
+#WRITE(PTR, $00006338)
+【Rintaro】Ah, a laser beam!
+<END>
+
+#WRITE(PTR, $00006352)
+【Itaru】Eh? What?
+<END>
+
+#WRITE(PTR, $00006362)
+【Rintaro】Look near Faris' eye! A red beam is...!
+<END>
+
+#WRITE(PTR, $00006372)
+It was done in such short intervals that it would be hard for a bystander to notice.
+<END>
+
+#WRITE(PTR, $00006382)
+But there certainly was a red beam aiming for Faris' eye.
+<END>
+
+#WRITE(PTR, $00006392)
+【Itaru】...Seriously?
+<END>
+
+#WRITE(PTR, $000063A2)
+Daru stares.
+<END>
+
+#WRITE(PTR, $000063B2)
+But he quickly tilts his head.
+<END>
+
+#WRITE(PTR, $000063D0)
+【Itaru】No good, I can't tell.
+<END2>
+
+#WRITE(PTR, $000063EA)
+But if what Okarin saw is true, then someone from the audience is interfering! I won't forgive those Virals!
+<END>
+
+#WRITE(PTR, $000063FE)
+【Rintaro】Why won't the referee stop them!?
+<END>
+
+#WRITE(PTR, $0000640E)
+【Itaru】They might be timing it so that the referee doesn't see...
+<END>
+
+#WRITE(PTR, $0000641E)
+It's such a huge hall. I can't fully grasp how far apart the Viral underlings are spread, or where they're aiming from.
+<END>
+
+#WRITE(PTR, $0000642E)
+I see, this is why Faris asked me to get her sunglasses before I time leaped...!
+<END>
+
+#WRITE(PTR, $0000643E)
+Faris, put on your sunglasses...!
+<END>
+
+#WRITE(PTR, $0000644E)
+I try calling to her in my heart, but it's not like it'll reach her up on stage.
+<END>
+
+#WRITE(PTR, $0000645E)
+I grind my teeth and get up.
+<END>
+
+#WRITE(PTR, $00006478)
+【Itaru】Hey, Okarin, where are you going!?
+<END>
+
+#WRITE(PTR, $00006488)
+【Rintaro】I'll search for those Viral underlings. I'll put a stop to their interference...!
+<END>
+
+#WRITE(PTR, $00006498)
+【Itaru】Can you even find them with this many people!?
+<END>
+
+#WRITE(PTR, $000064B4)
+I ignore Daru and weave my way out of spectators engrossed in the duel.
+<END>
+
+#WRITE(PTR, $000064C4)
+The game keeps advancing moment by moment.
+<END>
+
+#WRITE(PTR, $00006534)
+Faris takes the card she used for her first attack, and instead of turning it to the enemy line, returns it to her own to fortify her defense.
+<END>
+
+#WRITE(PTR, $00006544)
+The Virals start attacking her in waves.
+<END>
+
+#WRITE(PTR, $00006554)
+They equip a card with "Line Boost"-- allowing it to move twice as normal, move it twice, and then unequip it. Then they equip Line Boost to another card and move that.
+<END>
+
+#WRITE(PTR, $00006564)
+Using that method, they aim to attack in waves with several cards.
+<END>
+
+#WRITE(PTR, $00006574)
+To some extent, it felt like a sacrifice.
+<END>
+
+#WRITE(PTR, $00006584)
+And of course, the cards the Virals attacked with were a mix of Link Cards and Virus Cards.
+<END>
+
+#WRITE(PTR, $00006594)
+Faris also has to take her opponents' cards to endure the their wave attacks, but if they're Virus Cards, that puts her at more and more of a disadvantage.
+<END>
+
+#WRITE(PTR, $000065A4)
+It didn't seem like Faris could calm down against ４℃'s gratuitous unpleasant smiling. The laser attacks really must be getting to her.
+<END>
+
+#WRITE(PTR, $000065B4)
+And then, in desperation, she makes a move from her hand.
+<END>
+
+#WRITE(PTR, $000065D0)
+Bewildered voices spread through the hall.
+<END>
+
+#WRITE(PTR, $000065E0)
+【４℃】Heyheyhey
+<END>
+
+#WRITE(PTR, $000065F0)
+【４℃】That fucking cat got scared of my elegant evil charisma aura and forgot about her cool heart, huh.
+<END>
+
+#WRITE(PTR, $00006600)
+【４℃】Who would've thought the champion would make such an amateur move?
+<END>
+
+#WRITE(PTR, $00006610)
+【Faris】......
+<END>
+
+#WRITE(PTR, $00006620)
+Amateur move...?
+<END>
+
+#WRITE(PTR, $00006630)
+I was wandering about the audience searching for the Viral underlings, but got worried too, so I look up at the monitor.
+<END>
+
+#WRITE(PTR, $000066A0)
+The Virals' position was at the Server entrance.
+<END>
+
+#WRITE(PTR, $000066B0)
+One of Faris' pieces had invaded there.
+<END>
+
+#WRITE(PTR, $000066C0)
+But I guess the Viral side used a Viral Checker to see if that card was a Virus Card or not.
+<END>
+
+#WRITE(PTR, $000066D0)
+Both Link Cards and Virus Cards can go through the enemy's Server.
+<END>
+
+#WRITE(PTR, $000066E0)
+Properly speaking, cards that get into the Server aren't required to be opened, meaning your opponent can hide what got into the server.
+<END>
+
+#WRITE(PTR, $000066F0)
+But for some reason, Faris broke into the server with a card revealed to be a Virus.
+<END>
+
+#WRITE(PTR, $00006700)
+She can't trick her opponent like that.
+<END>
+
+#WRITE(PTR, $00006710)
+And Faris had already taken a total of 3 Virus Cards.
+<END>
+
+#WRITE(PTR, $00006720)
+If she gets one more Virus Card, she'll lose, so the Virus Card in question can't break through either.
+<END>
+
+#WRITE(PTR, $00006730)
+Certainly a mysterious move...
+<END>
+
+#WRITE(PTR, $00006740)
+Was the laser beam interference breaking her concentration after all?
+<END>
+
+#WRITE(PTR, $00006814)
+【４℃】Let this elegant evil storyteller, ４℃, make a jet black proclamation.
+<END>
+
+#WRITE(PTR, $00006824)
+【４℃】Pussy, in just a few minutes, I will demote you to former champion.
+<END>
+
+#WRITE(PTR, $00006834)
+【４℃】Ff, hahahaha
+<END>
+
+#WRITE(PTR, $000068AC)
+And, as if summoned by ４℃'s laugh, one part of the audience also raises a vulgar laugh.
+<END>
+
+#WRITE(PTR, $000068BC)
+They're the Viral underlings.
+<END>
+
+#WRITE(PTR, $000068CC)
+I take an educated guess, and hurry through the audience to where they are.
+<END>
+
+#WRITE(PTR, $000068EE)
+Booing flies out of the audience.
+<END>
+
+#WRITE(PTR, $000068FE)
+They really do hate the Virals.
+<END>
+
+#WRITE(PTR, $0000690E)
+But Faris doesn't object to ４℃'s provocation.
+<END>
+
+#WRITE(PTR, $0000691E)
+She just bites her lip and closes her eyes.
+<END>
+
+#WRITE(PTR, $0000692E)
+She should've put on the sunglasses...
+<END>
+
+#WRITE(PTR, $0000693E)
+She's going to lose because of her cute-only policy.
+<END>
+
+#WRITE(PTR, $0000694E)
+Or possibly--
+<END>
+
+#WRITE(PTR, $0000695E)
+Maybe it's not possible to change the result that Faris loses.
+<END>
+
+#WRITE(PTR, $0000696E)
+Maybe it will converge to the same result due to Attractor Field Theory.
+<END>
+
+#WRITE(PTR, $00006990)
+The hall stirs again.
+<END>
+
+#WRITE(PTR, $000069A0)
+The Virals had snatched Faris' Link Card.
+<END>
+
+#WRITE(PTR, $000069B0)
+Now they have two of them.
+<END>
+
+#WRITE(PTR, $000069C0)
+I can feel it in my skin.
+<END>
+
+#WRITE(PTR, $000069D0)
+--With each passing moment, Faris becomes more likely to lose.
+<END>
+
+#WRITE(PTR, $000069E6)
+At that moment, I finally find men wearing black clothing similar to ４℃ in the audience.
+<END>
+
+#WRITE(PTR, $000069F6)
+One is secretly holding something in his hand, pointing it to the stage.
+<END>
+
+#WRITE(PTR, $00006A06)
+The laser beam was that guy's...!
+<END>
+
+#WRITE(PTR, $00006A16)
+I quickly grab his wrist.
+<END>
+
+#WRITE(PTR, $00006A26)
+【Viral Attacker C】Wh-who are you!?
+<END>
+
+#WRITE(PTR, $00006A36)
+【Rintaro】That's enough. I won't let you interfere with Faris...!
+<END>
+
+#WRITE(PTR, $00006A46)
+【Viral Attacker C】Why you...!
+<END>
+
+#WRITE(PTR, $00006A56)
+【Rintaro】Don't move...! If you move, I'll shoot.
+<END>
+
+#WRITE(PTR, $00006A66)
+【Viral Attacker C】...!?
+<END>
+
+#WRITE(PTR, $00006A76)
+I thrust something into the Viral underling's side. It's the usual Future Gadget No.1: Bit Particle Gun.
+<END>
+
+#WRITE(PTR, $00006A86)
+I remembered this bluff worked with Moeka in a previous world line, so I brought it just in case.
+<END>
+
+#WRITE(PTR, $00006A96)
+The underling stopped moving at a loss for breath, probably because he didn't expect to be held at gunpoint.
+<END>
+
+#WRITE(PTR, $00006AA6)
+Using that opening, I snatch the laser pointer out of his hand.
+<END>
+
+#WRITE(PTR, $00006AB6)
+Right as I snatch it, I disappear into the crowd.
+<END>
+
+#WRITE(PTR, $00006AC6)
+The underling tried to shower me with insults, but he was surrounded by people and gave up.
+<END>
+
+#WRITE(PTR, $00006AD6)
+Alright, I snatched the laser.
+<END>
+
+#WRITE(PTR, $00006AE6)
+Now Faris can focus on the game!
+<END>
+
+#WRITE(PTR, $00006B02)
+I hear something like a shriek among the spectators.
+<END>
+
+#WRITE(PTR, $00006B12)
+４℃ had snatched another one of Faris' Link Cards.
+<END>
+
+#WRITE(PTR, $00006B22)
+That's the third one. The Virals have reached uno.
+<END>
+
+#WRITE(PTR, $00006B92)
+【４℃】Too weak, pussy. You're so bad because you flirted with the system. You should leave that vomit inducing getup for a mirror.
+<END>
+
+#WRITE(PTR, $00006BA2)
+【４℃】All of your fans are just otaku neckbeards who wanna do you. Are you really happy to be supported by those sorts of people?
+<END>
+
+#WRITE(PTR, $00006BB2)
+Faris still doesn't respond.
+<END>
+
+#WRITE(PTR, $00006BC2)
+She hasn't said a word since the match started.
+<END>
+
+#WRITE(PTR, $00006BD2)
+There's no more interference, so Faris should show us a reversal now--
+<END>
+
+#WRITE(PTR, $00006BE2)
+With feelings like prayer, I watch Faris' face.
+<END>
+
+#WRITE(PTR, $00006BF8)
+And when I do, Faris turns her face away again as if running from something.
+<END>
+
+#WRITE(PTR, $00006C08)
+【Rintaro】What...!?
+<END>
+
+#WRITE(PTR, $00006C18)
+Another laser beam...!?
+<END>
+
+#WRITE(PTR, $00006C28)
+Don't tell me more underlings have lasers!?
+<END>
+
+#WRITE(PTR, $00006C38)
+【４℃】Champion, there's no life in your eyes.
+<END>
+
+#WRITE(PTR, $00006C48)
+【４℃】No matter what you say about reading your opponent's mind, that's nothing but an elegant evil cowardly cheap trick, isn't it?
+<END>
+
+#WRITE(PTR, $00006C58)
+What? Is that so...?
+<END>
+
+#WRITE(PTR, $00006C68)
+【４℃】Basically, ya ain't human. You're an ugly angel. 'Cause you peek into the heart of any poor sap who talks to you.
+<END>
+
+#WRITE(PTR, $00006C78)
+【４℃】Be careful everyone, don't get close! If you do, this pussy will grab your every secret!
+<END>
+
+#WRITE(PTR, $00006C88)
+【４℃】And then she'll blackmail you with those secrets. "Hand over your money"? Or "Throw your RaiNet match"? What's your demand!?
+<END>
+
+#WRITE(PTR, $00006CA4)
+The spectators start to murmur.
+<END>
+
+#WRITE(PTR, $00006D14)
+If Faris had that sort of ability, then she really would be good at RaiNet.
+<END>
+
+#WRITE(PTR, $00006D24)
+For an instant, my pretentious hipster bullshit trait starts billowing up, but I force it down.
+<END>
+
+#WRITE(PTR, $00006D34)
+Faris has a special ability--
+<END>
+
+#WRITE(PTR, $00006D44)
+It's hard to believe, but if she really did have it,
+<END>
+
+#WRITE(PTR, $00006D54)
+Then that would explain why she hated the laser beam attacks that much.
+<END>
+
+#WRITE(PTR, $00006D64)
+It would also explain why her moves this match weren't clear.
+<END>
+
+#WRITE(PTR, $00006D74)
+【Rintaro】Faris...!
+<END>
+
+#WRITE(PTR, $00006DEA)
+【Faris】...ctory
+<END>
+
+#WRITE(PTR, $00006DFA)
+【４℃】Ah? What did you say?
+<END>
+
+#WRITE(PTR, $00006E0A)
+【Faris】...Change Directory. Using it nya.
+<END>
+
+#WRITE(PTR, $00006E26)
+Change Directory is a special type of card called a Terminal Card.
+<END>
+
+#WRITE(PTR, $00006E36)
+Usable only once per game, it lets you exchange the places of two of your own pieces. Of course, you can also choose to pretend to exchange them.
+<END>
+
+#WRITE(PTR, $00006E46)
+And at the same time, the Virus Card exposed through via Virus Checker becomes flipped once again.
+<END>
+
+#WRITE(PTR, $00006E56)
+I see...!
+<END>
+
+#WRITE(PTR, $00006E66)
+With this, she can replace that Virus Card that was just about to enter her opponent's Server!
+<END>
+
+#WRITE(PTR, $00006E76)
+Just as expected, Faris exchanged that virus card and the card that ４℃ had chased around with with his fortified card. Or she pretended to exchange them.
+<END>
+
+#WRITE(PTR, $00006E86)
+Now nobody knows which card is the Link Card and which is the Virus Card except for Faris.
+<END>
+
+#WRITE(PTR, $00006E96)
+A pretty interesting ploy.
+<END>
+
+#WRITE(PTR, $00006EA6)
+But--
+<END>
+
+#WRITE(PTR, $00006F4A)
+The two Viral Attackers consult each other in a whisper. Once that's over, ４℃ returns to the Circuit Mat, grinning.
+<END>
+
+#WRITE(PTR, $00006FC8)
+【４℃】You trying to pull our heartstrings, huh? What a boring move. Was that your huge reversal plan?
+<END>
+
+#WRITE(PTR, $00006FD8)
+【４℃】But I am the black peacock. Captor of every woman, the RaiNetter Realm's elegant evil new generation.
+<END>
+
+#WRITE(PTR, $00006FE8)
+【４℃】My cool black brain can easily see through that.
+<END>
+
+#WRITE(PTR, $00006FF8)
+【４℃】Rather, that was your complete mistake, Champion.
+<END>
+
+#WRITE(PTR, $00007008)
+After one turn, ４℃ will snatch Faris' piece that could break through his Server, using his own adjoining piece, without any hesitation.
+<END>
+
+#WRITE(PTR, $00007024)
+【４℃】Hmf, my total Virus Card count is still just 2. Even if I take one more Virus Card, it won't clip these jet black wings of mine.
+<END>
+
+#WRITE(PTR, $00007034)
+【４℃】But if I take one more Link Card, then it's the End of Grand Cross for you.
+<END>
+
+#WRITE(PTR, $00007044)
+【４℃】And then, that card you're using to fortify your position--
+<END>
+
+#WRITE(PTR, $00007054)
+【４℃】Will become the opening, the card which I will attack using the Line Boost equipment.
+<END>
+
+#WRITE(PTR, $00007064)
+【４℃】I said it before, but it's not possible that our scaredy-cat would let an isolated Link Card just wander.
+<END>
+
+#WRITE(PTR, $00007074)
+【４℃】Basically, Champion, with my elegant evil skills of deduction, you exchanged the location of your Link Card! Heh!
+<END>
+
+#WRITE(PTR, $00007084)
+【４℃】So, without having to check, these black peacock's sexual eyes can already see my elegant victory, and the contents of your crazy card!
+<END>
+
+#WRITE(PTR, $00007094)
+【４℃】You exchanged one Virus and one Link.
+<END>
+
+#WRITE(PTR, $000070A4)
+【４℃】Meaning if we just take both, victory belongs to us black noblemen.
+<END>
+
+#WRITE(PTR, $000070C6)
+Is that... true!?
+<END>
+
+#WRITE(PTR, $000070D6)
+If the card ４℃ takes now is a Link Card, then he wins.
+<END>
+
+#WRITE(PTR, $000070E6)
+Even if it's a Virus Card, he still has one more before it would decide the game.
+<END>
+
+#WRITE(PTR, $000070F6)
+It's going to end without Faris demonstrating any of her power...
+<END>
+
+#WRITE(PTR, $00007106)
+【４℃】Card Open!
+<END>
+
+#WRITE(PTR, $00007116)
+And the card displayed on the monitor was--
+<END>
+
+#WRITE(PTR, $0000712C)
+【Announcer】A Virus Card-!
+<END>
+
+#WRITE(PTR, $000071A2)
+Is this what it feels like to do something for someone?
+<END>
+
+#WRITE(PTR, $000071B2)
+The Viral side's acquired cards are three Link Cards and three Virus Cards. They reached uno for both.
+<END>
+
+#WRITE(PTR, $000071C2)
+But just as ４℃ said, that doesn't matter.
+<END>
+
+#WRITE(PTR, $000071D2)
+Faris only has two cards left.
+<END>
+
+#WRITE(PTR, $000071E2)
+And ４℃ already knows which is the Link Card and which is the Virus Card.
+<END>
+
+#WRITE(PTR, $000071F2)
+Faris' Link Card is surrounded by the Virals' cards.
+<END>
+
+#WRITE(PTR, $00007202)
+There's nowhere to run.
+<END>
+
+#WRITE(PTR, $00007212)
+Does this mean Faris will lose?
+<END>
+
+#WRITE(PTR, $00007222)
+No way.
+<END>
+
+#WRITE(PTR, $00007232)
+Is there no sound advice...
+<END>
+
+#WRITE(PTR, $00007242)
+Gh, can't think of any.
+<END>
+
+#WRITE(PTR, $00007252)
+【４℃】The End. The end of this world's RaiNet century is dyed black.
+<END>
+
+#WRITE(PTR, $000072F6)
+４℃ spreads both hands and slightly lifts his chin up, posing as if in ecstasy.
+<END>
+
+#WRITE(PTR, $00007306)
+His hair disheveled as he shook his head. It really stunk.
+<END>
+
+#WRITE(PTR, $00007316)
+I clench my fists.
+<END>
+
+#WRITE(PTR, $00007326)
+If it's come to this, all I can do is time leap again and get Faris to wear the sunglasses--
+<END>
+
+#WRITE(PTR, $00007336)
+【４℃】The Black Revelations have been fulfilled. The pussy champ has fallen from grace to a former champ. We, the Viral Attackers, are raising the curtain to the highest, grandest--
+<END>
+
+#WRITE(PTR, $00007400)
+【Faris】What are you misunderstanding, nya?
+<END>
+
+#WRITE(PTR, $00007410)
+【４℃】Ah...?
+<END>
+
+#WRITE(PTR, $00007420)
+【Faris】This match isn't over yet nya!
+<END>
+
+#WRITE(PTR, $00007430)
+Faris is back to her normal speech...!
+<END>
+
+#WRITE(PTR, $00007440)
+Moreover, she has a daring smile on her face.
+<END>
+
+#WRITE(PTR, $00007450)
+That's not the face of a RaiNetter in front of certain defeat.
+<END>
+
+#WRITE(PTR, $00007460)
+And then Faris.
+<END>
+
+#WRITE(PTR, $00007470)
+Unplugs both of her ears.
+<END>
+
+#WRITE(PTR, $00007480)
+Wait, her ears were plugged...!?
+<END>
+
+#WRITE(PTR, $00007490)
+Isn't that what I gave her this morning!?
+<END>
+
+#WRITE(PTR, $000074A0)
+If she plugged her ears, why didn't she wear the sunglasses?
+<END>
+
+#WRITE(PTR, $000074B0)
+Don't tell me she dared not?
+<END>
+
+#WRITE(PTR, $000074C0)
+Just why? Was it to leave the opponent unprepared?
+<END>
+
+#WRITE(PTR, $000074D0)
+【４℃】Wh-what dreamy words are you saying? The match is already decided. You're just pawing at the ground.
+<END>
+
+#WRITE(PTR, $000074E0)
+【Faris】That card you took from Faris. Did you double check it nya?
+<END>
+
+#WRITE(PTR, $000074F0)
+【４℃】...No way.
+<END>
+
+#WRITE(PTR, $00007500)
+No way...!
+<END>
+
+#WRITE(PTR, $00007510)
+Was the card he just took not a Link Card...!?
+<END>
+
+#WRITE(PTR, $00007520)
+【４℃】N-no fucking way! That can't be! There's no way such bullshit can happen!
+<END>
+
+#WRITE(PTR, $00007530)
+【４℃】There's no way you would do something so disadvantageous as to change a Virus Card with a Virus Card using Change Directory--
+<END>
+
+#WRITE(PTR, $00007540)
+【Faris】Just turn over the card already and see nya♪
+<END>
+
+#WRITE(PTR, $000075B0)
+４℃ slowly flips the card he took from Faris.
+<END>
+
+#WRITE(PTR, $000075C0)
+Everyone in the audience held their breath as they watched to see what that card was.
+<END>
+
+#WRITE(PTR, $000075D0)
+And then, displayed on the monitor--
+<END>
+
+#WRITE(PTR, $000075E0)
+【Announcer】What! The card that we had thought was a Link Card!
+<END>
+
+#WRITE(PTR, $000075F0)
+【４℃】V-v-virus Card!!?
+<END>
+
+#WRITE(PTR, $0000760C)
+【Announcer】IT'S! A! HUGE! TURNABOOOOOUT!!
+<END>
+
+#WRITE(PTR, $0000761C)
+Yeah...!
+<END>
+
+#WRITE(PTR, $0000762C)
+She... really turned things around...!
+<END>
+
+#WRITE(PTR, $0000763C)
+As if she had expected everything.
+<END>
+
+#WRITE(PTR, $0000764C)
+As if she had everything rolling in the palm of her hand.
+<END>
+
+#WRITE(PTR, $0000765C)
+Everyone lost themselves in excitement.
+<END>
+
+#WRITE(PTR, $0000766C)
+Huge, huge waves resounded through the hall.
+<END>
+
+#WRITE(PTR, $0000767C)
+【Announcer】WINNER, Fariiiis, Nyaaannyan! A splendid second successive victory! Congratulatioooons!
+<END>
+
+#WRITE(PTR, $0000768C)
+Shouts of joy became boiling waves, quaking the entire assembly hall.
+<END>
+
+#WRITE(PTR, $0000769C)
+I'm also intoxicated by the huge turnabout, sharing the joy with Daru.
+<FILEEND2B>
+

@@ -1,0 +1,1203 @@
+<PRE @box00>[text00010]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0441" mode="on">
+"Итак, что?"
+
+</PRE>
+
+<PRE @box00>[text00020]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1089" mode="on">
+"Итак?"
+
+</PRE>
+
+<PRE @box00>[text00030]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0442" mode="on">
+"Я требую объяснения. Об IBN 5100 и СЕРНе."
+
+</PRE>
+
+<PRE @box00>[text00040]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0443" mode="on">
+"Эй, Окабе."
+
+</PRE>
+
+<PRE @box00>[text00050]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1090" mode="on">
+"А..?"
+
+Курису смотрит на меня, пока я читаю сообщение.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1091" mode="on">
+"Что ты сказала?"
+
+</PRE>
+
+<PRE @box00>[text00060]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0444" mode="on">
+"Я-я сказала «Окабе»."
+
+</PRE>
+
+<PRE @box00>[text00070]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1092" mode="on">
+"Ты сказала «Окабе»?"
+
+</PRE>
+
+<PRE @box00>[text00080]
+Я делаю один шаг к Курису.
+
+</PRE>
+
+<PRE @box00>[text00090]
+Курису же на один шаг отступает.
+
+</PRE>
+
+<PRE @box00>[text00100]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0367" mode="on">
+"Окарин, тайм-аут, тайм-аут."
+
+</PRE>
+
+<PRE @box00>[text00110]
+Дару пытается остановить меня рукой, но я отталкиваю её и подхожу к Курису ещё ближе.
+
+Курису не отступает. Не отрывая от меня глаз, она кусает губы и сжимает руки в кулаки.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1093" mode="on">
+"Ты сказала «Окабе»?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0445" mode="on">
+"...Да. Проблемы?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0446" mode="on">
+"Ты старше меня, но ты называл меня Кристиной или Зомби, так что я не буду говорить уважительн..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1094" mode="on">
+"Неверно!"
+
+</PRE>
+
+<PRE @box00>[text00120]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0447" mode="on">
+"!!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1095" mode="on">
+"Я не Окабе! Я ХООИН КЁМА! Сколько можно повторять, Кристина?!"
+
+</PRE>
+
+<PRE @box00>[text00130]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0448" mode="on">
+"..."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0449" mode="on">
+"...Ты слишком слеп, чтобы увидеть свои недостатки."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1096" mode="on">
+"С этого момента зови меня Хооин, или просто Кёма."
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0450" mode="on">
+"Ну уж нет."
+
+</PRE>
+
+<PRE @box00>[text00150]
+Говорит Курису, отворачиваясь.
+
+Хотя я увидел, что её глаза увлажнились...
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1097" mode="on">
+"Ты плачешь?"
+
+</PRE>
+
+<PRE @box00>[text00160]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0451" mode="on">
+"Я не плачу, идиот. Я вовсе не испугалась человека, надвигающегося со злым лицом, и не плачу от облегчения после твоих глупых слов, ясно?!"
+
+</PRE>
+
+<PRE @box00>[text00170]
+Затем она подходит к окну.
+
+Курису смотрит на тёмный пейзаж.
+
+Я вижу, как она протирает глаза тыльной стороной руки. Похоже, она всё же плачет.
+
+</PRE>
+
+<PRE @box00>[text00180]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1098" mode="on">
+"Дару, почему моя ассистентка плачет?"
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0368" mode="on">
+"Ум, по-моему она тебе уже объяснила."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1099" mode="on">
+"Я просто сказал, что она неправильно произнесла моё имя."
+
+</PRE>
+
+<PRE @box00>[text00190]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0369" mode="on">
+"Может, она выглядит сильной, но на самом деле это не так. Это смахивает на моэ."
+
+Ах, всё равно. Нужно дочитать сообщение.
+
+</PRE>
+
+<PRE @box00>[text00200]
+После такого тяжёлого дня меня мучает жажда. Поэтому, я достаю свежую бутылку Dr Pepper из холодильника.
+
+</PRE>
+
+<PRE @box00>[text00210]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0452" mode="on">
+"Эй, можно спросить?"
+
+</PRE>
+
+<PRE @box00>[text00220]
+Я бросаю Dr Pepper Курису, когда она поворачивается.
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0453" mode="on">
+"Кья?!"
+
+</PRE>
+
+<PRE @box00>[text00240]
+Она пытается поймать её.
+
+</PRE>
+
+<PRE @box00>[text00250]
+И ловит бутылку у пола.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1100" mode="on">
+"Выпей и подожди немного."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0454" mode="on">
+"Спасибо за беспокойство."
+
+</PRE>
+
+<PRE @box00>[text00260]
+Нужно ответить Сверкающему Пальцу.
+
+</PRE>
+
+<PRE @box00>[text00270]
+Хотя она нисколько не помогла. Но всё же я не могу молчать.
+
+</PRE>
+
+<PRE @box00>[text00280]
+"Товар у меня."
+
+</PRE>
+
+<PRE @box00>[text00290]
+Я пишу максимально кратко и отправляю.
+
+</PRE>
+
+<PRE @box00>[text00300]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1101" mode="on">
+"Итак..."
+
+</PRE>
+
+<PRE @box00>[text00310]
+Пришедшее сообщение помешало мне позвать Курису.
+
+</PRE>
+
+<PRE @box00>[text00320]
+Может, телефон у Моэки под рукой 24 часа в сутки?
+
+</PRE>
+
+<PRE @box00>[text00330]
+«Дай»? Что за чушь?
+
+</PRE>
+
+<PRE @box00>[text00340]
+"Извини, но он не мой, так что я не могу его отдать."
+
+</PRE>
+
+<PRE @box00>[text00350]
+Отсылаю.
+
+</PRE>
+
+<PRE @box00>[text00360]
+Ещё один мгновенный ответ.
+
+</PRE>
+
+<PRE @box00>[text00370]
+Да сколько можно...
+
+</PRE>
+
+<PRE @box00>[text00380]
+Если я одолжу его ей, она просто сбежит с ним.
+
+И тогда моя затея с СЕРН провалится.
+
+Я чувствую это.
+
+</PRE>
+
+<PRE @box00>[text00390]
+"Не могу одолжить. Могу только показать. Приходи в лабораторию."
+
+</PRE>
+
+<PRE @box00>[text00400]
+Добавив адрес, я отсылаю сообщение. Ответы больше не приходят.
+
+</PRE>
+
+<PRE @box00>[text00410]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1102" mode="on">
+"Извини за ожидание, Кристина."
+
+Посмотрев на Курису, я увидел, что она пьёт Dr Pepper.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1103" mode="on">
+"Ооо, так ты пьёшь Dr Pepper, ассистентка?"
+
+</PRE>
+
+<PRE @box00>[text00420]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0455" mode="on">
+"Я провела 7 лет на его родине."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1104" mode="on">
+"Ясно. Видимо, ты много пьёшь с друзьями."
+
+</PRE>
+
+<PRE @box00>[text00430]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0456" mode="on">
+"Я несовершеннолетняя."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1105" mode="on">
+"Я не это имел в виду. Я говорю, что ты много пьёшь Dr Pepper с друзьями."
+
+</PRE>
+
+<PRE @box00>[text00440]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0457" mode="on">
+"Вот оно что..."
+
+Курису продолжает пить Dr Pepper, а я продолжаю говорить.
+
+</PRE>
+
+<PRE @box00>[text00450]
+Я объясняю ей, как Дару и я начали взламывать СЕРН.
+
+И как они успешно используют БАК уже 9 лет.
+
+И о том, что они успешно создали планковские чёрные дыры.
+
+И о том, что это выглядит, как исследование машины времени.
+
+И о том, что они не раскрывают свои эксперименты остальному миру.
+
+</PRE>
+
+<PRE @box00>[text00460]
+Взгляд Курису становится всё мрачнее и мрачнее.
+
+</PRE>
+
+<PRE @box00>[text00470]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0458" mode="on">
+"Действительно странно... Но как это связано с IBN 5100?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1106" mode="on">
+"База данных СЕРН сделана с помощью IBN 5100."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0459" mode="on">
+"И?"
+
+</PRE>
+
+<PRE @box00>[text00480]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1107" mode="on">
+"Давай объясню. Моя правая рука, суперхака, мистер Дару..."
+
+</PRE>
+
+<PRE @box00>[text00490]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0370" mode="on">
+"Я не суперхака. Сколько можно повторять?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1108" mode="on">
+"Кулхацкер, мистер Дару, начал взламывать СЕРН."
+
+</PRE>
+
+<PRE @box00>[text00500]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0460" mode="on">
+"А всё будет хорошо? Вас не поймают?"
+
+</PRE>
+
+<PRE @box00>[text00510]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0371" mode="on">
+"Я бы так не сплоховал."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0461" mode="on">
+"Нет, я не об этом."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1109" mode="on">
+"В результате взлома, мы обнаружили, что эти ублюдки используют БАК для исследования теории машины времени."
+
+</PRE>
+
+<PRE @box00>[text00520]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0462" mode="on">
+"БАК, значит..."
+
+</PRE>
+
+<PRE @box00>[text00530]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0372" mode="on">
+"Это правда. Я проверил. Оказывается, БАК эксплуатируется уже 9 лет."
+
+</PRE>
+
+<PRE @box00>[text00540]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0463" mode="on">
+"Э, правда?!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1110" mode="on">
+"И они успешно создали планковские чёрные дыры."
+
+</PRE>
+
+<PRE @box00>[text00550]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0464" mode="on">
+"Не может... быть... Тогда почему они не сделали официального заявления?!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1111" mode="on">
+"Вот именно. По какой-то причине, эти ублюдки умолчали об этом."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1112" mode="on">
+"Ни об эксплуатации БАКа, ни о планковских чёрных дырах, ни об исследовании машины времени."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1113" mode="on">
+"...Так что, без сомнения, это..."
+
+</PRE>
+
+<PRE @box00>[text00560]
+Я прерываюсь из-за рингтона.
+
+И начинаю сначала.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1114" mode="on">
+"Так что, без сомнения, это доказывает, что СЕРН есть что скрывать. Вы не чувствуете запах заговора?"
+
+</PRE>
+
+<PRE @box00>[text00570]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0465" mode="on">
+"Я не верю в заговоры. Но..."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0466" mode="on">
+"Если ты сможешь доказать свои слова, то я очень удивлюсь. СЕРН исследует теорию машины времени..."
+
+</PRE>
+
+<PRE @box00>[text00580]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0467" mode="on">
+"Ах, а IBN 5100? Он-то вам зачем?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1114_2" mode="on">
+"База данных СЕРН..."
+
+</PRE>
+
+<PRE @box00>[text00590]
+Ещё сообщение.
+
+Только один человек посылает их с такой частотой.
+
+Это демон сообщений! Разве я не просил её перестать заваливать меня письмами?!
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1115" mode="on">
+"Извините. Дару, пожалуйста, продолжи объяснение."
+
+</PRE>
+
+<PRE @box00>[text00600]
+Я открываю почту.
+
+</PRE>
+
+<PRE @box00>[text00610]
+Там новое сообщение. Это ответ на предыдущее.
+
+</PRE>
+
+<PRE @box00>[text00620]
+Она так нетерпелива.
+
+</PRE>
+
+<PRE @box00>[text00630]
+Курису смотрит на меня с нетерпением.
+
+Давайте сделаем краткий ответ.
+
+</PRE>
+
+<PRE @box00>[text00640]
+"Я нашёл IBN 5100. Я не могу одолжить его, но если хочешь на него взглянуть, приходи в лабу."
+
+</PRE>
+
+<PRE @box00>[text00650]
+Добавив адрес, я отправляю сообщение.
+
+</PRE>
+
+<PRE @box00>[text00660]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1116" mode="on">
+"Итак, что ты ей рассказал?"
+
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0374" mode="on">
+"До того момента, где СЕРН использует IBN 5100 для создания своей базы данных."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1117" mode="on">
+"Иными словами, это значит, что..."
+
+</PRE>
+
+<PRE @box00>[text00670]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1118" mode="on">
+"Расшифровать базу данных можно только с помощью IBN 5100."
+
+</PRE>
+
+<PRE @box00>[text00680]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0468" mode="on">
+"Откуда ты это знаешь?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1119" mode="on">
+"Информация из одного источника."
+
+Я не упомянул Тайтора. Я не сомневаюсь, что эта девочка-гений просто рассмеётся в ответ.
+
+В задумчивости Курису подносит палец к губам.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0469" mode="on">
+"Расшифровка с помощью IBN 5100..."
+
+</PRE>
+
+<PRE @box00>[text00690]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0470" mode="on">
+"Я хочу увидеть доказательства того, что СЕРН на самом деле проводит такие исследования."
+
+Конечно же, у нас нет каких-то определённых доказательств.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1120" mode="on">
+"Дару, сколько времени займёт поиск пароля админа на сервере СЕРН?"
+
+</PRE>
+
+<PRE @box00>[text00700]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0375" mode="on">
+"Я как раз думаю над этим. Это не должно занять больше половины дня."
+
+</PRE>
+
+<PRE @box00>[text00710]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1121" mode="on">
+"Вот такие дела."
+
+</PRE>
+
+<PRE @box00>[text00720]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0471" mode="on">
+"...Я подожду."
+
+</PRE>
+
+<PRE @box00>[text00730]
+<voice name="Итару" class="VID_DAR" src="voice/DAR_0376" mode="on">
+"Ты будешь ждать? Уже почти стемнело. Почему бы тебе не прийти завтра с утра?"
+
+</PRE>
+
+<PRE @box00>[text00740]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0472" mode="on">
+"Нет, спасибо. Я подожду... Я хочу узнать сразу же, не теряя и микросекунды."
+
+</PRE>
+
+<PRE @box00>[text00750]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1122" mode="on">
+"Хе-хе-хех, вот это настрой. Тебя уже очаровали тёмные заговоры СЕРН, и ты хочешь узнать больше, да?"
+
+</PRE>
+
+<PRE @box00>[text00760]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0473" mode="on">
+"Если вы, ребята, сказали правду... Тогда здесь не о чем шутить."
+
+</PRE>
+
+<PRE @box00>[text00770]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0474" mode="on">
+"СЕРН — исследовательское учреждение мирового уровня. Если они проводят эксперименты, не публикуя результаты..."
+
+</PRE>
+
+<PRE @box00>[text00780]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0475" mode="on">
+"Они делают дураками всех исследователей в мире."
+
+</PRE>
+
+<PRE @box00>[text00790]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0476" mode="on">
+"Если, конечно же, это правда."
+
+</PRE>
+
+<PRE @box00>[text00800]
+Она подчеркивает это.
+
+</PRE>
+
+<PRE @box00>[text00810]
+Не похоже, что Курису верит нам.
+
+</PRE>
+
+<PRE @box00>[text00820]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1123" mode="on">
+"Итак, Дару. Поиск пароля на тебе."
+
+</PRE>
+
+<PRE @box00>[text00830]
+Согласно результатам поиска в интернете, IBN 5100 весит 25 кг, так что мы оставили его на полу.
+
+Толкая, мы с Дару переместили его в комнату разработки.
+
+Курису прошла за нами.
+
+</PRE>
+
+<PRE @box00>[text00840]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0477" mode="on">
+"Можешь показать мне Мобиловолновку?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1124" mode="on">
+"Конечно. Хочешь провести эксперимент?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0478" mode="on">
+"Вы так и не смогли воспроизвести это? Явление отправки сообщения в прошлое."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0479" mode="on">
+"Узнали почему?"
+
+Я покачал головой.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0480" mode="on">
+"Давай кое-что проверим."
+
+</PRE>
+
+<PRE @box00>[text00850]
+Курису оглядывается...
+
+</PRE>
+
+<PRE @box00>[text00860]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0481" mode="on">
+"Ого. Сколько мусора."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1125" mode="on">
+"Это не мусор!"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1126" mode="on">
+"Ты, похоже, не знаешь. Это плоды изобретения Лаборатории Гаджетов Будущего — великолепные Гаджеты Будущего."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1127" mode="on">
+"Здесь хранятся Гаджеты под номерами с 1 по 7, а Мобиловолновка (название временное) является Гаджетом Будущего №8."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0482" mode="on">
+"Гаджеты Будущего..."
+
+</PRE>
+
+<PRE @box00>[text00870]
+Курису случайным образом выбирает Гаджет №4: Манёврозмей.
+
+</PRE>
+
+<PRE @box00>[text00880]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0483" mode="on">
+"Разве это не... оружие?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1128" mode="on">
+"Гаджет Будущего №4: Манёврозмей, создан на основе мины «Клеймор» и благодаря пару мгновенно увлажняет что угодно."
+
+</PRE>
+
+<PRE @box00>[text00890]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0484" mode="on">
+"Как всё сложно..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1129" mode="on">
+"Если залить в него воду, через несколько секунд появится огромное количество пара."
+
+</PRE>
+
+<PRE @box00>[text00900]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0485" mode="on">
+"Значит, это мусор."
+
+Курису вздыхает и возвращает Манёврозмей на полку.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0486" mode="on">
+"Я позаимствую это."
+
+</PRE>
+
+<PRE @box00>[text00910]
+Сказав это, она достаёт с полки белый халат, и аккуратно его надевает.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1130" mode="on">
+"Ооо..."
+
+</PRE>
+
+<PRE @box00>[text00920]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0487" mode="on">
+"Белые халаты тебя успокаивают, да?"
+
+</PRE>
+
+<PRE @box00>[text00930]
+Одержимый сильными эмоциями, я беру руку Курису.
+
+</PRE>
+
+<PRE @box00>[text00940]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0488" mode="on">
+"Эй..?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1131" mode="on">
+"Ассистентка, ты «понимаешь», верно?!"
+
+</PRE>
+
+<PRE @box00>[text00950]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0489" mode="on">
+"Что понимаю? Пусти..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1132" mode="on">
+"Только в белых халатах можно заниматься исследованиями и разработками, да?!"
+
+Я повторяю это Дару снова и снова, но он всё равно не хочет носить белый халат.
+
+Но ассистент другая. Она надела его, хотя я даже не просил!
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1133" mode="on">
+"Значит, я всё же не сумасшедший. Кристина, ты лучшая ассистентка."
+
+</PRE>
+
+<PRE @box00>[text00960]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0490" mode="on">
+"Наверное, ты меня хвалишь, но мне кажется, что это оскорбление. Эй."
+
+</PRE>
+
+<PRE @box00>[text00970]
+Она стряхивает мою руку.
+
+Курису отворачивается.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1134" mode="on">
+"Я отдам тебе этот халат как сувенир в память о вступлении в лабу. Никто его раньше не надевал, так что не беспокойся."
+
+</PRE>
+
+<PRE @box00>[text00980]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1135" mode="on">
+"Хм, а может судьба решила, что вам с халатом суждено быть вместе. Вот почему Дару не надевал его. Всё происходящее — выбор Врат..."
+
+</PRE>
+
+<PRE @box00>[text00990]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0491" mode="on">
+"Заткнись и давай начинать эксперимент."
+
+</PRE>
+
+<PRE @box00>[text01000]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1136" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text01010]
+Курису засовывает руки в карманы халата, и нагибается, чтобы рассмотреть машину времени, которая сейчас на полу.
+
+</PRE>
+
+<PRE @box00>[text01020]
+После предыдущего эксперимента стол сломался.
+
+Вот поэтому теперь Мобиловолновка (название временное) на полу.
+
+</PRE>
+
+<PRE @box00>[text01030]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0492" mode="on">
+"...Вы ничего не трогали в микроволновке?"
+
+	</PRE>
+
+<PRE @box00>[text01040]
+Я указываю на монитор Х68000. На нём отображается программа.
+
+</PRE>
+
+<PRE @box00>[text01050]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1137" mode="on">
+"Как обычно, в терминальном режиме. Отсюда можно изменить любые настройки. Также можно сделать «абсурдные» вещи с микроволновками из магазина."
+
+</PRE>
+
+<PRE @box00>[text01060]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0493" mode="on">
+"Как всё было настроено во время появления разряда?"
+
+</PRE>
+
+<PRE @box00>[text01070]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1138" mode="on">
+"Так же. Это заводские настройки."
+
+</PRE>
+
+<PRE @box00>[text01080]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0494" mode="on">
+"Хмм."
+
+</PRE>
+
+<PRE @box00>[text01090]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0495" mode="on">
+"Я возьму банан."
+
+</PRE>
+
+<PRE @box00>[text01100]
+От грозди бананов осталось только 3 банана.
+
+</PRE>
+
+<PRE @box00>[text01110]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1139" mode="on">
+"Это бананы Маюри."
+
+</PRE>
+
+<PRE @box00>[text01120]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0496" mode="on">
+"Значит, мне не нужно твоё разрешение. Завтра я куплю новые бананы."
+
+</PRE>
+
+<PRE @box00>[text01130]
+Курису берёт один банан, садится на корточки, и кладет его в Мобиловолновку (название временное). Она начинает нажимать кнопки на телефоне.
+
+</PRE>
+
+<PRE @box00>[text01140]
+Используя удалённый контроль, она заставляет Мобиловолновку (название временное) крутиться в обратную сторону.
+
+</PRE>
+
+<PRE @box00>[text01150]
+Через 120 секунд, раздаётся звонок.
+
+</PRE>
+
+<PRE @box00>[text01160]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0497" mode="on">
+"...Ничего не произошло."
+
+</PRE>
+
+<PRE @box00>[text01170]
+Банан в микроволновке всё ещё не желефицирован.
+
+</PRE>
+
+<PRE @box00>[text01180]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0498" mode="on">
+"Горячо..."
+
+</PRE>
+
+<PRE @box00>[text01190]
+Кричит Курису, одёргивая руку от банана.
+
+</PRE>
+
+<PRE @box00>[text01200]
+Она начинает дуть на пальцы.
+
+</PRE>
+
+<PRE @box00>[text01210]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0499" mode="on">
+"Он нагрелся."
+
+</PRE>
+
+<PRE @box00>[text01220]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1140" mode="on">
+"Значит, функционирует как обычная микроволновка..."
+
+</PRE>
+
+<PRE @box00>[text01230]
+Видимо, это всё же не функция заморозки, которую нашла Маюри. Хотя мы это уже поняли.
+
+</PRE>
+
+<PRE @box00>[text01240]
+Курису кладет новый банан, и запускает обратное вращение на 120 секунд.
+
+</PRE>
+
+<PRE @box00>[text01250]
+Второй банан тоже нагрелся.
+
+</PRE>
+
+<PRE @box00>[text01260]
+Мы не смогли воспроизвести ни желефикацию, ни телепортацию.
+
+</PRE>
+
+<PRE @box00>[text01270]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1141" mode="on">
+"Что это значит..."
+
+</PRE>
+
+<PRE @box00>[text01280]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0500" mode="on">
+"Произошедшее ранее, всё же, было необычно."
+
+</PRE>
+
+<PRE @box00>[text01290]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1142" mode="on">
+"Необычно или нет, но мы должны выяснить причины."
+
+</PRE>
+
+<PRE @box00>[text01300]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0501" mode="on">
+"Согласна."
+
+</PRE>
+
+<PRE @box00>[text01310]
+Хоть в чём-то согласны.
+
+</PRE>
+
+<PRE @box00>[text01320]
+Хотя мотивы Курису наверняка полностью обратны моим.
+
+</PRE>
+
+<PRE @box00>[text01330]
+Мой ассистент хочет опровергнуть равенство: Мобиловолновка (название временное) = машина времени.
+
+</PRE>
+
+<PRE @box00>[text01340]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1143" mode="on">
+"В предыдущем эксперименте..."
+
+</PRE>
+
+<PRE @box00>[text01350]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1144" mode="on">
+"Спустя 120 секунд в Мобиловолновке (название временное), банан телепортировался обратно к грозди, уже будучи гелевым. Мы должны учитывать, что он вернулся в состояние, в котором был 120 секунд назад."
+
+</PRE>
+
+<PRE @box00>[text01360]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0502" mode="on">
+"Нет. 120 секунд назад он не был гелевым."
+
+</PRE>
+
+<PRE @box00>[text01370]
+Она хочет сказать, что он не вернулся в своё состояние, в котором был 120 секунд назад.
+
+</PRE>
+
+<PRE @box00>[text01380]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1145" mode="on">
+"Курица вернулась в замороженное состояние без желефикации."
+
+</PRE>
+
+<PRE @box00>[text01390]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0503" mode="on">
+"Это «вернулась в замороженное состояние» крайне сомнительно. Оно было заморожено, но ты не рассматриваешь возможность саможелефикации?"
+
+</PRE>
+
+<PRE @box00>[text01400]
+Я... не рассматривал...
+
+</PRE>
+
+<PRE @box00>[text01410]
+Маюри съела курицу, которая вернулась в замороженное состояние.
+
+</PRE>
+
+<PRE @box00>[text01420]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1146" mode="on">
+"Соль не желефицировалась."
+
+</PRE>
+
+<PRE @box00>[text01430]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0504" mode="on">
+"Значит, ты говоришь, что ничего не изменилось."
+
+</PRE>
+
+<PRE @box00>[text01440]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1147" mode="on">
+"После разряда мы всю ночь экспериментировали с капустой, дайконом, рисом, аморфофаллусом, дыней, <FONT incolor="#ff7080" outcolor="#000000">ГаруГари-куном</FONT> и чашкой с раменом. Результат для них всех: ничего не произошло."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1148" mode="on">
+"Это относится и к жидкостям. После разряда уровень успеха экспериментов быстро упал до нуля."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1149" mode="on">
+"Перед этим разрядом все эксперименты удавались. После разряда, ни одного успешного."
+
+</PRE>
+
+<PRE @box00>[text01450]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0505" mode="on">
+"Запасает ли микроволновка электричество..?"
+
+</PRE>
+
+<PRE @box00>[text01460]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0506" mode="on">
+"Ты хочешь сказать, что желефицированные объекты становятся фрактальными структурами?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0507" mode="on">
+"Может, у соли изначально простая структура, поэтому ничего и не происходит. Возможно, электричество как-то влияет..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1150" mode="on">
+"Мы должны сосредоточиться на выявлении условий теории путешествия во времени."
+
+</PRE>
+
+<PRE @box00>[text01470]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0508" mode="on">
+"Нет. Теория здесь не нужна."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1151" mode="on">
+"Мы уже провели несколько успешных экспериментов. Ты не можешь отрицать их."
+
+</PRE>
+
+<PRE @box00>[text01480]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0509" mode="on">
+"Я особенно не беспокоюсь насчёт того, машина времени это или нет."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0510" mode="on">
+"Начнём с того, что невозможно по определению получить энергию такого взрыва от такой маленькой микроволновки."
+
+</PRE>
+
+<PRE @box00>[text01490]
+Говорит она со сложным выражением лица.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0511" mode="on">
+"Явление разряда и фрактальная реструктуризация. Должна быть причина, по которой мы не можем их воспроизвести."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0512" mode="on">
+"Мы не меняли способ. Мы не меняли настройки. Мы не меняли объект. Но что-то изменилось..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1152" mode="on">
+"Может, всё дело в наблюдателе."
+
+</PRE>
+
+<PRE @box00>[text01500]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0513" mode="on">
+"Что ты имеешь в виду?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1153" mode="on">
+"Квантовая теория. Наблюдатель является важной частью эксперимента."
+
+</PRE>
+
+<PRE @box00>[text01510]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0514" mode="on">
+"Во время разряда нас было четверо. Но перед этим разряд произошёл, когда Хашида-сан был один."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0515" mode="on">
+"За экспериментами с фрактальной реструктуризацией следило два или три человека."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0516" mode="on">
+"Мы оба видели оба явления."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0517" mode="on">
+"То есть, другими словами, это условие тоже не изменилось."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1154" mode="on">
+"В таком случае..."
+
+</PRE>
+
+<PRE @box00>[text01520]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0518" mode="on">
+"Хм..."
+
+</PRE>
+
+<PRE @box00>[text01530]
+Должны быть другие условия.
+
+Эти слова уже у меня на языке.
+
+</PRE>
+
+<PRE @box00>[text01540]
+Как вдруг я слышу урчание из живота Курису.
+
+</PRE>
+
+<PRE @box00>[text01550]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0519" mode="on">
+"..."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1155" mode="on">
+"Проголодалась?"
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0520" mode="on">
+"За-заткнись. Со вчерашнего дня я ничего не ела."
+
+</PRE>
+
+<PRE @box00>[text01560]
+Курису отворачивается и смотрит на часы.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0521" mode="on">
+"Уже 8?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1156" mode="on">
+"Просто съешь банан. Один из нагретых. Наслаждайся объектами для эксперимента."
+
+</PRE>
+
+<PRE @box00>[text01570]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1157" mode="on">
+"Кстати, ещё есть чашка с лапшой."
+
+</PRE>
+
+<PRE @box00>[text01580]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0522" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text01590]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1158" mode="on">
+"Не хочешь? Ну, поскольку ты долго жила в Америке, ты, наверное, больше любишь фастфуд..."
+
+</PRE>
+
+<PRE @box00>[text01600]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0523" mode="on">
+"Чашку с лапшой."
+
+</PRE>
+
+<PRE @box00>[text01610]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1159" mode="on">
+"Что?"
+
+</PRE>
+
+<PRE @box00>[text01620]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0524" mode="on">
+"Чашку с лапшой, давай сюда."
+
+</PRE>
+
+<PRE @box00>[text01630]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1160" mode="on">
+"Чашку с лапшой?!"
+
+</PRE>
+
+<PRE @box00>[text01640]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0525" mode="on">
+"Какие есть специи?"
+
+</PRE>
+
+<PRE @box00>[text01650]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_1161" mode="on">
+"Соевый соус и соль."
+
+</PRE>
+
+<PRE @box00>[text01660]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0526" mode="on">
+"Давай соль."
+
+Похоже, она в настроении поесть.
+
+</PRE>
+
+<PRE @box00>[text01670]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_0527" mode="on">
+"У вас тут есть вилка?"
+
+</PRE>
+

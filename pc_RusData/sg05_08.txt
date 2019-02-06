@@ -1,0 +1,324 @@
+<PRE @box00>[text00010]
+Я расстался с Маюри на станции, ибо она обещала занести новый костюм Фубуки-тян♪.
+
+Вернувшись в лабораторию с покупками в руках, я стал свидетелем удивительной — но такой ожидаемой — сцены.
+
+</PRE>
+
+<PRE @box00>[text00020]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1464" mode="on">
+"Ах..."
+
+Курису сидит за компьютером лаборатории.
+
+В панике она закрывает открытую интернет-ссылку.
+
+</PRE>
+
+<PRE @box00>[text00030]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1465" mode="on">
+"Э-эй. Хотя бы постучал когда заходишь."
+
+</PRE>
+
+<PRE @box00>[text00040]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2535" mode="on">
+"Это не твоя комната. К тому же, противник может напасть в любой момент; какой идиот выдал бы своё присутствие стуком в дверь?"
+
+</PRE>
+
+<PRE @box00>[text00050]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1466" mode="on">
+"Какой идиот будет думать, что кто-то может напасть, а?"
+
+</PRE>
+
+<PRE @box00>[text00060]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2536" mode="on">
+"Так, Кристина. То, что ты смотрела, относится к исполнению твоих обязанностей?"
+
+</PRE>
+
+<PRE @box00>[text00070]
+Кажется, мне показалось. Или я на самом деле видел это, когда вошёл.
+
+</PRE>
+
+<PRE @box00>[text00080]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1467" mode="on">
+"И-исследовательские материалы."
+
+</PRE>
+
+<PRE @box00>[text00090]
+Похоже, она до самого конца собирается строить из себя невинную.
+
+</PRE>
+
+<PRE @box00>[text00100]
+Я поставил пакеты возле компьютера.
+
+</PRE>
+
+<PRE @box00>[text00110]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1468" mode="on">
+"Эй, н-не подходи сюда!"
+
+</PRE>
+
+<PRE @box00>[text00120]
+Я проскальзываю мимо рук Курису, которыми она пытается отгородить меня от компьютера, и нажимаю на иконку свёрнутого интернет-окошка.
+
+</PRE>
+
+<PRE @box00>[text00130]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2537" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text00140]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1469" mode="on">
+"..."
+
+</PRE>
+
+<PRE @box00>[text00150]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1470" mode="on">
+"К-какие-то проблемы?"
+
+</PRE>
+
+<PRE @box00>[text00160]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2538" mode="on">
+"...пфф!"
+
+</PRE>
+
+<PRE @box00>[text00170]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1471" mode="on">
+"Эй! А как же: «Ах~, это ужасно, да-да», и смех типа: «Ахха, ЛОЛ. Ржу пацтолом»?!"
+
+</PRE>
+
+<PRE @box00>[text00180]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2539" mode="on">
+"Остынь, Кристина. То есть, я хотел сказать, @channel'ер Крис!"
+
+</PRE>
+
+<PRE @box00>[text00190]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1472" mode="on">
+"Не называй меня так..."
+
+</PRE>
+
+<PRE @box00>[text00200]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2540" mode="on">
+"Хе-хе, я уже заметил. Правда, я давно заметил, что ты настоящая @channeler!"
+
+</PRE>
+
+<PRE @box00>[text00210]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2541" mode="on">
+"Я знаю, даже если ты пытаешься это скрыть. От тебя прямо несёт духом @channel!.."
+
+</PRE>
+
+<PRE @box00>[text00220]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1473" mode="on">
+"Как грубо! Я каждый день пользуюсь духами, так что от меня не воняет!"
+
+</PRE>
+
+<PRE @box00>[text00230]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2542" mode="on">
+"Дурочка. Я не это имел в виду. Я говорю о запахе твоей души."
+
+</PRE>
+
+<PRE @box00>[text00240]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1474" mode="on">
+"Моей души? Можешь поконкретнее? Разъясни."
+
+</PRE>
+
+<PRE @box00>[text00250]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2543" mode="on">
+"Зачем? Чтобы научиться это скрывать?"
+
+</PRE>
+
+<PRE @box00>[text00260]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1475" mode="on">
+"З-заткнись... Просто скажи уже мне."
+
+</PRE>
+
+<PRE @box00>[text00270]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2544" mode="on">
+"К чёрту подробности. Время от времени ты бормочешь мемы из @channel."
+
+</PRE>
+
+<PRE @box00>[text00280]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1476" mode="on">
+"...Я в депрессии."
+
+</PRE>
+
+<PRE @box00>[text00290]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2545" mode="on">
+"Это как раз один из мемов @channel."
+
+</PRE>
+
+<PRE @box00>[text00300]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1477" mode="on">
+"Агх..."
+
+</PRE>
+
+<PRE @box00>[text00310]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2546" mode="on">
+"Твоя душа действительно запятнана скверной. И поскольку у нас есть ещё один сотрудник лаборатории, который пользуется фразами с @channel в реальной жизни, именно он тому виной."
+
+</PRE>
+
+<PRE @box00>[text00320]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1478" mode="on">
+"Ах, да, это всё вина Хашида, это он на меня так повлиял."
+
+</PRE>
+
+<PRE @box00>[text00330]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2547" mode="on">
+"То, как ты пытаешься скрыть это, выглядит очень мило, @channeler Крис."
+
+</PRE>
+
+<PRE @box00>[text00340]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1479" mode="on">
+"НЕ НАЗЫВАЙ МЕНЯ ТАК."
+
+</PRE>
+
+<PRE @box00>[text00350]
+Она свирепо смотрит на меня.
+
+</PRE>
+
+<PRE @box00>[text00360]
+Она заставляет меня поверить в то, что взглядом можно убить.
+
+</PRE>
+
+<PRE @box00>[text00370]
+Значит ли это, что у этой девушки нет чувства юмора? В следующий раз нужно быть осторожней.
+
+</PRE>
+
+<PRE @box00>[text00380]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2548" mode="on">
+"Но я не понимаю. Ты ведь выросла в Америке, как ты так хорошо осведомлена об @channel?"
+
+</PRE>
+
+<PRE @box00>[text00390]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1480" mode="on">
+"На @channel можно зайти даже в Америке. Дальше продолжать?"
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2549" mode="on">
+"Ха, так вот оно что. В англоязычной среде ты истосковалась по японскому. Но из всех вещей ты выбрала @channel?"
+
+То есть, эти псевдо-интеллектуалы из СМИ приравнивают @channel к жалким каракулям в туалете.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1481" mode="on">
+"Немного неловко, но это сайт с наиболее «японской» атмосферой."
+
+</PRE>
+
+<PRE @box00>[text00400]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1482" mode="on">
+"Что более важно, у меня есть к тебе просьба."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2550" mode="on">
+"Просьба?"
+
+Курису отворачивается и что-то бормочет.
+
+Но её голос был слишком тих, поэтому я ничего не расслышал.
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2551" mode="on">
+"Просто чётко произнеси то, что хочешь сказать."
+
+Когда я подгоняю её, угрюмая физиономия Курису краснеет.
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1483" mode="on">
+"Никому об этом не говори."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2552" mode="on">
+"Ты хочешь оставить их в неведении? Ты в одной лодке с Дару, Маюри тоже отаку, она отлично понимает @channel. Я тоже часто туда наведываюсь."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2553" mode="on">
+"Тебе нечего стыдиться. В любом резюме или анкете ты должна смело писать, что твоё хобби: «Просмотр @channel»!"
+
+</PRE>
+
+<PRE @box00>[text00410]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1484" mode="on">
+"Глупец, как я могу написать подобное?!"
+
+</PRE>
+
+<PRE @box00>[text00420]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2554" mode="on">
+"Что?! Значит ли это, что ты предпочла бы бросить <FONT incolor="#ff7080" outcolor="#000000">якорь</FONT> на <FONT incolor="#ff7080" outcolor="#000000">VIP</FONT>?!"
+
+</PRE>
+
+<PRE @box00>[text00430]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1485" mode="on">
+"Агх, ненавижу себя за понимание этих слов!.."
+
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2555" mode="on">
+"Ну что ж. Тема закрыта, так что ты можешь сосредоточиться на разработке машины для прыжков во времени. Возможно, это просто вопрос времени, когда остальные сотрудники лаборатории обнаружат кота в мешке."
+
+</PRE>
+
+<PRE @box00>[text00440]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1486" mode="on">
+"...Мне не нужна твоя забота. В университете все были старше меня. Я была младшей в лаборатории, и всё же я написала диссертацию."
+
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1487" mode="on">
+"Я преуспела в житейской мудрости. Не думай, что я беспечна."
+
+</PRE>
+
+<PRE @box00>[text00450]
+<voice name="Ринтаро" class="VID_OKA" src="voice/OKA_2556" mode="on">
+"...<FONT incolor="#ff7080" outcolor="#000000">Nullpo.</FONT>"
+
+</PRE>
+
+<PRE @box00>[text00460]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1488" mode="on">
+"Га!"
+
+</PRE>
+
+<PRE @box00>[text00470]
+<voice name="Курису" class="VID_CRS" src="voice/CRS_1489" mode="on">
+"Нет!.."
+
+</PRE>
+
+<PRE @box00>[text00480]
+Лицо Курису раскраснелось ещё больше, она обессилено упала на колени. <FONT incolor="#ff7080" outcolor="#000000">orz</FONT>
+
+У этой девушки довольно тяжёлый случай @channel-изма. И весьма образцовый.
+
+По крайней мере, я не думаю, что это влияет на житейскую мудрость.
+
+</PRE>
+
